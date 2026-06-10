@@ -1,0 +1,25 @@
+# JSON outputs are tracked in git (committed by GitHub Actions)
+# Do NOT ignore root-level *.json files
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.venv/
+venv/
