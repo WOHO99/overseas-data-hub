@@ -84,9 +84,20 @@ GET {RSSHUB_BASE_URL}/路由?format=json
 
 当RSSHub路由不可用时，按以下优先级降级：
 
-1. **webfetch直接访问**目标页面，提取关键信息
-2. **online_search**搜索相关内容
-3. 告知用户路由可能过时，建议检查RSSHub文档更新
+1. **online_search** `site:docs.rsshub.app <关键词>` 验证路由是否仍存在（路由变化快，静态文档可能过时）
+2. **webfetch** 直接访问 `https://docs.rsshub.app/routes/<分类>` 实时确认
+3. **online_search** `site:<目标网站域名> <关键词>` 搜索替代信息（搜索引擎缓存比webfetch更可靠）
+4. **webfetch** 直接访问目标页面，提取关键信息
+5. 告知用户路由可能过时，建议检查RSSHub文档更新
+
+## 路由实时验证规则
+
+Agent在使用本文件中的路由前，应先验证路由是否仍然有效：
+
+1. **首次使用某路由** → 直接调用，如果返回404则走降级策略
+2. **路由返回异常（空数据/格式错误）** → 先用 `online_search` 查 `site:docs.rsshub.app <网站名>` 确认路由是否变更
+3. **确认路由已变更** → 更新本地记忆，后续使用新路由
+4. **路由确认不存在** → 走降级策略第3-5步
 
 ## 注意事项
 
