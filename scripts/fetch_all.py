@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v3.5 — 主调度脚本
-v3.2: 模块超时、错误隔离、连续失败告警、关键词外置、全局双层去重
-v3.3: 14模块（2场景+4主题+8区域），信号性词汇检测，全球商业情报仪表盘
-v3.4: 模块并行(ProcessPoolExecutor) — 实测在2核VM上卡死，放弃
-v3.5: 回退顺序执行 + socket 10s + 模块超时5min + 步进式日志
-      预计运行时间：40-60min（阶段2将用asyncio降至3-5min）
+fetch_all.py v4.0 — 主调度脚本 (asyncio版)
+v3.5: 顺序执行止血，40-60min
+v4.0: asyncio异步执行，预期3-5min
+  - 每个模块内部全量异步并发(aiohttp Semaphore50)
+  - 模块间顺序执行(asyncio.wait_for 300s超时)
 """
 
 import json
 import os
 import sys
-import subprocess
+import asyncio
 from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
 sys.path.insert(0, os.path.join(SCRIPT_DIR, "modules"))
 
-# ============================================================
-# 模块注册表 — 14模块
-# ============================================================
 MODULE_REGISTRY = [
     {"module": "global_business", "output": "global_business.json", "core": True},
     {"module": "finance_global", "output": "finance.json", "core": False},
@@ -38,46 +34,12 @@ MODULE_REGISTRY = [
     {"module": "region_east_asia", "output": "east_asia.json", "core": False},
 ]
 
-MODULE_TIMEOUT_SECONDS = 300  # 5分钟硬超时
+MODULE_TIMEOUT_SECONDS = 300
 
 
-def run_module_with_timeout(mod_name, timeout=MODULE_TIMEOUT_SECONDS):
-    """在子进程中运行单个模块，带超时控制。"""
-    import socket
-    socket.setdefaulttimeout(10)  # 子进程也设10s
+async def run_all_modules_async():
+    from common import run_module_async
 
-    try:
-        proc = subprocess.Popen(
-            [sys.executable, "-c",
-             f"import sys,socket; socket.setdefaulttimeout(10); "
-             f"sys.path.insert(0, '{SCRIPT_DIR}'); "
-             f"sys.path.insert(0, '{os.path.join(SCRIPT_DIR, 'modules')}'); "
-             f"import {mod_name}; from common import run_module; "
-             f"run_module({mod_name}.CONFIG)"],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            cwd=SCRIPT_DIR,
-        )
-        try:
-            stdout, _ = proc.communicate(timeout=timeout)
-            print(stdout)
-            if proc.returncode != 0:
-                print(f"  [MODULE_ERROR] {mod_name} exited with code {proc.returncode}")
-                return False
-            return True
-        except subprocess.TimeoutExpired:
-            proc.kill()
-            proc.communicate()
-            print(f"  [TIMEOUT] {mod_name} exceeded {timeout}s, killed.")
-            return False
-    except Exception as e:
-        print(f"  [LAUNCH_ERROR] {mod_name}: {e}")
-        return False
-
-
-def run_all_modules():
-    """顺序执行所有模块，错误隔离"""
     results = {}
     fail_counts = load_fail_counts()
     new_fail_counts = {}
@@ -87,14 +49,27 @@ def run_all_modules():
         mod_name = entry["module"]
         is_core = entry.get("core", False)
         elapsed = (datetime.now(timezone.utc) - start_all).total_seconds()
+
         print(f"\n{'#'*70}")
         print(f"# [{i+1}/{len(MODULE_REGISTRY)}] Module: {mod_name} {'[CORE]' if is_core else ''}")
         print(f"# Elapsed: {elapsed:.0f}s ({elapsed/60:.1f}min)")
         print(f"{'#'*70}")
 
-        success = run_module_with_timeout(mod_name)
+        mod = __import__(mod_name)
+        try:
+            await asyncio.wait_for(
+                run_module_async(mod.CONFIG),
+                timeout=MODULE_TIMEOUT_SECONDS
+            )
+            success = os.path.exists(entry["output"])
+        except asyncio.TimeoutError:
+            print(f"  [TIMEOUT] {mod_name} exceeded {MODULE_TIMEOUT_SECONDS}s")
+            success = False
+        except Exception as e:
+            print(f"  [RUN_ERROR] {mod_name}: {e}")
+            success = False
 
-        if success and os.path.exists(entry["output"]):
+        if success:
             results[entry["output"]] = True
             new_fail_counts[mod_name] = 0
             print(f"[OK] {mod_name} → {entry['output']}")
@@ -104,23 +79,16 @@ def run_all_modules():
             new_fail_counts[mod_name] = prev + 1
             consecutive = new_fail_counts[mod_name]
             print(f"[FAIL] {mod_name} (consecutive: {consecutive})")
-
             if is_core and consecutive >= 3:
                 print(f"\n{'!'*70}")
-                print(f"!!! CRITICAL: Core module {mod_name} has failed {consecutive} days in a row!")
-                print(f"!!! Manual intervention required.")
+                print(f"!!! CRITICAL: Core module {mod_name} failed {consecutive} days in a row!")
                 print(f"{'!'*70}")
 
     save_fail_counts(new_fail_counts)
-
     elapsed = (datetime.now(timezone.utc) - start_all).total_seconds()
     print(f"\nAll modules completed in {elapsed:.0f}s ({elapsed/60:.1f}min)")
     return results
 
-
-# ============================================================
-# 连续失败计数
-# ============================================================
 
 def load_fail_counts():
     path = os.path.join(SCRIPT_DIR, "fail_counts.json")
@@ -139,16 +107,11 @@ def save_fail_counts(counts):
         json.dump(counts, f)
 
 
-# ============================================================
-# 全局去重
-# ============================================================
-
 def global_dedup():
     from common import link_hash, title_similarity, parse_published_time
 
     seen = {}
     module_outputs = {}
-
     for entry in MODULE_REGISTRY:
         output_file = entry["output"]
         if not os.path.exists(output_file):
@@ -157,10 +120,8 @@ def global_dedup():
             with open(output_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
         except json.JSONDecodeError:
-            print(f"  [WARN] {output_file} is corrupt, skipping")
             continue
         module_outputs[output_file] = data
-
         for article in data.get("articles", []):
             h = link_hash(article["link"])
             if h in seen:
@@ -176,7 +137,6 @@ def global_dedup():
     items_list.sort(key=lambda x: x["item"]["priority"], reverse=True)
     kept = []
     removed_hashes = set()
-
     for i, entry_a in enumerate(items_list):
         h_a = link_hash(entry_a["item"]["link"])
         if h_a in removed_hashes:
@@ -192,18 +152,12 @@ def global_dedup():
                 t2 = parse_published_time(items_list[j]["item"]["published"])
                 if t1 and t2 and abs((t1 - t2).total_seconds()) < 86400:
                     removed_hashes.add(h_b)
-
     final_seen = {}
     for entry in kept:
         h = link_hash(entry["item"]["link"])
         final_seen[h] = entry
-
     return final_seen, module_outputs
 
-
-# ============================================================
-# 全局索引
-# ============================================================
 
 def build_index(seen, module_outputs):
     from common import atomic_write_json
@@ -241,11 +195,10 @@ def build_index(seen, module_outputs):
     for a in all_articles:
         for sk in a["item"].get("signal_keywords", []):
             global_signal_counts[sk] = global_signal_counts.get(sk, 0) + 1
-
     signal_alerts = {k: v for k, v in global_signal_counts.items() if v >= 5}
 
     index = {
-        "version": "3.5",
+        "version": "4.0",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
@@ -255,24 +208,18 @@ def build_index(seen, module_outputs):
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
-
     atomic_write_json(index, "index.json")
     return index
 
 
-# ============================================================
-# 主入口
-# ============================================================
-
-def main():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v3.5 (14 modules, sequential)...")
-    print(f"Registered modules: {len(MODULE_REGISTRY)}")
+async def main_async():
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.0 (asyncio, 14 modules)...")
     print(f"Module timeout: {MODULE_TIMEOUT_SECONDS}s ({MODULE_TIMEOUT_SECONDS//60}min)")
 
-    results = run_all_modules()
+    results = await run_all_modules_async()
 
     print(f"\n{'='*70}")
-    print("Building global index with cross-module dedup...")
+    print("Building global index...")
     seen, module_outputs = global_dedup()
     index = build_index(seen, module_outputs)
 
@@ -281,18 +228,19 @@ def main():
     print(f"  Global total: {index['global_total']}")
     print(f"  Global high: {index['global_high']}")
     print(f"  Global medium: {index['global_medium']}")
-    print(f"  Modules: {len(index['modules'])}")
     for mod, stat in index["modules"].items():
         rl = stat.get('rate_limited_feeds', 0)
         rl_tag = f" (rate_limited: {rl})" if rl else ""
         print(f"    {mod}: {stat['total']} articles ({stat['high']} high){rl_tag}")
     print(f"  Failed modules: {sum(1 for v in results.values() if not v)}/{len(results)}")
-    print(f"  Index: index.json")
     print(f"{'='*70}")
 
     if all(not v for v in results.values()):
-        print("ALL MODULES FAILED — exit with error code 1")
         sys.exit(1)
+
+
+def main():
+    asyncio.run(main_async())
 
 
 if __name__ == "__main__":

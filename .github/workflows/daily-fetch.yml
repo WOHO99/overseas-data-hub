@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser pyyaml
+        run: pip install feedparser pyyaml aiohttp
 
       - name: Run global fetch
         run: |

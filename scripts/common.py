@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
-common.py v3.5 — 全球商业情报仪表盘共享工具库
-v3.1: 并发抓取、双层去重、原子写入、关键词外置
-v3.3: 信号性词汇检测(signal keywords)、模块版本号升级
-v3.3.1: 修复feedparser无HTTP超时导致fetch挂起(socket.setdefaulttimeout)
-v3.4: feed并发15+socket超时15s+future超时20s(实测仍不够激进)
-v3.5: socket 10s + User-Agent + Google News限速跳过+rate_limited计数
+common.py v4.0 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp版)
+v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
+v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
+  - aiohttp.ClientSession + Semaphore(50) 并发控制
+  - Google News单独Semaphore(5)防限速
+  - 失败重试1次(1s间隔)
+  - feedparser.parse放入ThreadPoolExecutor(max_workers=2)
+  - 模块级超时300s(asyncio.wait_for)
 """
 
+import asyncio
+import aiohttp
 import feedparser
 import json
 import re
@@ -17,16 +21,21 @@ import socket
 import difflib
 import yaml
 from datetime import datetime, timezone, timedelta
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
-# 全局Socket超时：10s（v3.5: 从15s进一步收紧，快速淘汰无响应源）
+# 保留socket超时作为底层安全网
 socket.setdefaulttimeout(10)
 
-# User-Agent: 标识身份，避免被部分站点拒绝
 feedparser.USER_AGENT = "Mozilla/5.0 (compatible; OverseasDataHub/1.0; +https://github.com/WOHO99/overseas-data-hub)"
 
-# 已知限速域名
 RATE_LIMITED_DOMAINS = ["news.google.com"]
+
+# 全局并发控制
+SEMAPHORE_GLOBAL = 50
+SEMAPHORE_GNEWS = 5
+MAX_PARSE_WORKERS = 2
+
+_parse_executor = ThreadPoolExecutor(max_workers=MAX_PARSE_WORKERS)
 
 
 # ============================================================
@@ -57,103 +66,136 @@ def load_keywords(config_dir, module_name):
 
 
 # ============================================================
-# RSS抓取（并发）
+# 异步RSS抓取
 # ============================================================
 
-def fetch_feed(url, tag, max_items=30):
+def _is_sensitive_url(url):
+    return any(domain in url for domain in RATE_LIMITED_DOMAINS)
+
+
+def _parse_feed_text(text):
+    return feedparser.parse(text)
+
+
+async def fetch_one(session, url, tag, max_items=30, max_retries=1):
     """
-    抓取单个RSS源，返回 (items_list, is_rate_limited)。
-    对已知限速域名，失败后快速跳过不阻塞。
+    异步抓取单个RSS源。
+    返回 (items_list, is_rate_limited)。
     """
-    items = []
-    is_rate_limited = False
+    is_sensitive = _is_sensitive_url(url)
 
-    # 检查是否为限速域名
-    is_sensitive = any(domain in url for domain in RATE_LIMITED_DOMAINS)
+    for attempt in range(max_retries + 1):
+        try:
+            async with session.get(url, timeout=aiohttp.ClientTimeout(total=10, connect=5)) as resp:
+                if resp.status in (429, 503):
+                    print(f"  [RATE_LIMITED] {tag}: HTTP {resp.status}")
+                    return [], True
 
-    try:
-        feed = feedparser.parse(url)
+                if resp.status != 200:
+                    if attempt < max_retries:
+                        await asyncio.sleep(1)
+                        continue
+                    return [], False
 
-        # 检查限速标志
-        if hasattr(feed, 'status') and feed.status in (429, 503):
-            is_rate_limited = True
-            print(f"  [RATE_LIMITED] {tag}: HTTP {feed.status}")
-            return items, is_rate_limited
+                text = await resp.text()
 
-        # feedparser没有status属性时，检查bozo（解析异常可能是限速页）
-        if is_sensitive and feed.bozo and len(feed.entries) == 0:
-            is_rate_limited = True
-            print(f"  [RATE_LIMITED] {tag}: bozo parse, likely rate limited")
-            return items, is_rate_limited
+                loop = asyncio.get_event_loop()
+                feed = await loop.run_in_executor(_parse_executor, _parse_feed_text, text)
 
-        for entry in feed.entries[:max_items]:
-            title = entry.get("title", "")
-            link = entry.get("link", "")
-            published = entry.get("published", entry.get("updated", ""))
-            summary = entry.get("summary", entry.get("description", ""))
-            summary = re.sub(r'<[^>]+>', '', summary).strip()
-            if len(summary) > 500:
-                summary = summary[:500] + "..."
-            items.append({
-                "title": title,
-                "link": link,
-                "published": published,
-                "summary": summary,
-                "source": tag,
-            })
-    except socket.timeout:
-        if is_sensitive:
-            is_rate_limited = True
-            print(f"  [RATE_LIMITED] {tag}: socket timeout (sensitive source)")
-        else:
-            print(f"  [FAIL] {tag}: socket timeout")
-    except Exception as e:
-        err_str = str(e).lower()
-        if is_sensitive and ("429" in err_str or "503" in err_str or "forbidden" in err_str):
-            is_rate_limited = True
-            print(f"  [RATE_LIMITED] {tag}: {e}")
-        else:
+                if is_sensitive and feed.bozo and len(feed.entries) == 0:
+                    print(f"  [RATE_LIMITED] {tag}: bozo parse, likely rate limited")
+                    return [], True
+
+                items = []
+                for entry in feed.entries[:max_items]:
+                    title = entry.get("title", "")
+                    link = entry.get("link", "")
+                    published = entry.get("published", entry.get("updated", ""))
+                    summary = entry.get("summary", entry.get("description", ""))
+                    summary = re.sub(r'<[^>]+>', '', summary).strip()
+                    if len(summary) > 500:
+                        summary = summary[:500] + "..."
+                    items.append({
+                        "title": title,
+                        "link": link,
+                        "published": published,
+                        "summary": summary,
+                        "source": tag,
+                    })
+                return items, False
+
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            if is_sensitive and attempt < max_retries:
+                await asyncio.sleep(1)
+                continue
+            err_str = str(e).lower()
+            if is_sensitive and ("429" in err_str or "503" in err_str):
+                print(f"  [RATE_LIMITED] {tag}: {e}")
+                return [], True
+            if attempt < max_retries:
+                await asyncio.sleep(1)
+                continue
+            return [], False
+        except Exception as e:
+            if attempt < max_retries:
+                await asyncio.sleep(1)
+                continue
             print(f"  [FAIL] {tag}: {e}")
+            return [], False
 
-    return items, is_rate_limited
+    return [], False
 
 
-def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
+async def fetch_feed_concurrent_async(feeds, max_items=30):
     """
-    并发抓取多个RSS源。
-    返回 (all_items, fail_count, rate_limited_count)。
+    异步并发抓取多个RSS源。
+    使用双信号量：全局Semaphore(50) + Google News Semaphore(5)。
     """
+    global_sem = asyncio.Semaphore(SEMAPHORE_GLOBAL)
+    gnews_sem = asyncio.Semaphore(SEMAPHORE_GNEWS)
+
     all_items = []
     fail_count = 0
     rate_limited_count = 0
 
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_tag = {}
-        for feed_def in feeds:
+    headers = {"User-Agent": feedparser.USER_AGENT}
+    async with aiohttp.ClientSession(headers=headers) as session:
+
+        async def _fetch_wrapped(feed_def):
             url = feed_def["url"]
             tag = feed_def["tag"]
-            future = executor.submit(fetch_feed, url, tag, max_items)
-            future_to_tag[future] = tag
+            sem = gnews_sem if _is_sensitive_url(url) else global_sem
+            async with sem:
+                return await fetch_one(session, url, tag, max_items)
 
-        for future in as_completed(future_to_tag):
-            tag = future_to_tag[future]
-            try:
-                items, is_rate_limited = future.result(timeout=15)
-                if is_rate_limited:
-                    rate_limited_count += 1
-                if not items:
-                    if not is_rate_limited:
-                        fail_count += 1
-                else:
-                    print(f"    Got {len(items)} items from {tag}")
+        tasks = [_fetch_wrapped(fd) for fd in feeds]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        for i, result in enumerate(results):
+            tag = feeds[i]["tag"]
+            if isinstance(result, Exception):
+                fail_count += 1
+                print(f"    [EXCEPTION] {tag}: {result}")
+                continue
+
+            items, is_rate_limited = result
+            if is_rate_limited:
+                rate_limited_count += 1
+            if not items:
+                if not is_rate_limited:
+                    fail_count += 1
+            else:
+                print(f"    Got {len(items)} items from {tag}")
                 for item in items:
                     item["_feed_tag"] = tag
                 all_items.extend(items)
-            except Exception as e:
-                fail_count += 1
-                print(f"    [TIMEOUT/ERROR] {tag}: {e}")
 
     return all_items, fail_count, rate_limited_count
+
+
+# 同步包装（兼容）
+def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
+    return asyncio.run(fetch_feed_concurrent_async(feeds, max_items))
 
 
 # ============================================================
@@ -161,7 +203,6 @@ def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
 # ============================================================
 
 def calc_priority(title, summary, core_kw, important_kw, aux_kw):
-    """3级关键词评分"""
     text = (title + " " + summary).lower()
     score = 0
     for kw in core_kw:
@@ -177,7 +218,6 @@ def calc_priority(title, summary, core_kw, important_kw, aux_kw):
 
 
 def detect_signal_keywords(title, summary, signal_kw):
-    """v3.3: 信号性词汇检测"""
     if not signal_kw:
         return []
     text = (title + " " + summary).lower()
@@ -193,7 +233,6 @@ def detect_signal_keywords(title, summary, signal_kw):
 # ============================================================
 
 def link_hash(link):
-    """URL标准化+哈希"""
     normalized = link.strip()
     if normalized.startswith("http://"):
         normalized = "https://" + normalized[7:]
@@ -204,20 +243,15 @@ def link_hash(link):
 
 
 def title_similarity(t1, t2):
-    """标题相似度(0-1)"""
     return difflib.SequenceMatcher(None, t1.lower(), t2.lower()).ratio()
 
 
 def parse_published_time(pub_str):
-    """尝试解析发布时间"""
     if not pub_str:
         return None
     for fmt in [
-        "%Y-%m-%dT%H:%M:%S%z",
-        "%Y-%m-%dT%H:%M:%SZ",
-        "%a, %d %b %Y %H:%M:%S %z",
-        "%a, %d %b %Y %H:%M:%S GMT",
-        "%Y-%m-%d",
+        "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ",
+        "%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT", "%Y-%m-%d",
     ]:
         try:
             return datetime.strptime(pub_str.strip(), fmt)
@@ -227,7 +261,6 @@ def parse_published_time(pub_str):
 
 
 def dedup_link_level(items):
-    """第一层：link哈希精确去重"""
     seen = {}
     for item in items:
         h = link_hash(item["link"])
@@ -240,14 +273,11 @@ def dedup_link_level(items):
 
 
 def dedup_title_level(items, threshold=0.85, hours=24):
-    """第二层：标题相似度去重"""
     if len(items) < 2:
         return items
-
     items_sorted = sorted(items, key=lambda x: x["priority"], reverse=True)
     kept = []
     removed = set()
-
     for i, item in enumerate(items_sorted):
         if i in removed:
             continue
@@ -261,7 +291,6 @@ def dedup_title_level(items, threshold=0.85, hours=24):
                 t2 = parse_published_time(items_sorted[j]["published"])
                 if t1 and t2 and abs((t1 - t2).total_seconds()) < hours * 3600:
                     removed.add(j)
-
     return kept
 
 
@@ -269,11 +298,8 @@ def dedup_title_level(items, threshold=0.85, hours=24):
 # 模块运行
 # ============================================================
 
-def run_module(config):
-    """
-    运行单个模块。
-    v3.5: 返回含rate_limited_feeds计数的output。
-    """
+async def run_module_async(config):
+    """异步运行单个模块"""
     name = config["name"]
     print(f"\n{'='*60}")
     print(f"MODULE: {name}")
@@ -290,14 +316,11 @@ def run_module(config):
     total_rate_limited = 0
 
     for category, feeds in config["feeds"].items():
-        print(f"  Category: {category} ({len(feeds)} feeds, concurrent fetch...)")
-        items, fail_count, rate_limited_count = fetch_feed_concurrent(feeds, max_workers=15)
+        print(f"  Category: {category} ({len(feeds)} feeds, async fetch...)")
+        items, fail_count, rate_limited_count = await fetch_feed_concurrent_async(feeds)
 
         for item in items:
-            item["priority"] = calc_priority(
-                item["title"], item["summary"],
-                core_kw, important_kw, aux_kw
-            )
+            item["priority"] = calc_priority(item["title"], item["summary"], core_kw, important_kw, aux_kw)
             sig_hits = detect_signal_keywords(item["title"], item["summary"], signal_kw)
             if sig_hits:
                 item["signal_keywords"] = sig_hits
@@ -309,14 +332,12 @@ def run_module(config):
         total_fail += fail_count
         total_rate_limited += rate_limited_count
 
-    # 去重
     unique_items = dedup_link_level(all_items)
     print(f"  After link dedup: {len(all_items)} → {len(unique_items)}")
 
     unique_items = dedup_title_level(unique_items, threshold=0.85, hours=24)
     print(f"  After title dedup: → {len(unique_items)}")
 
-    # 分级
     for item in unique_items:
         if item["priority"] >= 10:
             item["relevance"] = "high"
@@ -330,7 +351,6 @@ def run_module(config):
     max_articles = config.get("max_articles", 500)
     unique_items = unique_items[:max_articles]
 
-    # 写入
     now = datetime.now(timezone.utc)
     signal_stats = {}
     for item in unique_items:
@@ -338,7 +358,7 @@ def run_module(config):
             signal_stats[sk] = signal_stats.get(sk, 0) + 1
 
     output = {
-        "version": "3.5",
+        "version": "4.0",
         "module": name,
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
@@ -365,8 +385,12 @@ def run_module(config):
     return output
 
 
+def run_module(config):
+    """同步包装"""
+    return asyncio.run(run_module_async(config))
+
+
 def atomic_write_json(data, filepath):
-    """原子写入JSON"""
     tmp_path = filepath + ".tmp"
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -375,12 +399,7 @@ def atomic_write_json(data, filepath):
     os.rename(tmp_path, filepath)
 
 
-# ============================================================
-# 工具函数
-# ============================================================
-
 def gnews_url(query, hl="en-US", gl="US", ceid="US:en"):
-    """构造Google News RSS搜索URL"""
     import urllib.parse
     q = urllib.parse.quote(query)
     return f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
