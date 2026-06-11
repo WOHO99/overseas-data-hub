@@ -284,6 +284,11 @@ def global_dedup():
                 if sim >= 0.85:
                     t1 = parse_published_time(items_list[i]["item"]["published"])
                     t2 = parse_published_time(items_list[j]["item"]["published"])
+                    # Normalize both to UTC naive to avoid offset-aware/naive mismatch
+                    if t1 and t1.tzinfo is not None:
+                        t1 = t1.astimezone(timezone.utc).replace(tzinfo=None)
+                    if t2 and t2.tzinfo is not None:
+                        t2 = t2.astimezone(timezone.utc).replace(tzinfo=None)
                     if t1 and t2 and abs((t1 - t2).total_seconds()) < 86400:
                         removed_indices.add(j)
 

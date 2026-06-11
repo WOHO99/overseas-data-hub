@@ -90,6 +90,7 @@ CONFIG = {
             {"url": "https://vietnamnet.vn/en/rss/home.xml", "tag": "VietNamNet EN"},
             {"url": "https://en.antaranews.com/rss/terkini.xml", "tag": "Antara News EN"},
         ],
+        "信号性查询": [
             {"url": gnews_url('"supply disruption" "force majeure" Southeast Asia manufacturing'), "tag": "GNews | Signal: SE Asia Disrupt"},
             {"url": gnews_url('"unprecedented" "record high" Southeast Asia economy trade'), "tag": "GNews | Signal: SE Asia Record"},
         ],
