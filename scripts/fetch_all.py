@@ -347,6 +347,7 @@ def build_index(seen, module_outputs):
     from common import atomic_write_json, link_hash
 
     now = datetime.now(timezone.utc)
+    today_str = now.strftime("%Y-%m-%d")
     all_articles = list(seen.values())
     total_global = len(all_articles)
     high_global = len([a for a in all_articles if a["item"]["relevance"] == "high"])
@@ -416,6 +417,69 @@ def build_index(seen, module_outputs):
     print(f"  Source fingerprint: {fp_changes['unchanged']} unchanged, "
           f"{fp_changes['changed']} changed, {fp_changes['new_source']} new")
 
+    # P4-8: 死源熔断器 — 连续3天零产出（排除rate_limited源）
+    circuit_breaker_path = os.path.join(SCRIPT_DIR, "sources_dead.json")
+    dead_history = {}
+    if os.path.exists(circuit_breaker_path):
+        try:
+            with open(circuit_breaker_path, "r", encoding="utf-8") as f:
+                dead_history = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            dead_history = {}
+
+    # 本轮各源产出计数
+    source_output_count = {}
+    for output_file, data in module_outputs.items():
+        for article in data.get("articles", []):
+            tag = article.get("source", "unknown")
+            source_output_count[tag] = source_output_count.get(tag, 0) + 1
+
+    # rate_limited源集合（本轮被429/503的源不算死源）
+    rate_limited_sources = set()
+    for output_file, data in module_outputs.items():
+        if data.get("rate_limited_feeds", 0) > 0:
+            # 从stats_by_category提取rate_limited源名
+            for cat, cat_stats in data.get("stats_by_category", {}).items():
+                rate_limited_sources.add(cat)
+
+    # 更新死亡历史
+    CIRCUIT_BREAKER_THRESHOLD = 3
+    updated_dead = {}
+    circuit_broken_sources = []
+    all_tags = set(list(source_output_count.keys()) + list(dead_history.keys()))
+    for tag in all_tags:
+        count = source_output_count.get(tag, 0)
+        prev = dead_history.get(tag, {})
+        consecutive_zeros = prev.get("consecutive_zeros", 0)
+        is_rate_limited = tag in rate_limited_sources
+        status = "active"
+
+        if count == 0 and not is_rate_limited:
+            consecutive_zeros += 1
+        else:
+            consecutive_zeros = 0
+
+        if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD:
+            status = "circuit_breaker"
+            circuit_broken_sources.append(tag)
+            # 联动source_fingerprint：标记熔断状态
+            if tag in source_fingerprint:
+                source_fingerprint[tag]["status"] = "circuit_breaker"
+
+        updated_dead[tag] = {
+            "consecutive_zeros": consecutive_zeros,
+            "status": status,
+            "last_output_date": today_str if count > 0 else prev.get("last_output_date", ""),
+        }
+
+    atomic_write_json(updated_dead, circuit_breaker_path)
+    if circuit_broken_sources:
+        print(f"  Circuit breaker: {len(circuit_broken_sources)} sources dead "
+              f"(>= {CIRCUIT_BREAKER_THRESHOLD} days zero output)")
+        for src in circuit_broken_sources[:10]:
+            info = updated_dead[src]
+            print(f"    - {src}: {info['consecutive_zeros']} days zero, last output: {info.get('last_output_date', 'never')}")
+
     module_stats = {}
     for entry in MODULE_REGISTRY:
         output_file = entry["output"]
@@ -461,7 +525,6 @@ def build_index(seen, module_outputs):
         except (json.JSONDecodeError, OSError):
             signal_history = {}
 
-    today_str = now.strftime("%Y-%m-%d")
     # 更新历史：保留最近7天
     for kw, count in global_signal_counts.items():
         if kw not in signal_history:
@@ -528,6 +591,8 @@ def build_index(seen, module_outputs):
         "global_signal_alerts": signal_alerts,
         "signal_baselines": {s["keyword"]: s["baseline"] for s in signal_summary_list[:20]},
         "source_fingerprint_summary": fp_changes,
+        "circuit_breaker_count": len(circuit_broken_sources),
+        "circuit_broken_sources": circuit_broken_sources[:20],
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
