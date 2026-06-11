@@ -450,7 +450,71 @@ def build_index(seen, module_outputs):
     for a in all_articles:
         for sk in a["item"].get("signal_keywords", []):
             global_signal_counts[sk] = global_signal_counts.get(sk, 0) + 1
-    signal_alerts = {k: v for k, v in global_signal_counts.items() if v >= 5}
+
+    # P4-5: 信号动态基线 — max(7d_high, 3) 替代固定 >=5
+    signal_baseline_path = os.path.join(SCRIPT_DIR, "signal_baseline.json")
+    signal_history = {}
+    if os.path.exists(signal_baseline_path):
+        try:
+            with open(signal_baseline_path, "r", encoding="utf-8") as f:
+                signal_history = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            signal_history = {}
+
+    today_str = now.strftime("%Y-%m-%d")
+    # 更新历史：保留最近7天
+    for kw, count in global_signal_counts.items():
+        if kw not in signal_history:
+            signal_history[kw] = {}
+        signal_history[kw][today_str] = count
+    # 清理8天前数据
+    cutoff_date = (now - timedelta(days=8)).strftime("%Y-%m-%d")
+    for kw in list(signal_history.keys()):
+        for d in list(signal_history[kw].keys()):
+            if d < cutoff_date:
+                del signal_history[kw][d]
+        if not signal_history[kw]:
+            del signal_history[kw]
+
+    # 计算基线和告警
+    signal_summary_list = []
+    signal_alerts = {}
+    for kw, count in global_signal_counts.items():
+        history = signal_history.get(kw, {})
+        day_counts = [v for k, v in history.items() if k != today_str]
+        high_7d = max(day_counts) if day_counts else 0
+        baseline = max(high_7d, 3)
+        triggered = count >= baseline
+        entry = {
+            "keyword": kw,
+            "today_count": count,
+            "baseline": baseline,
+            "high_7d": high_7d,
+            "triggered": triggered,
+            "baseline_note": f"max(7d_high={high_7d}, 3)={baseline}",
+        }
+        signal_summary_list.append(entry)
+        if triggered:
+            signal_alerts[kw] = count
+
+    # 按today_count降序
+    signal_summary_list.sort(key=lambda x: x["today_count"], reverse=True)
+
+    # 保存历史
+    atomic_write_json(signal_history, signal_baseline_path)
+
+    # 保存signal_summary.json（推送到CDN）
+    signal_summary_output = {
+        "version": "1.0",
+        "updated": now.isoformat(),
+        "fetch_date_utc": today_str,
+        "method": "max(7d_high, 3)",
+        "signals": signal_summary_list,
+    }
+    from common import atomic_write_json as _awj  # already imported above
+    _awj(signal_summary_output, os.path.join(SCRIPT_DIR, "signal_summary.json"))
+    triggered_count = len(signal_alerts)
+    print(f"  Signal baseline: {triggered_count} triggered, {len(global_signal_counts)} total signals")
 
     index = {
         "version": "4.3",
@@ -462,6 +526,7 @@ def build_index(seen, module_outputs):
         "global_new": new_count_global,
         "global_continuing": cont_count_global,
         "global_signal_alerts": signal_alerts,
+        "signal_baselines": {s["keyword"]: s["baseline"] for s in signal_summary_list[:20]},
         "source_fingerprint_summary": fp_changes,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
