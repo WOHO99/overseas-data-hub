@@ -349,6 +349,41 @@ def link_hash(link):
 
 # title_similarity 已在文件顶部定义（RapidFuzz优先，fallback difflib）
 
+# 常见快讯前缀，分桶前需清洗
+_BREAKING_PREFIXES = re.compile(
+    r'^(breaking|just in|update|exclusive|alert|urgent|flash|developing|'
+    r'morning brief|evening brief|news flash|live|watch|report)[\s:：\-–—]*',
+    re.IGNORECASE
+)
+
+# 停用词（英文常见虚词，不作为实体特征）
+_STOP_WORDS = frozenset(
+    "the a an is are was were be been being have has had do does did "
+    "will would shall should may might can could of in on at to for "
+    "with by from and or but not no nor so yet it its this that these "
+    "those he she they we you i me him her us them my your his their "
+    "our its as if then than too very also just more most how what "
+    "when where which who whom whose new says said after over into".split()
+)
+
+
+def _bucket_key(title):
+    """
+    改进分桶策略：清洗标题+提取核心实体词取代"前3字符"。
+    解决：冠词/快讯前缀/特殊字符导致相似标题被分到不同桶的假阴性问题。
+    步骤：1)去快讯前缀 2)小写+去标点 3)去停用词 4)取最长2个词组合为桶key
+    """
+    t = _BREAKING_PREFIXES.sub('', title)
+    t = re.sub(r'[^\w\s]', '', t.lower()).strip()
+    words = [w for w in t.split() if w not in _STOP_WORDS and len(w) > 1]
+    if not words:
+        # 回退：去标点后前5字符
+        return re.sub(r'[^\w\s]', '', title.lower()).strip()[:5] or "_"
+    # 按词长降序排列，取最长2个词组合 → 语义特征稳定
+    words.sort(key=len, reverse=True)
+    key_parts = sorted(words[:2])  # sorted保证顺序无关
+    return "+".join(key_parts)
+
 
 def parse_published_time(pub_str):
     if not pub_str:
@@ -377,18 +412,14 @@ def dedup_link_level(items):
 
 
 def dedup_title_level(items, threshold=0.85, hours=24):
-    """v4.2: Bucket分桶 + RapidFuzz，O(n)→O(bucket_size²) 大幅加速"""
+    """v4.4: 核心实体词分桶 + RapidFuzz，解决前3字符分桶的假阴性问题"""
     if len(items) < 2:
         return items
     items_sorted = sorted(items, key=lambda x: x["priority"], reverse=True)
 
-    # 按标准化标题前3字符分桶
-    def _norm_key(title):
-        return re.sub(r'[^\w\s]', '', title.lower()).strip()[:3]
-
     buckets = {}
     for idx, item in enumerate(items_sorted):
-        key = _norm_key(item["title"]) or "_"
+        key = _bucket_key(item["title"])
         buckets.setdefault(key, []).append(idx)
 
     removed = set()

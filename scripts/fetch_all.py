@@ -264,13 +264,12 @@ def global_dedup():
     items_list = list(seen.values())
     items_list.sort(key=lambda x: x["item"]["priority"], reverse=True)
 
-    # 按标准化标题前3字符分桶 — 将 O(n²) 降至 O(bucket_size²)
-    def _norm_key(title):
-        return re.sub(r'[^\w\s]', '', title.lower()).strip()[:3]
+    # v4.4: 核心实体词分桶 — 替代"前3字符"，解决快讯前缀/冠词导致的假阴性
+    from common import _bucket_key
 
     buckets = {}
     for idx, entry in enumerate(items_list):
-        key = _norm_key(entry["item"]["title"]) or "_"
+        key = _bucket_key(entry["item"]["title"])
         buckets.setdefault(key, []).append(idx)
 
     total_comparisons = 0
