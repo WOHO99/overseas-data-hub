@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "ESG与可持续发展",
-  "updated": "2026-06-11T13:06:18.798650+00:00",
+  "updated": "2026-06-11T13:36:02.302867+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 96,
-  "high_priority": 1,
-  "medium_priority": 26,
+  "total": 94,
+  "high_priority": 3,
+  "medium_priority": 23,
   "signal_alerts": {
     "record high": 1
   },
@@ -27,7 +27,7 @@
       "feeds": 4
     },
     "本地语言搜索": {
-      "count": 53,
+      "count": 60,
       "feeds": 2
     },
     "独立RSS源": {
@@ -43,13 +43,14 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Charm Industrial Secures 61,500-Ton Carbon Removal Deal and $20 Million Financing From JPMorganChase",
-      "link": "https://esgnews.com/charm-industrial-secures-61500-ton-carbon-removal-deal-and-20-million-financing-from-jpmorganchase/?utm_source=rss&utm_medium=rss&utm_campaign=charm-industrial-secures-61500-ton-carbon-removal-deal-and-20-million-financing-from-jpmorganchase",
-      "published": "Fri, 05 Jun 2026 13:58:47 +0000",
-      "summary": "JPMorganChase Deepens Carbon Removal Bet Colorado is becoming a test bed for one of the carbon market’s hardest questions: how to scale permanent carbon removal while solving local climate risks....\nThe post Charm Industrial Secures 61,500-Ton Carbon Removal Deal and $20 Million Financing From JPMorganChase appeared first on ESG News.",
+      "title": "Bloomberg Adds Sylvera Carbon Credit Ratings to Terminal as Investors Demand Market Grade Transparency",
+      "link": "https://esgnews.com/bloomberg-adds-sylvera-carbon-credit-ratings-to-terminal-as-investors-demand-market-grade-transparency/?utm_source=rss&utm_medium=rss&utm_campaign=bloomberg-adds-sylvera-carbon-credit-ratings-to-terminal-as-investors-demand-market-grade-transparency",
+      "published": "Thu, 11 Jun 2026 13:18:58 +0000",
+      "summary": "Carbon Markets Move Closer to Financial Market Standards Bloomberg and Sylvera are bringing independent carbon credit ratings into one of the world’s most widely used financial data platforms, a move...\nThe post Bloomberg Adds Sylvera Carbon Credit Ratings to Terminal as Investors Demand Market Grade Transparency appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 11,
+      "priority": 13.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "high"
     },
     {
@@ -58,19 +59,10 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "Corporate net zero targets: Neither greenwashing nor a gamechanger&nbsp;&nbsp;CEPR",
       "source": "GNews | Net Zero",
-      "priority": 9,
+      "priority": 10.8,
       "category": "碳+绿",
-      "relevance": "medium"
-    },
-    {
-      "title": "What we learned from the first 157 SB261 reports posted on the CARB docket",
-      "link": "https://esgnews.com/what-we-learned-from-the-first-157-sb261-reports-posted-on-the-carb-docket/?utm_source=rss&utm_medium=rss&utm_campaign=what-we-learned-from-the-first-157-sb261-reports-posted-on-the-carb-docket",
-      "published": "Tue, 09 Jun 2026 12:14:58 +0000",
-      "summary": "Author Andries Verschelden Even after California’s climate risk reporting mandate, SB 261 was paused by the courts, scores of companies reported voluntarily anyway.  On January 1st this year, more than...\nThe post What we learned from the first 157 SB261 reports posted on the CARB docket  appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 7,
-      "category": "独立RSS源",
-      "relevance": "medium"
+      "_incremental": "new",
+      "relevance": "high"
     },
     {
       "title": "CDP Launches AI Tool to Help Cities Turn Climate Risk Data Into Funded Action",
@@ -78,8 +70,20 @@
       "published": "Mon, 08 Jun 2026 14:41:45 +0000",
       "summary": "Cities Face Rising Climate Risk And A Data Gap CDP has launched an AI-powered platform to help cities, states, and regions turn climate risk data into practical adaptation plans and...\nThe post CDP Launches AI Tool to Help Cities Turn Climate Risk Data Into Funded Action appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 7,
+      "priority": 10.0,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "NBIM Calls for Single EU Sustainability Report to Meet ESRS and ISSB Rules",
+      "link": "https://esgnews.com/nbim-calls-for-single-eu-sustainability-report-to-meet-esrs-and-issb-rules/?utm_source=rss&utm_medium=rss&utm_campaign=nbim-calls-for-single-eu-sustainability-report-to-meet-esrs-and-issb-rules",
+      "published": "Fri, 05 Jun 2026 14:47:47 +0000",
+      "summary": "NBIM Pushes for One Report, Not Two Norges Bank Investment Management is urging the European Commission to make sustainability reporting simpler for companies and more useful for global investors. The...\nThe post NBIM Calls for Single EU Sustainability Report to Meet ESRS and ISSB Rules appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 8.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -88,8 +92,9 @@
       "published": "Mon, 01 Jun 2026 10:16:40 GMT",
       "summary": "US SEC moves to roll back climate risk disclosure rules&nbsp;&nbsp;BusinessGreen",
       "source": "GNews | SEC Climate Rule",
-      "priority": 7,
+      "priority": 8.4,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -98,8 +103,9 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "SEC proposes rule rescinding Biden-era climate risk disclosures&nbsp;&nbsp;ESG Dive",
       "source": "GNews | SEC Climate Rule",
-      "priority": 7,
+      "priority": 8.4,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -108,8 +114,9 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "SEC moves to repeal rule that requires companies to report greenhouse gas emissions and climate risk&nbsp;&nbsp;AP News",
       "source": "GNews | SEC Climate Rule",
-      "priority": 7,
+      "priority": 8.4,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -118,38 +125,31 @@
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "What Is CSRD? The Corporate Sustainability Reporting Directive Explained&nbsp;&nbsp;ESG News",
       "source": "GNews | ESG Regulation",
-      "priority": 6,
+      "priority": 7.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "The Ultimate Guide to Understanding Carbon Credits - CarbonCredits.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5",
-      "published": "Fri, 05 Jun 2026 16:35:34 GMT",
-      "summary": "The Ultimate Guide to Understanding Carbon Credits&nbsp;&nbsp;CarbonCredits.com",
-      "source": "GNews | Cap & Trade",
-      "priority": 6,
-      "category": "碳+绿",
-      "relevance": "medium"
-    },
-    {
-      "title": "NBIM Calls for Single EU Sustainability Report to Meet ESRS and ISSB Rules",
-      "link": "https://esgnews.com/nbim-calls-for-single-eu-sustainability-report-to-meet-esrs-and-issb-rules/?utm_source=rss&utm_medium=rss&utm_campaign=nbim-calls-for-single-eu-sustainability-report-to-meet-esrs-and-issb-rules",
-      "published": "Fri, 05 Jun 2026 14:47:47 +0000",
-      "summary": "NBIM Pushes for One Report, Not Two Norges Bank Investment Management is urging the European Commission to make sustainability reporting simpler for companies and more useful for global investors. The...\nThe post NBIM Calls for Single EU Sustainability Report to Meet ESRS and ISSB Rules appeared first on ESG News.",
+      "title": "What we learned from the first 157 SB261 reports posted on the CARB docket",
+      "link": "https://esgnews.com/what-we-learned-from-the-first-157-sb261-reports-posted-on-the-carb-docket/?utm_source=rss&utm_medium=rss&utm_campaign=what-we-learned-from-the-first-157-sb261-reports-posted-on-the-carb-docket",
+      "published": "Tue, 09 Jun 2026 12:14:58 +0000",
+      "summary": "Author Andries Verschelden Even after California’s climate risk reporting mandate, SB 261 was paused by the courts, scores of companies reported voluntarily anyway.  On January 1st this year, more than...\nThe post What we learned from the first 157 SB261 reports posted on the CARB docket  appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 6,
+      "priority": 7.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "May 2026 - ISSB nature disclosures, EU deforestation rule amendments, Australia to streamline sustainability reporting - S&P Global",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVWd1RlVUN0VIaUUzcHJ5VmdqMkNIc2oxbmZWWGZpTHUzLXdXa3RNVUVKUjRMYWpLc3dya1Nna3R5a25yUE5hS0V1TWNsUHNHWXlBU1lONjU2cVNLVnNKLXk5NElyVUZRQ2JpbnZaWkdNYWk4XzVvaE9fYmpzZDBPM1Z4RQ?oc=5",
-      "published": "Thu, 04 Jun 2026 18:02:51 GMT",
-      "summary": "May 2026 - ISSB nature disclosures, EU deforestation rule amendments, Australia to streamline sustainability reporting&nbsp;&nbsp;S&amp;P Global",
-      "source": "GNews | ESG Regulation",
-      "priority": 5,
-      "category": "ESG法规",
+      "title": "EU Tightens ETS2 Price Controls to Shield Consumers From Carbon Market Volatility",
+      "link": "https://esgnews.com/eu-tightens-ets2-price-controls-to-shield-consumers-from-carbon-market-volatility/?utm_source=rss&utm_medium=rss&utm_campaign=eu-tightens-ets2-price-controls-to-shield-consumers-from-carbon-market-volatility",
+      "published": "Thu, 11 Jun 2026 12:57:50 +0000",
+      "summary": "Brussels Moves to Contain Carbon Price Risk The European Union has agreed stronger price-control measures for its new carbon market, moving to ease government concerns that the scheme could raise...\nThe post EU Tightens ETS2 Price Controls to Shield Consumers From Carbon Market Volatility appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 7.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -158,28 +158,20 @@
       "published": "Mon, 08 Jun 2026 13:47:55 +0000",
       "summary": "FCA Targets Costly Climate Disclosure Rules The UK’s Financial Conduct Authority is proposing simpler climate reporting rules for asset managers, in a move it says could save firms around £20...\nThe post UK Plans To Replace TCFD Climate Reports For Investment Products appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 5,
+      "priority": 7.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "BNP Paribas Asset Management to Help Build New Nature Transition Framework for Finance Sector",
-      "link": "https://esgnews.com/bnp-paribas-asset-management-to-help-build-new-nature-transition-framework-for-finance-sector/?utm_source=rss&utm_medium=rss&utm_campaign=bnp-paribas-asset-management-to-help-build-new-nature-transition-framework-for-finance-sector",
-      "published": "Wed, 10 Jun 2026 14:14:12 +0000",
-      "summary": "Finance Sector Moves Toward a Nature Transition Model Paris and Oslo are moving biodiversity further into the investment mainstream as BNP Paribas Asset Management joins Storebrand Asset Management to lead...\nThe post BNP Paribas Asset Management to Help Build New Nature Transition Framework for Finance Sector appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 4,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "What is the Voluntary Carbon Market? - CarbonCredits.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82c2xvTGlqTE9XS1VQejhUWVRpTVIzVXJWVVpURFUxanRNLUN3ZWxDbWlWaWR1YXI0ZjlUc0ZYb3ktWmFTeEEyT01sR05TOXNtVmRmeklscm1oRlpadWloVlVpNktsbDVrTW9rZ2xQTQ?oc=5",
-      "published": "Mon, 01 Jun 2026 16:26:49 GMT",
-      "summary": "What is the Voluntary Carbon Market?&nbsp;&nbsp;CarbonCredits.com",
-      "source": "GNews | Cap & Trade",
-      "priority": 4,
-      "category": "碳+绿",
+      "title": "May 2026 - ISSB nature disclosures, EU deforestation rule amendments, Australia to streamline sustainability reporting - S&P Global",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVWd1RlVUN0VIaUUzcHJ5VmdqMkNIc2oxbmZWWGZpTHUzLXdXa3RNVUVKUjRMYWpLc3dya1Nna3R5a25yUE5hS0V1TWNsUHNHWXlBU1lONjU2cVNLVnNKLXk5NElyVUZRQ2JpbnZaWkdNYWk4XzVvaE9fYmpzZDBPM1Z4RQ?oc=5",
+      "published": "Thu, 04 Jun 2026 18:02:51 GMT",
+      "summary": "May 2026 - ISSB nature disclosures, EU deforestation rule amendments, Australia to streamline sustainability reporting&nbsp;&nbsp;S&amp;P Global",
+      "source": "GNews | ESG Regulation",
+      "priority": 6.0,
+      "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -188,8 +180,31 @@
       "published": "Fri, 05 Jun 2026 14:16:29 +0000",
       "summary": "AI’s Resource Footprint Is Expanding Beyond Carbon United Nations researchers are warning that the global race to scale artificial intelligence is creating a wider environmental burden than carbon reporting alone...\nThe post UN Report Warns AI’s Water, Land and Climate Costs Are Rising Faster Than Governance appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 4,
+      "priority": 5.0,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "What is the Voluntary Carbon Market? - CarbonCredits.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82c2xvTGlqTE9XS1VQejhUWVRpTVIzVXJWVVpURFUxanRNLUN3ZWxDbWlWaWR1YXI0ZjlUc0ZYb3ktWmFTeEEyT01sR05TOXNtVmRmeklscm1oRlpadWloVlVpNktsbDVrTW9rZ2xQTQ?oc=5",
+      "published": "Mon, 01 Jun 2026 16:26:49 GMT",
+      "summary": "What is the Voluntary Carbon Market?&nbsp;&nbsp;CarbonCredits.com",
+      "source": "GNews | Cap & Trade",
+      "priority": 4.8,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "BNP Paribas Asset Management to Help Build New Nature Transition Framework for Finance Sector",
+      "link": "https://esgnews.com/bnp-paribas-asset-management-to-help-build-new-nature-transition-framework-for-finance-sector/?utm_source=rss&utm_medium=rss&utm_campaign=bnp-paribas-asset-management-to-help-build-new-nature-transition-framework-for-finance-sector",
+      "published": "Wed, 10 Jun 2026 14:14:12 +0000",
+      "summary": "Finance Sector Moves Toward a Nature Transition Model Paris and Oslo are moving biodiversity further into the investment mainstream as BNP Paribas Asset Management joins Storebrand Asset Management to lead...\nThe post BNP Paribas Asset Management to Help Build New Nature Transition Framework for Finance Sector appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 4.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -198,8 +213,9 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT",
       "summary": "Understanding And Addressing Forced Labor In Supply Chains | Anthesis Global&nbsp;&nbsp;Anthesis Group",
       "source": "GNews | SC Due Diligence",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -208,18 +224,9 @@
       "published": "Wed, 10 Jun 2026 16:32:03 GMT",
       "summary": "Data insight: semiconductors, drones and solar dominate US modern slavery enforcement&nbsp;&nbsp;Lexology",
       "source": "GNews | Modern Slavery",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
-      "relevance": "medium"
-    },
-    {
-      "title": "EIB Restarts Türkiye Financing with $230 Million for Clean Energy and Efficiency Projects",
-      "link": "https://esgnews.com/eib-restarts-turkiye-financing-with-230-million-for-clean-energy-and-efficiency-projects/?utm_source=rss&utm_medium=rss&utm_campaign=eib-restarts-turkiye-financing-with-230-million-for-clean-energy-and-efficiency-projects",
-      "published": "Wed, 10 Jun 2026 14:27:21 +0000",
-      "summary": "EIB Reopens Türkiye Lending with Climate Finance Focus The European Investment Bank has resumed financing in Türkiye with €200 million ($230 Million) in new lending aimed at helping Turkish companies...\nThe post EIB Restarts Türkiye Financing with $230 Million for Clean Energy and Efficiency Projects appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 3,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -228,18 +235,9 @@
       "published": "Wed, 03 Jun 2026 11:20:01 GMT",
       "summary": "Cocoa sector ready for EUDR implementation&nbsp;&nbsp;The Business & Financial Times",
       "source": "GNews | EUDR",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cocoa industry steps up EUDR readiness efforts - The Business & Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFJaenRJUlZCSG1yWVZmSXozYWFlQ2RfSTlka2Uxdmh4T3ZMeEMtanlLb2psd2MxTUdKUFhBNUhwbnU5SWw5VnhnQ1UzenZTWV9fTmowNUVGSmpZMnJncnFKUUlTUmhTZjhCczV5NEpoOUd2ZENsWnZ3NWJNMUlLVy1LbmJwOGJzMVBF?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Cocoa industry steps up EUDR readiness efforts&nbsp;&nbsp;The Business & Financial Times",
-      "source": "GNews | EUDR",
-      "priority": 3,
-      "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -248,8 +246,9 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "SFDR 2.0: European Parliament Proposals – A Step in the Wrong Direction for Asset Managers?&nbsp;&nbsp;Ropes & Gray LLP",
       "source": "GNews | EU Taxonomy",
-      "priority": 3,
+      "priority": 3.6,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -258,8 +257,9 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "Tiremakers ready to roll with EUDR, but repeated delays frustrate industry&nbsp;&nbsp;news - Mongabay",
       "source": "GNews | EUDR",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -268,18 +268,9 @@
       "published": "Tue, 09 Jun 2026 13:43:27 GMT",
       "summary": "Peru reaffirms commitment to European Union Deforestation-Free Products Regulation (EUDR)&nbsp;&nbsp;Agencia Peruana de Noticias | ANDINA",
       "source": "GNews | EUDR",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
-      "relevance": "medium"
-    },
-    {
-      "title": "FIFA’s Sustainability Strategy Faces Its Biggest Test as World Cup Emissions Set to Double",
-      "link": "https://esgnews.com/fifas-sustainability-strategy-faces-its-biggest-test-as-world-cup-emissions-set-to-double/?utm_source=rss&utm_medium=rss&utm_campaign=fifas-sustainability-strategy-faces-its-biggest-test-as-world-cup-emissions-set-to-double",
-      "published": "Tue, 09 Jun 2026 12:33:34 +0000",
-      "summary": "A Climate Reckoning Arrives with the Tournament As the 2026 FIFA World Cup kicks off across North America, it carries an environmental cost that dwarfs any prior edition of the...\nThe post FIFA’s Sustainability Strategy Faces Its Biggest Test as World Cup Emissions Set to Double appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 3,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -288,8 +279,31 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "EDB and Control Union Sri Lanka host awareness workshop on Implementation of EU Deforestation Regulation to strengthen coffee and wood product exports&nbsp;&nbsp;Adaderana Biz English",
       "source": "GNews | EUDR",
-      "priority": 3,
+      "priority": 3.6,
       "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "EIB Restarts Türkiye Financing with $230 Million for Clean Energy and Efficiency Projects",
+      "link": "https://esgnews.com/eib-restarts-turkiye-financing-with-230-million-for-clean-energy-and-efficiency-projects/?utm_source=rss&utm_medium=rss&utm_campaign=eib-restarts-turkiye-financing-with-230-million-for-clean-energy-and-efficiency-projects",
+      "published": "Wed, 10 Jun 2026 14:27:21 +0000",
+      "summary": "EIB Reopens Türkiye Lending with Climate Finance Focus The European Investment Bank has resumed financing in Türkiye with €200 million ($230 Million) in new lending aimed at helping Turkish companies...\nThe post EIB Restarts Türkiye Financing with $230 Million for Clean Energy and Efficiency Projects appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 3.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "FIFA’s Sustainability Strategy Faces Its Biggest Test as World Cup Emissions Set to Double",
+      "link": "https://esgnews.com/fifas-sustainability-strategy-faces-its-biggest-test-as-world-cup-emissions-set-to-double/?utm_source=rss&utm_medium=rss&utm_campaign=fifas-sustainability-strategy-faces-its-biggest-test-as-world-cup-emissions-set-to-double",
+      "published": "Tue, 09 Jun 2026 12:33:34 +0000",
+      "summary": "A Climate Reckoning Arrives with the Tournament As the 2026 FIFA World Cup kicks off across North America, it carries an environmental cost that dwarfs any prior edition of the...\nThe post FIFA’s Sustainability Strategy Faces Its Biggest Test as World Cup Emissions Set to Double appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 3.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -298,8 +312,9 @@
       "published": "Mon, 08 Jun 2026 13:36:36 +0000",
       "summary": "TD Backs Long-Term Carbon Removal Montreal and Toronto are now linked by a carbon removal deal with wider implications for Canada’s climate finance market. TD Bank Group has signed a...\nThe post TD Bank Signs 10-Year Deal With Deep Sky for 18,000 Direct Air Capture Credits appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 3,
+      "priority": 3.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -308,19 +323,10 @@
       "published": "Fri, 05 Jun 2026 14:23:50 +0000",
       "summary": "GRI Pushes for Stronger Global Alignment Brussels is moving to simplify Europe’s sustainability reporting regime, but the Global Reporting Initiative says the revised standards must not lose their strategic value...\nThe post GRI Urges Stronger ESRS Alignment to Cut Reporting Burden and Protect EU Competitiveness appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 3,
+      "priority": 3.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
-    },
-    {
-      "title": "SEC Tells Court it Plans to Scrap Climate Reporting Rules - ESG Today",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXpRM3RmU2JMNnJHR0VDZ3htOHU5ZHRueTByck5tX01tUG5jY3h2bEJxcFVPb3VwRG01czZNT3YxRm5qRmVTbDV2WFY0RnFreVBXSXM4QVU1SWtQMlF4eVJmYjBQYWRvNkdsVUpLYTNvVEhOaXh6dU04dFU2Tmd2YXk5a016bkp3YXZF?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "SEC Tells Court it Plans to Scrap Climate Reporting Rules&nbsp;&nbsp;ESG Today",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
     },
     {
       "title": "Air Liquide Launches Industrial Scale CO2 Capture Pilot to Decarbonize Cement Production",
@@ -328,8 +334,9 @@
       "published": "Wed, 10 Jun 2026 14:44:35 +0000",
       "summary": "Air Liquide Targets Cement’s Hardest Emissions Challenge France, one of Europe’s key industrial decarbonization hubs, is now hosting a new carbon capture test for one of the world’s most difficult...\nThe post Air Liquide Launches Industrial Scale CO2 Capture Pilot to Decarbonize Cement Production appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -338,8 +345,9 @@
       "published": "Wed, 10 Jun 2026 13:58:09 +0000",
       "summary": "Europe Moves to Scale SAF Supply France, is set to host one of Europe’s largest Alcohol-to-Jet sustainable aviation fuel projects, as four major French and European industrial players move to...\nThe post Airbus, Technip Energies, Safran and Tereos Plan Major SAF Plant to Boost Europe’s Aviation Decarbonization appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -348,8 +356,9 @@
       "published": "Wed, 10 Jun 2026 13:32:32 +0000",
       "summary": "AI moves into Europe’s packaging compliance race GreenDot and osapiens have formed a strategic partnership to launch an AI-powered compliance platform for Extended Producer Responsibility reporting across Europe, as companies...\nThe post osapiens, GreenDot Launch AI Platform to Cut EPR Compliance Burden Under EU Packaging Rules appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -358,18 +367,9 @@
       "published": "Wed, 10 Jun 2026 13:19:21 +0000",
       "summary": "Brussels Backs Italy’s Clean Power Buildout Brussels has approved a €23 billion Italian State aid scheme aimed at accelerating renewable electricity production across one of Europe’s largest power markets. The...\nThe post EU Approves $26 Billion Italian Renewable Energy Scheme to Add 37.15 GW of Clean Power appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "The SEC Is Killing Its Climate Rule, but ESG Risk Remains - corporatecomplianceinsights.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON0dJdnNaVVJZVHlJWmQycE9RQkpKc0cwVmhfOUV2eXZWZXZOdlB5NHlDNjZuYkFqTWI1Q0Zra2thZjF5UXQ4M2t4Z1lZTlItZG1FNmF0b3p1cUNrN0tQUGI2TWRYYjdPZzNzeWZoNFVtWktHMklfX2h6dDdWbDUtYUNfVU1SZ1hjbGJpMjllbw?oc=5",
-      "published": "Wed, 03 Jun 2026 11:00:51 GMT",
-      "summary": "The SEC Is Killing Its Climate Rule, but ESG Risk Remains&nbsp;&nbsp;corporatecomplianceinsights.com",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -378,8 +378,9 @@
       "published": "Tue, 09 Jun 2026 14:27:21 +0000",
       "summary": "Brussels Moves to Reinforce Maritime Industry Brussels has moved to place Europe’s maritime industry closer to the centre of EU industrial policy, as member states seek to defend competitiveness, strengthen...\nThe post EU Backs Maritime Industrial Strategy to Strengthen Shipping, Security and Decarbonisation appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -388,8 +389,9 @@
       "published": "Tue, 09 Jun 2026 14:16:58 +0000",
       "summary": "Denmark Backs Industrial Carbon Capture at Scale Denmark has awarded its largest cement producer, Aalborg Portland, a major carbon capture and storage contract worth up to 16.5 billion Danish crowns,...\nThe post Denmark Grants Portland $2.6 Billion for Major Cement Carbon Capture Project appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -398,111 +400,20 @@
       "published": "Tue, 09 Jun 2026 14:01:16 +0000",
       "summary": "Fleet Scale Meets Climate Accountability At a moment when corporate net-zero commitments face growing scrutiny from regulators and investors alike, Amazon has put a concrete number on its progress: 50,000...\nThe post Amazon’s 50,000 Electric Delivery Vans Put Corporate Climate Pledges to the Test appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Turkey Proposes Global 35% Electricity Target by 2035 Ahead of COP31 Antalya Summit",
-      "link": "https://esgnews.com/turkeys-cop31-electrification-push-a-35-target-by-2035-to-break-fossil-fuel-dependency/?utm_source=rss&utm_medium=rss&utm_campaign=turkeys-cop31-electrification-push-a-35-target-by-2035-to-break-fossil-fuel-dependency",
-      "published": "Tue, 09 Jun 2026 12:50:19 +0000",
-      "summary": "A Host Nation With an Agenda With less than five months before the COP31 climate conference opens on its shores, Turkey is moving to define the summit’s centrepiece outcome. Turkish...\nThe post Turkey Proposes Global 35% Electricity Target by 2035 Ahead of COP31 Antalya Summit appeared first on ESG News.",
+      "title": "China Resources New Energy Seeks Shenzhen’s Largest IPO for Renewable Energy Expansion",
+      "link": "https://esgnews.com/china-resources-new-energy-seeks-shenzhens-largest-ipo-for-renewable-energy-expansion/?utm_source=rss&utm_medium=rss&utm_campaign=china-resources-new-energy-seeks-shenzhens-largest-ipo-for-renewable-energy-expansion",
+      "published": "Thu, 11 Jun 2026 13:08:52 +0000",
+      "summary": "China’s Renewable Capital Push Moves to Shenzhen China Resources New Energy is seeking to raise about 24.5 billion yuan, or $3.62 billion, through an initial public offering in Shenzhen. The...\nThe post China Resources New Energy Seeks Shenzhen’s Largest IPO for Renewable Energy Expansion appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "Two steps back, but three forward for sustainability reporting - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcFdUWU94d090QUluMVRxNW1pdmlGeXcza1RLUXVnVTdqS1QxZ1pEU013TDNhRGI3NEp6X2swYnpKYml3ek8tcXdiSk1hQkRsVktVLUR5ZjltYS1PWUZiRXpTOVp5Ty13a0c4enFOcVptZG9oSUZLNWRYX1M0VW5YTGxLYnh3SHFLb2FmNGR4dTZXV25wYWQ1c2dncFktMmxfZzBjRHpNWjJWNHl0b3lrN1BkRW5QYUY1Z0plSmVCam5WVC1TU2lhSExrbzNXX2wwT2MzbklhSFA?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "Two steps back, but three forward for sustainability reporting&nbsp;&nbsp;Reuters",
-      "source": "GNews | ESG Regulation",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "Iberdrola’s Neoenergia, Carbon2Nature Secure $16 Million To Restore Brazil’s Atlantic Forest",
-      "link": "https://esgnews.com/iberdrolas-neoenergia-carbon2nature-secure-16-million-to-restore-brazils-atlantic-forest/?utm_source=rss&utm_medium=rss&utm_campaign=iberdrolas-neoenergia-carbon2nature-secure-16-million-to-restore-brazils-atlantic-forest",
-      "published": "Thu, 04 Jun 2026 14:45:50 +0000",
-      "summary": "Neoenergia Advances Forest Restoration in Bahia Neoenergia, Iberdrola’s Brazilian subsidiary, has secured €14.8 million in financing from Brazil’s National Bank for Economic and Social Development to support a large-scale Atlantic...\nThe post Iberdrola’s Neoenergia, Carbon2Nature Secure $16 Million To Restore Brazil’s Atlantic Forest appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 2,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "SEC Moves To Eliminate Biden-Era Climate Disclosure Requirements - Carbon Herald",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2J0X0dTV0R6QW85LWRiZTJmU0pjSTZ1cjdhbzh3M05fQjhncE9hWnZDWkVkMXZLVHRoTlVUY3pKS1BwSGZnc2g1MGRvVGVQVkFOaXFQZEVhZnZYaUdyY0hMTjZod3UzWWJWLXdQSlpmeFEtSDlsWGJHNXR4cWhjdE9GMXRPM29mYTlKLVJvcnF3bzlx?oc=5",
-      "published": "Sun, 31 May 2026 07:00:00 GMT",
-      "summary": "SEC Moves To Eliminate Biden-Era Climate Disclosure Requirements&nbsp;&nbsp;Carbon Herald",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "SEC Launches Formal Process to Rescind Corporate Climate Reporting Rules - ESG Today",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbUF1VVRIR0x0U1piZEdSbzZLQ3NfVG8xN3h2cWtlczJYVWltQXB1YUlEQko3X3VQcWtIZFp6bnlXbFR4cWNnSWl2M1lSbHpwM3lQTFk2SS1oTHBOMlBtSXg2dGhkVGQ5azVzQU9YS1lEWFkxZHlQT2FlSGtqbDBLejhJclk5Y3NoTlJkYTZBNVlKNWlhYnBsQzdzbmRUdjQ?oc=5",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "SEC Launches Formal Process to Rescind Corporate Climate Reporting Rules&nbsp;&nbsp;ESG Today",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "ESG NEWS—SEC proposes to rescind climate-disclosure rules (May 29, 2026) - VitalLaw.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcmFaYnMxeEJ4S1ZWM01qT3hibFctLXl0SGFUWXYxalBIY3JNRU9feFptaDBzbVNJcy1jSThjUWZxT3pzOVMzenB3LTlQN0R0YjFsNFRTODdfM1BsNzgwUUJnaEJHUk0wdlBrY2psaHpCeEdVNVdIVy1UbFRidHhVWHlEdGhyT2NpTHBqNGdkeTFzaUIta2QtYmlKRlF5Q05VRkNNclZjNGtLejJMU1ZXeXl6d0hVTHdyeC1Jc3hpazVXaUk?oc=5",
-      "published": "Sat, 30 May 2026 02:12:09 GMT",
-      "summary": "ESG NEWS—SEC proposes to rescind climate-disclosure rules (May 29, 2026)&nbsp;&nbsp;VitalLaw.com",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "The Super El Niño Is Coming. What Does That Mean for Crops?",
-      "link": "https://esgnews.com/the-super-el-nino-is-coming-what-does-that-mean-for-crops/?utm_source=rss&utm_medium=rss&utm_campaign=the-super-el-nino-is-coming-what-does-that-mean-for-crops",
-      "published": "Mon, 08 Jun 2026 14:56:38 +0000",
-      "summary": "Author: Will Kletter, COO ClimateAi In 2023/24, El Niño wiped 14% off the global cocoa supply. Prices hit record highs. Procurement teams scrambled. And while that was a strong El...\nThe post The Super El Niño Is Coming. What Does That Mean for Crops? appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 2,
-      "signal_keywords": [
-        "record high"
-      ],
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "Alphabet’s Self-Driving Car Company Waymo is Recycling its Old EV Batteries",
-      "link": "https://esgnews.com/alphabets-self-driving-car-company-waymo-is-recycling-its-old-ev-batteries/?utm_source=rss&utm_medium=rss&utm_campaign=alphabets-self-driving-car-company-waymo-is-recycling-its-old-ev-batteries",
-      "published": "Mon, 08 Jun 2026 14:14:37 +0000",
-      "summary": "Waymo Looks Beyond the Road for Battery Value California and Texas are becoming the first testbeds for a new second-life battery model linking autonomous mobility, renewable energy, and grid resilience....\nThe post Alphabet’s Self-Driving Car Company Waymo is Recycling its Old EV Batteries appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 2,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "SEC pushes to dismantle landmark climate disclosure rule - | Governance Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1dMNmRDSTNuZXpWNHFMSWRuaU05YUh2RVBqRm01RWhVa1lPbWRiczB4VWM5UkpfelVxTVR2OEtxQW1rRVdJOTNQZm1wVEZFeXY0d1c3R3N6SkdDY3VQdUNPd2lWRWktcGttX25jTEdPeUxZc016R0dZVThmelQ2YUZxbkJPMXR2OThzTXpfSU55T3hZTWVRaEo3VVNHS1JJOEtCY1Rra21pX29sYk1PYjdRSWRiZw?oc=5",
-      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "summary": "SEC pushes to dismantle landmark climate disclosure rule&nbsp;&nbsp;| Governance Intelligence",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "SEC Moves To Rescind Corporate Climate Reporting Rules - ESG News",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjlCdk9FTUxCV3o2TDFpbXMtZi1QNzNBU0NRM1M1RnpIMU1Kb3g1c3FoMnVTRGF6NHVaSnZHZC1UcDBBN3kxeVY2SHFuVUg4REJiSUduQkFkRmdhRlRRTGVEOE85dVlpY1kza3lJV1BuZndpUTRLeFlKanhhaGUwSA?oc=5",
-      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "summary": "SEC Moves To Rescind Corporate Climate Reporting Rules&nbsp;&nbsp;ESG News",
-      "source": "GNews | SEC Climate Rule",
-      "priority": 2,
-      "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -511,8 +422,9 @@
       "published": "Fri, 05 Jun 2026 14:57:23 +0000",
       "summary": "Nest Targets Climate Scale-Up Capital London pension capital is moving deeper into the climate infrastructure market, with Nest committing £200 million to a new credit strategy with IFM Investors. Nest,...\nThe post Nest Commits $254 Million to Scale Climate Infrastructure Technologies With IFM appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -521,18 +433,133 @@
       "published": "Fri, 05 Jun 2026 14:35:48 +0000",
       "summary": "Uganda Puts Climate Action At The Center Of World Environment Day Kampala is placing climate action at the center of World Environment Day 2026, using the global observance to push...\nThe post Uganda, UK And UNDP Launch World Environment Day Climate Action Push appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "JPMorgan Chase, InnoEnergy Launch Clean Energy Skills Accelerator Across Europe",
-      "link": "https://esgnews.com/jpmorgan-innoenergy-chase-launch-clean-energy-skills-accelerator-across-europe/?utm_source=rss&utm_medium=rss&utm_campaign=jpmorgan-innoenergy-chase-launch-clean-energy-skills-accelerator-across-europe",
-      "published": "Fri, 05 Jun 2026 13:50:45 +0000",
-      "summary": "InnoEnergy Targets Europe’s Clean Energy Workforce Gap Europe’s clean energy buildout is moving faster than its workforce pipeline. InnoEnergy is now targeting that gap with a new Energy Transition Talent...\nThe post JPMorgan Chase, InnoEnergy Launch Clean Energy Skills Accelerator Across Europe appeared first on ESG News.",
+      "title": "SEC Tells Court it Plans to Scrap Climate Reporting Rules - ESG Today",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXpRM3RmU2JMNnJHR0VDZ3htOHU5ZHRueTByck5tX01tUG5jY3h2bEJxcFVPb3VwRG01czZNT3YxRm5qRmVTbDV2WFY0RnFreVBXSXM4QVU1SWtQMlF4eVJmYjBQYWRvNkdsVUpLYTNvVEhOaXh6dU04dFU2Tmd2YXk5a016bkp3YXZF?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "SEC Tells Court it Plans to Scrap Climate Reporting Rules&nbsp;&nbsp;ESG Today",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The SEC Is Killing Its Climate Rule, but ESG Risk Remains - corporatecomplianceinsights.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON0dJdnNaVVJZVHlJWmQycE9RQkpKc0cwVmhfOUV2eXZWZXZOdlB5NHlDNjZuYkFqTWI1Q0Zra2thZjF5UXQ4M2t4Z1lZTlItZG1FNmF0b3p1cUNrN0tQUGI2TWRYYjdPZzNzeWZoNFVtWktHMklfX2h6dDdWbDUtYUNfVU1SZ1hjbGJpMjllbw?oc=5",
+      "published": "Wed, 03 Jun 2026 11:00:51 GMT",
+      "summary": "The SEC Is Killing Its Climate Rule, but ESG Risk Remains&nbsp;&nbsp;corporatecomplianceinsights.com",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Two steps back, but three forward for sustainability reporting - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcFdUWU94d090QUluMVRxNW1pdmlGeXcza1RLUXVnVTdqS1QxZ1pEU013TDNhRGI3NEp6X2swYnpKYml3ek8tcXdiSk1hQkRsVktVLUR5ZjltYS1PWUZiRXpTOVp5Ty13a0c4enFOcVptZG9oSUZLNWRYX1M0VW5YTGxLYnh3SHFLb2FmNGR4dTZXV25wYWQ1c2dncFktMmxfZzBjRHpNWjJWNHl0b3lrN1BkRW5QYUY1Z0plSmVCam5WVC1TU2lhSExrbzNXX2wwT2MzbklhSFA?oc=5",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "Two steps back, but three forward for sustainability reporting&nbsp;&nbsp;Reuters",
+      "source": "GNews | ESG Regulation",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SEC Moves To Eliminate Biden-Era Climate Disclosure Requirements - Carbon Herald",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2J0X0dTV0R6QW85LWRiZTJmU0pjSTZ1cjdhbzh3M05fQjhncE9hWnZDWkVkMXZLVHRoTlVUY3pKS1BwSGZnc2g1MGRvVGVQVkFOaXFQZEVhZnZYaUdyY0hMTjZod3UzWWJWLXdQSlpmeFEtSDlsWGJHNXR4cWhjdE9GMXRPM29mYTlKLVJvcnF3bzlx?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "summary": "SEC Moves To Eliminate Biden-Era Climate Disclosure Requirements&nbsp;&nbsp;Carbon Herald",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SEC Launches Formal Process to Rescind Corporate Climate Reporting Rules - ESG Today",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbUF1VVRIR0x0U1piZEdSbzZLQ3NfVG8xN3h2cWtlczJYVWltQXB1YUlEQko3X3VQcWtIZFp6bnlXbFR4cWNnSWl2M1lSbHpwM3lQTFk2SS1oTHBOMlBtSXg2dGhkVGQ5azVzQU9YS1lEWFkxZHlQT2FlSGtqbDBLejhJclk5Y3NoTlJkYTZBNVlKNWlhYnBsQzdzbmRUdjQ?oc=5",
+      "published": "Sat, 30 May 2026 07:00:00 GMT",
+      "summary": "SEC Launches Formal Process to Rescind Corporate Climate Reporting Rules&nbsp;&nbsp;ESG Today",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "ESG NEWS—SEC proposes to rescind climate-disclosure rules (May 29, 2026) - VitalLaw.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcmFaYnMxeEJ4S1ZWM01qT3hibFctLXl0SGFUWXYxalBIY3JNRU9feFptaDBzbVNJcy1jSThjUWZxT3pzOVMzenB3LTlQN0R0YjFsNFRTODdfM1BsNzgwUUJnaEJHUk0wdlBrY2psaHpCeEdVNVdIVy1UbFRidHhVWHlEdGhyT2NpTHBqNGdkeTFzaUIta2QtYmlKRlF5Q05VRkNNclZjNGtLejJMU1ZXeXl6d0hVTHdyeC1Jc3hpazVXaUk?oc=5",
+      "published": "Sat, 30 May 2026 02:12:09 GMT",
+      "summary": "ESG NEWS—SEC proposes to rescind climate-disclosure rules (May 29, 2026)&nbsp;&nbsp;VitalLaw.com",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SEC pushes to dismantle landmark climate disclosure rule - | Governance Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1dMNmRDSTNuZXpWNHFMSWRuaU05YUh2RVBqRm01RWhVa1lPbWRiczB4VWM5UkpfelVxTVR2OEtxQW1rRVdJOTNQZm1wVEZFeXY0d1c3R3N6SkdDY3VQdUNPd2lWRWktcGttX25jTEdPeUxZc016R0dZVThmelQ2YUZxbkJPMXR2OThzTXpfSU55T3hZTWVRaEo3VVNHS1JJOEtCY1Rra21pX29sYk1PYjdRSWRiZw?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "SEC pushes to dismantle landmark climate disclosure rule&nbsp;&nbsp;| Governance Intelligence",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SEC Moves To Rescind Corporate Climate Reporting Rules - ESG News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjlCdk9FTUxCV3o2TDFpbXMtZi1QNzNBU0NRM1M1RnpIMU1Kb3g1c3FoMnVTRGF6NHVaSnZHZC1UcDBBN3kxeVY2SHFuVUg4REJiSUduQkFkRmdhRlRRTGVEOE85dVlpY1kza3lJV1BuZndpUTRLeFlKanhhaGUwSA?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "SEC Moves To Rescind Corporate Climate Reporting Rules&nbsp;&nbsp;ESG News",
+      "source": "GNews | SEC Climate Rule",
+      "priority": 2.4,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Turkey Proposes Global 35% Electricity Target by 2035 Ahead of COP31 Antalya Summit",
+      "link": "https://esgnews.com/turkeys-cop31-electrification-push-a-35-target-by-2035-to-break-fossil-fuel-dependency/?utm_source=rss&utm_medium=rss&utm_campaign=turkeys-cop31-electrification-push-a-35-target-by-2035-to-break-fossil-fuel-dependency",
+      "published": "Tue, 09 Jun 2026 12:50:19 +0000",
+      "summary": "A Host Nation With an Agenda With less than five months before the COP31 climate conference opens on its shores, Turkey is moving to define the summit’s centrepiece outcome. Turkish...\nThe post Turkey Proposes Global 35% Electricity Target by 2035 Ahead of COP31 Antalya Summit appeared first on ESG News.",
       "source": "ESG News",
-      "priority": 2,
+      "priority": 2.0,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The Super El Niño Is Coming. What Does That Mean for Crops?",
+      "link": "https://esgnews.com/the-super-el-nino-is-coming-what-does-that-mean-for-crops/?utm_source=rss&utm_medium=rss&utm_campaign=the-super-el-nino-is-coming-what-does-that-mean-for-crops",
+      "published": "Mon, 08 Jun 2026 14:56:38 +0000",
+      "summary": "Author: Will Kletter, COO ClimateAi In 2023/24, El Niño wiped 14% off the global cocoa supply. Prices hit record highs. Procurement teams scrambled. And while that was a strong El...\nThe post The Super El Niño Is Coming. What Does That Mean for Crops? appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 2.0,
+      "signal_keywords": [
+        "record high"
+      ],
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Alphabet’s Self-Driving Car Company Waymo is Recycling its Old EV Batteries",
+      "link": "https://esgnews.com/alphabets-self-driving-car-company-waymo-is-recycling-its-old-ev-batteries/?utm_source=rss&utm_medium=rss&utm_campaign=alphabets-self-driving-car-company-waymo-is-recycling-its-old-ev-batteries",
+      "published": "Mon, 08 Jun 2026 14:14:37 +0000",
+      "summary": "Waymo Looks Beyond the Road for Battery Value California and Texas are becoming the first testbeds for a new second-life battery model linking autonomous mobility, renewable energy, and grid resilience....\nThe post Alphabet’s Self-Driving Car Company Waymo is Recycling its Old EV Batteries appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 2.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -541,8 +568,9 @@
       "published": "Wed, 27 May 2026 14:27:37 GMT",
       "summary": "Top 10: Scope 3 Solutions&nbsp;&nbsp;Sustainability Magazine",
       "source": "GNews | Scope 3",
-      "priority": 1,
+      "priority": 1.2,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -551,8 +579,9 @@
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "Mass transfer of Article 8 funds to ESG Basics ‘not a good outcome’, says EU official&nbsp;&nbsp;Responsible Investor",
       "source": "GNews | SFDR",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -561,18 +590,9 @@
       "published": "Wed, 20 May 2026 07:00:00 GMT",
       "summary": "Global carbon emissions pricing raised record $107 billion in 2025&nbsp;&nbsp;Reuters",
       "source": "GNews | Cap & Trade",
-      "priority": 1,
+      "priority": 1.2,
       "category": "碳+绿",
-      "relevance": "low"
-    },
-    {
-      "title": "Google, American Airlines Strike Major SAF Deal to Cut Nearly 300,000 Tons of CO2",
-      "link": "https://esgnews.com/google-american-airlines-strike-major-saf-deal-to-cut-nearly-300000-tons-of-co2/?utm_source=rss&utm_medium=rss&utm_campaign=google-american-airlines-strike-major-saf-deal-to-cut-nearly-300000-tons-of-co2",
-      "published": "Wed, 10 Jun 2026 14:06:19 +0000",
-      "summary": "Google and American Airlines Move to Scale SAF Demand Google and American Airlines have signed a major sustainable aviation fuel agreement aimed at cutting emissions from corporate air travel and...\nThe post Google, American Airlines Strike Major SAF Deal to Cut Nearly 300,000 Tons of CO2 appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 1,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -581,8 +601,9 @@
       "published": "Wed, 03 Jun 2026 09:35:01 GMT",
       "summary": "EU Green Week 2026 opens with focus on nature investment&nbsp;&nbsp;environment.ec.europa.eu",
       "source": "GNews | Biodiversity",
-      "priority": 1,
+      "priority": 1.2,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -591,8 +612,9 @@
       "published": "Tue, 19 May 2026 11:08:59 GMT",
       "summary": "Environmental, Social & Governance Laws and Regulations Report 2026 Italy&nbsp;&nbsp;ICLG",
       "source": "GNews | EU Taxonomy",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -601,18 +623,9 @@
       "published": "Tue, 09 Jun 2026 15:47:50 GMT",
       "summary": "ATR Commends the SEC’s Rescission of the Climate-Related Disclosure Final Rules&nbsp;&nbsp;Americans for Tax Reform",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "Meta, Zelestra Expand US Solar Partnership To 1.4 GW Across Eight Projects",
-      "link": "https://esgnews.com/meta-zelestra-expand-us-solar-partnership-to-1-4-gw-across-eight-projects/?utm_source=rss&utm_medium=rss&utm_campaign=meta-zelestra-expand-us-solar-partnership-to-1-4-gw-across-eight-projects",
-      "published": "Tue, 09 Jun 2026 14:38:58 +0000",
-      "summary": "Meta Adds New Solar Capacity In Texas Freestone County, Texas, will host another utility-scale solar project tied to the surge in corporate clean power demand. Meta and Zelestra have signed...\nThe post Meta, Zelestra Expand US Solar Partnership To 1.4 GW Across Eight Projects appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 1,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -621,8 +634,9 @@
       "published": "Tue, 02 Jun 2026 17:02:47 GMT",
       "summary": "SEC rescinds rule requiring climate-related disclosure on reports&nbsp;&nbsp;Financial Regulation News -",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -631,8 +645,9 @@
       "published": "Tue, 02 Jun 2026 13:43:03 GMT",
       "summary": "Western Critical Minerals Supply Chain: DRC and Greenland Challenges&nbsp;&nbsp;Discovery Alert",
       "source": "GNews | Conflict Mineral",
-      "priority": 1,
+      "priority": 1.2,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -641,18 +656,9 @@
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
       "summary": "S.E.C. Proposes to Kill Climate Change Disclosure Rule&nbsp;&nbsp;The New York Times",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
-      "relevance": "low"
-    },
-    {
-      "title": "Aether Fuels Appoints Dhaval Shah as CTO to Scale Sustainable Aviation Fuel Platform",
-      "link": "https://esgnews.com/aether-fuels-appoints-dhaval-shah-as-cto-to-scale-sustainable-aviation-fuel-platform/?utm_source=rss&utm_medium=rss&utm_campaign=aether-fuels-appoints-dhaval-shah-as-cto-to-scale-sustainable-aviation-fuel-platform",
-      "published": "Thu, 11 Jun 2026 12:47:39 +0000",
-      "summary": "Aether Strengthens Leadership as SAF Commercialization Accelerates Aether Fuels has appointed Dhaval Shah as Chief Technology Officer, adding a veteran commercialization leader as the company pushes its Aurora™ platform from...\nThe post Aether Fuels Appoints Dhaval Shah as CTO to Scale Sustainable Aviation Fuel Platform appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 1,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -661,8 +667,9 @@
       "published": "Thu, 04 Jun 2026 17:56:17 GMT",
       "summary": "California’s Cap-and-Invest Programme vs SEC Climate Disclosure Rules 2026&nbsp;&nbsp;Discovery Alert",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -671,28 +678,9 @@
       "published": "Thu, 04 Jun 2026 13:00:47 GMT",
       "summary": "Critères ESG : définition, exemple, enjeux pour les entreprises&nbsp;&nbsp;Bpifrance",
       "source": "GNews | FR ESG/Durabilité",
-      "priority": 1,
+      "priority": 1.2,
       "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "Ecobank Launches $450 Million Nature Bond to Fund Sustainable Agriculture, Water Systems Across Africa",
-      "link": "https://esgnews.com/ecobank-launches-450-million-nature-bond-to-fund-sustainable-agriculture-water-systems-across-africa/?utm_source=rss&utm_medium=rss&utm_campaign=ecobank-launches-450-million-nature-bond-to-fund-sustainable-agriculture-water-systems-across-africa",
-      "published": "Mon, 08 Jun 2026 14:26:50 +0000",
-      "summary": "Ecobank Opens New Route for Nature Finance in Africa Ecobank has launched a $450 million Nature Bond on the London Stock Exchange, creating a new financing channel for Africa’s natural...\nThe post Ecobank Launches $450 Million Nature Bond to Fund Sustainable Agriculture, Water Systems Across Africa appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 1,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "IATA Warns SAF Production Will Cover Just 0.8% Of Aviation Fuel Use In 2026",
-      "link": "https://esgnews.com/iata-warns-saf-production-will-cover-just-0-8-of-aviation-fuel-use-in-2026/?utm_source=rss&utm_medium=rss&utm_campaign=iata-warns-saf-production-will-cover-just-0-8-of-aviation-fuel-use-in-2026",
-      "published": "Mon, 08 Jun 2026 13:58:16 +0000",
-      "summary": "SAF Supply Falls Short Of Net-Zero Pathway Global sustainable aviation fuel production remains far below the level needed to put aviation on a credible net-zero pathway, according to new estimates...\nThe post IATA Warns SAF Production Will Cover Just 0.8% Of Aviation Fuel Use In 2026 appeared first on ESG News.",
-      "source": "ESG News",
-      "priority": 1,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -701,8 +689,9 @@
       "published": "Mon, 08 Jun 2026 02:22:30 GMT",
       "summary": "Brussels bureaucrats get ready for the carbon pricing battle of their lives&nbsp;&nbsp;Euractiv",
       "source": "GNews | Cap & Trade",
-      "priority": 1,
+      "priority": 1.2,
       "category": "碳+绿",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -711,8 +700,9 @@
       "published": "Mon, 01 Jun 2026 18:47:02 GMT",
       "summary": "SEC Proposes Full Rescission of Climate-Related Disclosure Rules&nbsp;&nbsp;Foley Hoag",
       "source": "GNews | ESG Regulation",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -721,8 +711,9 @@
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
       "summary": "Environmental, Social & Governance Laws and Regulations Report 2026 USA&nbsp;&nbsp;ICLG",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -731,8 +722,9 @@
       "published": "Fri, 29 May 2026 19:05:24 GMT",
       "summary": "SEC moves to scrap climate disclosure rules for public companies&nbsp;&nbsp;InvestmentNews",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -741,8 +733,9 @@
       "published": "Fri, 29 May 2026 17:49:00 GMT",
       "summary": "SEC proposal pulls the plug on climate disclosures&nbsp;&nbsp;E&amp;E News by POLITICO",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -751,8 +744,9 @@
       "published": "Fri, 29 May 2026 17:44:22 GMT",
       "summary": "United States to Scrap Climate-Related Disclosure Rules — What This Means for Travel and Global Tourism Markets&nbsp;&nbsp;Travel And Tour World",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -761,8 +755,9 @@
       "published": "Fri, 29 May 2026 16:29:13 GMT",
       "summary": "SEC Moves to Formally Rescind Climate Reporting Rule&nbsp;&nbsp;corporatecomplianceinsights.com",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -771,8 +766,9 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "SEC moves to formally rescind corporate climate disclosure requirements&nbsp;&nbsp;The Hill",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -781,8 +777,9 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "SEC Formally Proposes Rescinding Climate Disclosure Rule, Deepening Retreat From Investor Protection&nbsp;&nbsp;CleanTechnica",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -791,8 +788,9 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "Exxon takes on California in legal battle that could shape U.S. climate disclosure&nbsp;&nbsp;Reuters",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -801,8 +799,64 @@
       "published": "Fri, 05 Jun 2026 05:55:00 GMT",
       "summary": "SEC moves to wipe out climate disclosure rule, leaving investors in the dark on corporate risks&nbsp;&nbsp;The Cool Down",
       "source": "GNews | SEC Climate Rule",
-      "priority": 1,
+      "priority": 1.2,
       "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Google, American Airlines Strike Major SAF Deal to Cut Nearly 300,000 Tons of CO2",
+      "link": "https://esgnews.com/google-american-airlines-strike-major-saf-deal-to-cut-nearly-300000-tons-of-co2/?utm_source=rss&utm_medium=rss&utm_campaign=google-american-airlines-strike-major-saf-deal-to-cut-nearly-300000-tons-of-co2",
+      "published": "Wed, 10 Jun 2026 14:06:19 +0000",
+      "summary": "Google and American Airlines Move to Scale SAF Demand Google and American Airlines have signed a major sustainable aviation fuel agreement aimed at cutting emissions from corporate air travel and...\nThe post Google, American Airlines Strike Major SAF Deal to Cut Nearly 300,000 Tons of CO2 appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Meta, Zelestra Expand US Solar Partnership To 1.4 GW Across Eight Projects",
+      "link": "https://esgnews.com/meta-zelestra-expand-us-solar-partnership-to-1-4-gw-across-eight-projects/?utm_source=rss&utm_medium=rss&utm_campaign=meta-zelestra-expand-us-solar-partnership-to-1-4-gw-across-eight-projects",
+      "published": "Tue, 09 Jun 2026 14:38:58 +0000",
+      "summary": "Meta Adds New Solar Capacity In Texas Freestone County, Texas, will host another utility-scale solar project tied to the surge in corporate clean power demand. Meta and Zelestra have signed...\nThe post Meta, Zelestra Expand US Solar Partnership To 1.4 GW Across Eight Projects appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Aether Fuels Appoints Dhaval Shah as CTO to Scale Sustainable Aviation Fuel Platform",
+      "link": "https://esgnews.com/aether-fuels-appoints-dhaval-shah-as-cto-to-scale-sustainable-aviation-fuel-platform/?utm_source=rss&utm_medium=rss&utm_campaign=aether-fuels-appoints-dhaval-shah-as-cto-to-scale-sustainable-aviation-fuel-platform",
+      "published": "Thu, 11 Jun 2026 12:47:39 +0000",
+      "summary": "Aether Strengthens Leadership as SAF Commercialization Accelerates Aether Fuels has appointed Dhaval Shah as Chief Technology Officer, adding a veteran commercialization leader as the company pushes its Aurora™ platform from...\nThe post Aether Fuels Appoints Dhaval Shah as CTO to Scale Sustainable Aviation Fuel Platform appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ecobank Launches $450 Million Nature Bond to Fund Sustainable Agriculture, Water Systems Across Africa",
+      "link": "https://esgnews.com/ecobank-launches-450-million-nature-bond-to-fund-sustainable-agriculture-water-systems-across-africa/?utm_source=rss&utm_medium=rss&utm_campaign=ecobank-launches-450-million-nature-bond-to-fund-sustainable-agriculture-water-systems-across-africa",
+      "published": "Mon, 08 Jun 2026 14:26:50 +0000",
+      "summary": "Ecobank Opens New Route for Nature Finance in Africa Ecobank has launched a $450 million Nature Bond on the London Stock Exchange, creating a new financing channel for Africa’s natural...\nThe post Ecobank Launches $450 Million Nature Bond to Fund Sustainable Agriculture, Water Systems Across Africa appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IATA Warns SAF Production Will Cover Just 0.8% Of Aviation Fuel Use In 2026",
+      "link": "https://esgnews.com/iata-warns-saf-production-will-cover-just-0-8-of-aviation-fuel-use-in-2026/?utm_source=rss&utm_medium=rss&utm_campaign=iata-warns-saf-production-will-cover-just-0-8-of-aviation-fuel-use-in-2026",
+      "published": "Mon, 08 Jun 2026 13:58:16 +0000",
+      "summary": "SAF Supply Falls Short Of Net-Zero Pathway Global sustainable aviation fuel production remains far below the level needed to put aviation on a credible net-zero pathway, according to new estimates...\nThe post IATA Warns SAF Production Will Cover Just 0.8% Of Aviation Fuel Use In 2026 appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -811,8 +865,9 @@
       "published": "Wed, 10 Jun 2026 21:10:08 GMT",
       "summary": "Editorial: more time needed for Nature Restoration Plan engagement 10 June 2026 Free&nbsp;&nbsp;Irish Farmers Journal",
       "source": "GNews | Biodiversity",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -821,8 +876,9 @@
       "published": "Wed, 03 Jun 2026 15:59:00 GMT",
       "summary": "Scope 3 Data Depends on Suppliers. Most Suppliers Are Not Ready.&nbsp;&nbsp;Environment+Energy Leader",
       "source": "GNews | Scope 3",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -831,8 +887,9 @@
       "published": "Wed, 03 Jun 2026 13:04:19 GMT",
       "summary": "Extreme weather: floods, droughts and heatwaves&nbsp;&nbsp;European Environment Agency (EEA)",
       "source": "GNews | Climate Risk",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -841,8 +898,9 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "EU ETS: European Commission Announces Additional Flexibilities, Including Updated Benchmarks&nbsp;&nbsp;globalelr.com",
       "source": "GNews | Cap & Trade",
-      "priority": 0,
+      "priority": 0.0,
       "category": "碳+绿",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -851,8 +909,9 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "E.P.A. to End Some Limits on ‘Forever Chemicals’ in Drinking Water&nbsp;&nbsp;The New York Times",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -861,8 +920,9 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "Rethinking the Global Response to Deforestation&nbsp;&nbsp;International Institute for Sustainable Development",
       "source": "GNews | EUDR",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -871,8 +931,9 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "Trump administration moves to roll back limits on forever chemicals in drinking water&nbsp;&nbsp;PBS",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -881,8 +942,9 @@
       "published": "Tue, 12 May 2026 23:57:30 GMT",
       "summary": "La France pourra se démarquer si elle renforce la sécurisation de ses filières stratégiques&nbsp;&nbsp;EY",
       "source": "GNews | FR ESG/Durabilité",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -891,8 +953,9 @@
       "published": "Tue, 09 Jun 2026 07:02:49 GMT",
       "summary": "Menschenrechte: Kinderarbeit bleibt häufiger Bestandteil globaler Lieferketten&nbsp;&nbsp;Logistik Heute",
       "source": "GNews | DE ESG/Nachhaltigkeit",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -901,8 +964,9 @@
       "published": "Tue, 02 Jun 2026 22:10:08 GMT",
       "summary": "La veille du 3 juin 2026&nbsp;&nbsp;rsedatanews.net",
       "source": "GNews | FR ESG/Durabilité",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -911,8 +975,9 @@
       "published": "Tue, 02 Jun 2026 02:52:21 GMT",
       "summary": "Energy, Environment, and Economics: The Legal Case for the EU’s Emissions Trading System II&nbsp;&nbsp;Columbia Undergraduate Law Review",
       "source": "GNews | Cap & Trade",
-      "priority": 0,
+      "priority": 0.0,
       "category": "碳+绿",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -921,8 +986,9 @@
       "published": "Thu, 04 Jun 2026 12:19:36 GMT",
       "summary": "Forced labour bans are reshaping global trade&nbsp;&nbsp;Anti-Slavery International",
       "source": "GNews | Modern Slavery",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -931,8 +997,9 @@
       "published": "Thu, 04 Jun 2026 07:00:00 GMT",
       "summary": "Contract Management Software Market Size, Growth Drivers | 2035&nbsp;&nbsp;Market Research Future",
       "source": "GNews | ESG Regulation",
-      "priority": 0,
+      "priority": 0.0,
       "category": "ESG法规",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -941,8 +1008,9 @@
       "published": "Thu, 04 Jun 2026 03:25:43 GMT",
       "summary": "Albanese slams US over 'unjustified' 12.5% tariff plan&nbsp;&nbsp;MSN",
       "source": "GNews | Modern Slavery",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -951,8 +1019,9 @@
       "published": "Thu, 04 Jun 2026 02:37:00 GMT",
       "summary": "Australia is facing a new 12.5% US tariff over anti-slavery claims. Are they actually right?&nbsp;&nbsp;The Conversation",
       "source": "GNews | Modern Slavery",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -961,8 +1030,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Trump EPA Proposes to Eliminate and Delay Protections from Toxic Forever Chemicals in Drinking Water&nbsp;&nbsp;Earthjustice",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -971,8 +1041,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Trump proposes partial rollback of ‘forever chemical’ drinking water protections&nbsp;&nbsp;The Hill",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -981,8 +1052,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Restrictions on ‘forever’ toxins in drinking water changed by Trump EPA&nbsp;&nbsp;CNN",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -991,8 +1063,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Trump officials plan to repeal limits on ‘forever chemicals’ in drinking water&nbsp;&nbsp;The Guardian",
       "source": "GNews | PFAS/Chemical",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候风险",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1001,8 +1074,9 @@
       "published": "Fri, 05 Jun 2026 13:39:45 GMT",
       "summary": "Canada Signals Stronger Forced Labour Import Measures Following New U.S. Tariff Threat&nbsp;&nbsp;McCarthy Tétrault",
       "source": "GNews | Modern Slavery",
-      "priority": 0,
+      "priority": 0.0,
       "category": "可持续供应链",
+      "_incremental": "new",
       "relevance": "low"
     }
   ]

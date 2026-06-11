@@ -1,9 +1,9 @@
 {
   "version": "4.0",
   "module": "全球治理与地缘风险",
-  "updated": "2026-06-11T13:06:16.390833+00:00",
+  "updated": "2026-06-11T13:36:00.039890+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 43,
+  "total": 40,
   "high_priority": 1,
   "medium_priority": 15,
   "signal_alerts": {},
@@ -29,7 +29,7 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 42,
+      "count": 43,
       "feeds": 3
     }
   },
@@ -37,13 +37,14 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal - News On AIR",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVRzT2dqanBvLTQ3Y19UYlRxdmotODZEOFl6NW4xX1VfMThSbU5IYUFOS0k0YXpPTVNNQ3FnMFMzOUpiV1k0NFoyckt1a0xwVFQtelNaa1RTNU5wb3ZtQUV1bE1Wd2JpTlhwR28zUnpmNkJvOGZxeTlfTmVTQndWZHBNMkQ5a1dhaFFkTg?oc=5",
-      "published": "Mon, 08 Jun 2026 22:45:06 GMT",
-      "summary": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal&nbsp;&nbsp;News On AIR",
+      "title": "Israel-Hamas War - Ceasefire and hostage exchange (January–March 2025) - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTV9ZTEEtZThadmhTZ1FXSTVPQzdhR1FieldETVczckJlREJmYXJWZXBjeDBQU0MwOUE5ODZXbnVmakI5LXVPRnpSZ2dWc3I1dDRUS19oNHVCNUhLQ1F4N0VlWXo4N2NrS0dyUE9Da3g4Ny1mX1h3cmtiU0RVY0NpakNRVGNjMFlySXI3QzV0U2kyTk9aQ2FNZ0ttMjlGSG1G?oc=5",
+      "published": "Thu, 04 Jun 2026 05:00:00 GMT",
+      "summary": "Israel-Hamas War - Ceasefire and hostage exchange (January–March 2025)&nbsp;&nbsp;Britannica",
       "source": "GNews | Israel-Gaza",
-      "priority": 10,
+      "priority": 12.0,
       "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "high"
     },
     {
@@ -52,8 +53,9 @@
       "published": "Mon, 08 Jun 2026 20:51:10 GMT",
       "summary": "France’s New Nukes and the Future of European Security&nbsp;&nbsp;Center for Arms Control and Non-Proliferation",
       "source": "GNews | Arms Control",
-      "priority": 7,
+      "priority": 8.4,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -62,8 +64,9 @@
       "published": "Mon, 01 Jun 2026 00:00:00 GMT",
       "summary": "The Nuclear Non-Proliferation Treaty Review Conference: Nuclear Negotiation Breakdown&nbsp;&nbsp;Center for Security Studies | ETH Zürich",
       "source": "GNews | Arms Control",
-      "priority": 7,
+      "priority": 8.4,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -72,8 +75,9 @@
       "published": "Thu, 28 May 2026 07:00:00 GMT",
       "summary": "How a Russia–Ukraine ceasefire could imperil Ukrainian and European security | 03 Russia&nbsp;&nbsp;Chatham House",
       "source": "GNews | Russia-Ukraine",
-      "priority": 6,
+      "priority": 7.2,
       "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -82,8 +86,9 @@
       "published": "Thu, 11 Jun 2026 11:45:01 GMT",
       "summary": "Nuclear Non-Proliferation Treaty Review Conference 2026: The third scream of deadlock&nbsp;&nbsp;Defence24.com",
       "source": "GNews | Arms Control",
-      "priority": 6,
+      "priority": 7.2,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -92,8 +97,20 @@
       "published": "Thu, 04 Jun 2026 02:21:01 GMT",
       "summary": "CO26120 | The 2026 Nuclear Non-Proliferation Treaty Review Conference: What it Means for Southeast Asia&nbsp;&nbsp;S. Rajaratnam School of International Studies (RSIS)",
       "source": "GNews | Arms Control",
-      "priority": 6,
+      "priority": 7.2,
       "category": "联合国+国际治理",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Iran’s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Iran’s War With Israel and the United States | Global Conflict Tracker&nbsp;&nbsp;Council on Foreign Relations",
+      "source": "GNews | ME Conflict",
+      "priority": 6.0,
+      "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -102,28 +119,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "The Iran War is a Big Issue Among Many at the 2026 NPT RevCon&nbsp;&nbsp;Stimson Center",
       "source": "GNews | Arms Control",
-      "priority": 5,
+      "priority": 6.0,
       "category": "联合国+国际治理",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Powder Keg Called The Middle East: Geopolitical Instability, Strategic Rivalries, And The Specter Of Regional War – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMWNaMkhOZV85T19xRm9wNGVHYVZRb3luWGRaa2FwSXZKZ0x3d0dGMjduUTN5S1Z4OWpfeG5aazlGUlByWmZHaWpjSUtDZXBfanRCUFd5OTRQM21HS1lfN3FKTERPQk1NQUI1aDVPNFdEVzRqdVAyanNxZl9tMXBYTWR5VHRORk90bkpTNkl5bDZnVzQzWnpMUWo0bzI4bHBVXy1oTmk4SVI4Q3RjdTgzOU5tOHdPdWVmd08xclNzV2sweEhiS0JHVGpqUTFaUlR1Z0hKTlJhdm0zcU43NTFPVUUtdzhJeTlaNWhCWVY1LWJiaGJSWEE?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "The Powder Keg Called The Middle East: Geopolitical Instability, Strategic Rivalries, And The Specter Of Regional War – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | ME Conflict",
-      "priority": 5,
-      "category": "军事冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Israel sends team to Qatar for talks with Hamas on ceasefire-hostages deal - News On AIR",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPenNwLUhremFvU2g4Nmd5Y24tS0JmV0ZaS0RnNWRRN1B0aGo0WUJpQmVUUDhucm8tOXZMaWdENElmckZlQmphaVd6WnlwY2VvNHpQRkY3cXN4bVdvbEwtLTZDczFFWmFoeGwzUzVMN1lpbm93TlZCcEJKOHlPRy1HRmJsaUNiTEt3Skl4Ty1PWGJ2SlVKQWs4TzU1djV6X0E0bnc?oc=5",
-      "published": "Mon, 08 Jun 2026 23:58:26 GMT",
-      "summary": "Israel sends team to Qatar for talks with Hamas on ceasefire-hostages deal&nbsp;&nbsp;News On AIR",
-      "source": "GNews | Israel-Gaza",
-      "priority": 5,
-      "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -132,8 +130,9 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT",
       "summary": "Beyond managed rivalry: The non-nuclear-weapon state perspective on the future of arms control&nbsp;&nbsp;Bulletin of the Atomic Scientists",
       "source": "GNews | Arms Control",
-      "priority": 3,
+      "priority": 3.6,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -142,18 +141,20 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT",
       "summary": "Arms control, risk reduction, and the art of the possible&nbsp;&nbsp;Bulletin of the Atomic Scientists",
       "source": "GNews | Arms Control",
-      "priority": 3,
+      "priority": 3.6,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
       "title": "Experts Assess NPT Review Conference - Arms Control Association",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTlIa0hIdjc2c1ZRa2FCLXlEQVp6ak42ZVhaNVpyNnVJRWFxcXRLVmpjakZJTzZDVUZWYndOZXp1M2Vmb21CczFZaHgzOXpldkptblFxMnBXaFVabnpRaVV3VFU2bG9HTlNwUHZpbUEwZ2VUMnpGVnZIbXlWTnFfb25yUzhXYUkwaVlodnBn?oc=5",
-      "published": "Thu, 11 Jun 2026 00:32:46 GMT",
+      "published": "Thu, 11 Jun 2026 12:31:03 GMT",
       "summary": "Experts Assess NPT Review Conference&nbsp;&nbsp;Arms Control Association",
       "source": "GNews | Arms Control",
-      "priority": 3,
+      "priority": 3.6,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -162,8 +163,9 @@
       "published": "Sun, 31 May 2026 16:00:00 GMT",
       "summary": "China patrols near disputed South China Sea waters&nbsp;&nbsp;Taipei Times",
       "source": "GNews | SCS/Taiwan",
-      "priority": 3,
+      "priority": 3.6,
       "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -172,8 +174,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Into the Final Week: Can the NPT States Come Together on a Final Document?&nbsp;&nbsp;Arms Control Association",
       "source": "GNews | Arms Control",
-      "priority": 3,
+      "priority": 3.6,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -182,8 +185,20 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "NATO Military Spending 2026: 7 Alarming Risks Ahead?&nbsp;&nbsp;Brussels Morning Newspaper",
       "source": "GNews | NATO/EU Defense",
-      "priority": 3,
+      "priority": 3.6,
       "category": "选举+政策",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "2026 NPT Review Conference Stymied by Disputes - Arms Control Association",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTjZqT0FDTk5vWl9DLXo2NzBrSl9PREctNU1OQTZ2ODY5LWd0encwTXl2akx4QlJkd3lKVEpDYWlEcjVhN095VlVWREs0eEt2dDVyLXphTkUwYVhVcDlqVkdfUFJ4M0VHYXR6RjF2UWJBQTBjeVlhNXRWZ1BKTXBLSG1PM19XNXZzaTNYM2xXUTEtUQ?oc=5",
+      "published": "Mon, 08 Jun 2026 05:51:17 GMT",
+      "summary": "2026 NPT Review Conference Stymied by Disputes&nbsp;&nbsp;Arms Control Association",
+      "source": "GNews | Arms Control",
+      "priority": 3.6,
+      "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -192,19 +207,10 @@
       "published": "Mon, 01 Jun 2026 22:57:45 GMT",
       "summary": "Trump Says U.S., Iran Close to Deal&nbsp;&nbsp;Arms Control Association",
       "source": "GNews | Arms Control",
-      "priority": 3,
+      "priority": 3.6,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "medium"
-    },
-    {
-      "title": "The Escalation Trajectory of U.S.-Iran Tensions After the Collapse of the Negotiations - Global Security Review",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEw3U1pZbHZLQW1rTEk0NjczMXVxY0RnYldBN05QOUpKR3FhYWdzdXhXS2xxc3VLUjNWQlV5MVpMdGV1cjkwbG9ueGJ5NjVaZnNLMUM2bU1zU1VwSmJnRXFCNExEM3NKVXBXUkQxZVBBN0dXOUpmdEJjZHB5QU0wVXVCbWN5RjZLbnFvVU1tTVQtZVZtTDdPSVNUUEowR0ZpbG9zdXZJVV9VREkzOERkNDRrTDBMaktPU3VR?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "The Escalation Trajectory of U.S.-Iran Tensions After the Collapse of the Negotiations&nbsp;&nbsp;Global Security Review",
-      "source": "GNews | ME Conflict",
-      "priority": 1,
-      "category": "军事冲突",
-      "relevance": "low"
     },
     {
       "title": "Taiwan Condemns China Coast Guard Patrols Near East - Modern Diplomacy",
@@ -212,8 +218,9 @@
       "published": "Mon, 08 Jun 2026 02:12:48 GMT",
       "summary": "Taiwan Condemns China Coast Guard Patrols Near East&nbsp;&nbsp;Modern Diplomacy",
       "source": "GNews | SCS/Taiwan",
-      "priority": 1,
+      "priority": 1.2,
       "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -222,8 +229,9 @@
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "The 11th NPT Review Conference ends with a whimper&nbsp;&nbsp;Bulletin of the Atomic Scientists",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -232,8 +240,9 @@
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "Third Time is the Сharm: 2026 NPT Review Conference Ends without Consensus, Again&nbsp;&nbsp;The Astana Times",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -242,8 +251,9 @@
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "Stop bargaining with Europe, start leaving&nbsp;&nbsp;Defense Priorities",
       "source": "GNews | NATO/EU Defense",
-      "priority": 0,
+      "priority": 0.0,
       "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -252,8 +262,9 @@
       "published": "Wed, 20 May 2026 07:00:00 GMT",
       "summary": "UK waters down new Russian oil sanctions as fuel prices rise&nbsp;&nbsp;BBC",
       "source": "GNews | New Sanctions",
-      "priority": 0,
+      "priority": 0.0,
       "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -262,28 +273,9 @@
       "published": "Wed, 13 May 2026 07:00:00 GMT",
       "summary": "Avoiding a new nuclear arms race&nbsp;&nbsp;Chatham House",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
-      "relevance": "low"
-    },
-    {
-      "title": "ELN reflections: 2026 NPT Review Conference - European Leadership Network",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3Vfc2hGWTIzako5R1pRQnN3ZkhJVzBqXzZnbmN3R3pkV256aWN6TXIzemFyV3YxTXZZZTRkOGZ2X0Z0TmwxMm1aRWsxakh2UUhxS3dWaExnaDBMNEdHME1Ta2xWVko4Mi1UaDBaQ1RSenhtUlEtYVV0QkU3elF4bDRDYXp2SkVhWkxjbUZjejFGVGwyMnJv?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "ELN reflections: 2026 NPT Review Conference&nbsp;&nbsp;European Leadership Network",
-      "source": "GNews | Arms Control",
-      "priority": 0,
-      "category": "联合国+国际治理",
-      "relevance": "low"
-    },
-    {
-      "title": "President Obama on Iran: ‘We pulled it off without firing a missile’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHlCWmIwTWo0T1IySUgyRGNSTWl3akRWcXcyS1p5ZUpiTHNwU2lGMVJIQi1pN0VLSVZGeTdkWTNKb09XckJCMWNwTWl2aVlSa3ZyN1VYLXZzX1Bma2dzS295OUs2MkswMURiNm0tdEFDLVZaLVZIRFZ5bXo1VlhYc2l5cFhKZmpS0gGOAUFVX3lxTE42b1dNQmxtT3V2dEF0cG9iWkY5VF94Tkl0THJTTW0xR20xbTMwWHJVcW5CdktEaGhEOXdGc2JZUU9GUE1BbHRfd1JCSEtDUFpReTFzMk1XUEVib1YyMmdlaG9zcGFVNmlad0pYc2lWQkNUZ2c3eWNfbjUyWDRveC0wWUlFdzZjOGE2NU5XSkE?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "President Obama on Iran: ‘We pulled it off without firing a missile’&nbsp;&nbsp;The Hill",
-      "source": "GNews | Iran Nuclear",
-      "priority": 0,
-      "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -292,8 +284,9 @@
       "published": "Wed, 10 Jun 2026 04:18:59 GMT",
       "summary": "US blocks Pakistan-China bid to blacklist BLA, Majeed Brigade at UNSC&nbsp;&nbsp;The New Indian Express",
       "source": "GNews | UNSC",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -302,8 +295,9 @@
       "published": "Wed, 03 Jun 2026 09:49:51 GMT",
       "summary": "Global cooperation on nuclear disarmament looks even further away&nbsp;&nbsp;Chatham House",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -312,8 +306,20 @@
       "published": "Thu, 28 May 2026 07:00:00 GMT",
       "summary": "Europe Should Not Let Nuclear Nonproliferation Die&nbsp;&nbsp;Carnegie Endowment for International Peace",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Michigan Gov. Gretchen Whitmer says she's not running for U.S. president in 2028 - CBC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2xMaDhFMmhpcllKZTVyZVZHM1AtTTNDQk5QM0NqXzZkVjU2WE1OX3NPUE1UWnFNNFpzWWxsNUppTW85bXRMRnhDS0JLUms0a0hvSk9Bc25TV0tudlAwN20ybXEtT3hZN2xkTjYzbGdJdldhaVlBOWZINEVYWkphdUtXbEE3cVk?oc=5",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "Michigan Gov. Gretchen Whitmer says she's not running for U.S. president in 2028&nbsp;&nbsp;CBC",
+      "source": "GNews | US Election",
+      "priority": 0.0,
+      "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -322,8 +328,9 @@
       "published": "Thu, 28 May 2026 00:11:34 GMT",
       "summary": "NK, Singapore ministers hold talks amid renewed ‘Singapore channel’ speculatio­n&nbsp;&nbsp;PressReader",
       "source": "GNews | Signal: Diplomacy First",
-      "priority": 0,
+      "priority": 0.0,
       "category": "信号性查询",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -332,8 +339,9 @@
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "NPT Nuclear Talks Enter Final Stretch in New York&nbsp;&nbsp;The Astana Times",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -342,8 +350,9 @@
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "The Role of the NPT in Preserving Nuclear Dynamics During a Power Transition&nbsp;&nbsp;Centre for Aerospace Power and Strategic Studies",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -352,8 +361,9 @@
       "published": "Thu, 04 Jun 2026 03:00:00 GMT",
       "summary": "Making defence European again&nbsp;&nbsp;European Council on Foreign Relations",
       "source": "GNews | NATO/EU Defense",
-      "priority": 0,
+      "priority": 0.0,
       "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -362,8 +372,9 @@
       "published": "Sun, 17 May 2026 20:11:08 GMT",
       "summary": "Кремль потребовал от МОК объяснить двойные стандарты в отношении России&nbsp;&nbsp;Эксперт - последние новости и публикации журнала Эксперт",
       "source": "GNews | RU Санкции",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -372,8 +383,9 @@
       "published": "Sun, 17 May 2026 07:00:00 GMT",
       "summary": "UAE blames Iran or proxies for strike near nuclear plant, as Trump tells Tehran ‘clock is ticking’&nbsp;&nbsp;The Guardian",
       "source": "GNews | ME Conflict",
-      "priority": 0,
+      "priority": 0.0,
       "category": "军事冲突",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -382,8 +394,9 @@
       "published": "Sun, 17 May 2026 07:00:00 GMT",
       "summary": "«Швидкого фіналу не буде»: експерт зробив невтішний прогноз щодо війни в Україні&nbsp;&nbsp;glavred.net",
       "source": "GNews | UA Санкції",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -392,18 +405,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "CNS Visiting Fellow program now available to French and U.S. nationals!&nbsp;&nbsp;James Martin Center for Nonproliferation Studies",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
-      "relevance": "low"
-    },
-    {
-      "title": "UN human rights leader calls for Cuba sanctions to be ‘lifted immediately’ - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOUtWakRkNm1ob3lYQUlMNk4zU1RPU041WXg4NFEtSmF4S2JkYlA4ajdZYmk4VDVNaERqU1RncV9iZFpkNXpxS0k0bEo1em5pTGpjUXdmejV3b05SR1Z3NWpYRGp1ZTFTMVpkUFNlUGd4N3drcHg2VFBlWEJpeVplU3ZPb1JhZ1N4UmlHY0hrelA5MWJIMmxhRjFNb1JpNkRGOEUwQ1U0X3IyR3lwWHpoakdB0gG3AUFVX3lxTE1GbHJKbG93WWQyNlRUQ3pTVkdmLV9SMEwyd1h3d2VPQ09JWmR6OWQ5TjhLTk14TldydnlyMmktZnFOUm5OMlAzSFZ6VDdXdVR5U2MzV2JJSUJKY2gzV3JIOXo5Vy1sY05jS3RCeVhEelBzckpaNTFNLUpNekt6YVFzU0dYWUpXeWxzNk5ZSEdQOUV5MVlOQXBTMXY4ZlRxTTdWOExJcFd4NTJ0c2o1WmFfNHlQc2NHRQ?oc=5",
-      "published": "Mon, 08 Jun 2026 21:45:40 GMT",
-      "summary": "UN human rights leader calls for Cuba sanctions to be ‘lifted immediately’&nbsp;&nbsp;Al Jazeera",
-      "source": "GNews | New Sanctions",
-      "priority": 0,
-      "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -412,8 +416,9 @@
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
       "summary": "UK, EU and US sanctions on Russia&nbsp;&nbsp;Fieldfisher",
       "source": "GNews | New Sanctions",
-      "priority": 0,
+      "priority": 0.0,
       "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -422,8 +427,9 @@
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
       "summary": "Why a surge of election-related websites could spell rising cyber threats for the midterms&nbsp;&nbsp;PBS",
       "source": "GNews | Info War",
-      "priority": 0,
+      "priority": 0.0,
       "category": "网络+安全",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -432,8 +438,9 @@
       "published": "Fri, 22 May 2026 07:00:00 GMT",
       "summary": "Review Conference Ends without Consensus Outcome amid Rising Nuclear Risks&nbsp;&nbsp;UN Meetings Coverage and Press Releases",
       "source": "GNews | Arms Control",
-      "priority": 0,
+      "priority": 0.0,
       "category": "联合国+国际治理",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -442,8 +449,9 @@
       "published": "Fri, 22 May 2026 07:00:00 GMT",
       "summary": "Iranian state-sponsored hackers exploit Microsoft Exchange, Fortinet flaws to access US infrastructure networks, CRS finds&nbsp;&nbsp;Industrial Cyber",
       "source": "GNews | Cyber Attack",
-      "priority": 0,
+      "priority": 0.0,
       "category": "网络+安全",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -452,8 +460,9 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "From Denial to Due Diligence: Loosening of ITAR Restrictions on Ethiopia&nbsp;&nbsp;Holland & Knight",
       "source": "GNews | New Sanctions",
-      "priority": 0,
+      "priority": 0.0,
       "category": "选举+政策",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -462,8 +471,9 @@
       "published": "Fri, 05 Jun 2026 04:53:00 GMT",
       "summary": "Палата представників США схвалила допомогу Україні та нові санкції проти РФ&nbsp;&nbsp;fakty.com.ua",
       "source": "GNews | UA Санкції",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     }
   ]

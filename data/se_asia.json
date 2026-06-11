@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "东南亚深度",
-  "updated": "2026-06-11T13:06:29.945939+00:00",
+  "updated": "2026-06-11T13:36:17.887717+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 100,
-  "high_priority": 1,
-  "medium_priority": 48,
+  "total": 93,
+  "high_priority": 2,
+  "medium_priority": 43,
   "signal_alerts": {},
   "stats_by_category": {
     "新加坡": {
@@ -13,7 +13,7 @@
       "feeds": 3
     },
     "越南": {
-      "count": 140,
+      "count": 150,
       "feeds": 5
     },
     "印尼": {
@@ -45,7 +45,7 @@
       "feeds": 2
     },
     "气候+人口": {
-      "count": 40,
+      "count": 60,
       "feeds": 2
     },
     "大国关系": {
@@ -74,8 +74,20 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "Malaysia’s 5.4% GDP growth signals economic resilience as exports and investments surge&nbsp;&nbsp;The Vibes",
       "source": "GNews | MY Economy",
-      "priority": 10,
+      "priority": 12.0,
       "category": "马来西亚",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Vietnam Airlines surpasses Singapore Airlines, Korean Air in list of Asia-Pacific's most punctual carriers",
+      "link": "https://e.vnexpress.net/news/travel/vietnam-airlines-surpasses-singapore-airlines-korean-air-in-list-of-asia-pacific-s-most-punctual-carriers-5084585.html",
+      "published": "Thu, 11 Jun 2026 14:55:44 +0700",
+      "summary": "National flag carrier Vietnam Airlines has been ranked among the top three most punctual airlines in the Asia-Pacific region in 2026, according to the On-Time Performance (OTP) report released by aviation analytics firm Cirium, a strategic partner of the International Air Transport Association (IATA).",
+      "source": "VN Express EN",
+      "priority": 10.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "high"
     },
     {
@@ -84,8 +96,9 @@
       "published": "Wed, 10 Jun 2026 12:43:37 GMT",
       "summary": "Four in Five Business Leaders Expect Permanent Disruption as AI, Tariffs and Critical Minerals Competition Reshape Global Commerce, Finds DMCC Future of Trade Report&nbsp;&nbsp;MultiVu",
       "source": "GNews | SG Economy",
-      "priority": 8,
+      "priority": 9.6,
       "category": "新加坡",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -94,18 +107,9 @@
       "published": "Sun, 07 Jun 2026 17:20:10 GMT",
       "summary": "Indonesia (IDN) Exports, Imports, and Trade Partners&nbsp;&nbsp;The Observatory of Economic Complexity",
       "source": "GNews | MY Economy",
-      "priority": 8,
+      "priority": 9.6,
       "category": "马来西亚",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vietnam Airlines surpasses Singapore Airlines, Korean Air in list of Asia-Pacific's most punctual carriers",
-      "link": "https://e.vnexpress.net/news/travel/vietnam-airlines-surpasses-singapore-airlines-korean-air-in-list-of-asia-pacific-s-most-punctual-carriers-5084585.html",
-      "published": "Thu, 11 Jun 2026 14:55:44 +0700",
-      "summary": "National flag carrier Vietnam Airlines has been ranked among the top three most punctual airlines in the Asia-Pacific region in 2026, according to the On-Time Performance (OTP) report released by aviation analytics firm Cirium, a strategic partner of the International Air Transport Association (IATA).",
-      "source": "VN Express EN",
-      "priority": 7,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -114,8 +118,9 @@
       "published": "Thu, 11 Jun 2026 14:22:59 +0700",
       "summary": "Vietnam's leading hospitality giant Sun Group proposed several strategic pillars of cooperation between businesses of the two countries, aiming to further strengthen trade and economic ties between Vietnam and Thailand.",
       "source": "VN Express EN",
-      "priority": 7,
+      "priority": 8.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -124,28 +129,9 @@
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Tong's Portfolio - Vietnam will be the next Asian Tiger&nbsp;&nbsp;The Edge Malaysia",
       "source": "GNews | VN Economy",
-      "priority": 7,
+      "priority": 8.4,
       "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vietnam’s startup ecosystem gains momentum on global stage - Vietnam+ (VietnamPlus)",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM0J0Sm03N0phX25JX3BOWWZNS0RRalVEcUhiM05aX1JmSkVyQ1U0TktOOXBhLXRNVy1BS3RhLUVqXzdGWmF6RU01QVBqbHFCZDZmWjA3OHZ5MjRDdE9hdnV3VnFXRGtYMDNVUFppVUdCSUU1ZmhWSzJ2MlJmeWhWcWNTT3hONWt6dm9YaVdOT3RyNGFaaUl4WEIwX2szbG8?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "Vietnam’s startup ecosystem gains momentum on global stage&nbsp;&nbsp;Vietnam+ (VietnamPlus)",
-      "source": "GNews | SE Asia Tech",
-      "priority": 6,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Malaysia’s Semiconductor Boom Reshapes Travel Demand as Penang and Kuala Lumpur Emerge as Asia’s New Business Mobility Hubs - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lX25aT0pHaHNqWEVrOFFEeEFyNU9ldXVBV0g4ODVrSUZwaHVwUFJpdV93cDFuWFBTWWt1dzFIU29sQTdqRkpZOVNPaEN1eFVmbXpHd3JXZHBEalBMTE5VcnpSRElsa2NPWnlfTjhn?oc=5",
-      "published": "Tue, 09 Jun 2026 10:29:07 GMT",
-      "summary": "Malaysia’s Semiconductor Boom Reshapes Travel Demand as Penang and Kuala Lumpur Emerge as Asia’s New Business Mobility Hubs&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 6,
-      "category": "马来西亚",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -154,18 +140,20 @@
       "published": "Thu, 11 Jun 2026 10:24:57 +0700",
       "summary": "Vietnam gold prices extended their decline Thursday, hitting the lowest level since Sep. 28, while global rates recovered from a six-month bottom.",
       "source": "VN Express EN",
-      "priority": 6,
+      "priority": 7.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "The Iran conflict is prompting a historic shift in Asean’s energy strategy - The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEFsQm9OTFhUVXp5Q3E2T0MtLTlIQ1FQVDR2eUM4cU0xV0dnZVBCN0oyWS1nWjNlUUJZeEZ1QTY2OUdISjBkM25JNmJsTUdPRVE0RDJzQlNoclVxTFk3MEozVkM5YjItZWpYeWlwdWRJc1BaQm9uRXoxQUxSNnJ6QVBuSWJPRV9pQUhBYkMzb0ViNTRxNEdWd0JJNmlSTk9Ub2g5eWFoYW1GVE9MQ2dwcQ?oc=5",
-      "published": "Thu, 04 Jun 2026 23:00:00 GMT",
-      "summary": "The Iran conflict is prompting a historic shift in Asean’s energy strategy&nbsp;&nbsp;The Business Times",
-      "source": "GNews | Signal: SE Asia Record",
-      "priority": 6,
-      "category": "信号性查询",
+      "title": "Vietnam’s startup ecosystem gains momentum on global stage - Vietnam+ (VietnamPlus)",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM0J0Sm03N0phX25JX3BOWWZNS0RRalVEcUhiM05aX1JmSkVyQ1U0TktOOXBhLXRNVy1BS3RhLUVqXzdGWmF6RU01QVBqbHFCZDZmWjA3OHZ5MjRDdE9hdnV3VnFXRGtYMDNVUFppVUdCSUU1ZmhWSzJ2MlJmeWhWcWNTT3hONWt6dm9YaVdOT3RyNGFaaUl4WEIwX2szbG8?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "Vietnam’s startup ecosystem gains momentum on global stage&nbsp;&nbsp;Vietnam+ (VietnamPlus)",
+      "source": "GNews | SE Asia Tech",
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -174,118 +162,9 @@
       "published": "Fri, 22 May 2026 07:00:00 GMT",
       "summary": "Indonesias manufacturing sector remains economys main driver&nbsp;&nbsp;ANTARA News",
       "source": "GNews | ID Economy",
-      "priority": 6,
+      "priority": 7.2,
       "category": "印尼",
-      "relevance": "medium"
-    },
-    {
-      "title": "Actual investment jump strengthens Thailand’s growth outlook - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12N291VEZDTE1TYkszUGJkVWpkNmpFQk5EZ29JNEREeHlCeUQwSG90bUpLY2p5RFY3MkJTX1ltbXhmcHNBUHh4T0FWVHZhc1FuU1ZvZkNlWDhoS2lvUnpuZC1ITnZrLWM?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "Actual investment jump strengthens Thailand’s growth outlook&nbsp;&nbsp;Nation Thailand",
-      "source": "GNews | TH Economy",
-      "priority": 5,
-      "category": "泰国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Penang trade hits RM955bil as exports surge in 2025 - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWE1jY3FjRGMzc2p4eUFzZUQtclUycGpCaW1GY2ViWFpBTmhNeEZQX3hjd01XTWRiVDQ1UVFkLXNkWmxEeUM4NEFuNmFzVTNSM3h0WG5ldHhhTkRDY0N2UFAyOTFQeUZXOEs2SVd1QUdXNmlFcXp2ZWpIbGlwSzZPQWlNY01WRmtlNkRaS0k3SnpLX2J0ajNNZzlyT0dGVEHSAaQBQVVfeXFMTURBUEg2OXhQNTdNNi1PYVcwMlJxY1h4WmREVmNPZEtiVkh6YWh0b1NRSk9Rd195N1hJU29nN3ltc182OGQ4RTlvajRaMUQ2OUJ3LUFDRFoySkpyVG81WmxNbXp5UlNwSUtfcW1KNGgxVnBYcG92T0Y5ZmFqUmMxY04xVHJ3dFF3SXMwalk0UTJ4d2RJOWllTnVfYThsTjZBcDA4a28?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "Penang trade hits RM955bil as exports surge in 2025&nbsp;&nbsp;NST Online",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 5,
-      "category": "马来西亚",
-      "relevance": "medium"
-    },
-    {
-      "title": "ASEAN’s physical economy moment - Lowy Institute",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWTBrU1Z0ZmxsMDlpc0w0Qlh3a0loVHJyOW04VTgtYWt0WGlZTDJpX0xGelYxNWxqOFRFbmFIQlJYWVF5c1dwN21kZmFsbXJJZmRLNEZmOWdwblJlLWVQU1FMRDd2YVhMQjUzTnRlSGlySV90ZjdGMFh4Um1PWHFLa3BlTQ?oc=5",
-      "published": "Wed, 10 Jun 2026 03:19:37 GMT",
-      "summary": "ASEAN’s physical economy moment&nbsp;&nbsp;Lowy Institute",
-      "source": "GNews | SE Asia Infra",
-      "priority": 5,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Fintech Laws and Regulations Report 2025 - 2026 Singapore - ICLG",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpYkUtUzlNbzhOeExLSktNeUYwZHJmUlNRa3RrY1hlZFdCVnhuQWViRjR6Y0NkX1plcFRYbWJyTXJrWU5DTUxwelp6YUtzc3hOUG4zWjM5cmtPVHVrNHhQQk5icm8zTDBZRlNCa2h2cFBid0NabzIyRTZDZw?oc=5",
-      "published": "Tue, 19 May 2026 10:53:40 GMT",
-      "summary": "Fintech Laws and Regulations Report 2025 - 2026 Singapore&nbsp;&nbsp;ICLG",
-      "source": "GNews | SG MAS/Fintech",
-      "priority": 5,
-      "category": "新加坡",
-      "relevance": "medium"
-    },
-    {
-      "title": "U.S. Trade Deficit Narrows Amid Record Export Surge - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTElxdFRDNFFzVDA5MUFKUTlod3VmWDBhUnVaQmZRSzhWRHRLRHpJMTVYdUExQnlqUEZ4MDVrQUJ0UjF2UXRIRHhsRW9GZXRPYzRscjluUGdBdEdxQmpMM1lTcnNlRXdPR1dTaVcyWWRmc1NybHBTQ0RqOGo0TnF5UUJjWUN2ZnIycDlmQ2tKV3g1YjJRdnc2SlpDcGpuZTVUMUZsZWQ3ZkVOMGfSAasBQVVfeXFMUExJcXRUQzRRc1QwOTFBSlE5aHd1ZlgwYVJ1WkJmUUs4VkR0S0R6STE1WHVBMUJ5alBGeDA1a0FCdFIxdlF0SER4bEVvRmV0T2M0bHI5blBnQXRHcUJqTDNZU3JzZUV3T0dXU2lXMllkZnNTcmxwU0NEajhqNE5xeVFCY1lDdmZyMnA5ZkNrSld4NWIyUXZ3NkpaQ3BqbmU1VDFGbGVkN2ZFTjBn?oc=5",
-      "published": "Tue, 09 Jun 2026 12:38:27 GMT",
-      "summary": "U.S. Trade Deficit Narrows Amid Record Export Surge&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | Signal: SE Asia Record",
-      "priority": 5,
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vietnam’s rising trade deficit: Warning sign or foundation for growth? - VOV.VN",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0RVamFrZ2ZCc2ZmSjBnOTMxazlFTk5xRmc0aVhvYjdRQUNNS3Boa2RiT2QwMXg0OEVpd1ZYMTNfZUJEaXRiQ24wc091X3dickFCLUY3eXVQTkNMazJMcThEcjJhbEZiejRrZ0M2R0FRNEV6MWNBcUgwRlA4WC1Qd3pMOUhXOE1zcExwd05WYnBfcE80blJvQWdCbThhS003aWhwUkU4MG9PM05RQmJsYzBkSFRkcXdD?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Vietnam’s rising trade deficit: Warning sign or foundation for growth?&nbsp;&nbsp;VOV.VN",
-      "source": "GNews | VN Trade/FDI",
-      "priority": 5,
-      "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "Between Talks and Tensions: Why the South China Sea Won’t Stabilise in 2026 - fulcrum.sg",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnd4XzlES2NaWnAxLXpzdjBOUUh1WWRJTHNzcmNjSERyRkwxT25tUlZwTlhhNnZ4cU1YU2xzZlVpNVY5YzY0OUMtaGpIZXZTcmt2cnkwNUd3MERuMXBMWXBpNHo4RkNONmVOaUxwTmFFd1hfa3FlT0NKemRXX0g2dUhGS3hGeGdsWm9TUlgwTm1nYVVJR0JZYQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Between Talks and Tensions: Why the South China Sea Won’t Stabilise in 2026&nbsp;&nbsp;fulcrum.sg",
-      "source": "GNews | SCS/ASEAN",
-      "priority": 5,
-      "category": "政治+社会",
-      "relevance": "medium"
-    },
-    {
-      "title": "Google Cloud launches Southeast Asia to Silicon Valley AI startup corridor - Vietnam Investment Review - VIR",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUVFZXY1TURFV0pYZ1VISHVFZVNPRTd0aUg1NUxRTXY2MTNUQ2FGQkx1QlAyMEJRanJmTTctZ0hKcktuemVrS2VwQ2JaOEU0T1FYNGZMbVZIOUk5aE5NaGZYUS13Q0U2MWw2WnpYOFFDd21hRVJEZW5fMzVkQkRtUWs4RTYybFQ4SnBxazdNcWNFRXpjcXA5eDNDaWk3VHZPWnE0YmpEWm0?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Google Cloud launches Southeast Asia to Silicon Valley AI startup corridor&nbsp;&nbsp;Vietnam Investment Review - VIR",
-      "source": "GNews | SE Asia Tech",
-      "priority": 4,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Google supported over 500 Vietnamese startups in commercial scaling - Vietnam Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMC1rTGNzNWxxQUtfc0RqTHBPcnhpcHJHOXE5MU5YMFZFOE13UWVIUFJaMGp1MGJUNlEyNW5QY3U2YmEtNXdxUC1FWGZGeDNIRUEyTFAxWTM0SWt4U3lEblNNZW5oWDFWVnFEenJVT3FYaVhuS1REMDNKd3pYdklWOXZrOERxNURQYVRNc0w0N3lpd0VrMzROUENjbw?oc=5",
-      "published": "Tue, 02 Jun 2026 07:20:00 GMT",
-      "summary": "Google supported over 500 Vietnamese startups in commercial scaling&nbsp;&nbsp;Vietnam Economic Times",
-      "source": "GNews | SE Asia Tech",
-      "priority": 4,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Myanmar junta approves 12 new investment projects as it seeks to project economic stability - eng.mizzima.com",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkN2p1SzNfVThoUGNDa1RsOE1NdnVHdnVmRHlYWmRRdGVMMFNjbWNLYXpVbXZEU2dqQ3hrYkJYdFhIVm5SaFRRZnBQRmYtVDdkZ1E?oc=5",
-      "published": "Tue, 02 Jun 2026 03:41:21 GMT",
-      "summary": "Myanmar junta approves 12 new investment projects as it seeks to project economic stability&nbsp;&nbsp;eng.mizzima.com",
-      "source": "GNews | MM Trade/Sanction",
-      "priority": 4,
-      "category": "柬埔寨+缅甸+老挝",
-      "relevance": "medium"
-    },
-    {
-      "title": "Penang attracts RM32.9 billion approved investments in 2025 as semiconductor boom continues - Harapan Daily",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnpGbzRSX2FkSVZIdEM0ZTFpUkh5R1F1ZDdWT1RNU25iWXlxeDluQi1La2lNdDBRQ0JsTUxYLTY3NktCNW9kWUNSMFkxaENKWVJla0lOSE4yS3BYQk1sOUExTEdLMnVEWGVUWGtRRkNSUEhFZjl3MzJBUmM1RExMRG9VbVk3dm1uLUc2SnpKaFkxcUp4SS1aV09Bdnl1azVfMzA1cV9uTTdJUVBpcnFFTXlpajNfT185WE9nb2RSSTZ0b0VCVmR3?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "Penang attracts RM32.9 billion approved investments in 2025 as semiconductor boom continues&nbsp;&nbsp;Harapan Daily",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 4,
-      "category": "马来西亚",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -294,8 +173,53 @@
       "published": "Thu, 11 Jun 2026 16:03:00 +0700",
       "summary": "The Thai government has reportedly approved a budget of 9.8 million baht to support the operations of the Thai&ndash;Cambodian Joint Information Coordination Centre (JIC), aiming to strengthen its ability to communicate information to the international community.",
       "source": "Bangkok Post",
-      "priority": 4,
+      "priority": 6.05,
       "category": "泰国",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Actual investment jump strengthens Thailand’s growth outlook - Nation Thailand",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12N291VEZDTE1TYkszUGJkVWpkNmpFQk5EZ29JNEREeHlCeUQwSG90bUpLY2p5RFY3MkJTX1ltbXhmcHNBUHh4T0FWVHZhc1FuU1ZvZkNlWDhoS2lvUnpuZC1ITnZrLWM?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "Actual investment jump strengthens Thailand’s growth outlook&nbsp;&nbsp;Nation Thailand",
+      "source": "GNews | TH Economy",
+      "priority": 6.0,
+      "category": "泰国",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Penang trade hits RM955bil as exports surge in 2025 - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWE1jY3FjRGMzc2p4eUFzZUQtclUycGpCaW1GY2ViWFpBTmhNeEZQX3hjd01XTWRiVDQ1UVFkLXNkWmxEeUM4NEFuNmFzVTNSM3h0WG5ldHhhTkRDY0N2UFAyOTFQeUZXOEs2SVd1QUdXNmlFcXp2ZWpIbGlwSzZPQWlNY01WRmtlNkRaS0k3SnpLX2J0ajNNZzlyT0dGVEHSAaQBQVVfeXFMTURBUEg2OXhQNTdNNi1PYVcwMlJxY1h4WmREVmNPZEtiVkh6YWh0b1NRSk9Rd195N1hJU29nN3ltc182OGQ4RTlvajRaMUQ2OUJ3LUFDRFoySkpyVG81WmxNbXp5UlNwSUtfcW1KNGgxVnBYcG92T0Y5ZmFqUmMxY04xVHJ3dFF3SXMwalk0UTJ4d2RJOWllTnVfYThsTjZBcDA4a28?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "Penang trade hits RM955bil as exports surge in 2025&nbsp;&nbsp;NST Online",
+      "source": "GNews | MY Semi/Trade",
+      "priority": 6.0,
+      "category": "马来西亚",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Fintech Laws and Regulations Report 2025 - 2026 Singapore - ICLG",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpYkUtUzlNbzhOeExLSktNeUYwZHJmUlNRa3RrY1hlZFdCVnhuQWViRjR6Y0NkX1plcFRYbWJyTXJrWU5DTUxwelp6YUtzc3hOUG4zWjM5cmtPVHVrNHhQQk5icm8zTDBZRlNCa2h2cFBid0NabzIyRTZDZw?oc=5",
+      "published": "Tue, 19 May 2026 10:53:40 GMT",
+      "summary": "Fintech Laws and Regulations Report 2025 - 2026 Singapore&nbsp;&nbsp;ICLG",
+      "source": "GNews | SG MAS/Fintech",
+      "priority": 6.0,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vietnam’s rising trade deficit: Warning sign or foundation for growth? - VOV.VN",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0RVamFrZ2ZCc2ZmSjBnOTMxazlFTk5xRmc0aVhvYjdRQUNNS3Boa2RiT2QwMXg0OEVpd1ZYMTNfZUJEaXRiQ24wc091X3dickFCLUY3eXVQTkNMazJMcThEcjJhbEZiejRrZ0M2R0FRNEV6MWNBcUgwRlA4WC1Qd3pMOUhXOE1zcExwd05WYnBfcE80blJvQWdCbThhS003aWhwUkU4MG9PM05RQmJsYzBkSFRkcXdD?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Vietnam’s rising trade deficit: Warning sign or foundation for growth?&nbsp;&nbsp;VOV.VN",
+      "source": "GNews | VN Trade/FDI",
+      "priority": 6.0,
+      "category": "越南",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -304,158 +228,20 @@
       "published": "Thu, 11 Jun 2026 15:53:44 +0700",
       "summary": "Singaporean households can each receive S$500 (US$380) worth of Community Development Council (CDC) vouchers from June 11 to help ease cost-of-living pressures.",
       "source": "VN Express EN",
-      "priority": 4,
+      "priority": 6.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "Long Thanh, Southeast Asia's next big airport, powers up for December opening",
-      "link": "https://e.vnexpress.net/news/news/traffic/long-thanh-southeast-asia-s-next-big-airport-powers-up-for-december-opening-5084293.html",
-      "published": "Thu, 11 Jun 2026 13:34:27 +0700",
-      "summary": "Long Thanh airport, the VND336.63 trillion (US$12.8 billion) project set to become Vietnam's largest, has switched on its main power supply, clearing one of the last big infrastructure hurdles before a planned commercial launch at the end of 2026.",
-      "source": "VN Express EN",
-      "priority": 4,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "World’s second-richest country revives 19th-century cooling technology to beat rising heat",
-      "link": "https://e.vnexpress.net/news/tech/tech-news/world-s-second-richest-country-revives-19th-century-cooling-technology-to-beat-rising-heat-5084396.html",
-      "published": "Thu, 11 Jun 2026 10:48:25 +0700",
-      "summary": "Singapore is expanding a 140-year-old underground cooling technology to cut energy use and help the city adapt to rising temperatures.",
-      "source": "VN Express EN",
-      "priority": 4,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "Singapore is riding the global AI investment boom but there are risks, says MTI - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGNOTG0xSmxjRmppSHlGN05GWmo1Zy12eGRqdkJndi1iWFl6dnNwNzNmMEdZazllajdwMGc0aGRuZFFwRWR5dlJnLUNUanBRZ2xkSmp3ZFJNdENvUS10MXBNQTZacE9Va2Q1SENscWgxY3FkSVhhbXowbkNneW5rTzk0OUp6d0FSbVVvV2dDeXZnSXpuYTAzV3hwMDhJUGNiNm4tSW1HTDlpZExCU1owZndMUE5Pckw1MnRN?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Singapore is riding the global AI investment boom but there are risks, says MTI&nbsp;&nbsp;The Straits Times",
-      "source": "GNews | SG Economy",
-      "priority": 4,
-      "category": "新加坡",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vietnam seen as attractive investment destination for 2026–2035 - Vietnam+ (VietnamPlus)",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS1piNGJsYjdENFJTdDN6alc0QmxZY0ZRRVdFd2pETXpQdkYtSWJZZzNGU3Zza2hVSzVpQUJIdTBTYkU1Vzd5cEM2cGVmajR3bVNCWl92STlDS2dsaVpNblUydzNBak50ZTFabkdpWkIweFpGbEk2MmFrWFlSQndhQlNmdllrT3M0ZzdKbU81RHFpdmJTU0dneDJDVkg2VFdKSHFMSUtB?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Vietnam seen as attractive investment destination for 2026–2035&nbsp;&nbsp;Vietnam+ (VietnamPlus)",
-      "source": "GNews | VN Trade/FDI",
-      "priority": 4,
-      "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "HSBC: Việt Nam duy trì lợi thế tăng trưởng từ thương mại và FDI - VnEconomy",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYWZhWTYxX29QeEo3TjJUeml3dGNTU0VkZHhyUzZUWmVzbkhwZ0JycUl4NUtGakNqbXlQQkttUFI3bDNTZEw3X1d3dUN2ejhIM2EtRW5oa1d6V0Z2VFJLX3NUeG1WZW9MVE9FbFQyNUVIcUNMem1wQS1abjhVZHd6RFJJeGhGUnl0Zm0yVHdsZko?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "HSBC: Việt Nam duy trì lợi thế tăng trưởng từ thương mại và FDI&nbsp;&nbsp;VnEconomy",
-      "source": "GNews | VN Tiếng Việt",
-      "priority": 3,
-      "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "International media gives positive assessments of Vietnam’s economic prospects - moit.gov.vn",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZldMZkRiSnh3cFE1dFRQTlg0TnhFeURfUW04OGp0bGtiZXJUM0hJNUNUR1JsLXZYYzUwOTB6RVdFODRmak5pUDZNTE5XWTB0YzBWUS1BUFZXcGY3bGh1Mm1mck1wR3pYM1hsUlZPQTE1Ym00Z2VNS3d4NURHTU9sNndCSkxqZTFPT3FkNmE1OGhuLW15VEt3N0hYamNENG0xWkRnLTdLN2Nsem1maGlNZA?oc=5",
-      "published": "Tue, 26 May 2026 13:32:42 GMT",
-      "summary": "International media gives positive assessments of Vietnam’s economic prospects&nbsp;&nbsp;moit.gov.vn",
-      "source": "GNews | VN Trade/FDI",
-      "priority": 3,
-      "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "RAMpocalypse now and beyond: Malaysia’s chip hub of Penang is riding the AI wave - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOUdiblgtUEI2V3RUSlh6cG5yVnVyUVUtSkg1VmpJel93MEJHeDZoTDVBaDMyVEFLVTFHZ0M2MjgzNXBrU18xdDRQVHpyRVZGV2lTS01WSDlmRDdhaUZuSW9KT1JxNklnTjhfVllrMkRLRDltZnBfMkFPUTlXcktrbElYRzl6WDBzUTJ6UmNsR3dJYWZjbmZpWS0wMkxDQVVDNlotNjcxNTNwTDNfemM0SXgwX2pwYmluZk9sTTdPUWRWRmtJU2tLSnNSYw?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "RAMpocalypse now and beyond: Malaysia’s chip hub of Penang is riding the AI wave&nbsp;&nbsp;The Straits Times",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 3,
-      "category": "马来西亚",
-      "relevance": "medium"
-    },
-    {
-      "title": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim - Astro Awani",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajhWSW5WSTRoelpJQnVQaGFlS203Q0wxVFR2NGVCUmdzUmhJMjI3Q2diOFR2RkpRVU1aa0owUUtVWG56bnJNZ1hkVlA5c24xZlNVcVREQlZYTFlaLVRpbkh5SkJMR2szZmFqX1VSS2pIMllvcGdaM282Vzc5NFpSMjZyMGs4LWNHdm1ad0hKOTN2by11ek1vR2VxR3pLZk1WV2tHSkVwdVp0U0tmZUN0d2tzY3c3RU14b0pkS3JIaU5DUUlsOGhQbm5qSjA0eHlLSldzYS1WMDY?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim&nbsp;&nbsp;Astro Awani",
-      "source": "GNews | MY Bahasa Melayu",
-      "priority": 3,
-      "category": "本地语言搜索",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vietnam seeks to free $127 billion trapped in real estate projects - Báo VietNamNet",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbkRKYTY0Wm0xZEx5OTNiNWxEcUw1Y1FKS3ZYMXlFTTE1NWFsWHpjRURvbEhNV1V3NFREZk5Wd2V6b2I4YThJOTlmNmI5dVdtbE1Zel9PenFrdzd0YW9WOVd5RE5FTnIweUY2Z1loajRwNlVmaWlNVHg4RmpZN2VSenY5ZENNWS1PdmhEYi1ENXN2SGREUFFUZ2xZWW84X2NlN1UxS1h3?oc=5",
-      "published": "Tue, 09 Jun 2026 01:01:00 GMT",
-      "summary": "Vietnam seeks to free $127 billion trapped in real estate projects&nbsp;&nbsp;Báo VietNamNet",
-      "source": "GNews | VN Economy",
-      "priority": 3,
-      "category": "越南",
-      "relevance": "medium"
-    },
-    {
-      "title": "Philippines can avoid stagflation, UA&P economists say - Inquirer.net",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEN3LVlTd3l6Q1ZvS1BfLTFLbzNBTzRqQzRkRkg3endKc3RFdkoxZ3BtWHNCMGtIaG01Q0RFOXE5bFhiTUM2RjFWZWdKNDhBOUt3V3YyZlJ0MWlWYUpDV2NhSF9xeWVRTVNHOWdsWXlPVXMzVmttZXhOSHg0YnFLOUNONm9OWjBjU21UWUdIdHRfZkXSAZgBQVVfeXFMT3E0eTU1RHdvMHA5a2NEOWdVaXZlcnBLME1DNm4wb1RfbXFEanV4OVR3T0dtNC05aTQzOW0zY3RFUVZlOUZTTVNlOU85WFY3UkdKMXJUYzhEeEoxakFEMnVhbFdQbXZYVVU0NGhXc2xqMFllcHQ3bHFyU3VPY3Z2Y2RlbFgzd3VjVGVha1lyMFpiWE1NeEFfN0s?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "Philippines can avoid stagflation, UA&amp;P economists say&nbsp;&nbsp;Inquirer.net",
-      "source": "GNews | PH Economy",
-      "priority": 3,
-      "category": "菲律宾",
-      "relevance": "medium"
-    },
-    {
-      "title": "Yakult Singapore’s move to replace orange flavor with peach draws mixed reactions",
-      "link": "https://e.vnexpress.net/news/business/companies/yakult-singapore-s-move-to-replace-orange-flavor-with-peach-draws-mixed-reactions-5084464.html",
-      "published": "Thu, 11 Jun 2026 17:00:00 +0700",
-      "summary": "Japanese drink maker Yakult's decision to replace its orange-flavored probiotic drink with a peach version in Singapore has drawn mixed reactions among local fans of the beverage.",
-      "source": "VN Express EN",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "Thai farm debt crisis a test for Anutin government",
-      "link": "https://www.bangkokpost.com/thailand/general/3269410/thai-farm-debt-crisis-a-test-for-anutin-government",
-      "published": "Thu, 11 Jun 2026 16:43:00 +0700",
-      "summary": "Ahead of the Feb 8 general election, politicians ​often came to court voters like 69-year-old rice farmer Chaon Taiupok in Ayutthaya, about &zwnj;80km north of Bangkok.",
-      "source": "Bangkok Post",
-      "priority": 3,
-      "category": "泰国",
-      "relevance": "medium"
-    },
-    {
-      "title": "A muted flavouring to the face",
-      "link": "https://www.bangkokpost.com/life/social-and-lifestyle/3269385/a-muted-flavouring-to-the-face",
-      "published": "Thu, 11 Jun 2026 16:42:00 +0700",
-      "summary": "If your makeup routine has been feeling a little too heavy for Thailand&rsquo;s relentless heat, consider this your sign to scale things back. The latest beauty trend taking over Thai social media is all about being effortlessly put together, and looking like you&rsquo;re barely wearing any makeup at all.",
-      "source": "Bangkok Post",
-      "priority": 3,
-      "category": "泰国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Hanoi street vendor fined for charging foreign tourist 10 times normal price for snacks",
-      "link": "https://e.vnexpress.net/news/travel/hanoi-street-vendor-fined-for-charging-foreign-tourist-10-times-normal-price-for-snacks-5084620.html",
-      "published": "Thu, 11 Jun 2026 15:58:40 +0700",
-      "summary": "A street vendor in Hanoi's Hoan Kiem Ward has been fined VND225,000 (US$8.54) for selling fried rice balls to a foreign tourist for VND43,000 each, nearly 10 times the regular price.",
-      "source": "VN Express EN",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "Selling voices to AI emerges as lucrative side hustle",
-      "link": "https://e.vnexpress.net/news/tech/tech-news/selling-voices-to-ai-emerges-as-lucrative-side-hustle-5084057.html",
-      "published": "Thu, 11 Jun 2026 15:57:41 +0700",
-      "summary": "Le Minh, an audiobook narrator, says he occasionally receives offers to work as an “AI voice trainer” for a few hundred thousand to more than one million Vietnamese dong per hour (VND100,000 = US$3.80).",
-      "source": "VN Express EN",
-      "priority": 3,
-      "category": "独立RSS源",
+      "title": "China’s energy export machine keeps project cargo flowing - Heavy Lift & Project Forwarding International",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWllhQUExaTVQd2IwNUlhVjN4U3hzdzhDcFVpOGxaMTlPbEFHVmE0d09YWFFSU29DM0l0MWpqTHo0THFkWUc2SjNWU0VPWWR3azBycnpIME01WVF0ME9oUFRaRml2Z3lDS2FMcUNiYTRsc3VCWnlSekp4NnpaTEc4S2tXTDlNaEJfS0dyVHF6OFhOQ2VLMkpOS0N3dHowWC1VdTk0YQ?oc=5",
+      "published": "Fri, 05 Jun 2026 07:55:05 GMT",
+      "summary": "China’s energy export machine keeps project cargo flowing&nbsp;&nbsp;Heavy Lift & Project Forwarding International",
+      "source": "GNews | SE Asia Infra",
+      "priority": 6.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -464,8 +250,97 @@
       "published": "Thu, 11 Jun 2026 15:43:00 +0700",
       "summary": "A Thai woman who police said was arrested over the death of a US diplomat in Myanmar was remanded in custody by a court on Thursday, a legal official told AFP.",
       "source": "Bangkok Post",
-      "priority": 3,
+      "priority": 4.95,
       "category": "泰国",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Google Cloud launches Southeast Asia to Silicon Valley AI startup corridor - Vietnam Investment Review - VIR",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUVFZXY1TURFV0pYZ1VISHVFZVNPRTd0aUg1NUxRTXY2MTNUQ2FGQkx1QlAyMEJRanJmTTctZ0hKcktuemVrS2VwQ2JaOEU0T1FYNGZMbVZIOUk5aE5NaGZYUS13Q0U2MWw2WnpYOFFDd21hRVJEZW5fMzVkQkRtUWs4RTYybFQ4SnBxazdNcWNFRXpjcXA5eDNDaWk3VHZPWnE0YmpEWm0?oc=5",
+      "published": "Tue, 26 May 2026 11:57:48 GMT",
+      "summary": "Google Cloud launches Southeast Asia to Silicon Valley AI startup corridor&nbsp;&nbsp;Vietnam Investment Review - VIR",
+      "source": "GNews | SE Asia Tech",
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Google supported over 500 Vietnamese startups in commercial scaling - Vietnam Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMC1rTGNzNWxxQUtfc0RqTHBPcnhpcHJHOXE5MU5YMFZFOE13UWVIUFJaMGp1MGJUNlEyNW5QY3U2YmEtNXdxUC1FWGZGeDNIRUEyTFAxWTM0SWt4U3lEblNNZW5oWDFWVnFEenJVT3FYaVhuS1REMDNKd3pYdklWOXZrOERxNURQYVRNc0w0N3lpd0VrMzROUENjbw?oc=5",
+      "published": "Tue, 02 Jun 2026 07:20:00 GMT",
+      "summary": "Google supported over 500 Vietnamese startups in commercial scaling&nbsp;&nbsp;Vietnam Economic Times",
+      "source": "GNews | SE Asia Tech",
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Myanmar junta approves 12 new investment projects as it seeks to project economic stability - eng.mizzima.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkN2p1SzNfVThoUGNDa1RsOE1NdnVHdnVmRHlYWmRRdGVMMFNjbWNLYXpVbXZEU2dqQ3hrYkJYdFhIVm5SaFRRZnBQRmYtVDdkZ1E?oc=5",
+      "published": "Tue, 02 Jun 2026 03:41:21 GMT",
+      "summary": "Myanmar junta approves 12 new investment projects as it seeks to project economic stability&nbsp;&nbsp;eng.mizzima.com",
+      "source": "GNews | MM Trade/Sanction",
+      "priority": 4.8,
+      "category": "柬埔寨+缅甸+老挝",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Penang attracts RM32.9 billion approved investments in 2025 as semiconductor boom continues - Harapan Daily",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnpGbzRSX2FkSVZIdEM0ZTFpUkh5R1F1ZDdWT1RNU25iWXlxeDluQi1La2lNdDBRQ0JsTUxYLTY3NktCNW9kWUNSMFkxaENKWVJla0lOSE4yS3BYQk1sOUExTEdLMnVEWGVUWGtRRkNSUEhFZjl3MzJBUmM1RExMRG9VbVk3dm1uLUc2SnpKaFkxcUp4SS1aV09Bdnl1azVfMzA1cV9uTTdJUVBpcnFFTXlpajNfT185WE9nb2RSSTZ0b0VCVmR3?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "Penang attracts RM32.9 billion approved investments in 2025 as semiconductor boom continues&nbsp;&nbsp;Harapan Daily",
+      "source": "GNews | MY Semi/Trade",
+      "priority": 4.8,
+      "category": "马来西亚",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Singapore is riding the global AI investment boom but there are risks, says MTI - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGNOTG0xSmxjRmppSHlGN05GWmo1Zy12eGRqdkJndi1iWFl6dnNwNzNmMEdZazllajdwMGc0aGRuZFFwRWR5dlJnLUNUanBRZ2xkSmp3ZFJNdENvUS10MXBNQTZacE9Va2Q1SENscWgxY3FkSVhhbXowbkNneW5rTzk0OUp6d0FSbVVvV2dDeXZnSXpuYTAzV3hwMDhJUGNiNm4tSW1HTDlpZExCU1owZndMUE5Pckw1MnRN?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Singapore is riding the global AI investment boom but there are risks, says MTI&nbsp;&nbsp;The Straits Times",
+      "source": "GNews | SG Economy",
+      "priority": 4.8,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vietnam seen as attractive investment destination for 2026–2035 - Vietnam+ (VietnamPlus)",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS1piNGJsYjdENFJTdDN6alc0QmxZY0ZRRVdFd2pETXpQdkYtSWJZZzNGU3Zza2hVSzVpQUJIdTBTYkU1Vzd5cEM2cGVmajR3bVNCWl92STlDS2dsaVpNblUydzNBak50ZTFabkdpWkIweFpGbEk2MmFrWFlSQndhQlNmdllrT3M0ZzdKbU81RHFpdmJTU0dneDJDVkg2VFdKSHFMSUtB?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Vietnam seen as attractive investment destination for 2026–2035&nbsp;&nbsp;Vietnam+ (VietnamPlus)",
+      "source": "GNews | VN Trade/FDI",
+      "priority": 4.8,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Yakult Singapore’s move to replace orange flavor with peach draws mixed reactions",
+      "link": "https://e.vnexpress.net/news/business/companies/yakult-singapore-s-move-to-replace-orange-flavor-with-peach-draws-mixed-reactions-5084464.html",
+      "published": "Thu, 11 Jun 2026 17:00:00 +0700",
+      "summary": "Japanese drink maker Yakult's decision to replace its orange-flavored probiotic drink with a peach version in Singapore has drawn mixed reactions among local fans of the beverage.",
+      "source": "VN Express EN",
+      "priority": 4.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Hanoi street vendor fined for charging foreign tourist 10 times normal price for snacks",
+      "link": "https://e.vnexpress.net/news/travel/hanoi-street-vendor-fined-for-charging-foreign-tourist-10-times-normal-price-for-snacks-5084620.html",
+      "published": "Thu, 11 Jun 2026 15:58:40 +0700",
+      "summary": "A street vendor in Hanoi's Hoan Kiem Ward has been fined VND225,000 (US$8.54) for selling fried rice balls to a foreign tourist for VND43,000 each, nearly 10 times the regular price.",
+      "source": "VN Express EN",
+      "priority": 4.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -474,8 +349,9 @@
       "published": "Thu, 11 Jun 2026 14:22:43 +0700",
       "summary": "Vietnam's national high school literature exam invoked Steve Jobs, Mark Zuckerberg and Elon Musk on June 11, asking more than 1.2 million students how the country might produce innovators of its own.",
       "source": "VN Express EN",
-      "priority": 3,
+      "priority": 4.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -484,8 +360,20 @@
       "published": "Thu, 11 Jun 2026 13:48:10 +0700",
       "summary": "Indonesia first giant panda cub Satrio Wiratama, nicknamed 'Rio' was seen playing around in his enclosure in West Java's Cisarua on Tuesday, after his public debut.",
       "source": "VN Express EN",
-      "priority": 3,
+      "priority": 4.5,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Long Thanh, Southeast Asia's next big airport, powers up for December opening",
+      "link": "https://e.vnexpress.net/news/news/traffic/long-thanh-southeast-asia-s-next-big-airport-powers-up-for-december-opening-5084293.html",
+      "published": "Thu, 11 Jun 2026 13:34:27 +0700",
+      "summary": "Long Thanh airport, the VND336.63 trillion (US$12.8 billion) project set to become Vietnam's largest, has switched on its main power supply, clearing one of the last big infrastructure hurdles before a planned commercial launch at the end of 2026.",
+      "source": "VN Express EN",
+      "priority": 4.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -494,28 +382,86 @@
       "published": "Thu, 11 Jun 2026 13:15:38 +0700",
       "summary": "Vietnam's Ministry of Home Affairs has proposed giving the prime minister the authority to determine the exact dates for all public holidays each year.",
       "source": "VN Express EN",
-      "priority": 3,
+      "priority": 4.5,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "Sun Group, The Ascott Limited partner to expand hospitality offerings in Phu Quoc",
-      "link": "https://e.vnexpress.net/news/travel/sun-group-the-ascott-limited-partner-to-expand-hospitality-offerings-in-phu-quoc-5084449.html",
-      "published": "Thu, 11 Jun 2026 10:30:00 +0700",
-      "summary": "Sun Group and The Ascott Limited, a Singapore-based hospitality operator, have entered a strategic partnership to introduce nearly 1,700 accommodation units in Ho Chi Minh City and Phu Quoc.",
+      "title": "World’s second-richest country revives 19th-century cooling technology to beat rising heat",
+      "link": "https://e.vnexpress.net/news/tech/tech-news/world-s-second-richest-country-revives-19th-century-cooling-technology-to-beat-rising-heat-5084396.html",
+      "published": "Thu, 11 Jun 2026 10:48:25 +0700",
+      "summary": "Singapore is expanding a 140-year-old underground cooling technology to cut energy use and help the city adapt to rising temperatures.",
       "source": "VN Express EN",
-      "priority": 3,
+      "priority": 4.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "Dollar inches up on black market",
-      "link": "https://e.vnexpress.net/news/business/markets/dollar-inches-up-on-black-market-5084421.html",
-      "published": "Thu, 11 Jun 2026 10:24:42 +0700",
-      "summary": "The U.S. dollar rose marginally against the Vietnamese dong on the black market Thursday morning.",
-      "source": "VN Express EN",
-      "priority": 3,
-      "category": "独立RSS源",
+      "title": "HSBC: Việt Nam duy trì lợi thế tăng trưởng từ thương mại và FDI - VnEconomy",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYWZhWTYxX29QeEo3TjJUeml3dGNTU0VkZHhyUzZUWmVzbkhwZ0JycUl4NUtGakNqbXlQQkttUFI3bDNTZEw3X1d3dUN2ejhIM2EtRW5oa1d6V0Z2VFJLX3NUeG1WZW9MVE9FbFQyNUVIcUNMem1wQS1abjhVZHd6RFJJeGhGUnl0Zm0yVHdsZko?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "HSBC: Việt Nam duy trì lợi thế tăng trưởng từ thương mại và FDI&nbsp;&nbsp;VnEconomy",
+      "source": "GNews | VN Tiếng Việt",
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "International media gives positive assessments of Vietnam’s economic prospects - moit.gov.vn",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZldMZkRiSnh3cFE1dFRQTlg0TnhFeURfUW04OGp0bGtiZXJUM0hJNUNUR1JsLXZYYzUwOTB6RVdFODRmak5pUDZNTE5XWTB0YzBWUS1BUFZXcGY3bGh1Mm1mck1wR3pYM1hsUlZPQTE1Ym00Z2VNS3d4NURHTU9sNndCSkxqZTFPT3FkNmE1OGhuLW15VEt3N0hYamNENG0xWkRnLTdLN2Nsem1maGlNZA?oc=5",
+      "published": "Tue, 26 May 2026 13:32:42 GMT",
+      "summary": "International media gives positive assessments of Vietnam’s economic prospects&nbsp;&nbsp;moit.gov.vn",
+      "source": "GNews | VN Trade/FDI",
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "RAMpocalypse now and beyond: Malaysia’s chip hub of Penang is riding the AI wave - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOUdiblgtUEI2V3RUSlh6cG5yVnVyUVUtSkg1VmpJel93MEJHeDZoTDVBaDMyVEFLVTFHZ0M2MjgzNXBrU18xdDRQVHpyRVZGV2lTS01WSDlmRDdhaUZuSW9KT1JxNklnTjhfVllrMkRLRDltZnBfMkFPUTlXcktrbElYRzl6WDBzUTJ6UmNsR3dJYWZjbmZpWS0wMkxDQVVDNlotNjcxNTNwTDNfemM0SXgwX2pwYmluZk9sTTdPUWRWRmtJU2tLSnNSYw?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "RAMpocalypse now and beyond: Malaysia’s chip hub of Penang is riding the AI wave&nbsp;&nbsp;The Straits Times",
+      "source": "GNews | MY Semi/Trade",
+      "priority": 3.6,
+      "category": "马来西亚",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim - Astro Awani",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajhWSW5WSTRoelpJQnVQaGFlS203Q0wxVFR2NGVCUmdzUmhJMjI3Q2diOFR2RkpRVU1aa0owUUtVWG56bnJNZ1hkVlA5c24xZlNVcVREQlZYTFlaLVRpbkh5SkJMR2szZmFqX1VSS2pIMllvcGdaM282Vzc5NFpSMjZyMGs4LWNHdm1ad0hKOTN2by11ek1vR2VxR3pLZk1WV2tHSkVwdVp0U0tmZUN0d2tzY3c3RU14b0pkS3JIaU5DUUlsOGhQbm5qSjA0eHlLSldzYS1WMDY?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim&nbsp;&nbsp;Astro Awani",
+      "source": "GNews | MY Bahasa Melayu",
+      "priority": 3.6,
+      "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vietnam seeks to free $127 billion trapped in real estate projects - Báo VietNamNet",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbkRKYTY0Wm0xZEx5OTNiNWxEcUw1Y1FKS3ZYMXlFTTE1NWFsWHpjRURvbEhNV1V3NFREZk5Wd2V6b2I4YThJOTlmNmI5dVdtbE1Zel9PenFrdzd0YW9WOVd5RE5FTnIweUY2Z1loajRwNlVmaWlNVHg4RmpZN2VSenY5ZENNWS1PdmhEYi1ENXN2SGREUFFUZ2xZWW84X2NlN1UxS1h3?oc=5",
+      "published": "Tue, 09 Jun 2026 01:01:00 GMT",
+      "summary": "Vietnam seeks to free $127 billion trapped in real estate projects&nbsp;&nbsp;Báo VietNamNet",
+      "source": "GNews | VN Economy",
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Philippines can avoid stagflation, UA&P economists say - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEN3LVlTd3l6Q1ZvS1BfLTFLbzNBTzRqQzRkRkg3endKc3RFdkoxZ3BtWHNCMGtIaG01Q0RFOXE5bFhiTUM2RjFWZWdKNDhBOUt3V3YyZlJ0MWlWYUpDV2NhSF9xeWVRTVNHOWdsWXlPVXMzVmttZXhOSHg0YnFLOUNONm9OWjBjU21UWUdIdHRfZkXSAZgBQVVfeXFMT3E0eTU1RHdvMHA5a2NEOWdVaXZlcnBLME1DNm4wb1RfbXFEanV4OVR3T0dtNC05aTQzOW0zY3RFUVZlOUZTTVNlOU85WFY3UkdKMXJUYzhEeEoxakFEMnVhbFdQbXZYVVU0NGhXc2xqMFllcHQ3bHFyU3VPY3Z2Y2RlbFgzd3VjVGVha1lyMFpiWE1NeEFfN0s?oc=5",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "Philippines can avoid stagflation, UA&amp;P economists say&nbsp;&nbsp;Inquirer.net",
+      "source": "GNews | PH Economy",
+      "priority": 3.6,
+      "category": "菲律宾",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -524,8 +470,9 @@
       "published": "Sun, 24 May 2026 07:00:00 GMT",
       "summary": "Google Cloud opens Southeast Asia-to-Silicon Valley start-up AI corridor through Singapore&nbsp;&nbsp;Yahoo Finance Singapore",
       "source": "GNews | SE Asia Tech",
-      "priority": 3,
+      "priority": 3.6,
       "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -534,8 +481,9 @@
       "published": "Mon, 01 Jun 2026 20:00:00 GMT",
       "summary": "Singapore innovation hub for global firms&nbsp;&nbsp;The Straits Times",
       "source": "GNews | SE Asia Tech",
-      "priority": 3,
+      "priority": 3.6,
       "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -544,8 +492,9 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "Myanmar Civil War | Background, Coup, Casualties, & Significance&nbsp;&nbsp;Britannica",
       "source": "GNews | Myanmar Crisis",
-      "priority": 3,
+      "priority": 3.6,
       "category": "政治+社会",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
@@ -554,19 +503,65 @@
       "published": "Fri, 05 Jun 2026 08:55:51 GMT",
       "summary": "Japan and Philippines harden stance against China amid US-China detente&nbsp;&nbsp;ThinkChina",
       "source": "GNews | ASEAN Powers",
-      "priority": 3,
+      "priority": 3.6,
       "category": "大国关系",
+      "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam? - Tạp chí Nhà đầu tư",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnNiX2xHQ1l5MU5IMm5sY295eDJRd19lZHpuRzVzeEpFTjA3OTNTRURSSFY1X0tFYXhMYlMtcEM5MXAzcjlfYTBNV0RnMzAwSS12aXVBdy13dWEwTXp1NmNrMmZHYVR5Q0J2N0ctQ0RVMl9NSnA0UkJ2S1gzQ09aMGsyRW8tZFg2eTZPMlFnRFRtWEhkRGlMU2F3S1NkX3M?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam?&nbsp;&nbsp;Tạp chí Nhà đầu tư",
-      "source": "GNews | VN Tiếng Việt",
-      "priority": 2,
-      "category": "越南",
-      "relevance": "low"
+      "title": "Thai farm debt crisis a test for Anutin government",
+      "link": "https://www.bangkokpost.com/thailand/general/3269410/thai-farm-debt-crisis-a-test-for-anutin-government",
+      "published": "Thu, 11 Jun 2026 16:43:00 +0700",
+      "summary": "Ahead of the Feb 8 general election, politicians ​often came to court voters like 69-year-old rice farmer Chaon Taiupok in Ayutthaya, about &zwnj;80km north of Bangkok.",
+      "source": "Bangkok Post",
+      "priority": 3.3,
+      "category": "泰国",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "A muted flavouring to the face",
+      "link": "https://www.bangkokpost.com/life/social-and-lifestyle/3269385/a-muted-flavouring-to-the-face",
+      "published": "Thu, 11 Jun 2026 16:42:00 +0700",
+      "summary": "If your makeup routine has been feeling a little too heavy for Thailand&rsquo;s relentless heat, consider this your sign to scale things back. The latest beauty trend taking over Thai social media is all about being effortlessly put together, and looking like you&rsquo;re barely wearing any makeup at all.",
+      "source": "Bangkok Post",
+      "priority": 3.3,
+      "category": "泰国",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Selling voices to AI emerges as lucrative side hustle",
+      "link": "https://e.vnexpress.net/news/tech/tech-news/selling-voices-to-ai-emerges-as-lucrative-side-hustle-5084057.html",
+      "published": "Thu, 11 Jun 2026 15:57:41 +0700",
+      "summary": "Le Minh, an audiobook narrator, says he occasionally receives offers to work as an “AI voice trainer” for a few hundred thousand to more than one million Vietnamese dong per hour (VND100,000 = US$3.80).",
+      "source": "VN Express EN",
+      "priority": 3.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Sun Group, The Ascott Limited partner to expand hospitality offerings in Phu Quoc",
+      "link": "https://e.vnexpress.net/news/travel/sun-group-the-ascott-limited-partner-to-expand-hospitality-offerings-in-phu-quoc-5084449.html",
+      "published": "Thu, 11 Jun 2026 10:30:00 +0700",
+      "summary": "Sun Group and The Ascott Limited, a Singapore-based hospitality operator, have entered a strategic partnership to introduce nearly 1,700 accommodation units in Ho Chi Minh City and Phu Quoc.",
+      "source": "VN Express EN",
+      "priority": 3.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Dollar inches up on black market",
+      "link": "https://e.vnexpress.net/news/business/markets/dollar-inches-up-on-black-market-5084421.html",
+      "published": "Thu, 11 Jun 2026 10:24:42 +0700",
+      "summary": "The U.S. dollar rose marginally against the Vietnamese dong on the black market Thursday morning.",
+      "source": "VN Express EN",
+      "priority": 3.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
     },
     {
       "title": "Rewiring Resilience꞉ AI for Climate-Adaptive Power Grids in Asia-Pacific - ember-energy.org",
@@ -574,8 +569,9 @@
       "published": "Wed, 20 May 2026 16:34:38 GMT",
       "summary": "Rewiring Resilience꞉ AI for Climate-Adaptive Power Grids in Asia-Pacific&nbsp;&nbsp;ember-energy.org",
       "source": "GNews | SE Asia Climate",
-      "priority": 1,
+      "priority": 1.2,
       "category": "气候+人口",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -584,18 +580,9 @@
       "published": "Wed, 10 Jun 2026 16:19:27 GMT",
       "summary": "Thế ứng biến của Việt Nam trước chiến lược thuế quan mới của Chính quyền Trump&nbsp;&nbsp;Nghiên Cứu Chiến Lược",
       "source": "GNews | VN Tiếng Việt",
-      "priority": 1,
+      "priority": 1.2,
       "category": "越南",
-      "relevance": "low"
-    },
-    {
-      "title": "How Construction Equipment Is Powering the Next Wave of Global Growth - vocal.media",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHlSdEltUUlKclg5N1phZUs0VlFkcmpzSE04OW5jTUk4eXJvbDFSLW10UmI2dFk5U1JaelhjUmlKbXg4Z0lVb0hhTjVQY0JySHpxT19fUkZQZnRGMGJtd0Y0QVdhOEJQWXFTUWx2U3ZQZ1RCV2pnLXN2X1poaHFKT0NxczRCOGtaVjFtclNvNkRQcXVCZkw1Z1FzVFh1SWM?oc=5",
-      "published": "Wed, 10 Jun 2026 10:49:34 GMT",
-      "summary": "How Construction Equipment Is Powering the Next Wave of Global Growth&nbsp;&nbsp;vocal.media",
-      "source": "GNews | SE Asia Infra",
-      "priority": 1,
-      "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -604,8 +591,9 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "Xuất khẩu điện tử bứt tốc: Thấy gì sau con số trên 150 tỷ USD?&nbsp;&nbsp;Tin nhanh chứng khoán",
       "source": "GNews | VN Tiếng Việt",
-      "priority": 1,
+      "priority": 1.2,
       "category": "越南",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -614,38 +602,9 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "Perdagangan lepasi RM1 trilion,bukti usaha kerajaan perkukuh ekonomi negara&nbsp;&nbsp;Portal Berita RTM",
       "source": "GNews | MY Bahasa Melayu",
-      "priority": 1,
+      "priority": 1.2,
       "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "'Racist thuggery' condemned after second night of disorder in N.Ireland",
-      "link": "https://www.bangkokpost.com/world/3269429/racist-thuggery-condemned-after-second-night-of-disorder-in-nireland",
-      "published": "Thu, 11 Jun 2026 18:45:00 +0700",
-      "summary": "BELFAST - Police arrested 16 people during a second night of disorder in Northern Ireland sparked by a brutal Belfast stabbing, a senior minister reported, condemning rioters for \"racist thuggery\".",
-      "source": "Bangkok Post",
-      "priority": 1,
-      "category": "泰国",
-      "relevance": "low"
-    },
-    {
-      "title": "Wall Street buckles up for SpaceX liftoff",
-      "link": "https://www.bangkokpost.com/learning/entertainment/3269420/wall-street-buckles-up-for-spacex-liftoff",
-      "published": "Thu, 11 Jun 2026 17:28:00 +0700",
-      "summary": "NEW YORK - As SpaceX prepares for its record-breaking $75 billion market debut with great fanfare, Wall Street traders, brokers and exchanges are ​working nonstop to make sure their trading systems can handle the blockbuster IPO and avoid &zwnj;the chaos that marred other highly anticipated launches.",
-      "source": "Bangkok Post",
-      "priority": 1,
-      "category": "泰国",
-      "relevance": "low"
-    },
-    {
-      "title": "Meet the young founders driving China's AI and robotics boom",
-      "link": "https://e.vnexpress.net/news/tech/personalities/meet-the-young-founders-driving-china-s-ai-and-robotics-boom-5084205.html",
-      "published": "Thu, 11 Jun 2026 10:48:58 +0700",
-      "summary": "A new generation of Chinese entrepreneurs is emerging as a driving force in artificial intelligence and robotics, helping transform the country's technology sector beyond internet and e-commerce businesses.",
-      "source": "VN Express EN",
-      "priority": 1,
-      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -654,8 +613,9 @@
       "published": "Sat, 23 May 2026 07:00:00 GMT",
       "summary": "Duy trì sức hút mạnh mẽ với dòng vốn đầu tư nước ngoài&nbsp;&nbsp;baodautu",
       "source": "GNews | VN Tiếng Việt",
-      "priority": 1,
+      "priority": 1.2,
       "category": "越南",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -664,8 +624,53 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "The U.S.-China Trade Relationship: What’s Behind the Competition?&nbsp;&nbsp;Council on Foreign Relations",
       "source": "GNews | VN Tariff",
-      "priority": 1,
+      "priority": 1.2,
       "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam? - Nhadautu.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnNiX2xHQ1l5MU5IMm5sY295eDJRd19lZHpuRzVzeEpFTjA3OTNTRURSSFY1X0tFYXhMYlMtcEM5MXAzcjlfYTBNV0RnMzAwSS12aXVBdy13dWEwTXp1NmNrMmZHYVR5Q0J2N0ctQ0RVMl9NSnA0UkJ2S1gzQ09aMGsyRW8tZFg2eTZPMlFnRFRtWEhkRGlMU2F3S1NkX3M?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam?&nbsp;&nbsp;Nhadautu.vn",
+      "source": "GNews | VN Tiếng Việt",
+      "priority": 1.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "'Racist thuggery' condemned after second night of disorder in N.Ireland",
+      "link": "https://www.bangkokpost.com/world/3269429/racist-thuggery-condemned-after-second-night-of-disorder-in-nireland",
+      "published": "Thu, 11 Jun 2026 18:45:00 +0700",
+      "summary": "BELFAST - Police arrested 16 people during a second night of disorder in Northern Ireland sparked by a brutal Belfast stabbing, a senior minister reported, condemning rioters for \"racist thuggery\".",
+      "source": "Bangkok Post",
+      "priority": 1.1,
+      "category": "泰国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Wall Street buckles up for SpaceX liftoff",
+      "link": "https://www.bangkokpost.com/learning/entertainment/3269420/wall-street-buckles-up-for-spacex-liftoff",
+      "published": "Thu, 11 Jun 2026 17:28:00 +0700",
+      "summary": "NEW YORK - As SpaceX prepares for its record-breaking $75 billion market debut with great fanfare, Wall Street traders, brokers and exchanges are ​working nonstop to make sure their trading systems can handle the blockbuster IPO and avoid &zwnj;the chaos that marred other highly anticipated launches.",
+      "source": "Bangkok Post",
+      "priority": 1.1,
+      "category": "泰国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Meet the young founders driving China's AI and robotics boom",
+      "link": "https://e.vnexpress.net/news/tech/personalities/meet-the-young-founders-driving-china-s-ai-and-robotics-boom-5084205.html",
+      "published": "Thu, 11 Jun 2026 10:48:58 +0700",
+      "summary": "A new generation of Chinese entrepreneurs is emerging as a driving force in artificial intelligence and robotics, helping transform the country's technology sector beyond internet and e-commerce businesses.",
+      "source": "VN Express EN",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -674,8 +679,9 @@
       "published": "Wed, 20 May 2026 07:00:00 GMT",
       "summary": "รายงานวิเคราะห์สถิติการส่งออกไทยไปเอธิโอเปีย ไตรมาส 1 ปี 2569 (เดือนมกราคม – เดือนมีนาคม)&nbsp;&nbsp;ditp.go.th",
       "source": "GNews | TH ไทย",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -684,8 +690,9 @@
       "published": "Wed, 10 Jun 2026 10:20:00 GMT",
       "summary": "Droughts, Floods and Food Crises: How the Looming Super El Niño Could Impact Countries Across the Globe&nbsp;&nbsp;RuralVoice",
       "source": "GNews | SE Asia Climate",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候+人口",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -694,8 +701,9 @@
       "published": "Wed, 10 Jun 2026 07:08:03 GMT",
       "summary": "Impact of the Middle East conflict on Asia-Pacific power markets&nbsp;&nbsp;Norton Rose Fulbright",
       "source": "GNews | Signal: SE Asia Disrupt",
-      "priority": 0,
+      "priority": 0.0,
       "category": "信号性查询",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -704,8 +712,9 @@
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "Offshore Alliance Pauses Strike Plans at Ichthys LNG&nbsp;&nbsp;Discovery Alert",
       "source": "GNews | Signal: SE Asia Disrupt",
-      "priority": 0,
+      "priority": 0.0,
       "category": "信号性查询",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -714,8 +723,9 @@
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "The Trump-Xi Summit: What It Means for Southeast Asia and South Asia&nbsp;&nbsp;Council on Foreign Relations",
       "source": "GNews | ASEAN Powers",
-      "priority": 0,
+      "priority": 0.0,
       "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -724,18 +734,9 @@
       "published": "Tue, 09 Jun 2026 16:33:18 GMT",
       "summary": "OFW money, BPO dollars mask a deeper problem, BSP study warns&nbsp;&nbsp;Daily Guardian",
       "source": "GNews | PH Trade/BPO",
-      "priority": 0,
+      "priority": 0.0,
       "category": "菲律宾",
-      "relevance": "low"
-    },
-    {
-      "title": "Central Asia’s Water Crisis is Becoming a Regional Economic Risk - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN0dubEo1c3JGM1hXTnpmZV9zRTNvUEx2Qm02Y1VBX3FlY0VmYVlYdjBYZHUtNzRvcHJOT0lTOWctNkdVa1JiMU9jZ3BjQXpmWWE2bk5jczlOZGVZY2sxUGx4U2h4QUEtb0dMVHhDQkNyV0pVWllNMG1mVW9RTUpUN0RqYlA4VTlnYUdTWkhIbmV5QUVtejNFRXJ2ZFA?oc=5",
-      "published": "Tue, 09 Jun 2026 09:10:22 GMT",
-      "summary": "Central Asia’s Water Crisis is Becoming a Regional Economic Risk&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | SE Asia Climate",
-      "priority": 0,
-      "category": "气候+人口",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -744,38 +745,9 @@
       "published": "Tue, 09 Jun 2026 06:25:00 GMT",
       "summary": "เอกชนชู ‘ไทยช่วยไทยพลัส’ เด่น 2 เดือนรัฐบาลอนุทิน จี้แก้คอร์รัปชัน-ภาษีสหรัฐ&nbsp;&nbsp;thansettakij",
       "source": "GNews | TH ไทย",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "A tale of two presidents in Beijing - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oZTRHX25iTmxiU3AtRTkzMGRsSVpmWkZTT1lnRENackVuSVVTRjZpaWo3TVVrOXQ0T3E0V0JGNWdHdTgzTWw1V3BjUm4tVVNUQUgtc3c2M0hkZWw3SG1xUm9nZlJPSGVlLTBZODNDYmZzT0hURTNDc0xnblNWdw?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "A tale of two presidents in Beijing&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | ASEAN Powers",
-      "priority": 0,
-      "category": "大国关系",
-      "relevance": "low"
-    },
-    {
-      "title": "A Strong El Niño Could Be Coming. Countries Are Already Preparing. - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMDFFdy1pcWp1WDhxblBrdk1MUzd1UzQzYU1jYjk4X2NUQ3VCOGVRb2VJWmp6azg0bDNLYUo3TGVEbE9UODRwZFhSb0Jvb0hPTERWM2xyQjlkZGdBaWgzT08tVHNNMFZnSFFwOHdDWlgyeFBMSXZ5eGttdWlMRXFVY0dRd2VyU2FUc05iMkJrZVc?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "A Strong El Niño Could Be Coming. Countries Are Already Preparing.&nbsp;&nbsp;The New York Times",
-      "source": "GNews | SE Asia Climate",
-      "priority": 0,
-      "category": "气候+人口",
-      "relevance": "low"
-    },
-    {
-      "title": "Thai auto sector facing crisis unless EV policy is overhauled, industry groups warn - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdTWDVMcm9pQkpUR2l0dDFuOWVRVzdiN1pRNlZVR2JMbFRBT200YllsWDRQSmNwQkJxa0ZaczlUVWdiSkFHSTdlRVRXNE9TeTBtTndlTjY5Ni0waDRseFJ3emljaThFWlFxN3FveE45WGExQkVxUHkwWnVvbTZmTm1UamJZVHhURFNKcVJnR1htQVQ4TF9PdGJMVWF3MV9sWTRHc1N5X0N1S25KZmZHNkVvQlJvVTc0TmFmMVFMWHZCUDZZTmQ4YWdtVUs?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "Thai auto sector facing crisis unless EV policy is overhauled, industry groups warn&nbsp;&nbsp;Reuters",
-      "source": "GNews | TH Trade/EV",
-      "priority": 0,
-      "category": "泰国",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -784,8 +756,20 @@
       "published": "Thu, 14 May 2026 07:00:00 GMT",
       "summary": "Russia and the China-US Summit&nbsp;&nbsp;The Diplomat – Asia-Pacific",
       "source": "GNews | ASEAN Powers",
-      "priority": 0,
+      "priority": 0.0,
       "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Xi warns Trump that Taiwan missteps could lead to U.S.-China conflict - The Japan Times",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2RHb0lVeGNTUGVEaFJpUzRLT3FwcVFuaDUyaUxZMkFUb2t1Y2lUbEdORUdHNnVxZnFMRHpIVGg5LVBzck9TQ3pTMEpUdUx6RUxzMFFFTnJMU2VMT0FYWXViX2lBRUFpdktTOTY5UDZjdGxZM0xKQy12X2NkV3VtZ2t6NUNGc3BZQTR3RFJwemVhNjdtbnRVZEVPRnlZTHNLQ1dMVGpaUQ?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "Xi warns Trump that Taiwan missteps could lead to U.S.-China conflict&nbsp;&nbsp;The Japan Times",
+      "source": "GNews | ASEAN Powers",
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -794,8 +778,9 @@
       "published": "Thu, 11 Jun 2026 19:54:00 +0700",
       "summary": "ARGUINEGUIN (SPAIN) - Pope Leo XIV on Thursday condemned \"indifference\" towards migrants during a visit to Spain's Canary Islands that symbolised the perils of deadly irregular routes to Europe.",
       "source": "Bangkok Post",
-      "priority": 0,
+      "priority": 0.0,
       "category": "泰国",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -804,8 +789,9 @@
       "published": "Thu, 11 Jun 2026 17:45:00 +0700",
       "summary": "PARIS - Europe&rsquo;s leading nations and their G7 allies will seek to narrow differences with Donald Trump at a summit from Monday in France chaired by French President Emmanuel Macron but expected to be dominated by the US leader&rsquo;s presence.",
       "source": "Bangkok Post",
-      "priority": 0,
+      "priority": 0.0,
       "category": "泰国",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -814,8 +800,9 @@
       "published": "Thu, 11 Jun 2026 17:08:00 +0700",
       "summary": "The Court of Appeal has ordered the Internal Security Operations Command (Isoc) to pay 210,000 baht in compensation to two human rights defenders and remove online content that damaged their reputations, overturning part of a lower court ruling.",
       "source": "Bangkok Post",
-      "priority": 0,
+      "priority": 0.0,
       "category": "泰国",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -824,8 +811,9 @@
       "published": "Thu, 11 Jun 2026 17:00:00 +0700",
       "summary": "A Taiwanese obesity treatment specialist debunks eight common misconceptions about fruits, from drinking juice to fearing blood sugar spikes, and spells out how to eat them while avoiding possible negative effects.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -834,8 +822,9 @@
       "published": "Thu, 11 Jun 2026 17:00:00 +0700",
       "summary": "Quantinuum founder Ilyas Khan has become a billionaire after the quantum computing firm's Nasdaq debut valued the company at more than $15.6 billion.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -844,8 +833,9 @@
       "published": "Thu, 11 Jun 2026 16:45:00 +0700",
       "summary": "TEHRAN - Iran warned on Thursday that the shaky ceasefire in the three-month Middle East war was now \"practically meaningless\" following fresh strikes by the United States that saw Tehran respond with attacks around the region.",
       "source": "Bangkok Post",
-      "priority": 0,
+      "priority": 0.0,
       "category": "泰国",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -854,8 +844,9 @@
       "published": "Thu, 11 Jun 2026 15:58:58 +0700",
       "summary": "In her tiny apartment in South Korea, where she lives alone, 78-year-old Bang Chun-ja spends her days with a childlike AI-powered doll she says she prefers to people.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -864,8 +855,9 @@
       "published": "Thu, 11 Jun 2026 15:57:26 +0700",
       "summary": "At 32, Zhang Zetian, China’s youngest female billionaire, has transformed from the fresh-faced “Milk Tea Girl” who rose to online fame into a polished businesswoman known for her refined image.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -874,8 +866,9 @@
       "published": "Thu, 11 Jun 2026 14:55:23 +0700",
       "summary": "With a smartphone strapped to her head, Indian housewife Nagireddy Sriramyachandra films herself slicing mangoes to train AI-powered robots to take on household jobs in the future.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -884,8 +877,9 @@
       "published": "Thu, 11 Jun 2026 14:22:29 +0700",
       "summary": "The Switzerland national football team are on high alert after receiving a formal warning about the presence of venomous snakes surrounding their training base in San Diego, California.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -894,8 +888,9 @@
       "published": "Thu, 11 Jun 2026 10:55:49 +0700",
       "summary": "The Laird Norton family has preserved its wealth for eight generations by establishing a family council and training heirs from the age of 14.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -904,8 +899,9 @@
       "published": "Thu, 11 Jun 2026 10:48:43 +0700",
       "summary": "Placing water bottles, cardboard boxes, or other flammable items near an air conditioner’s outdoor unit and making unauthorized cable modifications cause hundreds of fires in Japan every year.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -914,8 +910,9 @@
       "published": "Thu, 11 Jun 2026 10:48:10 +0700",
       "summary": "Japan’s five richest individuals and families had a combined net worth of US$187 billion this year, with their fortunes derived from industries including finance, fashion, food and technology.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -924,8 +921,9 @@
       "published": "Thu, 11 Jun 2026 10:47:55 +0700",
       "summary": "Reliance Industries, controlled by Indian billionaire Mukesh Ambani, said Wednesday that it will build India’s first AI-driven data center designed for Facebook parent Meta Platforms.",
       "source": "VN Express EN",
-      "priority": 0,
+      "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -934,18 +932,9 @@
       "published": "Thu, 11 Jun 2026 03:33:01 GMT",
       "summary": "Komdigi backs Google Cloud's Southeast Asia-Silicon Valley AI startup corridor&nbsp;&nbsp;Marketing-Interactive",
       "source": "GNews | SE Asia Tech",
-      "priority": 0,
+      "priority": 0.0,
       "category": "基础设施+科技",
-      "relevance": "low"
-    },
-    {
-      "title": "Bilahari Kausikan: Uneasy and fragile China-US truce will not hold forever - ThinkChina",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUzFqQm8xWjhXajZyV19vRWphaGZkblV2YmZ6RGYwWmVONjFMdGctNzhfZnU5LThsanNacGs2X0lEYUtnZlJITzhLZWttT3dfd2JIQ2NUWGJKS1lvMWQ1ME41eWw5VGl3UXREUi04RzAtNzdyR3R1aVFuRWYzS3JYYU0zQkNrVkJoN3Q1cHlGU29TWUtHc2UxRGE0RVFXSjR3czR0NUhIdk9FMHpv?oc=5",
-      "published": "Thu, 04 Jun 2026 09:38:35 GMT",
-      "summary": "Bilahari Kausikan: Uneasy and fragile China-US truce will not hold forever&nbsp;&nbsp;ThinkChina",
-      "source": "GNews | ASEAN Powers",
-      "priority": 0,
-      "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -954,8 +943,20 @@
       "published": "Sun, 07 Jun 2026 01:00:02 GMT",
       "summary": "Gen Z in revolt&nbsp;&nbsp;spiked-online.com",
       "source": "GNews | SE Asia Demo",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "'ส่งออก' ปี 69 คาดขยายตัว 11.8% แต่หนุน 'จีดีพี' จำกัด จากปัญหา 'ทรานส์ชิปเมนต์' - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CUXdDbEpYazRSNExjS1BKSW5hUGV3YWh6dDczUGJVa3hXbjhGT3FVUklvU2JNeV92ZFIzMHZVemh0dUdya3FmaG45S0tKQ2diYjI3NlZnODU2NTlyUTBMdFk0RWRnWUla?oc=5",
+      "published": "Sat, 30 May 2026 23:34:08 GMT",
+      "summary": "'ส่งออก' ปี 69 คาดขยายตัว 11.8% แต่หนุน 'จีดีพี' จำกัด จากปัญหา 'ทรานส์ชิปเมนต์'&nbsp;&nbsp;bangkokbiznews",
+      "source": "GNews | TH ไทย",
+      "priority": 0.0,
+      "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -964,8 +965,20 @@
       "published": "Sat, 30 May 2026 07:00:00 GMT",
       "summary": "The Xi–Trump summit lived up to modest expectations&nbsp;&nbsp;East Asia Forum",
       "source": "GNews | ASEAN Powers",
-      "priority": 0,
+      "priority": 0.0,
       "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China–India rapprochement is tactical, not strategic - East Asia Forum",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaVpJb1E4bE5VTjR0VGZUbjlhWTU1dlNLbmRYSTNSTDRKLU5oUXBWLVVLTExjT0dUTzk1UFpMU0xMV29fTUVRNEs2Y3lxeVBUemc3cXE1RmNnWkpoeHRScmNhZEs5RkV0RUJZdzdOVldnbDVRYnNvT3JDMFl4NXhUQ1c0WkZBVVNXVUlpVVl1YmRJbFk?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "China–India rapprochement is tactical, not strategic&nbsp;&nbsp;East Asia Forum",
+      "source": "GNews | ASEAN Powers",
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -974,8 +987,9 @@
       "published": "Mon, 25 May 2026 07:00:00 GMT",
       "summary": "ไทยเสี่ยงเจอสหรัฐฯขึ้นภาษี ก.ค.นี้ ปมเกินดุล-สวมสิทธิ์สินค้า&nbsp;&nbsp;Policy Watch",
       "source": "GNews | TH ไทย",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -984,18 +998,9 @@
       "published": "Mon, 18 May 2026 07:18:22 GMT",
       "summary": "Economic Letter from Asia: After the Summit&nbsp;&nbsp;Haver Analytics",
       "source": "GNews | ASEAN Powers",
-      "priority": 0,
+      "priority": 0.0,
       "category": "大国关系",
-      "relevance": "low"
-    },
-    {
-      "title": "FPRI Experts React | Trump-Xi Summit - Foreign Policy Research Institute",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xbXd6LWM1Rkw1YWVtUWxYQTVzamZVajVVOXhsSXplMjBISXMwUzBCcFdLQ2VqZlhnR0g5VnlWUHBsY05qR3dzZ05PbFl4MDdWQTVDNHRCS1lmR2RFeWphUWc0d05IT3RQRlZqOWhDUEppV093S0tXemF5MDg?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "FPRI Experts React | Trump-Xi Summit&nbsp;&nbsp;Foreign Policy Research Institute",
-      "source": "GNews | ASEAN Powers",
-      "priority": 0,
-      "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1004,8 +1009,9 @@
       "published": "Mon, 08 Jun 2026 04:45:00 GMT",
       "summary": "GBS ส่องหุ้นไทย มิ.ย. 69 ผันผวนในกรอบ 1,550-1,620 จุด แนะ 5 หุ้นเด่นส่งออก-อิเล็กทรอนิกส์&nbsp;&nbsp;spacebar.th",
       "source": "GNews | TH ไทย",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1014,8 +1020,9 @@
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
       "summary": "Xi–Trump summit strikes a fragile balance around difficult structural realities&nbsp;&nbsp;East Asia Forum",
       "source": "GNews | ASEAN Powers",
-      "priority": 0,
+      "priority": 0.0,
       "category": "大国关系",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1024,8 +1031,20 @@
       "published": "Fri, 29 May 2026 07:00:00 GMT",
       "summary": "Nepal’s government takes on old challenges&nbsp;&nbsp;East Asia Forum",
       "source": "GNews | SE Asia Politics",
-      "priority": 0,
+      "priority": 0.0,
       "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03SjhWVXRYZlUxaDBGaUFuc1dKS3Qzc1lBb3d2aV9lN01jaGFzOTBlTG9sMTRNSG1MR3JCQkNCMFhUSV8yZ3NQVUlOY1RmODBrNDFIcTBfYXY3aG9mRmxSUXAwOU9HNy14?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons&nbsp;&nbsp;Britannica",
+      "source": "GNews | SE Asia Infra",
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1034,8 +1053,9 @@
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "Japan Aluminium Premium Surges to 11-Year High in 2026&nbsp;&nbsp;Discovery Alert",
       "source": "GNews | Signal: SE Asia Disrupt",
-      "priority": 0,
+      "priority": 0.0,
       "category": "信号性查询",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1044,8 +1064,9 @@
       "published": "Fri, 05 Jun 2026 16:23:00 GMT",
       "summary": "‘Unpredictable and extreme’: Asia braces for El Niño | El Niño southern oscillation&nbsp;&nbsp;The Guardian",
       "source": "GNews | SE Asia Climate",
-      "priority": 0,
+      "priority": 0.0,
       "category": "气候+人口",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1054,8 +1075,9 @@
       "published": "Fri, 05 Jun 2026 13:00:00 GMT",
       "summary": "Google Cloud, partners launch SE Asia-Silicon Valley AI startup innovation corridor&nbsp;&nbsp;Frontier Enterprise",
       "source": "GNews | SE Asia Tech",
-      "priority": 0,
+      "priority": 0.0,
       "category": "基础设施+科技",
+      "_incremental": "new",
       "relevance": "low"
     },
     {
@@ -1064,8 +1086,9 @@
       "published": "Fri, 05 Jun 2026 11:59:35 GMT",
       "summary": "THE STANDARD WEALTH. . ส่งออก 10 บาท ซื้อกลับแค่ 3 บาท อเมริกาจ่อขึ้นภาษี 12.5% ถ้าไทยแก้เกมไม่ทันกระทบส่งออกเต็มๆ . #ภาษีนำเข้าสหรัฐ #เศรษฐกิจไทย #ส่งออก #ดุลการค้า #TheStandardWealth&nbsp;&nbsp;facebook.com",
       "source": "GNews | TH ไทย",
-      "priority": 0,
+      "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
       "relevance": "low"
     }
   ]
