@@ -1,0 +1,115 @@
+# 统计局V2.0常用指标cid映射表
+# Agent读取后可直接跳过Step1搜索，节省1-2次HTTP请求
+# 更新规则：如遇搜索失败或cid过期，回退到Step1搜索并更新本表
+# 字段说明：ek=cid, type=数据频率, indic_id=首条indicatorId(跨cid需重新Step2)
+# 最后验证：2026-06-11
+
+indicators:
+  GDP:
+    keyword: "GDP"
+    ek: "2d35b42847e0485984decda687081be0"
+    type: "季度数据"
+    indic_id: "b17a374e56ac42a1b4cd756b05f41a77"
+    note: "按不变价格计算，注意跨cid拼接(5年一段)"
+
+  CPI:
+    keyword: "居民消费价格"
+    ek: "6021702000002|b50457fdeade41b0ac011456f7ab5e44"
+    type: "年度数据"
+    indic_id: "053f0281899d412ab4f7d83d26c14afc"
+    alt_keyword: "居民消费价格指数"
+    note: "含CPI同比/环比，月度数据需确认cid"
+
+  PPI:
+    keyword: "工业生产者出厂价格"
+    ek: "6021702000018|ab3a1ae25fdf45c1a15a30351a869800"
+    type: "年度数据"
+    indic_id: "dffa879ff2b44890a0a1846925837b81"
+    alt_keyword: "PPI"
+    note: "含PPI同比/环比"
+
+  PMI:
+    keyword: "PMI"
+    ek: "793a9f10f0494c20acf046aaecf76d2b"
+    type: "月度数据"
+    indic_id: "a09aa989bdcf4cffa2021795722eb916"
+    note: "含制造业+非制造业PMI"
+
+  固定资产投资:
+    keyword: "固定资产投资"
+    ek: null
+    type: null
+    indic_id: null
+    note: "搜索接口未返回结果，需走完整Step1搜索"
+
+  城镇失业率:
+    keyword: "城镇失业率"
+    ek: "d7fe7fde6c094b54b102ddacae217233"
+    type: "年度数据"
+    indic_id: "04702a1e85994f14991e0057a161e434"
+    note: "月度数据的cid可能不同"
+
+  工业增加值:
+    keyword: "工业增速"
+    ek: "121020200040-124020206818-124870100002|3fe03e64f52b416da25002e0950a7ab2"
+    type: "年度数据"
+    indic_id: "64417ce6b96444caae2e8c10c79d97a5"
+    alt_keyword: "规模以上工业增加值"
+
+  社会消费品零售:
+    keyword: "社会消费品零售"
+    ek: "0a31c6ae3efc489299149069ea71749a"
+    type: "年度数据"
+    indic_id: "008350880eb14928acc53fe20b295415"
+    note: "月度数据的cid可能不同"
+
+  出口:
+    keyword: "出口"
+    ek: "53f929c416c0433b89aab71400aafbfe"
+    type: "年度数据"
+    indic_id: "3529a0abf1324839942a3ec3a7059bcc"
+    note: "海关数据，月度cid可能不同"
+
+  进口:
+    keyword: "进口"
+    ek: "601530100001|1798d841e7ff4a81b24f608b3b92d529"
+    type: "年度数据"
+    indic_id: "3d09d3e6c3fd42c281b3ae5ef4363b15"
+    note: "海关数据，月度cid可能不同"
+
+  M2:
+    keyword: "M2"
+    ek: "123430100003|01b4450c1121465ab6f004e518a40ee2"
+    type: "年度数据"
+    indic_id: "f7fe1af1ef3c4046a62fefd5f0c2be6b"
+    alt_keyword: "货币供应量"
+    note: "央行数据，含M0/M1/M2"
+
+  LPR:
+    keyword: "LPR"
+    ek: "fd645f085ac24732b78f2bc009206806"
+    type: "年度数据"
+    indic_id: "806083491dbe46a08995783945a30b9d"
+    note: "央行数据，1年期和5年期"
+
+  外汇储备:
+    keyword: "外汇储备"
+    ek: "8f3f8c0562824344afe454d6d39d5fb5"
+    type: "年度数据"
+    indic_id: "90b9649778434698a8ccabd35a895a8f"
+    note: "外管局数据，月度cid可能不同"
+
+  贸易差额:
+    keyword: "贸易差额"
+    ek: "601400400026|e62f21254a09444a8b94338f53989644"
+    type: "年度数据"
+    indic_id: "5c119dbed73841b1b3f84555bd9103a0"
+    note: "海关数据，月度cid可能不同"
+
+  新增社融:
+    keyword: "新增社融"
+    ek: "120400142043-124020106534|445b5fab2a964165aef4e4ba41b0c018"
+    type: "年度数据"
+    indic_id: "6213b018cfc94fed9a902320bdade63d"
+    alt_keyword: "社会融资规模"
+    note: "央行数据，月度增量"
