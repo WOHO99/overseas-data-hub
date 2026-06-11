@@ -49,29 +49,23 @@ jobs:
           path: scripts/*.json
           retention-days: 7
 
-      - name: Commit and push all JSON outputs
+      - name: Stage JSON files to data/
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          # 移动JSON文件到仓库根目录data/路径
           mkdir -p data
           cp scripts/index.json data/ 2>/dev/null || true
           for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json; do
             [ -f "$f" ] && cp "$f" data/
           done
-          # P4新增JSON文件
+          # 信号与运维JSON
           for f in scripts/signal_summary.json scripts/source_fingerprint.json scripts/sources_dead.json scripts/signal_baseline.json scripts/last_state.json; do
             [ -f "$f" ] && cp "$f" data/
           done
-          git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "daily fetch $(date -u +%Y-%m-%d)" && git push)
+          echo "JSON 文件已汇聚到 data/:"
+          ls -lh data/
 
-      - name: Purge jsDelivr CDN cache
+      - name: Send daily report via email
         if: success()
-        run: |
-          REPO="${{ github.repository }}"
-          BRANCH="main"
-          for file in index.json global_business.json finance.json tech_industry.json energy_commodities.json geopolitics_risk.json esg_sustainability.json se_asia.json south_asia.json middle_east.json latam.json africa.json europe.json cis.json east_asia.json signal_summary.json source_fingerprint.json sources_dead.json signal_baseline.json last_state.json; do
-            curl -s "https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/data/${file}" > /dev/null 2>&1 || true
-          done
-          echo "CDN cache purged for data/*.json"
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
+        run: python send_report.py
