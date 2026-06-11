@@ -1,13 +1,13 @@
 {
   "version": "4.0",
   "module": "中东深度",
-  "updated": "2026-06-11T04:03:08.848912+00:00",
+  "updated": "2026-06-11T04:20:58.090266+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 74,
+  "total": 119,
   "high_priority": 3,
-  "medium_priority": 37,
+  "medium_priority": 62,
   "signal_alerts": {
-    "unprecedented": 2
+    "unprecedented": 3
   },
   "stats_by_category": {
     "海湾国家": {
@@ -39,25 +39,32 @@
       "feeds": 2
     },
     "本地语言搜索": {
-      "count": 60,
-      "feeds": 2
+      "count": 120,
+      "feeds": 4
+    },
+    "独立RSS源": {
+      "count": 55,
+      "feeds": 3
     },
     "信号性查询": {
       "count": 60,
       "feeds": 2
     }
   },
-  "fail_feeds": 0,
+  "fail_feeds": 1,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nZWg3VU13dFl2RnR1OEVZRG9HVGJRaDRENzRKRVNaREtmTzg5bWFnckQyWHp2UUFaYnZ6QlF6MkZuQUphT3B0elA0ZGpwRkJ3emYycTR3TzJpSlIzckNoS1J1bkVIMkt4cWRhTEVR?oc=5",
-      "published": "Wed, 27 May 2026 12:05:30 GMT",
-      "summary": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | QA Trade/LNG",
-      "priority": 23,
-      "category": "海湾国家",
+      "title": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmxNZjJHcUpwaC1fU3pZVktfNzdvLXFsMHNNa1FEY3BmSkpUaVMtLUxFTVBqY1lWTnJFbHVDZVNpaEpVQkgyOEtkcUNDSkdhaUdYeTRCX0k0LU5IZFo2Qjc4ZEE3VlZpLTFLUmJR?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | Signal: ME Escalation",
+      "priority": 16,
+      "signal_keywords": [
+        "unprecedented"
+      ],
+      "category": "信号性查询",
       "relevance": "high"
     },
     {
@@ -111,6 +118,16 @@
       "relevance": "medium"
     },
     {
+      "title": "France bars far-right Israeli minister Smotrich amid sanctions push",
+      "link": "https://www.dailysabah.com/world/mid-east/france-bars-far-right-israeli-minister-smotrich-amid-sanctions-push",
+      "published": "Tue, 09 Jun 2026 18:08:00 +0300",
+      "summary": "France has banned radical Israeli Finance Minister Bezalel Smotrich from entering the country, joining a coordinated international effort targeting Israeli officials accused of enc...",
+      "source": "Daily Sabah",
+      "priority": 8,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "US reportedly agrees to ease sanctions on Iran amid mediation efforts - Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5URDM3eUdpZUo0Qkc1Q2dyeW5ha3pkNGJTNW5pelFQOGtEZF9nbGZQaF9pOTlCSmFiRl9KR2FsT2owX0FzLWpHdGtiMTJ3bW43bzIwM2ItZUFadm1qRUpMTHQtSXJySHN4UEJCOA?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
@@ -141,6 +158,36 @@
       "relevance": "medium"
     },
     {
+      "title": "7 Best Liquefied Natural Gas (LNG) Stocks for 2026 and How to Invest - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYUl1WjFmdVh3bHpOMGJrUjFldUpadFRRa0xYbkp0ckVObEg3WFhndVNseU1mUHJUYlB1Vk16YjlPUk1ibEl5dFhKenBTZWxhNDBhMDlRcHVTU0RqVHNRd0xicWxwVFcyXzNJMjktenlSY2REcld5UmhNeDljSXcteFljV3lxNXZuUHBNWFIyTktZNHdPUW5iUUxWdw?oc=5",
+      "published": "Tue, 09 Jun 2026 17:05:00 GMT",
+      "summary": "7 Best Liquefied Natural Gas (LNG) Stocks for 2026 and How to Invest&nbsp;&nbsp;The Motley Fool",
+      "source": "GNews | QA Trade/LNG",
+      "priority": 6,
+      "category": "海湾国家",
+      "relevance": "medium"
+    },
+    {
+      "title": "With little to show, Trump touts Iran peace deal in final stages",
+      "link": "https://www.dailysabah.com/world/mid-east/with-little-to-show-trump-touts-iran-peace-deal-in-final-stages",
+      "published": "Tue, 09 Jun 2026 16:05:00 +0300",
+      "summary": "U.S. President Donald Trump claimed Tuesday that negotiations for a peace deal to end the Middle East war are in their final stages, after Iran and Israel halted attacks that had t...",
+      "source": "Daily Sabah",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "13 killed as Israel keeps striking Lebanon despite Iran warning",
+      "link": "https://www.dailysabah.com/world/mid-east/13-killed-as-israel-keeps-striking-lebanon-despite-iran-warning",
+      "published": "Tue, 09 Jun 2026 12:43:00 +0300",
+      "summary": "At least 13 people were killed and 31 other wounded Tuesday when a wave of Israeli strikes, in the latest violation of a fragile cease-fire, hit southern Lebanon.\n\nThose killed inc...",
+      "source": "Daily Sabah",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Saudi Arabia launches new cargo shipping service linking Africa and the Middle East, avoiding the Strait of Hormuz for non-oil cargo - Business Insider Africa",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEg0am1UYTU1a0otS185VXNqeDlqTTNSNDB3UURBX0YtUUM5WkZEZURwcEN1eFVHSlNJMmxpMVplUEtDSnFMM1R4SjFOOHNUS3pWcTRDU3ZXOVFaMlE3Wng2RHduUjNOZHNicEFuT3FCSU55T09laUVvWjhkNUstWE5SaFNPS3IyUXZvX0thc0ZLc1NOQ0xMLU9jU0E4UE9JMnNoWF9VakhkcnpsVUc5YndjY19TYjRDb2ltd1FZcWJEMmF6SmJkOHVNZlZFOEN6WURKWGlpdw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -148,6 +195,16 @@
       "source": "GNews | ME Logistics",
       "priority": 6,
       "category": "以色列+其他",
+      "relevance": "medium"
+    },
+    {
+      "title": "Dahiyeh crowds rally in favour of Iranian support against Israel",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/11/dahiyeh-crowds-rally-in-favour-of-iranian-support-against-israel?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 03:49:06 +0000",
+      "summary": "Dahiyeh crowds rally in favour of Iranian support against Israel.",
+      "source": "Al Jazeera",
+      "priority": 6,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -171,6 +228,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Trump calls Netanyahu as Israel-Iran clashes threaten cease-fire",
+      "link": "https://www.dailysabah.com/world/americas/trump-calls-netanyahu-as-israel-iran-clashes-threaten-cease-fire",
+      "published": "Mon, 08 Jun 2026 18:30:00 +0300",
+      "summary": "U.S. President Donald Trump held a phone call with Israeli Prime Minister Benjamin Netanyahu on Monday following the first direct exchange of fire between Israel and Iran since a c...",
+      "source": "Daily Sabah",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "MSC Launches Europe–Red Sea–Middle East Express Service to Streamline Trade Corridors - LM - Logistics Manager",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGVFM3A0b21RSEFPNC13OGdjbTJGdDNLeEt0bWxxaUs2bWVVbjJtVDVPVnIteGN2c0xhaG03cllQWHEtcHFaWVdqUzk2cUJnalRYQzFBYnRmVUQ4TUgxYjY4bVBvRVNBOHk1djZSM3hqYU04dkx6c196aEt1b3JITTNYdUlaREkzVXVlb3RDSEl4eUJsWm9UcFVZZFhfdXJ3NUFfa1p3MTBZaTQ1VnFkWVQteHM3R1E?oc=5",
       "published": "Fri, 05 Jun 2026 21:32:00 GMT",
@@ -191,6 +258,36 @@
       "relevance": "medium"
     },
     {
+      "title": "Gwyneth Paltrow’s Israeli real estate ad goes viral",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/10/gwyneth-paltrows-israeli-real-estate-ad-goes-viral?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:41:29 +0000",
+      "summary": "Gwyneth Paltrow sparked widespread outrage by becoming the face of an Israeli real estate project.",
+      "source": "Al Jazeera",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trump warns of forceful US action against Iran if no deal reached",
+      "link": "https://www.dailysabah.com/world/americas/trump-warns-of-forceful-us-action-against-iran-if-no-deal-reached",
+      "published": "Wed, 10 Jun 2026 19:10:00 +0300",
+      "summary": "U.S. President Donald Trump said Wednesday that Washington is prepared to launch a major military response against Iran if efforts to secure a peace agreement collapse, ramping up...",
+      "source": "Daily Sabah",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Israel reportedly mulling new Gaza offensive despite truce talks",
+      "link": "https://www.dailysabah.com/world/mid-east/israel-reportedly-mulling-new-gaza-offensive-despite-truce-talks",
+      "published": "Wed, 10 Jun 2026 11:52:00 +0300",
+      "summary": "The Israeli military is preparing for a possible return to 'large-scale' military operations in Gaza despite continuing cease-fire talks in Cairo, Israeli newspaper Haaretz reporte...",
+      "source": "Daily Sabah",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "DP World attracts $232.5 million in investments at Jebel Ali Free Zone - Economy Middle East",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQU0xFS3oyU2g0M0pRR2NWVTluNTI4UEJMMWExVWtQUzhycmkyM0IwTmlMb1lWcUIwc2tDbk9CRW1VTGN4SlBDQWVnckNVSWtNOFNwbTVyZW9mTnVQUWNDWUlXdVJNODFYaE91b0tMdGdNdmdvYXRrVDJhVTdJVEpOTERjZ1lfNWVhSHlwMGhBRllRTWtFREZ1N2ZTODl4d0Z5bDMxSEFjaGc?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -201,13 +298,23 @@
       "relevance": "medium"
     },
     {
-      "title": "MGX makes another AI wager, another int’l player lands in DIFC, a cold chain hub for Abu Dhabi, Gallega adds capacity to Jafza, another real estate project with Bildco in tow, Adia subsidiary heads for another Medline share sale - EnterpriseAM",
-      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPdE5iZ01xd1NLZnhXMEJxekxLX0FLTHZfeTRVeml3dUctNF93Zmc2U0I4Z0c4RFZCeVRJbjh4REpTVFRZYUM3UER4SG80TUhQREs3djhDVmhZQkY0Zld2ODVFSm1ubHA1YnpzbVVQWnVHbGZoQ2U1cVRJQ2dqQS1EMEVNMXVSVWtYVFdqcjhidUVMZjRMUWdHREZSSk9LWXo3Nlk4cVlSNm5sSFROVDNKdlk5T29Dd0dpU0hkRXdFSTAxS3JfTlN1Vi1HdFRtS1VUU2FodTBVOHJ5OHlRV294S1lJSy1wWFhWaHlPSkhJYXh4OWpTQW9kbjc0TDMwSW5aU0NtMDZ0NnVwNmYyUm1jbFI5dHlDLVJsOXlhS2FtZWhiay1ITDJraHA3NzNkNS01T0xldm9CRXQyUTdsMEdKSDN4VUk4emQ3SHc?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "MGX makes another AI wager, another int’l player lands in DIFC, a cold chain hub for Abu Dhabi, Gallega adds capacity to Jafza, another real estate project with Bildco in tow, Adia subsidiary heads for another Medline share sale&nbsp;&nbsp;EnterpriseAM",
-      "source": "GNews | UAE Trade/FTZ",
+      "title": "Trump vows response against Iran for downing US helicopter near Hormuz",
+      "link": "https://www.dailysabah.com/world/americas/trump-vows-response-against-iran-for-downing-us-helicopter-near-hormuz",
+      "published": "Tue, 09 Jun 2026 19:45:00 +0300",
+      "summary": "President Donald Trump accused Iran of bringing down a U.S. military helicopter near the Strait of Hormuz and said Washington would be compelled to respond, escalating tensions as...",
+      "source": "Daily Sabah",
       "priority": 4,
-      "category": "海湾国家",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Israel continues Gaza killings, expands control to cloud Cairo talks",
+      "link": "https://www.dailysabah.com/world/mid-east/israel-continues-gaza-killings-expands-control-to-cloud-cairo-talks",
+      "published": "Mon, 08 Jun 2026 16:03:00 +0300",
+      "summary": "Israel killed four more Palestinians in the Gaza Strip Monday, according to local health officials, while the military expanded its control area.\n\nThe reports came as mediators ⁠in...",
+      "source": "Daily Sabah",
+      "priority": 4,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -261,6 +368,96 @@
       "relevance": "medium"
     },
     {
+      "title": "Iran attacks Bahrain, Kuwait, Jordan and Hormuz ships after new US strikes",
+      "link": "https://www.aljazeera.com/news/2026/6/10/us-bombs-iran-after-trump-threat-tehran-closes-hormuz-strait-to-all-ships?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 23:57:12 +0000",
+      "summary": "Tehran claims attacks on bases in Bahrain, Kuwait and Jordan, as US strikes Karaj and ports in Strait of Hormuz.",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trump’s claim of escorting oil through Hormuz won’t ease crisis",
+      "link": "https://www.aljazeera.com/video/quotable/2026/6/10/trumps-claim-of-escorting-oil-through-hormuz-wont-ease-crisis?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 23:55:27 +0000",
+      "summary": "Trump’s claim of escorting oil through Hormuz won’t ease crisis",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "‘Negotiate with bombs’: Hegseth defends second night of US strikes on Iran",
+      "link": "https://www.aljazeera.com/news/2026/6/10/us-defence-secretary-hegseth-pledges-strikes-on-key-facilities-in-iran?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 21:51:57 +0000",
+      "summary": "US Central Command has described the attacks as a result of &#039;Iran’s unwarranted and continued aggression&#039;.",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Israel kills 16 in Lebanon, UN to probe international law violations",
+      "link": "https://www.aljazeera.com/news/2026/6/10/israel-kills-16-in-lebanon-un-to-probe-international-law-violations?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:46:39 +0000",
+      "summary": "UN investigators to arrive in Lebanon next week to assess potential violations of international law by all parties.",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Former adviser says Netanyahu losing influence with Trump",
+      "link": "https://www.dailysabah.com/world/mid-east/former-adviser-says-netanyahu-losing-influence-with-trump",
+      "published": "Wed, 10 Jun 2026 18:36:00 +0300",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu's standing with U.S. President Donald Trump has weakened in recent months, a former adviser said Wednesday, pointing to a steady eros...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Gwyneth Paltrow under fire for complicity in Israeli occupation",
+      "link": "https://www.dailysabah.com/arts/cinema/gwyneth-paltrow-under-fire-for-complicity-in-israeli-occupation",
+      "published": "Wed, 10 Jun 2026 18:34:00 +0300",
+      "summary": "Hollywood actress Gwyneth Paltrow has come under fire after appearing in a promotional campaign for a high-end residential development in Israel, drawing criticism from activists a...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "At least 12 people killed in continued Israeli strikes on S. Lebanon",
+      "link": "https://www.dailysabah.com/world/mid-east/at-least-12-people-killed-in-continued-israeli-strikes-on-s-lebanon",
+      "published": "Wed, 10 Jun 2026 16:58:00 +0300",
+      "summary": "At least 12 people were killed in Israeli strikes across southern Lebanon Wednesday, including in the coastal city of Sidon, according to a Lebanese medical source.\n\nEarlier, Israe...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "West Bank sees Israeli state-sanctioned ethnic cleansing: Amnesty",
+      "link": "https://www.dailysabah.com/world/mid-east/west-bank-sees-israeli-state-sanctioned-ethnic-cleansing-amnesty",
+      "published": "Wed, 10 Jun 2026 16:21:00 +0300",
+      "summary": "Rights group Amnesty International has accused Israel of carrying out ethnic cleansing in the occupied West Bank and making the Palestinian territory's formal annexation a pol...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "'Have to pay price': Trump threatens Iran after exchange of strikes",
+      "link": "https://www.dailysabah.com/world/mid-east/have-to-pay-price-trump-threatens-iran-after-exchange-of-strikes",
+      "published": "Wed, 10 Jun 2026 15:44:00 +0300",
+      "summary": "President Donald Trump warned Wednesday that Iran 'will have to pay the price' for delaying negotiations, as Tehran announced it would reconsider diplomatic engagement with Washing...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Turkey-BD strategic partnership: Opportunities and challenges - The Financial Express",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN2VUTWhaWjhVelVYdUxwbkhTSFdjbElGVXdTVjN4TUlTVk1HTDg0eGJVeF9WM3J4ZHJ6dThNZXQtdWhWckJyWmZaeU5ISmdrRlBYdU80NnhOYXgzRjk1YnF5ajN1cW42eHVnMXZtRmNzNmJFSUVJcWpnbmJVVzBEVWVYWUlrdkJudEdKSzd1OUVrcXFTcnltd0trcUg5YkluT0I4ZWVRM3RCM2hXWXc?oc=5",
       "published": "Wed, 10 Jun 2026 14:31:10 GMT",
@@ -268,6 +465,16 @@
       "source": "GNews | TR Mfg/Export",
       "priority": 3,
       "category": "伊朗+土耳其",
+      "relevance": "medium"
+    },
+    {
+      "title": "US resumes Iran strikes over chopper crash, Tehran hits back",
+      "link": "https://www.dailysabah.com/world/mid-east/us-resumes-iran-strikes-over-chopper-crash-tehran-hits-back",
+      "published": "Wed, 10 Jun 2026 11:23:00 +0300",
+      "summary": "The U.S. launched airstrikes against Iran early Wednesday in response to the crash of an American attack helicopter blamed on Tehran, triggering new Iranian attacks and further esc...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -314,6 +521,46 @@
       "relevance": "medium"
     },
     {
+      "title": "France condemns attacks on Christians in East Jerusalem, Israel",
+      "link": "https://www.dailysabah.com/world/mid-east/france-condemns-attacks-on-christians-in-east-jerusalem-israel",
+      "published": "Tue, 09 Jun 2026 23:10:00 +0300",
+      "summary": "French Foreign Minister Jean-Noel Barrot denounced what he described as a growing wave of violence against Christians, churches and religious institutions in occupied East Jerusale...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Progress made on key disputes in Gaza cease-fire talks, Hamas says",
+      "link": "https://www.dailysabah.com/world/mid-east/progress-made-on-key-disputes-in-gaza-cease-fire-talks-hamas-says",
+      "published": "Tue, 09 Jun 2026 20:49:00 +0300",
+      "summary": "Hamas said negotiations in Cairo have produced 'acceptable approaches' to several of the most contentious issues in efforts to secure a Gaza cease-fire agreement with Israel, signa...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Israeli withdrawal key to restoring state's authority: Lebanese president",
+      "link": "https://www.dailysabah.com/world/mid-east/israeli-withdrawal-key-to-restoring-states-authority-lebanese-president",
+      "published": "Tue, 09 Jun 2026 19:33:00 +0300",
+      "summary": "Lebanese President Joseph Aoun said a full Israeli withdrawal from Lebanese territory would allow the state to assert its authority nationwide and eliminate the rationale for armed...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Palestinians subjected to 'mass atrocities' by Israel forces, settlers",
+      "link": "https://www.dailysabah.com/world/mid-east/palestinians-subjected-to-mass-atrocities-by-israel-forces-settlers",
+      "published": "Tue, 09 Jun 2026 15:15:00 +0300",
+      "summary": "A U.N.-mandated inquiry reported Tuesday that Palestinian civilians are facing 'mass atrocities' committed by Israeli forces and settlers.\n\nCivilians across war-ravaged Gaza and th...",
+      "source": "Daily Sabah",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "The Mideast Is Baffled by Trump’s Call to Expand Abraham Accords - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3dhaThRRUtrYXVBUVU3QVdGd1JzOHNTSl9qME5Vei01a0JRamFKOXViWWZSYnRRbl9Gdm9FWDFpbHc3RV82dUY4ajlqdVJKdnduR3Y3T2pQRTdseXM0bHRMMVlES0ZtcFFQSUxEckdzbDAyUEVnSUc3SjNRbE1uQ19zYV8?oc=5",
       "published": "Thu, 28 May 2026 07:00:00 GMT",
@@ -344,13 +591,33 @@
       "relevance": "medium"
     },
     {
-      "title": "Turkey Heavy Duty Microfiber Cleaning Cloths - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ1k0cWZEbmdqZlpfTGt0NVZ3UzN6V1lDdGdnSGVJa05ZeEtDd1RVa2lzM29ldmo5aTlzMmVhRjVRVURRb3ZjNTVzdUFicEhsa21UVW5neHNxREg1TGZNbXlpX3JyaHU0MDJMSWZTSmVqNXdCNjFYRktKNnk3YVI0aGNmY24wTmFCMnNDTlJlM09GU3Q2ZmNNbmdlbDd5aVM0VVh6aXRER1ZHRGNqQ1VoOVhhamE3MmN4dkdTOHNOT0RKNHp3ZDFSeVgtYkc?oc=5",
-      "published": "Sun, 17 May 2026 07:00:00 GMT",
-      "summary": "Turkey Heavy Duty Microfiber Cleaning Cloths - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-      "source": "GNews | TR Mfg/Export",
+      "title": "Which World Cup teams, players and officials were denied US visas, entry?",
+      "link": "https://www.aljazeera.com/sports/2026/6/11/which-world-cup-teams-players-and-officials-were-denied-us-visas-entry?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 02:24:07 +0000",
+      "summary": "Top Somali referee Omar Artan latest victim of stringent US travel policies after Iranian squad&#039;s visas were delayed.",
+      "source": "Al Jazeera",
       "priority": 3,
-      "category": "伊朗+土耳其",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Iran announces closure of Strait of Hormuz following US strikes",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/11/iran-announces-closure-of-strait-of-hormuz-following-us-strikes?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 01:18:55 +0000",
+      "summary": "Iranian officials say the Strait of Hormuz has been closed in response to US strikes.",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Iran war live: Tehran targets Bahrain, Kuwait, Jordan after new US strikes",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/6/11/iran-war-live-us-launches-attacks-on-multiple-iranian-targets?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 00:00:00 +0000",
+      "summary": "Iran remains defiant amid US attacks, orders complete closure of Strait of Hormuz to all vessels.",
+      "source": "Al Jazeera",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -424,16 +691,6 @@
       "relevance": "medium"
     },
     {
-      "title": "“There were 56 Israeli startups on the map. Today there are over 400 in New York.” - CTech",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43UVB2YXhZbU8xVlRKS3h6N1BERWVWbmtkREJZWnNURUt6eGs0OXF1dERXTWFxT1czcDhfYVVITjBTNmpRSnowOEFXSHBSdTFDNUFQMjg5UmFVR2xheEJKZklCZThZWmlsa3c?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "“There were 56 Israeli startups on the map. Today there are over 400 in New York.”&nbsp;&nbsp;CTech",
-      "source": "GNews | IL Tech/Trade",
-      "priority": 3,
-      "category": "以色列+其他",
-      "relevance": "medium"
-    },
-    {
       "title": "Trump is losing control of the Iran war - Responsible Statecraft",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95MDBSbkczV1dMV2JoTUNBRlEteml5WVRkc0N2MExHUHR6Smk1cXJXR2JNSzdIeDNCVEJCZ0RUbE9nX01HdklnLWJYdTIyalFIeUczVWc5bkZfRmY1am1iSHZwNmk?oc=5",
       "published": "Mon, 08 Jun 2026 12:11:42 GMT",
@@ -464,13 +721,13 @@
       "relevance": "low"
     },
     {
-      "title": "نمو التجارة الثنائية بين الإمارات والهند 37% منذ إطلاق الشراكة الاقتصادية الشاملة - موقع 24",
-      "link": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxQSFJ5UWpPbGxMUjhCM0lubXA3TDNGMHZSSUNCVU5TQk9JbXA4WktGT25KclA3eXZ0M2NfNHVjYjJFc2hSdG03b2lBdkFkNXhWZmFSZ1ZNMjM5NnZVbnZBWFQ5QURhM3J0ZkN3eE8wMTRjTk1DSkxfWnBKSDZuZ1J0RGE5Q00tVUYzU2RjYWNZZDRrUUtQbDBrS1Ewd3lmQWgtemt5c3Y3dzNJX3h4c3NqTmZCakZKSmRHbGt3bEw5TFduZzJIM1AwazdmYlphbndCdDdOVkRNaDJKcDlxQWszSk8xbzNiZUhzeTRSNFdXaUFoSmJ1dm5ZaXNDQkctdDlra19UaHBhYThOUmIyMElRWms0MUk5UkU0QzZmTDVpUGxfVnNxYzdJV2VQQUxDSlVNeU9Ba25jcG9vbDdVRjU1VmIyeGp1WEM4akVQY0s3VFB4akIteW8wanFiYjJSQy1rTDhoMWpvakthNUNkZkpsM2MxMzZBelF0ODBBaGxBTDIxYXMxQmg1aVlVa3E0YjBZM3Q5Wk1rcjVTcTRXVVdtWGVxVGE2MmpBNXRaOVo2aTRwQVBYVjhPMlBoVnFZTEwzR1QtNFFyWUVlODVkM0UybDViNVluZ0lPQ21NYlZZV3diQUpJM0tZQmVERHZsakI5ZkFpRlNqeXZHSWNreDhHb29ESnNsckVyUVI2aXVqZ2pIcmdtNU83VGZ5UmxfTTd5V0pXbUU2ZkFsdFdOc1ZtVHNrOVQ5elFQYTNqQnphemFvZHdfU1h5eWNQSjVDclIxb1FSbEY1Sm53SXlWVEQ4N2xRWmxUNFZXRGI2Qw?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "نمو التجارة الثنائية بين الإمارات والهند 37% منذ إطلاق الشراكة الاقتصادية الشاملة&nbsp;&nbsp;موقع 24",
-      "source": "GNews | UAE العربية",
+      "title": "Hegseth: Guantanamo Bay prisoners ‘should have been executed’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/10/hegseth-guantanamo-bay-prisoners-should-have-been?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 23:54:31 +0000",
+      "summary": "US Defense Secretary Pete Hegseth says the prisoners of the US at Guantanamo Bay ‘should have been executed’.",
+      "source": "Al Jazeera",
       "priority": 1,
-      "category": "本地语言搜索",
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -484,16 +741,6 @@
       "relevance": "low"
     },
     {
-      "title": "DP World attracts over $232.5mln in investments at Jafza - ZAWYA",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWlp1OXFYbVJtZ1gxNEtFdGhJcjlyZkk0WmNmWmZuWXFiMy1DVFhnY2ZlOWhZaHdRaDZVMmt2UDRnc2FfSUx5a0R4TkpEcFg2TjFMM0pJVERMeFNFcExHNGltc2ExLTlfZWRoaDltcngycUt2ZUhTMGFRWF9QMVlVdlVHckxWTmU5bWJ2cURReEU3Y09WU1Z2QklGTlQtcVV1ZWttdGJYVjVualda?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "DP World attracts over $232.5mln in investments at Jafza&nbsp;&nbsp;ZAWYA",
-      "source": "GNews | UAE Trade/FTZ",
-      "priority": 1,
-      "category": "海湾国家",
-      "relevance": "low"
-    },
-    {
       "title": "The race to redraw the Middle East’s trade map accelerates - Splash247",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVjNLaVRiUUJRQktkbmdMYWp6V0JFX1dxRkZGWXBSSlo1SzR5Ym82RFU3NnpHRDNKOTlKRTZVRjlXeHE5b1BvVmpxV1F0N3pIZXhqRUZuWVE2Q2ZVM3hMNlAzYnZGMzhJQlpjdHlPSm5vUVpEN1lnanZYcTgxeVE1ZU5ES1dwbTQ?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -501,26 +748,6 @@
       "source": "GNews | ME Logistics",
       "priority": 1,
       "category": "以色列+其他",
-      "relevance": "low"
-    },
-    {
-      "title": "مجلس الأعمال الإماراتي الهندي يؤكد متانة الشراكة وطموح الوصول بالتجارة الثنائية إلى 200 مليار دولار - البيان",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16R09VZEJxVWtVMmd1YWVjZjhmUE5JenFxMmpSZGJUM1BBdzhCUEVGUzQxdWNmc0tMc3lPSkdaa2V3bG5lMXVPTEZLYXBvV1hmeE4wSFdULWhWTFBlU3NiQllDeHNGd3ozb3dn?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "مجلس الأعمال الإماراتي الهندي يؤكد متانة الشراكة وطموح الوصول بالتجارة الثنائية إلى 200 مليار دولار&nbsp;&nbsp;البيان",
-      "source": "GNews | UAE العربية",
-      "priority": 1,
-      "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "46 مليار درهم التجارة الثنائية بين الإمارات وفرنسا 2025 - صحيفة الخليج",
-      "link": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxPR2tCMzNibUlUam9MODE3WDFuX1FlMjBrakFTZ3NPelV2RXY1dE11MFVGSlZPRTNtUnR6cHZseG9naFNxX18wN3d2RFVNR1huWEczTjIxTHhnY0VocUlwSjl6NHlBckpDVXVxZ21FaUVpelpqaWM2VkpSNEdRSmlfcDliSEtzbF9PV2REYXNOVUlWbXQyQzl0cTdUWXoyRlFuTVlSZTJZMWhMTXl2SzFxR2JPVE5xZ01LUzhSd213MlltOUZtVmlyVjFHNU1EVHU4aS1aQlU2eFNaeEtSU2F2RGJXV3FnaVdQdHFqYnpxWDFYZnBGY3hnOFc5U1RGNjZQUDdYQ05QYUZUekNKODFhdWlndWtsLV9nYXl1U21HZ2xCcndnT0JfRjZNSGJqWUFKRlVxMzZBSGZ4WGVVdURkWHlMRjNBM1JiYlBKMnBId0c5WjV3RktqZGtmQnBudlFlN19KT3U5V1lQdFExZldveTlJOVlTaElJRnhxQ3Vnd0ZSTk0wYmtpbEkySkYxRExPWVBRejRMYXVGMkFKQTRZQW9MMWxOcmVNTVdVUE45UWdqNGVLcVVEQ0N0cFZxSmZuTDhPRFBmNU42X1VET2hjTjhYVmgyWlJVZllBdGd0cEljR0xYcmN4NnJPYW40cVJTb0tOVVlTaldJcFpjMjQtNnludkh0QWNWd3NYRDVQTndIUXpVNkh2eEhlYk96b0JVbVd1anZhb1NUVXUwejJ0SFgyNzdjTXFwNUgwS2otZEdwN28?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "46 مليار درهم التجارة الثنائية بين الإمارات وفرنسا 2025&nbsp;&nbsp;صحيفة الخليج",
-      "source": "GNews | UAE العربية",
-      "priority": 1,
-      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -534,16 +761,6 @@
         "unprecedented"
       ],
       "category": "信号性查询",
-      "relevance": "low"
-    },
-    {
-      "title": "الإمارات تقود التحول من التجارة إلى الشبكات الاقتصادية العالمية - البيان",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vWENaejZoUlloWXhrcDJQNE9EWXBMem1LckZydk1wMFlzMnpael8xUk5nZzR5WlQxaXNNMEpneFdLeElkR3JYS3JUX1FPT1gzMElsWElRSzRETTFfcFAzZUFYQkp1dWV6c0JZ?oc=5",
-      "published": "Sun, 17 May 2026 15:52:00 GMT",
-      "summary": "الإمارات تقود التحول من التجارة إلى الشبكات الاقتصادية العالمية&nbsp;&nbsp;البيان",
-      "source": "GNews | UAE العربية",
-      "priority": 1,
-      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -567,10 +784,20 @@
       "relevance": "low"
     },
     {
-      "title": "اتفاقية التجارة الحرة الخليجية مع بريطانيا دفعة استراتيجية لاقتصاد الإمارات - البيان",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15WWFzTTdUcmZ0UVdYYmxoenpSTDdiUlpYcUxRZWtXclgwTmhDZ3VkMnlSa0YzajZDRUh2UWh2ODg4Mms0d3dMeDZuVTZDTFpRQm9JMDZXbFowQTV6aFh2MEtxcGtMSXdZRVJ3?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "اتفاقية التجارة الحرة الخليجية مع بريطانيا دفعة استراتيجية لاقتصاد الإمارات&nbsp;&nbsp;البيان",
+      "title": "France, Germany scrap joint fighter jet project amid industry dispute",
+      "link": "https://www.dailysabah.com/world/europe/france-germany-scrap-joint-fighter-jet-project-amid-industry-dispute",
+      "published": "Mon, 08 Jun 2026 19:21:00 +0300",
+      "summary": "France and Germany have decided to end a planned joint fighter jet program after disagreements between the defense companies involved proved impossible to resolve, dealing a setbac...",
+      "source": "Daily Sabah",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "وزارة التجارة والصناعة في جنوب أفريقيا: الإمارات شريك محوري للقارة السمراء - العين الإخبارية",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KSEYwSldLa3Fac25NeWl6T0JSOWRwY29CTjAzamdUZVBHUkV2TjNIZzgydzJSQUpiOWJUcGhPZDJjNEIzaUxIM2lLajdVTXl1ai1SNFpEOFVvOFZQUFJONFhTcnpudl9FWFdFTjhIVnk?oc=5",
+      "published": "Mon, 08 Jun 2026 06:23:44 GMT",
+      "summary": "وزارة التجارة والصناعة في جنوب أفريقيا: الإمارات شريك محوري للقارة السمراء&nbsp;&nbsp;العين الإخبارية",
       "source": "GNews | UAE العربية",
       "priority": 1,
       "category": "本地语言搜索",
@@ -597,6 +824,106 @@
       "relevance": "low"
     },
     {
+      "title": "Trial begins for man accused of sparking Palisades Fire in California",
+      "link": "https://www.aljazeera.com/news/2026/6/10/trial-begins-for-man-accused-of-sparking-palisades-fire-in-california?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 23:05:47 +0000",
+      "summary": "Prosecutors say man deliberately started blaze that became one of the most destructive wildfires in Los Angeles history.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Canada introduces bill to ban social media for children under 16",
+      "link": "https://www.aljazeera.com/economy/2026/6/10/canada-introduces-bill-to-ban-social-media-for-children-under-16?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 22:28:14 +0000",
+      "summary": "The bill also aims to make AI chatbots safer by establishing a digital regulator to set safety standards.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Ronaldo misses big chances in Portugal’s World Cup warmup win over Nigeria",
+      "link": "https://www.aljazeera.com/sports/2026/6/10/ronaldo-misses-big-chances-in-portugals-world-cup-warmup-win-over-nigeria?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 22:18:22 +0000",
+      "summary": "Portugal beat Nigeria 2-1 as Pedro Neto and Francisco Conceicao net, but Cristiano Ronaldo scuffs golden chances.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump directs interim US intelligence chief Bill Pulte to downsize agency",
+      "link": "https://www.aljazeera.com/news/2026/6/10/trump-directs-interim-us-intelligence-chief-bill-pulte-to-downsize-agency?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 21:09:14 +0000",
+      "summary": "Interim ODNI chief Bill Pulte has been slammed by Democrats as a Donald Trump loyalist with no intelligence background.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Macron invites Zelenskyy, Arab leaders to summit on Ukraine, Middle East",
+      "link": "https://www.dailysabah.com/world/europe/macron-invites-zelenskyy-arab-leaders-to-summit-on-ukraine-middle-east",
+      "published": "Wed, 10 Jun 2026 20:57:00 +0300",
+      "summary": "French President Emmanuel Macron said Wednesday that Ukrainian President Volodymyr Zelenskyy will attend next week's summit in France as part of efforts to consolidate interna...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Hero’s welcome for Omar Artan after Somali’s World Cup dreams dashed",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/10/heros-welcome-for-omar-artan-after-somalis-world-cup-dreams-dashed?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:46:33 +0000",
+      "summary": "Referee Omar Artan was denied from the US, where he was set to become the first Somali to officiate at a FIFA World Cup.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "First image in months emerges of Dr. Hussam Abu Safia",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/10/first-image-in-months-emerges-of-dr-hussam-abu-safia?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:34:50 +0000",
+      "summary": "The first image in months of Gaza doctor Hussam Abu Safia has been released.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "‘I love the inflation’ US President Trump dismisses price concerns",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/10/i-love-the-inflation-us-president-trump-dismisses-price-concerns?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:31:49 +0000",
+      "summary": "Trump said he ‘loves’ inflation as new data showed US consumer prices rose at their fastest pace in three years.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Bill Gates rejects wrongdoing amid scrutiny over Epstein ties",
+      "link": "https://www.dailysabah.com/world/americas/bill-gates-rejects-wrongdoing-amid-scrutiny-over-epstein-ties",
+      "published": "Wed, 10 Jun 2026 20:23:00 +0300",
+      "summary": "Microsoft co-founder Bill Gates on Wednesday defended himself against questions from U.S. lawmakers regarding his past association with convicted sex offender Jeffrey Epstein, insi...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "India summons US envoy over attack on ship carrying Indian sailors off Oman",
+      "link": "https://www.aljazeera.com/news/2026/6/10/india-summons-us-envoy-over-ship-attack-that-left-three-indians-missing?traffic_source=rss",
+      "published": "Wed, 10 Jun 2026 20:05:59 +0000",
+      "summary": "Three Indian seafarers are missing after Oman rescues 21 others following a US attack on the Palau-flagged Settebello.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "الإمارات والسويد تدفعان قطار الشراكة.. استثمارات وابتكار وفرص جديدة - العين الإخبارية",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50LUZwa0kzSThHNElUcTd3Vk50Umg4Yy1Wb3g4elNQbjNSR0lObGxGWHZmZmpjSmJSTGhEMGFCMERLSGx3MEEwVUc4NTBKVzR5cEEyWnlHVTBralczaGViQzBUVmlTQWxKX1RUS2pn?oc=5",
       "published": "Wed, 10 Jun 2026 18:14:00 GMT",
@@ -607,6 +934,16 @@
       "relevance": "low"
     },
     {
+      "title": "M23 detaining, abusing thousands of civilians in DR Congo: HRW",
+      "link": "https://www.dailysabah.com/world/africa/m23-detaining-abusing-thousands-of-civilians-in-dr-congo-hrw",
+      "published": "Wed, 10 Jun 2026 16:51:00 +0300",
+      "summary": "The Rwanda-backed M23 armed group has forcibly recruited thousands of people in eastern Democratic Republic of Congo and detained them in inhumane conditions, Human Rights Watch sa...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "«الشراكة الاقتصادية الشاملة» تحصد علامة «الجاهزية للمستقبل» - البيان",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLYXpmc0tqNXk5SVlKOHFyVHpZbXJwUjl6OS0zdHY2VEFQMVl4VFNpb3ZOTzYwM0xHRGd2SkN6eFFUT2tteEtQcGRkdl9qR2FDYkZqY1BkemJKbGxtNmJUTUJIQXVGNEJGcG5Z?oc=5",
       "published": "Wed, 10 Jun 2026 16:48:00 GMT",
@@ -614,6 +951,36 @@
       "source": "GNews | UAE العربية",
       "priority": 0,
       "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "India vows to stop 'single drop of water' from reaching Pakistan",
+      "link": "https://www.dailysabah.com/world/asia-pacific/india-vows-to-stop-single-drop-of-water-from-reaching-pakistan",
+      "published": "Wed, 10 Jun 2026 14:43:00 +0300",
+      "summary": "India has vowed that it would not let 'a single drop of water' reach neighboring Pakistan, a move that Islamabad previously condemned as a violation of its water rights and interna...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Pakistani strikes kill 26 terror suspects along Afghanistan border",
+      "link": "https://www.dailysabah.com/world/asia-pacific/pakistani-strikes-kill-26-terror-suspects-along-afghanistan-border",
+      "published": "Wed, 10 Jun 2026 14:11:00 +0300",
+      "summary": "At least 26 people were killed in Pakistani airstrikes along its border with Afghanistan on Wednesday, in what Islamabad described as anti-terrorism operations. \n\nPakistani securit...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "N. Ireland sees night of anti-immigrant violence over stabbing case",
+      "link": "https://www.dailysabah.com/world/europe/n-ireland-sees-night-of-anti-immigrant-violence-over-stabbing-case",
+      "published": "Wed, 10 Jun 2026 12:55:00 +0300",
+      "summary": "A stabbing attack that left a victim seriously injured sparked anti-immigrant violence in several parts of Northern Ireland, while the 30-year-old Sudanese suspect was set to appea...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -637,33 +1004,73 @@
       "relevance": "low"
     },
     {
-      "title": "الإمارات وسوريا تدشنان مرحلة جديدة من الشراكة الاقتصادية - البيان",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPc1ZPLVFXMG1iandkdTRKSnpoeW9Va0NjSmhvNDZjN0ljNnF4bURvNjlKdlYyTHpnXzMzU201X2FxQ3VFYy1RWFdrMVBVek9Bb1J2UGJrOFpQT0JkTWxmNFJ6S1Z0SkY3NXVR?oc=5",
-      "published": "Tue, 12 May 2026 07:00:00 GMT",
-      "summary": "الإمارات وسوريا تدشنان مرحلة جديدة من الشراكة الاقتصادية&nbsp;&nbsp;البيان",
-      "source": "GNews | UAE العربية",
+      "title": "'Ukraine ready to share drone technology with Nordic, Baltic allies'",
+      "link": "https://www.dailysabah.com/world/europe/ukraine-ready-to-share-drone-technology-with-nordic-baltic-allies",
+      "published": "Tue, 09 Jun 2026 19:08:00 +0300",
+      "summary": "Ukrainian President Volodymyr Zelenskyy held talks with Nordic and Baltic leaders at a regional summit in Estonia on Tuesday, as Kyiv seeks to reinforce ties with key allies while...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Conflict, hunger push S. Sudan families to eat leaves to stay alive",
+      "link": "https://www.dailysabah.com/world/africa/conflict-hunger-push-s-sudan-families-to-eat-leaves-to-stay-alive",
+      "published": "Tue, 09 Jun 2026 17:28:00 +0300",
+      "summary": "Families in South Sudan's Jonglei state are increasingly relying on leaves, water lilies and other wild food sources to stay alive as worsening conflict, displacement and food...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "New Russian attacks on Ukraine kill 3, including expectant mother",
+      "link": "https://www.dailysabah.com/world/europe/new-russian-attacks-on-ukraine-kill-3-including-expectant-mother",
+      "published": "Tue, 09 Jun 2026 13:21:00 +0300",
+      "summary": "At least three people, including a pregnant woman, were killed in overnight Russian strikes on Ukraine, Kyiv said Tuesday, just hours after President Volodymyr Zelenskyy met with a...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Philippine quake displaces 32,000, while death toll climbs to 37",
+      "link": "https://www.dailysabah.com/world/asia-pacific/philippine-quake-displaces-32000-while-death-toll-climbs-to-37",
+      "published": "Tue, 09 Jun 2026 13:21:00 +0300",
+      "summary": "Over 32,000 have been displaced while the death toll climbed to 37 Tuesday, a day after one of the strongest earthquakes in decades struck the southern Philippines.\n\nRescuers searc...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump claims crew safe after US chopper crashes near Hormuz",
+      "link": "https://www.dailysabah.com/world/mid-east/trump-claims-crew-safe-after-us-chopper-crashes-near-hormuz",
+      "published": "Tue, 09 Jun 2026 11:25:00 +0300",
+      "summary": "A U.S. Army helicopter crashed Monday near the Strait of Hormuz, President Donald Trump confirmed, but said that both crew members were unharmed in the incident near the strategic...",
+      "source": "Daily Sabah",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Gaziantep ile Halep arasında üretim ve ticaret alanında konular değerlendirildi - takipgazetesi.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObTBrRTlLSlAzcXN5eWVpa212SU1WUmh0c1p2aGwxc1cxbkYzNnZlX0E2elcwR2JrS0VrVlpCZHVKR3REcnJvOXpRRDZ1Qjd6RGVnQnpuZXNYNmNia2RBRXNSd09IQUM4Mmd2S25KZmEyaWlxdFFEX3J6M1QzcGpnUFlOTXIxT2F6WmZtcVZPYTZnVU9DM0E3LXJiT3NmM2lneENLVnVYZGJ1Skd4N01FZWtpX3pkblE5TWVMSmFQWnZ0RnM?oc=5",
+      "published": "Tue, 09 Jun 2026 10:54:00 GMT",
+      "summary": "Gaziantep ile Halep arasında üretim ve ticaret alanında konular değerlendirildi&nbsp;&nbsp;takipgazetesi.com.tr",
+      "source": "GNews | TR Türkçe",
       "priority": 0,
       "category": "本地语言搜索",
       "relevance": "low"
     },
     {
-      "title": "Italy Textile Market Size, Share | CAGR of 3.6%. - Market.us",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iX212eC1GMjZ6dGpLMTFXX2JVdWtXYkZGLWZNdWJyUUVDejlMZUZnemR1WGFDOW85eS1BTEM0bmR2NkV5WnJNU3JLeVdpSHdHSXJHR2t5ODRWdw?oc=5",
-      "published": "Tue, 02 Jun 2026 08:50:56 GMT",
-      "summary": "Italy Textile Market Size, Share | CAGR of 3.6%.&nbsp;&nbsp;Market.us",
-      "source": "GNews | TR Mfg/Export",
+      "title": "Asia is already grappling with a fuel crisis. A ‘Super El Nino’ threatens to make things worse - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zYlN6a0pmZ0ltSE00UTlBanE3MUFxcHdRbTFzY3ZWODVyN0czVE1PbUxpQjJBaERUSWZITk1uOEgyMXZ1SUFKLXN3dGZYVm01aW12ZmszTm93M1R3d0p0blBrMzhaZ3Fndk5hZmdyQVp3cVdLSXZTdA?oc=5",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "Asia is already grappling with a fuel crisis. A ‘Super El Nino’ threatens to make things worse&nbsp;&nbsp;Fortune",
+      "source": "GNews | ME Climate",
       "priority": 0,
-      "category": "伊朗+土耳其",
-      "relevance": "low"
-    },
-    {
-      "title": "The Gulf’s Short-Term, Post- Conflict Foreign Policy Goals - ORF Middle East",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTS11czVjcE5ZZ2RCc3hTVWFoRFRHOGhPaUV1NjlqeE9BVjRHQzZKYURHbUkyN0duTF9zeEF4Q2R0VzUyX1IweXdMMXF2MXUza2tTdjc5VjdHdmRtQ2gyUUUzdnBJblN0V0JGNERHdU1VbHl1eVZfQ3gyZjJhSzVHUVBJUGF0YUdZQ0puRnBlM3M?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "The Gulf’s Short-Term, Post- Conflict Foreign Policy Goals&nbsp;&nbsp;ORF Middle East",
-      "source": "GNews | US-Gulf",
-      "priority": 0,
-      "category": "大国关系",
+      "category": "气候+人口",
       "relevance": "low"
     },
     {
@@ -677,13 +1084,73 @@
       "relevance": "low"
     },
     {
-      "title": "الاقتصاد السعودي يعزز قوته بارتفاع الصادرات 7.4 % خلال 2025 - جريدة الرياض",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBTdTNGSndrMTBSdXY1Unp2cFFnTDcxMktnR3J1eUVkYUhKZ2FNMGNmQnlldW8tXzB0TG1GZHE5ekRYblJNc2R3?oc=5",
-      "published": "Sun, 31 May 2026 22:56:58 GMT",
-      "summary": "الاقتصاد السعودي يعزز قوته بارتفاع الصادرات 7.4 % خلال 2025&nbsp;&nbsp;جريدة الرياض",
-      "source": "GNews | SA العربية",
+      "title": "OpenAI says China-based actors stoking opposition to AI data centres",
+      "link": "https://www.aljazeera.com/economy/2026/6/11/openai-says-china-based-actors-stoking-opposition-to-ai-data-centres?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 03:59:30 +0000",
+      "summary": "AI company says ChatGPT accounts sought to &#039;exploit and amplify existing public concerns&#039; about energy prices.",
+      "source": "Al Jazeera",
       "priority": 0,
-      "category": "本地语言搜索",
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Police in Belfast use water cannon as anti-immigrant unrest continues",
+      "link": "https://www.aljazeera.com/news/2026/6/11/police-in-belfast-use-water-cannon-as-anti-immigrant-unrest-continues?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 03:48:10 +0000",
+      "summary": "Clashes come as family of knife attack victim calls for calm and condemns violence targeting immigrants.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "FIFA’s Infantino defends US as World Cup host amid visa row, entry denials",
+      "link": "https://www.aljazeera.com/sports/2026/6/11/fifas-infantino-defends-us-as-world-cup-host-amid-visa-row-entry-denials?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 03:07:23 +0000",
+      "summary": "FIFA chief says his organisation cannot rule on government policies after a Somali referee was denied entry into the US.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Nigerian migrants flee South Africa after spike in xenophobic protests",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/11/nigerian-migrants-flee-south-africa-after-spike-in-xenophobic-protests?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 02:15:40 +0000",
+      "summary": "Migrants say they are living in fear after a group gave people living illegally in South Africa a deadline to leave.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "FIFA boss tells critics to ‘relax’ over Somali referee deportation",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/6/11/fifa-boss-tells-critics-to-relax-over-somali-referee-deportation?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 01:15:53 +0000",
+      "summary": "FIFA boss tells critics to ‘relax’ over Somali referee deportation",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Maasai women turn drought into income through fodder farming in Tanzania",
+      "link": "https://www.aljazeera.com/economy/2026/6/11/maasai-women-turn-drought-into-income-through-fodder-farming-in-tanzania?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 01:07:06 +0000",
+      "summary": "As drought kills livestock, Maasai women are turning drought-resistant grass into animal feed and income.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Mexico braces for celebrations, protests as World Cup opens amid tensions",
+      "link": "https://www.aljazeera.com/sports/2026/6/11/mexico-braced-for-celebrations-protests-as-world-cup-opens-amid-tensions?traffic_source=rss",
+      "published": "Thu, 11 Jun 2026 00:14:52 +0000",
+      "summary": "President Sheinbaum promises safe World Cup as host cities ramp up security after cartel violence scare and protests.",
+      "source": "Al Jazeera",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -697,21 +1164,21 @@
       "relevance": "low"
     },
     {
-      "title": "ثاني الزيودي يستكشف في بيلاروسيا فرص التعاون والشراكة الاقتصادية - Sharjah24",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IN2htTWJ1aU1seDlYRFJKaGFnaFpsamhWYWlpbmdPMWRnWDY4QjROZ3Y3ZC1kek1MV2RsN0lxeXpkVWxXbzl6VUhpWGVsVU9BMHQ4U3NGQUltZw?oc=5",
-      "published": "Sun, 07 Jun 2026 16:28:55 GMT",
-      "summary": "ثاني الزيودي يستكشف في بيلاروسيا فرص التعاون والشراكة الاقتصادية&nbsp;&nbsp;Sharjah24",
+      "title": "رئيسة \"غرفة جوهانسبرغ\": دبي نموذج عالمي ملهم للتنمية - البيان",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBM3BPYkI1V1EyZ0JBT0djMmgtRktPc2JqcjhmZFAxd25IS2VPSWRPSWMyelUwbnFnZ3JrRHZ3SkhWUXktN3lXMEJ0ZFFxQ01PMHA2VkJjamwtVm5JeUZLN1VzWXEydmdXbEdj?oc=5",
+      "published": "Sun, 07 Jun 2026 07:29:00 GMT",
+      "summary": "رئيسة \"غرفة جوهانسبرغ\": دبي نموذج عالمي ملهم للتنمية&nbsp;&nbsp;البيان",
       "source": "GNews | UAE العربية",
       "priority": 0,
       "category": "本地语言搜索",
       "relevance": "low"
     },
     {
-      "title": "رئيسة \"غرفة جوهانسبرغ\": دبي نموذج عالمي ملهم للتنمية - البيان",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBM3BPYkI1V1EyZ0JBT0djMmgtRktPc2JqcjhmZFAxd25IS2VPSWRPSWMyelUwbnFnZ3JrRHZ3SkhWUXktN3lXMEJ0ZFFxQ01PMHA2VkJjamwtVm5JeUZLN1VzWXEydmdXbEdj?oc=5",
-      "published": "Sun, 07 Jun 2026 07:29:00 GMT",
-      "summary": "رئيسة \"غرفة جوهانسبرغ\": دبي نموذج عالمي ملهم للتنمية&nbsp;&nbsp;البيان",
-      "source": "GNews | UAE العربية",
+      "title": "Cumhurbaşkanı Erdoğan'dan ihracat açıklaması: 395,9 milyar dolarlık rekor - Manşet Haber",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZUItcDl6d3JqamtYYjEzUnJ4eGpJRnNSdE9nRjlmTnVCVnNlSnAwVE5xOUJTWExNUl9GeU5QU2NpalA2azhSUlkzdjRjSzg3U3hzd1gtODRJMFpUMjV4OUZyMEVJOS15aUctTm1rZDJqUENnVVdBYTBWd0kwUjJ5U1lVUlpReXBxdU9MeHMzaFc4blJrNFM2SkpieDhPTEJNRFRTOA?oc=5",
+      "published": "Sun, 07 Jun 2026 07:23:00 GMT",
+      "summary": "Cumhurbaşkanı Erdoğan'dan ihracat açıklaması: 395,9 milyar dolarlık rekor&nbsp;&nbsp;Manşet Haber",
+      "source": "GNews | TR Türkçe",
       "priority": 0,
       "category": "本地语言搜索",
       "relevance": "low"
@@ -724,6 +1191,16 @@
       "source": "GNews | SA العربية",
       "priority": 0,
       "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "What Is El Nino And How Will It Affect Asia? – Analysis - Eurasia Review",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRUlwZ3BTUHB6aFg4NnlOdkQ0eVBEd1k4QVc3dmlIeHhqaFJtenkwMkZxLU1URno2SXJOdm9TU2Q5ejJqYkNkUnU2eFk3eXItaTRQZGVvenJtM2duZjk4bGlLX1NrQWl0Nzd4V2JMdFFDVTNwVE9iZjZJbUk5TG5PWjFBYi1GMmd0UEQ2d1VoM3pHRXB2NWkw?oc=5",
+      "published": "Sun, 07 Jun 2026 02:32:25 GMT",
+      "summary": "What Is El Nino And How Will It Affect Asia? – Analysis&nbsp;&nbsp;Eurasia Review",
+      "source": "GNews | ME Climate",
+      "priority": 0,
+      "category": "气候+人口",
       "relevance": "low"
     },
     {
@@ -764,26 +1241,6 @@
       "source": "GNews | ME Climate",
       "priority": 0,
       "category": "气候+人口",
-      "relevance": "low"
-    },
-    {
-      "title": "صقر غباش: الإمارات بوابة اقتصادية وتجارية استراتيجية تربط بين أوروبا وآسيا وأفريقيا - البيان",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1acHVZRTJpcWpXZHpzM29DWHFnUkpYQnRhT3RKQUNQcjlMTTlrUmVoSkZNV2ZRdnNCS0stT0tZbmQxaVVyWVdldDZ1VDlRb3NfZHNLRXFQakdLX3UyWHIwaVJnaktDUQ?oc=5",
-      "published": "Fri, 22 May 2026 20:25:00 GMT",
-      "summary": "صقر غباش: الإمارات بوابة اقتصادية وتجارية استراتيجية تربط بين أوروبا وآسيا وأفريقيا&nbsp;&nbsp;البيان",
-      "source": "GNews | UAE العربية",
-      "priority": 0,
-      "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03SjhWVXRYZlUxaDBGaUFuc1dKS3Qzc1lBb3d2aV9lN01jaGFzOTBlTG9sMTRNSG1MR3JCQkNCMFhUSV8yZ3NQVUlOY1RmODBrNDFIcTBfYXY3aG9mRmxSUXAwOU9HNy14?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons&nbsp;&nbsp;Britannica",
-      "source": "GNews | ME-China/BRI",
-      "priority": 0,
-      "category": "以色列+其他",
       "relevance": "low"
     },
     {

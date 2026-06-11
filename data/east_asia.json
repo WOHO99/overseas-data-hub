@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "东亚深度",
-  "updated": "2026-06-11T04:03:24.149515+00:00",
+  "updated": "2026-06-11T04:21:09.926933+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 107,
+  "total": 115,
   "high_priority": 0,
-  "medium_priority": 58,
+  "medium_priority": 56,
   "signal_alerts": {},
   "stats_by_category": {
     "日本": {
@@ -37,7 +37,11 @@
       "feeds": 3
     },
     "本地语言搜索": {
-      "count": 60,
+      "count": 90,
+      "feeds": 3
+    },
+    "独立RSS源": {
+      "count": 30,
       "feeds": 2
     },
     "信号性查询": {
@@ -45,27 +49,17 @@
       "feeds": 2
     }
   },
-  "fail_feeds": 0,
+  "fail_feeds": 1,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Japan, South Korea and Taiwan are suffering industrial rot - The Economist",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQjVZQTd6cTdwOWwyUy1udzBUU3BmTU5lX1lTWnlaSVpEcktrcW00V3hEQUpCNjJwMExFcHNtUU1xQlU2RkNObExxNHpiWEl5MWVlcm5xTnVXWW1mUW9NWTM4ejdHMjg3MmpsaGk2RmhlTjlYTnNLRmh6dWhJSjdoRHJCbGtKNlNkTVdzN1FqMmZIVDJEeFpNQllZNU5oR3IxWF91Sm1PTFBhNWdkekozZy03aDRYcGM?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Japan, South Korea and Taiwan are suffering industrial rot&nbsp;&nbsp;The Economist",
-      "source": "GNews | KR Chip/Export",
+      "title": "The Geopolitical Circumstances of Japan-South Korea Rapprochement - The Diplomat – Asia-Pacific",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY05rY3ZiMEp6QWd1TUlHSTA3UWRHVjhmR1d6b3NZSE1TUXRtZllnVFZqUTFYNjlETy1jTjFHMHdLa1FqLXFWbi04SUt1WGJUQXlOa09aNVhKOV94U3FVS2pLd25aNmd2R3NVRWlGUUQxS3NTcWdXcFN4ZWFHb0l5N0xtUU8xNnV3UEo5cTVpRFlhUHJwTWxIMnlIWHN3UEE?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "The Geopolitical Circumstances of Japan-South Korea Rapprochement&nbsp;&nbsp;The Diplomat – Asia-Pacific",
+      "source": "GNews | US-JK Trilateral",
       "priority": 9,
-      "category": "韩国",
-      "relevance": "medium"
-    },
-    {
-      "title": "South Korea’s Lee wins big in local election, Bolivia’s domestic crisis deepens, White House goes back to tariff policy - GZERO Media",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEdNWkFiN3NsRE5JU1gyRU96el9WbWdfTXN6eWlXa3hxb1lPZVhSMDBUbWdNYUNueGh5eUxpQjdNTkJ0UnB0anNmSWRuQ0QteDV3OERQeENuMWtFandCalBnczI5ekdNb3BCbEFjWGxtWF9SNS1GaWZkNWxLR3BVcDg4ZnRQLXdxTlM1MUlscTU1NkVrUGZPS2pCUmlsUjJ4SU02MGh3VzNxMXBPNkx0eTlTZVRHVFVMRVBzaHRkMnk5LWJVa3lOaFFuX1U3U0c0T1oyTHVlWkFIUi1EbERJdkxlZHFJOHFMOWhiVtIB7gFBVV95cUxNZHFMYW9lR0dzU0FzMnVaTFJKa3ZFSFF0OXBIWnIxdWFqd3Zlb2VvVXQ4aGJhM2Q1QWJ5cHd3WHFMWVZ6d2M4QjhoTkh3X1VZbUpRdkMzS3R2MDdFbUNSa09mbUJ3MUhUclUwNTNUd0xmcFJEeGNaQnBXY1dfa0c3T29xTHVhZ3p0Y2ZnSV9VV0x5TXcyQTFCLVQ4UklYYXZ2dEV1T2l5c1VkV25TbTJsa2ZzTjg4bWg2TTZuRDZqSzlFVll0dTBXbTVoRkxLb09ESG5GbU8tUkZLWVczelVieTNJM0pBNDVUWk9CSGRn?oc=5",
-      "published": "Wed, 03 Jun 2026 16:14:59 GMT",
-      "summary": "South Korea’s Lee wins big in local election, Bolivia’s domestic crisis deepens, White House goes back to tariff policy&nbsp;&nbsp;GZERO Media",
-      "source": "GNews | KR Politics",
-      "priority": 9,
-      "category": "政治+社会",
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
@@ -76,6 +70,16 @@
       "source": "GNews | US-JK Trilateral",
       "priority": 9,
       "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trump-Xi talks leave Korean chipmakers facing tough trade-offs - The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xU1N2Sld0TFVhMmRoTjlkRThzcl93bl9BM1ExdmtDaVVlcXpvbF9GdGNXTHUzWHE3LVZfTk0xSFJiUjVzTnY2b0lDTU03alE3NnBPbUd4RQ?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "Trump-Xi talks leave Korean chipmakers facing tough trade-offs&nbsp;&nbsp;The Korea Herald",
+      "source": "GNews | KR Chip/Export",
+      "priority": 9,
+      "category": "韩国",
       "relevance": "medium"
     },
     {
@@ -109,6 +113,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Beijing, Moscow drill for potential missile warfare",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f25bda3108bc8c6721a0b.html",
+      "published": "2017-12-12T00:41:33.000+0000",
+      "summary": "China and Russia kicked off their second joint computer-assisted anti-missile drill on Monday, a move experts said could deter potential missile threats amid rising tensions on the Korean Peninsula.",
+      "source": "China Daily",
+      "priority": 8,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Japan’s stronger-than-expected GDP supports June BoJ rate hike - ING THINK economic and financial analysis | ING THINK",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGF5czVTUHF5ZHdWVGUxelNwWGxzcDE4X1NBaVlTYzN0NHgyd0wxLTRrVnRlUFZiMUJIT01MS1BkNGlRclcwbWs5Ym5WOW5CV2FfUHFEdmRoelNiN1h0YWR0VWw3NHphcm5aLXdpa2NwT1o3d1ZLVDdTdEJrNnVqR2JhNEdNSUt1NHM3WDRrR1hWU1NuV2RicXV5QzF4Vm1ucWc?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -130,7 +144,7 @@
     },
     {
       "title": "South Korea's Election Overhaul: A Democratic Integrity Crisis - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmhkdndtc3NfMnczMXVlTXJIUklGanN6MWNwTHAxSWdybFVwN01rLVZxN3gyVUIzbTYxaTdXaE91SEVRRFJpSE9iVGRsRTlHSnRWQm1GUjQ4Z2xoZEstREYwSXFYWTg0WEdGTFZYaE5taklKM2pxSWFnYVZfMWhKRV8yUjUySi03dVJ0S0tFT3VXdkpZTGtrRDlreWJDZGdhSjdwUlAzMmxFcnpBM0VCTFpZUTZRLU84OFHSAboBQVVfeXFMT0poZHZ3bXNzXzJ3MzF1ZU1ySFJJRmpzejFjcExwMUlncmxVcDdNay1WcTd4MlVCM202MWk3V2hPdUhFUURSaUhPYlRkbEU5R0p0VkJtRlI0OGdsaGRLLURGMElxWFk4NFhHRkxWWGhObWpJSjNqcUlhZ2FWXzFoSkVfMlI1MkotN3VSdEtLRU91V3ZKWUxra0Q5a3liQ2RnYUo3cFJQMzJsRXJ6QTNFQkxaWVE2US1PODhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd3ZicTNJNGNtbkdSdXNrc1RiRXQ3RjBZaEZORVcyX0R6MVFfNy1xcTJrRmIyUUxRLTBWS1cyQjBRcmtrZk1OR0RGb3VabHJxWkhMTVRWRkhkMktTUGxPekRQTEQ5UjFrYlZZSUV3NkE1RjZjMWQ3ZGlJMlNTSTJhR3c1TVF2YUk1R1I3aTlNMmVkNmFJcjdhOVVfVzdwcmF4MHVER3huZnMyYmliWDVZMTgzcnrSAboBQVVfeXFMT0poZHZ3bXNzXzJ3MzF1ZU1ySFJJRmpzejFjcExwMUlncmxVcDdNay1WcTd4MlVCM202MWk3V2hPdUhFUURSaUhPYlRkbEU5R0p0VkJtRlI0OGdsaGRLLURGMElxWFk4NFhHRkxWWGhObWpJSjNqcUlhZ2FWXzFoSkVfMlI1MkotN3VSdEtLRU91V3ZKWUxra0Q5a3liQ2RnYUo3cFJQMzJsRXJ6QTNFQkxaWVE2US1PODhR?oc=5",
       "published": "Mon, 08 Jun 2026 09:37:44 GMT",
       "summary": "South Korea's Election Overhaul: A Democratic Integrity Crisis&nbsp;&nbsp;Devdiscourse",
       "source": "GNews | KR Politics",
@@ -159,13 +173,13 @@
       "relevance": "medium"
     },
     {
-      "title": "South Korea, U.S. Launch Working Group for Nuclear Submarine Agreements - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXRkVjl1dXN5MzdQWXA4aE1TY3dENDlYRUs5TnRRSTVFZF9KSDlqVGJOMUxPeXlKMUlrYWUyZHVDTl9UTEVLbmRhTG96dEJSZV9MYVc1WXVHTmVSSVI3dFJtVlNUbjN2WU5Nbnd2ajdlSER2VFJGeWNsWHZxeVVSclZCcWs5b1At?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "South Korea, U.S. Launch Working Group for Nuclear Submarine Agreements&nbsp;&nbsp;조선일보",
-      "source": "GNews | US-JK Trilateral",
+      "title": "South Korea’s Policy Adjustments Under Trump 2.0 - orfonline.org",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2Z5MUR0cnBpcll5bFdBaFZiSnZkTlp2T004VUV0VXI4MGloQmUzZFJrY29wZXF4b0pEUURTSW9NQjBSd0ZSc0V3b2dzY09QTkktT1BVVk5EQzJ4MTBmeUNLemdYbnFEaEFCeEpkS1dCNndnamwxQkdMTVdxTWxQSi1uWDB0ZHkzaUJJ?oc=5",
+      "published": "Wed, 13 May 2026 09:58:16 GMT",
+      "summary": "South Korea’s Policy Adjustments Under Trump 2.0&nbsp;&nbsp;orfonline.org",
+      "source": "GNews | KR Trade/Mfg",
       "priority": 6,
-      "category": "大国关系",
+      "category": "韩国",
       "relevance": "medium"
     },
     {
@@ -179,16 +193,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Ballot shortage casts cloud over South Korean local elections once seen as a Lee victory lap - Washington Times",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcnZCNW1UcGl0V1FCXzVkTnhQbGRDMEF4LUsxUmtZS3U5aUk1LUwtek1abWVPSHh5VTJhcy1pMjFrcFdRa2F3RWJaWS1TaVVub3p5WTdEMDAyZ0lrYzBMWTR3c2JIM0pXcWpUazd2aXAzanQwQlZjS0dKNDB4UUU2RnZFbFFuMlk1ZWdFNVhKcHBCSmlqOU10M0dyM3liLUh0VWtON2FXaDh5WWFpSm5WRnpCYjg?oc=5",
-      "published": "Wed, 03 Jun 2026 16:38:45 GMT",
-      "summary": "Ballot shortage casts cloud over South Korean local elections once seen as a Lee victory lap&nbsp;&nbsp;Washington Times",
-      "source": "GNews | KR Politics",
-      "priority": 6,
-      "category": "政治+社会",
-      "relevance": "medium"
-    },
-    {
       "title": "Japan earthquake and tsunami of 2011 - Aftermath, Recovery, Rebuilding - Britannica",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaVgtaG5Db2Yzc1cwa2ZEUWxYX1JmNkF5ZVhBTkktVFVrQ3AwVXhrWnVjV2hwQTg1RjNIdzR1UjFNbEVlM1JZT2NQWEY5RW1xZWZtRUxpTFBKdXh0RkNsaTFkcDBHblpZR0EtMGFLdGRhREZQT0pmdGJVTXhpVno4Xy13cjI0cXI0dkhEMXFPVDJVU1Y3c2FDNEFWUQ?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -196,16 +200,6 @@
       "source": "GNews | JK Climate",
       "priority": 6,
       "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "EU-Republic of Korea trade: facts and figures - consilium.europa.eu",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQUx2TTZSeDZXZWVoWlZ3Tks1czRqTnV4dERzdXp2RHctTENxRW1EWFdIS25qQzFnUUptZHAwNFlNNlBGQlpEVU5RNVFCOHVULVlDMGhnQldOdDlDSC1mN0gxV3NraWxvcGJYbHowX05ZQkFiTlFTRkhlWlNaTFBqUg?oc=5",
-      "published": "Tue, 09 Jun 2026 11:20:36 GMT",
-      "summary": "EU-Republic of Korea trade: facts and figures&nbsp;&nbsp;consilium.europa.eu",
-      "source": "GNews | KR Trade/Mfg",
-      "priority": 6,
-      "category": "韩国",
       "relevance": "medium"
     },
     {
@@ -226,6 +220,16 @@
       "source": "GNews | KR Economy",
       "priority": 6,
       "category": "韩国",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Korea’s Conservatives Are Running Out of Time - The Diplomat – Asia-Pacific",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ3hVeUIzZHJXbUFDRHBvMFFsVlF2aG5lRTBnZFMwVUlaV1BucnE4WmUzM1BlUmNhelNVSV85eDRZLXlnNzltRjFLdzBMWUFnM01NZHU4czZGX0hzMzRYYmNmeVEwTnU0UkJha3Y4MG5Ha2JiRFZFRUNTY0xxVXV4QWowZG1XVG5CVGk0?oc=5",
+      "published": "Thu, 21 May 2026 15:07:49 GMT",
+      "summary": "South Korea’s Conservatives Are Running Out of Time&nbsp;&nbsp;The Diplomat – Asia-Pacific",
+      "source": "GNews | KR Politics",
+      "priority": 6,
+      "category": "政治+社会",
       "relevance": "medium"
     },
     {
@@ -329,16 +333,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Japanese Yen Stays Weak Despite Strong GDP Data, Deutsche Bank Says - Bitcoin World",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWUVmS0xDbHROTGw0VWZCNkRXeTdZLTc1bU8yN0Y5Y25CSENhR25ZSGNtQ1pxb3NQLTJ1WlgyNzJnU25tWW5nMmd1T0N1T1k5VG1FdFQwNlZ1MGdsTG81RENxR3ZHTEg0Y0RqcUNTTVJRc2tEQXVxYWhYWTF3dHNpN3pmNlA?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "Japanese Yen Stays Weak Despite Strong GDP Data, Deutsche Bank Says&nbsp;&nbsp;Bitcoin World",
-      "source": "GNews | JP Economy/BOJ",
-      "priority": 4,
-      "category": "日本",
-      "relevance": "medium"
-    },
-    {
       "title": "The Organization for Economic Cooperation and Development (OECD) raised its forecast for Korea's gro.. - 매일경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wby15XzQ4eXZoVXNZSm5jOVhJWHkzV1NaSkhjQ2FlUXFpVkhBM2ZTOUJWUmF5QkNxS2ZUZ0RZQTFNZEF0aE5QZk84aUNPcEtCYnc?oc=5",
       "published": "Wed, 03 Jun 2026 11:44:57 GMT",
@@ -376,6 +370,16 @@
       "source": "GNews | JP Trade/SCM",
       "priority": 4,
       "category": "日本",
+      "relevance": "medium"
+    },
+    {
+      "title": "Dangerous stunts get thumbs-down from video platforms",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f247aa3108bc8c67219f5.html",
+      "published": "2017-12-12T00:36:10.000+0000",
+      "summary": "Multiple social media and video streaming platforms will limit who can view videos that depict dangerous stunts - and may even prohibit such material - in an effort to discourage imitators.",
+      "source": "China Daily",
+      "priority": 4,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -429,26 +433,6 @@
       "relevance": "medium"
     },
     {
-      "title": "What Should Japan Do? - Robin J Brooks | Substack",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vbFBJdWIyUGxhcWlQVWlqTUd0YWNzMUJyX2Y0VEt4LXNFdllXOHNGMk1IdkZ4cVZZdm5iTkpQNDNHejgxbnJqZTRua3VkZ2J1ZVFEbmN5UkY4cmJWRkNmSmwwbzItT00?oc=5",
-      "published": "Wed, 03 Jun 2026 23:09:22 GMT",
-      "summary": "What Should Japan Do?&nbsp;&nbsp;Robin J Brooks | Substack",
-      "source": "GNews | JP Economy/BOJ",
-      "priority": 3,
-      "category": "日本",
-      "relevance": "medium"
-    },
-    {
-      "title": "Puerto Rico’s tariff burden jumps 289% to $920M in 2025 - News is My Business",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVkF4SFN0aVpxUm1HaEVWQlZrZ2NfTVZNTk1nQkNXR241bEdRMGV0ZElYQ1BXVElIOC1QNXBaWVM0TUZFVEpqSVluRWJ4aGF3WG9xM2FxVTV5cm9HSjYzaW1nSzNsLXpzUWM4emV3VTR2UW1qQkNHRWZuRjhZb1pTOUVmWWZZc1dpeUE?oc=5",
-      "published": "Wed, 03 Jun 2026 10:24:49 GMT",
-      "summary": "Puerto Rico’s tariff burden jumps 289% to $920M in 2025&nbsp;&nbsp;News is My Business",
-      "source": "GNews | JP Trade/SCM",
-      "priority": 3,
-      "category": "日本",
-      "relevance": "medium"
-    },
-    {
       "title": "Japan-ROK relations since 2025: toward a sustainable strategic convergence? - Fondation pour la Recherche Stratégique",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUGFYZEFCMzRBbjVFUWp2ekEwelJtMW1RRDJiNWEtSjM1Z0tFYjhUVy1GNlBBRFdRdGJWY0xQVGc0dGJ0MWIwR0JYT3FBOUIyOXQxY1dJc24weF9KU0QzNkwtOVdXejFzd1U3U1ByVDFFTTJvdEpYeVFYdDFRZHhhdkZFYUhUcTl5MjJUR3gzcVFmamVReThVRk5jdDZqU2RzTkFaQmZ3aW5ialVUNXB5MV85MXJjajk4NHFOZHJhZWE3REtWajZTTTZkUkxoMXFrZ3lLdGM1YVRsOXNJTTBkdQ?oc=5",
       "published": "Tue, 12 May 2026 07:00:00 GMT",
@@ -499,16 +483,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Ballot shortages undermine public trust in elections - The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWGhMMnFla25tU0tBTU4xd29BOVlLamg4eGUxS1BlVzFRbjNHUHVJdU4zbHFXa1ltMGRZS3R5TlZhNlpqZjlqWVFCbmo5VHQydlNLRjRiWHFBdjBUeEFSQWtrSUJvQWo2cDlCTjRyZmNIUm1BbVBsREFDNkUwVUN1OUpVc3o5SUgybkota3dQZ1VBekJJOEVYNmV2bnJZcnVDUlhGanhIQ1JTQWtwT1BRTko3R0Z2emItWnVob9IBwgFBVV95cUxOUGlDY2RFVzdJcWp5VE8zVU9kYUxrb1NyZkxJZl9UZzNoRmxmZG1oZ0JqOGdWWVlwdVQtbGhPN1pTeWRoZGVZRGxlUzd0azBfWEpFT0k0cy1VNV9oYW0ybUdnRmxWdThDY2I1NWttT3ozQWdTd0pBc3VZYXFKRjJMVmQ2WldBYlNDUnVsb0l2dDh0aTBhMFJZdXROR1F1T2lMM2lHODVoeGVKbDJ5QVBPTTYtSEE3WVUtX1A4UURWMTZKQQ?oc=5",
-      "published": "Thu, 04 Jun 2026 00:00:03 GMT",
-      "summary": "Ballot shortages undermine public trust in elections&nbsp;&nbsp;The Korea Times",
-      "source": "GNews | KR Politics",
-      "priority": 3,
-      "category": "政治+社会",
-      "relevance": "medium"
-    },
-    {
       "title": "Bank of Korea Governor Links GDI Surge to Rate Hike Case - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNDhxNHE5dTRydC1fcDhqQ2tmWnVrUkgteDVIWGNCUkU3LTNXYmtLOHZpLVl0bmNWZ3dtTkpkMmk4ODBjQVdKZG9JYnF3bmZ0cDYtY1FuWkh1RXdCYUdEUHAyYXdKZmVpMVdoYkRkTEdhbk5BcmRfTDhEdjFjY0lKX2dLdFNoc01ZOEtIem13?oc=5",
       "published": "Sat, 06 Jun 2026 23:01:51 GMT",
@@ -556,6 +530,16 @@
       "source": "GNews | US-JK Trilateral",
       "priority": 3,
       "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Memorial Day a time to 'remember', 'inspire'",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f252ca3108bc8c6721a01.html",
+      "published": "2017-12-12T00:39:08.000+0000",
+      "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed during the War of Resistance Against Japanese Aggression (1931-45) brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco.",
+      "source": "China Daily",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -649,16 +633,6 @@
       "relevance": "low"
     },
     {
-      "title": "하나은행, 코트라·무역보험공사 수출기업 지원 - 안전신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TOHdKanVGX3lTNTlyV05KbzEwTXh6eEhPVXFhbFgzYlpHZjNOUEhfbkFEdkh3b2ZwV0FIbzBRaWxFcGlENEZvcElGNnEwZ2RSUXVBeW85aU0ydmxlS0JKUzNtNFk5LWhlOWx4MVVHYw?oc=5",
-      "published": "Tue, 12 May 2026 07:00:00 GMT",
-      "summary": "하나은행, 코트라·무역보험공사 수출기업 지원&nbsp;&nbsp;안전신문",
-      "source": "GNews | KR 한국어",
-      "priority": 2,
-      "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
       "title": "\"한국-베트남 무역·투자 확대\"…13일 하노이서 '무역투자촉진세미나' 개최 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrUjRvd3c0eGtic1R6b3hpb2RvbGsxSmIwbVA2UnE3RkxOVjFTeWgyZDg5bGUwYjRaUjZmd3Mwb1pfM0FRZGxuc25SZ3Jiclp3V1k0?oc=5",
       "published": "Tue, 12 May 2026 07:00:00 GMT",
@@ -739,6 +713,36 @@
       "relevance": "low"
     },
     {
+      "title": "International group praises green revival",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2701a3108bc8c6721a16.html",
+      "published": "2017-12-12T00:46:57.000+0000",
+      "summary": "A high-level international advisory body applauded China's efforts to improve the environment and suggested a 15-year strategy against pollution in a draft recommendation report on Monday.",
+      "source": "China Daily",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "More military technologies targeted for civilian sector to boost economy",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f2514a3108bc8c67219fb.html",
+      "published": "2017-12-12T00:38:44.000+0000",
+      "summary": "China will strengthen innovation by developing high-tech industries with military technologies to boost military-civil integration, a move that aims to cultivate new growth drivers and boost the economy, said a recent State Council guideline.",
+      "source": "China Daily",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Taiwan's New Party vows to help improve relations",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f23eba3108bc8c67219f0.html",
+      "published": "2017-12-12T00:33:47.000+0000",
+      "summary": "Top political adviser Yu Zhengsheng met with a Taiwan delegation representing the island's New Party in Beijing on Monday to discuss the peaceful development of cross-Straits relations and how to achieve the \"great rejuvenation\" of the Chinese nation.",
+      "source": "China Daily",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Ferrari Luce EV highlights European struggle to lure back China's superrich",
       "link": "https://asia.nikkei.com/business/automobiles/electric-vehicles/ferrari-luce-ev-highlights-european-struggle-to-lure-back-china-s-superrich",
       "published": "",
@@ -789,6 +793,16 @@
       "relevance": "low"
     },
     {
+      "title": "关于美中贸易委员会和投资委员会，你应该了解的几件事 - 美国之音",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWhPMjE5ZDNZVzQwbHRhSTRmb1RLSmlzYkJvdHhFY2FrMFJHaV9pQzd4ZklqS0x1bFR5eFFqMGpFelBXZmdXems0T1RoUjlVS0Y0NzNxcmZMaVhxREtzNnNtbExMT1NpZWMwMEdjZzcyRzE0dTBWOVdGYXFBRzJmcVNMTmtGRURiUzZ3bkhRUUpXaDl6YXc1WXpnM0E0a0xrWnVXSGJkOG1TNjRk0gGvAUFVX3lxTE5penBTa2FjS2JHbXJWUWVWanFwUk00SWgxaUpRaXFDM3QweGpNdkN0VG9fbUtLS1ZZcm5nOVZzZldMY1J3blVYQllPcXVBd2tLbnFxUlBNT3A2Qmh0eVFyazlzY0IxVUNaWXc5RVBWbGJ2d1VnRXpxTEtMSTRqTEE3eC1KQ240VjFCbjJabk9EWVdCd3hZbmh0N1RSTjNIYm1pUDVMd3dQRzAwYkhoeTQ?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "关于美中贸易委员会和投资委员会，你应该了解的几件事&nbsp;&nbsp;美国之音",
+      "source": "GNews | CN 中文",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Asia’s LNG Shortfall Drives Coal Demand Surge in 2026 - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZW85V3R2cjdlZVY0MHJCNHh2ZGJQRDFOQ3d5TjJxZFd0OVN2aVhienVCVUs5ZnFrUVk5WTBiaTNYV1RvNXlDTklvd3JDaGxGb2hOOW85ZmIwQW1ha3FnRy1RM2t6OGVnQ19aOEtzMkhfSmdBQmthYTRtSzVhWnFfU0RHbTNvaFc5WGY4?oc=5",
       "published": "Tue, 09 Jun 2026 04:10:53 GMT",
@@ -829,13 +843,23 @@
       "relevance": "low"
     },
     {
-      "title": "Battleground losses cast a shadow over President Lee's overall election victory - nhk.or.jp",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMMVpSMzMyZkFGMXAzRXItR2NEcFJPNkJoUEpEUnhVMjA3OV9oTEZQV09CRDdHRVdOVFhOT2gzQ3FEeGhOM3J2OThsLVp6RFJ4YXJ0RHhXV1ExTE5lU1JHRHpRcDFLc1ly?oc=5",
-      "published": "Thu, 04 Jun 2026 23:54:24 GMT",
-      "summary": "Battleground losses cast a shadow over President Lee's overall election victory&nbsp;&nbsp;nhk.or.jp",
-      "source": "GNews | KR Politics",
+      "title": "全球供应链重构加速，地缘政治风险成企业战略核心考量 - 虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zb3hEeGNUZkJad1JkRHRtOG1LdGlFT0tDUldOaU80M0RuOWdSRXFLeTFaMmwwemtnUlZ3MXZhbkdMR0Y4bWhtVGZQX3NRREJJTzlvSA?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "全球供应链重构加速，地缘政治风险成企业战略核心考量&nbsp;&nbsp;虎嗅",
+      "source": "GNews | CN 中文",
       "priority": 0,
-      "category": "政治+社会",
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "“这就是中国的地位”，美最新报告：确实坑到自己人了 - 观察者",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BWVk5cVJMVU1MbThjb3RFd3gtdkFMV0FNZXZBVkRnRG82SUExVkJna3R4Y3hzUjlSemwzNy03cHFvVk5TTkREYU53eUZtREJ5RGVFMnU2bjZnVHpDLWlOVVd6eGFpanZLc2c?oc=5",
+      "published": "Thu, 11 Jun 2026 03:47:00 GMT",
+      "summary": "“这就是中国的地位”，美最新报告：确实坑到自己人了&nbsp;&nbsp;观察者",
+      "source": "GNews | CN 中文",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -879,6 +903,16 @@
       "relevance": "low"
     },
     {
+      "title": "特朗普访华｜北京得到现实约束下最好的结果 - 香港01",
+      "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNZ3NNcVFTNFZTaGh6T245a3JzcFV0bmZ6T2lNN05pbFljVDJnQkxEcHpBenlKSlZ5T1R6WDRxVTVoLW5yT3p2T1FWYXMwSVZyRG5oamlSZzFuT01BQkV3aGc1di1GV1pyRFMtUkFhdFJjQlFELTdsRnhVMXlKY3p6RmdyNUdkbEVDS3JtbEh1LWFpMFRaSlpua1prREJDcnlGTnZIMFZ1MTNRbEIzX0lGcHI0MTE0MDVNdjl5aXc3b0RIMThHVU9rc2kxVmJUZXZhSkRLYjcwc2hpclpKQTAwU21HdngwOGNrMFM0WmlDUWRGUW9RSFBOcHdDWWNmNVRPQ3hMTGVGdXJfNG5zZDEyZXJLQ0tJOEJTV1RlT2NabFJPN1ZQb0VWWWR5NC1NQ1ZZOXBCUTFlb1RKZk5hU1FraGZGTkh6amROT0JteHhPMExIclF6c213Z2xTXzhFMmc?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "特朗普访华｜北京得到现实约束下最好的结果&nbsp;&nbsp;香港01",
+      "source": "GNews | CN 中文",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Taiwan Condemns China Coast Guard Patrols Near East - Modern Diplomacy",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVktaUWRKMm1Pek4yQ3J0YURocVRKcVNEd2habU45bl9SRm1XeHVUSzk5V3V6a19HTWl4T1NPUmdicDZfR0JqR1NFTEpmRUZoLVo0aEllVFVIbjZ5b1JDRVFUa1NrT3pJU2psamdXdF96S0Y1VmR2SS1YN2ZINk92N19VWGFDbkxwb0EySlpXZlZsWHJmUEVVMTB2RFRyX2xTMURGMGhEZWRLU3ljV3lwRXE3YjlzMVRpYllzclZXUkNncDJ1NWc?oc=5",
       "published": "Mon, 08 Jun 2026 02:12:48 GMT",
@@ -916,6 +950,56 @@
       "source": "GNews | US-JK Trilateral",
       "priority": 0,
       "category": "大国关系",
+      "relevance": "low"
+    },
+    {
+      "title": "Education, health fees among key concerns",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f29d4a3108bc8c6721a30.html",
+      "published": "2017-12-12T00:59:00.000+0000",
+      "summary": "China to legislate on preschool education",
+      "source": "China Daily",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Former Chongqing political official facing corruption investigation",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f22aba3108bc8c67219e2.html",
+      "published": "2017-12-12T00:28:27.000+0000",
+      "summary": "Sun Zhengcai, the former secretary of Chongqing Municipal Committee of the Communist Party of China, has been placed under investigation on suspicion of accepting bribes, according to the Supreme People's Procuratorate on Monday.",
+      "source": "China Daily",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Satellite lofted for first Arab country",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "published": "2017-12-12T00:27:08.000+0000",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "source": "China Daily",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Water diversion project drives environmental improvements and provides new jobs for locals",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f1b86a3108bc8c672199a.html",
+      "published": "2017-12-11T23:57:57.000+0000",
+      "summary": "Green industries such as eco-agriculture and tourism are helping to raise living standards along the program's central route",
+      "source": "China Daily",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Oldest Nanjing Massacre survivor dies at 100",
+      "link": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f1571a3108bc8c6721964.html",
+      "published": "2017-12-11T23:32:01.000+0000",
+      "summary": "The oldest survivor of the Nanjing Massacre died on Sunday, and fewer than 100 survivors remain, the Memorial Hall of the Victims in the Nanjing Massacre said on Monday.",
+      "source": "China Daily",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {

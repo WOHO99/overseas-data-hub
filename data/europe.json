@@ -1,14 +1,12 @@
 {
   "version": "4.0",
   "module": "欧洲深度",
-  "updated": "2026-06-11T04:03:19.253266+00:00",
+  "updated": "2026-06-11T04:21:04.796104+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 88,
+  "total": 100,
   "high_priority": 2,
-  "medium_priority": 62,
-  "signal_alerts": {
-    "supply disruption": 1
-  },
+  "medium_priority": 63,
+  "signal_alerts": {},
   "stats_by_category": {
     "EU政策+制裁": {
       "count": 180,
@@ -39,7 +37,11 @@
       "feeds": 2
     },
     "本地语言搜索": {
-      "count": 60,
+      "count": 120,
+      "feeds": 4
+    },
+    "独立RSS源": {
+      "count": 30,
       "feeds": 2
     },
     "信号性查询": {
@@ -47,7 +49,7 @@
       "feeds": 2
     }
   },
-  "fail_feeds": 1,
+  "fail_feeds": 2,
   "rate_limited_feeds": 0,
   "articles": [
     {
@@ -61,27 +63,14 @@
       "relevance": "high"
     },
     {
-      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Privacy",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG9vcExiVnVZbVNkSVZYUE9kRVVNc0tDV0dEOTdUU3o4LWg4X0s0Qi0yOVRzRXJEZGZsTklRZzRYSVlRNWdHUFlnX3cxdk54S241ZE9JREtVSWdPZWsxMVBQeEQ5TUUwZENvQkx1dUczSGVQVmN2VVUwdF9PSk9ZQ1U3TW9CZU96SWllZ1pld3R5OEt3RWp3UnY3aWFGQzJHaU9TdmFmamo3R2VnNXlHZ2JIX1U3YmhMekkyX1VSaUtmOUJnQ29FalQtdw?oc=5",
-      "published": "Mon, 08 Jun 2026 15:57:33 GMT",
-      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Privacy",
+      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Global Tech",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONmFWS3hIeEdFb1EteXJ4bWo1TjVGRllUU2MwcnRvWU43enZCamN0RFB5RDJaR1VJLW9NZUI5dG43c0o0RmFIZGJQUE9XaElrdHN3eXdsakJOaDZPX2dVd0ZUNEZTSC1UVnlMMGlHQ1lLZzFtM280VUhNUEpzRFZIbHQyU2RwQ0FvWkFQNVR1S3R0OGZkbFItQXVLVUJpZjBsc2ZCVzhvVHdZOVc1RmUyWU5INWljUGpnalc2REVB?oc=5",
+      "published": "Fri, 05 Jun 2026 14:53:06 GMT",
+      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Global Tech",
       "source": "GNews | EU Digital Reg",
       "priority": 11,
       "category": "EU政策+制裁",
       "relevance": "high"
-    },
-    {
-      "title": "Belgium Joins Germany, Italy, France, Netherlands, Austria, Hungary, Czech Republic and Others in Facing Continuing Oil, LNG and Fuel Supply Disruptions as Delayed Red Sea and Hormuz Shipping Recovery Amid Middle East Conflict Threatens Flight Op - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJd0d6UlBJMlBtRTdWaGtLSmFwRlNMQktnSzkzMkRvWE1fLTJkSmk3b0gxU000YlplOG8zVVVvNVBpOUp5eFpLYi04Z2M3VU83eDFZV0VGaV90UkJOSnJNT2tMY3hmaUp5cjZURDRn?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Belgium Joins Germany, Italy, France, Netherlands, Austria, Hungary, Czech Republic and Others in Facing Continuing Oil, LNG and Fuel Supply Disruptions as Delayed Red Sea and Hormuz Shipping Recovery Amid Middle East Conflict Threatens Flight Op&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | Signal: EU Energy",
-      "priority": 9,
-      "signal_keywords": [
-        "supply disruption"
-      ],
-      "category": "信号性查询",
-      "relevance": "medium"
     },
     {
       "title": "EU Deforestation Regulation: the European Commission's simplification push - Lewis Silkin LLP",
@@ -134,10 +123,10 @@
       "relevance": "medium"
     },
     {
-      "title": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions - Inside Global Tech",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPclBXQUplN280cURCRFBsQXN0RU1JNWgtMmdWdFBDWGVvNTBScTZNSmoteTVBdVU5aS1IWGNfU2pqeE9Pdll2Qm5waGpIXy05a0c3SzdjNlBKdHlMcW9ZRTZpbm1GcGhpenJkajlkaWp0NWw4NTI4MUQ0S0ozR3hsY0xOWERGQmlHQ292b0xqYWlKa0hVbk1mQnJwSXVhcnMtT1JqZTNlRkZxeVdmN1JrTmVIUlVCRkQzRlhicE5pRQ?oc=5",
-      "published": "Thu, 28 May 2026 20:34:02 GMT",
-      "summary": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions&nbsp;&nbsp;Inside Global Tech",
+      "title": "AI regulation in financial services: navigating the EU AI Act in a layered regulatory landscape - www.hoganlovells.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY3BWVk9CVnpaa2dibmU0ZWhhTmRuR1RuWkg2S1NlRmdqbGNyQVpsN0FZNnI3aHlOb0gyekNnNGpMX1ljMm9QTnRsd0VOeGNjUmV4NkhjZWhIbGpoTTR1UWx1QUpfYlZVQm5sM3pMV2dHREkyTEhmTWZVemlyRzZpYVdzb09DVjFoQXRzbm5hOFFmeEd5TVVaZ192QlhTU181YkNGZ0llRUcwUTlUcXRXS2NRMmExNjNuT210NFVMVUJCSWVfOEs2V2JRUDIwTkQ3WFN1Vi13?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "AI regulation in financial services: navigating the EU AI Act in a layered regulatory landscape&nbsp;&nbsp;www.hoganlovells.com",
       "source": "GNews | EU Digital Reg",
       "priority": 8,
       "category": "EU政策+制裁",
@@ -164,6 +153,16 @@
       "relevance": "medium"
     },
     {
+      "title": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions - Inside Privacy",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ2w0RXp3cDVRWnk4NS1sYktrbHkyME80TmZEejEzZ2pMbzZXNzFwNnUyTVFIdUo3QmlkTm00S1VoYjJfSk1mYnV5NDdPRE9GcmRuQUxQTmhxblZuYkxBaHVEZlRyczE0RXJJRGtZdFlXSUhSUVZTMnNEWDBHOUpfUzRqd0l0VE9wU3lSVndvNEFRS1NWY1JwdF9QallselFOVmZubk40OTdhZmk4VUpqYmRuQXAzY1BVOThVYXpDWXE2dTM5WVA1bW5vazA?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions&nbsp;&nbsp;Inside Privacy",
+      "source": "GNews | EU Digital Reg",
+      "priority": 8,
+      "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
       "title": "ECB 'will do what is necessary' to tame inflation, Bank of France governor tells CNBC - CNBC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tMUQ4a1hodEthSDBaR2NaVkNNX2FlOXNnTm9hNXB6MXdLeXRub3FiTlVobmQ0Zzg4VDlQYUVvVlJ5Z3RCN2ZrWnd0WXlnbGxEa0w5NWphNThYQURRck9rRmNOR2dfRVYyS0REN1k5R0dNQVhFT2Vr0gF8QVVfeXFMTVZ2UkFvUFBEem92OFpjYWk3MTVKM1hsT2o0Z1p1bm81WFhoalFRNlYzeGhXQXpMNEZobnd6VzBkWVpoU2lmTFFrSGQ2ZFo3UFd3eVBRbnBJd1dqTDhJQkF0dDhOS0pOYjZlYV9HWEpmQ254YXFYYURyR2s0bg?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -178,6 +177,16 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTFdJYkdRRGJPS0dHTFU2RjlTdTkzVzlwaFFLQVkxUUttQ0hFY2JqZHFiSlBVczFVY1pBVHBWUEI1TzEzczNBY1NYem1yTW12OUpaaUhPOGhWYXdfRnNON1JGN29lb3AzekZPajc0dlhoQWowU09FNVpoZFZ1bk8walRlTld3M2xIZm40TENLNGxKaFVpWENqY3RB?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
       "summary": "Eurozone Inflation Climbs Further, Paving Way for ECB Rate Hike&nbsp;&nbsp;WSJ",
+      "source": "GNews | ECB/Rate",
+      "priority": 7,
+      "category": "ECB+经济",
+      "relevance": "medium"
+    },
+    {
+      "title": "ECB's Rehn sees few signs yet of high inflation taking root - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMDZOWXk1TVhSYm9GRnpWZzhjMkJPS2lkckVQVDR5MmRuSjVYZTlwSG5rcE4tYlpveEpDVEFqcE10ZUlVdGo0c3RwaFZGemFZcmtpWTNLZE5XN296T3pLRG95WGExVVIwS05EUjlVWmxwbzBmNldmZEduSVZhNjhlRTFHRTNOams1Y3N1cy1LX1MtYzBmSFhod3EwSmlmd0NMQjQ4bWlDWHN3MV85?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "ECB's Rehn sees few signs yet of high inflation taking root&nbsp;&nbsp;Reuters",
       "source": "GNews | ECB/Rate",
       "priority": 7,
       "category": "ECB+经济",
@@ -224,6 +233,16 @@
       "relevance": "medium"
     },
     {
+      "title": "EU Sets the Clock on Age Verification: Rollout Urged by End‑2026 - Inside Privacy",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZjJpZXhWMW1zZTlCSVo2XzZ1aDdVb1lTY1d3N2s4bXBDY0xvRXJaSldMMHdvRERSajNVcFBJOHdZc0o4QzAzaDhqNDZTTmJrdjRwLU5uT1gwdWJBYlpmMDVRRG9XeXROWk5lcTJKdlVjTkFaQk1aZ1o4b28wTFJmYng3T1F5eVQ0VHVmb1BUWEFSbTBPUElhVXg5dGstRkc2SFVxSnZ3QlNLcmRIcWc?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "EU Sets the Clock on Age Verification: Rollout Urged by End‑2026&nbsp;&nbsp;Inside Privacy",
+      "source": "GNews | EU Digital Reg",
+      "priority": 6,
+      "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
       "title": "Cocoa sector ready for EUDR implementation - The Business & Financial Times",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUjhXSXVOb2NLMFBFbk9VWEdrUU5vZDBJeGM2RUp5aHBPS0pzQ1picG9xei1SX2ZTN0VlM2VHeldaWURpTHZ0c0sxVnFZU3ZpWXNoZnF5b0NMWGFUc0pFRndKSGVWc19tWHdhcDNFTElCRGhudU1ZWHJLcEpSeWpBeTI5aEduZw?oc=5",
       "published": "Wed, 03 Jun 2026 11:20:01 GMT",
@@ -241,16 +260,6 @@
       "source": "GNews | NL Trade/ASML",
       "priority": 6,
       "category": "主要国家",
-      "relevance": "medium"
-    },
-    {
-      "title": "Peru reaffirms commitment to European Union Deforestation-Free Products Regulation (EUDR) - Agencia Peruana de Noticias | ANDINA",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUmh4NTdrdGo5UkY5T0lFU2xnZ3F4QmJLTDl5RUwzLWNSQ3FnTUdweHpQaVE1MHpBTzFVT1Z0Z2JIOG9MRnZRN1Z1QWNZcTB2NjRiRXBrT2dEMzJYVVc5b3k5TW9RYV9xeHRlcUFINGJheU03Yjd0Z3NxTFVobERMVEdfejQzQ1ZodDROLXdqeXhPbk9xLW9SYnJ1SmlQWVhJTnlVVVN1bHFlSmRWTXVLa1dKbEVnMWNiRkhvc0RqTk9KVkpnS21wUmVNY2E?oc=5",
-      "published": "Tue, 09 Jun 2026 13:43:27 GMT",
-      "summary": "Peru reaffirms commitment to European Union Deforestation-Free Products Regulation (EUDR)&nbsp;&nbsp;Agencia Peruana de Noticias | ANDINA",
-      "source": "GNews | EU SC/EUDR",
-      "priority": 6,
-      "category": "EU政策+制裁",
       "relevance": "medium"
     },
     {
@@ -351,16 +360,6 @@
       "source": "GNews | EU Energy Trans",
       "priority": 5,
       "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "ECB set for June ‘insurance’ hike as energy shock raises policy risks - ING THINK economic and financial analysis | ING THINK",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmZ4blphZHp5QVFxTzh5Q1NMQThYXzRtdGdYN3pmUjI5eDUtTzdFSlNnaktFOURKWEZmMTFuSmxIM1VFYmVqNE9LM3pyV24tYXdRTFV6dnlybE5ZczhnUzVTa01kbnZNY2dZNHplQVNTNUhraXAxYmxXck9TWUE2N19FMnloc2c?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "ECB set for June ‘insurance’ hike as energy shock raises policy risks&nbsp;&nbsp;ING THINK economic and financial analysis | ING THINK",
-      "source": "GNews | ECB/Rate",
-      "priority": 4,
-      "category": "ECB+经济",
       "relevance": "medium"
     },
     {
@@ -524,6 +523,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Die größten Tech-Unternehmen Europas: Silicon Valley hat uns lange genug unterschätzt – aber reicht das noch? - Xpert.Digital - Konrad Wolfenstein",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zeFFuOFZWQzhiWGEwbDMxbFVkQV9jc1lRQ0QyYkliUlQ1dGVNSk9wMlhzN0xSMk4wdFNKcnQ2cXltV1dLWDQ5d2RoczJiZEkyT3A1LW5nMXhUbVI5YmNIQmtBeFI0dWNTSVhCTWdJd9IBd0FVX3lxTE52MEhWbk02Y0wzZWIwRHdhYmpnVS1ITDJKX05ZX0R4RjVyb0J0WmhTaWVpa3U3ZUg2NFprNUFjWFhIN01PMkJPR0ZkbnpsWU1IeGY0UVR1c1gxdTdvR1dzVHE2VkZObW5ESU01NVp3cC1VMURhUXVJ?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Die größten Tech-Unternehmen Europas: Silicon Valley hat uns lange genug unterschätzt – aber reicht das noch?&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
+      "source": "GNews | EU Tech Hub",
+      "priority": 3,
+      "category": "基础设施+科技",
+      "relevance": "medium"
+    },
+    {
       "title": "London, Berlin, Paris: Europe’s Top Blossoming Tech Hubs - The European Business Review",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcHhyN0VzM0MxelZKYnhHTFJqd05RaXBvWUp5NzJvbFZSWTFtMmczRmtzenJ1cmoxZEhfajZaM3FpQjRzQ1RlTkxCWG1mZHJmYS1rUDgyTF84ZVgwcFRvcWN0RjR2cTRWZUlMTWhodm5HN0dTNWpPTWFNYkNUcmpSZUg4ZG80NVR5TTJQT3lXS1l1VW40RHF3?oc=5",
       "published": "Tue, 19 May 2026 11:51:54 GMT",
@@ -554,26 +563,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Why the next wave of European Unicorns won’t come from Berlin, Paris or Amsterdam - EU-Startups",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWkk4LTRjcGRVZExwOWRVNW93OC04VmJLcm1pQ3NhUXBLMGhnendCZlRkWGROX2hRUnE1YTJIQXRJeFNQOXJSWGpDSlVqQmUtQmZaZkNwZ3FYbDNUd3RYTW80YmRHeGgzRWRGTHRkTGE2S3VkNnU0N05EZ0pRS2p6SkV5Z1J5Y0JyemN2NmpIVm5lLTlOb0R2SGxhM0NGaG8wZzV2blkyWTNjRG5wTldiVmt5N3JOUDQ?oc=5",
-      "published": "Tue, 09 Jun 2026 15:16:26 GMT",
-      "summary": "Why the next wave of European Unicorns won’t come from Berlin, Paris or Amsterdam&nbsp;&nbsp;EU-Startups",
-      "source": "GNews | EU Tech Hub",
-      "priority": 3,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Europe lacks a coherent strategy toward China - Peterson Institute for International Economics",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc29xYktyRld6anVQUFpiQ2pEQm1ybjZya2x2WWcyeVJyR24yRDlqNTRlVW0xX2NJSTdLN3BpcERtd1JzaFFXN0pFY3JfRXJVdjZhRjhITkJ1eUZfVXRXM0dqdEJGVjllOUNnNGdMNjUxMkpYaU1pSC1FZ2twREV0a29yd05wYlAwTk9feWFpYTZQZG8zdlFfVFd3?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "Europe lacks a coherent strategy toward China&nbsp;&nbsp;Peterson Institute for International Economics",
-      "source": "GNews | China-EU",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
       "title": "How the EU's carbon price on imports strengthens climate policies globally - Phys.org",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TaFBLcEVfdzNRVWxnQldPVDFoclhPNDZJbkxjbzJ6TXBZZTNDNXY5OFQxT3BBTm9pdXpDRTAxZjJzQXVadGgyUjI5OXBQTFFvV3dTNjMyNWZpNXVzZEk4UVVxWi1VbGUycTJqYTluRzRaTDho?oc=5",
       "published": "Tue, 02 Jun 2026 02:40:02 GMT",
@@ -601,6 +590,16 @@
       "source": "GNews | NL Trade/ASML",
       "priority": 3,
       "category": "主要国家",
+      "relevance": "medium"
+    },
+    {
+      "title": "La industria cárnica acelera su inversión y supera los 44.000 millones de euros de facturación en 2025 - Interempresas Media",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcjIycUZ2RkNMWWFxMXo2M3N2V3FBMUFpdk9QdWJOOEJYMElZOUp6di00QkdFUXJBcFpwWEpteXRRQ2xzTjE4UGhIQ1lEMHVkbWRURVBoeGVIcXFzQXBYZUF3cmZJbmM1d0VJOVI4eVNncmJfUW9QMC16UzFSbUxVTHVndE9pWlVpUndUNmR1b2xXbzhhRlJ3dnkxQm5McFVtQkNiU2ZrMUpzcTNZRTVoZ1k4YXB5TDRWSU5PNUtSSkRkb05oY0I3Q0FhWmNkWmxkdmdXdlNNVkF4clE?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "La industria cárnica acelera su inversión y supera los 44.000 millones de euros de facturación en 2025&nbsp;&nbsp;Interempresas Media",
+      "source": "GNews | ES Español",
+      "priority": 3,
+      "category": "本地语言搜索",
       "relevance": "medium"
     },
     {
@@ -694,6 +693,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Bizkaia presenta ante los Consejeros del Comercio Exterior de Francia su capacidad para atraer inversión industrial y tecnológica - Bizkaia.eus",
+      "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxQYm1nZElPZDhhOVFTQVBVV2Nma1JPSW9WbVBtZEJmWEVfY3VfS0g1Z3lDVkRaS21oSUVFUEV2bWJIalM2MnQwcHpCMV8xazAyMng1dFY0UnpidnY0MUlIQWF5akJfbXZwTmc5czJWbVlZazdWWjZTWTd0XzZIeFppWTFYcDgxSGJKZ2sxdkJfNWllY3NvakJuOVRDVTBtWm5xeUJndXJiVWJkTldaSERUdFJyYzBJNWxzUHZ1cGtmV0ZlQkI3dnVPWGlrMXRpUVRrdFd1MHB5Y2J5QjJZUG9aTl9RQ3ZJT3U0bVJ5WUtRa3lrY1NHUVY1cm93Zlpyd2dWa3FReHhDSURxdzhWTldTYjlGWjg1SldocTNyYWxvcThxeklTbDA5bUItek91Y0Ztdjc2dS04alozTmZVTVVPSnU4R1hvOXFQQ01teTZaNmlMWXpuV3FUbGhsVnI4R1JIcUZlaUUxRFg0SVBvZUFoYUM5Z1V6Rzc4NWJGWXFVQnVjZjhPTVZRYmRETnNTUDZrRGlQakc3MmtQYU92b3ZoelhNeGlPbEtLNk9OTWpzNk8yV05tV0dtWVFXSG1DbnZ3M2R4b3RnMjFORUlweXQ0UDFQalF0cURHWVA3UmdNMHdkOWRET083eklrTE1KWWdxVzJpdzU3aFRqcl8xWUVTUXV0YmNIUlF3Y015ZFdTbGw5ZUUwYS1lNTVaM0REbDlU?oc=5",
+      "published": "Fri, 05 Jun 2026 13:28:26 GMT",
+      "summary": "Bizkaia presenta ante los Consejeros del Comercio Exterior de Francia su capacidad para atraer inversión industrial y tecnológica&nbsp;&nbsp;Bizkaia.eus",
+      "source": "GNews | ES Español",
+      "priority": 3,
+      "category": "本地语言搜索",
+      "relevance": "medium"
+    },
+    {
+      "title": "PGE Polska Grupa Energetyczna stock (PLPGE0000077): earnings momentum and energy transition in focus - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWHhyb2d2YTMtSThEYl9NaENTd1NvNFZNdU1fR1g5RFQ4Sm1Obk9CQUZJUTVrR3owam9RSF9nNDR3Y3dHU09yN2RqX2R3NWRKZmRZVU1vMWRPcllqVU5mVV9LeEZwSlMzTmkxT2ZuZGQ0WjFEa3doT25JTUp5dldyQTBod09HbVB2NWM5TTlMUnY4cEMtRU1UQmZHQ2FYbXdSMUJBMGVpWWVLOTRkWnB5YU9Fb2RKVkdsejJYdFM0TFlNMjRaOG9CYg?oc=5",
+      "published": "Wed, 10 Jun 2026 20:59:17 GMT",
+      "summary": "PGE Polska Grupa Energetyczna stock (PLPGE0000077): earnings momentum and energy transition in focus&nbsp;&nbsp;AD HOC NEWS",
+      "source": "GNews | EU Energy Trans",
+      "priority": 1,
+      "category": "气候+人口",
+      "relevance": "low"
+    },
+    {
       "title": "A May Global Economic Check-In - Fisher Investments",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeHZPM1dNMjlWT2M3VTVQSnNNWTBPU18xSTRMSXZtZEJlckR5bk13eDR0THcyM0M5OVh3WDdNRmoxblZqMDZQcHZsSkpDbHVTQnE3MnZFaVhLa1B2cGp2emZ5Vm81X2ZPZHQ1SnFVb0tRXzNSdmpqZkxoTlAtcUJsanJMckYzZ3N0VVQxem5HVTZDaVdYR3duMnlKUGJfZw?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -774,13 +793,13 @@
       "relevance": "low"
     },
     {
-      "title": "Implementing Effective U.S.-China Economic Engagement Channels - Asia Society",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc3VfSU5VbzlqM0pvejBONGZ4RW1pNzBFbkZnNUgxV2t4R0JsemdfbmJaX2RZTk42X3plS2N3bHFKa0Vxa0NiSHBRX1RCQVFrY2xqeUJTSmhiYlFXNmxtZzROSWRKZl92eWREbzJObXlhb0Vjc1NVNGFoc3hIYUNvbjA4blJMU3plOXlqazVyVXJpTTY4ZWR2cmNUNS11Z3VuSDdv?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "Implementing Effective U.S.-China Economic Engagement Channels&nbsp;&nbsp;Asia Society",
-      "source": "GNews | China-EU",
+      "title": "The Digital Omnibus on AI: A short guide to the - Dentons",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSTNKZ3c5QXBZUFBQbjBQeE80RTFlZmhGc2pxNDlZblc5SzFQTFhUeUlOenRvcUtuWjNHdWFIQ0JFZzhTME9VU19xVEhETndFRHpTTTBHNThFUUdqWDZDd0VEN1o0b3JsaGVtMDN0ZTBzRWVTVV8xZ2RHWTdYanh1MDhXUkFrTmsxd0VPLVBaWjBSLVk3V2NaR2QwZl9XbHAtcUJQb19Pd2FaSUFKa2ZoMG1mdXgwMVhud0VpMXlVa0Vtamp1WGNIRDhsOE1pQQ?oc=5",
+      "published": "Wed, 27 May 2026 15:24:10 GMT",
+      "summary": "The Digital Omnibus on AI: A short guide to the&nbsp;&nbsp;Dentons",
+      "source": "GNews | EU Digital Reg",
       "priority": 0,
-      "category": "大国关系",
+      "category": "EU政策+制裁",
       "relevance": "low"
     },
     {
@@ -804,6 +823,16 @@
       "relevance": "low"
     },
     {
+      "title": "La Comunidad capta el 42% de la inversión industrial en España y lidera el crecimiento del sector - El Diario de Madrid",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeERXZVF2enF4M3BYX1U0eC1zU19YOGZ5TUxTajVJZ21PN0FuOVpuMEtfRUlTbUJVMUd2Rmdud2RBaEFpTzZnd1E3cTdiSUhVVmZjek1EeEluc3BkU1IwQUoyaWNkQmt0ZldyNFNuc24zWFhhX2I1U1lKMDNER25KazRNWVVFUzc3aEpBWkJrbzQ0QXlvR1Bvc19INjJwM2ZnV2NsVjdrVVJuWXlEb1VV0gG0AUFVX3lxTE9ENXp5akVVWW0zblgtQjNVa1JMTXJTb1pyRkZMZ0psNXlSQWp2TDhMUWkxYTVxVl9VOWJURGI0NmZHcDNPX3pobmN0YnVLbUVoMG5ZdXhYVHlFdUU3UHliZkVMZXZkVkh1TDdfRE1XUHNjSEZSVC1Ua2xzaGJLNE16SWJPQ25iRE1zSE15Y0dWc2ZJRVdkVExLYUppWkNHRzlSSWExVWtlaUhsdFlBX0xka3o1Tw?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "La Comunidad capta el 42% de la inversión industrial en España y lidera el crecimiento del sector&nbsp;&nbsp;El Diario de Madrid",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "The French Far Right’s Foreign Policy: Big Ambitions, Uncertain Direction - Carnegie Endowment for International Peace",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPelBVOWU0QXNrNlVScnBob2x2LUZRNmE3QmI0ZVFmdEtOUVJHUEdCUk0zaU9MTThzUFhlYThoc211MU1mQmg2LTVYM25sX0V1TU1kRFo4UkJUX0tCcXFjVkgzNElDMU8xenBCWlROQ0xVYWdiUDMxd3VSc1c1UndwekVaRTU2dlRBd1lQRU9aRTREbzdpZFRySjJQNm94ZWthME1lMnJEOFJDZnBMUDRZSXFGZ2g1cldR?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -814,6 +843,26 @@
       "relevance": "low"
     },
     {
+      "title": "Nel 2025 investimenti spagnoli diretti in Italia crescono a 486 milioni - Quotidiano Nazionale",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNERERDN1RnV3RXAyNUhSUGNzZkdFTmxDNWt5Vk5oX2dVcFNvOE51RlBVZld1UHRRY0YzM3VOYjZrY1FSYlBqMkV4VTFCb0hJbm1WZmRtQk9FT2liU0lGdTVXUHRnNnlDeDVsTzlhS0prVTIzeHMwbl9EMTB1UkkwSE1LLTloNms0dmhMaG8xRHlzUTVjbWVpTw?oc=5",
+      "published": "Tue, 09 Jun 2026 17:22:13 GMT",
+      "summary": "Nel 2025 investimenti spagnoli diretti in Italia crescono a 486 milioni&nbsp;&nbsp;Quotidiano Nazionale",
+      "source": "GNews | IT Italiano",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "La titular uruguaya de Industria y Energía resalta a España como actor clave y socio estratégico - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFgwblYybS1Jaktjb1d2WnY1bnFEWFE3c2pUbEV3TUxSUVJUdTRLQjdHMi0zRzNGRDJxRUxtcHRRYUJpWlNYUy14cjZFWmRVYmhwTFdMV0FYUXhubzRwSVVjZVJ0QUFzWll6VHBybkoyMjJrYk5BUEd2ZGgtRjZPTkE0empEcy1MMjZZOUM0aElMLUxJbDhUaXY5UG94NGp6S19QbWdBRTBFOEJhaU5lLU1pT3loR2FWRUl0TGVZYnIxZ3prQTQ0ZUpEa9IB0AFBVV95cUxOakxBV0J4N0xCbE1xT19uUVdWelVUZ3gyZFNyNk56Zi1hbGlOcFJQOWdhb2dnMXRHaTU0MHkzeFQ2N19CeU02Q1FUY21nTUpWdXJnNDNQazFOeDU0enlhYlp0cnRubi1FM19va2dGSUpGVm82bG11QnN0TGZoQnFOT0dXN2psUmFZbkZadmxpeVNwUS1CRTBKZUZaNVAwUExYLWZSazkzZGt3N2VqZHctNVd3dUJKdlVzZVFiNGwwUjJ5YVVZNTk0ZWVEZVRrNk02?oc=5",
+      "published": "Tue, 02 Jun 2026 13:33:10 GMT",
+      "summary": "La titular uruguaya de Industria y Energía resalta a España como actor clave y socio estratégico&nbsp;&nbsp;Demócrata",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Spain: Study finds that immigration is not the solution to ageing population and falling birth rates - InfoMigrants",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSDBHWDlyS0hSTEZ5eVh0MnpsZ3hLSERnVjdGczJMRzlZbnY0M28xblFRMXBBRUptZXhLM2JHb3I1MXBuSUg3VEJqR0N0T005NTRBcllLVktPYzd1bEJVc3VBNmJmNFplY1BBY2prZzRpTXVoWVk0LXBicnU0aDljWW5RYmZYSWdSUzJWTDEya2pjUkxfTTUxZTgwRGFYTDNCNWNBcmVpV2Z0dzlWd1IySkU0Y0JYN2pQQW91N2tFS2gwSDRROFRpajJPT2I0ZVdReEc1MDJMbHFJQQ?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
@@ -821,6 +870,16 @@
       "source": "GNews | EU Demo",
       "priority": 0,
       "category": "气候+人口",
+      "relevance": "low"
+    },
+    {
+      "title": "AI agents under antitrust and consumer protection scrutiny: Risks and opportunities for compliance - www.hoganlovells.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSGxOcFFRaElLN3ZUODFLaEY0ZHg0QVl3OVFDZE82YlhIOVR6bEdVLWRGR3JTTDJYX05SSWRldzZlbER1ajk5WG5COTBtQ3lzQk9MRVhOVWgtMldYaUFtVVE0MUdkbWNGRDRQWUdPSjlSY2NSMmlnb3djRklhSTEwT1BIZl9LcXFSTnprVU1UeUJaR3Ftb1JGdWpqTWM1aTRKNE81U1pTUXJQbi1GNXVjeklvMkFYbVhxNnFmZzJSZ19qbjBTMkc4eFJKbC1nTXRvM053Z3J1MEg4UQ?oc=5",
+      "published": "Thu, 04 Jun 2026 14:16:25 GMT",
+      "summary": "AI agents under antitrust and consumer protection scrutiny: Risks and opportunities for compliance&nbsp;&nbsp;www.hoganlovells.com",
+      "source": "GNews | EU Digital Reg",
+      "priority": 0,
+      "category": "EU政策+制裁",
       "relevance": "low"
     },
     {
@@ -841,6 +900,16 @@
       "source": "GNews | NL Trade/ASML",
       "priority": 0,
       "category": "主要国家",
+      "relevance": "low"
+    },
+    {
+      "title": "Brustenga destaca las oportunidades de inversión en México en sectores industriales estratégicos - Industry Talks",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTWl4UXpjV1BDS0dxM2lYYWxmOHBWSFhUQ2t5MFhSU2ZBQXltOVd2UUNwREc0WWZuTDRpbE5ONXJ2VE1kWF9URXFBeU9PWlJfVFhSZkd2VUUwRkh1RmdzTHd1VFYxY1h5YnlqVjZUUGU5TW1nMkVJZnZSRUdGN3lJd0lGa2lXZDRXX2dKZW54Z2dCcVlFNDF2MHVnTzF6dTdQS01qdmxlZ0dDUFBOVjB5QzBIOEg2aTFJb3N6Rk9zcw?oc=5",
+      "published": "Sat, 06 Jun 2026 07:00:00 GMT",
+      "summary": "Brustenga destaca las oportunidades de inversión en México en sectores industriales estratégicos&nbsp;&nbsp;Industry Talks",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -874,6 +943,16 @@
       "relevance": "low"
     },
     {
+      "title": "Bizkaia presenta ante los consejeros del Comercio Exterior de Francia su capacidad para atraer inversión industrial y tecnológica - Estrategia Empresarial",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObkx0cEZ4TEFNQlJvcGNEbkJNLWhwaDRib1NIanRiT0NFOVlBRDYwcHFCODV2eFJvWUFJTXJ6UFlMQ1FveWtHbng3cWl5ZXdlZURCZDMxTXJiVnRLZFNKMzRaWVQ1LVl6RUtfR21iN2k3WFFaUVFMVkNEZ1EyRUdQdmw3SVdpYzd1Szg4Y29rYWN2aXFwZG5RNXd1amZQdTIzRHJESWFnV1ladjZiMVlDTVo3N0RYVkI4WndBaV80MW1veWZhUmxDdHhQUGJad3czYnlHRlBaQ2N3ZUlMTTY5YXVkcEZ0RklQT09vVGRrbS1lWVU?oc=5",
+      "published": "Mon, 08 Jun 2026 19:02:23 GMT",
+      "summary": "Bizkaia presenta ante los consejeros del Comercio Exterior de Francia su capacidad para atraer inversión industrial y tecnológica&nbsp;&nbsp;Estrategia Empresarial",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Thousands rally in Berlin, demanding Chancellor Merz step down - Anadolu Ajansı",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZEdSRkpjQlltZzFXZTU5R0JUOXlVNG56RFFDX1RGUmtNdDFiSVgzSlpaQjk2QnI3RjdBODRIMVplLUM2ZFdlSVc3RFpsajdGakEtSEI2bXU4YmFBRnFlNF9oUWtmSG1aeXhNc2NfbzhaZTNVTGJUZFRjdmI3MmFQUlVhZmdudU42eWFiLWtrYU9wNHlHTktUbENqMVNTWV9iS0lF?oc=5",
       "published": "Mon, 08 Jun 2026 15:26:03 GMT",
@@ -884,6 +963,26 @@
       "relevance": "low"
     },
     {
+      "title": "Pochi investimenti, e poca qualità di industria e occupazione: economia toscana ancora al palo – ASCOLTA - Novaradio Città Futura",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOFA0LWlLbVJCUi1GbkxOTXgwdHBucmJaV1ZBOHFSVzhUQVRKNTFabkdYVG1qOEdIVXQ1Y21KaU5YY1JDR3RxVXVCeGJXY1VlVHFUaVVkZm1hTUJwTURpelNVSGRRR08wU2QzOGNRWjhBNzZYbkUzZE05V3MzYTJ6V3BSLUkzQW5WbS1FM09nWlBGaVJvU25OQUduOVJFaFY1MTBCenN5OHpROEVjRW9oNERjR3o5R0pSbW8zVUZaQV9IbENLcFZ6QVF4YmRnQnhvd2RJa05R?oc=5",
+      "published": "Mon, 08 Jun 2026 13:08:35 GMT",
+      "summary": "Pochi investimenti, e poca qualità di industria e occupazione: economia toscana ancora al palo – ASCOLTA&nbsp;&nbsp;Novaradio Città Futura",
+      "source": "GNews | IT Italiano",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "México y España fortalecen su diálogo y cooperación económica - Gob MX",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSlJYeVFxbTgwSnZJaXBUbE5oWmZENjl3UndPaC1ISEI0dGdkY09SRlVwN2ZYYnd2eElqeTdLTnM0ak9yUzlsNmFFRXR3V0dRbXZlOEdfcmRWNzhpYjJ2Sy1OSFFDX0JRd3dxbG1lRjRobUp5VDUtb1ZRSjl6MUlRdVR6eWFRQXNDOEN3X0xiM1ZhbDZIdTJCWHJrRU1HUEVY?oc=5",
+      "published": "Mon, 08 Jun 2026 11:12:55 GMT",
+      "summary": "México y España fortalecen su diálogo y cooperación económica&nbsp;&nbsp;Gob MX",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Global Economics Intelligence executive summary (April 2026) - McKinsey & Company",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmgzTkdja3YzVE1LaEtHbGFYak1oUU9Pei1CR1AwOW4wak5uY3hRQk0wb1o1SWhObGhxTUZDaEZqSUZ0TjdqUS1Ed3hwclZJRi1YV0RLQzZIY3paTzR3R2l0dkp5TkhLYVdXbm5NREhjc0lSazNjRmhJNlc4Y0Z5c2d0MWZ0WWNqNVhWRjFIRUdnWHJvaEYzdmp6NnV3cXd3bjdybm9EVTN4TEgwdUJsVA?oc=5",
       "published": "Fri, 29 May 2026 07:00:00 GMT",
@@ -891,6 +990,16 @@
       "source": "GNews | EU Economy",
       "priority": 0,
       "category": "ECB+经济",
+      "relevance": "low"
+    },
+    {
+      "title": "La visita a Roma del Ministro dell'Industria e del Commercio K. Havlíček ha confermato la solida partnership commerciale tra la Repubblica Ceca e l'Italia - Ministerstvo zahraničních věcí",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGtEQU1ITEFOS2prSWJLNXRvWEcwbmJVUUR1OHVfR1NscjkxR0hseV9hbjhULXdfamZWQjhJd2JkSno5N2daQTNiUlgzdmFENWVNWk5PbWFJdDF0UHpWR3RYRDU0Tmo2aHA0ZnBOV3RHc3lkelIzX01obTBMUzY0YXVBNVFXTUNvYUhXM05vcHlkZw?oc=5",
+      "published": "Fri, 22 May 2026 09:14:00 GMT",
+      "summary": "La visita a Roma del Ministro dell'Industria e del Commercio K. Havlíček ha confermato la solida partnership commerciale tra la Repubblica Ceca e l'Italia&nbsp;&nbsp;Ministerstvo zahraničních věcí",
+      "source": "GNews | IT Italiano",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -931,6 +1040,16 @@
       "source": "GNews | EU Economy",
       "priority": 0,
       "category": "ECB+经济",
+      "relevance": "low"
+    },
+    {
+      "title": "El Gobierno pone en valor México como destino clave para nuevas inversiones industriales - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWh5U05oS0ZHYU1PNXhNVjNJRlcyYThmV1pSMW5fci03cEVYMjdmRW90TERWa29TeEludnJRanZkZ3h1Y3MwMl9GOVVHQmFmQ09tZmJsZldYSUV1X19ZOWpVeThPVVJfUWc1XzRnVHQ3Zlg4d2tSaXlITjRNUjQxUU5CZEtoUEtFa0tKenpwRDhtRnZLVUota1MwM0hISkJ1aGFzYVl6ajZ5ZmY5MkFJYUJ3ZVYyd2JtZkVVN09UX0XSAcYBQVVfeXFMTjRHT3Z1LTJFUGZ2UU40clFaWGcwZ0dTX0R5YWhSYlZkYzJ6VnRrc1V2bUJqNUFzZzA4SlRFZjZQTFA2NUUtZkR2TTFGVW9Ha2FOOU41aEYtb0ttRm5pMGc1c3F1ME9OUlZzMUhGYjRfYklQUDlaMnRmcXIxR1VtbVlyXzF4ZnB3el9oTk1lLVpfZDNybG1IVjZYTjR4N2NDRFRjeHJuOWZNZFlpa1ZvNHpWbUNVcFZEN1VHcUN0dnR4Y0h4MUln?oc=5",
+      "published": "Fri, 05 Jun 2026 08:40:54 GMT",
+      "summary": "El Gobierno pone en valor México como destino clave para nuevas inversiones industriales&nbsp;&nbsp;Demócrata",
+      "source": "GNews | ES Español",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     }
   ]

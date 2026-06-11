@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "南亚深度",
-  "updated": "2026-06-11T04:03:03.720100+00:00",
+  "updated": "2026-06-11T04:20:57.761158+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 84,
-  "high_priority": 2,
-  "medium_priority": 45,
+  "total": 107,
+  "high_priority": 4,
+  "medium_priority": 53,
   "signal_alerts": {
     "unprecedented": 1,
     "record high": 1
@@ -24,7 +24,7 @@
       "feeds": 1
     },
     "斯里兰卡": {
-      "count": 30,
+      "count": 20,
       "feeds": 1
     },
     "政治+社会": {
@@ -45,6 +45,10 @@
     },
     "本地语言搜索": {
       "count": 60,
+      "feeds": 3
+    },
+    "独立RSS源": {
+      "count": 30,
       "feeds": 2
     },
     "信号性查询": {
@@ -52,9 +56,29 @@
       "feeds": 2
     }
   },
-  "fail_feeds": 0,
+  "fail_feeds": 2,
   "rate_limited_feeds": 0,
   "articles": [
+    {
+      "title": "The reality behind falling net FDI",
+      "link": "https://www.thehindu.com/business/Economy/the-reality-behind-falling-net-fdi/article71084799.ece",
+      "published": "Wed, 10 Jun 2026 23:30:55 +0530",
+      "summary": "India’s net FDI has declined sharply despite strong gross inflows, underlining the impact of disinvestment/capital repatriation; an understanding of these trends requires looking beyond aggregate inflow, outflow figures; investor classes, modes of entry, and exit strategies can have important implications for technology transfer, industrial development, and external sustainability",
+      "source": "The Hindu Business",
+      "priority": 14,
+      "category": "独立RSS源",
+      "relevance": "high"
+    },
+    {
+      "title": "22 more applicants approved under PLI scheme for textiles",
+      "link": "https://www.thehindu.com/business/22-more-applicants-approved-under-pli-scheme-for-textiles/article71085286.ece",
+      "published": "Thu, 11 Jun 2026 03:41:12 +0530",
+      "summary": "An official press release said these companies will generate a projected turnover of ₹15,561.34 crore in notified products, and create 36,217 employment opportunities across the textile value chain.",
+      "source": "The Hindu Business",
+      "priority": 12,
+      "category": "独立RSS源",
+      "relevance": "high"
+    },
     {
       "title": "U.S. Trade Deficit Narrows Amid Record Export Surge - Devdiscourse",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTElxdFRDNFFzVDA5MUFKUTlod3VmWDBhUnVaQmZRSzhWRHRLRHpJMTVYdUExQnlqUEZ4MDVrQUJ0UjF2UXRIRHhsRW9GZXRPYzRscjluUGdBdEdxQmpMM1lTcnNlRXdPR1dTaVcyWWRmc1NybHBTQ0RqOGo0TnF5UUJjWUN2ZnIycDlmQ2tKV3g1YjJRdnc2SlpDcGpuZTVUMUZsZWQ3ZkVOMGfSAasBQVVfeXFMUExJcXRUQzRRc1QwOTFBSlE5aHd1ZlgwYVJ1WkJmUUs4VkR0S0R6STE1WHVBMUJ5alBGeDA1a0FCdFIxdlF0SER4bEVvRmV0T2M0bHI5blBnQXRHcUJqTDNZU3JzZUV3T0dXU2lXMllkZnNTcmxwU0NEajhqNE5xeVFCY1lDdmZyMnA5ZkNrSld4NWIyUXZ3NkpaQ3BqbmU1VDFGbGVkN2ZFTjBn?oc=5",
@@ -86,13 +110,33 @@
       "relevance": "medium"
     },
     {
-      "title": "US Committed Unshaken Strategic Alliance With India: Marco Rubio - The Kashmir Horizon",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTlQ5OGxqaEVWTDRsbTN1cDVLU0pWRTQ3WXJGUmJxdEJCTWVsTmJsYnpUYzBrRlBla1BzMlNMVFdpRlltOVhONDIzNWZsOXNKR2dpTkUtbUhBNkNNZ1REaG1lNFhJNGE5ZzktS3lFQlcwdGMtMXVfUjUzZkhZd3NkMGM1MVFIanB2YXBic0dhdDhkVGZ3QnJaT1VncGZwajFCSnR6TXNyMjA?oc=5",
-      "published": "Mon, 25 May 2026 03:28:51 GMT",
-      "summary": "US Committed Unshaken Strategic Alliance With India: Marco Rubio&nbsp;&nbsp;The Kashmir Horizon",
+      "title": "India may extend duty exemptions on pharma inputs beyond June 30",
+      "link": "https://www.thehindu.com/business/india-may-extend-duty-exemptions-on-pharma-inputs-beyond-june-30/article71082194.ece",
+      "published": "Wed, 10 Jun 2026 12:20:49 +0530",
+      "summary": "The government has also sharpened the focus on diversification of markets to ensure the continued growth of pharma exports, which in FY2026 touched a little over $31 billion",
+      "source": "The Hindu Business",
+      "priority": 8,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "White House Invite Interlocks Modi, Rubio, Quad Future - The Kashmir Horizon",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaGE3Y2otWHNyWU1hVGEzeGlPLVJFLVp2Y3ItY193cEphZUpIQXVKU2d4SGhBSXlCN1g4SW9oY1FLX1IxMWJ6STYyZ3RNYlNSbVZ3MUs5YmNSekE2RTE2Z2oxWVo3MnNqSUloTnNNejcxUUVraFlEX2ttUVpNSVpfMndwUnYxTGR2eGoyWGdpTFp6STJrRlZYT0F3?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "summary": "White House Invite Interlocks Modi, Rubio, Quad Future&nbsp;&nbsp;The Kashmir Horizon",
       "source": "GNews | IN-US/Quad",
       "priority": 8,
       "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Korea export growth hits four-decade high on AI chip boom - Indiatimes",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOW9sdnJudjJJUlZya3IzUi1XMktGQkFIV0ZONTlMZVFnNjZsMlllVTctZ1BHOF9NMi1GUzFMQWhYcjdvS1h6T3hjMlBBc1ZsT0hobzctN29ITUhXcVdqcUtyc0tQTWMwb2dGU09lVGQtY3FxUHRXRmdURkZaOWZTcVd2S3dNOUhFQzJ6Z1FBcDZSZHlNTUkzeGpCdnpKSkR1eFZqRV84YlVvU29SYmpSZHVWTHNidmNhTHRaUnRXbUdMNTZtbTc5cmdaczFMUHE3S0dn0gHYAUFVX3lxTE4yTExuMzh0X2toWWliX2IxaWx6Qm1tOFZuemZfOXFpVXJWSlpHZENpOXZubGpGV3l4VmQ2OG1hbm40cXFBN214MHJmRzByZkV4dFdyRlV3Yl82T0NNWU9BQ3U5cHU4V2xlYVRiNUg4NFdrNV9EVlN6XzA1YUZDVE1EdlV0alNzREU3clYwVkFUMTNUSjUyREZDVm1TdVR2WmNZRk5ma1RXS2ZleGM0VWp6dUdNZkZhQzZsZjF5aDFrcXlkdm5ONUJTRk1lR2JfeWdRVWpBWG5nbw?oc=5",
+      "published": "Mon, 01 Jun 2026 09:41:51 GMT",
+      "summary": "South Korea export growth hits four-decade high on AI chip boom&nbsp;&nbsp;Indiatimes",
+      "source": "GNews | Signal: IN Record",
+      "priority": 8,
+      "category": "信号性查询",
       "relevance": "medium"
     },
     {
@@ -246,13 +290,23 @@
       "relevance": "medium"
     },
     {
-      "title": "RBI Monetary Policy Meeting June 2026 Highlights: RBI keeps repo rate unchanged, revises GDP growth forecast to 6.6% from 6.9% - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOWhsb0FjNkpYb0tFejBXNjVJOTNtbDVOdzROMm0tX0hZZHpoYU1TZXpkY0F3RDVHRHI0N2dzLXU2U3BIXzdtVENoMlhUZDgxV3JkcDdZQ2FJSTVqVHFTS0NQcVVSSERaSF90UWtlOVFHQ2wzdy1vdnEwTmthcGRsS0xUclNWMTRScXhHYk5lTVo3VjhQcml3UUZhWVFYeU5CZUw1UkwwUWwzVWlBR3ZSWTNsRWR6X3BmRTQ3M29SbDZfQUd5emloSnpZamw4anVDV29XVjNRONIB3gFBVV95cUxNVDNoRE0xUjJTc3JCb1F5R083aXhkSzhldUUwc1lGclU5Q1Fwdl8tNkNFcmViTFp6cm5SR0tybWZyOWFxcjUxYTA0aXZpZnZnc3RlU0w5S0JHVTR0NWRMLTNTaDhoZHNibzNIQzc4YzRVRGRwZ0IwYnhxWHpXU0ItSU9hN2NoUlF3VVNFSEx3dmhwb0NsYlo5ZTdKN1RSblVJMUV4TFNGX3owMmlndFVHcFZoX0dpZ3dEdkQzaHRUVnM4c1hkU2VXZHpvUHRpc3dra0VWT0xNYURVSUhTUGc?oc=5",
-      "published": "Fri, 05 Jun 2026 01:31:01 GMT",
-      "summary": "RBI Monetary Policy Meeting June 2026 Highlights: RBI keeps repo rate unchanged, revises GDP growth forecast to 6.6% from 6.9%&nbsp;&nbsp;The Indian Express",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 5,
-      "category": "印度",
+      "title": "Rupee falls 15 paise to 95.56 against U.S. dollar in early trade",
+      "link": "https://www.thehindu.com/business/markets/rupee-falls-15-paise-to-9556-against-us-dollar-in-early-trade/article71083487.ece",
+      "published": "Wed, 10 Jun 2026 12:37:32 +0530",
+      "summary": "According to traders, the Indian rupee is trading with a negative bias and remains under severe pressure due to renewed geopolitical tensions in West Asia",
+      "source": "The Hindu Business",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Indian online buyers losing up to ₹28,000 crore annually to dark patterns, hidden charges: Report",
+      "link": "https://www.thehindu.com/business/indian-online-buyers-losing-up-to-28000-crore-annually-to-dark-patterns-hidden-charges-report/article71082091.ece",
+      "published": "Tue, 09 Jun 2026 21:58:24 +0530",
+      "summary": "The study analysed 12 leading platforms across e-commerce, quick commerce and online travel",
+      "source": "The Hindu Business",
+      "priority": 4,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -286,21 +340,51 @@
       "relevance": "medium"
     },
     {
-      "title": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26 - People Matters Media",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOanZGV0xLV3c3QUZtMExyTk5UZVB1VTUtNjJMaXN1N2ZoYjZRUUFJajFUUUJoNXFnU21BNEw0RHBnSW5XUDl5MUNGR0xxcGN0VU1EV0w1WkpVbmtfX0g4MERZRmo1MDAweDBhZGEwb0twdERFVFdYckN0RE9DQ0NCemVDdmk4YUI3cDRTSUN3WGU0b1d5bi1abGM2WG1POG8wVzRXejlPcmhrN21EMW41b3N3dWdPSUVKYlU5Vw?oc=5",
-      "published": "Tue, 26 May 2026 05:26:36 GMT",
-      "summary": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26&nbsp;&nbsp;People Matters Media",
-      "source": "GNews | IN IT/Visa",
+      "title": "Industry hired I.18 lakh flexi workers in last 12 months: Indian Staffing Federation",
+      "link": "https://www.thehindu.com/business/industry-hired-i118-lakh-flexi-workers-in-last-12-months-indian-staffing-federation/article71085553.ece",
+      "published": "Wed, 10 Jun 2026 21:05:08 +0530",
+      "summary": "",
+      "source": "The Hindu Business",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Stock markets retreat from day’s high; end flat",
+      "link": "https://www.thehindu.com/business/markets/stock-markets-retreat-from-days-high-end-flat/article71084653.ece",
+      "published": "Wed, 10 Jun 2026 17:35:49 +0530",
+      "summary": "The 50-share National Stock Exchange of India (NSE) Nifty dipped 27.15 points, or 0.12%, to end at 23,214.95",
+      "source": "The Hindu Business",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Starlink says talks with India remain productive as it awaits final clearance",
+      "link": "https://www.thehindu.com/business/Industry/starlink-says-talks-with-india-remain-productive-as-it-awaits-final-clearance/article71083973.ece",
+      "published": "Wed, 10 Jun 2026 14:01:53 +0530",
+      "summary": "Starlink remains in active and productive discussions with the Government of India contrary to misleading stories based upon unsubstantiated claims, says VP of Starlink Business Operations",
+      "source": "The Hindu Business",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "FDA warns drugmakers in US, Japan, and India for GMP issues - RAPS.org",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUM5ZTk2NWt0RzlHN2tUS0dXV0kxaTFZNzJDZURySTF3aG9XakNlN1N0UWVrR0xJY0JjSkhMenA1RmpyZzM1c2xMbHA5M0tVeWg1RkU2alZlaTdjU3ZrT09NQU5HWlFZUGhfYldKdUIzMElkUTY0c1dWS0F2QnVVUGxja3h0NTdhWS1oclhwN01JelA3Wm5N?oc=5",
+      "published": "Tue, 26 May 2026 20:51:00 GMT",
+      "summary": "FDA warns drugmakers in US, Japan, and India for GMP issues&nbsp;&nbsp;RAPS.org",
+      "source": "GNews | IN Pharma",
       "priority": 3,
       "category": "印度",
       "relevance": "medium"
     },
     {
-      "title": "Torrent Pharmaceuticals stock (INE482A01020): FDA approval news lifts focus - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZG5SNC1XalNCX1pRU0NVTVNidDV2c0MwcHJFQkpnb3NSVTlNYUlsQkZKMmJucTVsNGg4emRZR3YxLTJ3UFlESTVZWjdvVk9hNENVS1pLM282XzQwOG5sSTFNWDhicjN4NHFMZWtDOTlYeWVSYjVvU0xKWjFKNUI5WmtVcXBKNW5NMWkwdkxMZ1ZUbHNOc1IySjF3Uk80a2pDbE1EOEdrSXNrZUlnMDVKcEtmZ0l4OGdqRGpUOEJiT1Bpb0E?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "Torrent Pharmaceuticals stock (INE482A01020): FDA approval news lifts focus&nbsp;&nbsp;AD HOC NEWS",
-      "source": "GNews | IN Pharma",
+      "title": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26 - People Matters Media",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOanZGV0xLV3c3QUZtMExyTk5UZVB1VTUtNjJMaXN1N2ZoYjZRUUFJajFUUUJoNXFnU21BNEw0RHBnSW5XUDl5MUNGR0xxcGN0VU1EV0w1WkpVbmtfX0g4MERZRmo1MDAweDBhZGEwb0twdERFVFdYckN0RE9DQ0NCemVDdmk4YUI3cDRTSUN3WGU0b1d5bi1abGM2WG1POG8wVzRXejlPcmhrN21EMW41b3N3dWdPSUVKYlU5Vw?oc=5",
+      "published": "Tue, 26 May 2026 05:26:36 GMT",
+      "summary": "TCS, Wipro, Tech Mahindra hit hard as H-1B approvals fall sharply in FY26&nbsp;&nbsp;People Matters Media",
+      "source": "GNews | IN IT/Visa",
       "priority": 3,
       "category": "印度",
       "relevance": "medium"
@@ -316,13 +400,33 @@
       "relevance": "medium"
     },
     {
-      "title": "WMO warns of strong El Niño threatening India’s monsoon - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORUZ0T285d3g4UWNMMXVsVXhKV21Lc0FBQnRYRTh3N25sbDFpc0ozYWpkNTN0Y1FDWUJkZFhuWFBaXy1CbDg0dGlaMTZwaXlvNnZTOHU3dTdESUxSQ1I0XzdQcUJyQnhVR1ZHMC00LWRrdjFKbk9hazdPS19wZzNUWnBsRlpGMVVqZ1N4NUVGVnQ5bHBXZkdzVU5ndHY0X1FTU0JOcVB0REJDcGpPQkZubEpYUERIbHJtUkxhQTBoekhZSXVoUUFqbGV6eEJqVkRBa0pOZ1dSVHp3YnduVlRXQXJaY1VmUm54ZzRuX2wySjA1VXBh?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "WMO warns of strong El Niño threatening India’s monsoon&nbsp;&nbsp;MSN",
-      "source": "GNews | SA Climate",
+      "title": "Court orders restitution of assets worth ₹9,420.57 crore to Justice Lodha Committee in PACL case",
+      "link": "https://www.thehindu.com/news/national/court-orders-restitution-of-assets-worth-942057-crore-to-justice-lodha-committee-in-pacl-case/article71081289.ece",
+      "published": "Tue, 09 Jun 2026 22:40:22 +0530",
+      "summary": "The ED probe is based on a case registered by the CBI against PACL Ltd. and its promoters for allegedly defrauding lakhs of investors; the agency has so far attached assets worth nearly to ₹28,626 crore in India and Australia",
+      "source": "The Hindu Business",
       "priority": 3,
-      "category": "气候+人口",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "TCS will have as many AI agents as human employees in 3 years: Chairman Chandrasekaran",
+      "link": "https://www.thehindu.com/business/tcs-will-have-as-many-ai-agents-as-human-employees-in-3-years-chairman/article71081273.ece",
+      "published": "Tue, 09 Jun 2026 22:35:55 +0530",
+      "summary": "“I predict that over the next 3 years, TCS will have as many AI agents as human employees. What we build in this next chapter - for our clients, for India, and for you - will be the most consequential work this company has ever done,” TCS chairman N. Chandrasekaran said",
+      "source": "The Hindu Business",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Adani Energy to acquire smart metering firm IntelliSmart for ₹3,050 crore",
+      "link": "https://www.thehindu.com/business/adani-energy-to-acquire-smart-metering-firm-intellismart-for-3050-crore/article71080825.ece",
+      "published": "Tue, 09 Jun 2026 22:01:17 +0530",
+      "summary": "The proposed acquisition will strengthen AESL’s position as India’s largest smart metering platform with over 4.7 crore smart meters",
+      "source": "The Hindu Business",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -346,13 +450,13 @@
       "relevance": "medium"
     },
     {
-      "title": "India’s Lax Drug Regulation Threatens Public Health and Global Reputation, says E.A.S. Sarma - Countercurrents",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN1FLbEhvREY4MGRhRkJGeUdkZm1xejhlTnpqdkh3aHJia3dfTE5wY3ZhWDg4cGhHd1RVMU56UUY2WGtEWHlXd1hZa3Nlb3hDUzBCcVp1Q3VmREJzSzJfVmhGSGpKQU5fMHdYbUxPWVZlYTBXRldyY0M2LUJSV1JEMWFhYUlrY2d1bGdpTEI1eVhRU3pyam1PeWxIcmJpR3Z1ckVhMnl6TTZpNkI2R08tLXRrbDFXcm13UEdXNnZvcTBkc0JH?oc=5",
-      "published": "Sun, 17 May 2026 07:00:00 GMT",
-      "summary": "India’s Lax Drug Regulation Threatens Public Health and Global Reputation, says E.A.S. Sarma&nbsp;&nbsp;Countercurrents",
-      "source": "GNews | IN Pharma",
+      "title": "Rubio aims to rebuild trust between Washington and Delhi during first official visit to India - PBS",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdEtfMlVSblpHcTFGN1NVSmdOUGkxY1ZnS1R4ZWZrVGdHVnV3ZEJyUGVRZFo3bDloRGxTWmY4MXZqbUF6c3lEbERYNlNNSmV0cHlnYWRISTVmWXJIemhGTzc3WDVjX1ZkQjJib3R5Mk9GTU1LRGZySC12SlR6Ny1CbkFKQXFLMmRZQ0YxR0hmNjBDYXJobUROTGxEeGVkcGFvSi0yYUVuZnNwazRLUmE2cFQxeGVuRHhYRnJfd2pNMFhCU0RGRG0w?oc=5",
+      "published": "Sun, 24 May 2026 07:00:00 GMT",
+      "summary": "Rubio aims to rebuild trust between Washington and Delhi during first official visit to India&nbsp;&nbsp;PBS",
+      "source": "GNews | IN-US/Quad",
       "priority": 3,
-      "category": "印度",
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
@@ -406,16 +510,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Rubio tries to tackle a trust deficit between Washington and Delhi on first official India trip - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMF9QNmhyc0kxZzNxSmoyRTVNWnpJYTVIdUxmWkVLclhEbzU4aHNYbDF4X1pBWlhqMHU2MGhlbnMwTDBnbWRLYzdUWndzYWJ2NkpFTllsN25XSlZxMnJ3YnVtQi1zNy1iTFpTVUtKMUtrMW1hUTRNMUlGanVnZzdtQ3RTU3QwLW4xY0t5V0c5RzV5TkphdlRRVmhQSUs1SWfSAaQBQVVfeXFMUFpKMko1YlNvQkllemVtYTZ4MlcxVi1uNVJNNXlUQXpaa2QyYkp3NzBraERMWHhTMUtKQ2d6RngwaFAxSWJtWkI1bm5VakFQQXpZRnNPUW5WeFNtR2hNSUxXNU9xcU44ZkZNTGJEeG44dGlNZUFCaVR1dXk4N1VDdURqVkNQWm5yT2dXS0tTQ3RLUXVSYUhxRE1ZTFNYZ3FJLUhNMlM?oc=5",
-      "published": "Sat, 23 May 2026 07:00:00 GMT",
-      "summary": "Rubio tries to tackle a trust deficit between Washington and Delhi on first official India trip&nbsp;&nbsp;ABC News - Breaking News, Latest News and Videos",
-      "source": "GNews | IN-US/Quad",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
       "title": "Tata Electronics partners with ASML to build India’s first semiconductor fab - Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uLWpXWGJ3cTVHbk9yelhzMGVvdm1ZcFpLS1E0X0Z5Sm1XTkcxSHRzaEc1RzYtMjVOVFQ4dXo3VXJOdmh2TldBbm9TM19QVmlQZXZHSWNfS2hnci1MM0pPNEwyVlM1MkNKeFB6Vmt1aEg?oc=5",
       "published": "Sat, 16 May 2026 07:00:00 GMT",
@@ -433,6 +527,16 @@
       "source": "GNews | IN Semiconductor",
       "priority": 3,
       "category": "印度",
+      "relevance": "medium"
+    },
+    {
+      "title": "Stabilising stability: Time’s running out - The Sunday Times, Sri Lanka",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMVpvTUd1MGItWFdVdjZwaEpkU2kxZ1BIVjJJS0pxZFF3Mk1NeU5IWVBJQWtHcVUtSXltMGYzSDc5a2VUZFZndGxuUDl1ajJZdmFUamJCZlhXYXkweTBRMi1BUW0xT2pMb09hM1lyUzZXZjRteGtib19VRU5CN3lOS21XZmpQSFdudENtSjB2YkJhOENYbm9tOEppTFFpRTY3OEE?oc=5",
+      "published": "Sat, 06 Jun 2026 18:35:55 GMT",
+      "summary": "Stabilising stability: Time’s running out&nbsp;&nbsp;The Sunday Times, Sri Lanka",
+      "source": "GNews | LK Economy/IMF",
+      "priority": 3,
+      "category": "斯里兰卡",
       "relevance": "medium"
     },
     {
@@ -456,6 +560,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Semiconductor Industry in India: Incentives and Key Players - India Briefing",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQTVRbl9ZR3VpLVZOSUJfTG5yV2dtYzY3MG1WeEZrY3V0T0FoSHQzRzV3ZXptbWtxRHd4T0pCdjFqejdsVE9fTVY2WGRfaWtUR2pCTEE4VEFOOEpCcS1kMWRTZ2lGYnlZVF82YnloY3ZOOTJoQkRsLVZNQ3d5bjNIWXNnWGl2UVpRc3dJSURkSzc5U1FZMi03TUwyaWJhZlRhVmlseTNkbXRfTnhuZ2NJRUY5ZDJTc00tUjY0c0lsSGctMEJTNE9GWW1pcjZhSERsWXc?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Semiconductor Industry in India: Incentives and Key Players&nbsp;&nbsp;India Briefing",
+      "source": "GNews | IN Mfg/PLI",
+      "priority": 3,
+      "category": "印度",
+      "relevance": "medium"
+    },
+    {
       "title": "Tata Electronics Partners With ASML to Advance India’s First Semiconductor Fab - CXO Digitalpulse",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ1h1b3pXNjJCV1B2TGxwYlBLSmJ1RWxJRWtadGJHSmtKMFptWDU3OWpoMWtDNW1hakctbzY5QjVHb2hMelNBaXZXSmpMUGh5X3NWVGprQWgtU0s1OXVOUXRmRU12VHU2RllFbXF4OTBuNlh2QWxqV1dxZHc1VjBQczBLNmVUeC1vX1V3ZzJKckktVy1YZFYwZ1RwbXFTZDJqVmFNME8yRG1HYURWbGpV?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
@@ -466,13 +580,13 @@
       "relevance": "medium"
     },
     {
-      "title": "भारत-ओमान सीईपीए से दोनों देशों के आर्थिक और व्यापारिक संबंधों को मिलेगी नई मजबूती, निर्यात और निवेश को मिलेगा बढ़ावा: पीयूष गोयल - IANS LIVE",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZU5wWDJmVUpNeUZ4T3hERGRFSjBTRUlOdW45bUJwaFJmZVJBNHpHaUpQQzhIaVZDMG9OSG1KQngxamduSHdybUZDTTJlTnJXako3b1ZXbVZ3UWFxenotLUFOQWlMNTQzRFBKNTh0V2o2ZlZuWVk4ZVFFeG0wc1lGX25VSXE4RHZDYXhzakVVU3htRjFDRVZRbmtrZ2JmVlhJRjdMakRDdW1fNkJZd19XV1ZqTl9mWU0yU0NuWHFIN2t6U2pwc1B6UUtPeEtTNXdERDFaTEF2N29ZX2JpRW1Xd2VhNjlOdUcyNk4wX2ZuS2dFWEdabi1XZnVUcXc3NC1aLW05SGVqYjhxSkVrWlE?oc=5",
-      "published": "Mon, 01 Jun 2026 10:52:00 GMT",
-      "summary": "भारत-ओमान सीईपीए से दोनों देशों के आर्थिक और व्यापारिक संबंधों को मिलेगी नई मजबूती, निर्यात और निवेश को मिलेगा बढ़ावा: पीयूष गोयल&nbsp;&nbsp;IANS LIVE",
-      "source": "GNews | IN हिन्दी",
+      "title": "U.S. drug regulator flags data integrity, maintenance lapses at Dabur India plant - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb3VlTW1jaVAyQmdZQ2JXZVRfMXc1bEpvYmZSVDk5ZW5oYlg4LWQwYkNZcnRHWVh5NGROalcxYlIxQy1pb0c2UFZKeTg3OEhGb1hSV2UyNHJxcGloVTV4QVFuM043VmplZ0FvSjVDWGJuaWhMdlduZEZDWVB1Vm1KRENHNHZRck5OMjhHS3lRMG9pWGNSQlVjVjZFbGx1Z2Z5UDNxYVBCSndfX2ZNQ25IbnlvXzNPT1d2eXUwTjg3OGRQcFdmVWJnZUVEN2tvNDZoNkZCTEhyWU84U3hUaWdITw?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "U.S. drug regulator flags data integrity, maintenance lapses at Dabur India plant&nbsp;&nbsp;Reuters",
+      "source": "GNews | IN Pharma",
       "priority": 3,
-      "category": "本地语言搜索",
+      "category": "印度",
       "relevance": "medium"
     },
     {
@@ -516,16 +630,6 @@
       "relevance": "medium"
     },
     {
-      "title": "The Strongest El Niño In 150 Years: 2026 Forecast Covering North America, Europe Asia, India ,China Sofia Goggia (Yri9lO3Grg) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LRjVSLW1ReHZLUXpMNDVxLXA3UkJ1VHFFU3h5dU9CdWYxRVFEOXhBNVJpT0Z1VmttU2xvNVNqZFI3QmNBX3FETVkzajY5WFMyb0haSnRvQ0FWeTQ?oc=5",
-      "published": "Fri, 05 Jun 2026 00:30:18 GMT",
-      "summary": "The Strongest El Niño In 150 Years: 2026 Forecast Covering North America, Europe Asia, India ,China Sofia Goggia (Yri9lO3Grg)&nbsp;&nbsp;Mshale",
-      "source": "GNews | SA Climate",
-      "priority": 3,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
       "title": "RBI Keeps Repo Rate Unchanged At 5.25%; Cuts FY27 GDP Growth Forecast To 6.6% - Sarkaritel.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2JCRUcxOEhmOGNfSklmeTFPdmZ4UHIyWDg1c1FRYko0YlZvY3I5NmRwUFBQc21mZElXN3RabFBIUU1QV3gzdzlyUU9CcV9LQWtxc2dQZU9xalJ2eThiZzZIVmlEZWhjQzBJQ3NDWHBwWkZnSjJ4bmtybFVybGJLV3JmMmQ3cUw1cjdfNWtqZ0FqQQ?oc=5",
       "published": "Fri, 05 Jun 2026 07:09:46 GMT",
@@ -546,13 +650,53 @@
       "relevance": "low"
     },
     {
-      "title": "RBI GDP growth 2026-27: Forecast cut to 6.6% as oil, war and subpar monsoon risks mount - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORGF1dDR0MnBPRVNlUVhGVXNubUtET1dNajNsSXBBdms5V1R0Z3RSeU9wYVgtU2JPeXpMZFF6c29YY29qODNnTjlLZzUza3NqS3lHd29uU055UGczYjhFR1FjbEVZYTRtMUNpeWpWcE94NUE4alRuS3Q1TEZIZ200c0UzWUZNa2lWZEVqZ0RFblhFQUFQWFJJQTRyYl9lX0Z1ZGhKbFpQUmcwNDI4RHJVMTBhc3daUUZoMWZpczZHUDlDR0diT1E1TzFueDh3ZnQ5ZzFEQzh1UUpqOUktaFVnMWQxUHVqT1dhM01rdFVFRUNDREloVG1iLWxR0gH_AUFVX3lxTE50WlNmUXNxMlJrc1F4Mk9ON2xRYVVuWFRiWTB5N3VJQVU5SHgxTHF4V2pRUUR5WW1tanBpSk1JaG9EalpkbWk2aEtJWVNZMktBTmJXcW9mRXRDSXNHV0hOMi00Y1cteU05b1daTzFvQm8yUndGV0sxUDRBNHZoQm1ISG9LUEpsWHBRZXBtZ2QwWmEzSU9hMEhnOGZwV0hkZ0dDZUJYVkloTjI5STlEVUQzRGRFOHJVQUNsS1UwWm5oeElnUFpvT2o4eFZ3WjhpMUZrZW1BZWJ4a0lKaDdPMko1TWFHSkFvaTM1SHd0YVlWTmpzei00TF9fMjdjTko5VQ?oc=5",
-      "published": "Fri, 05 Jun 2026 04:45:04 GMT",
-      "summary": "RBI GDP growth 2026-27: Forecast cut to 6.6% as oil, war and subpar monsoon risks mount&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 2,
-      "category": "印度",
+      "title": "Ministry recommends capping of airports for privatisation",
+      "link": "https://www.thehindu.com/business/ministry-recommends-capping-of-airports-for-privatisation/article71085674.ece",
+      "published": "Wed, 10 Jun 2026 23:10:24 +0530",
+      "summary": "The recommendation was made last week in response to queries raised by government departments represented on the Public Private Partnership Appraisal Committee",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Hetero Labs, Hungary’s Gedeon Richter to collaborate for Semaglutide",
+      "link": "https://www.thehindu.com/business/hetero-labs-hungarys-gedeon-richter-to-collaborate-for-semaglutide/article71085728.ece",
+      "published": "Wed, 10 Jun 2026 22:22:02 +0530",
+      "summary": "",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Rupee rises 14 paise to close at 95.27 against U.S. dollar",
+      "link": "https://www.thehindu.com/business/markets/rupee-rises-14-paise-to-close-at-9527-against-us-dollar/article71084650.ece",
+      "published": "Wed, 10 Jun 2026 17:53:31 +0530",
+      "summary": "Forex traders said the rupee pared its initial losses and settled on a positive note as Brent crude oil prices and the U.S. dollar index retreated from their elevated levels",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Priority will be to bring back Tatas in big way: Bengal''s new Industries Minister",
+      "link": "https://www.thehindu.com/news/national/west-bengal/priority-will-be-to-bring-back-tatas-in-big-way-bengals-new-industries-minister/article71084812.ece",
+      "published": "Wed, 10 Jun 2026 17:50:24 +0530",
+      "summary": "Tapas Roy said the government would focus on creating an industry-friendly environment, ensuring ease of doing business and generating employment opportunities for the State's youth",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Stock markets climb in early trade on buying in blue-chips",
+      "link": "https://www.thehindu.com/business/markets/stock-markets-climb-in-early-trade-on-buying-in-blue-chips/article71083506.ece",
+      "published": "Wed, 10 Jun 2026 10:43:50 +0530",
+      "summary": "Hindustan Unilever, Reliance Industries, Kotak Mahindra Bank, Asian Paints, Trent and ICICI Bank were among the biggest winners from the Sensex index",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -596,6 +740,16 @@
       "relevance": "low"
     },
     {
+      "title": "Stocks drop, oil rises as Iran and rate worries dog traders",
+      "link": "https://www.thehindu.com/business/Economy/stocks-drop-oil-rises-as-iran-and-rate-worries-dog-traders/article71087538.ece",
+      "published": "Thu, 11 Jun 2026 08:37:56 +0530",
+      "summary": "Oil prices jumped as much as 2% on Thursday (June 11, 2026), extending similar gains the day before",
+      "source": "The Hindu Business",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "RBI Monetary Policy Key Highlights: Rate Unchanged; Lower Growth, Higher Inflation On The Cards - NDTV Profit",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaC1NbUZWSnBYT05rY0NSdnoxY0hYNlJTaDN3aGRITVpJd3FPUHdrN3ByMGNSQi0tMDNQZlVBSmJyRURleDdoODBLUUxfTkw2RHBUUzYwQ1RyTmd0SjdzUGJodHlfTTdVUi1kYS12VlZCMXVhS2ZkMmxDN3YtOXpZVjhYLTUycmxuN3k0V2pqelN4amhDczJjU2FrOWdzX2ZFZG5YejlnT19TS1ZxVXRkOXNJS0tpdVI2b0dieXp2RUlyZU9iS2lsdy1MN2k2NGwyQlHSAdoBQVVfeXFMUGlZSHQ2UE9oWjBaX0hlcmo0RTY3SUpDRTV0bllvRDJsRTlpZ3RrM0lDaHVQSlB4aTMxTXQ0OEp0YXE0VG1OM1BpMFR1d3UwY1U5d1U5X081ZXJnM2VLMklqLThHVEp6Z2hsd3lIRjFIZzNYbTlYeDFHSHhWem82YXYyZjEwT1lySlpVc2VYNVVQakdKcXZVZzNZa1hza0xKTldjZ0JpMnV2aHA5Q18xckhURElYU2pfQ3Utdkxyb1VKVUZ6X0hlTmFjYTFneEhSbENSZ1kwV095WkE?oc=5",
       "published": "Fri, 05 Jun 2026 05:56:14 GMT",
@@ -636,26 +790,6 @@
       "relevance": "low"
     },
     {
-      "title": "RBI MPC key takeaways: Here are the major announcements by Governor Sanjay Malhotra on GDP, inflation and - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPMm9peWNaMHRXZXVTWjNmNWNBMlZrMDg4Tm9JQzBQNXlEWGRYRUJIOHhhci1Zb0ZMMFZUM0ZYOUx1d3JXSURrODZ3N0haQjZkM1BaUE95U0tfSVBPWGxJY3F5SG14VkNWSEtpMGRTOGNCVlBnbzV1VGlaWVNMXzE0clR2M0NLS0E3eVZ4dkNoajRjZEFaRmxLWE9aQmtYb2E1WjhZZmxhWHRkRWhwTVNoYk1BcjR1dFlNejk2bFRUdzE0VkdkbFNlMkVSZHkzZzRESkR0N2tNVUZ4emw4RFFkVkI4UmIyQmh3Wkdvaks2ZlRnSWk1YXhmRkRoaVMtdC0tVHhMNmIyUkRDaEJzSW8xeVRGc2V2d9IBmwJBVV95cUxNaE5aWnNIeEN4Z1NsWTV1ZmdTZ1NsaXg3X1NSS0R5YWpsUDlseTh1cE9ZR0xaSW10WFZLM1JhdmJyQ2JVYWZwNm81eGF4RC1TX1JMd1UwTHNnbExPdGFkVU5oaW5wbEJqUmdiaGUydUItUlJjRTRpNVdkbV93VHIyc1BqejV1NU5ZVXBUMVBvaWNUOEhpRnBFQjhsM3l3bUw0OHNsS0RVcnd4Rzg4M014N1BISy1OcmJtbGRGNVh2ZHlSUzhuaWpQR0gzdmc0RHlfallkTF9sS1BLZGNaOUNUWTlEbXYzbW93ZGttcjhfNGtBT1VUTGpaMGdMOWF5Z3pVUFFHb3JCaElESWNzYnlIa3JfYXhaWVd1bTdv?oc=5",
-      "published": "Fri, 05 Jun 2026 04:27:38 GMT",
-      "summary": "RBI MPC key takeaways: Here are the major announcements by Governor Sanjay Malhotra on GDP, inflation and&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 1,
-      "category": "印度",
-      "relevance": "low"
-    },
-    {
-      "title": "Summer is coming. But it might not feel like it at first. - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQi1qRGRrQjZQdjFmNk9DcWxZRDFWSF9XclU1R18tclBTbXFFczA0WEZYQ2ZPTVBxQWpwaHNiSU5GMlNIUGZOWENJa0t6TENYUmg3b040SFFVYWU1TUJIMVZBM2VJNUViS3VPQ3JQVWFNQ0xNNnJWWU5ZTTFhVS02UVNqWTRVQUpWcHhTRU9PNEZZLXZ0ai1sZERmZlBsODZvMnY2NjBzdmVKdXhKUk41cnM1clZYaXVaUDY0?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Summer is coming. But it might not feel like it at first.&nbsp;&nbsp;The Washington Post",
-      "source": "GNews | SA Climate",
-      "priority": 0,
-      "category": "气候+人口",
-      "relevance": "low"
-    },
-    {
       "title": "Rewiring Resilience꞉ AI for Climate-Adaptive Power Grids in Asia-Pacific - ember-energy.org",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSHBOX0JCM2IyWVlTLUpaa182SzRZczJGY3dXbkJVU1dLSUVWUjhybVk1RHNvM2RiSGxjS19jUkhlaExGMDBYblhuVjJ4MTI0QUxySWkxODlBSGhjMl93MmljckNHRzgwY2ZfU25kUlY5NzRNLV8zMDJMWU1rZHlhU2ZXUHJWNkYxQWZvTmR1TVg0R29sQXR6OVU1bW12Rk0zdGplLXBOVG1rV1lrcmZOZVFPMA?oc=5",
       "published": "Wed, 20 May 2026 16:34:38 GMT",
@@ -666,10 +800,100 @@
       "relevance": "low"
     },
     {
+      "title": "Equity MF inflows at a one year low of ₹22,900 crore in May",
+      "link": "https://www.thehindu.com/business/equity-mf-inflows-at-a-one-year-low-of-22900-crore-in-may/article71085697.ece",
+      "published": "Wed, 10 Jun 2026 22:49:38 +0530",
+      "summary": "Inflows into equity mutual funds had already moderated ever since the beginning of the calendar year",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Data centre electricity consumption to rise by 26% in 2026: Gartner",
+      "link": "https://www.thehindu.com/business/data-centre-electricity-consumption-to-rise-by-26-in-2026-gartner/article71085505.ece",
+      "published": "Wed, 10 Jun 2026 21:58:04 +0530",
+      "summary": "",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Life insurers’ new business rose 5% in May at ₹32,031 crore",
+      "link": "https://www.thehindu.com/business/life-insurers-new-business-rose-5-in-may-at-32031-crore/article71086112.ece",
+      "published": "Wed, 10 Jun 2026 21:39:39 +0530",
+      "summary": "",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "‘Tax evasion' case: Anil Ambani gets interim protection from coercive action under Black Money Act",
+      "link": "https://www.thehindu.com/business/Industry/tax-evasion-case-anil-ambani-gets-interim-protection-from-coercive-action-under-black-money-act/article71083919.ece",
+      "published": "Wed, 10 Jun 2026 16:54:13 +0530",
+      "summary": "The Bombay High Court noted that an assessment order against Anil Ambani has already been passed and that he has filed an appeal before the Commissioner of Income Tax (Appeals)",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Equity Mutual Funds inflow hit 12-month low of ₹22,908 crore in May",
+      "link": "https://www.thehindu.com/business/markets/equity-mutual-funds-inflow-hit-12-month-low-of-22908-crore-in-may/article71083821.ece",
+      "published": "Wed, 10 Jun 2026 13:12:54 +0530",
+      "summary": "Net inflows into equity schemes stood at ₹22,908 crore in May, compared with ₹38,440 crore in April, ₹40,450 crore in March, ₹25,978 crore in February and ₹24,028 crore in January",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Reliance Industries to develop data centre project for Meta in Gujarat",
+      "link": "https://www.thehindu.com/business/reliance-industries-to-develop-data-centre-project-for-meta-in-gujarat/article71083443.ece",
+      "published": "Wed, 10 Jun 2026 11:53:20 +0530",
+      "summary": "RIL will develop a data centre with 168 MW capacity to be delivered within two years, with an option to scale, the company said in a statement",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Elon Musk’s xAI, SpaceX hit with class action over data centre ‘nuisance’",
+      "link": "https://www.thehindu.com/sci-tech/technology/elon-musks-xai-spacex-hit-with-class-action-over-data-center-nuisance/article71083338.ece",
+      "published": "Wed, 10 Jun 2026 11:04:05 +0530",
+      "summary": "The NAACP in April sued xAI over the plant and ⁠centres, accusing the company of violating U.S. environmental rules",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Oil rises nearly 1% as U.S. launches new strikes against Iran, supply tightens",
+      "link": "https://www.thehindu.com/business/oil-rises-as-us-launches-new-strikes-against-iran-supply-tightens-june-10-2026/article71083303.ece",
+      "published": "Wed, 10 Jun 2026 10:48:49 +0530",
+      "summary": "The U.S. military’s strikes on Iranian targets ‌followed after President Donald Trump vowed on Tuesday (june 9, 2026) to respond to the downing of a U.S. Apache attack helicopter overnight",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "What is El Niño, and how does it affect the weather and temperatures? - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSVBuSVltaHNHamlHYzJpb3BlT1pLczRGc05sdzRYSXR5cW5FeDFNOTlzclNSaUdYakxQRWNNUzY3QWZaNmxEY3JmNVBCNHRzVXlSa1lRbUYtUQ?oc=5",
       "published": "Wed, 10 Jun 2026 01:58:58 GMT",
       "summary": "What is El Niño, and how does it affect the weather and temperatures?&nbsp;&nbsp;BBC",
+      "source": "GNews | SA Climate",
+      "priority": 0,
+      "category": "气候+人口",
+      "relevance": "low"
+    },
+    {
+      "title": "Super El Niño could hit regions differently, study warns - Inquirer.net",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNzJobkhhZXNhazROb1o0Z3dneTBzU3NKdzdlYWlqX244YkM4NVQwU3hGVEpQR1RlYU0xUXJlWUxfNUo3c2FleXJja1pLMXE5eW1RdV9BbWtFYnYyZGotOEZ6VHROYlgxQ0ZDWUV3d1Z1UjdTYURiV09vdzRBZmVqX2plQW0xd3ozaUVLMG9LZVc0NzZWUC04a9IBngFBVV95cUxNY1BQTGd5NlI5aDJpMklfSTJXS002MjRaNXB5dHZzNmpfT0R0clgycVRhTUNqeHBLakFONXBOUFRNYmVBeHJVU3FGdDdPdldGSHczTUhRMUl0VDFPLThOdm5HRjAxNE5USlhxdXRxeTFvb3VhTmpNVlRuaXpkSmFNYnU2MVY4ZkxQYkV6eHRUTHI1NmZLZkw5TVZtOXdYQQ?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Super El Niño could hit regions differently, study warns&nbsp;&nbsp;Inquirer.net",
       "source": "GNews | SA Climate",
       "priority": 0,
       "category": "气候+人口",
@@ -687,6 +911,46 @@
         "record high"
       ],
       "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
+      "title": "HDFC Bank hikes lending rates by up to 10 bps across tenors",
+      "link": "https://www.thehindu.com/business/hdfc-bank-hikes-lending-rates-by-up-to-10-bps-across-tenors/article71082092.ece",
+      "published": "Tue, 09 Jun 2026 21:55:05 +0530",
+      "summary": "The maximum hike of 10 basis points was for loans having a maturity of two years to 8.55% from the earlier 8.45%",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "In-principle approval given to Tamil Nadu govt, but ‘nothing moving forward’, say Shipping Ministry sources",
+      "link": "https://www.thehindu.com/business/in-principle-approval-given-to-tamil-nadu-govt-but-nothing-moving-forward-say-shipping-ministry-sources/article71081986.ece",
+      "published": "Tue, 09 Jun 2026 21:27:01 +0530",
+      "summary": "",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Rising dormant demat accounts pose risk to system: experts",
+      "link": "https://www.thehindu.com/business/rising-dormant-demat-accounts-pose-risk-to-system-experts/article71081694.ece",
+      "published": "Tue, 09 Jun 2026 21:07:26 +0530",
+      "summary": "The National Stock Exchange’s (NSE) active investor base is estimated to have declined by nearly 35 lakh in FY26 to 4.58 crore, after several years of rapid expansion led by digital brokerages, low-cost trading apps and strong retail participation in equities and derivatives.",
+      "source": "The Hindu Business",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Department of Commerce organizes Regional Outreach Programme and Press Interaction in Pharmexcil’s Regional Office, Mumbai - PIB",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41TXJGTnBYVkVoWUlkNTlpRDRfQjdOaG5zTXZKWmlweE5FYmF3ZWNIRldiazBrWXNsWVRfRExCY0llMDVmNGR1T1VLd0t1YV9rX1R0QnBqdWpvUjRpNm1taTdZd25rRGNI?oc=5",
+      "published": "Tue, 09 Jun 2026 15:06:00 GMT",
+      "summary": "Department of Commerce organizes Regional Outreach Programme and Press Interaction in Pharmexcil’s Regional Office, Mumbai&nbsp;&nbsp;PIB",
+      "source": "GNews | IN Pharma",
+      "priority": 0,
+      "category": "印度",
       "relevance": "low"
     },
     {
@@ -760,33 +1024,33 @@
       "relevance": "low"
     },
     {
-      "title": "Record global temperatures possible as chance of a 'super El Niño' grows - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yZ05rOExBVHoxVl9mbGhsNG5JWjJ2bUlzNnQzdHpLNm1STVVtMEl5MWh5RGQ4Y0tpVjRZTDFFSDQyX3B0X2VrRVNIVGFZSHhqX3BrRkpHQlFLMWIxc3c?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "Record global temperatures possible as chance of a 'super El Niño' grows&nbsp;&nbsp;BBC",
-      "source": "GNews | SA Climate",
+      "title": "Higher ethanol blended petrol between 22-30% exempted from central excise duty",
+      "link": "https://www.thehindu.com/business/Economy/higher-ethanol-blended-petrol-between-22-30-exempted-from-central-excise-duty/article71087550.ece",
+      "published": "Thu, 11 Jun 2026 08:44:32 +0530",
+      "summary": "In other words, petrol blended with ethanol, at 22%, 25%, 27% and 30% would be exempt from central excise duties",
+      "source": "The Hindu Business",
       "priority": 0,
-      "category": "气候+人口",
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
-      "title": "RBI MPC Meet: Rates Likely To Remain Unchanged Amid Middle East Crisis - NDTV Profit",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb1VxbXdtV3J2bC1rTkwyV3RGRi1mcTNpNFhvdUxkWVA0SWxuOFFRRkl6RzV6XzdvLWJuaHo4ZkFqSVlBcVk2T084MnNqc0IxM0Q5SjlYa2pubW4tS3gxcHpKTUk1R2VhNFJ6ZzZlUDJHLUQ2LUNub3F0TGR2VDdvNl9CT3lpRlRmaXRlQ0NtUGR5ZW0tOHVpZXJ2MThFcHFzS3piMlRoLUpCMjFrVVNEQnZyUkV1TkJFSkpnb1NVQl9ORjhtZjVkOU82amtla0dKNnQzTG1LUjFUSkR0Xzgw0gHnAUFVX3lxTE1KQ3hfNi04Vk5PcWpxbUVuS1c0QzNzRDRwY1VmYkJlN1Z4LTB2aHM1Zm1sU1VhRmItZWYzcmx2SDhJRTAzZVhaTHdwVFZSRUR4QVllWFc3VXBJTXhITWJ6cFdGbzg4YW9rZGo5Tl9WZEMyT0FBMVBRckxvSDBfWUR6YlhndXBhZnNBdVR0YmJUQUVNMERDX2JESXBPWk5ndXk3SXhGcXpYekdwVWdMSXRzOG5hd0h2ODQ0RWVQQUZwdV9ka0EyVWh0M3BDRkxhUzRNT3g5Y25LajlSVC1xYmdaZXBjNXZKWQ?oc=5",
-      "published": "Sun, 31 May 2026 07:00:00 GMT",
-      "summary": "RBI MPC Meet: Rates Likely To Remain Unchanged Amid Middle East Crisis&nbsp;&nbsp;NDTV Profit",
-      "source": "GNews | IN Economy/RBI",
+      "title": "SEBI proposes to limit salary disclosure of AMC top employees",
+      "link": "https://www.thehindu.com/business/sebi-proposes-to-limit-salary-disclosure-of-amc-top-employees/article71086009.ece",
+      "published": "Thu, 11 Jun 2026 07:54:57 +0530",
+      "summary": "The proposal comes even as SEBI Chairperson Tuhin Kanta Pandey has been a constant and vocal advocate of improved disclosure and transparency.",
+      "source": "The Hindu Business",
       "priority": 0,
-      "category": "印度",
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
-      "title": "Are we heading for a Super El Niño in 2026? The oceans are running a fever, and the world could pay the price - The Statesman",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxON0ROa1lDbHRaNFVsSWY1dUp1NTBoTFA0Q3N5VGpnbXdHeUxRQ0RrNXcxR2ZCZVFJelFqN2xreDZKQ3BWZUdHX0EwTkc2dWF1bkVCbUcybTVnSlUwMUsydGJNYWd0alJUUTBMWWpQZ3dZRlJQbEplWS14czhzeDNvM3JnVkN1S2xkUDhUYjhLU2lDLUp1TXhJS2FOOGtTNDc1OUZmMVpVeUNrMG9Hblk2WVdSa3czeWtaakVvVVJLQ01mOHRHY2p5b0RkNFBqbDlJWi1TMXp6S3hQTDlPVkE5MkVxN0lTSjNkN0g3QU9yQdIB9AFBVV95cUxQNmtja1kxMERPNGRWNS1xNHRrQzQ5SFZVelJoNUlnZDBBcHNSWkhFLTJKekwxTklMZ0o5bFYxd3lVWGVGc0RlZlhhRzNCUGc0bFhhVFNsQlFBRVU0V0hoejJLY3FWcDdwNFFkelJac19JYnFQVEhuMkRJYThHU1RVNTF5cHBUZkdTNzVyMXNXUW1nU0hzRnFzSUk4Q3cxdGpkci1BemRRdzBrSk9La0N2SUhOTjJ5RlpUVHhKVUZjR0lOd2VMTkxld0xjb2lxSmU2cGVEVW9tUUVxNEJ0cHc4eFBiNzNxTkh0SDk1akY5V01UaW5G?oc=5",
-      "published": "Sun, 24 May 2026 07:00:00 GMT",
-      "summary": "Are we heading for a Super El Niño in 2026? The oceans are running a fever, and the world could pay the price&nbsp;&nbsp;The Statesman",
-      "source": "GNews | SA Climate",
+      "title": "A New Lexicon of Indo-US Ties - orfonline.org",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hNmFmMmlJeHdNMVpYTUZmdDV3c19BdGpqR1h2XzhDd2szajgyaDJEbDZKTHMzSk9aZTRmWGdoVkl2cTNiS3dTQ2g1d1VTdEZvOXUxOXhIbzdJaDFFUFNENlpZVXFOTnlhYzk4clBHT2lWUQ?oc=5",
+      "published": "Sat, 30 May 2026 07:00:00 GMT",
+      "summary": "A New Lexicon of Indo-US Ties&nbsp;&nbsp;orfonline.org",
+      "source": "GNews | IN-US/Quad",
       "priority": 0,
-      "category": "气候+人口",
+      "category": "大国关系",
       "relevance": "low"
     },
     {
@@ -807,26 +1071,6 @@
       "source": "GNews | SA Climate",
       "priority": 0,
       "category": "气候+人口",
-      "relevance": "low"
-    },
-    {
-      "title": "RBI Monetary Policy: Inflation risks rise, but June rate hike still unlikely, say Citizen’s MPC economists - CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWxkS1N6empOS1A1VHpSd29TbTk5OFVXcmVzcVMwZEMwbldCZTd2Zl9hdDhZLUJJYU1OZGkwcWU5RGJaSmJIN3Z6eWVPX0pydEI4UUItSkZJaktZY2pGX21mZDI3eUtETU1HaGxScU9aWlFiSzFoVGJUUGxVLTZILUpfRVJmMldCN1k5WVpEQ0RTVG5MN2YzTtIBngFBVV95cUxORy1mVXNzQkNLQVhKclJseS1mcU44NlNieU9ncFRSR0V2U1p1by1Pd2lSdlRGei1SMXpoOEdTOXZjbjY3STdoLTltNVBkMG1sOVFISlhzaHBHYy1pRGR5bVl2QkJCNnZWcUtZU2NjVTFaSlJEUkZIdnZBSWhIbVI2Y2hpd3RySVRwNXlXUkUwV1l0d0xZakFFZXRVUnctZw?oc=5",
-      "published": "Mon, 01 Jun 2026 07:37:41 GMT",
-      "summary": "RBI Monetary Policy: Inflation risks rise, but June rate hike still unlikely, say Citizen’s MPC economists&nbsp;&nbsp;CNBC TV18",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 0,
-      "category": "印度",
-      "relevance": "low"
-    },
-    {
-      "title": "RBI's 2026-27 Economic Outlook: Resilience Amid Global Uncertainties - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZVA3RWxhRDB1VVppV05wWGNIQ3JENDY4dzRzSmNIZEE5VFFyMGZiTktOS0ZHS2cybHhfbTZsQzh3a3ZicUNxY2NWSkFQUUZfRy1QNVNWblI5TkNJN2RSdnZhYW5xX3dyek1heUNpUHA2V2c0eVVMWUpEdzdRbGs2Vy1WTklpSWhyaVZ2YkhvbjUwUkhUNjVtWjBlN1hZUnZNemg5SzdzNERfWkc3S1lHU1FCQ1BQTkFTdFhYStIBwgFBVV95cUxPV094VVFpbG5oMGNRZHdhWVpMRTk1MUFBWEN3Q0E3MFpYOWhRbUI2WDAtSWRaV3c4WG9FQzctTnhMNUR0UkJRYk4tNENOaHV2djNmRVFpdm5fZ0txRWJTVnRHUS04Y2hBY0stdUNHVEthTlJwaFJkSUxXdWtSREMwbkV0eDd1eVNyTmNsNC1jVmYyMFpHa0NjazYzTThZd2dvRHBtLTNRbDlqY0c5clQya0ltZ05kV3k2NlhxcjJVUUtJUQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "RBI's 2026-27 Economic Outlook: Resilience Amid Global Uncertainties&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 0,
-      "category": "印度",
       "relevance": "low"
     },
     {
@@ -884,16 +1128,6 @@
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQbGxzWlN0Y01ZWHlFQlFVZkQzcnU0VVhEaDNpTmYxZDNGVWp2dGJ4TVFfUzVjbjUwWnBXNUxLNWdlclluSzhYUWlXUHlnVVlKTV81R1UzMU5JemlaMnNPUEl2WXNoQmRxelVray1fdU9rZFR0b1pwVUNnREZkRFFnbE5wLTVTRVJwRVgxNmdpY2xYcng0X0NCTDZBdFl3dnI3QUt5YXVEWFRYanI0S01yZDZEUTYtWG9TTHNMdkQtcVVxTEtnc2FjblFpbktmeFRLTFVwbUJrMEJ4SC1NMHNybXQ1Wl9tM1JXcTFhQ1pETjk0VEdCbnZWZ2tKdExEODF2aGx4UWhn?oc=5",
       "published": "Fri, 05 Jun 2026 07:02:12 GMT",
       "summary": "RBI monetary policy: Interest rates on hold, inflation risk at 5.9% in Q3 FY27 amid energy crisis; check key takeaways&nbsp;&nbsp;Upstox",
-      "source": "GNews | IN Economy/RBI",
-      "priority": 0,
-      "category": "印度",
-      "relevance": "low"
-    },
-    {
-      "title": "RBI MPC keeps repo rate unchanged at 5.25%, maintains 'neutral' stance - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORkJHUVEyOHMzc0xjMTJxOW80NExIUTZwcFJEZld1UUpfQV90eVRyOTFZVUZPOE5vWl9fT0ppODlEMFR2RjV4cXdNNUdwdEZ2QlhweGFOSHRfS055STRLUmJnZHVuUmxNaWIxQV9EN3MwYTkwdE5pa3ZWVzVKMTE5c3Y5enhzcVJ5WkZ0ck1zbmRnVS0yUEIyTlpxeEFjLW10dUw3bEF1SS1mQnVONTRrQVFIZ3plSDFNVlNCdjdGOGVJMWlnWUlJVDdVbkI0YUVhZ0FTeGx1R2w3Z2NNY19QSm5BV2ZqcTDSAewBQVVfeXFMT2VFWlFQV3RNX1hqS19oUFQ0NlEtQWp0RUlVdzN2N1NTOG1ZVUpfRFhFUFBZMV9Kb29rQzJMc2pQeXRuMmJJT0VFdFlHTnJqRzJPMVYtM2puWmROVG4wek1UeWxkS3Fhc196cFQ4UkhBT0pTekFhN0tHS2V5Z1pTWkpJMEt3eFB2TmxadnlVS2FyendxSUtWTnUzUVFtOFpBOV9rUE9kenYxY2Z3TFkta01RcWNZSnFvMGxPYVh5Y1UycTduR19maTdfYWFiYlZwX00zVGVOMzhuQm11UEFrVmVmTVEwUFIwRlNuNC0?oc=5",
-      "published": "Fri, 05 Jun 2026 04:33:57 GMT",
-      "summary": "RBI MPC keeps repo rate unchanged at 5.25%, maintains 'neutral' stance&nbsp;&nbsp;Business Standard",
       "source": "GNews | IN Economy/RBI",
       "priority": 0,
       "category": "印度",

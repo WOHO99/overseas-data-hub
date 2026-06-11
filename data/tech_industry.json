@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "全球科技与工业前沿",
-  "updated": "2026-06-11T04:02:51.472975+00:00",
+  "updated": "2026-06-11T04:20:45.218597+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 92,
+  "total": 157,
   "high_priority": 0,
-  "medium_priority": 10,
+  "medium_priority": 14,
   "signal_alerts": {
-    "record high": 2,
+    "record high": 1,
     "breakthrough": 2,
-    "discovery": 3
+    "discovery": 4
   },
   "stats_by_category": {
     "半导体": {
-      "count": 179,
+      "count": 178,
       "feeds": 6
     },
     "AI": {
@@ -28,6 +28,14 @@
       "count": 120,
       "feeds": 4
     },
+    "本地语言搜索": {
+      "count": 60,
+      "feeds": 2
+    },
+    "独立RSS源": {
+      "count": 50,
+      "feeds": 2
+    },
     "信号性查询": {
       "count": 90,
       "feeds": 3
@@ -37,15 +45,22 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Another stock linked to Jensen Huang: Navitas Semiconductor surges to a record high, entering the 'Huang Chain' via AI power technology - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV25aVk13c21IcjIxVkVPajhudWwtRjBaZFZQdl9jb3lvU2pJR1UxVVhsVHB6NFQ4VFZTZndVNTdha1VvZDhianZqS1pfc0MxU3AwdHJ0NzIwb3NJRXZsQkRsMmFtSWx1VjA1YTZiSzR5M29ucC1USjdQQ0FXbjA2Y1c2bmxXWmQ2aTh3dkNqcU5KcmJCZDRoVFlVZXZDTFUtY2xGaVB5UGh4M3FfNjRv?oc=5",
-      "published": "Thu, 04 Jun 2026 01:15:35 GMT",
-      "summary": "Another stock linked to Jensen Huang: Navitas Semiconductor surges to a record high, entering the 'Huang Chain' via AI power technology&nbsp;&nbsp;Moomoo",
+      "title": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
+      "link": "https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "The Argentine national team will be Google’s test bench and technological showcase during the World Cup.",
+      "source": "Wired",
+      "priority": 7,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "First Samsung, Now TSMC: Rumored Bonus Cuts Put Global Tech Supply at Risk - Android Headlines",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDh4WDRLUTBVLWJkNXR0ZERPVkw5Q1p6SUh2SW1yRjlJbjNiMzl2S3NqaHQtQ293cHROb3BKRlh0cm56ZzR4TTN6RmdfUWZuTnY5Zy03dG1HNnAyVWw3WEpZWDRnd2RMNXpRVW9INVZIdEJjZEF3aUEzNlpFdUxZRnY3M2FWeTRkR2NuMGhEOWhCUkZ3US1mUWxxZw?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "First Samsung, Now TSMC: Rumored Bonus Cuts Put Global Tech Supply at Risk&nbsp;&nbsp;Android Headlines",
       "source": "GNews | Signal: Record Tech",
       "priority": 6,
-      "signal_keywords": [
-        "record high"
-      ],
       "category": "信号性查询",
       "relevance": "medium"
     },
@@ -57,6 +72,16 @@
       "source": "GNews | AI Safety",
       "priority": 5,
       "category": "AI",
+      "relevance": "medium"
+    },
+    {
+      "title": "美 규제 비웃는 中…\"해외자회사 이용해 TSMC서 AI칩 생산 가능\" - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcXBqMFhPUE42czJWazAwLXBtZFRUZjlHOFF0dW83RVk2R1BhWWFHa2p0OWxHVnhQSHdRcnV2OG0yajBzYUNGdDFOSDgwRUZVcW9tdlRscjVad9IBVEFVX3lxTE9zMjcyRW9oZ19VUDZYSnFtOWkxUF9yVzRfV2dFOUZ3c01mTlpTTnhudjNSZURGWnRtWnVMV1BqcEhxV3lVcUk1anJad1dRMno4UXl1Uw?oc=5",
+      "published": "Tue, 09 Jun 2026 14:36:32 GMT",
+      "summary": "美 규제 비웃는 中…\"해외자회사 이용해 TSMC서 AI칩 생산 가능\"&nbsp;&nbsp;한국경제",
+      "source": "GNews | KR 반도체",
+      "priority": 5,
+      "category": "本地语言搜索",
       "relevance": "medium"
     },
     {
@@ -100,6 +125,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Electric Vehicle Market Size, Share & Global Analysis, 2034 - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDdPM0VwRXE3dDlfTTJFS3BVX2FmU0ZLWVVDR2JLcWk5UjVnUmJQaDJ2N2E1Z1VkMWdIUzdnWXVrSFc3cHBLWmhSb3dodGpOTlZzejhjaFRBcm5fRi1jMzhzTV9CcFRqVVRVUVdWUWliWkdiMXdzLXpFMWY3M1doOW1hTHBaUnlnYV81YmMyLTU?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Electric Vehicle Market Size, Share & Global Analysis, 2034&nbsp;&nbsp;Fortune Business Insights",
+      "source": "GNews | EV Competition",
+      "priority": 3,
+      "category": "电动车+电池",
+      "relevance": "medium"
+    },
+    {
       "title": "Quantum Computing Advances Are Rewriting the Rules of Computation in 2026 - MSN",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWEVaTWdBNWtYOElycU1FMDNxQjR4OXNRV0pnUjN2QU5BLUo4XzlKa29OVE0zV2JFQ1JUQm55bld0SEI1cFhGamVTTENHaUpmS0UxVGdlYUlhaFdtSVBMRHRYMDR5ZnFlQWlCTTZ0dlR3VmRfbjJ3b3RVZEp1SW94TFdhaWpnVjhhNlg3b2lNYllaa1VXVGZwYlBFSmViNkRHVHZ6QkgwU1R4Qkd6b1V0bnBKSU9DdG9DUEFPaHNjaVdKZVltYmdjTy1fRXdyMXpwRENFYWludw?oc=5",
       "published": "Wed, 13 May 2026 22:46:29 GMT",
@@ -107,6 +142,16 @@
       "source": "GNews | Quantum",
       "priority": 3,
       "category": "生物+航天",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trump Risks Key Surveillance Authority Over ‘Unqualified’ Spy-Chief Pick",
+      "link": "https://www.wired.com/story/trump-risks-key-surveillance-authority-over-unqualified-spy-chief-pick/",
+      "published": "Wed, 10 Jun 2026 20:28:58 +0000",
+      "summary": "US lawmakers are alarmed that Bill Pulte, a housing official with no intelligence experience, is poised to take charge of one of the government's most powerful surveillance tools.",
+      "source": "Wired",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -120,13 +165,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Japan EV Battery Cooling Systems Market Size, Share and Future Outlook 2026-2034 - vocal.media",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHBBY1E5dnNfdS12ZENSM2c5Um5ndGtRNzg3dlZ5MmNWQnl1Q0JwM2VvTlJiQnkwSm4yU1AzU3ZmR2YyQ1lRZFdJSXNtd1F5Y29OS2NRbGZrYk16anY4cDRHWWRfWjZoOHk5S01wUnV1S3Zhck9Hc21WTE81MzJ3QUVTbUJ1YkJIclczeXVYV2FjcXlMZzljTVFuYmFkdjRVa2lwTg?oc=5",
-      "published": "Tue, 02 Jun 2026 10:36:40 GMT",
-      "summary": "Japan EV Battery Cooling Systems Market Size, Share and Future Outlook 2026-2034&nbsp;&nbsp;vocal.media",
-      "source": "GNews | EV/Battery",
+      "title": "Starlink charges $10 monthly hardware fee in move away from one-time purchases",
+      "link": "https://arstechnica.com/tech-policy/2026/06/starlink-takes-page-from-cable-firms-with-10-monthly-rental-fee-for-hardware/",
+      "published": "Tue, 09 Jun 2026 21:05:39 +0000",
+      "summary": "Starlink, SpaceX's top moneymaker, also raised service prices by $5 to $10.",
+      "source": "Ars Technica",
       "priority": 3,
-      "category": "电动车+电池",
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -150,13 +195,43 @@
       "relevance": "low"
     },
     {
-      "title": "Battery & Energy Storage India Expo 2026 - EVTech.News",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2VhWDZ2dUFFX3dYT0liamRkaW5MRW9kN0hBVV9UdmUyeGVhN0o0TExpM0d3aVZQMVR0bTFjUE8xcXRnNjZXSUtFMzlMRlYzX0lIZFJ0bkdJMkpGWlY3TVhqVFpLb0Q5bHZadjBsVGlueDlFNXVVdThiNHZHLXlfSGVfT1U?oc=5",
-      "published": "Wed, 13 May 2026 04:51:19 GMT",
-      "summary": "Battery & Energy Storage India Expo 2026&nbsp;&nbsp;EVTech.News",
-      "source": "GNews | EV/Battery",
+      "title": "CISA Tells US Agencies to Fix Security Bugs in as Little as 3 Days Thanks to AI Threats",
+      "link": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
+      "published": "Wed, 10 Jun 2026 20:55:40 +0000",
+      "summary": "“Defenders cannot afford to take weeks to patch,” one Cybersecurity and Infrastructure Security Agency official warned on Wednesday.",
+      "source": "Wired",
       "priority": 1,
-      "category": "电动车+电池",
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Logitech’s foldable mouse is for people who refuse to carry a mouse with them",
+      "link": "https://arstechnica.com/gadgets/2026/06/logitechs-mobi-fold-folds-for-travel-but-i-prefer-a-different-portable-mouse/",
+      "published": "Wed, 10 Jun 2026 19:57:56 +0000",
+      "summary": "The Mobi Fold is an $80 Bluetooth mouse with a silicone-wrapped hinge.",
+      "source": "Ars Technica",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "China Opens World’s First Wind-Powered Underwater Data Center",
+      "link": "https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/",
+      "published": "Wed, 10 Jun 2026 13:39:32 +0000",
+      "summary": "With an initial capacity of 24 megawatts, the innovative data center uses seawater as a natural cooling system.",
+      "source": "Wired",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Soccer Fans, You’re Being Watched",
+      "link": "https://www.wired.com/story/soccer-world-cup-biometric-surveillance/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "From anti-drone tech to face recognition, 2026 World Cup stadiums in the US, Canada, and Mexico are subjecting fans to an array of surveillance tech. Here’s what you need to know.",
+      "source": "Wired",
+      "priority": 1,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -170,13 +245,23 @@
       "relevance": "low"
     },
     {
-      "title": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUR5bEdWSFRyRm03V2FkbWgzYW5kMUdTYTdER29tZmtBYXdxMWZjS0wtbDhoUTFXdE1TZXdHZVNUcjM5eFAxRmNDZXdwZy1oSlVPajRhcTduY0FqdWdvUmZaM0FVay1iemUxR0h6SGc3ODBPcjJhbVhxZThnMnFlTTZjNE01SzgwdUxFdXA0QncxN2xSS2pROENFVmRCUVBH?oc=5",
-      "published": "Wed, 03 Jun 2026 17:28:32 GMT",
-      "summary": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | AI Safety",
+      "title": "Lenovo Coupon Codes and Deals in June 2026",
+      "link": "https://www.wired.com/story/lenovo-coupon-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "source": "Wired",
       "priority": 1,
-      "category": "AI",
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Ulta Promo Codes: Up to 50% Off in June 2026",
+      "link": "https://www.wired.com/story/ulta-coupon/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "source": "Wired",
+      "priority": 1,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -190,16 +275,6 @@
       "relevance": "low"
     },
     {
-      "title": "Global DRAM Revenue Surges to Near $100-billion Mark in Q1 2026 Driven by AI Data Center Boom - Counterpoint Research",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTVFtYTdzdnk0RUpBMUhZRVVZdGZkanZLcm8zRTRVcHJYdGNBVHNCWjJBNHE4UFM0UC11eDdLT3JsQkIzcy1RZ1FvempNLUpmMmVCeGZfWTl2MWxmQnl0dGkwRDNwYkZmWmpqZ3BSMzJZaENSOW9SM1JBQ3MwemFJOUJhUTg5cVk2dXRRWkNLMlVETmcycTBfWklOdkxPdmhja1ZMMTFmbDd2Slo1THd3eG5kekY?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Global DRAM Revenue Surges to Near $100-billion Mark in Q1 2026 Driven by AI Data Center Boom&nbsp;&nbsp;Counterpoint Research",
-      "source": "GNews | Signal: Record Tech",
-      "priority": 1,
-      "category": "信号性查询",
-      "relevance": "low"
-    },
-    {
       "title": "India, US seal critical minerals pact amid China supply concerns: What the deal means for India’s tech and ... - Bhaskar English",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONDJSaG0xNHZPQ0ZReGpiTHJodWt3clZHbXFIRXBBSThMcC1VSzI4Ui1UcEk2RTJOSHJDbldQbVNOd2hCem1jRUlIRlVJdXo4SjIwR0RQcXVzSGdNVnhuT0J2aW9aeXNSTkF3eVBfQ3RDc054eGV0anFCUHFqWWhqN0RUSXlYV1ZSOEFsa211N2dLaDFKaXN0bVVjV0h5WDlWMGdNelVtMGlOc1hiNlRzV2otRGVxRWNaaUZqUDBaVnZER1lqbnNFdjBfa9IB0AFBVV95cUxNMlBSeWo1dW1HRzF5eXBjZnNuYVNfMVc1VnVDcDNZUFVnOXlYeldaMG1BSy02Y1BUdHhNVE5HTnlMNWI2WER3dEdhckhyWFRMbzctYzZmU29neTJBS19xMjd6a0RKcl9FeERLUzBXajF5MG9XX01YQXE3RE54cTVsclIwVUs3RU81UXRHRGItbFVRWGhMX3c0Z2FnU0tXOFJ0RjhnbUdlcWNJVmtPSy1xcmJ4Vjl5TFJoMVMxcV9EeThYeTlLUnV1X1BKTWF6QWlZ?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -207,6 +282,16 @@
       "source": "GNews | Signal: Tech Disruption",
       "priority": 1,
       "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
+      "title": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about",
+      "link": "https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about/",
+      "published": "Tue, 09 Jun 2026 19:20:25 +0000",
+      "summary": "New frontier model refuses cybersecurity, biology, and chemistry queries.",
+      "source": "Ars Technica",
+      "priority": 1,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -260,16 +345,6 @@
       "relevance": "low"
     },
     {
-      "title": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it. - king5.com",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPd3h2b1JzSjBwWXA4bHNKZXlsMUIwTEdHTUNQTmxmYWdONWx5N3phVUlDcjlhSlVYZUMtNjBvbUZfc2h2MFdCbV9QRnUtRHMyMFdyRnJjM0dfNEcwUVpHek8zQlJvQU01QWM0cGZiTkFUY0VRd1h1TFpQOTFhLW1JanVFWHR2ZmYzaENlY25nNUFINElHYnUtcldwcEtyRnRnZ1JybTdpNFlDelVOSWxHa2h6cThUWHExRi1ZS1FLU2ZDWGpTRzN2X0M5YkZyTk5iVXVmQkNCNW1xT2VYM19LVVJkUkQ0S3ItSzhGNUl5UnBZTElHYnZhZnBadFhNcExxdWpjUEgyTUNmenBT?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it.&nbsp;&nbsp;king5.com",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0,
-      "category": "生物+航天",
-      "relevance": "low"
-    },
-    {
       "title": "Micron Stock Forecast: MU Hits Record High on AI Boom - CryptoRank",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWUI3SFVvUXFVVWhPR0dQRkRPT29DVHVQemw4cEFwSUlxOHlOUnJ4ajRmS0VXOVRQbm53YXpudFR1bWUzSy1JemNLRjQzckk2YkZlbjJOaXNuU1ZVUjN3TnJ1bjVMOFNfQzNWREdKc3puWTI5ZkxlWEM5cWVWMWI2VXlkQ01kdmVzdi03RFF1OTlJbXNm?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -293,13 +368,93 @@
       "relevance": "low"
     },
     {
+      "title": "알리바바, 성능 3배 높인 AI칩 공개…中 반도체 자립 가속 - 마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zbEozd2VVTUJ5RUFnZUdhLVlCelU0QzllYjM0ZXBwUGdFTTlhUVZUSlppOXBkUUc5MkxjMXdiYVhWR1RYYUI4czUwQTNiNm9jMUp5ek5tRU1lT09sQlhSZjQ0UC1qdWw0TXdEb1BSSGUwRHc?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "알리바바, 성능 3배 높인 AI칩 공개…中 반도체 자립 가속&nbsp;&nbsp;마켓인",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "AI executive action stalled by White House infighting - Axios",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkE2SlNoTmtVc1dFRUhNWmtPYi1mVXdzUHdZQlRtZGtjelFYWFpqR2phZmNQVU03R1FxTllpRVowS25hVjhNNTlVYzlndi1TUGtMMVhzVkhWQy11UXhnczB2LTF2V3RaVU9VLWpKak1kaHIwdFF0TWt3SWdVZ2tNRw?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "AI executive action stalled by White House infighting&nbsp;&nbsp;Axios",
+      "source": "GNews | AI Safety",
+      "priority": 0,
+      "category": "AI",
+      "relevance": "low"
+    },
+    {
       "title": "Micron's Supply Squeeze: 57% DRAM Price Jump, 3-5 Year Contracts, and a $1,000 Target - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOenBoQXlOa25NUGNYbFRnWkdqcU1sYUZpQVZQTThVQ2NSYmV6QU9Yb0s5T25GbUMxeXA5TkxvNmpQcXRZWnVUeTJXQWVVd0tpN2lXaHZrNmVaNG5iTko2YkRKMWhQN2hYQ3ZDa2ZIbzJIbHo4aW4tdW9VWWVBNjlMMzJCVVZEdFNHTTRjM25wX1dSa0xiNnEtX21RYXRlQzQtSXdiU1M2RmdhME5ReTByNzFNUi1GZ1g5S2JlM1hSV3NNc0VFM2cw?oc=5",
-      "published": "Wed, 13 May 2026 01:05:37 GMT",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
       "summary": "Micron's Supply Squeeze: 57% DRAM Price Jump, 3-5 Year Contracts, and a $1,000 Target&nbsp;&nbsp;AD HOC NEWS",
       "source": "GNews | Signal: Record Tech",
       "priority": 0,
       "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
+      "title": "Diabetes org apologizes for ejecting scientists over criticism of Trump",
+      "link": "https://arstechnica.com/health/2026/06/diabetes-org-apologizes-for-ejecting-scientists-over-criticism-of-trump/",
+      "published": "Wed, 10 Jun 2026 22:16:57 +0000",
+      "summary": "For days after the stunning incident, the ADA had doubled-down on the choice.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Man sues Florida cops over arrest spurred by \"93% match\" in facial recognition",
+      "link": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/",
+      "published": "Wed, 10 Jun 2026 21:30:44 +0000",
+      "summary": "Lawsuit: \"Police let an error-prone AI system stand in for an investigation.\"",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "A Meta Employee Who Just Lost Their Job Was Detained by Immigration Agents",
+      "link": "https://www.wired.com/story/meta-layoffs-immigration-customs-enforcement/",
+      "published": "Wed, 10 Jun 2026 19:49:26 +0000",
+      "summary": "Colleagues discussed the incident on internal message boards, according to documents seen by WIRED.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster",
+      "link": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "published": "Wed, 10 Jun 2026 19:29:21 +0000",
+      "summary": "Diffusion AI is most common in image generation, but it can make text outputs much faster.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "The Best USB-C Cables (2026): for Smartphones, Tablets, and Laptops",
+      "link": "https://www.wired.com/gallery/best-usb-c-cables/",
+      "published": "Wed, 10 Jun 2026 18:29:45 +0000",
+      "summary": "Unravel the tangled world of cords and find the ones you need to charge your gadgets and transfer data.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "We managed to glean some interesting details about the Artemis III mission",
+      "link": "https://arstechnica.com/space/2026/06/we-managed-to-glean-some-interesting-details-about-the-artemis-iii-mission/",
+      "published": "Wed, 10 Jun 2026 17:31:13 +0000",
+      "summary": "\"I was on the phone with Blue Origin leadership that night, all the next day, all through the weekend.\"",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -313,6 +468,16 @@
       "relevance": "low"
     },
     {
+      "title": "Nobody needs AI to search the Internet, court says in ruling against Google",
+      "link": "https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/",
+      "published": "Wed, 10 Jun 2026 17:19:31 +0000",
+      "summary": "Google AI Overview court loss in Germany could spell doom for AI search industry.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Inside the GLP-1 Boom: ETF Picks for the Obesity Drug Market - The Globe and Mail",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa1lvVlh2Y1VlM3paRmRnY0liQU9KLUhwU1NlMHl6UTVQNzdWTGxlNWJNMkt6Sy1fT2x3Q2RHeENZTmpRQlFmSUdSX2xEWnlrNzhBbWhmd25JSTM3QWZaaEExTGpwMDFDdTdKcHpkcTBYdUFUM1E0TF85bTFTMThOOUJQbVFZajFHMExUYTZZWmw1bTVQbEVaOVFIaExYTVdOcTVtbzZ2RmVVeHF6Q2lTUVYzeWJhODJXcGFydUdYeV9oX2dwUU0tZkJ3cnc2LS1xUnRoOWhmcGxVdWM?oc=5",
       "published": "Wed, 10 Jun 2026 17:10:00 GMT",
@@ -323,6 +488,76 @@
       "relevance": "low"
     },
     {
+      "title": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance",
+      "link": "https://arstechnica.com/gadgets/2026/06/cheap-iranian-drone-downed-25-million-us-army-helicopter-maybe-by-chance/",
+      "published": "Wed, 10 Jun 2026 17:04:47 +0000",
+      "summary": "The US military struck Iran again after an Iranian drone’s lucky midair strike.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Donald Trump Is Ready for Fight Night. So Are Donors",
+      "link": "https://www.wired.com/story/donald-trump-ufc-white-house-south-lawn/",
+      "published": "Wed, 10 Jun 2026 17:00:00 +0000",
+      "summary": "The UFC event on the White House’s South Lawn is the president’s birthday gift to himself. Sources expect it to be a lobbying extravaganza.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "OB-GYNs release their own vaccine schedule, rejecting RFK Jr.'s meddling",
+      "link": "https://arstechnica.com/health/2026/06/bucking-rfk-jr-ob-gyns-release-vaccine-guidance-that-conflicts-with-cdc/",
+      "published": "Wed, 10 Jun 2026 16:52:36 +0000",
+      "summary": "Thirteen other medical groups have already endorsed the independent schedule.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Valve kills its retail gift card program due to scammers",
+      "link": "https://arstechnica.com/gaming/2026/06/valve-kills-its-retail-gift-card-program-due-to-scammers/",
+      "published": "Wed, 10 Jun 2026 16:39:43 +0000",
+      "summary": "Move also cuts off a massive market of legit users who buy cards with physical cash.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "The 2026 Honda Prelude review: Didn't expect such a head-turner",
+      "link": "https://arstechnica.com/cars/2026/06/2026-honda-prelude-review-we-need-more-affordable-coupes-like-this/",
+      "published": "Wed, 10 Jun 2026 16:10:20 +0000",
+      "summary": "Honda's $42,000 hybrid coupe looks great, handles well, and gets 44 mpg.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Wrongful Arrest Exposes Failures in One of the Oldest Police Face-Recognition Tools in the US",
+      "link": "https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/",
+      "published": "Wed, 10 Jun 2026 14:00:00 +0000",
+      "summary": "The ACLU is suing two Florida police departments over the arrest of a Fort Myers man in a child-abduction case, saying officers treated a flawed face-recognition match as a near-certain ID.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Racist comments targeting politicians tripled since Meta relaxed its rules",
+      "link": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
+      "published": "Wed, 10 Jun 2026 13:31:37 +0000",
+      "summary": "Violent threats against lawmakers have also surged on Facebook.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Europe Pursues New AI Chip Dream - Center for European Policy Analysis (CEPA)",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yMklKdFFMU2JxOUxkWnprYkpTUjhHTmpjX0NZS2dxM2JBWXhpNV9LNEJqVmpOSUZxdHUwX3pYd3lKZ1lUQ1FuTFA4bmZpR055X1dGX2h3VXJjQlZpblphQV8xU3FUbGlzd0E?oc=5",
       "published": "Wed, 10 Jun 2026 13:25:39 GMT",
@@ -330,6 +565,66 @@
       "source": "GNews | Chip Fab Policy",
       "priority": 0,
       "category": "半导体",
+      "relevance": "low"
+    },
+    {
+      "title": "GM Energy introduces V2G support and new energy storage battery chemistry",
+      "link": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
+      "published": "Wed, 10 Jun 2026 13:13:33 +0000",
+      "summary": "There are more than a quarter of a million V2G-capable GM EVs on the roads already.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Digital Notebook Throwdown (2026): Kindle Scribe, ReMarkable Paper Pure",
+      "link": "https://www.wired.com/story/affordable-digital-notebook-comparison-2026/",
+      "published": "Wed, 10 Jun 2026 13:04:00 +0000",
+      "summary": "The newest Kindle Scribe means there are now three digital notebooks you can buy in the $400 price range. Here’s which one you should get.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "What’s the Best Kindle of 2026? (So Far)",
+      "link": "https://www.wired.com/gallery/best-kindle/",
+      "published": "Wed, 10 Jun 2026 13:02:00 +0000",
+      "summary": "I’ve tried every single Kindle. Here’s how Amazon’s ebook readers stack up.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, AI 칩 중국 수출 전면 통제 검토 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MbUw4Tl9tVEc4NzFJWXNYYUNpUUNzazJ2c2VDMDdKOXpvZHlZejVEX2VLNDhVYnlmblJlczA3b2M2alk2bEZJUjM1bktNanRPM2xIemJXVjZKUdIBX0FVX3lxTE9XZmcweEdUVjJmelpObmFaSFhFZlJEOGJsc3plb0RpWkltUkU0MXZYOE94akFsNFhlMlhiMjFFZEdEbnZxUUVCWnkxeVRXR3llREhRM0xkZjRJbDJfc25r?oc=5",
+      "published": "Wed, 10 Jun 2026 12:19:00 GMT",
+      "summary": "대만, AI 칩 중국 수출 전면 통제 검토&nbsp;&nbsp;경향신문",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "“대만, 中기업에 AI칩 수출금지 검토”…美 규제 발맞추기 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNelZvaDZQcEJQTjlPOTZMbUxkTkQxMDVHUkdaNmRfVVk5Wm81X2hlaTQ3akl2dEstQlN0VjN1Q09kSXpvNnBCWF83WWthSE4tU0NfOEJZNWdXSkswcHJzcDh2V2NfQUZZT2E3U1BDUERtME9icjZwY21kRkpzenBMbG9reFVPNThyZ3hPMFdJdXcybjk1cXhOZXR4X2FOaUZFdEdOOExmY2QtQ3NfY21TTTlocGtSZ3ctNXlaWm4xVm51aUNkNUJNbjc2ZDBoVnJwOElXdWhXbjlaTGN2Z1ViYklnUFRlZmk1UVJYdm5UQzgwTGc0UnU3cGtrenc4SnV4Qkx2dTR3NVBfUmExd1M1N9IBkAJBVV95cUxNelZvaDZQcEJQTjlPOTZMbUxkTkQxMDVHUkdaNmRfVVk5Wm81X2hlaTQ3akl2dEstQlN0VjN1Q09kSXpvNnBCWF83WWthSE4tU0NfOEJZNWdXSkswcHJzcDh2V2NfQUZZT2E3U1BDUERtME9icjZwY21kRkpzenBMbG9reFVPNThyZ3hPMFdJdXcybjk1cXhOZXR4X2FOaUZFdEdOOExmY2QtQ3NfY21TTTlocGtSZ3ctNXlaWm4xVm51aUNkNUJNbjc2ZDBoVnJwOElXdWhXbjlaTGN2Z1ViYklnUFRlZmk1UVJYdm5UQzgwTGc0UnU3cGtrenc4SnV4Qkx2dTR3NVBfUmExd1M1Nw?oc=5",
+      "published": "Wed, 10 Jun 2026 11:39:00 GMT",
+      "summary": "“대만, 中기업에 AI칩 수출금지 검토”…美 규제 발맞추기&nbsp;&nbsp;데일리안",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Best iPad Accessories (2026): Keyboards, Cases, Styli",
+      "link": "https://www.wired.com/gallery/best-ipad-accessories/",
+      "published": "Wed, 10 Jun 2026 11:28:00 +0000",
+      "summary": "Kit out your Apple tablet with our favorite stands, cases, keyboards, and styli.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -356,6 +651,96 @@
       "relevance": "low"
     },
     {
+      "title": "Best Laptops For College Students (2026): MacBooks and Beyond",
+      "link": "https://www.wired.com/story/best-college-laptops/",
+      "published": "Wed, 10 Jun 2026 11:00:00 +0000",
+      "summary": "Laptops for college should be portable, offer long battery life, and remain reasonably affordable. Based on testing hundreds of laptops, these are my top picks.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "블룸버그 \"臺, 美 따라 대중국 AI칩 수출 규제 검토\"… 臺 경제부, \"美와 지속 협의 중\" -뉴스-Rti방송 - rti.org.tw",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8waXhiVUFrS1pCajE1S3ZiNXk4ZDBZT2ZlVkljcDNMVERWMTNwRG5HTnRuY1VyalZFZWJqWU9yUkQ4ZFJueUVneVp1RnpTLTlucWFuNkI3ODJ1X2s?oc=5",
+      "published": "Wed, 10 Jun 2026 10:30:20 GMT",
+      "summary": "블룸버그 \"臺, 美 따라 대중국 AI칩 수출 규제 검토\"… 臺 경제부, \"美와 지속 협의 중\" -뉴스-Rti방송&nbsp;&nbsp;rti.org.tw",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Mapping Every Flock License Plate Reader Near US World Cup Stadiums",
+      "link": "https://www.wired.com/story/us-world-cup-2026-alpr-camera-stadiums/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "Most US World Cup stadiums are surrounded by surveillance cameras. Want to know if you’re being watched on your way to a match? These maps will help you.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "This World Cup, You Can Watch the Game From a Ref’s Point of View",
+      "link": "https://www.wired.com/story/world-cup-referee-body-cameras-live/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "Referees for the 2026 World Cup will be wearing cameras positioned at their temples, allowing TV audiences to see a live view of the pitch from a vantage point they never have before.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "The World Cup’s Trionda Ball Challenges Traditional Aerodynamics",
+      "link": "https://www.wired.com/story/the-world-cups-trionda-ball-challenges-traditional-aerodynamics/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "According to new research, Trionda would show less unpredictable movements in actions such as corner kicks or free kicks. However, in powerful and long-distance clearances it would lose range.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "The Other Major Soccer Event of 2026? The Shake-Up in the World of Video Games",
+      "link": "https://www.wired.com/story/2026-world-cup-soccer-video-games/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "The 48-team World Cup is not the only historic soccer event this year. Four titans are vying for control of video game soccer in the fiercest battle the industry has ever seen.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "How to Watch the 2026 World Cup",
+      "link": "https://www.wired.com/story/how-to-watch-the-2026-world-cup/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "The games start June 11 and end with a grand finale in New Jersey on July 19. There are 104 of them. Here’s how to watch ’em all.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Amnesty International Warns That World Cup Fans Face Potential Human Rights Violations",
+      "link": "https://www.wired.com/story/amnesty-international-world-cup-human-rights/",
+      "published": "Wed, 10 Jun 2026 10:00:00 +0000",
+      "summary": "The organization claims that the FIFA tournament could have impacts on the rights of local people and visiting soccer fans in all three host countries.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, 中 기업에 AI칩 수출 금지…美와 공동전선 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCQ2F1Z21HSDdkOFFYWld4RGRiRWhiZXhQTGFzeE1mZkRBQjVVaGp6LXdwWVM4NmtLNVNQMmlDSUZTUVZ3dWpvcEV1OE1LVU5uTVdFX9IBVEFVX3lxTFBCQ2F1Z21HSDdkOFFYWld4RGRiRWhiZXhQTGFzeE1mZkRBQjVVaGp6LXdwWVM4NmtLNVNQMmlDSUZTUVZ3dWpvcEV1OE1LVU5uTVdFXw?oc=5",
+      "published": "Wed, 10 Jun 2026 09:04:36 GMT",
+      "summary": "대만, 中 기업에 AI칩 수출 금지…美와 공동전선&nbsp;&nbsp;한국경제",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Beyond ozempic: GLP-1s and the next wave of anti-obesity drugs - Express Pharma",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWWFjalNEYTc4Qm1nY0ZTSWFTVDFGODlXbjJpd1BPOUlUcWdhOGZqU0d2QVEtNUtncHhmZkxoQ1JSMHNZMU5uWW1kTUJ0b2ZlWVRTbzdxU1hrcEE5d0ZsYmg2X1pnNFhjenpScE5sX2dNdWQ0TGRMY1RnVnJKTzNRUktVQlFhbEN6VzZxTnNjc3hTRktKVkHSAZsBQVVfeXFMUHYwNlFuVXB4Ykd6eG1aUkdWbVhBb3hFbzFUcFNGa3lSQmswNDNsZE5FdlhvZl9qTF9xbEo0WnNkMUtUdlZ4cjNudWNfUkk1VmlHZW5tU096cVVzdXFNVHNkcEJYbEExRVNqWjJXVEVUUy1ibzgzenIwYVFGNWZWc2NKTHJGbzAtU2ZUekdvU2liTzRlMWdEM2puVE0?oc=5",
       "published": "Wed, 10 Jun 2026 08:12:55 GMT",
@@ -363,6 +748,146 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "“대만, AI 칩 중국 수출 전면 통제 검토”…미국 규제 보조 맞추기 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HTExuTEE3OC1tYkdTSFVQNlhQWm5iTzhBZTd4eUtpYktFNVgzd3FESWtuZk9LaWlNcDF4UmlCUU00QzVGUXduY2RfNS1QUG9STFlnUDZ0TVk3ekdyZUc3ZEFzVEVVNXdFR0ZtXw?oc=5",
+      "published": "Wed, 10 Jun 2026 06:59:00 GMT",
+      "summary": "“대만, AI 칩 중국 수출 전면 통제 검토”…미국 규제 보조 맞추기&nbsp;&nbsp;한겨레",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "“대만, 對중국 AI 칩 수출 전면 통제 검토…미국과 발맞춤” - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rQld5WXBjaWo3cUJvXzRna19Nckp0UmtmWTJIcl9kUndEbWxTZkNTLW9lbjFpSWpjaXlid1hfWEtpV21INmhYZkNzc1VKaEd6blMzMzZqTTFoV1E3VEpabVp1LXVzQmtkQ0ZUWHNR?oc=5",
+      "published": "Wed, 10 Jun 2026 05:45:11 GMT",
+      "summary": "“대만, 對중국 AI 칩 수출 전면 통제 검토…미국과 발맞춤”&nbsp;&nbsp;아시아투데이",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "“대만, AI 칩 대중국 수출 통제 강화 검토”…미 요구 사항, 대만에 더 큰 타격 우려 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSRVBqZmVxUGkzMFpJRE1ZOE9ONGtuYzRiQjlQMm5qVGdSZlhuNUk4eWFublhSY1piOXlSQmhDb0IyODBRLU5YckxBYXJuRUgwTjdBVzFYOXJoZ9IBX0FVX3lxTE9hS2p1dldqRUJJMEJsTVE4Z1VDYlVVeXZQcldQaTdoUXY1VmxzTzQtdXRPNG9saWIzaU5UbTYtbGFIdGlEVURhd1hGZzhFS0I5emZiZFhPUUd1LXI5azhN?oc=5",
+      "published": "Wed, 10 Jun 2026 05:41:00 GMT",
+      "summary": "“대만, AI 칩 대중국 수출 통제 강화 검토”…미 요구 사항, 대만에 더 큰 타격 우려&nbsp;&nbsp;경향신문",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Naturepedic Promo Codes: Get 20% Off Plus Free Pillows",
+      "link": "https://www.wired.com/story/naturepedic-promo-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Shop the Naturepedic sale this June 2026.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Corsair Discount Code: Up to 50% Off for June 2026",
+      "link": "https://www.wired.com/story/corsair-coupon/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Best Buy Discount Codes: Up to 60% Off",
+      "link": "https://www.wired.com/story/best-buy-discount-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Find the latest Best Buy promo codes and offers, including 10% back in rewards for new cardmembers and free 2-day shipping with My Best Buy Plus, here at WIRED.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Surfshark Promo Codes: 87% Off | June 2026",
+      "link": "https://www.wired.com/story/surfshark-coupon/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
+      "link": "https://www.wired.com/story/lowes-promo-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Priceline Promo Codes: $20 Off June",
+      "link": "https://www.wired.com/story/priceline-promo-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "KitchenAid Promo Codes: Save Up to 20%",
+      "link": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "15% Off Adidas Promo Code | June 2026",
+      "link": "https://www.wired.com/story/adidas-promo-code/",
+      "published": "Wed, 10 Jun 2026 05:00:00 +0000",
+      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, 對中 AI 첨단 칩 수출 전면 제한 검토…미국과 반도체 봉쇄망 공조 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YS2I0OFY0cVRoX2ZpeUhkSzVXMXpFVFJFRHdFLVhrQnZjRlhpMnJOQ2RfazBlNV9IVW9nN3B4aTByTWhNUXlBUjkweFVJU3RpNEJF?oc=5",
+      "published": "Wed, 10 Jun 2026 04:33:00 GMT",
+      "summary": "대만, 對中 AI 첨단 칩 수출 전면 제한 검토…미국과 반도체 봉쇄망 공조&nbsp;&nbsp;네이트",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fRkJhRnRXeV9aYlBxUXdULXhwblJJMkI4Nmk5YVYwRm03UGd6ejVfS3h4Y05jb2tuZWhvLXVZV0t3NEc4NUZ5YmhfMA?oc=5",
+      "published": "Wed, 10 Jun 2026 01:24:51 GMT",
+      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;v.daum.net",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhamRHMUd3R0hEWUNKOVhDX0h1T1NPMGFGT0NIOHBGNkdLb19uNE0yQTZqMVg1VHpvTF83UWJLV1V2aHhJVlZYMW1ZTUhsS1RuYUhjajZaVUNNd9IBWEFVX3lxTE10NnNFTjdLNm94Wk1CRnNKeEZoTmdYeW9EUTlGeVRFY25NbFFLX0F1OGFISVJZSnpYenBfdjV1bGFKSS12QnN0VDdUZFliaU1wTVE3SEhXSkE?oc=5",
+      "published": "Wed, 10 Jun 2026 01:24:44 GMT",
+      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;아주경제",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -376,16 +901,6 @@
       "relevance": "low"
     },
     {
-      "title": "Europe has had enough of China’s export surge - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeDZGUmZjekZGOF9sOEJJUm9aX0k3SXZINVZna0x3dU5TTVpmUzdQV2VzQm45d1hqcElMZjQ2a2Z0WVZFZGhrY2s2WjR0Qm05Q29hUG1RWVhETndMUFZsVzJfRFVETldRY0V2R2IxakhnMXE4Yk5nVVdXUHcxTS0zVm1SUzloMGhBcEk0XzZjaWh0UQ?oc=5",
-      "published": "Wed, 03 Jun 2026 20:30:57 GMT",
-      "summary": "Europe has had enough of China’s export surge&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | EV Tariff",
-      "priority": 0,
-      "category": "电动车+电池",
-      "relevance": "low"
-    },
-    {
       "title": "After Suno, Udio asks court to seal the size of its AI training data in Sony Music’s copyright case, also citing ‘competitive harm’ - Music Business Worldwide",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOUJaNmMxRUtrOWd6dFE5bjY1UmEzWklKZ09ETTBqZnZaeEJZYXY4RTg5ODdKWFNwY09jWUlUYUVYRmcxTkliLUhkUUl0S2IyQ0V1bzVWYWYyM3Myd0ZZdkJ2WVA1QzZiVkduOVYtcF9tSjY3cVdnd3pUc3RUbWJ1UUloeEx3cDA1UjhrVWZ2UXpyUlJvU1o5cHJGU2FwVWNEZXVtMmJiOEw2dUViTVVFVU1yczVsQkVxX2VGcjlMRnVzVDFWOE82eEh3WFNfLVRmWkhsb2VKSWg5bThMempSU1V0YnpaY0NtQ1lJeXBBN2gxRVU5MzVicndn?oc=5",
       "published": "Wed, 03 Jun 2026 14:55:19 GMT",
@@ -396,6 +911,16 @@
       "relevance": "low"
     },
     {
+      "title": "Why Is NVTS Stock Rising Today? - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWm9kcG51YllZSm5jbjZXclVLWGg2MEZjX2w0RXJxenJJdXJaVlVHbDMwd2kyZXhab1BBcFotdldCSkdZMmNGUmJUNFVZeUlNRkQxdnlNcFRwVVpTTmdPXzRVNGlrLTFFeWJuWjl3R19CWWFYZGRWeThoXzNkQ3JNbVhmbVdaby16aEo0ZXA4TWdnSXVqaVE?oc=5",
+      "published": "Wed, 03 Jun 2026 14:25:31 GMT",
+      "summary": "Why Is NVTS Stock Rising Today?&nbsp;&nbsp;TradingView",
+      "source": "GNews | Signal: Record Tech",
+      "priority": 0,
+      "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
       "title": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose - ScienceDaily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fZ0Y0aXZqRC1ONER4LXRvUFpnaEg0bVlJTkVrLUh3WU40aVhVTjBiZnpqRFR2a1l0eW1oRnhGRExSdXN2U29PN0dSZUNMVlAyYUVYN0wtTlRXVUxfcVBPdjhNcmRKN1lFM3pUOWRyYw?oc=5",
       "published": "Wed, 03 Jun 2026 14:05:57 GMT",
@@ -403,6 +928,19 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFVIVW5XSnhtTHo0UVJzQ0wzVGJ1OFh0dUFxVU05Zk1rUHhuRFZUcGRmS0dVWW5yV2VGMFpES0NIUlc0eFVlYkY4OXY4cVlKd3pqU1lvWXdOTF9PN2pTcVhUa3RHVDMxM2dJOFZrald5Yml3TktqM1BidktnX2dIMmM3TVdDTXdrbHQyM0lpWQ?oc=5",
+      "published": "Tue, 26 May 2026 16:19:47 GMT",
+      "summary": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Signal: Tech Disruption",
+      "priority": 0,
+      "signal_keywords": [
+        "discovery"
+      ],
+      "category": "信号性查询",
       "relevance": "low"
     },
     {
@@ -479,13 +1017,33 @@
       "relevance": "low"
     },
     {
-      "title": "(LEAD) KOSPI opens again at fresh high of above 7,900 on extended chip rally amid Iran deadlock - Yonhap News Agency",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DeE04clZUeUZaM0hab2lESThwZkRnT092U016U0htaWs1WDJSUlU2d1JnaGNtNHkzcFlsNWhpRWs0QkxMOHRCLW9Qa0huOXlxUFlLbkNmVUJIUQ?oc=5",
-      "published": "Tue, 12 May 2026 07:00:00 GMT",
-      "summary": "(LEAD) KOSPI opens again at fresh high of above 7,900 on extended chip rally amid Iran deadlock&nbsp;&nbsp;Yonhap News Agency",
-      "source": "GNews | Signal: Record Tech",
+      "title": "대만, 對中 AI 칩 전면 통제 추진…\"밀수 시 형사 처벌\" - 청년일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PY2hISXZjTHRPU1RBczZOT2l3OFV3Rkp3TmRNWThsZ1VuRUx3STJfRVRucTc2R29RNEVYR2JoTUlxN2xJUzlGdXBIbEpyYzVsdDZQQjV1UFdNVDdraHRvSVkzNmktOEE?oc=5",
+      "published": "Tue, 09 Jun 2026 23:56:20 GMT",
+      "summary": "대만, 對中 AI 칩 전면 통제 추진…\"밀수 시 형사 처벌\"&nbsp;&nbsp;청년일보",
+      "source": "GNews | KR 반도체",
       "priority": 0,
-      "category": "信号性查询",
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "\"화웨이 넘어 中 전체 통제\"…대만, AI 반도체 수출 규제 대폭 강화 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5adThYa3EycFFFaWlvUEV2QkZ0QjVEQ2JUUUY2NFpfeGRWTDhJT2FjM3gzWmx4ZXVQazZKakNsLWlkYVRvdjdDbXI2VGlOVDhyOHJmc3Z6VHJFdW12bF9oTjhUN2FaT1lN?oc=5",
+      "published": "Tue, 09 Jun 2026 23:40:40 GMT",
+      "summary": "\"화웨이 넘어 中 전체 통제\"…대만, AI 반도체 수출 규제 대폭 강화&nbsp;&nbsp;ebn.co.kr",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "중국 AI 굴기 정조준…대만, 반도체 수출통제 전면 강화 검토 - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xVmg3WVNJMkVac3VIa09tTXdobHJQRzEyREw1aFAzUkxfNXk5YWdRdTR2eEJ1eWFHWHVqeWQ3TlRoa2ZkR1NzZjFLV0s2aUZBQ0dlQ2cweF9DRWlRa1hhaTlIWHpYTlhuZFZ2dldFZDdrMDMwdVJR0gF3QVVfeXFMTnFWaDdZU0kyRVpzdUhrT21Nd2hsclBHMTJETDVoUDNSTF81eTlhZ1F1NHZ4QnV5YUdYdWp5ZDdOVGhrZmRHU3NmMUtXSzZpRkFDR2VDZzB4X0NFaVFrWGFpOUhYelhOWG5kVnZ2V0VkN2swMzB1UlE?oc=5",
+      "published": "Tue, 09 Jun 2026 23:35:48 GMT",
+      "summary": "중국 AI 굴기 정조준…대만, 반도체 수출통제 전면 강화 검토&nbsp;&nbsp;핀포인트뉴스",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -496,6 +1054,46 @@
       "source": "GNews | AI Copyright",
       "priority": 0,
       "category": "AI",
+      "relevance": "low"
+    },
+    {
+      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
+      "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
+      "published": "Tue, 09 Jun 2026 20:56:52 +0000",
+      "summary": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Three key vital signs make up the \"urban pulse\" of a city",
+      "link": "https://arstechnica.com/science/2026/06/study-how-to-take-the-urban-pulse-of-a-city/",
+      "published": "Tue, 09 Jun 2026 20:35:22 +0000",
+      "summary": "Cities are dynamic, not static grids, and urbanization is a \"spiky,\" cyclical, and asynchronous process.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Commonwealth Fusion makes the physics case for its 400 MW reactor",
+      "link": "https://arstechnica.com/science/2026/06/__trashed-19/",
+      "published": "Tue, 09 Jun 2026 20:25:56 +0000",
+      "summary": "Five peer-reviewed papers update the design and model its expected output.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Paramount accuses Netflix of \"scorched-earth campaign\" against WBD merger",
+      "link": "https://arstechnica.com/tech-policy/2026/06/netflix-trying-to-poison-regulators-about-wbd-merger-paramount-lawyer-claims/",
+      "published": "Tue, 09 Jun 2026 20:15:45 +0000",
+      "summary": "Netflix's response: \"Absurd.\"",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -519,6 +1117,26 @@
       "relevance": "low"
     },
     {
+      "title": "Google announces Gemini 3.5 Live Translate for instant voice-to-voice translation",
+      "link": "https://arstechnica.com/ai/2026/06/google-announces-gemini-3-5-live-translate-for-instant-voice-to-voice-translation/",
+      "published": "Tue, 09 Jun 2026 18:57:25 +0000",
+      "summary": "Voice translations preserve speaker's tone, pacing, pitch—with SynthID watermarks for security.",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "link": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
+      "published": "Tue, 09 Jun 2026 18:42:19 +0000",
+      "summary": "\"Artemis III will be an extraordinary demonstration of what is possible.\"",
+      "source": "Ars Technica",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Why the Solid-State Battery Dream is Delayed and What Comes Next - Geeky Gadgets",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBldW80SzVXVWRXcDUzMGlFdkREQVo3OWNlay1sdjZUU2lJeVhhVFRqWDY3eDB3TVF1Z0VQbjRhb19lOVBRZGhhV0hsMXVLNE1WN0l5a01ZZFdMNFlZMmE1MFZ6UGpYYks5WFF0NV9BU2MtQQ?oc=5",
       "published": "Tue, 09 Jun 2026 06:16:03 GMT",
@@ -526,6 +1144,16 @@
       "source": "GNews | EV/Battery",
       "priority": 0,
       "category": "电动车+电池",
+      "relevance": "low"
+    },
+    {
+      "title": "[글로벌 시그널] Daily 세계 산업 이슈(6월 9일) - 산업종합저널",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKcUdOS2tSblBvTFJRVVJCdGtwTHFLQ0NVTFVJT0I3TlJYMlhfc3Vza3V6b3VzRzZ4T04xcEdjVF9Id2VTamhnODVhVUgwM1pzWEpV?oc=5",
+      "published": "Tue, 09 Jun 2026 05:05:02 GMT",
+      "summary": "[글로벌 시그널] Daily 세계 산업 이슈(6월 9일)&nbsp;&nbsp;산업종합저널",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -542,16 +1170,6 @@
       "relevance": "low"
     },
     {
-      "title": "Tesla Stock Rises on China Sales Surge and AI Ambitions - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVU5XNVdGLWRuVDFFd1E0MlJIR3pJUmVUUTBOcUZaSE9GZjFFZlpNWGt2b2VkUWpPb2RhUGttYm1ibXdnMlBRNHA4Yy1lcklMdDdYbVo2Njd5cVdFdFIyX2VlWVdmcjEtS3d0M1BJekM5Y2JlclRDbkVWN0dLNy1aZXI1bGx6ZHFMaEVRWXVPbUNxajJzVDlDMnBzMWY2RzdCR1l3UWtGeEpOeDhNZDFmeUNyczlnTlZrX0dKaGhVWS01bXM4UzlVRGVGeHpuMnRXQ1VYckxabEw0VUJEUUZ1VW9NUktLWUZUc2ZwbTlNeGY?oc=5",
-      "published": "Tue, 02 Jun 2026 17:44:04 GMT",
-      "summary": "Tesla Stock Rises on China Sales Surge and AI Ambitions&nbsp;&nbsp;MSN",
-      "source": "GNews | EV Competition",
-      "priority": 0,
-      "category": "电动车+电池",
-      "relevance": "low"
-    },
-    {
       "title": "AI impact on employment 2026: Labor market data and outlook - S&P Global",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPanRCS0pRZ0ZsS05aQUtycVpvVWk3UTlWS2xGVFBwV1FWZUtDaUpDUkM3cU92ZURCNlViVUR0YXVxYXptamVIaXI5Sy1ZWnZMMHM4RnZtSFNnZnJySk80YW5OR1Q5OEtvYVZLUy1SMi1fdWgzbVY2ckY0TFVKMU5qUGloMHdNa1E4aWdUd3hCR1FjYTli?oc=5",
       "published": "Tue, 02 Jun 2026 17:18:33 GMT",
@@ -562,16 +1180,6 @@
       "relevance": "low"
     },
     {
-      "title": "USAR stock rises after unveiling $1.2B rare earth manufacturing hub - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWncydVlzRjg5ek9zOU5scnRTbjdDM0hrcVhEZUlJMFlWVDZ4UVhtOUtxeG0ydk16OW4xRHFyV0pLVUZoanByYTVacTZ0WXhvaWdYV0p1VG9pbXNCWVA1S3F2Ti1FOExtMk01QVk4WEJnUDBiSjg2VHZiemlWaXdmU200dk8ydDF4U0RBVkFaS00wLTU2ME1rU01SeHZIUHVOejNsWGNBZjV5akpiOWM2eTZpd1poeFJwc1B6TGhleXk?oc=5",
-      "published": "Tue, 02 Jun 2026 16:10:57 GMT",
-      "summary": "USAR stock rises after unveiling $1.2B rare earth manufacturing hub&nbsp;&nbsp;TradingView",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0,
-      "category": "半导体",
-      "relevance": "low"
-    },
-    {
       "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKVDBWQ3otcWN3TG43NzlkX1dRSHZ5bXhBdy1FMGNFaVRGcHd5NlZ0eExvc0pwWEgtMXRkQVlHOHBNcDRmcVBFbUVMN2kxOG5fTlpJbzVuYWhMekd2VUN4SWs2MjBWNXp1NXJoRm9hUGVQZw?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
@@ -579,6 +1187,16 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "美, AI칩 중국 우회 수출 차단... 中 ‘美 제재 덕에 반도체 기술 발전’ - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONGVkbERRZmZnLXZxTmxpRlUwbFRXcUZpLVp3ZHk5alVIV2Q4RTdidENjUWFKQUhPQW50RkR2UlVoMkRxelFxLXRMVUNrV0l1Qi13VjZ5UlNYdmMxQ1JhV2ZQZmVOVk41bXZYUkNESm05VGdkTk1yWDNncHZGZ2JpUGFUYw?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "美, AI칩 중국 우회 수출 차단... 中 ‘美 제재 덕에 반도체 기술 발전’&nbsp;&nbsp;조선일보",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -602,30 +1220,10 @@
       "relevance": "low"
     },
     {
-      "title": "The Best Portable Power Stations of 2026 - gearjunkie.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yVS1oSkpLY2ZJOV9DX3NpMnhNR2xOTzd2UkxFOUItbi01dmFQa0lxSVEzMXplMUc3U0JKUlR1WUVKbmF5R1ZYdm00MnMtRlJadG1QTzduc2tRdVlWWWw0TDg0TTYtdXlCZGRBTlhLOA?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "The Best Portable Power Stations of 2026&nbsp;&nbsp;gearjunkie.com",
-      "source": "GNews | EV/Battery",
-      "priority": 0,
-      "category": "电动车+电池",
-      "relevance": "low"
-    },
-    {
       "title": "Popular GLP-1 weight-loss drugs like Ozempic slash heart attack and stroke risk - ScienceDaily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RTW0zVTI4MFpxQThuMDFFSkJ6UG5VLUI0eGE5clI5Y2dTaGRFNWl1UTVlRE9ReldwLWxRdi1Uek5jUFRaYk9XYW5RNzAzNnVqdURkVjVXU2psaFhTd2s4SnJMSWw0VW9aNndPcDU3bw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "Popular GLP-1 weight-loss drugs like Ozempic slash heart attack and stroke risk&nbsp;&nbsp;ScienceDaily",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0,
-      "category": "生物+航天",
-      "relevance": "low"
-    },
-    {
-      "title": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial - BioPharma Dive",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHA4ZHZEY0dtMUg3THNSekVWM0JHTl9fbzAtN3FCeDBiaHRUdmpOOTF2dHpHNkVFa2dUTkN4aS1GczBYaGJPOHMzd3pqZGVpa1p2eVAtbHY1cEZ0ck93aHJCWEpfdDhKT29kZkg3OWw1VDBld0hYZDJKX29YeXJ3cmxBR2Q0WlQ2X1JkQlJzb1RKdFU?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial&nbsp;&nbsp;BioPharma Dive",
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
@@ -639,6 +1237,26 @@
       "source": "GNews | Na-ion Battery",
       "priority": 0,
       "category": "电动车+电池",
+      "relevance": "low"
+    },
+    {
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "link": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+      "published": "Thu, 11 Jun 2026 03:11:22 +0000",
+      "summary": "The company changed course after researchers spoke out against the policy, which would have covertly limited Claude’s ability to develop competing AI models.",
+      "source": "Wired",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "대만, 결국 中 전체 겨누나…AI칩 수출 전면 통제 검토 '초강수' - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42bDhxV1RCM2VuZ2xyazFMZTlQelpmTGhEbzFCTGZyVzI0cDFFRmh5U2I4Z19iM1lWX3FXTFdQTGgyQXhiMXVBQlkza1d2TGV6Y1JVMmE1QTNBU1RUQVNnSkFqQUdCbFZieEx3T0YtWVY2cHc?oc=5",
+      "published": "Thu, 11 Jun 2026 01:57:55 GMT",
+      "summary": "대만, 결국 中 전체 겨누나…AI칩 수출 전면 통제 검토 '초강수'&nbsp;&nbsp;디지털투데이",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -675,6 +1293,16 @@
       "relevance": "low"
     },
     {
+      "title": "[글로벌 시그널] Daily 세계 산업 이슈(6월 4일) - 산업종합저널",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yTENhOFMybUZPYWloZ3BNT3FZREtCUDcxMThyd0hibGtPWVJUTlFFOUlCV3IzMXhDd2djdkpGUTZubEQwUGo0bmVuYkxLc0FEVmhZ?oc=5",
+      "published": "Thu, 04 Jun 2026 05:39:08 GMT",
+      "summary": "[글로벌 시그널] Daily 세계 산업 이슈(6월 4일)&nbsp;&nbsp;산업종합저널",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "CATL To Mass-Produce Sodium-Ion Batteries In 2026 — Targets 370+ Miles Range - Yahoo Autos",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX09ZdEp4dkdBZlkxY2Rta1c0c3FqVlFyQ1N3Vm9qVVBEX0E2Z1ZrbGsyTUdnV0dMczl5Q3N4ZG1oLU1QSDJiQ0Ytc1VkWGZhRTQ4R3NZYkJMOHN3VXdKamNsZXVHN2hYUHFpMkx0cjZYcWFBWWtnSXdtWmI5X2duY2FDZjN3cWpiRjZRcGVmRWZQZVlPZ2pXU0VCcw?oc=5",
       "published": "Sun, 31 May 2026 07:00:00 GMT",
@@ -685,13 +1313,13 @@
       "relevance": "low"
     },
     {
-      "title": "South Korea export growth hits four-decade high on AI chip boom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObUZaNE0zcldLWGpoVWFONHR4OS12MTZ4Um5rN2xYNkZLdUUyM3JWbDMxX0I0WTFaNXNuRXNnaGJIeGJ3WjdxV1ltams4cGVEeURGX2Jxd1NEV1BsNFNjVHV2Rk12NnR4VGZxQmxlMHU1X1F6UTdvdUxURnJ6bHdKdUNmM0o4elVZbVozSG5McmlkLXQ1eV8tWnNPX3laNmpHOVo2eWl6ZXZKc1VQUldMMTBoQjN4TWlJNnR1MHFwckEzMWstNVdpdGI1WTQ?oc=5",
+      "title": "黄仁勋说中了！华为轮值董事长感谢美国制裁：让中国半导体真正地成长起来 - 新浪网",
+      "link": "https://news.google.com/rss/articles/CBMitgtBVV95cUxOaGplVWRKZmVkU2RPUWM3eEVVZFpxT1Nabm9Ra2xmR0U5Q1gzRWtqWl84S3Zyci16R01VM1FTR0NFbk9CWGdvU2xCaEpRRHVmaUZBTWFpUTB1Y1NKbk9oekF5eTAyOVlUSVEyTWhIRjEza0RNVko2QW1nSE9XMWo2QnJDZ05lOVlfN01COXZvSEkyd2N2Q2xodG9jNFpCelQzeDhhQnJHTVM0ZHNxeGtiOVFYX0VpME51dGdDZGFKaGs2OFpDaGpUMmMyMjhVc1NWbkpmaFdEX2VoVkZRMGhSaUQ4VnpJRlp4aDI4YXRHQk1HelBXbnE0WGFreTY5cHpUZWRxcXNEX3RBeFh6OVdzdElsTGRxZTJmS2hUOHJaNHBpa3JlSzFGM0FHbEZlVkt2ZXVXNlpWdTYwcWtxOXFfZlRNaENUQk1SSzFONEZoMUhGaGNWWHBpcWVlLXRsTEJCVnl5bWVfa2dZQmJoanl0d2lac1dUVWVGaEEzb241cDVsLVRQSFNJcmJRLUdiVzNRM2hqb2VsVUpIRkQ4ZEkyd25Oc2JaMnhYTXpLampjUVc0SUZLOVkwbWxFWTZvazRDYUJzUDI5QTloVU9HM09YTnNNWExtQm1HYkdGR2VPQjBTekxZTmtPMmY3bEZyWURNdEwtT09OT2xPZTdyS1E0d3BqSlhXRTdXd3RLNDJFODF3YS1ILXBYVWVwRkpkWW9KUGIxbWY1WldzdjMtU0ZNQUx3ZzdsTjFYQmR0VWU3c0RlMmtCNnNUVXN3RHU3TUNoQl9hOHdmOFVDaU95aGs4U29FVHhCSjh0NHlsNTdCQWM4STFPVnVXbXNSNWkxb1hocjhIRlllbm9YbEl3OEQ2VC1PUlRtZmUzSmdSbGpFeS1NUTRYeTd2ZERxZkMwczRsZ29mSElPdkoxUS1wYWt5eGJ4ZUlTVEp1cm90Rm9qRXZmaElEYnlsSEcyZXZUMnN2el9SZ1M1R2FGbk9sb1RBV0pUekdkUmt2eFcyZkFFdk1Sb0JuRHNLT2lJZlc3UGRlLUZSWmZDTGhDZEFRY2dTYXUzbHpPYmt0T1ctdWF3Q1hoRlZrRjNURFNHWWJ4elE3djU3U3RvMFk4QUxFLU1nYU9IT2VqX0t5VEJTaVptVlFCM2NFSjNxUWFpdDdtX0w2WDhCMmZTZjNZRElhdHMtSlhEaTE4TUZJMmFqeE1MM0ZEZjBvdzhqS3laQTFncy1TMzNHMzMzWlAyUTByUVZReUY4bEtOci1paHpjQjI0LXhUNG5wcHlHVEJqWkhMT29vcFVXVUtSOUR1RkdRMGNtdjlSdXAzVkt4M19rWFpJQ200NExaVmJGai1id3ZaU2IwaE1uWmZyMzRIaFdtVmZOS3JieEEwRHRQdkViblVMdEVJVzVpUzZWejdLNlgzcmhYczA2ZW9QMmFiYzB0RGJKT2ttZkVMdThjVHB5OWliX0o5bHBGMDlWX1lpLUJMMC11dlpKUFdFZ3p3RHplZ2lLcjdONU5BTkFMeHFhbnJwN2E1SWtaczJ0RC1Fa1lncl8zVW9hbWRfenJ0aGt1RTVPYUs0NUk5Y2Z4ZUhmT0JoVjlFcjVMYllhYkN4MEQ0TU11S1ljN19FS3lGWWpYLUFIZnFaWnNodEgyNkNINDg0QVE4YmlyNkFjRDFSWFU5VWpKekhabFlSaEJrano1dWROdGRrRXBtUHBqUDBzbHRuT0cyUEtlYlpJd01sM1RsVk95UHd5dEpMeHUwWXhpYk1sOWVWWExqSFFzSkR6Z25DSnBVS2J5ZHFZNzV1dGtZeS04Tjc1dTZoUXlzSFl2US1CbmRDR3dxb0Jwa2puc01ReU1YcDVvOFI3T1JRRVhrRVNqVnpQSVZYaWFob09HX0FYSlItWVhBeldTVnFYTm9Dd1k0NUtxbngxQnNLSGlUUHFjaXpWd1Zn?oc=5",
       "published": "Sun, 31 May 2026 07:00:00 GMT",
-      "summary": "South Korea export growth hits four-decade high on AI chip boom&nbsp;&nbsp;Reuters",
-      "source": "GNews | Signal: Record Tech",
+      "summary": "黄仁勋说中了！华为轮值董事长感谢美国制裁：让中国半导体真正地成长起来&nbsp;&nbsp;新浪网",
+      "source": "GNews | CN 芯片/AI",
       "priority": 0,
-      "category": "信号性查询",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -745,6 +1373,16 @@
       "relevance": "low"
     },
     {
+      "title": "\"새 장벽 아닌 우회로 차단\"… 美, 中 테크 기업 해외 자회사 AI 칩 규제 명확화 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaFBjNFJUSDRMZEJIQ1ZNV2dvc0QySmVGRWxKWXV6dnFiOEpwRWx2MWhZUnBrdmw5d1BsNWROZVJmQ004SjdvSHdtRXJ1UURXcWVwOWRRdnkxZ0ExSHRrT1ZEWDlvV1ZTM2Y0Yi00dmhpS1NvdExQRS0zaGVRSHdWUDdBc0l2bjQ?oc=5",
+      "published": "Sat, 06 Jun 2026 22:04:52 GMT",
+      "summary": "\"새 장벽 아닌 우회로 차단\"… 美, 中 테크 기업 해외 자회사 AI 칩 규제 명확화&nbsp;&nbsp;글로벌이코노믹",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk - ScienceDaily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84SXFMc2VQdWswRGdjVndnTVFzUlNrVGFUZy1leG5PZnFoaXlhcmVLbFJvcVhUdDMxRXdiaXRrMG9BUFR1dkR1anNYUDdWS1JYdkprZHlCTzJzZGJhbVdIbGNnNXRVQjJuak9hQ3A4UQ?oc=5",
       "published": "Sat, 06 Jun 2026 13:28:59 GMT",
@@ -775,6 +1413,16 @@
         "breakthrough"
       ],
       "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
+      "title": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것” - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHE4dEhLRzVNdkRSclVQUnRjWWtiY2ZhTFUyb3lPdjV2UDlqWUFfMm1zRlRMMXlsQ2JFb3hNVE1lcVFtS21EbjZvZUEya0tKbUFBV2ZsX2hiNmdlR1VRRGlXYXpQZTc2dEpOUW5tcWRVMG55Q0xkYW01VHpUb214NVN6WQ?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것”&nbsp;&nbsp;조선일보",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -848,23 +1496,33 @@
       "relevance": "low"
     },
     {
-      "title": "LG Energy Solution bets commercial EVs will drive the next phase of electrification - Clean Trucking",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYWt6UUlnYWx4NGlyMVk3RVhRX3NhWURTa1ZfWnMzcTdlRExzLWIyUUZvOFRId1ZyMGt6c2tiN0lPRzV1RlQweHg5emFvZ3MyM21QSVpuNVlMNUdMbW5heTFKTVVnN3gxczQzVVdfN2ZVdlJEZXZsMDk4cTF1dzN0Q0FqN0o5OXpfWVVvc1Y1SUZ6LThEc05YcmpaWHphcFBJRDd4YXJLelcyRlJ3UGhndTlJTFU3NmIwd25mdmtFdkRPOUQzZnhRVEVNNER4VnVTRUlB?oc=5",
-      "published": "Mon, 01 Jun 2026 19:59:45 GMT",
-      "summary": "LG Energy Solution bets commercial EVs will drive the next phase of electrification&nbsp;&nbsp;Clean Trucking",
-      "source": "GNews | EV/Battery",
+      "title": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제” - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRWVvUThteE9Ia3dSWTBvQzlZZl92Z183d3BNNnowTVJJQVROWkJfdkRBdWRCcnRhaFlabC10NGRmVXhLcU5pQ25rRUFuQ0NWT3fSAVNBVV95cUxONEtBYnlBZ195NFRtTVZpWGh4Slc0QlNURVJ1T3hpZEVENzVJS2IwQm1iQVo1Y0NJSk9keFJLY09aUnRUQXdWZVozd2ZWSHIxYXFCRQ?oc=5",
+      "published": "Mon, 01 Jun 2026 08:42:41 GMT",
+      "summary": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제”&nbsp;&nbsp;서울경제",
+      "source": "GNews | KR 반도체",
       "priority": 0,
-      "category": "电动车+电池",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
-      "title": "CATL ramps up sodium-ion battery production for EV market - bestmag.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rVkFQN1lfbURGcmNJV1h0S3ZoWHlrekpxR3B1LUU4RGtBZjJKOThSeXI5aGRCN3hYaU5fekpZZEtaaUpBYnFhMWJ1QWkxV0hyVTFyY1M1TnBYZEZPVlB0elBnbzdRR1lNVU5vVEdIRQ?oc=5",
-      "published": "Mon, 01 Jun 2026 16:30:03 GMT",
-      "summary": "CATL ramps up sodium-ion battery production for EV market&nbsp;&nbsp;bestmag.co.uk",
-      "source": "GNews | Na-ion Battery",
+      "title": "미 상무부, 중국 해외 자회사도 AI 칩 수출 제한…우회 경로 차단 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaEtCR25KTFFmNFNSZ2FMT21IcmtVS0lLZEM4VmF1Y3ZHU0hkVXdpZkpqN1p1bWF2RTQ0ZXI0WGtIa0Q3V21Sb3Zpc0Y1YVlpTERZWDBqUWRQV1g1Nk1Cbk1WUklILXpLUkE?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "미 상무부, 중국 해외 자회사도 AI 칩 수출 제한…우회 경로 차단&nbsp;&nbsp;AI타임스",
+      "source": "GNews | KR 반도체",
       "priority": 0,
-      "category": "电动车+电池",
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UT2ZQbjExUVZrV2NMNzU0bExVZ1ZmZGNhNjdWdWY5U2NXaC1UY1lZcGdxRmxIbjdSV1JkWHN0c1hYY1JyNTFvbEdma2puUFk?oc=5",
+      "published": "Mon, 01 Jun 2026 02:33:00 GMT",
+      "summary": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대&nbsp;&nbsp;v.daum.net",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -918,16 +1576,6 @@
       "relevance": "low"
     },
     {
-      "title": "What does BYD overtaking Tesla in battery storage mean for the global energy industry? - Latest news from Azerbaijan",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEo4bEtGMGpwRkNUa19rRkp4RnJPczRlVGdzWWNZa3RqR1VkOUFLUmFOMlVLdGdJV0xSTERWYzRCdXVFOUs5OUU4LU1oVHdTZzIyZFNqMFhaTURjWFpSQ1hGZ3YtbkE2ZlVRMWMwcWI5dmtudkI2ampSNGtmY0luemVaRV9kbG04aGJEU0U2bUFYYWljaEo5S3JFQTdzc0pCaS1BakxYbnU5UQ?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "What does BYD overtaking Tesla in battery storage mean for the global energy industry?&nbsp;&nbsp;Latest news from Azerbaijan",
-      "source": "GNews | EV Competition",
-      "priority": 0,
-      "category": "电动车+电池",
-      "relevance": "low"
-    },
-    {
       "title": "The U.S.-China Trade Relationship: What’s Behind the Competition? - Council on Foreign Relations",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85R1Rxa096czZxUGpuWjB0T0RCeWtvNzUwM2kxcHRhVXp4MjBJUXVIbC1vU2EtRGZ6c2MxQnVNamVJUHhpZU4yMVBqRUZ3YUgxNGVRT0pRSWYteGpFeW1mRlBuazdselRXZDdpaVY1NW0xS2hzSlUtb1p1VWhwdw?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
@@ -975,6 +1623,16 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "中기업, 엔비디아 최신 AI칩 샀나…美서 규제 허점 우려 나와 - 이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX2lTemUtNXdBc1ZZNmhIT2ZaZ1RpWmJPQkhFWkk1UWdody1EaXp2M2sxUnZDVmR5Z09KTEgyUE1nOEVaV01qSHlPcUZhc2RJWVBZTEt3bmFLbnd0SkxTUUNGREdVNzc5b1k2M3loVW5wcjd0amljVmZXMC05UHVwYg?oc=5",
+      "published": "Fri, 05 Jun 2026 08:49:34 GMT",
+      "summary": "中기업, 엔비디아 최신 AI칩 샀나…美서 규제 허점 우려 나와&nbsp;&nbsp;이데일리",
+      "source": "GNews | KR 반도체",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     }
   ]

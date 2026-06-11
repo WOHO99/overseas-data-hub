@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "全球能源与大宗商品",
-  "updated": "2026-06-11T04:02:54.630733+00:00",
+  "updated": "2026-06-11T04:20:49.681822+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 61,
+  "total": 80,
   "high_priority": 1,
-  "medium_priority": 35,
+  "medium_priority": 43,
   "signal_alerts": {
+    "supply disruption": 1,
     "record high": 1,
-    "export ban": 1,
-    "supply disruption": 1
+    "export ban": 1
   },
   "stats_by_category": {
     "油气": {
@@ -28,12 +28,20 @@
       "count": 150,
       "feeds": 5
     },
+    "本地语言搜索": {
+      "count": 36,
+      "feeds": 2
+    },
+    "独立RSS源": {
+      "count": 15,
+      "feeds": 2
+    },
     "信号性查询": {
       "count": 88,
       "feeds": 3
     }
   },
-  "fail_feeds": 0,
+  "fail_feeds": 1,
   "rate_limited_feeds": 0,
   "articles": [
     {
@@ -57,6 +65,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Germany's Big LNG Deal With Canada May Never Deliver a Single Cargo",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Germanys-Big-LNG-Deal-With-Canada-May-Never-Deliver-a-Single-Cargo.html",
+      "published": "Wed, 10 Jun 2026 14:00:00 -0500",
+      "summary": "The Iran war has made supplies of liquefied natural gas, or LNG, the most strategic since Russia’s invasion of Ukraine in 2022. Suddenly, countries are scrambling to get their hands on molecules that provide reliable baseload power to industries and homes. That explains why Germany is buying LNG from Canada. It’s to ensure long-term energy security, reduce reliance on volatile global supplies, and diversify away from Middle Eastern and Russian energy markets. At the end of May, the Canadian gove...",
+      "source": "OilPrice.com",
+      "priority": 7,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Most planned natural gas pipeline capacity additions in 2026 and 2027 originate in Texas - U.S. Energy Information Administration (EIA) (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wS0RFSU9BWXYzbkttSnVlbHVtaU1MWk1iQmk3ZVBGYWdWOGVlZnRwQ3IzOXZpTVQwWFYyNlRCT1AzSHRQTGxFVnpicWoyR0VJM2NoOE9zTk1pX1ZDQkt5UFhUOA?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -74,6 +92,26 @@
       "source": "GNews | LNG Expansion",
       "priority": 6,
       "category": "油气",
+      "relevance": "medium"
+    },
+    {
+      "title": "Central Asia Emerges as a New Front in the Minerals Supply Chain Battle",
+      "link": "https://oilprice.com/Metals/Commodities/Central-Asia-Emerges-as-a-New-Front-in-the-Minerals-Supply-Chain-Battle.html",
+      "published": "Wed, 10 Jun 2026 13:00:00 -0500",
+      "summary": "US and Central Asian officials will meet June 11-12 in the Kazakh capital Astana to explore deals concerning the mining and processing of critical minerals. The gathering marks a step forward for the C5+1 Dialogue, which strives to expand economic, educational, and political ties linking the United States and Central Asia. The meeting, officially titled the Astana Mining & Metallurgy Congress (AMM-2026), seeks to catalyze “the transition from the framework agreements reached at the November [C5+...",
+      "source": "OilPrice.com",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "China Unveils Nuclear-Powered Floating Hub for Zero-Emission Shipping",
+      "link": "https://oilprice.com/Energy/Energy-General/China-Unveils-Nuclear-Powered-Floating-Hub-for-Zero-Emission-Shipping.html",
+      "published": "Wed, 10 Jun 2026 12:00:00 -0500",
+      "summary": "China has proposed a large offshore logistics platform powered by nuclear energy that would function as both a cargo transfer hub and a refuelling/charging centre for ships, according to the South China Morning Post. The concept, unveiled by Jiangnan Shipyard, combines port infrastructure, energy generation, and cargo handling into a single floating facility aimed at reducing emissions in maritime transport. The project was presented at the Posidonia International Shipping Exhibition in Greece. ...",
+      "source": "OilPrice.com",
+      "priority": 6,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -101,6 +139,16 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXR2NXdpUHFuTEllMG5fTWhBeFNLM0pCX3lGTjE3d3oxNXJlVTFhcXdqOUdVbGZCdnZkSU1XaVRndnlQbDh5U3ZNaXdaTmljN093VTdfQU9LRF9vazcwVE82Q0VqV3U2QkFEQzFBZzJFcmZYd1NqZnF4Z3A2anlUQUlmZlNJeWxhT3VEVkVB?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
       "summary": "Critical expertise in critical minerals&nbsp;&nbsp;University of Alberta",
+      "source": "GNews | Critical Minerals",
+      "priority": 5,
+      "category": "关键矿产",
+      "relevance": "medium"
+    },
+    {
+      "title": "India and US broaden cooperation on critical minerals supply chain. Will it catalyse investments? - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVkZpWDBUNGdBOW9JeGV0YTZSQ2psYVZwWml4ZEdMcnNRTEhnOVl4MUgwLUUxR1B0bGlDUWtJcG9SRFpyU1Rudnl3X1ZJT0k0V2ZybVdVa2tTcEg3enJYTUFRSWlPYklWSklPVFAyT2YtU0tseEhuR0dLTUV0RkV1djBKQ0VYSkszdGZIRk1pakVRcXBZU3JadDVneFdMRWJuYU5nVy1LcWdWVFoyVVc2bEhsaHpWd9IBvAFBVV95cUxPQ1psZFR1bE1XUUExQXM0bURNTUI3SEtPeXEzbWdnRVd0MUd3eVpVY2lBWWx6eHBfaDdBX3oxZHB0MHNlSzZGWFNYWGRWb0NqS3VmQ1NRaS1EQ0hCMnFBTU1Eck5qRDNxS1JiSTdSQmhSNnJLS0c3MXNwUTdpUjdSVTNDNExKdW5fRDk4SmM0a1UzcDJrVS1WM3dBcjlNSW5QcEUtQnYwcG84N3pybXhRNFVPU1NQVzZLY2lBRw?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "India and US broaden cooperation on critical minerals supply chain. Will it catalyse investments?&nbsp;&nbsp;The Indian Express",
       "source": "GNews | Critical Minerals",
       "priority": 5,
       "category": "关键矿产",
@@ -187,16 +235,6 @@
       "relevance": "medium"
     },
     {
-      "title": "One Year After Executive Orders, U.S. Nuclear Energy Renaissance Is in Full Swing - Department of Energy (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRy1tYVk5SkpESWYySlFVbWpCMDd0djMxeHNLTUJDSGZDekxSNnpxdFJwWE5pQzcwdERZaER6cXRPeEpFZEhVWDhmZTQ5S29vOUxqOVZ0Vm1malRva3RkUjZKeXlITzF5bThDU2hKOTVnZUZpNU1NN2VWOW8wSVFPNTJjOVNkZF81MjBXckxuQXNHb2hiR1RjRmYzb01DVEhMU3ZKTDNQMC14Vlk?oc=5",
-      "published": "Thu, 04 Jun 2026 20:35:00 GMT",
-      "summary": "One Year After Executive Orders, U.S. Nuclear Energy Renaissance Is in Full Swing&nbsp;&nbsp;Department of Energy (.gov)",
-      "source": "GNews | Nuclear",
-      "priority": 4,
-      "category": "能源转型+碳",
-      "relevance": "medium"
-    },
-    {
       "title": "Resolution Copper Mine Promises To Boost America’s Energy Security - Forbes",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHU3LThXWEYtdTJPM3FXcFF4WFFXbFVhbVFyVEZmalMtU05SQ2NTNmhiN0JHRFNQVjNKcU5sZW1VTmdhaFpvQVowVGJHSkp1bTd1VDVzU2RvZ0pwZ1RITUhhbVNPeDVtX2p1YXpWOThUdXEtMFhuWmFCOEM0R01GYUhGRjlFSzd3RV9XbXdVVkgwQWNKT1JELTV0UlA0QXY4d1NHbkpqdmctV1M5aDlBQjhMR20yWEhTUlkwMA?oc=5",
       "published": "Sun, 31 May 2026 07:00:00 GMT",
@@ -207,10 +245,10 @@
       "relevance": "medium"
     },
     {
-      "title": "Best Nuclear Energy Stocks to Buy for June 2026 - Zacks Investment Research",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZmN2NGstZnJNbDd3Mll5NDVlTnZXelJJOXh6WEh6TTJ2UHE4NElWYklmMXp5WDZIRUI4cXdoOWtzTVFfa0Jsb0pGQjF6REZ2ZDJIMTVMUVZiQ0owSmRCWjZTNGsxUWNyM2F2Y1lzSWV4Q09zaURHUjBB?oc=5",
-      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "summary": "Best Nuclear Energy Stocks to Buy for June 2026&nbsp;&nbsp;Zacks Investment Research",
+      "title": "One Year After Executive Orders, U.S. Nuclear Energy Renaissance Is in Full Swing - Department of Energy (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRy1tYVk5SkpESWYySlFVbWpCMDd0djMxeHNLTUJDSGZDekxSNnpxdFJwWE5pQzcwdERZaER6cXRPeEpFZEhVWDhmZTQ5S29vOUxqOVZ0Vm1malRva3RkUjZKeXlITzF5bThDU2hKOTVnZUZpNU1NN2VWOW8wSVFPNTJjOVNkZF81MjBXckxuQXNHb2hiR1RjRmYzb01DVEhMU3ZKTDNQMC14Vlk?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "One Year After Executive Orders, U.S. Nuclear Energy Renaissance Is in Full Swing&nbsp;&nbsp;Department of Energy (.gov)",
       "source": "GNews | Nuclear",
       "priority": 4,
       "category": "能源转型+碳",
@@ -227,6 +265,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Just a few projects are driving a small bump in hydrogen investment - Latitude Media",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGZicUlXSzZhclc0YUxaaDJkX2wwUmkxVTJIWThWd0NldXlrZld3akdfTG5tZmxfRk95OVo5YTZmQXQzemV0aGtkMmZiZXFWZDRTa2VlMGRmMWhJRGs4UjQ1dWtrYlpXMUpCWkl1blctOGFCZFAtMjc3TExNeDBUOUZjZjR3X1JKUEs2WHdONzI5UTR5aEdXMEdjdnVtSkVCa0RXSHBn?oc=5",
+      "published": "Wed, 20 May 2026 15:17:27 GMT",
+      "summary": "Just a few projects are driving a small bump in hydrogen investment&nbsp;&nbsp;Latitude Media",
+      "source": "GNews | Hydrogen",
+      "priority": 3,
+      "category": "能源转型+碳",
+      "relevance": "medium"
+    },
+    {
       "title": "Wheat Crisis Deepens as U.S. Crop Losses Trigger Market Alarm - Agrolatam",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sZnc0STFITE9ZSFVmRXo2cWNSSlpvbTNUV2lEc3JVZC1WSmtRblU5ZnNHYzJ4NTZOejIya0dWRkpUUDlQTnRHRnJpOUZoOVhMbFZuYmVJdnJ3RUhnU1BNV0VTZlpjWTVUa1BHa3lUOFR1MHhYSHVSUURjbnlSRkU?oc=5",
       "published": "Wed, 13 May 2026 07:00:00 GMT",
@@ -237,6 +285,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Oil Prices Spike as Iran Declares Strait of Hormuz Closed",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
+      "published": "Wed, 10 Jun 2026 21:01:00 -0500",
+      "summary": "Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country. At the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel. Both benchmarks have seen extreme volatility this week as outbreaks of attacks are quickly followed by claims of an imminent deal being signed.  The latest escalation started with the dow...",
+      "source": "OilPrice.com",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Lithium's Second Wind: Battery Metals Recharge Amid EV Demand - Kalkine Media",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWtRRjN3UHRXWWNCbS1ZVVdtMVlrSFE3QUdwdEROS3I2RlhKb3c5NVBqb1JnSTE0NHdKVWppTkNlZnFURldVQzJsWXZndzJUZHFKcWZmY2QxelEwMkZBWVdJOHVQcVVheHMxa2plY1BJMFJfWVEwOVVFTlI3U3d5MzliUnJmRU5iZUtVZmh1OU9oenplcWlYZWtNYUZ6SEtsZjRKTy1HZjh3aEhzM3duSA?oc=5",
       "published": "Wed, 10 Jun 2026 20:15:00 GMT",
@@ -244,6 +302,29 @@
       "source": "GNews | Lithium Mine",
       "priority": 3,
       "category": "关键矿产",
+      "relevance": "medium"
+    },
+    {
+      "title": "Algeria’s Gas Advantage Is Real. So Are Its Production Problems.",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Algerias-Gas-Advantage-Is-Real-So-Are-Its-Production-Problems.html",
+      "published": "Wed, 10 Jun 2026 18:00:00 -0500",
+      "summary": "Algeria’s 2026 hydrocarbon bidding round is arriving at a moment when timing may matter as much as geology. Oil and gas prices have been lifted by the prolonged Middle Eastern crisis, Europe is still trying to hardwire non-Russian gas into its supply system, and former Middle Eastern investors are reassessing where long-cycle upstream capital can be redirected without excessive security risk. For Algiers, this creates a sudden opening to cement its position as Europe’s second-largest natural gas...",
+      "source": "OilPrice.com",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Traders Are Shorting Oil As If The Hormuz Crisis Is Over",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Traders-Are-Shorting-Oil-As-If-The-Hormuz-Crisis-Is-Over.html",
+      "published": "Wed, 10 Jun 2026 17:00:00 -0500",
+      "summary": "In yet another sign that the paper oil market may be too complacent about the magnitude of the supply disruption in the Middle East, trades have been boosting their short positions in oil futures for most of the past two months. Since the beginning of April, portfolio managers have been increasingly betting that oil prices would fall, according to the latest available commitment of traders (COT) data from exchanges as of June 2. Shorts on Brent Crude tripled between the end of March and the begi...",
+      "source": "OilPrice.com",
+      "priority": 3,
+      "signal_keywords": [
+        "supply disruption"
+      ],
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -341,13 +422,13 @@
       "relevance": "medium"
     },
     {
-      "title": "B.C., Ottawa reach pact to support LNG Canada’s expansion plans - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSmlrVnQtcDFnVzU4aFM2RVBwX3V5cWQyZVJVTEMwRk41bDRWbUR5MllnVVpWLWNXcGFaWldxVGRvdVFXNWp4LWtzLXBVeFV0R0E1dTkwWEpWUV9lR1M0NXBQMENwYzBCSGJrRmRzLVRaWEtwNkczaWRuTXFQbTdJTlRqdk00Q0c3ZUZLa2NCcUdBd1JPVDNkWF9qb0JKQkVQaFJEZXVlSGYxVzhKZ2c?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "B.C., Ottawa reach pact to support LNG Canada’s expansion plans&nbsp;&nbsp;The Globe and Mail",
-      "source": "GNews | LNG Expansion",
+      "title": "Discover the Top Global Lithium Producers - Investing News Network",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUpLOGpyVkxqY2JwSVFFZUZ4YXhjZm9sRHZBNFF0VjMxOHcxcEVlSVR3N0JYZDk4TzJnSS1GaHkta2JScEpocHU1clhBNFU2Rnh2WF9CLWdheWNhS3BDd0FXNnRwaDVnMGFyeVBIMUNKdDBGUWpxMTc3TUx2eHgydXlUZ0QydUFhUkd2a1FNcUhmZnpYS0hrRE13Um90c0o0ZGNHalBFRUx0bi1qMVJLQW94eXNnMm8?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Discover the Top Global Lithium Producers&nbsp;&nbsp;Investing News Network",
+      "source": "GNews | Lithium Mine",
       "priority": 3,
-      "category": "油气",
+      "category": "关键矿产",
       "relevance": "medium"
     },
     {
@@ -368,6 +449,16 @@
       "source": "GNews | Copper",
       "priority": 3,
       "category": "关键矿产",
+      "relevance": "medium"
+    },
+    {
+      "title": "Cheniere signs deal with Bechtel to expand US LNG export capacity - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc0U4Wng3a0c0bzlSVkxoTFpzYVEyNGR1X1BqdW1ibll0UzRqRW14RU5laFBSeTRvdDA4R2YzM1dnVmFnZnMwUV9JSW03Z3RucFhKMFZpRm1POVlfb3ZwTmdDdzBzUUdJNnd6NzhzUjAxYUYwM1AzeWhZb1owRUFDTTUzU3RrTVdXaXdCeFc5OG5oVTA5bnNoNGZfbHJRdzhNZjBZd3pBd093bTZXYTBsSGdMSmdXdnduYXZoY2wzMjRCbDZqOXhRRQ?oc=5",
+      "published": "Sat, 30 May 2026 13:03:39 GMT",
+      "summary": "Cheniere signs deal with Bechtel to expand US LNG export capacity&nbsp;&nbsp;MSN",
+      "source": "GNews | LNG Expansion",
+      "priority": 3,
+      "category": "油气",
       "relevance": "medium"
     },
     {
@@ -431,21 +522,71 @@
       "relevance": "low"
     },
     {
+      "title": "How Fake News Became the Most Dangerous Force in Energy Markets",
+      "link": "https://oilprice.com/Energy/Energy-General/How-Fake-News-Became-the-Most-Dangerous-Force-in-Energy-Markets.html",
+      "published": "Wed, 10 Jun 2026 19:01:00 -0500",
+      "summary": "We live in a dangerously synthetic world. Scalper-style traders reportedly generated significant profits on suspiciously timed oil trades surrounding Iran war developments in Q2. AI-generated content is creating new verification challenges. Fake news about an attack on Saudi oil facilities, for instance, could contribute to crude price volatility. It’s a dangerous, unsustainable, AI-generated environment that rewards whoever gets information first, whether it’s real or not. Now, it’s time to lev...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "The World's Biggest Battery Maker Is Turning Away From EVs",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Worlds-Biggest-Battery-Maker-Is-Turning-Away-From-EVs.html",
+      "published": "Wed, 10 Jun 2026 16:00:00 -0500",
+      "summary": "As global energy markets change, companies along the electric vehicles manufacturing supply chain are rushing to expand and diversify. The Trump administration’s stance on clean energy and aggression in Iran, among other energy-related bombshells, have made waves through global energy markets and created a general air of uncertainty that is leading many energy firms to put their eggs in more baskets. As a result, many EV companies and battery makers are turning to the next obvious market for the...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Oil Prices Are Up. Investment Isn't Following",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Are-Up-Investment-Isnt-Following.html",
+      "published": "Wed, 10 Jun 2026 15:00:00 -0500",
+      "summary": "When the International Energy Agency issued its 2026 outlook on energy investment, it had a surprise for its audience, predicting a decline in oil investment, instead of an increase, as the current price environment would suggest. The IEA is not the only one making counterintuitive predictions. BMI just published a forecast on oil and gas spending this year, and it says the total will decline from 2025. Oil prices and investment trends are no longer in sync. Spending on oil and gas globally is s...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Energy Prices Drive U.S. Inflation To Three-Year High",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Energy-Prices-Drive-US-Inflation-To-Three-Year-High.html",
+      "published": "Wed, 10 Jun 2026 12:30:00 -0500",
+      "summary": "U.S. inflation climbed above 4% for the first time in three years in May as rising energy costs tied to the Iran war pushed consumer costs sharply higher, with the Consumer Price Index rising 0.5% from April and 4.2% from a year earlier, according to data released Wednesday by the Bureau of Labor Statistics.  The annual rate matched economists’ expectations but marked the highest inflation reading since April 2023 and an acceleration from the 3.8% rate recorded in April. Energy was by far the la...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "UK Economy Set to Shrink as Iran Energy Shock Hits Growth",
+      "link": "https://oilprice.com/Energy/Energy-General/UK-Economy-Set-to-Shrink-as-Iran-Energy-Shock-Hits-Growth.html",
+      "published": "Wed, 10 Jun 2026 11:00:00 -0500",
+      "summary": "The UK economy is expected to contract despite a boost at the start of the year, with economists warning that the war in Iran’s energy price shock will now show up in fresh data.  Economists believe that the UK economy declined by 0.1 per cent in April. Official figures will be published on Friday.  The drop in growth momentum will reflect the late impact of the war in Iran on businesses and consumers, City analysts have said, as political uncertainty around the Labour Party’s leadership could a...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. Oil Inventories Continue Slide as Refiners Boost Runs",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Continue-Slide-as-Refiners-Boost-Runs.html",
+      "published": "Wed, 10 Jun 2026 09:39:16 -0500",
+      "summary": "Crude oil inventories in the United States decreased by 7.2 million barrels during the week ending June 5, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The decrease brings commercial stockpiles to 426.5 million barrels, according to government data, which is now 5% below the five-year average for this time of year. The EIA’s data release follows API’s figures that were released a day earlier, which reported that crude oil inventories saw a dr...",
+      "source": "OilPrice.com",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "SPR Draw Down at Critical Levels and May Surpass the Biden Abuse - Energy News Beat",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNVhoOXROUmRJZ3o1Rm9lZFpSVkx5cWxqVnFFQjlmNDVOQnRYUmZ2dFYwVEJjOUJjX3lmRFZZbUtWMjBQMWU0ckRQV1ZGblU1bnNqWnVVNGw2alFPR2x0NDVDd29BS1cxNXJFcmt0QmFCYVdGMG50clM3bmRvTmhCY2tpUXYycHNfcjRSaV9fRndBVzhTZWx3amViWVVDc001SG1N?oc=5",
       "published": "Wed, 03 Jun 2026 03:48:18 GMT",
       "summary": "SPR Draw Down at Critical Levels and May Surpass the Biden Abuse&nbsp;&nbsp;Energy News Beat",
       "source": "GNews | SPR",
-      "priority": 1,
-      "category": "油气",
-      "relevance": "low"
-    },
-    {
-      "title": "Why Shrinking Oil Inventories Raise Energy Crisis Risks - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObHY2eDFsMFcxWGJTTXJVNWg5NDEyMGNsNzAyNC1qNzlmb1h4OWlWZF9QZ2dPekdlUF83d3pwYWR4NDdzX2kxSTVSYlpTNG1BVFJOb2xNbTNRMUExZmptNE9QWFVlRnlvdHhiUGRtWEdnMHhDcmdzcUZoMjd5NVYzams5cnZtQzZYNXRGMEQ5ZU5GLUV6?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "Why Shrinking Oil Inventories Raise Energy Crisis Risks&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Oil Disruption",
       "priority": 1,
       "category": "油气",
       "relevance": "low"
@@ -458,6 +599,16 @@
       "source": "GNews | Signal: Energy Disruption",
       "priority": 1,
       "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
+      "title": "How the Iran War Is Disrupting Global Oil and Gas Supply - EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPR29RUm5jb3E5SjlCOE1kS0lVY3lmVlpMWkFxUUdfTHNUUkJUNDlwbFVLeXN1RDcwRE5oNVI0NW9XVzFjaWdobF9Dalo4SWUzbk91V3M5aEhxUm1KSzNUbDc5SzlhdE5TalZTWGxiTVhzVFJUY3BZRXNrbDZBTWtqdENiNGRRZUpfc0ZpdWZCV0I?oc=5",
+      "published": "Mon, 08 Jun 2026 15:50:38 GMT",
+      "summary": "How the Iran War Is Disrupting Global Oil and Gas Supply&nbsp;&nbsp;EnergyNow.com",
+      "source": "GNews | Oil Disruption",
+      "priority": 1,
+      "category": "油气",
       "relevance": "low"
     },
     {
@@ -518,6 +669,36 @@
       "source": "GNews | Solar Mfg",
       "priority": 0,
       "category": "能源转型+碳",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists Create Giant Fire Tornadoes To Clean Up Oil Spills",
+      "link": "https://oilprice.com/The-Environment/Oil-Spills/Scientists-Create-Giant-Fire-Tornadoes-To-Clean-Up-Oil-Spills.html",
+      "published": "Wed, 10 Jun 2026 18:30:00 -0500",
+      "summary": "Oil spills are some of the most destructive forms of marine pollution known to man, thanks to their acute toxicity and ability to devastate marine habitats. The BP Plc. (NYSE:BP) Deepwater Horizon spill in 2010 ranks as one of the worst accidental oil spills in history, having released over 134 million gallons (~4.9 million barrels) of oil into the Gulf of Mexico over a period of 87 days. The spill is estimated to have caused $17.2 billion in natural resource damages; killed ~1 million birds, hu...",
+      "source": "OilPrice.com",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Hormuz Shutdown Forces Malaysia to Overhaul Crude Supply Chain",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shutdown-Forces-Malaysia-to-Overhaul-Crude-Supply-Chain.html",
+      "published": "Wed, 10 Jun 2026 11:30:00 -0500",
+      "summary": "Malaysia is looking to diversify its crude sourcing with supply from the U.S., South America, and Africa as the Hormuz crisis has choked off its key Middle Eastern deliveries, Malaysian Economy Minister Akmal Nasrullah Mohd Nasir said on Wednesday. The Asian economies were the first to be hit by the lack of supply from the Strait of Hormuz as the region depended on Middle Eastern crude, naphtha, and fuel supply for most of its demand. Countries have scrambled for alternative supply over the past...",
+      "source": "OilPrice.com",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "EnQuest Bets $833 Million on Malaysia's Offshore Oil",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/EnQuest-Bets-833-Million-on-Malaysias-Offshore-Oil.html",
+      "published": "Wed, 10 Jun 2026 10:30:00 -0500",
+      "summary": "EnQuest PLC has agreed to buy interests in four production sharing contracts offshore Malaysia from local state firm Petronas for up to $833 million, as the UK-based oil and gas producer bets on growth opportunities in Southeast Asia. EnQuest on Wednesday said that its wholly-owned subsidiary, EnQuest Petroleum Production Malaysia Limited, has agreed to acquire three separate packages that include interests in four offshore production sharing contracts in Malaysia. The proposed acquisitions invo...",
+      "source": "OilPrice.com",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -591,6 +772,16 @@
       "relevance": "low"
     },
     {
+      "title": "Bahlil Beri Sinyal Ekspor Nikel Cs Bakal Satu Pintu Lewat Danantara - Bisnis.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE82RU55eTN2ZGhNRnUyaldadktIdVBYUTN6Xzd2cEplaUJXeDJtcXhqVEhWQ3JqZUdfUlJyREJMdVVRYjcxVTU4d2hLTFZ2c1FmR2JTNXFuRkEwdHVmY2ROUDJwRDROWGFlS1JKMHlRSWd1NUZIZjRtZWRIdW1LT0JSdjVYWGE4WUhmRUduN3FhWDdEUEU4cW1oTjh3N0wwcnJBSVFPRTNTRkI5MllVYVp6dXl3eDdFUmxr?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Bahlil Beri Sinyal Ekspor Nikel Cs Bakal Satu Pintu Lewat Danantara&nbsp;&nbsp;Bisnis.com",
+      "source": "GNews | ID Energi/Mineral",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "OPG’s Darlington Project Proves the SMR Modular Thesis for Investors - ETF Trends",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYURMczE0aVp4eF9sWVZJYVZlRUdrQlBBLW15My1zNDZpdEw2cTJ3UjdUTC01SFFLMVVoT3VQQVBRSk9zdUZkQUR5WG5rbVlCV0ROUk95UEE3Y20zSExLRnpROGh0Um5mNU5RaGtNbllvQ05wWTRfRHpHNExfWF9KU1FCZmY4RFVleTVEc1d5REw0NHZudnBtT2FfLUZlQWk3eHAycm8xWGxaZDJseGZ0Z0RkUktsWE53ZjBpTnBn0gHDAUFVX3lxTE5RWGpNMVQ2dXluNmtEeUtENDlZb1h1YUZRRWFqLXBJejdmN2lnMm1Ha2RsR3dlMThTY3RSMDFzbnBXeUxmU1JRSmhXV0xKb005UjB2VFdfTHdPSVI1cEp0QXVyTldtdDFVeTRlWFZsY3F4RklScldDMEV3QTVoUGlIczhTdTB3OGRyREhpUDJkVW9qS1dXWUo4XzgzaUdHY2k2MnlVVHR2Ny1CSDhlaHBUQ0l3WV9fVGwyRTRRVHpxMzRURQ?oc=5",
       "published": "Thu, 14 May 2026 07:00:00 GMT",
@@ -598,6 +789,16 @@
       "source": "GNews | Nuclear",
       "priority": 0,
       "category": "能源转型+碳",
+      "relevance": "low"
+    },
+    {
+      "title": "What happens when the world’s breadbaskets start failing simultaneously? - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0pxZTZnQnQwdVRUdnFkOWI2dnhBUWM0YU11c1NxcTJENzQzQkxyTHNwMzNXT3R6UngtTFVVaGc2RERrcUhxTTBqaXhmdm1UMmFqc0RMLW5vUm1ub0xmcWhNX2tTS21ucGdNX05xX285Y2pPSVhSTk9wdTFodlBJS1YyLTdPVzI4eXV3N2xvdUVidXRReWtvNGJZc080dlkyT3FnemdEVmo?oc=5",
+      "published": "Sun, 07 Jun 2026 16:46:15 GMT",
+      "summary": "What happens when the world’s breadbaskets start failing simultaneously?&nbsp;&nbsp;The Conversation",
+      "source": "GNews | Drought/Crop",
+      "priority": 0,
+      "category": "粮食安全",
       "relevance": "low"
     },
     {
@@ -611,6 +812,16 @@
       "relevance": "low"
     },
     {
+      "title": "Impact of the Middle East conflict on Asia-Pacific power markets | Japan | Global law firm - Norton Rose Fulbright",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGpRZHY5Slg3NU95TzN4Y2JNYzJtQzAwTGh0bGpSaHp1QkpyMmdPUEYtYW0yYWZOVmZVWWsyZDhUdTlvSzNuYUZfQnFSYW1VQzhBVS1EU2tIX25NQkRjdmVsS1hDa2padlVlaUd4VlN0Vk9Bb3dBYkhlNW1Tc0hWbHpVWDM5c21zVkZ3RnFxWmhjZ3lSMG90ZTRyMHAxRmxHemtPNXhHX1pFMkhDdl9KaUxBQ001cFp2cTNCOGJlZlp4SFlmWEdETVRJU2lfanBmT1htMA?oc=5",
+      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "summary": "Impact of the Middle East conflict on Asia-Pacific power markets | Japan | Global law firm&nbsp;&nbsp;Norton Rose Fulbright",
+      "source": "GNews | Signal: Force Majeure",
+      "priority": 0,
+      "category": "信号性查询",
+      "relevance": "low"
+    },
+    {
       "title": "Food Security | Food Insecurity Statistics & Solutions - World Bank Group",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DX2tGWUZYMWxkZFNYanJSM0otV19Ec0dNZVlDZVVxd01MWmZ2bndjaEhCdVA0Ql9UNWpGSTFoN21MWldwazNNQWJncVFDRmV4MzdQWjBuLUdaUlJXOExBTUoyMVdSMGhwbGx0djlRQTdHU296eFFwTnZsWXlQdw?oc=5",
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
@@ -621,26 +832,13 @@
       "relevance": "low"
     },
     {
-      "title": "Oil Prices Surge After Drone Attack on UAE Nuclear Plant - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTThqZEVrTTlyM3FZVldqRHVCaXl5V2VzeUFsendvZkhISjZ5ckR5UzQyVDhTeHctMEYyMC16WHkwY2tRQjVCeS04V3B4OFAzQXptZUdBOGJfTUFnS2pqWjFUaHU0aXhXWWFsMnFESGZDYzg2dXV2ZUtRUFFmZ3pQaVY1QWRxRHNyN2NON2FR?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Oil Prices Surge After Drone Attack on UAE Nuclear Plant&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Oil Disruption",
+      "title": "Urânio, um mineral crítico: a mina de Santa Quitéria - Editora Brasil Energia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdllSeUVyY0dFMXFCNlV3dk5PZVcxV2xhTGVXMm9zMW8ydElUcEtYQzBRWFk2cmZKYnJwdzJwNmdhZmFlV1FJR2dYaHk3d3F2MVdGaXFUMGFNU0UzM3F5eHRsMzYzemJ1cFRHMERsdUY3SjBrelJNYUxNNTQ4c211UmloclRCbjc5bGNhcVQxWnA?oc=5",
+      "published": "Fri, 05 Jun 2026 20:37:44 GMT",
+      "summary": "Urânio, um mineral crítico: a mina de Santa Quitéria&nbsp;&nbsp;Editora Brasil Energia",
+      "source": "GNews | BR Energia/Mineral",
       "priority": 0,
-      "category": "油气",
-      "relevance": "low"
-    },
-    {
-      "title": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa3ZxVVpoN0RUYVBHbUNoSHItY0Q2UmhFek12eXRESndyQk5nQy1Za2VISi0wcWdPb2E2aVRraU11ZGtmSTZsSEpqQVdWM2doRjM2aXhXWGZScTVRdzBLS0s2Tmk0OXMzTkxCSGR4aVVpMW5pMGc1Z0hpbWpjSHZCYW4tdjdZUFRCcFptNQ?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: Energy Disruption",
-      "priority": 0,
-      "signal_keywords": [
-        "supply disruption"
-      ],
-      "category": "信号性查询",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {

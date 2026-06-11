@@ -1,13 +1,14 @@
 {
   "version": "4.0",
   "module": "非洲深度",
-  "updated": "2026-06-11T04:03:14.840990+00:00",
+  "updated": "2026-06-11T04:21:03.759561+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 70,
-  "high_priority": 4,
-  "medium_priority": 50,
+  "total": 107,
+  "high_priority": 3,
+  "medium_priority": 64,
   "signal_alerts": {
-    "coup": 1
+    "coup": 1,
+    "unprecedented": 1
   },
   "stats_by_category": {
     "主要经济体": {
@@ -38,12 +39,20 @@
       "count": 90,
       "feeds": 3
     },
+    "独立RSS源": {
+      "count": 30,
+      "feeds": 2
+    },
+    "本地语言搜索": {
+      "count": 60,
+      "feeds": 2
+    },
     "信号性查询": {
       "count": 10,
       "feeds": 2
     }
   },
-  "fail_feeds": 1,
+  "fail_feeds": 2,
   "rate_limited_feeds": 0,
   "articles": [
     {
@@ -63,16 +72,6 @@
       "summary": "Nigeria Pushes AfCFTA Implementation With Trade Facilitation, Digital Support For SMEs&nbsp;&nbsp;LEADERSHIP Newspapers",
       "source": "GNews | AfCFTA",
       "priority": 12,
-      "category": "贸易+区域",
-      "relevance": "high"
-    },
-    {
-      "title": "Nigeria, Kenya, Morocco selected for AfCFTA digital identity and DPI rollout - Biometric Update",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUE4STN5c1ZZOUZQTWFWMTBQMUZ2NDBNeGpOWGZncDc0YlFhOEdGcV9PaTg2UTlvYjVWTzZjeWRIQTRoRWZsRVZaOG9XaXU4dUFRTXVIMEhURmFUS1hzS0wxMFMzSFlxbWNjZWhjeW5RdjFZczJhUllCV1N5SG9uZ2Jxb09qSWxiYm5rNGhtQ3BITVRoNzZ4azA1aFQzbHIxWjV0aHN2Z2NtNUZia253QVhzTQ?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Nigeria, Kenya, Morocco selected for AfCFTA digital identity and DPI rollout&nbsp;&nbsp;Biometric Update",
-      "source": "GNews | AfCFTA",
-      "priority": 11,
       "category": "贸易+区域",
       "relevance": "high"
     },
@@ -100,6 +99,16 @@
       "relevance": "medium"
     },
     {
+      "title": "The Government of Ethiopia and Development Partners Convene on WTO Accession and AfCFTA Implementation for Resilient Economic Growth - mofed.gov.et",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPaVZFNDNEOWZzMHZ6TVZreFBDems3Uk8zbC1jM0pMRXA0OVRxSkJxMWVYa2V5cFJQRDJMQVVobDgxT3lsNWZWMUhCUHBYaGVJSXhhZzdFc2VRMXJhSVcwMFd5NjJ6OUNkUlo0SldLRWs4dFRLVlpwb3dZSEZ2WHl6UERZM0FnU3ZobjhYRFRBMTExczNYM2RvenZXNnJmdjQ0VjN5VGdkbzFZU1VLcGlVUkJUMDZ0WlNlUUdENmZEdDVUbTBUUjhJdXlaN3RzOFpuM2x5cU9uYmctR1BFNDlRRzhWaHFEZjRhQVJrekk0UlF5YW04SEE?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "The Government of Ethiopia and Development Partners Convene on WTO Accession and AfCFTA Implementation for Resilient Economic Growth&nbsp;&nbsp;mofed.gov.et",
+      "source": "GNews | AfCFTA",
+      "priority": 9,
+      "category": "贸易+区域",
+      "relevance": "medium"
+    },
+    {
       "title": "‘AfCFTA is Africa’s most powerful lever for trade, investment’ - The Guardian Nigeria News",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSWlxY3VBY3FPM25wYkRYcmNjUXBtLV9PMEZ6M01kcG96RGdxeWdTcnpHanlqZnhTc0NaM3ZXY0syamVmbUlNOHpHZWRsWlUxbGFEak43c1FDenFzMG9Ha3hZN3RVQzhoelFUUTJ3Q2tuQmI1Ynlab3BRZ0dtNEozbEUwRDJZU0hvSGRDc3lBLVpOak9XMHpVZ2hyOUluQQ?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -117,16 +126,6 @@
       "source": "GNews | Africa Infra",
       "priority": 9,
       "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVERsd0FpSVF6ZnVmTzYyRWdlN0tqSHMyTU1SQmg4ekJJNlphbzBzZkpaSTlCLWdrb3pmS1NleDJUUW0yTTM0NG41RWR3eVdfWXFwbHpvM0V4RmkxdDRzWGFKRDlYeDZrUjREWGNCLVlMVGNxQ1VPRlkxNTV3aWtJLTg3Y0dCNVhQbGhhVnJfV2I0ckVBSlFtZExaZHJ1djFpejBKOGVnYTFnZUp6LV9XcnlUWWgwRy15eGhrcHc5U0VncjNvdXBibQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | AfCFTA",
-      "priority": 9,
-      "category": "贸易+区域",
       "relevance": "medium"
     },
     {
@@ -150,20 +149,20 @@
       "relevance": "medium"
     },
     {
-      "title": "Xenophobia, Illegal Immigration and AfCFTA: Can African Integration Survive Rising Tensions? - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmQxOEFNbEx5WTcyVGNmcjZSMURZR09hY3ZPaW5vT3J4S25sYl8wYjdGYk03NTNjRC1EeVMyUklOMGtLWF9VUnB1aFE2SXgxSTdNNVg3eFRzenBCUzNiVjI2djBxWi01SVlrSUtmdTJaTTVPOWQyMHo4eUtyT2JfSHAwc1lnMmRmcnNRWjVQV1NXQzVPOFHSAZQBQVVfeXFMTmItWnlOaEN4YW9vaDBpMU5BS2dWSVFIcWpYQ2FiWTVwM1UzQ3ptcTFQQUpvWG1KbmFwUUR2TWgydEx6RjUxaXlhVTlwbTAxVW9Nakx4Q2FIXzNHT1E2RHF3MFFaT0g3c1hsUm5VaElhWS1CYjRtZzI0S3ZtUEhFbEdNa3ZRNUpFZmpnZWxrc2FrOGVPag?oc=5",
-      "published": "Tue, 02 Jun 2026 17:52:56 GMT",
-      "summary": "Xenophobia, Illegal Immigration and AfCFTA: Can African Integration Survive Rising Tensions?&nbsp;&nbsp;Modern Ghana",
+      "title": "AfCFTA and the dream of one African market - Business News Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObWVwLTdPU1cyUlA1QkZaem9leEtoRnlKQWhNY1lwVzd2aWpaZVY3VHVNVnhJN00xcUR1TnBNaHFRTHplQjl2NmExb1VxdUtHaGNoOGpya1pyR0tnOEI3NEoxdGJVQ2JPOWtPcWkzRENxcFVHdEk3djlSMnRwOTF6N2F4Z3BCM0pnRVE?oc=5",
+      "published": "Wed, 03 Jun 2026 14:24:18 GMT",
+      "summary": "AfCFTA and the dream of one African market&nbsp;&nbsp;Business News Nigeria",
       "source": "GNews | AfCFTA",
       "priority": 8,
       "category": "贸易+区域",
       "relevance": "medium"
     },
     {
-      "title": "Intra-Africa commerce could reach 53% if AfCFTA were fully implemented, report finds - Semafor",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUx6N255OWs0U2hwMjN3NUNXZ1lnSjk2MW5neUl2MUwxQWd2a0FfR3ZwSDBGMTFmNzhNQ1V2eC16S05Ld0lCVzFPX2cwQzg1amlJNG9QcGp5dTdWOFVyNm9kRnpSdkhZZXRmY1lBUEZXbFpnV0h4OFJjbzZ3QzlOZWNZVlJJSy1ITHdST1V0UzNBOWdmOGF5VFpRdllFQ1lsa3U1MTViQUNWams4NjNuM2tiZ1dfZFVzOHE5QkUwaEZlSm8?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "Intra-Africa commerce could reach 53% if AfCFTA were fully implemented, report finds&nbsp;&nbsp;Semafor",
+      "title": "Xenophobia, Illegal Immigration and AfCFTA: Can African Integration Survive Rising Tensions? - Modern Ghana",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmQxOEFNbEx5WTcyVGNmcjZSMURZR09hY3ZPaW5vT3J4S25sYl8wYjdGYk03NTNjRC1EeVMyUklOMGtLWF9VUnB1aFE2SXgxSTdNNVg3eFRzenBCUzNiVjI2djBxWi01SVlrSUtmdTJaTTVPOWQyMHo4eUtyT2JfSHAwc1lnMmRmcnNRWjVQV1NXQzVPOFHSAZQBQVVfeXFMTmItWnlOaEN4YW9vaDBpMU5BS2dWSVFIcWpYQ2FiWTVwM1UzQ3ptcTFQQUpvWG1KbmFwUUR2TWgydEx6RjUxaXlhVTlwbTAxVW9Nakx4Q2FIXzNHT1E2RHF3MFFaT0g3c1hsUm5VaElhWS1CYjRtZzI0S3ZtUEhFbEdNa3ZRNUpFZmpnZWxrc2FrOGVPag?oc=5",
+      "published": "Tue, 02 Jun 2026 17:52:56 GMT",
+      "summary": "Xenophobia, Illegal Immigration and AfCFTA: Can African Integration Survive Rising Tensions?&nbsp;&nbsp;Modern Ghana",
       "source": "GNews | AfCFTA",
       "priority": 8,
       "category": "贸易+区域",
@@ -210,6 +209,36 @@
       "relevance": "medium"
     },
     {
+      "title": "JOBURG MASSACRE: Fingers pointed at illegal miners as  police hunt Cleveland mass shooters",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-fingers-pointed-at-illegal-miners-as-police-hunt-cleveland-mass-shooters/",
+      "published": "Wed, 10 Jun 2026 23:13:36 GMT",
+      "summary": "SAPS says it’s too early to link the mass shooting in Cleveland, Johannesburg, to illegal mining, but community leaders and political parties say syndicates refining illicit gold in the area are a primary driver of local bloodshed.",
+      "source": "Daily Maverick ZA",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "BRING IT ON: Bafana Bafana and Mexico ready for nostalgia-fuelled World Cup opener",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-bafana-bafana-and-mexico-ready-for-nostalgia-fuelled-world-cup-opener/",
+      "published": "Wed, 10 Jun 2026 21:34:34 GMT",
+      "summary": "Grouped against tournament cohost Mexico, as well as Czechia and South Korea, South Africa is eyeing a positive result in its opening Fifa World Cup match, its first since 2010.",
+      "source": "Daily Maverick ZA",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "POLICE PROBE: SAPS says ‘not enough evidence’ against  Phala Phala cops",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-saps-says-not-enough-evidence-against-phala-phala-cops/",
+      "published": "Wed, 10 Jun 2026 21:22:52 GMT",
+      "summary": "Parliament’s Portfolio Committee on Police is now considering its next steps after what was described as an unsatisfactory briefing on the handling of the Phala Phala theft six years ago, with MPs continuing to raise concerns over how the investigation was conducted and the unanswered questions that remain.",
+      "source": "Daily Maverick ZA",
+      "priority": 6,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "AfCFTA: Intra-African Trade Hits $230bn - Techeconomy",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GbWRFOHZjN2E1MXV1b2hCRnp1SENiLXY4bTZGNTY2VkcxNGdiTnNCYVRlb0hKaUtFU05tcEtxRG1LQ3d0djFXZkRUNXRkdGJOU2JpckVsbm8tRWlHdU1kc0FFMERsTW5JQjY4WWFn?oc=5",
       "published": "Wed, 10 Jun 2026 06:43:50 GMT",
@@ -240,16 +269,6 @@
       "relevance": "medium"
     },
     {
-      "title": "AfCFTA forum concludes in Togo with launch of Africa trade and distribution company and renewed push for intra-African trade - Tech Review Africa",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaU5FdjVReDM0eW0xOEhiMlpKMi1DYW80eVZWQnRiMUJOeEhMbUVkY3BCRFZFcFp0bDNlZmN2dGRaV2poQkFqczFHRXpuUF9hV1pCUlFyb0dsT0paanZBOHF3U3pTN0xhYzQ1TjRJQWpIaEs0V3ZSTjItQUhOcVJfdHpuMjhtSXZReFNLbWlJTW80am5VYTloRjJObjhoWkxFXzVpU1YzZExfX2wwSldVMWFxMnhtSjFPZ01GdUsyODZfVG1HWkREdmJ4ZzRKVDdJUU1lRWxrQ1VjTVlhS2QtOExaRC1MX2ZNT1RJSGp5UUxlQjNEcHc?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "AfCFTA forum concludes in Togo with launch of Africa trade and distribution company and renewed push for intra-African trade&nbsp;&nbsp;Tech Review Africa",
-      "source": "GNews | AfCFTA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
       "title": "Saudi Arabia, Egypt, and Turkey’s Blind Support of Burhan Undermines Sudan Peace - Middle East Forum",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXR2OV9iQmp1T1JBcTNSSEtkOUZnZGxsZHVmQzQ0b3duRVdNRHlDZEZndENTQ2FidlFYX3lkR1N6cUtLOFpENnEzcDhzMFVUczI2MXZfTkRrbkVXWGVYRWo1RVhfM3NGMmZ6bU1rMEJUa3BPaUpqYWJvTnByRk9iejBZQUdCMVVjY21qQWt3ZW1PWVpQUFNWc1h6LVNCcXFjY3A0NDNTOUl4cWJrTmJfY19hWng?oc=5",
       "published": "Sun, 07 Jun 2026 10:02:32 GMT",
@@ -270,33 +289,13 @@
       "relevance": "medium"
     },
     {
-      "title": "African leaders call for faster AfCFTA implementation at Biashara Afrika 2026 - Ahram Online",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR21xNlBwcDJOWm5HelBLTk5vcVVzZU1rUG9BWkljYVNWS3RsRGxqM1hrTjNjVlNQOGpPUllOb3RvNGZBWHNXS2dPYW9LX0pWQzB0aEVQSy1MVEdLSDRoazEwbHZCTHNSVjdrM1BTQ0t6X0l3Q1plWFZaRXVheW5QNEhycGxzZw?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "African leaders call for faster AfCFTA implementation at Biashara Afrika 2026&nbsp;&nbsp;Ahram Online",
-      "source": "GNews | AfCFTA",
+      "title": "White House defends Cuba sanctions as UN warns of harm",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-white-house-defends-cuba-sanctions-as-un-warns-of-harm/",
+      "published": "Thu, 11 Jun 2026 05:03:47 GMT",
+      "summary": "WASHINGTON, June 10 (Reuters) - The Trump administration defended its sanctions on Cuba on Wednesday after the United Nations’ human rights chief warned US actions were causing “widespread harm to the population and endangering lives.”",
+      "source": "Daily Maverick ZA",
       "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA - CNBC Africa",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR056WUdZUGlhWGNyU2JFUEloajNxelpXOUQwU1FYOHFROXZGMEhZUkk0TjNfWVZKR0p3RDkzd1dnUV96Ql9HTThxdFJuak8zVHJnNElpMFJ3eXFJNWVjSTd0NnlpczJsdC1Ja3N1VF9xcEhlUm1sWlpQcklrRjd1TWZ0bmVZdlJNdzZ2SF9OVnVSdGlpdlF3c2xzLXdlZ1FabVRLbElNSW1EcHJLeUNEbmFlQUdzdlU?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA&nbsp;&nbsp;CNBC Africa",
-      "source": "GNews | AfCFTA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Turning AfCFTA policy into implementation - CNBC Africa",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbng1R0tfOGZMTldqQ1Jmb055OWo0a1VBVWViZko3TUJWRGtWTDBIejRQUVdOTVV0c3JxeEhIWW9Jd1d4a1U3X24wRXBFWlZ2ZENvSW10SVdDYWt6NVBjX01DWm0yQ1pwMnM3clNMR1IyMzV0UDFXZlVqQVJmSU1ZSXRSZjBzNWRrTlN6c2tHSk4tdw?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Turning AfCFTA policy into implementation&nbsp;&nbsp;CNBC Africa",
-      "source": "GNews | AfCFTA",
-      "priority": 5,
-      "category": "贸易+区域",
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -320,9 +319,19 @@
       "relevance": "medium"
     },
     {
+      "title": "Sudan conflict: What is happening right now (what you need to know) - World Vision Canada",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92T1pVcUFYZTlQUV84ZmtMaFdiTUVKSXVBSEhYNFRWZWEwZ0Rqd1htd2l2QkkyLWE4aUdlQWJaVVVmN291eVpDczY2X19QNDdDOUVVQnlWUWFYcUtsTUJtNk0yMFNsbUxkT0M5ZGhPcDdHeTlxN1VMeS1VSkdFY1E?oc=5",
+      "published": "Fri, 29 May 2026 23:33:15 GMT",
+      "summary": "Sudan conflict: What is happening right now (what you need to know)&nbsp;&nbsp;World Vision Canada",
+      "source": "GNews | Sudan Crisis",
+      "priority": 5,
+      "category": "政治+冲突",
+      "relevance": "medium"
+    },
+    {
       "title": "West and North African countries convene in Lomé to accelerate AfCFTA implementation and strengthen regional economic resilience - United Nations Economic Commission for Africa",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmhtWTV3enFDdDh4ejJpTDNHdnRxUG9BeTVXRU42RUFWSWRfbGw3anlXaVBBQVBET184cFJ1aU5zb0tjWU9XVjY3cG1FRU1rWWgyTjRrN2RXT2pYVUdkMFRTcmU1eXZuWkt2aFVBRUhTRDl2TG4yal8xLURKaVVnVmtGb2Y2eEF4SnB3TVVja0FkSmRaQ1lHQjlOMVBlVS05YzJCVk9ONTQzR1lKdzdmcDdSc29lWElBM3J2YmZheEo?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "published": "Fri, 22 May 2026 09:59:16 GMT",
       "summary": "West and North African countries convene in Lomé to accelerate AfCFTA implementation and strengthen regional economic resilience&nbsp;&nbsp;United Nations Economic Commission for Africa",
       "source": "GNews | AfCFTA",
       "priority": 5,
@@ -350,13 +359,23 @@
       "relevance": "medium"
     },
     {
-      "title": "GDP increases by 0,5% in the first quarter of 2026 - South African Government News Agency",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dWVuenBfdld6eVI0ckxpWThrdkRNbUtnbUdkZDBhdlRDNlhLSXoxWUtDSG1MYXRYZlNyZ3VqMkV2dUVaR2ZQUk9CWUNYTEFoaWxkcVZ2b3RBRmpfdE9FZ0N0V3N4T1hRUnN2RmNtSnFpOU4ybzZ4UDk5UlV1ZkE?oc=5",
-      "published": "Tue, 09 Jun 2026 10:16:14 GMT",
-      "summary": "GDP increases by 0,5% in the first quarter of 2026&nbsp;&nbsp;South African Government News Agency",
-      "source": "GNews | ZA Economy",
+      "title": "China’s zero-tariff ‘gift’ to Africa could be a Trojan horse in disguise",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-06-10-chinas-zero-tariff-gift-to-africa-could-be-a-trojan-horse-in-disguise/",
+      "published": "Wed, 10 Jun 2026 12:19:35 GMT",
+      "summary": "China’s zero tariffs for the next two years to African countries that support the Chinese dragon’s one-China policy provide the continent the opportunity to diversify and add value to its export products off the back of a growing China, or worse, to continue to export raw materials to the Asian giant and therefore remain stuck in the post-colonial raw material exporting trap.",
+      "source": "Daily Maverick ZA",
       "priority": 4,
-      "category": "主要经济体",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "‘Accelerate SME integration into African trade to prevent external shocks’ - The Guardian Nigeria News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSUpqNmU5WjZQVzdhekhhejUyUE02OVY0aEIyblhQSlRMNzRFVWc2Sk1TQXNYTXpKd21yY1JxRXhuY1J1ZW8xaXJWOWFVcXBIUXh3THJPbWxab0I1dXQzdFlMazhPTFlYalphdnpLZ3dac1ZTWVdkOEU4UjM5eXNqWHVxSjh0VXRndzd0QUw5SE1kQmhDY3ctUEstcGZxZ01rRWVoRld3Q2hVVzg3cWNGQmRWVXNJUDFMZlM1ZA?oc=5",
+      "published": "Wed, 03 Jun 2026 03:30:00 GMT",
+      "summary": "‘Accelerate SME integration into African trade to prevent external shocks’&nbsp;&nbsp;The Guardian Nigeria News",
+      "source": "GNews | AfCFTA",
+      "priority": 4,
+      "category": "贸易+区域",
       "relevance": "medium"
     },
     {
@@ -395,6 +414,16 @@
       "published": "Thu, 04 Jun 2026 01:51:00 GMT",
       "summary": "PM says no new IMF program needed as current deal nears completion&nbsp;&nbsp;Egypt Today",
       "source": "GNews | EG Economy",
+      "priority": 4,
+      "category": "主要经济体",
+      "relevance": "medium"
+    },
+    {
+      "title": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026 - standardmedia.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwd9IB2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwdw?oc=5",
+      "published": "Sun, 24 May 2026 08:31:41 GMT",
+      "summary": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026&nbsp;&nbsp;standardmedia.co.ke",
+      "source": "GNews | KE Economy/Fintech",
       "priority": 4,
       "category": "主要经济体",
       "relevance": "medium"
@@ -440,13 +469,43 @@
       "relevance": "medium"
     },
     {
-      "title": "Africa, ECA partner to strengthen regional resilience - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVE5oWmZFRFVodjl2eVUyeE1meGVHc1N5bEFMUzA2ejBDUzRqdngtM094SnREMjFCQzRIT3o0NlRzQ1ZNV09DSHdUd3NwN1k2bzBjZWhmdWptUmlnSFpVMDE3V0praHZOcVZTZ2ZadGlFWEQza1lVczNRdHZ0UnBSdmg0MTZQWVpTaEtnb2VJR0RmckQzVW1oZDVUMEtlWTZSTFE?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Africa, ECA partner to strengthen regional resilience&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | AfCFTA",
+      "title": "Human Rights: Amnesty International warns of escalating ethnic cleansing as Israel accelerates West Bank annexations",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-amnesty-warns-of-escalating-ethnic-cleansing-as-israel-accelerates-west-bank-annexations/",
+      "published": "Wed, 10 Jun 2026 23:45:59 GMT",
+      "summary": "Amnesty International has accused Israel of pursuing a state-led campaign of annexation and ethnic cleansing in the occupied West Bank, warning that the forced displacement of Palestinian communities has intensified sharply since 2023. The organisation’s latest report argues that international inaction is enabling violations of international law and calls for urgent measures to halt further dispossession and displacement.",
+      "source": "Daily Maverick ZA",
       "priority": 3,
-      "category": "贸易+区域",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "‘EL TERRORISTA’: ‘They thought we were terrorists’ — Mexican sports journalists home after SA drone arrests",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-they-thought-we-were-terrorists-mexican-sports-journalists-home-after-sa-drone-arrests/",
+      "published": "Wed, 10 Jun 2026 22:35:10 GMT",
+      "summary": "Two Mexican sports journalists who were arrested in Gauteng, allegedly because they flew a drone over a Jewish college, have pleaded guilty, paid a fine, and returned home. They say they were considered terrorists and kept behind bars for a week.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "XENOPHOBIC VIOLENCE: Nigeria threatens retaliation against SA for attacks on its citizens",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-nigeria-threatens-retaliation-against-sa-for-attacks-on-its-citizens/",
+      "published": "Wed, 10 Jun 2026 22:19:14 GMT",
+      "summary": "The Nigerian foreign minister has said that her country might take action against SA for alleged attacks on Nigerians, but what that retaliation might be is as yet unclear.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "SPOTLIGHT: Did US aid cuts break the things we need most for the lenacapavir roll-out?",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-did-us-aid-cuts-break-the-things-we-need-most-for-the-lenacapavir-roll-out/",
+      "published": "Wed, 10 Jun 2026 22:17:30 GMT",
+      "summary": "South Africa launched the most promising new HIV prevention tool in years. Spotlight asks whether we can successfully deliver lenacapavir without the trusted pathways decimated by cuts to aid from the US.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -460,6 +519,46 @@
       "relevance": "medium"
     },
     {
+      "title": "RISK COVER : SA’s life insurers see claims surge as illness hits working incomes",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-sas-life-insurers-see-claims-surge-as-illness-hits-working-incomes/",
+      "published": "Wed, 10 Jun 2026 21:04:08 GMT",
+      "summary": "South Africans are not only dying. They are surviving cancer, strokes, disability, mental health conditions and long-term impairment, and the financial cost of living through these events is becoming harder for households to absorb.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "STRATOSPHERIC WEALTH: Blast-off — Elon Musk on track to become world’s first trillionaire on Friday",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-blast-off-elon-musk-on-track-to-become-worlds-first-trillionaire-on-friday-/",
+      "published": "Wed, 10 Jun 2026 21:00:27 GMT",
+      "summary": "On Friday, the eccentric and controversial South African-born businessman Elon Musk will probably become the world’s first trillionaire when the initial public offering of his company SpaceX blasts off.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Reporter’s Notebook: The airline industry is advocating tax cuts to support connections",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-the-airline-industry-is-advocating-tax-cuts-to-support-connections/",
+      "published": "Wed, 10 Jun 2026 20:38:54 GMT",
+      "summary": "Daily Maverick was a guest of the International Air Transport Association at the annual general meeting in Rio de Janeiro this past weekend, and proceedings quickly turned to calls for tax breaks.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "CLEVELAND MASS SHOOTING: An hour of terror: what happened when 10 gunmen entered a Joburg settlement killing 12",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-jumpers-mass-shooting-12-dead-10-injured-in-barbaric-midnight-attack-in-joburg/",
+      "published": "Wed, 10 Jun 2026 14:00:34 GMT",
+      "summary": "A heavily armed gang of 10 suspects opened fire indiscriminately inside the gated Jumpers informal settlement on Tuesday night. As Gauteng police launch a massive manhunt, traumatised residents recount an hour of terror amid suspected ties to illegal mining.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "EU Unveils €12 Billion Investment Drive to Boost South Africa’s Critical Minerals Sector - ChemAnalyst",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVkY5eDdYaEFsNzZ2UEFSaVVMVG1XLWJUWXVOWmo5YzBOR2NaN2xIVk5DVV96R2o3ZzBSMTd0NGF2aXRuMFEtRjdvTzVPMDQzN1JHLWJtSkZWV05hRzR2ZGtNRW9yRW5NSUMxT2xRY2JtSjBJbERBRUMxMTB1Z1Y2cnJLNXltUld5OVYwaGxKQ1dDXzM4X3ZMUUplMFU5TzBUVFIxZnR2elVKMjRZMFBzMm9aNFgydjFmbFhNYQ?oc=5",
       "published": "Wed, 03 Jun 2026 08:46:50 GMT",
@@ -467,6 +566,16 @@
       "source": "GNews | EU-Africa",
       "priority": 3,
       "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Mining industry at odds with exploration rights tied to beneficiation in new industrial strategy - African News Agency",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOEx1NDVzankxcFpSRWpVeUdpZnZIeWFaYUVWWXN6TW11Mnl2akNpNzB5cm8tNDMwaklFdXQwSUFiSWIwdnNYVV8wbGFMcU1QTE9kQ1ZvYzZzN1pyYXdKbTlPM0lHZ3BBV3dmOWtseTR1YnlHR2dwMm9uTlpWNVB6Qklxa3lUdmdHaDN2VG0xenFqZ0FibWh2MjdVRktjTEdrZkp0SHpmOXdXVEgwLUZzZWQya1Q3RW1EZTBOVWlMbFNxNXZ4OHc?oc=5",
+      "published": "Tue, 09 Jun 2026 14:48:07 GMT",
+      "summary": "Mining industry at odds with exploration rights tied to beneficiation in new industrial strategy&nbsp;&nbsp;African News Agency",
+      "source": "GNews | ZA English",
+      "priority": 3,
+      "category": "本地语言搜索",
       "relevance": "medium"
     },
     {
@@ -510,6 +619,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Deadly Indonesia floods wiped out at least 7% of rare orangutan population, report says",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-deadly-indonesia-floods-wiped-out-at-least-7-of-rare-orangutan-population-report-says/",
+      "published": "Thu, 11 Jun 2026 05:05:35 GMT",
+      "summary": "JAKARTA, June 10 (Reuters) - Deadly floods and landslides in Indonesia’s Sumatra last year have wiped out at least 7% of the total population of the critically endangered Tapanuli orangutan, a new report released on Wednesday showed.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Congo’s Ebola outbreak spreads to new health zone",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-congos-ebola-outbreak-spreads-to-new-health-zone/",
+      "published": "Thu, 11 Jun 2026 05:00:59 GMT",
+      "summary": "DAKAR, June 10 (Reuters) - Congo’s Ebola outbreak has spread to a new health zone in the northeastern province of Ituri, authorities said on Wednesday, as fresh infections underline sustained transmission more than three weeks after the epidemic was declared.",
+      "source": "Daily Maverick ZA",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Signing of a Memorandum of Understanding Between the Government of Cameroon, AGL and CAMALCO for the Development of the Edéa–Kribi–Campo Railway Line - Railways Africa",
       "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQQ0lFVlRLOUxWWWRjTkFPSUN3eEZDMTFqNTdaYkRXTk9Jd294OWZvc0pHRFA3MTJEbVZNMURPTkk5MmNvM3gtQ002VWtOWnpwVGFzT1ZDNE1mYUxNMnpJMDRVaEtRRFJEbTBmTFFYX0Q0QVJacDVXYkZNUTRjUGV6V1ZQNlJjWkJNLUE4bmhFR3hPUmdadWl2Vmo5bkZWUzlWLWxGN3YzSE9UTjlVa1VXbm9ySkVoQzZ5RWp5MUZWSHRsbkFoNWdyRjAycFhScm5EVnQ0VTdyZEdJT2kwZkdnN3dFZUw3VHFPeUdQOFgzbzdyblV1c2tMU3h1OTlJTERJZjR3RUJuWHc1bm9UUk9SOG4xdHNqN085?oc=5",
       "published": "Thu, 04 Jun 2026 07:00:00 GMT",
@@ -520,13 +649,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Emerging Digital Transformation, Payment Solutions And A Cashless Society In Africa: One Of The Driving Forces - thenigerianvoice.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX200Z1M0ZXdQdDVnMWlER2lRMnFBeUdLNElYRTFBc3l2em9GSjRfMi1EaVRvRERnbW9HTTQzVjdpX2Z0MTZzVkNodTNaR2JxTC1pdjN5MHpjTUp5WXI2VU1UaFFLZV9yaWxFR3VUQlpOQVQ2YW54aHJ2RVRtczROa2puN1Y4MnRWa1I5TEhPdWtCQUcwb1dVaktfTG5mQllzMmVienlaQTNjRXlibHfSAbMBQVVfeXFMUFh5eWpWcmtxQ05iWU5UQ1RoQjQzVXVYeGROdVpkcGwyMjFqN1VadmVSMjEwNng4eUdsejM1ZDIzYzgxRGpIQlhpaVR2c3ZTRzN4eTFyRjBiNDBSS0pYLUMzN0FSN3NBYjBBZkpnczA1SkhNNGtlZFdmRGFkODJKeTIteEd0ZUIweEl5elJVWmx5ZnVlMWI1S0FZb2MyaUgya3VlMVYxN1NFbEw5QU51Qmx0NDg?oc=5",
+      "title": "South Africa turns to private firms to rescue Africa’s biggest rail freight system - Business Insider Africa",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTjk1SHIxbHE3dWU5MHVudUQycVZSZFdRald0MTVvWmZGTmg1WGZfMmRwZ0RtMk5Sb0dtbElLSTU0MWk1akFrRHpnRVVSbDJTaWRVdVFqUTB2U3VBVkhwb2t0all1RXhSSFNoeGRiRGp6UEFGOG9Ic21lc1ZVdm9LYjRMZ3NwaHhxMDAzQ2JyTmc1X19ldEFSVlQtQlJPWHhtdlpyTEgyQTlSUUNiMGRwSGRlZHpYdTVsSEt5UGEyc3lrQlZfaTdyVA?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "Emerging Digital Transformation, Payment Solutions And A Cashless Society In Africa: One Of The Driving Forces&nbsp;&nbsp;thenigerianvoice.com",
-      "source": "GNews | Africa Tech",
+      "summary": "South Africa turns to private firms to rescue Africa’s biggest rail freight system&nbsp;&nbsp;Business Insider Africa",
+      "source": "GNews | ZA English",
       "priority": 3,
-      "category": "基础设施+科技",
+      "category": "本地语言搜索",
       "relevance": "medium"
     },
     {
@@ -580,6 +709,16 @@
       "relevance": "medium"
     },
     {
+      "title": "East Africa’s $20b infrastructure push ties six economies together - Daily Monitor",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORkRvNkhybzd2eEJrTzY2ODRHT3hSb2VuQUJDUDhUTFVLcnNrdkdnMjVYR3FtTzR3bHBiOUJuMW8yOWFrWjVXeEF5Xzlvd1lTN0IwSVI3Z2tkeEN3NmREVEY5NmRTQ3hDNVU0czZwV1RwMDNpYzMxMi1mbjFWVHlmSHNmY2Yxd2FIM1loRk8xT1BSTk16OTl2VG9leElrWlFOeTAxbzZHRGE0RnJKMTJEaTVCR2Z2bzh2Zkd1Tw?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "East Africa’s $20b infrastructure push ties six economies together&nbsp;&nbsp;Daily Monitor",
+      "source": "GNews | Africa Infra",
+      "priority": 3,
+      "category": "基础设施+科技",
+      "relevance": "medium"
+    },
+    {
       "title": "Morocco Country Report - Stimson Center",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQmtOT2k5X3IxZ3NHN25mMG84T01pandUQ3FkSGFUUUR4Nnloc3RZVXpTbG54TXJtQ2VHcmpnekx1S1g2MS03WE83cVRYeU15ZDBYbDVpZmZJTU1maDlxRUtfeGRoMG1FNFJr?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
@@ -630,6 +769,49 @@
       "relevance": "low"
     },
     {
+      "title": "WHAT NEXT: Here’s how to take Kirstenbosch to greatness",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-heres-how-to-take-kirstenbosch-to-greatness/",
+      "published": "Wed, 10 Jun 2026 23:56:10 GMT",
+      "summary": "This series on the gardens has had, within 48 hours, nearly 80,000 readers, and provoked an unprecedented number of written comments. It’s an indication of both deep love and concern for Kirstenbosch and the way ahead.In researching these stories, we received many suggestions about what a range of people – specialists to tourists – think should be done to make Kirstenbosch better. We decided, in view of that interest, to publish this list in the hope that it may be of use. Some points are a bit ...",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "signal_keywords": [
+        "unprecedented"
+      ],
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: ‘No one is above the law’ — DA Ekurhuleni candidate outlines five key promises",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-no-one-is-above-the-law-da-ekurhuleni-candidate-outlines-five-key-promises/",
+      "published": "Wed, 10 Jun 2026 23:33:44 GMT",
+      "summary": "The DA’s Ekurhuleni mayoral candidate, Khathu Rasilingwane, has pledged to root out corruption, improve service delivery and restore accountability as the party intensifies its campaign to secure outright control of the metro in November’s local government elections.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "IDENTITY CRISIS: UCT Children’s Institute and Home Affairs clash in court over late birth registration backlog",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-uct-childrens-institute-and-home-affairs-clash-in-court-over-late-birth-registration-backlog/",
+      "published": "Wed, 10 Jun 2026 23:04:02 GMT",
+      "summary": "In a pivotal court case, the UCT Children’s Institute challenges Home Affairs over delays in late birth registrations, asserting that undocumented children face severe rights violations.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "MADLANGA COMMISSION: Witness I accused of cover-up in attempted R286m drug theft",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-witness-i-accused-of-cover-up-in-attempted-r286m-drug-theft/",
+      "published": "Wed, 10 Jun 2026 22:50:26 GMT",
+      "summary": "Commissioners and evidence leaders at the Madlanga Commission challenged Witness I’s claim that he went to the scene of a R286m cocaine bust because it related to a previous investigation. They questioned whether he was there to legitimise an attempt by law enforcement officials to steal the drugs.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Lawmakers launch bipartisan efforts to address Sudan civil war - Roll Call",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmFkaUlOXy1wUkNXSjFBcWljbzdoRnhCTjlzakZudEo5NXgtaXJnOUE1XzFZbDc5VTJuVzdVOUdrQXBIYkJyTjlPR2t5eDVLaEZfWF93b2k3OVVfeGJsb1Q5bjNSUVRUS3BJa3F4RHFLRjlwNFQ0Wld4Q19ZZmY1OTUwakhtdGU4SGJoWnhsOVIwOF9SNk5BbVRpbw?oc=5",
       "published": "Wed, 10 Jun 2026 21:06:14 GMT",
@@ -640,6 +822,86 @@
       "relevance": "low"
     },
     {
+      "title": "RETAIL RESET : Spar’s problems are fixable, but first comes the clean-up, says new CEO",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-spars-problems-are-fixable-but-first-comes-the-clean-up-says-new-ceo/",
+      "published": "Wed, 10 Jun 2026 20:46:06 GMT",
+      "summary": "Spar’s new chief executive, Reeza Isaacs, has walked into a business with battered earnings, bruised retailer relationships, governance noise and a KwaZulu-Natal distribution centre that has become something of a corporate black hole.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "WEATHER WATCH: It’s here! Japanese Meteorological Agency says El Niño has emerged",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-its-here-japanese-meteorological-agency-says-el-nino-has-emerged-/",
+      "published": "Wed, 10 Jun 2026 20:33:24 GMT",
+      "summary": "Global forecasters have been warning for months that this brewing El Niño could be on steroids – with some commentators likening it to a ‘Godzilla event’ – which, given its historical spoor, would have massive social and economic consequences in southern Africa.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "SCOPA: Joburg leaders grilled for failing to question JDA boss arrested with R321,00 cash",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-joburg-leaders-grilled-for-failing-to-question-jda-boss-arrested-with-r32100-cash/",
+      "published": "Wed, 10 Jun 2026 18:29:09 GMT",
+      "summary": "Johannesburg’s top leaders faced tough questions in Parliament on Tuesday over their response to the arrest of Johannesburg Development Agency CEO Themba Mathibe, after R321,000 in cash was found at his home during a corruption investigation.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "GROUNDUP: Over 1,000 migrants flee Durban settlement after being ordered to leave",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-more-than-1000-immigrants-flee-durban-settlement-after-being-ordered-to-leave/",
+      "published": "Wed, 10 Jun 2026 15:07:55 GMT",
+      "summary": "Immigrants, mostly from Malawi, chased from Burnwood have spent days camped in a field.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "THE CONVERSATION: What is lipoprotein(a) cholesterol, or Lp(a)? And can you lower yours?",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-what-is-lipoproteina-cholesterol-or-lpa-and-can-you-lower-yours/",
+      "published": "Wed, 10 Jun 2026 15:00:00 GMT",
+      "summary": "Most people know about “good” and “bad” cholesterol. But few realise there is another type called lipoprotein(a). It can raise the risk of heart attacks and strokes, even in people who do everything right.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "SEXUAL OFFENDERS: Vetting crisis: Efforts hampered by persistent delays with more than 100,000 teachers unchecked",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-vetting-crisis-efforts-hampered-by-persistent-delays-with-more-than-100000-teachers-unchecked/",
+      "published": "Wed, 10 Jun 2026 13:44:36 GMT",
+      "summary": "Three years after the government began mandatory vetting of teachers against the National Register for Sex Offenders, more than 119,000 educators across several provinces remain unchecked, raising serious concerns about learner safety and the pace of implementation.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "More than 1,300 migrants have died trying to reach the Spanish coast in 2026, says NGO",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-more-than-1300-migrants-have-died-trying-to-reach-the-spanish-coast-in-2026-says-ngo/",
+      "published": "Wed, 10 Jun 2026 13:15:03 GMT",
+      "summary": "More than 1,300 migrants have died trying to reach the Spanish coast in the first five months of 2026, according to an advocacy group that tracks crossings from Africa along perilous routes through the Atlantic Ocean and western Mediterranean Sea",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "POLITICALLY AWEH: Brett Herron pulls back the curtain on power, housing and politics",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-10-brett-herron-pulls-back-the-curtain-on-power-housing-and-politics/",
+      "published": "Wed, 10 Jun 2026 13:00:00 GMT",
+      "summary": "Back in 2018, the former Cape Town mayoral committee member resigned in protest at the DA’s approach to affordable housing. Eight years later, the crisis has only deepened, and will be a defining issue of the 2026 Local Government Elections. Now Herron is back, and he wants to be mayor.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "The Mali crisis could have a dangerous spillover effect - Al Jazeera",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUJTQ2Q1cU9yaTg3OHJ0WXVneEttaG1Wd0xBOU5yMTl4ZlcxMGJ3RTFha3lSeXZBc1V1a1FDS1h0YlhGVFJvdkpObU80QnZ4cHV6UlFveDhxWFNqTWVuN1lEQnB0dTZYV3JmaWdWR2cyRFBLMkNqaFNhZlRFMWhCbHVleURTYll6UElUODZQSnVNRGpTTHhoQ2ZHRjdBUG1ycmfSAacBQVVfeXFMTjBSbkNOV2VVUnFLYTdLWjZCLTdJTVhZTFpQX1NaNzczaGhReENLdnpQV29uNnpkODRHOHRja3l2QW9tUm12bmJXR1ZhdnBSNUdKSDduYTViLVM0cXlsSmdQSnZCUmw0WktRQm1DWEtFX05RQWNOWTRvWER1QV9BeTV0dVBYWlRKXzhEZ1pFMHk1UDR4Y09vbnY0Z3EzbUo0QVlZR3Vzd28?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -647,6 +909,26 @@
       "source": "GNews | Africa Conflict",
       "priority": 0,
       "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Africa Day 2026: Bissau-Guinean Catholic Priest Warns of Africa’s Deepening Democracy Crisis - aciafrica.org",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSElDRlJtVHI2OWlTVVl4NEc2YVYwWklCb0ZMVkNuM2lqdkJOXy1ZM2R6SHRNYU1RTWFNVlBWNE1lc3Q3SDZJRTBlZVl3aUNpYUxJVlVLSlZweEVubXNLaUx2ckRhZHlUYWhMMmNyc3U0RVM5VTlKeU9taEY1YWh3UVc1SWNiVUlKTEFIRVJURkpNQUpidUFOR0xlcGM5OTZkZm5GbEM3Mmc0R1c3SVZIM3JHemZHNEY5SXFOeWdoTllySjR2aHfSAcsBQVVfeXFMTUZMZkEyV2dDWkVyQ2FZUjFsSXM3eVBqZ1NNNnk0bFBKZzRkMHlCc1hRdzJZM2R5SU1abHZUWU1KWU1IZFNibTJFNTEzT0haeHVhLXgzNzB2djFEMVdKRlJCeEg4M2pnbEtNSlJCWUdCUEVKQ3ZLQXBSY0dUSG1xNmNvSm5rdTRRbFpJTW9CZHR2TGctYXFKNlRpUm1YeGxfNHNleXBMRS1ROGlDa055dENYZEFEQlZ5OGZUa0g3ZWltUVN0R1BhVGlzd2c?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Africa Day 2026: Bissau-Guinean Catholic Priest Warns of Africa’s Deepening Democracy Crisis&nbsp;&nbsp;aciafrica.org",
+      "source": "GNews | Africa Conflict",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "وزير الاستثمار: نسعى لربط الفرص الاستثمارية في مصر بالأسواق الأفريقية - بوابة أخبار اليوم الإلكترونية",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOX0I3dnpKWG1qdlJFRXkyeU9xSEoxbC12S0k4SEdiWDV3a1I3UXpEbXI3NHE4NU0wT0hPaUhJQi1EelZjMGlBQlRZT3kxSDZwRGtJZFJEX3JmRFBqUTVqUGo0TU1sQWJzTENQandKQWtqU0k0VW5FUlU0SUxoMlJoazZPeFdRQUoxVTBvRjY4cDZYelJRcVBtbmFnVXRPLWFKdnhERkJuakJmMWpmaHNURGtLSmFmd2VEZkZnalZqemwtb3ZCN0M3OWxreTRVckZFbzluMDhLMXp3NGJyRTVoLXdmSU9PaWxzS0pOSkNrX2lPRm04ZFNDQXlaQTF4eVZLNm45ak01Y2NmOHhFWkdDblF5ckdsTjhBd244QXhEbGlSd2UwTDZfVFdxa1FvWjJMNlBYbHFDM21CdWZ6dHRJR29FSTBYTlp2SFhONFBfZGZ6TjFvakVOM2dGb2FiVDB0Z0s3T1ZFQTdwd0tSaXVVY0ZtWWVwQncxUnd2azZn?oc=5",
+      "published": "Tue, 19 May 2026 21:04:11 GMT",
+      "summary": "وزير الاستثمار: نسعى لربط الفرص الاستثمارية في مصر بالأسواق الأفريقية&nbsp;&nbsp;بوابة أخبار اليوم الإلكترونية",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -720,6 +1002,46 @@
       "relevance": "low"
     },
     {
+      "title": "البنك الإفريقى للتصدير والاستيراد: 9.5 مليار دولار لمصر تمت خلال السنوات الـ3 الماضية - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNd1ZrdW5SYzN1VU1TYkU5aHVvQ1pQWlRPbnd6cmFiMFJHNllJaVhpU0Rya2Z5UkgxMjNkSVVCMDVLbHB3aWFuYXpwdkJoUjktTkJtbkN3N2VDekR5M3RSdU9vLTVZeU93WXFvM3N3bEU1NmJpODNwdU1obTN1THdxVUZZNlBDREt1UmVMUkoxY1gxem1Fd2o3MUhpakZDQmFGMEhTVmk0RV9UUEZGeEI1NThvMHB0aVFSUDMyU0d2Y3dONlhiVEtJRGpDZExuRWN5Wi15d21mT1d2MEsxazBRdGxhUk1yUWtodV8zWWZ3V09zNFFEaUV1MzVjYndjNHZhRlEtU3dmT3VWOVQzYmFGeUM1cU1icEFpRDNKR251bE5HRUNjZjBMM2lYSi15eTY3NldqUy1vQmFKTE55c0R1WUdXcXF4N2pSZTBXMllQanhkOWVNTWM0Q3dISHpucGlFZTgxU3ZEamFHUmh0SExiVTlEcXNlMF91LWxoQjNwWnRrejE0LTZOWk5KN2ZIVnFHYThmXzNZVzZtVGQxZVkyNFByczZKSzdnWkhNY2YxVDY2ajllc3U1aVpPeXVnLXNfcklyVWkyZkdaeUtjUlpXQlhSTFJvUXhKN2pVWDJ0R1PSAdsDQVVfeXFMTnY1QXNuVV9RUFloTnhrMmRMVVV5X3k1WkdTSG90dEE4LUlQcmthRng1bkhBZm1kUmJHUzU1bUxoRmR1RmNPekx1SlhxVDMwLXh2eUo1Um9HLTRBVXl5ZURYdnpWZmhBUnVySEpiV1pabjVHU0ZxR1RZTk5IdGUySHdpOHRfblI2T3g0MEFNclhtbXE1ZUNHNTkwTG1LRVhDXzh2TDQ3V2RZSENiREZsSkh6YXRCUkszWmRfMDROSXBfRV96RV9WV2FjTk81aU1pUTJLeEJlclFkS19EMUJXaFd1YnQxNDBENy1FRk9ZcjBfZERvNFRxU3NmbWc1VWpnVWFmemVUWFJWenJsRVZVLXBkMkhwcnBSWWduTlE4bVZNRnBxdXJtZ0dlZnp4M3R1ejl5ZHQ4UEpmSDFMN2hzeXhXdjB1Z2Zzc3VySDZSdC1BZDkyMjc1QUxaYk5iRWtXWHdxenlGUjlleGdJU28tX29FY2ZrbXN3a0hrUktvVUtVeFVIZWNSVHN1RnpOZWJfYnBzemFyM2xoTHNhN0lreVJRMk5UVVpXVTgxeE9mWV9CbXpETWc3dzl5V21jbmJWWVNXX3E5dTd6Wm9lMy0zTVp5LVduX1Y4SnduTQ?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "البنك الإفريقى للتصدير والاستيراد: 9.5 مليار دولار لمصر تمت خلال السنوات الـ3 الماضية&nbsp;&nbsp;اليوم السابع",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Canada introduces legislation to ban social media for children under 16, regulate AI chatbots",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-canada-introduces-legislation-to-ban-social-media-for-children-under-16-regulate-ai-chatbots/",
+      "published": "Thu, 11 Jun 2026 05:02:30 GMT",
+      "summary": "OTTAWA, June 10 (Reuters) - The Canadian government introduced a digital safety bill on Wednesday that would ban social media for children under 16 with exemptions for platforms that meet certain safety standards, months after Australia enacted the world’s first social media ban for young people.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "CLEAN BREAK (PART 2): Property information withheld — the Cape Town planning tribunal that answers to no one",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-property-information-withheld-the-cape-town-planning-tribunal-that-answers-to-no-one/",
+      "published": "Thu, 11 Jun 2026 04:30:00 GMT",
+      "summary": "As members of Cape Town’s municipal planning tribunal can now effectively serve for life (as revealed in Part 1 of this series), Daily Maverick interrogates the tribunal’s lack of official employment records, the basis of its apparent property ‘development-above-all-else’ policy, and why it is withholding a critical legal opinion for which ordinary Capetonians have paid.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "AGE OF ACCOUNTABILITY: How Feroz Khan tried to circumvent Madlanga Commission and shot himself in the foot",
+      "link": "https://www.dailymaverick.co.za/article/2026-06-11-how-feroz-khan-tried-to-circumvent-madlanga-commission-and-shot-himself-in-the-foot/",
+      "published": "Thu, 11 Jun 2026 00:05:57 GMT",
+      "summary": "When Crime Intelligence head Major-General Feroz Khan launched an ex parte application seeking a ‘super injunction’ to place court proceedings in camera, he did not count on the Madlanga Commission’s swift legal pushback.",
+      "source": "Daily Maverick ZA",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "‘Some people’s lives matter more than others’: local responders in Sudan feel ignored as the world focuses on other crises - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWU5NRHdEVVhkM2J3djlSUG1tWFcxLVhCM2lYVVo5WDFnUk05M3dSWmpQVUZWWm9lUlhxNjVoczl4VnpWd0d4VHNySW92MDhSaHAxc1ZSaWVGZ0VyejZVV0hQZFdvWE00WFZ2OW90d0dxcmdQaENBR3YyS1ZSSGpKLUN2X1NkZ3NYbzJHS0pUNHVUaHpIMHhXUmlyZmdqRklhdlpFQlk2YUhnVTJTUFQzQzNCalRneVVnenpPUl9NQ213R2R0LUxBbEhRcXJnV1JqRlZYaDZKQjNHMmdOeXgyQWRCZzZMLTR6?oc=5",
       "published": "Sun, 31 May 2026 07:00:00 GMT",
@@ -730,11 +1052,71 @@
       "relevance": "low"
     },
     {
+      "title": "\"باستثمارات 35 مليون دولار\".. مدبولي يفتتح خط إنتاج جديد لـ \"كوكاكولا هيلينك مصر\" بالإسكندرية - جريدة المال",
+      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOQkNpZFBjRXZuX0NRZ0tXc3B3VUkwUVVaOUtqOUNsS0Rza3JMcTNuZXk5QlBoU0d6ZVBNcXRwNnBMZUFJdTdrUFoyTVBzZlVPTDBHS1poc3hWenUyTDRXaHhNWFlkMmZjN0VTdlF3NnlqUEsxODVpWXN1V1p6REZYN2pBb21XX1czb3c2YkU0SG9ibW5Kb0syVFpWRm9QWklfUXJYQndEUlM1bFBraW5tNlgwWGYyYksxX3hIc21idVhxTUMzZFZNcTh1R1piYkhRc2dONUdfQjRBb01tclVnc1ZlOEpfWFBwTm5uRVdrcVR3RXNoOFdKTUpMSkRsaWM0eG5Ocy1vM25SMXJUdjNFMUI3QU9IblAtWW1NUGFkbzhjZ1FjVHd3cS16UVo5RnR5MlBEZDlHNHlaMTg1ZWpLLUZhd3JGc3k3RkVKR1lrWHg0dEVkZkhMMQ?oc=5",
+      "published": "Sun, 07 Jun 2026 11:49:44 GMT",
+      "summary": "\"باستثمارات 35 مليون دولار\".. مدبولي يفتتح خط إنتاج جديد لـ \"كوكاكولا هيلينك مصر\" بالإسكندرية&nbsp;&nbsp;جريدة المال",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Cameroon Rail Project Driving Minim Martap Bauxite Development in 2026 - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN0pPRUNPRWwzUThlMXJ3ZHQ5OVN6aWJmRm8tRHVVTEZ6bEt0QzJ5WEkzeFY3UEZObDFjM00xd2UtX0dxbTdHVk5vMmFxRVd6TXk3ekh2Y2tBcmN4QVc2dk10cHFDV0dwWGxaVklNaWMwdERFNTZVS2h5X0dKMnB2bFpDX3Y0WVBZcWdFSw?oc=5",
       "published": "Sun, 07 Jun 2026 09:58:10 GMT",
       "summary": "Cameroon Rail Project Driving Minim Martap Bauxite Development in 2026&nbsp;&nbsp;Discovery Alert",
       "source": "GNews | Africa Infra",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
+      "title": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMixARBVV95cUxOalFUajNtZThWeUk4V29wQThtaFBLVFF4cUNvZld6WkhVbHplWnRESTdGS2NvQTZkd1NBdWdNekVGY0MzUU9EbUJIVGlMY3drVVpEaDdHQXVHYkp6UFl1Y2l6SXRUeGY0aDJGeXFQNE5TV3ZPTWdjMW53OVNHa0UyQTZxTklLYmlFSWZTRklBV1g1bUdaaERidEVMak5oeGR1T2oyUDR6YlVvM0dXc183cHRzVmdWRURDa1M2UjFkQ1NfQVpmeEVWdWZ2OHFKWVh1RFFfNlI0UkcxSzViODFJbms1T0tPOHlSc1pRb09IRWh0V1RZcTJjRnk1UVVhQVFlY3ktTGtxMEQzUW1pT1g1dTRhQjN0dGpqLWVtc255aGRkVVQ3dFNjY0ExOGhIdlZlVWh5RDdFb2dScEpmU1hwUmg0eWdiLXlhZUxxWVZPZmMxWEctWHZHRUtKdUs3OWkwWWN2dGNSdzB5NmQwMjlENHVLYVNkLURJMHpNbkZ4aHRCelliNGVqRWFtVGlCekMycWNoeVhMMlItbHV3Mm55OEtnb2s1VXphNXUyeWNldE85UEtCUUEwSmJmU0E2RXI5ZFJ3b3hrRnVPMjhiWENmNjJyNkRYelA5Zy1KZmRMY1lGNktpcHd4b0c5YnhxZnpPQlhadFFkdmdEM2s2WDQ4ZTZwQ3JiY0xyNGlSUFAxcVRhWDhWTDhQZmhIQXdvOERjRXFYQkd3bHRvWGhrTV9VYWpLVThLcWpjWTBYazEzaGVZVkhG0gG_BEFVX3lxTFBxMkRKT183TkxrckRQZUhIUE9ial8tMnltUFlyZjFPRk1QcXJIcWZ2Z1lhRXB4YXM4UTZteWxWdVJGLUlXeFpsYjJQNm80Y2pCcUhQNENHcU14dzhnWTZKYy1OQ1lDRDdhbFdReFBXQ3UtNkZNTFp6UHU3ZWZSSDdIdmVhcGZpeFR3c25LMkU0YVBUYTMxaVVUck9GTERHNFFhbmVUUngxSGVpMU5jZVBkZ2Y5eXVpcUxtc3Z0NF8wWGhJWVlUME1zbmRfd2dlT3hfXzNHUllKWjhiSk9rV2dqZ2JaTjFxWm5TS0FfZWhpRnpUSmx6cVFQbUZsYmhrNUFmNVJFYzFna1Jod0tDYXRCZFRkWklYU2VPSGhxM2R0RThkQkI5QmhxUkxNRExGYU80N3QzWVRGdTJPWjRBRkZkeXRWd0ZJSlBlQzZhaTBKQW9lSVhfSnhmVTd3akRRQ3pRZm9vQ2V0T0N5RFEyZW11NjR4V3lYalFJQjBDaFVsYnRuVm1XZ0JocjhyNDdMTUtZbnVhR1VIZmhQemt3NzBESnV6OElybGlXWUdoWVlKUFBWMHRma283QUxqdnJqWFRwR0ZQNDNfMmIzcVA1d3JsbnFJT0FvM3pFOFEwYkg0Qk9NelE4dExGQWlmY3ZGNnQ0WmU0S1lxS1A1V1JHVGlhTlM3b091cS1SM1JObDRiUVNJRmlpZjg3Ti0wVVdXWkZmSUgwTE52dEpIRFFqZVBONm5mMHIzU1FZWkdYRW1F?oc=5",
+      "published": "Sat, 06 Jun 2026 15:44:00 GMT",
+      "summary": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة&nbsp;&nbsp;اليوم السابع",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "أحمد كجوك: وزارة المالية الأكثر استفادة من تبسيط الإجراءات وتخفيف الأعباء على المستثمرين - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMingRBVV95cUxQN3FXODFZX0dVYlZ5MF9FMFdHWWRseURCck15Tk1lNkF2RWpfaGVpWHVvcl9xb3hrYjV2YzdNYlk1R3pHTGkxRmczRFpqNUw3WkhZcGNRSE00NDZzbllUcUdtR1FJODdETHNkVmgzaDdBR1A0QVdwSVQzeUd2OE92S0FkVTlWTTRtNUd4aTVqaW5xODZzaTVoX2t1MGszTmVKb1NQcGdXWDdfdkRLN0d5TVVWWlFHRC1Dd2FtQS1FcEVvUEdSOVQtYl9jX1V3U2JFempBOTJEMHhZd21HM3VEdy1YWllFY0YxcTFIU1g5eDNRcTcxQ1o2d0pvYUg2ZmZEamZ2RzFBaTBCMHZyYU5ZUEd2UEV4MVNpaFVZVml5S0VjUzhXZTdCS3piUVo1Y1FrR1NDRnFoYkh6ZTJSTnFjZ0VtUEc0V25oOENKdkFvOXl4dXJsY2E1NVAwQUozaHh0aTAwSmg3X3U5eXFKUURCaHk0UlUwbGVZRXYzVmlYaFN0VkpuclZkOER4YnNReGFmZFJNNk0zOFh6dU1JNVVJcE45eHFoRE9fcjNteHh0Z2NFdkV5TlRhTWhFVkNablFTTy1CMUVpNkZYQ2VXWmlEZk9RZlFBTUFxTWNfV0tXNVNFV3N3QXpPTHhZeWJScWlJamZYTnhYd2ZiTXU3VU9NbnlfN05uX1FaT0loOXFZUGo4bE80LWM3em9lVmlhd9IBmARBVV95cUxQR2VmSGcyczdXalo2T2toNmFBS0hLMkZPaFBxYkVRR01UeFZqNmg1eVcwTTZIYU1xak9Bd0k5cS1KSlNVQjdFaHBRejV3eEJkS2JjTnF4emItdlVBMVJaWjJCSXhLYzlOSjdERFMtSFBaY2R5dEtiNDA5bHRDekh5RWRfaVBKUlpfQS12UkdEd1N6Rko0ZV9fS3k1U3k3eWhjaFY4Rk5fUE1YMmJuaTVlN2NnZ1B4ZTgtNElaak5FTnF5bTJGX2NZY2ptZEctNHF3ampzSlhsR3lEUmhKMFVPN1hvYjN3VnczQlhjcEk2ckRVbEwzQktKTG1ZMC1xYTFGTGtZY2Q3bURSNUFHalFCRFRTYmhZMy0wNmlpcmY1X0p5RXpJcktsaWg0Y0k2eU14NzZONmJlTEVscUZTRzJTRHZlUUFFRlBtNENxYVBkUEJBUDJlLUZ0a3hVUGNsUFg3VXpQcWRybVdocUMzaTk2cTBLU0gzOWtJUG4ta1NzLWdhbDhIZlU2MUJkTENCSktoYzFOcHRVSklfMy14VWJuLWVtZjF3RU15c2pkYTltcmszUkhBN0NFdlpmcDQxZllWUGRXMU9uRjdIcGhZZXhxZVNGeFRwWjZ2ZlZoWENLd2lQM3NnaTRxNnFBeGpxbGNVYU5UR2RCeEVLNTM0SjUzSVR4RHhLQjlkYTdSemdrYmVhZDdiVVVkaA?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "أحمد كجوك: وزارة المالية الأكثر استفادة من تبسيط الإجراءات وتخفيف الأعباء على المستثمرين&nbsp;&nbsp;اليوم السابع",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "وزير الاستثمار يشارك في افتتاح خط الإنتاج الجديد لشركة دانون مصر - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxOQ1ZHUkxXRHNXU3dIUU1iNHMyM2tmeWpYWDVuY29BQzVxTWpoRkVkRGtRWHZPallvYWFkSFBtajRxeUdQSTFjRUtwcVN3ZjRRN01TQUx1X24zWi1DcWdjamt1UXdQbUREdGpmVG1lQ3hPYlJWekdMMEFvMlBEY2o0ZFh0bTdwV1JXQm1FNUdSZE9nbGtwcHNjUUJjV3RzTkJBN3pkMDU4V1ZXc1ZPalZLdl81Q0IzTzNLYS1UakhNT196ZjA2TTdXTXlnX0FQdHo5bk5MRU1EbjFJM1p6dVpXa29wd2Zud2pOZUYtemNZbmY3cURiY256N3lvNE1hamRBNEtJS1NlU1dJR1BuS0NYcVdsbzNDNUtZeUw0RkxyWGQ4ZV9SZnhRSENWcVlhX0x6ZzRmazZ6SzFBNTF2TEs4RXZVb0c5d2FVOGxjN2tvRTdiREVaV2p4VWtOWnQ0REN3OVlJRGNpcUtOOUQxWWd6ZU1Sd09ienRqZGRYUTlUc1cyYUtPRmRpbE5kelNhbE1yQ2prclFKWTFQUS1XMlNuYUUyN2p1MERON3BqWjh6YUhCdDVJaTQ1YlZ4Q3NUaG12ME4wckVhQ2ZWQkx1Q3BaNzF4cjAzTkpRdkdscWYzU3FaRjcycFNQTUlZUllEN0M0d2ZkNk10T0ZGcEdI0gH3A0FVX3lxTFBBa256Y0FzSjZfMGxLZWJZaU4tcWNLdUxMM1J3Z0xyQnZ6NHM4YmhvSU9zVXVrLVhvX3psRTVPZk5EdnFfYUwwNEpEa3RHRVh1eUxldFVyMmVMa3ZtY0cyS2tWYTA0M3lZWWJQV1cyR2FoTDdFSElrUno3Q18waWZaT0FMaDd4UkpuaVBWS2t2SV9PTnBLWWU4eWVsNmprTWF6NHVrQ2dVTzJZQ1RidHhlREdVazNtU29ILXVXaUcwT2lPUWFlazF3SFBYOWlRZTVoZG5oSUl1YTN3SjdPaThpdG9OaERlMjZoSUdXRmh3QTFVVzl3SGk4SEVlZE9hUEljam1PSkNKd0JWdnYxNXBQV3VBZ2kycDZfZTBTYmxabXAzdTdiN2FrWV9waXVvZkpOQmNrU0ItTms4YmVoaFl6aHIwdkFESGtReWY1ZUhUcnE5SU83MUY4X3pXVGlNT2Y5WTVseUx2bzhLdVNKcjgxMnVjQVBPZUNKOGdHMDdsUWdicEMwLTZSUGZsZmhLY0pKWHJLem1DdlAzb2ZJVk5uM3NvbDVxZ25YNUNEWUI0RVAtNm42MjNpMVBIOHpuOXBOVTdNS1I4N3dJX1R5TnhLdUs0NHRGU0JTWE9qNXFaX2p6eWk3bkNHVk1GYTByZDZ4M3RYTXdr?oc=5",
+      "published": "Mon, 08 Jun 2026 10:21:00 GMT",
+      "summary": "وزير الاستثمار يشارك في افتتاح خط الإنتاج الجديد لشركة دانون مصر&nbsp;&nbsp;اليوم السابع",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "«المثلث الذهبي» يرسم خريطة النمو الاقتصادي.. شراكة بين الحكومة والقطاع الخاص لتحويل مصر إلى مركز إقليمي للإنتاج والتصدير والاستثمار - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE04eEZ2TC14MjNDMFVhaFZ6Z3N0emtwNU9XTjZLM2JsSkVINUtBMlNSekpvM0l5UFU5X1BPaDFpQ3VJYjBBSWN3OG5nQUI?oc=5",
+      "published": "Mon, 08 Jun 2026 09:52:48 GMT",
+      "summary": "«المثلث الذهبي» يرسم خريطة النمو الاقتصادي.. شراكة بين الحكومة والقطاع الخاص لتحويل مصر إلى مركز إقليمي للإنتاج والتصدير والاستثمار&nbsp;&nbsp;جريدة النهار المصرية",
+      "source": "GNews | EG العربية",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Why Africa is emerging as a global hub for technological innovation - Capmad.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNendyZllpOXZqcGNQeDYxWmJGdzMyaHE3NGo5dEpJaWlpcmFfSHEzY3FtTmdQTE9pUXpaS3dwbTh2SHc4b3k3SzUwOVc0N2Y2SS1pb1BaUkd2SGdYM2M3azBqVjJOQUtDb0Q0NTR6ZTZaNTFtaXJldVVGa01BYWhzMUo1X294MGJYQ1l5eTc2Wnk2VUR2UmtzZ3o2QjdTWk8yV01UNjloR0I?oc=5",
+      "published": "Mon, 08 Jun 2026 05:01:47 GMT",
+      "summary": "Why Africa is emerging as a global hub for technological innovation&nbsp;&nbsp;Capmad.com",
+      "source": "GNews | Africa Tech",
       "priority": 0,
       "category": "基础设施+科技",
       "relevance": "low"

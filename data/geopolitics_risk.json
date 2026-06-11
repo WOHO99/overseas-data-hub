@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "全球治理与地缘风险",
-  "updated": "2026-06-11T04:02:57.933442+00:00",
+  "updated": "2026-06-11T04:20:52.520506+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 47,
-  "high_priority": 1,
-  "medium_priority": 14,
+  "total": 43,
+  "high_priority": 2,
+  "medium_priority": 16,
   "signal_alerts": {},
   "stats_by_category": {
     "联合国+国际治理": {
@@ -24,8 +24,12 @@
       "count": 90,
       "feeds": 3
     },
+    "本地语言搜索": {
+      "count": 60,
+      "feeds": 2
+    },
     "信号性查询": {
-      "count": 43,
+      "count": 59,
       "feeds": 3
     }
   },
@@ -33,10 +37,20 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlLUZSVWt0R3QwOVg1OENhbGZKXzBFbVk4Wi1kVGdvay1zRDN4Z2ZralpEZzVCV1N5Z2JUcUpYWFU1d3hLUThZVUxuN1JoTl9rLXJGMlhmT3o0NmdqR2c?oc=5",
+      "title": "Israel-Hamas War - Ceasefire and hostage exchange (January–March 2025) - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTV9ZTEEtZThadmhTZ1FXSTVPQzdhR1FieldETVczckJlREJmYXJWZXBjeDBQU0MwOUE5ODZXbnVmakI5LXVPRnpSZ2dWc3I1dDRUS19oNHVCNUhLQ1F4N0VlWXo4N2NrS0dyUE9Da3g4Ny1mX1h3cmtiU0RVY0NpakNRVGNjMFlySXI3QzV0U2kyTk9aQ2FNZ0ttMjlGSG1G?oc=5",
       "published": "Thu, 04 Jun 2026 05:00:00 GMT",
-      "summary": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map&nbsp;&nbsp;Britannica",
+      "summary": "Israel-Hamas War - Ceasefire and hostage exchange (January–March 2025)&nbsp;&nbsp;Britannica",
+      "source": "GNews | Israel-Gaza",
+      "priority": 10,
+      "category": "军事冲突",
+      "relevance": "high"
+    },
+    {
+      "title": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVRzT2dqanBvLTQ3Y19UYlRxdmotODZEOFl6NW4xX1VfMThSbU5IYUFOS0k0YXpPTVNNQ3FnMFMzOUpiV1k0NFoyckt1a0xwVFQtelNaa1RTNU5wb3ZtQUV1bE1Wd2JpTlhwR28zUnpmNkJvOGZxeTlfTmVTQndWZHBNMkQ5a1dhaFFkTg?oc=5",
+      "published": "Mon, 08 Jun 2026 22:45:06 GMT",
+      "summary": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal&nbsp;&nbsp;News On AIR",
       "source": "GNews | Israel-Gaza",
       "priority": 10,
       "category": "军事冲突",
@@ -83,6 +97,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Treaty on the Non-Proliferation of Nuclear Weapons - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeC0xYXNseWtJRjRqOTZqaGFvZEFXMlRRTS1aVm1rRDhpdk5weUZubVJVRld5dFhJRWx0cFVPZlBaR3JwQ0l5QnloM0JDTDRUSml6M2lvb1Y0UDdobmM2UFN4NXJUaWc1QU56a01mTjNPSlJLZ0NaNHRlNEFjNlBfT0F1UjU4aXFwVzFJ?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Treaty on the Non-Proliferation of Nuclear Weapons&nbsp;&nbsp;Britannica",
+      "source": "GNews | Arms Control",
+      "priority": 6,
+      "category": "联合国+国际治理",
+      "relevance": "medium"
+    },
+    {
+      "title": "Why Does the Middle East Suffer “Forever Wars”? - Carnegie Endowment for International Peace",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWG5xTlZ4VVdFUWNjX1NXLWtPZDF5b3JYTGp5c1A5cWktYUl6ajRObS1MV1dGU3BrVXhtS1JOVTFfWGpIcHc1R0xmUkpMS2N4YmE5UzB1Q0dtMVpvYkFuenFwbUJWSDRpV0M1bDJLdC1TeTJvS2ZRSXZ3ZTJwUXQxdWt4UkdwZDZKdXVueTNONmZfcXdPNW1TTGRPTGxLeEpqX1E?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "Why Does the Middle East Suffer “Forever Wars”?&nbsp;&nbsp;Carnegie Endowment for International Peace",
+      "source": "GNews | ME Conflict",
+      "priority": 5,
+      "category": "军事冲突",
+      "relevance": "medium"
+    },
+    {
       "title": "The Iran War is a Big Issue Among Many at the 2026 NPT RevCon - Stimson Center",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOFpNR1R0WnV2NWZiajhoLW9rS1BKZ215emZmcWg1d3lLS0Q3Mi1kRWxmVXR3T01KSFlicm4zMHhUUjZ6NzlzOU9pZUpXUzkxNjNMZjZ4TGpuUE1GWDhXLWVSazhaM3RaVTRqRkpRSzFLTFhGSTlSRGttclFCckRYdHdwQ0VLeVNQTi1sdGdWSm9EcmIwMHc?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
@@ -93,21 +127,11 @@
       "relevance": "medium"
     },
     {
-      "title": "The Powder Keg Called The Middle East: Geopolitical Instability, Strategic Rivalries, And The Specter Of Regional War – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMWNaMkhOZV85T19xRm9wNGVHYVZRb3luWGRaa2FwSXZKZ0x3d0dGMjduUTN5S1Z4OWpfeG5aazlGUlByWmZHaWpjSUtDZXBfanRCUFd5OTRQM21HS1lfN3FKTERPQk1NQUI1aDVPNFdEVzRqdVAyanNxZl9tMXBYTWR5VHRORk90bkpTNkl5bDZnVzQzWnpMUWo0bzI4bHBVXy1oTmk4SVI4Q3RjdTgzOU5tOHdPdWVmd08xclNzV2sweEhiS0JHVGpqUTFaUlR1Z0hKTlJhdm0zcU43NTFPVUUtdzhJeTlaNWhCWVY1LWJiaGJSWEE?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "The Powder Keg Called The Middle East: Geopolitical Instability, Strategic Rivalries, And The Specter Of Regional War – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | ME Conflict",
-      "priority": 5,
-      "category": "军事冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "China Reasserts Itself, to Contain North Korea’s Tilt Toward Russia - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2dzQkRCQWtTRm03MWQ1Rmszb3lQYWRhQVVSQ2hIeXBIVnFBOGxXMk1RLVdzXzhGd1I1VEFXQ2R6cmc2ZUl4aHVXRUlTZEt2YXpJWW1WWG5sUlVBcUZ6S2dTMGZ1U25XdElsTjdXTW9MWF9DX2ZYSk1EbjlhUEtUa3BzZVh2clI3Q1E?oc=5",
-      "published": "Mon, 08 Jun 2026 16:32:46 GMT",
-      "summary": "China Reasserts Itself, to Contain North Korea’s Tilt Toward Russia&nbsp;&nbsp;The New York Times",
-      "source": "GNews | DPRK",
+      "title": "Israel sends team to Qatar for talks with Hamas on ceasefire-hostages deal - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPenNwLUhremFvU2g4Nmd5Y24tS0JmV0ZaS0RnNWRRN1B0aGo0WUJpQmVUUDhucm8tOXZMaWdENElmckZlQmphaVd6WnlwY2VvNHpQRkY3cXN4bVdvbEwtLTZDczFFWmFoeGwzUzVMN1lpbm93TlZCcEJKOHlPRy1HRmJsaUNiTEt3Skl4Ty1PWGJ2SlVKQWs4TzU1djV6X0E0bnc?oc=5",
+      "published": "Mon, 08 Jun 2026 23:58:26 GMT",
+      "summary": "Israel sends team to Qatar for talks with Hamas on ceasefire-hostages deal&nbsp;&nbsp;News On AIR",
+      "source": "GNews | Israel-Gaza",
       "priority": 5,
       "category": "军事冲突",
       "relevance": "medium"
@@ -183,6 +207,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Russian Drone Strike in Romania Injures Civilians Near NATO Border - Military.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFl1YlE5NFo3YVNDMHFORVBWenl3VnJuTlI1VHVfQ0dibUtXZmh0SHkwMjV2LThlbldGbEZWWkJxTGNwMVUtX0gyLU5XQUhucTNNV1hDOHA5WGZKQmRjQlpvb0o3V2ZDUENaazY3aVpyOVEwcWFVYnRVYVgzMXdqVllPSy1oMFZPamppRldhaXZrTGNYLXc?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "Russian Drone Strike in Romania Injures Civilians Near NATO Border&nbsp;&nbsp;Military.com",
+      "source": "GNews | Signal: Emergency",
+      "priority": 3,
+      "category": "信号性查询",
+      "relevance": "medium"
+    },
+    {
       "title": "Taiwan Condemns China Coast Guard Patrols Near East - Modern Diplomacy",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVktaUWRKMm1Pek4yQ3J0YURocVRKcVNEd2habU45bl9SRm1XeHVUSzk5V3V6a19HTWl4T1NPUmdicDZfR0JqR1NFTEpmRUZoLVo0aEllVFVIbjZ5b1JDRVFUa1NrT3pJU2psamdXdF96S0Y1VmR2SS1YN2ZINk92N19VWGFDbkxwb0EySlpXZlZsWHJmUEVVMTB2RFRyX2xTMURGMGhEZWRLU3ljV3lwRXE3YjlzMVRpYllzclZXUkNncDJ1NWc?oc=5",
       "published": "Mon, 08 Jun 2026 02:12:48 GMT",
@@ -253,26 +287,6 @@
       "relevance": "low"
     },
     {
-      "title": "President Obama on Iran: ‘We pulled it off without firing a missile’ - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHlCWmIwTWo0T1IySUgyRGNSTWl3akRWcXcyS1p5ZUpiTHNwU2lGMVJIQi1pN0VLSVZGeTdkWTNKb09XckJCMWNwTWl2aVlSa3ZyN1VYLXZzX1Bma2dzS295OUs2MkswMURiNm0tdEFDLVZaLVZIRFZ5bXo1VlhYc2l5cFhKZmpS0gGOAUFVX3lxTE42b1dNQmxtT3V2dEF0cG9iWkY5VF94Tkl0THJTTW0xR20xbTMwWHJVcW5CdktEaGhEOXdGc2JZUU9GUE1BbHRfd1JCSEtDUFpReTFzMk1XUEVib1YyMmdlaG9zcGFVNmlad0pYc2lWQkNUZ2c3eWNfbjUyWDRveC0wWUlFdzZjOGE2NU5XSkE?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "President Obama on Iran: ‘We pulled it off without firing a missile’&nbsp;&nbsp;The Hill",
-      "source": "GNews | Iran Nuclear",
-      "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "China re‑centers North Korea ties as nuclear silence reshapes balance - NPR",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEd4dktMRGI3QkM4N1hLR0ZUbTY3NUpMOVZaMG1DLVRMZ21iNnlqanFGMUZ4bloxVXVGUUNCZUtBeF9fQzk5cUZHVXJMUDdnVWxCV1RvMHJVa01JaTVFdXllNjVLODMyQ2QyMEFTSXliQ09xVVFFRTJ3S1VHSTdxMDNFbXZXUEhJZlFhaEp5RklvSk54TFhZeg?oc=5",
-      "published": "Wed, 10 Jun 2026 10:30:00 GMT",
-      "summary": "China re‑centers North Korea ties as nuclear silence reshapes balance&nbsp;&nbsp;NPR",
-      "source": "GNews | DPRK",
-      "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
       "title": "US blocks Pakistan-China bid to blacklist BLA, Majeed Brigade at UNSC - The New Indian Express",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSDlEdnhkdE11Nk1vWVF5aHUxdTRiWC1rb2dZdjNwSmQ2RFRfQ1BEcnpUS09jcFZEaDZQUE5IYU1tSVl5a1JhbUlrMHhYb28wbGFEbGZyaVpJZHZIOTlzSnByb1JoaHVWYzJsb1FnRmxRWEJZRjBaVjZiZW4xWjJ6NGZaV1JCZF9FQ2ZoZ3FLb2NQSU9NMDdsdzhHekJmMzhSNUZQcS13VjVYbWJlR0dGOC01SFF2b1I0REM40gHIAUFVX3lxTE1RdC1rbHIteGd2dTRqTXFaZ0ZLc3NyNEIzcV95eklzQ3I4Qk9WWV91dk9CMWRvN00tMkZONGFwU094U05zN0UxcUQwZElsT1BPTDUzYi14SFU5ZkQyNXV5d3psVF9YQmJpWDRLd2NoQWpnYkhmdTYzcXdIWEZBR0xKMDZsdkpQWldHdjB1NmRPbGcxcUl4NG9PX0VpYktGR0xRYUMydVEweEs4clQ0SXhPWlN3U0R1Ty1adGNSZHpVVll5ZldIMkZT?oc=5",
       "published": "Wed, 10 Jun 2026 04:18:59 GMT",
@@ -283,13 +297,13 @@
       "relevance": "low"
     },
     {
-      "title": "China, North Korea to expand cooperation after Xi-Kim talks - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGNNQ1hoNjVZVnJjMEQxQUI2X2hUVGdObVhnN1NMT2d4NWV6SU9zVHRjVkZ0WktwemUwZUNrVVNTS0tvdVEtTXhaZmd3amRJSEd5bzNDelk5NlJ2VlppTTc0cFdBT21nOFVhbHAwQWV0WEdjZmJyREJDZEVkVlNVZHpzRzF2ay1OY2hyOVFXNkFXZmF1Y0Etd2JidGY0YTF1SWxsa9IBpAFBVV95cUxQdWJKTFdyMlMxMDd1UFVyLWJCZGxEc1JMMDRKMzdaTlV6OFZoTUNXNDhOMzd3RnZkdkI4SGFTNTh1SXNMZVoxeDFBSzY0NjlZcVA0VXhyTVdMb0l3OEVONFNUZTI2NWJ1UllSbTNLZmxTTVRBUWh3TVV1QllISWN4OUdGZm5VV1J3NmRNVkdNbmtjcURXY09UUUozV1h6cjJCYllDbg?oc=5",
-      "published": "Wed, 10 Jun 2026 03:13:09 GMT",
-      "summary": "China, North Korea to expand cooperation after Xi-Kim talks&nbsp;&nbsp;DW.com",
-      "source": "GNews | DPRK",
+      "title": "Мадяр пропонує Угорщину місцем переговорів та виступає за «прагматичні відносини» з РФ після війни - Укрінформ",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbDNnRzFMYWlOWDdMTU5fUVktVmZOZ1pUdFc3eTl0SnczWkJUNENCTS1qMVJtZElFeHVVUUU5a056amhGMUs3d3R5ZWZWUG95QVFkeWxuRnBrdUhjTWsxRldoRDhPcXppYXdkTjVhclNiZ3lyeGQ1cWNUSjVGUXJYTlNqY2huN2g4cFZOajlBVk5XaUFxdWZEOUQwTDlZME11Njh0aDV3S19OQmtUdzVfeWQ5MGNMVnNJb0JfY3pYRk5oVENNcFNrUzVOenVGVUN1YWMzZW1qM2t3amVv0gHiAUFVX3lxTE12bjQ0SWJueFNmU0VXbjFjVlRCSmYtT1BXdUpZTGxpUlVLMVR6X2tobDMtdGFxRi1uYUpjazRtZXNCYVFpaDVkNkNfYzNoLWVYYVp1MXRfRi1HU0VEZ1prYmNmZmlMSVRSWEREcjlNTmxkSHI4NnNtemtVTmN4X2JISXRwVUFUNU1fV211anpYNDI1ejlpVE1pV1ZqLXZsSzZXd3dISEpFS0pxa1FGMU8xT1hDQnNUekdtOTR4a0d1aGRiOTM0OXNRbWZTV0hweV9UYUJJSlF2SWNEb19RVlA2N0E?oc=5",
+      "published": "Wed, 03 Jun 2026 14:01:00 GMT",
+      "summary": "Мадяр пропонує Угорщину місцем переговорів та виступає за «прагматичні відносини» з РФ після війни&nbsp;&nbsp;Укрінформ",
+      "source": "GNews | UA Санкції",
       "priority": 0,
-      "category": "军事冲突",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -313,43 +327,13 @@
       "relevance": "low"
     },
     {
-      "title": "Patron problem: Kim Jong Un played Russia, rattled China and won - Asia Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXNUeVRjT2xwM3hOc0FDV2lIQ0JYT09UNFhMUnpOVlRGMV9iMDdPZHplMjdYNkx3M25XNGVyYkp4RDVzaWN6d2V4WHIzUUpNLUt1ZjhycG9JZmU2MHBLN3c2bGNDRndfQVZaU25XQ0RsRVd2NlVBX085Y1lzMXA5Q0hXOFRQM25xQzVibGJTWC1JeVZuRW1fSQ?oc=5",
-      "published": "Tue, 09 Jun 2026 19:09:12 GMT",
-      "summary": "Patron problem: Kim Jong Un played Russia, rattled China and won&nbsp;&nbsp;Asia Times",
-      "source": "GNews | DPRK",
+      "title": "Michigan Gov. Gretchen Whitmer says she's not running for U.S. president in 2028 - CBC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2xMaDhFMmhpcllKZTVyZVZHM1AtTTNDQk5QM0NqXzZkVjU2WE1OX3NPUE1UWnFNNFpzWWxsNUppTW85bXRMRnhDS0JLUms0a0hvSk9Bc25TV0tudlAwN20ybXEtT3hZN2xkTjYzbGdJdldhaVlBOWZINEVYWkphdUtXbEE3cVk?oc=5",
+      "published": "Thu, 28 May 2026 07:00:00 GMT",
+      "summary": "Michigan Gov. Gretchen Whitmer says she's not running for U.S. president in 2028&nbsp;&nbsp;CBC",
+      "source": "GNews | US Election",
       "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "Xi and Kim Agree to Strengthen ‘Strategic Relationship’ with Socialist Principles - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ0k0TTBZV0Zsa0RlWDQ5SGI2LUdLcjFoYlpwNUI3UXNFTjRnNzVCckxRNkNpRTNnamdtR3BSU1BZNWtueUNBb0kzWFllbmtEWEQ3bFFRbUY2SDdwc2tNejVma1VMQ3FmUkpOdVJ4V1lKX24tMkFuTWotRW5GNVZUcGY2dWlqNWZUbUx0UHJJeGtTSnJ4dUNOdEUtVkItVnhhSFFFck54WlhSSVRibEVMa0Jn?oc=5",
-      "published": "Tue, 09 Jun 2026 12:50:10 GMT",
-      "summary": "Xi and Kim Agree to Strengthen ‘Strategic Relationship’ with Socialist Principles&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | DPRK",
-      "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "China's leader reels in North Korea as Kim and Putin's alliance blossoms - Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdU1UN1pyTnViVzh2T2hjbFhsSm1SWXZWSFdZZHZxNW41M0dMMEs1bEZjWWw4TDdDazNtMVVJNU9tRDFwTENSSk8zNnJYdXdtYTE1QjZaUjYyZkYwWXhZSXAzOG10N3RjNXdjUTJtaU5QZzZ4T2FtUW5ZbDNLOEZ3c2Z3?oc=5",
-      "published": "Tue, 09 Jun 2026 08:29:00 GMT",
-      "summary": "China's leader reels in North Korea as Kim and Putin's alliance blossoms&nbsp;&nbsp;Newsweek",
-      "source": "GNews | DPRK",
-      "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "No Common Ground: The Breakdown of Consensus at the 2026 NPT RevCon - India's World",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcHMycEJjRThuSXlRejh5RlhzRVJVMzFVV3pCdGphUEUwa3h1dHBTOUs0VlpkeHRmR2hMN3NyYU4zNXo4V1FlXzBjU1NmX0ZnSHVqekNwOTdmYXl3ZWhQUUFZOTZBV1pGSmt0YUZWNE8xRmpJdnJpQW9YcXc4YUp0REZTWWJBT3dJclA1TXlqSmVVc2pL?oc=5",
-      "published": "Tue, 02 Jun 2026 13:36:33 GMT",
-      "summary": "No Common Ground: The Breakdown of Consensus at the 2026 NPT RevCon&nbsp;&nbsp;India's World",
-      "source": "GNews | Arms Control",
-      "priority": 0,
-      "category": "联合国+国际治理",
+      "category": "选举+政策",
       "relevance": "low"
     },
     {
@@ -393,6 +377,26 @@
       "relevance": "low"
     },
     {
+      "title": "\"Угроза безопасности во время войны\": 11 стран Европы призвали усилить визовые ограничения для граждан РФ - Obozrevatel",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOWl3d25tb0VkUWE4bm80RkpfaHUxbVJpTHpvY1BMMXpBdWNGNHo3LVRnWENfV0JkN3FYdmdnT05EZmZ1T0VKMWpSVmlvaWx4bDh3cXlMcWdsVXJ6NEFwdmg0Z1RWTGRoSk5QNVl2SzVDOFBkY2Z5c0VCSDJnMGZ3US1aV1B2emVWMGNpRUY4YkNjZ0dNRkxSczRuTHltZWlEd1JjdWxPMll0U3V3SXdxU0hyMUVFek1IZUJKbWpRNXhiSWZsVGZ3bVpJMkpSbzcxNEJPNV9BRFVNaXN6R2poZi1MQjJBcWNo0gHuAUFVX3lxTE10NXhDejJwdUEzMXpoN1J3TEM5X09ZZzAxb2g5SEszc1pUM0RnQ0NDdWdCdVd2TVV6Wm8yR2lQblY2TTVIeFQyeUd5YUVSR1k1bjh2ajNBaDlXUWM1MGtMVzIxMFFtQ1BzYTEwUm5zaU9VY3dUdVFPTHAzNXZ5bHN2RDdEZjA5akVvNFo1d3FIZU5fSTNXbEt0Y01GNDBqczcwYk9hVXZMSFNjRDUtWUN1cVdJS0lLS2JyRHhrc1czME1NMTM0XzVmVkljSmlvOUJrVW5sUWlFTTNtWHNhYnVGbzhfQnl0dk8xMVZGZFE?oc=5",
+      "published": "Thu, 04 Jun 2026 00:07:00 GMT",
+      "summary": "\"Угроза безопасности во время войны\": 11 стран Европы призвали усилить визовые ограничения для граждан РФ&nbsp;&nbsp;Obozrevatel",
+      "source": "GNews | RU Санкции",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Кремль потребовал от МОК объяснить двойные стандарты в отношении России - Эксперт - последние новости и публикации журнала Эксперт",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ONlI3MmF0cnNXc1V0eDIzOW9pSmFUcV9RTnE1LVp4Z1RtRUJsVWhYblFsbHc3aGs4LWhNaDI5cWN1d2FjT2N0RmtvM0JzR3R3WC1GZ2Vn?oc=5",
+      "published": "Sun, 17 May 2026 20:11:08 GMT",
+      "summary": "Кремль потребовал от МОК объяснить двойные стандарты в отношении России&nbsp;&nbsp;Эксперт - последние новости и публикации журнала Эксперт",
+      "source": "GNews | RU Санкции",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "UAE blames Iran or proxies for strike near nuclear plant, as Trump tells Tehran ‘clock is ticking’ - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNenBpWTRtUml3dFhzQ2VHcFgyVUVSMnB0THMyQ0NQMHZ5VmZ4b1dJZkVybE91bUlnMjlYU0J3UW5YeGZhQTFEemFndU9MX281S1doUmpSWEE1X0FtVFFYNG9LSXpRR3hDejBHbklSM0tGS3hJMlBwYjJMQlNhbm9ZRmhPR1diUWFnTUhSUGhFa21NdDZIYklqY3pDV1d4NnJWckJrTlBCY2ljRnVYYTlmTnBuQTVEMjVi?oc=5",
       "published": "Sun, 17 May 2026 07:00:00 GMT",
@@ -403,43 +407,13 @@
       "relevance": "low"
     },
     {
-      "title": "China and Russia are competing for influence over North Korea - The Economist",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVGNZNnBYamI0aXllaEg1RFZsUDJyaUdUTmljdGRGVFk4MjJkTWtraFZtNERQWjVMWEtPY09jX0l4WFNBc1B5Uzl1VVBMeFZ1Ukk4bXh5ZUlyZHpjUnp3c29FMFQ0bkNucG1YNlI2RzhMRUJoNzdLTFk1QVpNSVhtaVNUYkNnT1BFZDg2X1ZPNVNVQVFySFFhVklpOFBYSV9tbHJPTVZMdw?oc=5",
-      "published": "Sun, 07 Jun 2026 14:10:15 GMT",
-      "summary": "China and Russia are competing for influence over North Korea&nbsp;&nbsp;The Economist",
-      "source": "GNews | DPRK",
+      "title": "«Швидкого фіналу не буде»: експерт зробив невтішний прогноз щодо війни в Україні - glavred.net",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVzVGZHFvMkdyaXUza0tSZjkxaEdFam1hZ2dwZXpjbXlsZzdGZUE3aW43TUkxZWZVWTNSb3RuUEhzNWxncGtDYlFfNndURnRPdzNzS1M1bDMzakxIcG1ybGNjaU9zV3kyeVV2TEQ4bmJFWDZYWWE5ZllsVUNYVUYzeTVaV2F1bFhLVXIwVzY1YVM3Zy1PWDd0aDFqdjFxV3V4dFhMZG9DOWdFYzB6X3RtYTVlTE9uTHFpTWI00gHAAUFVX3lxTE9YUWtUQ3hrNTF5VWNHYlFLYUd1VVZqaEZyNUkwUXVSVVU5RDRKbVJhOC1QUGpUYUVXZnFUUkFYX19xTnBxeWluUnJYSnBVM016YjRmTXo2aFVpMl93V3JUOHJzcC1kU0VwVWVXUFNHem04LWxLRXJGcHVzXzVjQXEwQ3N4NTlXX0V6eXU2Y09tVVMxdGcyRG1oYzlSaWk4ak0zNXN2cnBnbThQeDJyWTdVY3FlcnZhcHlGbUZrbGdydw?oc=5",
+      "published": "Sun, 17 May 2026 07:00:00 GMT",
+      "summary": "«Швидкого фіналу не буде»: експерт зробив невтішний прогноз щодо війни в Україні&nbsp;&nbsp;glavred.net",
+      "source": "GNews | UA Санкції",
       "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "CNS Visiting Fellow program now available to French and U.S. nationals! - James Martin Center for Nonproliferation Studies",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNzRYSXJsazF3amRGTjNvMkVZRWZyRDdabWcweU55WjRreEV1dnVEa0xPNGlXZkZMV3ZCLTJ4UU9HYlVzUnJEdjViYkktN3hIR0ZTTnRfMkdUSU51X3pUN0MtNDBqTHVDMWlYYjlZTU1FekFQeWc2MXBaSjNON0FrNkJrdjJRcWNyNnA1UU85d1ltaWRw?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "CNS Visiting Fellow program now available to French and U.S. nationals!&nbsp;&nbsp;James Martin Center for Nonproliferation Studies",
-      "source": "GNews | Arms Control",
-      "priority": 0,
-      "category": "联合国+国际治理",
-      "relevance": "low"
-    },
-    {
-      "title": "Friendship or leverage: Why is Xi Jinping in North Korea? - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00Nzl3WGtpQk5zMVlQeUZaY29sMFlMOXcycEhiNVE2SHczaXRfY0t2VVh2WmtwZ242YVdWdkZzaFRLT21lME9VVzBJN2FrVnlzT2dSSHVNRHltQQ?oc=5",
-      "published": "Mon, 08 Jun 2026 14:22:38 GMT",
-      "summary": "Friendship or leverage: Why is Xi Jinping in North Korea?&nbsp;&nbsp;BBC",
-      "source": "GNews | DPRK",
-      "priority": 0,
-      "category": "军事冲突",
-      "relevance": "low"
-    },
-    {
-      "title": "A ‘Miraculous Transformation’: How Kim Jong-un Fortified North Korea - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFJ4NmJoNW9QbW9qQ240elN0cktydU9wR2JpWWRjd2JkZVhoT0QyZlRHQzB6dmRSWkJac0FDNVJ3TVpnSi1yYXI1dkwxV3l3b2NXYTYtSUYwSWZDQk0yNjY3TG50S1MxZ2RNbkVFaHFIZ0JSeGRNRGxUb3ZOU2NsRUlMcDREQjA4Z0otLVBuck5QYkhWb2c?oc=5",
-      "published": "Mon, 08 Jun 2026 04:01:16 GMT",
-      "summary": "A ‘Miraculous Transformation’: How Kim Jong-un Fortified North Korea&nbsp;&nbsp;The New York Times",
-      "source": "GNews | DPRK",
-      "priority": 0,
-      "category": "军事冲突",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -460,16 +434,6 @@
       "source": "GNews | Info War",
       "priority": 0,
       "category": "网络+安全",
-      "relevance": "low"
-    },
-    {
-      "title": "Sanctions Watch (May 2026) - cepr.net",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93X0N1X19tN1Ezb2NvbWkyenNTMWgwUEc0cG1UZ0c0MkhZVTlwZ2NIOUJmdzM5U3ZQOW9DR2FrSVNRVUlkVi02RW1MbXdMSW1ubGxJRllfQzYtdTI0Ni1jV1ZySTJ5Zw?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Sanctions Watch (May 2026)&nbsp;&nbsp;cepr.net",
-      "source": "GNews | New Sanctions",
-      "priority": 0,
-      "category": "选举+政策",
       "relevance": "low"
     },
     {
