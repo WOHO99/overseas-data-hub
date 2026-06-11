@@ -16,7 +16,8 @@ import sys
 import asyncio
 import time
 import re
-from datetime import datetime, timezone
+import hashlib
+from datetime import datetime, timezone, timedelta
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # 确保common.py可导入
@@ -343,13 +344,77 @@ def global_dedup():
 
 
 def build_index(seen, module_outputs):
-    from common import atomic_write_json
+    from common import atomic_write_json, link_hash
 
     now = datetime.now(timezone.utc)
     all_articles = list(seen.values())
     total_global = len(all_articles)
     high_global = len([a for a in all_articles if a["item"]["relevance"] == "high"])
     medium_global = len([a for a in all_articles if a["item"]["relevance"] == "medium"])
+
+    # P4-1: 源指纹计算 — 只从24h窗口文章计算
+    from common import parse_published_time
+    cutoff_24h = now - timedelta(hours=24)
+    source_fingerprint = {}
+    for output_file, data in module_outputs.items():
+        mod_name = data.get("module", output_file)
+        source_articles = {}  # tag -> [link_hashes]
+        for article in data.get("articles", []):
+            pt = parse_published_time(article.get("published", ""))
+            if pt is not None:
+                if pt.tzinfo is None:
+                    pt = pt.replace(tzinfo=timezone.utc)
+                if pt < cutoff_24h:
+                    continue  # 仅24h窗口
+            tag = article.get("source", "unknown")
+            h = link_hash(article["link"])
+            source_articles.setdefault(tag, []).append(h)
+        for tag, hashes in source_articles.items():
+            hashes.sort()
+            fp = hashlib.md5(",".join(hashes).encode()).hexdigest()[:12]
+            source_fingerprint[tag] = {
+                "fingerprint": fp,
+                "article_count": len(hashes),
+                "module": mod_name,
+            }
+
+    # 对比上一轮指纹
+    prev_fp_path = os.path.join(SCRIPT_DIR, "source_fingerprint.json")
+    prev_fingerprints = {}
+    if os.path.exists(prev_fp_path):
+        try:
+            with open(prev_fp_path, "r", encoding="utf-8") as f:
+                prev_fp_data = json.load(f)
+                for tag, info in prev_fp_data.get("sources", {}).items():
+                    prev_fingerprints[tag] = info.get("fingerprint", "")
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    fp_changes = {"unchanged": 0, "changed": 0, "new_source": 0}
+    for tag, info in source_fingerprint.items():
+        if tag in prev_fingerprints:
+            if info["fingerprint"] == prev_fingerprints[tag]:
+                info["status"] = "unchanged"
+                fp_changes["unchanged"] += 1
+            else:
+                info["status"] = "changed"
+                fp_changes["changed"] += 1
+        else:
+            info["status"] = "new_source"
+            fp_changes["new_source"] += 1
+
+    # 保存本轮指纹
+    fp_output = {
+        "version": "1.0",
+        "updated": now.isoformat(),
+        "fetch_date_utc": now.strftime("%Y-%m-%d"),
+        "window": "24h",
+        "summary": fp_changes,
+        "sources": source_fingerprint,
+    }
+    atomic_write_json(fp_output, prev_fp_path)
+    print(f"  Source fingerprint: {fp_changes['unchanged']} unchanged, "
+          f"{fp_changes['changed']} changed, {fp_changes['new_source']} new")
 
     module_stats = {}
     for entry in MODULE_REGISTRY:
@@ -397,6 +462,7 @@ def build_index(seen, module_outputs):
         "global_new": new_count_global,
         "global_continuing": cont_count_global,
         "global_signal_alerts": signal_alerts,
+        "source_fingerprint_summary": fp_changes,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
