@@ -207,6 +207,46 @@ def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
 
 
 # ============================================================
+# 增量状态管理 (P4-7)
+# ============================================================
+
+def load_last_state(state_dir):
+    """加载上一轮增量状态文件。返回 {module_name: {link_hash: "new"|"continuing"}} 字典"""
+    path = os.path.join(state_dir, "last_state.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_last_state(state_dir, state):
+    """保存增量状态文件"""
+    path = os.path.join(state_dir, "last_state.json")
+    atomic_write_json(state, path)
+
+
+def tag_incremental(items, prev_hashes):
+    """
+    对文章列表标记增量状态。
+    items: 当前轮文章列表（每项需有 "link" 字段）
+    prev_hashes: 上一轮该模块的 link_hash 集合 set(str)
+    返回: items（原地修改，添加 _incremental="new"|"continuing"），新hash集合
+    """
+    new_hashes = set()
+    for item in items:
+        h = link_hash(item["link"])
+        new_hashes.add(h)
+        if h in prev_hashes:
+            item["_incremental"] = "continuing"
+        else:
+            item["_incremental"] = "new"
+    return items, new_hashes
+
+
+# ============================================================
 # 关键词评分
 # ============================================================
 
@@ -318,8 +358,8 @@ def dedup_title_level(items, threshold=0.85, hours=24):
 # 模块运行
 # ============================================================
 
-async def run_module_async(config):
-    """异步运行单个模块"""
+async def run_module_async(config, prev_hashes=None):
+    """异步运行单个模块（subprocess隔离模式下prev_hashes不使用，增量标记由fetch_all.py在全局层面处理）"""
     name = config["name"]
     print(f"\n{'='*60}")
     print(f"MODULE: {name}")
@@ -378,6 +418,14 @@ async def run_module_async(config):
     if removed_by_age > 0:
         print(f"  After age filter ({max_age_days}d): {before_filter} → {len(unique_items)} (-{removed_by_age})")
 
+    # P4-7: 增量标记
+    if prev_hashes is None:
+        prev_hashes = set()
+    unique_items, new_hashes = tag_incremental(unique_items, prev_hashes)
+    new_count = sum(1 for i in unique_items if i.get("_incremental") == "new")
+    cont_count = sum(1 for i in unique_items if i.get("_incremental") == "continuing")
+    print(f"  Incremental: {new_count} new, {cont_count} continuing")
+
     for item in unique_items:
         if item["priority"] >= 10:
             item["relevance"] = "high"
@@ -422,12 +470,12 @@ async def run_module_async(config):
         print(f"  Rate limited feeds: {total_rate_limited}")
     print(f"  Output: {output_file}")
 
-    return output
+    return output, new_hashes
 
 
-def run_module(config):
+def run_module(config, prev_hashes=None):
     """同步包装"""
-    return asyncio.run(run_module_async(config))
+    return asyncio.run(run_module_async(config, prev_hashes))
 
 
 def atomic_write_json(data, filepath):

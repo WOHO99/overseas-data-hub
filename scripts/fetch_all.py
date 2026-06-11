@@ -228,8 +228,13 @@ def save_fail_counts(counts):
 
 
 def global_dedup():
-    """v4.2: Bucket分桶 + RapidFuzz 去重，替代 O(n²) difflib"""
-    from common import link_hash, title_similarity, parse_published_time
+    """v4.2: Bucket分桶 + RapidFuzz 去重，替代 O(n²) difflib
+    v4.3: P4-7 增量状态标记 — 对去重后文章标记 new/continuing
+    """
+    from common import link_hash, title_similarity, parse_published_time, load_last_state, save_last_state, tag_incremental
+
+    # 加载上一轮增量状态
+    prev_state = load_last_state(SCRIPT_DIR)
 
     seen = {}
     module_outputs = {}
@@ -300,6 +305,40 @@ def global_dedup():
     for entry in kept:
         h = link_hash(entry["item"]["link"])
         final_seen[h] = entry
+
+    # P4-7: 增量标记 — 对全局去重后的文章标记 new/continuing
+    all_hashes_prev = set()
+    for mod_name, hash_list in prev_state.items():
+        if isinstance(hash_list, list):
+            all_hashes_prev.update(hash_list)
+        # 兼容旧格式（dict with hash:status）
+        elif isinstance(hash_list, dict):
+            all_hashes_prev.update(hash_list.keys())
+
+    new_count = 0
+    cont_count = 0
+    for h, entry in final_seen.items():
+        if h in all_hashes_prev:
+            entry["item"]["_incremental"] = "continuing"
+            cont_count += 1
+        else:
+            entry["item"]["_incremental"] = "new"
+            new_count += 1
+    print(f"  Incremental: {new_count} new, {cont_count} continuing")
+
+    # 保存新一轮增量状态
+    new_state = {}
+    for entry in MODULE_REGISTRY:
+        mod_name = entry["module"]
+        output_file = entry["output"]
+        if output_file in module_outputs:
+            mod_hashes = []
+            for article in module_outputs[output_file].get("articles", []):
+                mod_hashes.append(link_hash(article["link"]))
+            new_state[mod_name] = mod_hashes
+    save_last_state(SCRIPT_DIR, new_state)
+    print(f"  Saved last_state.json ({len(new_state)} modules)")
+
     return final_seen, module_outputs
 
 
@@ -328,11 +367,18 @@ def build_index(seen, module_outputs):
             }
 
     high_articles = []
+    new_count_global = 0
+    cont_count_global = 0
     for a in all_articles:
         if a["item"]["relevance"] == "high":
             art = a["item"].copy()
             art["matched_modules"] = a["modules"]
             high_articles.append(art)
+        inc = a["item"].get("_incremental", "")
+        if inc == "new":
+            new_count_global += 1
+        elif inc == "continuing":
+            cont_count_global += 1
     high_articles.sort(key=lambda x: x["priority"], reverse=True)
 
     global_signal_counts = {}
@@ -342,12 +388,14 @@ def build_index(seen, module_outputs):
     signal_alerts = {k: v for k, v in global_signal_counts.items() if v >= 5}
 
     index = {
-        "version": "4.2",
+        "version": "4.3",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
         "global_high": high_global,
         "global_medium": medium_global,
+        "global_new": new_count_global,
+        "global_continuing": cont_count_global,
         "global_signal_alerts": signal_alerts,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
@@ -357,7 +405,7 @@ def build_index(seen, module_outputs):
 
 
 async def main_async():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.2")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.3")
     print(f"  Concurrency: {MAX_CONCURRENT} modules at a time")
     print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)")
     print(f"  Retry: {MAX_RETRIES}x on failure")
@@ -374,6 +422,7 @@ async def main_async():
     print(f"  Global total: {index['global_total']}")
     print(f"  Global high: {index['global_high']}")
     print(f"  Global medium: {index['global_medium']}")
+    print(f"  Global new: {index['global_new']}, continuing: {index['global_continuing']}")
     for mod, stat in index["modules"].items():
         rl = stat.get('rate_limited_feeds', 0)
         rl_tag = f" (rate_limited: {rl})" if rl else ""
