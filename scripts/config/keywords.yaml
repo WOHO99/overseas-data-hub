@@ -2,6 +2,32 @@
 # 改关键词不用动代码，直接在GitHub网页编辑此文件，Actions下次运行自动生效
 # 格式：每个模块三个词表（core=核心+5, important=重要+3, aux=辅助+1, signal=信号性+8）
 # signal: 信号性词汇，用于异常聚集检测，单独计分不进priority
+# source_authority: 源权威度系数（1.0-2.0），匹配source tag，score × coefficient
+
+# ============================================================
+# 全局源权威度系数 (P4-2)
+# ============================================================
+# 匹配规则：exact match > prefix match > 默认1.0
+# 系数范围：1.0 (普通) - 2.0 (最高权威)
+# 部署节奏：P4-2与P4-3/4分别在不同天部署，方便定位scoring变化来源
+source_authority:
+  "Reuters": 1.8
+  "Bloomberg": 1.8
+  "FedReg": 1.7
+  "SCMP": 1.5
+  "Nikkei Asia": 1.5
+  "CNBC": 1.4
+  "FT": 1.6
+  "WSJ": 1.6
+  "BBC": 1.3
+  "Al Jazeera": 1.3
+  "NHK": 1.3
+  "The Star MY": 1.1
+  "Jakarta Post": 1.1
+  "Bangkok Post": 1.1
+  "Straits Times": 1.2
+  # Google News搜索结果默认低系数（聚合非一手）
+  "GNews": 0.8
 
 # ============================================================
 # 场景模块（2个）

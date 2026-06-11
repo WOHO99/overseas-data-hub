@@ -51,7 +51,7 @@ _parse_executor = ThreadPoolExecutor(max_workers=MAX_PARSE_WORKERS)
 # ============================================================
 
 def load_keywords(config_dir, module_name):
-    """从keywords.yaml加载指定模块的关键词"""
+    """从keywords.yaml加载指定模块的关键词。返回 (core, important, aux, signal)"""
     kw_path = os.path.join(config_dir, "keywords.yaml")
     if not os.path.exists(kw_path):
         print(f"  [WARN] keywords.yaml not found at {kw_path}, using empty keywords")
@@ -71,6 +71,37 @@ def load_keywords(config_dir, module_name):
         mod_kw.get("aux", []),
         mod_kw.get("signal", []),
     )
+
+
+def load_source_authority(config_dir):
+    """从keywords.yaml加载全局源权威度系数表。返回 dict{tag_pattern: coefficient}"""
+    kw_path = os.path.join(config_dir, "keywords.yaml")
+    if not os.path.exists(kw_path):
+        return {}
+    with open(kw_path, "r", encoding="utf-8") as f:
+        all_kw = yaml.safe_load(f)
+    return all_kw.get("source_authority", {}) or {}
+
+
+def get_source_coefficient(source_tag, authority_map):
+    """
+    匹配源权威度系数。
+    规则：exact match > prefix match (前缀匹配 GNews|xxx → GNews) > 默认1.0
+    """
+    if not authority_map:
+        return 1.0
+    # 精确匹配
+    if source_tag in authority_map:
+        return authority_map[source_tag]
+    # 前缀匹配：取tag中 | 前的部分（如 "GNews | China Trade" → "GNews"）
+    prefix = source_tag.split("|")[0].strip() if "|" in source_tag else source_tag.split(":")[0].strip()
+    if prefix in authority_map:
+        return authority_map[prefix]
+    # 空格分隔的第一词（如 "FedReg | BIS" → "FedReg"）
+    first_word = source_tag.strip().split()[0] if source_tag else ""
+    if first_word in authority_map:
+        return authority_map[first_word]
+    return 1.0
 
 
 # ============================================================
@@ -250,18 +281,34 @@ def tag_incremental(items, prev_hashes):
 # 关键词评分
 # ============================================================
 
-def calc_priority(title, summary, core_kw, important_kw, aux_kw):
-    text = (title + " " + summary).lower()
+def calc_priority(title, summary, core_kw, important_kw, aux_kw, source_coefficient=1.0):
+    """计算文章优先级分数。source_coefficient: 源权威度系数(P4-2)，最终score × coefficient"""
+    # P4-3: 标题/摘要拆分权重 — 标题命中 ×1.5
+    title_lower = title.lower()
+    text_lower = (title + " " + summary).lower()
+
     score = 0
     for kw in core_kw:
-        if kw.lower() in text:
+        kw_l = kw.lower()
+        if kw_l in title_lower:
+            score += 5 * 1.5  # 标题命中 ×1.5
+        elif kw_l in text_lower:
             score += 5
     for kw in important_kw:
-        if kw.lower() in text:
+        kw_l = kw.lower()
+        if kw_l in title_lower:
+            score += 3 * 1.5
+        elif kw_l in text_lower:
             score += 3
     for kw in aux_kw:
-        if kw.lower() in text:
+        kw_l = kw.lower()
+        if kw_l in title_lower:
+            score += 1 * 1.5
+        elif kw_l in text_lower:
             score += 1
+
+    # P4-2: 乘以源权威度系数
+    score = round(score * source_coefficient, 2)
     return score
 
 
@@ -370,6 +417,13 @@ async def run_module_async(config, prev_hashes=None):
     aux_kw = config.get("aux_keywords", [])
     signal_kw = config.get("signal_keywords", [])
 
+    # P4-2: 加载源权威度系数表
+    config_dir = config.get("config_dir", "")
+    if not config_dir:
+        # 从common.py所在目录推断: scripts/config/
+        config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config")
+    authority_map = load_source_authority(config_dir)
+
     all_items = []
     stats = {}
     total_fail = 0
@@ -380,7 +434,8 @@ async def run_module_async(config, prev_hashes=None):
         items, fail_count, rate_limited_count = await fetch_feed_concurrent_async(feeds)
 
         for item in items:
-            item["priority"] = calc_priority(item["title"], item["summary"], core_kw, important_kw, aux_kw)
+            source_coeff = get_source_coefficient(item.get("source", ""), authority_map)
+            item["priority"] = calc_priority(item["title"], item["summary"], core_kw, important_kw, aux_kw, source_coeff)
             sig_hits = detect_signal_keywords(item["title"], item["summary"], signal_kw)
             if sig_hits:
                 item["signal_keywords"] = sig_hits
