@@ -1,200 +1,166 @@
 {
   "version": "4.2",
-  "updated": "2026-06-11T02:28:31.332764+00:00",
+  "updated": "2026-06-11T04:03:24.404629+00:00",
   "fetch_date_utc": "2026-06-11",
-  "global_total": 4644,
-  "global_high": 348,
-  "global_medium": 3860,
+  "global_total": 1199,
+  "global_high": 38,
+  "global_medium": 523,
   "global_signal_alerts": {
-    "unprecedented": 20,
-    "emergency meeting": 6,
-    "central bank": 53,
-    "supply disruption": 8,
-    "BIS": 5,
-    "record high": 19,
-    "coup": 8,
-    "warning": 5,
-    "political crisis": 6,
-    "breakthrough": 25,
-    "IMF": 5,
-    "force majeure": 9,
-    "discovery": 7,
-    "export ban": 6
+    "record high": 5
   },
   "modules": {
     "global_business": {
       "output_file": "global_business.json",
-      "total": 500,
-      "high": 58,
-      "medium": 423,
+      "total": 250,
+      "high": 13,
+      "medium": 53,
       "fail_feeds": 6,
       "signal_alerts": {
-        "force majeure": 2,
-        "supply disruption": 2,
-        "new restrictions": 1
+        "unprecedented": 1,
+        "record high": 1
       },
       "rate_limited_feeds": 0
     },
     "finance_global": {
       "output_file": "finance.json",
-      "total": 500,
-      "high": 8,
-      "medium": 426,
+      "total": 195,
+      "high": 5,
+      "medium": 77,
       "fail_feeds": 0,
       "signal_alerts": {
-        "central bank": 53,
-        "BIS": 5,
-        "warning": 5,
-        "emergency meeting": 4,
-        "IMF": 5,
-        "record high": 4,
+        "BIS": 2,
+        "warning": 2,
+        "central bank": 1,
+        "IMF": 2,
         "World Bank": 1
       },
       "rate_limited_feeds": 0
     },
     "tech_industry": {
       "output_file": "tech_industry.json",
-      "total": 400,
-      "high": 21,
-      "medium": 206,
+      "total": 92,
+      "high": 0,
+      "medium": 10,
       "fail_feeds": 0,
       "signal_alerts": {
-        "record high": 8,
-        "unprecedented": 7,
-        "breakthrough": 25,
-        "supply disruption": 1,
-        "discovery": 7
+        "record high": 2,
+        "breakthrough": 2,
+        "discovery": 3
       },
       "rate_limited_feeds": 0
     },
     "energy_commodities": {
       "output_file": "energy_commodities.json",
-      "total": 350,
-      "high": 6,
-      "medium": 316,
+      "total": 61,
+      "high": 1,
+      "medium": 35,
       "fail_feeds": 0,
       "signal_alerts": {
-        "force majeure": 7,
-        "record high": 5,
-        "export ban": 6,
-        "nationalization": 1,
-        "supply disruption": 3
+        "record high": 1,
+        "export ban": 1,
+        "supply disruption": 1
       },
       "rate_limited_feeds": 0
     },
     "geopolitics_risk": {
       "output_file": "geopolitics_risk.json",
-      "total": 350,
-      "high": 11,
-      "medium": 187,
+      "total": 47,
+      "high": 1,
+      "medium": 14,
       "fail_feeds": 0,
-      "signal_alerts": {
-        "emergency meeting": 1,
-        "red line": 1
-      },
+      "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "esg_sustainability": {
       "output_file": "esg_sustainability.json",
-      "total": 250,
-      "high": 3,
-      "medium": 234,
+      "total": 61,
+      "high": 0,
+      "medium": 17,
       "fail_feeds": 0,
-      "signal_alerts": {
-        "class action": 2,
-        "greenwashing scandal": 1,
-        "unprecedented": 1
-      },
+      "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "region_se_asia": {
       "output_file": "se_asia.json",
-      "total": 400,
-      "high": 46,
-      "medium": 354,
+      "total": 68,
+      "high": 1,
+      "medium": 34,
       "fail_feeds": 3,
-      "signal_alerts": {
-        "unprecedented": 1
-      },
+      "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "region_south_asia": {
       "output_file": "south_asia.json",
-      "total": 300,
-      "high": 33,
-      "medium": 267,
+      "total": 84,
+      "high": 2,
+      "medium": 45,
       "fail_feeds": 0,
       "signal_alerts": {
-        "record high": 2,
-        "political crisis": 2,
-        "emergency meeting": 1
+        "unprecedented": 1,
+        "record high": 1
       },
       "rate_limited_feeds": 0
     },
     "region_middle_east": {
       "output_file": "middle_east.json",
-      "total": 300,
-      "high": 29,
-      "medium": 271,
+      "total": 74,
+      "high": 3,
+      "medium": 37,
       "fail_feeds": 0,
       "signal_alerts": {
-        "unprecedented": 9,
-        "military escalation": 2
+        "unprecedented": 2
       },
       "rate_limited_feeds": 0
     },
     "region_latin_america": {
       "output_file": "latam.json",
-      "total": 300,
-      "high": 46,
-      "medium": 254,
+      "total": 37,
+      "high": 2,
+      "medium": 16,
       "fail_feeds": 0,
       "signal_alerts": {
-        "unprecedented": 2,
-        "political crisis": 4,
-        "default": 1
+        "political crisis": 1
       },
       "rate_limited_feeds": 0
     },
     "region_africa": {
       "output_file": "africa.json",
-      "total": 250,
-      "high": 11,
-      "medium": 239,
+      "total": 70,
+      "high": 4,
+      "medium": 50,
       "fail_feeds": 1,
       "signal_alerts": {
-        "coup": 8
+        "coup": 1
       },
       "rate_limited_feeds": 0
     },
     "region_europe": {
       "output_file": "europe.json",
-      "total": 300,
-      "high": 17,
-      "medium": 283,
+      "total": 88,
+      "high": 2,
+      "medium": 62,
       "fail_feeds": 1,
       "signal_alerts": {
-        "supply disruption": 2,
-        "energy crisis": 2
+        "supply disruption": 1
       },
       "rate_limited_feeds": 0
     },
     "region_cis": {
       "output_file": "cis.json",
-      "total": 250,
-      "high": 43,
-      "medium": 207,
+      "total": 43,
+      "high": 4,
+      "medium": 26,
       "fail_feeds": 0,
       "signal_alerts": {
-        "nuclear threat": 1
+        "nuclear threat": 2
       },
       "rate_limited_feeds": 0
     },
     "region_east_asia": {
       "output_file": "east_asia.json",
-      "total": 300,
-      "high": 21,
-      "medium": 279,
+      "total": 107,
+      "high": 0,
+      "medium": 58,
       "fail_feeds": 0,
       "signal_alerts": {},
       "rate_limited_feeds": 0
@@ -212,19 +178,6 @@
       "relevance": "high",
       "matched_modules": [
         "中东深度"
-      ]
-    },
-    {
-      "title": "EU Withdraws Tariff Benefits for Indian Garments, Textiles Raising Export Costs Ahead of FTA - Apparel Resources",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX1VOR0NtWDJaMVR6bVVBOTMzcUwwV1cyYlhYUEdVbDZQTzhQcUtYZ3ZkZUhRRzlyT1RpbnYxWmN0VEU2a08xV0FUN2RQRVNIOFNFT2R0VHI0aDFqVEJIanY5Rm1iNnppUFoxS0NxRzRyVVAxYklFQTNTWTltaU5Qb0ZVcl9oWldmcGFPSFdOMEpTSnZzM1A3RXBsVXVWWFBBdXpzZkFDMkNLQWtoaHVqNk1fNW8yWnEzTVh0TlBCUVlDdUk1X1Q5Rl9IUWI0X2E0QmdrM3V6UXl2Z2VGVU5Qd2lB?oc=5",
-      "published": "Fri, 23 Jan 2026 08:00:00 GMT",
-      "summary": "EU Withdraws Tariff Benefits for Indian Garments, Textiles Raising Export Costs Ahead of FTA&nbsp;&nbsp;Apparel Resources",
-      "source": "GNews | BD Garment/GSP",
-      "priority": 21,
-      "category": "孟加拉",
-      "relevance": "high",
-      "matched_modules": [
-        "南亚深度"
       ]
     },
     {
@@ -254,59 +207,6 @@
       ]
     },
     {
-      "title": "US auto exports to Canada plummet as number from Mexico rises amid trade war - Automotive News",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSXFPNTlZWWFReFFKYy1OcnZJZDhGRXBBR2t5YnNyblFad2N6OUdPU195RHFfUXMwSmVSRG1sdjRsb3UwbFJFWk1hTjJJcC0xdlBLNDMyd1lQMEt3V3hIWVVUb0J6XzhuSWRsWTlFSm9mdlNGbGxXQnZ0dXljVURfTkRhV1FxUGJGc3hqRjRCMVg?oc=5",
-      "published": "Tue, 12 Aug 2025 07:00:00 GMT",
-      "summary": "US auto exports to Canada plummet as number from Mexico rises amid trade war&nbsp;&nbsp;Automotive News",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 20,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "The EU’s CBAM enters a New Phase: Why the EU’s Carbon Border Tax Matters - ClearBlue Markets",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU2Z5QmY4U0JMaEhtRnl3dFRENnNhQjhzQ1NldUVmcWRwT2kwN0tlM2RLQkZkdVRYdnM3R00tczZnUWVVTVRrY3BJQjJZNkRseVFfcVE4WUR3T1dyREJaOWJGaDF0bEh6RVpJaWRfQ1hTcWx6Z195NzE5cXYzRV9Ud1ZZcVVrbEJSV3R5N3VaYlRkelc1OG1aZDM5VEs5Z3BUZUhSLU01RjFWTFdWSF9UWmlHWGctTjFM0gHIAUFVX3lxTE96SlNocjYzQkE2ZG1aNW1ldngzM3NoQnZGZmhrb2RXMVpZcHRQSTYyZXJOcmxHcGszV1lsN2pqOVQyS29YakFMVElzNXdrR0VxNXhvNEtTbzJiaExtUnJsRGtWLVBzcEZnQTM0NnZyZVR5TzFUZjAyZ0JzaVJhQjVxeUR2YXVxYS1FMUhiX19NZGtialZxTFFYTDhEZ1J0QmFfWjFrc2pBUGdqTDdKZHo3T1laSjVkRXBkSXd5Z1h5R1FCT0RDZkU5?oc=5",
-      "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-      "summary": "The EU’s CBAM enters a New Phase: Why the EU’s Carbon Border Tax Matters&nbsp;&nbsp;ClearBlue Markets",
-      "source": "GNews | EU CBAM",
-      "priority": 19,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球能源与大宗商品",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Mexico Pushes Zero Tariffs on Auto Exports Ahead of USMCA - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQUc0V3FfZXhDQkdJaUt6OE5tRGZVWXRTMkRCaXhNbllQSTY0X0xlSXJCSlJPNXpRbUpMRmpMa21ubm9rMFN6UTBGY01qdzhLMkw0Y29YOTN6YTFEQzAySXZXRWtUMzZuVUM4WFNaczNOMmJOejVrY3N6T3lqa2RzZUU2bjBQZVZUeXBkNTNRWkN3UVN4cVFkYXdmWQ?oc=5",
-      "published": "Mon, 23 Mar 2026 07:00:00 GMT",
-      "summary": "Mexico Pushes Zero Tariffs on Auto Exports Ahead of USMCA&nbsp;&nbsp;Mexico Business News",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 19,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "US firms pay price for Trump’s China tariffs, export controls, study finds",
-      "link": "https://www.scmp.com/news/us/economy-trade-business/article/3356666/us-firms-pay-price-trumps-china-tariffs-export-controls-study-finds?utm_source=rss_feed",
-      "published": "Wed, 10 Jun 2026 13:52:53 +0000",
-      "summary": "The Trump administration’s export controls, sanctions and tariffs are hurting American firms in China without achieving their policy goals of blocking critical technology or reviving US manufacturing, according to a new business survey.\n“US export controls are not calibrated to empower American companies … Instead, they are forcing buyers to go elsewhere,” the US-China Business Council (USBC) said on Wednesday, releasing the results of its annual member survey.\n“Export controls are less...",
-      "source": "SCMP Economy",
-      "priority": 18,
-      "category": "全球财经",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
       "title": "USTR Proposes 301 Tariffs on 60 Countries Following Forced Labor Findings; Requests Comments Before July 7th Hearing - JD Supra",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fV0pNam45WnpoNFFTTjNFcHVXWVJVd1F2UFhkbWYyZE5Id2xkUTdRaDllQkNKY2c3ZmFqbjhYTkVHTzRYVjhMTnlPTk9GSnZYTTVjU1lDZGppQ2Q3ZEVEV19RRWxqcnNoV2ZoQUxENVlxVnkxQ0t5YkV1SDdWak0?oc=5",
       "published": "Wed, 03 Jun 2026 19:44:41 GMT",
@@ -317,85 +217,6 @@
       "relevance": "high",
       "matched_modules": [
         "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Reshoring, friendshoring, nearshoring are reshaping global supply chains of medical devices sector - ET HealthWorld",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQYTJnUlNlSUw0TlpNMENRZWw1Ul9Wakl4TGVSang0UFlxSFZmV2NfV0dvbFNJeFB6U2c5TkVLdVg4SUxQRHh6cERyVnZuWWxfWTgwbE9IZnBSRHFNT3ZhNnNTYkFQbEQzZ2ZOb01NSG55ekh6WmFzaDZNVzhFNFlKME9kM0hfVFVYbG80WVA0M05MbkEydkRDa291YmlHNnBuV21oajZOdWFPbWM0S1cxTW1ORjJPWWRzQ3pYb3docjdLOExiUndXR2ZUT1V0ZExHOGRwcXM3Vlp5bUttNnV2ckk1WEJ1UWV1XzF1azEteDJVcF9PT0dfS05DbUhNd2U00gGGAkFVX3lxTFBJS0luZV9lem1tZ2VPXzQzQXVFRU9WM0tna0ZVUXZSZGRWY3ZQMUZoY1c1bHdENjBmQVY2cXduVG1lR3pJTmFoc05rZGo2U2dBSkR3cFIyLXM2cThGMzRQZnpMQV9xMDRyWDkybEFzNTZTYndrVHhfWkxPSjdZV0JKN3lManVzeEkwVGFPSVFiMHlfaFlha2pXaUtBUTdQbjZraS1hdndyV1JodTlSSnlYX3BtRFFPa29DaWhZc1FkSWNOVngyV2ZXZDVla3F0N3pEN3JMS1ZycHpEUV9aUFAwMTU3OUxKNjQ1aGNOY2toUkMyd0VLNXpHaWVOSjc5blBaTllDUVE?oc=5",
-      "published": "Fri, 24 May 2024 07:00:00 GMT",
-      "summary": "Reshoring, friendshoring, nearshoring are reshaping global supply chains of medical devices sector&nbsp;&nbsp;ET HealthWorld",
-      "source": "GNews | SC Restructuring",
-      "priority": 18,
-      "category": "全球产业链重构",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Entire Treasury Yield Curve from 3 Months to 30 Years Has Risen since Fed’s Rate Cut. Mortgage Rates too. Bond Market Edgy about Inflation & Supply - Wolf Street",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTGtQQklpSkxoenZmUG12TUVaNjYxZjB3MEdRM3dPUlkzckE5dTNtZjNucC1GV0UzYk9NWXRrV18zNmplSDZSajViVk5mbzB0WkE3b1lWc00xMTNPUWdlYmtUNzdjRWVSel96SF9rWUh4Z3VZMHFmNzFCbk14eE5PRm1hYWxBMGhnbEZwNjlscHVnOS1xSU54SVJIWkYyTnhfY3NPTDNrTThFMV9vVFNTQWltT2J6VE5nWkRoSWtvdTdYeHAxNHlwREU3X1NYb0NRRWdyRFkzOXRXbXdpQnhKMEsxbFdhT2pfU0xvdlJoTk9xZFFPdDNNbzF0WklIaC1VeUhHckd5Rkg?oc=5",
-      "published": "Sun, 09 Nov 2025 08:00:00 GMT",
-      "summary": "Entire Treasury Yield Curve from 3 Months to 30 Years Has Risen since Fed’s Rate Cut. Mortgage Rates too. Bond Market Edgy about Inflation & Supply&nbsp;&nbsp;Wolf Street",
-      "source": "GNews | US Treasury",
-      "priority": 18,
-      "category": "债市+信用",
-      "relevance": "high",
-      "matched_modules": [
-        "全球宏观与资本流动"
-      ]
-    },
-    {
-      "title": "Nvidia, TSMC and ASML – Three Companies That Won’t Have Significant Competition For the Next 5 Years - Dr. Robert Castellano's Semiconductor Deep Dive Newsletter",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeEI2OGE5WVo0Rnh1MkNoQzNEaWNYQlFpVllmOHE5NkgwbnVxSklSckxRM3NwSDNSOE9MTm5LcmQ3M3BSNjJrbVR6ZWtvVW5uYjYzaDgwUl9ZcHNDcDJGYlZDVjkwTXZSUGIxN2duZWFJQnBiOGRYUmdhWmdlLWpyTy1zd2k?oc=5",
-      "published": "Sat, 20 Jul 2024 07:00:00 GMT",
-      "summary": "Nvidia, TSMC and ASML – Three Companies That Won’t Have Significant Competition For the Next 5 Years&nbsp;&nbsp;Dr. Robert Castellano's Semiconductor Deep Dive Newsletter",
-      "source": "GNews | Chip Foundry",
-      "priority": 18,
-      "category": "半导体",
-      "relevance": "high",
-      "matched_modules": [
-        "全球科技与工业前沿"
-      ]
-    },
-    {
-      "title": "Trump’s zero tariff on Bangladesh textiles: No reason for India to worry? Why exports are unlikely to ris - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQYnowZ0hNTy0wVnZTcWgzNDZDUzFCa0Y4MkFoWjZ5akZCRzlYNkFmbHJWczgzdHFlZmxPUWdPWkNubUVvRk9JcGMzclJna1RZS3lpR09NOTR1YjlhQnZFd3htdzRTSE1CTlplVHg4S2FCM1Fkc2lXOTc2N2Q5SVNlSFZ1NlVmNHlERm5KMllVYXZQODBfdTgwVUd1blYyX1JjOFpBUVVMYTlid2RUb2RVdjk0UXY3WVBBUThzbWRmMGNhWXFRem01djVLcU1IWmlseE1mbFI3OFJOYm9WYU1reGhLeXVRSHlEdWtVb19hdHFCRHRQZFVEOGFFTkRXcmpBZmN0WTJnZV91QllBRWF6MFctMGp2eXl0Q25lUndBNNIBpAJBVV95cUxNbVpHOVNLanpSdExkOF8xZjJLUzQ0Yms1Y1h3VGVKOGk1YjdzbFhLZ1JWc2s2TGI4QVRxa0d1eEg3SXJPU2Q4SWxsQTYwaHFBSUZrQ00wMGZ4NlhrVzdsbndNcXVid1lCS2FCVmZpZ3NpdktWZmxsY3haZk9nX25iOHRjanN3cGhLUmZlS1pJekljdVdJQUVGeEFJS1dCcVlDVG9iNUVoQTdRaGdaN0l0WkxUdVZ5WGRjVVRoR1ZTeWMtLWtVQnE4WTdobk5DN2ppZ21RU1FPckRJbURwQktRdkk2bVBUTnBHMFpuM2x3RnVFb0puQ3pYUnZYalFSMjVDOTVCenpvWmUyTmFvU3BhcEJOWkt0T1RUM0JCMW5DdHNwUjZz?oc=5",
-      "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-      "summary": "Trump’s zero tariff on Bangladesh textiles: No reason for India to worry? Why exports are unlikely to ris&nbsp;&nbsp;The Times of India",
-      "source": "GNews | BD Garment/GSP",
-      "priority": 18,
-      "category": "孟加拉",
-      "relevance": "high",
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "China’s Manufacturing FDI in ASEAN Grew Rapidly, But Faces Tariff Headwinds - Rhodium Group",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdG1IVmxxOGpFZVdqNWRFTXY5bE84ZUIzVE85aEhHeUlGU3ZOUlctYnV0QXdmajBldEx6VEhDZkFHUEJzQ2hCYm9URGlDM3RoeWhhNVF6ajlFN0EydGVJT24xX0t0MndHMFhvUVN3UWpIUWZUcWpFQkxUcEJwUEtZbm5qTWZRZWxyWFh2WjRxcHd6bXU4UF9YTGU3Z1MzQkFF?oc=5",
-      "published": "Thu, 24 Apr 2025 07:00:00 GMT",
-      "summary": "China’s Manufacturing FDI in ASEAN Grew Rapidly, But Faces Tariff Headwinds&nbsp;&nbsp;Rhodium Group",
-      "source": "GNews | VN Tariff",
-      "priority": 17,
-      "category": "越南",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "How U.S. Tariff Exemptions on Electronics Could Reshape Southeast Asia’s Manufacturing Landscape - ASEAN Briefing",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFlhWHVZWWVtSHBTZ2hwNGtldHNQR01UNkxrMU5qWWJCR3pUemZySlk2V1VuR1ByRnBuQld6cU96UHB3S2FXOWhwcHJWVk0wMlF2MjNLWUlzVEZ1bjdhX2FfMF8xLWg4RlhvblB2Nkc5aldOUHRVeGFydk9OZEl1TFBaSW16Zjhra0xSTVZTT2t5TjNoQk9Td3BFTG9aSWNmZ1BRS2dOcmFnazJUY2o0R29FQVZDTF9tT3JlRERZd3d6bUticjN3Ylp3?oc=5",
-      "published": "Mon, 14 Apr 2025 07:00:00 GMT",
-      "summary": "How U.S. Tariff Exemptions on Electronics Could Reshape Southeast Asia’s Manufacturing Landscape&nbsp;&nbsp;ASEAN Briefing",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 17,
-      "category": "马来西亚",
-      "relevance": "high",
-      "matched_modules": [
-        "东南亚深度"
       ]
     },
     {
@@ -412,257 +233,6 @@
       ]
     },
     {
-      "title": "Coalition of the Willing: EU and UK, but Not the US, Impose New Russia Sanctions - Crowell & Moring LLP",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNVJHMG1fd0V3NFJkSnMzUnozcUgzZEJCMW4zN3VqaWNsN3o5QTlTT0hoR2FySmhDWlI5SU02TllWUlBuXzJvdmtPcjI1bXVTcDEzU2Rvb2gzRDEzQUQxaDc1ci0wQ1BaOUpURnpVcFJxRmQ5QVQ4T2liR2xnVmdBRHVYTDF0TzB4ckZkQmQzc2ZzWTZPVGRxVW9hNEJvRl9QaVR3aEFZWU5MYk9OVEdWaG1zLTV5cG9oeG5ERkRNN2dvVHhkM0E?oc=5",
-      "published": "Tue, 04 Mar 2025 17:38:00 GMT",
-      "summary": "Coalition of the Willing: EU and UK, but Not the US, Impose New Russia Sanctions&nbsp;&nbsp;Crowell & Moring LLP",
-      "source": "GNews | EU Sanctions",
-      "priority": 17,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Western governments issue joint warning over Russian sanctions evasion - Global Trade Review (GTR)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObGVudzJIa0J1VHBVcHF0VEZ0ZHR1UXpvMnJ1TWQ1eUw1SWc3RXFGaVd2REh3VXIxaEVYTTFkWk93SmtJSDJsaFdWZFhWSk9tUWdNQ1huSjRwem1Jd3J4ZVI1UFVOZ05lMXI3ZDN2LURld2JpTFB2VXIwUi1kNDliSDYydHVDb291VzNfcldYZHI3Y29OZXlfSHQtbE5fTUl2b0VJOFNxRzNNNlI0?oc=5",
-      "published": "Wed, 02 Oct 2024 07:00:00 GMT",
-      "summary": "Western governments issue joint warning over Russian sanctions evasion&nbsp;&nbsp;Global Trade Review (GTR)",
-      "source": "GNews | RU Evasion",
-      "priority": 17,
-      "category": "俄罗斯",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "US Further Tightens Grip with New Export Control Restrictions, Sanctions on Russia and Belarus - Morgan Lewis",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcGZ6cWlveFJmSHhCZHNMcC1mc0wwd3F4N0tDTGh2RG5vMDYtNHA3c2U3a0RsRHJxREFKSFJtQmhpLXFvdGxlay1QeDlmblN0a0ZsSVdSSUtJM1RqbW51OW9UcC1CckEzQ1RiZXlCMTFmSERobldjNFZQSHpKT0RvbDZtMm5LUUtPU1p4dElwcTJ6bHJ4SDg1UnpNUXhNbU00ajRFVjVDeHBKeFA0OHR3ZlIwbnRXU2k5aTNTM3hnWlhfY1VLdElFVG11ZmgwTjA?oc=5",
-      "published": "Tue, 25 Jun 2024 07:00:00 GMT",
-      "summary": "US Further Tightens Grip with New Export Control Restrictions, Sanctions on Russia and Belarus&nbsp;&nbsp;Morgan Lewis",
-      "source": "GNews | RU Evasion",
-      "priority": 17,
-      "category": "俄罗斯",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "Wider Europe Briefing: The EU's Plan To Defeat Russia In Armenia And Belarus After US Potash Sanctions Lifted - Radio Free Europe/Radio Liberty",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMGpISVJJVk5vMUhINlZNdk5LQ2NvdHQtR0VsdTRJVVZ5eU8zVDdHcG5NMGNhTXktaTlBRWhjUFBna3U4aGU5VFhPVWZMWUNGbkF1Zy02SzRhaW9fWm9iVkZ3QnNic2JERVpiQTR0a0ZTdmdrVDBYOGVxdWo5UnppWVNGeTJjZU16OTVNcFJLbVp1eUU1N1E?oc=5",
-      "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-      "summary": "Wider Europe Briefing: The EU's Plan To Defeat Russia In Armenia And Belarus After US Potash Sanctions Lifted&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
-      "source": "GNews | BY Sanctions",
-      "priority": 17,
-      "category": "白俄罗斯+能源",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "USTR to review China tariffs as Section 301 takes center stage - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTVVtVGx6R05MN0tKT3pLSDlBTFhzTzhmSWx0azA3Slhxa0R5bzlKUjBLUlFWZ052TE1UaER0RzZsSG9KSEtEOEp0dUx3WFNveTlUSzRzcTVpb3drZG50TUZOMG94RmZDSUZDeGNHTUx5X0FLQkFnRFR5SzlwOFNpX0RxVDJpZWxrZ1VhaTVSNEZpTkhRRjNmMWlwaUw0dVBsSHVQUmxma2Z6ZlE?oc=5",
-      "published": "Wed, 06 May 2026 07:00:00 GMT",
-      "summary": "USTR to review China tariffs as Section 301 takes center stage&nbsp;&nbsp;Supply Chain Dive",
-      "source": "GNews | China Trade/Tariff",
-      "priority": 16,
-      "category": "全球财经",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Shape of trade: leveraging nearshoring, friendshoring and reshoring to overcome rising uncertainties - Allianz Trade",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWxwWDFwYUZfMEREYjZMdE9pd2Z4OFo3UFozZnVleTg2OGVPQnJpN0VfRm1acTI0ZmVZbGlQTVFJdWowcmJtRU9NQnpZLVVadzRNVm80ZUdrRVd3RFBVemxCSjZYSnEySExIMWowYlJXMlUwbE1UdndIcy1YLUcyLTQwa3A0YjNvQmZzR1h6SUFndEs2cEdGN29XMjg2Zw?oc=5",
-      "published": "Wed, 05 Feb 2025 08:00:00 GMT",
-      "summary": "Shape of trade: leveraging nearshoring, friendshoring and reshoring to overcome rising uncertainties&nbsp;&nbsp;Allianz Trade",
-      "source": "GNews | SC Restructuring",
-      "priority": 16,
-      "category": "全球产业链重构",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Friendshoring? Nearshoring? Reshoring? How the U.S. Trade Relationship with China Is Evolving - Stanford University",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZTFOczNxbXBWM2owMEs5M3pmOHpBLWVfZXlrck9XZ2VvTUdnZ0RQSTRqVTFGS1oyLXR6N0w5WWk3WnVlR0xzc1BrNVlkZXRZUzMyS1lMcERDbDM3aXZHRFZPOHAxNVlwRlB3cnV1WlFoZElnQkVtRV9iR05xNlQxUlJteE9HbEtKQ1dYclJHaEgtMHNtTFZJM3ZBMk1jQ2ZVbGhKQzVuMGctN1dpcy1vZ21XU0s4YWRSQ1BKUA?oc=5",
-      "published": "Sun, 17 Nov 2024 17:52:24 GMT",
-      "summary": "Friendshoring? Nearshoring? Reshoring? How the U.S. Trade Relationship with China Is Evolving&nbsp;&nbsp;Stanford University",
-      "source": "GNews | SC Restructuring",
-      "priority": 16,
-      "category": "全球产业链重构",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "USTR initiates Section 301 investigations of 60 US trade partners over forced labor import prohibitions - White & Case LLP",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGxfUUNsYkplZDlZYmFZeHNSWFM1VUg2N2t1SGtzREJha3RwYWZVbWhxMElFVzNHYXdIYkFpVXJMRDdiWkEzSWc3bnZRSTJGdS1xbnBJZThpb0h4LWo4NjB2R3Y4ZEo3VTRWN212elZTMXI3RzNHRF9uTDRIYzFsMzlXc2tZQl9uYndkcVVQZDBKQzNFekh0VklCaS1ZemIxRzVlRjJlMVI0QVhwSkZKMUNmVDhKclltMWdEUg?oc=5",
-      "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-      "summary": "USTR initiates Section 301 investigations of 60 US trade partners over forced labor import prohibitions&nbsp;&nbsp;White & Case LLP",
-      "source": "GNews | USTR 301",
-      "priority": 16,
-      "category": "政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "[News] ASML’s High-NA EUV for 2027-28: Which Giants Are Betting Big—Intel, Samsung, SK hynix or TSMC? - TrendForce",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRC03V0Ftb2hSQVVRbFdDQTZYLVg2d0ZuTVllTzFJZWtQbWNUMENha3VWUmkzQVBBdEU3dTlrNTRHZXQxUFNfVjh4WVRnbzNTTWVjUVM3eWg1Z3NXcVRTazZNa1IwQWlmSWNRT3ZVTTh6ZVU5WFRGc3RsTzR1a1o5VHpnMmJBS2hMNHFYN2dZT0YzeThMdnRDbk5jV2YxUXhiVlZFbko1VnRyX3dOTW52NXFTRUFuMXQ5cXFKd25tTmVkX0RjRDRmVEl0XzNmcnl5blB1TQ?oc=5",
-      "published": "Mon, 16 Feb 2026 08:00:00 GMT",
-      "summary": "[News] ASML’s High-NA EUV for 2027-28: Which Giants Are Betting Big—Intel, Samsung, SK hynix or TSMC?&nbsp;&nbsp;TrendForce",
-      "source": "GNews | Chip Foundry",
-      "priority": 16,
-      "category": "半导体",
-      "relevance": "high",
-      "matched_modules": [
-        "全球科技与工业前沿"
-      ]
-    },
-    {
-      "title": "Russia’s war of aggression against Ukraine: 20th round of stern EU sanctions hits energy revenues, military-industrial complex, trade and financial services, including crypto - consilium.europa.eu",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNbnhsWm1JaWlCSUlqWjBJNUFfMmdaaEpHLVZ6ZEVHV0tOSGJsUHhmdkFpdnI4Qy1manBCT3ZzdVNwSTN0LVdqa2EwSHZCRG1CUzdZV2VBUXM5cEVvaFB4eEcwOU9UU3p4T3NKRE1HMEJNR0xFNC02dzVNdjVoRnVGdkRxNHVuQndGUEJpMjRkUFNkRzVSM255Z2FucjhsQkRuSEd4N2EzN1lSbGprcWFDeC0xclRpbE9LZVN0eWVkZjRtRFBYOVhXYjYyeXF4Z09LcWU4ZlZ4ejJVWG5sMlgyU1hKaHE5RnBaX05QTDN6VjZmaDQ0a09HZ2g0T0xHNUZxRGF6QXRSdVI0c295c3RLT1NhT00zWlpVR2JLR1VrLTh5SVNXLWNCRVZLVXhMX1lKQkpuRU1QNW9hQTdoQlc2Rmt3dURPeXlwMHpkZS1R?oc=5",
-      "published": "Thu, 23 Apr 2026 07:00:00 GMT",
-      "summary": "Russia’s war of aggression against Ukraine: 20th round of stern EU sanctions hits energy revenues, military-industrial complex, trade and financial services, including crypto&nbsp;&nbsp;consilium.europa.eu",
-      "source": "GNews | EU Sanctions",
-      "priority": 16,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球治理与地缘风险",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Shell’s scandal in China highlights the greenwashing and climate risks of carbon offset credits - greenpeace.org",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT3ROZ294bWFKMWJsZTFOUDY2SEQ4ckhQaFp2MUtyQkh2ZEp2RzktcUw4QUNVZlBfTWdaWDY0ODNiZVVwcDUyWnIzWGY4d21DZklJSS1CQ0VmSTBnM29BeWttQWFkTVF0Snl5ckkwcEtESlFSREJGVURZY1k3UzVPa2RreGNsYWVoTmNDc043QTBmNmZUeVhVa19aZDhpNDNCSzNVdFViZWUxU3VXNjJLcWZEd3lHZ1pIOWdva2gtbGtjV2ExbTJhdkpfV2hUV291UWhQQTlmQk0?oc=5",
-      "published": "Thu, 13 Apr 2023 07:00:00 GMT",
-      "summary": "Shell’s scandal in China highlights the greenwashing and climate risks of carbon offset credits&nbsp;&nbsp;greenpeace.org",
-      "source": "GNews | Carbon Credit",
-      "priority": 16,
-      "category": "碳+绿",
-      "relevance": "high",
-      "matched_modules": [
-        "ESG与可持续发展"
-      ]
-    },
-    {
-      "title": "India-EU trade: GSP suspension raises tariffs on 87% of exports; here's what GTRI report says - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQkNDajMwNlZFMjhWVUR3aGlGZW9VelY3V2JvUl9IaVZReVdINkN4TGZfbXN3OGhTbWZ0c2dITE4tcVBnY0pUTWNzRU5yV2ZhUzBnd1ltT0NDS2JTRVRhX3Q1UkFBanlIS2lsV0ZCUGVkWTQxek5yZFc3Qmo3WjItUmc2MDEtWEpkOTg1QmFyTndXaFNod3EwV3ZiRzlGUW8zUzBMUGhrcUVRZnVHcS1EV3Njbmd3dXZjbTU3Z0NqWEU3MlRuMWFYVDJKcS1YV1IyTllaLVI2X1pnSjNSdXVxTDBqc2xWd3R1YnNGdENFaTV6RWJva1hlTEZKa0FjU05CNVV3V9IBigJBVV95cUxQdlZoeEY5VmxTMGJWanRFSUw0Q3pmWjZaVFFfYzNEVVpJc2dKdFlDLXUwZjJhTmpPMjlrX2J6emcxZk1FMTZMVXYtcERqRTZSV0JJOFE2Y3FyZ3EzMjhPdkNqdVpQUGNKRDZjclZZS3U1dXFYcGVDZWxTTWxDRUJ2QU9IaU5tWVVRNGpTNFEteTFYYkwzZ1JXMnJiR2NSTm1DY2t2M2ZUdjVYRWF3OEgxUzBaY3owNE1PNVZGZ3VvMk1tVDc1QktyZXVYS1JtYTRGQjQ5M0t1d0kybG1hT2pfTUJJdkFmN3VoR20yUFVtUTFIOVpZRkc0V1JsNjZhWkY0LTlvNGVPUmJ4Zw?oc=5",
-      "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-      "summary": "India-EU trade: GSP suspension raises tariffs on 87% of exports; here's what GTRI report says&nbsp;&nbsp;The Times of India",
-      "source": "GNews | BD Garment/GSP",
-      "priority": 16,
-      "category": "孟加拉",
-      "relevance": "high",
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Oil prices rise after Iran rejects calls to end support for Houthi Red Sea attacks - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbmxTV0pUTlBNdktPOE45eDltSjg0QjF1NnBPYkJnUW1BUU5QbUZPQVdrTlFVdmZSdGpGQ01xUnVlMnJkWUFBS0l2UmJpZlJkN01OS0k1QzVGMmo3QnJnbmNLRHJBZjlyRzJHZ1lVbm5EV3A2QmR3am9UX0xmN2REVHVFcnJ3dldCZUx0NnhNWEgyLXI0OUZIN05GT2hqR1pMMVFuaG1VSHRQYWd0aS1v?oc=5",
-      "published": "Tue, 02 Jan 2024 08:00:00 GMT",
-      "summary": "Oil prices rise after Iran rejects calls to end support for Houthi Red Sea attacks&nbsp;&nbsp;The Guardian",
-      "source": "GNews | Signal: ME Disrupt",
-      "priority": 16,
-      "category": "信号性查询",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmxNZjJHcUpwaC1fU3pZVktfNzdvLXFsMHNNa1FEY3BmSkpUaVMtLUxFTVBqY1lWTnJFbHVDZVNpaEpVQkgyOEtkcUNDSkdhaUdYeTRCX0k0LU5IZFo2Qjc4ZEE3VlZpLTFLUmJR?oc=5",
-      "published": "Sat, 23 May 2026 07:00:00 GMT",
-      "summary": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | Signal: ME Escalation",
-      "priority": 16,
-      "signal_keywords": [
-        "unprecedented"
-      ],
-      "category": "信号性查询",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Houthis poised to assist Iran with strikes on Red Sea oil tankers - The Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTZjVEtJZ0lYNW40X195Y0VzU0pOOVRjLTB2a2hZUVYyenhYQlpHOGVJUldVMXc0dlo4MjktNGNMMmFRTzRNWGFsYURCSGw4UFNrb1RhMWlKd2lVZWdibFlBU2lhTTZRSmxZREMyRDhpRGJFeGRtVDlUYlRnZVp0TmxxRVBmTWwzc2lSSnlna2ZZUEFfRVpLR0xjVGI?oc=5",
-      "published": "Mon, 16 Mar 2026 07:00:00 GMT",
-      "summary": "Houthis poised to assist Iran with strikes on Red Sea oil tankers&nbsp;&nbsp;The Times",
-      "source": "GNews | ME Conflict",
-      "priority": 16,
-      "category": "政治+安全",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Mexico’s Auto Exports May Drop 12% in 2025 Despite Tariff Cuts - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbHNQWkVpWkh3dFVMWXpyaVJkeWN6Zk9QRFlfVGx5YlNtM2RPb2tRTTM3eUZWeDhtblNHUnVRdjV1d3YzTDA2dVBSSkFoeVR4cC1XTnZkR3NXSXhJbTA5S05yMzF3S2lSaUNsUFdQZlN5VHUxTDI2cjBFTTJwMTNxcmNkRTRqRlFoVHlyc19kOGNjcEFjMl9UWHEzQTdBQnVGLVpV?oc=5",
-      "published": "Tue, 24 Jun 2025 07:00:00 GMT",
-      "summary": "Mexico’s Auto Exports May Drop 12% in 2025 Despite Tariff Cuts&nbsp;&nbsp;Mexico Business News",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 16,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Argentina's Mining Exports Set to Double by 2027, Led by Lithium and Copper Production - Investing News Network",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3RDYxVDNoQWhGby1NcUlqbnh6N2JsaDl2RWk3RUVVN2Y1UGhyUHJlZWQ2Ujk2cEU4anZGOHBYYTNTM2d3TnVOczI5MzB5cU9XYlpRMGdwcG5Jd0g5V0ZWcGF5OFM2c3JJQnc?oc=5",
-      "published": "Thu, 29 Aug 2024 07:00:00 GMT",
-      "summary": "Argentina's Mining Exports Set to Double by 2027, Led by Lithium and Copper Production&nbsp;&nbsp;Investing News Network",
-      "source": "GNews | CL Lithium/Copper",
-      "priority": 16,
-      "category": "阿根廷+智利+其他",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "How the War and Latest Western Sanctions Are Impacting Russia’s Oil Sector - Russia Post",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VcHZLQmppT2dzYUtMT2RORVFzZW1KWnpWVXpKVEhzTWZoTkk0UVpTd2pHS003T0hMVjNwS2dzbHV5SllHUVVsWW93VHF6aXIxSG4xcg?oc=5",
-      "published": "Tue, 17 Feb 2026 08:00:00 GMT",
-      "summary": "How the War and Latest Western Sanctions Are Impacting Russia’s Oil Sector&nbsp;&nbsp;Russia Post",
-      "source": "GNews | RU Economy",
-      "priority": 16,
-      "category": "俄罗斯",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "US strategies to reduce dependence on China 🇺🇸🔽🇨🇳 Friendshoring 🤝 Reshoring 🏠 Nearshoring 📍 - Xpert.Digital - Konrad Wolfenstein",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pbzZpaHVFNUVkQ2dxRU1Ic1A2Wm5OYzZfaTBZcnpPTGs5X3Utb3k4S3dFUUxBQV9TSGxRQnJ3WVpkQ0dLaUZWZGxkZkpKV25qOXFDT2NsdXc2enloNHJ6M0dsQUV2SC11NVNYSTlXVHVOYXNf?oc=5",
-      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
-      "summary": "US strategies to reduce dependence on China 🇺🇸🔽🇨🇳 Friendshoring 🤝 Reshoring 🏠 Nearshoring 📍&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
-      "source": "GNews | SC Restructuring",
-      "priority": 15,
-      "category": "全球产业链重构",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
       "title": "High Purity Dissolving Pulp From Brazil and Norway; Scheduling of the Final Phase of Countervailing Duty and Antidumping Duty Investigations",
       "link": "https://www.federalregister.gov/documents/2026/06/10/2026-11617/high-purity-dissolving-pulp-from-brazil-and-norway-scheduling-of-the-final-phase-of-countervailing",
       "published": "Wed, 10 Jun 2026 04:00:00 GMT",
@@ -670,19 +240,6 @@
       "source": "FedReg | USTR",
       "priority": 15,
       "category": "政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Facing tariff pressures: The challenges and strategies behind U.S. companies’ moves to nearshoring and reshoring - Moody's",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMjhIckVFNGRoLXRESWpCM1BqRURfRU81ZnFqVnBJc2YxZlhRQXJvTWFQaDg4dXVEbzRkQ005SnN1cW5SLVg5NjRnMVMtdzk4QTZRTEhOQ09QSlJKMWFNOG93YTNEcng0WVBha2I2UFE4UTBtTVF0bXZqNUY1ZEtKY0pJODhoNUlnYjk4d1dkcw?oc=5",
-      "published": "Wed, 04 Dec 2024 08:00:00 GMT",
-      "summary": "Facing tariff pressures: The challenges and strategies behind U.S. companies’ moves to nearshoring and reshoring&nbsp;&nbsp;Moody's",
-      "source": "GNews | SC Restructuring",
-      "priority": 15,
-      "category": "全球产业链重构",
       "relevance": "high",
       "matched_modules": [
         "全球商业与产业链重构"
@@ -702,19 +259,6 @@
       ]
     },
     {
-      "title": "Forced Labor Update & Analysis – Fresh Names for the UFLPA Entity List - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOU80VnNvUk5ieEZaekxSOGV2U0t0dkNUaktWaGdXbzRMeHc4Vkl0Nm5GdmdsOUZFT0ZFSHJvSzVDQnQwQXh1WFVXMDhkcTI1czhrZXN2bFN5RVJWODd2dVJfb2dlcXg5N19fS2Nka1FFU1JtRHZjUVpHZkNKZXRLcEFLWENYLUlsRS14T2V2clZzNkpSWEHSAZsBQVVfeXFMUEc5ZXZRRGR5MFFXSWNVd3pBRjluTHhiZVItR0gyN2c1MFFzUmFqaWpJaHpCdXZrZS1RU0lhNV92bnJhWmxsN3pRcjNFNnRHbFhSYlA3d1J3VzlHYURON3ZTZHFQNFZKRjRrRXZsb1BMM2JtaEFtM2ZFT1FSMmpoaXJJdTZfdE5mU0JSUTQ4Wks4R3NRTkU3cTB2TWM?oc=5",
-      "published": "Mon, 17 Feb 2025 08:00:00 GMT",
-      "summary": "Forced Labor Update & Analysis – Fresh Names for the UFLPA Entity List&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | Forced Labor",
-      "priority": 15,
-      "category": "政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
       "title": "This Week’s CPI Follows Payrolls to Ignite Inflation Fears, Will Fed Rate Hike Option Return? - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSENFZHhpUmJEZVRzT1FZSjQxcVhEeXUwdFhsU3V2RjVmVkEyT3BMOVpvM0ZSQjItbmhBVHdIY3g2dmUwZDBrM3VkUGt0Z3k2bjFnYXFEM0Z2ZkdUYlVXYXNmMFBDcHJ5RUVDYi1JdENQQlZhMDF3REFFbHFvclNDY2VBeTQ5UnhDWTlRWWQzelpCQk50OW9FYWQ4ZHdjVWk2VFVBYllmLXRVQnNKVVRnTGNUNjVmR1VHbFdmbWR2QlV4ck56ekFtZWNRYmRfdU5uNlRFdEdpVVhhdw?oc=5",
       "published": "Mon, 08 Jun 2026 07:50:11 GMT",
@@ -725,20 +269,6 @@
       "relevance": "high",
       "matched_modules": [
         "全球宏观与资本流动"
-      ]
-    },
-    {
-      "title": "The impact of US tariffs on North American auto manufacturing and implications for USMCA - Brookings",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2d1a1NXQ0IydWRtVllsak1XNGhwM2NHNzN2bjZINURwaVdfWExRa2lDX3hWNU5BMGVDTGt5NllCejhBSmc2bmpRM3AxS3lNeUxHWjBOdWR5MnpFNjZRaWpCY3BHWFNGNlpPTFBmbzJIX21JMExyLTd5czJGQThoU1RzRTc4b2ljaGdVT0pMcGNoMmJMZWVvd0ZQcC00UmN5MGVpTnB2ZzFTenZWOHZUNng1WHU0bENmZ3htSVJBM1ZGdw?oc=5",
-      "published": "Tue, 13 May 2025 07:00:00 GMT",
-      "summary": "The impact of US tariffs on North American auto manufacturing and implications for USMCA&nbsp;&nbsp;Brookings",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 15,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "东南亚深度",
-        "拉美深度"
       ]
     },
     {
@@ -755,205 +285,6 @@
       ]
     },
     {
-      "title": "New US tariff threatens Mexico’s automotive industry starting Oct. 1 - Mexico News Daily",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGNU5wd25wenJYMXdJb0pncDF0dEJLbUtvN2NiZ0RTdmY4a0hUTG1MV2lmS3QwY1ZTTmtDaHdYQ0lKd1NDNVRXVllITml0MHc0X2cwMmxVUnJDMmNELVZxTGtLc2FMcEhUSG5Lag?oc=5",
-      "published": "Fri, 26 Sep 2025 07:00:00 GMT",
-      "summary": "New US tariff threatens Mexico’s automotive industry starting Oct. 1&nbsp;&nbsp;Mexico News Daily",
-      "source": "GNews | MX Nearshoring",
-      "priority": 15,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Nearshoring: Inside General Motors' $1bn Mexico Investment - Manufacturing Digital",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWm1EcU5PcC1ub25SNmVEbG1fZlFvYnl4VF9uMW5PMi1YNTNRYWtZSjR5MWZGbWV6TWNUaW5ScUo1T1V2bmRHazcwaUtBSThHV2RFSWRSMjZzUThKZXNZdFVrTVB3SDJNSW5BTFRtVllTR2lzWXVtZHQzNzFhU1VVSHNqSjFXaU1UellwN2Q5VEV1S1FtQ0ZpXzM5bkhFUQ?oc=5",
-      "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "summary": "Nearshoring: Inside General Motors' $1bn Mexico Investment&nbsp;&nbsp;Manufacturing Digital",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 15,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "CSIS Translation: January 2025 Updated Japanese Export Controls on High-Performance Semiconductor Manufacturing Equipment - CSIS | Center for Strategic and International Studies",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUVE5NTdXVEgwbnRzaDVJbHNvMHFVbzZkSFVoM2g0d0NXbHliVHJHd1FzU1pvNnAyRXVraTQwaktuQW9IbzlVSHd4QXdqXzA1ZmE0WTVJb2FqeGRrLUJ5OXJyU1p6U2IyT1VkbmpMV05mZ3FuLW9VOUdiWmlaTGhPZDVRSGNzSkZHUjNLVURsUklzN3JDZzNvWDJjX2NBU01zLTVNdVVtR1Q4d1VJamc?oc=5",
-      "published": "Mon, 03 Mar 2025 08:00:00 GMT",
-      "summary": "CSIS Translation: January 2025 Updated Japanese Export Controls on High-Performance Semiconductor Manufacturing Equipment&nbsp;&nbsp;CSIS | Center for Strategic and International Studies",
-      "source": "GNews | JP Chip/Export",
-      "priority": 15,
-      "category": "日本",
-      "relevance": "high",
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "US to lower China tariffs as part of trade war truce - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLUNma0ZjUkpMRy1DRFY0ZnAtS0psSEs4dWY2U0lWemhPYjc5dGtEQXhoYV9MZDRwcmp4cmRiU2hGSWlhRlJWeHVBa2JxbDhIRVR4M0F4T1lra0t2S19Hb0FoLVV2QzNSNHN3cXlMSER5cGNBc1lEQVlMeDZJZ0hlcHJsT0NNUEZEcEdndEgxWWNudnJDRk9rM1VB?oc=5",
-      "published": "Thu, 30 Oct 2025 07:00:00 GMT",
-      "summary": "US to lower China tariffs as part of trade war truce&nbsp;&nbsp;Supply Chain Dive",
-      "source": "GNews | China Trade/Tariff",
-      "priority": 14,
-      "category": "全球财经",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "How Trump's tariffs, and forced labor, led China to new record trillion-dollar trade surplus: Supply chain data - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWJ6YVg3dDJvVDQ2M0NBS2VFNGJsMUlPVldGUkhpZjJ6V0xrNTljbldwRWk5RHRpMFJzY0dBRWsxN0RYRWJaYjN6dkx3czlUdkt0VmxYbHNsaUdQUjZlM2g2Tm90aXp0dHRqbUVkSjJHc0Q5TXYxZDhLSGo0MFlNS1IzUzQ0WDdqSkF4X0hJbXllNG8yS1U0YtIBngFBVV95cUxOMkZZQ2l6ak9RTC1hUFBfUWNsMWFGc1B6ZVdWN01aeTBQazFtalFtOVZmNHRLcGpHSFVIWm40cXI5RkpXcGI4Wk8tVThjdlZjcFh2UHB5NEVLTUZvSVctVy1rd0FkRXh1Z0xxRktXcEI2WDZ3OG9MN09FWXl4TVlTa0wwc3U2OEFqMm9qRFh1cTZjbkRoWmdsaDB1YXlYdw?oc=5",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "summary": "How Trump's tariffs, and forced labor, led China to new record trillion-dollar trade surplus: Supply chain data&nbsp;&nbsp;CNBC",
-      "source": "GNews | China Trade/Tariff",
-      "priority": 14,
-      "category": "全球财经",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "USTR Launches Section 301 Investigations Into Structural Excess Capacity Across 16 Economies - globaltradeandsanctionslaw.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWktLOUozb3pKc3VPTWNrY1JlUHREQnlaTlBXQS1NY1dnMlcyNUNkVFNxc0gzdl9PVGhQeDVHX1ZZUjRUdy13b1pZQVd3OUVoMUN0SWtsSzdJZnpZR01TMTdTdmpNSmNFem5BVzlhSU42V1YteDRlcDlLaUxqZmFWMG1aMWNHaURMZTJrZWVoUnRwcWhuUW1mOWdHVFJieU5TcEhNVjh4cU9QTC1ZN2ZjN2hRbDg1bG01T2o5bA?oc=5",
-      "published": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "summary": "USTR Launches Section 301 Investigations Into Structural Excess Capacity Across 16 Economies&nbsp;&nbsp;globaltradeandsanctionslaw.com",
-      "source": "GNews | USTR 301",
-      "priority": 14,
-      "category": "政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "In Response to U.S. Supreme Court IEEPA Tariff Ruling, USTR Plans to Initiate Section 301 Investigations - thompsonhinesmartrade.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMkxWWmw1UW8tclZMbHQ4b2JIZVU1ZUhwb1VpNHZ0enhsQWJFRnJYd2NTVzBjYlZlRDJsMG1vNTc3THVrWTFoWHlReWlTQW1tRnplYVJNWTY3UnQwTlJZS3duRDNoTnVBQTdGMXJqUU9DWkRqVXM0V3dNWkdhSUJSeXJOanNiZG55bEJhMlBWaUxPMkdONWhCd0g3ZmRxWE9YT1FIV2EtQlhJZmpZdDc2QmJvMG01eVRoazVYM2hWek9OQXhSTVIxTDNzUHNMTnk0NVR6dE1vZkxKM3BSdXVWWFU2WQ?oc=5",
-      "published": "Mon, 23 Feb 2026 08:00:00 GMT",
-      "summary": "In Response to U.S. Supreme Court IEEPA Tariff Ruling, USTR Plans to Initiate Section 301 Investigations&nbsp;&nbsp;thompsonhinesmartrade.com",
-      "source": "GNews | USTR 301",
-      "priority": 14,
-      "category": "政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "USMCA and nearshoring: The triggers of trade and investment dynamics in North America - Brookings",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSE9KMDFWeEdITFhfS3BDejZzYndLNlU0eGdTYTFJekZYTVUtTG8xR29VSWpGU21LT0lLaUJMeE1GRW00NUJPUU9mSmc3M1JwNEFaM2dBQW9EVTJPbFJ1UGVmOGx3ZDVqS01ZbmZubVZuMWFsVm9JSm9uOHFxV2N2ajFpdlBmaERra0hjaWFTSFVBcHkyNHJhY1NzUTVyN3NacU43bmZ1Y3NHWGMzTWtEbHNaeWI2VVR1Rk1fdA?oc=5",
-      "published": "Wed, 06 Mar 2024 08:00:00 GMT",
-      "summary": "USMCA and nearshoring: The triggers of trade and investment dynamics in North America&nbsp;&nbsp;Brookings",
-      "source": "GNews | MX Nearshoring",
-      "priority": 14,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Opinion: Impact of a 36% US Tariff on Cambodian Exports – A Comparative Analysis - Cambodia Investment Review",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVzY1RjRxc1kwcW5rQUV4V0pQNHRmVi10NUNENGNWa1RHUDl1ZGx5WXJtTzRadUJoQjlMWkxvNEh1UGFTUkt0TnFPM2kwV0ZRX3NDdFZfZG53cTZQOTVIUmR4RndaWnVzMFo2akdidVFkTGliVlRwamhROUFrSHhnSlVRV29BVEVKNVBtTUpPQUNxRWZTUUJsZHhWeHF5ejZkR1lSaUdyRmtDTjZjTHk5MWp4dkFxbTNaQWhGNEs5b0N6RTA?oc=5",
-      "published": "Wed, 23 Jul 2025 07:00:00 GMT",
-      "summary": "Opinion: Impact of a 36% US Tariff on Cambodian Exports – A Comparative Analysis&nbsp;&nbsp;Cambodia Investment Review",
-      "source": "GNews | KH Garment/GSP",
-      "priority": 14,
-      "category": "柬埔寨+缅甸+老挝",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "Choosing the Right Industrial Parks in Malaysia for Foreign Manufacturing - ASEAN Briefing",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYUx6a0hjbDl4S3RhdTc2dllPQmxwaEtIU2VyVTBjZWVxQU94eFdvME1hYlhNTDU2N0lzOFhqVWdUVFVfRzNINEhDQUJSREpLMF9YdVNSUG04WUJQSW13NkhKX2x4OU16eGFzRFc0ek5HZjlybE1JaG91U3ZCYU1OZThFU3FBQTVaSjZrNDF4Q1NWLUVBbzF3bU8yTFM4NFVwZ0Z5eFUzMldIRmJ6Snc?oc=5",
-      "published": "Thu, 11 Sep 2025 07:00:00 GMT",
-      "summary": "Choosing the Right Industrial Parks in Malaysia for Foreign Manufacturing&nbsp;&nbsp;ASEAN Briefing",
-      "source": "GNews | MY Semi/Trade",
-      "priority": 14,
-      "category": "马来西亚",
-      "relevance": "high",
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "India-US Trade Deal Cuts Tariffs, Lifts Export and Investment Outlook - India Briefing",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXlrZXpGVmhOY2FvcGxpZGZtdzFlTzBjdWxxLWFLbi1QRFRyOTQ3OG5CaGxzQ3pEeGVYQlBrZEs0eE5CWHQ0X2NzcXA5MUNkcXFGcVIxWEhnb3dDN1ZQM0lpUDIxYzU0a0RtYi1VUTVsUjMtVmdyMmVUdllJVnlORUdmbmJZTzV3VWxYR2Y5OUZEZ19yaGtoaHBWbDdKOEc4OFc4SmRDa3BnaGZvMXhhOA?oc=5",
-      "published": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "summary": "India-US Trade Deal Cuts Tariffs, Lifts Export and Investment Outlook&nbsp;&nbsp;India Briefing",
-      "source": "GNews | IN Mfg/PLI",
-      "priority": 14,
-      "category": "印度",
-      "relevance": "high",
-      "matched_modules": [
-        "东南亚深度",
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "VW Group one of a number of carmakers revising exports of vehicles from Mexico to US - Automotive Logistics",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbzRQb2o0bFFCaFNta01WQnY5cEl2OVVmUlFSMU1Bb2xzNDY1dTdrY2syRTNsa29NaTFQaUJkWUZsbUxEOElKWmJPTEhrUDBNY2V1U19Ma0k1MjRNaFpUMkJUZGM5VTg3dzNxVnlNX2ROYm02VlRTNnZZdFo0dTQxNHoyczM3SVNobEdwbnV6SVg3SENybXJDV014Q3kxOGxCWFU0ZGNGNUdldFhTcS00VzBQdjNqMzFUdWNCT2dMenFrYkFpUk4wR3pDbVhac2FTQXF2eGtrX00?oc=5",
-      "published": "Tue, 08 Apr 2025 07:00:00 GMT",
-      "summary": "VW Group one of a number of carmakers revising exports of vehicles from Mexico to US&nbsp;&nbsp;Automotive Logistics",
-      "source": "GNews | MX Nearshoring",
-      "priority": 14,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Auto Exports Drag Mexico Output as USMCA Review Nears - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0I2TFZfVkhxOTBsVHAzdkxxMW9CTldYWlJhUE5vYWRzcXpZaTd0V2dWZ1lTbXIwcF9pSm5IZV9iemtvYXkwVFowQlRyNnozM19taGJ2S0gzVDAtNHlrZFE0VWoxQnYwNl9yRFQ3aXpaVmtoU3NxZkZJWE8yTWc3SDFoWEVaT2RxZ2YyV1hoTUxTQm82UzRYQzZR?oc=5",
-      "published": "Thu, 15 Jan 2026 08:00:00 GMT",
-      "summary": "Auto Exports Drag Mexico Output as USMCA Review Nears&nbsp;&nbsp;Mexico Business News",
-      "source": "GNews | MX Nearshoring",
-      "priority": 14,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Logistics Investment 2026: E-commerce, Nearshoring, Tech Trends - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSE5vS282LXQ5MFRxWXl2aTQ4Y19KbEx6bU9DTXJjZlA2bVlJSVQ2RFY0cy1xS0R2U2FYbUtFem5vSzZ2Zkd1czBHc0tLMFVrNFJIdU1qd3dWbnhyVlp6SGpCTzVvSmZLYzI4LVJxNEd3ZTh2ZDhIR1AtU21UN0hGM2pweTVxQ3NLT0YweVdrUjUtZWUyNVh3d29sR0Q0WUU2amVtdTh3?oc=5",
-      "published": "Thu, 02 Apr 2026 07:00:00 GMT",
-      "summary": "Logistics Investment 2026: E-commerce, Nearshoring, Tech Trends&nbsp;&nbsp;Mexico Business News",
-      "source": "GNews | LatAm Infra",
-      "priority": 14,
-      "category": "基础设施+科技",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Japan and the Netherlands Announce Plans for New Export Controls on Semiconductor Equipment - CSIS | Center for Strategic and International Studies",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTJJOVVFNTUtMld0VW9yRTFMSThKSHdHR2hFcnM4dnNmV184VVc1TWYyU3czemdRRVI0dnhaY01PMURFa0xZUmdkMkF3YkZmUFBkT2pVZWdLcVFBMm5wc0V4d3ZfS252bWUtbzhwemU1LXlXSWk0LWJlSWxhT0ZHODN4eGJkWVhRaTZoSFY3SEp3VkhJdFNlemljNVVxVkRuYWk1LU5wa1hSSUtEQ21r?oc=5",
-      "published": "Mon, 10 Apr 2023 07:00:00 GMT",
-      "summary": "Japan and the Netherlands Announce Plans for New Export Controls on Semiconductor Equipment&nbsp;&nbsp;CSIS | Center for Strategic and International Studies",
-      "source": "GNews | JP Chip/Export",
-      "priority": 14,
-      "category": "日本",
-      "relevance": "high",
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
       "title": "USTR Section 301 Tariff Activity Remains in Focus - Home Furnishings Association",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11azVLbkhHd3p3VXVwaGM4UFFFM1U2U243NXVrVjZBSDU1bTBSZUlpbHFQZWQ1QzZETVFycTZraE5MRVMwQVVqX2xLejVYN2NwOFlpdW4tWnNTR1FCZkdGaUt5WV9KeG9HdmZSbzBEMDlzYkMyd3hKYkU1UkdiQQ?oc=5",
       "published": "Tue, 02 Jun 2026 10:35:05 GMT",
@@ -961,19 +292,6 @@
       "source": "GNews | China Trade/Tariff",
       "priority": 13,
       "category": "全球财经",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Reshoring and “friendshoring” supply chains - Deloitte",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR29ZTHJSX2o0U2pvSjQ5dnZzd1pES1pkay1YaUxnaFU1RUFwM1ZvZEtUM2FxbU92Y0JVWjdZT1FxcVhOVVRVNFhzRmlubFl4amhNaWZOQXpuWDNkQXZHSHRvaFZIN3duRmlKQ1NDd1dYd25fT1FHejRpaVNKa0c3RERSb3paNFNSZEdZWnJqR1F6WGxoR1ZvdGZPYXl2N0RNUGZIaElxM2NMVFZYRS1aRjVMeERLUUlqMXgydjVoU2VKQXJTLVF5WHdrX2ZmaVhIWTVwSDhlVTg?oc=5",
-      "published": "Thu, 24 Mar 2022 07:00:00 GMT",
-      "summary": "Reshoring and “friendshoring” supply chains&nbsp;&nbsp;Deloitte",
-      "source": "GNews | SC Restructuring",
-      "priority": 13,
-      "category": "全球产业链重构",
       "relevance": "high",
       "matched_modules": [
         "全球商业与产业链重构"
@@ -993,38 +311,51 @@
       ]
     },
     {
-      "title": "Tariff Risk Ahead: U.S. Section 301 Forced Labour Investigations and Canadian Supply Chains - McMillan LLP",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbEpRRjQ0aG5mRDQ2dlMtLW1lNWhXM2JWQ1ljMFZ3TkNnNDFyLUtIYnVkblR6QVNzNTFsRElNVnFXYmI2UWxiMTlhczBITl80YkxudXAyb3EyUW5veHZhcm1Kc3dzYkpjQmlCWjE0TFg5QVRnWS01T3lta2cxdjR5UWVoOEM1b21JVjdJUUlNaENFTVRvLXJaak44WTRELXhFWjRhNU9Sa0dxODdKWkhKTC1seWZTaW9MeXZOdEt2ZEVqZlVJNEpYU21Md3c?oc=5",
-      "published": "Sat, 21 Mar 2026 07:00:00 GMT",
-      "summary": "Tariff Risk Ahead: U.S. Section 301 Forced Labour Investigations and Canadian Supply Chains&nbsp;&nbsp;McMillan LLP",
-      "source": "GNews | China Trade/Tariff",
-      "priority": 13,
-      "category": "全球财经",
+      "title": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus - Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmJGSHdaMDFUaDl6dENEdGVmdWVVNlRDS05jWE9MSjloQVU3UEMxNFVNS2Z3dUo4VGlIV1VTd1pWNzZaVFVHeHJkT1ZOX2NzV0xtLV96RTFvS1hRLW9ENWFtdHFHZlFERjJxSmp3X0wzaFQwbDNVYS1YWEdycHB6UUZ3QkJVMDcxQXlTMENxNkhBZmE1T2FqUWJMSTVEOEpPX3JwYg?oc=5",
+      "published": "Wed, 10 Jun 2026 21:50:15 GMT",
+      "summary": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus&nbsp;&nbsp;Mexico Business News",
+      "source": "GNews | MX Auto/Mfg",
+      "priority": 12,
+      "category": "墨西哥",
       "relevance": "high",
       "matched_modules": [
-        "全球商业与产业链重构"
+        "拉美深度"
       ]
     },
     {
-      "title": "Malaysia tightens export controls on US-origin AI chips amid tariff talks with Washington - The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSndWeE13Y1pHa1ZONUF1NlFGa1RnQVRjajdSZHRNcGpjR0tPeXBQTGlzMU0wSGZrZTkyQXo3THlEOW9naGN6Ny1VQkVZbnNTampGUlhmV25fMzcyQXhTcVhubnhhSVQ4bUttNDhpMlR3elhiamdLbDl3VEI5VWFVWXoxU3ROQm01OWVQdmIxZ19sNmFXYm04Nk15WUJWTkZXb1FyNzkteWFzNERIZFBCTFdreDlHNmdtdXVqeDNnTGs3TTJ1RFZhR3k2azJLNm8?oc=5",
-      "published": "Mon, 14 Jul 2025 07:00:00 GMT",
-      "summary": "Malaysia tightens export controls on US-origin AI chips amid tariff talks with Washington&nbsp;&nbsp;The Business Times",
-      "source": "GNews | Malaysia",
-      "priority": 13,
-      "category": "东南亚本地",
+      "title": "FG strengthening AfCFTA market access initiatives, advancing export competitiveness, says minister - Peoples Gazette Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkk1Y2VrcEFmb2ZHRmthZU45YjN6MHJUZmxFaHEteEdXdkxOMGVSUGtsQ3lBRTNKX1VnTzNRdlBTSFJkYS1HaUx3Q05DZ3ozc19DRzQ4QnhwdXROQmxlNGdVMm9JSU5RSEhSZGZNN2FUUDdfWWpmSUJBejBnSEg0dWhkX2JrVUVTSE1qOTlob21vWFd5YmYzeWlMeS1UWmNjY1pMUzZ3cW9oOXJTcWw3R3Awc2dxTHVSaS1Ibg?oc=5",
+      "published": "Tue, 09 Jun 2026 16:59:23 GMT",
+      "summary": "FG strengthening AfCFTA market access initiatives, advancing export competitiveness, says minister&nbsp;&nbsp;Peoples Gazette Nigeria",
+      "source": "GNews | AfCFTA",
+      "priority": 12,
+      "category": "贸易+区域",
       "relevance": "high",
       "matched_modules": [
-        "全球商业与产业链重构"
+        "非洲深度"
       ]
     },
     {
-      "title": "Tariffs Return Through the Front Door: USTR Launches New Section 301 Probes - Clark Hill",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVWthRlo3N0FhVGJIODBYVW16SDhWdjBzVUVDRzFqZXJ6TllsZVlGSURyT0dVOUdiODNPSHAwYkxBR2RKcEp5Tkg0S2RKZFFPeDEtODNoX0d6NzVzeENGMlI3TzRYZU1kMFFJMTRmUDRZY2MyZi0xRnRPRDl0R2VFUDcxaXdfV2ZXWTNSa3VtRkhDQkFveGxzaHd1WEd1OS0xajZDWGpPQnpSYk1kR2lhSGVkcTNRX0dtWWc?oc=5",
-      "published": "Fri, 13 Mar 2026 07:00:00 GMT",
-      "summary": "Tariffs Return Through the Front Door: USTR Launches New Section 301 Probes&nbsp;&nbsp;Clark Hill",
+      "title": "Nigeria Pushes AfCFTA Implementation With Trade Facilitation, Digital Support For SMEs - LEADERSHIP Newspapers",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNG5FSmFrTHJGOTlmbGlXVjlud29DY0ZibWJYNFlnczNDaHA3NV9LRVQ0Nk1UV1RmY0hTXy1UdXpWTkVVMGJ2dXkyTEdkNjdoZVBsUEI3bkNrazlKam05M2FzU2tLS3NSOXotS2pSVjVVdTBWS0x5TGNyMmpUc05WbUdpZzgtZkVpbjRiYng1OUQ3WF9UT095TTUzcFo5d3RiNFh0N1RSdTBOcldk?oc=5",
+      "published": "Tue, 09 Jun 2026 14:20:01 GMT",
+      "summary": "Nigeria Pushes AfCFTA Implementation With Trade Facilitation, Digital Support For SMEs&nbsp;&nbsp;LEADERSHIP Newspapers",
+      "source": "GNews | AfCFTA",
+      "priority": 12,
+      "category": "贸易+区域",
+      "relevance": "high",
+      "matched_modules": [
+        "非洲深度"
+      ]
+    },
+    {
+      "title": "US Proposes 10% Tariff on Mexico Over Forced Labor Gaps - Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQellMWXBENm5hT2Q5RUtqLWtETURsM0YyRVBNQTBzQXZuVUNTSjZFNFpwbzhXYUlUYS1LaHplWHl3dS13TUdZTWxyeFowajl3S0lHWDBkY294OVk2dTR1YnZfNllZdVl4cnBQaU5hSEpJcS1Tc3VYY2ZPMTZOLTJwMUtkc2FiQ2o2NUJJVjM5UEhxdXlGUlRpSHdzR1NvWm9wckZPVmpNZ0o?oc=5",
+      "published": "Wed, 03 Jun 2026 20:00:56 GMT",
+      "summary": "US Proposes 10% Tariff on Mexico Over Forced Labor Gaps&nbsp;&nbsp;Mexico Business News",
       "source": "GNews | USTR 301",
-      "priority": 13,
+      "priority": 11,
       "category": "政策+制裁",
       "relevance": "high",
       "matched_modules": [
@@ -1032,172 +363,260 @@
       ]
     },
     {
-      "title": "Impact of Tariffs by President Trump on Vietnamese Exports - Vietnam Briefing",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSE1rbjlfT0ZlU2hQbGNPNjI1am9EMFQ4M0EzcGE4N3QzcjItQ0p3VUd6dDFUUVRGTUE5em1nT1U4X1NzdkxYYkVJWnpvNTRNSWIzMEs4OHRra0VvYzZ3X0pSOV93ZGNBZlc4eG1tZkNTWHhxaE0tZF8zTzZWLXA3dzZsUTN6UG1hQ1hJdzhUNjRBejFIMWVBQ2E2VHpsZjFTTmdXY3Excmw5cVIxclE?oc=5",
-      "published": "Tue, 26 Aug 2025 07:00:00 GMT",
-      "summary": "Impact of Tariffs by President Trump on Vietnamese Exports&nbsp;&nbsp;Vietnam Briefing",
-      "source": "GNews | VN Tariff",
-      "priority": 13,
-      "category": "越南",
+      "title": "Trump's trade war has a new target: forced labor. The case behind it is far from simple - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNjdDRzB3Q3VlZU1pakpuTXVwX1U0UWZVMWVMZFZBMks3RFNpaFpqbFhtaHFUejBFcnJwRVU0eGY4WVFSM3ZHTWM4VnVtUDNVYWZNcEotWGZMWVlqN3JtUVJYRldFcF9vZy1PczNNRkVMWE1zVld1SkdsSFNKMXVmbNIBhgFBVV95cUxOakdWQTB4c0R0cEp3eGFVaTI5VVpQUFhfb25qbko0ZGhPM2NyNFM0dU5ndGprYnFGc0ItNjZQMGxSd1VCSHJZWUxxSHJ1LTBwNFpFekxkVkNhUEdmVFB6QWV1UG9FNGViQnZHU3hieWhYZXpuQzlqeHMySUVHdk1kOEhCeEt5UQ?oc=5",
+      "published": "Tue, 09 Jun 2026 11:00:01 GMT",
+      "summary": "Trump's trade war has a new target: forced labor. The case behind it is far from simple&nbsp;&nbsp;CNBC",
+      "source": "GNews | China Trade/Tariff",
+      "priority": 11,
+      "category": "全球财经",
       "relevance": "high",
       "matched_modules": [
-        "全球商业与产业链重构",
-        "东南亚深度"
+        "全球商业与产业链重构"
       ]
     },
     {
-      "title": "Cambodia’s exports up amid pressure from tariff rate hikes - Khmer Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWEZ5aG41bHpWV2gyUFp0dlRkdWFPRlR2YzUtdVgwZk1Kd2EyU0pyQVNtSzM1ZUZIZ2g0aHRCZldGQmFxQ05UVl9Ta3B5VGUzSTRqZWFELUV1NnFoTlpCY0IyNUhaV1pxZFZQLVZxUkIxaUFhaFhDQktXSHQ0RV9xV21SbTRiVm9YeGlhWFZUQWNiVmVsNEZhY2t3MVpaZw?oc=5",
-      "published": "Mon, 13 Oct 2025 07:00:00 GMT",
-      "summary": "Cambodia’s exports up amid pressure from tariff rate hikes&nbsp;&nbsp;Khmer Times",
-      "source": "GNews | KH Garment/GSP",
-      "priority": 13,
-      "category": "柬埔寨+缅甸+老挝",
+      "title": "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUzItN0Q2bGo3X1NIYU5fRHdCRVdlckhmbVFVOGtlTWlaLVQybURvSHVKbE0wNlRVSHN0Y2pCT0dEMFJPM2Q2UFJqN2M0eV8tbDVPUEN4S2lxS25hQy01S29YTy15cXl5OXY3dHJLRDdwV1RPTDd0bElIX01jdlRCbVZWSExudVpXX29mTXV2clh5c1RYX3oxeTZqTVJyb2thaTMwX9IBqgFBVV95cUxNWlhxYVlSMS1vWkRKdkc5Sk8yOHhscTZxTW94bDJ3dHUzTFpuZGpUcFVYNFVPSURMNkFuUmVZaE9qSFE4bG5UR2FvdnVIWlJtT1dyUHZUa0xCOTBNX3NXT2gtZkRpQU5Ed1hzSE1rVWVxdlFjSGFjcGpRVTYyYmVGd05obHdrZmNnTVJfOW0wdzVwOFpDMTZuQlZUbGlqZWJrWlNZdzBDX2xpQQ?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices&nbsp;&nbsp;CNBC",
+      "source": "GNews | USTR 301",
+      "priority": 11,
+      "category": "政策+制裁",
       "relevance": "high",
       "matched_modules": [
-        "全球商业与产业链重构",
-        "东南亚深度"
+        "全球商业与产业链重构"
       ]
     },
     {
-      "title": "Mexico awaits ‘nearshoring’ shift as China boosts its direct investment - Federal Reserve Bank of Dallas",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pWnl0WDFEYTNwYmdlM3BEc1ZIMlB4V0Jza29iWGh3RzQySVVmU2NWQ3V3TkFSZ19IOW1OS01fRHhCczIwMk53NXV3TWlreFZQSzViTWZsVXJRWnJfZWRVRg?oc=5",
-      "published": "Fri, 14 Apr 2023 07:00:00 GMT",
-      "summary": "Mexico awaits ‘nearshoring’ shift as China boosts its direct investment&nbsp;&nbsp;Federal Reserve Bank of Dallas",
-      "source": "GNews | MX Nearshoring",
-      "priority": 13,
-      "category": "墨西哥",
+      "title": "UK Inflation Falls Unexpectedly, Lowering Chances of a BoE Rate Hike - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMUhucU4zT2hldDI0cXVFT3FKVjdhRjFyV3I3TWNvOFg1YlFYZFhieHNhWEg3ZVVySW44SVpiS1BTWXkxVWd2cFJTQ1p4c2RGeEJlOW9yZzNNR29aX0U1OWQ2RmYzdUMybS1PN2F3NkE5ekw0UENZSmdjYU1qbnBfYlpnb0Z2TEZsMXM0a2NRWWNKX1pUMDhtb1V1eDFkaDVhektJXzlqajJaYm8?oc=5",
+      "published": "Wed, 20 May 2026 09:01:33 GMT",
+      "summary": "UK Inflation Falls Unexpectedly, Lowering Chances of a BoE Rate Hike&nbsp;&nbsp;Morningstar",
+      "source": "GNews | BOE",
+      "priority": 11,
+      "category": "全球宏观",
       "relevance": "high",
       "matched_modules": [
-        "全球商业与产业链重构",
-        "拉美深度"
+        "全球宏观与资本流动"
       ]
     },
     {
-      "title": "Intel increases ASML's new High-NA EUV machine orders, ready for 14A process against TSMC - TweakTown",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPakxtakNhY0lYNU1GeWdKZlRsRC0ycDBPTEV6V0Zja0p3ZDhPcWxrOFIxVm41LXlYNFB6RWZVVUtzTDdzWkM0ZEFDekpmVTUyN0I1VUJ0cWNtM0gyeHFpdWlnc1FtQkx2TzVrdTk5ZWFfRzBzS2tKOHJxNVpxWTJ4M1BTMzRoM1FCZ3k0eU9uMTNPN1NQSGU2dF8tOURRUXUwcWVueENzTjFoUUw2N1VacVhwdEx6LXNPU213WndoTjkzSk1yZ1RWaWJBRTJLNUtHeFE?oc=5",
-      "published": "Wed, 24 Sep 2025 07:00:00 GMT",
-      "summary": "Intel increases ASML's new High-NA EUV machine orders, ready for 14A process against TSMC&nbsp;&nbsp;TweakTown",
-      "source": "GNews | Chip Foundry",
-      "priority": 13,
-      "category": "半导体",
+      "title": "Fed officials see rate hike ahead if inflation stays elevated, minutes show - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzJNdE5HTkZiejhGOG1KOFN6MWthLVE1Z1MxNmY4S3BZdGxvaDg4aVJ6Y003UHQzd2RqZ3pvOENfUkdSUDlpQUEtMEx1enQzbkdOQXJCTkhWdUdzd2sxRG5kWDA4OThVMUJNaTBDN19aTUhMYVJMUVE5LThvSS0xRUptNld5ZUNURGU3VzFYeEF5QWpqZmN1d1ZtMmQ5NFdkbHNOc0N2ZG83QVByTFFBTtIBtgFBVV95cUxPS3UtZVZPRFRsQW52SVNRS2pVMGV0b2wtbHZEbEo4MEFwZDlMS1VBdklTekZBamJJWkd1MF9SbnFyODc3UUlwZGlHRVpFblZkM2w3c3VDeHRWWHZTWmttdnlRZkRqaUFaQnJjRzRPQ1ZQcGFvZ2xpOXlfVWxTT1FPV0FsQkpld0EwUy1sMlRtZlN1RnVxeVBDTHpDcjUyLU9RVXU4aUhBRV9Zbll0eDlEdEFwVy10UQ?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "Fed officials see rate hike ahead if inflation stays elevated, minutes show&nbsp;&nbsp;CNBC",
+      "source": "GNews | Fed/FOMC",
+      "priority": 11,
+      "category": "全球宏观",
       "relevance": "high",
       "matched_modules": [
-        "全球科技与工业前沿"
+        "全球宏观与资本流动"
       ]
     },
     {
-      "title": "Samsung, Intel Gear Up for Intense Competition in 2-NM Semiconductor Process, Chasing TSMC - Businesskorea",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56bE5tRktXXy1CTTBKUUVhaGxDOVdtTFIyZ1B4LUxUYzBFRGZPY3VMVVRPdTRSbzN3czZrR2wtQzJWLWhOa05wQTdLVFFPc0V4OWU1a1hBUF9zeWc2S3RraVV2UFg2b3hISHF5Zzhyb1FVakNK?oc=5",
-      "published": "Tue, 26 Dec 2023 08:00:00 GMT",
-      "summary": "Samsung, Intel Gear Up for Intense Competition in 2-NM Semiconductor Process, Chasing TSMC&nbsp;&nbsp;Businesskorea",
-      "source": "GNews | Chip Foundry",
-      "priority": 13,
-      "category": "半导体",
+      "title": "EMB's 6 Percent Emerging Market Bond Yield Hides Hard Currency Sovereign Default Risk Most Income Investors Have Never Modeled - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWExOOUE5cWJaYVd6ODBKdFVtV3ZoU19RTmpJRVNMaWpQN2UwR2g2SGk3R1RrdC0yc181TWRjbzBGNE1PV1VLdDAxMVczb3FyZE9rTE93X2c5NE9FSjY1Y09YUjlPU3VrVUVqNDJhWGJiNlN0MDVYTldlUTlhOVpVcGZNYVh2bW9YRTgtU2tUMGJRZU9zdDFlb3JRSTQyVHVvaFVVam0zMnExakpOaEkyejhaOERuSG1wT2dDQnZsVlI3MHhDTEVkVmFGUDhZbXdIdUVDNGdqWjY1Wm1kV2VwQ25IT2FWb2E3RVBTSEROTHd4RzNNTDRXUmQwRDNzUQ?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "EMB's 6 Percent Emerging Market Bond Yield Hides Hard Currency Sovereign Default Risk Most Income Investors Have Never Modeled&nbsp;&nbsp;24/7 Wall St.",
+      "source": "GNews | EM Debt Crisis",
+      "priority": 11,
+      "category": "系统性风险",
       "relevance": "high",
       "matched_modules": [
-        "全球科技与工业前沿"
+        "全球宏观与资本流动"
       ]
     },
     {
-      "title": "ASML ships first High-NA EUV tool; Intel takes lead as TSMC, Samsung hold back - digitimes",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTWxRTXVlRi00c1BRZzBORzQ2bUh0aXA2ckFwY1o0THo2SWMtODdVR1RHS0pScTVBTlJTLUNpVnZ3OUp0bXN6TktUMXBPS2xHUlo3el80RW5wRGJlTmkyLXpDSEFCWlk5cEU2c0ZaTUgyWnQ1aTljTDRhSW5ORGd0N1lYekRVNVN3RzlaZVVhTQ?oc=5",
-      "published": "Thu, 17 Jul 2025 07:00:00 GMT",
-      "summary": "ASML ships first High-NA EUV tool; Intel takes lead as TSMC, Samsung hold back&nbsp;&nbsp;digitimes",
-      "source": "GNews | Chip Foundry",
-      "priority": 13,
-      "category": "半导体",
+      "title": "Euro Strengthens Against Japanese Yen As Markets Bet On ECB Rate Hike - Bitcoin World",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMm1BY0ZfN29rWVA1eXMzNEl1VWlIeVhCMmN1VkcxZG1QVHZ1R2xXbU5KRnl6NzEwbVBzRWFZS0lxZi1tSXZXRFZ0RnhqYmV1eUZwZ2ZsMHJ4Z3hiN09aZE9xcWpJR1BfMlVNSHRkNUNLTTd1bk1MRWl6Mld2ODh0VA?oc=5",
+      "published": "Thu, 11 Jun 2026 02:00:11 GMT",
+      "summary": "Euro Strengthens Against Japanese Yen As Markets Bet On ECB Rate Hike&nbsp;&nbsp;Bitcoin World",
+      "source": "GNews | BOJ",
+      "priority": 11,
+      "category": "全球宏观",
       "relevance": "high",
       "matched_modules": [
-        "全球科技与工业前沿"
+        "全球宏观与资本流动"
       ]
     },
     {
-      "title": "ASML bets on High-NA EUV as Intel, TSMC, Samsung delay mass adoption over cost and risk - digitimes",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbEJRbm1LcnFTemhCLWdRSWhOT3FaLVZMS2d3bWRWV1RQNDJnbVpaVmNHRk95VFZZS3E4eEEyb3hIdnRsRFRKTk0xRE9xVzVBc0ozRElXU01JTUI1VkFvVllndHo0c0RWMEtBYlQxb3hQeThNOFNBSFctWWtnODNLcTZuc24yU280YTFrRXNTZw?oc=5",
-      "published": "Fri, 27 Jun 2025 07:00:00 GMT",
-      "summary": "ASML bets on High-NA EUV as Intel, TSMC, Samsung delay mass adoption over cost and risk&nbsp;&nbsp;digitimes",
-      "source": "GNews | Chip Foundry",
-      "priority": 13,
-      "category": "半导体",
+      "title": "US-Iran Nuclear Talks and Sanctions Relief for Chinese Oil Buyers - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSmVBenVuckRvVjlYZkg1SmJUa1llQlJSZERlUmUxb3dZSGppTldNc1VtN3JqTHVBQl9ZYzFKUXByWVVQMkZSNnNBZmczbWowSE9POU1ITTlsTTE3R0VJN2JFOVdBdGR3V214ZUJfOFpBdlZ4VC1kT3VaQ0o2bkJmd2pYcUR2MHVYSUF2U3h3?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "US-Iran Nuclear Talks and Sanctions Relief for Chinese Oil Buyers&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Iran Sanctions",
+      "priority": 11,
+      "category": "伊朗+土耳其",
       "relevance": "high",
       "matched_modules": [
-        "全球科技与工业前沿"
-      ]
-    },
-    {
-      "title": "What You Need to Know About Iran Sanctions Snap Back at the UN: A Q&A with Kelsey Davenport - Just Security",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvNWxNSXU1Q3oycVhYdWFJazMyUVplbnJiQlRoQnVLZGQycEt3QkhiNFRYcjJPdHFaZ1dQdGs1SjlQUnNFc1BOQlRSQUZrWHNfYWM1cWlhOGJfR2lsbXRuR25sM3M2ZVdYTFdOdXg0bG0?oc=5",
-      "published": "Fri, 29 Aug 2025 07:00:00 GMT",
-      "summary": "What You Need to Know About Iran Sanctions Snap Back at the UN: A Q&amp;A with Kelsey Davenport&nbsp;&nbsp;Just Security",
-      "source": "GNews | Iran Nuclear Deal",
-      "priority": 13,
-      "category": "政治+安全",
-      "relevance": "high",
-      "matched_modules": [
-        "全球治理与地缘风险",
         "中东深度"
       ]
     },
     {
-      "title": "ASEAN’s top diplomats under pressure to end Myanmar war and manage South China Sea disputes - Arab News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JbVlCdmVvbDk5ZkdvWUs3M2Nlc2pabV9oY3gxTkhJS1ZaNGhlQmFLMFNWVFp3N1FjaEF1bUhHT19sOVJPdEJHeTR5SWlDX2I5YV9CTWRR?oc=5",
-      "published": "Wed, 28 Jan 2026 08:00:00 GMT",
-      "summary": "ASEAN’s top diplomats under pressure to end Myanmar war and manage South China Sea disputes&nbsp;&nbsp;Arab News",
-      "source": "GNews | SCS/ASEAN",
-      "priority": 13,
-      "category": "政治+社会",
+      "title": "‘All enemy movements are legitimate targets’: Houthis threaten new attacks on Red Sea shipping - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdWQ5QUZQdWY2YUFDTjUxaEozX3REc01JSHpBMzRTdHVna0F0U09CWHFFUE1scC11cGZlWmI3RFN6X3lsZmxUVzNqaEdwOFVnM1lRSGRjT3hIbzZMd1REREI5Y0hka05DV1BTYUp4WEh2Ylk1WjhmNU1iMUxFNlBqczYzRkQtV2M2bnBfNWhabVptd2k4Mm1jTlNlR2FobFBGUllYT2ZwQVVCQ0RrTWFfbEFOUTZjRVU4NWtOcFdEck1mREFubGplNlM4ZFN6XzJfZVZucm84dXQ4Sjg?oc=5",
+      "published": "Mon, 08 Jun 2026 11:10:52 GMT",
+      "summary": "‘All enemy movements are legitimate targets’: Houthis threaten new attacks on Red Sea shipping&nbsp;&nbsp;TradeWinds News",
+      "source": "GNews | ME Conflict",
+      "priority": 11,
+      "category": "政治+安全",
+      "relevance": "high",
+      "matched_modules": [
+        "中东深度"
+      ]
+    },
+    {
+      "title": "Nigeria, Kenya, Morocco selected for AfCFTA digital identity and DPI rollout - Biometric Update",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUE4STN5c1ZZOUZQTWFWMTBQMUZ2NDBNeGpOWGZncDc0YlFhOEdGcV9PaTg2UTlvYjVWTzZjeWRIQTRoRWZsRVZaOG9XaXU4dUFRTXVIMEhURmFUS1hzS0wxMFMzSFlxbWNjZWhjeW5RdjFZczJhUllCV1N5SG9uZ2Jxb09qSWxiYm5rNGhtQ3BITVRoNzZ4azA1aFQzbHIxWjV0aHN2Z2NtNUZia253QVhzTQ?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Nigeria, Kenya, Morocco selected for AfCFTA digital identity and DPI rollout&nbsp;&nbsp;Biometric Update",
+      "source": "GNews | AfCFTA",
+      "priority": 11,
+      "category": "贸易+区域",
+      "relevance": "high",
+      "matched_modules": [
+        "非洲深度"
+      ]
+    },
+    {
+      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Privacy",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG9vcExiVnVZbVNkSVZYUE9kRVVNc0tDV0dEOTdUU3o4LWg4X0s0Qi0yOVRzRXJEZGZsTklRZzRYSVlRNWdHUFlnX3cxdk54S241ZE9JREtVSWdPZWsxMVBQeEQ5TUUwZENvQkx1dUczSGVQVmN2VVUwdF9PSk9ZQ1U3TW9CZU96SWllZ1pld3R5OEt3RWp3UnY3aWFGQzJHaU9TdmFmamo3R2VnNXlHZ2JIX1U3YmhMekkyX1VSaUtmOUJnQ29FalQtdw?oc=5",
+      "published": "Mon, 08 Jun 2026 15:57:33 GMT",
+      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Privacy",
+      "source": "GNews | EU Digital Reg",
+      "priority": 11,
+      "category": "EU政策+制裁",
+      "relevance": "high",
+      "matched_modules": [
+        "欧洲深度"
+      ]
+    },
+    {
+      "title": "EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZFRMeTRiTEtoNWhuNGZ3SUZqbm9RNWdGV1RCME01VFNCRXMyZWdrUHFseUFXQXVVeFpnbThLLTN4Y3NjS0VDUDFfTEI2M3BRdDlhX2pFakVHMXBSWXFKZS1FN2Y4Z1dhUGk1MHMtNC1jU2ktTm9MWkdGNTQ4VVVKVGh5X0xvVXl3X21wRXEyeVZKU05ZY3UtLU4xSF83WFphUTNrWE5rc1lzTWVZT1VFellQY1lNTHlSTUJHSmJYSUt5bG40MWFZ?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion&nbsp;&nbsp;Atlantic Council",
+      "source": "GNews | RU Evasion",
+      "priority": 11,
+      "category": "俄罗斯",
+      "relevance": "high",
+      "matched_modules": [
+        "独联体深度"
+      ]
+    },
+    {
+      "title": "Azerbaijan’s Northern Question: How the War in Ukraine Has Changed Relations Between Azerbaijan and Russia - Georgetown Journal of International Affairs",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSUVkdDBBOGN2cmptLURHQzNHV1JYT1V3RkZKUG1FTlF4cEpTNzZYdGpDbUJ2aWVpdDNiYk5sUmpWbGNXMW83bFl4U1I5LUZidGNGMDduTUh4NWQ1U3BXWlYtS205X2xkWGloSVdPblFwanRKVE1jZ0RxSXRMaTZmcXQtaGc5NWdsWGFZdTlCekdLd1pCWlBCTGMwTGxjblZjeWo2ZW9QdHZtLUNqQzJYUHBEYzc2Y1EwNHJTVDJHaS04QkZLT3JzUENzT3c1NzFDWDNDSU9zYzJJb00zU3BEM3dLWkFaZw?oc=5",
+      "published": "Sat, 06 Jun 2026 16:58:13 GMT",
+      "summary": "Azerbaijan’s Northern Question: How the War in Ukraine Has Changed Relations Between Azerbaijan and Russia&nbsp;&nbsp;Georgetown Journal of International Affairs",
+      "source": "GNews | Caucasus",
+      "priority": 11,
+      "category": "战争+地缘",
+      "relevance": "high",
+      "matched_modules": [
+        "独联体深度"
+      ]
+    },
+    {
+      "title": "US cites forced labor concerns as grounds for new tariffs - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZDdlM2ZsVEQ4RmFKOTBNbWdrZHEwaWpfc0kyOWJkcExOc1V2emFBamZLLW5ySlRoT0NpTnRKYi1FNnE1Y3l6TVZjNzRyTDFQWWlya3NZSXdSRWpSTTJ5azBUWVlvNVZJY2lYMnZsN2k2VWo1V1NGMWxkblRLcE1zTVhNdHdnM1I5bWV4NWljYzBjX201UEtCUjN5Njh4enB4LUxiNzZJOUpOZlQ3VzY0WnEyNFlrOEE2?oc=5",
+      "published": "Wed, 03 Jun 2026 21:30:57 GMT",
+      "summary": "US cites forced labor concerns as grounds for new tariffs&nbsp;&nbsp;Reuters",
+      "source": "GNews | USTR 301",
+      "priority": 10,
+      "category": "政策+制裁",
+      "relevance": "high",
+      "matched_modules": [
+        "全球商业与产业链重构"
+      ]
+    },
+    {
+      "title": "Trump to impose tariffs on dozens of nations, citing claims of forced labor - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcV9YT3A5dzhhTjBwYTZtM0tQc1JGZkhSZl9JY0FFSWV3eUtxNU1oMHNHQ3piS1VxTnJMb1hwOWJDZ2gwc05BdHFJX1k4ZTI2OE5qUzhoRmJYVWZBZ3lpV3FhVnA2S0s2WklWa3dGczFnRXFmRFpGbUxFTTNlMjFuMlBSM0ljM3hNX21TdzI1SHRxUzJRUVEyM2RSQ054ZERXdWJCc25NXzU1VFpjWmpHSXpoRDZldlk?oc=5",
+      "published": "Thu, 04 Jun 2026 00:05:36 GMT",
+      "summary": "Trump to impose tariffs on dozens of nations, citing claims of forced labor&nbsp;&nbsp;The Washington Post",
+      "source": "GNews | USTR 301",
+      "priority": 10,
+      "category": "政策+制裁",
+      "relevance": "high",
+      "matched_modules": [
+        "全球商业与产业链重构"
+      ]
+    },
+    {
+      "title": "U.S. Government Moves Toward Far-Reaching Section 301 Tariffs - JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3SEtoOEVjWldyaUtad2RtYmZCQmFpX21GOGFMYUpYRDNEUmFWUVpreVUxNzBaV1dTYlZ2X1BFUURlU1h6dkZMbVk1OHF1SnpGandaTWVOdkNLc1VpbTQ0Sjd6bDFLaHF1WmdZU29RMVBablk1WU9ZNTk2OGRyeW8?oc=5",
+      "published": "Mon, 08 Jun 2026 20:41:32 GMT",
+      "summary": "U.S. Government Moves Toward Far-Reaching Section 301 Tariffs&nbsp;&nbsp;JD Supra",
+      "source": "GNews | USTR 301",
+      "priority": 10,
+      "category": "政策+制裁",
+      "relevance": "high",
+      "matched_modules": [
+        "全球商业与产业链重构"
+      ]
+    },
+    {
+      "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZrV2dPZ2xjY0NWT0lIUFVNeUlJZ1I5V3BsdkU0X01tWFVHLWZWTVBQN0pHeHNGZF9fS01BY2RrbWtLWFcyazR0bVNOWERwQVFBYjhHMFNZYW5XWHNRM2VWZUU2aFpTd3IzRGhiVUZHNUJsbWlCb19CX19SUG5DOXozd1cyak1RdUFhS0FtaUYxMG5xNGtfYW9idFhNWGRUd25PeUFYTWJJWVhqeS1lNUJHS3pCUQ?oc=5",
+      "published": "Sun, 07 Jun 2026 07:08:00 GMT",
+      "summary": "OPEC+ approves fourth oil output quota hike since Hormuz closure&nbsp;&nbsp;Reuters",
+      "source": "GNews | OPEC+ Quota",
+      "priority": 10,
+      "category": "油气",
+      "relevance": "high",
+      "matched_modules": [
+        "全球能源与大宗商品"
+      ]
+    },
+    {
+      "title": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlLUZSVWt0R3QwOVg1OENhbGZKXzBFbVk4Wi1kVGdvay1zRDN4Z2ZralpEZzVCV1N5Z2JUcUpYWFU1d3hLUThZVUxuN1JoTl9rLXJGMlhmT3o0NmdqR2c?oc=5",
+      "published": "Thu, 04 Jun 2026 05:00:00 GMT",
+      "summary": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map&nbsp;&nbsp;Britannica",
+      "source": "GNews | Israel-Gaza",
+      "priority": 10,
+      "category": "军事冲突",
+      "relevance": "high",
+      "matched_modules": [
+        "全球治理与地缘风险"
+      ]
+    },
+    {
+      "title": "Malaysia’s 5.4% GDP growth signals economic resilience as exports and investments surge - The Vibes",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZXVVN3pHV0JxWFEyUk1LRGVoaEh4TnJ6R1p3T3BzRHdtMzVIcHYwOWxvZU5aLVJZUENYMzFMbHU4NV9HSENMUWt0Tm8tSDZHZk5MQWo5RjdwanUyMnNNZFFtdF9iUkJSVUlET2ZtemxJZVY0VXNZV0R2T1lERTJ1b3ltcjBUellhNjNEQWZLMktCUnFCYjliaGlDSVA4Y3A3QlNTeXJHSzJCcUtWaXN5djRUNUJYSDZFVm5PUnV4ZHZlazlWZEViQ1J3?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Malaysia’s 5.4% GDP growth signals economic resilience as exports and investments surge&nbsp;&nbsp;The Vibes",
+      "source": "GNews | MY Economy",
+      "priority": 10,
+      "category": "马来西亚",
       "relevance": "high",
       "matched_modules": [
         "东南亚深度"
       ]
     },
     {
-      "title": "Cambodia loses tariff advantages on its exports to the EU - Opportimes",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPejNfSl9pWllEaUVjcmRob2dabXplcHVaUTUxX28zem1XczNFNTUyZmp0S0NoR0JKNldlRGdXMDRpT1RpZWpYdVJSYkZPTXY0dHhaYXZOUnlINVc0VjRFQUZ0cVBRMG8zSGZSSG5STVN1R0I2ejZkemh6Wi1hV29EUU4tT04?oc=5",
-      "published": "Mon, 20 May 2024 21:51:15 GMT",
-      "summary": "Cambodia loses tariff advantages on its exports to the EU&nbsp;&nbsp;Opportimes",
-      "source": "GNews | KH Garment/GSP",
-      "priority": 13,
-      "category": "柬埔寨+缅甸+老挝",
+      "title": "U.S. Trade Deficit Narrows Amid Record Export Surge - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTElxdFRDNFFzVDA5MUFKUTlod3VmWDBhUnVaQmZRSzhWRHRLRHpJMTVYdUExQnlqUEZ4MDVrQUJ0UjF2UXRIRHhsRW9GZXRPYzRscjluUGdBdEdxQmpMM1lTcnNlRXdPR1dTaVcyWWRmc1NybHBTQ0RqOGo0TnF5UUJjWUN2ZnIycDlmQ2tKV3g1YjJRdnc2SlpDcGpuZTVUMUZsZWQ3ZkVOMGfSAasBQVVfeXFMUExJcXRUQzRRc1QwOTFBSlE5aHd1ZlgwYVJ1WkJmUUs4VkR0S0R6STE1WHVBMUJ5alBGeDA1a0FCdFIxdlF0SER4bEVvRmV0T2M0bHI5blBnQXRHcUJqTDNZU3JzZUV3T0dXU2lXMllkZnNTcmxwU0NEajhqNE5xeVFCY1lDdmZyMnA5ZkNrSld4NWIyUXZ3NkpaQ3BqbmU1VDFGbGVkN2ZFTjBn?oc=5",
+      "published": "Tue, 09 Jun 2026 12:38:27 GMT",
+      "summary": "U.S. Trade Deficit Narrows Amid Record Export Surge&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | Signal: IN Record",
+      "priority": 10,
+      "category": "信号性查询",
       "relevance": "high",
       "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "Trump tariffs to bite in 2026, Thai exports may shrink - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pY1ZGNWJiX3FCcFRoSzB3bGl0cF9DaktUSTRoUjdXRWdMRkZ0akdSX0h1MmpxVHROUkNnSFhsTXc2azYzbzRDb2lXSVJkOGUwTzhoa1RnZ1VIaDk3Tko3TDF6azZqZnM?oc=5",
-      "published": "Mon, 05 Jan 2026 08:00:00 GMT",
-      "summary": "Trump tariffs to bite in 2026, Thai exports may shrink&nbsp;&nbsp;Nation Thailand",
-      "source": "GNews | TH Trade/EV",
-      "priority": 13,
-      "category": "泰国",
-      "relevance": "high",
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "Japan’s GSP extension brings export stability for Bangladesh - Textile Today",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMHZUV2lRaVRSS2hTZnV6RkNOdVZwSWdGVE50bVVRTTRtWkxYVzljVkRqNEhydWJCVk9RTnpidmFNRkszaWFaSjZIVTZVRVVvb21LUzhvMUoyV1pFVlBpd1hWT1kzbFhrcWVGWFFxdGVpRndrcFRUeEJfbFFaMGl2MkNYWjVKdHN1R0V1OHhqTDBuSmV6YkE?oc=5",
-      "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-      "summary": "Japan’s GSP extension brings export stability for Bangladesh&nbsp;&nbsp;Textile Today",
-      "source": "GNews | BD Garment/GSP",
-      "priority": 13,
-      "category": "孟加拉",
-      "relevance": "high",
-      "matched_modules": [
+        "东南亚深度",
         "南亚深度"
       ]
     },
     {
-      "title": "5 compliance challenges for pharma exporters and how AI simplifies them - Manufacturing Today India",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41ZTV3YURIZ1RsMVRSNmRhd0o3NGpWb3h2bXN1OXVNejBkajk0UTFhaU1Gc2NFQkV2c2JCT3hXVFpNQ2pYM2dUVlVSX0kxV0JHZFhyUTQ1MmljMXZrcDMwOTc2V2lMUmRqTnRvYUMyQjhqTjF3MTFwV2FRVmQ0eFk?oc=5",
-      "published": "Sat, 27 Dec 2025 08:00:00 GMT",
-      "summary": "5 compliance challenges for pharma exporters and how AI simplifies them&nbsp;&nbsp;Manufacturing Today India",
-      "source": "GNews | IN Pharma",
-      "priority": 13,
+      "title": "India’s next manufacturing push: Why the government is identifying 100 products to cut import dependence - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOVkZmRGxxaTZrbldGeVh3SlQ3Ym13X1NJeU9VeEUyaXdTYkctYWljTlRPOHNkNGE4VXY4YlhvNGU4VnIyQnJiR3RnWExPWHkySDUwZGtTUHQ3ZFh0aDhXSDcxVVM2a050RmtlUUdIM2tyOFVKcXN4UnpKek1vYklleXBlNUtWREczNGdTdHZDVE1lU3lVVXJFeEo0d2hudWR0enotNDJfNHNQRFk5OGFCYkFzNGIwbTcxM21lVXl3NHJEaVV4VUpKZ3A4a2FmbWpNNGZ3c2ZtQURmWVgwcmMxcVBLcUdKQnZNM1JUdGNWUWhCN0RVVkdhbjJXTWVSNUZPRTYwVlh6anJHaUZqOHlkOTdoTTFGb2s?oc=5",
+      "published": "Sat, 16 May 2026 07:00:00 GMT",
+      "summary": "India’s next manufacturing push: Why the government is identifying 100 products to cut import dependence&nbsp;&nbsp;The Times of India",
+      "source": "GNews | IN Mfg/PLI",
+      "priority": 10,
       "category": "印度",
       "relevance": "high",
       "matched_modules": [
@@ -1205,315 +624,45 @@
       ]
     },
     {
-      "title": "Yemen's Houthi rebels signal that they've stopped attacks on Israel and Red Sea shipping - NBC News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVWU2V05Vc0thYW0yQ2VGTnBZX0piZS1EM1FwWEZKY3JpYXpKcFdWdXh4NTBlV3l1OFFrN3N6OGswSklLZ0Y2SlJ3UVh0eXZPR3JlSkY3dm1oX1EtUUcwY2V3NkhhOGViR3o1ZDV4cW5QQkdXWm9zRVZ2VFd3N0lrNTlKLXdpZEhWNS1mRk5mUFFMX2pCWGxlSHNwSGpJOFZEUkVOTGppVGNiNnBMaF9BdnVyaE5PNldVc2psWA?oc=5",
-      "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-      "summary": "Yemen's Houthi rebels signal that they've stopped attacks on Israel and Red Sea shipping&nbsp;&nbsp;NBC News",
-      "source": "GNews | ME Conflict",
-      "priority": 13,
-      "category": "政治+安全",
+      "title": "Crisis, coup, and social conflict: the Peruvian electoral situation - Peoples Dispatch",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazhDc1l3RE1qc0dFSHhtbGlTX0Z5OVl6MkRGSVJSQ3d1NzJzYkNRYlVpMTZ4MXlRSndwTHZtSXk5UlVqM1pvRHBxbVAyLUtJcEQ1N1lTaEU4MzBxbzJfb3hxNEMxaGtTVlBkcW9JRmZvMHNlOFBDRUR1SXRWVmpraEtlTTZTWlQ1VmlwSGZBdmhDMjJOVWhFb3ZnWkFSSlp4cjEyMHBpUQ?oc=5",
+      "published": "Wed, 20 May 2026 22:14:04 GMT",
+      "summary": "Crisis, coup, and social conflict: the Peruvian electoral situation&nbsp;&nbsp;Peoples Dispatch",
+      "source": "GNews | Africa Conflict",
+      "priority": 10,
+      "signal_keywords": [
+        "coup"
+      ],
+      "category": "政治+冲突",
       "relevance": "high",
       "matched_modules": [
-        "中东深度"
+        "非洲深度"
       ]
     },
     {
-      "title": "America’s latest wave of Iran sanctions - European Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tdEFPdUw0WFJtbGx2Skl3UW13Ullya19waVVYQUlDMnJZbUJnVXJlVkUweGVxbXZFQzNuU2Z6TmVrLUkzbnQ4b0txZ0NpZ0hIaG9zdzhIcERaeVVESWZGRU1pUEh2RVVRbGxnT0w1YUhsQ2J1UVRLWS1lQlRnVm_SAYQBQVVfeXFMT2k2Q0hldmxyNks3b1JzNmVQNzlGOXFQSk1YcEl1ZkxpR0hqRnc5NURGMEkyOHFsRm1ZVVFvZ3JySlRtT0NnWmVhV21BeFUyRGhnbnYzQmx6S0IwWmJvbTFjM21EbUxKc3Zub0NURWF4ODgzSi16QkJiS01WeVhlN3hDc2Nl?oc=5",
-      "published": "Tue, 06 Nov 2018 08:00:00 GMT",
-      "summary": "America’s latest wave of Iran sanctions&nbsp;&nbsp;European Council on Foreign Relations",
-      "source": "GNews | Iran Sanctions",
-      "priority": 13,
-      "category": "伊朗+土耳其",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "US’s Iran Sanctions: Mixed Prospects and a Beyond-SWIFT Question - Al Jazeera Centre for Studies",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWE1cjBkWEZiWkFXTFA5RXNfUEdZTnRrbFFFTUd6N0dhMUNGR2g0QUdSeDJtMFI5RXNSc2R0N3lfaENaYWZaLW0ybmVsdTRrNzJPRHF6U0VTWWhQcl96NW1iR21QcHYyZ0hmZ1AzNlZvV0JRNFhXN2RSQzZ4ODctTGN1ZVlTNTBjN2t0bjVvMnlpaElmcUU0bF9oNXFRQ2dEdUN3OFoxNnJMVTF1bkVhLVNrSTVCZFFyc2c?oc=5",
-      "published": "Thu, 27 Dec 2018 08:00:00 GMT",
-      "summary": "US’s Iran Sanctions: Mixed Prospects and a Beyond-SWIFT Question&nbsp;&nbsp;Al Jazeera Centre for Studies",
-      "source": "GNews | Iran Sanctions",
-      "priority": 13,
-      "category": "伊朗+土耳其",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Trump administration to reinstate all Iran sanctions - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Qa242R1oyNXctY01NeW9hZmVEaTZjalhFNHlROFdOYXZJRzJNSjFrNGJXX3k3cy13Z0VXT1hIUXFpdUYxTHFQa3A2cEZZLUZUVC1KaU5mcnVnUHNyb3c?oc=5",
-      "published": "Sat, 03 Nov 2018 07:00:00 GMT",
-      "summary": "Trump administration to reinstate all Iran sanctions&nbsp;&nbsp;BBC",
-      "source": "GNews | Iran Sanctions",
-      "priority": 13,
-      "category": "伊朗+土耳其",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "INSIGHT: Iran Sanctions - skuld.com",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaSi1ta3pidVhqREFHZG5hUzhrekJscXhDc3Q2NUNiU1g5NWI1YkVDQ056VkJGLWhaVEppd2JoT2NjQmFzOWJmeFFxM0gwU3lkRjYxNzA4a3hoSzNTdVZkbFJhYkZrRVdkQ2N0S3dHbmVfbUI5My1ocFpBYTRoZw?oc=5",
-      "published": "Mon, 23 Jun 2025 07:00:00 GMT",
-      "summary": "INSIGHT: Iran Sanctions&nbsp;&nbsp;skuld.com",
-      "source": "GNews | Iran Sanctions",
-      "priority": 13,
-      "category": "伊朗+土耳其",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Six Myths About Iran Sanctions - Brookings",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JT0FaMmNPZVRQTDhnd1pWUGY3U2FORlJaU21DWVVicVJRLTNoOGtlY0QwMk50aHU3a3ZTZFY3QlBmWXNZNnBuR191NjFzTmY0cVloOWh5X0NYSXJqMDQ1SHU5eVlmbjhHUE1HWmpTZzdpeEk5?oc=5",
-      "published": "Mon, 13 Jan 2014 08:00:00 GMT",
-      "summary": "Six Myths About Iran Sanctions&nbsp;&nbsp;Brookings",
-      "source": "GNews | Iran Sanctions",
-      "priority": 13,
-      "category": "伊朗+土耳其",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "UN Security Council rejects resolution to extend Iran sanctions relief - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMG8zb0hhY1lsR3JURzA3RUQ3N2doeVEtdkxlcFJCcmtUVnZVSVRBanh4cVRySVF6aExfekdQRnVhZHFQZ2I1OHEzNGVOWTdjSmU0VW1hR2VlZnJ1NVZzOHIzcjVCR0dzaERONUY2MTNsSzJvejRNcFhldTRocThUNzlZN2NfMGlHY2tZVDFpNG54UkdzTENDWmpkTzBFQ2N0SmlVeUpCRlpacHFSQ2NWatIBtgFBVV95cUxOeDJqcER3UnhoZlRpQUthcXRxYVhXY2N6VzhQMUxYcTVoMzVuM3JlaGNVY1R6Z1ZRWm5xbGp1RklPVWVsN2hmbDluUXBZOUt4ZENWNHA1d3B6UGZlSHA3aDNGYkQxSWFrWGJNbExwRkNyNEJYOEZ5akwyWi1EeXIzSlJ1YWlwbG5FWkNxc1F1R2EwQlpENzhuMXJsSG9oOWwwbGhabTlySm5JNlRQNUFOa1VMSVFSdw?oc=5",
-      "published": "Fri, 19 Sep 2025 07:00:00 GMT",
-      "summary": "UN Security Council rejects resolution to extend Iran sanctions relief&nbsp;&nbsp;Al Jazeera",
-      "source": "GNews | Iran Nuclear Deal",
-      "priority": 13,
-      "category": "政治+安全",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Red Sea arena: Yemen’s Houthis open fourth front in Iran war, with global implications - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UMUl1ajVmSmhGQjAwb05XUzR3ZHR5d01oVVVnaEt1czNHMmxoOGNJcHdrb3lncVczR1lXYV9Ld2Nyb1oybThjUXdiSzNGRnE1LWJMVGIxVGpsYkFB?oc=5",
-      "published": "Fri, 03 Apr 2026 07:00:00 GMT",
-      "summary": "Red Sea arena: Yemen’s Houthis open fourth front in Iran war, with global implications&nbsp;&nbsp;The Jerusalem Post",
-      "source": "GNews | ME Conflict",
-      "priority": 13,
-      "category": "政治+安全",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
-    {
-      "title": "Argentina sees lithium and copper exports at $32.7 billion in 10 years - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeTAxeE0weENKazIwcUFJcGo1XzZzOGYyWFFwZm91MEp2ZEdReUpybjgxc0hBZ3pUS2xGOEg0bU9RMzdRbVFueWI0SUpmQUM1Um80aWowcDVfdzJrOFRzVjJwR0c4V0lFSy1GTFBCUTh4WnhlMmNDOUNiMGxqZDBHSUZITUUzQU9hanRNNTRQN1piQ29JZDlUTVg1V1hQQzBtZGpMYW1pTEZiVWE2a0NGaW5XZWF3dllqcllyUA?oc=5",
-      "published": "Wed, 06 May 2026 07:00:00 GMT",
-      "summary": "Argentina sees lithium and copper exports at $32.7 billion in 10 years&nbsp;&nbsp;Reuters",
-      "source": "GNews | CL Lithium/Copper",
-      "priority": 13,
-      "category": "阿根廷+智利+其他",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Brazil looks to fill Chinese plates as US tariffs shift soybean, pork trade - S&P Global",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVWVOTlNveWo0M3NUT2FyQVkwMWU2d1NJMXFFd2pPeElXNkZTYVczZV8yaXJKb3ZsakdaR3o0UXU4R1BuMlZ3cTZXQ2E0NkxiRDNWTmxQZlZ4c2RuaDE2R2ZoUmRzbTRrM0VfLTdOM082RkRzN1JxdVZZeENkMktqdFlUSDQ4VmZHaDR3R3BpMDdkU2JjdHlCOV84NnprdnJfaFprZUpObWtUOVNpVnpTdkhlQ1lHdnZZX3BRaHc5X01SbFRuRndkT1hfMWU2NlZBU1RvNWZqX0FvX1dkbVFGaktJaUtvT0g0Unc?oc=5",
-      "published": "Tue, 22 Apr 2025 07:00:00 GMT",
-      "summary": "Brazil looks to fill Chinese plates as US tariffs shift soybean, pork trade&nbsp;&nbsp;S&amp;P Global",
-      "source": "GNews | BR Commodity/China",
-      "priority": 13,
-      "category": "巴西",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Mining dominates Chile's exports in 2025, while copper production stagnates and exploration increases - BNamericas",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSjVITU9hUGF3TGwtRFZNdHR0SDdFM2Vua1lIbGdGWGZCVklyLWlrVjZrOHRvRld0czRzc0M4Y1M3Q3ZlV1luSFBkUXo1dHE3WXFZNnJ5RnczXzhRZWZYaGZtUFNuY0kwdWdkLVJzU2dWNzdZWGVkZTQ0REVFOUQ3WExIZ2RtRGZDQWU3Z0FkTnBvZ3hLRHdxWWFMTWE2UmNSc0x5Q09EZWFjUVRRbUJDN1BXekJ5Q2VNdEdFQk50d0VNY2Q4bGpSdUNBZzBvNWpNRXF3Zg?oc=5",
-      "published": "Tue, 13 Jan 2026 08:00:00 GMT",
-      "summary": "Mining dominates Chile's exports in 2025, while copper production stagnates and exploration increases&nbsp;&nbsp;BNamericas",
-      "source": "GNews | CL Lithium/Copper",
-      "priority": 13,
-      "category": "阿根廷+智利+其他",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "How CH Robinson is Responding to US-Mexico Nearshoring - Supply Chain Digital",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qWTBJRldoQ2dSUGxPUHpBRkJOdzZJbmdmOUFjWmdGZzE1LUxMZUJuU09SUUthMXktQ1VfYkMwUWhfd1c1UFJXUlEyNUdidUFvRjdob3hLc2lVaDVaYlJhSUxZbWZ2ZVZJS1k1OXFNVzZJTU9JLVF6bQ?oc=5",
-      "published": "Mon, 24 Nov 2025 08:00:00 GMT",
-      "summary": "How CH Robinson is Responding to US-Mexico Nearshoring&nbsp;&nbsp;Supply Chain Digital",
-      "source": "GNews | MX Nearshoring",
-      "priority": 13,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Higher tariffs in U.S., Mexico part of global response to China export surge - Federal Reserve Bank of Dallas",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sRnFBY3h6aDYxcGZxQ0UyWnNzVGlUM0Q5OEdPRHVOUGp4aDZmQ1dBRkFLRDgtRWNPeGhTcC1mYUxseW1nYkhhbkdOTWpCbm1yZThuNU1Oc19yVUFGQkRn?oc=5",
-      "published": "Fri, 31 Oct 2025 07:00:00 GMT",
-      "summary": "Higher tariffs in U.S., Mexico part of global response to China export surge&nbsp;&nbsp;Federal Reserve Bank of Dallas",
-      "source": "GNews | MX Nearshoring",
-      "priority": 13,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Copper Rally Peru Brazil: Industrial Demand Transforms Mining Markets - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSGw2Wmd2WklnaE9KVmV3N1hSMGd1R2t5RjRLNzRkaktlUnpLd1JzUzVndlk5VnhuVU1zdlpxQWhCMUI4Z2FRVkxoUlcxQ2VmalN2WUY5bzlQSF9yUGVvb0JkREhmeXZ5bWN6Njh3SzJPZmJJeFBRMkNOcjNVcGFEU1BiVEo3Tms?oc=5",
-      "published": "Fri, 20 Feb 2026 08:00:00 GMT",
-      "summary": "Copper Rally Peru Brazil: Industrial Demand Transforms Mining Markets&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: LatAm Disrupt",
-      "priority": 13,
-      "category": "信号性查询",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Clark Hill 2023 Automotive & Manufacturing Industry Outlook: Mexico Update | News & Events | Clark Hill PLC - Clark Hill",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMnNzUV9QdklyWG9DTXNXS3V0VXRQWkxNUWpFbVZUcXp4ZGZDU0kwLWZkaVN3TXVMWE16cFZJT1ppeFpVNWRZejhGaldYWTU4MjVQRHZPQmFNSElES3c2RTJqRlZWTVpfZE80LTRRNWtONm8xcVY3b3NCMFNycXkyRWgwVm5YQVk3bHRKX2lVY0ZObkYzTUhuaVNtYnNsUVM4V0ZONHlHOUhyUDF2N3J2TkFQNUsydw?oc=5",
-      "published": "Fri, 08 Sep 2023 07:00:00 GMT",
-      "summary": "Clark Hill 2023 Automotive & Manufacturing Industry Outlook: Mexico Update | News & Events | Clark Hill PLC&nbsp;&nbsp;Clark Hill",
-      "source": "GNews | MX Auto/Mfg",
-      "priority": 13,
-      "category": "墨西哥",
-      "relevance": "high",
-      "matched_modules": [
-        "拉美深度"
-      ]
-    },
-    {
-      "title": "Exclusive: China should consider anti-dumping, anti-subsidy probes into French wine as part of countermeasures against France’s proposed 30% tariffs on Chinese goods: expert - Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kNXdyVVZPS25oNnhpRXh0djlCR3VBaHpkSDkteFNjY2lpc2pCVzFiOEVUcjlYM1ZLQ21reDJSUTBPRDJ4bXlUdlRPdHlRTE9pTmVZWHNkQzgwTFFxMG8wSDhR?oc=5",
-      "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-      "summary": "Exclusive: China should consider anti-dumping, anti-subsidy probes into French wine as part of countermeasures against France’s proposed 30% tariffs on Chinese goods: expert&nbsp;&nbsp;Global Times",
-      "source": "GNews | EU EV Anti-subsidy",
-      "priority": 13,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Carbon Border Adjustment Mechanism (CBAM) - KPMG",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUEVkLTF2MnFKVFNva3N2NFcyT0RsZjUwdC12SWhsbFZxb2NkR01tQ1ZuTDl4QVZSUDk3eEVqMnN6WTJoZjZjRmlER09YVE5tTmVCVGpxYTBsaFFiR01LQW5kVUlVTXE4Z0FFUGZzeDZGSFlGV09nQU9RdTExc3dFdlBZbjNQVHZKYXp3UFYzUVR2T3F0NXc?oc=5",
-      "published": "Tue, 31 Mar 2026 16:59:22 GMT",
-      "summary": "Carbon Border Adjustment Mechanism (CBAM)&nbsp;&nbsp;KPMG",
-      "source": "GNews | EU CBAM",
-      "priority": 13,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Russian energy revenues, trade, crypto and military industries targeted in 20th round of EU sanctions - EEAS",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa0NWUFJGa29RZ0FGdnA1WENDcEdZd21qaTZ2ODNsMjJsVHJtelNBblh6RTNKTTZCNUUzSHoxbk1QZXUzTHFwU0xZdy1OSkJhQmlFTFdQNVRLVko0cmdGb281WjNLeXNGb3RlU0t6QVpoRGlkcFBTRnNZdWFWM1NDNHhaTUhaUGFUOGh6QkZHaUprRGM0anhrWUVtb1FjYnAtMDVsU2w2cTBoY3RKXzRxS01xTGoyX2hCdVFFdEt5bXc2Qk1rVXdF?oc=5",
-      "published": "Thu, 23 Apr 2026 17:05:45 GMT",
-      "summary": "Russian energy revenues, trade, crypto and military industries targeted in 20th round of EU sanctions&nbsp;&nbsp;EEAS",
-      "source": "GNews | EU Sanctions",
-      "priority": 13,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Russian ruble buckles under trade sanctions, declining export earnings - Federal Reserve Bank of Dallas",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kbFg0WTNXbW5Tbjg5THlLbURpOXBockg1SGlXbWJxZkU5djhkR3lYZHl6blJ4N015RnVZUkQ2NnMzd0JBaGRCNHhXSGpLWmxRdEViYmZZenozSHJNQUVwWkdzd2o?oc=5",
-      "published": "Tue, 10 Oct 2023 07:00:00 GMT",
-      "summary": "Russian ruble buckles under trade sanctions, declining export earnings&nbsp;&nbsp;Federal Reserve Bank of Dallas",
-      "source": "GNews | RU Economy",
-      "priority": 13,
-      "category": "俄罗斯",
+      "title": "The North Caucasus Investment Forum 2026: Russia’s Pivot Towards Islamic Finance, Investment, Trade & Tourism - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDZ3T0ZEa0k5bTRaZFRMaXF2aVpBc0V4ZFByZlBWc2t0RExKZ1YtOFBoX1lTaXF6ckNaMFQtb3hQQndOQm5Pam5scnM2bkYzWWVlWmZrMElVWExBQzhJY0ZfVGtGUlFPU09kV1JnVkxhTnQxbWJ5eF9RQjhTbktPVHg1cElvSTk5dWpobGJxaGtpa2gyZUlsU3EwN0x6U3p5bjVVTGZIZW9yVkhIMG1mVXpGYmRaZTFlcUxyMDZUd0lXSm1EYWotYTVlZTRtSzBH?oc=5",
+      "published": "Fri, 29 May 2026 14:24:52 GMT",
+      "summary": "The North Caucasus Investment Forum 2026: Russia’s Pivot Towards Islamic Finance, Investment, Trade & Tourism&nbsp;&nbsp;russia's pivot to asia",
+      "source": "GNews | CA Infra",
+      "priority": 10,
+      "category": "基础设施+科技",
       "relevance": "high",
       "matched_modules": [
         "独联体深度"
       ]
     },
     {
-      "title": "Russian Sanctions and the Rise of a Eurasian Backdoor War Economy - TheWire.in",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc3p0NXdyQ3dETTRSNW1kLWhYU3NaazNZNUNQTmxEbUVFMEZGd3oyMHQwd2tHYmdaZTdXNDZ4MWdLTmE3cHZBMHgtaUpLQTVPTjViTS1odHB3WEJZbk1MczlrdnhkQlotZXpJSFM4N1NjeW9VN2hGcGQzMjNQa2UxbklaVVBVVmR0TGRYZDBHZjdoUWVSdl9JR2ROblRoUS1kMEHSAacBQVVfeXFMTzlsV2c0VmV6bDUybjVGRjJjQ0R1MGlmRzAzTlJ1RWtlV3A2NTBuRjdiV05pWTFEcjVnUnh6TmxBU0RrdkdyUnFmY1ZqYllqa3pVVTNZanhlWmhsZ1ZtR29uTVdDMFd6VDN1S2ZYWGtGQXJkanhyd3haYnF4cWR1VEloZ2RwRHpiSERkNld4ek80a3NFT1kyQ3ljdXZfcmZDbGt3a1BVOFk?oc=5",
-      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "summary": "Russian Sanctions and the Rise of a Eurasian Backdoor War Economy&nbsp;&nbsp;TheWire.in",
-      "source": "GNews | RU Economy",
-      "priority": 13,
-      "category": "俄罗斯",
+      "title": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports - Pipeline and Gas Journal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbEl2WDlQTkJYOVY1T0Q2NzhuMFd3bWhHdTVlWXhVcTJkRDBkcEl0dzA1b1NJS3FMS2JEV2VfZGJ2MVQ2WmNuTFRjQnFCYUR2MUtfay1UMkxERV8zOFJMcF9CalRmWmJIOWVvbW1yVHpBQ1A5V2wwbC04aDRtVDRTZVBSYk5mYlk2X0gzU1NyaUhUWjhpZ3VnRlkzal9aVUR4UFZjM3BsUGtEc1Y0OGtXRlZZVGppUXVrb0hiZUJVVlg4Znk0UEZvQlc5UFdpQmc?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports&nbsp;&nbsp;Pipeline and Gas Journal",
+      "source": "GNews | CIS Energy",
+      "priority": 10,
+      "category": "白俄罗斯+能源",
       "relevance": "high",
       "matched_modules": [
         "独联体深度"
-      ]
-    },
-    {
-      "title": "Kazakhstan Labor Migration Report Shows Most Citizens Working in Russia - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY1Y2SEhGZkxQaVZjN3M0WDQ5ZG4yejRINmdTNmRndDB3YXBFRW5yMkpQVHdZNzFsR3pJNUVJSXg1bVFaZHdRV2kweTRnVjRRT1Y2TTVFTHdubmI5eVJiaDIxWE9wSGdNUDZsNlF4ZlRzTExhODhudVZETk0tWlk4c1BXX21lNkVmVmtZUWpuVWw5WVUyZXRR?oc=5",
-      "published": "Fri, 10 Oct 2025 07:00:00 GMT",
-      "summary": "Kazakhstan Labor Migration Report Shows Most Citizens Working in Russia&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | CA Demo",
-      "priority": 13,
-      "category": "气候+人口",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "Have trade war tariff-dodging companies missed the boat on Vietnam? - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcEhyc2ZZWG4xZVdERmVqRVlaU2NZRGdSQ3FDb0pMeU94X2FPY2o2V09wVHhJSndaVDRCOENaWVFoekdTdzRFYVJFd21CdEpnQmE4N2I4RDJlWXBkMHpjQ3FDLW1ubG5oU1VCYzhFbExrbXZqTkYweHY4WFJERjV0VHlacm5uM1BBM2YtUXVxLWIzdDNIbURJQXMxbVdKZ3dhSVY2bU1TSjZRU1k0Zm5HX3h3YksyZV9JdHfSAboBQVVfeXFMTlQ5SVMxbjJ4VWh4STFIRnBFa203bm5obFhsYnY2amdNVzJ2OTctdEFvNXhaN2FYNFJsbHhNVG4yS05vSWx0cEI0WTZvZk1aVDVUTkF5cVYwOWNaemZ4MmFYaG5xWjBIMF84akJmd21XanV6eTV5cFJvNXp3Z1Z2dV8yZUw4V2NsaW5EQVhFVlRJdGd3d0tpLWlBa3pPdjQ1bkgwekR4cGpCWENwOS12X3dibTBXSzRkSTVR?oc=5",
-      "published": "Wed, 08 May 2019 07:00:00 GMT",
-      "summary": "Have trade war tariff-dodging companies missed the boat on Vietnam?&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | ASEAN Mfg Hub",
-      "priority": 12,
-      "category": "全球产业链重构",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Biden hits Russia with new export controls and financial sanctions - Roll Call",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVngyYVZKUmtBdUxCUGRuZm9yd1ktMGEyS1hfLXBUT3hwd0pDd21yV0ZsS2t5LV93eklLSEhKWUVGdW53eHM4OFVSUkViUTdfOG9PakJEazFsb3dwQlZoNzVmdXk2OVAwN2g4X2pqS3UxX2lmS2t3bzI2ZnhORXp3bjhlUlZSTnM4eTNDTm5rdTh6anVZY3BCQjRKM0NFdjhz?oc=5",
-      "published": "Thu, 24 Feb 2022 08:00:00 GMT",
-      "summary": "Biden hits Russia with new export controls and financial sanctions&nbsp;&nbsp;Roll Call",
-      "source": "GNews | Signal: New Sanctions",
-      "priority": 12,
-      "category": "信号性查询",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Trump's trade war led Amazon's low-cost Asian rivals Temu, Shein into retreat, but it may be temporary - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQREtqNTUtY216bnBVSUw1T0NpeTI2TGRzUkh1ZXhPWE03UmF6R25XWWhENC1rUnBOWDZOVnU1RnFrTXZ6V0tpN01OWjh0VkVwbm1QNGo0bmlVeDZKX2tEZHRLWjBXenVUaktZVUtPd2hDMXJfdWd2QnQ4YWRzdW1YQS0wMkoySnVCNzUzZDN2U1dPdk5VdjUxZllLUkduT3VIWGhGS01ra9IBrAFBVV95cUxNc3o2VWdncTMyY2dvTnFjdVNiSlgwS2pBRzhJbmotM1RUdkZwVUZDQVNBYTJCbDFENGd6YzlPRGRtS0IyUlVlMFBBeGo3ckhtaENFYjF3ZVkxZXFpVFF0N0R0bzd6cjBGLUZyelhwaGFWUGtXdS1QcmZBclYxY1RNRVN0emdWYTFrZ0dpLXZQQUVyN1piWGs1eUpuZXZfWUp5Sy1YcFpDazBxQkVD?oc=5",
-      "published": "Thu, 10 Jul 2025 07:00:00 GMT",
-      "summary": "Trump's trade war led Amazon's low-cost Asian rivals Temu, Shein into retreat, but it may be temporary&nbsp;&nbsp;CNBC",
-      "source": "GNews | Cross-border E-com",
-      "priority": 12,
-      "category": "科技+出海",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
       ]
     }
   ]

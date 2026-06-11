@@ -1,13 +1,13 @@
 {
   "version": "4.0",
   "module": "非洲深度",
-  "updated": "2026-06-11T02:28:21.551557+00:00",
+  "updated": "2026-06-11T04:03:14.840990+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 250,
-  "high_priority": 11,
-  "medium_priority": 239,
+  "total": 70,
+  "high_priority": 4,
+  "medium_priority": 50,
   "signal_alerts": {
-    "coup": 8
+    "coup": 1
   },
   "stats_by_category": {
     "主要经济体": {
@@ -67,16 +67,6 @@
       "relevance": "high"
     },
     {
-      "title": "South Africa - Economy, Mining, Manufacturing - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xdTRYZTlfblk0SGcwd05zWVQtbDh3emdINDB6UWxvd3J5cWpVbUhhcUNKS1BnWjRLbHh2SnlXMXdOUHlNMlpOREJlb1cxXzA5WnpBa1NRVHFpVkUxaXlXSHFRZw?oc=5",
-      "published": "Thu, 17 Sep 2015 04:39:26 GMT",
-      "summary": "South Africa - Economy, Mining, Manufacturing&nbsp;&nbsp;Britannica",
-      "source": "GNews | ZA Economy",
-      "priority": 12,
-      "category": "主要经济体",
-      "relevance": "high"
-    },
-    {
       "title": "Nigeria, Kenya, Morocco selected for AfCFTA digital identity and DPI rollout - Biometric Update",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUE4STN5c1ZZOUZQTWFWMTBQMUZ2NDBNeGpOWGZncDc0YlFhOEdGcV9PaTg2UTlvYjVWTzZjeWRIQTRoRWZsRVZaOG9XaXU4dUFRTXVIMEhURmFUS1hzS0wxMFMzSFlxbWNjZWhjeW5RdjFZczJhUllCV1N5SG9uZ2Jxb09qSWxiYm5rNGhtQ3BITVRoNzZ4azA1aFQzbHIxWjV0aHN2Z2NtNUZia253QVhzTQ?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
@@ -87,73 +77,16 @@
       "relevance": "high"
     },
     {
-      "title": "Kenya, Morocco, and Nigeria first to implement AfCFTA’s ADAPT - tech.africa",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VcHl2RU1lblJpbmVfNlFaVkwwTlZqd2pJOWhCN09oTUVrNGNFRGUzQnN2aVdMS2NjNWJlNWVwbldQbVlsajA4SkpvOWV1YWtxd3kxSk9uemRmaXhwSW5iVXNTcWFpUQ?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "Kenya, Morocco, and Nigeria first to implement AfCFTA’s ADAPT&nbsp;&nbsp;tech.africa",
-      "source": "GNews | AfCFTA",
-      "priority": 11,
-      "category": "贸易+区域",
-      "relevance": "high"
-    },
-    {
-      "title": "Special Report: Conflict Minerals in the DR Congo - Genocide Watch",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVzd2ajNNMEdmdXR4dGx3UVFDNGVPNXd1eHpNVTJHX1k0aXJoY2JSNmh3Vmp4RHZ6WXdFQ3AwYVl0OXhDeVN3aVh6VEJsa3JscENfa2dyZk5WS1lQVVhOMFFwWXJkODdBeThjQjVVdzVFNnhpUmpSOGdnLVNJVlIwM1Y5clhSMDBkVU1aSlR3?oc=5",
-      "published": "Mon, 09 Jun 2025 07:00:00 GMT",
-      "summary": "Special Report: Conflict Minerals in the DR Congo&nbsp;&nbsp;Genocide Watch",
-      "source": "GNews | CD Cobalt",
-      "priority": 11,
-      "category": "矿业+中国",
-      "relevance": "high"
-    },
-    {
-      "title": "Egypt’s Cautious Comeback: IMF Support and Rising FDI Fuel Growth - Global Finance Magazine",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVBSenJaRnB1UzVGcVBsMFBiaHVmbERDODRsZER0Z3dYWktGYlg0ZHB1dWNjT1RyZWstQkRTYjFYZDgtQzFETVk1YVI1MW9mNkRIcDJYcHpnejhJRndEMWppZ0dYcnZmMmJWYS1mZGN3M0pwTmdBNzBtakNXNTM5WFFtbXFDMmo0VUplUDJaVHZmcEZ2?oc=5",
-      "published": "Mon, 06 Oct 2025 07:00:00 GMT",
-      "summary": "Egypt’s Cautious Comeback: IMF Support and Rising FDI Fuel Growth&nbsp;&nbsp;Global Finance Magazine",
-      "source": "GNews | EG Economy",
-      "priority": 11,
-      "category": "主要经济体",
-      "relevance": "high"
-    },
-    {
-      "title": "Seeds of Growth: Investment Prospects in Kenya’s Agriculture Sector - New Business Ethiopia",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTV9nbTRMd1B0UEUxcVFPYXlZdExXR1NkRkpPR2lkTjB0MEs5MWNBWHJfMDN6NHU0UzcwYmxreDE5Vmo5Z2k0cEVja2FGNFFKbFFUZjludERra1VOam9oOWZ6REUwXy1jby1vd2JPNnZ6Y3pLeHE2WVl2M2pZNncxMWZDSGhIemlwaDlkUWlzQnF3NEE0Y0liVldySm51Sm9vNWRsaHR0VGUzT1I5UXZnVQ?oc=5",
-      "published": "Thu, 18 Sep 2025 07:00:00 GMT",
-      "summary": "Seeds of Growth: Investment Prospects in Kenya’s Agriculture Sector&nbsp;&nbsp;New Business Ethiopia",
-      "source": "GNews | KE Economy/Fintech",
+      "title": "Crisis, coup, and social conflict: the Peruvian electoral situation - Peoples Dispatch",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazhDc1l3RE1qc0dFSHhtbGlTX0Z5OVl6MkRGSVJSQ3d1NzJzYkNRYlVpMTZ4MXlRSndwTHZtSXk5UlVqM1pvRHBxbVAyLUtJcEQ1N1lTaEU4MzBxbzJfb3hxNEMxaGtTVlBkcW9JRmZvMHNlOFBDRUR1SXRWVmpraEtlTTZTWlQ1VmlwSGZBdmhDMjJOVWhFb3ZnWkFSSlp4cjEyMHBpUQ?oc=5",
+      "published": "Wed, 20 May 2026 22:14:04 GMT",
+      "summary": "Crisis, coup, and social conflict: the Peruvian electoral situation&nbsp;&nbsp;Peoples Dispatch",
+      "source": "GNews | Africa Conflict",
       "priority": 10,
-      "category": "主要经济体",
-      "relevance": "high"
-    },
-    {
-      "title": "Cobalt Market Update: Q3 2025 Review - Prices Surge on DRC Export Controls - Investing News Network",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWxnaW56cWh4S0lYMlJPMTFzVlFtYWNBR09TZmRhWi1oenBCZ2c1Qjd2U09zZjQ1a1dGWWgyZ3Izci16TDJEWVVIZEVOOW5NNm5RWmZ6WkdmYlRTSTVFeFdzN0p1SXg5YzhEMzZOVEIzUldYaDVpNmxfdEtldmtwaDAyUzRwR1oyYTNyR2g2blljZW5HQzBOaGZEVDFnZXYxY2FqdEZwT3A4UEJEVnc?oc=5",
-      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-      "summary": "Cobalt Market Update: Q3 2025 Review - Prices Surge on DRC Export Controls&nbsp;&nbsp;Investing News Network",
-      "source": "GNews | CD Cobalt",
-      "priority": 10,
-      "category": "矿业+中国",
-      "relevance": "high"
-    },
-    {
-      "title": "China-Ethiopia Trade, Investment, and Opportunities - China Briefing",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNODRtUzJVdTJ0V2pyajV5ajBqYjRDakY0T0hXc1hqbGZaZWV4Z21JRERHWWRmSGJTY0hOT2xmdDg1bW5JX1YybnZ4MzJyWWtHZm91VGc5VGsxVU9mRWtHQzJES1gyWmZTb1lLMDhzVkhzaTExSUZZMmNZVFBqLVVDcFNGX2NvNE9UUnc?oc=5",
-      "published": "Fri, 28 Mar 2025 07:00:00 GMT",
-      "summary": "China-Ethiopia Trade, Investment, and Opportunities&nbsp;&nbsp;China Briefing",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 10,
-      "category": "主要经济体",
-      "relevance": "high"
-    },
-    {
-      "title": "Zambia Copper Rail Link: $5B Western Corridor Transforms Mining Exports - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU0ozdms0cDA2VElVWXVRS2lhbHk0aWJUbEZvb3ZLc281b3BGSVZOUk9VVm5TSDR5ZUlvRkpISmd4SERrYzgzd3hSQmdzUHJjbWtBWHNQZm5Wa2dnOGhOTGRSSDFvak1vYm03TnRicFVtM2wwdV95OGFMandSZ2Q1Q1dGd21vVy1TeHZF?oc=5",
-      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
-      "summary": "Zambia Copper Rail Link: $5B Western Corridor Transforms Mining Exports&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Africa Infra",
-      "priority": 10,
-      "category": "基础设施+科技",
+      "signal_keywords": [
+        "coup"
+      ],
+      "category": "政治+冲突",
       "relevance": "high"
     },
     {
@@ -167,111 +100,11 @@
       "relevance": "medium"
     },
     {
-      "title": "Chinese Imports Could Undermine Ethiopian Manufacturing, Leaving Women Workers Worst Off - U of G News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0d4VmJlREFMYnM5SGtOQzM4WkdTb012bFRLNHVpRE5xSGxMaGMyYWtzVDZFRXNGR3h0NjU0MTlCMXI3S0V2SEJyeXQxYUVOZ2p1bkszYWpjWGFwZnZOY0ZfM0tkZXA4aHdONHBRTEdNc3pybDNjcnJzUlpPN04wcHBlZGF6TUtFazBiUEFwRDNyUzliWTAyV21ybU9TR1JReWhOWGU2NFBuYUZ3X2xtbDA0UmR6d0ZRNlNOUHFn?oc=5",
-      "published": "Wed, 11 Jan 2023 08:00:00 GMT",
-      "summary": "Chinese Imports Could Undermine Ethiopian Manufacturing, Leaving Women Workers Worst Off&nbsp;&nbsp;U of G News",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 9,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Mineral-Rich Congo Invests in Infrastructure and Mining Optimisation - HKTDC Research",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLVHZySzhwb3BBTS1FUFBSaGVTRmI4bkd0OUMtT2xBRlNQTTRHVlI3SnNXLU1Dcmx5SWM3RTVJOWZDRU85VEVGb2xrWW9IbmlUSFJPdmZ3N2lGajdHaXhZcUV3?oc=5",
-      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
-      "summary": "Mineral-Rich Congo Invests in Infrastructure and Mining Optimisation&nbsp;&nbsp;HKTDC Research",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 9,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA: New lease of life for US-Africa trade accord - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMnhxdzdSS2haek02dEo0Zlk2MEVZQmxBZ2M4T2pyamRVZ25zQjUzR0E5enMzMTMyMThDX3poU3hwbTBUZkFqU3M4OVBNZDR3VHdvdDJrTHRSNVZFbk00OTE3NTl1MG9hTTAyT214T1Bnbjl5Q2p5NjczOGhWbldmcngzXzlrQ0treENRaVhhMW9faVdDbDU2S2FsQdIBmgFBVV95cUxOcWE1QjJELVpRTG80c2Q2NUY3QXI3dXA2MTZCRFZZX1lVendZT0pZcFNFU1l2VUtSV0x2WWdLMU00UGtQQmJGRWVjSmNEOGZ3RXBMcjZ2UDN0ZWNiSWp4bFJocjZXZ1hPNW9oYmJoZ0tZaW5VQ05TRlVrVGF6cWNubEhPcG1sNnhybFlRUi0xQWRBMWtZRDZPTzB3?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "summary": "AGOA: New lease of life for US-Africa trade accord&nbsp;&nbsp;Modern Ghana",
-      "source": "GNews | AGOA",
-      "priority": 9,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Brief look at manufacturing industry of Ethiopia - New Business Ethiopia",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVEtQ1RtR2JGQ2lPZGxSMzE2bXNCYlZUT3dlcGM5YnhTWkg3b3Q4WGtQZDc5bkZiQ2kyd04wMWxZUkVQNW9OVm9qY2FQaWNtSE5rbWRpWkJuZTFpQmFCS0sxdU5wem8tNE9mMEplUjBmN1pQQzVjUkhrb0tEblpiQzNVdHZPV1ZoeXNPUXNtTnNCbG1sX09sTHNESQ?oc=5",
-      "published": "Tue, 27 Jun 2023 07:00:00 GMT",
-      "summary": "Brief look at manufacturing industry of Ethiopia&nbsp;&nbsp;New Business Ethiopia",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 9,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Exclusive: Congo offers manganese, copper‑cobalt, and lithium assets to US investors under minerals pact - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXRCN1AyVmpwSkY1WmtEbXdXY0htUW1tM1BLT3FpT1ZBUURhdy1VZHlmT0IxRjJqRUE3VGdnNjh5V185bjl5eThMUjZZRWVjUGRBNmN6SHZDcklwZEN0U0l1UURMUW5BNTZmdlJfM3plNGUyMGJLNmVLbEgtcjNWWndOd19oeW9VUE1iOS1sSDIzcjNuMUQ2c2VyazFiQW82MTlIT0FtNnVXR1NjekVESFFSbUM0cnA1amFIUkZEUUE5MmpOTHc?oc=5",
-      "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "summary": "Exclusive: Congo offers manganese, copper‑cobalt, and lithium assets to US investors under minerals pact&nbsp;&nbsp;Reuters",
-      "source": "GNews | CD Cobalt",
-      "priority": 9,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Exporters eye Trump tariff relief with Agoa renewal deal - Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUllTSHctdFpXaGdSMHc4Q0pGNzM4OVBRYkVXa1ZMcER3cG1tcnlfLUJYdGRPNlpvUG1qY2ZlSzEya3UxRXQ2bFdGVk5NRV9nNHdXYzNrMWdhSFZWY0Q5S0RRbjcycVN0U2RrcUdlX2ZSMWJ1cDdoRnY0aVdkOXN4X3I1LWxFMUNSTjZ3NFZ5NnNRR2gwdF9qTGhqbkdseXpxNlk4WGJKYTh0VFdRYXRWUA?oc=5",
-      "published": "Tue, 06 Jan 2026 08:00:00 GMT",
-      "summary": "Exporters eye Trump tariff relief with Agoa renewal deal&nbsp;&nbsp;Business Daily",
-      "source": "GNews | AGOA",
-      "priority": 9,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
       "title": "‘AfCFTA is Africa’s most powerful lever for trade, investment’ - The Guardian Nigeria News",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSWlxY3VBY3FPM25wYkRYcmNjUXBtLV9PMEZ6M01kcG96RGdxeWdTcnpHanlqZnhTc0NaM3ZXY0syamVmbUlNOHpHZWRsWlUxbGFEak43c1FDenFzMG9Ha3hZN3RVQzhoelFUUTJ3Q2tuQmI1Ynlab3BRZ0dtNEozbEUwRDJZU0hvSGRDc3lBLVpOak9XMHpVZ2hyOUluQQ?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "‘AfCFTA is Africa’s most powerful lever for trade, investment’&nbsp;&nbsp;The Guardian Nigeria News",
       "source": "GNews | AfCFTA",
-      "priority": 9,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Afreximbank urges acceleration of implementation of the single continental market with AfCFTA Adjustment Fund - African Export-Import Bank",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYmxmQ0pVZTg4YUFJYVA1REM3NXJkelJsaGhUQUFybTRLU3MwR0VKYnhIWFctQUFUV1FDdEpPMTl2UUFMejlDTF9QeTBlWlU3WThqTkhKamk3UTFfdkRDQ0xUbUxzdEZWczFlZ0tVVXNncExkdzAtN0ZvWm1wdVh6cVV6dWw0VzV6NEQySFdwQnY1YlA0TWtNUFZqcmZTbVpCRldQZ3BiTmQxR01SbmdlbW54Z2VtMUpSLVJQbk1kaW1zU09NdVNIXzFpNDJqVHhPUjFOUQ?oc=5",
-      "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-      "summary": "Afreximbank urges acceleration of implementation of the single continental market with AfCFTA Adjustment Fund&nbsp;&nbsp;African Export-Import Bank",
-      "source": "GNews | AfCFTA",
-      "priority": 9,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "FOCAC: China’s Africa focus shifts from debt, infrastructure to mining - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNXy1YNU1VQlRkbUw2YVItUHU0MFE3cG0wWE1faTBTbzFPOFBjcERDZlBNMnFqWHVfMW1xeDVTbVhSY2VSaEJ1dVVHQmRpcmRrWUozUkhvQnFENTRCUmNMc09nY1pRbGxZWjB3MFVxTnE2Mi1xaU5sY3lXWnJNQkJmZzItczlNWGVQTl9tT0llTWFiMjFHaThYeXpPMm9ONjdRUE1yWWZ0Znhfbmc?oc=5",
-      "published": "Thu, 05 Sep 2024 07:00:00 GMT",
-      "summary": "FOCAC: China’s Africa focus shifts from debt, infrastructure to mining&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 9,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia Djibouti Railway port links expand to DMP and HDTL - Railway Supply",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2RlazRWX3Z4SzFLUGJlb0JlcFZiTEFmTDRzX2YtTGdCdWxBRDRnOU1wdjNfOG14NEFIZzBoWENNU3BaWFJtdHgwNjlpRkJ0RDZoUHVRSHBNV0cxdjlBdWpjenJ5ME5KaVBUS3E1NDN2bmkxTTVGSXV5cjJGaFVBTEw4S3pwRnVxOWpqZ2E5cmk?oc=5",
-      "published": "Sun, 22 Feb 2026 08:00:00 GMT",
-      "summary": "Ethiopia Djibouti Railway port links expand to DMP and HDTL&nbsp;&nbsp;Railway Supply",
-      "source": "GNews | Africa Infra",
-      "priority": 9,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "US tariffs, AGOA renewal and its meaning for SA’s exports - Dealerfloor",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORGRQWDV6ZWFPcjlmZHdfOWk1MUdSZlhTaHBxeEZ2YXY1ZGdFbDRDRzNQOUFVTUdvMzhqVG1GTHVfaGFqQi1tNGowVUxiRWd3eGVPRG9WRXRwS0Fqd0FpTEFoZmxrVjE0MnB1dWxOV2hPVkQ0a3dVUkhDQVJLa1ZWOGhFb281M2pzaktoekFYNW1PU3kyOXJTUUhsVQ?oc=5",
-      "published": "Mon, 23 Feb 2026 08:00:00 GMT",
-      "summary": "US tariffs, AGOA renewal and its meaning for SA’s exports&nbsp;&nbsp;Dealerfloor",
-      "source": "GNews | AGOA",
       "priority": 9,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -297,16 +130,6 @@
       "relevance": "medium"
     },
     {
-      "title": "TAZARA Railway Upgrade Revolutionises Regional Mining Transport Economics - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaDQtX1JrVEl5VFNsVVZOTGxoTjQzc3luTzVMR2pLWU9xVXVWSVBFbUtwZ0FDaE9KUEtGSmtQQUFOWnloNDAySGZrX2lhSHNxeHQwbWJqa1FkOXVndTdCbHBTWmJCMHViblFDZkRvMFZEZXl3c2VTYU1fTG1KOUY3MDMwbk5FUzFCdW5j?oc=5",
-      "published": "Fri, 27 Mar 2026 07:00:00 GMT",
-      "summary": "TAZARA Railway Upgrade Revolutionises Regional Mining Transport Economics&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Africa Infra",
-      "priority": 9,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
       "title": "Afreximbank rallies tech-driven, efficient AfCFTA implementation - The Guardian Nigeria News",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOWxvV1hCVVVBX0dnQ2hYMEJRWXVpQXJlNjdmbjVrU2Rib0EwZ3dHb2g0S0FhMXd6S3psVFZSZTEwRWdqUXljOVAzRFR3Z1NydTFJMGZuZE1zX1pBa2x6REFCdGZoV3pWUmIzNUlpNFktc2luUEhhOFlnVUNOcmIwWENoWDIxVVVYRTlCekV3dUFfOGJBOUpTRm52WlhJWGNaMWZQNGNyZkRrTE9XeE1TeQ?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -327,56 +150,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Conflict in the Democratic Republic of Congo | Global Conflict Tracker - Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSG9La2pKSXhlanRJOFoxTWZ2aWFmWkR0Rkx4U3RyeWVXVnBXZFlyN1ZlWThiM3JHMzVlcERuYzRSOUtkRUlMYy1vQ1A3R295UG9rTlppbGN1M202TGhta3pSSWEzZi13SzhsTVJwTlNpaDFBZTl0bTlNblhSSmFDQ0d6OUgySURLcFh0V1NQX1Y?oc=5",
-      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
-      "summary": "Conflict in the Democratic Republic of Congo | Global Conflict Tracker&nbsp;&nbsp;Council on Foreign Relations",
-      "source": "GNews | Africa Conflict",
-      "priority": 8,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Sudan civil war: A chronicle of conflict pours in as reporter's phone turns on after three years - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zSlUtdGdvUW9URk5KQTZPVWdVTko4dnFKSlV1a1p5QjZVNUpPWlBrYzJ4OGVlcjhETS10VnRPQ1k1LVZpWkJTZThUZGNfVTA2dTFGazl6bGNVZw?oc=5",
-      "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "summary": "Sudan civil war: A chronicle of conflict pours in as reporter's phone turns on after three years&nbsp;&nbsp;BBC",
-      "source": "GNews | Sudan Crisis",
-      "priority": 8,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Extending AGOA Beyond 2026? Bipartisan, Bicameral Support on Key Committees - Coalition For A Prosperous America",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOTdTRk5JTGNoZWphdDRRckpuejR0Qmw3cXlwSmlfQ2cxalQ5clRvVHFmWEQ3WEFhbzA0Tnd0OHVZQzIwLUFFaVlrZlFOQ1ZWN05EM01ScmpiNEp6cEZrVnByTGYtV25SNk9VcW9rWG4wUG9NLW9TUFMxcEFMczhTaXhTbmZsLUNsanhJSWNmM3BHUlhRNFhsYUE1S19sc0I0cDVnbV9HZw?oc=5",
-      "published": "Wed, 11 Mar 2026 07:00:00 GMT",
-      "summary": "Extending AGOA Beyond 2026? Bipartisan, Bicameral Support on Key Committees&nbsp;&nbsp;Coalition For A Prosperous America",
-      "source": "GNews | AGOA",
-      "priority": 8,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "US President Trump Signs AGOA Extension, Pushes for More Market Access - The Kenyan Wallstreet",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJrd0NSVWJxY183XzNwYy1lalFsbEVWcVg0N1BrN1JrOXZaUFdTLUgzOEJJVWtrTjdZN0RiVVBkbGcxc0xyOGprRTh4Ym40VXRycGhWRUlIckd1MXAycXdiWUVOUGFXNXdYX0p0YlIwTGpPby01QWZ0RkVXREZDTERCX3NYNWtYUjd6ZWppcjVTeFVidGQwYWcwR3h6enVOaFhzQmNYY0MteWQ3REtMeFhR?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "summary": "US President Trump Signs AGOA Extension, Pushes for More Market Access&nbsp;&nbsp;The Kenyan Wallstreet",
-      "source": "GNews | AGOA",
-      "priority": 8,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cross-border digital payments and identity in Nigeria under the AfCFTA - ODI: Think change",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNGhlMm9GT1lra1k2S1dYQjIwQ0JUdHFUbnQ0R3JmeW1ockF0NFB2Vnk2cWpYeDNsN01LM1c0SF8wM1E0VTlmNS1kQ05kWVVGZUNydUpCUGNaSEJqUnVWalZ5WmRteFY0YzBURFc0aFZMZGJwSE81M3pBYWZYeHVJSU5wbFZDclozcHpHMG91Wi11Y20tZGhqQjRoQ1pUZnpaZEI2c1B3?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "summary": "Cross-border digital payments and identity in Nigeria under the AfCFTA&nbsp;&nbsp;ODI: Think change",
-      "source": "GNews | AfCFTA",
-      "priority": 8,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
       "title": "Xenophobia, Illegal Immigration and AfCFTA: Can African Integration Survive Rising Tensions? - Modern Ghana",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmQxOEFNbEx5WTcyVGNmcjZSMURZR09hY3ZPaW5vT3J4S25sYl8wYjdGYk03NTNjRC1EeVMyUklOMGtLWF9VUnB1aFE2SXgxSTdNNVg3eFRzenBCUzNiVjI2djBxWi01SVlrSUtmdTJaTTVPOWQyMHo4eUtyT2JfSHAwc1lnMmRmcnNRWjVQV1NXQzVPOFHSAZQBQVVfeXFMTmItWnlOaEN4YW9vaDBpMU5BS2dWSVFIcWpYQ2FiWTVwM1UzQ3ptcTFQQUpvWG1KbmFwUUR2TWgydEx6RjUxaXlhVTlwbTAxVW9Nakx4Q2FIXzNHT1E2RHF3MFFaT0g3c1hsUm5VaElhWS1CYjRtZzI0S3ZtUEhFbEdNa3ZRNUpFZmpnZWxrc2FrOGVPag?oc=5",
       "published": "Tue, 02 Jun 2026 17:52:56 GMT",
@@ -387,64 +160,11 @@
       "relevance": "medium"
     },
     {
-      "title": "Mining Led South Africa’s GDP Growth in Q2 2025 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TQmNLUEtQb0Q5M05oakJGNkdONTVxUzEyZVhkd1pzdGQtNzRrMVdMcU94S1B2Zjh6eEw5R1BvODlZT0c0RjNlYXZaMlZxd3ZwNHMzSTlJSkxiSjNYV1RuY1Z2dTFRa2c4cnpXRGVNZUNqT2k1VjJSVV9vVXo?oc=5",
-      "published": "Thu, 11 Sep 2025 07:00:00 GMT",
-      "summary": "Mining Led South Africa’s GDP Growth in Q2 2025&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | ZA Economy",
-      "priority": 8,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Regional crisis looms as ECOWAS nations take sides on Niger coup - Daily Post Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSTZ2Wm01M3BndVpBZ1hZMndqSjVOc2QxTWFzSmV5YkxYMWQybkg0OFVrX2NBVnFnS1pxRHNsRFZhLTFRMHlrcml2dWczdnhWa1EzUFgtc1RQbVpXUUx5d0dGX05JRzgwLXZtNUdOZGZsM2Q5dlVFWk9TVl9nd2JxRnlQMFdpQ0RiaFZpMTRMMHQydjFuNFM4Uk10bjdEZw?oc=5",
-      "published": "Thu, 03 Aug 2023 07:00:00 GMT",
-      "summary": "Regional crisis looms as ECOWAS nations take sides on Niger coup&nbsp;&nbsp;Daily Post Nigeria",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 8,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "MTN Completes Mobile Money Separation in Ghana, Advances Fintech Strategy - - MSME Africa",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSElZTXNfdmxieThsdUJGS0J5eWhwMU9VX1lLTTRzZ0FyTXluRzR0SThaZGN2bWRtYjR2RXRNYzN3dEU0WEd6VFNIZDFLTjZ3ZjJLT1dSOGRteTQ0b2RKNS1oZTRmR2Fybl8tU21WR2Y2eFhxMy1kd1o5WmFhdTBIaXFXSkFfRXg5UEgwemwyTDFTS0dUWXRDb0k3elBoQmg0bTlTbg?oc=5",
-      "published": "Sat, 04 Apr 2026 07:00:00 GMT",
-      "summary": "MTN Completes Mobile Money Separation in Ghana, Advances Fintech Strategy -&nbsp;&nbsp;MSME Africa",
-      "source": "GNews | Africa Tech",
-      "priority": 8,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
       "title": "Intra-Africa commerce could reach 53% if AfCFTA were fully implemented, report finds - Semafor",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUx6N255OWs0U2hwMjN3NUNXZ1lnSjk2MW5neUl2MUwxQWd2a0FfR3ZwSDBGMTFmNzhNQ1V2eC16S05Ld0lCVzFPX2cwQzg1amlJNG9QcGp5dTdWOFVyNm9kRnpSdkhZZXRmY1lBUEZXbFpnV0h4OFJjbzZ3QzlOZWNZVlJJSy1ITHdST1V0UzNBOWdmOGF5VFpRdllFQ1lsa3U1MTViQUNWams4NjNuM2tiZ1dfZFVzOHE5QkUwaEZlSm8?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "Intra-Africa commerce could reach 53% if AfCFTA were fully implemented, report finds&nbsp;&nbsp;Semafor",
       "source": "GNews | AfCFTA",
-      "priority": 8,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "US-Africa Week Ahead: House votes to resurrect AGOA - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlNVR2Z1WFJFNTZqeW5kM1J5VEh1YXotTGs1QjM5UnVtanEtV3VCdzYzMDh0QTJkelhISmhKNmRxTk9Sek40d1BHakx5X1dKQnAtdlQ3QW1GMkI0SlNCcmUtb3FWcWFQckh1YThwUlFWNmlPU0JpOU55cnQ3Y2ZCZk5Ka1RFbWluWk82M1JiaU5YQWhU?oc=5",
-      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "summary": "US-Africa Week Ahead: House votes to resurrect AGOA&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | AGOA",
-      "priority": 8,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA’s 1-year renewal: A wake-up call for Nigeria’s industrial policy - The Nation Newspaper",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcXRSRjJVZ1gxWWJTMlhTWmFjelZ5bmxLREdpVFVaTkVmQU1ZQ1J2dTNmWWNjU1RnVHVzQWtEY2xsMEVDMWlCbXNTMVplcDlUQzFUQ0Fxd2JLaVNGVWJqcUR6TmlYbkxlYTRhbHh3ZVlHQS1FR2M5d3BUcUM0TWlLMGE2c2NXSGJ2TERUTFIwYjNWcnR1TVRoSmFVSzRfQdIBowFBVV95cUxOYzdzMmpGbkFOcUo1dHpSRU44OGY3QlJDVGFNX0JHdTIxc1FzSVNuQXBaemx6N1MydXd5MXJCNmY2SUFDU29pNW5ob24zdDFfT2xHTUpSV2l2QWhVWmhFV0Y2MTREOUk3OVVqU014VDV5TW9mR1F0c0tNM29ZRl94MVFfZzFpdHRMd3hMV0FaZE5BNThKLU9VVVRDb0xSYm52b0VJ?oc=5",
-      "published": "Mon, 09 Mar 2026 07:00:00 GMT",
-      "summary": "AGOA’s 1-year renewal: A wake-up call for Nigeria’s industrial policy&nbsp;&nbsp;The Nation Newspaper",
-      "source": "GNews | AGOA",
       "priority": 8,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -460,59 +180,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Madagascar after the coup - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaYkJmUzd6RHc1NDlOTWJobTVUaTQ3dXZlbTh5N2RFUTdfYnFEQ1o0bzdEUG84QXE5VmNZc1JxaWVJMkptVWRuY29scU0xOF9sNF9zQk93aWdtQkZRcHJ1bw?oc=5",
-      "published": "Fri, 16 Jan 2026 08:00:00 GMT",
-      "summary": "Madagascar after the coup&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | Africa Conflict",
-      "priority": 8,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Who profits from conflict in the Democratic Republic of the Congo? - Universidad de Navarra",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRV9Pazk4b19hUE1wVzJDN1BlTmhMYnM1VUZrbVBHU3gxQVM2cm90ckpyVlVacERIYzdJeVRDeUNlREl3dEk2enNGSzBRdVZQMkc3dTJfNW1qb25ac3phTlhzRU9SbG5MMVdhTzZGRVI4TGo2dVozRVBlQktNc0F1VzdOUUIzTmZY?oc=5",
-      "published": "Fri, 02 May 2025 07:00:00 GMT",
-      "summary": "Who profits from conflict in the Democratic Republic of the Congo?&nbsp;&nbsp;Universidad de Navarra",
-      "source": "GNews | CD Cobalt",
-      "priority": 8,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Mining sector drives 6.1% of South Africa’s R4.6 trillion GDP in 2024 - Mining Review Africa",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFd5OGZmU2lHVEN5YnU5TXRwRHdNdEhfeE1SaDBObERiRGxpeEFIU2FQMC1FdWQ1MmZqRHQ0dHBva2JXNzdPeDAyZ3ZtMlhfcjJXNy1JWWZHOFJOdE5nUkJYdDVuS093bjdMZUFaSTRVNjNZZlpWUE9CZXNWZUpRcE5IWGVWQ1N2cWRmV0QxTFc0M3pxdDlNOTZrNnZLNmhfWGhGMtIBrAFBVV95cUxQUTV4OVQ1QWh4LTNSdE1fQ3ZHWmNkbGVhNnhpWXN3TngyXzVsb1lxb3hIYWFtNnlvSVFfeGFVNzR1Yjl5QjB1b1VzZ2R2WjhTNFFQRTBuSDdOX2dmMndTOHY4c0x0aHhEQmFJcUwtSDJRUjIxZDFUTlpYamZvMVRFc2FzU00ydXh6bWU0QjB0SEpGUFBzNkxuU1NIZjduUnlQYXVyZzRmY21pVmRQ?oc=5",
-      "published": "Wed, 29 Oct 2025 07:00:00 GMT",
-      "summary": "Mining sector drives 6.1% of South Africa’s R4.6 trillion GDP in 2024&nbsp;&nbsp;Mining Review Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "For full benefits, Kenya’s mining GDP must reflect entire value chain - Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbk9hZVNWTFhRLTJBX1IwOW52eGhkcmhXcHU2Vm1SYjROQ3V1eEhNWHdjMzJycWNvY1p2ZGNKdHJUUElROFZndE5GaXdZNzIyLWZhalgyQ09KdHJSSXFEUzVHQWdIOXZ1WGJZc1BIcnpwd1JKTmU1eUw5ZkVpdjJCbUgwMVlkNElzdTFYdGRRWWdRd2R6S2RZYnY4WTl4b0t3V3hia1I2ZXNmQXhadVNXYnZmbzZ2eV9abE9tRFJ0dnhqUEE?oc=5",
-      "published": "Wed, 10 Jun 2026 13:15:00 GMT",
-      "summary": "For full benefits, Kenya’s mining GDP must reflect entire value chain&nbsp;&nbsp;Business Daily",
-      "source": "GNews | ZA Economy",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China is using cobalt from the DRC to power the green energy transition. But at what cost? - Global Voices",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWjhtLXI1WTF4ZkEwVEhhekRzMTRNZG9ndElMUHkwMGJSTk1IaEI0MGlTZWZPa3Q4TTloNWlNei1FaDdQaFJBZmlsMFB1SjdFMXA5Vm5KdmY5LV9MU3pVbUtoVUF2S210TnJMMnY1S29JcllKS3RFd3pVd05tOTVyQWtkRVByRjFsM3ZBV051MTNOd09Tc2ZlelZDMFNxV1pIcjE3RnUxQVA2RDVueEtVbGw0TU1Na2h0MS1vUlUwVnFPaVk?oc=5",
-      "published": "Tue, 15 Apr 2025 07:00:00 GMT",
-      "summary": "China is using cobalt from the DRC to power the green energy transition. But at what cost?&nbsp;&nbsp;Global Voices",
-      "source": "GNews | CD Cobalt",
-      "priority": 7,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
       "title": "Nigerian Fintech Raenest Raises US$11mn in Series A - The Kenyan Wallstreet",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEdjOGhGcUpFbzBJVThYN3ZVSmNMczBEcWctV2pCQUVLcGFCVEh2T1pnOXVidUNVWFlJS01FbFA4cS1aSDNmRXNlOUhpS2R4amFkU3lkTXRROU9Va2NFZnBONFRDZmJIRGhjOVBRanI1Rk5ENno0STJxUXJsTkhhbkw0MnZKUQ?oc=5",
       "published": "Tue, 09 Jun 2026 03:34:56 GMT",
@@ -520,66 +187,6 @@
       "source": "GNews | KE Economy/Fintech",
       "priority": 7,
       "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Tanzania-Kenya Business Forum 2026 Pushes Single Market, Targets USD 12 Billion Investment Growth - TanzaniaInvest",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc25ja1BkXzdkWndENk9PbkxlOGxpaXhEUVVwWXhQQWpWQXhRWFlMYlhINXUySW1CR085M2Y3aEFHT1Fyc205WUF4NzdfNUNtT3lpd0tibnduc3lnZmpsWU9NMEhsMXRKZ01VNnJXSnZxQ0dOX3dVbUJDUnVwREpvWTZIS1NMNUZwQkpDZFVTMVRvQ01JenJDWm1RT1JUdw?oc=5",
-      "published": "Tue, 05 May 2026 07:00:00 GMT",
-      "summary": "Tanzania-Kenya Business Forum 2026 Pushes Single Market, Targets USD 12 Billion Investment Growth&nbsp;&nbsp;TanzaniaInvest",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "European investors eye Ethiopia’s special economic zones as key platforms for manufacturing and trade expansion - Fana Media Corporation S.C",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOGxna3ptS1dKUEJHX0RPVW9XLWZ0emtfcjR1dTI5Mi1zN0hoYm00a2NvNmFDa05kV1ZLNEgxLWFvTFJuNlg1azBQM0ZKSnNtSkpaVWVIdUxqaEpqQ1A4Ml9rM1h0cmFjUDhYdEs0T3VrcmRzRkRXVFZOWWd3cWhvNGh5TTBiSm9fdHVjZnpJNHNad2tjbUFJcnBjV2ZEaU8xdmN2YzV1cXdCOVZrcndrbjlOOVBKdWVPY0RFRmM5dEt0bmF6b2c?oc=5",
-      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
-      "summary": "European investors eye Ethiopia’s special economic zones as key platforms for manufacturing and trade expansion&nbsp;&nbsp;Fana Media Corporation S.C",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Developing Nigeria’s Critical Minerals Industry to support Global Energy Transition - APRI – Africa Policy Research Institute",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjRsZjk0MmZwMWdXZHZtMWpjeWk1Tl9IVWJXakN0NmRZbUZsUWlad0o2dWROM1RhSmxkNmZGQ2pxWFRCSjR5NUdlMm11M1o1VUEyZzVOcVNvREl6RnR4QXdJQUppMXZvTVpSaVFTV09McWVzVDBnS0xKTllPUnl3TElYNF9KTmM2LTFOenlOQWlhaUtMb0pkZElSeVN5OS0wU2JSZTBB?oc=5",
-      "published": "Thu, 25 Sep 2025 07:00:00 GMT",
-      "summary": "Developing Nigeria’s Critical Minerals Industry to support Global Energy Transition&nbsp;&nbsp;APRI – Africa Policy Research Institute",
-      "source": "GNews | Africa Minerals",
-      "priority": 7,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s Belt and Road investment hits record highs in 2025, driven by energy, mining and tech sectors - Griffith University",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeExrSUpaOWNrR1BaYXpsQndfckRaQjFzVEd0V0lhNDJ6UGJidUtMcV9KSU0xQnBvN0EzQlBrcHhFLXpsbDhoWllYRnFTMlFjR3dlQldzcHIxeW0xMjJDUFBVTF9EV1pkOGlfdVU5RFJvWmw1MmllZ1h1bFlaTC1iTFEyZFB4X2g3TUtMZTMzdC1jeVFST21zQmxkQ0d5bk5qdTMyZlZuQ2tPc2g0NWFOOS1fR3FTVW8xX3U0NlA0V2c5V3FnbEstTmdUeV9FaHBSeC1UMFJn?oc=5",
-      "published": "Thu, 17 Jul 2025 07:00:00 GMT",
-      "summary": "China’s Belt and Road investment hits record highs in 2025, driven by energy, mining and tech sectors&nbsp;&nbsp;Griffith University",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 7,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Kenya, Rwanda move toward single licence for cross-border fintech expansion - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnhmcjRUbFU1UXFQemplS2JqMl9mWnowaDNLU3FTU2Q0b0RwWUk3TGt0QkxRWlh5M3Bqc19LU2R4dGd5YXJKUy1FU2VUbDFic211dWxVWnFrODNqczhMR09sd1AzVGN3TDdicVVka3RyQ2xLWDJUM3dMNVJZX2JvS3dNTG4wa3VSRW9GWTQxUU8xU0U5SHpvOGhMSDNudzJLRUZuaW0zWnVCeXc4QnFxcUIxNi1tZmRa?oc=5",
-      "published": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "summary": "Kenya, Rwanda move toward single licence for cross-border fintech expansion&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | Africa Tech",
-      "priority": 7,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Critical Minerals Report (01.26.2026): U.S. Commits $1.6B to USA Rare Earth; Mitsubishi Invests $600M in Arizona Copper; Energy Fuels Acquires ASM for $299M - InvestorNews",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPNWNoQUtuRkdRYmZzeFNrT2FMekdJOEgzQTdIdi02QjVpa0p5Z0tXTFhzdm9fVGxvY0FWUVY0SmZlSXBmZGd1WXNhSC1QRW9aMTdVdEpldWxYUW04WmtKcTFkM1JFbFdBV21mMElzRHFuN21sYUY2ZzdaZ2NvU0JTT0RzN2l6X3ZiTTRYWTlHSndRSm14Q0VUckVvZWZtdF9LTUlCRlAwT19MdThFSWlCanBQdUUzQmVwamdtV3M3TDRUU3Z4OV85Q0FiQ2kyU3F5VDdJR25VRUN4UWxxWVV3RW9nQjE2ZV9TWlR5ZlBIM201UUVlQld5UHVGczhNZ183eFRWbDZLRWo3VTVqaTdySll2MHU1dmVZT1RtY0FnS3ZTYTlQdG5neW5YOA?oc=5",
-      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "summary": "Critical Minerals Report (01.26.2026): U.S. Commits $1.6B to USA Rare Earth; Mitsubishi Invests $600M in Arizona Copper; Energy Fuels Acquires ASM for $299M&nbsp;&nbsp;InvestorNews",
-      "source": "GNews | Africa Minerals",
-      "priority": 7,
-      "category": "矿业+中国",
       "relevance": "medium"
     },
     {
@@ -593,26 +200,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Foreign Investors Praise Ethiopia's SEZs and Free Trade Zones for Enhanced Business Opportunities - ENA English",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83WTluTWJRM3FpWnlsZEx1RmVzV1VVS2FnU09TSW1pdC1jV3BCVkxXdmtKTFJBd3dIRlpGLTNsSWpMOFJIM2w3VEVHMWRkVE5mNWc?oc=5",
-      "published": "Mon, 23 Mar 2026 14:09:49 GMT",
-      "summary": "Foreign Investors Praise Ethiopia's SEZs and Free Trade Zones for Enhanced Business Opportunities&nbsp;&nbsp;ENA English",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Scaling Africa’s fintech to bridge financial inclusion gaps and boost SMEs - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZkxITVpMNXEyMUFQbUNlTXpOR0ZQU3VXUnZDaXc4Z3d5OFVyTklGV2dUdG8tWEhMOExDNDV3cC01b21kdWpCeWdiQ0dXWjkzdFNHTjQ3TWJhVHNRQThmWDRJa2dIYXI1dTY3QmFxMlllRnBwWkJTNG9jSE1DZnBKNXJWdk1rUExLdmlrTUhkdy1BV2pXM18ySkptVV9mMDZpYVRMWUp0SkN2bm95aTFRY25nWQ?oc=5",
-      "published": "Mon, 18 Aug 2025 07:00:00 GMT",
-      "summary": "Scaling Africa’s fintech to bridge financial inclusion gaps and boost SMEs&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
       "title": "Nigerian Fintech Rise Finalizes Acquisition of Kenyan Startup Hisa - The Kenyan Wallstreet",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFdxeFhzTTRndHMtYkYwcnhOcEdNLXV2TnI3eS1YNUtpVjAyU2JCNTUxQUtJMnlBUlJxMDN0ZlhHbzBnVnpxSF8zWWJRZU5LTDlQYWM4dWk3U3ViTlg2VTZJUXpVbXNHbU1wZ0EwMjhib0dQSGpEazFBZkYwcjVkSG42YUx4U005bnBZaTJibVpvQWVhMzNPcWU4aw?oc=5",
       "published": "Mon, 08 Jun 2026 19:02:32 GMT",
@@ -620,76 +207,6 @@
       "source": "GNews | KE Economy/Fintech",
       "priority": 7,
       "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Tech investments into Kenya now rival tea and coffee exports - report - the-star.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa0VVanluUlV5M2tfOEZjWi1YSkVlb3h4dGlybkFJWGR2X1p6bHpKcGZ4dFlheVVMTzRQR3dSTkRKcnhXbDluUVpEVGttZVNMdHZoWkpUTGFNQlFWdDNLOUlKUXQzTEUxOVNlQ1VhalpSckU0Q2VrUVlGeFBmMFJDc2NZdEV2d2RvRlNqSHNUbW1oYzB3NXRfZDJSSGR5dUdUb0s1SzV3X2JyRXNWQnd6LVk1U0k?oc=5",
-      "published": "Fri, 22 Aug 2025 07:00:00 GMT",
-      "summary": "Tech investments into Kenya now rival tea and coffee exports - report&nbsp;&nbsp;the-star.co.ke",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 7,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Chris Wright joins Powering Africa Summit 2026 on energy access and clean cooking - Mining Weekly",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTzZudERncjFZTkV3bWR1MzcxVlBMRGJQSTZ4MTRXaWhLRUpuQlBmR2pSNE9CRDBSaUExa0hRNzhuU2k0WFRoWmJuSWxXNTR1SHpmNFh3YU9BUThqRTNoZnlEMEJjc3h0M0hMdW1ZdktsandtbGhaREdzRFZmOFFsUGRScjI1T1pVcjhSa1Fhem9XelhjTEFVLXZjSUFZMV9IdzY2Y1FyZUltdXVDN3U2YU1MZUx2TXo2SWVnU3BTWEd4QURJRFU0VA?oc=5",
-      "published": "Fri, 06 Mar 2026 08:00:00 GMT",
-      "summary": "Chris Wright joins Powering Africa Summit 2026 on energy access and clean cooking&nbsp;&nbsp;Mining Weekly",
-      "source": "GNews | US-Africa",
-      "priority": 7,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt’s economy ‘out of intensive care’ but risks remain - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGlyamJDdmF3Y3F0cDFrT2YwczR6V2UxbWs2WVBxcExPdXNOMmlmZDJhTUhjdjJBcGx0V0hNRVZHZDlQVmt6eHpocGNHNXAxTHdRY1NuSmJLVUdnN0Exb2s0bC1QNXZQOUFkZkg4S3gxOGJmNWRXLTQ5b3VXQ1I1QVMzMW1FaUtsQkFkaVBSQW5yYUE2REI4ekthV2FsLVdDbTZXRw?oc=5",
-      "published": "Wed, 28 Aug 2024 07:00:00 GMT",
-      "summary": "Egypt’s economy ‘out of intensive care’ but risks remain&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | EG Economy",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China And Egypt: A Strategic Embrace At The Crossroads Of Power And Infrastructure - The Organization for World Peace",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOTNjRjJsNWZybWRFdHAwM0M0UUV0R0FuY0dsOGtsUkMta2dQUG9NTW5RNHYxak85WnNGR3J3U3JJYUFBY0lveTRncGh3TEVKVDFxUjducTNzTXh5Q2lpNVJvZWEzdTh3TTFmOHhCM0V0YndRRXJQTnJaLXlkWWlnZzlwMmJYTFpHc08yTmNvLTA4YlRQYXpIQTgxTnc5Q1FoREJWVE1peHdlOGVtaGc?oc=5",
-      "published": "Wed, 25 Jun 2025 07:00:00 GMT",
-      "summary": "China And Egypt: A Strategic Embrace At The Crossroads Of Power And Infrastructure&nbsp;&nbsp;The Organization for World Peace",
-      "source": "GNews | EG Economy",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Congo Gambles on Cobalt as US-China Metals Fight Heats Up - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VS3FtM2VYUl8zVklPcm1Qb2RvT3lKaGtLMC0tSnRhMFU1Q1NBYUE2THNtLXFia1N3NXNTR29JQjdTcWlFaXU0WlF4Z1g3SFBhNXViX0VVdDJ1T2dYQjZ6REVuQ0xIdnRFNTZv?oc=5",
-      "published": "Wed, 21 May 2025 07:00:00 GMT",
-      "summary": "Congo Gambles on Cobalt as US-China Metals Fight Heats Up&nbsp;&nbsp;Bloomberg",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Critical mineral transport infrastructure is the latest theatre of geopolitical competition in Africa - The London School of Economics and Political Science",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYkVRNmhwOEFkS3d6elp1YUxZSS1KRUhCcmZqNFJoQTNwVExNYWRKVXNuZFMwYmlOTGJXRnlRcGxLckFabUZiZEFhWjBHTnhQemlEQWRvcVc3MzNWTGw1YnRWbDgxT1BQa05VekRWeG9aLTkxUjFlN0ctVmxGczhOUFA2V2pmMzd6Sk5kcVNlT24tekljWXpHRHBBTDNORVlwNnJPOWxNdktfQWVWVi1sYzFSbVBTVnl3ZE5DUTVyUmh2S19QSUoxNHBIMXBHTFdHd25id2lGSlIxSVVJczg2SDkwdw?oc=5",
-      "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "summary": "Critical mineral transport infrastructure is the latest theatre of geopolitical competition in Africa&nbsp;&nbsp;The London School of Economics and Political Science",
-      "source": "GNews | Africa Infra",
-      "priority": 6,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s Approach to Development in Africa: A Case Study of Kenya’s Standard Gauge Railway - Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFktSkdsdVhuMHVka2s5WXNLcVA5N0x1YjNKYTQ4cmZLU1p2MFZ4MWRHdmZyMHFxekR0cFRsM1Fpd2pWSklMbGt2ZjNyYU1vOG5YNVpOWkxOaDA0bTVlVFdWVHB2eHpqMTBSY3NSSDNMS0hNbVpXSDJvY1NZMnVELU4tVjRLTkgzcTRRb3V1ektIWnREU1Vxa2lDME1TWjQyZjlGRDhNaw?oc=5",
-      "published": "Wed, 13 Oct 2021 07:00:00 GMT",
-      "summary": "China’s Approach to Development in Africa: A Case Study of Kenya’s Standard Gauge Railway&nbsp;&nbsp;Council on Foreign Relations",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 6,
-      "category": "大国关系",
       "relevance": "medium"
     },
     {
@@ -708,96 +225,6 @@
       "published": "Wed, 10 Jun 2026 03:49:07 GMT",
       "summary": "AfCFTA Targets $250bn Intra-African Trade, Lauds LASG on Digital Transformation&nbsp;&nbsp;THISDAYLIVE",
       "source": "GNews | AfCFTA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "African Ambassadors in China Reaffirm Commitment to Promote Coordinated Continental Approaches to Implement the AfCFTA and Advance Trade and Industrialisation in Africa-African Union - Peace and Security Department - African Union,Peace and Security Department",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNT25IbmZaWmNwVE52Ul8tX243UDBlSVRwRzhJLXlRNW8tRlZEV0hYWGpMcGMzaDJENEh3S3FEc1BRbjFpYzBEM1YzSGJhdFlFS3NlQVBWenVXWVRVTjMzQXdXb1lZdnVXM202bGhBVFRkSGZPSTlmVklLZy1tcEd0emNFR3RPLW5fTFVkT0pPUXluRm5tNUV5N2FhclZ0aWd3eGh1dTJoTjhSSC0taWtYSnZGS0doUENCTkl2Qnk1SWNWYm56REdmempnZktTTEtkNzZGbmVTTEJ6LUNmXzVjQ0ZCSHg1eGRMSnlZTzd0OVFUVlp5NndEX1VYYnFYUVlMR0Z5Vll0LWdUUnRmY1ZkTm9JSzVHNmhRYlRHdGc3RVZjM1RfaGJ0dFl5aw?oc=5",
-      "published": "Wed, 06 May 2026 07:00:00 GMT",
-      "summary": "African Ambassadors in China Reaffirm Commitment to Promote Coordinated Continental Approaches to Implement the AfCFTA and Advance Trade and Industrialisation in Africa-African Union - Peace and Security Department&nbsp;&nbsp;African Union,Peace and Security Department",
-      "source": "GNews | AfCFTA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "The DR Congo’s Cobalt Power Move - New America",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rZ3FZaW9MMmNEMzNxQld4NVU0U0g4MDFOTTZicFB5OGQyMF9TdEVKY2dSZFVNYmhPTWtKeEdDRThyT2pYVFljSDhMSzhRUUx6dlhUSEVLZ3dYZWZqOWF1eTgtY1NfR3VlRVJXa3U3LTJsLUJVRDln?oc=5",
-      "published": "Wed, 05 Nov 2025 08:00:00 GMT",
-      "summary": "The DR Congo’s Cobalt Power Move&nbsp;&nbsp;New America",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "DRC is the world’s largest producer of cobalt – how control by local elites can shape the global battery industry - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRVBjNkNIcUd4aHZVT3NwQ3R3SUliN3gzMnY0aWdaRHl1cTEyS2tENjBXazZvcTJwT0pRQ2g3SWxEc1JxVXpaQ0JDWVRkSnZOQjFZSUI1cElGX3Q2WHdLTndYNTdYeEhWVC1ibERlTEdGMHJkdUpERG5DZkVCRGJoNWtZTmptazBzd3U4Sy01ckRGdTJCNUhyc2N0b3dPZHRnRFpqX0xjQmZyejFUTWsyT0U4ZF9fLXo2WHlYZG5UdzdwT0JZdVZRTjFYbFNKMjYtUkhYcTVpLWYtVTVmZkE?oc=5",
-      "published": "Wed, 04 Sep 2024 07:00:00 GMT",
-      "summary": "DRC is the world’s largest producer of cobalt – how control by local elites can shape the global battery industry&nbsp;&nbsp;The Conversation",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Dark Side of Cobalt: How China Mines Congo's Treasure - JAPAN Forward",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHRyeVNJNXFpRmNYcDJtQmZKRHJVMUE3bDQwMDJkbmJlU2MwTUs4N0lfd2ltVm5iR0ZRMHNEclRNbjR5ZU9QNHBBZTk2TktTejIxM0o2ajlTNWRfb3I1eUlkX2dKWElYNWZSX2x1SEgyREVreHRsQi01T01ZNmZYMWtCeXZHN1BWSGc?oc=5",
-      "published": "Wed, 04 Sep 2024 07:00:00 GMT",
-      "summary": "The Dark Side of Cobalt: How China Mines Congo's Treasure&nbsp;&nbsp;JAPAN Forward",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "US-Africa trade pact AGOA expires but hopes remain for renewal - Semafor",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVHdqRUdwM2NScUFFX09LNVRYV2VxYlI4SVBqb0V4bWRGS3JFWlRLZTU3SXNneWJCckRONkktdG5HMm4yRXJ1M05IX0dFZDRhSUVKNmRxaGdub0h5bG10ZlhWWkw2Y0R5SkVHbjBaMEtKcEdYaGVaemVEU1NOQ0pEUzVYXzNKSE5zYkFEb1VnSnJrTnJrTW40UGdGbWlQTWlRZlgtcm5xX0U?oc=5",
-      "published": "Wed, 01 Oct 2025 07:00:00 GMT",
-      "summary": "US-Africa trade pact AGOA expires but hopes remain for renewal&nbsp;&nbsp;Semafor",
-      "source": "GNews | AGOA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cobalt, Congo, and China: Battery Power as Political Power - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGNfeG40ejR3WFlxZmdxclRTbzlDWW45X0NLSHAxZk40ektYYVRjeU44NF93NE5sd2VEQ3Y1VmhLYmwwcC1uR2diUDBQMnh5SmNveGtjOEtyVlM3TWljcHJhYktaOFZQeTFGeno0OU5KNXRsRHgyRWVmQ0R0TzhqcjR0dlZZaHBwdHFqQ3E1U0FIUQ?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "summary": "Cobalt, Congo, and China: Battery Power as Political Power&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Africa We Build summit and Kenya’s bold infrastructure blueprint - African Business",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVGNrTHg4TXBMMjJxMmJTdFRhVUZJdHYwS2V1cEJPbFhhdjVkMXNtRXBPVml2Z18wUVZ3eEwzSUJiZFF0NnJTTy0zYUN6b2RVYnhwOGVmYUJkemlXQVYwRlp2c3cwelhfaWRaRVhfTVp2RnVGVTNEVUo1QXJjeGJ6UHZ2bDlqRVFHV05FbHNQTWhvbDc1eVNUVVRVUUhwZzc1Rlh4eG9UcWZ4Zw?oc=5",
-      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-      "summary": "The Africa We Build summit and Kenya’s bold infrastructure blueprint&nbsp;&nbsp;African Business",
-      "source": "GNews | Africa Infra",
-      "priority": 6,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "China stands with Nigeria amid US pressure, safeguards $1.3bn mining stake - Business Insider Africa",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSUJFNllSNE1OS1BZQzJPNWJnX2E0RlRhLVR4RGVWb0ZtWE5XMmtudTFOSjRIOGR6UFZpczBaVVpjeG9ZWkpSelgyMVlMbXJzdERUTm9SRVFodno5NTl3Ym8wOXZLSVZqREpyQnB5dzJCT2FTT0l6cU9Xa2RlTVBKUzNQZGo3SFRzUTdwQkljWE5LeXI2Ukx0NTFqZkpJem5UWDBMZVNkaFhtQ1g3cmUzTVgxbnZXa19HZnFqLWd3TzdGRHJaLTJmRnYzeDdBZWM?oc=5",
-      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
-      "summary": "China stands with Nigeria amid US pressure, safeguards $1.3bn mining stake&nbsp;&nbsp;Business Insider Africa",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Critical Trade Preference Programs AGOA and Haiti HOPE/HELP Extended - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcmZMZkQ5ZFpnWjFEdTBuUW5Lb29aNTRoSG50dFVYNkVhaFRhZmplWmVHUlZGQmVPRklQVmJsX0RJdERSbU02cXkzeFUxRmtpQkp4Q3lzZHhVcFRVUkdKYmVmbnQ2MzhRQTk3TVhDb3M0RGFBTmVlakl3M2dSdzR1WVRHc1RrTUxIc0VHNU9R?oc=5",
-      "published": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "summary": "Critical Trade Preference Programs AGOA and Haiti HOPE/HELP Extended&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | AGOA",
       "priority": 6,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -823,66 +250,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Kenya revives stalled China-backed railway after six-year halt - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSTBqdEEzMEVkSFVwbWRJdnFvVDBsTW8tWFYyZmlMWlNkRFpueURab3JlNlFvOUtNRlp2VHZrcXljZ1pnUTZXQWJ6V09Eb09pTjZESm9wVXloUEl0Q3BXVzVDbF9zVjNlTEROeUF3UVlDWENSZzFZNkh0aFo2SVI1aTdHVDRydDJsN0dNWTFfU2JUS3E5dDhaWFNXeVhQVUd1Q01EcTFEaGYxX0g5RF9PZ2E4MHBmck1la1VwSlRB?oc=5",
-      "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-      "summary": "Kenya revives stalled China-backed railway after six-year halt&nbsp;&nbsp;Reuters",
-      "source": "GNews | Africa Infra",
-      "priority": 6,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Tanzania–China BRI, Geopolitics & 2030 Forecast - Tanzania Investment and Consultant Group Ltd",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UdTJVMGkwdmR2MlZITVM2bUxPb2Zpb0dSdWU1NDJzVTVYNDVHaGRZamtoeG55TEJnOFBsRzE5NHhwa0g1SGxDN1YyOGlCS2JpeURmZ2k0bDk1QlhnSGRHU25B?oc=5",
-      "published": "Thu, 19 Feb 2026 08:00:00 GMT",
-      "summary": "Tanzania–China BRI, Geopolitics & 2030 Forecast&nbsp;&nbsp;Tanzania Investment and Consultant Group Ltd",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 6,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Namibia fast-tracks AfCFTA agreement implementation as government, ECA and private sector validate step-by-step trade guide - United Nations Economic Commission for Africa",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTkNWYWwzRFZ0Z1Y0TXNZQWN0OWdQdUp1RVFyMWo5M3RSTW9rS1FZQ0NocVJ2dmVoNjFsbzVFcnh5Y3BZT1ZRTld1THVjY3IwNmJuU0NreGVoVjJYb1p5TDlUTklCOGlRQU5HdXI1ejRVTG1aeElfQ3JXM3JVZ3VvNWlYcElEOWcwdUFIQTk1cGtJRGlPM05RYUM3c2F1d1ctbEtnamxsYVlRVXdfTUJybmp5Wnd0V1N3R2lQNG13?oc=5",
-      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "summary": "Namibia fast-tracks AfCFTA agreement implementation as government, ECA and private sector validate step-by-step trade guide&nbsp;&nbsp;United Nations Economic Commission for Africa",
-      "source": "GNews | AfCFTA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Hot Topics in International Trade - February 2026 - Renewal of Haiti HOPE/HELP and AGOA Trade Preferences Up to Senate - JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX2JwZDl5YVlWMGtVeW03eE9SSDhfeER5UFhaNmV5UFl0dVZ5bTNGZll6UHFzbzVybHZ4S0NoMDF6anctcndmVExtTnFNOEU4QnA4dUxWRXFKWEZDN09EblM1ZWQyOV93Z1BjeXE2bDl0MUg4VktlR1d2ZmtPbnl2YmV3?oc=5",
-      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "summary": "Hot Topics in International Trade - February 2026 - Renewal of Haiti HOPE/HELP and AGOA Trade Preferences Up to Senate&nbsp;&nbsp;JD Supra",
-      "source": "GNews | AGOA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Donald Trump’s AGOA is not sustainable for trade and investment - SABC News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQlZUMFBVVjRSUlJ5R044a0hLbHVxX01BRFM1SmlGazRMMGx4WXNUOVBCMklOMDFjaWRvS18wNWM1eFBHbWIxM094R0cwc01sMUNhbjNWd1ZCbWpkdHRhU1h6OWhiT0xOVUdKQUNrMGRfSjh6R0l3VV9pcFhPRVBWRS1OaG9vV3VyMEZ4OWlJSDB5RkowVFF0NVNnZUw?oc=5",
-      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "summary": "Donald Trump’s AGOA is not sustainable for trade and investment&nbsp;&nbsp;SABC News",
-      "source": "GNews | US-Africa",
-      "priority": 6,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nigeria’s economy to grow faster in 2025 – Report - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ydVFCVWN3S1hqcmR5aTZkODZ3bWNWaDFtZVdRdHdvOVpnQXdXYzJUODB3ak1Da25aTzB0alF0MTFPMEQ4RVJFa3NQeWpHdDlPTXpLbkN1Qk5hSDJ3TEk5SEJJY09YVXFsMHEwRjFxaXVOVTBqbU9wWUtaNDE?oc=5",
-      "published": "Sun, 20 Jul 2025 07:00:00 GMT",
-      "summary": "Nigeria’s economy to grow faster in 2025 – Report&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | NG Economy",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
       "title": "Saudi Arabia, Egypt, and Turkey’s Blind Support of Burhan Undermines Sudan Peace - Middle East Forum",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXR2OV9iQmp1T1JBcTNSSEtkOUZnZGxsZHVmQzQ0b3duRVdNRHlDZEZndENTQ2FidlFYX3lkR1N6cUtLOFpENnEzcDhzMFVUczI2MXZfTkRrbkVXWGVYRWo1RVhfM3NGMmZ6bU1rMEJUa3BPaUpqYWJvTnByRk9iejBZQUdCMVVjY21qQWt3ZW1PWVpQUFNWc1h6LVNCcXFjY3A0NDNTOUl4cWJrTmJfY19hWng?oc=5",
       "published": "Sun, 07 Jun 2026 10:02:32 GMT",
@@ -890,176 +257,6 @@
       "source": "GNews | Sudan Crisis",
       "priority": 6,
       "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Assessing Ethiopia’s Economic Reform Trajectory: Opportunities and Risks for Investors - New Business Ethiopia",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOWU0eHNWWGo0aUtDUjVDdzNrSDJaamN1VENpYXBHaTYtWEZqd3lDcm4tdk13SllRdWpRNkk3SEdVQzNidzVsSWpnNnEyMDBuRndSQlE1SkhiY2FlbkZEa2FkeGo4ajJGM0s4MUVRT0J5SkVQTGhDY3EtSnVUZXBfRzhxTGtYNE5vNWVGOEVSdFZrZ2VubFFnejF0Mno0M2hRUDg2NWF5dHgxVHNCM2Q2T2dtZVVKMFBZWmo4cmRxdko3Wkgz?oc=5",
-      "published": "Sat, 14 Mar 2026 09:44:38 GMT",
-      "summary": "Assessing Ethiopia’s Economic Reform Trajectory: Opportunities and Risks for Investors&nbsp;&nbsp;New Business Ethiopia",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "US—Africa Trade and the National Interest: Why AGOA Is a Sound Long-Term Bet - Quincy Institute for Responsible Statecraft",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV01PNzRONVU1dldPVVJjY29SNEhpc1YwdzVMMmFVeEdQV2kwOHVRTkRoVHZ1QmM0N21BcVQ4VUVDOG1SV1ZGUjhNZlN5Y1A3UlpOcTFWbmw2VGFkZThjemwyMng3TnRVWUxSbXJwUlppbGFpb05kbGdHVjUzOXVjRVdCZVF4N0h5R0lCd1pBaGFobzdmamZuWm9VT3BoMjBWZEdKdVFLNE9ITkZo?oc=5",
-      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "summary": "US—Africa Trade and the National Interest: Why AGOA Is a Sound Long-Term Bet&nbsp;&nbsp;Quincy Institute for Responsible Statecraft",
-      "source": "GNews | AGOA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Has Congo's cobalt boom caught Europe off guard? - dw.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONV9rem1aMFZsTHhBNVl5Z1htQUs5eTV3M09oSkRhQ1hkdGEwckctRWQzc3lXTWJFVFlKbkdnY0R4eGxpTmp4OXVVMk5TeC1jQmdSSXlMZDNfYVk4elBLUnBIM3Y2QXBJbWRGeXRGRzVIWlRPZV9JRHNjS2REdFVDVl9ZbVVlUdIBhgFBVV95cUxQYml2S0JneHhnVlRJRTdPUXUxdUFiaHVOUEpsbFZMRnJZSktaNzJBWEhVN2pOZkZSTWU1dWxSX09nVl94d2V3ZjVsU29xWHJONld6MFJpSHA4OHJTZFZXQ3Vsd2dBVURfM2pYQzl3bDdNdmFDX1NrUHo3VGhpVlZYNTl6X2FOUQ?oc=5",
-      "published": "Mon, 25 Nov 2024 08:00:00 GMT",
-      "summary": "Has Congo's cobalt boom caught Europe off guard?&nbsp;&nbsp;dw.com",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia Investment Hotspots & Emerging Opportunities 2025 - New Business Ethiopia",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWG00eXRpQ2tvbXUwRS1aLXYyNmVyRUxOeHNMLTBtcDRud3g2T3pZYmlfNFdhQ3MyTGJqMHV5X3VWVksyWWtjcEw3dFR4emtHOF90Sm02aHZMSklTN2RxQk4xeVQ4VnAzMXlNMXUzU29RSTFMZGlaMFBucEZZZEtvY3NGeEhOa1V2aGtDZndnUDFtejZqb1paTnA0TndsbTg?oc=5",
-      "published": "Mon, 25 Aug 2025 07:00:00 GMT",
-      "summary": "Ethiopia Investment Hotspots & Emerging Opportunities 2025&nbsp;&nbsp;New Business Ethiopia",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "IMF raises Egypt’s 2026 GDP growth forecast to 4.7% - Economy - Business - Ahram Online",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jVTYwZHNhdFVyaENUakFaa0g1VVRQQTk4ZG84M05OMVNsVHFqMDRKbjk2QW5ROF9abEZUcTR0NzI5b2VYbE9yX29NZ1pvWjZraldKYzRST3U?oc=5",
-      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-      "summary": "IMF raises Egypt’s 2026 GDP growth forecast to 4.7% - Economy - Business&nbsp;&nbsp;Ahram Online",
-      "source": "GNews | EG Economy",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Rural–Urban Youth Migration in Ethiopia: An Opportunity or a Threat to Its Development? - Hungarian Conservative",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS0l3LVNqbXJRbGxmOUczc01LdU1tdUxDUUk3dW1mTG1kTzBlTWo4anJvaWxFcWtZRXFsV3VuLXZpT25zS0czc3E0Y2pKME1IRXFZQ1hPWHJ5M2NmenB5b21QaDluUXZGSEE4Rjh2QWtHbXFWSG9zci1NSFZEa0d3bHJONm1MNWdtNlNMODdKY3lqekUxcldibWpKeHdrWjROb3c?oc=5",
-      "published": "Mon, 09 Mar 2026 07:00:00 GMT",
-      "summary": "Rural–Urban Youth Migration in Ethiopia: An Opportunity or a Threat to Its Development?&nbsp;&nbsp;Hungarian Conservative",
-      "source": "GNews | Africa Demo",
-      "priority": 6,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "2026 GDP growth projected at 4.1% amid non-oil sector expansion - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkwzRmkwQ3ZiYWwyODZPdGlmM2RYVmc1MWNCdzk3X19meTVteDhKVnlJZU8xakVwQVI5RGtnR2tDQ3NKZlhOT3V4MEN4bVQyZW80WGdseUx1ZHg5a3IxNlZaZFV3cEFrc0lKSGZzc0NJRGR0Z3kwejdCNEtFZzZwQm5IQ0ZoUWlNcGlzX3JSWi12bFNSLVpMdEhLMnZaRVFBaW9Z?oc=5",
-      "published": "Mon, 08 Dec 2025 08:00:00 GMT",
-      "summary": "2026 GDP growth projected at 4.1% amid non-oil sector expansion&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | NG Economy",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Illegal Mining and Poverty in the DRC - BORGEN Magazine",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pVl9KZVVNYXFLR0lQN1ZuMmxQYUxCMnZIVjdzTmlVZ3NOYV9qdGt6N3Y0cUtlNE5kb3BERUxONzYyNktxQmRJM1FVNmFNTDJfUS1kQktwR2RxWUI5TGZfMWZtQkcwNVJwbU1RRldn?oc=5",
-      "published": "Mon, 06 Jan 2025 08:00:00 GMT",
-      "summary": "Illegal Mining and Poverty in the DRC&nbsp;&nbsp;BORGEN Magazine",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "NIIA, experts examine China-Africa relations under BRI, FOCAC frameworks - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWhiMktadFh5ZDNrVml4Q2x4aEM5YlRKSGMyUUEwQzFDVTBpWk52OXNMbXdtRnJXTEhrSU9Pek1yeXV4dkhwOXVycVBtUUdRUkppTHhuUWdQa2tJUHhqWVpsNTZDV0lUd2hNY3BXa0x5LS1pd2NpcEhPcHNTNkVUMVBBU2xiLWNDTTJKTi1lTl9qUUtGTFBfUG5rRlFxQmlWSDJMMzdVcDZfNnhGZ19Ub200dw?oc=5",
-      "published": "Mon, 03 Nov 2025 08:00:00 GMT",
-      "summary": "NIIA, experts examine China-Africa relations under BRI, FOCAC frameworks&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 6,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Problematic resurrection for AGOA trade scheme after Congress votes - Africa Confidential",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaG1FS244c3Jid2pUZEZ2ZnkxamZLM0pmR3JmNnJqV1NHRGNyWnM2RUVTM28yb1JiWTM4dDdmMW5CZEJ2cWNXMEdweVpTNWdGX2Z2VnA1cG1WOTZVTTkzd1kzRFNLQVEwS0RsWC1JVDJXakt0cXJnaUpPUHpndHVHRmJTQnlxeE5sVGd4YTZkNVhVd1F0WlExQU5yd29hUnd0T0Zuc1JvbVdLdXk2RFpwQk0xR2FyUEVOdGdoZw?oc=5",
-      "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-      "summary": "Problematic resurrection for AGOA trade scheme after Congress votes&nbsp;&nbsp;Africa Confidential",
-      "source": "GNews | AGOA",
-      "priority": 6,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cobalt in the Congo - ArcGIS StoryMaps",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yX255aHREcnRnMkcyR0c0SmRrSFZ3ODFFSFdWbVdqandhUjVpX3NIdFcweDAtZ29BdVNBdUJKdGVvU3BCZ1VJMkVuVkRPdU5Yd1RiRjl2XzlDZHE5ZFFUUnVYbW5YTVhUMjZlb2pNalFkT2NPM3NLcQ?oc=5",
-      "published": "Fri, 26 Sep 2025 07:00:00 GMT",
-      "summary": "Cobalt in the Congo&nbsp;&nbsp;ArcGIS StoryMaps",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nigeria & Kenya Lead as Africa’s Big 4 Dominate 2025 Funding - Tech In Africa",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZlVYNWlwMGdTajlBeENxdmRzNmxiVlYyZHhHTDBtb1daajk5U0RUdGFuLXQ4MFFWakFRZUZUaHVMcHhGalVRQlFORnNpb3lDcFF5Z2VOQ0E5cWR0SUxYNzBXbTR2eHo2V2NsTHl5OC1TLUJVZ0VuaVc3YzI4RDZZWEcwT1hLejh1dDJz?oc=5",
-      "published": "Fri, 26 Dec 2025 08:00:00 GMT",
-      "summary": "Nigeria & Kenya Lead as Africa’s Big 4 Dominate 2025 Funding&nbsp;&nbsp;Tech In Africa",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 6,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Beyond critical minerals: Capitalizing on the DRC’s vast opportunities - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSFJTNHpybXlZdzRBMlY1TWdWMUNzck9oRWdSNm9DZ0Y0TG5tM2YtMHJhTjFYZHQxb2JmNnNkbmRMYWJodkNXcHdOZTlRODE0Zml0NEtqTGJSd2pPaTNjUTFpVW9LLXZJZDBfT3FLbkRaR2hxYVM4YWtCNlFpUlAyNkppbXBMR0NxRVk4Y3RpMkgwODBnSmpxUU1qVjRQUWZwTTkyVmswTm9GZ0NjVk92T2dEeXBwWl9ZbUNqRG5QVG9mTDEydzFsWkU2WXdFbkE?oc=5",
-      "published": "Fri, 23 May 2025 07:00:00 GMT",
-      "summary": "Beyond critical minerals: Capitalizing on the DRC’s vast opportunities&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | CD Cobalt",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Future of China's Belt and Road Initiative - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXa0dMY1Q3czdHQmw2d1BuRHZaZXVBU2EwNFRqamlWMV9laVYyQUx5b3A4RDVfRnhwVUJ0WEFPcXg5eW1pV3pmZlVNajJLbXZyMDBrTXpGMnBTWUVrc3pmaUhUYlpiZTQ?oc=5",
-      "published": "Fri, 08 Apr 2022 07:00:00 GMT",
-      "summary": "Future of China's Belt and Road Initiative&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 6,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "10 Conflicts to Watch in 2026 - International Crisis Group",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56N1JndG9YSlRpTXV1ZnpILVdlbmRKSEpPSE5VMkN4TkNRSjRkZmNmOGhWc3JTaUhLem5SOHhIdkZSZ2I4T1dxNDdUczNKbVlqV24waVJvVGN1VlRUTkFFU3RBWnJpTFlnb1FNSFhIaw?oc=5",
-      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
-      "summary": "10 Conflicts to Watch in 2026&nbsp;&nbsp;International Crisis Group",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Conflict intensifies and instability spreads beyond Burkina Faso, Mali, and Niger - ACLED",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSmxOQnNNQlZhTEdDZ2NyNkNmT1FvUHY5S1JzclpaS3g5UVF0dnNTNW9yYU9BMVB6NXVxcVpxRHlaTVBDTll2T2RMRXlPQ2dMNTBhX0h4RjV5cEF6RzY5U0pHblIyc19fME5aZFEzUUtQSU9PNFZTQkl6YXZiMVBYYjZwTDZDR2tueVMxa1dxV2Vla0lqT0J0S2N1YWZVSkJSX0Nta25HLWMtcTdu?oc=5",
-      "published": "Wed, 30 Jul 2025 21:53:19 GMT",
-      "summary": "Conflict intensifies and instability spreads beyond Burkina Faso, Mali, and Niger&nbsp;&nbsp;ACLED",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Independent Media And Policy Initiative Sees 5.5% GDP Growth For Nigeria - LEADERSHIP Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnUyeTB5QWpENTBxVkd3NWVJVjRaV2JoR0YtTDRCbl83MGthajduQUhNaWt6UVl2d1pybUlfM1E5N3ZUcm52Y3l6TFJRTE9ESlBYUENsUEhTS1Y5NFRzS1dsQUNCbV9HbVRnb08wNkluZ0M5X1Vwcllsa0ZBUW9tbXdZdEZJYnhlQU5YblIwNnR2NWdWUm93Z0FR?oc=5",
-      "published": "Wed, 28 Jan 2026 06:37:19 GMT",
-      "summary": "Independent Media And Policy Initiative Sees 5.5% GDP Growth For Nigeria&nbsp;&nbsp;LEADERSHIP Newspapers",
-      "source": "GNews | NG Economy",
-      "priority": 5,
-      "category": "主要经济体",
       "relevance": "medium"
     },
     {
@@ -1073,290 +270,11 @@
       "relevance": "medium"
     },
     {
-      "title": "A suggested framework to monitor progress made on the AfCFTA - The London School of Economics and Political Science",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEswY0pLY1Y1aUhPU2FaZDI5eWFpVDNxMDdQSWtOS2E4WmNwaHZVVHBCbGtERjNEQjRKQUZVSHlRb1JQZnVXNl9BazQ3Yjd3alFqbmRZSmgwQldLZi1WcGdhdDk3aGlqZ0RCRW16TEZTRXhYRXBROTd0ejA2WlNLcWp6LXBoZGdTRDR3MnBjcDFIazM3R3FYRTN4TFJOQUFkdHBZSzY3Z0lYR3Vp?oc=5",
-      "published": "Wed, 25 Mar 2026 07:00:00 GMT",
-      "summary": "A suggested framework to monitor progress made on the AfCFTA&nbsp;&nbsp;The London School of Economics and Political Science",
-      "source": "GNews | AfCFTA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Public Health Situation Analysis - Sudan Conflict and Complex Emergency - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDhsTWRqWGNNMTd4VXFkTXY2LWs0b3p2SFdvNkxDcTRxY3ZNeFo2bkxHeWxQMm9kVmlMSnp2S2VkcDVuMFFab1dpaHFKQno0S1BiR2ZMUHRQT2ZGWmJPbF9PYng0RFJXXzc0cTZIUkxFUENHcE9XMVhERDFNNUZXbktXNmt0OEdiN3J2LUpDUGVWTWRCa2VwWEZLYXdTN1ZaSHExZkdPQUlTRG8zTE5JNw?oc=5",
-      "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-      "summary": "Public Health Situation Analysis - Sudan Conflict and Complex Emergency&nbsp;&nbsp;World Health Organization (WHO)",
-      "source": "GNews | Sudan Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "World Bank, IMF Warn Ethiopia Faces “Unsustainable” Debt Amid Political And Economic Strains - Arise News",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTUVRbjdnZkhWZjlZSkFEYldEbGF2b1A2WWU3anpnWnhhcXR4UkU0ajA2bm5MYWIwMnVwbk5EazMzUzhnSks2SndvLU1meFZBM2gzTUgzWFVuTGc2bEU3LU9Cc0ZTdkM0alBqU1ZtVUVySU1tYzU4QVd6d2JlQTYyLW80dEdaZEU0VVBSWVdWTEVKYmNvRXh5RS1TY1ZEaXdLeEJUS2pCRkZJenZmYzJQRg?oc=5",
-      "published": "Wed, 24 Sep 2025 07:00:00 GMT",
-      "summary": "World Bank, IMF Warn Ethiopia Faces “Unsustainable” Debt Amid Political And Economic Strains&nbsp;&nbsp;Arise News",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA’s Short-Term Renewal May Not Be a Long-Term Win - Carnegie Endowment for International Peace",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDZJSUpjWVh2aTNiTGM5clFtSG5DX2FycjkxaTR5ay14NzdodWRDSmRjdUpxMV9fMDFaWXJlTkVIMlhfblFHZU4wMTBDVGVzYy1YSmRyQTFucG82b1lmZzlyNFAwU2dfdG8tVW9nS1ZxWXEzZUhweU1pTENYY1BfZ2kyT0FPNzhZWVlB?oc=5",
-      "published": "Wed, 14 Jan 2026 08:00:00 GMT",
-      "summary": "AGOA’s Short-Term Renewal May Not Be a Long-Term Win&nbsp;&nbsp;Carnegie Endowment for International Peace",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "US Prez Trump renews lapsed AGOA pact with Africa till Dec 31, 2026 - Fibre2Fashion",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM2kzLVd2blVHdGhKN1dWWHhhZ2ZvT0stWVpISEhTMGZoclpINTRKMTNNcUJSMWRxYkZmYUM4ckwtdi1YTXpGSmJ4MUdHNWYxeU1oN0Q3TjNRTmVNVy12ZEhnM0tiekQzRW1mWVIxeDZ1OWtRdk8xNG13MVA4Y2U4U3V0M2FheXlJd2NVTE55YWhDN2hsOERJUXA1b2VUaDRrellkUUIyWWtsY3pOZ3p3TVNSSGxqbGViWTl3UVk5TFNXSUtBTHcxem1NSGFVbXNXNXRn?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "summary": "US Prez Trump renews lapsed AGOA pact with Africa till Dec 31, 2026&nbsp;&nbsp;Fibre2Fashion",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Trump signs last-minute US–Africa trade preference extension to preserve duty-free African exports - Business Insider Africa",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY1hDeG5vX1FueGFsX3hfYi11MWZ2RHVjczdXTjdlMmEwOXJWQl9EcnBaQ05sSnZBMzdrREx5Q0lESFNGbmkxajFjSDVVdmRmeHhSNDlFaFB0SUt1NkpBSWNtZGZ2NGRkcU15VUpuVjl6VTBjVmVlcDFUeDFxZFhWRkxpMGRueDd3MEpvWEhWM3ZvMUtRaEVmSGZXbGlHemE1OGxFS2ZwUmt5M0UzSHlPNFVHYndxUHNlQ21DWFFKYko3ZDJLZ2dQSk1LVW93WHpJbklvZw?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "summary": "Trump signs last-minute US–Africa trade preference extension to preserve duty-free African exports&nbsp;&nbsp;Business Insider Africa",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Illicit activities fuel extremism in the Sahel's conflict zones - ISS Africa",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRXRNYmh5RVNZcHdnVW9lVTRuZzRKVWE2Q2dtZ0wwRVRmMzZNMDNPaGY4QTdybnRtMENaRmhCLWRUQTRlQUc3NzJVT2M3VlpRMUJNMjFKTmtTY3lyZHY3Q1JyNkRoRE5MOVhZdjViUFZkVzRJQVhKdkx5U1lMS05BcExSUGIwVWc4OTVYdm8tWXQ3a1JhY050cURlVER5QXRJanA3VVdaRWVRdzlG?oc=5",
-      "published": "Wed, 02 Jul 2025 07:00:00 GMT",
-      "summary": "Illicit activities fuel extremism in the Sahel's conflict zones&nbsp;&nbsp;ISS Africa",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Fighting climate change in the Sahel is worsening conflicts - new research shows how - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXlaYmhZdHU0M2JCTVVQT1Brb004RTZtOFQ4U2F2Mlg5Q3V3S2hLMEVud25vYVh1bjJrNVVsZHdidy15T0ZHSHJZYWhUbW96eENjTU1PRDdsOFdPdW9XUEZZQjJoX1lCNkYtTTJiTWVxQTh2ZWJMRDFmX1lpbzE0dFVGSHAtU0F5QWJEeEhlWWloV2Etb1REelZjWE55QWtMSnFBcDhqdFB5SnRGZ3h2ajZsdWs4cE5o?oc=5",
-      "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "summary": "Fighting climate change in the Sahel is worsening conflicts - new research shows how&nbsp;&nbsp;The Conversation",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
       "title": "African leaders call for faster AfCFTA implementation at Biashara Afrika 2026 - Ahram Online",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR21xNlBwcDJOWm5HelBLTk5vcVVzZU1rUG9BWkljYVNWS3RsRGxqM1hrTjNjVlNQOGpPUllOb3RvNGZBWHNXS2dPYW9LX0pWQzB0aEVQSy1MVEdLSDRoazEwbHZCTHNSVjdrM1BTQ0t6X0l3Q1plWFZaRXVheW5QNEhycGxzZw?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "African leaders call for faster AfCFTA implementation at Biashara Afrika 2026&nbsp;&nbsp;Ahram Online",
       "source": "GNews | AfCFTA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Exploring the conflict-readiness of parties: The dynamics of proclivity towards violence and/or conflict in Madagascar - accord.org.za",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMzRxaFZva0JXdElQTWJGTXREM2dXclRXenZETDlXM3V0a0h4ejVhTVRuY1FrOWRkaktKVFhEOVQ0NlJZTlRJT3pmS1duYTVOS0tYc2ZsTUlNUjUzT0duOU5UMnJ5T2xSLW9jMnRJWDFiV3FIUEd1MXdjd0VQQkMtZWdESjhEZ0xWMGNEbVIwRXZqOUY0emxEUVY0MkdmajU4MDYtRUdrSkNSV2c1M0kzSDF5WEllWlJGWlhMa2VybzdacFlMUXYxVEYzZDFGZmxxQ0tHWkVGZWtnMUNPcHl5NnV2Zk9qOGhWZFV2aw?oc=5",
-      "published": "Tue, 19 Jan 2021 08:00:00 GMT",
-      "summary": "Exploring the conflict-readiness of parties: The dynamics of proclivity towards violence and/or conflict in Madagascar&nbsp;&nbsp;accord.org.za",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 5,
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "Africa faces a mounting debt crisis - The Economist",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUENqaVE5WXB1R0hDeFdoekRIR3A3T3VnamVwaGhlYUZ1djJqQjZJQ1pNdklSMGxKRm1jLTJtSU03ckdHR0hhTDItRzdTQWctMGJWWDM1OUk5aE5idWpRMDJ3SmJPYXBVa1F4Q3UxUG1pQnBGcnJlc3hETm51WExFMDdGaXpxSjV4b3ZhclJTakI1VEVfZW94T3ByZw?oc=5",
-      "published": "Tue, 16 May 2023 07:00:00 GMT",
-      "summary": "Africa faces a mounting debt crisis&nbsp;&nbsp;The Economist",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "After three years of conflict, Sudan faces a deeper health crisis - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbFNBUlJuaGN4di1CSDNLdC1RcGt0YnlPWXVmY2tBTmwyZTlKcEJ1ZktuUkh3U1FTeURDX3R0UmNteTRibWxUWnUtYmhQRHdtQVBkeHY5ZUxJNGY4anYzRmZtNEhieUo3LWVZNEZGSFZQUVBXUUlaa0NNazBCZVY0LUtYeGE0VE1YYlA0TDZwNzk5cWc0SXYwN2JvWFhnZ01ON3NOdThka0psdw?oc=5",
-      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-      "summary": "After three years of conflict, Sudan faces a deeper health crisis&nbsp;&nbsp;World Health Organization (WHO)",
-      "source": "GNews | Sudan Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Anger at ‘bloody unacceptable’ efforts to end Sudan’s war as conflict enters fourth year - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNXI5cTFOUWh1QzZSY3l0Z1VRam94TG9vZk0xTEJ3U0R5Vk9TSUpTV3FtUEh3NWdnck1oWFJoT0RhMFdOVWdOT2h2TmZZRkZ1X2NYTW1vVWRyVFpzcTJOV2dfWWdhcVVfeG5UU3FaOGt2UHZuMEZ6RFpicE4tc1pDZTFwcjBzOVJTTTNMQnp1NDB6ZWFwcFhJLXlnTVU3VklvSHYzOA?oc=5",
-      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-      "summary": "Anger at ‘bloody unacceptable’ efforts to end Sudan’s war as conflict enters fourth year&nbsp;&nbsp;The Guardian",
-      "source": "GNews | Sudan Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "South Africa’s economy extends growth streak as GDP rises 0.5% - IOL",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWpwQmd4UUFyd3ZSRlRITHp5WnVwOVlsWFVma0FtX1ZJQTF4ajRETFdOSEY1QzNFeGw2LW5kVUZFdk5jT0ZuSEFHb1hkN3pVWUdvb1p3TXFvN2M4aWFvNWFvdGloMUhIUjlyYTNqVWQyVnJ2YnNiamlaVEVheDhBOVR5MEc4Y1d2QlVxZ3ZFdU5aU1NhTlRsd3FOLV91WDJWb3lLWE9nVU9zdUNWdzZuVTlCVQ?oc=5",
-      "published": "Tue, 09 Jun 2026 10:44:26 GMT",
-      "summary": "South Africa’s economy extends growth streak as GDP rises 0.5%&nbsp;&nbsp;IOL",
-      "source": "GNews | ZA Economy",
-      "priority": 5,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Violent Extremism in the Sahel | Global Conflict Tracker - Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeUxBdm9lLS1yQ2tiRkRBVjZYRUxfNmw3aHFYYl82dERySGlKb0NsbVdRZk5ZNExfTGwteW1IZnROVEgwMVBoNFlNbndMRHVwOVFEYVVhTjl0bkIxZVcyaktyMGF0OVVMSFhZcUJpR2QtLVowSUozc2pkM1ZJUGN4NnR3?oc=5",
-      "published": "Tue, 05 May 2026 07:00:00 GMT",
-      "summary": "Violent Extremism in the Sahel | Global Conflict Tracker&nbsp;&nbsp;Council on Foreign Relations",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "GDP growth subdued in the first quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLRWdUZm9oOU5udjZNOW1VUUZRMmt1RmxiMm54c3ZOQnhmUFBRSmVMeUNDZkE4VmxCQUhNNDVTVC1TaW5nWHppYm1FRQ?oc=5",
-      "published": "Tue, 03 Jun 2025 07:00:00 GMT",
-      "summary": "GDP growth subdued in the first quarter&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 5,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Counter-terror turned the Sahel into a coup-belt. U.S. policy in the region should move on. - Center for International Policy",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVjJVcWhjZ0pxVzdpQXNqWlVrU3NrMXRNTEVpbTFKUlJyS1FWV0g0b1N3ZEJuWTRyUjBQZHI2OV9DRl9mWDExNVpnQUxSR2V0SVZwQlpFNHpNLXRucDNnLVJoTXhPb29TSXBURmVjeVZQZTFrUUpEdVV0dkNpbGtJNVAwUVJfZUNzaWxna2JORWt4bWtjM3ItNVVudktvS0dJQWhDTm1nQ3gzWDRILWY2S2VJV2tsVEhQSUFBb19tVTBzMUpKZkhWR1RkZWYzWVU?oc=5",
-      "published": "Tue, 02 Apr 2024 07:00:00 GMT",
-      "summary": "Counter-terror turned the Sahel into a coup-belt. U.S. policy in the region should move on.&nbsp;&nbsp;Center for International Policy",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "ECOWAS and West Africa’s coups: Not every crisis needs a gun – Foreign and security policy - ips-journal.eu",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVF9PWS02QkVZMlJvMDBqWUxBd1hvdHE5ODhqd2FZaExjMTVkbW45SG9QcnJROE1VaEJ0OGlfU0c5clVfbzJSUTdpYm9hRmdoajRQVDNQR0Eyc2R1cGJ4NThnVEZxY2ZRakhwendvOHFVenVPN2VNWDRWbTk1T1ctRGVSdkFzTHV1bFdYbzZGSm1JV0I1Y0hsRVRDSzU?oc=5",
-      "published": "Thu, 12 Feb 2026 08:00:00 GMT",
-      "summary": "ECOWAS and West Africa’s coups: Not every crisis needs a gun – Foreign and security policy&nbsp;&nbsp;ips-journal.eu",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA reauthorized for 2026 - Feedstuffs",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FNUlLNXM5ZjItam1XaE1zX3VLVkZCUzFjQTlCTVN6cUpGOUFVQUNqWGZLZmx5azRJcTVnNkNMdUl3YkRMcmxMYnZyLV9RVkNtU2JaZllvOV84Q2hzbjJKV1hseW1EMXkydHFrYQ?oc=5",
-      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "summary": "AGOA reauthorized for 2026&nbsp;&nbsp;Feedstuffs",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "US restores AGOA with one-year renewal to December 2026 - People Daily",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTDBqaTRhREFnUGJEZ25lZkJUMW1uRk5hVW50LTZ2S0kxQW9fa0ViRXdVQXdQY21jU2FnbHVDOGdmV1NHSGZYc0JMa2ttYXZkc0wxcTRxclM1ZVdmdkFmWmNQRUxWZGFkaEdCOTRSUWdWdC03ZnJrbWdzZU8yNkI5ODVrbnZKSldkUUFmREhpNTJzUQ?oc=5",
-      "published": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "summary": "US restores AGOA with one-year renewal to December 2026&nbsp;&nbsp;People Daily",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Conflict in the Sahel and Coastal West Africa - ArcGIS StoryMaps",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KWFlYN2xLR2RUb25NX1NoVVNGZTYwYzkyZ2FUel92WVVBaENVOHBxWFJoM2NHNjBlYjFUaHdKWGkzbFU3aWMwOGZnVHFwZi11eUJpeU56WVZhYXJqUVBiODVReTlwRnA5OFdTSV9nRkpXMXBjU1pnWA?oc=5",
-      "published": "Sun, 30 Nov 2025 08:00:00 GMT",
-      "summary": "Conflict in the Sahel and Coastal West Africa&nbsp;&nbsp;ArcGIS StoryMaps",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Challenges of Conflict and Climate Change in Myanmar | GJIA - Georgetown Journal of International Affairs",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelI3cnFndnV1ekZfcEFRVHk1aTNPbDRITUdlUndqLVlCR2NmQjRLRzB3Y01UcG5uSHBocmVTRVZnX0pzUzlWRUxnVlNIU0lXRFRKR0czelRnbEZaSFg3TkVFbktWQ3c5Y0JDWmFhM0RTS2t1VG93TkhuU3pSa2Y2MzdLNVMyd2o4dENoN1RJWTI5Y0hVQXFSWkJLOHViWDMtakl6NlZvc0tYYWMxcndz?oc=5",
-      "published": "Sun, 09 Jun 2024 07:00:00 GMT",
-      "summary": "The Challenges of Conflict and Climate Change in Myanmar | GJIA&nbsp;&nbsp;Georgetown Journal of International Affairs",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 5,
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "Examining the relationship of inflation, gross domestic product, oil price, foreign direct investment, and trade openness on unemployment in Saudi Arabia - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BNGFZTGt5bms5TnUwTHlReDU3a1liZ3pWaGlMSUhHLXRteXkxSlJ6V1pIQkUzVUhXaEFjWk05VVdjd1hFcHAtQlJKQVVEV3ZLOEdZZmZQbloyMVFiTm1V?oc=5",
-      "published": "Sat, 31 May 2025 07:00:00 GMT",
-      "summary": "Examining the relationship of inflation, gross domestic product, oil price, foreign direct investment, and trade openness on unemployment in Saudi Arabia&nbsp;&nbsp;Nature",
-      "source": "GNews | NG Economy",
-      "priority": 5,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Trump’s tariffs have gutted Agoa’s duty‑free promise: our model shows how - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeFVvQW8yUFhYQjUzbldzcXpGdEZHa2FOd1gwY2RrMHc5djJ5VVVqMFE0WXdTbDVYZ2lOR3RyWEhsNEh5QlRWYnlPWjYxYTFWSzRfUXRLbDVBSUN3U0d5VDFJMHRGZVlaSHRScWVRNnRZZjVEVWVWbFViSnlwemxUa2JrSlQyR2paNm1pWEM3Zl9BTHN1dFotSmoyUHlycThWako0M25hUVk?oc=5",
-      "published": "Sat, 28 Feb 2026 08:00:00 GMT",
-      "summary": "Trump’s tariffs have gutted Agoa’s duty‑free promise: our model shows how&nbsp;&nbsp;The Conversation",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "After U.S. extends AGOA, China finally agrees zero-tariff access for 53 African nations - Business Insider Africa",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRGdzTlpSSUFBX1VRcEp2QnZhSUJEeV91YlptOXRaNmpJTjdxbF95bWxVM0l0a3g0MDdGN1ZEMndIT0dGRmRaX2s4dm1jNFRTbXltcjVCQ3IwalFVTDltcGJmc0Nfa1UzUzJWdG5wMFRLRVB2RVdmSGU4NW5tRXNMTFlraWJiZGlNMzdRUEZCY082V1NXVHdqM1RMMU1oS0w0WS03WEZXY05KWHpQNl96RENCMXZPdV84em9QUER1ZUFKd2pKNHRZY0cxLTZJRlcxY3V5SWFBaTA?oc=5",
-      "published": "Sat, 14 Feb 2026 08:00:00 GMT",
-      "summary": "After U.S. extends AGOA, China finally agrees zero-tariff access for 53 African nations&nbsp;&nbsp;Business Insider Africa",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Destabilization as Modus Operandi: Eritrea and the Sudan Conflict - horn review",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFhfR2RnVjBiVXFhY255UHNNeldPTWRRY1ZUUGJ2dUdxWnhaWVdweEJZbmlYdjdlZ0xYVXlkUHd6VjJmb3Q1ankyZVpDVHN3dzNqQVpPY1NEWk50ZWlVMEJWOTZOUHcwSlpGWG9oYlltOEpUU09SRDl5NlFMMG5sWEttZlJETXc2Y2NNLVZzcjdLUGJPOEE0NklLWjRlMU81?oc=5",
-      "published": "Sat, 06 Dec 2025 08:00:00 GMT",
-      "summary": "Destabilization as Modus Operandi: Eritrea and the Sudan Conflict&nbsp;&nbsp;horn review",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 5,
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "Coups, elections and protests - a difficult year for democracy in Africa - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZUUhxR2ZZSHpWMEFSTmNCSnlNa0hyYUFXb0VDRzdfbTBSTmNOS3FnQXdEQW1hbUEtRTJrdGlDcU9lcDVmdkF2X3l3M09nZHRKbmwxa2MyWFgwZw?oc=5",
-      "published": "Mon, 29 Dec 2025 08:00:00 GMT",
-      "summary": "Coups, elections and protests - a difficult year for democracy in Africa&nbsp;&nbsp;BBC",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Africa enters 2026 facing a debt crisis. The answer lies in regional solutions. - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbHl3TzVaMWJGVkZPY3NqeWxvRTdxalV5alN0WEZoQ2ZiTVJmSk80SDhSNmR2TjVPZXZrNXRQcnJwcjJnbHd5dzhHWWx2TzU4Ylg1d0ZyNmt0bGRUb0NLbVhtMU9SdHliUm5EcjBnN1N6NlhET2pTem5USUZOWTlOeTBHNTc4ZDUtVzdWcFg0eHVBbTU5VzczYmQwMzJiRU8xTnhmb3hqR0x4SkRjN3RjMmlrQ2kyZ0tRZjAteFlZOXplMHV0bEFCYVNn?oc=5",
-      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "summary": "Africa enters 2026 facing a debt crisis. The answer lies in regional solutions.&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | Africa Debt/IMF",
       "priority": 5,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -1382,31 +300,11 @@
       "relevance": "medium"
     },
     {
-      "title": "Conflict-Ridden Sahel At The Crossroads – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRGFrQ0dCcWFBQzB5WEFETkNJNWNHaGI5NGZ5UDJZN1dGVGpmbTdHNXJHLWhpYWozR0RNQ2s1VU1UZWNZSWR2c0RDSFRaRWR6eDJObVNOUWpNMHZhS05zdFllWnpyTjBqd0N6UmlxZHdqSmRGd0xMVHJURzNLMzVTRlYxdG16UGVEZEFMd0l6bU0tdw?oc=5",
-      "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-      "summary": "Conflict-Ridden Sahel At The Crossroads – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
       "title": "AfCFTA Implementation: Learnings from Value Chains and Regional Blocs 2026 - The World Economic Forum",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNFIwMV82X3NLZmlSNnRvTktzd1RnZ2h0cEkzczM2eXA0aTZRVHdlOU53bTRXM1BWbEpRdERYb213a2dvaXFpMFAzQ1NkcnZUMFJqbWZKdXpfUUVyZHZUTjlOVWUtc3FNTjRZQktEYzl1OWstcGMzazFuRk5nMGxiSWxuNURpMzFlS1NQS2Y0REVkcFBOcnEzTmZleVZpb2JKRWNoZVdnSUpIUQ?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
       "summary": "AfCFTA Implementation: Learnings from Value Chains and Regional Blocs 2026&nbsp;&nbsp;The World Economic Forum",
       "source": "GNews | AfCFTA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA’s short lifeline: what the 2026 renewal means for women in Lesotho’s garment sector - ODI: Think change",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLTdoU2pxNGF4Q3NSTE9sZ1g5U3NvQUV1a0kzTEwzOHR5THVRY1BTRGxCNGdETG9vaTVKc3RBZGRWX0FEb0k3aGF2aG9LVU5EcWFvdHNEQndkWU1uQkhEb2dEZUFGN0RvRE54UUg0RXlPRFIyRkZBVGRfWTdUaE1JSWxKRjN5NGs0OVZSbFhSMFd6N3hHSEtZUHIwTjhSZEV1YWZyTi03WXBzemtrRDVvNWhqOA?oc=5",
-      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
-      "summary": "AGOA’s short lifeline: what the 2026 renewal means for women in Lesotho’s garment sector&nbsp;&nbsp;ODI: Think change",
-      "source": "GNews | AGOA",
       "priority": 5,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -1422,102 +320,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Myanmar crisis deepens five years after coup, as military ballot entrenches repression - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zay12cmx6T0IyVzVLVGtzWVN5YVlDMU96bEwyd2duVWJDTnlaeHNmTVY3WFVsS0w3VkNibW1IeWhOajRmbDJudzlRNU9KcUpHWXVfelUtSQ?oc=5",
-      "published": "Fri, 30 Jan 2026 08:00:00 GMT",
-      "summary": "Myanmar crisis deepens five years after coup, as military ballot entrenches repression&nbsp;&nbsp;UN News",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Five Years After The Coup: Myanmar’s Health System In Crisis – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV0hBRkdRWGVZTHlzUjJEcEUxOGZXOTlLVVJpT1kyOUNxREtGQU5ZNm1CQ05sYjhCcDBTU2JYN2hIZlo5VFFMdXo3dW9WRTduamVqbXRnSFBtTVVlNVRVZ3QyM2RaZ0lFQmY3NE1FNU9TVjRkZXVGVEEtLTNfaHBLV2V1cFBoWV9WNXVRczRvc1p0djJuejU0M3lYTm5GY21yTV9QanF4UUNVcUE?oc=5",
-      "published": "Fri, 27 Mar 2026 07:00:00 GMT",
-      "summary": "Five Years After The Coup: Myanmar’s Health System In Crisis – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | Signal: Africa Crisis",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "信号性查询",
-      "relevance": "medium"
-    },
-    {
-      "title": "Forgotten conflict in South Sudan at ‘a dangerous point’, Türk warns - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53UjFkN3J0YUppbGpDS0FKSC1WQkxZMDFzQmdGWFVpZ2lUaXhKam1HdldVa3FFRnBWeFpwdlZBUW1PNHNYQjBKQ3hlY2p1a1BFb0VTSDhadw?oc=5",
-      "published": "Fri, 27 Feb 2026 08:00:00 GMT",
-      "summary": "Forgotten conflict in South Sudan at ‘a dangerous point’, Türk warns&nbsp;&nbsp;UN News",
-      "source": "GNews | Sudan Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
       "title": "West and North African countries convene in Lomé to accelerate AfCFTA implementation and strengthen regional economic resilience - United Nations Economic Commission for Africa",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmhtWTV3enFDdDh4ejJpTDNHdnRxUG9BeTVXRU42RUFWSWRfbGw3anlXaVBBQVBET184cFJ1aU5zb0tjWU9XVjY3cG1FRU1rWWgyTjRrN2RXT2pYVUdkMFRTcmU1eXZuWkt2aFVBRUhTRDl2TG4yal8xLURKaVVnVmtGb2Y2eEF4SnB3TVVja0FkSmRaQ1lHQjlOMVBlVS05YzJCVk9ONTQzR1lKdzdmcDdSc29lWElBM3J2YmZheEo?oc=5",
-      "published": "Fri, 22 May 2026 09:59:16 GMT",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
       "summary": "West and North African countries convene in Lomé to accelerate AfCFTA implementation and strengthen regional economic resilience&nbsp;&nbsp;United Nations Economic Commission for Africa",
       "source": "GNews | AfCFTA",
       "priority": 5,
       "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Military Coups in the Sahel: A Step Forward for Decolonization and a Step Backwards for Human Rights - Human Rights Research Center | HRRC",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX09iZ0ZOZUVhcG03OU1QTnJsekh1N1VRODZ3aUlwVmdBd0g3M0cwVExiQjVHNDhEMjZnNTBBRmxfcGNxTmpqekhjd0tGalpXZ2pScnlzX1NqYUZDY3ZLZkZDaVdXYmprNG1VSGk0U0NLYjJVWjFFY2FHUkpELVJqNU5BUVNfTi15SXZOVFlvU3VoMEF0MV80Nm4weXhaZlRpNFRKQ2EyWkFmY0NuV2g5YXNuUldDTVlqNURIcE55QmszNGQzZnhOOTZCaU5NSld0MkViTXFHbw?oc=5",
-      "published": "Fri, 18 Jul 2025 07:00:00 GMT",
-      "summary": "Military Coups in the Sahel: A Step Forward for Decolonization and a Step Backwards for Human Rights&nbsp;&nbsp;Human Rights Research Center | HRRC",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "signal_keywords": [
-        "coup"
-      ],
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Yango Group Invests in Kenyan Fintech Zanifu to Boost SME Growth - The Kenyan Wallstreet",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNhcU5CRjAwQVpDQWM3aFVsS21VWDNQc1dva3lZUi1POXdVQWk0LUU3cXBFNTFFRFVpMGl1dTg5Tk9LLVNiRDdUWWhwM1pYUWhNUHZwVUNyRUFVaTZpVDA5R2pYc2pJSWRvb2c1TzF3X3lEZ3B5RGhCZXZ3TlFfOWV0VC0tZ3puSlI3enpGU2FzLUtvSk1UaA?oc=5",
-      "published": "Fri, 17 Oct 2025 07:00:00 GMT",
-      "summary": "Yango Group Invests in Kenyan Fintech Zanifu to Boost SME Growth&nbsp;&nbsp;The Kenyan Wallstreet",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 5,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "AGOA changes add to Africa’s rollercoaster ride of US tariffs - ISS Africa",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWnNBUVBnRkt5UzlVVUhwczNQUG1ydF9Hc3JKWEtBdFM4YmRSNTB0LV96Y24xdmJ6T1NQQnBJcTFseW9CRXF2Q255X0JsX2ljSzFCT251R1hiTWt3SXN6TDJQZDdrcEt6d0xva3g3cnlTZU8xeGxXZVVkcDVQUVFoemFfU0dwa2lQSnBmSWpJcHBhaUpPSG9kdQ?oc=5",
-      "published": "Fri, 13 Mar 2026 07:00:00 GMT",
-      "summary": "AGOA changes add to Africa’s rollercoaster ride of US tariffs&nbsp;&nbsp;ISS Africa",
-      "source": "GNews | AGOA",
-      "priority": 5,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "In Africa’s Sahel, conflict and climate change force millions from their homes - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1acm9kSFFzcWNZWVNZSEZHZTh6TU5zQXBlcy04TE1OWlhOdEp0NXd1R2Zzc1k4by1EdmU3SHoyWHlqLVExeHlubGlXNm9WcC1Ncm4xM0huQQ?oc=5",
-      "published": "Fri, 10 Oct 2025 07:00:00 GMT",
-      "summary": "In Africa’s Sahel, conflict and climate change force millions from their homes&nbsp;&nbsp;UN News",
-      "source": "GNews | Sahel Crisis",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93b3VSei1NWTdlTUVhWjNaVGpKU2J1WVNZdlFEdFJsUnEzNEpZbXJZVXFyZ1JXcW1OOTdFZTJSbW1SRGZEQXR0U3ZuUkJOUG5ER0lyUHFqY09JWFVBVjVJSXVMM0RvMFp2ZnktdmIzaUFVaGF3UDE0U0daSElwUQ?oc=5",
-      "published": "Fri, 08 May 2026 07:00:00 GMT",
-      "summary": "Civil War in Sudan | Global Conflict Tracker&nbsp;&nbsp;Council on Foreign Relations",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "category": "政治+冲突",
       "relevance": "medium"
     },
     {
@@ -1531,26 +340,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Instability in South Sudan | Global Conflict Tracker - Council on Foreign Relations",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MNEhnQWo5anpQOXVKbjcyeE50ODlXbjdxWlB2NjFEcFJEbzRxYWY5NlExMzFsUkZ1OG1uQWN1dmlaWWtzVU5fMmhQRzFyOWFONUxvOVlLcXoycHZJU1M4cTlIYk9OaW5ILW00YVdHa0VSSDBMalpITW5RWHBaN3M?oc=5",
-      "published": "Fri, 01 May 2026 07:00:00 GMT",
-      "summary": "Instability in South Sudan | Global Conflict Tracker&nbsp;&nbsp;Council on Foreign Relations",
-      "source": "GNews | Africa Conflict",
-      "priority": 5,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Major infrastructure projects set to reshape global trade routes in 2026 - Global Trade Review (GTR)",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3pXNTJmaTZmbnBDdkxVLWxHVUNxSld1dHhOQ2I3RzRGcDFUTlFCTmg2c1hCYVptRjV1TEZHN0NTRFI5YU9Oc3JjVVh5bmd0bFFITDBpRlE0ekI2SzJxYVczcnc2OE5XR1VRUXphd0N3SW56YzM3b3ZHQ01pdlNiSnF4R2Y2Umw1VjV3M1ZJVkpCODRGSVdiQ3FHR1gyWWhxQzlTTWZNM2VYZkdQSFNN?oc=5",
-      "published": "Wed, 28 Jan 2026 08:00:00 GMT",
-      "summary": "Major infrastructure projects set to reshape global trade routes in 2026&nbsp;&nbsp;Global Trade Review (GTR)",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 4,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
       "title": "China expands reach in Africa through trade - GIS Reports",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYMF9BN1drM2pSdGtzXzNnYVd4UFkwRkdub2Via1c4SnRGWDgxQUYxdnlOUDFqVFNZUDA4aHhHTi11cTJBMnhwUUo0LUUtYkQ5SFRfX3pJRUk5N25MaFhYX1FwdU1wbHM?oc=5",
       "published": "Wed, 13 May 2026 07:00:00 GMT",
@@ -1558,156 +347,6 @@
       "source": "GNews | US-Africa",
       "priority": 4,
       "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Mixed Fortunes for Africa’s Rapid Urbanization—Report - Global Issues.org",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55QVVWLWxUbHFKZ1BsY1d2QmpVR29zRnlQTXM1LVpjUS1GRG5iTzh3b1JBMVZDUGVsX2N0Qk5RYkJOblcyUnJsSWtvRnNiRFYxU2V3RFV3dDBORzMyMHd30gFkQVVfeXFMTVJXckRSblk4V3c5VzJoRTFxV3FzOVF6YlRhdlBXRElnWm1abFF5QTQyQWZyb2hIb3JiTFI2RjktM0UzSEwwX2JwTTlyRk9icnd2LVZud2EyV2g5OXNhZDFoTDIxWg?oc=5",
-      "published": "Wed, 11 Sep 2024 07:00:00 GMT",
-      "summary": "Mixed Fortunes for Africa’s Rapid Urbanization—Report&nbsp;&nbsp;Global Issues.org",
-      "source": "GNews | Africa Demo",
-      "priority": 4,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nigeria Records ₦1.7T Trade Surplus in Q4 2025 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWpjdGJmTWhiY2dCUnh4WDRFZ2lOMU1ZMGxEeEZaNFZsUF9palM4TlhnTUhLUDZ5WVVZR2ExdnNYNEVxYzVsbEY5bGdGdDkweWpPUEJoMHJGSXdWNHM3ckpkODIyMUN3YVBRMDYzbDJVMjJyUEYwMEh5bFMxdmVfQkhrb2xONU40VVE?oc=5",
-      "published": "Wed, 11 Mar 2026 07:00:00 GMT",
-      "summary": "Nigeria Records ₦1.7T Trade Surplus in Q4 2025&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Investing in waste management to create job opportunities for Malawi’s Youth - World Bank Blogs",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUklpaVRPYTdEUVlzaDY4aUVSdFM4RFYzVEh3V2gwdUNjZzZWNXo2Z2E4R0VPM0wyWHZlNVJuUHF2RVRxZnFDaFhNTVlIVFBUUnhlOUpGaUd6WnVUcHdfdk5ySWJIOXJ3RGhPMFRaM3lIRmc5SnR1eG5tSHNQcUhrcEVXVFViZ2hFb2RCaFBiaTdKN0oyN1UwdENyVWIzdHBBaU10MzFxVTdvTWNaM19OaThaODZIalhh?oc=5",
-      "published": "Wed, 09 May 2018 07:00:00 GMT",
-      "summary": "Investing in waste management to create job opportunities for Malawi’s Youth&nbsp;&nbsp;World Bank Blogs",
-      "source": "GNews | Africa Demo",
-      "priority": 4,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "US renews trade pact with African countries, bringing tariff relief - France 24",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLVF5d0FvcVBDZGE2SDRWNUVsRmJyZ0hsLUhVVk5pYnp2UHlGaUNxSWFSbFRneXJjS3pLM1h1aUljMnRJY293eDZ2NlJ6QXVWeGg4N19BVXlkcEo2WU8zQTBwcURaVWNvWEVzU2VTVUM4ZWJyandGSGtiZ1YyZFhCS0pTd280R0o0dWsyaWhMYk1tQVkzX19QMmVQeWV2Q0ZsSkNocG5XcGQyeW5KWTRjbl9B?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "summary": "US renews trade pact with African countries, bringing tariff relief&nbsp;&nbsp;France 24",
-      "source": "GNews | AGOA",
-      "priority": 4,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "GDP falls by 2,0% - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83YzByNWNUV2FLLTlxMmlpUDNXbTZIVnRoWE50N1Q3azA2VDNPYVkyNU5xVUFLZlo2UXlCc2ZaNFhDME92Nmk5QUU4VQ?oc=5",
-      "published": "Tue, 30 Jun 2020 07:00:00 GMT",
-      "summary": "GDP falls by 2,0%&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nigeria’s new economic model under Tinubu to drive higher GDP figures – IMPI - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1JvQUMwVFFpUGxoOC1pM3NGdkxCcnByV0VYdjNiLWhLb0NWZmx6TG9XTWIwOXRNajB6OTBFTUNuOWhLM0lkaGpYR2l5RkZFbUdreHZoMDNjTmh2MEcwUEpRcmZxc0QxaU45eW5vdzd2NkdMVUJ5TnhERDJqQkVTLWhCa0pqclh5X0FMT2pkcDMxTkxiTlVTUjU1anpIR0NZM0lvN3F6bk5ET0Z6T1B1a0xB?oc=5",
-      "published": "Tue, 27 Jan 2026 08:00:00 GMT",
-      "summary": "Nigeria’s new economic model under Tinubu to drive higher GDP figures – IMPI&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "The IMF’s top 10 biggest debtors - fDi Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmxleU9ZVlo3dTdnUjRqSWVEa1dsSjVUY2FCUHMtT3Y0NE5YeUgtcUpxSG5yRlIwNTBjczhlb2VscUNSNkZKT0xCQW9hTkZRM2NGRjB3TnNoYUtObEhFQjN6Z1lieUhqZjFONjdxUjU0cW1IVWs2clc2LWtlalNScmdR?oc=5",
-      "published": "Tue, 25 Feb 2025 08:00:00 GMT",
-      "summary": "The IMF’s top 10 biggest debtors&nbsp;&nbsp;fDi Intelligence",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "IMF reaches staff-level agreement on Egypt's fifth and sixth loan reviews, unlocking $2.5 billion - Economy Middle East",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1ZfWUx4SVdBLW9sVzZXQWxVZVhUeHNoa0ZocW9SWDEycjl5TkhlbzNIRWtXc0FlMlhiWVUxZ0tzQUtkWnZZcC1WSmkwUVZmVUtLNFh5SFplenVNRjFxMmxSVEdBanpBWEtWLXVHSGNJYm1meXplSDljZFUtZXIwZHl5RG5mQ0RGRDdXZVlVYzA3OC1MelVYWjhBd1VxN0cyS2o1MTRoVVFPdXhvMHNvT3dRdTJsMnNrZDNzSkRBREVpVjVoLUlKbS13?oc=5",
-      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "summary": "IMF reaches staff-level agreement on Egypt's fifth and sixth loan reviews, unlocking $2.5 billion&nbsp;&nbsp;Economy Middle East",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "SA's plummeting mining output expected to hit GDP - News24",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM3VzTDdKQ3dWZFJLMzN5UTNYdTNEeWFrcVFiOHNla1NiZDdhVDNOX1RVb0VfOWVscDhmOG1PQkZueGl1V3luX05BX3NKZnFZaFBBM2E0WF9hOW9XSVB2QUo1OFFOa29VXzFmWEtKRzhwcFBwaDhHTGI3YmQzbFNlREhEVGJ0Q2pNUWNqb09DeUJuVHNrcDZ4b1h1Zkpydw?oc=5",
-      "published": "Tue, 22 Apr 2025 07:00:00 GMT",
-      "summary": "SA's plummeting mining output expected to hit GDP&nbsp;&nbsp;News24",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia, Saudi Arabia Strengthening Economic Ties, Says Trade and Regional Integration State Minister - ENA English",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VUWJTWjB0Q0hfQk5iRnk1TUVEUXdpUUU5UzIyVFNlZDVsSUVOZ01vYnVMMXNpcE5kcUpPdnY4MnJGOExTcDNKRUNZaXp3X3djY1E?oc=5",
-      "published": "Tue, 18 Nov 2025 08:00:00 GMT",
-      "summary": "Ethiopia, Saudi Arabia Strengthening Economic Ties, Says Trade and Regional Integration State Minister&nbsp;&nbsp;ENA English",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Private lenders’ resistance to Ethiopia’s debt relief highlights urgent need for debt architecture reform - Bretton Woods Project",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNE5SQ01fOURscTZVd0RQTTVQM0FwdXRiME5NOERZbEFFOHQ1R0JWbm10QWoyVTJsOFcxLUl5RGUtRlJTU05IMkZSTkVZaHJiUnA0UWR0M25iaWc4dnFZd0xpVk80XzdqLWN0OUEzbnlZbTh5SVhaUWpQa21PN3puaml5ZXF2NkgzOXdmb3B3eGlRemkzVzJ1WVRJdzZYSEd6U2hMOWdHTFNrcGh3M2l3RzN4Z3I1eWdTR3dHaGJBNUpiVDdmU2FibkVuWDNlV2RkbjVoZ0oxdDZBMzlwTFBmUUdn?oc=5",
-      "published": "Tue, 15 Apr 2025 07:00:00 GMT",
-      "summary": "Private lenders’ resistance to Ethiopia’s debt relief highlights urgent need for debt architecture reform&nbsp;&nbsp;Bretton Woods Project",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 4,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "South Africa welcomes U.S. House approval of Africa trade programme renewal - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMkdCU0lFZWl1ZTNzQUJwYko5eHlmVFdtcURPdGs4SlE2ajFYYk9QX1FrYk5vYUZPalk0eGU1aW0xOUlqM3p2NFhlVzU3VXYxQUxCY2FoUW1YX0Q1Qi0wWUg5dDFQbE1lQXdRQlVJVUpiQWJoR2N2U3Zaak54LTZXRk9wSzlqUmF1bHRtX3VZYzc0U1RWQ1FycVRyXzdHZnJjandJei1LemJiSW1tXzUzYnpoS2NXZTJmOEpv?oc=5",
-      "published": "Tue, 13 Jan 2026 08:00:00 GMT",
-      "summary": "South Africa welcomes U.S. House approval of Africa trade programme renewal&nbsp;&nbsp;Reuters",
-      "source": "GNews | AGOA",
-      "priority": 4,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "More stable trade and investment policies can bolster the Nigerian economy - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN2ZBU3hfRVpHeVl5LV9haHVpNUZ2MFR2MWRjOEpQeVBFOWFkbmVBTjVGRXBCSWlEWDFEcHU0WGJOSDlvNm15Wm94ODhSTkVoQ2VkaGpLdmNmREZ5ZmNWYVBGSWVtdzdOU3JYUzQzNE82RFJ6NDlSSVM3R1I5SHM3dm91TjBJa3FpY0c1WklmRGZOZi05ZUJBUWt6ZUc5d29yd01aT2R0dVpzSlNudnNWNUNEbTVheU9NcjZrSThsNDF3c0hZdUpnYi1RallmWXlUalUxLVhn?oc=5",
-      "published": "Tue, 11 Feb 2025 08:00:00 GMT",
-      "summary": "More stable trade and investment policies can bolster the Nigerian economy&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "GDP extends its gains in the fourth quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XeUtUS2JhQVBHRW1fUnNSQzBCenNOTzFiSFpSaWZFejBya3VFbDd0aGY5Tm9CZWRyVE9Mc0lucHJScU5PTlJBR3ZKVQ?oc=5",
-      "published": "Tue, 10 Mar 2026 07:00:00 GMT",
-      "summary": "GDP extends its gains in the fourth quarter&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "South Africa’s Economy Records Sixth Straight Quarter of Growth - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeHJ4bnFSVEpBNEM3bG9zeVE1TXJlVEhjNTZGellDMlFZbTBIQncxQWFBVFFFLVVqM0xYTm9HLVJnUWgtdmY5VWlYRldOc3hRSjJDZnl1ZGg4Nk5TZTNoU0V0WjBCc0E0MkpmbXQxNjV2MjQwQjRDVXFQMlBTUFRfNVlkeEg4QUFkTEFHeWNIM1BheVVJR2dMc0Ewa1RSOVVFWVFSRlVmTkZOMkd0ZTBUa2JjWlBOWmlS0gG-AUFVX3lxTE1nYVdpbnBZMDk2UEx4aEtPTkJ6a1NXdFp3eGFxLWpYZk5xX1VtTUo2b20tR0pfVGNuQk5NMm1SSG1pRlFXY1QtcFZtd1BGTVlsc3pmZ2dVdm9IcnZQaFVDb1ZOSUNEYzZkUzdzbDZ6Z1lMV3JfdXdRX3k1dDNrNi1uV1RmVjhBXzhmc01fNlc2RF82QnBrNmJsa1Q5WlIyeEUxclliX2ZYYTNnNy1ZNlhvRE5WLTNyaVJDbDNJTWc?oc=5",
-      "published": "Tue, 09 Jun 2026 17:06:52 GMT",
-      "summary": "South Africa’s Economy Records Sixth Straight Quarter of Growth&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
       "relevance": "medium"
     },
     {
@@ -1731,133 +370,23 @@
       "relevance": "medium"
     },
     {
-      "title": "GDP rises in the first quarter of 2021 - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE05T2VLenoyZW9GeklpSWpoOXBOb2VOUkpsbkFLSGZwdVRTdkRlNkZLUi02YXYzdFBkZmVRcTVONmFkSVlqbTRaMEtDOA?oc=5",
-      "published": "Tue, 08 Jun 2021 07:00:00 GMT",
-      "summary": "GDP rises in the first quarter of 2021&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "GDP rallies as lockdown restrictions ease - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqZU1ZMDBRcG93TFV4Z1RoN1V0NlhIZkE1Ti1GbmFiYXNjQ3Rydm10a2FjY2xsMkpCM2hvOEpKUEhzQ3duenB3VURFOA?oc=5",
-      "published": "Tue, 08 Dec 2020 08:00:00 GMT",
-      "summary": "GDP rallies as lockdown restrictions ease&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "After two years, GDP returns to pre-pandemic levels - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yUG5EeUhsejRuLVBMcWJLOEFqbEMyRWZ2bUs2VlVOV0l2X2hFTE4zMFBma20xUkROZjA3UWltenVZdUlBT1FBNjI3cw?oc=5",
-      "published": "Tue, 07 Jun 2022 07:00:00 GMT",
-      "summary": "After two years, GDP returns to pre-pandemic levels&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Economy dodges recession as GDP climbs 3,1% - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83MUVnaHBibXpsc0RCV3IwUDdzZFFjNmRYQU9kd09xZGNIbGJDSTZsb2xDbl9tcVVoZ0IyTmhjeTNzNjd2bWhSZUdhOA?oc=5",
-      "published": "Tue, 03 Sep 2019 07:00:00 GMT",
-      "summary": "Economy dodges recession as GDP climbs 3,1%&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "How an Urban Program in Ethiopia Delivered More than a Million Jobs - World Bank Group",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzFfSjJDUVRlNWZYTUZzaEExQ0o0ZlBfZ2pUR3dKcU9RN2Zpc2podDJIcWU2UFdPX1Z5RWtxUHllZWZicUVIdmhEd1FYUFE4c3lhYXpKc2VHalVkTTVjdVlKbTNMZ1ByWHZuUEd6VDc1LVZQb0hNTExpV0xrTS01cmcyVlo0LVVyckxUZjRjTmRYaGxGd1ZKT0lvenN6RGFSUDR4OFJBUU1WN1o0UFNyOHlnZ3d0cFF3V0pjNQ?oc=5",
-      "published": "Tue, 02 Sep 2025 07:00:00 GMT",
-      "summary": "How an Urban Program in Ethiopia Delivered More than a Million Jobs&nbsp;&nbsp;World Bank Group",
-      "source": "GNews | Africa Demo",
-      "priority": 4,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt hits record $8.5bn in dollar resources, prepares for post-IMF era, PM says - Arab News",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xekNHOFlHTnlFT3VQTTloMk1WQkNuQ3FjNUswWWI2ZS1seEtOQWx3RDMzVmxmUFBaWkwwb0hlb1BQQTFEOS1vWGxGbTN5S2YtMGZSM3ZDQ0E4T3dDcEREOGl4RTU?oc=5",
-      "published": "Thu, 28 Aug 2025 07:00:00 GMT",
-      "summary": "Egypt hits record $8.5bn in dollar resources, prepares for post-IMF era, PM says&nbsp;&nbsp;Arab News",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Transcript of Press Briefing: Middle East and Central Asia Department Regional Economic Outlook, October 2024 - International Monetary Fund | IMF",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaW1NTmRNX1pjU1ppX1FCdHJjY2FQUng5ZXZEWExsUEEwb1lMYXpobXliaHFRcnV6bFVsVGJ5ZF92bzZsNmtzV1ppNHBQSkNsTThGM1czNHM2cHk0Sno5Uk8zUkRMakZGdnlZLUduZ2oxVmVnX3g3Wk10MkRKcUVLVXN6ZWU?oc=5",
-      "published": "Thu, 24 Oct 2024 07:00:00 GMT",
-      "summary": "Transcript of Press Briefing: Middle East and Central Asia Department Regional Economic Outlook, October 2024&nbsp;&nbsp;International Monetary Fund | IMF",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure - Yahoo! Finance Canada",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFdfb0RGd1RmVUFvczBxX2xHMDJRSGxFTTBqSUJNNlp2QUpNTjJVNHFNYm5mdDY3WXA1TFpQa1loVUlIVTlwRGVmVGFldU5RZ21BQURvSTZBRmVwLWdwTmVkeS0xalE5NjdZWFdJdng2NXBMZGpvaWV4NFhQcC05blhMMDRHV2pWNVZ5RnZwVlJXeVlTNXBR?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure&nbsp;&nbsp;Yahoo! Finance Canada",
-      "source": "GNews | AfCFTA",
-      "priority": 4,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "EU and South Africa sign first Clean Trade and Investment Partnership - belganewsagency.eu",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQM1ZyNjI1STlhSl80MV90Vkg3ZHJ3QXAzaHBTZE5LV2RIb0pNX0lKeXozc2hRSGdkTFA2dXRhQU9Iajk5eTh0Ny03eS03Rmw3RzFKcDAtOXJPVkg2dzc5Qm9UUURMN1JRYlZXSkpKZ18waTF3VXRIWFJHS3RpeHhXSXlBNXNfRHdyUnZQT21FcTJGZ29FOHZUb215Snl5OWRnOFE?oc=5",
-      "published": "Thu, 20 Nov 2025 08:00:00 GMT",
-      "summary": "EU and South Africa sign first Clean Trade and Investment Partnership&nbsp;&nbsp;belganewsagency.eu",
+      "title": "200 companies join Johannesburg roadshow to bolster EU’s critical minerals and energy cooperation with South Africa - AL Circle",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHQxdFpYOWJYV3FpR09lcHk0bUNxakdLbEliUTNlRk04VDVJOTVvenVaRy0xczMySVhrUE5lelkwLWZwMjg2ZUlRc21LZjA0UXAwR1N0VnZmU2w5V3dUcEtoUlZUZGdVdjZQTHVCQ3BnalYxOFdDVkxnNVhiM2hoZ19lc2d6X1NNcWJKdy1GanJCSlcwR2tBUVU4a2lsRXhCTjd4UVZtZUlVNkhnU1p2MlhZT0NFRkpjb2tSbDVSMXR3T2p0Nk1BVHY2SFotQnZPYUIwR0E2ZDNTbmltTkJpbEU1SnVkdw?oc=5",
+      "published": "Tue, 02 Jun 2026 18:14:27 GMT",
+      "summary": "200 companies join Johannesburg roadshow to bolster EU’s critical minerals and energy cooperation with South Africa&nbsp;&nbsp;AL Circle",
       "source": "GNews | EU-Africa",
       "priority": 4,
       "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "Nigeria Country Economic Memorandum: Charting a New Course - World Bank Group",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeEEwS3N2T2J4dktWMkVFeHF2aWItanJDV01FMnhmMExmUDZNQVZHTF85b292eWNRTGVjUFdvMmVpTENOQWQzc1kybzZDcjFxM1R2dXNJeUpiMEM3bjd2ejBqMUdWRHdKT05BcVNwVjBuNnpWRVBLYy13VHBuaUxtT0dmTFR1NGl6VzF0TzFnYVpZUG5NaTFHcGdXUjZucXJ2WW5qQw?oc=5",
-      "published": "Thu, 15 Dec 2022 08:00:00 GMT",
-      "summary": "Nigeria Country Economic Memorandum: Charting a New Course&nbsp;&nbsp;World Bank Group",
-      "source": "GNews | NG Economy",
+      "title": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkFLalJfckVVR2I1MlZ4WHUtWEtGX2wtbVZIRVlvNnIybFFBcWF6T0dwVmxORGEybWhlbXlUd2Y4Mjg1VWdaODJpM1E0NzhkeWdKckFDVkdmQUJSbDZYWUxaNG5pUEhFUUdLbjNJQk1Ra195ZkZtN1diSzRKS0VRR2xXVC1oN1JtZUxkZldkYnVsY2plTDRucHBkckJsY0VGRTNlb0pLZTJ4aFZY?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure&nbsp;&nbsp;Yahoo Finance",
+      "source": "GNews | AfCFTA",
       "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Export dynamics, exchange rate volatility, and economic stability: evidence from Asia-Pacific economies - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yQTNRUnFZVmZkSGY2cGRGMENwZnNWanlaenBaUVJHRTVIa0N2U2FuWjhaYWF5bHRuQnZLQ2tZSzYtUDNOeWo1X1BwOG9hS0V5Z1FiUV9JNVNlazI0YWow?oc=5",
-      "published": "Thu, 12 Jun 2025 07:00:00 GMT",
-      "summary": "Export dynamics, exchange rate volatility, and economic stability: evidence from Asia-Pacific economies&nbsp;&nbsp;Nature",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "The IMF and UAE Swoop In to Ease Egypt’s Economic Crisis - The Washington Institute",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNTQwSWRpZ2lFTHk3UmlXbnNCYjE1XzBCVTVFbzM1Yi1kUzZCSzl2ZENHU3Z3ZmdQM1dGNlZmemYtLTYtbmh2bFBOMHdvMEE5UEJ1NS1zUEdkZm9tWmVSWWw0ejdBLWNpU19HWDRINVVqN3hKZzh6U0RQN19BeHBCTTVhV3pqWnl2SFZkRnlkMkhSdUJYWmtPN2o2RWRlQQ?oc=5",
-      "published": "Thu, 07 Mar 2024 08:00:00 GMT",
-      "summary": "The IMF and UAE Swoop In to Ease Egypt’s Economic Crisis&nbsp;&nbsp;The Washington Institute",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Guinea's red earth rolls on: Bauxite exports race toward 200 mln t in 2026 - mysteel.net",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU0pPOGkxaU9vNUQtTlJhNjBoNmxVdmotZHVsUGlFTjF3STNobHM4ZGFaX1F1Nko5TFM0Zmd5RFVjbm9zSk9XdDhlNjc2Vl9vNC1SekhoUDJSN21iUGI3d1lxTlVIMWJ2R0ZrRVVtYzhJdHFicG50T0wwSVNESDkydHhGelRrV1VXdnV0VkdaTER1Zkk3WU9GcU40QUEtd29Dd0J6SnM5aWdrY2hNeHc?oc=5",
-      "published": "Thu, 06 Nov 2025 08:00:00 GMT",
-      "summary": "Guinea's red earth rolls on: Bauxite exports race toward 200 mln t in 2026&nbsp;&nbsp;mysteel.net",
-      "source": "GNews | Africa Infra",
-      "priority": 4,
-      "category": "基础设施+科技",
+      "category": "贸易+区域",
       "relevance": "medium"
     },
     {
@@ -1866,96 +395,6 @@
       "published": "Thu, 04 Jun 2026 01:51:00 GMT",
       "summary": "PM says no new IMF program needed as current deal nears completion&nbsp;&nbsp;Egypt Today",
       "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt and the IMF: will Sisi take the economy out of the military’s hands? - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ214d3FqdjdqV19rYzRuZDZWRlFvcWdqZ0pfNHN0RTNMRHp5NGotdm92S0xyOXFUSWRZcWVTZDlBb190RHBuMEtFa1FhN05yRFFReTRRWXF6SXFGMFloYUk5Q1JkdDRXWnFGclBXTllGUnVFR2wxZllLZm9MRE84Z3JrSng?oc=5",
-      "published": "Sun, 30 Oct 2022 07:00:00 GMT",
-      "summary": "Egypt and the IMF: will Sisi take the economy out of the military’s hands?&nbsp;&nbsp;Financial Times",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt expects growth above 5% in FY2025/26 as reforms, private sector drive recovery: Al-Mashat - Ahram Online",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6Y3dma1Y5YWdFeHZVQWNqM1lTRUF3UlNVOUE2WHN4OTUwTC1qTjloZFpXckU2SXV3VTEwNEw4cERVUGd6Q3ZEWE5ROUluZEl2Uk45ZmNCY1M?oc=5",
-      "published": "Sun, 28 Dec 2025 08:00:00 GMT",
-      "summary": "Egypt expects growth above 5% in FY2025/26 as reforms, private sector drive recovery: Al-Mashat&nbsp;&nbsp;Ahram Online",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026 - standardmedia.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwd9IB2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwdw?oc=5",
-      "published": "Sun, 24 May 2026 08:31:41 GMT",
-      "summary": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026&nbsp;&nbsp;standardmedia.co.ke",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Forum on China-Africa Cooperation evades contradictions at the end of the Belt and Road: Chinese investment, finance and trade controversies in Southern Africa - CADTM",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcFMtdHprVGhCU1A0SzVfSG54VXNkVkhkSmszVUpuMFdsR2RiR3F2VzJmd1BVVUZhSVpmaDNVNTJ4RXRHU3U3N3BESkRqTU5wNlcyWFRZbXA5MHZxcFJoRVB1X1ktYV96RkNjakFzczNfcVo1aWg0MGg2VDYyc3J1alRFSTJfUS05WWNJaUZUb3NEZjNPNV9FTFQ0dlFUM2F6RFE?oc=5",
-      "published": "Sun, 22 Sep 2024 07:00:00 GMT",
-      "summary": "Forum on China-Africa Cooperation evades contradictions at the end of the Belt and Road: Chinese investment, finance and trade controversies in Southern Africa&nbsp;&nbsp;CADTM",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 4,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "New economic model to lift Nigeria’s GDP in 2026 – IMPI - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVB3SDNzUk1jVDNkVVFEQXBNcHF1b3BCMW1mSFhHWVc3MGMzOTZldE40Q1JfaVpCamt6Q1JQajRGWHhDazR5UFQ5YUVKZ1JIdUdCWVlPNDlPTDIyMHdxT0lmdkpCcDVIZ0ZkOGdZWnBaSDRwSlJzVklUa3p1VzlVTGN6WFM2TTd1dkpsdXREazJGTUE?oc=5",
-      "published": "Sun, 01 Feb 2026 08:00:00 GMT",
-      "summary": "New economic model to lift Nigeria’s GDP in 2026 – IMPI&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "IMF Confirms Increasing Egypt's Bailout Loan To $8 Billion - VOA - Voice of America English News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdTRPUTB3S01uRVRfdkdQNlpJRkNYT0tJa1BxUjh6Mk1sUk5xcjZFdUtwSGtTcGsydE9CTEtkQzZZWmVWc29uZ1Z0aXl3ZWh3Rnh1UnJ2Ri1QY2dXM3R3S0MyNmlfaEdDOXY2cTFrNFZFMTRpakRpeWotaEZaRDNQT0JhMlpzMjlBdmhMWDVqTjFzNUluUWt1M1lkdm_SAZ8BQVVfeXFMTV81TUtac2xuZDdYS1VpN2FsWmhMVkR6eWNLWmViSTlhR2diRDlmbUtXbi1SUTEySjZ5V1dpWExGMGIwNGZQU2JvRUlUU0tia1d5VXVCMU1GRTN5dnhDc1FOYWZrcnFLTXhSSVRWMWdZbmQ2Zi1lZDhkWVJ1Q0c0NzlYNkhpUWZkdjM5MTFoSXVBeDBUN05NNUtsUnowQURz?oc=5",
-      "published": "Sat, 30 Mar 2024 07:00:00 GMT",
-      "summary": "IMF Confirms Increasing Egypt's Bailout Loan To $8 Billion&nbsp;&nbsp;VOA - Voice of America English News",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Top 10 Richest States in Nigeria 2026: Ranking by GDP and IGR - nigeriahousingmarket.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV2Njc0VKMlhDX3hRb1dvQXpQRDg5ZTJjaFVCUjlUOGV3andQRmVJWHJtaklUaU5jdnoyUHZ6NjdLUE95TDRmOXdjRGNILWU1ZW5lUTNDMUZmOS03WkFmZ1BDSS1QN0ItcU1GZzhXTG1HaHp3LTd4TlU2RzRpNEdMT3ZxTFZMWXMwN0dVWkxwNGJHSjg?oc=5",
-      "published": "Sat, 17 Jan 2026 08:00:00 GMT",
-      "summary": "Top 10 Richest States in Nigeria 2026: Ranking by GDP and IGR&nbsp;&nbsp;nigeriahousingmarket.com",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt raises fuel prices in latest IMF programme subsidy cut - The Arab Weekly",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSWtOTFdUSjdqcnQwREplM0NHbmR5NF9lVTNnbmhiSnVXcXZpbnV4aWxSYy1WaVVkVFJaYUUxQ18tRTkxUC1YQVlyejNpemFqaE1JeU5qdzM3NThKempQT3ZleDNFbWNlal9zTG5USDVNNjNDYmVST1MwN2U4QzlUZmFEeExxY2ZGUUxR?oc=5",
-      "published": "Sat, 12 Apr 2025 07:00:00 GMT",
-      "summary": "Egypt raises fuel prices in latest IMF programme subsidy cut&nbsp;&nbsp;The Arab Weekly",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Sectors that will power Nigeria’s 4.4% GDP projection in 2026 - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWE1CNzJubk5QbURHUHJkR195ZTNIY3hLa2FRcEltZ2UyNU5ZbXNuenVqRDgzUVZ2ekdPZU4xN0lKSTh5cXFOODhoSGVkVl9ZUC1BbTBybzV2RjZwNGRsRVczTUNMTlRoWjU1Qm83U2VaMDVKbDdmM0cwYjF4ZDRzeW0zZHZSSmlNdlpwQ2g2dTdDZV9uMFBobjYzNHJZdlVkc2JXWFNURnhCYUJTeHFVeg?oc=5",
-      "published": "Sat, 10 Jan 2026 08:00:00 GMT",
-      "summary": "Sectors that will power Nigeria’s 4.4% GDP projection in 2026&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | NG Economy",
       "priority": 4,
       "category": "主要经济体",
       "relevance": "medium"
@@ -1971,80 +410,10 @@
       "relevance": "medium"
     },
     {
-      "title": "Safaricom’s New Innovation Strategy: AI, Fintech, and the Future of Kenya’s Tech Ecosystem - Tech In Africa",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmwzd0xLeE40REw4ajY3Q3pOLWZCUm9HM09mNWJ6S05LU3otUm1uOENZelVSY3k0V0RzMWVWc0luRFd0WEwySmZGbUNfY0lGc09fSHBnSW03a1FLQmJHOGdiNTZEdFd6bHhLbE5HWnBoblA0QklNSHlQQXhKMUhrTHY0TEZPOU1xZzdEWVJnZV9DV1ppS1BSZlF5ZDdhY2M?oc=5",
-      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "summary": "Safaricom’s New Innovation Strategy: AI, Fintech, and the Future of Kenya’s Tech Ecosystem&nbsp;&nbsp;Tech In Africa",
-      "source": "GNews | Africa Tech",
-      "priority": 4,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt passes its fourth IMF review - Middle East Institute",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yWll0VkZteGdyZmh6T01ZQXRlUkM1ZmVrSFl4UGJsVWk0bGs4S25oM0ROaVJBUTlMeU5jUUpiamUxdkJvczAxejNzcGp6aU4weFl2UldFTFZka3FJbXRBeFgtYmJ5NXhTdHNFTXRwSWM?oc=5",
-      "published": "Mon, 25 Aug 2025 07:00:00 GMT",
-      "summary": "Egypt passes its fourth IMF review&nbsp;&nbsp;Middle East Institute",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "EU, Nigeria move to deepen trade, security cooperation - The Nation Newspaper",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV242Q2c0UmF0N3l2VURCQ3pLeHR4c0Z2LVpUZWJ0QnNUaExDTENtVC05RmE1cmVIbm5KV0E4Rk5qa3d4ZFdubkUtRmVjbnZweldac0NsczVSZ2dGU204MDlfdVNJWXB6ZHlzeTNVQU1DaURMSFYtYTR1YU8xMWxTSlRFbHp4V1RIaDRz?oc=5",
-      "published": "Mon, 23 Mar 2026 07:00:00 GMT",
-      "summary": "EU, Nigeria move to deepen trade, security cooperation&nbsp;&nbsp;The Nation Newspaper",
-      "source": "GNews | EU-Africa",
-      "priority": 4,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia stands firm in championing Africa’s trade and investment agenda – Welcome to Fana Media Corporation S.C - Fana Media Corporation S.C",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRkxoZS1sQ0FzNHRQSWwwRUhkRHhiYnFEXzZjV2l4SkVDdWFtY013WGZldThDTHZyNTFMWGVTbmFGaWZEOFRxclRYN1Btdkl2ODZEX2tVNjRPTTM1ZkNQUFJVbW82ZXM5c2ZqcGpKMFA5d21VaEx0YnVMUFJuTnlTR0ViaEhtZFRiTFB5a2hZdjVidDl3VTF3aU1RcHF1b2VsVFhreE1R?oc=5",
-      "published": "Mon, 21 Jul 2025 07:00:00 GMT",
-      "summary": "Ethiopia stands firm in championing Africa’s trade and investment agenda – Welcome to Fana Media Corporation S.C&nbsp;&nbsp;Fana Media Corporation S.C",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "The China-US trade war and Trump's critical mineral diplomacy: an opportunity for green technology transition in Africa - APRI – Africa Policy Research Institute",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa1A1Q0xVU2l5RDFsWFl1Znl1RXZQTzVPZ0lfU1VtV1hac2NqOUtLeXdJMzlhM3VXT0t4YlFfNW90RkowQ0h2ZXNzbmFTa1VCMDNVajkzWG5KeTllQ0k0c0ZFb0NPX292RU9ucUxWaFpzbm53TU0xS0JmS05fWWo4OTlRNVQxTVVmN01tcGpzWmFTMGUtLXRpVlp5QkxYd3VMdjVlU0p3SUJqUHRHOV94eENweHA0bW5ES3R3TUMtTGlXWmlSSG81SXVVUGs4SUxPajEtQw?oc=5",
-      "published": "Mon, 21 Jul 2025 07:00:00 GMT",
-      "summary": "The China-US trade war and Trump's critical mineral diplomacy: an opportunity for green technology transition in Africa&nbsp;&nbsp;APRI – Africa Policy Research Institute",
-      "source": "GNews | Africa Minerals",
-      "priority": 4,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt's economy expected to grow by 4% on IMF reforms: Reuters poll - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM29zY1puSUFjNm9BdVpyTFlwUC1XYzMwQ1NjcmtxZUtYR1dVQVJJaDBSZVIwQzBtdUtnLUlvdnFEOVVBSkFvbmd2bXpzRGQ2akFkeUw1aTVEQlE0VEVFYVd1a0ZMbTdTTVhjTnhjSWExY1B1ajJKSVlpUG5zdWxFa0lTc3Y1SDNtMEdIdkJIcFhYYnE5Nm1DWk5B?oc=5",
-      "published": "Mon, 20 Jan 2025 08:00:00 GMT",
-      "summary": "Egypt's economy expected to grow by 4% on IMF reforms: Reuters poll&nbsp;&nbsp;Reuters",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "US trade war? China had bigger plans in 2025 as ‘belt and road’ deals surged - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeDFpeUlKQlByV245dWM4MEJXbjlDUmFmVEFJWmV1Q09yd0FDb2t2cC1HMzZIRlI1M2V4TmVPR1M5d3UtNUwyZkhTVEFpS2V3WGVMbDR6VnQySGNNTElKS1dNbkIwNm5lbWRMMlByVUxPc3JWTHZmUW9xWEU4V0Q3dWZaZV9Rbl9wcll2MnczaEVlNU9FZmJ0MXlpN29MN3loUmJxSzVySVNXa2x4bXRRdW9hVXR5YTlSeXA2Q0toYlBDOEYxc0HSAcYBQVVfeXFMT0Nzb0VuTHl3ZHJEWEkzNTdGcDNtdnU3OUJtRlM1MTlUNmVWXzh0YVIzRXEtNDJaVGRNZ1pXUURWV2tfYmJwUXh1emV1dkx0bHBrZnNGTUNtU21UamduWEJGRDYwTmJoOXNUczdsNVBseEdlaTFoUHVMYlh1ajVnbjUwM3JpaUJTeTJVbS1ZeXA4LV85d1pJdXVjMUt3TVRUUlZlV3BIVjJVZlk1eUFqNWJOV0t1RWllc0pDSER0VHluZmFxelVn?oc=5",
-      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-      "summary": "US trade war? China had bigger plans in 2025 as ‘belt and road’ deals surged&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 4,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Attracting pharmaceutical manufacturing to Africa’s special economic zones | - UN Trade and Development (UNCTAD)",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWHJ1VFllNkhuTzFDZDR2RDV3TVYyQ1Y3SmxFVUpYYklDSUZkME1aZHlMNEs4NWJMd1UyZmt4d0F1Qkk0NHhyWkhrckt5TFdlWWhjNnZ2ZVV0Y29GWEpPM211T3hVNWVzcjZDc0RhNmxsanFERkNYR1VTa2FmejRaQ093bklXSXVqVm45UkZGX1EtM1I1clZQWnFrbGYyUDIzU0tJ?oc=5",
-      "published": "Mon, 07 Apr 2025 07:00:00 GMT",
-      "summary": "Attracting pharmaceutical manufacturing to Africa’s special economic zones |&nbsp;&nbsp;UN Trade and Development (UNCTAD)",
+      "title": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency - وكالة الانباء الاردنية",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX3hZWGlhbkFqMWV4X3VwM243aEkyQ3NQbHNocTl5Y1AzM213S19sMThvUVI2MXIxbnU0LU9XaVdzVmZ5TkFmQy1qRGRMUzRPQVhrNkR3TzVtZzRJTVVhV1FtMkNlaWVvRWRTMTJhZFFISmxaZ01zSDZTLTZHc1FXRWpLOXZUbmoyTlZTMzBiOWpqTG9FUm1LLWRB?oc=5",
+      "published": "Sat, 06 Jun 2026 08:48:56 GMT",
+      "summary": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency&nbsp;&nbsp;وكالة الانباء الاردنية",
       "source": "GNews | ET Economy/Mfg",
       "priority": 4,
       "category": "主要经济体",
@@ -2071,71 +440,11 @@
       "relevance": "medium"
     },
     {
-      "title": "Egyptians cautiously hopeful following IMF deal - Al Majalla",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdEpFeXNYblZ1bUQ1UlAySS01Y0VVSXQ0UTB2U1ZNaEpwajViTHYxQ25XaFdDaUZJcVZKS09zaWg4cGhuUE9PUEtDdzd1X3VtLWUxa20zVlpqSElReWlKVE52WEZnckk4UVpjTXRhRFRSdHJmeVBObkI0NDJrS0RoSFNkdklhQmJOcVlzYjZ3RWZJazlJbms1Z1ZaenoxelZm?oc=5",
-      "published": "Fri, 08 Mar 2024 08:00:00 GMT",
-      "summary": "Egyptians cautiously hopeful following IMF deal&nbsp;&nbsp;Al Majalla",
-      "source": "GNews | EG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Namibia targets stronger trade ties with Nigeria - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VVTZiUTVRSmF2b2lsZ1ZMRUEwS3hOa3llLXVDaS1LZEEzeGE5MWJZWWZWQndrNVV3b0hxeExWaERlWm94N1J2dmRfU0VYZmxVYTlNSFQ5Rlo5eWtXYTF2UDhZNUpFbDJDMnkwRW5pVWZJTUZNVUZQZUZjTHprZ2M?oc=5",
-      "published": "Fri, 01 May 2026 07:00:00 GMT",
-      "summary": "Namibia targets stronger trade ties with Nigeria&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | NG Economy",
-      "priority": 4,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China steps up Belt and Road Initiative funding with focus on Central Asia - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSS1BcG1OMEcxZmx2dGQ5bi1TckZXVDFhcjVUQ3pLNk03dU90TFhlRWNhQVp5YXM3RnhXaHZsTUtzTWZndzZGU3BSX19zeGRtVDR5eWplRy05WmFwemNiUENzR0VGR3JrTllycVlzeTRDN0Z4eEg0UHkwNlV6MUJpbEZGeDRWQWQtdUFreUlQRlRsbW5SYXVsejU5bkZ0S2swZDMtcHd3Sk9sS0F3VjA3a2l2dV9vTHBVblRLeFNwWdIBvwFBVV95cUxQTmI0Ymt4WXJfOHlVRURVamMxcEpqamRqcVp0Q0JKR2JQOGM3VGJycE5IdzdqN2kwZjQtMmVURlJtRWhvbllJd0NENG1BNFlqNU84TGdGd2gwRFBrcW13WFNxTEFLOFZOYmRacGptblVFUDdoZmFWOU52bThxbWJMT3FjUmVGazRWQXZpVlljMUhmZS05Z1BGbTZvM2MwRkdPZEh5Zmg4UlluSkZ1ODJXalVvVVZ2NlBUUDlmRXhDUQ?oc=5",
-      "published": "Wed, 27 Aug 2025 07:00:00 GMT",
-      "summary": "China steps up Belt and Road Initiative funding with focus on Central Asia&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Analysis: Africa’s unreported extreme weather in 2022 and climate change - PreventionWeb.net",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2VGR2hIdDJGUVVmNkJaNWpJVWRxMmlEMVJDU1pwWWVnTklmT1FfbnFnQlFqd1k1ZmJSWTZmLWExM1F6RDk1bEpOTTd5b3VnVDZ5Sk5hemxYSndkbHVDWGZNeW5UWVJ5cHc5dXlSeGdzckF1R2Z6LUc5QlRHTTBGN0VDbThoRVhDZElGZXpwT3VzZGR3WWhwRTYyd0dRREt4d2RDcg?oc=5",
-      "published": "Wed, 26 Oct 2022 07:00:00 GMT",
-      "summary": "Analysis: Africa’s unreported extreme weather in 2022 and climate change&nbsp;&nbsp;PreventionWeb.net",
-      "source": "GNews | Africa Climate",
-      "priority": 3,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "Appreciating the Resilience and Stability Found in Heterogeneity: A South African Perspective on Urban Household Food Security - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcDVPcGN0UW9NaHNFd1gwWVhoYVkyc3RTWkluTlRSeXE3c2oyRV9xaVo2cHZIUUxuRlFzVGxEbFlnQXBPOV83VXNoZUFCU280aHZtZ3ZtU2JId2RiV05lX29OMzNmc2YwZjVRajlGbW9RQVp1V01abUsxalh6NHNCaXFrYXBQU09FVVFUcXBZTFNwOWZTRlh1NkVKYnc1VW5hTHNv?oc=5",
-      "published": "Wed, 25 May 2022 07:00:00 GMT",
-      "summary": "Appreciating the Resilience and Stability Found in Heterogeneity: A South African Perspective on Urban Household Food Security&nbsp;&nbsp;Frontiers",
-      "source": "GNews | Africa Demo",
-      "priority": 3,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "Africa has much to gain from a more contained BRI - ISS Africa",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQldqckkzMVYwYy1qakRYeS1XMm1aeTE4YnZ0dzREbVhkOU5Sa1BoZGlDaEZZVEU1MlpOQkpIdWZoUk5oRmZJUDl1bUtuMnlCdldBdkpsc3Q2RElUMWFEcDNuZXpwTkJwWXp0aWdXQ245Ny1LaTQtOWtNTG51NzhGZW9McjVyb09a?oc=5",
-      "published": "Wed, 24 Jul 2024 07:00:00 GMT",
-      "summary": "Africa has much to gain from a more contained BRI&nbsp;&nbsp;ISS Africa",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Senegal, Zambia, Chad: 5 questions to understand how a debt restructuring works - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUlPeEJFanVVLVpOY25qV2NDcWlWTXNBYmhYWGI3cE1uY18xeHBMaFh5dnpDbWx2TVZ6XzU4MlB5Z1hLc3I3UE83Q1ZmTURHUHJic3d1QjFuejVMRmEwY1h5OE90cHBLTlZaMFBtQzh4NldpVERtbzh4MS1yS3hNSllHaHBNaHdJX01TMDlOMXFyMHRjN0lqQnNKZXJhLUNyVWphTG8zV3l3MWFNRFpOTmw3TlBtYXZVVnZB?oc=5",
-      "published": "Wed, 21 Jan 2026 08:00:00 GMT",
-      "summary": "Senegal, Zambia, Chad: 5 questions to understand how a debt restructuring works&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | Africa Debt/IMF",
+      "title": "Africa, ECA partner to strengthen regional resilience - The Guardian Nigeria News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVE5oWmZFRFVodjl2eVUyeE1meGVHc1N5bEFMUzA2ejBDUzRqdngtM094SnREMjFCQzRIT3o0NlRzQ1ZNV09DSHdUd3NwN1k2bzBjZWhmdWptUmlnSFpVMDE3V0praHZOcVZTZ2ZadGlFWEQza1lVczNRdHZ0UnBSdmg0MTZQWVpTaEtnb2VJR0RmckQzVW1oZDVUMEtlWTZSTFE?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Africa, ECA partner to strengthen regional resilience&nbsp;&nbsp;The Guardian Nigeria News",
+      "source": "GNews | AfCFTA",
       "priority": 3,
       "category": "贸易+区域",
       "relevance": "medium"
@@ -2143,111 +452,11 @@
     {
       "title": "Top 10 Cobalt Producers by Country - Investing News Network",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wYl9YOGFHMTZRUTY1akpoNWg5NkhRQllfdGh1NE03emhvX2ptcFpYTmR1LUlCclVHMW1ORXlTZklGYk96U1JCVkdscmsxUGREODFSWUNiNnRZQ3c2?oc=5",
-      "published": "Wed, 19 Feb 2025 08:00:00 GMT",
+      "published": "Wed, 10 Jun 2026 21:55:00 GMT",
       "summary": "Top 10 Cobalt Producers by Country&nbsp;&nbsp;Investing News Network",
       "source": "GNews | CD Cobalt",
       "priority": 3,
       "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Africa’s Critical Minerals Boom: Opportunity Or Another Resource Trap? - The Organization for World Peace",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON0dKN0pCaDFJNHlqc0plRjFMY3RnSFBKYnFMSU5kd29nWkRNRUdFMTdfdDlqLWxXZW85ZDZJcWFDaHoxbWY1N0QtenhhcVU4RmJUd1doRHl2R21YVEkzc0ZuX3prX2lTaHktYThMd2NHZHNEU0FkLW5RdUM4T29GVGY4RE5BMzctQUlETXJPWUtnaXpfejhDQjZobw?oc=5",
-      "published": "Wed, 18 Mar 2026 07:00:00 GMT",
-      "summary": "Africa’s Critical Minerals Boom: Opportunity Or Another Resource Trap?&nbsp;&nbsp;The Organization for World Peace",
-      "source": "GNews | CD Cobalt",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "India and China compete to shape Africa’s economic future - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sNWZHSG85NWJFMW5sVUR2ZlVEX19BeFlFalVLNng4TzEtWm9rc2VIVHNsWnMya1EwNU90NmR3ZXFZZ2tWWlJReHNhZlpVUVZuZ2k2YmJMMG9EaWFoTFhFXzliSHM?oc=5",
-      "published": "Wed, 18 Jun 2025 07:00:00 GMT",
-      "summary": "India and China compete to shape Africa’s economic future&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "The never-ending power struggle in Guinea-Bissau - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mVmtySTkzSHljMTR3Zy04QWdHVGd6SzgxVFVpQmZLSC1rWEg0QWtOY3NhSXZjNjhUbDItRVVEVGZTeFQ1UzRfU29xVDQxZ1NkMWhoVXExWnR6OGRDWmxlUy1ycVlLbDlfYllzd00ycmt1Wk9r?oc=5",
-      "published": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "summary": "The never-ending power struggle in Guinea-Bissau&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | Africa Conflict",
-      "priority": 3,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Closing yield gap for sustainable food security in sub-Saharan Africa – progress, challenges, and opportunities - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSVRjdmVlaE14R0tjeUY0eFh0S1h5dkpHR2pwcTRiVl90bEFtR29tRDhXZzlqcHlvTXZiU2l2VUdWU1VQMEV4MkxWanB6b2kxNmxpaTZMMmxtWER2bzFuWlJCSVAybmNRQVhjRmo1WVoyQVNlb2RRWGNyR1hKc1A1dlI3eFRyRzlhR1FMTkQ2cw?oc=5",
-      "published": "Wed, 14 May 2025 07:00:00 GMT",
-      "summary": "Closing yield gap for sustainable food security in sub-Saharan Africa – progress, challenges, and opportunities&nbsp;&nbsp;Frontiers",
-      "source": "GNews | Africa Climate",
-      "priority": 3,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "Kenya Maintains Lead as Startup Funding Inches US$1 Billion - The Kenyan Wallstreet",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR2JzV05CVGlEZlc5SUhXYU9mOWNrR1l6eHZJcWJnMlMyeHV0QjNfS2hEMlI3Nzd0Rmx1MFZjMFpoYV82V0M2a2tZYkdZWlcyd192S280M2F3MHNwREZQd3hhd3ZNWFpSZUE0a1ZzaUJYVlh5YTdxNEhCVFJrM1J4TGo0N1FlY0g2cGtEY29DTUpCdw?oc=5",
-      "published": "Wed, 14 Jan 2026 08:00:00 GMT",
-      "summary": "Kenya Maintains Lead as Startup Funding Inches US$1 Billion&nbsp;&nbsp;The Kenyan Wallstreet",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Lobito Corridor: Washington’s Answer to Belt and Road in Africa - Geopolitical Monitor",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzVweENIYmdRb3R6MGV3Z194QzNvcnhsci0tWlVHVFNnYmE4Y2NNUE4tVzR5QWdSVnhtY1NFdm9UV0dSZElGbV93QUV3c0VpT0QtUTRyektwM01rVDhWUXphUUMzbWM4Mm5fakhpX21EQWd2ZU5WYkRBV1dIeGpCWG9oR3VTU0NzSWlRMFY1MTBncXVVZFF2d0lVSkZKYUlOR3AtTA?oc=5",
-      "published": "Wed, 13 Nov 2024 08:00:00 GMT",
-      "summary": "The Lobito Corridor: Washington’s Answer to Belt and Road in Africa&nbsp;&nbsp;Geopolitical Monitor",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s belt and road initiative: Implications in Africa - orfonline.org",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdE5yVWN4MlNqVHZnb3hKV2VxQlJHWjUxQjNOWDJubDE4UFAyanlyNWRYS1piMVNrTVBJaG82dDRJSXNkWW9lQk5heU8xSXRPVWxHa1B3OHc2TzdqeVJUelFQd0lUMlNLMzI3XzlQQVZJd2ExZ1NKZzZscUF4V2lyMlY5dFBXRkZHRE1yZVNucFFmRzA?oc=5",
-      "published": "Wed, 10 May 2023 07:00:00 GMT",
-      "summary": "China’s belt and road initiative: Implications in Africa&nbsp;&nbsp;orfonline.org",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "How to Advance U.S.-Africa Critical Minerals Partnerships in Mining and Geological Sciences - Carnegie Endowment for International Peace",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZUpTbk9XanQwbTJxTkhYcFA1WG9JS01RbHFIdDMxWmkyOHpSMUtzSUs4c2RXWGQxRF9CMkR0cDRsaG14cXdVSnRVcnhEeFJlY2tndlNWdkZ4U1pNX1V4b3BfSTdsTnVxcjFxcVQ0SGE3U2Fka2g5RjV3T0gzQWRwUnAybmNZaEwtLUMtcndMN0FhTXo0TGRHWkNkLXhaUGFHRzFrVjlHSzFGTFJkY2ppelhxM25odWhWSGZ2OUx5V3VZQS1KcTdMemU0anh5UQ?oc=5",
-      "published": "Wed, 09 Apr 2025 07:00:00 GMT",
-      "summary": "How to Advance U.S.-Africa Critical Minerals Partnerships in Mining and Geological Sciences&nbsp;&nbsp;Carnegie Endowment for International Peace",
-      "source": "GNews | Africa Minerals",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "I.M.F. Agrees to Much Larger Rescue Package for Egypt (Published 2024) - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1R0VVhSVmtXVEhSZVhxUkpoRFBDb0E2cGVGR29Bd3JVQzZTdzRfUjRXZUpJa3NVRExkQ1k0d2hzNjc1dkNCT053dGxST3JZNDUyeXVrWENDb0dLeGJIcGNkbzNTZkpjeUZER3k1YllYSFktX21PLVpYcmhYc0xDdUh4anByZkZjTmc?oc=5",
-      "published": "Wed, 06 Mar 2024 08:00:00 GMT",
-      "summary": "I.M.F. Agrees to Much Larger Rescue Package for Egypt (Published 2024)&nbsp;&nbsp;The New York Times",
-      "source": "GNews | EG Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt: Reforms picking up steam - ING THINK economic and financial analysis | ING THINK",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84N0trckR0bG5IbHdGcTdUUVctVTh5TGtZekNNWUpOc2stYWNmMDZZcFZISk90ZmxFdFdJclFpSzhZaGNYSXduNTc2TXhOTU1UdlRZTE5FMUFDSjlqRXY0cDVVRjM3V2RoMlU1UzhKUQ?oc=5",
-      "published": "Wed, 06 Mar 2024 08:00:00 GMT",
-      "summary": "Egypt: Reforms picking up steam&nbsp;&nbsp;ING THINK economic and financial analysis | ING THINK",
-      "source": "GNews | EG Economy",
-      "priority": 3,
-      "category": "主要经济体",
       "relevance": "medium"
     },
     {
@@ -2261,314 +470,284 @@
       "relevance": "medium"
     },
     {
-      "title": "Can Sustainable Agriculture Mitigate Massive Youth Migration in Africa? - Impakter",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQTRMUnBTMF81cHNVcFhDUjJpYVRlLXN6WUctSHU4SjMxQkh6ZWNrM1dhNGhndFdMT1hUb05lVEpCMTduUFlibjB5cWNaelhyVl9iYk01aFBRZGpnZ3p0SV9XSGJPYUlMMExrU2Y5dUl0cjExWDY5UXM1WnFsc0w5bFlR?oc=5",
-      "published": "Wed, 02 May 2018 07:00:00 GMT",
-      "summary": "Can Sustainable Agriculture Mitigate Massive Youth Migration in Africa?&nbsp;&nbsp;Impakter",
-      "source": "GNews | Africa Demo",
+      "title": "EU puts €11.5bn on table to pull South Africa closer to Europe – and away from China - EUobserver",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTB2YU9vd3lTczFveU5VR0F6RUQxdm5MTG1hNEFwQTF6ZHRia1FkbTFYQWxyMGJ6SG96YjQxcWdCZ3hxY0Z4eTltZHl1UFVmb2pPS2NJdWlONkl4WlcwZ2x5MldhYmVKZkxkMFNiQXlKMkVTb2ZOU0VWdDBySnJaM2xDQ09wSnNVbDJNMFFDZWoxRzdORlBSUG13SFhsSjctYU5JQkRUMVFWdDA5bDBBdHIxMA?oc=5",
+      "published": "Tue, 02 Jun 2026 16:21:19 GMT",
+      "summary": "EU puts €11.5bn on table to pull South Africa closer to Europe – and away from China&nbsp;&nbsp;EUobserver",
+      "source": "GNews | EU-Africa",
       "priority": 3,
-      "category": "气候+人口",
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "Global focus on strategic minerals crystalizes in Eurasia - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtNmhHU1lRNjE1bDZzU0VoM0NwWUtTRDE5RElDWmxFVXdnbjhoeFgzeUVzVXB1bkExdHotTF9TME5SN0t4Qm9qaFdGUEpqVl8xU1drUHVmVEhYQ1hhdVBYTHJpUFlRd2R6eVdHZmNuTQ?oc=5",
-      "published": "Wed, 02 Apr 2025 07:00:00 GMT",
-      "summary": "Global focus on strategic minerals crystalizes in Eurasia&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | Africa Minerals",
+      "title": "EU Investment in South Africa’s Critical Minerals Sector Explained - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbUdJdndadjF5QWZMVlcyS3VCaGg3WTBfZzA1ZmZYYmpnbnMzUzZ5Ui00TGVtY3QtWC12NE1lcGF2dl9VRUYzM2gwa2xkWDRMMWhrRWdSWEQ4S1c2a0dyZmFOdzhDQl9Vc3pKbkxERzRwSTd0dk5zNWphYTR2MkU2LWJuQUFHMUozSGJRX0lpVy1qLTVJLXlmZUR3?oc=5",
+      "published": "Tue, 02 Jun 2026 12:36:03 GMT",
+      "summary": "EU Investment in South Africa’s Critical Minerals Sector Explained&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU-Africa",
       "priority": 3,
-      "category": "矿业+中国",
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "Nairobi summit seeks to move Africa’s infrastructure from plans to projects - Citizen Digital",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObUVIMm9Hc2xyOEtfOWNsa2JGeThFR3MxX3VpTVFkd1c5am1FMnQ5ZzdTcVdLLXBFRXRVb09QWlB6bERiX1hHdGMwZ2FiZTk3ZVFnaXJMV1ZrNlNtWHFoYVFLM3lrRXdjUUIzV00wOXdvNWR2U3NRZjhPcmg1Wjdnd3ZvdEdkNU1za2JuQXpPVE1KLU81YnRHTFlqTUNTQ0h2VnE4Mllpd1RLS1NXeFl6YUpocHE?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "summary": "Nairobi summit seeks to move Africa’s infrastructure from plans to projects&nbsp;&nbsp;Citizen Digital",
+      "title": "EU South Africa Investment Roadshow: €12B Partnership Explained - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUh3dFh1THpLOU9CbEVyZjBoVWgyTlA4WUJxQVBJWU5ZU1RZQTBDX2hic2w1SW8tRGtvVllHV3k5UHdyWEQxY0d2RUI5bWlaOFhNM00wbXZuc0o5YlZZVG1tczMxNlY0Sy1vSTlRMW1naVhrSU9RcFFvM0o5NS1mcnFadWF1eEZoOExUcEVoNmFwM0U?oc=5",
+      "published": "Tue, 02 Jun 2026 08:33:31 GMT",
+      "summary": "EU South Africa Investment Roadshow: €12B Partnership Explained&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU-Africa",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "EU bets billions on South Africa as China tightens grip on critical minerals - Business Insider Africa",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXdqY3Z4ZWM2bzl0XzRhZWZ3N0R5UDRrZFEwcTljcnpVYXZ1T1dXc2JqOGpoaTNfRWdkTG51VmN6b0JUYU8yNXBpcDZKcENvSlZVZG5vWnZSQS1nUExFdlpFZjlQZkhFS1J0S21BTGVVaHpqdURaLUpkTkhtSTd5RzhTQXFDdTVuSzk0bTJNWGpWRFFhRm1rSGFwSy1hZXk3eENwdGhteEg5d182UEZJVERXT3MxVmJXUU1weEJzVlZOQnNvSnRuTUFJRnFaUQ?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "EU bets billions on South Africa as China tightens grip on critical minerals&nbsp;&nbsp;Business Insider Africa",
+      "source": "GNews | EU-Africa",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Signing of a Memorandum of Understanding Between the Government of Cameroon, AGL and CAMALCO for the Development of the Edéa–Kribi–Campo Railway Line - Railways Africa",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQQ0lFVlRLOUxWWWRjTkFPSUN3eEZDMTFqNTdaYkRXTk9Jd294OWZvc0pHRFA3MTJEbVZNMURPTkk5MmNvM3gtQ002VWtOWnpwVGFzT1ZDNE1mYUxNMnpJMDRVaEtRRFJEbTBmTFFYX0Q0QVJacDVXYkZNUTRjUGV6V1ZQNlJjWkJNLUE4bmhFR3hPUmdadWl2Vmo5bkZWUzlWLWxGN3YzSE9UTjlVa1VXbm9ySkVoQzZ5RWp5MUZWSHRsbkFoNWdyRjAycFhScm5EVnQ0VTdyZEdJT2kwZkdnN3dFZUw3VHFPeUdQOFgzbzdyblV1c2tMU3h1OTlJTERJZjR3RUJuWHc1bm9UUk9SOG4xdHNqN085?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "summary": "Signing of a Memorandum of Understanding Between the Government of Cameroon, AGL and CAMALCO for the Development of the Edéa–Kribi–Campo Railway Line&nbsp;&nbsp;Railways Africa",
       "source": "GNews | Africa Infra",
       "priority": 3,
       "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
-      "title": "Blocking South Africa from the G7 and G20 carries a wider message to the world - Lowy Institute",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbktsSkRYbnEzeThYM0pEakFaMzJvR09VUlBiRDVsMlQ5WkVuTThPeHhISU1takRYSklpbFpITmVLUTE2bmdtSVRZY3duYmQ4T2dyNXcwMVYwRWI2Q0ZnSjRzU19qWHV2M3ppSklaaDQzSFpfNE1yc1BjTDQ5QkYzUi1rRWpWaERHdXlhbFktLWlnZVN0V2pqQjhIVmgwbzFORVJiQQ?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "summary": "Blocking South Africa from the G7 and G20 carries a wider message to the world&nbsp;&nbsp;Lowy Institute",
-      "source": "GNews | US-Africa",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ramaphosa announces R375 billion investment in state-owned companies for infrastructure - IOL",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY19iR0lodk1tR0s2Y215cWl1RjJqanl3cFpEbFVNbUd5VF91U2FNbVhUc1R1S2pQRzNUU1VZaDJwOEIwRnpaMVBxQ0VuVUlMc2F3VEhPRzF4ZXpzakJzeDUtbjhnOG56dmV0R2ZiTnZJTFY2Y25ZV0txMzh5NTZ0VkpoaEdqY1U5T1dBZjNhQ19vQTdOZ29kUEc1QVpQdWJXSGJWWVRRd3pVTG5aQ1lIOXZSNlV4czcxSW5tQmFYWW5KVmRuYmRHc3d1Zw?oc=5",
-      "published": "Tue, 31 Mar 2026 07:00:00 GMT",
-      "summary": "Ramaphosa announces R375 billion investment in state-owned companies for infrastructure&nbsp;&nbsp;IOL",
-      "source": "GNews | Africa Infra",
-      "priority": 3,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "U.S.-Africa business summit holds in Mauritius amid Iran war jitters - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3JrZjZFN21RXzdGRGZzbElXUm5WYUZkN3VqYUxpV3UtRzBfSk80UTlqZDBwRDVVOWxZX1dMd3NVQUstV3ZSWm9VY3Flb0g5RXZrWEwwTW9FVkkyaVRsMjd5T0x5MW9FMU9IY0hYWFBtcTZmNVdfWEVtRzUyN1VYTkxESklFMGZteDcwdTRlalFSTDVJcXVfNw?oc=5",
-      "published": "Tue, 31 Mar 2026 07:00:00 GMT",
-      "summary": "U.S.-Africa business summit holds in Mauritius amid Iran war jitters&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | US-Africa",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s Belt and Road Recalibration: Why Kazakhstan is the New Metals Frontier - The China-Global South Project",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONTk1ZW5wWDhaWnR6MWxZS3oxVVRYdDBRSkpNZ3dNdmRQM2N6d1haekZEM3NkT2ZlY3ZtRElDV1N2OGxHTHJtMHV4NmZBNFdFRnFXVUkxOEVHSU1uN19YbUlpWGU2V214ZHBsTGltZlhYdFpROEdISTZ2WXZfVEFsWlI3VmI?oc=5",
-      "published": "Tue, 26 Aug 2025 07:00:00 GMT",
-      "summary": "China’s Belt and Road Recalibration: Why Kazakhstan is the New Metals Frontier&nbsp;&nbsp;The China-Global South Project",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Hot startup of the month: Kenya's GoChapaa - Connecting Africa",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPR1VEWk5yRXNrVGRiOGtYdEFrOWFkUENPalFIRGpSdExzZVlOVDFHeXdyWXZ4OHBMTjRCQ19tV21lMWQxTVVZQlgwQTJsdXRXOEc3bGdEVHhzLWlKR2V4dEQ2SDVENG93Y0xGREh6ZUVEdVpMMnNHcG9QT0M0WW54UjdHZDBhM0Jya1ZScm50ZFdROE0?oc=5",
-      "published": "Tue, 25 Nov 2025 08:00:00 GMT",
-      "summary": "Hot startup of the month: Kenya's GoChapaa&nbsp;&nbsp;Connecting Africa",
+      "title": "Emerging Digital Transformation, Payment Solutions And A Cashless Society In Africa: One Of The Driving Forces - thenigerianvoice.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX200Z1M0ZXdQdDVnMWlER2lRMnFBeUdLNElYRTFBc3l2em9GSjRfMi1EaVRvRERnbW9HTTQzVjdpX2Z0MTZzVkNodTNaR2JxTC1pdjN5MHpjTUp5WXI2VU1UaFFLZV9yaWxFR3VUQlpOQVQ2YW54aHJ2RVRtczROa2puN1Y4MnRWa1I5TEhPdWtCQUcwb1dVaktfTG5mQllzMmVienlaQTNjRXlibHfSAbMBQVVfeXFMUFh5eWpWcmtxQ05iWU5UQ1RoQjQzVXVYeGROdVpkcGwyMjFqN1VadmVSMjEwNng4eUdsejM1ZDIzYzgxRGpIQlhpaVR2c3ZTRzN4eTFyRjBiNDBSS0pYLUMzN0FSN3NBYjBBZkpnczA1SkhNNGtlZFdmRGFkODJKeTIteEd0ZUIweEl5elJVWmx5ZnVlMWI1S0FZb2MyaUgya3VlMVYxN1NFbEw5QU51Qmx0NDg?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Emerging Digital Transformation, Payment Solutions And A Cashless Society In Africa: One Of The Driving Forces&nbsp;&nbsp;thenigerianvoice.com",
       "source": "GNews | Africa Tech",
       "priority": 3,
       "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
-      "title": "FG targets $1tr economy through investment, local production - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXh2UWw2R2paWlFFTEVmeFNyenJkLTE3SWdiQnNWYmplMWxFaXBvUWV2ZEVFQncyU2RfOU5jRW41ZnNBVm9XWXU5eTJpMFhZVGNHTGg4dFV5V1l5bUNkUTZWUzBkN1B0Z2lKaGREOEItVVpSMG9VbXphS1BUb1ZwYnBNN3RIVExSQnJZQg?oc=5",
-      "published": "Tue, 22 Jul 2025 07:00:00 GMT",
-      "summary": "FG targets $1tr economy through investment, local production&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | NG Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s Libya Policy and the BRI: Sights Set on the Future - Middle East Institute",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUXJSQnR1SHVJbEstcXBiaFhLbzVkc2pBOFZtODB6Y3ZjakpweWNWdWtXQ29wX3NSakZSZ2kyTU9SR2t1QjBQSXVhSDdVa0NTVEhOQ1lHUGM4U09DZVlTNE53LUctSzdfNmdOUVEzVWx0TzB0a0loXzdxMGlKckk?oc=5",
-      "published": "Tue, 22 Dec 2020 08:00:00 GMT",
-      "summary": "China’s Libya Policy and the BRI: Sights Set on the Future&nbsp;&nbsp;Middle East Institute",
-      "source": "GNews | China-Africa FOCAC",
+      "title": "EU Investment Roadshow in South Africa: Critical Minerals 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMkZvQl9KeXdmTkdCdjJ4Y3hFcFFURy1oTVBBOXA3TTRfTk1VSGN2bHl0MzluMXplRUExWWt5Q2VWRjZZT3hrRU1SQkh2dTNBNXVNTnFNMHRYcFNyanFqV29SSy1ISXpzcDJmTVdVVkxiV3l4Q3hnaHFCUkowU0JWUjFkSjgzZzY0LUhvRGdqdWZvblU?oc=5",
+      "published": "Mon, 01 Jun 2026 19:10:48 GMT",
+      "summary": "EU Investment Roadshow in South Africa: Critical Minerals 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU-Africa",
       "priority": 3,
       "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "Massive Economic Reform Initiatives Make Business in Ethiopia Attractive: State Minister - ENA English",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52aWwwSmExVkxla2xQanNQRzhVZXNxV21uVVM4eVM3ZEN1U0lvb3NBcVNoQ1VRdUNHTTB1TVByakR6RjlMTkZ2RG4xMHJkVXRselE?oc=5",
-      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
-      "summary": "Massive Economic Reform Initiatives Make Business in Ethiopia Attractive: State Minister&nbsp;&nbsp;ENA English",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s BRI Revealed as Economic, Environmental Threat - Africa Defense Forum",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0VFMFNSS25PbWMzaXRnUXowV2l2U3h5bjZtenhnaGxfSjc5blVfM204bWFCejBJTnI2M2poZDU3d3ZkcVFpWV9IdkltN1hQMWQ5bnp0M0lSWERxN0V0NDlCWjZCUVU5V1RxSW5Oek5RR0doaGY2MFRoeVVZUmZSMHVhUnZhTFJ3dEtyOTI1VQ?oc=5",
-      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
-      "summary": "China’s BRI Revealed as Economic, Environmental Threat&nbsp;&nbsp;Africa Defense Forum",
-      "source": "GNews | Africa-China/BRI",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Terror in the Sahel: ‘War within a war’ as jihadist rivals clash in Niger - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjZnNHh0eS1NM3F2c3RPa3NOcFYtcXBMNG1MZGxrOUlGb21tM2p6aGZvTm5kX1VGNXRZVmRDRzE5VWNhb01VUjFkamtDem14dlA0WTcxQnhPTkI0OHZMZW8xZzFuVGlDSUpNOHFDVk9zTkpBSGpqRkhab001VVdNY21RbDMxVkJlcVVDb01GeVJBanhhZ2RUU3ZweVpnMzhBYmN6WjNIYXU4alBuNnBn?oc=5",
-      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
-      "summary": "Terror in the Sahel: ‘War within a war’ as jihadist rivals clash in Niger&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | Sahel Crisis",
-      "priority": 3,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Egypt at Davos: Why Cairo’s presence matters as global politics, capital collide - Egypt Today",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObE1qeFNBRUp2b0N5M2hCQjlxZEFxS01RallWbG0tS0puOEN6RkR1dXpVSC1xQUpuSHBreVFrYVgwa2VVV0F1aUVkdllQRHhOaGxtZTZab0NKeTE2NGxzMGVHeGdrYnRSbzR5NUtaalBZRzBNZ05fRTlTcmpDYkRBbjBmamVhZmpBeng1b2VSTVJpYS1NTkgtMTBSd3RoUmpnYkhIcU9lZ255d0t3MGFTWHpGcGQ?oc=5",
-      "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "summary": "Egypt at Davos: Why Cairo’s presence matters as global politics, capital collide&nbsp;&nbsp;Egypt Today",
-      "source": "GNews | EG Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia’s Council of Ministers Approves Sweeping Economic, Policy Decisions - ENA English",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByMnpjcmVwblQwQWlaU3A4enJLZWo0UTFSZVhrZERlR1Nia196ZzNVRUNmSWIxLTE2WTRXbnJDb1pmUkpiU01PRTVURGVMQ21PR1E?oc=5",
-      "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "summary": "Ethiopia’s Council of Ministers Approves Sweeping Economic, Policy Decisions&nbsp;&nbsp;ENA English",
-      "source": "GNews | ET Economy/Mfg",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ghana to default on most external debt as economic crisis worsens - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbEpwYUhROGRkUVNiLWdiQ0RDMVV0X1BEZGlzZERGV1dFakhsdk9ESm5LOHcyOEx0YnAtTC11SWtTQ3llcHpWYTNCaDdHdzVaRW43UTZyeUpnWFBqNnBvS0RWRFNiVThXRHo2aDNZZE10UnoxMXNlaDlOVURPYmpYTU92ZnFfSWtaVFdXOFRUTlZJM2F4dU50OGVLZEpZM0hvYnlGTnhzcEF4Y0gtVDJYWUdvQk9zUVg3STBj?oc=5",
-      "published": "Tue, 20 Dec 2022 08:00:00 GMT",
-      "summary": "Ghana to default on most external debt as economic crisis worsens&nbsp;&nbsp;Reuters",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 3,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "Examining China’s Impact on Mining in Africa: Critiques and Credible Responses - New Security Beat",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSjhNNkR2LXA5VzRSVnlybVRYVXZpd1hFdEhZZFNRUmxlWFREOGkxR2VPQ3AtcEQ3SGJaU3Jtb2ZHOWk1Smg0U0hQcnpDQ2U4bGdZZExPQXlNVGJSdmtuTDl2ZXZ3dTlrRDZWY0N3NzRUNDN2SXRTYWZianFpOWFGVkhZNUlvM3VpWFE1djkyaW5OdzFoMjNieXctRVcyN0lKVGZTYTRQOEVMV2c?oc=5",
-      "published": "Tue, 18 Jul 2023 07:00:00 GMT",
-      "summary": "Examining China’s Impact on Mining in Africa: Critiques and Credible Responses&nbsp;&nbsp;New Security Beat",
-      "source": "GNews | CD Cobalt",
-      "priority": 3,
-      "category": "矿业+中国",
-      "relevance": "medium"
-    },
-    {
-      "title": "Terrorism spillover from the Sahel: What Nigeria must prepare for - TheCable",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmQwelBoLWM2S21nc3NzOU53cEJ1b1dmekhnMEs3anpmdmYtOGs0Tm9kbjV3dm1mMUdTaGxvU3FOQkhVYUk1aTltRHFQa2ZVcDdQVnBGM0Y5UE1fTEx2YVFUSHJPUkZ6TGxNQlp1bjdkUjFNRmJBTjFhUnE2WVlhOEVvS2FsQVp6RjUtb0Fxd2Mxc28?oc=5",
-      "published": "Tue, 17 Feb 2026 08:00:00 GMT",
-      "summary": "Terrorism spillover from the Sahel: What Nigeria must prepare for&nbsp;&nbsp;TheCable",
-      "source": "GNews | Sahel Crisis",
-      "priority": 3,
-      "category": "政治+冲突",
-      "relevance": "medium"
-    },
-    {
-      "title": "Ethiopia's debt restructuring hits impasse, bondholders eye legal action - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3lNSFMzMWdUM1dYYW01MFNudXRDNjFRRlNlaFFNV2tBTWpwbXdxemRsRnpRU3dvenkxM3JYUl9jaGdOc3k2UHZ0VzdhYWZzMVpZVTlKRU5qaTlrcURIbHkzNjMxbU95OGdfN0xVampjbk9ncmxnbGZrNnBQTDBRQ0c3bXlzcWllR2ZjR2Y1TTFvX1hiUEVUZlE1RHJnRXIwQmE0UDAyZUlZNnQ5bG9PMGRxZkM4blVROHJj?oc=5",
-      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
-      "summary": "Ethiopia's debt restructuring hits impasse, bondholders eye legal action&nbsp;&nbsp;Reuters",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 3,
-      "category": "贸易+区域",
-      "relevance": "medium"
-    },
-    {
-      "title": "China Commits to Long-Term Africa Ties, Even if Belt and Road Remains Muted - Stratfor Worldview",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbnZSdDB5Rk5GSC1yWEtoZndaYzBkR0Z3RG5TbFZUSnZjdnd0d3NGRWZpY29VZ0k5RlhFNGE5Y1hwNkhBSnIxYkZKbXBqR0ZxNHFldmFVdE43bG9BTW54eTdEZ3k2UnAtUjNSaHJnbFZHMnB2ZHczMjNTUldfQ21nb3Fab0N4cFdQejhVRUpkRWJaY21BYkxTOWRfNjRreE4wcDk4QVhSLWJhbTRoWmVJ?oc=5",
-      "published": "Tue, 10 Sep 2024 07:00:00 GMT",
-      "summary": "China Commits to Long-Term Africa Ties, Even if Belt and Road Remains Muted&nbsp;&nbsp;Stratfor Worldview",
-      "source": "GNews | China-Africa FOCAC",
+      "title": "EU Investment Roadshow in South Africa Seeks Strategic Minerals Access - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdmUtU05pRWMxZGd6cFlucWJYZHdKalZMM0FuUzcwdDFSVGJwWjk1REYtUW5UbkRIaHJiZDdyem1KM3hjLTVMT2JQeFhPQTJCdDZHb1pRNWtDRFA3RGJ2NEhybFpfUWVWeldXemlaMlV2UDBSejVBSHJ3X3NpNHNFUEVtUlpDS2tjd29MbUFpSWxFT2E0djVQYTdObHV4Tjg?oc=5",
+      "published": "Mon, 01 Jun 2026 18:25:32 GMT",
+      "summary": "EU Investment Roadshow in South Africa Seeks Strategic Minerals Access&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU-Africa",
       "priority": 3,
       "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "A Window of Opportunity to Build Critical Mineral Security in Africa - CSIS | Center for Strategic and International Studies",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU29JdlVvalNoVk9PSUtmbTBEb2kySWU1ckE3VHBILUltMUdUMXptOFp6dXVkd1ppampJb0FLcmE3OEthRXVxSHRyWU9wM3h6MEhoOG42WUlaNkpVQmttSVR2OFo0TWxYZFp6cHVyWllfMzd6VW4wMFJ2WW1obmpybGxfcnd1UG1QNnRiSFYtM0U?oc=5",
-      "published": "Tue, 10 Oct 2023 07:00:00 GMT",
-      "summary": "A Window of Opportunity to Build Critical Mineral Security in Africa&nbsp;&nbsp;CSIS | Center for Strategic and International Studies",
-      "source": "GNews | CD Cobalt",
+      "title": "EU launches first investment roadshow in South Africa targeting minerals - The News International",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUWx6MDZqTWNDZ2ZLTWNGbGFncjFteUxsR0J3dEE0OUJKSkJNR0U2MFlmQ0xHQkFhdHMycFZXTjJfd3g0R29EZEY4U1FOVFU0UUdzeEZhYU9lUUZlRFdjZTJkS1g0b185a0pzVGFxTjZRTzhGdjRnRVdGVFFUQ1hwQ2tHX0ZCVHBYV3R2b2d2aTg0V2ZvdVYyZWRleVNWUE9mbVFkal9teHVlTHVYSXFha2NpU08?oc=5",
+      "published": "Mon, 01 Jun 2026 14:34:00 GMT",
+      "summary": "EU launches first investment roadshow in South Africa targeting minerals&nbsp;&nbsp;The News International",
+      "source": "GNews | EU-Africa",
       "priority": 3,
-      "category": "矿业+中国",
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
-      "title": "United States wants over 1,000 American companies in South Africa - businesstech.co.za",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlZwT0lDOWF3NnhqclduVkpmd3p1S2VZS1AxeG5uOG4yb0tZZEpqYkZMN1dSLXRWZTJZOG1weURhTFM4RWlRTnNKbzBIWVJsRzJaTzRCd05XQmczMFliWlJvQng3eTMtbkRpNnZGMVVuUkptZjNEVzNVUVVpXzlCVWtER0FNWFV3aXIwaFRrTEVwSW42c2I4Z3NWa2dCNzdzbktVUUJ2d2N4bE45bXRVQmV0RmxVaTRWYWd1blhn?oc=5",
-      "published": "Tue, 10 Mar 2026 07:00:00 GMT",
-      "summary": "United States wants over 1,000 American companies in South Africa&nbsp;&nbsp;businesstech.co.za",
+      "title": "EU Launches First South Africa Investment Roadshow as Race for Critical Minerals Intensifies - The Voice of Africa",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORXdKVDllWFNKMUNEV1lTdjE4NVEtNHJQM2wteXJ3OG9oWlF3LUdReXk3emFmd3RoNmUtWGdyMzlZR01mekV4REdnMXA4QWtjckNsZlctX1lkZXIzN0dHaktuaUtBT3Qwd0p3TE1LTEVjX0t2VWpRdlJBNjBmQ1VmYkxndHQ0a3JSeUxXeUxYV1BlYndEYVRFRkYwaXptM2tLSS1B?oc=5",
+      "published": "Mon, 01 Jun 2026 13:33:53 GMT",
+      "summary": "EU Launches First South Africa Investment Roadshow as Race for Critical Minerals Intensifies&nbsp;&nbsp;The Voice of Africa",
+      "source": "GNews | EU-Africa",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "EU starts first investment roadshow in South Africa targeting minerals - CLUB OF MOZAMBIQUE",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNDNFRlVwOHFPQ25sRzVtSVhzdGRHWnlwMnVqQkFWSFlpdUVhRGJNT0RlZURtTWlETG5GUENjU2E1bm1Kd0RYVEZvRVhHWjhxM0VrSmREUG40Y252bEFtcHpITXlqcmtvVmFFazg5YmNwTTNUSG4tblVqR1VoRmhDOEZwazBXRzBTcEozV3Z2QWV2WEJuTExtSy1SMk5RRXk0U1R3blRNbUk?oc=5",
+      "published": "Mon, 01 Jun 2026 11:51:23 GMT",
+      "summary": "EU starts first investment roadshow in South Africa targeting minerals&nbsp;&nbsp;CLUB OF MOZAMBIQUE",
+      "source": "GNews | EU-Africa",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Morocco Country Report - Stimson Center",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQmtOT2k5X3IxZ3NHN25mMG84T01pandUQ3FkSGFUUUR4Nnloc3RZVXpTbG54TXJtQ2VHcmpnekx1S1g2MS03WE83cVRYeU15ZDBYbDVpZmZJTU1maDlxRUtfeGRoMG1FNFJr?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Morocco Country Report&nbsp;&nbsp;Stimson Center",
+      "source": "GNews | EU-Africa",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
+      "title": "Where Deals and Partnerships Shape the Future of U.S.-Africa Trade - allAfrica.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IZU9PYXhYSVRwNkdaUXRmQU1SN3lxZGpBU0txd2dCR1dQWFNEa08wS3l3SG5zOUhvX3ZJTmNSV2kycjZhQVhtSHFTYUJLTDF2amtEYl9KMFY3Mmc?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "Where Deals and Partnerships Shape the Future of U.S.-Africa Trade&nbsp;&nbsp;allAfrica.com",
       "source": "GNews | US-Africa",
-      "priority": 3,
+      "priority": 1,
       "category": "大国关系",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "In Ghana, incoming President John Mahama must follow debt restructuring with economic reform - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckV2OWlSai1rYVRlRnlOU3VyTUJmcDRsNC1rVUZVZHotVlJqYWs5bG1hVXo3Q1V5VFZIM3pEVU1RRWlpWTZyQWlxNzBaN3ZJLVQ5REh6cHJNcXU4Z2h1X0JiT0lYd1g2TnEtX3dZLUpac2ozcGtTOWhIRFZKejNzRjdpZzhzeF82S2NQQnVlUXZ0VUZ2eTg2SzJGdEttX0NwR3c?oc=5",
-      "published": "Tue, 10 Dec 2024 08:00:00 GMT",
-      "summary": "In Ghana, incoming President John Mahama must follow debt restructuring with economic reform&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | Africa Debt/IMF",
-      "priority": 3,
+      "title": "What tracking mango purée across Africa reveals about free trade - The World Economic Forum",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObTdvVG5ZZmJlczRScDNYR05ReV82dWhNajlTb0ZTeHI5b0FWdHhtZm5NUzJqZEF6eFRTenYxaFlYRms4dkNXNDAzcmtFdWc5SkswU2dOOEIwcVp5OEZtaTdFUlNoZkNUZ1dOMk1ORDd3cVlOa2ZILXlSNGxWUzFaUTNXQQ?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "What tracking mango purée across Africa reveals about free trade&nbsp;&nbsp;The World Economic Forum",
+      "source": "GNews | AfCFTA",
+      "priority": 1,
       "category": "贸易+区域",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "The economy expands by 0,8% in the second quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yQUNPZjdtZUQ1X2ZHUHlpd29aOXBDeFJ5UXFmakNkZ2VQZm5Dajg3SjlYMDBrdE5tQklwS0dzMFR6cnFWbTBSUjBjVQ?oc=5",
-      "published": "Tue, 09 Sep 2025 07:00:00 GMT",
-      "summary": "The economy expands by 0,8% in the second quarter&nbsp;&nbsp;Statistics South Africa",
+      "title": "What New Data Reveals About China-Africa Economic Ties - Boston University",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOEJ4LXc4Qy1rVmxXUUN2UHhadExJY0Rqa3VpTDhQMV9Ub0p1bXYtbGtCUzhuT1JTMENnYmRzYmpUcVBNdnpSTkwxQ05qUlVDVnU5Zl9uUklWa2dEZHNtZnhTTlRta0Rkek1rVUE2YVBIVjVHY0ZBcnhtU0xCWi1QSzMtQ0hDbF9wZVlPTG03dGhPUjg?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "What New Data Reveals About China-Africa Economic Ties&nbsp;&nbsp;Boston University",
       "source": "GNews | ZA Economy",
-      "priority": 3,
+      "priority": 0,
       "category": "主要经济体",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "The South African economy records a positive fourth quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nRklwWmhuOWlMNkVWdHF2dnJhUlJmWkZmSEt5X0l2M2F2NlBmUTUwajlxWnBpNHczZWNNaWdzeW9ETXpobEQwb1l5QQ?oc=5",
-      "published": "Tue, 08 Mar 2022 08:00:00 GMT",
-      "summary": "The South African economy records a positive fourth quarter&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "Fact or spin? Fact-checking Nigerian president Tinubu’s Independence Day economics - Africa Check",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORERtaVQwSkJkRTRBdjVwcDhEUEhzNnZQeVpRWGxFUEs4U3N5cU5kZFJhWGItVmFMc0xYcWJWOHhnU183aXk4dkZWbDFPZTc0cmtndzRPZzJyUXdTTWQydDZWc3k5NUdkY3JUdGR5NGtDcVh6OW9NR1ZTMlBKWFF6OWI5dDdLbTBHaGJLUG1pcjYyNHBubVBWTFRTczNGNFcyMHd5SW1ndUxhdXVmZlZ5RnAwdFI?oc=5",
-      "published": "Tue, 07 Oct 2025 07:00:00 GMT",
-      "summary": "Fact or spin? Fact-checking Nigerian president Tinubu’s Independence Day economics&nbsp;&nbsp;Africa Check",
-      "source": "GNews | NG Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "South African economy expands by 0,4% - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82b1g3N0V1S3JhUWUybDJPeWVuVFA1RDk2NU1sNERoVjJ1czV1bS1aSXV0NEF5d0ZkN3dLN0dnbFo1c2xPem8xQUE0cw?oc=5",
-      "published": "Tue, 06 Jun 2023 07:00:00 GMT",
-      "summary": "South African economy expands by 0,4%&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
-    },
-    {
-      "title": "China’s creditor diversification in Africa: impacts and challenges of infrastructure debt-financing by Chinese commercial creditors - ODI: Think change",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOajJ3M1AweDl6NjNPNURjMlRURnBUTFlXbWpIVTN3X1pxNllCc2YtSXdJNVFrbkNrVXJYOGlFRkJaejNCaTlhdk81Y29BWDJQSkFfazFQcHpfRTJKOHBkeWFKSnM4V0o3aW1WUG1ickNOLW1QNWJnaFRTbm9GcUdyTnVVcTR3aFFmZEVoZU90di1ldG1zUTlWenRNaHd0Zk1jZXJvb1FDM2VLcV9HY3ZMekR1V2c0RWtVZ0wtN3Fha3liaW5ybDl4djZHWnVkSkY2MldCeEdwOUVZOWI3N0tZbjVpTnhNTXBCak9RZ2VOLTRzeXFI?oc=5",
-      "published": "Tue, 05 Nov 2024 08:00:00 GMT",
-      "summary": "China’s creditor diversification in Africa: impacts and challenges of infrastructure debt-financing by Chinese commercial creditors&nbsp;&nbsp;ODI: Think change",
-      "source": "GNews | China-Africa FOCAC",
-      "priority": 3,
+      "title": "U.S.-Africa Business Summit - CCA & Mauritius Are Ready! REGISTER - allAfrica.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hWHVCczZBYnhwaVFEdTRqS2p5RS00ZEJTa0JzOS1tSUxsTzhOTEFFSjM4THNhQ3kycGw2aFd3TU83MnllRHl3ZXhzLXNGZ25VNUpuMi1CYU1qZjR2eVEwVVY4QmRCSGc4Mkxz?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "U.S.-Africa Business Summit - CCA & Mauritius Are Ready! REGISTER&nbsp;&nbsp;allAfrica.com",
+      "source": "GNews | US-Africa",
+      "priority": 0,
       "category": "大国关系",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "Economy 0,1% weaker in the first quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE52cVJXYm5nYXlvbWQyYTlueDJJVjR6cFRaNkxMY1Y4VzIyQngyRkV2cFJjRGtDaFRDdVoxeFVLdVdZa0hlWWllZV9XMA?oc=5",
-      "published": "Tue, 04 Jun 2024 07:00:00 GMT",
-      "summary": "Economy 0,1% weaker in the first quarter&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
+      "title": "Lawmakers launch bipartisan efforts to address Sudan civil war - Roll Call",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmFkaUlOXy1wUkNXSjFBcWljbzdoRnhCTjlzakZudEo5NXgtaXJnOUE1XzFZbDc5VTJuVzdVOUdrQXBIYkJyTjlPR2t5eDVLaEZfWF93b2k3OVVfeGJsb1Q5bjNSUVRUS3BJa3F4RHFLRjlwNFQ0Wld4Q19ZZmY1OTUwakhtdGU4SGJoWnhsOVIwOF9SNk5BbVRpbw?oc=5",
+      "published": "Wed, 10 Jun 2026 21:06:14 GMT",
+      "summary": "Lawmakers launch bipartisan efforts to address Sudan civil war&nbsp;&nbsp;Roll Call",
+      "source": "GNews | Sudan Crisis",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
     },
     {
-      "title": "SA economy grows in the second quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFcUdPek5iaHZBcEpKaUJxS3Q0eFY4cVFyM0JseWxNZFpJSk1BY2NnNE9FSmtJNldnd1Z3cUc1UGRJXzZxekFoLXJqaw?oc=5",
-      "published": "Tue, 03 Sep 2024 07:00:00 GMT",
-      "summary": "SA economy grows in the second quarter&nbsp;&nbsp;Statistics South Africa",
-      "source": "GNews | ZA Economy",
-      "priority": 3,
-      "category": "主要经济体",
-      "relevance": "medium"
+      "title": "The Mali crisis could have a dangerous spillover effect - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUJTQ2Q1cU9yaTg3OHJ0WXVneEttaG1Wd0xBOU5yMTl4ZlcxMGJ3RTFha3lSeXZBc1V1a1FDS1h0YlhGVFJvdkpObU80QnZ4cHV6UlFveDhxWFNqTWVuN1lEQnB0dTZYV3JmaWdWR2cyRFBLMkNqaFNhZlRFMWhCbHVleURTYll6UElUODZQSnVNRGpTTHhoQ2ZHRjdBUG1ycmfSAacBQVVfeXFMTjBSbkNOV2VVUnFLYTdLWjZCLTdJTVhZTFpQX1NaNzczaGhReENLdnpQV29uNnpkODRHOHRja3l2QW9tUm12bmJXR1ZhdnBSNUdKSDduYTViLVM0cXlsSmdQSnZCUmw0WktRQm1DWEtFX05RQWNOWTRvWER1QV9BeTV0dVBYWlRKXzhEZ1pFMHk1UDR4Y09vbnY0Z3EzbUo0QVlZR3Vzd28?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "The Mali crisis could have a dangerous spillover effect&nbsp;&nbsp;Al Jazeera",
+      "source": "GNews | Africa Conflict",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
     },
     {
-      "title": "Economic activity declines in the third quarter - Statistics South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ONjdOTjQ0OExLbDlocnpfbVB2cXAtQWIwV1B4TFhyYnN3SDYtUVZicmY0NVhhcDZoMWVBZzBseTdjOHc2dXVhazFVVQ?oc=5",
-      "published": "Tue, 03 Dec 2024 08:00:00 GMT",
-      "summary": "Economic activity declines in the third quarter&nbsp;&nbsp;Statistics South Africa",
+      "title": "Chaos in the Sahel: After Mali, is it Burkina Faso and Niger’s turn? - International Institute for Counter-Terrorism",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaM0ppYi10MkE4MmRjY3ltdElpbF8zbGJuNkRJXzFqUU05eHdIaHZYRllXeEl4M1VueGx5NUV3RGNNLXAyWG1Wa1QtT2xIQm10NXUxeEpKOE92N3lDRmc?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Chaos in the Sahel: After Mali, is it Burkina Faso and Niger’s turn?&nbsp;&nbsp;International Institute for Counter-Terrorism",
+      "source": "GNews | Sahel Crisis",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Africa’s Digital Century - African Business",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkdqOXE5TDlHUTd6dG9IOUR3OGNsUnhEamgtRlM1eUlaY3E0Ri1jdi1oaUd6cTNsVVZWNHlwMkJIV0d2cG9UZVc5cjVSWl9yMFN6QXhGN2hZVzV2YlBtT21mMHdNNFctREh4aGpxd1llcGFtOVVuNXE0TGlNRXp2Yw?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Africa’s Digital Century&nbsp;&nbsp;African Business",
+      "source": "GNews | Africa Tech",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
+      "title": "The Expansion of the Sahel Security Crisis toward Sudan and the Horn of Africa - IFA – Institute of Foreign Affairs",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3N1ZUh4Ykd6VzJtVjE3cWRidXQ3YVdqWWhuMndSaTctTVo4eUFGcXd4TVdpS0RaRHhYZ0J6THhyUHg3U3M2UHVEVm5GRXNpVTBfX0ZIZlJOcmlMSHlZOHREN0pFQmUyRzNKd0FNcFVGamUxYi1VTWRMRUJhckdIcklERVpCdTRfZENtVG02Q3NwZXR6eUxkT0Y1alFka3RpaXFRSVBmN29CYlJkNjBwcFBuYw?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "The Expansion of the Sahel Security Crisis toward Sudan and the Horn of Africa&nbsp;&nbsp;IFA – Institute of Foreign Affairs",
+      "source": "GNews | Africa Conflict",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Sudan crisis worsens as civil war enters 4th year and Hormuz closure disrupts aid - PBS",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMHRYM0EzVUFnbW9TRjFRUUxSQ21TcmFCUlhwbG9QYWgxME1wak9Vam9ISVJWM082RjU5Y21OanRfV2JZaG5PSFdpYVFIakJ5OXNDRWFrQ1J5TURZd2t1VG12LVczSmJveVdhdDZaX0dPNzJscnJHd25FclY0MjlaSURsOHRzT21SNDduNkZtYWxXTk9iN25yY2p4dmRHZ0tmVWZyRlZfVzNDRXR4UXAtRGtCZkxvUQ?oc=5",
+      "published": "Tue, 09 Jun 2026 22:40:18 GMT",
+      "summary": "Sudan crisis worsens as civil war enters 4th year and Hormuz closure disrupts aid&nbsp;&nbsp;PBS",
+      "source": "GNews | Sudan Crisis",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Surprisingly strong SA economy beats expectations - News24",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMC1HdUx4akJOekEwcnlud19aT0pXbEI5ckFVT3daSlBOb2Q1NXF4US1qNEhVYUtfSlJDMUJ2UUpWQkppSk4xMFVERW1GY1FwNXYyN3NUWlZlbU1laVFCbVh1MDRBdHA1a21nbFZfS3FmWjBuTkZKdnMxLWliZ25mOUcyakdITnhNdG0ta0p6SkctTmwwVlVqN2ZlOU1sMFdjb0trZTRR?oc=5",
+      "published": "Tue, 09 Jun 2026 09:40:06 GMT",
+      "summary": "Surprisingly strong SA economy beats expectations&nbsp;&nbsp;News24",
       "source": "GNews | ZA Economy",
-      "priority": 3,
+      "priority": 0,
       "category": "主要经济体",
-      "relevance": "medium"
+      "relevance": "low"
+    },
+    {
+      "title": "Myanmar’s New Administration: Military Consolidation, Not Transition - International Crisis Group",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFdLQWlpZzZsRnNJRjBEMVhKZFFmZ2ZPd2gyYThaalpUQ3hjMmhtNEdaQnNzejJnZ3YzSWZScTl4N1BMbUlUQnNic29JTkxOV1N0djluOThTT21xVzBwaGpFN2lxNk1jRHRtTVVScWVhVkhveURxY0RhQ0RMWWtxa1VhMEZSMV94d3FFQlRVVnE1WGZRbVJrVm1NeXdUSWNId3g5Q1lLVDBja0J0dTB6MGhkdHgtMFNsdno0SWNNUTZEckVsUmxzQg?oc=5",
+      "published": "Tue, 02 Jun 2026 22:00:00 GMT",
+      "summary": "Myanmar’s New Administration: Military Consolidation, Not Transition&nbsp;&nbsp;International Crisis Group",
+      "source": "GNews | Africa Conflict",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Geology meets Geopolitics: The Global Race for Critical Minerals in the Climate transition - Modern Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSTBwbFRacGQ1YXh2dDZrQnkwRzFjOWZzZlluR3JQN1JRQzdZM25jRFFKMUJsd0RTMkFLOWU3UHBfWWstcWdQaE1XOTNqaHdfV2ZRTVlVOVBnejZXSHhlZXZlNEpjUVV0NXhHclJESlFLUW9mZXNtZ2tCLWF0T3NNYjZYR2hHeDFOcXU5MXhSQVptN0tzWHEzVUVGakhFYUtIOFFXN3d6b00zdWk0bTlhY3hOLUpaVlFDZEVkMmtYZUI1RElMby1V?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Geology meets Geopolitics: The Global Race for Critical Minerals in the Climate transition&nbsp;&nbsp;Modern Diplomacy",
+      "source": "GNews | Africa Minerals",
+      "priority": 0,
+      "category": "矿业+中国",
+      "relevance": "low"
+    },
+    {
+      "title": "‘Some people’s lives matter more than others’: local responders in Sudan feel ignored as the world focuses on other crises - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWU5NRHdEVVhkM2J3djlSUG1tWFcxLVhCM2lYVVo5WDFnUk05M3dSWmpQVUZWWm9lUlhxNjVoczl4VnpWd0d4VHNySW92MDhSaHAxc1ZSaWVGZ0VyejZVV0hQZFdvWE00WFZ2OW90d0dxcmdQaENBR3YyS1ZSSGpKLUN2X1NkZ3NYbzJHS0pUNHVUaHpIMHhXUmlyZmdqRklhdlpFQlk2YUhnVTJTUFQzQzNCalRneVVnenpPUl9NQ213R2R0LUxBbEhRcXJnV1JqRlZYaDZKQjNHMmdOeXgyQWRCZzZMLTR6?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "summary": "‘Some people’s lives matter more than others’: local responders in Sudan feel ignored as the world focuses on other crises&nbsp;&nbsp;The Conversation",
+      "source": "GNews | Sudan Crisis",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
+    },
+    {
+      "title": "Cameroon Rail Project Driving Minim Martap Bauxite Development in 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN0pPRUNPRWwzUThlMXJ3ZHQ5OVN6aWJmRm8tRHVVTEZ6bEt0QzJ5WEkzeFY3UEZObDFjM00xd2UtX0dxbTdHVk5vMmFxRVd6TXk3ekh2Y2tBcmN4QVc2dk10cHFDV0dwWGxaVklNaWMwdERFNTZVS2h5X0dKMnB2bFpDX3Y0WVBZcWdFSw?oc=5",
+      "published": "Sun, 07 Jun 2026 09:58:10 GMT",
+      "summary": "Cameroon Rail Project Driving Minim Martap Bauxite Development in 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Africa Infra",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
+      "title": "Sudan hunger crisis deepens as UN warns millions face acute food shortages - UN News",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50U045Q0tlUHdJMU54VWlBWTNkR0pBVmotQlFyVzhyZlRzOGdrS1lIRDU2bk92allGZHVGdG4yNjcyamlhaHRJb1dTd0xVcnNzdXNNVnZGYw?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Sudan hunger crisis deepens as UN warns millions face acute food shortages&nbsp;&nbsp;UN News",
+      "source": "GNews | Sudan Crisis",
+      "priority": 0,
+      "category": "政治+冲突",
+      "relevance": "low"
     }
   ]
 }
