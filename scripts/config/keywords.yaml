@@ -143,6 +143,15 @@ global_business:
     - "force majeure"
     - "sanctions announced"
     - "new restrictions"
+  exclude:
+    - "football"
+    - "cricket"
+    - "Bollywood"
+    - "NBA"
+    - "movie"
+    - "concert"
+    - "fashion week"
+    - "recipe"
 
 finance_global:
   # 升级为"全球宏观与资本流动全图"
@@ -256,6 +265,12 @@ finance_global:
     - "BIS"
     - "unprecedented"
     - "record high"
+  exclude:
+    - "lottery"
+    - "jackpot"
+    - "sweepstakes"
+    - "casino"
+    - "gambling"
 
 # ============================================================
 # 主题模块（4个新增）
@@ -329,6 +344,12 @@ tech_industry:
     - "supply disruption"
     - "force majeure"
     - "emergency meeting"
+  exclude:
+    - "iPhone review"
+    - "smartphone comparison"
+    - "app download"
+    - "gaming console"
+    - "game release"
 
 energy_commodities:
   # 全球能源与大宗商品
@@ -402,6 +423,12 @@ energy_commodities:
     - "nationalization"
     - "emergency meeting"
     - "unprecedented"
+  exclude:
+    - "coal mine tour"
+    - "oil painting"
+    - "gas station robbery"
+    - "jewelry"
+    - "diamond ring"
 
 geopolitics_risk:
   # 全球治理与地缘风险
@@ -475,6 +502,11 @@ geopolitics_risk:
     - "military escalation"
     - "red line"
     - "ultimatum"
+  exclude:
+    - "video game"
+    - "movie plot"
+    - "wargame simulation"
+    - "sports rivalry"
 
 esg_sustainability:
   # ESG与可持续发展
@@ -548,6 +580,12 @@ esg_sustainability:
     - "regulatory crackdown"
     - "greenwashing scandal"
     - "compliance failure"
+  exclude:
+    - "green paint"
+    - "green tea"
+    - "solar tanning"
+    - "organic food recipe"
+    - "yoga"
 
 # ============================================================
 # 区域模块（8个，全部深化）
@@ -638,6 +676,12 @@ region_se_asia:
     - "record high export"
     - "record low"
     - "unprecedented"
+  exclude:
+    - "Thai food"
+    - "Thai massage"
+    - "Bali vacation"
+    - "Vietnamese restaurant"
+    - "Angkor Wat tour"
 
 region_south_asia:
   core:
@@ -718,6 +762,12 @@ region_south_asia:
     - "political crisis"
     - "border tension"
     - "military escalation"
+  exclude:
+    - "Bollywood"
+    - "yoga retreat"
+    - "curry recipe"
+    - "meditation"
+    - "temple tour"
 
 region_middle_east:
   core:
@@ -793,6 +843,11 @@ region_middle_east:
     - "oil price spike"
     - "unprecedented"
     - "record high"
+  exclude:
+    - "desert safari"
+    - "hajj pilgrimage"
+    - "Ramadan recipes"
+    - "kebab recipe"
 
 region_latin_america:
   core:
@@ -875,6 +930,12 @@ region_latin_america:
     - "nationalization"
     - "emergency meeting"
     - "unprecedented"
+  exclude:
+    - "carnival"
+    - "salsa dance"
+    - "taco recipe"
+    - "tequila"
+    - "siesta"
 
 region_africa:
   core:
@@ -953,6 +1014,11 @@ region_africa:
     - "debt default"
     - "supply disruption"
     - "unprecedented"
+  exclude:
+    - "safari tour"
+    - "wildlife documentary"
+    - "safari park"
+    - "zoo"
 
 region_europe:
   core:
@@ -1032,6 +1098,11 @@ region_europe:
     - "force majeure"
     - "regulatory crackdown"
     - "unprecedented"
+  exclude:
+    - "tourist visa"
+    - "vacation rental"
+    - "travel guide"
+    - "Eurovision"
 
 region_cis:
   core:
@@ -1104,6 +1175,11 @@ region_cis:
     - "unprecedented"
     - "nuclear threat"
     - "cyber attack"
+  exclude:
+    - "vodka"
+    - "babushka"
+    - "matryoshka"
+    - "Siberian husky"
 
 region_east_asia:
   core:
@@ -1179,3 +1255,9 @@ region_east_asia:
     - "sanctions announced"
     - "first ever"
     - "breakthrough"
+  exclude:
+    - "anime"
+    - "manga"
+    - "K-pop"
+    - "kimchi recipe"
+    - "sushi recipe"

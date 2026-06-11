@@ -13,7 +13,7 @@ from common import run_module, gnews_url, load_keywords
 
 _config_dir = os.path.join(_scripts_dir, "config")
 _module_name = "region_east_asia"
-_core_kw, _important_kw, _aux_kw, _signal_kw = load_keywords(_config_dir, _module_name)
+_core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_config_dir, _module_name)
 
 CONFIG = {
     "name": "东亚深度",
@@ -23,6 +23,7 @@ CONFIG = {
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
     "signal_keywords": _signal_kw,
+    "exclude_keywords": _exclude_kw,
     "feeds": {
         "日本": [
             {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},

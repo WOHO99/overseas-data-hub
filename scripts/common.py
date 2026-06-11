@@ -51,7 +51,7 @@ _parse_executor = ThreadPoolExecutor(max_workers=MAX_PARSE_WORKERS)
 # ============================================================
 
 def load_keywords(config_dir, module_name):
-    """从keywords.yaml加载指定模块的关键词。返回 (core, important, aux, signal)"""
+    """从keywords.yaml加载指定模块的关键词。返回 (core, important, aux, signal, exclude)"""
     kw_path = os.path.join(config_dir, "keywords.yaml")
     if not os.path.exists(kw_path):
         print(f"  [WARN] keywords.yaml not found at {kw_path}, using empty keywords")
@@ -62,7 +62,7 @@ def load_keywords(config_dir, module_name):
 
     if module_name not in all_kw:
         print(f"  [WARN] Module '{module_name}' not in keywords.yaml, using empty keywords")
-        return [], [], [], []
+        return [], [], [], [], []
 
     mod_kw = all_kw[module_name]
     return (
@@ -70,6 +70,7 @@ def load_keywords(config_dir, module_name):
         mod_kw.get("important", []),
         mod_kw.get("aux", []),
         mod_kw.get("signal", []),
+        mod_kw.get("exclude", []),
     )
 
 
@@ -281,8 +282,8 @@ def tag_incremental(items, prev_hashes):
 # 关键词评分
 # ============================================================
 
-def calc_priority(title, summary, core_kw, important_kw, aux_kw, source_coefficient=1.0):
-    """计算文章优先级分数。source_coefficient: 源权威度系数(P4-2)，最终score × coefficient"""
+def calc_priority(title, summary, core_kw, important_kw, aux_kw, source_coefficient=1.0, exclude_kw=None):
+    """计算文章优先级分数。source_coefficient: 源权威度系数(P4-2)，exclude_kw: 排除词(P4-4)，命中扣3分"""
     # P4-3: 标题/摘要拆分权重 — 标题命中 ×1.5
     title_lower = title.lower()
     text_lower = (title + " " + summary).lower()
@@ -306,6 +307,15 @@ def calc_priority(title, summary, core_kw, important_kw, aux_kw, source_coeffici
             score += 1 * 1.5
         elif kw_l in text_lower:
             score += 1
+
+    # P4-4: 排除词扣分（每个命中扣除3分，最低0）
+    if exclude_kw:
+        for kw in exclude_kw:
+            if kw.lower() in title_lower:
+                score -= 3
+            elif kw.lower() in text_lower:
+                score -= 2
+        score = max(score, 0)
 
     # P4-2: 乘以源权威度系数
     score = round(score * source_coefficient, 2)
@@ -416,6 +426,7 @@ async def run_module_async(config, prev_hashes=None):
     important_kw = config.get("important_keywords", [])
     aux_kw = config.get("aux_keywords", [])
     signal_kw = config.get("signal_keywords", [])
+    exclude_kw = config.get("exclude_keywords", [])
 
     # P4-2: 加载源权威度系数表
     config_dir = config.get("config_dir", "")
@@ -435,7 +446,7 @@ async def run_module_async(config, prev_hashes=None):
 
         for item in items:
             source_coeff = get_source_coefficient(item.get("source", ""), authority_map)
-            item["priority"] = calc_priority(item["title"], item["summary"], core_kw, important_kw, aux_kw, source_coeff)
+            item["priority"] = calc_priority(item["title"], item["summary"], core_kw, important_kw, aux_kw, source_coeff, exclude_kw)
             sig_hits = detect_signal_keywords(item["title"], item["summary"], signal_kw)
             if sig_hits:
                 item["signal_keywords"] = sig_hits

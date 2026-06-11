@@ -14,7 +14,7 @@ from common import run_module, gnews_url, load_keywords
 
 _config_dir = os.path.join(_scripts_dir, "config")
 _module_name = "energy_commodities"
-_core_kw, _important_kw, _aux_kw, _signal_kw = load_keywords(_config_dir, _module_name)
+_core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_config_dir, _module_name)
 
 CONFIG = {
     "name": "全球能源与大宗商品",
@@ -24,6 +24,7 @@ CONFIG = {
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
     "signal_keywords": _signal_kw,
+    "exclude_keywords": _exclude_kw,
     "feeds": {
         "油气": [
             {"url": gnews_url("OPEC+ oil output quota production cut price war"), "tag": "GNews | OPEC+ Quota"},

@@ -13,7 +13,7 @@ from common import run_module, gnews_url, load_keywords
 
 _config_dir = os.path.join(_scripts_dir, "config")
 _module_name = "region_europe"
-_core_kw, _important_kw, _aux_kw, _signal_kw = load_keywords(_config_dir, _module_name)
+_core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_config_dir, _module_name)
 
 CONFIG = {
     "name": "欧洲深度",
@@ -23,6 +23,7 @@ CONFIG = {
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
     "signal_keywords": _signal_kw,
+    "exclude_keywords": _exclude_kw,
     "feeds": {
         "EU政策+制裁": [
             {"url": gnews_url("EU CBAM carbon border adjustment mechanism import tax"), "tag": "GNews | EU CBAM"},
