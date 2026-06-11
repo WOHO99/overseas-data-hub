@@ -57,6 +57,11 @@ CONFIG = {
         "本地语言搜索": [
             {"url": gnews_url("Россия экономика торговля инвестиции экспорт", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Русский"},
             {"url": gnews_url("Казахстан экономика торговля инвестиции", hl="ru", gl="KZ", ceid="KZ:ru"), "tag": "GNews | KZ Русский"},
+            {"url": gnews_url("Україна економіка торгівля інвестиції експорт", hl="uk", gl="UA", ceid="UA:uk"), "tag": "GNews | UA Українська"},
+        ],
+        "独立RSS源": [
+            {"url": "https://www.themoscowtimes.com/rss/news", "tag": "Moscow Times"},
+            {"url": "https://www.ukrinform.net/rss", "tag": "Ukrinform EN"},
         ],
         "信号性查询": [
             {"url": gnews_url('"military escalation" "nuclear threat" Russia Ukraine'), "tag": "GNews | Signal: RU-UA"},

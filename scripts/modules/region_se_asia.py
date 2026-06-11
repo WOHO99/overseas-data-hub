@@ -78,7 +78,18 @@ CONFIG = {
         "大国关系": [
             {"url": gnews_url("ASEAN US China Japan relations trade investment summit 2026"), "tag": "GNews | ASEAN Powers"},
         ],
-        "信号性查询": [
+        "本地语言搜索": [
+            {"url": gnews_url("xuất khẩu thuế quan đầu tư FDI Việt Nam", hl="vi", gl="VN", ceid="VN:vi"), "tag": "GNews | VN Tiếng Việt"},
+            {"url": gnews_url("ekspor tarif investasi Indonesia", hl="id", gl="ID", ceid="ID:id"), "tag": "GNews | ID Bahasa"},
+            {"url": gnews_url("ส่งออก ภาษี การลงทุน ไทย เศรษฐกิจ", hl="th", gl="TH", ceid="TH:th"), "tag": "GNews | TH ไทย"},
+            {"url": gnews_url("Philippines kalakalan pamumuhukan ekonomiya", hl="fil", gl="PH", ceid="PH:fil"), "tag": "GNews | PH Filipino"},
+            {"url": gnews_url("Malaysia eksport pelaburan ekonomi perdagangan", hl="ms", gl="MY", ceid="MY:ms"), "tag": "GNews | MY Bahasa Melayu"},
+        ],
+        "独立RSS源": [
+            {"url": "https://e.vnexpress.net/rss/home.rss", "tag": "VN Express EN"},
+            {"url": "https://vietnamnet.vn/en/rss/home.xml", "tag": "VietNamNet EN"},
+            {"url": "https://en.antaranews.com/rss/terkini.xml", "tag": "Antara News EN"},
+        ],
             {"url": gnews_url('"supply disruption" "force majeure" Southeast Asia manufacturing'), "tag": "GNews | Signal: SE Asia Disrupt"},
             {"url": gnews_url('"unprecedented" "record high" Southeast Asia economy trade'), "tag": "GNews | Signal: SE Asia Record"},
         ],

@@ -59,6 +59,14 @@ CONFIG = {
             {"url": gnews_url("EU Africa partnership trade investment critical minerals"), "tag": "GNews | EU-Africa"},
             {"url": gnews_url("China Africa FOCAC trade investment infrastructure BRI"), "tag": "GNews | China-Africa FOCAC"},
         ],
+        "独立RSS源": [
+            {"url": "https://www.dailymaverick.co.za/rss/", "tag": "Daily Maverick ZA"},
+            {"url": "https://www.theeastafrican.co.ke/rss", "tag": "The East African"},
+        ],
+        "本地语言搜索": [
+            {"url": gnews_url("South Africa trade export investment economy mining", hl="en", gl="ZA", ceid="ZA:en"), "tag": "GNews | ZA English"},
+            {"url": gnews_url("مصر اقتصاد تجارة استثمار تصدير", hl="ar", gl="EG", ceid="EG:ar"), "tag": "GNews | EG العربية"},
+        ],
         "信号性查询": [
             {"url": gnews_url('"conflict escalation" "coup" Africa political crisis'), "tag": "GNews | Signal: Africa Crisis"},
             {"url": gnews_url('"famine" "record displacement" "debt default" Africa'), "tag": "GNews | Signal: Africa Emergency"},

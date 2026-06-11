@@ -53,6 +53,14 @@ CONFIG = {
             {"url": gnews_url("space industry launch satellite Starlink military SpaceX"), "tag": "GNews | Space"},
             {"url": gnews_url("quantum computing breakthrough error correction 2026"), "tag": "GNews | Quantum"},
         ],
+        "本地语言搜索": [
+            {"url": gnews_url("芯片 半导体 出口管制 人工智能 制裁", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 芯片/AI"},
+            {"url": gnews_url("반도체 칩 수출 통제 AI 규제", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 반도체"},
+        ],
+        "独立RSS源": [
+            {"url": "https://arstechnica.com/rss", "tag": "Ars Technica"},
+            {"url": "https://www.wired.com/feed/rss", "tag": "Wired"},
+        ],
         "信号性查询": [
             {"url": gnews_url('"first ever" breakthrough technology semiconductor AI'), "tag": "GNews | Signal: First Ever Tech"},
             {"url": gnews_url('"unprecedented" "record high" chip AI technology'), "tag": "GNews | Signal: Record Tech"},

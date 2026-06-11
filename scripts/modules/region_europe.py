@@ -63,6 +63,12 @@ CONFIG = {
         "本地语言搜索": [
             {"url": gnews_url("Deutschland Wirtschaft Handel Investition Industrie", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE Deutsch"},
             {"url": gnews_url("France économie commerce investissement industrie", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR Français"},
+            {"url": gnews_url("España economía comercio inversión industria", hl="es", gl="ES", ceid="ES:es"), "tag": "GNews | ES Español"},
+            {"url": gnews_url("Italia economia commercio investimento industria", hl="it", gl="IT", ceid="IT:it"), "tag": "GNews | IT Italiano"},
+        ],
+        "独立RSS源": [
+            {"url": "https://english.elpais.com/rss/elpais/rss_section.html?lst=english&s=business", "tag": "El País Business EN"},
+            {"url": "https://www.corriere.it/rss/homepage.xml", "tag": "Corriere della Sera"},
         ],
         "信号性查询": [
             {"url": gnews_url('"energy crisis" "supply disruption" Europe gas nuclear'), "tag": "GNews | Signal: EU Energy"},

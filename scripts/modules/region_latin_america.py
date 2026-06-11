@@ -59,6 +59,12 @@ CONFIG = {
         "本地语言搜索": [
             {"url": gnews_url("Brasil exportação comércio investimento economia", hl="pt-BR", gl="BR", ceid="BR:pt-419"), "tag": "GNews | BR Português"},
             {"url": gnews_url("México exportación comercio inversión economía", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | MX Español"},
+            {"url": gnews_url("Argentina exportación comercio inversión economía", hl="es-419", gl="AR", ceid="AR:es-419"), "tag": "GNews | AR Español"},
+            {"url": gnews_url("Colombia exportación comercio inversión economía", hl="es-419", gl="CO", ceid="CO:es-419"), "tag": "GNews | CO Español"},
+        ],
+        "独立RSS源": [
+            {"url": "https://en.mercopress.com/rss/", "tag": "MercoPress"},
+            {"url": "https://valor.globo.com/rss", "tag": "Valor Econômico"},
         ],
         "信号性查询": [
             {"url": gnews_url('"supply disruption" Latin America mining commodity'), "tag": "GNews | Signal: LatAm Disrupt"},

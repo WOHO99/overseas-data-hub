@@ -81,6 +81,9 @@ CONFIG = {
             {"url": gnews_url("Cambodia garment manufacturing export tariff"), "tag": "GNews | Cambodia"},
             {"url": gnews_url("ASEAN free trade RCEP CPTPP agreement"), "tag": "GNews | ASEAN FTA"},
         ],
+        "本地语言搜索": [
+            {"url": gnews_url("关税 制裁 出口管制 供应链 贸易战 301", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 关税/制裁"},
+        ],
         "信号性查询": [
             # v3.3新增：信号性词汇查询
             {"url": gnews_url('"supply disruption" "force majeure" supply chain trade'), "tag": "GNews | Signal: SC Disruption"},

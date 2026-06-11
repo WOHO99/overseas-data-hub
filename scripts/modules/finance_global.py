@@ -92,6 +92,14 @@ CONFIG = {
             {"url": gnews_url("capital control hot money capital flight"), "tag": "GNews | Capital Control"},
             {"url": gnews_url("sovereign wealth fund investment allocation"), "tag": "GNews | SWF"},
         ],
+        "本地语言搜索": [
+            {"url": gnews_url("日銀 金融政策 金利 円 経済", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 日央行"},
+            {"url": gnews_url("央行 货币政策 利率 人民币 经济", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 央行/经济"},
+        ],
+        "独立RSS源": [
+            {"url": "https://www.ft.com/rss/home", "tag": "FT Home"},
+            {"url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews", "tag": "WSJ World"},
+        ],
         "信号性查询": [
             # v3.3新增
             {"url": gnews_url('"emergency meeting" central bank rate decision'), "tag": "GNews | Signal: CB Emergency"},

@@ -60,6 +60,11 @@ CONFIG = {
         "本地语言搜索": [
             {"url": gnews_url("日本 輸出 貿易 規制 経済", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 日本語"},
             {"url": gnews_url("한국 수출 무역 투자 경제", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 한국어"},
+            {"url": gnews_url("中国 关税 制裁 出口管制 供应链 贸易", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 中文"},
+        ],
+        "独立RSS源": [
+            {"url": "https://www3.nhk.or.jp/nhkworld/rss/news/headline.xml", "tag": "NHK World"},
+            {"url": "http://www.chinadaily.com.cn/rss/china_rss.xml", "tag": "China Daily"},
         ],
         "信号性查询": [
             {"url": gnews_url('"military escalation" "first ever" Japan Korea Taiwan'), "tag": "GNews | Signal: JK Military"},

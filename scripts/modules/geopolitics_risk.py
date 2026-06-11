@@ -47,6 +47,10 @@ CONFIG = {
             {"url": gnews_url("espionage counterintelligence spy diplomat expulsion"), "tag": "GNews | Espionage"},
             {"url": gnews_url("election interference disinformation deepfake foreign influence"), "tag": "GNews | Info War"},
         ],
+        "本地语言搜索": [
+            {"url": gnews_url("санкции война конфликт безопасность Россия", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Санкции"},
+            {"url": gnews_url("санкції війна конфлікт безпека Україна", hl="uk", gl="UA", ceid="UA:uk"), "tag": "GNews | UA Санкції"},
+        ],
         "信号性查询": [
             {"url": gnews_url('"emergency meeting" security council NATO defense'), "tag": "GNews | Signal: Emergency"},
             {"url": gnews_url('"unprecedented" military escalation red line ultimatum'), "tag": "GNews | Signal: Escalation"},

@@ -50,6 +50,13 @@ CONFIG = {
             {"url": gnews_url("PFAS ban chemical regulation water contamination"), "tag": "GNews | PFAS/Chemical"},
             {"url": gnews_url("circular economy plastic regulation waste reduction"), "tag": "GNews | Circular Econ"},
         ],
+        "本地语言搜索": [
+            {"url": gnews_url("Nachhaltigkeit ESG Klimaschutz Lieferkette Deutschland", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE ESG/Nachhaltigkeit"},
+            {"url": gnews_url("développement durable ESG climat chaîne d'approvisionnement France", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR ESG/Durabilité"},
+        ],
+        "独立RSS源": [
+            {"url": "https://www.esgnews.com/rss", "tag": "ESG News"},
+        ],
         "信号性查询": [
             {"url": gnews_url('"greenwashing" scandal investigation penalty corporate'), "tag": "GNews | Signal: Greenwash"},
             {"url": gnews_url('"class action" ESG climate environmental lawsuit'), "tag": "GNews | Signal: ESG Lawsuit"},

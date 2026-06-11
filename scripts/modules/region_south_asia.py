@@ -62,6 +62,11 @@ CONFIG = {
         "本地语言搜索": [
             {"url": gnews_url("भारत निर्यात व्यापार निवेश अर्थव्यवस्था", hl="hi", gl="IN", ceid="IN:hi"), "tag": "GNews | IN हिन्दी"},
             {"url": gnews_url("বাংলাদেশ রপ্তানি বাণিজ্য অর্থনীতি", hl="bn", gl="BD", ceid="BD:bn"), "tag": "GNews | BD বাংলা"},
+            {"url": gnews_url("پاکستان برآمد تجارت سرمایہ کاری معیشت", hl="ur", gl="PK", ceid="PK:ur"), "tag": "GNews | PK اردو"},
+        ],
+        "独立RSS源": [
+            {"url": "https://www.thehindu.com/business/feeder/default.rss", "tag": "The Hindu Business"},
+            {"url": "https://www.dawn.com/feed", "tag": "Dawn Pakistan"},
         ],
         "信号性查询": [
             {"url": gnews_url('"emergency meeting" India Pakistan South Asia'), "tag": "GNews | Signal: SA Emergency"},
