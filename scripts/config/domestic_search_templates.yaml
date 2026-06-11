@@ -1,0 +1,164 @@
+# ============================================================
+# domestic_search_templates.yaml v1.1 — 国内信源搜索模板库
+# 含RSSHub优先路由（建议4）+ 限定域名搜索
+# ============================================================
+
+version: "1.1"
+updated: "2026-06-11"
+
+# ============================================================
+# 优先级链：RSSHub路由 > 原生RSS > site:限定搜索
+# ============================================================
+priority_chain:
+  1: "RSSHub路由（直连原始网站，零转载污染）"
+  2: "原生RSS（有少量编辑，但直接出自媒体）"
+  3: "site:限定域名搜索（有少量转载混入，需筛选官网域名链接）"
+
+# ============================================================
+# 按场景分类的搜索模板
+# ============================================================
+templates:
+
+  # --- 宏观经济数据场景 ---
+  - id: T01
+    name: "进出口贸易数据"
+    level: A
+    method_priority:
+      1: "akshare: macro_china_trade_balance"
+      2: "webfetch: stats.customs.gov.cn"
+      3: "search: site:customs.gov.cn OR site:mofcom.gov.cn {keyword}"
+    keywords: [进出口, 贸易, 关税, 海关, 贸易顺差, 贸易逆差]
+
+  - id: T02
+    name: "宏观经济指标"
+    level: A
+    method_priority:
+      1: "akshare: macro_china_gdp / macro_china_cpi / macro_china_pmi"
+      2: "webfetch: stats.gov.cn"
+      3: "search: site:stats.gov.cn OR site:pbc.gov.cn {keyword}"
+    keywords: [GDP, CPI, PPI, PMI, 通胀, 通缩, 经济增长]
+
+  - id: T03
+    name: "货币/金融政策"
+    level: A
+    method_priority:
+      1: "akshare: macro_china_money_supply / macro_china_lpr"
+      2: "webfetch: pbc.gov.cn/diaochatongjisi"
+      3: "search: site:pbc.gov.cn OR site:csrc.gov.cn {keyword}"
+    keywords: [降息, 降准, LPR, M2, 社融, 货币政策]
+
+  - id: T04
+    name: "政府政策/法规"
+    level: A
+    method_priority:
+      1: "webfetch: gov.cn/zhengce"
+      2: "search: site:gov.cn {keyword}"
+    keywords: [国务院, 政策, 法规, 通知, 公告, 规定]
+
+  # --- 深度商业分析场景 ---
+  - id: T05
+    name: "深度商业分析"
+    level: B
+    method_priority:
+      1: "rsshub: /caixin/latest OR /wallstreetcn/news/global"
+      2: "rss: caixin.com/rss OR wallstreetcn.com/rss"
+      3: "search: site:caixin.com OR site:wallstreetcn.com {keyword}"
+    keywords: [行业分析, 市场趋势, 贸易战, 关税, 供应链]
+
+  - id: T06
+    name: "科技行业动态"
+    level: B
+    method_priority:
+      1: "rsshub: /36kr/newsflashes OR /latepost"
+      2: "rss: 36kr.com/feed"
+      3: "search: site:36kr.com OR site:latepost.com {keyword}"
+    keywords: [科技, 芯片, AI, 新能源, 创投, 融资]
+
+  - id: T07
+    name: "资本市场/上市公司"
+    level: B
+    method_priority:
+      1: "akshare: stock_notice_report"
+      2: "rsshub: /stcn OR /cls/telegraph"
+      3: "search: site:stcn.com OR site:cls.cn {keyword}"
+    keywords: [股价, 上市, 公告, 财报, 增持, 减持]
+
+  - id: T08
+    name: "产业政策解读"
+    level: B
+    method_priority:
+      1: "rsshub: /eeo"
+      2: "search: site:eeo.com.cn OR site:cbnweek.com {keyword}"
+    keywords: [产业政策, 行业规划, 减税, 补贴]
+
+  # --- 新闻快讯场景 ---
+  - id: T09
+    name: "综合新闻/快讯"
+    level: C
+    method_priority:
+      1: "search: site:xinhuanet.com OR site:people.com.cn {keyword}"
+    keywords: [新闻, 发布, 声明, 表态]
+
+  - id: T10
+    name: "跨境电商"
+    level: D
+    method_priority:
+      1: "search: site:ebrun.com OR site:cifnews.com {keyword}"
+    cross_verify: "必须与B级以上信源交叉验证"
+    keywords: [跨境电商, 海外仓, 速卖通, SHEIN, TikTok Shop]
+
+  # --- 复合场景（跨级别） ---
+  - id: T11
+    name: "供应链/制造业"
+    level: A+D
+    method_priority:
+      1: "akshare: macro_china_industrial_production_yoy"
+      2: "search: site:caixin.com OR site:miit.gov.cn {keyword}"
+    keywords: [供应链, 制造业, 工业, 产能, 出口管制]
+
+  - id: T12
+    name: "新能源/碳中和"
+    level: A+B
+    method_priority:
+      1: "search: site:caixin.com OR site:nea.gov.cn {keyword}"
+    keywords: [新能源, 光伏, 风电, 碳中和, 碳交易]
+
+# ============================================================
+# RSSHub路由可用性对照表（建议4）
+# ============================================================
+rsshub_routes:
+  available:
+    - route: "/caixin/latest"
+      source: 财新网
+      note: "需自行部署RSSHub或使用公共实例"
+    - route: "/wallstreetcn/news/global"
+      source: 华尔街见闻
+    - route: "/36kr/newsflashes"
+      source: 36氪
+    - route: "/latepost"
+      source: 晚点LatePost
+    - route: "/eeo"
+      source: 经济观察报
+    - route: "/cls/telegraph"
+      source: 财联社
+    - route: "/stcn"
+      source: 证券时报
+    - route: "/mofcom/notify"
+      source: 商务部通知
+    - route: "/people"
+      source: 人民网
+    - route: "/xinhua"
+      source: 新华网
+
+  unavailable:
+    - source: 中国经营报
+      note: "无路由，用site:cb.com.cn搜索"
+    - source: 第一财经
+      note: "无路由，用site:yicai.com搜索"
+    - source: 央视网
+      note: "无稳定路由，用site:cctv.com搜索"
+
+  deployment_note: >
+    RSSHub需自行部署（推荐Vercel一键部署），
+    或使用公共实例 rsshub.app（但可能被限流）。
+    具体部署步骤见海外Skill的 references/rsshub_routes.md

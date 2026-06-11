@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-common.py v3.3 — 全球商业情报仪表盘共享工具库
+common.py v3.3.1 — 全球商业情报仪表盘共享工具库
 v3.1: 并发抓取、双层去重、原子写入、关键词外置
 v3.3: 信号性词汇检测(signal keywords)、模块版本号升级
+v3.3.1: 修复feedparser无HTTP超时导致fetch挂起的致命bug(socket.setdefaulttimeout)
 """
 
 import feedparser
@@ -10,10 +11,14 @@ import json
 import re
 import hashlib
 import os
+import socket
 import difflib
 import yaml
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# 全局Socket超时：防止feedparser.parse()对无响应服务器无限挂起
+socket.setdefaulttimeout(30)
 
 
 # ============================================================

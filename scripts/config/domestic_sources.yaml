@@ -1,0 +1,523 @@
+# ============================================================
+# domestic_sources.yaml v1.1 — 国内信源可信度评级库
+# 整合老K 8条补充建议 + AKShare API优先策略
+# ============================================================
+
+# 全局配置
+global:
+  version: "1.1"
+  updated: "2026-06-11"
+  description: "国内信源A-E级评级库，API优先+抓取兜底"
+  # 数值型数据容差带（建议3：数据值偏差容限）
+  tolerance:
+    consistent_pct: 3      # 差异3%以内视为一致
+    conflict_pct: 10       # 差异超10%视为冲突
+    range: "3%-10%"        # 中间地带：采信高权威，注明差异
+
+# ============================================================
+# A级：一手数据发布源（API优先，零解析）
+# ============================================================
+level_A:
+  # --- 宏观经济（AKShare API） ---
+  - name: "GDP季度数据"
+    method: api
+    library: akshare
+    function: macro_china_gdp
+    source: 国家统计局
+    domain: stats.gov.cn
+    # 建议1：着陆页备用机制
+    primary_url: "https://data.stats.gov.cn/"
+    fallback_url: "https://www.stats.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:stats.gov.cn + 关键词"
+    update_freq: 季度
+    data_fields: [季度, GDP绝对值, GDP同比增长, 一二三产业]
+
+  - name: "CPI月度数据"
+    method: api
+    library: akshare
+    function: macro_china_cpi
+    source: 国家统计局
+    domain: stats.gov.cn
+    primary_url: "https://data.stats.gov.cn/"
+    fallback_url: "https://www.stats.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:stats.gov.cn + CPI"
+    update_freq: 月度
+    data_fields: [月份, 全国当月, 同比增长, 环比增长, 累计]
+
+  - name: "PPI月度数据"
+    method: api
+    library: akshare
+    function: macro_china_ppi
+    source: 国家统计局
+    domain: stats.gov.cn
+    primary_url: "https://data.stats.gov.cn/"
+    fallback_url: "https://www.stats.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:stats.gov.cn + PPI"
+    update_freq: 月度
+
+  - name: "PMI月度数据"
+    method: api
+    library: akshare
+    function: macro_china_pmi
+    source: 国家统计局
+    domain: stats.gov.cn
+    primary_url: "https://data.stats.gov.cn/"
+    fallback_url: "https://www.stats.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:stats.gov.cn + PMI"
+    update_freq: 月度
+    data_fields: [月份, 制造业指数, 非制造业指数]
+
+  - name: "货币供应量M0/M1/M2"
+    method: api
+    library: akshare
+    function: macro_china_money_supply
+    source: 中国人民银行
+    domain: pbc.gov.cn
+    primary_url: "https://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html"
+    fallback_url: "https://www.pbc.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:pbc.gov.cn + 货币供应"
+    update_freq: 月度
+
+  - name: "进出口贸易数据"
+    method: api
+    library: akshare
+    function: macro_china_trade_balance
+    source: 海关总署
+    domain: customs.gov.cn
+    primary_url: "http://stats.customs.gov.cn/"
+    fallback_url: "https://www.customs.gov.cn/"
+    fallback_rule: "若API失败→webfetch主URL→若404→site:customs.gov.cn + 进出口"
+    update_freq: 月度
+    note: "此API返回贸易帐差额，如需详细商品结构需webfetch海关统计平台"
+
+  - name: "外汇储备"
+    method: api
+    library: akshare
+    function: macro_china_fx_reserves_yearly
+    source: 国家外汇管理局
+    domain: safe.gov.cn
+    primary_url: "https://www.safe.gov.cn/"
+    fallback_url: "https://www.safe.gov.cn/"
+    fallback_rule: "若API失败→site:safe.gov.cn + 外汇储备"
+    update_freq: 月度
+    note: "AKShare函数为年度数据，月度快讯需webfetch safe.gov.cn"
+
+  - name: "LPR利率"
+    method: api
+    library: akshare
+    function: macro_china_lpr
+    source: 中国人民银行
+    domain: pbc.gov.cn
+    primary_url: "https://www.pbc.gov.cn/"
+    fallback_url: "https://www.pbc.gov.cn/"
+    fallback_rule: "若API失败→site:pbc.gov.cn + LPR"
+    update_freq: 月度
+
+  - name: "社会融资规模"
+    method: api
+    library: akshare
+    function: macro_china_new_financial_credit
+    source: 中国人民银行
+    domain: pbc.gov.cn
+    primary_url: "https://www.pbc.gov.cn/"
+    fallback_url: "https://www.pbc.gov.cn/"
+    fallback_rule: "若API失败→site:pbc.gov.cn + 社融"
+    update_freq: 月度
+
+  - name: "固定资产投资"
+    method: api
+    library: akshare
+    function: macro_china_gdzctz
+    source: 国家统计局
+    domain: stats.gov.cn
+    primary_url: "https://data.stats.gov.cn/"
+    fallback_url: "https://www.stats.gov.cn/"
+    fallback_rule: "若API失败→site:stats.gov.cn + 固定资产投资"
+    update_freq: 月度
+
+  # --- A级额外API（非宏观，但一手数据） ---
+  - name: "上市公司公告"
+    method: api
+    library: akshare
+    function: stock_notice_report
+    source: 巨潮信息网(cninfo.com.cn)
+    domain: cninfo.com.cn
+    primary_url: "http://www.cninfo.com.cn/"
+    fallback_url: "http://www.cninfo.com.cn/new/commonUrl?url=disclosure"
+    fallback_rule: "若API失败→site:cninfo.com.cn + 公司名"
+    update_freq: 实时
+    note: "AKShare封装的巨潮接口，可按股票代码/类型筛选"
+
+  - name: "东方财富行情数据"
+    method: api
+    library: akshare
+    function: stock_zh_a_hist
+    source: 东方财富
+    domain: eastmoney.com
+    primary_url: "https://push2his.eastmoney.com/"
+    fallback_url: "https://quote.eastmoney.com/"
+    fallback_rule: "若API失败→site:eastmoney.com + 股票代码"
+    update_freq: 日度
+    note: "提供A股历史K线，需指定symbol和period参数"
+
+  # --- A级政策类（webfetch直连，无API） ---
+  - name: "国务院政策文件"
+    method: webfetch
+    source: 国务院
+    domain: gov.cn
+    primary_url: "https://www.gov.cn/zhengce/"
+    fallback_url: "https://www.gov.cn/"
+    fallback_rule: "若主URL不可达→site:gov.cn + 政策关键词"
+    update_freq: 实时
+    data_types: [政策文件, 法规, 公告, 讲话]
+
+  - name: "商务部政策/数据"
+    method: webfetch
+    source: 商务部
+    domain: mofcom.gov.cn
+    primary_url: "http://opendata.mofcom.gov.cn/"
+    fallback_url: "http://www.mofcom.gov.cn/"
+    fallback_rule: "若主URL不可达→site:mofcom.gov.cn + 关键词"
+    update_freq: 不定期
+
+  - name: "证监会监管动态"
+    method: webfetch
+    source: 证监会
+    domain: csrc.gov.cn
+    primary_url: "https://www.csrc.gov.cn/"
+    fallback_url: "https://www.csrc.gov.cn/csrc/"
+    fallback_rule: "若主URL不可达→site:csrc.gov.cn + 关键词"
+    update_freq: 实时
+
+# ============================================================
+# B级：一手调研/深度报道（RSSHub优先 > RSS > 限定搜索）
+# ============================================================
+level_B:
+  - name: "财新网-综合"
+    method: rss
+    rss_url: "https://www.caixin.com/rss/rss_finance.xml"
+    rsshub_route: "/caixin/latest"
+    source: 财新网
+    domain: caixin.com
+    site_search: "site:caixin.com"
+    strength: "深度调查/金融数据/政策解读"
+
+  - name: "华尔街见闻-全球市场"
+    method: rss
+    rss_url: "https://wallstreetcn.com/rss"
+    rsshub_route: "/wallstreetcn/news/global"
+    source: 华尔街见闻
+    domain: wallstreetcn.com
+    site_search: "site:wallstreetcn.com"
+    strength: "全球市场/实时快讯/海外政策解读"
+
+  - name: "36氪-创投快讯"
+    method: rss
+    rss_url: "https://36kr.com/feed"
+    rsshub_route: "/36kr/newsflashes"
+    source: 36氪
+    domain: 36kr.com
+    site_search: "site:36kr.com"
+    strength: "科技创投/新经济/产品动态"
+
+  - name: "晚点LatePost"
+    method: rsshub_first
+    rsshub_route: "/latepost"
+    source: 晚点LatePost
+    domain: latepost.com
+    site_search: "site:latepost.com"
+    strength: "深度科技商业报道/独家调查"
+    note: "无原生RSS，依赖RSSHub路由"
+
+  - name: "经济观察报"
+    method: rsshub_first
+    rsshub_route: "/eeo"
+    source: 经济观察报
+    domain: eeo.com.cn
+    site_search: "site:eeo.com.cn"
+    strength: "宏观经济/产业政策"
+    note: "无原生RSS，依赖RSSHub路由"
+
+  - name: "财联社电报"
+    method: rsshub_first
+    rsshub_route: "/cls/telegraph"
+    source: 财联社
+    domain: cls.cn
+    site_search: "site:cls.cn"
+    strength: "7x24财经快讯/市场异动"
+    note: "无原生RSS，依赖RSSHub路由"
+
+  - name: "中国日报每日摘要"
+    method: api
+    api_url: "https://api.suyanw.cn/api/China_Daily_Highlights_of_the_day.php"
+    source: 中国日报
+    domain: chinadaily.com.cn
+    response_type: "纯文本（非JSON），10条新闻标题"
+    site_search: "site:chinadaily.com.cn"
+    strength: "每日新闻摘要，快速感知当日大事"
+    note: "v1.2验证通过，返回纯文本非JSON，但数据实时"
+
+  - name: "中国经营报"
+    method: site_search_only
+    source: 中国经营报
+    domain: cb.com.cn
+    site_search: "site:cb.com.cn"
+    strength: "产业政策/商业调查"
+    note: "无RSS，无RSSHub路由，仅限定域名搜索"
+
+  - name: "第一财经"
+    method: site_search_only
+    source: 第一财经
+    domain: yicai.com
+    site_search: "site:yicai.com"
+    strength: "宏观经济/金融数据"
+
+  - name: "证券时报"
+    method: rsshub_first
+    rsshub_route: "/stcn"
+    source: 证券时报
+    domain: stcn.com
+    site_search: "site:stcn.com"
+    strength: "资本市场/上市公司"
+
+# ============================================================
+# C级：主流媒体一手发布
+# ============================================================
+level_C:
+  - name: "新华网"
+    method: site_search_only
+    source: 新华网
+    domain: xinhuanet.com
+    site_search: "site:xinhuanet.com"
+    note: "通讯社通稿，权威但深度有限"
+
+  - name: "人民网"
+    method: site_search_only
+    source: 人民网
+    domain: people.com.cn
+    site_search: "site:people.com.cn"
+
+  - name: "央视网"
+    method: site_search_only
+    source: 央视网
+    domain: cctv.com
+    site_search: "site:cctv.com"
+    note: "视频/快讯为主"
+
+  - name: "中国新闻网"
+    method: site_search_only
+    source: 中国新闻网
+    domain: chinanews.com
+    site_search: "site:chinanews.com"
+    note: "快讯类"
+
+  - name: "环球时报"
+    method: site_search_only
+    source: 环球时报
+    domain: huanqiu.com
+    site_search: "site:huanqiu.com"
+    note: "国际新闻视角"
+
+# ============================================================
+# D级：行业垂直媒体（需B级以上交叉验证）
+# ============================================================
+level_D:
+  - name: "钛媒体"
+    domain: tmtpost.com
+    site_search: "site:tmtpost.com"
+    strength: "科技/创投"
+    cross_verify_required: true
+
+  - name: "亿邦动力"
+    domain: ebrun.com
+    site_search: "site:ebrun.com"
+    strength: "电商/跨境电商"
+    cross_verify_required: true
+
+  - name: "雨果网"
+    domain: cifnews.com
+    site_search: "site:cifnews.com"
+    strength: "跨境电商"
+    cross_verify_required: true
+
+  - name: "界面新闻"
+    domain: jiemian.com
+    site_search: "site:jiemian.com"
+    strength: "商业/金融"
+    note: "部分深度报道可达B级"
+
+  - name: "铅笔道"
+    domain: pencilnews.cn
+    site_search: "site:pencilnews.cn"
+    strength: "创投"
+    cross_verify_required: true
+    note: "融资数据需特别验证"
+
+# ============================================================
+# E级：不主动抓取
+# ============================================================
+level_E:
+  rule: "不主动抓取。仅当A-D级引用时作参考。NEVER作为分析依据。"
+  typical_sources: [百家号, 头条号, 知乎营销号, 微信公众号转载, SEO聚合站]
+  blacklist: []  # 故意造假的信源移入此列表，永久屏蔽
+
+# ============================================================
+# API直连通道（v1.2新增，2026-06-11全量验证通过）
+# ============================================================
+# 三层架构：L1快速(AKShare) → L2深度(统计局V2.0) → L3国际(世界银行)
+# 路由规则：L1能查→L1，L1无→L2，国内外对比→L3
+
+api_channels:
+  # --- L1 快速通道：AKShare（17个已验证函数） ---
+  L1_akshare:
+    description: "一行代码拿数据，无限额，A级快速通道"
+    method: "python -c \"import akshare as ak; print(ak.{function}())\""
+    label: "[A-api]"
+    verified_functions:
+      # 宏观经济
+      - {function: macro_china_gdp, data: GDP季度, source: 国家统计局, freq: 季度}
+      - {function: macro_china_cpi, data: CPI月度, source: 国家统计局, freq: 月度}
+      - {function: macro_china_ppi, data: PPI月度, source: 国家统计局, freq: 月度}
+      - {function: macro_china_pmi, data: PMI月度, source: 国家统计局, freq: 月度}
+      - {function: macro_china_money_supply, data: M0/M1/M2, source: 央行, freq: 月度}
+      - {function: macro_china_trade_balance, data: 贸易差额, source: 海关总署, freq: 月度}
+      - {function: macro_china_fx_reserves_yearly, data: 外汇储备(年度), source: 外管局, freq: 年度}
+      - {function: macro_china_lpr, data: LPR利率, source: 央行, freq: 月度}
+      - {function: macro_china_new_financial_credit, data: 新增社融, source: 央行, freq: 月度}
+      - {function: macro_china_gdzctz, data: 固定资产投资, source: 国家统计局, freq: 月度}
+      - {function: macro_china_urban_unemployment, data: 城镇失业率, source: 国家统计局, freq: 月度}
+      - {function: macro_china_exports_yoy, data: 出口同比, source: 海关, freq: 月度}
+      - {function: macro_china_imports_yoy, data: 进口同比, source: 海关, freq: 月度}
+      - {function: macro_china_industrial_production_yoy, data: 工业增加值同比, source: 国家统计局, freq: 月度}
+      - {function: macro_china_consumer_goods_retail, data: 社消零售, source: 国家统计局, freq: 月度}
+      # 金融市场
+      - {function: stock_notice_report, data: 上市公司公告, source: 巨潮, freq: 实时}
+      - {function: stock_zh_a_hist, data: A股历史行情, source: 东方财富, freq: 日度}
+    fallback: "AKShare函数报错→自动降级到L2统计局V2.0"
+
+  # --- L2 深度通道：国家统计局V2.0 API ---
+  L2_nbs_v2:
+    description: "全量统计指标，三步走（搜索→指标→取值），1000次/日"
+    base_url: "https://data.stats.gov.cn/dg/website/publicrelease/web/external"
+    auth: 无需鉴权
+    daily_limit: 1000
+    label: "[A-v2]"
+    root_ids:
+      monthly: "fc982599aa684be7969d7b90b1bd0e84"
+      quarterly: "待确认"
+      yearly: "待确认"
+    endpoints:
+      search:
+        method: GET
+        path: "/query"
+        params: "search={keyword}&pagenum=1&pageSize=10"
+        note: "搜索定位cid和indicatorId，返回最新值"
+      tree:
+        method: GET
+        path: "/new/queryIndexTreeAsync"
+        params: "pid={parent_id}&code={1|2|3|5|6|7}"
+        codes: {1: 月度, 2: 季度, 3: 年度, 5: 分省季度, 6: 分省年度, 7: 其他}
+        note: "遍历目录树，找isLeaf:true的节点，_id即为cid"
+      indicators:
+        method: GET
+        path: "/new/queryIndicatorsByCid"
+        params: "cid={catalog_id}"
+        note: "获取indicatorId列表，含i_showname/i_mark统计口径/du单位"
+      data:
+        method: POST
+        path: "/getEsDataByCidAndDt"
+        content_type: "application/json"
+        body_template:
+          cid: "{catalog_id}"
+          indicatorIds: ["{indicator_id_1}", "{indicator_id_2}"]
+          das: [{"text": "全国", "value": "000000000000"}]
+          dts: ["{start_time}-{end_time}"]
+          showType: "1"
+          rootId: "{root_id}"
+        time_encoding:
+          monthly: "YYYYMM后缀MM（如202602MM）"
+          quarterly: "YYYYQ后缀SS（如20254→202504SS）"
+          yearly: "YYYY后缀YY（如2025YY）"
+          range: "Start-End（如202501MM-202602MM）"
+    key_constraints:
+      - "同一指标因时间分片对应多个cid（通常5年一段），需分别请求后本地拼接"
+      - "跨cid时indicatorId可能不同，每个cid都需重新调用indicators端点"
+      - "i_mark字段含统计口径说明，展示数据时必须附带"
+    verified_searches: [GDP, CPI, PMI, 居民消费价格, 出口]
+    region_codes:
+      national: "000000000000"
+
+  # --- L3 国际通道：世界银行开放数据 ---
+  L3_worldbank:
+    description: "200+国家宏观指标对比，无需Key，完全免费"
+    base_url: "https://api.worldbank.org/v2"
+    auth: 无需Key
+    daily_limit: 无
+    label: "[A-wb]"
+    response_format: "json（添加?format=json参数）"
+    country_codes:
+      CN: 中国
+      US: 美国
+      JP: 日本
+      DE: 德国
+      KR: 韩国
+      IN: 印度
+      BR: 巴西
+      RU: 俄罗斯
+      multi_format: "多国用分号分隔（CN;US;JP）"
+    key_indicators:
+      GDP_current_usd: "NY.GDP.MKTP.CD"
+      GDP_growth: "NY.GDP.MKTP.KD.ZG"
+      CPI_inflation: "FP.CPI.TOTL.ZG"
+      trade_pct_gdp: "NE.TRD.GNFS.ZS"
+      exports_usd: "NE.EXP.GNFS.CD"
+      imports_usd: "NE.IMP.GNFS.CD"
+      exchange_rate: "PA.NUS.FCRF"
+      unemployment: "SL.UEM.TOTL.ZS"
+      gov_debt_pct_gdp: "GC.DOD.TOTL.GD.ZS"
+      FDI_pct_gdp: "BX.KLT.DINV.WD.GD.ZS"
+    query_template: "/country/{country}/indicator/{indicator_id}?format=json&date={start}:{end}&per_page=50"
+    verified: true
+
+  # --- L3 国际通道：待Key激活 ---
+  L3_pending:
+    FRED:
+      description: "80万+美国宏观时序指标"
+      base_url: "https://api.stlouisfed.org/fred"
+      auth: 需免费API Key
+      label: "[B-fred]"
+      status: "待申请Key"
+      apply_url: "https://fred.stlouisfed.org/docs/api/api_key.html"
+      priority: "中"
+    UN_Comtrade:
+      description: "HS编码级全球双边贸易数据"
+      base_url: "https://comtradeapi.un.org/public/v1"
+      auth: 需免费注册
+      label: "[A-un]"
+      status: "待注册+确认正确端点"
+      apply_url: "https://comtradedeveloper.un.org/"
+      python_package: "comtradeapicall"
+      priority: "高"
+
+# ============================================================
+# 信源健康自优化规则（建议7：升级条件更严格）
+# ============================================================
+health_rules:
+  downgrade:
+    trigger: "连续3次数据错误或严重延迟"
+    action: "降一级"
+  upgrade:
+    trigger: "连续10次提供独家准确数据"
+    extra_condition: "必须被A/B级信源事后确认（建议7）"
+    action: "升一级"
+  blacklist:
+    trigger: "发现故意造假/编造数据"
+    action: "永久屏蔽"
+
+# ============================================================
+# RSS存活监控（建议2）
+# ============================================================
+rss_monitoring:
+  rule: "Agent每次调用国内数据时，如B级RSS源连续2次返回文章数为0，主动提示用户"
+  last_success_tracking: true
+  alert_threshold: 2  # 连续2次空结果即告警
