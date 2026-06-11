@@ -1,10 +1,10 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-06-11T04:39:09.956165+00:00",
+  "updated": "2026-06-11T13:06:37.279820+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 74,
-  "high_priority": 6,
+  "total": 75,
+  "high_priority": 3,
   "medium_priority": 53,
   "signal_alerts": {
     "nuclear threat": 2
@@ -47,7 +47,7 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 22,
+      "count": 23,
       "feeds": 2
     }
   },
@@ -62,26 +62,6 @@
       "source": "Moscow Times",
       "priority": 16,
       "category": "独立RSS源",
-      "relevance": "high"
-    },
-    {
-      "title": "‘I Touched a Nerve’: British Teenager Banned From Russia Over Work on Crypto Sanctions Evasion",
-      "link": "https://www.themoscowtimes.com/2026/06/05/i-touched-a-nerve-british-teenager-banned-from-russia-over-work-on-crypto-sanctions-evasion-a92940",
-      "published": "Fri, 05 Jun 2026 14:45:00 +0300",
-      "summary": "Moscow hit 17-year-old Alexander Browder with an entry ban after he investigated Russia’s use of cryptocurrency networks to dodge sanctions.",
-      "source": "Moscow Times",
-      "priority": 14,
-      "category": "独立RSS源",
-      "relevance": "high"
-    },
-    {
-      "title": "EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZFRMeTRiTEtoNWhuNGZ3SUZqbm9RNWdGV1RCME01VFNCRXMyZWdrUHFseUFXQXVVeFpnbThLLTN4Y3NjS0VDUDFfTEI2M3BRdDlhX2pFakVHMXBSWXFKZS1FN2Y4Z1dhUGk1MHMtNC1jU2ktTm9MWkdGNTQ4VVVKVGh5X0xvVXl3X21wRXEyeVZKU05ZY3UtLU4xSF83WFphUTNrWE5rc1lzTWVZT1VFellQY1lNTHlSTUJHSmJYSUt5bG40MWFZ?oc=5",
-      "published": "Tue, 12 May 2026 07:00:00 GMT",
-      "summary": "EU targets Kyrgyzstan as Brussels seeks to prevent Russian sanctions evasion&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | RU Evasion",
-      "priority": 11,
-      "category": "俄罗斯",
       "relevance": "high"
     },
     {
@@ -102,16 +82,6 @@
       "source": "GNews | CA Infra",
       "priority": 10,
       "category": "基础设施+科技",
-      "relevance": "high"
-    },
-    {
-      "title": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports - Pipeline and Gas Journal",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbEl2WDlQTkJYOVY1T0Q2NzhuMFd3bWhHdTVlWXhVcTJkRDBkcEl0dzA1b1NJS3FMS2JEV2VfZGJ2MVQ2WmNuTFRjQnFCYUR2MUtfay1UMkxERV8zOFJMcF9CalRmWmJIOWVvbW1yVHpBQ1A5V2wwbC04aDRtVDRTZVBSYk5mYlk2X0gzU1NyaUhUWjhpZ3VnRlkzal9aVUR4UFZjM3BsUGtEc1Y0OGtXRlZZVGppUXVrb0hiZUJVVlg4Znk0UEZvQlc5UFdpQmc?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports&nbsp;&nbsp;Pipeline and Gas Journal",
-      "source": "GNews | CIS Energy",
-      "priority": 10,
-      "category": "白俄罗斯+能源",
       "relevance": "high"
     },
     {
@@ -235,6 +205,16 @@
       "relevance": "medium"
     },
     {
+      "title": "How the Middle Corridor is transforming Central Asia into a global trade powerhouse - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTHJXRlI3X0NvNFpGaDBQWkhTc1gxdnBXcUdIYzVnLWVnRWFMS0FDZERBdWtRTUh6cElhVm5VVDZPYXpTNkRZQWUybXhpWklFMEtzbGhwRVZvNkZhZEhseHBUa2NhWWFvaG4yY0k0R21zTkItc2d4eXlONE1wNVBzUHp5RUJnRW9yMFdTMzFxRjdWSExCU3F2Mlg3TXZNSF84VTlsX1JUNA?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "How the Middle Corridor is transforming Central Asia into a global trade powerhouse&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | Central Asia/BRI",
+      "priority": 7,
+      "category": "中亚",
+      "relevance": "medium"
+    },
+    {
       "title": "Russian and Belarusian Supreme Courts Sign Deal to ‘Harmonize’ Judicial Practice",
       "link": "https://www.themoscowtimes.com/2026/06/10/russian-and-belarusian-supreme-courts-sign-deal-to-harmonize-judicial-practice-a92974",
       "published": "Wed, 10 Jun 2026 18:04:38 +0300",
@@ -242,6 +222,16 @@
       "source": "Moscow Times",
       "priority": 6,
       "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Armenia, Azerbaijan and the unfinished peace - Engelsberg Ideas",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObVR6enloRlV6Mi1sMzZ6b2NtSHNnMGhLOEFhQVZOSkwtSTRjblMxSnM5UmoxZUVQQjg5cV84RDBvWEhGNHl1eTROZzlSQTY5ZDdCVURjYVNVaTVNTGpnM0RKMXowRHU2b1QwSEVMd0xoRVhmeFVqOV9RbUZzQjFDVTlXY3BmZw?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Armenia, Azerbaijan and the unfinished peace&nbsp;&nbsp;Engelsberg Ideas",
+      "source": "GNews | Caucasus",
+      "priority": 6,
+      "category": "战争+地缘",
       "relevance": "medium"
     },
     {
@@ -265,13 +255,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Russia Examining Rail Project Connecting Through Afghanistan - افغانستان اینترنشنال",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yQnRiZDAxNklVZXRkbnRsajd3WWF2ekkwdGJnWDUyZWpvQkZZd2pXQi0yb1U1ZXdHeVZjQkJRdUdCQ0tvZGZPWXFnUFFxUWc?oc=5",
-      "published": "Thu, 04 Jun 2026 16:18:53 GMT",
-      "summary": "Russia Examining Rail Project Connecting Through Afghanistan&nbsp;&nbsp;افغانستان اینترنشنال",
-      "source": "GNews | CA Infra",
+      "title": "Ambassadors of Britain, France and Germany Hold Talks With Senior Russian Diplomats",
+      "link": "https://www.themoscowtimes.com/2026/06/11/ambassadors-of-britain-france-and-germany-hold-talks-with-senior-russian-diplomats-a92981",
+      "published": "Thu, 11 Jun 2026 15:11:00 +0300",
+      "summary": "Earlier in the week, Russian Foreign Minister Sergei Lavrov hinted at the upcoming talks while claiming the ambassadors were “begging” to meet with his deputies.",
+      "source": "Moscow Times",
       "priority": 6,
-      "category": "基础设施+科技",
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -285,13 +275,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03SjhWVXRYZlUxaDBGaUFuc1dKS3Qzc1lBb3d2aV9lN01jaGFzOTBlTG9sMTRNSG1MR3JCQkNCMFhUSV8yZ3NQVUlOY1RmODBrNDFIcTBfYXY3aG9mRmxSUXAwOU9HNy14?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons&nbsp;&nbsp;Britannica",
-      "source": "GNews | Central Asia/BRI",
+      "title": "Central Asia’s water crisis: Can the region avoid future conflict over shrinking rivers? - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTEMtSXBzM3VyZTRud2tlZ1JPQk10TFF2ek9GcVNzZTNhd1lweTRROWM2Q25hd3c4anYtMFJna0xuWG15SXlXazl4eDUtWGJncHh5cFJKcmY4Ty1MY2dLS3M4WGwzOHBVVXlxOWItcnAxM0RSVG1Ka21FN1dUV3pvZmZQYUVZTGg3SjZ4MXEtNnktbXZQSWs4aWc1YmZuNXBPLWZRTUJ3Q0UzQQ?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Central Asia’s water crisis: Can the region avoid future conflict over shrinking rivers?&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | CA Climate/Water",
       "priority": 6,
-      "category": "中亚",
+      "category": "气候+人口",
       "relevance": "medium"
     },
     {
@@ -305,16 +295,6 @@
       "relevance": "medium"
     },
     {
-      "title": "5 Azerbaijani Crew Members Killed in Sea of Azov Cargo Ship Attack",
-      "link": "https://www.themoscowtimes.com/2026/06/05/5-azerbaijani-crew-members-killed-in-sea-of-azov-cargo-ship-attack-a92939",
-      "published": "Fri, 05 Jun 2026 13:53:00 +0300",
-      "summary": "The strike occurred in Taganrog Bay, a narrow northeastern arm of the Sea of Azov bordered by Russia’s Krasnodar and Rostov regions.",
-      "source": "Moscow Times",
-      "priority": 6,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
       "title": "China–Russia trade boom cools as Beijing raises the price of partnership - INSIGHT EU MONITORING",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb0ZhVTZVaENHN1g5Z0J1UnJIbUtCUGVpVWJoaW0zWGtZeWxsc3NCQTdHM1FyVXFrS042aTZQRE5kc0lOVkJfbkdTWjNuTFI1S3pTLUJxTEFCbmFESDdlQmhIVzlkZHdoLXFkUXJ6Mk0xc0NPci03ekM1SF9SQzNTQW14UXZqSVpZS3dvUEFUUV80Y0dDNDdieWdyN2FVZkdEZTNxQjhMV0dPbmtUb19wdzhvUVRVRzVQUnh1ZDFBeHR2RVdHM3p0WmM3Y1hoMEJFMVY0Z29n?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -322,6 +302,16 @@
       "source": "GNews | RU Economy",
       "priority": 5,
       "category": "俄罗斯",
+      "relevance": "medium"
+    },
+    {
+      "title": "Regions Calling: How Rare Wartime Protests Changed This Siberian Republic",
+      "link": "https://www.themoscowtimes.com/2026/06/11/regions-calling-how-rare-wartime-protests-changed-this-siberian-republic-a92980",
+      "published": "Thu, 11 Jun 2026 15:47:51 +0300",
+      "summary": "One year ago, nearly 2% of Altai's population rallied against political and economic encroachment from Moscow. What has happened since?",
+      "source": "Moscow Times",
+      "priority": 5,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -359,7 +349,7 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFdMdVAwYk5HNnNaY1pUVXc0ODhpYWZTNnh0Wmk4TzlMdG9fajBiTmlTMUdBWDIxay10QnFndENqNW01NmFJN0dGSHJFWlNKVUlxWVRVOXVQMlRNY0RyVzhnVUx3a2syQjRJSXh4R3ZKQ0k4MlFMUldzeDNYNUoyWjMtaGFPWWJma000U3BKc29UNEt2ckpvV09ZY3BDanFvNkN4Vi1VenVDQdIBqgFBVV95cUxNTmhmbkxGdEt5Z0c3cS1KSWQ3TnMtbU1vN0NLMk5jb0ExalU2aEg5RFJ6UHdpQXRHNmdPUTFHbm02bGlyaHdaak5tenRaUXFoRFltODJsc2NINE5wam5WZ2t4Z0lwUVZmY0NlNWMxMXpzYXk0OVVEbGxqbDEwcEZEWmdYVVVxRGZWX2Z2Vk9mTmFCMWVCWE10UmIzYTNFMGtBNUxuQmdRRTM1QQ?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
       "summary": "How China became Russia's economic lifeline&nbsp;&nbsp;DW.com",
-      "source": "GNews | RU Sanctions",
+      "source": "GNews | RU Economy",
       "priority": 4,
       "category": "俄罗斯",
       "relevance": "medium"
@@ -385,6 +375,16 @@
       "relevance": "medium"
     },
     {
+      "title": "World Chess Suspends Russia Over Events in Occupied Ukraine",
+      "link": "https://www.themoscowtimes.com/2026/06/11/world-chess-suspends-russia-over-events-in-occupied-ukraine-a92978",
+      "published": "Thu, 11 Jun 2026 11:54:07 +0300",
+      "summary": "The suspension will last for three years or until the Chess Federation of Russia complies with an order issued by the Court of Arbitration for Sport.",
+      "source": "Moscow Times",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Russia Tells Citizens to Avoid Traveling to Israel After Iranian Attacks",
       "link": "https://www.themoscowtimes.com/2026/06/08/russia-tells-citizens-to-avoid-traveling-to-israel-after-iranian-attacks-a92955",
       "published": "Mon, 08 Jun 2026 18:01:26 +0300",
@@ -399,7 +399,7 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1BVekhxbXpTTE50UG0wWlU4d3N5aWxFSUtsY2JXLWtNeDBuRUNkTW5jRmR1RnRoMEY3RXhiLXBrejNLc195X0p6QXF5WlpYN3IzYmlEdHRIUl9VdzFES2V1Tk5FVzFpNlpneFdUdFBFYnNybVhoZXhkNS1TbVJzcmFBY09TeERpVVJsMWZMbVkyamR5ejZIS0V5YlYyWWJUSVhvTEdpQXQ1eVJXbHUzV0xSRDc?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "How 13 Years of Chinese Investment Changed Central Asia&nbsp;&nbsp;The National Interest",
-      "source": "GNews | Central Asia/BRI",
+      "source": "GNews | KZ Trade/BRI",
       "priority": 4,
       "category": "中亚",
       "relevance": "medium"
@@ -438,16 +438,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Critical Minerals Open New Chapter in US-Central Asia Relations - The Astana Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdzZKRVFpMjN3RTQzcm5qVFYzRGVSLTlzTzZjblZieWVLZG9qdmFqRHp3a0U1dG53N1FpSFZCckdOdnR2bkpGRkZERmxMUjEyMU91N2JVVGd6TXlrTjdWZzZxeTRZMFFHZkxJRUxBTXdsT1B1SFpYTXJyelRBS3Z4a1J4dDdjdmtMOFk4NlJGR0pLakc4eGE5YkNNX1A?oc=5",
-      "published": "Wed, 10 Jun 2026 14:42:27 GMT",
-      "summary": "Critical Minerals Open New Chapter in US-Central Asia Relations&nbsp;&nbsp;The Astana Times",
-      "source": "GNews | US-CA",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
       "title": "Third Government Auction Fails to Sell Stake in Russian Gold Miner",
       "link": "https://www.themoscowtimes.com/2026/06/10/third-government-auction-fails-to-sell-stake-in-russian-gold-miner-a92968",
       "published": "Wed, 10 Jun 2026 13:18:56 +0300",
@@ -475,6 +465,16 @@
       "source": "GNews | CA Climate/Water",
       "priority": 3,
       "category": "气候+人口",
+      "relevance": "medium"
+    },
+    {
+      "title": "This Ex-Soviet State Is Buying Up Sensitive EU Tech — and Selling 699% More to Russia - Kharon",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdFkzZ2ZuWXJoUHdsWkR2NDUyTXFORDE3ZllUNzNHcUg4VkE2d1BPZnA1SldlTTVOdzdpMnZraWVhQjl2aEI1V2RBeWEtaWV3MXU3OXU1M3VKcTMxZ3pudHhXZmtsVWVGNUNjdVJvMmJtdGM2WkhzSURQOXZRcVh0bHA5cw?oc=5",
+      "published": "Tue, 02 Jun 2026 14:07:36 GMT",
+      "summary": "This Ex-Soviet State Is Buying Up Sensitive EU Tech — and Selling 699% More to Russia&nbsp;&nbsp;Kharon",
+      "source": "GNews | RU Evasion",
+      "priority": 3,
+      "category": "俄罗斯",
       "relevance": "medium"
     },
     {
@@ -508,6 +508,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Ukrainian Strikes Damage Several Bridges Linking Occupied Kherson With Annexed Crimea",
+      "link": "https://www.themoscowtimes.com/2026/06/11/ukrainian-strikes-damage-several-bridges-linking-occupied-kherson-with-annexed-crimea-a92979",
+      "published": "Thu, 11 Jun 2026 14:00:54 +0300",
+      "summary": "Kremlin-installed authorities recently restricted commercial and passenger traffic along major roadways leading to Crimea.",
+      "source": "Moscow Times",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Putin Signs Law to Seize Property of Exiled Dissidents Before Trial",
+      "link": "https://www.themoscowtimes.com/2026/06/11/putin-signs-law-to-seize-property-of-exiled-dissidents-before-trial-a92975",
+      "published": "Thu, 11 Jun 2026 10:53:17 +0300",
+      "summary": "Now, authorities no longer have to wait for a court ruling to seize the property of exiled Russians living abroad.",
+      "source": "Moscow Times",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Speech by CE at \"Partnering for Success - Hong Kong as a 'Super Connector' and 'Super Value-Adder' for Central Asia\" High-level Business Dinner in Tashkent (English only) (with photos/video) - info.gov.hk",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oQjhVbGRLM2FrTW9obzhzM0QxM0MzMmdMRkpSQ05IY1FmbFpUa1hVb3RJaDFYMXpoNGdVU252RW5Ycy1KblJVbWI0OG5ib25ScHBjelJZV2FqMWlKcFhBNW1Iem96OFk3VnBDQld6SWwtUQ?oc=5",
       "published": "Thu, 04 Jun 2026 16:47:39 GMT",
@@ -515,16 +535,6 @@
       "source": "GNews | CA Infra",
       "priority": 3,
       "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
-      "title": "Central Asia’s Green Transition Runs Through Beijing - International Policy Digest",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHNlMXI2Wnc0ZktYWTFkY1lTOW1OZU5sMWNfRDVYbXZ6a05kRXFUZnFXUGx1XzQyTHZyRnJ6VkJnVWk5bkphVjRkYlhRa3FhV1hkelhFWHg1VzZabmNNWEhsNzZIQnRZZzZtN1hPR1ozSHhoaGVoeW5zbEhIQzNsMVZGWVNjVDFK?oc=5",
-      "published": "Sun, 31 May 2026 20:33:47 GMT",
-      "summary": "Central Asia’s Green Transition Runs Through Beijing&nbsp;&nbsp;International Policy Digest",
-      "source": "GNews | Central Asia/BRI",
-      "priority": 3,
-      "category": "中亚",
       "relevance": "medium"
     },
     {
@@ -611,44 +621,14 @@
       "relevance": "medium"
     },
     {
-      "title": "Russia and Ukraine Exchange 370 POWs",
-      "link": "https://www.themoscowtimes.com/2026/06/05/russia-and-ukraine-exchange-370-pows-a92941",
-      "published": "Fri, 05 Jun 2026 15:10:00 +0300",
-      "summary": "Both sides said that several civilians were also released as part of the swap, which the United Arab Emirates mediated.",
-      "source": "Moscow Times",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "Megaprojects Instead of Quotas: How Central Asia’s Water Diplomacy Is Changing - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdTROQmtaUDVtaTVQaDlCNjBUVTltT0ZGUENUOWFDSWtYaHRJLXFuMF9hTG0wTnAtb05wTW0xWnFfV3l5UkNteXNoM21WU1d0TnN2OWhoOWFDcGFyY3lpWWo2bzl1Q0lLNHFURnduNjJVWnRJTmpFQXVVQ2gxU1J5OFRCTDRqMXJaaGdKX3FkWEFLTDRCLW9jb181c09vZw?oc=5",
-      "published": "Fri, 05 Jun 2026 13:13:12 GMT",
-      "summary": "Megaprojects Instead of Quotas: How Central Asia’s Water Diplomacy Is Changing&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | CA Climate/Water",
-      "priority": 3,
-      "category": "气候+人口",
-      "relevance": "medium"
-    },
-    {
-      "title": "At Least 7 Killed in Overnight Russian Attacks Against Ukraine",
-      "link": "https://www.themoscowtimes.com/2026/06/05/at-least-7-killed-in-overnight-russian-attacks-against-ukraine-a92938",
-      "published": "Fri, 05 Jun 2026 13:00:43 +0300",
-      "summary": "Kyiv region Governor Mykola Kalashnyk said four people were killed in an attack on a factory that makes dairy products for children.",
-      "source": "Moscow Times",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "Russian Insurers Offer Property Protection Against Drone and Missile Damage",
-      "link": "https://www.themoscowtimes.com/2026/06/05/russian-insurers-offer-property-protection-against-drone-and-missile-damage-a92936",
-      "published": "Fri, 05 Jun 2026 11:58:54 +0300",
-      "summary": "Policy terms from major firms AlfaStrakhovanie and Ingosstrakh now explicitly list “military actions” as covered perils for property damage or loss.",
-      "source": "Moscow Times",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
+      "title": "Beyond Ports: China Embeds Itself in Africa’s Maritime Networks - Africa Center for Strategic Studies",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HUGFTNGVwVGtzQ09Fc3lkbVU3VFBDaTVNd0JjWXNBMGpQdnNIdHp1M3dWTWxjOG1DWGNUZldsODI5ZE9aTUlpMk92cWlyVWJsUjlMbUVXR2JoZmdQSEVKOTZqQWFaYlZRcGIxb2ItaUV3VWM2?oc=5",
+      "published": "Wed, 10 Jun 2026 17:51:06 GMT",
+      "summary": "Beyond Ports: China Embeds Itself in Africa’s Maritime Networks&nbsp;&nbsp;Africa Center for Strategic Studies",
+      "source": "GNews | CA Infra",
+      "priority": 2,
+      "category": "基础设施+科技",
+      "relevance": "low"
     },
     {
       "title": "From raw materials to value-added exports: A structural trade transformation - Euronews.com",
@@ -703,7 +683,7 @@
     {
       "title": "The India-Middle East-Europe Economic Corridor - Middle East Institute",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZUREUk9MU3p2OXlnVTl0X3JoODZMakxwVnExU3BKdXBWUG1wTnNCR3FOeXlMNS1RRmlGMndEOERpXzRXTGVVQ0plbkRBSU5MeXQwSnR2NDZlRWdjb2ZWQ0VnNVRfQXNZempuREMyY0hHNzZrTzVUZFcxRHZtOTFsYUxn?oc=5",
-      "published": "Wed, 03 Jun 2026 19:10:37 GMT",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
       "summary": "The India-Middle East-Europe Economic Corridor&nbsp;&nbsp;Middle East Institute",
       "source": "GNews | CA Infra",
       "priority": 0,
@@ -751,6 +731,26 @@
       "relevance": "low"
     },
     {
+      "title": "Turkmenistan, US Discuss Expansion of Cooperation - Caspian News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczZxTVJiYS1TNElGbFUtUUJ0bHFJcVJfeTZ6NF9mejRCZ1dHay1rZFRGTlJ1UUpyLWdzaE5aMUliY2tMQ3lkWTEyQjhVU2VZLVFFUG1zanpyeWZieUY1NEFFeFR1UTRuOWZoc2piLUVSLUZWU1pvUkdoNjJrVTFXQ3RtQjVEVWlCUUZXWkJPT0N1Q1Y1R05zTHdzOXlEUQ?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "Turkmenistan, US Discuss Expansion of Cooperation&nbsp;&nbsp;Caspian News",
+      "source": "GNews | US-CA",
+      "priority": 0,
+      "category": "大国关系",
+      "relevance": "low"
+    },
+    {
+      "title": "European leaders to lobby Trump at G7 Summit for new Ukraine peace talks - The New Voice of Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTNtUkFnNVRWSGdMMy1IMm4zeVd4Si1XdTNacG82UWQyWjdZOFN3VzlpQUFOUDE3Z1diamVaYUN3U3ozRTlWdjhDY0gxMEs1Z2JaTXJLRG0zYUlRT0ppQ2JHOVZyUDZJSTlEYzNOMXNNeVFuNl95QmJKT0FGQVZjVHFvdWVhaDdhSlRkcWFxQ0FJVVE2ekJwS3ZkdGV5enc3b1hoWFFPNG9oNXRoQjM40gGrAUFVX3lxTFBhYklhLVdIRUF5SDVNZldWczh1dXB1alFHV0pXaC1GYjkyeEpSS09QaVpGYVUyeWJhcGhJRFJRdVNiTzBYbnZxZUhZWDZSTklvc0tlWkh0QmpXVHB0LW5YRFFkWmJReXprbjVQSEZSeDA5VjZIdlg5cWVUZVR0REhNWXV4M0xLdmdPZUJjRVlMU0xaaVZWdnRmUUZ4a2Q2SU1KSkQybkJ0OThlTQ?oc=5",
+      "published": "Thu, 11 Jun 2026 10:30:00 GMT",
+      "summary": "European leaders to lobby Trump at G7 Summit for new Ukraine peace talks&nbsp;&nbsp;The New Voice of Ukraine",
+      "source": "GNews | RU-UA War",
+      "priority": 0,
+      "category": "战争+地缘",
+      "relevance": "low"
+    },
+    {
       "title": "Економічні прогнози для України: коли очікувати покращення через новий економічний курс - Главком",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSmYzTWpMNmhPOFFtS3ZMVi1MSUR0ck1ORWdTOXVlSFJhS3VfN2plSS1HcklGVGdZLWRaMzdUVWE0TDZLN3d6WUJKZnhER3pDNlFjOEJHWlRDTkQzQ1FJMU5ZckJFdWpYWEVaaGtJUHZqd2ZXdENtTzE5Y2UxZW56Z0s5b2EzNl9EX003R0EyeFdWSm5fUTc3ZVZ6X04yYUVzTU1NMWFQSDREX3BHYnlhc3hoUDI2NXo3UkdraE54Q2pCWTdIWHVMeGRYMU40cEF1b0xaMnh2M3NSQkFHYWhyTWphZ9IB6AFBVV95cUxQRnZpRnNCQ0JRWGJmQkItcGRWTUVyNW50TDdvVG1yNHViSlo3ejFXc0poZWtRRGpycTU2X2dvRVduR3hUVEJiVDhsZ0tjY3VJVmxBcHRicHJsN3ZYUF9lanVnU1RGRDZQaFlmTjVsQVJ3NXFZZHktdFNCb1pSSldTYUIyS1g1OTFUSV8zbHlUMll1QzMyVnAwN2JpUnRKOFd2bVRaOWxFX1JRck9fMm0wOVJiMFMxWFF3R0RnMklwWnAwNXZ0VDJNWExmQ0I4SVd0SG9SSVVUV0xxWVBkQWtaU2NTeW80Y0xH?oc=5",
       "published": "Thu, 04 Jun 2026 11:01:16 GMT",
@@ -768,6 +768,16 @@
       "source": "GNews | RU Sanctions",
       "priority": 0,
       "category": "俄罗斯",
+      "relevance": "low"
+    },
+    {
+      "title": "Vietnam and India reshape middle power diplomacy - East Asia Forum",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkZZaVlzV0JyY1pZZWlsWFhsb1V2dTc1WmpLbVhFSmZKaVFjNTBCSWo4WTNvWUtxQnl3czIyUzVLZ2o1QXYtSVo0bFF3b011aTFTMFNaZ0RMY28xWDBpWThjRkpkcFI3cEJ5WWlVdXpJRlpvMlVqUnRJeVI3Y3BxS3M0TlR0SFIwbTluS2Rlbw?oc=5",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT",
+      "summary": "Vietnam and India reshape middle power diplomacy&nbsp;&nbsp;East Asia Forum",
+      "source": "GNews | US-CA",
+      "priority": 0,
+      "category": "大国关系",
       "relevance": "low"
     },
     {
