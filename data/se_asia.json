@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "东南亚深度",
-  "updated": "2026-06-11T04:03:20.787498+00:00",
+  "updated": "2026-06-11T04:39:05.001139+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 68,
+  "total": 98,
   "high_priority": 1,
-  "medium_priority": 34,
+  "medium_priority": 48,
   "signal_alerts": {},
   "stats_by_category": {
     "新加坡": {
@@ -52,12 +52,20 @@
       "count": 30,
       "feeds": 1
     },
+    "本地语言搜索": {
+      "count": 120,
+      "feeds": 5
+    },
+    "独立RSS源": {
+      "count": 25,
+      "feeds": 3
+    },
     "信号性查询": {
       "count": 51,
       "feeds": 2
     }
   },
-  "fail_feeds": 3,
+  "fail_feeds": 6,
   "rate_limited_feeds": 0,
   "articles": [
     {
@@ -101,23 +109,33 @@
       "relevance": "medium"
     },
     {
-      "title": "Malaysia’s Semiconductor Boom Reshapes Travel Demand as Penang and Kuala Lumpur Emerge as Asia’s New Business Mobility Hubs - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lX25aT0pHaHNqWEVrOFFEeEFyNU9ldXVBV0g4ODVrSUZwaHVwUFJpdV93cDFuWFBTWWt1dzFIU29sQTdqRkpZOVNPaEN1eFVmbXpHd3JXZHBEalBMTE5VcnpSRElsa2NPWnlfTjhn?oc=5",
-      "published": "Tue, 09 Jun 2026 10:29:07 GMT",
-      "summary": "Malaysia’s Semiconductor Boom Reshapes Travel Demand as Penang and Kuala Lumpur Emerge as Asia’s New Business Mobility Hubs&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | MY Semi/Trade",
+      "title": "Gold prices extend morning drop",
+      "link": "https://e.vnexpress.net/news/business/markets/gold-prices-extend-morning-drop-5084221.html",
+      "published": "Wed, 10 Jun 2026 17:54:17 +0700",
+      "summary": "Vietnam’s gold prices continued to fall on Wednesday afternoon after sliding over 2% earlier in the session.",
+      "source": "VN Express EN",
       "priority": 6,
-      "category": "马来西亚",
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
-      "title": "Labour minister boosts ties with Italy, Singapore",
-      "link": "https://www.bangkokpost.com/thailand/general/3269003/labour-minister-boosts-ties-with-italy-singapore",
-      "published": "Thu, 11 Jun 2026 06:05:00 +0700",
-      "summary": "Thailand sought closer labour cooperation with Italy and Singapore during bilateral meetings on the sidelines of the 114th International Labour Conference in Geneva, focusing on overseas employment, skills development and social protection.",
-      "source": "Bangkok Post",
+      "title": "Gold prices plunge",
+      "link": "https://e.vnexpress.net/news/business/markets/gold-prices-plunge-5084412.html",
+      "published": "Thu, 11 Jun 2026 10:24:57 +0700",
+      "summary": "Vietnam gold prices extended their decline Thursday, hitting the lowest level since Sep. 28, while global rates recovered from a six-month bottom.",
+      "source": "VN Express EN",
       "priority": 6,
-      "category": "泰国",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vietnam plans $6.5B rail link from Ho Chi Minh City to Mekong Delta, first in 70 years",
+      "link": "https://e.vnexpress.net/news/news/traffic/vietnam-plans-6-5b-rail-link-from-ho-chi-minh-city-to-mekong-delta-first-in-70-years-5084192.html",
+      "published": "Thu, 11 Jun 2026 06:43:47 +0700",
+      "summary": "A 175-kilometer railway worth more than VND171 trillion (US$6.5 billion) has been proposed between Ho Chi Minh City and Can Tho, giving Vietnam's Mekong Delta its first rail link in nearly seven decades.",
+      "source": "VN Express EN",
+      "priority": 6,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -181,13 +199,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Between Talks and Tensions: Why the South China Sea Won’t Stabilise in 2026 - fulcrum.sg",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnd4XzlES2NaWnAxLXpzdjBOUUh1WWRJTHNzcmNjSERyRkwxT25tUlZwTlhhNnZ4cU1YU2xzZlVpNVY5YzY0OUMtaGpIZXZTcmt2cnkwNUd3MERuMXBMWXBpNHo4RkNONmVOaUxwTmFFd1hfa3FlT0NKemRXX0g2dUhGS3hGeGdsWm9TUlgwTm1nYVVJR0JZYQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Between Talks and Tensions: Why the South China Sea Won’t Stabilise in 2026&nbsp;&nbsp;fulcrum.sg",
-      "source": "GNews | SCS/ASEAN",
+      "title": "Vietnam’s rising trade deficit: Warning sign or foundation for growth? - VOV.VN",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0RVamFrZ2ZCc2ZmSjBnOTMxazlFTk5xRmc0aVhvYjdRQUNNS3Boa2RiT2QwMXg0OEVpd1ZYMTNfZUJEaXRiQ24wc091X3dickFCLUY3eXVQTkNMazJMcThEcjJhbEZiejRrZ0M2R0FRNEV6MWNBcUgwRlA4WC1Qd3pMOUhXOE1zcExwd05WYnBfcE80blJvQWdCbThhS003aWhwUkU4MG9PM05RQmJsYzBkSFRkcXdD?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Vietnam’s rising trade deficit: Warning sign or foundation for growth?&nbsp;&nbsp;VOV.VN",
+      "source": "GNews | VN Trade/FDI",
       "priority": 5,
-      "category": "政治+社会",
+      "category": "越南",
       "relevance": "medium"
     },
     {
@@ -208,6 +226,16 @@
       "source": "GNews | SE Asia Tech",
       "priority": 4,
       "category": "基础设施+科技",
+      "relevance": "medium"
+    },
+    {
+      "title": "Top 20 ETFs for Investment in Singapore 2026 - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmpydFpiRVNMU2tYcUgySTdHMnZFOEs4T1FRNXJiODc1X1NHSjZMajNWRjJsOGw5c1FPdGRLU3ljZFNXNVJEMGY5QW9DZlhibEpDRktacXJsZElUSDh6cGlWQVlRaHpISlVNeHNTNEJpQUhxeDl5enNuc1ctek9lbzFoWXM?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Top 20 ETFs for Investment in Singapore 2026&nbsp;&nbsp;Moomoo",
+      "source": "GNews | SG Economy",
+      "priority": 4,
+      "category": "新加坡",
       "relevance": "medium"
     },
     {
@@ -261,6 +289,26 @@
       "relevance": "medium"
     },
     {
+      "title": "How the Gulf Energy Crisis Is Reshaping Asian Economies - E-International Relations",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWFEwYkNqUWRlaHhjSU9pNS1hSU9JdEN4OXlyY0VXaDBoZzZZcWZ3aTN6MXRUZUxoWEJDVFlqN2tic3F5LVdPQnNvV01wd2c0eFNHamg0Zk1ZVnFLRXBlZGJBWTByYlZDNVowQXBRbzdFZUJ3aWNlTW5RNnZTUEtHeGhqazlKaW9yRHJlZUtrYm13MEE?oc=5",
+      "published": "Thu, 14 May 2026 06:43:08 GMT",
+      "summary": "How the Gulf Energy Crisis Is Reshaping Asian Economies&nbsp;&nbsp;E-International Relations",
+      "source": "GNews | Signal: SE Asia Disrupt",
+      "priority": 4,
+      "category": "信号性查询",
+      "relevance": "medium"
+    },
+    {
+      "title": "World’s second-richest country revives 19th-century cooling technology to beat rising heat",
+      "link": "https://e.vnexpress.net/news/tech/tech-news/world-s-second-richest-country-revives-19th-century-cooling-technology-to-beat-rising-heat-5084396.html",
+      "published": "Thu, 11 Jun 2026 10:48:25 +0700",
+      "summary": "Singapore is expanding a 140-year-old underground cooling technology to cut energy use and help the city adapt to rising temperatures.",
+      "source": "VN Express EN",
+      "priority": 4,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "‘I love the inflation’: Backlash greets latest Trump comment",
       "link": "https://www.bangkokpost.com/world/3269294/i-love-the-inflation-backlash-greets-latest-trump-comment",
       "published": "Thu, 11 Jun 2026 08:27:00 +0700",
@@ -268,6 +316,16 @@
       "source": "Bangkok Post",
       "priority": 4,
       "category": "泰国",
+      "relevance": "medium"
+    },
+    {
+      "title": "Southeast Asia's richest country to ease hotel restrictions in heritage districts amid tourism push",
+      "link": "https://e.vnexpress.net/news/travel/places/southeast-asia-s-richest-country-to-ease-hotel-restrictions-in-heritage-districts-amid-tourism-push-5083648.html",
+      "published": "Thu, 11 Jun 2026 06:44:12 +0700",
+      "summary": "Singapore, ranked Southeast Asia's richest country by GDP per capita in 2025, is lifting restrictions on new hotels, hostels and serviced apartments at heritage precincts such as Boat Quay and Beach Road to boost tourism.",
+      "source": "VN Express EN",
+      "priority": 4,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -301,6 +359,26 @@
       "relevance": "medium"
     },
     {
+      "title": "From noise complaints to no gossip: Vietnamese adjust to Japan’s quiet social code",
+      "link": "https://e.vnexpress.net/news/life/trend/from-noise-complaints-to-no-gossip-vietnamese-adjust-to-japan-s-quiet-social-code-5083734.html",
+      "published": "Wed, 10 Jun 2026 17:55:06 +0700",
+      "summary": "Nhat Tuan was drinking with colleagues in his apartment in Japan’s Aichi Prefecture at 9 p.m. when the police came and knocked on his door, inspected their papers and warned them about a noise complaint.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Pax Thien, Angelina Jolie's Vietnamese-born son, joins her for pickleball match",
+      "link": "https://e.vnexpress.net/news/life/celebrities/pax-thien-angelina-jolie-s-vietnamese-born-son-joins-her-for-pickleball-match-5084134.html",
+      "published": "Wed, 10 Jun 2026 17:54:32 +0700",
+      "summary": "Pax Thien Jolie-Pitt and his mother, American movie star Angelina Jolie, were a well-coordinated team at a charity pickleball tournament in Los Angeles on June 6.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "International media gives positive assessments of Vietnam’s economic prospects - moit.gov.vn",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZldMZkRiSnh3cFE1dFRQTlg0TnhFeURfUW04OGp0bGtiZXJUM0hJNUNUR1JsLXZYYzUwOTB6RVdFODRmak5pUDZNTE5XWTB0YzBWUS1BUFZXcGY3bGh1Mm1mck1wR3pYM1hsUlZPQTE1Ym00Z2VNS3d4NURHTU9sNndCSkxqZTFPT3FkNmE1OGhuLW15VEt3N0hYamNENG0xWkRnLTdLN2Nsem1maGlNZA?oc=5",
       "published": "Tue, 26 May 2026 13:32:42 GMT",
@@ -318,6 +396,16 @@
       "source": "GNews | MY Semi/Trade",
       "priority": 3,
       "category": "马来西亚",
+      "relevance": "medium"
+    },
+    {
+      "title": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim - Astro Awani",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajhWSW5WSTRoelpJQnVQaGFlS203Q0wxVFR2NGVCUmdzUmhJMjI3Q2diOFR2RkpRVU1aa0owUUtVWG56bnJNZ1hkVlA5c24xZlNVcVREQlZYTFlaLVRpbkh5SkJMR2szZmFqX1VSS2pIMllvcGdaM282Vzc5NFpSMjZyMGs4LWNHdm1ad0hKOTN2by11ek1vR2VxR3pLZk1WV2tHSkVwdVp0U0tmZUN0d2tzY3c3RU14b0pkS3JIaU5DUUlsOGhQbm5qSjA0eHlLSldzYS1WMDY?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Perdagangan Malaysia dengan rakan dagang utama catat paras tertinggi RM1.127 trilion bagi Jan-April - Sim&nbsp;&nbsp;Astro Awani",
+      "source": "GNews | MY Bahasa Melayu",
+      "priority": 3,
+      "category": "本地语言搜索",
       "relevance": "medium"
     },
     {
@@ -341,6 +429,56 @@
       "relevance": "medium"
     },
     {
+      "title": "Monomax to show all World Cup matches in Thailand",
+      "link": "https://www.bangkokpost.com/sports/3269334/monomax-to-show-all-world-cup-matches-in-thailand",
+      "published": "Thu, 11 Jun 2026 10:40:00 +0700",
+      "summary": "Jasmine International Plc (JAS) has officially secured the broadcasting rights for the Fifa World Cup 2026 in Thailand,...",
+      "source": "Bangkok Post",
+      "priority": 3,
+      "category": "泰国",
+      "relevance": "medium"
+    },
+    {
+      "title": "Sun Group, Ascott partner to expand hospitality offerings in Phu Quoc",
+      "link": "https://e.vnexpress.net/news/travel/sun-group-ascott-partner-to-expand-hospitality-offerings-in-phu-quoc-5084449.html",
+      "published": "Thu, 11 Jun 2026 10:30:00 +0700",
+      "summary": "Sun Group and The Ascott Limited, a Singapore-based hospitality operator, have entered a strategic partnership to introduce nearly 1,700 accommodation units in Ho Chi Minh City and Phu Quoc.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Dollar inches up on black market",
+      "link": "https://e.vnexpress.net/news/business/markets/dollar-inches-up-on-black-market-5084421.html",
+      "published": "Thu, 11 Jun 2026 10:24:42 +0700",
+      "summary": "The U.S. dollar rose marginally against the Vietnamese dong on the black market Thursday morning.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Local ingredients, cultural roots propel Vietnam's Michelin journey",
+      "link": "https://e.vnexpress.net/news/travel/food-recipes/local-ingredients-cultural-roots-propel-vietnam-s-michelin-journey-5084411.html",
+      "published": "Thu, 11 Jun 2026 10:14:30 +0700",
+      "summary": "Michelin Guide Vietnam 2026 highlights the growing global recognition of Vietnamese cuisine, showing that the country's culinary identity, from humble street-side eateries to Michelin-starred restaurants, is earning acclaim through its authenticity, local ingredients and cultural storytelling.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vietnam's lesser-known beach makes global top 100 for first time",
+      "link": "https://e.vnexpress.net/news/travel/places/vietnam-s-lesser-known-beach-makes-global-top-100-for-first-time-5084356.html",
+      "published": "Thu, 11 Jun 2026 09:37:21 +0700",
+      "summary": "Soi Sim, a largely unspoiled beach in Vietnam's Ha Long Bay, has been named among the world's 100 most beautiful for the first time.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
       "title": "Climate change-fuelled storm 'decimated world's rarest great apes'",
       "link": "https://www.bangkokpost.com/world/3269309/climate-changefuelled-storm-decimated-worlds-rarest-great-apes",
       "published": "Thu, 11 Jun 2026 08:33:00 +0700",
@@ -351,23 +489,33 @@
       "relevance": "medium"
     },
     {
-      "title": "K-Asset flags stretched Thai valuations",
-      "link": "https://www.bangkokpost.com/business/investment/3269208/kasset-flags-stretched-thai-valuations",
-      "published": "Thu, 11 Jun 2026 06:37:00 +0700",
-      "summary": "Kasikorn Asset Management (K-Asset) is advising investors to adopt a more selective approach to Thai equities after the benchmark index recently topped 1,600 points, saying the Thai bourse has already priced in many of the positive factors.",
-      "source": "Bangkok Post",
+      "title": "It's time to address psychosocial hazards in a changing world of work",
+      "link": "https://e.vnexpress.net/news/perspectives/it-s-time-to-address-psychosocial-hazards-in-a-changing-world-of-work-vnepre-5071608.html",
+      "published": "Thu, 11 Jun 2026 08:00:00 +0700",
+      "summary": "A delivery rider works 14 hours a day to meet algorithm-driven targets. A factory worker quietly endures relentless pressure and harassment. A middle-aged manager pushes away thoughts of suicide resulting from stress.",
+      "source": "VN Express EN",
       "priority": 3,
-      "category": "泰国",
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
-      "title": "Travel fair organised to sustain arrivals despite turmoil",
-      "link": "https://www.bangkokpost.com/business/general/3269088/travel-fair-organised-to-sustain-arrivals-despite-turmoil",
-      "published": "Thu, 11 Jun 2026 06:07:00 +0700",
-      "summary": "The annual Thailand Travel Mart Plus (TTM+) is expected to generate momentum for tourism for the remainder of the year, helping the country meet its goals of 33 million arrivals and 2.65 trillion baht in revenue amid global uncertainty.",
-      "source": "Bangkok Post",
+      "title": "Malaysian billionaire Lim Goh Tong’s late daughter slashed inheritances after feeling ‘very betrayed’: lawyer",
+      "link": "https://e.vnexpress.net/news/business/billionaires/malaysian-billionaire-lim-goh-tong-s-late-daughter-slashed-inheritances-after-feeling-very-betrayed-lawyer-5084007.html",
+      "published": "Thu, 11 Jun 2026 05:43:51 +0700",
+      "summary": "Lim Siew Kim, late daughter of Genting Group founder Lim Goh Tong, slashed two of her daughters’ inheritances and had even considered excluding them after feeling “very betrayed” by them, the will-drafting lawyer said.",
+      "source": "VN Express EN",
       "priority": 3,
-      "category": "泰国",
+      "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Pregnancy in the shadows: LGBT Vietnamese navigate motherhood amid stigma",
+      "link": "https://e.vnexpress.net/news/life/wellness/pregnancy-in-the-shadows-lgbt-vietnamese-navigate-motherhood-amid-stigma-5077063.html",
+      "published": "Thu, 11 Jun 2026 05:42:56 +0700",
+      "summary": "Thanh Dieu calls her path to becoming a single mother \"pregnancy in the shadows,\" a period marked not only by physical challenges but also by the constant need to conceal her identity as a gay woman and cope with social prejudice.",
+      "source": "VN Express EN",
+      "priority": 3,
+      "category": "独立RSS源",
       "relevance": "medium"
     },
     {
@@ -441,6 +589,16 @@
       "relevance": "low"
     },
     {
+      "title": "Perdagangan lepasi RM1 trilion,bukti usaha kerajaan perkukuh ekonomi negara - Portal Berita RTM",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdFJ4dGE4Qm5NRjdvWWt3OFdBZGsxZDVzZTdOTDE3S2U5TG1BYVFIY2R6eFk5NGtnUzZkOS1fcWVQZm5yck1ITXQ1bkphZ0FYX3l5Umtuekg3V2ZCSlBqZjVIOTdIT1VkTkVwSGwxY2JOczBlSncwZlFQc3NNUmdEZkhIT0xKemNIYWRxN012c240ZG1RWU9yYUpDRjdnMGtfV2JEWnJ2UTBhM0RQQlkwZUZmaXg5S0J1NUtwYTM0ZjdCSU9yMkhMRENPQWVXSGdidERPMHRVa2dZalBO?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Perdagangan lepasi RM1 trilion,bukti usaha kerajaan perkukuh ekonomi negara&nbsp;&nbsp;Portal Berita RTM",
+      "source": "GNews | MY Bahasa Melayu",
+      "priority": 1,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "PCCI eyes agri, BPO investments from Paraguay deal - Inquirer.net",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSGYtZ3Z4NndjU3B1YTBxcUFodzdZbGIyRGlEcnRrZDlhVnBsV2ZvS19nUWwwWko5bkpnOFBHZ0tFNWtHWGZ6MU1VeFVsZjRORDVvUVh4N0lNZjNTZjhKQW5RT2daaVJWNGtVeVFyNnBWVmN6cDZmSDVsS1BNQVJGQzJvOEU2NXdtQlZweDFnVdIBlAFBVV95cUxQc1BZODEtYUY2TnNudnROWmlmMFNRdVRRMjRmZUtQb1pRdVo4bEVMRjF0dkJKZmpOc0M5Z3p2SEkyTzZLejFjUWVEbDlHSW56VXg3Zm5ZQl9lMmJwYUpacEFqWHdwWi1lTlo2ekJrNEVEZjd0MGZQWmJGRFZDbklVTy1wMXU4S0U3YmZocVVxMjh5bEVI?oc=5",
       "published": "Tue, 12 May 2026 07:00:00 GMT",
@@ -451,20 +609,30 @@
       "relevance": "low"
     },
     {
-      "title": "Ministry shifts skills project focus",
-      "link": "https://www.bangkokpost.com/thailand/general/3269108/ministry-shifts-skills-project-focus",
-      "published": "Thu, 11 Jun 2026 07:08:00 +0700",
-      "summary": "The Ministry of Higher Education, Science, Research and Innovation (MHESI) will revise its Skill/Credit Portfolio project to place greater emphasis on lifelong learning, future workforce development and national skills planning.",
-      "source": "Bangkok Post",
+      "title": "Meet the young founders driving China's AI and robotics boom",
+      "link": "https://e.vnexpress.net/news/tech/personalities/meet-the-young-founders-driving-china-s-ai-and-robotics-boom-5084205.html",
+      "published": "Thu, 11 Jun 2026 10:48:58 +0700",
+      "summary": "A new generation of Chinese entrepreneurs is emerging as a driving force in artificial intelligence and robotics, helping transform the country's technology sector beyond internet and e-commerce businesses.",
+      "source": "VN Express EN",
       "priority": 1,
-      "category": "泰国",
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
-      "title": "Duy trì sức hút mạnh mẽ với dòng vốn đầu tư nước ngoài - Tin nhanh chứng khoán",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSmZJNHE3RHgzV2tYOHNNb2xGS1BNeDY4cG0tRGxYVkliejRSN2ZhQjB3b2MwbnloYmR6dHc2czkzaWd6aC1MM292dXc3Z2lwZVFQdTlxb1Q2VVZKSzRjNFhvYTF1Z01LNUxkSjNObC1RaTZCeVRLZnZpTTJqWS02MnZ3Mno1TEZ5aEpQdFhQbXU3Ym01dGhSd3B0VjRIWG1WV3R6YzRId9IBowFBVV95cUxORWc3bmJDRGx5aFBqY09mSndXQ21OYUkweTloV0o1U3J6Z2hHc1lPVHdmWkFodFlkdEN5UUhNRTBLQVdwY1U5NzM3TVFTeHNDOXJEeDFoOUZWVGUwQVQ0T2tMejRLQ1NObnYxSklPbHJWR0VTRzFKMW4tX3VoWlNacnEyRHdWUGk4SjZIMHhTS2RzNlFERU5xbk9JU2VIeUt0ZVNN?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Duy trì sức hút mạnh mẽ với dòng vốn đầu tư nước ngoài&nbsp;&nbsp;Tin nhanh chứng khoán",
+      "title": "World Cup blends football with global music stars",
+      "link": "https://e.vnexpress.net/news/sports/football/world-cup-blends-football-with-global-music-stars-5084418.html",
+      "published": "Thu, 11 Jun 2026 10:08:11 +0700",
+      "summary": "The World Cup isn't only about football: FIFA is drawing on music stars to elevate the competition into a global cultural event, broadening its reach beyond sports fans.",
+      "source": "VN Express EN",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Duy trì sức hút mạnh mẽ với dòng vốn đầu tư nước ngoài - baodautu",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPckhIc2hVZUFTWEpjTEZCNDVoX05GQnFEcTFuUHo0dklPTHUtNmpVNXQxVDlwdzYtbXNVYTB1OGdsek9hQmI0ZVlZbUhrRmZka1djSzdSdjUzYWx3RVVLa0o4ZGF2cExMVl9FRmI0dDEtODdpems4dWRfMEhsdkVxTGEta01ySEdpZzJETHZ6MGo?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Duy trì sức hút mạnh mẽ với dòng vốn đầu tư nước ngoài&nbsp;&nbsp;baodautu",
       "source": "GNews | VN Tiếng Việt",
       "priority": 1,
       "category": "越南",
@@ -481,13 +649,23 @@
       "relevance": "low"
     },
     {
-      "title": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam? - Nhadautu.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnNiX2xHQ1l5MU5IMm5sY295eDJRd19lZHpuRzVzeEpFTjA3OTNTRURSSFY1X0tFYXhMYlMtcEM5MXAzcjlfYTBNV0RnMzAwSS12aXVBdy13dWEwTXp1NmNrMmZHYVR5Q0J2N0ctQ0RVMl9NSnA0UkJ2S1gzQ09aMGsyRW8tZFg2eTZPMlFnRFRtWEhkRGlMU2F3S1NkX3M?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "Doanh nghiệp nội nằm ở đâu trong bức tranh xuất khẩu của Việt Nam?&nbsp;&nbsp;Nhadautu.vn",
-      "source": "GNews | VN Tiếng Việt",
-      "priority": 1,
-      "category": "越南",
+      "title": "รายงานวิเคราะห์สถิติการส่งออกไทยไปเอธิโอเปีย ไตรมาส 1 ปี 2569 (เดือนมกราคม – เดือนมีนาคม) - ditp.go.th",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLc1lFSDlPNDQxMlhBTk16d2RJUEE0LTVQZ21vRXY1UXVHSjJYTVNSU3JkVmFSM3BiNnhyNjFPMjRJRnNJVU1BWEtieWV0VUlCS0dENUZDVW13cWExMllTVG5n?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "รายงานวิเคราะห์สถิติการส่งออกไทยไปเอธิโอเปีย ไตรมาส 1 ปี 2569 (เดือนมกราคม – เดือนมีนาคม)&nbsp;&nbsp;ditp.go.th",
+      "source": "GNews | TH ไทย",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "Inside the lavish world of heiress Yoo Hee-ra, dubbed South Korea’s Paris Hilton",
+      "link": "https://e.vnexpress.net/news/life/celebrities/inside-the-lavish-world-of-heiress-yoo-hee-ra-dubbed-south-korea-s-paris-hilton-5081377.html",
+      "published": "Wed, 10 Jun 2026 17:54:49 +0700",
+      "summary": "Netflix reality star Yoo Hee-ra has captured public attention after showing up at a fashion contest carrying a suitcase filled with designer items worth more than 100 million won (US$73,000).",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -551,6 +729,16 @@
       "relevance": "low"
     },
     {
+      "title": "เอกชนชู ‘ไทยช่วยไทยพลัส’ เด่น 2 เดือนรัฐบาลอนุทิน จี้แก้คอร์รัปชัน-ภาษีสหรัฐ - ฐานเศรษฐกิจ",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDLTlQTzlyQ0xic2c4bTE4RURBbVN5MU9VWGxwOG56cTE1S3EyZGtZODlmclBUU0E2ZFhFRm9uTnZRdm43Q1BDaHg5eWJIN2RHQ3J1cGwzNTFTc3NrNENqb1U5Z0duTTd1dmJLVDZR?oc=5",
+      "published": "Tue, 09 Jun 2026 06:25:00 GMT",
+      "summary": "เอกชนชู ‘ไทยช่วยไทยพลัส’ เด่น 2 เดือนรัฐบาลอนุทิน จี้แก้คอร์รัปชัน-ภาษีสหรัฐ&nbsp;&nbsp;ฐานเศรษฐกิจ",
+      "source": "GNews | TH ไทย",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "A Strong El Niño Could Be Coming. Countries Are Already Preparing. - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMDFFdy1pcWp1WDhxblBrdk1MUzd1UzQzYU1jYjk4X2NUQ3VCOGVRb2VJWmp6azg0bDNLYUo3TGVEbE9UODRwZFhSb0Jvb0hPTERWM2xyQjlkZGdBaWgzT08tVHNNMFZnSFFwOHdDWlgyeFBMSXZ5eGttdWlMRXFVY0dRd2VyU2FUc05iMkJrZVc?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -561,16 +749,6 @@
       "relevance": "low"
     },
     {
-      "title": "Thai auto sector facing crisis unless EV policy is overhauled, industry groups warn - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdTWDVMcm9pQkpUR2l0dDFuOWVRVzdiN1pRNlZVR2JMbFRBT200YllsWDRQSmNwQkJxa0ZaczlUVWdiSkFHSTdlRVRXNE9TeTBtTndlTjY5Ni0waDRseFJ3emljaThFWlFxN3FveE45WGExQkVxUHkwWnVvbTZmTm1UamJZVHhURFNKcVJnR1htQVQ4TF9PdGJMVWF3MV9sWTRHc1N5X0N1S25KZmZHNkVvQlJvVTc0TmFmMVFMWHZCUDZZTmQ4YWdtVUs?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "Thai auto sector facing crisis unless EV policy is overhauled, industry groups warn&nbsp;&nbsp;Reuters",
-      "source": "GNews | TH Trade/EV",
-      "priority": 0,
-      "category": "泰国",
-      "relevance": "low"
-    },
-    {
       "title": "Russia and the China-US Summit - The Diplomat – Asia-Pacific",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01QmczeU9kSktJWWtXaTRoNFk3R0ZYNXVfZTJQOE0wUUhnS3JJTkxIb1I3Zk52MEQ2TUdvRm5RWGQzc3pjcjhEdEdqZGxnSXhrUmR0ZjBoOFJ2MzgxQlUyMTI3Mk96VDFjRmJPYU9jTXE?oc=5",
       "published": "Thu, 14 May 2026 07:00:00 GMT",
@@ -578,6 +756,86 @@
       "source": "GNews | ASEAN Powers",
       "priority": 0,
       "category": "大国关系",
+      "relevance": "low"
+    },
+    {
+      "title": "How US family business kept its fortune for 8 generations",
+      "link": "https://e.vnexpress.net/news/life/trend/how-us-family-business-kept-its-fortune-for-8-generations-5081891.html",
+      "published": "Thu, 11 Jun 2026 10:55:49 +0700",
+      "summary": "The Laird Norton family has preserved its wealth for eight generations by establishing a family council and training heirs from the age of 14.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Habits that can turn air-conditioner outdoor unit into deadly fire hazard",
+      "link": "https://e.vnexpress.net/news/tech/challenge-hub/habits-that-can-turn-air-conditioner-outdoor-unit-into-deadly-fire-hazard-5084076.html",
+      "published": "Thu, 11 Jun 2026 10:48:43 +0700",
+      "summary": "Placing water bottles, cardboard boxes, or other flammable items near an air conditioner’s outdoor unit and making unauthorized cable modifications cause hundreds of fires in Japan every year.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Who are the 5 richest Japanese in 2026?",
+      "link": "https://e.vnexpress.net/news/business/billionaires/who-are-the-5-richest-japanese-in-2026-5084060.html",
+      "published": "Thu, 11 Jun 2026 10:48:10 +0700",
+      "summary": "Japan’s five richest individuals and families had a combined net worth of US$187 billion this year, with their fortunes derived from industries including finance, fashion, food and technology.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "India’s second-richest man Mukesh Ambani to build first data center for Meta",
+      "link": "https://e.vnexpress.net/news/business/companies/india-s-second-richest-man-mukesh-ambani-to-build-first-data-center-for-meta-5084384.html",
+      "published": "Thu, 11 Jun 2026 10:47:55 +0700",
+      "summary": "Reliance Industries, controlled by Indian billionaire Mukesh Ambani, said Wednesday that it will build India’s first AI-driven data center designed for Facebook parent Meta Platforms.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Russian conscripts recount pressure to fight in Ukraine",
+      "link": "https://www.bangkokpost.com/world/3269338/russian-conscripts-recount-pressure-to-fight-in-ukraine",
+      "published": "Thu, 11 Jun 2026 10:45:00 +0700",
+      "summary": "WARSAW - After Russian police started using facial-recognition cameras to identify men wanted by military authorities, a young bank worker spent weeks avoiding the Moscow metro",
+      "source": "Bangkok Post",
+      "priority": 0,
+      "category": "泰国",
+      "relevance": "low"
+    },
+    {
+      "title": "In ageing South Korea, AI dolls care for the elderly",
+      "link": "https://www.bangkokpost.com/world/3269343/in-ageing-south-korea-ai-dolls-care-for-the-elderly",
+      "published": "Thu, 11 Jun 2026 10:45:00 +0700",
+      "summary": "YONGIN (SOUTH KOREA) - In her tiny apartment in South Korea, where she lives alone, 78-year-old Bang Chun-ja spends her days with a childlike AI-powered doll she says she prefers to people.",
+      "source": "Bangkok Post",
+      "priority": 0,
+      "category": "泰国",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump says will attend World Cup",
+      "link": "https://e.vnexpress.net/news/sports/football/trump-says-will-attend-world-cup-5084429.html",
+      "published": "Thu, 11 Jun 2026 10:04:55 +0700",
+      "summary": "U.S. President Donald Trump announced plans Wednesday to attend the World Cup, as the global football tournament prepares to kick off.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "House panel seeks answers about ‘help the blue’ chats",
+      "link": "https://www.bangkokpost.com/thailand/politics/3269018/house-panel-seeks-answers-about-help-the-blue-chats",
+      "published": "Thu, 11 Jun 2026 09:30:00 +0700",
+      "summary": "An opposition MP has urged the chief of the Department of Provincial Administration to testify before a House panel and clarify allegations the agency is linked to so-called \"blue network\" politics.",
+      "source": "Bangkok Post",
+      "priority": 0,
+      "category": "泰国",
       "relevance": "low"
     },
     {
@@ -621,6 +879,36 @@
       "relevance": "low"
     },
     {
+      "title": "British AI company's CEO found stabbed to death just weeks into the job",
+      "link": "https://e.vnexpress.net/news/news/british-ai-company-s-ceo-found-stabbed-to-death-just-weeks-into-the-job-5084303.html",
+      "published": "Thu, 11 Jun 2026 07:25:10 +0700",
+      "summary": "Neil Muller, the newly appointed chief executive of British technology company Node4, was found stabbed to death at his home in central England just seven weeks into the job.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Quiz: Which is the world’s richest family?",
+      "link": "https://e.vnexpress.net/news/business/quiz/quiz-which-is-the-world-s-richest-family-5084179.html",
+      "published": "Thu, 11 Jun 2026 05:43:31 +0700",
+      "summary": "This dynasty has built a fortune exceeding US$500 billion over six decades, making it the wealthiest family on the planet.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Sister demands equal inheritance despite leaving me to care for our parents for 15 years",
+      "link": "https://e.vnexpress.net/news/business/money/sister-demands-equal-inheritance-despite-leaving-me-to-care-for-our-parents-for-15-years-5083284.html",
+      "published": "Thu, 11 Jun 2026 05:43:16 +0700",
+      "summary": "My younger sister wants 50% of the inheritance even though she has left me to provide for our parents and hold their funerals on my own.",
+      "source": "VN Express EN",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
       "title": "Bilahari Kausikan: Uneasy and fragile China-US truce will not hold forever - ThinkChina",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUzFqQm8xWjhXajZyV19vRWphaGZkblV2YmZ6RGYwWmVONjFMdGctNzhfZnU5LThsanNacGs2X0lEYUtnZlJITzhLZWttT3dfd2JIQ2NUWGJKS1lvMWQ1ME41eWw5VGl3UXREUi04RzAtNzdyR3R1aVFuRWYzS3JYYU0zQkNrVkJoN3Q1cHlGU29TWUtHc2UxRGE0RVFXSjR3czR0NUhIdk9FMHpv?oc=5",
       "published": "Thu, 04 Jun 2026 09:38:35 GMT",
@@ -651,6 +939,16 @@
       "relevance": "low"
     },
     {
+      "title": "ไทยเสี่ยงเจอสหรัฐฯขึ้นภาษี ก.ค.นี้ ปมเกินดุล-สวมสิทธิ์สินค้า - Policy Watch",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmZUlQY0IwYXE2TnVrbE5zR09SZmowNWplalFkanVYeUl6VGpqcVRScWc4TEkxWWpKcThaTmJVUlNhVEZuWEhwOFMyUTJNbVZvZmY5OXFyaS16SU9TRXU5aF9lODRBcU0?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "ไทยเสี่ยงเจอสหรัฐฯขึ้นภาษี ก.ค.นี้ ปมเกินดุล-สวมสิทธิ์สินค้า&nbsp;&nbsp;Policy Watch",
+      "source": "GNews | TH ไทย",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "Economic Letter from Asia: After the Summit - Haver Analytics",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSTGJTV1JUVllYRER4cm5rS0xZOGNVSnc5N25rTnpsaDZKcFkwREFlOS12eEFqc3dJWFFYc0U5aWN4Y1huLVZ5VFB3SEVCOFp3SWUyaEwtWHdPaXVjVzI5S21NN09QUXhaVjJqQkIteXFLakg1eThVUGVrRU9XZw?oc=5",
       "published": "Mon, 18 May 2026 07:18:22 GMT",
@@ -671,13 +969,13 @@
       "relevance": "low"
     },
     {
-      "title": "The Real Crisis in Andhra Pradesh is Development, Not Demography - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQkhzem5xYXRlM05xVVdLWFRmdGpIY2k0VTdlR2dUNHUyUENMSXFWZnJXTGZYb1RPN0VnR3Jnb0lRai1fcUo2M0xtR2ZWcmQ2ZXk2a3JrUlhQVzVOeFN5aHNpNjlfbUlkaDZWZjRIbUg5ZkVyMXU3X1NiMzg2NlV4VXMzMzRNZjlLWmYtbUI5NUtqeFBiM1hTQkdOd2U?oc=5",
-      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "summary": "The Real Crisis in Andhra Pradesh is Development, Not Demography&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | SE Asia Demo",
+      "title": "GBS ส่องหุ้นไทย มิ.ย. 69 ผันผวนในกรอบ 1,550-1,620 จุด แนะ 5 หุ้นเด่นส่งออก-อิเล็กทรอนิกส์ - spacebar.th",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qdkQ0Y3RodnZHeW5uTEdXdWJIQXNUSGY3V09IZ0dWVjFSdFdvYkpQRWxCLS1OcXJFejJqeF9HOHcxN2JBcjNRRjVlMmEzU1hSOVlKWXcxYks?oc=5",
+      "published": "Mon, 08 Jun 2026 04:45:00 GMT",
+      "summary": "GBS ส่องหุ้นไทย มิ.ย. 69 ผันผวนในกรอบ 1,550-1,620 จุด แนะ 5 หุ้นเด่นส่งออก-อิเล็กทรอนิกส์&nbsp;&nbsp;spacebar.th",
+      "source": "GNews | TH ไทย",
       "priority": 0,
-      "category": "气候+人口",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -738,6 +1036,16 @@
       "source": "GNews | SE Asia Tech",
       "priority": 0,
       "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
+      "title": "THE STANDARD WEALTH. . ส่งออก 10 บาท ซื้อกลับแค่ 3 บาท อเมริกาจ่อขึ้นภาษี 12.5% ถ้าไทยแก้เกมไม่ทันกระทบส่งออกเต็มๆ . #ภาษีนำเข้าสหรัฐ #เศรษฐกิจไทย #ส่งออก #ดุลการค้า #TheStandardWealth - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMiogdBVV95cUxOeFhOdFRJbDF3cURtcUNvZ0lZWHB2dS0xUDRRdmxueDJDcHJpSVoyRUpmeHkweFNwUXRaWEpEVk9iUm9VWVJ0NW5yU0JfRHZqVTB5NXVQSklQTkZLaGRKQWhvSDRZb2M2S0E3V1V2a19iWE91Sjg0NWRSQ1d1SVY5SFFnLTZLWnhTSWtqV0V2SWpqenhMMWdCcXhNVDFxZGlaaUNCMFB1V3B2cFoyXzVQYWxySXdmYkNIZXJiUW16aVlnajVFdDJmSUpnckNDQUZLYWtVSS10TEt5blU4M2ZnOFF6b1F6YWpXSjBOTjVCWVI5SXNWZmticGxpeG1EYlpyWlFCNmpFanRYNEZaWmJBS2JKQzdzb2Nlajg5M2tQRUE0a3J3WnYxa1h6dW16bGF6blJXQTNUQWF5SmxrZnZUNGxCSm94OU1iVk1SYkZWWFZwWnBfemlaZ3lmMnQzVVRTZ2xhZlVqazJzT2RQcWlXUnlBV1Q3N0NsUGVaVGVsQVlHeDRxZkE2RXo4alRnOVhlWWwzVU42WkFuUWNVNnFwT2dwbERXV1Nxb3pxc2p0alZiUkNXTzJ4eE9oY2lMNjFGUmNBQklDSGNYZkhmdHBRZFoxZGVWSllPREJkalhtcHpMTzVxanJGdTV2czB0NG4yWmlLM05YbFg2djRlMVpCYjB3S0hHZlR1RHlqQlJCczRJaDBFTDJKbGhpZmZPY2lYLTFFY3VxSFA1YmtSeVhxbkRfTjY1TzNldEsyemxublZKYXp0ZzZfVHhBc19SQ1pWV1B4R3lYWjJaUGllVHFjRXNDWkxzcTFCSUw4ZUNHbUY1dTRUNjFwNkNuTVhmZ2t2YTg0ZzMtVm5ia1NrM1E5eXZNOHgzOHdtVjhNM19tZk82YWFqOXBWOHRZOHBNT05BZlFzX25Cc0s1ZlRZb1I2QXoyemRrN3pacUlPSndkdW00M1lyZ2sxemI1aDRKbTJQaFp3WVJ1TmR6ajI1WEhwTWlnMzdIalJyX3I3akZCLXNRUDI3aUIzcF9aSW9hNGVZTlBIR0JYX3ZLaTlvbHhTa1BzcWg3MVktZXJhNG9FbDBMSG4tTVZzaGxMRzkteHJiM2ZlaU9lakNVMEdZQWNwYzZCcmxXUlFkeTdLRzEtamx4TGJBNWEyU09oQVFicGJKX3JmU1VyZWg2Z2tVeWJQSUZabkl1X2IxSHhVQjZySGVOYkxOZmRyRWYtZWRPUWRJUEE?oc=5",
+      "published": "Fri, 05 Jun 2026 11:59:35 GMT",
+      "summary": "THE STANDARD WEALTH. . ส่งออก 10 บาท ซื้อกลับแค่ 3 บาท อเมริกาจ่อขึ้นภาษี 12.5% ถ้าไทยแก้เกมไม่ทันกระทบส่งออกเต็มๆ . #ภาษีนำเข้าสหรัฐ #เศรษฐกิจไทย #ส่งออก #ดุลการค้า #TheStandardWealth&nbsp;&nbsp;facebook.com",
+      "source": "GNews | TH ไทย",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     }
   ]

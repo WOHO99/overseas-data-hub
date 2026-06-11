@@ -1,19 +1,21 @@
 {
   "version": "4.0",
   "module": "欧洲深度",
-  "updated": "2026-06-11T04:21:04.796104+00:00",
+  "updated": "2026-06-11T04:39:08.928809+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 100,
+  "total": 109,
   "high_priority": 2,
-  "medium_priority": 63,
-  "signal_alerts": {},
+  "medium_priority": 72,
+  "signal_alerts": {
+    "supply disruption": 1
+  },
   "stats_by_category": {
     "EU政策+制裁": {
       "count": 180,
       "feeds": 6
     },
     "主要国家": {
-      "count": 100,
+      "count": 99,
       "feeds": 4
     },
     "ECB+经济": {
@@ -63,14 +65,27 @@
       "relevance": "high"
     },
     {
-      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Global Tech",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONmFWS3hIeEdFb1EteXJ4bWo1TjVGRllUU2MwcnRvWU43enZCamN0RFB5RDJaR1VJLW9NZUI5dG43c0o0RmFIZGJQUE9XaElrdHN3eXdsakJOaDZPX2dVd0ZUNEZTSC1UVnlMMGlHQ1lLZzFtM280VUhNUEpzRFZIbHQyU2RwQ0FvWkFQNVR1S3R0OGZkbFItQXVLVUJpZjBsc2ZCVzhvVHdZOVc1RmUyWU5INWljUGpnalc2REVB?oc=5",
-      "published": "Fri, 05 Jun 2026 14:53:06 GMT",
-      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Global Tech",
+      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Privacy",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG9vcExiVnVZbVNkSVZYUE9kRVVNc0tDV0dEOTdUU3o4LWg4X0s0Qi0yOVRzRXJEZGZsTklRZzRYSVlRNWdHUFlnX3cxdk54S241ZE9JREtVSWdPZWsxMVBQeEQ5TUUwZENvQkx1dUczSGVQVmN2VVUwdF9PSk9ZQ1U3TW9CZU96SWllZ1pld3R5OEt3RWp3UnY3aWFGQzJHaU9TdmFmamo3R2VnNXlHZ2JIX1U3YmhMekkyX1VSaUtmOUJnQ29FalQtdw?oc=5",
+      "published": "Mon, 08 Jun 2026 15:57:33 GMT",
+      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Privacy",
       "source": "GNews | EU Digital Reg",
       "priority": 11,
       "category": "EU政策+制裁",
       "relevance": "high"
+    },
+    {
+      "title": "Belgium Joins Germany, Italy, France, Netherlands, Austria, Hungary, Czech Republic and Others in Facing Continuing Oil, LNG and Fuel Supply Disruptions as Delayed Red Sea and Hormuz Shipping Recovery Amid Middle East Conflict Threatens Flight Op - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJd0d6UlBJMlBtRTdWaGtLSmFwRlNMQktnSzkzMkRvWE1fLTJkSmk3b0gxU000YlplOG8zVVVvNVBpOUp5eFpLYi04Z2M3VU83eDFZV0VGaV90UkJOSnJNT2tMY3hmaUp5cjZURDRn?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Belgium Joins Germany, Italy, France, Netherlands, Austria, Hungary, Czech Republic and Others in Facing Continuing Oil, LNG and Fuel Supply Disruptions as Delayed Red Sea and Hormuz Shipping Recovery Amid Middle East Conflict Threatens Flight Op&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | Signal: EU Energy",
+      "priority": 9,
+      "signal_keywords": [
+        "supply disruption"
+      ],
+      "category": "信号性查询",
+      "relevance": "medium"
     },
     {
       "title": "EU Deforestation Regulation: the European Commission's simplification push - Lewis Silkin LLP",
@@ -113,6 +128,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Next Move special edition: EU AI Act - PwC",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMVgzX1NaRTYwMkc2dnNRckFhaHhyQndjU25IY0hCWURzbEJGOW9VWlFEck5hb1RXUHo0V0RmNkhiWkh5ZHRhWFE3ek1teVV0MWM2S3VTUFloSkxzb0tVRl9fRzdYOEV6alRCZVBiOWs2a0dGblFaVERtazZzaU9LR3BuM2N3TkFORkJfZ1BMQVROZENOLWVDbGZDU1N5MjMyekUteGhWUlQ4MFpPSVVLeS1uQVFVeWctdTMxSA?oc=5",
+      "published": "Wed, 13 May 2026 19:58:35 GMT",
+      "summary": "Next Move special edition: EU AI Act&nbsp;&nbsp;PwC",
+      "source": "GNews | EU Digital Reg",
+      "priority": 8,
+      "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
       "title": "EU keeps carbon border tax unchanged despite fertiliser price crisis - Euronews.com",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTVFTFduRGRiTnJIc1lQSUZwNFI1SEpSQS1FTUpXTG4zWUZBQTZQejVyeUtwbEVIbE45UnZnMzJpQVVtbVg2b25oTWlZcnZHZFd1Sks3bVhwbTBrckZhdnZCY2FBczRFVV9hb3Jubm5MaS1kcTllVHlLUGtTWFVHRS1EX3RmcnM2U0VFdVM0eEhpQ2ZCektCdTdTU3k2Rm9YWVIwOWY1Z2doaVk?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -127,6 +152,26 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY3BWVk9CVnpaa2dibmU0ZWhhTmRuR1RuWkg2S1NlRmdqbGNyQVpsN0FZNnI3aHlOb0gyekNnNGpMX1ljMm9QTnRsd0VOeGNjUmV4NkhjZWhIbGpoTTR1UWx1QUpfYlZVQm5sM3pMV2dHREkyTEhmTWZVemlyRzZpYVdzb09DVjFoQXRzbm5hOFFmeEd5TVVaZ192QlhTU181YkNGZ0llRUcwUTlUcXRXS2NRMmExNjNuT210NFVMVUJCSWVfOEs2V2JRUDIwTkQ3WFN1Vi13?oc=5",
       "published": "Tue, 12 May 2026 07:00:00 GMT",
       "summary": "AI regulation in financial services: navigating the EU AI Act in a layered regulatory landscape&nbsp;&nbsp;www.hoganlovells.com",
+      "source": "GNews | EU Digital Reg",
+      "priority": 8,
+      "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
+      "title": "Euro Zone Inflation Rises, Likely Prompting ECB Interest Rate Hike - Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYmJZdzlGeTdmS0U1dkxHRTlNa1FGUVl3aWE5dVRibmxTQk1XeVhsZzlBaHpLaFg2dDZhbDFKYmxKRkdmQS12blN3bzVXbXdXbjJ1Mk8tS2VKaWpBWklYR1FKaUdseDhwdlQxZTJ5SG9oaTZqZk9IQ0thWlVLaEE1ZjFUbkxkWGN5OHdvQTJ2NWszWmpTV3VB?oc=5",
+      "published": "Tue, 02 Jun 2026 15:08:40 GMT",
+      "summary": "Euro Zone Inflation Rises, Likely Prompting ECB Interest Rate Hike&nbsp;&nbsp;Global Banking & Finance Review",
+      "source": "GNews | ECB/Rate",
+      "priority": 8,
+      "category": "ECB+经济",
+      "relevance": "medium"
+    },
+    {
+      "title": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions - Inside Global Tech",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPclBXQUplN280cURCRFBsQXN0RU1JNWgtMmdWdFBDWGVvNTBScTZNSmoteTVBdVU5aS1IWGNfU2pqeE9Pdll2Qm5waGpIXy05a0c3SzdjNlBKdHlMcW9ZRTZpbm1GcGhpenJkajlkaWp0NWw4NTI4MUQ0S0ozR3hsY0xOWERGQmlHQ292b0xqYWlKa0hVbk1mQnJwSXVhcnMtT1JqZTNlRkZxeVdmN1JrTmVIUlVCRkQzRlhicE5pRQ?oc=5",
+      "published": "Thu, 28 May 2026 20:34:02 GMT",
+      "summary": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions&nbsp;&nbsp;Inside Global Tech",
       "source": "GNews | EU Digital Reg",
       "priority": 8,
       "category": "EU政策+制裁",
@@ -148,16 +193,6 @@
       "published": "Thu, 04 Jun 2026 05:15:02 GMT",
       "summary": "Kazakhstan’s Exporters Race to Adapt to Europe’s Carbon Border Tax&nbsp;&nbsp;The Astana Times",
       "source": "GNews | EU CBAM",
-      "priority": 8,
-      "category": "EU政策+制裁",
-      "relevance": "medium"
-    },
-    {
-      "title": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions - Inside Privacy",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ2w0RXp3cDVRWnk4NS1sYktrbHkyME80TmZEejEzZ2pMbzZXNzFwNnUyTVFIdUo3QmlkTm00S1VoYjJfSk1mYnV5NDdPRE9GcmRuQUxQTmhxblZuYkxBaHVEZlRyczE0RXJJRGtZdFlXSUhSUVZTMnNEWDBHOUpfUzRqd0l0VE9wU3lSVndvNEFRS1NWY1JwdF9QallselFOVmZubk40OTdhZmk4VUpqYmRuQXAzY1BVOThVYXpDWXE2dTM5WVA1bW5vazA?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions&nbsp;&nbsp;Inside Privacy",
-      "source": "GNews | EU Digital Reg",
       "priority": 8,
       "category": "EU政策+制裁",
       "relevance": "medium"
@@ -233,13 +268,13 @@
       "relevance": "medium"
     },
     {
-      "title": "EU Sets the Clock on Age Verification: Rollout Urged by End‑2026 - Inside Privacy",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZjJpZXhWMW1zZTlCSVo2XzZ1aDdVb1lTY1d3N2s4bXBDY0xvRXJaSldMMHdvRERSajNVcFBJOHdZc0o4QzAzaDhqNDZTTmJrdjRwLU5uT1gwdWJBYlpmMDVRRG9XeXROWk5lcTJKdlVjTkFaQk1aZ1o4b28wTFJmYng3T1F5eVQ0VHVmb1BUWEFSbTBPUElhVXg5dGstRkc2SFVxSnZ3QlNLcmRIcWc?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "EU Sets the Clock on Age Verification: Rollout Urged by End‑2026&nbsp;&nbsp;Inside Privacy",
-      "source": "GNews | EU Digital Reg",
+      "title": "Euro Zone Bond Yields Rise Amid Geopolitical Tensions and Awaited ECB Decision - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSkU5amhqZ1NFM3l3b1NYVWp2ekRCWjBwcW1FN3poaWJISzVoUmkwaUVhcm1VNVRHUWRaVkliMnBUVHYxTmlyMUs5ck4ycmQyaVU3RDhxMjV6Vm9GQlpzOGhHYk5ycmJXeEM3a3V6cWlXOG5ISEpHeGFydVdkcU1lTUVoYlpzUFdfZFlBUXp3MzRScmtUZmM0SnV6cEdBdnMwWk1HNTcwUml0YndDbnR6OGQ0ZW1PVDN1ZE9reGViUWFTTkRrc1kyNjVZVGPSAdIBQVVfeXFMTkNrXzA5ZjJDMTdZYjBMSWptOWh1cjZYdjYwYkN3Z1pueU82OFViT1RXY2k4Z29yYVVtbWZkTWlXX2hLUmtLdkd3djBQUUI0Tk9iRlpKbkZybkVESVRSSGlqaV9EOGExQW9PTUE3Vk91NW9yalNtZWlJSkNYVW9FSzhIQXEya0V6MjhROER0MFZHN2swZW0zdmpaWEpVcGVrV2VVOHJDVHQ3WjZ3SGlQRnp4MDFhTmUxSHk4N2NDUE53UDJ0OHdkWWZrcVZqNVhWRnNn?oc=5",
+      "published": "Wed, 10 Jun 2026 10:36:01 GMT",
+      "summary": "Euro Zone Bond Yields Rise Amid Geopolitical Tensions and Awaited ECB Decision&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | ECB/Rate",
       "priority": 6,
-      "category": "EU政策+制裁",
+      "category": "ECB+经济",
       "relevance": "medium"
     },
     {
@@ -260,6 +295,26 @@
       "source": "GNews | NL Trade/ASML",
       "priority": 6,
       "category": "主要国家",
+      "relevance": "medium"
+    },
+    {
+      "title": "Peru reaffirms commitment to European Union Deforestation-Free Products Regulation (EUDR) - Agencia Peruana de Noticias | ANDINA",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUmh4NTdrdGo5UkY5T0lFU2xnZ3F4QmJLTDl5RUwzLWNSQ3FnTUdweHpQaVE1MHpBTzFVT1Z0Z2JIOG9MRnZRN1Z1QWNZcTB2NjRiRXBrT2dEMzJYVVc5b3k5TW9RYV9xeHRlcUFINGJheU03Yjd0Z3NxTFVobERMVEdfejQzQ1ZodDROLXdqeXhPbk9xLW9SYnJ1SmlQWVhJTnlVVVN1bHFlSmRWTXVLa1dKbEVnMWNiRkhvc0RqTk9KVkpnS21wUmVNY2E?oc=5",
+      "published": "Tue, 09 Jun 2026 13:43:27 GMT",
+      "summary": "Peru reaffirms commitment to European Union Deforestation-Free Products Regulation (EUDR)&nbsp;&nbsp;Agencia Peruana de Noticias | ANDINA",
+      "source": "GNews | EU SC/EUDR",
+      "priority": 6,
+      "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
+      "title": "Eurozone bond yields hold steady ahead of ECB rate decision - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVDNyOGN0eElNUjdtd21aRGtDYmRXQ2VPTThET25GS1dGQTRuZW1fdG0wTVJ1QUZwUDRWMjRiVXhXTjlfUlJlMFVpeEpMcU0yN3k3eGNJLTBBVUxud21KU0Q2eDhUeVVlejMyQzdtYUFCOU04OFVlTnV4Zm1ONnBBb1dRLWpwQ1pPRTR4Z25JTjdRUjJuR0N2NjdZQjhpbFRKUU93Mk50dGJEV2FZMklVa1RJemNMMUk?oc=5",
+      "published": "Tue, 09 Jun 2026 08:23:40 GMT",
+      "summary": "Eurozone bond yields hold steady ahead of ECB rate decision&nbsp;&nbsp;TradingView",
+      "source": "GNews | ECB/Rate",
+      "priority": 6,
+      "category": "ECB+经济",
       "relevance": "medium"
     },
     {
@@ -363,6 +418,16 @@
       "relevance": "medium"
     },
     {
+      "title": "ECB set for June ‘insurance’ hike as energy shock raises policy risks - ING THINK economic and financial analysis | ING THINK",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmZ4blphZHp5QVFxTzh5Q1NMQThYXzRtdGdYN3pmUjI5eDUtTzdFSlNnaktFOURKWEZmMTFuSmxIM1VFYmVqNE9LM3pyV24tYXdRTFV6dnlybE5ZczhnUzVTa01kbnZNY2dZNHplQVNTNUhraXAxYmxXck9TWUE2N19FMnloc2c?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "ECB set for June ‘insurance’ hike as energy shock raises policy risks&nbsp;&nbsp;ING THINK economic and financial analysis | ING THINK",
+      "source": "GNews | ECB/Rate",
+      "priority": 4,
+      "category": "ECB+经济",
+      "relevance": "medium"
+    },
+    {
       "title": "Stop bargaining with Europe, start leaving - Defense Priorities",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdE9ic3Rsc0s1Y2ZXbjVocTZfa3lCMUJGU1V3RVhXQ2RFVVhoN3A2NlJndjlZamJ0b1RjdWJoR1ZObW5Db2tfeWpaTVJlUGt0OGd5eTctRE42VFZHM0QwQVVuOUZ5NVRheTNleV8zUEthek1BOXZJRUtrdW4xVHdJQTBWVFRCQnRkNklOUER4UkE?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -370,16 +435,6 @@
       "source": "GNews | NATO/EU Defense",
       "priority": 4,
       "category": "政治+社会",
-      "relevance": "medium"
-    },
-    {
-      "title": "African leaders demand fairer global trade rules as France backs Nairobi declaration - Business Insider Africa",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeFY0cHV6ckEtYWVYb0YzTGFiS2hNeUJyWE9aZW91XzREZ1NjZXJ3NDF4b1U4M1ZpN0JzU2ZPRzFYVzVQOVFQZW95YTRzOTVfQzBmQmJueXYtdkNmellzQ3R1ZTBWdkZKRHladnRIV0pMQzNBd3BNLUQ5NmkxMTZ5UXVPTFZXN1ZKazZVRmJ3ODlPX1BETXFxaDJsWi14bUNnZGxDcHgtTFFoa2dMbDhTNV9KdHgta2dwY1RyR0tRN0lBZnFHdEJqU3NCV0pPLWlVWGl6NjVEeWM?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "African leaders demand fairer global trade rules as France backs Nairobi declaration&nbsp;&nbsp;Business Insider Africa",
-      "source": "GNews | FR Economy",
-      "priority": 4,
-      "category": "主要国家",
       "relevance": "medium"
     },
     {
@@ -453,16 +508,6 @@
       "relevance": "medium"
     },
     {
-      "title": "India-Netherlands ties deepen with 17 deals, boost in trade, tech and defence cooperation - SME Futures",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzduODA2c0YzWGwyOWR0VERMMklGdk9NVW5leF9wR0Z0aFNCRGY4YXJWOXc3RXRMTV9YZ0JibWRGTVdiVDVtOXk5R2RUQjVYeE8xbVlFNU5GVl96bWo4Q3pHb2owa080ZmYtTjdvZ2stQWx5NG9oWEhqaG45OVQ2MGtwQ1RFUFUwSHZzSw?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "India-Netherlands ties deepen with 17 deals, boost in trade, tech and defence cooperation&nbsp;&nbsp;SME Futures",
-      "source": "GNews | NL Trade/ASML",
-      "priority": 4,
-      "category": "主要国家",
-      "relevance": "medium"
-    },
-    {
       "title": "EU warns of new Middle East energy shock to economy - Euractiv",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNWdIQ3daSmVmcTVSYTJSd0VJcFpEQjRtWFZLUXE4S212MTBFNS01OXRYMVlFRHpDVjRySFk1bXMtdDkzSkhKU1NDd0NsczlMR3Fnd09tYV9WRWdQcFdtNVZhTXBpMERMVzlqZVJMdFpQQUFDQlZwWVdleDYzcWU0NnZSQ2w2WElOQUE?oc=5",
       "published": "Fri, 22 May 2026 07:00:00 GMT",
@@ -470,6 +515,26 @@
       "source": "GNews | EU Economy",
       "priority": 4,
       "category": "ECB+经济",
+      "relevance": "medium"
+    },
+    {
+      "title": "Rising inflation signals June rate hike in the eurozone - ING THINK economic and financial analysis | ING THINK",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUnFSLUhDQjFYOEVhTTRNdFpLTDR4Nkl4cU8tbmNjUlRhbC1BbjNoYVM1VGFzN1BDZTh0a01HZDJxVkRjY1BwbzNfVG9UOWotLTZPd1V6RjMyM0tjaEJic3lfSEt1Z0tPOElDeC1IRlJoYzFzUjE3NTZaUTlteDRFa0MxZHkyTUk?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Rising inflation signals June rate hike in the eurozone&nbsp;&nbsp;ING THINK economic and financial analysis | ING THINK",
+      "source": "GNews | ECB/Rate",
+      "priority": 4,
+      "category": "ECB+经济",
+      "relevance": "medium"
+    },
+    {
+      "title": "SEMI and semiconductor companies call for extended investment credit - eeNews Europe",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM1lJaUx2NGg0aTNTYlJXZ0p5R21McUN2TzRGcmRxTHh1OGVKaEV4aXlqMkUxTmE5NnpqS09WempIdDdCWWNYQWJENjdraGtzVVN2Rm5OQzdqb21na2ZFQ0xBczVyNDZJWHR5Q0NqcmxtWEZFZnFZbkkxdGdiRm41UzhIVVAwRkhhVjlWRkRveG5LSWpKNFNMZ2FBYjJjRmwxbHFR?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "SEMI and semiconductor companies call for extended investment credit&nbsp;&nbsp;eeNews Europe",
+      "source": "GNews | EU Chip Fab",
+      "priority": 4,
+      "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
@@ -523,13 +588,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Die größten Tech-Unternehmen Europas: Silicon Valley hat uns lange genug unterschätzt – aber reicht das noch? - Xpert.Digital - Konrad Wolfenstein",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zeFFuOFZWQzhiWGEwbDMxbFVkQV9jc1lRQ0QyYkliUlQ1dGVNSk9wMlhzN0xSMk4wdFNKcnQ2cXltV1dLWDQ5d2RoczJiZEkyT3A1LW5nMXhUbVI5YmNIQmtBeFI0dWNTSVhCTWdJd9IBd0FVX3lxTE52MEhWbk02Y0wzZWIwRHdhYmpnVS1ITDJKX05ZX0R4RjVyb0J0WmhTaWVpa3U3ZUg2NFprNUFjWFhIN01PMkJPR0ZkbnpsWU1IeGY0UVR1c1gxdTdvR1dzVHE2VkZObW5ESU01NVp3cC1VMURhUXVJ?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Die größten Tech-Unternehmen Europas: Silicon Valley hat uns lange genug unterschätzt – aber reicht das noch?&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
-      "source": "GNews | EU Tech Hub",
+      "title": "Monthly Fed Funds, ECB, BoE interest rates 2003-2026 - Statista",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaXAwTUJ1WVlsU2dHX0xlYkdlczl1d3UtRWZvUERSbmJxanQ2Y2UzTXM2ZGNuYmVVcUdORGl5VFFMSUxDaVhIY3hkaVNxSFJ2bGMwMW82RTY0UE5zTl9BdG5STmtRSEx3SUprLWVZRm9lNVVDOGg5V2RsMFdJSEVRSmI5Tmtoa1d6RXZWQw?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Monthly Fed Funds, ECB, BoE interest rates 2003-2026&nbsp;&nbsp;Statista",
+      "source": "GNews | ECB/Rate",
       "priority": 3,
-      "category": "基础设施+科技",
+      "category": "ECB+经济",
       "relevance": "medium"
     },
     {
@@ -563,6 +628,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Why the next wave of European Unicorns won’t come from Berlin, Paris or Amsterdam - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWkk4LTRjcGRVZExwOWRVNW93OC04VmJLcm1pQ3NhUXBLMGhnendCZlRkWGROX2hRUnE1YTJIQXRJeFNQOXJSWGpDSlVqQmUtQmZaZkNwZ3FYbDNUd3RYTW80YmRHeGgzRWRGTHRkTGE2S3VkNnU0N05EZ0pRS2p6SkV5Z1J5Y0JyemN2NmpIVm5lLTlOb0R2SGxhM0NGaG8wZzV2blkyWTNjRG5wTldiVmt5N3JOUDQ?oc=5",
+      "published": "Tue, 09 Jun 2026 15:16:26 GMT",
+      "summary": "Why the next wave of European Unicorns won’t come from Berlin, Paris or Amsterdam&nbsp;&nbsp;EU-Startups",
+      "source": "GNews | EU Tech Hub",
+      "priority": 3,
+      "category": "基础设施+科技",
+      "relevance": "medium"
+    },
+    {
+      "title": "Europe lacks a coherent strategy toward China - Peterson Institute for International Economics",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc29xYktyRld6anVQUFpiQ2pEQm1ybjZya2x2WWcyeVJyR24yRDlqNTRlVW0xX2NJSTdLN3BpcERtd1JzaFFXN0pFY3JfRXJVdjZhRjhITkJ1eUZfVXRXM0dqdEJGVjllOUNnNGdMNjUxMkpYaU1pSC1FZ2twREV0a29yd05wYlAwTk9feWFpYTZQZG8zdlFfVFd3?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "Europe lacks a coherent strategy toward China&nbsp;&nbsp;Peterson Institute for International Economics",
+      "source": "GNews | China-EU",
+      "priority": 3,
+      "category": "大国关系",
+      "relevance": "medium"
+    },
+    {
       "title": "How the EU's carbon price on imports strengthens climate policies globally - Phys.org",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TaFBLcEVfdzNRVWxnQldPVDFoclhPNDZJbkxjbzJ6TXBZZTNDNXY5OFQxT3BBTm9pdXpDRTAxZjJzQXVadGgyUjI5OXBQTFFvV3dTNjMyNWZpNXVzZEk4UVVxWi1VbGUycTJqYTluRzRaTDho?oc=5",
       "published": "Tue, 02 Jun 2026 02:40:02 GMT",
@@ -570,6 +655,16 @@
       "source": "GNews | EU CBAM",
       "priority": 3,
       "category": "EU政策+制裁",
+      "relevance": "medium"
+    },
+    {
+      "title": "UK service sector activity slumps in one of sharpest declines for a decade - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUtTZmJjajI1ZjZTV3R1aThiTlJTZWgwbXJUNlNqRGJmeHFxUUNTRmhQZHd3UldJSERFVGx6d2tnVEZZTkxSekk0RlRFdE9uc1MxOTRYUUlfM3hPd0x4ZnQ1YnFQc1RYdTdiaktOZG1LY2hlbDU2RGxWdERzWHJRQWlTampLaHpmb1F3QllfTVRBMy10SWpTakQwSnZoSnp5aUF0QTZDVmFHdHRkdzlQQU1aa0hadnhTcURDWUdBT0s?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "UK service sector activity slumps in one of sharpest declines for a decade&nbsp;&nbsp;The Guardian",
+      "source": "GNews | EU Economy",
+      "priority": 3,
+      "category": "ECB+经济",
       "relevance": "medium"
     },
     {
@@ -627,9 +722,9 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWHZOcGl1U24wVWpZdjNyTlFHVTdUNFFSOXBMVUI2clNsSzNMMmFUeFRtRmk4WXZjMDZXT1Y2eFBrMGh1QUU4M3p5eDh3VkxhUS1sbTIyOGE4WG9IOFBMRFpMOWI2Z3pWQUNTZWZkWmwtSEZsRUVtcUdad2RrLXduMXdHQ2trci1OQ3cxdE9Na3BBNV9rRVh0alZVdU42d0VVV0E?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
       "summary": "EU-China Relations After the 2024 European Elections: A Timeline&nbsp;&nbsp;China Briefing",
-      "source": "GNews | FR Economy",
+      "source": "GNews | EU EV Anti-subsidy",
       "priority": 3,
-      "category": "主要国家",
+      "category": "EU政策+制裁",
       "relevance": "medium"
     },
     {
@@ -793,13 +888,13 @@
       "relevance": "low"
     },
     {
-      "title": "The Digital Omnibus on AI: A short guide to the - Dentons",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSTNKZ3c5QXBZUFBQbjBQeE80RTFlZmhGc2pxNDlZblc5SzFQTFhUeUlOenRvcUtuWjNHdWFIQ0JFZzhTME9VU19xVEhETndFRHpTTTBHNThFUUdqWDZDd0VEN1o0b3JsaGVtMDN0ZTBzRWVTVV8xZ2RHWTdYanh1MDhXUkFrTmsxd0VPLVBaWjBSLVk3V2NaR2QwZl9XbHAtcUJQb19Pd2FaSUFKa2ZoMG1mdXgwMVhud0VpMXlVa0Vtamp1WGNIRDhsOE1pQQ?oc=5",
-      "published": "Wed, 27 May 2026 15:24:10 GMT",
-      "summary": "The Digital Omnibus on AI: A short guide to the&nbsp;&nbsp;Dentons",
-      "source": "GNews | EU Digital Reg",
+      "title": "Implementing Effective U.S.-China Economic Engagement Channels - Asia Society",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc3VfSU5VbzlqM0pvejBONGZ4RW1pNzBFbkZnNUgxV2t4R0JsemdfbmJaX2RZTk42X3plS2N3bHFKa0Vxa0NiSHBRX1RCQVFrY2xqeUJTSmhiYlFXNmxtZzROSWRKZl92eWREbzJObXlhb0Vjc1NVNGFoc3hIYUNvbjA4blJMU3plOXlqazVyVXJpTTY4ZWR2cmNUNS11Z3VuSDdv?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "Implementing Effective U.S.-China Economic Engagement Channels&nbsp;&nbsp;Asia Society",
+      "source": "GNews | China-EU",
       "priority": 0,
-      "category": "EU政策+制裁",
+      "category": "大国关系",
       "relevance": "low"
     },
     {
@@ -873,13 +968,13 @@
       "relevance": "low"
     },
     {
-      "title": "AI agents under antitrust and consumer protection scrutiny: Risks and opportunities for compliance - www.hoganlovells.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSGxOcFFRaElLN3ZUODFLaEY0ZHg0QVl3OVFDZE82YlhIOVR6bEdVLWRGR3JTTDJYX05SSWRldzZlbER1ajk5WG5COTBtQ3lzQk9MRVhOVWgtMldYaUFtVVE0MUdkbWNGRDRQWUdPSjlSY2NSMmlnb3djRklhSTEwT1BIZl9LcXFSTnprVU1UeUJaR3Ftb1JGdWpqTWM1aTRKNE81U1pTUXJQbi1GNXVjeklvMkFYbVhxNnFmZzJSZ19qbjBTMkc4eFJKbC1nTXRvM053Z3J1MEg4UQ?oc=5",
-      "published": "Thu, 04 Jun 2026 14:16:25 GMT",
-      "summary": "AI agents under antitrust and consumer protection scrutiny: Risks and opportunities for compliance&nbsp;&nbsp;www.hoganlovells.com",
-      "source": "GNews | EU Digital Reg",
+      "title": "Investopia torna domani a Milano per dialogo tra Italia ed Emirati - Adnkronos",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUx0MkNGM2x0SjgzbVhWSl96OWwtVWJ0NXZvQzI3UVlOWm5RREpmdGttYWNMN0RMMlFzWXEwc3BVMXplZmNqS256Y1liUDlORnZENXVGMllvMWJ4UG5heG1zNlBuamFWaDI4cGREZzJTY1RuTFJ1R1pnX2dubjNIb09NVndxUGtGYVVhcVpLWXlfa0hsNXcxMDBaOU11M3RiZUJxellxZ2s2LV9ueDlTdWE0UG5jRHZZbHBMYjF3LWFNdw?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "Investopia torna domani a Milano per dialogo tra Italia ed Emirati&nbsp;&nbsp;Adnkronos",
+      "source": "GNews | IT Italiano",
       "priority": 0,
-      "category": "EU政策+制裁",
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {

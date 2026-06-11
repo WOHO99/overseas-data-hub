@@ -1,19 +1,20 @@
 {
   "version": "4.2",
-  "updated": "2026-06-11T04:03:24.404629+00:00",
+  "updated": "2026-06-11T04:39:11.774750+00:00",
   "fetch_date_utc": "2026-06-11",
-  "global_total": 1199,
-  "global_high": 38,
-  "global_medium": 523,
+  "global_total": 1549,
+  "global_high": 45,
+  "global_medium": 647,
   "global_signal_alerts": {
+    "unprecedented": 6,
     "record high": 5
   },
   "modules": {
     "global_business": {
       "output_file": "global_business.json",
-      "total": 250,
+      "total": 249,
       "high": 13,
-      "medium": 53,
+      "medium": 51,
       "fail_feeds": 6,
       "signal_alerts": {
         "unprecedented": 1,
@@ -23,27 +24,26 @@
     },
     "finance_global": {
       "output_file": "finance.json",
-      "total": 195,
-      "high": 5,
-      "medium": 77,
+      "total": 234,
+      "high": 6,
+      "medium": 82,
       "fail_feeds": 0,
       "signal_alerts": {
+        "warning": 3,
+        "central bank": 2,
         "BIS": 2,
-        "warning": 2,
-        "central bank": 1,
-        "IMF": 2,
-        "World Bank": 1
+        "IMF": 2
       },
       "rate_limited_feeds": 0
     },
     "tech_industry": {
       "output_file": "tech_industry.json",
-      "total": 92,
+      "total": 162,
       "high": 0,
-      "medium": 10,
+      "medium": 13,
       "fail_feeds": 0,
       "signal_alerts": {
-        "record high": 2,
+        "record high": 1,
         "breakthrough": 2,
         "discovery": 3
       },
@@ -51,50 +51,52 @@
     },
     "energy_commodities": {
       "output_file": "energy_commodities.json",
-      "total": 61,
+      "total": 72,
       "high": 1,
-      "medium": 35,
-      "fail_feeds": 0,
+      "medium": 37,
+      "fail_feeds": 1,
       "signal_alerts": {
+        "supply disruption": 1,
         "record high": 1,
-        "export ban": 1,
-        "supply disruption": 1
+        "export ban": 1
       },
       "rate_limited_feeds": 0
     },
     "geopolitics_risk": {
       "output_file": "geopolitics_risk.json",
-      "total": 47,
+      "total": 43,
       "high": 1,
-      "medium": 14,
+      "medium": 15,
       "fail_feeds": 0,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "esg_sustainability": {
       "output_file": "esg_sustainability.json",
-      "total": 61,
-      "high": 0,
-      "medium": 17,
+      "total": 88,
+      "high": 1,
+      "medium": 24,
       "fail_feeds": 0,
-      "signal_alerts": {},
+      "signal_alerts": {
+        "record high": 1
+      },
       "rate_limited_feeds": 0
     },
     "region_se_asia": {
       "output_file": "se_asia.json",
-      "total": 68,
+      "total": 98,
       "high": 1,
-      "medium": 34,
-      "fail_feeds": 3,
+      "medium": 48,
+      "fail_feeds": 6,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "region_south_asia": {
       "output_file": "south_asia.json",
-      "total": 84,
-      "high": 2,
-      "medium": 45,
-      "fail_feeds": 0,
+      "total": 107,
+      "high": 4,
+      "medium": 55,
+      "fail_feeds": 2,
       "signal_alerts": {
         "unprecedented": 1,
         "record high": 1
@@ -103,21 +105,21 @@
     },
     "region_middle_east": {
       "output_file": "middle_east.json",
-      "total": 74,
+      "total": 121,
       "high": 3,
-      "medium": 37,
-      "fail_feeds": 0,
+      "medium": 62,
+      "fail_feeds": 1,
       "signal_alerts": {
-        "unprecedented": 2
+        "unprecedented": 3
       },
       "rate_limited_feeds": 0
     },
     "region_latin_america": {
       "output_file": "latam.json",
-      "total": 37,
-      "high": 2,
-      "medium": 16,
-      "fail_feeds": 0,
+      "total": 50,
+      "high": 3,
+      "medium": 18,
+      "fail_feeds": 1,
       "signal_alerts": {
         "political crisis": 1
       },
@@ -125,21 +127,22 @@
     },
     "region_africa": {
       "output_file": "africa.json",
-      "total": 70,
+      "total": 109,
       "high": 4,
-      "medium": 50,
-      "fail_feeds": 1,
+      "medium": 65,
+      "fail_feeds": 2,
       "signal_alerts": {
-        "coup": 1
+        "coup": 1,
+        "unprecedented": 1
       },
       "rate_limited_feeds": 0
     },
     "region_europe": {
       "output_file": "europe.json",
-      "total": 88,
+      "total": 109,
       "high": 2,
-      "medium": 62,
-      "fail_feeds": 1,
+      "medium": 72,
+      "fail_feeds": 2,
       "signal_alerts": {
         "supply disruption": 1
       },
@@ -147,10 +150,10 @@
     },
     "region_cis": {
       "output_file": "cis.json",
-      "total": 43,
-      "high": 4,
-      "medium": 26,
-      "fail_feeds": 0,
+      "total": 74,
+      "high": 6,
+      "medium": 53,
+      "fail_feeds": 1,
       "signal_alerts": {
         "nuclear threat": 2
       },
@@ -158,28 +161,15 @@
     },
     "region_east_asia": {
       "output_file": "east_asia.json",
-      "total": 107,
+      "total": 117,
       "high": 0,
-      "medium": 58,
-      "fail_feeds": 0,
+      "medium": 63,
+      "fail_feeds": 1,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     }
   },
   "high_priority_articles": [
-    {
-      "title": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nZWg3VU13dFl2RnR1OEVZRG9HVGJRaDRENzRKRVNaREtmTzg5bWFnckQyWHp2UUFaYnZ6QlF6MkZuQUphT3B0elA0ZGpwRkJ3emYycTR3TzJpSlIzckNoS1J1bkVIMkt4cWRhTEVR?oc=5",
-      "published": "Wed, 27 May 2026 12:05:30 GMT",
-      "summary": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | QA Trade/LNG",
-      "priority": 23,
-      "category": "海湾国家",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
     {
       "title": "USTR Proposes Sweeping Tariffs as Part of Section 301 Forced Labor Import Enforcement Investigation - Crowell & Moring LLP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcjRRdGQ3Z2w2SHB6TWwtRFJaSFo2VTQxRUJ4OTRiSTFja0Q0aW16MDVrNkdBZVF6dXVzS01nRlBpZ19fZGt2WnRIM2ZqZVg2Z3FXdWVYY2dsOG43VzNfb200QjNhSHJNTTJGaFlUQXBKYy1FVlMxcU9HaEZWclZhNGU5dGstd1RvN2JKVkRORjVRMldCR0haWUJsYWx6VnRTR09OZUJoczNDb3AwVmlaSkcyRm9GVUlucTdTNzVqMmFNcWtHNEotRjg2VDI0M0RFc1hRSE5FRF9OMVVUNDJVU3JHQQ?oc=5",
@@ -233,6 +223,35 @@
       ]
     },
     {
+      "title": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmxNZjJHcUpwaC1fU3pZVktfNzdvLXFsMHNNa1FEY3BmSkpUaVMtLUxFTVBqY1lWTnJFbHVDZVNpaEpVQkgyOEtkcUNDSkdhaUdYeTRCX0k0LU5IZFo2Qjc4ZEE3VlZpLTFLUmJR?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | Signal: ME Escalation",
+      "priority": 16,
+      "signal_keywords": [
+        "unprecedented"
+      ],
+      "category": "信号性查询",
+      "relevance": "high",
+      "matched_modules": [
+        "中东深度"
+      ]
+    },
+    {
+      "title": "EU Proposes Visa Ban on Russian War Veterans and New Oil Sanctions",
+      "link": "https://www.themoscowtimes.com/2026/06/09/eu-proposes-visa-ban-on-russian-war-veterans-and-new-oil-sanctions-a92963",
+      "published": "Tue, 09 Jun 2026 17:42:14 +0300",
+      "summary": "A central focus of the fresh EU sanctions package is suppressing Russian energy revenues amid surging global oil prices driven by the war in the Middle East.",
+      "source": "Moscow Times",
+      "priority": 16,
+      "category": "独立RSS源",
+      "relevance": "high",
+      "matched_modules": [
+        "独联体深度"
+      ]
+    },
+    {
       "title": "High Purity Dissolving Pulp From Brazil and Norway; Scheduling of the Final Phase of Countervailing Duty and Antidumping Duty Investigations",
       "link": "https://www.federalregister.gov/documents/2026/06/10/2026-11617/high-purity-dissolving-pulp-from-brazil-and-norway-scheduling-of-the-final-phase-of-countervailing",
       "published": "Wed, 10 Jun 2026 04:00:00 GMT",
@@ -272,16 +291,29 @@
       ]
     },
     {
-      "title": "Colombia election outcome could reshape copper investment - Mining.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb2RBSnFXdEc0NUpLQ0dVT3RwVUhSLVVlRzcyamZxcVB0X0ZXLVNUb3I3RXppbzI1T2tXWlEyZHd1Z0ZrU19mZnRnNDZNdldsYmJOOFBwQkxiZ21jN09QSFkxZGhzUUk0aU9BaDN1MzVLbHBqLW9PSUxCWDdTVkk5QnItc08tQUFHT1dBOE9oenFmbjE5d2c?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Colombia election outcome could reshape copper investment&nbsp;&nbsp;Mining.com",
-      "source": "GNews | CO/PE Trade",
-      "priority": 15,
-      "category": "阿根廷+智利+其他",
+      "title": "The reality behind falling net FDI",
+      "link": "https://www.thehindu.com/business/Economy/the-reality-behind-falling-net-fdi/article71084799.ece",
+      "published": "Wed, 10 Jun 2026 23:30:55 +0530",
+      "summary": "India’s net FDI has declined sharply despite strong gross inflows, underlining the impact of disinvestment/capital repatriation; an understanding of these trends requires looking beyond aggregate inflow, outflow figures; investor classes, modes of entry, and exit strategies can have important implications for technology transfer, industrial development, and external sustainability",
+      "source": "The Hindu Business",
+      "priority": 14,
+      "category": "独立RSS源",
       "relevance": "high",
       "matched_modules": [
-        "拉美深度"
+        "南亚深度"
+      ]
+    },
+    {
+      "title": "‘I Touched a Nerve’: British Teenager Banned From Russia Over Work on Crypto Sanctions Evasion",
+      "link": "https://www.themoscowtimes.com/2026/06/05/i-touched-a-nerve-british-teenager-banned-from-russia-over-work-on-crypto-sanctions-evasion-a92940",
+      "published": "Fri, 05 Jun 2026 14:45:00 +0300",
+      "summary": "Moscow hit 17-year-old Alexander Browder with an entry ban after he investigated Russia’s use of cryptocurrency networks to dodge sanctions.",
+      "source": "Moscow Times",
+      "priority": 14,
+      "category": "独立RSS源",
+      "relevance": "high",
+      "matched_modules": [
+        "独联体深度"
       ]
     },
     {
@@ -311,6 +343,32 @@
       ]
     },
     {
+      "title": "Weak yen, hawkish Fed adds to pressure on BOJ to accelerate hikes - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHRTbEVkNllBeWlhNDE2aWY2Vzg5aTBBaTF5cFBJWGo0anZGZ3dVb3VtcVFFakYweTk2akRPZzJUcy1WVDVJY3NIYjFqNldMdzVtNDhtRHFCd1RrMW9KdVBoc1RRaDk2VGkxdXRWdEZYSVNrOFFQMzlHZlRocExaanFRNW5mRy1Tc3BaejFoa2VVNTZ5SFpEQVdiR1BQSUFuWVktVnNQQVJkSlhvcTFj?oc=5",
+      "published": "Tue, 09 Jun 2026 23:47:44 GMT",
+      "summary": "Weak yen, hawkish Fed adds to pressure on BOJ to accelerate hikes&nbsp;&nbsp;Reuters",
+      "source": "GNews | JPY",
+      "priority": 12,
+      "category": "汇率",
+      "relevance": "high",
+      "matched_modules": [
+        "全球宏观与资本流动"
+      ]
+    },
+    {
+      "title": "22 more applicants approved under PLI scheme for textiles",
+      "link": "https://www.thehindu.com/business/22-more-applicants-approved-under-pli-scheme-for-textiles/article71085286.ece",
+      "published": "Thu, 11 Jun 2026 03:41:12 +0530",
+      "summary": "An official press release said these companies will generate a projected turnover of ₹15,561.34 crore in notified products, and create 36,217 employment opportunities across the textile value chain.",
+      "source": "The Hindu Business",
+      "priority": 12,
+      "category": "独立RSS源",
+      "relevance": "high",
+      "matched_modules": [
+        "南亚深度"
+      ]
+    },
+    {
       "title": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus - Mexico Business News",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmJGSHdaMDFUaDl6dENEdGVmdWVVNlRDS05jWE9MSjloQVU3UEMxNFVNS2Z3dUo4VGlIV1VTd1pWNzZaVFVHeHJkT1ZOX2NzV0xtLV96RTFvS1hRLW9ENWFtdHFHZlFERjJxSmp3X0wzaFQwbDNVYS1YWEdycHB6UUZ3QkJVMDcxQXlTMENxNkhBZmE1T2FqUWJMSTVEOEpPX3JwYg?oc=5",
       "published": "Wed, 10 Jun 2026 21:50:15 GMT",
@@ -318,6 +376,19 @@
       "source": "GNews | MX Auto/Mfg",
       "priority": 12,
       "category": "墨西哥",
+      "relevance": "high",
+      "matched_modules": [
+        "拉美深度"
+      ]
+    },
+    {
+      "title": "ProChile proyecta más inversión y exportación de servicios hacia Colombia - El Espectador",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS0ZnYm82Qm5RLVBNeWJCaFVlcURCYkNKNXVPeU1GVUFyd3VsZjk1N0ZDMXptUEZVME9qZG5PLV9Qb0NhdUhDdGRCV1BsTGJ4RW95elN3NXhKVWYxLS1yb2NJSjlrbE5KbnAyN0hCelFsVUhEVzlQeWVOUXlwbkdRckg4M1ZiWG5leDhuMVRiNWhzZjJUaV9mNUNCYkdfcm12ZTIwOWg3eTVBZlZ1TFpwelFB?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "ProChile proyecta más inversión y exportación de servicios hacia Colombia&nbsp;&nbsp;El Espectador",
+      "source": "GNews | CO Español",
+      "priority": 12,
+      "category": "本地语言搜索",
       "relevance": "high",
       "matched_modules": [
         "拉美深度"
@@ -389,6 +460,20 @@
       ]
     },
     {
+      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Privacy",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG9vcExiVnVZbVNkSVZYUE9kRVVNc0tDV0dEOTdUU3o4LWg4X0s0Qi0yOVRzRXJEZGZsTklRZzRYSVlRNWdHUFlnX3cxdk54S241ZE9JREtVSWdPZWsxMVBQeEQ5TUUwZENvQkx1dUczSGVQVmN2VVUwdF9PSk9ZQ1U3TW9CZU96SWllZ1pld3R5OEt3RWp3UnY3aWFGQzJHaU9TdmFmamo3R2VnNXlHZ2JIX1U3YmhMekkyX1VSaUtmOUJnQ29FalQtdw?oc=5",
+      "published": "Mon, 08 Jun 2026 15:57:33 GMT",
+      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Privacy",
+      "source": "GNews | EU Digital Reg",
+      "priority": 11,
+      "category": "EU政策+制裁",
+      "relevance": "high",
+      "matched_modules": [
+        "全球商业与产业链重构",
+        "欧洲深度"
+      ]
+    },
+    {
       "title": "UK Inflation Falls Unexpectedly, Lowering Chances of a BoE Rate Hike - Morningstar",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMUhucU4zT2hldDI0cXVFT3FKVjdhRjFyV3I3TWNvOFg1YlFYZFhieHNhWEg3ZVVySW44SVpiS1BTWXkxVWd2cFJTQ1p4c2RGeEJlOW9yZzNNR29aX0U1OWQ2RmYzdUMybS1PN2F3NkE5ekw0UENZSmdjYU1qbnBfYlpnb0Z2TEZsMXM0a2NRWWNKX1pUMDhtb1V1eDFkaDVhektJXzlqajJaYm8?oc=5",
       "published": "Wed, 20 May 2026 09:01:33 GMT",
@@ -419,9 +504,9 @@
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWExOOUE5cWJaYVd6ODBKdFVtV3ZoU19RTmpJRVNMaWpQN2UwR2g2SGk3R1RrdC0yc181TWRjbzBGNE1PV1VLdDAxMVczb3FyZE9rTE93X2c5NE9FSjY1Y09YUjlPU3VrVUVqNDJhWGJiNlN0MDVYTldlUTlhOVpVcGZNYVh2bW9YRTgtU2tUMGJRZU9zdDFlb3JRSTQyVHVvaFVVam0zMnExakpOaEkyejhaOERuSG1wT2dDQnZsVlI3MHhDTEVkVmFGUDhZbXdIdUVDNGdqWjY1Wm1kV2VwQ25IT2FWb2E3RVBTSEROTHd4RzNNTDRXUmQwRDNzUQ?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "EMB's 6 Percent Emerging Market Bond Yield Hides Hard Currency Sovereign Default Risk Most Income Investors Have Never Modeled&nbsp;&nbsp;24/7 Wall St.",
-      "source": "GNews | EM Debt Crisis",
+      "source": "GNews | Corp Bond",
       "priority": 11,
-      "category": "系统性风险",
+      "category": "债市+信用",
       "relevance": "high",
       "matched_modules": [
         "全球宏观与资本流动"
@@ -438,6 +523,19 @@
       "relevance": "high",
       "matched_modules": [
         "全球宏观与资本流动"
+      ]
+    },
+    {
+      "title": "Charm Industrial Secures 61,500-Ton Carbon Removal Deal and $20 Million Financing From JPMorganChase",
+      "link": "https://esgnews.com/charm-industrial-secures-61500-ton-carbon-removal-deal-and-20-million-financing-from-jpmorganchase/?utm_source=rss&utm_medium=rss&utm_campaign=charm-industrial-secures-61500-ton-carbon-removal-deal-and-20-million-financing-from-jpmorganchase",
+      "published": "Fri, 05 Jun 2026 13:58:47 +0000",
+      "summary": "JPMorganChase Deepens Carbon Removal Bet Colorado is becoming a test bed for one of the carbon market’s hardest questions: how to scale permanent carbon removal while solving local climate risks....\nThe post Charm Industrial Secures 61,500-Ton Carbon Removal Deal and $20 Million Financing From JPMorganChase appeared first on ESG News.",
+      "source": "ESG News",
+      "priority": 11,
+      "category": "独立RSS源",
+      "relevance": "high",
+      "matched_modules": [
+        "ESG与可持续发展"
       ]
     },
     {
@@ -477,19 +575,6 @@
       "relevance": "high",
       "matched_modules": [
         "非洲深度"
-      ]
-    },
-    {
-      "title": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs - Inside Privacy",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG9vcExiVnVZbVNkSVZYUE9kRVVNc0tDV0dEOTdUU3o4LWg4X0s0Qi0yOVRzRXJEZGZsTklRZzRYSVlRNWdHUFlnX3cxdk54S241ZE9JREtVSWdPZWsxMVBQeEQ5TUUwZENvQkx1dUczSGVQVmN2VVUwdF9PSk9ZQ1U3TW9CZU96SWllZ1pld3R5OEt3RWp3UnY3aWFGQzJHaU9TdmFmamo3R2VnNXlHZ2JIX1U3YmhMekkyX1VSaUtmOUJnQ29FalQtdw?oc=5",
-      "published": "Mon, 08 Jun 2026 15:57:33 GMT",
-      "summary": "EU AI Act Update: The European Commission Publishes Draft Guidelines on HRAIs&nbsp;&nbsp;Inside Privacy",
-      "source": "GNews | EU Digital Reg",
-      "priority": 11,
-      "category": "EU政策+制裁",
-      "relevance": "high",
-      "matched_modules": [
-        "欧洲深度"
       ]
     },
     {
@@ -571,10 +656,10 @@
       ]
     },
     {
-      "title": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlLUZSVWt0R3QwOVg1OENhbGZKXzBFbVk4Wi1kVGdvay1zRDN4Z2ZralpEZzVCV1N5Z2JUcUpYWFU1d3hLUThZVUxuN1JoTl9rLXJGMlhmT3o0NmdqR2c?oc=5",
-      "published": "Thu, 04 Jun 2026 05:00:00 GMT",
-      "summary": "Israel-Hamas War (Gaza Conflict) | Explanation, Summary, Ceasefire, Casualties, & Map&nbsp;&nbsp;Britannica",
+      "title": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVRzT2dqanBvLTQ3Y19UYlRxdmotODZEOFl6NW4xX1VfMThSbU5IYUFOS0k0YXpPTVNNQ3FnMFMzOUpiV1k0NFoyckt1a0xwVFQtelNaa1RTNU5wb3ZtQUV1bE1Wd2JpTlhwR28zUnpmNkJvOGZxeTlfTmVTQndWZHBNMkQ5a1dhaFFkTg?oc=5",
+      "published": "Mon, 08 Jun 2026 22:45:06 GMT",
+      "summary": "Gaza war: Israel & Hamas reach ceasefire, hostage release deal&nbsp;&nbsp;News On AIR",
       "source": "GNews | Israel-Gaza",
       "priority": 10,
       "category": "军事冲突",
@@ -621,6 +706,19 @@
       "relevance": "high",
       "matched_modules": [
         "南亚深度"
+      ]
+    },
+    {
+      "title": "Argentina: A year after Kirchner's final conviction, a possible pardon splits Peronism before 2027",
+      "link": "https://en.mercopress.com/2026/06/10/argentina-a-year-after-kirchner-s-final-conviction-a-possible-pardon-splits-peronism-before-2027?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Wed, 10 Jun 2026 06:51:00 GMT",
+      "summary": "A year has passed since Argentina's Supreme Court made final the corruption conviction against former President Cristina Fernández de Kirchner —six years in prison and a lifetime political ban— and the possibility of pardoning her if Peronism returns to power is dividing the movement, as it searches for a candidate for the late-2027 presidential elections. Kirchner is under house arrest in a Buenos Aires apartment, in the Constitución neighborhood, where her supporters will again gather on Wedne...",
+      "source": "MercoPress",
+      "priority": 10,
+      "category": "独立RSS源",
+      "relevance": "high",
+      "matched_modules": [
+        "拉美深度"
       ]
     },
     {

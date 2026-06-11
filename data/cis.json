@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-06-11T04:21:07.194041+00:00",
+  "updated": "2026-06-11T04:39:09.956165+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 76,
+  "total": 74,
   "high_priority": 6,
-  "medium_priority": 52,
+  "medium_priority": 53,
   "signal_alerts": {
     "nuclear threat": 2
   },
@@ -47,7 +47,7 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 23,
+      "count": 22,
       "feeds": 2
     }
   },
@@ -235,16 +235,6 @@
       "relevance": "medium"
     },
     {
-      "title": "How the Middle Corridor is transforming Central Asia into a global trade powerhouse - Latest news from Azerbaijan",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTHJXRlI3X0NvNFpGaDBQWkhTc1gxdnBXcUdIYzVnLWVnRWFMS0FDZERBdWtRTUh6cElhVm5VVDZPYXpTNkRZQWUybXhpWklFMEtzbGhwRVZvNkZhZEhseHBUa2NhWWFvaG4yY0k0R21zTkItc2d4eXlONE1wNVBzUHp5RUJnRW9yMFdTMzFxRjdWSExCU3F2Mlg3TXZNSF84VTlsX1JUNA?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "How the Middle Corridor is transforming Central Asia into a global trade powerhouse&nbsp;&nbsp;Latest news from Azerbaijan",
-      "source": "GNews | Central Asia/BRI",
-      "priority": 7,
-      "category": "中亚",
-      "relevance": "medium"
-    },
-    {
       "title": "Russian and Belarusian Supreme Courts Sign Deal to ‘Harmonize’ Judicial Practice",
       "link": "https://www.themoscowtimes.com/2026/06/10/russian-and-belarusian-supreme-courts-sign-deal-to-harmonize-judicial-practice-a92974",
       "published": "Wed, 10 Jun 2026 18:04:38 +0300",
@@ -275,13 +265,13 @@
       "relevance": "medium"
     },
     {
-      "title": "World Gas Turbine Oil - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmZkWWR0RGd0Z1QyaTNka1hrNE8zZGVFc1dPM3NBcjVJeVY2MmNheG0wYkdXdmlDc0hxaXJOdVNsY1lpMnRGUGktSTFNdlVVeGpwT1JpekxpYVBuck5oZGE1UWM2N2pMUC1tZW1CZmpUZlJnalU1UnI0d1pHWnZrVTVoNjZKa25ibl9MZHV5ZjNKb3M1M2Itc3VJY0t4YjJHUEVCMlNMWlhoWWZGNkljNi1UeDZrWGZOU21CQ21vdFNXanVsbW52bFVCMEpVZ21GSjJxeg?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "World Gas Turbine Oil - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-      "source": "GNews | CIS Energy",
+      "title": "Russia Examining Rail Project Connecting Through Afghanistan - افغانستان اینترنشنال",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yQnRiZDAxNklVZXRkbnRsajd3WWF2ekkwdGJnWDUyZWpvQkZZd2pXQi0yb1U1ZXdHeVZjQkJRdUdCQ0tvZGZPWXFnUFFxUWc?oc=5",
+      "published": "Thu, 04 Jun 2026 16:18:53 GMT",
+      "summary": "Russia Examining Rail Project Connecting Through Afghanistan&nbsp;&nbsp;افغانستان اینترنشنال",
+      "source": "GNews | CA Infra",
       "priority": 6,
-      "category": "白俄罗斯+能源",
+      "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
@@ -292,6 +282,16 @@
       "source": "GNews | RU Sanctions",
       "priority": 6,
       "category": "俄罗斯",
+      "relevance": "medium"
+    },
+    {
+      "title": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03SjhWVXRYZlUxaDBGaUFuc1dKS3Qzc1lBb3d2aV9lN01jaGFzOTBlTG9sMTRNSG1MR3JCQkNCMFhUSV8yZ3NQVUlOY1RmODBrNDFIcTBfYXY3aG9mRmxSUXAwOU9HNy14?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Belt and Road Initiative (BRI) | Countries, Map, Africa, & Pros And Cons&nbsp;&nbsp;Britannica",
+      "source": "GNews | Central Asia/BRI",
+      "priority": 6,
+      "category": "中亚",
       "relevance": "medium"
     },
     {
@@ -399,7 +399,7 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1BVekhxbXpTTE50UG0wWlU4d3N5aWxFSUtsY2JXLWtNeDBuRUNkTW5jRmR1RnRoMEY3RXhiLXBrejNLc195X0p6QXF5WlpYN3IzYmlEdHRIUl9VdzFES2V1Tk5FVzFpNlpneFdUdFBFYnNybVhoZXhkNS1TbVJzcmFBY09TeERpVVJsMWZMbVkyamR5ejZIS0V5YlYyWWJUSVhvTEdpQXQ1eVJXbHUzV0xSRDc?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "How 13 Years of Chinese Investment Changed Central Asia&nbsp;&nbsp;The National Interest",
-      "source": "GNews | KZ Trade/BRI",
+      "source": "GNews | Central Asia/BRI",
       "priority": 4,
       "category": "中亚",
       "relevance": "medium"
@@ -435,6 +435,16 @@
       "source": "Moscow Times",
       "priority": 3,
       "category": "独立RSS源",
+      "relevance": "medium"
+    },
+    {
+      "title": "Critical Minerals Open New Chapter in US-Central Asia Relations - The Astana Times",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdzZKRVFpMjN3RTQzcm5qVFYzRGVSLTlzTzZjblZieWVLZG9qdmFqRHp3a0U1dG53N1FpSFZCckdOdnR2bkpGRkZERmxMUjEyMU91N2JVVGd6TXlrTjdWZzZxeTRZMFFHZkxJRUxBTXdsT1B1SFpYTXJyelRBS3Z4a1J4dDdjdmtMOFk4NlJGR0pLakc4eGE5YkNNX1A?oc=5",
+      "published": "Wed, 10 Jun 2026 14:42:27 GMT",
+      "summary": "Critical Minerals Open New Chapter in US-Central Asia Relations&nbsp;&nbsp;The Astana Times",
+      "source": "GNews | US-CA",
+      "priority": 3,
+      "category": "大国关系",
       "relevance": "medium"
     },
     {
@@ -741,16 +751,6 @@
       "relevance": "low"
     },
     {
-      "title": "Turkmenistan, US Discuss Expansion of Cooperation - Caspian News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczZxTVJiYS1TNElGbFUtUUJ0bHFJcVJfeTZ6NF9mejRCZ1dHay1rZFRGTlJ1UUpyLWdzaE5aMUliY2tMQ3lkWTEyQjhVU2VZLVFFUG1zanpyeWZieUY1NEFFeFR1UTRuOWZoc2piLUVSLUZWU1pvUkdoNjJrVTFXQ3RtQjVEVWlCUUZXWkJPT0N1Q1Y1R05zTHdzOXlEUQ?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "Turkmenistan, US Discuss Expansion of Cooperation&nbsp;&nbsp;Caspian News",
-      "source": "GNews | US-CA",
-      "priority": 0,
-      "category": "大国关系",
-      "relevance": "low"
-    },
-    {
       "title": "Економічні прогнози для України: коли очікувати покращення через новий економічний курс - Главком",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSmYzTWpMNmhPOFFtS3ZMVi1MSUR0ck1ORWdTOXVlSFJhS3VfN2plSS1HcklGVGdZLWRaMzdUVWE0TDZLN3d6WUJKZnhER3pDNlFjOEJHWlRDTkQzQ1FJMU5ZckJFdWpYWEVaaGtJUHZqd2ZXdENtTzE5Y2UxZW56Z0s5b2EzNl9EX003R0EyeFdWSm5fUTc3ZVZ6X04yYUVzTU1NMWFQSDREX3BHYnlhc3hoUDI2NXo3UkdraE54Q2pCWTdIWHVMeGRYMU40cEF1b0xaMnh2M3NSQkFHYWhyTWphZ9IB6AFBVV95cUxQRnZpRnNCQ0JRWGJmQkItcGRWTUVyNW50TDdvVG1yNHViSlo3ejFXc0poZWtRRGpycTU2X2dvRVduR3hUVEJiVDhsZ0tjY3VJVmxBcHRicHJsN3ZYUF9lanVnU1RGRDZQaFlmTjVsQVJ3NXFZZHktdFNCb1pSSldTYUIyS1g1OTFUSV8zbHlUMll1QzMyVnAwN2JpUnRKOFd2bVRaOWxFX1JRck9fMm0wOVJiMFMxWFF3R0RnMklwWnAwNXZ0VDJNWExmQ0I4SVd0SG9SSVVUV0xxWVBkQWtaU2NTeW80Y0xH?oc=5",
       "published": "Thu, 04 Jun 2026 11:01:16 GMT",
@@ -771,16 +771,6 @@
       "relevance": "low"
     },
     {
-      "title": "Vietnam and India reshape middle power diplomacy - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkZZaVlzV0JyY1pZZWlsWFhsb1V2dTc1WmpLbVhFSmZKaVFjNTBCSWo4WTNvWUtxQnl3czIyUzVLZ2o1QXYtSVo0bFF3b011aTFTMFNaZ0RMY28xWDBpWThjRkpkcFI3cEJ5WWlVdXpJRlpvMlVqUnRJeVI3Y3BxS3M0TlR0SFIwbTluS2Rlbw?oc=5",
-      "published": "Thu, 04 Jun 2026 00:00:00 GMT",
-      "summary": "Vietnam and India reshape middle power diplomacy&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | US-CA",
-      "priority": 0,
-      "category": "大国关系",
-      "relevance": "low"
-    },
-    {
       "title": "Как устроена экономика Вьетнама - Эксперт - последние новости и публикации журнала Эксперт",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVjlqZEVmdW5GWm13a01peUx0R0E5bkNJdXVWbGNnOVlZWVFXeTdwbDVBQlViZ2FGNm41QURDdXE4NDAtNUlEbi1OTlpxM3VrU2JZZFJwZ3dUSkVtV2lqM09QVGh4Z1o0TmNHX3BCenlrVVBtbDIxSXJhMjRNR094MA?oc=5",
       "published": "Sun, 17 May 2026 13:01:56 GMT",
@@ -788,16 +778,6 @@
       "source": "GNews | RU Русский",
       "priority": 0,
       "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "The Xi–Trump summit lived up to modest expectations - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmc2MmpQaFhKd0ZpdnVJRjA5TTBUbVBPc0VqempZT0dITVplenJ0YU5mOUNxVzJ6RHhVWVVpUm14MEpuR2hPaGlzRVRJMmRKb2F1VEY4WnZ3S0RVU0dlUVU5Wk1FTENfZHFoaERGTnBycG9LSGp4eU9ycTRnTFhSeFVDS0ozUnFscE1aRDhhdy1XUEE?oc=5",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "The Xi–Trump summit lived up to modest expectations&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | US-CA",
-      "priority": 0,
-      "category": "大国关系",
       "relevance": "low"
     },
     {

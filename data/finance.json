@@ -1,17 +1,16 @@
 {
   "version": "4.0",
   "module": "全球宏观与资本流动",
-  "updated": "2026-06-11T04:20:48.803308+00:00",
+  "updated": "2026-06-11T04:38:44.331063+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 227,
-  "high_priority": 5,
-  "medium_priority": 75,
+  "total": 234,
+  "high_priority": 6,
+  "medium_priority": 82,
   "signal_alerts": {
+    "warning": 3,
     "central bank": 2,
     "BIS": 2,
-    "warning": 2,
-    "IMF": 2,
-    "World Bank": 1
+    "IMF": 2
   },
   "stats_by_category": {
     "全球宏观": {
@@ -27,7 +26,7 @@
       "feeds": 3
     },
     "各国股市": {
-      "count": 360,
+      "count": 353,
       "feeds": 12
     },
     "大宗商品": {
@@ -73,6 +72,16 @@
       "relevance": "high"
     },
     {
+      "title": "Weak yen, hawkish Fed adds to pressure on BOJ to accelerate hikes - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHRTbEVkNllBeWlhNDE2aWY2Vzg5aTBBaTF5cFBJWGo0anZGZ3dVb3VtcVFFakYweTk2akRPZzJUcy1WVDVJY3NIYjFqNldMdzVtNDhtRHFCd1RrMW9KdVBoc1RRaDk2VGkxdXRWdEZYSVNrOFFQMzlHZlRocExaanFRNW5mRy1Tc3BaejFoa2VVNTZ5SFpEQVdiR1BQSUFuWVktVnNQQVJkSlhvcTFj?oc=5",
+      "published": "Tue, 09 Jun 2026 23:47:44 GMT",
+      "summary": "Weak yen, hawkish Fed adds to pressure on BOJ to accelerate hikes&nbsp;&nbsp;Reuters",
+      "source": "GNews | JPY",
+      "priority": 12,
+      "category": "汇率",
+      "relevance": "high"
+    },
+    {
       "title": "UK Inflation Falls Unexpectedly, Lowering Chances of a BoE Rate Hike - Morningstar",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMUhucU4zT2hldDI0cXVFT3FKVjdhRjFyV3I3TWNvOFg1YlFYZFhieHNhWEg3ZVVySW44SVpiS1BTWXkxVWd2cFJTQ1p4c2RGeEJlOW9yZzNNR29aX0U1OWQ2RmYzdUMybS1PN2F3NkE5ekw0UENZSmdjYU1qbnBfYlpnb0Z2TEZsMXM0a2NRWWNKX1pUMDhtb1V1eDFkaDVhektJXzlqajJaYm8?oc=5",
       "published": "Wed, 20 May 2026 09:01:33 GMT",
@@ -97,9 +106,9 @@
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWExOOUE5cWJaYVd6ODBKdFVtV3ZoU19RTmpJRVNMaWpQN2UwR2g2SGk3R1RrdC0yc181TWRjbzBGNE1PV1VLdDAxMVczb3FyZE9rTE93X2c5NE9FSjY1Y09YUjlPU3VrVUVqNDJhWGJiNlN0MDVYTldlUTlhOVpVcGZNYVh2bW9YRTgtU2tUMGJRZU9zdDFlb3JRSTQyVHVvaFVVam0zMnExakpOaEkyejhaOERuSG1wT2dDQnZsVlI3MHhDTEVkVmFGUDhZbXdIdUVDNGdqWjY1Wm1kV2VwQ25IT2FWb2E3RVBTSEROTHd4RzNNTDRXUmQwRDNzUQ?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
       "summary": "EMB's 6 Percent Emerging Market Bond Yield Hides Hard Currency Sovereign Default Risk Most Income Investors Have Never Modeled&nbsp;&nbsp;24/7 Wall St.",
-      "source": "GNews | EM Debt Crisis",
+      "source": "GNews | Corp Bond",
       "priority": 11,
-      "category": "系统性风险",
+      "category": "债市+信用",
       "relevance": "high"
     },
     {
@@ -111,6 +120,19 @@
       "priority": 11,
       "category": "全球宏观",
       "relevance": "high"
+    },
+    {
+      "title": "Barclays: Yen intervention is keeping USD/JPY around the baseline 160 level - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOXzVpQkVZenB3SXktZklvaGRGRkdoREktT1F3cncwZnd0OWpBODhWbkM0YUMtX3JjTGlPNk5PczJNanBpelNMT3RVaGhES3JDNTRUSVFyX0xjZmM3RkdGTHl4eFFPUXlJYVd1dGI3Q2pNRmlDVi15X21udWc0REtDVjFqU201UmRkaGZ6ZGtaV1I3QkRjOU1ZRHpPYnphZ1l6Rnp2Rkc1eThQUGVxYmc?oc=5",
+      "published": "Wed, 10 Jun 2026 04:44:00 GMT",
+      "summary": "Barclays: Yen intervention is keeping USD/JPY around the baseline 160 level&nbsp;&nbsp;CNBCYen lingers above ¥160 to the dollar ahead of BOJ meeting&nbsp;&nbsp;The Japan TimesJapan issues warning on yen, bond yields as fiscal pressure mounts&nbsp;&nbsp;ReutersUSD/JPY: Dollar Climbs to Fresh Peaks Above ¥160.40. How High Can It Go?&nbsp;&nbsp;TradingViewUSD/JPY continues to flirt with intervention zone for now&nbsp;&nbsp;investingLiveBreaking: Japanese Yen hits 6-week low near 160.50 amid interve...",
+      "source": "GNews | JPY",
+      "priority": 9,
+      "signal_keywords": [
+        "warning"
+      ],
+      "category": "汇率",
+      "relevance": "medium"
     },
     {
       "title": "Japan’s stronger-than-expected GDP supports June BoJ rate hike - ING THINK economic and financial analysis | ING THINK",
@@ -176,6 +198,16 @@
       "relevance": "medium"
     },
     {
+      "title": "What to expect at Kevin Warsh’s first Federal Reserve meeting as chair: 3 things to watch for when the FOMC meets in June - Chase Bank",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0stUWtaVHRmMVRWQWUyc0p2bHdScWliYVRlNUs3Uno3WUJzMlZibXdlRE5tcGgxYS1ZUS04YmY3dDlNaEphS1UxVkdNcVRTZUJmM3V6RXUxa2l3REZqQ2psVDN4MGhTcWpybVVXdXh1ZmkwaHNxQzE0a0l3akMxX1dhZTBXcThiRi1PandLWmtZU0JTVl9qdENJWDJnU0hHR0J1WXBOQ1AzT1BtNnVZcl9LTjNGVTY2RUMzTVBTazAzRTV1MnYxV3BXcV9fdw?oc=5",
+      "published": "Mon, 08 Jun 2026 18:54:14 GMT",
+      "summary": "What to expect at Kevin Warsh’s first Federal Reserve meeting as chair: 3 things to watch for when the FOMC meets in June&nbsp;&nbsp;Chase Bank",
+      "source": "GNews | Fed/FOMC",
+      "priority": 8,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
       "title": "With Fed set to meet next week, December's rate cut now looks questionable - Axios",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mMHNEekJHOUswbW9rX2Z4YXJxTm8yWXZram9wc2xXQ0p3dEhJVk44cGhvc3dSdWhHZzNBUWVVMGNUNmtHY0p3OHEtX0tjQkZOTnBNeE40LTRVNlp4VFdmODdvNUQ5VkoxdExYeEtKbmc4UQ?oc=5",
       "published": "Mon, 08 Jun 2026 16:08:10 GMT",
@@ -209,6 +241,26 @@
       "relevance": "medium"
     },
     {
+      "title": "Fed Rate Cuts Look Less Likely in 2026 and Social Security Is About to Feel It - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWnZHalkyVXhVVlJTdWxYMWhMcU9QN1loVXluMVFyYjlHdWd3dWhLaGdkc2tibEt5WEFhOERXTVhvTUNGMW5LckJ6X25RU2ItS25VSExrRTFaaUJuSk5jR2xwdDhrRm5FRDNsN3AxNWd2azJueFhkSTVZSFF6ZTlFODYxRlgxYUN3UFBYSldvanlBRWhLcnBHXzVNdDhCNm1RZVY0cjRhQzRNblZIUDAzWFZOdDNmajFsVy1CS2Z2TlJTMmtpcGZBZQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Fed Rate Cuts Look Less Likely in 2026 and Social Security Is About to Feel It&nbsp;&nbsp;24/7 Wall St.",
+      "source": "GNews | Fed/FOMC",
+      "priority": 8,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "Breakingviews - Vanishing Fed rate cuts could buy time for Warsh - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcjU0YUs3OGUwazF6U2pLRlRaVFUtVG9BeURocGlwalZDdGJZM21rRi1iQjByMHdlR1hraDVJTEo0NG5uYm90Rk04a0c5QUNpQ0ZuelJBY0JFOV9jSl9FSEhKSUpSY1hoc1pmR1hOQjkwRDlCcTl5ZDV4dlRodzFSXzJxNTJ4d09IVXdRZWVJdUVQdFU1cWQ1NFJSWXdUeDk2NmUtS09GRTc?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Breakingviews - Vanishing Fed rate cuts could buy time for Warsh&nbsp;&nbsp;Reuters",
+      "source": "GNews | Fed/FOMC",
+      "priority": 8,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
       "title": "Big Stock Market Warning Signs: Red Hot IPOs, Record Margin Debt, Lowest Ever S&P 500 Yield, Meme ETFs - Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeXd1YUxyNUE2M0dzbmF2Q0RDaVp4SWFibE5GSWFaYXBiOEtfTTlqYlJ3MjZTeDZLVHQzRWJCQ1pkLXI1bTJQMUh0YnBIS1RCcHpzWk9hS2Q4Qm1RU0p6YWJuRTAweXNoSTJsVkVEYUtKM3RUMHFBZk52S0FqZTlJQi16V0VRYVU2TnR3OXRyeFBBQ0JvYy1KakFRN2JndXNUem80OFUxUlNzMW5jaEZPOXcweXlYbzJiOWN5b3dSVWVuejRiUm1oczRhQWpSazk1bWJmaHpXMHkta2xnMVE4?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -223,8 +275,8 @@
     },
     {
       "title": "Why are oil prices up now and will Brent futures and US WTI crude prices continue to rise or decline again - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOXzhfWnB0eGxNd3lEZEJQMmdKUnhRb0t5VVpZRnlPRTlad0p0dGlya2V1WTBCRDBHTDRqT25MaXlWY1ZhX0ZtVjNhTXkxUU5sTzFPQU1LVzRhU2dyRW4wT3ZLa1UzVHRTMWVPWld4MjA1U0Q2V1JEX1VsZ3V4czZWWWFMc0RBMDNzajFtcUljYlVpZXdUWUtwbnpxMmVCb2xGWGEyR3plOGZIWTVpSWdvNEkyNm5DeFE3ZjAyN2U1OE5FUXdabEt4YVZ3dWUtWjlZNFpzeDJmVnBWQmJ6YnJUdFBic3JkbWp3WWxwUVB2MERSX3RjTUhOX2IxU2VOZVlmdFFuaW5ZUUMzLW5FREpUQkd3N19waVBkc0xhQi1NTzcxdl9Pc21rcnltUE9QUjg3OHdrUWNKZUh2YmM2bmVoVVlTR2l3dWVESkNmWUNBczloYk1Xdk9SYzNsUU9pUmRqblNxT3N2NWZIWEnSAfACQVVfeXFMTkxKZzRIbmRoTFJHamZJa2dIREp3Nnp5ZnVyM1RIbmpqTHRqN2JoaWJxMERxa3JlOF90YzNpaWdjSUtPdHAxeVdHNS0tdXRwRzVrSTY0dDRRSkFnc2RTcEZGWUcyaDN3X05oQ2p4eWZCc0kxcF9fRVJKN1lWMm9ITnl6cG5ETTJwQ3c2dWIwVGthZjNnRWZ5WExkWC1pRDhZZ1B4Sk5VRFFRNDZBTkNzUTZXa2RHSWdMWG9Qb096MWZUdWhZYW5kcjJnUzNYMTFmU2VjTHZnb2ExMEYxVHYzckVaWWt6SGh4WE1jVzBYSjZEc0tVWDZ0YUdsQWRvdzdyX25DYkd5TlpGY3FsOEZoSFJNUWZlU2hhMk5HUUhwRzN4dWhPLXZ6VGltWXF2Ym1rUVM2QjNPcVh6ZHlQd2VSS0hTWHZhVFRQeEJWdHhseG81R2c1bkZ2Nlk5N25JSDNKS1BPQm5qMGNhMFhpOXIxZHk?oc=5",
-      "published": "Thu, 11 Jun 2026 03:31:21 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxOTEpnNEhuZGhMUkdqZklrZ0hESnc2enlmdXIzVEhuampMdGo3YmhpYnEwRHFrcmU4X3RjM2lpZ2NJS090cDF5V0c1LS11dHBHNWtJNjR0NFFKQWdzZFNwRkZZRzJoM3dfTmhDanh5ZkJzSTFwX19FUko3WVYyb0hOeXpwbkRNMnBDdzZ1YjBUa2FmM2dFZnlYTGRYLWlEOFlnUHhKTlVEUVE0NkFOQ3NRNldrZEdJZ0xYb1BvT3oxZlR1aFlhbmRyMmdTM1gxMWZTZWNMdmdvYTEwRjFUdjNyRVpZa3pIaHhYTWNXMFhKNkRzS1VYNnRhR2xBZG93N3JfbkNiR3lOWkZjcWw4RmhIUk1RZmVTaGEyTkdRSHBHM3h1aE8tdnpUaW1ZcXZibWtRUzZCM09xWHpkeVB3ZVJLSFNYdmFUVFB4QlZ0eGx4bzVHZzVuRnY2WTk3bklIM0pLUE9CbmowY2EwWGk5cjFkedIB8AJBVV95cUxOTEpnNEhuZGhMUkdqZklrZ0hESnc2enlmdXIzVEhuampMdGo3YmhpYnEwRHFrcmU4X3RjM2lpZ2NJS090cDF5V0c1LS11dHBHNWtJNjR0NFFKQWdzZFNwRkZZRzJoM3dfTmhDanh5ZkJzSTFwX19FUko3WVYyb0hOeXpwbkRNMnBDdzZ1YjBUa2FmM2dFZnlYTGRYLWlEOFlnUHhKTlVEUVE0NkFOQ3NRNldrZEdJZ0xYb1BvT3oxZlR1aFlhbmRyMmdTM1gxMWZTZWNMdmdvYTEwRjFUdjNyRVpZa3pIaHhYTWNXMFhKNkRzS1VYNnRhR2xBZG93N3JfbkNiR3lOWkZjcWw4RmhIUk1RZmVTaGEyTkdRSHBHM3h1aE8tdnpUaW1ZcXZibWtRUzZCM09xWHpkeVB3ZVJLSFNYdmFUVFB4QlZ0eGx4bzVHZzVuRnY2WTk3bklIM0pLUE9CbmowY2EwWGk5cjFkeQ?oc=5",
+      "published": "Thu, 11 Jun 2026 03:31:00 GMT",
       "summary": "Why are oil prices up now and will Brent futures and US WTI crude prices continue to rise or decline again&nbsp;&nbsp;The Economic Times",
       "source": "GNews | Oil/OPEC",
       "priority": 7,
@@ -259,6 +311,16 @@
       "source": "GNews | Korea Stock/FSS",
       "priority": 6,
       "category": "各国股市",
+      "relevance": "medium"
+    },
+    {
+      "title": "Interest rates are going up in July as the Fed grapples with inflation, Ed Yardeni says - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORDN5RElrX1k2WDZiZjZoVEUyRWFvUjNTNWM3NzVtSlRUd2ozNWpCZ0R2M3B0QXlPWnVfSUh5UFExSG9SeU10NlVvOHowbGN4MmRYdHFHUmFhVFYtTzhRRW1WNUd5WlIwdUNZXzlPSHYzRUh3ZGZpU2VVc1Zoa0RnMzgxRGtyWkdIclU5SVFQUGE4WkZlc2xXdURTM2tFZGkwaXh1MlVn?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Interest rates are going up in July as the Fed grapples with inflation, Ed Yardeni says&nbsp;&nbsp;Business Insider",
+      "source": "GNews | Fed/FOMC",
+      "priority": 6,
+      "category": "全球宏观",
       "relevance": "medium"
     },
     {
@@ -301,6 +363,16 @@
       "signal_keywords": [
         "central bank"
       ],
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "Warsh takes the Fed's helm as inflation climbs, consumer sentiment dives - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXp3UEo5UU5wdGRYSFlIZzNWeVdGcEZfdVZhTmtTLURUMVdhMVA2UEZnRXpVZm9uYUxOR0o1ZVU1OUIxYWIwY2xyWkJ4dVZvRURIZUJHTndCUUoxWGJfckhlT2NJUHcxNVNGX1ZJb0dMc1RMNnliSmhPWndtQUZ4SDBmOFVLdF95b3NOTEF0TXpFRlFuSnA4ZG43OXU1dm8?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Warsh takes the Fed's helm as inflation climbs, consumer sentiment dives&nbsp;&nbsp;Reuters",
+      "source": "GNews | Fed/FOMC",
+      "priority": 6,
       "category": "全球宏观",
       "relevance": "medium"
     },
@@ -395,21 +467,21 @@
       "relevance": "medium"
     },
     {
-      "title": "Yen lingers above ¥160 to the dollar ahead of BOJ meeting - The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBONGJ3ZDI3bVlYSXdmNlBpUFRVNlF2b3NiOU0wcThMWm52RWFUVWJPOVdkLVliWU81OTZfZHdtbDdkM0FVTEJjZmloclVzcXFIbV9BUm5oSTVSVm5aTkpITlp0ZWhIWFhDSG54VHdpM0FiWDB3RGNTaDY2OHI?oc=5",
-      "published": "Mon, 08 Jun 2026 08:48:00 GMT",
-      "summary": "Yen lingers above ¥160 to the dollar ahead of BOJ meeting&nbsp;&nbsp;The Japan Times",
-      "source": "GNews | JPY",
-      "priority": 5,
-      "category": "汇率",
-      "relevance": "medium"
-    },
-    {
       "title": "TradingKey Wall Street Weekly Report: May Nonfarm Payrolls Surge by 172,000, Far Exceeding Expectations; Us Stocks Close the Week Lower, High-Valued Tech Stocks Tumble - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdThEX29TS1g3UDdMWlp4YWwxUzJNdFV6bFVUS3NHamRad0p6UE16dUlKRVhrYXhvckd5Tnd0aFJJUEZJU2pTS3FIT3h1OTk5d19yZi1ycjRrOUc0ZF9FeHJjUFo5SDhqbGJTQWxLclplNEFrMTc3WFhMdm04Mk5TOHlrSm9OdGduR0l3SlhJOA?oc=5",
       "published": "Mon, 08 Jun 2026 04:08:45 GMT",
       "summary": "TradingKey Wall Street Weekly Report: May Nonfarm Payrolls Surge by 172,000, Far Exceeding Expectations; Us Stocks Close the Week Lower, High-Valued Tech Stocks Tumble&nbsp;&nbsp;TradingKey",
       "source": "GNews | US CPI/NFP",
+      "priority": 5,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "When Is the Next FOMC Meeting? FOMC Meeting Schedule 2026 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkRLRUNSeksxNExsNUFma2czWjhnN0NOOEpZdWliYWFrY1JWb2VGb0xVNFNLbEJRTjQ5UHBUbjljR1BTV2ZJZkRMaE9JZkgzVmVVZ2pCbTZad19YNzlKR3ozS2F5MVJuMHpJdWtZZlJpMEJWbFNyaFZHekpmV1RfZERTZi0ybWg1TXdPLUlTU21LOVVJdlE0M1gyX255X1p1ZFg2dDgtQ1k1QQ?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "When Is the Next FOMC Meeting? FOMC Meeting Schedule 2026&nbsp;&nbsp;Mitrade",
+      "source": "GNews | Fed/FOMC",
       "priority": 5,
       "category": "全球宏观",
       "relevance": "medium"
@@ -432,6 +504,16 @@
       "source": "GNews | US CPI/NFP",
       "priority": 4,
       "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "USD/JPY Forecast: The BOJ Can't Save the Yen and JGBs Forever - FOREX.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN2F0UGJHbGdXQXFHaVo3ZkVoZUxqZmNqNDVvdzlkeWlsTGZ4UUdwdnFWQW83bE9mOVRWaWRGVUFmX3BIb3pVOWJoeXNOVkVCUVBBQzRkdURQb3BLVEtrZzJxOUlQdHFCMkN0RERiU04wYVBQdTQ5bWRRSUx4WkVTdFJnLW5ZeTZoRWhfczBpRFQ5eWNPNFRNSW1ITG91cENuYlRUT2IzVU1mOEnSAbcBQVVfeXFMTTFpcU96bGZZR19Ed0RSY0xueW9QVExRazV2ZzkxNE1FaUxWNWNVcmdxQ2xqQmhwQUtucDhHU3p2WWRqUEtpQzJMWktsQVNmM2lGa3p5bHBSUnRiYWVsMm9oTGRORXc3R1Vyb2hCXzdrZThKRDdEMkdGVTFRNXdCd2NMTE9jU3J6NDQ3UVNjSFQwQ1RMTlFvLUkyQ09zNmtpZmJsUmhSYWFmVThuMXRSdmpnYWdDZGhR?oc=5",
+      "published": "Wed, 10 Jun 2026 01:01:34 GMT",
+      "summary": "USD/JPY Forecast: The BOJ Can't Save the Yen and JGBs Forever&nbsp;&nbsp;FOREX.com",
+      "source": "GNews | JPY",
+      "priority": 4,
+      "category": "汇率",
       "relevance": "medium"
     },
     {
@@ -615,26 +697,6 @@
       "relevance": "medium"
     },
     {
-      "title": "US tech stocks sink as volatility flares up on Wall Street",
-      "link": "https://www.ft.com/content/bbc8c712-23fe-4cad-b2ee-39dec0e0f3ca",
-      "published": "Wed, 10 Jun 2026 20:51:17 GMT",
-      "summary": "Latest bout of selling comes ahead of SpaceX’s historic market debut",
-      "source": "FT Home",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "US inflation jumped to 4.2% in May amid Middle East energy shock",
-      "link": "https://www.ft.com/content/f27a9e1b-891f-41b5-b78c-6bc729b1cfd4",
-      "published": "Wed, 10 Jun 2026 12:31:11 GMT",
-      "summary": "Figure marks new three-year high",
-      "source": "FT Home",
-      "priority": 3,
-      "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
       "title": "Uzbekistan National Fund set to unlock value with six portfolio companies’ IPOs - AsianInvestor",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDctS0JYWDZYZE5iWlRjOXB3RzZXaVh0VzVBZkpDUW94OEVVcVp5MzRzWlQ1YWFzMXZ5QnhYWGpXUnRkVjhzcVp0OWx5QkhYeUhnNFcyRXZ2UlJKYzAxeHhWUW9rY2NWckc3Y2VWeHhCX2xtbWsyQTM2OGpsTHgzaVU0eV9pLS1WRDB3NkxJeGM3N2lIazJVOTRVWDhRZnBRbklSa3E2ZkJna1VnaWpncHFoY05nYkhZbkJ3UWJKS08?oc=5",
       "published": "Wed, 10 Jun 2026 09:07:38 GMT",
@@ -642,6 +704,16 @@
       "source": "GNews | SWF",
       "priority": 3,
       "category": "资本流动",
+      "relevance": "medium"
+    },
+    {
+      "title": "Experts take for granted that the ECB will raise interest rates this Thursday - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVnF6bDhMOXg1TXROX01EQ0FLYW1ueC14YnF3VnAxLWh3S0FTVS0tM3JIQ245LW9VZmozNFJnYjMzM1hlWHQtSmtqMTh0REVnSV85UGRsSzdmcDdWc0RWam1tTW50ckUzWXljY09VWDhueTh6bXkxT0RiOXRLdS1sUVhVbUpzcXFvWEUtcThaZHdmTWpjLVZ3d04tckF0d9IBowFBVV95cUxQS1kyNC12TWo3cUZQa3hnRm5NTHhzYVNZLXVQdW5NOG4yY0F0TXBNel9rUnY0Z1l0cTh1c2FKSVpNX2N6LURMdlJXY1lKc3J2ZUplVTFwNFlMaEVBeHhQNUpySDFSOWZfYUtxa2FuOHlCUTZIbnJRanBRbVFtTXBxNDVkeGJhVEwwdkFOa2ZJZWRYLXg3OUs5MzFXX3hodkJqRXdj?oc=5",
+      "published": "Wed, 10 Jun 2026 03:00:00 GMT",
+      "summary": "Experts take for granted that the ECB will raise interest rates this Thursday&nbsp;&nbsp;Demócrata",
+      "source": "GNews | ECB",
+      "priority": 3,
+      "category": "全球宏观",
       "relevance": "medium"
     },
     {
@@ -715,41 +787,21 @@
       "relevance": "medium"
     },
     {
-      "title": "Fed Meeting Tracker 2026: How Interest Rate Shifts Shape Investor Strategy in June - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY0FVNWQxVG9Zdm9TU2I5Q3BIeVZlYjZiS2JEM09fQlFIUHR3Y3NCUENDcnU1MmxLdU9NdEplbDV6cDhCb3l0UFhlUGRnaU8xdnNVOW0tS1BFWUwwaktXVk9oaU1OYUd1WnctVHhhWjdxS1JHLXM5X3hWcVl2SVBhWEhzUWpIQnhHSDY1S2RWa2ktLXBvbjBRQg?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "Fed Meeting Tracker 2026: How Interest Rate Shifts Shape Investor Strategy in June&nbsp;&nbsp;Forbes",
-      "source": "GNews | Fed/FOMC",
-      "priority": 3,
-      "category": "全球宏观",
-      "relevance": "medium"
-    },
-    {
-      "title": "U.S. federal funds rate 2026 - Statista",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV28taUdoN196T2U5SmpSbXhMUWxqYTJZMWtTakxxbDF0cFRkTldkMi1FTHZtdG1jZ0hVSXFKMnRHNHBxYThjS1VuNXVkcU5CUmhRbDFfcDBscU5VVHhDcE9aR0FXQlBDUUg1a0N0LV9ZeXU0VVBtNG5RUEE5Q1FFaVhIeTFxeXlRd2dJbkpOZw?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "U.S. federal funds rate 2026&nbsp;&nbsp;Statista",
-      "source": "GNews | Fed/FOMC",
-      "priority": 3,
-      "category": "全球宏观",
-      "relevance": "medium"
-    },
-    {
-      "title": "When is the Fed's next meeting? See the full schedule for 2026. - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTV8yM2tUeklocXVhZXp4bzB5M2tTZUQ0OWZ2d3BNNVF2Z2pIbzhyODJha0R1WUhOaDNicE9zcjhMdVFvQ2RaU21UVjl3ZzY1SlMxZlB4SjhJTWRERTFwU19CMmVuQVQtQm5PQnREMW5LS3Nwc3E1LWh3QTdCQklfRVQ3emYyaWlGMjBqaktvb2ZLbFBZSnlTT01KYWpMaldSdkh4dWVKR192S3AwLWNNQmk2R3E4RUk?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "When is the Fed's next meeting? See the full schedule for 2026.&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | Fed/FOMC",
-      "priority": 3,
-      "category": "全球宏观",
-      "relevance": "medium"
-    },
-    {
       "title": "Good news for mortgage rates? BoE may not need to hike, says official - mpamag.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSnRPOFlZcmh1QkhpSEZSRTdqc21UbVdGaU1vQUNfNlpobDU1dkZPV1FLUXRfVl9BcmVBeHM1NDVoWUw0bHYtWUF0STJsMkNrbks4WTVDUzZISS05b3ozbVFFUmFIdFItZDM5S00wREM1RHpVX0NYTHNva0c2QjJST0ZUaXc0QWR1YmIzdE9JQzFONjdKVVlScDZWUXVVc0pLZ0QybVZCTE9SYXpyNmE5ekpHaw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "Good news for mortgage rates? BoE may not need to hike, says official&nbsp;&nbsp;mpamag.com",
       "source": "GNews | BOE",
+      "priority": 3,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRUh2U1VFVUtsNjRVT0RXandtTlVZaVNudkZreEdGUmRZLUlDZlpKRUtFV0h6QzE1S192R3oxNUJnTXQxeWJyMENGUlVrMFR2bzIyVXk1NVZ4UmUyVGwyRHFBak5SdEtOVHlrVkExQjRaTzNBVVFxMU5RZExTdnlzazB2YXIxOEh5bWE0RC1jTWs5X05WajJDalJRcEN2UWVLS25HLXZpSlVCVHdLQWtoa1N0bmw3UzlOdUlrWUZn0gHDAUFVX3lxTE9Ma0tNTl81RXJBZnBXXzkzeWVpTTRsRnNjaks3dEFKN0IwTk1wNURxb2Q5TzQxbV9aUkZxVmVKcmgyUXJpTFZvNGRpLVdEcWV2TDlUZWNVRXZPWHFacjNtWG0zQnZQLU9sNXpNb0JWVjZtZ2d5QkRzVlI0Ui1xazhHd0lPRV9hNmVWNXYwZnpKVkV0VnZnc2VZaFh4TVJaOWc3cXVWZ0RLRVZlaGhGeFQxTlZFaDZQWTBSSUlnTWp4TWZPcw?oc=5",
+      "published": "Sat, 16 May 2026 07:00:00 GMT",
+      "summary": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates&nbsp;&nbsp;CNBC",
+      "source": "GNews | Fed/FOMC",
       "priority": 3,
       "category": "全球宏观",
       "relevance": "medium"
@@ -832,6 +884,36 @@
       "source": "GNews | EUR/USD",
       "priority": 3,
       "category": "汇率",
+      "relevance": "medium"
+    },
+    {
+      "title": "Jerome Powell uses award speech to warn against political pressure on Fed, courts and schools - PBS",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTnlMbGJQMXJob3czU2UzcDJ4Tkl3TWw2UmlidHluZlJWOHZUc1JBS0FEVU43U0VfbUdHSVhtX0draDJhU3Z0NXhCaG1rVDVyZmxyMEVIcVo3aUt1b0Izemg2cllTWEVYaDJ1VGMwSHliX3NVSGowNTVqVmd3Sk1Lc0N5TjdHdmk2cjFIWEFSWUFQMXA5bGVKRkZEdDdSbGIyd1FVZUdaeTAwQ3hDNzNaNkZXWkR1czB0VDNxOGJDMEtWZjkxdUlhSVdB?oc=5",
+      "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "summary": "Jerome Powell uses award speech to warn against political pressure on Fed, courts and schools&nbsp;&nbsp;PBS",
+      "source": "GNews | Fed/FOMC",
+      "priority": 3,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "Bank of England can tolerate inflation above 2% target, says Bailey - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0pkMVQwd0pKNlpQSWgwZjlteDRTdTVsbTc2R3o2R0RrZkpwcW5OLUxrUWVYZnR1QV8wMTg2LUtCMVJnRzlrdjFXUWF4UEt2eFZub1dSR1AxZ3Bad25SYXQ2SGJCQXF6ekJJOGNJMHhScC1helRhUE5hbTlJZ2tuN0ZpbzJTOGF2b0ZhMTd1NA?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Bank of England can tolerate inflation above 2% target, says Bailey&nbsp;&nbsp;Yahoo Finance UK",
+      "source": "GNews | BOE",
+      "priority": 3,
+      "category": "全球宏观",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trump wants new Fed chair to be 'totally independent' - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EOTF6b2pJQWF4SjhPVUFtejdJcldxVEVaWG1RMnl3ek8wSWhTZEpFWkNNMWctM3RzaXJjMUtMeXk4WlpVSFZlal9idUdXczJUZDNhcFpmZEhrZw?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Trump wants new Fed chair to be 'totally independent'&nbsp;&nbsp;BBC",
+      "source": "GNews | Fed/FOMC",
+      "priority": 3,
+      "category": "全球宏观",
       "relevance": "medium"
     },
     {
@@ -965,6 +1047,16 @@
       "relevance": "low"
     },
     {
+      "title": "Oil Shock Crushes Corn and Wheat Markets as Farmers Brace for Profit Pressure - Agrolatam",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N1dqMXZQUnd1OHFSTVktR3Y1d3h3cFhIOTh5dy1Qcy05ZC1tclpWbFNFVlgzd2xWLWZqWDVMcmZZTWhOQk5VWFpaaUQ0MEotc2dJeXF3T1lPQ1I5bHhRVUExRGR4SW10b2c5LTkyYU9PVkRpNDZfTEdSVHpGckk?oc=5",
+      "published": "Thu, 28 May 2026 00:57:05 GMT",
+      "summary": "Oil Shock Crushes Corn and Wheat Markets as Farmers Brace for Profit Pressure&nbsp;&nbsp;Agrolatam",
+      "source": "GNews | Agriculture",
+      "priority": 2,
+      "category": "大宗商品",
+      "relevance": "low"
+    },
+    {
       "title": "Why Singapore overtook Indonesia to become S-E Asia's largest stock market - and what happens next - The Business Times",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTF5dUlwcG1zaEMxYUNzMU5aWnRzTDI0QjlCOG15QUgzdzVTNVRfUXhrYXFyNEs0M1lqVzZEUFpzbTVBZWcwQVd3X1AzY2pvUlFMc2ZOYVdweGhGTHdSSWYyVTkzZ0FZZ1pNY1ZIUUpWbkozUHBXTEtJT3JJMWg1R2VuSjF6OVltNnhJQUVhQS1seVZPUnBXaG41OUIxVW9wVkFkTUpEYjhkOUd3VHdNdnJzY2FmakhBbFlzcXlZRk0yeEFYY1B3cFJsZ2ZvekxO?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -982,6 +1074,16 @@
       "source": "GNews | Iron Ore",
       "priority": 2,
       "category": "大宗商品",
+      "relevance": "low"
+    },
+    {
+      "title": "Iran war tightens ‘super-squeeze’ in metals markets",
+      "link": "https://www.ft.com/content/44d4b188-45ed-4e7e-a5eb-278da62ac601",
+      "published": "Thu, 11 Jun 2026 04:00:26 GMT",
+      "summary": "Copper and aluminium had been rallying before Middle East conflict hit supply",
+      "source": "FT Home",
+      "priority": 2,
+      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -1022,6 +1124,16 @@
       "source": "GNews | USD/DXY",
       "priority": 2,
       "category": "汇率",
+      "relevance": "low"
+    },
+    {
+      "title": "Latest on lithium: sure, everyone wants a BYD – but sodium-ion is coming! - Market Index",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcUYyWDVYT0g4TmZXNUVnWWlpZVh2QWZEOWhBRHQ3VzdHSHAyNk9aQklPQ1VIVExmeUoyTl92Ujg5N0ZLcDZ0Z2xtckM3d2pKaW85STVPUjJ5MWFjS2M4NFZBSEZfdU9CQnFmZ1EydGh3cVFkTWhpeVh0NmNXWVhOWE80bFEyNGxVcm03QVVOT2oyb2UwSTk2N3hpRjFpdXJPdU1xQkNRNA?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Latest on lithium: sure, everyone wants a BYD – but sodium-ion is coming!&nbsp;&nbsp;Market Index",
+      "source": "GNews | Lithium",
+      "priority": 2,
+      "category": "大宗商品",
       "relevance": "low"
     },
     {
@@ -1085,16 +1197,6 @@
       "relevance": "low"
     },
     {
-      "title": "India Private Equity Report 2026 - Bain & Company",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2UzVnVmYzQjBjZXB2R3ZSMGlBVzBvVU81RHJWUTdNUTQ3cG9tZ1Q5d05jR0tYSklqaWItV2xqM0hranY5R1RjcXNzdENESkpiTmZkdkJ6dG5fNnBuemZ5X19Dd2FVd0F5Uk9ZN3dUSkE?oc=5",
-      "published": "Wed, 13 May 2026 21:22:23 GMT",
-      "summary": "India Private Equity Report 2026&nbsp;&nbsp;Bain & Company",
-      "source": "GNews | SWF Shift",
-      "priority": 1,
-      "category": "去美元化+数字支付",
-      "relevance": "low"
-    },
-    {
       "title": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
       "link": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
       "published": "Wed, 10 Jun 2026 18:43:04 GMT",
@@ -1105,16 +1207,6 @@
       "relevance": "low"
     },
     {
-      "title": "U.S. stocks decline further, with the Nasdaq down nearly 1.5% and the Dow down 1.2% - WEEX",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUEphQXdnQ2JmRjhneTNHUEpZZ2EwSVdiaDNFWUVPNTFUbzY0Wm81VHR2M0JRQXRrNU1PdHV2a1hBdnY0ajRZV005M3djMTdoSWF3ZGNjTUgyRUhRTF9IcG5yRG10UU0tcXpKUWxvTGJnRUlNVlJoVjVDNlo5cFFtQVFfVHVLRVZmNmNTbXdGQUxoSnNZREhIOUhXYXFjTTZrWThWbm5SSWl3ZUh2alpFWmpzcTc0eW0zTUFwd0tjd1hmaXRLUG04ZXdXY2VQMHM?oc=5",
-      "published": "Wed, 10 Jun 2026 16:46:29 GMT",
-      "summary": "U.S. stocks decline further, with the Nasdaq down nearly 1.5% and the Dow down 1.2%&nbsp;&nbsp;WEEX",
-      "source": "GNews | US Stock/SEC",
-      "priority": 1,
-      "category": "各国股市",
-      "relevance": "low"
-    },
-    {
       "title": "The New Restructuring Landscape: When Markets Meet Reality - Teneo",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYlhQVlpJWHp3S2wwRksxNlJXTHlXQ0gwSktVZlVEOVNmVnhZajJnM2RkZ3VCWW5xeDVZXzhNLXB4TWJPdTVreW9uZk85aEVKTnQ0LV9OcnNNR0ZhSWJKZlhDRkhSY3Awdjk0QzdQeXFOem5OdUNYb3FoajdPdWlScHV2Q0RRc1VhZ2s4ODVNSTN2OUt4MExSQ1NoQXNTbEU?oc=5",
       "published": "Wed, 03 Jun 2026 08:04:18 GMT",
@@ -1122,16 +1214,6 @@
       "source": "GNews | EM Debt Crisis",
       "priority": 1,
       "category": "系统性风险",
-      "relevance": "low"
-    },
-    {
-      "title": "Which European countries attract the most foreign investment? - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSDhYcVZIenRqQlRuc0xGMU1TTGw0cEdBQnB3Q2UybGlXdFNKTDloamdhT3lnU3BsRlZzWHdkR2NFNV9fRVd3dkxUa0c1cjNLMUc3MmR1WEFyZjR1LXJUV0xoN3E0blZWaDZuRWR4REFfSVNaRGpzcXpaOHFZOXF3bzdhQ2lsU3psTWZzTUZTTDFxSGpGS0E3Tm1FdmtpUDJPSHkzWVk0SlI?oc=5",
-      "published": "Wed, 03 Jun 2026 06:01:19 GMT",
-      "summary": "Which European countries attract the most foreign investment?&nbsp;&nbsp;Euronews.com",
-      "source": "GNews | FDI Flow",
-      "priority": 1,
-      "category": "资本流动",
       "relevance": "low"
     },
     {
@@ -1165,19 +1247,6 @@
         "warning"
       ],
       "category": "汇率",
-      "relevance": "low"
-    },
-    {
-      "title": "Australian Regulatory Framework Shapes ASX Medicinal Cannabis Stocks Landscape - Hemp Gazette",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGZvTkhrcDdJd1lrRGpIMHpzZnMwbmJkM0E5d21INnhRN2pyRHBpMVlVRkF3bENUQkFBWHZpLXZHSzBQUzBqSUJxZU4yeWJGQkViTkpuR3Y3LU8xcEh1czBjOV8zNC1fZFpnQzhuQWUyQlZaWjRZbFIwVU9wd3NQdg?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Australian Regulatory Framework Shapes ASX Medicinal Cannabis Stocks Landscape&nbsp;&nbsp;Hemp Gazette",
-      "source": "GNews | AU Stock/ASX",
-      "priority": 1,
-      "signal_keywords": [
-        "BIS"
-      ],
-      "category": "各国股市",
       "relevance": "low"
     },
     {
@@ -1221,12 +1290,15 @@
       "relevance": "low"
     },
     {
-      "title": "Why DraftKings Stock Is Surging On Tuesday? - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSk5jdU9vTEN6TWx4RzQycHhlLXozdXZyRGxKTDl4dTVCalNpWVpxa3JfSUU0MHVWQmtKblRodTJ4U3pnYm1KU04tQVZOb2lQdGpzM3VmLWxuc3ZFVnNRdDl5VE1yTnBLbVpucnVMeVFsbGRwTkR3T3ltYm1PLTY1MVhqdmo4OEpSa0hiTnRIM25uSXllOE1CV2dFWGdmRC1XaFVrQ0RB?oc=5",
-      "published": "Tue, 09 Jun 2026 14:57:42 GMT",
-      "summary": "Why DraftKings Stock Is Surging On Tuesday?&nbsp;&nbsp;Benzinga",
-      "source": "GNews | US Stock/SEC",
+      "title": "ASX Cannabis Stocks Eye a Bigger Prize Beyond Australia - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSE9KRHZ1MU5LelZzeUtHR0xjdjNiOERERl9hME5PejVJV2hZS0JkTDlvVlEzWlI1dWFoWERjN2JGZ2FiRkN2dWZJUHBhcWE2VnBaNFhmOHA3LWgya1ppRlZfejFKaEZOSzZBSHhYbEhzS1R1dXNqeFB1RTdoaXUzWWo3VDQ3dUNYb2JFOE5qejdPRDRvQ2I1OVdmM3pJVTZL?oc=5",
+      "published": "Tue, 09 Jun 2026 05:11:00 GMT",
+      "summary": "ASX Cannabis Stocks Eye a Bigger Prize Beyond Australia&nbsp;&nbsp;Kalkine Media",
+      "source": "GNews | AU Stock/ASX",
       "priority": 1,
+      "signal_keywords": [
+        "BIS"
+      ],
       "category": "各国股市",
       "relevance": "low"
     },
@@ -1271,16 +1343,6 @@
       "relevance": "low"
     },
     {
-      "title": "SEBI proposes new rules for setting opening prices of re-listed stocks to make price discovery more fair - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQmZDc0pHRDNmNVBVV0QwT1Vvc1lMSWhfLU5OUnk1MENHUEUtVjdLdGNRR0J4VFNZMGx5R25hZVBuVHRTVmdvcEZ3S2dHOXBHRVZlR0FtUDEtX2c3TEExZG9pWEMtM041MXpJQ1VWZUVKWTlLa1RicGtvV2dJbjh2VjRRaS1Sb1UzVkhjbjA4ZnhIb1pRN0k5bHNTbGxwWWk1Y20zZk9nWVBCeHhoc0U2eVhlbU5PRUtkTzBPcjR2VlBBSE83Ny1lQk9mVDk5ajZzU0t0WnpkWGZGRDZzUTRvdnBKUFI5NnVWTGtabjRXZjF5aFM5MmdmNk5CRndqd9IBgwJBVV95cUxPbnVWUHdDdlYybUxKLUhLYlZYbWJkaXZfNFpnTzBtR3FySEU5STZ0VkFxUXh2YWlLTmpnemtRZi1rVDA4RldVOXFmTzRzQUZuelBnakUxc1VUU0FoclVvdGVBLVpHUzd2bFgtUzVPRk9nUmtkai1sbHJiWG93WlNVakUyUFFZM01yUzQtdTl5RE1vMzZwQXNTTnN4a24zOXhpTXdRUG5Obzl1b2pnWmZrVXN5VEZERE5iaURKNm9hRk1uWHQ5Z3pxTHlJMXFhSk5WV0J3NTA3UWNYa2VPWlk1c1hiNGRLb0xyVW1QdDJXUXBJZWQ0eXdnR2poMV80ckEtMHVF?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "SEBI proposes new rules for setting opening prices of re-listed stocks to make price discovery more fair&nbsp;&nbsp;Moneycontrol.com",
-      "source": "GNews | India Stock/SEBI",
-      "priority": 1,
-      "category": "各国股市",
-      "relevance": "low"
-    },
-    {
       "title": "Moscow Exchange to launch crypto trading under Russia’s new rules - CryptoRank",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbW9SY2VyRFhwRUh3TVN4cFdiZXc4Ri1vU0dmaXVhSllGLXFQTlVUQWNKc3JLTWZpUWNVSlVWQ3diNk12Y0R0ZUtIc3pIcFdDWmhZaUpBNEtqa1pOQVRwdVJPUlNOUjd0bXg0aWFvWWVZaFVxd2J2M2JzQkRIUUVPZFJGSEw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -1303,8 +1365,28 @@
     {
       "title": "US launches fresh wave of strikes on Iran",
       "link": "https://www.ft.com/content/e8bea0ec-8dee-495a-8cf3-b5cbb283ccae",
-      "published": "Thu, 11 Jun 2026 03:05:11 GMT",
+      "published": "Thu, 11 Jun 2026 04:11:52 GMT",
       "summary": "Oil price rises as Washington and Tehran send mixed signals over status of the Strait of Hormuz",
+      "source": "FT Home",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Kathy Ruemmler helps search for her own replacement as Goldman’s top lawyer",
+      "link": "https://www.ft.com/content/25a6b16b-5f3e-45e8-aeda-33f9f21845ed",
+      "published": "Thu, 11 Jun 2026 04:00:45 GMT",
+      "summary": "Bank’s decision to back executive after she resigned from the role over ties to Jeffrey Epstein sparked internal divisions",
+      "source": "FT Home",
+      "priority": 1,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "Can Europe build a new fighter jet after Germany scraps joint venture?",
+      "link": "https://www.ft.com/content/ad600574-64c9-421d-b3a3-4ea24f73e440",
+      "published": "Thu, 11 Jun 2026 04:00:38 GMT",
+      "summary": "Collapse of €100bn project with France leaves countries at a crossroads",
       "source": "FT Home",
       "priority": 1,
       "category": "独立RSS源",
@@ -1341,26 +1423,6 @@
       "relevance": "low"
     },
     {
-      "title": "Asia's weekly TOP10 crypto news: MOEX Explores 24/7 Crypto Trading, Hana Bank Buys Dunamu Stake, Aptos Launches KRW‑Pegged Stablecoin and Top10 News - WuBlockchain",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YOWp6VEkwZUt2amNCMXRGX0VBanpvUi1yVEhIN0xEazFjcWpZZVN2dDFYMXhFUGtqMUZ5VXhwMnZCN1A5dTh4SXNEczdMdUZkT0NFTDBPT0NBS3BhenZwWDRvWUJ0aklUc3dmX09ETExkYWpK?oc=5",
-      "published": "Sun, 17 May 2026 07:00:00 GMT",
-      "summary": "Asia's weekly TOP10 crypto news: MOEX Explores 24/7 Crypto Trading, Hana Bank Buys Dunamu Stake, Aptos Launches KRW‑Pegged Stablecoin and Top10 News&nbsp;&nbsp;WuBlockchain",
-      "source": "GNews | Russia Stock",
-      "priority": 1,
-      "category": "各国股市",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan used record $73.6 billion to support yen over past month - The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmZFVlJFdGlWcHFsRVRMeTRoTmo2aGd5YkxGcUNkNG8zOEZYWHEwY2hwUkZ3T1hFMDhmOTl1STZUM2tGc0tvdFZmSHc4RWdzN3FuTmt2LTlQZ2ZOTnZRN19yREZlTzI3Vk5SQ2lZMThTc1pnSm9XZGl5SmNva01rYmRMbUltY1E?oc=5",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "Japan used record $73.6 billion to support yen over past month&nbsp;&nbsp;The Japan Times",
-      "source": "GNews | JPY",
-      "priority": 1,
-      "category": "汇率",
-      "relevance": "low"
-    },
-    {
       "title": "Asia LNG Demand Rebound’s Impact on European Gas Prices 2026 - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV2czZTJ5bHhvUENnbkJvdlp4Z3dOT21acXl0cENPM2t1RXZnZ19EdE4xbUdVTTJ6SUhyS3FKVFBLZTZUejNMczdHaGtkaEVZYXA5clgxVkNrTFRuNEllbEtkTDhuaHJVTV9LSlhmZ0ppanNOVElfRkRaZjkwTTNyN1JTckpwQQ?oc=5",
       "published": "Sat, 16 May 2026 07:00:00 GMT",
@@ -1391,41 +1453,11 @@
       "relevance": "low"
     },
     {
-      "title": "Forex Economic Calendar Overview: Key Events for the Next Trading Week (25.05.2026–31.05.2026) - LiteFinance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWFM0QWYxWUpGZWE3X283TjR6SmRnWndRcEx1bkxDdnY2S0d2ek5TemxNSkJVMEtHM2RIWC1PZHhyUXBfNi0xajliejQ2RWNtR2w5VzlCMkI1MEc5VXBUUkRPbnFxM3h1YXFQdHlfTm9TU2pHZFFseXBLUVgwMmFPS05NNGpEMVhUWTVON2RCa21xUlI3dC1Ea09vMlBxNzQ?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Forex Economic Calendar Overview: Key Events for the Next Trading Week (25.05.2026–31.05.2026)&nbsp;&nbsp;LiteFinance",
-      "source": "GNews | China Economy",
-      "priority": 1,
-      "category": "全球宏观",
-      "relevance": "low"
-    },
-    {
-      "title": "Agricultural Commodities Market Update (May 18 – 25, 2026) - iGrow News",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTdU1qc1Z4UV9mcDdSaXh5WW1iNTZqdjQ1aFU1WkJxOE1UREg0a2kzT05rZGFQbUlzdWtDdklkUUxVQjRmYlVoSXJzMzE0SVhrd2ZRZnJSd2pCSzN0YXpwb1F1YVd4V2x0ZjZLSTZn?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Agricultural Commodities Market Update (May 18 – 25, 2026)&nbsp;&nbsp;iGrow News",
-      "source": "GNews | Agriculture",
-      "priority": 1,
-      "category": "大宗商品",
-      "relevance": "low"
-    },
-    {
       "title": "The EU's approach to prediction markets and event contracts - Norton Rose Fulbright",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOTZxVVpPY3NFX2VncDRvWkt5T050blJheDFEYVI5ZnE3MC1aczBnSE5oLWVwUU14OTRidHBnWUFGWnlrT3BnZXkwa0F2VkJwYjBEQnJZc0ZseV8zYlZ3dm5wWl9NN25PZDROVTNHTHlrdnEwYUkwMy1hSmJqOGc0SUdraFM3UTZaNGI3dTl6Tm5SLXFVLWRsNlJrczNzX0xHb241R1lRaWFHXzZiUnZVTm9KeEdIUkdtMXZLcmVmcDhWakx0XzFsMg?oc=5",
       "published": "Mon, 18 May 2026 09:21:04 GMT",
       "summary": "The EU's approach to prediction markets and event contracts&nbsp;&nbsp;Norton Rose Fulbright",
       "source": "GNews | EU Stock/ESMA",
-      "priority": 1,
-      "category": "各国股市",
-      "relevance": "low"
-    },
-    {
-      "title": "Korea's Financial Chaos: Samsung Strike, AI Communism, and the Crypto Market's Major Loss - Binance",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ucVIxaTFhRm1MUDRUbHpDT2x6anJxY0NkY0RrTDBIYkt6ZXdJMF9GbGlrNW1YUTVwcE0zTk5tT185Q2RGU2RPeWdwaE1wQlNLTW40bWhRczJjMHRFYW9UUXotY28?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "Korea's Financial Chaos: Samsung Strike, AI Communism, and the Crypto Market's Major Loss&nbsp;&nbsp;Binance",
-      "source": "GNews | Korea Stock/FSS",
       "priority": 1,
       "category": "各国股市",
       "relevance": "low"
@@ -1438,6 +1470,16 @@
       "source": "GNews | US Treasury",
       "priority": 1,
       "category": "债市+信用",
+      "relevance": "low"
+    },
+    {
+      "title": "Asset Management Market Size, Share & Future Trends, 2034 - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XZmtYY1RQVHYwUV9oaldfcFNzZ2dUSWtBM2g0dFN1M3ptTVhVa0t3bDA1WG1TUHlIYTBYM1dsSGRBTDhlWGhrdDI0ZkczaERXRzBjQXRlU24yb0N4OVdrbVFWX3BiSVI5R1RIZGQyd2VwRG9Vc0thOEZR?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Asset Management Market Size, Share & Future Trends, 2034&nbsp;&nbsp;Fortune Business Insights",
+      "source": "GNews | SWF",
+      "priority": 1,
+      "category": "资本流动",
       "relevance": "low"
     },
     {
@@ -1542,19 +1584,9 @@
     },
     {
       "title": "Moscow Exchange Explores 24/7 Crypto Spot Trading Launch - Bitget",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZV1MzWm4zMTJqOFhJWXdyU0xUbnB3Wm9QbzZZRlFVcmUzYUNwZGFaYmE5S3FPV005ZXhPeHk5NzZtako4WTdFTjZZeGIwTGVNYzY2WU1WeUpnV05INnRsN2IzaFHSAWpBVV95cUxNelZwaFdjXzZHdTY5SnNWR05rOHVZUmxkZUNHV0Uwb2NhQjJxbWFWZ3N0WHhlcVRoOHVpbE5DcEpSZzdYdF9ReVBwNFFWTWY3Y3VWU2VqSXZZVDBENnRqZVZzcU1za1B2WHJB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zREk3ZHZlbnBhTDlHU0oxR1NPMGxpOUhialpYM090QWJrVG1SWEkwdE5TMkdtczBkdlc1c2hnTUl3YjFBY19ndU53SnA4V0xTa0lHVGhRblZaVElaVmfSAWNBVV95cUxOS1ZuNl9uSk1TWlVCS0VzLWdjWFZicHZkN3p4N2phaUNDcXY0Qk4walFXam9qSUFxNC1YWHBqOEh4bzdEZVNrdm1WYWJBcFZScDRFb0NET2JqY1BGMWo0RVB3aTg?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
       "summary": "Moscow Exchange Explores 24/7 Crypto Spot Trading Launch&nbsp;&nbsp;Bitget",
-      "source": "GNews | Russia Stock",
-      "priority": 1,
-      "category": "各国股市",
-      "relevance": "low"
-    },
-    {
-      "title": "Moscow Exchange eyes 24/7 crypto trading in push to rival foreign platforms - Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSllkM2lnUG02bjlQenlRUzBuQlBIV0lxM29MZl9LMFo3d0Q2RzBNMGRfeFhfbEFMSEs0VUlVOG5hZmFXRmtCc2JvWkpWNmVPcFNWLXREZXUzU3BhdG9UTmd1MUw0UGd6RVZfT0lKYU5rX0R2bDFudDc0ZFlsU2VmdWJuS3l4TnV6My12bnJzR0p1bWZLbk5Z?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "Moscow Exchange eyes 24/7 crypto trading in push to rival foreign platforms&nbsp;&nbsp;Crypto Briefing",
       "source": "GNews | Russia Stock",
       "priority": 1,
       "category": "各国股市",
@@ -1621,6 +1653,16 @@
       "relevance": "low"
     },
     {
+      "title": "Investment returns of selected sovereign wealth funds worldwide 2015-2025 - Statista",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU0o1TlhEa1l5TWdSYzVXNWFidUZJTDVxejdiLVFRYVF3MkRIYnpCVF9jVTRqemM1VHdyOUczOURjSlZOZ3FWYW1ERE9SVWNEWl9WQmZEN0tYQXY1dG14LTJrcW5KZ3haZFNPRThJM2NPSUVXOVZHUGdwMktvemtTSDVza3FRWWM?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Investment returns of selected sovereign wealth funds worldwide 2015-2025&nbsp;&nbsp;Statista",
+      "source": "GNews | SWF",
+      "priority": 0,
+      "category": "资本流动",
+      "relevance": "low"
+    },
+    {
       "title": "Inside India newsletter: India’s investment appeal dims as firms and funds pivot to the U.S. - CNBC",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV3haNjU5dkptWmpYOHBrUkhSSUxnN25ETVozZnp1aXpZUVk1bEljT0YxODlvUWk2OEx4LXl4LWxQdmZFOVFQdi1CWnlOcTJDa1Y2RURSMzg1aV9sRHRUcVRnaXNjTHhFUjAwcWFWUlZoamtiMjRPVzB0S2h2R19TXzd6RVZ5WDFRYU0wWU5B0gGTAUFVX3lxTE02Y0MtdUVTdVFBS2IxU29yT1p6aWdEbHZHa2hvWFhpM0NaU0c5TGw3dVFxXzFQZFluUEVLTG1jcksxZ1V4UjNqZjYwd3VvWnp4NGs2blBfZmRrZnFkWFo2bTZzRlRZZ2hBOUg2Yy1tLWZ6VV9fa1hCZ2ZjTk16bzhKSllseWpUVGNJMzM4M29lYUh3bw?oc=5",
       "published": "Wed, 20 May 2026 07:00:00 GMT",
@@ -1648,16 +1690,6 @@
       "source": "GNews | Liquidity/Outflow",
       "priority": 0,
       "category": "系统性风险",
-      "relevance": "low"
-    },
-    {
-      "title": "Lockheed Martin cannot say when US allies will get Patriot missiles",
-      "link": "https://www.ft.com/content/b4b42e9e-925e-4e58-a55c-fc966ef269f7",
-      "published": "Wed, 10 Jun 2026 22:21:11 GMT",
-      "summary": "Top executive says arms maker does not control allocation of PAC-3 interceptors, despite tripling production",
-      "source": "FT Home",
-      "priority": 0,
-      "category": "独立RSS源",
       "relevance": "low"
     },
     {
@@ -1701,26 +1733,6 @@
       "relevance": "low"
     },
     {
-      "title": "Trump suggests he may not renew trade deal with Mexico and Canada",
-      "link": "https://www.ft.com/content/e55a6ab9-d5dd-4a9f-bcb5-9bc0d23e08fb",
-      "published": "Wed, 10 Jun 2026 18:42:48 GMT",
-      "summary": "‘We don’t need anything that they have,’ US president says of 2020 trilateral agreement",
-      "source": "FT Home",
-      "priority": 0,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump’s pick to lead statistics agency disputes president’s faked data claims",
-      "link": "https://www.ft.com/content/061539b5-b848-442d-bdcf-8d31f2cb2116",
-      "published": "Wed, 10 Jun 2026 17:26:41 GMT",
-      "summary": "Brett Matsumoto tells US lawmakers that Bureau of Labor Statistics’ reports are driven by science rather than politics",
-      "source": "FT Home",
-      "priority": 0,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
       "title": "Opinion | The Term ‘West Bank’ Erases Judea and Samaria’s History",
       "link": "https://www.wsj.com/opinion/the-term-west-bank-erases-judea-and-samarias-history-5ed2f2b0",
       "published": "Wed, 10 Jun 2026 16:32:00 GMT",
@@ -1728,6 +1740,16 @@
       "source": "WSJ World",
       "priority": 0,
       "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "インフレ圧力に動かされる日銀 ～企業物価2026年5月データから～ | 熊野 英生 | 第一ライフ資産運用経済研究所 - 第一ライフ資産運用経済研究所",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXNlRkeFNGeEoydl9uNC1xcTYtNVFLM01fVjQxSThzSFpNU3hYcG5wMGdXSGJhSHR4S001SHFJdDVmcWlJa3lyV0pQWUhIMkJZYnBhUDkxZVdXZUk?oc=5",
+      "published": "Wed, 10 Jun 2026 13:01:14 GMT",
+      "summary": "インフレ圧力に動かされる日銀 ～企業物価2026年5月データから～ | 熊野 英生 | 第一ライフ資産運用経済研究所&nbsp;&nbsp;第一ライフ資産運用経済研究所",
+      "source": "GNews | JP 日央行",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -1751,13 +1773,13 @@
       "relevance": "low"
     },
     {
-      "title": "What happened to the great rebirth of American manufacturing?",
-      "link": "https://www.ft.com/content/e7a3d4e0-1b83-4dd5-9988-4df3d11bc71a",
-      "published": "Wed, 10 Jun 2026 11:00:07 GMT",
-      "summary": "Skills shortages, shifting tariffs and complex permitting processes are major barriers",
-      "source": "FT Home",
+      "title": "USD/JPY Advances Toward The Next 161.60/95 Key Intervention Levels - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0hMd1ZfYXE3M2puaFdEcVhybDFPOEpCbzd0YjRtMWhDOVBwU0wwMFpqVFFsMnd4SUEyZDBNbXVVTzU3aHF2TlExNWYwYzYteEZrRER0amtUdllrZjVjX0cwYk5jNEVnbkVmU3RJYy1hZEdKc0M5WjN2SFVuWDBQZ3hRVUVPWlBmTkNLM0VQbjVZeW5VcFk3M2VmN211Z3kzMlVfcUFB?oc=5",
+      "published": "Wed, 10 Jun 2026 12:00:00 GMT",
+      "summary": "USD/JPY Advances Toward The Next 161.60/95 Key Intervention Levels&nbsp;&nbsp;Seeking Alpha",
+      "source": "GNews | JPY",
       "priority": 0,
-      "category": "独立RSS源",
+      "category": "汇率",
       "relevance": "low"
     },
     {
@@ -1808,6 +1830,16 @@
       "source": "GNews | JPY",
       "priority": 0,
       "category": "汇率",
+      "relevance": "low"
+    },
+    {
+      "title": "米ドル円相場のカギは高市政権の夏場の政策運営 財政拡張抑制が焦点 野村證券・後藤祐二朗 - nomura.co.jp",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93MHl0RWo5OFpld1RfVVpwekxtYnVJOTVBM1pMY2NUSHRJYUlVVHJoTTNEX0FuR2FSNndhbENpNVctbmJxTXpibFgxM0QyT0VfbXh0VWQ0QkE0MnRPY1pz?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "米ドル円相場のカギは高市政権の夏場の政策運営 財政拡張抑制が焦点 野村證券・後藤祐二朗&nbsp;&nbsp;nomura.co.jp",
+      "source": "GNews | JP 日央行",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     },
     {
@@ -1884,13 +1916,13 @@
       "relevance": "low"
     },
     {
-      "title": "Fitch’s Recent Revision Signals a Notable Shift in Sovereign Debt Governance - UNU | United Nations University",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWHBDbTl4N0doMzJpZG9SRnF6dmRVbWNZNXdhRU4yZ2dMakRCSHNZT3BpLWxTbFA5ZmpoNWNaVFRuV0VYalVHNmJlNmtVb2Y3UmhCaFVjeW5BWXdGN3hqbEZVT0tRYnM3N01uam43bVJMSGRycm9MQkdOd29xRXlOcmdzZ2pudy15dk9wYjEwZmUwLVBfRTZLb0Fjci0zS0Q3aUE?oc=5",
+      "title": "Breakingviews - Gas prices’ breathing room is really an air pocket - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlBydUJzRVhYeGItR25GeUZ5aGVCMmVsb241NUdOTjczQ0l6cXJ3MkMyVTc3SmhhNXFCbDhVNHFWaEVnMmpqc0ktTzlnblV5WUZtVDRxNHpLQ2Y4NUxpWUxQei1iMzBjMGlFLXNoeDl6RVc5TUV4NkJJX1JjelJwZFhEU3lpMHhZVGozakJpSngxVlFxaldSa2RzVXZiZzAwaWlPR2Y4QVY1SWlXOFhR?oc=5",
       "published": "Tue, 12 May 2026 07:00:00 GMT",
-      "summary": "Fitch’s Recent Revision Signals a Notable Shift in Sovereign Debt Governance&nbsp;&nbsp;UNU | United Nations University",
-      "source": "GNews | EM Debt Crisis",
+      "summary": "Breakingviews - Gas prices’ breathing room is really an air pocket&nbsp;&nbsp;Reuters",
+      "source": "GNews | Nat Gas/LNG",
       "priority": 0,
-      "category": "系统性风险",
+      "category": "大宗商品",
       "relevance": "low"
     },
     {
@@ -1954,6 +1986,16 @@
       "relevance": "low"
     },
     {
+      "title": "政策金利、1.0％に引き上げへ 日銀、31年ぶりの高さ - au Webポータル",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsMGFVNnZabjduQk9JcFBUVE1mVG5zcTY3MUJqR3pYaVd3WEFFaUNoWUoybG9fWnRmRlVLTEJJRXdJNDlkM0NSTjNMSUFxejBuck0wMUZ1S1JhVHRMeXFNa2gyOGwxU0NpT2RIX3ByOEx5OUlhV0Q4c0E5QQ?oc=5",
+      "published": "Tue, 09 Jun 2026 06:29:00 GMT",
+      "summary": "政策金利、1.0％に引き上げへ 日銀、31年ぶりの高さ&nbsp;&nbsp;au Webポータル",
+      "source": "GNews | JP 日央行",
+      "priority": 0,
+      "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
       "title": "日銀、6月会合で利上げの公算大 31年ぶり政策金利1.0%程度へ - 朝日新聞",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVLXZCUUM2bTh5SHROUG1aajctYVJVN1Q2OVl0UDNtLWtCZC1NWTNXMWVwaGd4bXlvRk01NnBnYVpQMk95WXktdnlRRnB0OTgtdGt2bEhFeEliV1F4MHpNejhxSzJzZ2M?oc=5",
       "published": "Tue, 09 Jun 2026 05:35:00 GMT",
@@ -2014,6 +2056,16 @@
       "relevance": "low"
     },
     {
+      "title": "Why the AI boom is boosting lithium demand - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2ZPZEk0MGR5RnhrdGFsWlJRVHkyZEZvaEdxckxMN2FvWFVlcUFuSnBlbjkzekpHVE04SjZkUzB1dHdvb19ONllmMDQ1T3VSZ3h5R1AzUUhRTC1lZXd1aG5JaW5yMUxTUHVJQzhHMnBUNFpHVXZ3Z2l2WEx3VEdGQWlMcW1oZFl5X0MyOXEySTY1aE5qT3FSMmQ4S1g?oc=5",
+      "published": "Thu, 14 May 2026 07:00:00 GMT",
+      "summary": "Why the AI boom is boosting lithium demand&nbsp;&nbsp;The Washington Post",
+      "source": "GNews | Lithium",
+      "priority": 0,
+      "category": "大宗商品",
+      "relevance": "low"
+    },
+    {
       "title": "Grains Collapse on China Disappointment: How Low Will Prices Fall? - AgWeb",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaG83MU9GSVV3MGl0VE9Da2p0QVNBSkE2QXNaaHY2WjBpT0dPeERMWWtadFVCdThNaHlUejZENW8yNVBybVdTRGVrbk0tMXpRUWdJSVJUQ2U2cjkweHRpc0xCSHJYUzJ2bEE2RVdyZDdFeHloWENfTXBfaEZTUUlWWmlUd2h1X3NxWGo3TTJrak5pV2JqY2R4blc5aHdYWmloX0c2Y1JtMEFtUVU?oc=5",
       "published": "Thu, 14 May 2026 07:00:00 GMT",
@@ -2034,10 +2086,50 @@
       "relevance": "low"
     },
     {
-      "title": "‘South Korea’s Amazon’ hit with record fine over data breach",
-      "link": "https://www.ft.com/content/e7c503cd-4cc8-48c8-be91-99abf0bd2f9a",
-      "published": "Thu, 11 Jun 2026 02:49:56 GMT",
-      "summary": "Coupang fined $409mn for hack that exposed personal information of nearly two-thirds of country’s population",
+      "title": "Emirates to offer insurance to tempt passengers back to Dubai",
+      "link": "https://www.ft.com/content/ff64e964-52e9-435f-8dca-bcb9f0508190",
+      "published": "Thu, 11 Jun 2026 04:00:38 GMT",
+      "summary": "Airline will fly people home if they are stranded, says carrier’s president Tim Clark",
+      "source": "FT Home",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "China cancels high-level meetings with EU",
+      "link": "https://www.ft.com/content/5903318c-319b-426e-b05d-062f7620f799",
+      "published": "Thu, 11 Jun 2026 04:00:28 GMT",
+      "summary": "Abrupt scrapping of two sets of planned talks in Beijing comes as tensions grow between trade superpowers",
+      "source": "FT Home",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "EU countries weigh ‘tearing apart’ bloc’s diplomatic service",
+      "link": "https://www.ft.com/content/a7278d93-98fc-4fa7-a14c-d0c089b693dd",
+      "published": "Thu, 11 Jun 2026 04:00:27 GMT",
+      "summary": "Chief diplomat Kaja Kallas and her EEAS are in capitals’ crosshairs over leadership and co-ordination issues",
+      "source": "FT Home",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "How SpaceX could pull millions of savers into Musk’s orbit",
+      "link": "https://ig.ft.com/spacex-ipo/",
+      "published": "Thu, 11 Jun 2026 04:00:19 GMT",
+      "summary": "The world’s richest man is shooting for Mars. Ordinary people are coming along for the ride",
+      "source": "FT Home",
+      "priority": 0,
+      "category": "独立RSS源",
+      "relevance": "low"
+    },
+    {
+      "title": "We will need a new tax code for the wealth AI creates",
+      "link": "https://www.ft.com/content/b277360e-bf23-4366-afd7-acab940f66b7",
+      "published": "Thu, 11 Jun 2026 04:00:18 GMT",
+      "summary": "The question isn’t whether mass underemployment arrives but whether we have a policy framework ready when it does",
       "source": "FT Home",
       "priority": 0,
       "category": "独立RSS源",
@@ -2049,26 +2141,6 @@
       "published": "Thu, 11 Jun 2026 02:00:00 GMT",
       "summary": "Activists are using the tournament to spotlight tens of thousands of missing people, while officials deploy high-tech shields to protect lucrative tourist zones.",
       "source": "WSJ World",
-      "priority": 0,
-      "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "The Multiple Implications Of China’s Rectification Of Illegal Cross-Border Securities Investments – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcmtjZERBYkxSZ21PcEI1c09oaFlmRjIzOUNvMFplTU1pUWZjbDZ2ODhhRWJISVlvVjN2aFZka3AyNU9xYkZkR0NyZEFYaHZHbzd1QjNEcjVaNE5xSE56OHhsc0JSLU1nVEVnQjI0ZzZmU0oxbGVEd1RJelVPVmdVMkZFYi1iOXdoazBmZVhkR05ja2hWRnhLVFRZMi1ySFRDaFBPb3NqNGdxR3JmbnkwUHdJUXhQN2Exd1BtblRJRFpGc3NsbmdiMmVXR183Qng2VE0wWEtXWVZEVWpwWnc?oc=5",
-      "published": "Thu, 11 Jun 2026 00:47:02 GMT",
-      "summary": "The Multiple Implications Of China’s Rectification Of Illegal Cross-Border Securities Investments – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | Capital Control",
-      "priority": 0,
-      "category": "资本流动",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump’s Iran war has propelled China’s cleantech industry",
-      "link": "https://www.ft.com/content/12d0d1e4-d08c-4014-8a8a-b4b4f7044fcf",
-      "published": "Thu, 11 Jun 2026 00:35:43 GMT",
-      "summary": "Disruption to global energy supplies sparks surge in demand for alternatives",
-      "source": "FT Home",
       "priority": 0,
       "category": "独立RSS源",
       "relevance": "low"
@@ -2101,6 +2173,26 @@
       "source": "GNews | BOE",
       "priority": 0,
       "category": "全球宏观",
+      "relevance": "low"
+    },
+    {
+      "title": "The promise and limits of the new G20 template for debt restructuring - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamVHMnc3QjY3NnB6NmVvX1NSblZaOVo3X2lwOW9mZjBJbzhKdExET1ZfcGIyWFEzOHR4YWJ5dDN5V21pN2JUUDdGZnRzU2JNc2pfcUp0aUVVZzhqN2NwREt0a04xY0plNVliZ19Ib2pyUHpxV21yclJtY2hhZk9Oei16dFdiOFBzbGdma3hqQ3I2RDdLcjBIX3pfWFJjeXVKSV9felRnQ2Y3YkJQQ0ttVDNrS2t6Rkg2RldhUFR0NA?oc=5",
+      "published": "Thu, 04 Jun 2026 08:57:07 GMT",
+      "summary": "The promise and limits of the new G20 template for debt restructuring&nbsp;&nbsp;Atlantic Council",
+      "source": "GNews | EM Debt Crisis",
+      "priority": 0,
+      "category": "系统性风险",
+      "relevance": "low"
+    },
+    {
+      "title": "Grain Prices Tumble Despite Middle East Crisis, Threatening Farm Profits - Agrolatam",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXd0aEZYc293eS13T092cHR0em9oTE5vZ0NrUUl3bUNjZFM5MDEwRzk0Uy1TSHUyd2ZacHNTRDFaT1MxRmM2M2NFcGZqcGc0SzRTZ3F2em5iczhYdC1uX3A0R1kwOHpXaXVuU0FmZXlUeVE2dWFteXd0Mi1RMlcwbzJmMnNvMDFlZjJtSVFjREVma1lIb2tocw?oc=5",
+      "published": "Thu, 04 Jun 2026 00:39:57 GMT",
+      "summary": "Grain Prices Tumble Despite Middle East Crisis, Threatening Farm Profits&nbsp;&nbsp;Agrolatam",
+      "source": "GNews | Agriculture",
+      "priority": 0,
+      "category": "大宗商品",
       "relevance": "low"
     },
     {
@@ -2247,22 +2339,9 @@
       "relevance": "low"
     },
     {
-      "title": "World Bank projects 6.7 % growth for India, surpassing global growth of 2.7 % - News On AIR",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVGttTE0wbWhEcDQwOFFJZTJkUzVHS0l3NXJ6WkVvS3pvLW5veEp3bGhXV0FNQUwxZWJ3RVd6aEVfbDR4MTFnNDRyekZRSGQ1OG5EZHExNHpvdk1uem5PWjlNdGR1MW1mdFdXZkxlem5LbmN0T3R4MWdKMGNSQnpzUHVXaHVUMFJhc0ZfTzZVNjlqUUVSODJDQVlRaVRpVDg?oc=5",
-      "published": "Mon, 08 Jun 2026 09:03:54 GMT",
-      "summary": "World Bank projects 6.7 % growth for India, surpassing global growth of 2.7 %&nbsp;&nbsp;News On AIR",
-      "source": "GNews | IMF/World Bank",
-      "priority": 0,
-      "signal_keywords": [
-        "World Bank"
-      ],
-      "category": "全球宏观",
-      "relevance": "low"
-    },
-    {
       "title": "Why India cannot let the rupee float - Newslaundry",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbmJRVi1MYUhHaFc1UExTUkpJbTA2YXNucXZGeXlKUmN3VXdMUUVpc083TmJxLWlCRGZkdFB3T0daVllULVphVTRXYjZmT1B0c2FKRHp2MXhxOE1EaFBtUFdaR29WRVNWMzhfUXlpbkVoRURRV0RSZExfUmlxdmVDONIBlgFBVV95cUxNZzFoeGVON25yYTJDYi1Pc3pZVEl3Q2UxYmQ2SVp5LXJUT2xfVkhQdWI2UTdYa3VTOG1HU0lMckltOTVkUVoxSzVoanlsRWNyNjNBT2JMb2RzcC00bE5OWTdzbnJLOXRMVU5iUWVFWVdjU3FXbk9FeDh6RmJiX0sxQXFaeVRYbkZMMGlhVFlONTAwRnByclE?oc=5",
-      "published": "Mon, 08 Jun 2026 05:13:39 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZzFoeGVON25yYTJDYi1Pc3pZVEl3Q2UxYmQ2SVp5LXJUT2xfVkhQdWI2UTdYa3VTOG1HU0lMckltOTVkUVoxSzVoanlsRWNyNjNBT2JMb2RzcC00bE5OWTdzbnJLOXRMVU5iUWVFWVdjU3FXbk9FeDh6RmJiX0sxQXFaeVRYbkZMMGlhVFlONTAwRnByclHSAZYBQVVfeXFMTWcxaHhlTjducmEyQ2ItT3N6WVRJd0NlMWJkNklaeS1yVE9sX1ZIUHViNlE3WGt1UzhtR1NJTHJJbTk1ZFFaMUs1aGp5bEVjcjYzQU9iTG9kc3AtNGxOTlk3c25ySzl0TFVOYlFlRVlXY1NxV25PRXg4ekZiYl9LMUFxWnlUWG5GTDBpYVRZTjUwMEZwcnJR?oc=5",
+      "published": "Mon, 08 Jun 2026 05:35:05 GMT",
       "summary": "Why India cannot let the rupee float&nbsp;&nbsp;Newslaundry",
       "source": "GNews | EM Currency",
       "priority": 0,
@@ -2290,13 +2369,13 @@
       "relevance": "low"
     },
     {
-      "title": "Is Indonesia Still a Magnet for Foreign Investment? - Kompas.id",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmR4RHgxNkVEVGtPSnJrSVFzRVE5WGFiQUZnX0lBZThpbHR6Sl9rRGpTQUtUcWpmZ2ZsWk9uWWliaUM4ZlVqNmJMeHh0WmljM19yRHAxSmRJOU5sd05rRGdGeHpqZGVRbDZoVGhNc1Z2TXV0cEFnZVduaGxmajRCQ1J4UERhcFJZLVhpTEFmTkM?oc=5",
-      "published": "Fri, 29 May 2026 11:30:54 GMT",
-      "summary": "Is Indonesia Still a Magnet for Foreign Investment?&nbsp;&nbsp;Kompas.id",
-      "source": "GNews | FDI Flow",
+      "title": "Battery material prices rising after overbuying cut 2021–23 gains - Benchmark Mineral Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUmFVZzRGM1JXeDJZMnoxZWUwM2toNlhDNDJISWVfNVQ2YmtnVFlmd21HM3p5OC1HMXJxbE5FX0JZRG5uVTNkcmNJN3JwTFRGcHRTTTRDaFBmSkx0MjhUT2JxdG53WW9fRlBYcGw4dEZMMHNmbmVxSVBKRF9lU2FtQU13YkNtQzRyT1k3a0dGOGp4Qm54T2VJRHBhNm1fMmZDemtNXzM3cTBPd0x5YlF0SGE0SDBxeVhkXzhwWUMxbExyQWRGb2xWMTZBQQ?oc=5",
+      "published": "Fri, 29 May 2026 12:52:46 GMT",
+      "summary": "Battery material prices rising after overbuying cut 2021–23 gains&nbsp;&nbsp;Benchmark Mineral Intelligence",
+      "source": "GNews | Lithium",
       "priority": 0,
-      "category": "资本流动",
+      "category": "大宗商品",
       "relevance": "low"
     },
     {
@@ -2347,16 +2426,6 @@
       "source": "GNews | Euro Economy",
       "priority": 0,
       "category": "全球宏观",
-      "relevance": "low"
-    },
-    {
-      "title": "USD/JPY: Intervention fears drive sharp gains – BNY - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaEF1cEI0U05kQ0RESzZpN2Q2bG0tWnJoQ05RSW1WSVVROHc4TU1ESlBvNnpwajRFdTlZanB2a3FMWWNIQlpJTlpkdFBpS0VoalpQOWdwVUlnaVdRMHR6NC1UaXlnTjRzeUJNalYtZTlxT3djcmV1SlJORER6a1FCS3dGMnJ0cFNDdkwyMVd6M2tuQkRRbkE?oc=5",
-      "published": "Fri, 05 Jun 2026 11:50:51 GMT",
-      "summary": "USD/JPY: Intervention fears drive sharp gains – BNY&nbsp;&nbsp;FXStreet",
-      "source": "GNews | JPY",
-      "priority": 0,
-      "category": "汇率",
       "relevance": "low"
     }
   ]

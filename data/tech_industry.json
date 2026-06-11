@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "全球科技与工业前沿",
-  "updated": "2026-06-11T04:20:45.218597+00:00",
+  "updated": "2026-06-11T04:38:41.239226+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 157,
+  "total": 162,
   "high_priority": 0,
-  "medium_priority": 14,
+  "medium_priority": 13,
   "signal_alerts": {
     "record high": 1,
     "breakthrough": 2,
-    "discovery": 4
+    "discovery": 3
   },
   "stats_by_category": {
     "半导体": {
-      "count": 178,
+      "count": 179,
       "feeds": 6
     },
     "AI": {
@@ -52,16 +52,6 @@
       "source": "Wired",
       "priority": 7,
       "category": "独立RSS源",
-      "relevance": "medium"
-    },
-    {
-      "title": "First Samsung, Now TSMC: Rumored Bonus Cuts Put Global Tech Supply at Risk - Android Headlines",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDh4WDRLUTBVLWJkNXR0ZERPVkw5Q1p6SUh2SW1yRjlJbjNiMzl2S3NqaHQtQ293cHROb3BKRlh0cm56ZzR4TTN6RmdfUWZuTnY5Zy03dG1HNnAyVWw3WEpZWDRnd2RMNXpRVW9INVZIdEJjZEF3aUEzNlpFdUxZRnY3M2FWeTRkR2NuMGhEOWhCUkZ3US1mUWxxZw?oc=5",
-      "published": "Sat, 23 May 2026 07:00:00 GMT",
-      "summary": "First Samsung, Now TSMC: Rumored Bonus Cuts Put Global Tech Supply at Risk&nbsp;&nbsp;Android Headlines",
-      "source": "GNews | Signal: Record Tech",
-      "priority": 6,
-      "category": "信号性查询",
       "relevance": "medium"
     },
     {
@@ -125,16 +115,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Electric Vehicle Market Size, Share & Global Analysis, 2034 - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDdPM0VwRXE3dDlfTTJFS3BVX2FmU0ZLWVVDR2JLcWk5UjVnUmJQaDJ2N2E1Z1VkMWdIUzdnWXVrSFc3cHBLWmhSb3dodGpOTlZzejhjaFRBcm5fRi1jMzhzTV9CcFRqVVRVUVdWUWliWkdiMXdzLXpFMWY3M1doOW1hTHBaUnlnYV81YmMyLTU?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Electric Vehicle Market Size, Share & Global Analysis, 2034&nbsp;&nbsp;Fortune Business Insights",
-      "source": "GNews | EV Competition",
-      "priority": 3,
-      "category": "电动车+电池",
-      "relevance": "medium"
-    },
-    {
       "title": "Quantum Computing Advances Are Rewriting the Rules of Computation in 2026 - MSN",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWEVaTWdBNWtYOElycU1FMDNxQjR4OXNRV0pnUjN2QU5BLUo4XzlKa29OVE0zV2JFQ1JUQm55bld0SEI1cFhGamVTTENHaUpmS0UxVGdlYUlhaFdtSVBMRHRYMDR5ZnFlQWlCTTZ0dlR3VmRfbjJ3b3RVZEp1SW94TFdhaWpnVjhhNlg3b2lNYllaa1VXVGZwYlBFSmViNkRHVHZ6QkgwU1R4Qkd6b1V0bnBKSU9DdG9DUEFPaHNjaVdKZVltYmdjTy1fRXdyMXpwRENFYWludw?oc=5",
       "published": "Wed, 13 May 2026 22:46:29 GMT",
@@ -175,6 +155,16 @@
       "relevance": "medium"
     },
     {
+      "title": "Japan EV Battery Cooling Systems Market Size, Share and Future Outlook 2026-2034 - vocal.media",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHBBY1E5dnNfdS12ZENSM2c5Um5ndGtRNzg3dlZ5MmNWQnl1Q0JwM2VvTlJiQnkwSm4yU1AzU3ZmR2YyQ1lRZFdJSXNtd1F5Y29OS2NRbGZrYk16anY4cDRHWWRfWjZoOHk5S01wUnV1S3Zhck9Hc21WTE81MzJ3QUVTbUJ1YkJIclczeXVYV2FjcXlMZzljTVFuYmFkdjRVa2lwTg?oc=5",
+      "published": "Tue, 02 Jun 2026 10:36:40 GMT",
+      "summary": "Japan EV Battery Cooling Systems Market Size, Share and Future Outlook 2026-2034&nbsp;&nbsp;vocal.media",
+      "source": "GNews | EV/Battery",
+      "priority": 3,
+      "category": "电动车+电池",
+      "relevance": "medium"
+    },
+    {
       "title": "SpaceX to launch Starlink mission Saturday morning from Vandenberg SFB - Santa Maria Times",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOX1NIdG5mWUp4QzNiOWQ2WFRzel9TS2RHbGZlTkpQZTFFa2JyeXFzZ2VYLWdYNnYzVmN0eGloQ0RiQ3I0bmM0NzZJbXNjYjhuTzlJS0NYTnlIaEo2M3dnNWpBT25pd1J2VEUyTUVac1hzak1WTFFZcGhzZVdSS2Nvd0VaVW04OV9FVUFqRHZOVEFZakl5TUZ4TlV0TEtFeGgwU3l3cHNFRm9sY0ktRWZ3QlpGcGMwc2VVX0NFdC1rcHV2QXJKV1pYeWl4amVldDVQeDk3Y0JLR2c5MDFFN04xaWd6Q2x2ZkxDUXVHWjYzRnF3RkU1Q1Z0ekl5cnpoMklieVNGYmpJM1JSSTg?oc=5",
       "published": "Fri, 29 May 2026 07:00:00 GMT",
@@ -192,6 +182,16 @@
       "source": "GNews | Space",
       "priority": 1,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "Battery & Energy Storage India Expo 2026 - EVTech.News",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2VhWDZ2dUFFX3dYT0liamRkaW5MRW9kN0hBVV9UdmUyeGVhN0o0TExpM0d3aVZQMVR0bTFjUE8xcXRnNjZXSUtFMzlMRlYzX0lIZFJ0bkdJMkpGWlY3TVhqVFpLb0Q5bHZadjBsVGlueDlFNXVVdThiNHZHLXlfSGVfT1U?oc=5",
+      "published": "Wed, 13 May 2026 04:51:19 GMT",
+      "summary": "Battery & Energy Storage India Expo 2026&nbsp;&nbsp;EVTech.News",
+      "source": "GNews | EV/Battery",
+      "priority": 1,
+      "category": "电动车+电池",
       "relevance": "low"
     },
     {
@@ -265,6 +265,16 @@
       "relevance": "low"
     },
     {
+      "title": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition - The Diplomat – Asia-Pacific",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUR5bEdWSFRyRm03V2FkbWgzYW5kMUdTYTdER29tZmtBYXdxMWZjS0wtbDhoUTFXdE1TZXdHZVNUcjM5eFAxRmNDZXdwZy1oSlVPajRhcTduY0FqdWdvUmZaM0FVay1iemUxR0h6SGc3ODBPcjJhbVhxZThnMnFlTTZjNE01SzgwdUxFdXA0QncxN2xSS2pROENFVmRCUVBH?oc=5",
+      "published": "Wed, 03 Jun 2026 17:28:32 GMT",
+      "summary": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition&nbsp;&nbsp;The Diplomat – Asia-Pacific",
+      "source": "GNews | AI Safety",
+      "priority": 1,
+      "category": "AI",
+      "relevance": "low"
+    },
+    {
       "title": "BYD Overtakes Tesla as Top-Selling EV Brand Overseas, Dominates UK, Australia and Brazil Markets - EVTech.News",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHQ0MFFLVWtoS1ptUDhqckdTTUZycTBJdGdaQVJmUi1EeHFLU2tsYUpYOHNNRXJ3OEVkVXRWT3I1QU1BMWZBMDRKMzNXa1N3emZydHF5OGFBUExTMmdXQXhmTWphUEhuVU5BbDFzcG5IQUNUa2tCbUN4S3BlVWRIXzZ6ZzhZc0VpV1NEWGlHTGdJNjZKY2hDWWNEME9VSmF2REhMaE85NDZESnBRdHpDQkh4MnRqekY4ZUIxalRucGVTdw?oc=5",
       "published": "Wed, 03 Jun 2026 04:19:11 GMT",
@@ -272,6 +282,16 @@
       "source": "GNews | EV Competition",
       "priority": 1,
       "category": "电动车+电池",
+      "relevance": "low"
+    },
+    {
+      "title": "Global DRAM Revenue Surges to Near $100-billion Mark in Q1 2026 Driven by AI Data Center Boom - Counterpoint Research",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTVFtYTdzdnk0RUpBMUhZRVVZdGZkanZLcm8zRTRVcHJYdGNBVHNCWjJBNHE4UFM0UC11eDdLT3JsQkIzcy1RZ1FvempNLUpmMmVCeGZfWTl2MWxmQnl0dGkwRDNwYkZmWmpqZ3BSMzJZaENSOW9SM1JBQ3MwemFJOUJhUTg5cVk2dXRRWkNLMlVETmcycTBfWklOdkxPdmhja1ZMMTFmbDd2Slo1THd3eG5kekY?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Global DRAM Revenue Surges to Near $100-billion Mark in Q1 2026 Driven by AI Data Center Boom&nbsp;&nbsp;Counterpoint Research",
+      "source": "GNews | Signal: Record Tech",
+      "priority": 1,
+      "category": "信号性查询",
       "relevance": "low"
     },
     {
@@ -345,6 +365,16 @@
       "relevance": "low"
     },
     {
+      "title": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it. - king5.com",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPd3h2b1JzSjBwWXA4bHNKZXlsMUIwTEdHTUNQTmxmYWdONWx5N3phVUlDcjlhSlVYZUMtNjBvbUZfc2h2MFdCbV9QRnUtRHMyMFdyRnJjM0dfNEcwUVpHek8zQlJvQU01QWM0cGZiTkFUY0VRd1h1TFpQOTFhLW1JanVFWHR2ZmYzaENlY25nNUFINElHYnUtcldwcEtyRnRnZ1JybTdpNFlDelVOSWxHa2h6cThUWHExRi1ZS1FLU2ZDWGpTRzN2X0M5YkZyTk5iVXVmQkNCNW1xT2VYM19LVVJkUkQ0S3ItSzhGNUl5UnBZTElHYnZhZnBadFhNcExxdWpjUEgyTUNmenBT?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it.&nbsp;&nbsp;king5.com",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0,
+      "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
       "title": "Micron Stock Forecast: MU Hits Record High on AI Boom - CryptoRank",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWUI3SFVvUXFVVWhPR0dQRkRPT29DVHVQemw4cEFwSUlxOHlOUnJ4ajRmS0VXOVRQbm53YXpudFR1bWUzSy1JemNLRjQzckk2YkZlbjJOaXNuU1ZVUjN3TnJ1bjVMOFNfQzNWREdKc3puWTI5ZkxlWEM5cWVWMWI2VXlkQ01kdmVzdi03RFF1OTlJbXNm?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -375,16 +405,6 @@
       "source": "GNews | KR 반도체",
       "priority": 0,
       "category": "本地语言搜索",
-      "relevance": "low"
-    },
-    {
-      "title": "AI executive action stalled by White House infighting - Axios",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkE2SlNoTmtVc1dFRUhNWmtPYi1mVXdzUHdZQlRtZGtjelFYWFpqR2phZmNQVU03R1FxTllpRVowS25hVjhNNTlVYzlndi1TUGtMMVhzVkhWQy11UXhnczB2LTF2V3RaVU9VLWpKak1kaHIwdFF0TWt3SWdVZ2tNRw?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "AI executive action stalled by White House infighting&nbsp;&nbsp;Axios",
-      "source": "GNews | AI Safety",
-      "priority": 0,
-      "category": "AI",
       "relevance": "low"
     },
     {
@@ -901,6 +921,26 @@
       "relevance": "low"
     },
     {
+      "title": "Europe has had enough of China’s export surge - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeDZGUmZjekZGOF9sOEJJUm9aX0k3SXZINVZna0x3dU5TTVpmUzdQV2VzQm45d1hqcElMZjQ2a2Z0WVZFZGhrY2s2WjR0Qm05Q29hUG1RWVhETndMUFZsVzJfRFVETldRY0V2R2IxakhnMXE4Yk5nVVdXUHcxTS0zVm1SUzloMGhBcEk0XzZjaWh0UQ?oc=5",
+      "published": "Wed, 03 Jun 2026 20:30:57 GMT",
+      "summary": "Europe has had enough of China’s export surge&nbsp;&nbsp;Atlantic Council",
+      "source": "GNews | EV Tariff",
+      "priority": 0,
+      "category": "电动车+电池",
+      "relevance": "low"
+    },
+    {
+      "title": "Automakers, retailers warn US memory-chip shortage is impacting prices - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlVNYkY1ZGNrbFpNc1FiMFZLckVCdlhMb2xpSzN4TllOZ1cwLUNBMjQwamlpMzdkSDN5cXFQYm5xWGZLSzRtVkpraWdLamRRQm9wQkd4bGJDNmEwZXdHX3plUm5TenN5WEUxZmRoLXNlQ3BwZFA4ako2RndhdURWOXR5ZVFXeHdnbVVHY1prSnJnaUtoYm1ROGpNOUFkakE0QVZqMUtPcHZ3SF9nOXJrU29zQ1RvOVBjdHEzSGtyaU80azBsU1RXRQ?oc=5",
+      "published": "Wed, 03 Jun 2026 17:54:07 GMT",
+      "summary": "Automakers, retailers warn US memory-chip shortage is impacting prices&nbsp;&nbsp;Reuters",
+      "source": "GNews | Auto Chip Shortage",
+      "priority": 0,
+      "category": "半导体",
+      "relevance": "low"
+    },
+    {
       "title": "After Suno, Udio asks court to seal the size of its AI training data in Sony Music’s copyright case, also citing ‘competitive harm’ - Music Business Worldwide",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOUJaNmMxRUtrOWd6dFE5bjY1UmEzWklKZ09ETTBqZnZaeEJZYXY4RTg5ODdKWFNwY09jWUlUYUVYRmcxTkliLUhkUUl0S2IyQ0V1bzVWYWYyM3Myd0ZZdkJ2WVA1QzZiVkduOVYtcF9tSjY3cVdnd3pUc3RUbWJ1UUloeEx3cDA1UjhrVWZ2UXpyUlJvU1o5cHJGU2FwVWNEZXVtMmJiOEw2dUViTVVFVU1yczVsQkVxX2VGcjlMRnVzVDFWOE82eEh3WFNfLVRmWkhsb2VKSWg5bThMempSU1V0YnpaY0NtQ1lJeXBBN2gxRVU5MzVicndn?oc=5",
       "published": "Wed, 03 Jun 2026 14:55:19 GMT",
@@ -911,16 +951,6 @@
       "relevance": "low"
     },
     {
-      "title": "Why Is NVTS Stock Rising Today? - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWm9kcG51YllZSm5jbjZXclVLWGg2MEZjX2w0RXJxenJJdXJaVlVHbDMwd2kyZXhab1BBcFotdldCSkdZMmNGUmJUNFVZeUlNRkQxdnlNcFRwVVpTTmdPXzRVNGlrLTFFeWJuWjl3R19CWWFYZGRWeThoXzNkQ3JNbVhmbVdaby16aEo0ZXA4TWdnSXVqaVE?oc=5",
-      "published": "Wed, 03 Jun 2026 14:25:31 GMT",
-      "summary": "Why Is NVTS Stock Rising Today?&nbsp;&nbsp;TradingView",
-      "source": "GNews | Signal: Record Tech",
-      "priority": 0,
-      "category": "信号性查询",
-      "relevance": "low"
-    },
-    {
       "title": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose - ScienceDaily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fZ0Y0aXZqRC1ONER4LXRvUFpnaEg0bVlJTkVrLUh3WU40aVhVTjBiZnpqRFR2a1l0eW1oRnhGRExSdXN2U29PN0dSZUNMVlAyYUVYN0wtTlRXVUxfcVBPdjhNcmRKN1lFM3pUOWRyYw?oc=5",
       "published": "Wed, 03 Jun 2026 14:05:57 GMT",
@@ -928,29 +958,6 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
-      "relevance": "low"
-    },
-    {
-      "title": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFVIVW5XSnhtTHo0UVJzQ0wzVGJ1OFh0dUFxVU05Zk1rUHhuRFZUcGRmS0dVWW5yV2VGMFpES0NIUlc0eFVlYkY4OXY4cVlKd3pqU1lvWXdOTF9PN2pTcVhUa3RHVDMxM2dJOFZrald5Yml3TktqM1BidktnX2dIMmM3TVdDTXdrbHQyM0lpWQ?oc=5",
-      "published": "Tue, 26 May 2026 16:19:47 GMT",
-      "summary": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: Tech Disruption",
-      "priority": 0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "信号性查询",
-      "relevance": "low"
-    },
-    {
-      "title": "Sony Music expands copyrights in lawsuit against Udio - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGZaNkhXNWRkd2k0cXdlQXpUMFMwTU55M0ItLTVLbGN2dlJhYVhVam9KTU10d3lYMjhRcS15SFJjS2V2WVZzbTNkUk9jLVFkVVhkV05UMFF4R2toOFFyV3AteWRqWFd5ZmJBb29lS01LQ1RkWl9STms0d0lHb3JpMDYzd05EVjB2NDJlOGFVMExpYURNWmhKc2Q5RQ?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Sony Music expands copyrights in lawsuit against Udio&nbsp;&nbsp;Let's Data Science",
-      "source": "GNews | AI Copyright",
-      "priority": 0,
-      "category": "AI",
       "relevance": "low"
     },
     {
@@ -1014,6 +1021,16 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "(LEAD) KOSPI opens again at fresh high of above 7,900 on extended chip rally amid Iran deadlock - Yonhap News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DeE04clZUeUZaM0hab2lESThwZkRnT092U016U0htaWs1WDJSUlU2d1JnaGNtNHkzcFlsNWhpRWs0QkxMOHRCLW9Qa0huOXlxUFlLbkNmVUJIUQ?oc=5",
+      "published": "Tue, 12 May 2026 07:00:00 GMT",
+      "summary": "(LEAD) KOSPI opens again at fresh high of above 7,900 on extended chip rally amid Iran deadlock&nbsp;&nbsp;Yonhap News Agency",
+      "source": "GNews | Signal: Record Tech",
+      "priority": 0,
+      "category": "信号性查询",
       "relevance": "low"
     },
     {
@@ -1170,6 +1187,16 @@
       "relevance": "low"
     },
     {
+      "title": "Tesla Stock Rises on China Sales Surge and AI Ambitions - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVU5XNVdGLWRuVDFFd1E0MlJIR3pJUmVUUTBOcUZaSE9GZjFFZlpNWGt2b2VkUWpPb2RhUGttYm1ibXdnMlBRNHA4Yy1lcklMdDdYbVo2Njd5cVdFdFIyX2VlWVdmcjEtS3d0M1BJekM5Y2JlclRDbkVWN0dLNy1aZXI1bGx6ZHFMaEVRWXVPbUNxajJzVDlDMnBzMWY2RzdCR1l3UWtGeEpOeDhNZDFmeUNyczlnTlZrX0dKaGhVWS01bXM4UzlVRGVGeHpuMnRXQ1VYckxabEw0VUJEUUZ1VW9NUktLWUZUc2ZwbTlNeGY?oc=5",
+      "published": "Tue, 02 Jun 2026 17:44:04 GMT",
+      "summary": "Tesla Stock Rises on China Sales Surge and AI Ambitions&nbsp;&nbsp;MSN",
+      "source": "GNews | EV Competition",
+      "priority": 0,
+      "category": "电动车+电池",
+      "relevance": "low"
+    },
+    {
       "title": "AI impact on employment 2026: Labor market data and outlook - S&P Global",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPanRCS0pRZ0ZsS05aQUtycVpvVWk3UTlWS2xGVFBwV1FWZUtDaUpDUkM3cU92ZURCNlViVUR0YXVxYXptamVIaXI5Sy1ZWnZMMHM4RnZtSFNnZnJySk80YW5OR1Q5OEtvYVZLUy1SMi1fdWgzbVY2ckY0TFVKMU5qUGloMHdNa1E4aWdUd3hCR1FjYTli?oc=5",
       "published": "Tue, 02 Jun 2026 17:18:33 GMT",
@@ -1224,6 +1251,16 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RTW0zVTI4MFpxQThuMDFFSkJ6UG5VLUI0eGE5clI5Y2dTaGRFNWl1UTVlRE9ReldwLWxRdi1Uek5jUFRaYk9XYW5RNzAzNnVqdURkVjVXU2psaFhTd2s4SnJMSWw0VW9aNndPcDU3bw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "Popular GLP-1 weight-loss drugs like Ozempic slash heart attack and stroke risk&nbsp;&nbsp;ScienceDaily",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0,
+      "category": "生物+航天",
+      "relevance": "low"
+    },
+    {
+      "title": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial - BioPharma Dive",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHA4ZHZEY0dtMUg3THNSekVWM0JHTl9fbzAtN3FCeDBiaHRUdmpOOTF2dHpHNkVFa2dUTkN4aS1GczBYaGJPOHMzd3pqZGVpa1p2eVAtbHY1cEZ0ck93aHJCWEpfdDhKT29kZkg3OWw1VDBld0hYZDJKX29YeXJ3cmxBR2Q0WlQ2X1JkQlJzb1RKdFU?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial&nbsp;&nbsp;BioPharma Dive",
       "source": "GNews | GLP-1 Drug",
       "priority": 0,
       "category": "生物+航天",
@@ -1320,6 +1357,16 @@
       "source": "GNews | CN 芯片/AI",
       "priority": 0,
       "category": "本地语言搜索",
+      "relevance": "low"
+    },
+    {
+      "title": "South Korea export growth hits four-decade high on AI chip boom - The Mighty 790 KFGO",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdWJoOFRPSHBMVEpuXzhxcnRudnBjNTdfcjktUEhlN01lRVRnTXEwamJyeW9mLWhzaGRNOXlodm5YWjlLeXZCN1VyYWxNS0VuckRFdGNkaHhjYkxQa2huLS1nYl9MS2g1RElMa3hpYjRiT3ZFeThudjYyNXBGYTBGai1ndUVZYncxUVA5TXJQb1NIeldHSG02a1RseC1qQlVka291Sk9nVkZPc1hJNHhqc2x3?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "summary": "South Korea export growth hits four-decade high on AI chip boom&nbsp;&nbsp;The Mighty 790 KFGO",
+      "source": "GNews | Signal: Record Tech",
+      "priority": 0,
+      "category": "信号性查询",
       "relevance": "low"
     },
     {
@@ -1496,6 +1543,16 @@
       "relevance": "low"
     },
     {
+      "title": "Who's suing AI and who's signing: Brazil's Folha settles OpenAI lawsuit with commercial deal - Press Gazette",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5",
+      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "summary": "Who's suing AI and who's signing: Brazil's Folha settles OpenAI lawsuit with commercial deal&nbsp;&nbsp;Press Gazette",
+      "source": "GNews | AI Copyright",
+      "priority": 0,
+      "category": "AI",
+      "relevance": "low"
+    },
+    {
       "title": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제” - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRWVvUThteE9Ia3dSWTBvQzlZZl92Z183d3BNNnowTVJJQVROWkJfdkRBdWRCcnRhaFlabC10NGRmVXhLcU5pQ25rRUFuQ0NWT3fSAVNBVV95cUxONEtBYnlBZ195NFRtTVZpWGh4Slc0QlNURVJ1T3hpZEVENzVJS2IwQm1iQVo1Y0NJSk9keFJLY09aUnRUQXdWZVozd2ZWSHIxYXFCRQ?oc=5",
       "published": "Mon, 01 Jun 2026 08:42:41 GMT",
@@ -1526,16 +1583,6 @@
       "relevance": "low"
     },
     {
-      "title": "Automotive Production Risks Force Europe to Rethink China Chip Dependence - Astute Group",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON1MwSkhfb29qWjEtNEpfd0tDQ0VWZU83SkVLNmdGbHhxZExoZ1VuZ25zR0dsUm1idmxuS2FtRERaMUtTVHNmQVp1eGJDOHBkVnoyOC1EMV9MSGVENHhtT2wwUkN1cExWdE1qVG16NUFKMWxEbUNPZHQyZmN4MU5LZXAyMjNJcm5Wd3BWeUVKVlpCWjROZzZaRmNzQ3o2X0FmZER6LVNCNFJnZDM3bUNlQ1JJLV9rUQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Automotive Production Risks Force Europe to Rethink China Chip Dependence&nbsp;&nbsp;Astute Group",
-      "source": "GNews | Auto Chip Shortage",
-      "priority": 0,
-      "category": "半导体",
-      "relevance": "low"
-    },
-    {
       "title": "Could sodium replace lithium as the dominant ingredient in batteries? - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM09mRkVTbG9TN042VGR6b1Z5Sl9wTVF6NXQ1ZGpDdXJnUzFrVFVmNThER1UydHVBNVNmSkVaWFdNT2xJcTYzTTBYdEJ0b1FxZlRVVTl4NG5yUlI5S01jMVhXbzRGaEtmb0Q4MkU4c202dzRybkFUamVOamxfOFFYdkZDSjJDM3ZhQUl3ckNacGMtYllORzFVa0ZDUS14NTlVRHdEWnZ3?oc=5",
       "published": "Fri, 22 May 2026 07:00:00 GMT",
@@ -1543,16 +1590,6 @@
       "source": "GNews | Na-ion Battery",
       "priority": 0,
       "category": "电动车+电池",
-      "relevance": "low"
-    },
-    {
-      "title": "Automotive Memory Crisis 2026: How a DRAM and NAND Shortage Reshapes Car Manufacturing - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkVjRG9mR3ZLOVlOWlVCSUpHT3hMN1RFM2dlamF5VHVBYmYxazg3czlWWW1NcGFuTkgtXzRrR0Y1czVpRG1vLV9FV1piSFVyeDFKZWNqd2V3SlhpVUJTZ0JWYUFFY09jczZWN1lWUnNXb1VpSnZiTEdsUjF3T01pYkRIdFUzUDdITFJZY1NZRnh5QWljVmhkNFpuaks3VTlGUFRVdGpQMnhYNDRv?oc=5",
-      "published": "Fri, 15 May 2026 20:40:00 GMT",
-      "summary": "Automotive Memory Crisis 2026: How a DRAM and NAND Shortage Reshapes Car Manufacturing - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Auto Chip Shortage",
-      "priority": 0,
-      "category": "半导体",
       "relevance": "low"
     },
     {
@@ -1573,6 +1610,16 @@
       "source": "GNews | AI Safety",
       "priority": 0,
       "category": "AI",
+      "relevance": "low"
+    },
+    {
+      "title": "What does BYD overtaking Tesla in battery storage mean for the global energy industry? - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEo4bEtGMGpwRkNUa19rRkp4RnJPczRlVGdzWWNZa3RqR1VkOUFLUmFOMlVLdGdJV0xSTERWYzRCdXVFOUs5OUU4LU1oVHdTZzIyZFNqMFhaTURjWFpSQ1hGZ3YtbkE2ZlVRMWMwcWI5dmtudkI2ampSNGtmY0luemVaRV9kbG04aGJEU0U2bUFYYWljaEo5S3JFQTdzc0pCaS1BakxYbnU5UQ?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "What does BYD overtaking Tesla in battery storage mean for the global energy industry?&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | EV Competition",
+      "priority": 0,
+      "category": "电动车+电池",
       "relevance": "low"
     },
     {

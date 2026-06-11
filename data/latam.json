@@ -1,12 +1,14 @@
 {
   "version": "4.0",
   "module": "拉美深度",
-  "updated": "2026-06-11T04:21:00.474871+00:00",
+  "updated": "2026-06-11T04:39:01.764131+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 47,
-  "high_priority": 4,
+  "total": 50,
+  "high_priority": 3,
   "medium_priority": 18,
-  "signal_alerts": {},
+  "signal_alerts": {
+    "political crisis": 1
+  },
   "stats_by_category": {
     "墨西哥": {
       "count": 90,
@@ -52,16 +54,6 @@
   "fail_feeds": 1,
   "rate_limited_feeds": 0,
   "articles": [
-    {
-      "title": "Colombia election outcome could reshape copper investment - Mining.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb2RBSnFXdEc0NUpLQ0dVT3RwVUhSLVVlRzcyamZxcVB0X0ZXLVNUb3I3RXppbzI1T2tXWlEyZHd1Z0ZrU19mZnRnNDZNdldsYmJOOFBwQkxiZ21jN09QSFkxZGhzUUk0aU9BaDN1MzVLbHBqLW9PSUxCWDdTVkk5QnItc08tQUFHT1dBOE9oenFmbjE5d2c?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "Colombia election outcome could reshape copper investment&nbsp;&nbsp;Mining.com",
-      "source": "GNews | CO/PE Trade",
-      "priority": 15,
-      "category": "阿根廷+智利+其他",
-      "relevance": "high"
-    },
     {
       "title": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus - Mexico Business News",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmJGSHdaMDFUaDl6dENEdGVmdWVVNlRDS05jWE9MSjloQVU3UEMxNFVNS2Z3dUo4VGlIV1VTd1pWNzZaVFVHeHJkT1ZOX2NzV0xtLV96RTFvS1hRLW9ENWFtdHFHZlFERjJxSmp3X0wzaFQwbDNVYS1YWEdycHB6UUZ3QkJVMDcxQXlTMENxNkhBZmE1T2FqUWJMSTVEOEpPX3JwYg?oc=5",
@@ -133,6 +125,29 @@
       "relevance": "medium"
     },
     {
+      "title": "Houston Approves $235 Million Airport Modernization: Game-Changing Infrastructure Upgrades Reshape U.S. Global Travel Gateway in 2026 - Nomad Lawyer",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVWwzUmkxcUctZG1PbUt6MnJKVmdzaFlxVEY2dUtvQS15UUdSQW9hSUZzTGpWUGlNYkRfcE1aTXBBVkx4MjhXWHdlaHFtS2JrU1lDSmFvQ0kxTnJvc2tybldpM2ZtNkFoYk0tbUhXMWlzU0M3Y29WQWt4Uk9oQXU3T1ZKWnNfeV9EeFRtZTNkM19WNmlacnNiYWpB?oc=5",
+      "published": "Tue, 09 Jun 2026 17:05:01 GMT",
+      "summary": "Houston Approves $235 Million Airport Modernization: Game-Changing Infrastructure Upgrades Reshape U.S. Global Travel Gateway in 2026&nbsp;&nbsp;Nomad Lawyer",
+      "source": "GNews | LatAm Infra",
+      "priority": 6,
+      "category": "基础设施+科技",
+      "relevance": "medium"
+    },
+    {
+      "title": "Bolivia Austerity Protests: Reform, Unrest and Political Crisis 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVhYVW1relo2N0F1Zjd6RWw2OVppVXVnUmpsVzBYbUZ4WVBIVFdMMnZFa3IyeUpwU21PbFFHN2haR0hlZVI3a3cwZDhpb0dKUXBxTHFCcDFUVHkxNXN0Uk9EZ1NKdFVJazA0aXNTSE1RUEJKTFRQVXUzNlR5czJENEduWFJYN1N1eGg4Qm90cEk?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Bolivia Austerity Protests: Reform, Unrest and Political Crisis 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | LatAm Politics",
+      "priority": 6,
+      "signal_keywords": [
+        "political crisis"
+      ],
+      "category": "政治+社会",
+      "relevance": "medium"
+    },
+    {
       "title": "Uruguay sheep produce exports from July25 to May26 reached US$ 281 million",
       "link": "https://en.mercopress.com/2026/06/09/uruguay-sheep-produce-exports-from-july25-to-may26-reached-us-281-million?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "published": "Tue, 09 Jun 2026 21:45:00 GMT",
@@ -183,16 +198,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Investments restore railways’ leading role in Latin America - BNamericas",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdUpBMElJaEFUd0FRTmZJRF9vZF9wb3JxTlVtdTdsQzVYeEZBa3p1dVVmUHlZc0lkb2NXZ0EzZ1UtMkJpMkZMdUZVaG85U3pVQnhpd1BxOUhwdDF1TG53d1YzR29nQUdFcE5jQkxLSWF0MmNPZncydWUxY3lqT2Y1Z3FtbXcwaUpaWmlwMUM1ei1GeEtyeG1URVYwTWVjQQ?oc=5",
-      "published": "Thu, 04 Jun 2026 10:52:29 GMT",
-      "summary": "Investments restore railways’ leading role in Latin America&nbsp;&nbsp;BNamericas",
-      "source": "GNews | LatAm Infra",
-      "priority": 4,
-      "category": "基础设施+科技",
-      "relevance": "medium"
-    },
-    {
       "title": "Why is Brazil's Central Bank Signaling Caution on Inflation - Kavout",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWIyTDdKZ0YzZ010MFVoLWc1U0hsZFdNT1Axck9tRDNIWWJELUV0cnI5RUJIQk1aSXh6cVVJdXE4NUtqeFd6Q0EwdXlVZUJxQ3dSUmpHQkJ5aXRoRjZSbGN0M0R0QlV2T3hmNmxNWUJCdkFOWlE2NjhXTjRaV0hab2pwX3NtLXZKWjF6aHFXblRwUjEwYXBHUU53?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
@@ -200,16 +205,6 @@
       "source": "GNews | BR Economy",
       "priority": 4,
       "category": "巴西",
-      "relevance": "medium"
-    },
-    {
-      "title": "Chile approves $4.45B project to triple capacity of country's largest port - upi.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSmlNRWRjV2dxYS00U3VaRXpYNUVWWUI4eG1LUkc3em1NNm11cWtlZUwyaVJiWVU1NkkxYXgtX1hfX1B3QVhfUVpDX2ZTalEzU3hiRHZ0SjhxSGwxZ0VaQjZKSjh5X1FTTVB2VHBGX3BsZHpDTXRPczJWSjlKRVJyb3RNbGo4c0hKUXNlLTZOUm1tYzlZb2xHU2QyZ21IcmvSAaQBQVVfeXFMUFZpeE5BejByU0dRcGw1MmdTY1FYRVNrQnhZV3o4Qlk2cHd3dDVLXzhHRWNOSDVWeDZJOXZxUUVjUmR1T3c1ZHNCMDVVbXB2WkUxWll0Xy1XQmtUY2dTMHJsdFV2VmFLc282bGVtaHBwS1V6cXBaRkJscFRyLVFqMFk4bU8tMHpCUHZIMXBjZVJJbmM2ZmcxZnFGUFNsanlmNXRvNEo?oc=5",
-      "published": "Fri, 29 May 2026 16:33:11 GMT",
-      "summary": "Chile approves $4.45B project to triple capacity of country's largest port&nbsp;&nbsp;upi.com",
-      "source": "GNews | LatAm Infra",
-      "priority": 4,
-      "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
@@ -243,16 +238,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Mexico and the European Union tighten their alliance in the face of Trump-era risks - EL PAÍS English",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWUd0NzAwU0hwbWpFelZ1RXMydVZWUGRyU01DaG9KY21KME8xb3ktU1I1UUF2aXBjS0NHWFNwa0xBNWRQZ25NcWJpVGtxdzhVbzZTeUZtSHY2QmFDcmRnUDNId1d4akFjMGc0cjFZOEloMDZUNDJDdmZpUU5aNnE3N0UyVnNYYm5kWmFYNWRmWWV0Slp3ejhTZGowS1dFZmZBTlhXREJqMnQ4M1BPNkhuS0lNZHNFd18xeTJTaE9MVElKZms5MXZfc2dwRS1ZS1ZYWGNUX3VEc9IB6wFBVV95cUxQQjMydUtWMnV3c18wRnNLcThjcG5RN05xczV2WE1oRWtuMEZmb1Q3WW1UVVk3UlBKTnMtdkNEc290VFF4dW15TGJMRFZyNUJvamNUcVJwWERNUDZHSG1ZSFFBd3VkLVRoMzFOTGdQU2xGa0RPeHo4YWVIUFFOX2FWZ0oxV3ZSOVp2MUozT3hhZzlzYTlDTFBVbURvRE5pelRQWnc0d3E2SDBQYnlOZ1R2dXZINkZyeHUzQzdVZl9QckdlMEJ6RUxSVXNEeGdDQ1dEYko3b0NFT0dJLWhwUk5NbDlXN0M1cTlGQjlr?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Mexico and the European Union tighten their alliance in the face of Trump-era risks&nbsp;&nbsp;EL PAÍS English",
-      "source": "GNews | US-LatAm",
-      "priority": 3,
-      "category": "大国关系",
-      "relevance": "medium"
-    },
-    {
       "title": "Aguacate, tequila y autos; sectores que ganarían con el nuevo acuerdo comercial entre México y la Unión Europea - EL CEO",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOejY4aGdfMHpRQU1rcHN6RTJJdUMtYjc0UWVxaUdYbGVudjVUNHYyUG5UYWJpRUpXMVpDdGcwUHJuMDRlc3dXRDRyelZxZmhYRmJOV253LVo3MG1jaVVpc0p0ZHJvdEVnSFlPRTZWRzhhcWpGampQNHQyTTd5TWFhRkxfbWhZb1dxT0NiUEZBbTd2anViVVVVRUM0VXI5RVpCSmlPLXgzYlRSd3RKemtxNlZ4aVdjdWZ3eWJPU2RwNkRXSktmQTZkWGZtbkFFNWU0ajdF?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -260,6 +245,16 @@
       "source": "GNews | MX Español",
       "priority": 3,
       "category": "本地语言搜索",
+      "relevance": "medium"
+    },
+    {
+      "title": "Baku-Tbilisi-Kars railway: New phase for Eurasian connectivity | Daily Sabah - Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOTFLWFpGRnllM1BLUTZJSTI5SjFyamZqS3QxUnVRZUVNRGVHMmlwQ25WREd4XzNtcUpFVTg4S0VNZjdDTW1Gd091dEtQejNZMXo2YkFkQmI0WnViTU1IMHFHeFgxQWtIdU5BR2NsRUpYNE80a012bVJFYXdBdkZ2OFpab2JtdFVHeXA1d2xIYnQtZDU0MGxMd0szRTgyeGZ3QkpvaVFyRjZzd9IBqgFBVV95cUxNOTFLWFpGRnllM1BLUTZJSTI5SjFyamZqS3QxUnVRZUVNRGVHMmlwQ25WREd4XzNtcUpFVTg4S0VNZjdDTW1Gd091dEtQejNZMXo2YkFkQmI0WnViTU1IMHFHeFgxQWtIdU5BR2NsRUpYNE80a012bVJFYXdBdkZ2OFpab2JtdFVHeXA1d2xIYnQtZDU0MGxMd0szRTgyeGZ3QkpvaVFyRjZzdw?oc=5",
+      "published": "Mon, 08 Jun 2026 21:05:00 GMT",
+      "summary": "Baku-Tbilisi-Kars railway: New phase for Eurasian connectivity | Daily Sabah&nbsp;&nbsp;Daily Sabah",
+      "source": "GNews | LatAm Infra",
+      "priority": 3,
+      "category": "基础设施+科技",
       "relevance": "medium"
     },
     {
@@ -290,16 +285,6 @@
       "source": "MercoPress",
       "priority": 2,
       "category": "独立RSS源",
-      "relevance": "low"
-    },
-    {
-      "title": "Rolling Stock Market Size, Share And Industry Report [2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rYzFsOUNfdGhFMzQtdEJHSnVpSjhBRU1GTC1zRm5zUWJ4OG9keV9hZWFpUVFIV1pSVTNaSEtoaUtTVGdfdE9vZ3BqeEhGZWhaYUdWSTZ3akpNQmc0OWVHZzVjTWlrRHRNa3VVa3V4M3Zvd19rbmc?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "Rolling Stock Market Size, Share And Industry Report [2034]&nbsp;&nbsp;Fortune Business Insights",
-      "source": "GNews | LatAm Infra",
-      "priority": 2,
-      "category": "基础设施+科技",
       "relevance": "low"
     },
     {
@@ -353,6 +338,16 @@
       "relevance": "low"
     },
     {
+      "title": "Smoother Road Trips Ahead: How the New US Freight Plan Will Clear Highway Congestion for Travelers - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zbmNyVllvLWQ5a0lyZmV2TVhVVXNybTVTYVdaTk54ZFRHYzlyQ2MzY3VHWVlGVWhFX0tMRjBhWnIxUVFQRWV0cmN1czAzd2pvRG0tRkFpdm9DeEN0a05mVVNOV3ljd0N5U2pnSjlR?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Smoother Road Trips Ahead: How the New US Freight Plan Will Clear Highway Congestion for Travelers&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | LatAm Infra",
+      "priority": 1,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
       "title": "Brasil foi o terceiro maior destino de investimento estrangeiro direto em 2025, diz OCDE - Brasil 61",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0J5SE1ic0pmQWM2VVpUY3BVOU1ZLUtsRndSeG5kTmJpdGh6UWg3VzJoNHFjUzdyVkFRMmEwMmdzNDhqRTZ2Q2RnQ3pFVlhVR1dnRE5SOEMyRFlRY2ptWVhLSVB6UW80M3ZkU2ZpeWRoeHdnVnp6Y0p4Q2lxWm1fRjNoQnBBOXdQWnhzTWNibzRvbmtPbEVkNjFYRkR4NDRZRFhESlhZZWtYYTVpOFd6U1dMLUJ4M3cyT3R6NkZB0gHDAUFVX3lxTFA2S09DSFEzSjZHclZ3OGFxSDFFTC1OT1FjOS1YZGdvNllneHZpR0JMQVp0ek1TVVhvaHZYb2wyUVAtZFR0UWIweG1mOGFCeW1vbUN6MmdfS2tBZkFTanJBVHBOM21jRmw1NzYwQlltRXR2al93cUQ1WkFFZ3ZmbDVRUUZqYlVZOTBxaGUyTXQxSjB1S2hoQ1ZobnZCbGVzazNBSEZLMjhZZ3Z2TFZIVUI1ZXZoOFl0c25GbjZ1ai1fY3ZyOA?oc=5",
       "published": "Sat, 23 May 2026 07:00:00 GMT",
@@ -383,13 +378,13 @@
       "relevance": "low"
     },
     {
-      "title": "ApexBrasil inicia missão na China e leva número recorde de empresas brasileiras à SIAL China 2026 - Brasil 61",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUVo0Sm1na190dkt5ZlBYbVBkTExiR3d3b2VmbG5GZU1hRlFzZmZpdnk3LTltOXZuc3FZc2gycWFiaTBhbDhXc2tPb3ZkdWZ3LU5Eb2o3T3VIU0NYako1MkQ1dEtIb3UwcW50NXdyOEhFYmRKNzJyeFY2SXJKSXk2RXJpZERVWEJJVk9JbktYRlhCS0Zyd010cEdpb0poV2hwdExJczZrWDZjM2pxQUM5OUN5eU1KeGNkbkZWUVpqM3RnS2NhY3RtVlRQc9IB0AFBVV95cUxQOFBBaE1abF9rX2tJWUNMQ00ySUJuWlVNMGF1N1oyM1p3TVlVRzlUNkd3T1NDQUxWN2ZjWHVieHAzc2ZzRTZrV1dpVjl3azZzTWk0TEhOQmVBUm9oV2hNOVdyblpTcWJSRF9qVGRueGJ3UlhkWk5rbFZ4MDJVaVZ5OUl0TWRWTlMtREwwWFF5THRQZ0lrNWJUYzNDQ0d5R3FNUEN0cTZlYy01SXk1ckNFUGtHNllCMlZWQ3hPbnNDa0xENnRMdlEyaEhVb0RMUEIw?oc=5",
-      "published": "Fri, 15 May 2026 07:50:00 GMT",
-      "summary": "ApexBrasil inicia missão na China e leva número recorde de empresas brasileiras à SIAL China 2026&nbsp;&nbsp;Brasil 61",
-      "source": "GNews | BR Português",
-      "priority": 1,
-      "category": "本地语言搜索",
+      "title": "Bolivia’s Crisis Is About More Than Evo Morales - Americas Quarterly",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMURYa29zTFE0UTdlbXA4RTEwU2YxaGhleUlFT2Mtb293RWZYbFhYaV9nUzJ2MEdFVkpDd09iVjhhekNTUmJhQk16M1E3SWhUbEJ6bnUxUElCcWlpWlQyeS0xeTVkQmtjVFo3VVp2Q3R1Y2RMWlVfSEJYTDNxVS0wamhuRC1sTTM2akJZMGZ3?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Bolivia’s Crisis Is About More Than Evo Morales&nbsp;&nbsp;Americas Quarterly",
+      "source": "GNews | LatAm Politics",
+      "priority": 0,
+      "category": "政治+社会",
       "relevance": "low"
     },
     {
@@ -423,6 +418,26 @@
       "relevance": "low"
     },
     {
+      "title": "From pasta to petroleum: How Rodriguez-Erdogan summit reshapes Venezuela-Türkiye relations - Türkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ1IyTTNQNVhDUVYxakNGTzdpSWQzYzNRSloxdTdoV25HUjR3YkFTV2hXeElIbUVLaWJwV3N3RnJRMFFsWlk2anl2WHlfRnBYdzh6MmI5UG1VMkNmeGg1elJDTzRPNWxHWlkwLUxiSDBYcUtjQ0JTTVJ5WnpTa09nQ0pOeFcwbHFCcW5waF9MZXcyM1BKXzV2SGZYZkF4R0V4ZDhUZXRKOWlrWGZ0NktOdVp1Nm9sUURVU1RRM1NrNmx3Y1NHb3FTUg?oc=5",
+      "published": "Tue, 09 Jun 2026 06:35:19 GMT",
+      "summary": "From pasta to petroleum: How Rodriguez-Erdogan summit reshapes Venezuela-Türkiye relations&nbsp;&nbsp;Türkiye Today",
+      "source": "GNews | US-LatAm",
+      "priority": 0,
+      "category": "大国关系",
+      "relevance": "low"
+    },
+    {
+      "title": "Tanzania Safari Logistics 2026: How New Air and Rail Links Boost Iringa Travel - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzSF8taE50SERRSU9uS0poMDdYOUJMaTE0OEhqZ0VzUWxBRV9jVVhVTFV3YU9jOTJ5Q3gyNXg1eTBrSmRlTlpyeE9NbzNyX0dRU3paTTFWZXQ3cjFvZmdXZU5IRUl5Ukt0TnlVdzJ3?oc=5",
+      "published": "Thu, 28 May 2026 08:36:12 GMT",
+      "summary": "Tanzania Safari Logistics 2026: How New Air and Rail Links Boost Iringa Travel&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | LatAm Infra",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
       "title": "External sector statistics - Banco Central do Brasil",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMzdvRFQ5aW4zUHAzMWJSZUpFeTVHanYzbk5IT2RvdUxDN0xQRHZwOHlPNGRUWlJMQ2xwSzV2Z3NydHBIMXZzWS1DcG1NMkVQWjJULWY0dzFVclRWeDM4TEh2QzFXODgtUzVFOUNR?oc=5",
       "published": "Thu, 28 May 2026 07:00:00 GMT",
@@ -453,13 +468,13 @@
       "relevance": "low"
     },
     {
-      "title": "World Road Rail Vehicles - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaWNsWGlWYjhWenVwbWVXaURXTmwzVk9jRUdBSnp2WENPeEhMdmFuZWVlQ1JkLVVPMU4waElhUWF1RHpGR0hqVnVaSWZDZk1leHJfYnl6VVg0eXdUNlV4YkswM0VYejd1bmd2TUhpaW9GcFk2VkdOVU1nRlI3MUczTjFTS3BVYUJRcl9MWVAwNmV3U0l1Z2lqbjJ6X1YxMG9wRFFMWVNOVUt2dllXTU1pOTBOY3BCQmZGdzczVWJoR28yNG1NWkNNRkN5UjVCNFpIV2VMcFZuQjV1enM?oc=5",
-      "published": "Sat, 06 Jun 2026 12:46:17 GMT",
-      "summary": "World Road Rail Vehicles - Market Analysis, Forecast, Size, Trends and Insights&nbsp;&nbsp;IndexBox",
-      "source": "GNews | LatAm Infra",
+      "title": "Despite Trump's pressure, Cuba may not turn out like Venezuela - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVJfWm5zYzExSlFjX2FLQVQ5VkxDd2J5bmRNdFFHMmlWelYyNHRVVkFFU0hTZE1Id3Z4czYxTUtDLXlub29PTjF3ZERlLUJ4RmRyRk05aERXOThIYmxOYndRRE9MNnJ1dERLZzZSMnlUQnFWMnltbW41cVp4UldnODh1V1BGM2pLeWZlR09RQVNWUDdjMWR0bU1fdTlwQTJPTHVISF90dEZrOTFOQnE0Ug?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Despite Trump's pressure, Cuba may not turn out like Venezuela&nbsp;&nbsp;Reuters",
+      "source": "GNews | LatAm Politics",
       "priority": 0,
-      "category": "基础设施+科技",
+      "category": "政治+社会",
       "relevance": "low"
     },
     {
@@ -483,6 +498,16 @@
       "relevance": "low"
     },
     {
+      "title": "Amtrak’s New Airo Train Arrives in Seattle, Launching Massive U.S. Passenger Rail Modernization Program - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNTM0OS1sV0U5WU85bmRkcXRGT3RnTFkzS3YtOFZSUlZxUDgyZHVkN2lPYzA0RTFPWjA1VVh0WG5EaWMxZlZ4NHNBYnU0bWZPY3VpbjNsNFFiV0ZwYTBZSGIzY2g0UWd0LUk2NkZaWGtHbGRDNUQteG9TdUpLQTBlSU04LUk0cy1FazNrc3M1d0t3YUk2NXl6YnVOZXlDUjlIbEJpcEJ0WVNQQXppV1B6ZjJtbFVTdTBvazdXNS1YZnFqT083bEZpWG5uemVyOUJfV0dKckpsdlU2anlzc2JtVEFWOA?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Amtrak’s New Airo Train Arrives in Seattle, Launching Massive U.S. Passenger Rail Modernization Program&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | LatAm Infra",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
       "title": "Ibovespa Slides on Hawkish BCB Prospects - TradingView",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmRSNHJxTDNOUW1tYURuSHRLRC1rWDNvQnFsTzJ3TEVHY3ZXdDJiOU9VSkhNT0VDdllQUE1VZUJCck0tVUVqS2xVRGxKZmFWYU9FUVp1bVB1SmZTSG5obm93SC1yaTZxVTI3a3RpMGlXRUpuRkhCZTRoSnhqWUVnRzVXVndBY0pOTTdFQUJhOUI3bVF1WXc?oc=5",
       "published": "Fri, 29 May 2026 07:00:00 GMT",
@@ -490,16 +515,6 @@
       "source": "GNews | BR Economy",
       "priority": 0,
       "category": "巴西",
-      "relevance": "low"
-    },
-    {
-      "title": "On Our Radar - International Crisis Group",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TTTkyVGppeko1WEFvMmEzamUxWU9rVzBaOEh6MklzRUhjRUVaWkJidHEweHFXTDcyT2dERWt4ZDV6bG9hSVdvVWtrTXpLcVRqZjhBVUVNZ2hqdkct?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "On Our Radar&nbsp;&nbsp;International Crisis Group",
-      "source": "GNews | LatAm Politics",
-      "priority": 0,
-      "category": "政治+社会",
       "relevance": "low"
     },
     {
@@ -520,6 +535,26 @@
       "source": "GNews | LatAm-China/BRI",
       "priority": 0,
       "category": "阿根廷+智利+其他",
+      "relevance": "low"
+    },
+    {
+      "title": "Transnet Africa Freight Opens Rail Network to 11 Private Competitors in 2026 - Nomad Lawyer",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVGVoRGYwYVBhWXYteWFLOHZlUW10TGd4bEx5THZYXzY4TTBhZmROSzM1RjJJalZMVDNqU3ZfeWNaWmpDRkc1TnZDZENOV29EVE56ZWJvWVZiZ2Y4dzhpbm5qdk00RlhwZzZaMURZUjN2Q3pjMDAxYTlqdU95NzRiRFgxRG50Zw?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Transnet Africa Freight Opens Rail Network to 11 Private Competitors in 2026&nbsp;&nbsp;Nomad Lawyer",
+      "source": "GNews | LatAm Infra",
+      "priority": 0,
+      "category": "基础设施+科技",
+      "relevance": "low"
+    },
+    {
+      "title": "14 años del TLC con EE. UU.: el acuerdo que no se agota y puede utilizarse aún más - CONtexto Ganadero",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVDM0MHRURnZFaE8tMDA0X2dJQ0ZZd2NFc3VrSkN4UnFuT2dPS2ZTM09tRXg5ZVdIZWs1d1d0TXRtMUs0akRzU1N3T3dmbzRWaUtNZmIzdUlSMExYZEhCVEx0U2lBTkZvV0dFRGpXOTF0ZjlXS1lLV1lhQ3NISE9jTzR2dEJKVlktNXRwX3RBY2tVemFNdVpXOHpuVXlMSXNHNmpUbWJfWUd2dVNOQWVESFY4NnJwSVlMN2tMUzVn?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "14 años del TLC con EE. UU.: el acuerdo que no se agota y puede utilizarse aún más&nbsp;&nbsp;CONtexto Ganadero",
+      "source": "GNews | CO Español",
+      "priority": 0,
+      "category": "本地语言搜索",
       "relevance": "low"
     }
   ]
