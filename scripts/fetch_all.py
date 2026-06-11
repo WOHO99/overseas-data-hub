@@ -538,21 +538,43 @@ def build_index(seen, module_outputs):
         if not signal_history[kw]:
             del signal_history[kw]
 
-    # 计算基线和告警
+    # 计算基线和告警（P1: 持续告警条件，防止"第一天告警后基线上移，后续天不再触发"）
     signal_summary_list = []
     signal_alerts = {}
     for kw, count in global_signal_counts.items():
         history = signal_history.get(kw, {})
-        day_counts = [v for k, v in history.items() if k != today_str]
+        day_counts = [v for k, v in sorted(history.items()) if k != today_str]
         high_7d = max(day_counts) if day_counts else 0
+        mean_7d = round(sum(day_counts) / len(day_counts), 1) if day_counts else 0
         baseline = max(high_7d, 3)
-        triggered = count >= baseline
+
+        # P1: 计算连续告警天数
+        consecutive_alert_days = 0
+        for d_str in sorted(history.keys(), reverse=True):
+            if d_str == today_str:
+                continue
+            d_count = history[d_str]
+            d_baseline = 3  # 历史天无法重算baseline，用min baseline=3
+            if d_count >= d_baseline:
+                consecutive_alert_days += 1
+            else:
+                break
+
+        # P1: 触发条件 = 超基线 OR (持续告警条件: count>=3 AND 连续告警>=1 AND count >= 7d均值×1.5)
+        spike_triggered = count > baseline
+        sustained_triggered = (count >= 3 and consecutive_alert_days >= 1 and count >= mean_7d * 1.5) if mean_7d > 0 else False
+        triggered = spike_triggered or sustained_triggered
+        status = "sustained" if (sustained_triggered and not spike_triggered) else ("spike" if spike_triggered else "normal")
+
         entry = {
             "keyword": kw,
             "today_count": count,
             "baseline": baseline,
             "high_7d": high_7d,
+            "mean_7d": mean_7d,
+            "consecutive_alert_days": consecutive_alert_days,
             "triggered": triggered,
+            "status": status,
             "baseline_note": f"max(7d_high={high_7d}, 3)={baseline}",
         }
         signal_summary_list.append(entry)
@@ -567,10 +589,10 @@ def build_index(seen, module_outputs):
 
     # 保存signal_summary.json（推送到CDN）
     signal_summary_output = {
-        "version": "1.0",
+        "version": "1.1",
         "updated": now.isoformat(),
         "fetch_date_utc": today_str,
-        "method": "max(7d_high, 3)",
+        "method": "max(7d_high, 3) + sustained(mean_7d*1.5)",
         "signals": signal_summary_list,
     }
     from common import atomic_write_json as _awj  # already imported above

@@ -94,33 +94,49 @@ Agent (本机)
 
 ### 仓库结构（GitHub: overseas-data-hub）
 
-所有Python文件和子目录直接放在仓库根目录，与下图一致：
+代码文件在 `scripts/` 子目录下，GitHub Actions workflow 先 `cd scripts/` 再运行：
 
 ```
 overseas-data-hub/
 ├── .github/workflows/daily-fetch.yml
-├── config/
-│   ├── keywords.yaml               ← 关键词配置(外置，改词不动代码，v3.3含signal词)
-│   └── search_queries.md           ← 搜索词设计意图文档
-├── common.py                       ← 共享工具库(并发+双层去重+原子写入+信号检测)
-├── fetch_all.py                    ← 主调度(超时+错误隔离+连续失败告警+14模块)
-├── modules/
-│   ├── global_business.py          ← 全球商业与产业链重构 (原出海商业，v3.3升级)
-│   ├── finance_global.py           ← 全球宏观与资本流动
-│   ├── tech_industry.py            ← 全球科技与工业前沿 (v3.3新增)
-│   ├── energy_commodities.py       ← 全球能源与大宗商品 (v3.3新增)
-│   ├── geopolitics_risk.py         ← 全球治理与地缘风险 (v3.3新增)
-│   ├── esg_sustainability.py       ← ESG与可持续发展 (v3.3新增)
-│   ├── region_se_asia.py           ← 东南亚
-│   ├── region_south_asia.py        ← 南亚
-│   ├── region_middle_east.py       ← 中东
-│   ├── region_latin_america.py     ← 拉美
-│   ├── region_africa.py            ← 非洲
-│   ├── region_europe.py            ← 欧洲
-│   ├── region_cis.py               ← 独联体
-│   └── region_east_asia.py         ← 东亚(日韩)
-├── *.json                          ← 各模块输出 + index.json
-└── fail_counts.json                ← 连续失败计数(自动维护)
+├── data/                               ← CDN分发目录(JSON从scripts/复制过来)
+│   ├── index.json
+│   ├── signal_summary.json
+│   ├── source_fingerprint.json
+│   ├── sources_dead.json
+│   ├── signal_baseline.json
+│   ├── last_state.json
+│   └── [14 module JSON files]
+├── docs/
+│   ├── compare_protocol.md
+│   └── rsshub_routes.md
+├── references/
+│   └── scraper_templates/
+├── scripts/
+│   ├── config/
+│   │   ├── keywords.yaml               ← 关键词配置(外置，改词不动代码，含signal/authority/exclude)
+│   │   ├── domestic_sources.yaml
+│   │   ├── domestic_search_templates.yaml
+│   │   └── domestic_api_cid_map.yaml
+│   ├── common.py                       ← 共享工具库(并发+双层去重+原子写入+信号检测+源权威度+排除词)
+│   ├── fetch_all.py                    ← 主调度(subprocess隔离+3并发+超时+连续失败告警+P4增量和信号)
+│   ├── modules/
+│   │   ├── global_business.py          ← 全球商业与产业链重构 (原出海商业，v3.3升级)
+│   │   ├── finance_global.py           ← 全球宏观与资本流动
+│   │   ├── tech_industry.py            ← 全球科技与工业前沿 (v3.3新增)
+│   │   ├── energy_commodities.py       ← 全球能源与大宗商品 (v3.3新增)
+│   │   ├── geopolitics_risk.py         ← 全球治理与地缘风险 (v3.3新增)
+│   │   ├── esg_sustainability.py       ← ESG与可持续发展 (v3.3新增)
+│   │   ├── region_se_asia.py           ← 东南亚
+│   │   ├── region_south_asia.py        ← 南亚
+│   │   ├── region_middle_east.py       ← 中东
+│   │   ├── region_latin_america.py     ← 拉美
+│   │   ├── region_africa.py            ← 非洲
+│   │   ├── region_europe.py            ← 欧洲
+│   │   ├── region_cis.py              ← 独联体
+│   │   └── region_east_asia.py        ← 东亚(日韩)
+│   └── fail_counts.json               ← 连续失败计数(自动维护)
+└── SKILL.md / SKILL_CN.md              ← 技能描述文件
 ```
 
 ### API接口一览

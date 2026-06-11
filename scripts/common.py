@@ -121,14 +121,22 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
     """
     异步抓取单个RSS源。
     返回 (items_list, is_rate_limited)。
+    P3: Google News 429/503 指数退避重试 (60+random(0,30)s后重试1次)
     """
+    import random
     is_sensitive = _is_sensitive_url(url)
 
     for attempt in range(max_retries + 1):
         try:
             async with session.get(url, timeout=aiohttp.ClientTimeout(total=10, connect=5)) as resp:
                 if resp.status in (429, 503):
-                    print(f"  [RATE_LIMITED] {tag}: HTTP {resp.status}")
+                    if is_sensitive and attempt < max_retries:
+                        # P3: 指数退避 — 60+random(0,30)s后重试1次
+                        backoff = 60 + random.uniform(0, 30)
+                        print(f"  [RATE_LIMITED] {tag}: HTTP {resp.status}, retrying in {backoff:.0f}s...")
+                        await asyncio.sleep(backoff)
+                        continue
+                    print(f"  [RATE_LIMITED] {tag}: HTTP {resp.status}, no more retries")
                     return [], True
 
                 if resp.status != 200:
@@ -165,13 +173,18 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                 return items, False
 
         except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            err_str = str(e).lower()
+            # P3: 敏感源429/503异常也走退避
+            if is_sensitive and ("429" in err_str or "503" in err_str or "rate" in err_str):
+                if attempt < max_retries:
+                    backoff = 60 + random.uniform(0, 30)
+                    print(f"  [RATE_LIMITED] {tag}: {e}, retrying in {backoff:.0f}s...")
+                    await asyncio.sleep(backoff)
+                    continue
+                return [], True
             if is_sensitive and attempt < max_retries:
                 await asyncio.sleep(1)
                 continue
-            err_str = str(e).lower()
-            if is_sensitive and ("429" in err_str or "503" in err_str):
-                print(f"  [RATE_LIMITED] {tag}: {e}")
-                return [], True
             if attempt < max_retries:
                 await asyncio.sleep(1)
                 continue
