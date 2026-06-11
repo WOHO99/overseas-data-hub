@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "全球能源与大宗商品",
-  "updated": "2026-06-11T13:42:39.471119+00:00",
+  "updated": "2026-06-11T14:06:25.540355+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 78,
+  "total": 73,
   "high_priority": 2,
-  "medium_priority": 37,
+  "medium_priority": 35,
   "signal_alerts": {
     "record high": 1,
     "export ban": 1,
-    "supply disruption": 2
+    "supply disruption": 1
   },
   "stats_by_category": {
     "油气": {
@@ -254,17 +254,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Wheat Crisis Deepens as U.S. Crop Losses Trigger Market Alarm - Agrolatam",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sZnc0STFITE9ZSFVmRXo2cWNSSlpvbTNUV2lEc3JVZC1WSmtRblU5ZnNHYzJ4NTZOejIya0dWRkpUUDlQTnRHRnJpOUZoOVhMbFZuYmVJdnJ3RUhnU1BNV0VTZlpjWTVUa1BHa3lUOFR1MHhYSHVSUURjbnlSRkU?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "Wheat Crisis Deepens as U.S. Crop Losses Trigger Market Alarm&nbsp;&nbsp;Agrolatam",
-      "source": "GNews | Drought/Crop",
-      "priority": 3.6,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Lithium's Second Wind: Battery Metals Recharge Amid EV Demand - Kalkine Media",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWtRRjN3UHRXWWNCbS1ZVVdtMVlrSFE3QUdwdEROS3I2RlhKb3c5NVBqb1JnSTE0NHdKVWppTkNlZnFURldVQzJsWXZndzJUZHFKcWZmY2QxelEwMkZBWVdJOHVQcVVheHMxa2plY1BJMFJfWVEwOVVFTlI3U3d5MzliUnJmRU5iZUtVZmh1OU9oenplcWlYZWtNYUZ6SEtsZjRKTy1HZjh3aEhzM3duSA?oc=5",
       "published": "Wed, 10 Jun 2026 20:15:00 GMT",
@@ -283,17 +272,6 @@
       "source": "GNews | Fertilizer",
       "priority": 3.6,
       "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Copper Hits Records As AI And Electrification Demand Builds - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0ZDNGR6S3oyUDVKZFhTaVlvZnJvbEFId1VhN2JMbHAxNWdZNjc0dGVvblBLdWkwaDJENTZodnFlTFo4VXJQRFk2MDYwVnBubkFwR3JkUF9tOEFsMXhEM0RqYU44RzlQa0Jnemk5ZF90eExLQ2JOTFIxTVI0M1RwYVVzV3FjbTJlbmlrRTlCTjZFZWlIbjdrM0xqNnMtZWxwbl83UFBmcUxqVW92TWtoQw?oc=5",
-      "published": "Wed, 03 Jun 2026 23:21:00 GMT",
-      "summary": "Copper Hits Records As AI And Electrification Demand Builds&nbsp;&nbsp;Kalkine Media",
-      "source": "GNews | Copper",
-      "priority": 3.6,
-      "category": "关键矿产",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -481,17 +459,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Thailand Enters Climate Crisis as 'Super El Niño' Threatens Historic Drought and Temperatures Above 45°C - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zUnpJVU9nWkJoNXVTMURoZG5qNXB0bmVBZ3VDTXhZZGtmbUhURGhsNktsM0ctbG1OVVkyUzJvM0hNWmlSd2xZZnhPeXg4NEJ3ZTIwRV9kSnpJU1oyRkVLYlB3?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Thailand Enters Climate Crisis as 'Super El Niño' Threatens Historic Drought and Temperatures Above 45°C&nbsp;&nbsp;Nation Thailand",
-      "source": "GNews | Drought/Crop",
-      "priority": 2.4,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "How Fake News Became the Most Dangerous Force in Energy Markets",
       "link": "https://oilprice.com/Energy/Energy-General/How-Fake-News-Became-the-Most-Dangerous-Force-in-Energy-Markets.html",
       "published": "Wed, 10 Jun 2026 19:01:00 -0500",
@@ -507,17 +474,6 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZF9MU3NIMkZ6WnZ4Zm92ekhpQVVFMGZTSmpaVDNJaUZVVjBHcG4yb1d2SXpuSzZQOGl3U2JiS3NZUFYySUw0LU9CMWJtMFJuOEcxMm5paEZNcnk1OUcwYzNlTTNaU0llV0RIZjlqbUJhX084VUw4ZTJteEZFTnVDZDg1VzFtSXFreGxVZHJDSW5iSmNQZ2ZUVHFudXE3N3R6Z2tRUEp0YnJDVWptV3FZTFdjTXZ0Si04WTdQdnplbw?oc=5",
       "published": "Wed, 27 May 2026 08:26:35 GMT",
       "summary": "Wild blueberry farms across Maine suffer as climate change upends growing seasons&nbsp;&nbsp;Maine Morning Star",
-      "source": "GNews | Drought/Crop",
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Addressing Southern Africa climate shocks: Advocating for Child-Centred Climate Resilience and Fiscal Prioritization - ReliefWeb",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUWRzTV9VME1QWHdaTk9HUjdrYkJxUkRFZ0VRSHcwdzNwMHNyYmR6RlVLc2pXOElNUm54ZWRJOE91aHpla0dqNlRQSTZzdGJINHN2XzQxQUdwU1NUbkNmOWJxUTM3QUxFdk9rMnRZN1JnYjRZMmVvc2hRSEF4YzgzaXV5YUZHU3pJLUdYSk1BTUpOcnI2Z1hTMkd6a0d1dGY4SXF3d3pzRldJUlZrODliYy1ZWGJUUldROWZnck5uQkpuWkpwMlFacmtUcHUwRGNpb0cwY3ZKdXN6VDZsenlaR1ZGaWNIUQ?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "Addressing Southern Africa climate shocks: Advocating for Child-Centred Climate Resilience and Fiscal Prioritization&nbsp;&nbsp;ReliefWeb",
       "source": "GNews | Drought/Crop",
       "priority": 1.2,
       "category": "粮食安全",
@@ -580,43 +536,10 @@
       "relevance": "low"
     },
     {
-      "title": "Perspective: Climate Instability is Reshaping Agricultural Inequality - AGDAILY",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenFfWGhSazU4V3JicXp1ZVVPOUxZRDltTkIxZnBJZXE4UHBQbGhlUVUxRTZieXdhYWtacHo1bHJEdmUwN1lpOWllbUl0RmFvV3JqajFKRWd1VjJScEFqSEhnNHBnNnNfZTNLbXNTNk5OdFI5Y2dYVUF6MDFUR09LcGVjSElIUmZHR3FLTWdKTl9UV1VnUFpzMWF2MlMzRHhF?oc=5",
-      "published": "Fri, 29 May 2026 12:30:40 GMT",
-      "summary": "Perspective: Climate Instability is Reshaping Agricultural Inequality&nbsp;&nbsp;AGDAILY",
-      "source": "GNews | Drought/Crop",
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Opportunity in Energy’s Record-Low Market Share - Fat Tail Daily",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBoRlpxWUVrNl8yM2hOOHotU2pDUkJuSUlWNGJ6NC1fRmVmYmNKU0xpUnd1ZlMwQUNGSVF6ck1nV29YV0NVTWZINFNVazFNYVpJSGgzSGFNSGZXTFFrQ3FxVjNIcEpJRWFHRTZtajh0eU5PRnM?oc=5",
-      "published": "Fri, 05 Jun 2026 03:02:46 GMT",
-      "summary": "The Opportunity in Energy’s Record-Low Market Share&nbsp;&nbsp;Fat Tail Daily",
-      "source": "GNews | Signal: Energy Disruption",
-      "priority": 1.2,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "The World's Biggest Battery Maker Is Turning Away From EVs",
       "link": "https://oilprice.com/Energy/Energy-General/The-Worlds-Biggest-Battery-Maker-Is-Turning-Away-From-EVs.html",
       "published": "Wed, 10 Jun 2026 16:00:00 -0500",
       "summary": "As global energy markets change, companies along the electric vehicles manufacturing supply chain are rushing to expand and diversify. The Trump administration’s stance on clean energy and aggression in Iran, among other energy-related bombshells, have made waves through global energy markets and created a general air of uncertainty that is leading many energy firms to put their eggs in more baskets. As a result, many EV companies and battery makers are turning to the next obvious market for the...",
-      "source": "OilPrice.com",
-      "priority": 1.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Oil Prices Are Up. Investment Isn't Following",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Are-Up-Investment-Isnt-Following.html",
-      "published": "Wed, 10 Jun 2026 15:00:00 -0500",
-      "summary": "When the International Energy Agency issued its 2026 outlook on energy investment, it had a surprise for its audience, predicting a decline in oil investment, instead of an increase, as the current price environment would suggest. The IEA is not the only one making counterintuitive predictions. BMI just published a forecast on oil and gas spending this year, and it says the total will decline from 2025. Oil prices and investment trends are no longer in sync. Spending on oil and gas globally is s...",
       "source": "OilPrice.com",
       "priority": 1.0,
       "category": "独立RSS源",
@@ -686,6 +609,17 @@
       "source": "GNews | SPR",
       "priority": 0.0,
       "category": "油气",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "What a warming Pacific could mean for India’s monsoon and farming - Mongabay India",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObEFPOTg3OENIdlkxdEVoNWRndDdwVVp2UlZFRWRHS25uWUNWYUZJWWdaSU5VWUhfQjNNcWxLZjFISE15eWpUWkhLSmRRQUVrOU8xdFFMckZHc3lSTlBhLVRGWngta1dKcmYtUTdzcGZlWmZWOFQ5Ums4NUZIUHprUnAtZmdsRG9ZV0pqTXRiVHRJT0FXam0wMmpNbnpYRmxxc2c?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "What a warming Pacific could mean for India’s monsoon and farming&nbsp;&nbsp;Mongabay India",
+      "source": "GNews | Drought/Crop",
+      "priority": 0.0,
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -811,6 +745,17 @@
       "relevance": "low"
     },
     {
+      "title": "Trump Says U.S. Will Hit Iran Again Tonight, Eyes Control of Its Oil Sector",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Trump-Says-US-Will-Hit-Iran-Again-Tonight-Eyes-Control-of-Its-Oil-Sector.html",
+      "published": "Thu, 11 Jun 2026 08:55:00 -0500",
+      "summary": "President Donald Trump on Thursday threatened to seize Iran's main oil export hub, Kharg Island, and assume \"total control\" of the country's oil and gas markets, drawing a direct line to the U.S. operation in Venezuela as a template for what could come next in Iran. \"At some point in the not too distant future, we will be taking Kharg Island, and other oil infrastructure points,\" Trump wrote on Truth Social, adding that the move would mirror what Washington \"has with Venezuela, which is working ...",
+      "source": "OilPrice.com",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "India Secures Crude Supply Through August with Higher UAE Imports",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Secures-Crude-Supply-Through-August-with-Higher-UAE-Imports.html",
       "published": "Thu, 11 Jun 2026 06:30:00 -0500",
@@ -844,6 +789,17 @@
       "relevance": "low"
     },
     {
+      "title": "What happens when the world’s breadbaskets start failing simultaneously? - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0pxZTZnQnQwdVRUdnFkOWI2dnhBUWM0YU11c1NxcTJENzQzQkxyTHNwMzNXT3R6UngtTFVVaGc2RERrcUhxTTBqaXhmdm1UMmFqc0RMLW5vUm1ub0xmcWhNX2tTS21ucGdNX05xX285Y2pPSVhSTk9wdTFodlBJS1YyLTdPVzI4eXV3N2xvdUVidXRReWtvNGJZc080dlkyT3FnemdEVmo?oc=5",
+      "published": "Sun, 07 Jun 2026 16:46:15 GMT",
+      "summary": "What happens when the world’s breadbaskets start failing simultaneously?&nbsp;&nbsp;The Conversation",
+      "source": "GNews | Drought/Crop",
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "China told the solar industry to cut capacity. Firms built new factories anyway - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFJ3V0FFMGF0ZTU3Q0hxSWtVNTV0NEUzQm44X3pIMEVVQUw1WE1NbDN6YWprbHFHbjM3N044SEJmRDhvTVVjMkVKZS1ZZlZ0TjVQQ2F3Q3hXS2txOGlTanF1cUl4U200NU1STTlFZlE2QkNORnltakdrLXlaNHJ4c3VyV1FiWlNKN1FVbnJoc0dUXzgyUjcxSGVrWHVwNWkzXy1MaEphYzRVbnhCMWcwR0NaZ3pqTnltT00xV2FMM3laYmNMSWNyc1Z3bG8?oc=5",
       "published": "Sat, 23 May 2026 07:00:00 GMT",
@@ -873,20 +829,6 @@
       "source": "GNews | Oil Disruption",
       "priority": 0.0,
       "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa3ZxVVpoN0RUYVBHbUNoSHItY0Q2UmhFek12eXRESndyQk5nQy1Za2VISi0wcWdPb2E2aVRraU11ZGtmSTZsSEpqQVdWM2doRjM2aXhXWGZScTVRdzBLS0s2Tmk0OXMzTkxCSGR4aVVpMW5pMGc1Z0hpbWpjSHZCYW4tdjdZUFRCcFptNQ?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: Energy Disruption",
-      "priority": 0.0,
-      "signal_keywords": [
-        "supply disruption"
-      ],
-      "category": "信号性查询",
       "_incremental": "new",
       "relevance": "low"
     },

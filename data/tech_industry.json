@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "全球科技与工业前沿",
-  "updated": "2026-06-11T13:42:35.049648+00:00",
+  "updated": "2026-06-11T14:06:20.138656+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 186,
+  "total": 169,
   "high_priority": 0,
-  "medium_priority": 15,
+  "medium_priority": 14,
   "signal_alerts": {
     "record high": 1,
-    "discovery": 8,
-    "breakthrough": 2
+    "breakthrough": 2,
+    "discovery": 3
   },
   "stats_by_category": {
     "半导体": {
@@ -59,6 +59,17 @@
       "relevance": "medium"
     },
     {
+      "title": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPanNNUDN0VXhZU1hSYUNrczB0T21MQVFpeElnTElqQnpFVkdLamxqM3VFZURHZjFXRXZuZEFuUUF6M1ViUmx1cGFxSjEtWWxEVzMxeW9wbVpnaWt5UHJ0Q2pJY3dnSkxWTm1jcnlib3laVVBQSi1SSzRyV0tvUk1ubE5WaGRqUUVvUTIyaVE5cEYxWFpxQk5WZmZhdUJCZHpjYnNFTm1MWlR2NDhhMHFMd2xKN0dFVmZiV2JqOUNvQnNibW1iOEFScElGaTlTSUJLMzdXVXFyWW5GUnJWMWFz?oc=5",
+      "published": "Thu, 11 Jun 2026 13:41:46 GMT",
+      "summary": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million&nbsp;&nbsp;Tech Times",
+      "source": "GNews | AI Safety",
+      "priority": 7.2,
+      "category": "AI",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "The times they are a-changin': Trump pivots towards AI regulation in the face of a mounting public backlash - Fortune",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVFlpSDFSVnRXUEVYY3h1Uk1hbGxfRlZ4SGZvNEk4MXZoQVU5YkVMTUxySklZS1d5dGZ2eUFORk1RRzlBTmZBYWdLTTJIZEpHU2tHN09YRlZkY1ptMmlxZHhYWDlZcHJXcDFOOHRSR2UwTlNSdjZIbUV1dXVGMDhHT0xLTU9FWktLS3Jzd0I2SFJKQkJKVGl3bnlaVFNTdUFBWTEwcnUxQmdjRmxXdUYxMy1RUmFfN2xu?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -66,17 +77,6 @@
       "source": "GNews | AI Safety",
       "priority": 6.0,
       "category": "AI",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Taiwan mulls curbs on AI chip exports to China; TSMC shares rise - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnZaS3dNb1FXM2xWU1RTclduX2JtWS1OZjFQUFVwbmlfTmtIS2FuUU91MU84cHlFNWZaMDJ4WW9wOTJpaU1qU09LbWhvbkN4T3VIWjl1MzktaS1yTEZHV1U3TFdhWGlfb1RfcUNIYnNOUE8zVEhnYjRYSzI1ZDJLMnNHVlM4V2tBMlFwM1gta25CN1JwTG92dlRKeFQxcDJLNFJvWkE5RzJJR2xlaE54SkVFTkpxOXZ6?oc=5",
-      "published": "Tue, 09 Jun 2026 14:45:42 GMT",
-      "summary": "Taiwan mulls curbs on AI chip exports to China; TSMC shares rise&nbsp;&nbsp;Investing.com",
-      "source": "GNews | Chip Export Ban",
-      "priority": 6.0,
-      "category": "半导体",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -143,20 +143,6 @@
       "source": "Ars Technica",
       "priority": 4.5,
       "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Japan’s Rare Earth Magnet Crisis: China’s 2026 Export Squeeze - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRU5JLWxkRS1RMlF5Um5QYnl2aGo0UmptVTFTLWlSa0wzUExtTFNLRXpZUk5JbWNGbHRDYV9uamFXX0xQQlpWeS1KcDdLU0xVQVk5dDlIbGMxLW5WdDh2UkhiZVZsRTJOOEhIT1N0V3AwbF9pTjRMeVkwVHhrb1dvOXh3eWQyX2Y1V3RBUUZ3?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "Japan’s Rare Earth Magnet Crisis: China’s 2026 Export Squeeze&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 3.6,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "半导体",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -260,13 +246,13 @@
       "relevance": "low"
     },
     {
-      "title": "Washington tried to slow China’s chips, but Huawei says the pressure forced a tech stack that now competes with America - OkDiario",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnluczEtM1FURU1jZW9NVUxHQTNOYjE1eE5ERk54RTN6aHEtYTRqazdxcWx0dnZSTnd5RzhwMzluUGFpTEdWV05hQ21ydklsQ1ZibkVya3pZR2tQTHNzZ0tZcDhTMlctYzNoRzZTajJHd2pGTVVzdlo5emFKbmM4QmF0QUpoakJKbEdwMDkzenlxX1UtYzBTcmpNSGhPeTQwdGUwUWZSWWtZZmhncGI0OXNUeEg5RzJxNFZjaEFkZkF2UDhlUTFhTkxHQmVGNnIwNFBneE5YeFEzbWk3bjFyeGRGZ2tWbi1G?oc=5",
-      "published": "Wed, 10 Jun 2026 12:45:00 GMT",
-      "summary": "Washington tried to slow China’s chips, but Huawei says the pressure forced a tech stack that now competes with America&nbsp;&nbsp;OkDiario",
-      "source": "GNews | Chip Export Ban",
+      "title": "Battery & Energy Storage India Expo 2026 - EVTech.News",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2VhWDZ2dUFFX3dYT0liamRkaW5MRW9kN0hBVV9UdmUyeGVhN0o0TExpM0d3aVZQMVR0bTFjUE8xcXRnNjZXSUtFMzlMRlYzX0lIZFJ0bkdJMkpGWlY3TVhqVFpLb0Q5bHZadjBsVGlueDlFNXVVdThiNHZHLXlfSGVfT1U?oc=5",
+      "published": "Wed, 13 May 2026 04:51:19 GMT",
+      "summary": "Battery & Energy Storage India Expo 2026&nbsp;&nbsp;EVTech.News",
+      "source": "GNews | EV/Battery",
       "priority": 1.2,
-      "category": "半导体",
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -278,17 +264,6 @@
       "source": "GNews | Signal: First Ever Tech",
       "priority": 1.2,
       "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUR5bEdWSFRyRm03V2FkbWgzYW5kMUdTYTdER29tZmtBYXdxMWZjS0wtbDhoUTFXdE1TZXdHZVNUcjM5eFAxRmNDZXdwZy1oSlVPajRhcTduY0FqdWdvUmZaM0FVay1iemUxR0h6SGc3ODBPcjJhbVhxZThnMnFlTTZjNE01SzgwdUxFdXA0QncxN2xSS2pROENFVmRCUVBH?oc=5",
-      "published": "Wed, 03 Jun 2026 17:28:32 GMT",
-      "summary": "Trump’s New AI Order Raises the Stakes in China-US Tech Competition&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | AI Safety",
-      "priority": 1.2,
-      "category": "AI",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -370,17 +345,6 @@
       "relevance": "low"
     },
     {
-      "title": "Sprawling new House AI bill includes frontier model oversight, open-source security grants - Cybersecurity Dive",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjViV1g5NkxmR3RHWm0yY2Q5ZEZLTU5IenlrNHdsSEZXY0U1by1UTkh4M0trdTRCVXl4cFNkNEZEZk9LLW1pR3ZyYUhrZ2VBaTFaM1ZuMC1qMDBtczlQSkYtOFhHSVJSQlV4eU5vWHVLMjF5T1RUdko2RVB0Y01DTTU3am9VQlVFRWVuTjFDa0M0MndmVWdKRQ?oc=5",
-      "published": "Fri, 05 Jun 2026 15:21:43 GMT",
-      "summary": "Sprawling new House AI bill includes frontier model oversight, open-source security grants&nbsp;&nbsp;Cybersecurity Dive",
-      "source": "GNews | AI Safety",
-      "priority": 1.2,
-      "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "CISA Tells US Agencies to Fix Security Bugs in as Little as 3 Days Thanks to AI Threats",
       "link": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
       "published": "Wed, 10 Jun 2026 20:55:40 +0000",
@@ -399,6 +363,17 @@
       "source": "Wired",
       "priority": 1.0,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Illinois lawmakers send landmark AI frontier model safety bill to Gov. Pritzker - Transparency Coalition",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEtEMnlmSnJ1ejR5RW5ORzdUajZsemxhVVhtSXowU3lnS215NXlzNUVBSGN4R2NjeXIxZXJwWnVtam93UDc4Yk9iZ3g3cVk2WjhRbUluX0UyWW9yaDA1ekQxVlZlZHVWc005UWtvMzBHUmlPNFV3WWFmaUpTZTNQLWpQQTdKQnFIZV9md0JldHF6WXVXLUFkYzl6Q0t1b2ZINGgtOHlnUVFKdzZHeGtDa2lyaXNjOWtmelEtMndXSTA?oc=5",
+      "published": "Wed, 27 May 2026 22:42:30 GMT",
+      "summary": "Illinois lawmakers send landmark AI frontier model safety bill to Gov. Pritzker&nbsp;&nbsp;Transparency Coalition",
+      "source": "GNews | AI Safety",
+      "priority": 0.0,
+      "category": "AI",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -425,17 +400,6 @@
       "relevance": "low"
     },
     {
-      "title": "Trump to sign order on AI oversight as security fears mount among supporters - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQkpmNFRzTzUwaVB0M1FjQnV3N1UzN3ZsNUVRR0xPcXdkM2hIYWdGd1kyUVg0bzBMZlNmZTV0QTJPNUVDWk1nZEFPQ2NCS3NaYlhZSFUxcUtOLWVWS0hUa0l4cGVXUE9ST2ZhUmx5eGJQWHJsRTN4NnAwS3NobS1QR2RUd2FKTDNqdWpQVjV5aEFWR0UyTV9EQ0JHdW84UlhWUmZTZkxMcE5fNXFSS3hRVlV1RDZvU3VTczg5eA?oc=5",
-      "published": "Wed, 20 May 2026 07:00:00 GMT",
-      "summary": "Trump to sign order on AI oversight as security fears mount among supporters&nbsp;&nbsp;Reuters",
-      "source": "GNews | AI Safety",
-      "priority": 0.0,
-      "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "알리바바, 성능 3배 높인 AI칩 공개…中 반도체 자립 가속 - 마켓인",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zbEozd2VVTUJ5RUFnZUdhLVlCelU0QzllYjM0ZXBwUGdFTTlhUVZUSlppOXBkUUc5MkxjMXdiYVhWR1RYYUI4czUwQTNiNm9jMUp5ek5tRU1lT09sQlhSZjQ0UC1qdWw0TXdEb1BSSGUwRHc?oc=5",
       "published": "Wed, 20 May 2026 07:00:00 GMT",
@@ -443,6 +407,17 @@
       "source": "GNews | KR 반도체",
       "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AI executive action stalled by White House infighting - Axios",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkE2SlNoTmtVc1dFRUhNWmtPYi1mVXdzUHdZQlRtZGtjelFYWFpqR2phZmNQVU03R1FxTllpRVowS25hVjhNNTlVYzlndi1TUGtMMVhzVkhWQy11UXhnczB2LTF2V3RaVU9VLWpKak1kaHIwdFF0TWt3SWdVZ2tNRw?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "AI executive action stalled by White House infighting&nbsp;&nbsp;Axios",
+      "source": "GNews | AI Safety",
+      "priority": 0.0,
+      "category": "AI",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -601,17 +576,6 @@
       "relevance": "low"
     },
     {
-      "title": "U.S. government restricts trade with prominent Chinese storage companies - pv magazine USA",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUlF0bk9PR21xa2hGTEVkZ1c2cEhCU2d4Z1VDcUpUaVYwR09adElnTDJBSWRaclR6aFR5MU1EaEl0cFhfZDdyU3lSQ3dqNDRnd29DWFFsYzlsc3hIRldEalZVRk52QzFpc21saTBpVU1SdFRzUW13WWJQWWQ5aGZMaFlLWXRvdDV6cGhObS1HYjdFajZGbUxkU1JtSU1CSGEwMnZjWkxwUHZUa2E3c0hnMA?oc=5",
-      "published": "Wed, 10 Jun 2026 13:26:51 GMT",
-      "summary": "U.S. government restricts trade with prominent Chinese storage companies&nbsp;&nbsp;pv magazine USA",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Europe Pursues New AI Chip Dream - Center for European Policy Analysis (CEPA)",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yMklKdFFMU2JxOUxkWnprYkpTUjhHTmpjX0NZS2dxM2JBWXhpNV9LNEJqVmpOSUZxdHUwX3pYd3lKZ1lUQ1FuTFA4bmZpR055X1dGX2h3VXJjQlZpblphQV8xU3FUbGlzd0E?oc=5",
       "published": "Wed, 10 Jun 2026 13:25:39 GMT",
@@ -736,17 +700,6 @@
       "relevance": "low"
     },
     {
-      "title": "Taiwan Mulls Curbs on AI Chip Exports to China to Align With US - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFFmRlhmQnc4cm9hOUVvdXlyTzlyQ0p4N09KQjJRcVhWR2llQ1JSTzZwZDBMY1hvMEhPdDROVGs4MHpGMnhpcEVrY0x4Qi1jVmxCMHRFRjRBVlNaelN5UWFfR1NINHctT3pKajFscDc4QUVUMlVUdENaWklQY2FyODRreEFkdXJUQVpNZmRXN0xqT1BYTDB3QlRzWS1XTGRZLVNzZmtVeG9GMndBV3UwbDJyYm8?oc=5",
-      "published": "Wed, 10 Jun 2026 05:05:00 GMT",
-      "summary": "Taiwan Mulls Curbs on AI Chip Exports to China to Align With US&nbsp;&nbsp;Bloomberg.com",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "대만, 對中 AI 첨단 칩 수출 전면 제한 검토…미국과 반도체 봉쇄망 공조 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YS2I0OFY0cVRoX2ZpeUhkSzVXMXpFVFJFRHdFLVhrQnZjRlhpMnJOQ2RfazBlNV9IVW9nN3B4aTByTWhNUXlBUjkweFVJU3RpNEJF?oc=5",
       "published": "Wed, 10 Jun 2026 04:33:00 GMT",
@@ -758,21 +711,10 @@
       "relevance": "low"
     },
     {
-      "title": "Taiwan reportedly weighs tougher AI chip export curbs as US lawmakers push for tighter China controls - digitimes",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU0hXQVJCdnZ6QWxCcU50QWt0M0RSQUVac2J5T2N6Zk1BOGUtVGE0SVJsOFR0N01pYms4QW1TdHpFVng4cTNkdnlQN2R5aGQ4LVVHU1hTRVZYYjZ1NXhHYUNTY0RpYy1aQW5tSVNqdHc2VXJnTk5RUXN1YTEtQUhoWFpLWTAxck93M1E?oc=5",
-      "published": "Wed, 10 Jun 2026 03:43:00 GMT",
-      "summary": "Taiwan reportedly weighs tougher AI chip export curbs as US lawmakers push for tighter China controls&nbsp;&nbsp;digitimes",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - 아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhamRHMUd3R0hEWUNKOVhDX0h1T1NPMGFGT0NIOHBGNkdLb19uNE0yQTZqMVg1VHpvTF83UWJLV1V2aHhJVlZYMW1ZTUhsS1RuYUhjajZaVUNNd9IBWEFVX3lxTE10NnNFTjdLNm94Wk1CRnNKeEZoTmdYeW9EUTlGeVRFY25NbFFLX0F1OGFISVJZSnpYenBfdjV1bGFKSS12QnN0VDdUZFliaU1wTVE3SEhXSkE?oc=5",
-      "published": "Wed, 10 Jun 2026 01:24:44 GMT",
-      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;아주경제",
+      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fRkJhRnRXeV9aYlBxUXdULXhwblJJMkI4Nmk5YVYwRm03UGd6ejVfS3h4Y05jb2tuZWhvLXVZV0t3NEc4NUZ5YmhfMA?oc=5",
+      "published": "Wed, 10 Jun 2026 01:24:51 GMT",
+      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;v.daum.net",
       "source": "GNews | KR 반도체",
       "priority": 0.0,
       "category": "本地语言搜索",
@@ -893,10 +835,10 @@
       "relevance": "low"
     },
     {
-      "title": "Do GLP-1 Weight-Loss Drugs Dull Emotions? ‘Ozempic Personality’ Concerns Patients, Doctors - TODAY.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUjd6RC1kVWE4MmEzcmtoWTBBQkpjU1pEdUpxTjNMOXY5T0IwM1RBWS1FSEpuaWJvS0h3bTUxVWpfdGo0a1BPeTVpVjNJRGtpUzh1RkxiSkZ1aEVFUHZaR1ZWRGNJZlpKQmw0TGNxTXpYWDRBcFBkYy1uc0ZTdHEtV2hhQzZvc19nU0ZXZDBibE92LVQ4UFpEUTlaN094V0k?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "Do GLP-1 Weight-Loss Drugs Dull Emotions? ‘Ozempic Personality’ Concerns Patients, Doctors&nbsp;&nbsp;TODAY.com",
+      "title": "Weight Loss: Lilly's New Drug Helped People Lose Up to 85 Pounds - Healthline",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMThGZ1VBa2d2RVI4MEViMXg0RGZmZFU5ZEplS0NuWGtzMG4xMmJjWHVzTm15b2RTQVp0c3VQeUJyWUxQQllSRUpVU3Y3QkdZYjI5Rk5LMHdCNGJlNGFPVjl5ZGxqM2lYWV9jZVo4TzZqbll5a1lxa2dlLTFld0NLRTdKRVFxVWpXVUp3dWZGV2ZRVWN1RlFyTlpjYjdFdHR6MjVIcDVB?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Weight Loss: Lilly's New Drug Helped People Lose Up to 85 Pounds&nbsp;&nbsp;Healthline",
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
@@ -981,17 +923,6 @@
       "relevance": "low"
     },
     {
-      "title": "Paramount accuses Netflix of \"scorched-earth campaign\" against WBD merger",
-      "link": "https://arstechnica.com/tech-policy/2026/06/netflix-trying-to-poison-regulators-about-wbd-merger-paramount-lawyer-claims/",
-      "published": "Tue, 09 Jun 2026 20:15:45 +0000",
-      "summary": "Netflix's response: \"Absurd.\"",
-      "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Cambridge to play key role in UK government’s £1.1bn AI Hardware Plan - Cambridge Independent",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVcyQzh1b3c1UFdWazZrN1ZYUkxpWlZqZGtmeWY3NGRleEJSV3RUZ2Y3andWLXRvTWgwVXBYcklBbGNobDRsT1FlSUw0YUlvbTEtZUFyWmZ2VDM2U3lzZXNfUlBNMk13akRRRUtOM0V4R21XcDNDM0Foal92MFZVMXZyQkphTXN3NkxBQUwtUTFWM1FFRFVFSm1HV25yQ0ZiREdVRWdWSEdOSjBfdmhvby1TSng1VDA?oc=5",
       "published": "Tue, 09 Jun 2026 20:06:00 GMT",
@@ -1014,28 +945,6 @@
       "relevance": "low"
     },
     {
-      "title": "Taiwan weighs stricter export controls on AI chip sales to China - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZWtZaUNqZnA5VG1FLVRQaWlURG5GTGU3NDdZNzRINjhhMzBiRkF5bXdaU3diTUF6SWtoeDBkR0lpUzIwZEpSVjhqYzJrOVVScVFZTDl4U3hlTFh0cU10aEcyWmNSR2VuY1d6QzBEbmVLN3VKVmp1c0FPdGJEZjhiNlBqZFYyS3AwbHRxd0p0aVNPWURSSmlTQXNDaktsRkhaT0VQOG9jRHc0ZFJ1eXNhTjlST3VDdUhySmtmalM5cGY1YUpLTzkwWk5UeVBReTcyWl9uZXh5TlRUSmM1V3pzMNIB5gFBVV95cUxNTmZTMHpYV3FRWENkamI0SnhlYzlVeU5Zc19yMGxzUG5QSng3ZmlMSmxsWUowdUt6UERzSTEtUU40cW1rSHJfXy1HbkV1WWZkclRwSVk0Z2Y2T2hpbWFueGJaNTV5QnhFNWh1dW4wSVlUQjZjVl9ZYTJ5U201Tnd2YU84TUEweTVmUlNpS2dfSlZxc0dnSGRpN2hZc2FLRWxKVjB4RjZ1TUYteXU4OC1xakxVOVZOZFpiOFhXOW9qSzFfWEZIc2E1RkdWeEk4cWliS2w2YWlZcmowZmxxeFpiMGtlMUhKQQ?oc=5",
-      "published": "Tue, 09 Jun 2026 17:15:43 GMT",
-      "summary": "Taiwan weighs stricter export controls on AI chip sales to China&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Taiwan weighs criminal ban on AI chip exports to all of China — stricter measures beyond blacklisted firms would make smuggling servers a crime - Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWpRaFhQZzQ0RWd2NEpaN2xmTllwTlpNV01JWGVHN0xZbUdFSk5WcF96cjhrbGFUSGFadERPZWE0eFF5UWdjZXpzZFRIeWljRkhXZ19vTmt1SlVYRUFzMFh2UlhXOUpIaHJ3Z0wzSWI2ckRaQVkxN3hwVmNCd1Z2V1BoV2VHVVNwTGVTMkhQTldmclVzcmZHZ0NRTnVtalc2Rlo1VDVOSExHb2tFcF95dlZlTXBZNXhZOW9OaDI0MmRzenl0eEZRZjlPVQ?oc=5",
-      "published": "Tue, 09 Jun 2026 15:53:39 GMT",
-      "summary": "Taiwan weighs criminal ban on AI chip exports to all of China — stricter measures beyond blacklisted firms would make smuggling servers a crime&nbsp;&nbsp;Tom's Hardware",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Sodium-ion batteries to reach cost parity with lithium by late 2026, report says - CarNewsChina.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2dvTG1NeFdwNnN5T2xJNkNQSXhCcGdSMWg2anNrVENWQ082MzFrT0ZQT1RPVGpOUHVCTWtOZVBqV3lCUWxUX0FHUURSbDB1QnFxNzR5UEU4cUtJNzZuSGgya3B1ZDcxcG8wY2VRQlhmb0dYY1JlUTE5UUtoUV84V3pQQWJtMjBZLTlZb2VpanhKMmM3VVFOZzRNMlBCakJjWS1nckUzYUFlNi0tM1dyQkZWemJyTnc?oc=5",
       "published": "Tue, 09 Jun 2026 13:44:00 GMT",
@@ -1043,17 +952,6 @@
       "source": "GNews | LFP Battery",
       "priority": 0.0,
       "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US senators urge tighter rules for contract chipmakers supplying China firms' overseas units: report - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcnUyTFVFRm5RaU90eGRGbk12d05XZmpRQVJ6bU1WNEpRcllON2EyeGt4TVQwcW5POHA5X3JWZTNobW1SQ3RaYVJVN01uNjhIam1LUkFQUUFIUHFUa0dNVzZPRVpiU1pXUzRTREdJNkQwQjJTTWQtbnI2eHUwLU9JbmowbGdDZlRydTNFUFNFbW9PN0xLU0NLMEhfaEpNempjOTNfbzVCNDhVLWdueUpGLVBLUmJKZ2JQaXdseHNrdlotR3pOMzZNSQ?oc=5",
-      "published": "Tue, 09 Jun 2026 08:58:03 GMT",
-      "summary": "US senators urge tighter rules for contract chipmakers supplying China firms' overseas units: report&nbsp;&nbsp;Seeking Alpha",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1112,17 +1010,6 @@
       "source": "GNews | GenAI Enterprise",
       "priority": 0.0,
       "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "[분석] 美, 1년 만에 中 AI칩 우회로 막았지만···이미 '빈 마구간' - 여성경제신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52Vm03TXFfaGlLaUpzS0E4aUNTSkZDbnBjcTlLVDJCZ3g3YUE3dE51LXo2d2IyMzJ3UTNtOXN6TTdNcmJONWFWNV9iMkI4bl82ejE5MGJIZ2txUjFWdl95dHhud1g3eW44dVpXa0J4Y2t0c03SAXdBVV95cUxNaDR3N1lGWUpDRXl3UTc3UGVLMkhpTkNMNlNsMTRZSVYzbDFCTGF6M0lCa1Y5cW1HcDFRNmpkeW55T3BrcTNCTmY4ZTZZOGw1SG0yNlBDWjFfQ25SWjBWYl9sSHctdmQ0bWpick1la3VsZmpKd1FpUQ?oc=5",
-      "published": "Tue, 02 Jun 2026 09:00:00 GMT",
-      "summary": "[분석] 美, 1년 만에 中 AI칩 우회로 막았지만···이미 '빈 마구간'&nbsp;&nbsp;여성경제신문",
-      "source": "GNews | KR 반도체",
-      "priority": 0.0,
-      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1222,6 +1109,17 @@
       "source": "GNews | Na-ion Battery",
       "priority": 0.0,
       "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "\"This cannot continue\": Xbox leaders lay out \"hard truths\" behind sagging brand",
+      "link": "https://arstechnica.com/gaming/2026/06/this-cannot-continue-xbox-leaders-lay-out-hard-truths-behind-sagging-brand/",
+      "published": "Thu, 11 Jun 2026 13:56:30 +0000",
+      "summary": "Brutal self-assessment paints a picture of a Microsoft gaming division in crisis.",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1468,39 +1366,6 @@
       "relevance": "low"
     },
     {
-      "title": "30% VistaPrint Coupon & Promo Codes | June 2026",
-      "link": "https://www.wired.com/story/vistaprint-coupon-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Newegg Promo Code: 10% Off in June 2026",
-      "link": "https://www.wired.com/story/newegg-promo-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "AT&T Promo Codes: $50 Off This June 2026",
-      "link": "https://www.wired.com/story/att-promo-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&amp;T coupons and deals.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Squarespace Promo Codes: 20% Off in June 2026",
       "link": "https://www.wired.com/story/squarespace-promo-code/",
       "published": "Thu, 11 Jun 2026 05:00:00 +0000",
@@ -1527,6 +1392,39 @@
       "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
       "published": "Thu, 11 Jun 2026 05:00:00 +0000",
       "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "30% VistaPrint Coupon & Promo Codes | June 2026",
+      "link": "https://www.wired.com/story/vistaprint-coupon-code/",
+      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
+      "summary": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Newegg Promo Code: 10% Off in June 2026",
+      "link": "https://www.wired.com/story/newegg-promo-code/",
+      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
+      "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AT&T Promo Codes: $50 Off This June 2026",
+      "link": "https://www.wired.com/story/att-promo-code/",
+      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
+      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&amp;T coupons and deals.",
       "source": "Wired",
       "priority": 0.0,
       "category": "独立RSS源",
@@ -1567,17 +1465,6 @@
       "relevance": "low"
     },
     {
-      "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
-      "published": "Thu, 11 Jun 2026 01:02:00 GMT",
-      "summary": "China's control over indium phosphide exports threatens AI data centre rollout&nbsp;&nbsp;Reuters",
-      "source": "GNews | Chip Export Ban",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "America’s Critical Mineral Strategy: Gaps, Risks & Realities - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnRRb2lIUVIySkpmRFBscUtQRGVOZWtqWVkxVzlvZGVxVkg0TDRUOGZxQ0VSRExLRGlKNExNdFlQMzlQcVdtTFEzV3lJX0VQNE9YZElnckNpZ3lBLXQzY3hlbmJtYTZEbXRqQkxjNzlnTHhDUFQ4RDBKN080UDEtQ0k2cUxqSUlUWnhad09KUE1pMV9EbmdoSExWbmpidEVzRHFFclFB?oc=5",
       "published": "Thu, 04 Jun 2026 19:47:40 GMT",
@@ -1610,20 +1497,6 @@
       "source": "GNews | EV/Battery",
       "priority": 0.0,
       "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "USA Rare Earth Secures $1.6bn in US Federal Funding - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZDNPZms4em9uX3RZRDN1bTYxUVltMGQ3WFBlT082b3ZwdWVCbEZQQVBNbnRXWWdkYnFRMVptTDhkanZTRjVZWXc5RlE3VVludV9PSlo5WjMyakg3S3B5N2hOWUJhNUppUjV6anNtRFdwYzFjdlJEUjg4UjNPVVk5TzdiWjc5VmtGV0lHMQ?oc=5",
-      "published": "Thu, 04 Jun 2026 07:54:07 GMT",
-      "summary": "USA Rare Earth Secures $1.6bn in US Federal Funding&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0.0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1785,31 +1658,6 @@
       "relevance": "low"
     },
     {
-      "title": "China’s Rare Earth Export Controls: What’s at Stake in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRFl5aDJURFlnX3V4bXVRdkhCTlUtZ2ljSGZkd1Z1UGpHQlNHX3pFTHhodU13RnBpZ2Z5aFJ0RTE1WDNOMHVBVjJMYktaOGU0NWdCN25UQzA4OTRyVUpUZGFMRXBnRzZpdFZ0eFFKSHQ3bkhXejNRenZyQUNRaHpFN0pCdVVpZW5BM3psQTc0TDFlMVdOdjA0?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "China’s Rare Earth Export Controls: What’s at Stake in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0.0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것” - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHE4dEhLRzVNdkRSclVQUnRjWWtiY2ZhTFUyb3lPdjV2UDlqWUFfMm1zRlRMMXlsQ2JFb3hNVE1lcVFtS21EbjZvZUEya0tKbUFBV2ZsX2hiNmdlR1VRRGlXYXpQZTc2dEpOUW5tcWRVMG55Q0xkYW01VHpUb214NVN6WQ?oc=5",
-      "published": "Mon, 18 May 2026 07:00:00 GMT",
-      "summary": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것”&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR 반도체",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Critical Minerals Supply Chain Resilience Starts Upstream — Where US Policy Is Weakest - corporatecomplianceinsights.com",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnJuOEx1TENhSlFpSVgzSTN1QnFhZ1otR285TFVXSE81NWNtSDdob1Y3VURzS0VnNjZGbS1kT21LYlpKTEp3LVRlQTlmWXVON1BIaDU0MEpyUENvTU9aNFlRRExuMjdkZGYxalNXRHlKWXhxaEgyZG9HWVJqRldQYmphZTNFdGRYYV95NmZ3YUlHdEtBby1LOUsxNXp1MGdEd0U2dA?oc=5",
       "published": "Mon, 18 May 2026 07:00:00 GMT",
@@ -1909,17 +1757,6 @@
       "relevance": "low"
     },
     {
-      "title": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제” - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRWVvUThteE9Ia3dSWTBvQzlZZl92Z183d3BNNnowTVJJQVROWkJfdkRBdWRCcnRhaFlabC10NGRmVXhLcU5pQ25rRUFuQ0NWT3fSAVNBVV95cUxONEtBYnlBZ195NFRtTVZpWGh4Slc0QlNURVJ1T3hpZEVENzVJS2IwQm1iQVo1Y0NJSk9keFJLY09aUnRUQXdWZVozd2ZWSHIxYXFCRQ?oc=5",
-      "published": "Mon, 01 Jun 2026 08:42:41 GMT",
-      "summary": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제”&nbsp;&nbsp;서울경제",
-      "source": "GNews | KR 반도체",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "미 상무부, 중국 해외 자회사도 AI 칩 수출 제한…우회 경로 차단 - AI타임스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaEtCR25KTFFmNFNSZ2FMT21IcmtVS0lLZEM4VmF1Y3ZHU0hkVXdpZkpqN1p1bWF2RTQ0ZXI0WGtIa0Q3V21Sb3Zpc0Y1YVlpTERZWDBqUWRQV1g1Nk1Cbk1WUklILXpLUkE?oc=5",
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
@@ -1931,19 +1768,8 @@
       "relevance": "low"
     },
     {
-      "title": "美, 中기업 ‘제3국 AI칩 우회 구매’ 차단… 대중 반도체 통제망 확대 - 미디어워치",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oWTNUU0hqRUh3V2NhbEhVWlVuaXRFV293dXFKVVJ6YmRLVGtSdW9SN1hwUXF5b3pUR2lsRlNrVGxqZFlJWk9pQWttNnY0RzlXWkFCNTRRb2tPTlJraHZaeVYwVQ?oc=5",
-      "published": "Mon, 01 Jun 2026 03:45:53 GMT",
-      "summary": "美, 中기업 ‘제3국 AI칩 우회 구매’ 차단… 대중 반도체 통제망 확대&nbsp;&nbsp;미디어워치",
-      "source": "GNews | KR 반도체",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UT2ZQbjExUVZrV2NMNzU0bExVZ1ZmZGNhNjdWdWY5U2NXaC1UY1lZcGdxRmxIbjdSV1JkWHN0c1hYY1JyNTFvbEdma2puUFk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9WY0pRbWNoNFFMUFZ2M0ZXMmVWbzVZQTNPbFMxZ25VbDF6YmxqRmJTY0dNenprSngtQ1ItVWp6cjZMM0MybFE?oc=5",
       "published": "Mon, 01 Jun 2026 02:33:00 GMT",
       "summary": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대&nbsp;&nbsp;v.daum.net",
       "source": "GNews | KR 반도체",
@@ -1982,34 +1808,6 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China’s Rare Earth Export Restrictions to Japan in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZkt3YWRGMTB5WGVSbG1PSEF2bnpfdElLS2Zkb3BtSG5uaE82N1ZqSXpuUkcyWXMtT1dZNldZM091ZXdCRzFiUVJSNkNxZlU1eUJ0V3FPdmJsNERZU1B5TzU4RHdVeE1nZUY2clRKeG1QSzNicWRVMkF1aXFZS013X1UwWnJFQQ?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "China’s Rare Earth Export Restrictions to Japan in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0.0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China Cuts Japan Off From Heavy Rare Earths in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONnNfeEtSM2dCb3lrNGFFWWVCaUVqN3FnNE9nOUxoUVctdFBFZjc3aTRPMTFpVUVhR3JjZnFid2xRM2FtRGRpOHVIQnBvbmNsQ3dKb1YzTWlTSnlnX3BrQTVFS3BUU3NLb05VVkhJODlnRWZMTEYtNmVDbXVuV1BqZGc4ZkUySGJ3QUhLcGZGbk85dTA?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "China Cuts Japan Off From Heavy Rare Earths in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0.0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },

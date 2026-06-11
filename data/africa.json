@@ -1,18 +1,18 @@
 {
   "version": "4.0",
   "module": "非洲深度",
-  "updated": "2026-06-11T13:42:56.514896+00:00",
+  "updated": "2026-06-11T14:06:45.078999+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 108,
-  "high_priority": 10,
-  "medium_priority": 59,
+  "total": 110,
+  "high_priority": 11,
+  "medium_priority": 58,
   "signal_alerts": {
     "coup": 1,
     "unprecedented": 1
   },
   "stats_by_category": {
     "主要经济体": {
-      "count": 130,
+      "count": 150,
       "feeds": 5
     },
     "矿业+中国": {
@@ -154,6 +154,17 @@
       "source": "GNews | Africa Infra",
       "priority": 10.8,
       "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones - Business News Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVERsd0FpSVF6ZnVmTzYyRWdlN0tqSHMyTU1SQmg4ekJJNlphbzBzZkpaSTlCLWdrb3pmS1NleDJUUW0yTTM0NG41RWR3eVdfWXFwbHpvM0V4RmkxdDRzWGFKRDlYeDZrUjREWGNCLVlMVGNxQ1VPRlkxNTV3aWtJLTg3Y0dCNVhQbGhhVnJfV2I0ckVBSlFtZExaZHJ1djFpejBKOGVnYTFnZUp6LV9XcnlUWWgwRy15eGhrcHc5U0VncjNvdXBibQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones&nbsp;&nbsp;Business News Nigeria",
+      "source": "GNews | AfCFTA",
+      "priority": 10.8,
+      "category": "贸易+区域",
       "_incremental": "new",
       "relevance": "high"
     },
@@ -400,17 +411,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA - CNBC Africa",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR056WUdZUGlhWGNyU2JFUEloajNxelpXOUQwU1FYOHFROXZGMEhZUkk0TjNfWVZKR0p3RDkzd1dnUV96Ql9HTThxdFJuak8zVHJnNElpMFJ3eXFJNWVjSTd0NnlpczJsdC1Ja3N1VF9xcEhlUm1sWlpQcklrRjd1TWZ0bmVZdlJNdzZ2SF9OVnVSdGlpdlF3c2xzLXdlZ1FabVRLbElNSW1EcHJLeUNEbmFlQUdzdlU?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA&nbsp;&nbsp;CNBC Africa",
-      "source": "GNews | AfCFTA",
-      "priority": 6.0,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Turning AfCFTA policy into implementation - CNBC Africa",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbng1R0tfOGZMTldqQ1Jmb055OWo0a1VBVWViZko3TUJWRGtWTDBIejRQUVdOTVV0c3JxeEhIWW9Jd1d4a1U3X24wRXBFWlZ2ZENvSW10SVdDYWt6NVBjX01DWm0yQ1pwMnM3clNMR1IyMzV0UDFXZlVqQVJmSU1ZSXRSZjBzNWRrTlN6c2tHSk4tdw?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
@@ -466,17 +466,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Pork producers press for AGOA market access - agronews.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nTHRsSkcxWUxsRGtFUEZKMUFIbVJoUUpzVlJQbjB5aXZFVkhLSUpVUHJjUFJvZFR0Sm9DU2REMkVkX0phdTRBd2g2ekVRZmZRZm5EMUJhQmFvWWRFWVdLdjEtWTZGMFFHSUpv?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "summary": "Pork producers press for AGOA market access&nbsp;&nbsp;agronews.com",
-      "source": "GNews | AGOA",
-      "priority": 6.0,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Togo reviews AfCFTA implementation to strengthen its foothold in African markets - Togo First",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWlNyQWRYakNSZ1FQbkI0ekI5aVRBV3Z3bHQ0NVJVcUNkNHZ5Z3lYVXFCQ2g1ZnVpMnRfOE1uMW1MVHdIVE9TODdsOUFMZmszbTFpeHlyTlJhT2h3cmx5UlMyV1duNWFfNXM3N0c4aDJ3a19zeHIyVnJzd1l5a282VmJyUGFLREsyWjVid2tWY0hoc21ZVDRMUzN3elR2OVJteXVfRkcwTnBvenVtcVFjc29wSThMUWk1MURsNEZRU2xvQzZhSkRIaENpYTdBZUdKUHNRSmZYOA?oc=5",
       "published": "Fri, 05 Jun 2026 13:05:48 GMT",
@@ -510,10 +499,10 @@
       "relevance": "medium"
     },
     {
-      "title": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkFLalJfckVVR2I1MlZ4WHUtWEtGX2wtbVZIRVlvNnIybFFBcWF6T0dwVmxORGEybWhlbXlUd2Y4Mjg1VWdaODJpM1E0NzhkeWdKckFDVkdmQUJSbDZYWUxaNG5pUEhFUUdLbjNJQk1Ra195ZkZtN1diSzRKS0VRR2xXVC1oN1JtZUxkZldkYnVsY2plTDRucHBkckJsY0VGRTNlb0pLZTJ4aFZY?oc=5",
+      "title": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFdfb0RGd1RmVUFvczBxX2xHMDJRSGxFTTBqSUJNNlp2QUpNTjJVNHFNYm5mdDY3WXA1TFpQa1loVUlIVTlwRGVmVGFldU5RZ21BQURvSTZBRmVwLWdwTmVkeS0xalE5NjdZWFdJdng2NXBMZGpvaWV4NFhQcC05blhMMDRHV2pWNVZ5RnZwVlJXeVlTNXBR?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure&nbsp;&nbsp;Yahoo Finance",
+      "summary": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure&nbsp;&nbsp;Yahoo! Finance Canada",
       "source": "GNews | AfCFTA",
       "priority": 4.8,
       "category": "贸易+区域",
@@ -521,11 +510,22 @@
       "relevance": "medium"
     },
     {
-      "title": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency - وكالة الانباء الاردنية",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX3hZWGlhbkFqMWV4X3VwM243aEkyQ3NQbHNocTl5Y1AzM213S19sMThvUVI2MXIxbnU0LU9XaVdzVmZ5TkFmQy1qRGRMUzRPQVhrNkR3TzVtZzRJTVVhV1FtMkNlaWVvRWRTMTJhZFFISmxaZ01zSDZTLTZHc1FXRWpLOXZUbmoyTlZTMzBiOWpqTG9FUm1LLWRB?oc=5",
-      "published": "Sat, 06 Jun 2026 08:48:56 GMT",
-      "summary": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency&nbsp;&nbsp;وكالة الانباء الاردنية",
-      "source": "GNews | ET Economy/Mfg",
+      "title": "PM says no new IMF program needed as current deal nears completion - Egypt Today",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUm9xaEFGUlJRT2dxM2VnTWJqcFZfZFQzVjlpQjQyeUh5MWpuUUxYUGVRUWZVTlgxZXFqcUdlZVY5NTdlOUtvNU04Sm0zX0Y0TkcySU5HeHk1Zjd5OXpWbFh3MHRSczQzUTBjWjN2dTlmaTNSTHZCMDJ1NnJmVVNGVXA1TjUzeHVfRUd6SUNYTHdfbldNN2lKNw?oc=5",
+      "published": "Thu, 04 Jun 2026 01:51:00 GMT",
+      "summary": "PM says no new IMF program needed as current deal nears completion&nbsp;&nbsp;Egypt Today",
+      "source": "GNews | EG Economy",
+      "priority": 4.8,
+      "category": "主要经济体",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026 - standardmedia.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwd9IB2gFBVV95cUxQeEozQy1yY1NrcTQzRGdJdU1PQTFreVV0djQ1RmllV0VaZWUyakJhNVlmSENJRkxySGlTQWdKdjNoQkFZNnhXM3BYTlpmajcyenFNWjg4NUhtTGVaaDU4SnBnc3dPUDRkbVh4NjA0QnlfR1hSOWJxczdvYW10azF3cVpQckdWeTdhdzRkaFZrbzJHMEUtT0lBcV9BaXh6dmxhZEdqbk1LMVJ6SHd5RU5iRmxSUUZaZjgyUEtBSm9GLWQ1MjNkWlJPVGtrVEJab01IR1g3dmhjenQwdw?oc=5",
+      "published": "Sun, 24 May 2026 08:31:41 GMT",
+      "summary": "Italy strengthens trade, technology partnership with Kenya at GITEX 2026&nbsp;&nbsp;standardmedia.co.ke",
+      "source": "GNews | KE Economy/Fintech",
       "priority": 4.8,
       "category": "主要经济体",
       "_incremental": "new",
@@ -818,6 +818,17 @@
       "relevance": "medium"
     },
     {
+      "title": "Sudan’s Forgotten War: CBN’s Rare Access Inside the World’s Worst Humanitarian Crisis - cbn.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOemJrM1FSSU1BMkhFMzBJcHBCOWM4Rk5RNFBqSmxnVTZFamVMU3NaekJBbGE4V2pHdms5T3BmZ0RJcFBwcE9tNXRCU1hLcW0zdWFtZnJfVGpFSTg4bkZWVmdUdUJodFhUSFBhNVZqQVd6RjJZa2ZtNk0yZ3czanVINTlBX0JMX1FlcnhUbmxUUGtuZ2hWMEpZaVppUjk0cGQwZTBWb1JHZElOT3c?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Sudan’s Forgotten War: CBN’s Rare Access Inside the World’s Worst Humanitarian Crisis&nbsp;&nbsp;cbn.com",
+      "source": "GNews | Sudan Crisis",
+      "priority": 1.2,
+      "category": "政治+冲突",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Where Deals and Partnerships Shape the Future of U.S.-Africa Trade - allAfrica.com",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IZU9PYXhYSVRwNkdaUXRmQU1SN3lxZGpBU0txd2dCR1dQWFNEa08wS3l3SG5zOUhvX3ZJTmNSV2kycjZhQVhtSHFTYUJLTDF2amtEYl9KMFY3Mmc?oc=5",
       "published": "Wed, 20 May 2026 07:00:00 GMT",
@@ -942,17 +953,6 @@
       "relevance": "low"
     },
     {
-      "title": "Africa’s Digital Century - African Business",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkdqOXE5TDlHUTd6dG9IOUR3OGNsUnhEamgtRlM1eUlaY3E0Ri1jdi1oaUd6cTNsVVZWNHlwMkJIV0d2cG9UZVc5cjVSWl9yMFN6QXhGN2hZVzV2YlBtT21mMHdNNFctREh4aGpxd1llcGFtOVVuNXE0TGlNRXp2Yw?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "Africa’s Digital Century&nbsp;&nbsp;African Business",
-      "source": "GNews | KE Economy/Fintech",
-      "priority": 0.0,
-      "category": "主要经济体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Chaos in the Sahel: After Mali, is it Burkina Faso and Niger’s turn? - International Institute for Counter-Terrorism",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaM0ppYi10MkE4MmRjY3ltdElpbF8zbGJuNkRJXzFqUU05eHdIaHZYRllXeEl4M1VueGx5NUV3RGNNLXAyWG1Wa1QtT2xIQm10NXUxeEpKOE92N3lDRmc?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -960,6 +960,17 @@
       "source": "GNews | Sahel Crisis",
       "priority": 0.0,
       "category": "政治+冲突",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Africa’s Digital Century - African Business",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkdqOXE5TDlHUTd6dG9IOUR3OGNsUnhEamgtRlM1eUlaY3E0Ri1jdi1oaUd6cTNsVVZWNHlwMkJIV0d2cG9UZVc5cjVSWl9yMFN6QXhGN2hZVzV2YlBtT21mMHdNNFctREh4aGpxd1llcGFtOVVuNXE0TGlNRXp2Yw?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Africa’s Digital Century&nbsp;&nbsp;African Business",
+      "source": "GNews | Africa Tech",
+      "priority": 0.0,
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1213,6 +1224,17 @@
       "source": "GNews | Africa Infra",
       "priority": 0.0,
       "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMixARBVV95cUxOalFUajNtZThWeUk4V29wQThtaFBLVFF4cUNvZld6WkhVbHplWnRESTdGS2NvQTZkd1NBdWdNekVGY0MzUU9EbUJIVGlMY3drVVpEaDdHQXVHYkp6UFl1Y2l6SXRUeGY0aDJGeXFQNE5TV3ZPTWdjMW53OVNHa0UyQTZxTklLYmlFSWZTRklBV1g1bUdaaERidEVMak5oeGR1T2oyUDR6YlVvM0dXc183cHRzVmdWRURDa1M2UjFkQ1NfQVpmeEVWdWZ2OHFKWVh1RFFfNlI0UkcxSzViODFJbms1T0tPOHlSc1pRb09IRWh0V1RZcTJjRnk1UVVhQVFlY3ktTGtxMEQzUW1pT1g1dTRhQjN0dGpqLWVtc255aGRkVVQ3dFNjY0ExOGhIdlZlVWh5RDdFb2dScEpmU1hwUmg0eWdiLXlhZUxxWVZPZmMxWEctWHZHRUtKdUs3OWkwWWN2dGNSdzB5NmQwMjlENHVLYVNkLURJMHpNbkZ4aHRCelliNGVqRWFtVGlCekMycWNoeVhMMlItbHV3Mm55OEtnb2s1VXphNXUyeWNldE85UEtCUUEwSmJmU0E2RXI5ZFJ3b3hrRnVPMjhiWENmNjJyNkRYelA5Zy1KZmRMY1lGNktpcHd4b0c5YnhxZnpPQlhadFFkdmdEM2s2WDQ4ZTZwQ3JiY0xyNGlSUFAxcVRhWDhWTDhQZmhIQXdvOERjRXFYQkd3bHRvWGhrTV9VYWpLVThLcWpjWTBYazEzaGVZVkhG0gG_BEFVX3lxTFBxMkRKT183TkxrckRQZUhIUE9ial8tMnltUFlyZjFPRk1QcXJIcWZ2Z1lhRXB4YXM4UTZteWxWdVJGLUlXeFpsYjJQNm80Y2pCcUhQNENHcU14dzhnWTZKYy1OQ1lDRDdhbFdReFBXQ3UtNkZNTFp6UHU3ZWZSSDdIdmVhcGZpeFR3c25LMkU0YVBUYTMxaVVUck9GTERHNFFhbmVUUngxSGVpMU5jZVBkZ2Y5eXVpcUxtc3Z0NF8wWGhJWVlUME1zbmRfd2dlT3hfXzNHUllKWjhiSk9rV2dqZ2JaTjFxWm5TS0FfZWhpRnpUSmx6cVFQbUZsYmhrNUFmNVJFYzFna1Jod0tDYXRCZFRkWklYU2VPSGhxM2R0RThkQkI5QmhxUkxNRExGYU80N3QzWVRGdTJPWjRBRkZkeXRWd0ZJSlBlQzZhaTBKQW9lSVhfSnhmVTd3akRRQ3pRZm9vQ2V0T0N5RFEyZW11NjR4V3lYalFJQjBDaFVsYnRuVm1XZ0JocjhyNDdMTUtZbnVhR1VIZmhQemt3NzBESnV6OElybGlXWUdoWVlKUFBWMHRma283QUxqdnJqWFRwR0ZQNDNfMmIzcVA1d3JsbnFJT0FvM3pFOFEwYkg0Qk9NelE4dExGQWlmY3ZGNnQ0WmU0S1lxS1A1V1JHVGlhTlM3b091cS1SM1JObDRiUVNJRmlpZjg3Ti0wVVdXWkZmSUgwTE52dEpIRFFqZVBONm5mMHIzU1FZWkdYRW1F?oc=5",
+      "published": "Sat, 06 Jun 2026 15:44:00 GMT",
+      "summary": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة&nbsp;&nbsp;اليوم السابع",
+      "source": "GNews | EG العربية",
+      "priority": 0.0,
+      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },

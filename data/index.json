@@ -1,25 +1,23 @@
 {
   "version": "4.3",
-  "updated": "2026-06-11T13:43:07.618521+00:00",
+  "updated": "2026-06-11T14:06:52.540209+00:00",
   "fetch_date_utc": "2026-06-11",
-  "global_total": 1591,
-  "global_high": 86,
-  "global_medium": 607,
-  "global_new": 1591,
+  "global_total": 1532,
+  "global_high": 85,
+  "global_medium": 591,
+  "global_new": 1532,
   "global_continuing": 0,
   "global_signal_alerts": {
     "central bank": 4,
-    "supply disruption": 3,
-    "record high": 4,
-    "discovery": 8,
-    "unprecedented": 3
+    "unprecedented": 4,
+    "record high": 4
   },
   "signal_baselines": {
-    "discovery": 3,
     "central bank": 3,
-    "record high": 3,
-    "supply disruption": 3,
     "unprecedented": 3,
+    "record high": 3,
+    "discovery": 3,
+    "supply disruption": 3,
     "BIS": 3,
     "warning": 3,
     "nuclear threat": 3,
@@ -33,16 +31,16 @@
   "source_fingerprint_summary": {
     "unchanged": 0,
     "changed": 0,
-    "new_source": 65
+    "new_source": 69
   },
   "circuit_breaker_count": 0,
   "circuit_broken_sources": [],
   "modules": {
     "global_business": {
       "output_file": "global_business.json",
-      "total": 250,
-      "high": 23,
-      "medium": 43,
+      "total": 229,
+      "high": 21,
+      "medium": 41,
       "fail_feeds": 6,
       "signal_alerts": {
         "record high": 1
@@ -51,9 +49,9 @@
     },
     "finance_global": {
       "output_file": "finance.json",
-      "total": 235,
-      "high": 7,
-      "medium": 85,
+      "total": 224,
+      "high": 8,
+      "medium": 79,
       "fail_feeds": 0,
       "signal_alerts": {
         "central bank": 4,
@@ -66,33 +64,33 @@
     },
     "tech_industry": {
       "output_file": "tech_industry.json",
-      "total": 186,
+      "total": 169,
       "high": 0,
-      "medium": 15,
+      "medium": 14,
       "fail_feeds": 0,
       "signal_alerts": {
         "record high": 1,
-        "discovery": 8,
-        "breakthrough": 2
+        "breakthrough": 2,
+        "discovery": 3
       },
       "rate_limited_feeds": 0
     },
     "energy_commodities": {
       "output_file": "energy_commodities.json",
-      "total": 78,
+      "total": 73,
       "high": 2,
-      "medium": 37,
+      "medium": 35,
       "fail_feeds": 1,
       "signal_alerts": {
         "record high": 1,
         "export ban": 1,
-        "supply disruption": 2
+        "supply disruption": 1
       },
       "rate_limited_feeds": 0
     },
     "geopolitics_risk": {
       "output_file": "geopolitics_risk.json",
-      "total": 43,
+      "total": 42,
       "high": 1,
       "medium": 15,
       "fail_feeds": 0,
@@ -101,9 +99,9 @@
     },
     "esg_sustainability": {
       "output_file": "esg_sustainability.json",
-      "total": 96,
+      "total": 95,
       "high": 3,
-      "medium": 25,
+      "medium": 24,
       "fail_feeds": 0,
       "signal_alerts": {
         "record high": 1
@@ -112,37 +110,39 @@
     },
     "region_se_asia": {
       "output_file": "se_asia.json",
-      "total": 101,
+      "total": 100,
       "high": 2,
-      "medium": 47,
+      "medium": 46,
       "fail_feeds": 6,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "region_south_asia": {
       "output_file": "south_asia.json",
-      "total": 108,
+      "total": 116,
       "high": 5,
-      "medium": 49,
+      "medium": 52,
       "fail_feeds": 2,
-      "signal_alerts": {},
+      "signal_alerts": {
+        "record high": 1
+      },
       "rate_limited_feeds": 0
     },
     "region_middle_east": {
       "output_file": "middle_east.json",
       "total": 133,
       "high": 9,
-      "medium": 57,
+      "medium": 56,
       "fail_feeds": 1,
       "signal_alerts": {
-        "unprecedented": 2
+        "unprecedented": 3
       },
       "rate_limited_feeds": 0
     },
     "region_latin_america": {
       "output_file": "latam.json",
-      "total": 51,
-      "high": 6,
+      "total": 50,
+      "high": 7,
       "medium": 20,
       "fail_feeds": 1,
       "signal_alerts": {
@@ -152,9 +152,9 @@
     },
     "region_africa": {
       "output_file": "africa.json",
-      "total": 108,
-      "high": 10,
-      "medium": 59,
+      "total": 110,
+      "high": 11,
+      "medium": 58,
       "fail_feeds": 2,
       "signal_alerts": {
         "coup": 1,
@@ -166,7 +166,7 @@
       "output_file": "europe.json",
       "total": 112,
       "high": 6,
-      "medium": 73,
+      "medium": 72,
       "fail_feeds": 2,
       "signal_alerts": {
         "supply disruption": 1
@@ -175,9 +175,9 @@
     },
     "region_cis": {
       "output_file": "cis.json",
-      "total": 74,
-      "high": 6,
-      "medium": 49,
+      "total": 75,
+      "high": 5,
+      "medium": 51,
       "fail_feeds": 1,
       "signal_alerts": {
         "nuclear threat": 2
@@ -186,29 +186,15 @@
     },
     "region_east_asia": {
       "output_file": "east_asia.json",
-      "total": 101,
-      "high": 6,
-      "medium": 48,
+      "total": 95,
+      "high": 5,
+      "medium": 45,
       "fail_feeds": 1,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     }
   },
   "high_priority_articles": [
-    {
-      "title": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi - Travel And Tour World",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nZWg3VU13dFl2RnR1OEVZRG9HVGJRaDRENzRKRVNaREtmTzg5bWFnckQyWHp2UUFaYnZ6QlF6MkZuQUphT3B0elA0ZGpwRkJ3emYycTR3TzJpSlIzckNoS1J1bkVIMkt4cWRhTEVR?oc=5",
-      "published": "Wed, 27 May 2026 12:05:30 GMT",
-      "summary": "Israel Joins Saudi Arabia, UAE, Qatar, Bahrain, Iraq, Kuwait, Oman and Others as Iran Signals Renewed US War Risk Is Very Low Fueling Massive Hopes for Middle East Tourism Recovery, Oil and LNG Trade Route Revival and Stronger Global Energy Securi&nbsp;&nbsp;Travel And Tour World",
-      "source": "GNews | QA Trade/LNG",
-      "priority": 27.6,
-      "category": "海湾国家",
-      "_incremental": "new",
-      "relevance": "high",
-      "matched_modules": [
-        "中东深度"
-      ]
-    },
     {
       "title": "USTR Proposes Sweeping Tariffs as Part of Section 301 Forced Labor Import Enforcement Investigation - Crowell & Moring LLP",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcjRRdGQ3Z2w2SHB6TWwtRFJaSFo2VTQxRUJ4OTRiSTFja0Q0aW16MDVrNkdBZVF6dXVzS01nRlBpZ19fZGt2WnRIM2ZqZVg2Z3FXdWVYY2dsOG43VzNfb200QjNhSHJNTTJGaFlUQXBKYy1FVlMxcU9HaEZWclZhNGU5dGstd1RvN2JKVkRORjVRMldCR0haWUJsYWx6VnRTR09OZUJoczNDb3AwVmlaSkcyRm9GVUlucTdTNzVqMmFNcWtHNEotRjg2VDI0M0RFc1hRSE5FRF9OMVVUNDJVU3JHQQ?oc=5",
@@ -294,6 +280,23 @@
       "relevance": "high",
       "matched_modules": [
         "全球宏观与资本流动"
+      ]
+    },
+    {
+      "title": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05VmxNZjJHcUpwaC1fU3pZVktfNzdvLXFsMHNNa1FEY3BmSkpUaVMtLUxFTVBqY1lWTnJFbHVDZVNpaEpVQkgyOEtkcUNDSkdhaUdYeTRCX0k0LU5IZFo2Qjc4ZEE3VlZpLTFLUmJR?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Iran Joins Israel, Saudi Arabia, UAE, Qatar, Iraq, Bahrain, Jordan, Syria, Egypt, and Other Countries in Facing an Unprecedented Decline in Middle East Tourism, Cruise Travel, and Revenue Due to Ongoing Regional Conflict, Airspace Closures and Travel Ad&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | Signal: ME Escalation",
+      "priority": 19.2,
+      "signal_keywords": [
+        "unprecedented"
+      ],
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "high",
+      "matched_modules": [
+        "中东深度"
       ]
     },
     {
@@ -447,7 +450,8 @@
       "_incremental": "new",
       "relevance": "high",
       "matched_modules": [
-        "拉美深度"
+        "拉美深度",
+        "欧洲深度"
       ]
     },
     {
@@ -663,6 +667,20 @@
       ]
     },
     {
+      "title": "Euro Strengthens Against Japanese Yen As Markets Bet On ECB Rate Hike - Bitcoin World",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMm1BY0ZfN29rWVA1eXMzNEl1VWlIeVhCMmN1VkcxZG1QVHZ1R2xXbU5KRnl6NzEwbVBzRWFZS0lxZi1tSXZXRFZ0RnhqYmV1eUZwZ2ZsMHJ4Z3hiN09aZE9xcWpJR1BfMlVNSHRkNUNLTTd1bk1MRWl6Mld2ODh0VA?oc=5",
+      "published": "Thu, 11 Jun 2026 02:00:11 GMT",
+      "summary": "Euro Strengthens Against Japanese Yen As Markets Bet On ECB Rate Hike&nbsp;&nbsp;Bitcoin World",
+      "source": "GNews | BOJ",
+      "priority": 13.2,
+      "category": "全球宏观",
+      "_incremental": "new",
+      "relevance": "high",
+      "matched_modules": [
+        "全球宏观与资本流动"
+      ]
+    },
+    {
       "title": "US-Iran Nuclear Talks and Sanctions Relief for Chinese Oil Buyers - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSmVBenVuckRvVjlYZkg1SmJUa1llQlJSZERlUmUxb3dZSGppTldNc1VtN3JqTHVBQl9ZYzFKUXByWVVQMkZSNnNBZmczbWowSE9POU1ITTlsTTE3R0VJN2JFOVdBdGR3V214ZUJfOFpBdlZ4VC1kT3VaQ0o2bkJmd2pYcUR2MHVYSUF2U3h3?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
@@ -705,20 +723,6 @@
       ]
     },
     {
-      "title": "Azerbaijan’s Northern Question: How the War in Ukraine Has Changed Relations Between Azerbaijan and Russia - Georgetown Journal of International Affairs",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSUVkdDBBOGN2cmptLURHQzNHV1JYT1V3RkZKUG1FTlF4cEpTNzZYdGpDbUJ2aWVpdDNiYk5sUmpWbGNXMW83bFl4U1I5LUZidGNGMDduTUh4NWQ1U3BXWlYtS205X2xkWGloSVdPblFwanRKVE1jZ0RxSXRMaTZmcXQtaGc5NWdsWGFZdTlCekdLd1pCWlBCTGMwTGxjblZjeWo2ZW9QdHZtLUNqQzJYUHBEYzc2Y1EwNHJTVDJHaS04QkZLT3JzUENzT3c1NzFDWDNDSU9zYzJJb00zU3BEM3dLWkFaZw?oc=5",
-      "published": "Sat, 06 Jun 2026 16:58:13 GMT",
-      "summary": "Azerbaijan’s Northern Question: How the War in Ukraine Has Changed Relations Between Azerbaijan and Russia&nbsp;&nbsp;Georgetown Journal of International Affairs",
-      "source": "GNews | Caucasus",
-      "priority": 13.2,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "high",
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
       "title": "Bloomberg Adds Sylvera Carbon Credit Ratings to Terminal as Investors Demand Market Grade Transparency",
       "link": "https://esgnews.com/bloomberg-adds-sylvera-carbon-credit-ratings-to-terminal-as-investors-demand-market-grade-transparency/?utm_source=rss&utm_medium=rss&utm_campaign=bloomberg-adds-sylvera-carbon-credit-ratings-to-terminal-as-investors-demand-market-grade-transparency",
       "published": "Thu, 11 Jun 2026 13:18:58 +0000",
@@ -730,20 +734,6 @@
       "relevance": "high",
       "matched_modules": [
         "ESG与可持续发展"
-      ]
-    },
-    {
-      "title": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0NpYnRQZmFmRExqY3pvUUExSS1YcHNZUUdKNVBQeFhMOElBZG1MOUJtaUQzRkZHdjRuaG1oa01ndV9XdEhXMHRFNGt5ekN0VGREWWtxYkFReUNLaU9YRU81SXBMQXJxRjhtWlN4OTN3M0Nva0pic0tBb3BXdlhEQnFIel8yUno4SVFWNXFqMjg2d0VIeURXZXhGcUpxQTE1MG5IazEzZndNU1JxM0E?oc=5",
-      "published": "Wed, 13 May 2026 07:00:00 GMT",
-      "summary": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal&nbsp;&nbsp;Supply Chain Dive",
-      "source": "GNews | China Trade/Tariff",
-      "priority": 12.0,
-      "category": "全球财经",
-      "_incremental": "new",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
       ]
     },
     {
@@ -789,9 +779,9 @@
       ]
     },
     {
-      "title": "ECB raises interest rates by quarter point to 2.25%",
+      "title": "ECB raises interest rates for first time since 2023",
       "link": "https://www.ft.com/content/95ec93a9-1153-4837-be82-32a87eaabe1d",
-      "published": "Thu, 11 Jun 2026 12:16:56 GMT",
+      "published": "Thu, 11 Jun 2026 13:35:46 GMT",
       "summary": "Central bank is first in G7 to increase borrowing costs in response to Middle East energy crisis",
       "source": "FT Home",
       "priority": 12.0,
@@ -891,6 +881,20 @@
       ]
     },
     {
+      "title": "US Proposes Major Overhaul of USMCA Auto Rules - Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnM4cU9fTFJ1dkR1UWRJajFWRHVWXzluN1Z2WVlXZlJXYWk0NzNYaHpWMF9mQ1Z1SndBWFpzWDRCRm5GcjBiM2lMRUIxSVUxZXRiUEVKTEFFZk9EaFJlbkpzTGFXbTZLMlRydlIzOTd4czNGbktReldNMURqTjVTZ1FVSEktenMyMmNTTHN1WQ?oc=5",
+      "published": "Tue, 02 Jun 2026 00:05:01 GMT",
+      "summary": "US Proposes Major Overhaul of USMCA Auto Rules&nbsp;&nbsp;Mexico Business News",
+      "source": "GNews | MX Nearshoring",
+      "priority": 12.0,
+      "category": "墨西哥",
+      "_incremental": "new",
+      "relevance": "high",
+      "matched_modules": [
+        "拉美深度"
+      ]
+    },
+    {
       "title": "Crisis, coup, and social conflict: the Peruvian electoral situation - Peoples Dispatch",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazhDc1l3RE1qc0dFSHhtbGlTX0Z5OVl6MkRGSVJSQ3d1NzJzYkNRYlVpMTZ4MXlRSndwTHZtSXk5UlVqM1pvRHBxbVAyLUtJcEQ1N1lTaEU4MzBxbzJfb3hxNEMxaGtTVlBkcW9JRmZvMHNlOFBDRUR1SXRWVmpraEtlTTZTWlQ1VmlwSGZBdmhDMjJOVWhFb3ZnWkFSSlp4cjEyMHBpUQ?oc=5",
       "published": "Wed, 20 May 2026 22:14:04 GMT",
@@ -922,13 +926,13 @@
       ]
     },
     {
-      "title": "The North Caucasus Investment Forum 2026: Russia’s Pivot Towards Islamic Finance, Investment, Trade & Tourism - russia's pivot to asia",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDZ3T0ZEa0k5bTRaZFRMaXF2aVpBc0V4ZFByZlBWc2t0RExKZ1YtOFBoX1lTaXF6ckNaMFQtb3hQQndOQm5Pam5scnM2bkYzWWVlWmZrMElVWExBQzhJY0ZfVGtGUlFPU09kV1JnVkxhTnQxbWJ5eF9RQjhTbktPVHg1cElvSTk5dWpobGJxaGtpa2gyZUlsU3EwN0x6U3p5bjVVTGZIZW9yVkhIMG1mVXpGYmRaZTFlcUxyMDZUd0lXSm1EYWotYTVlZTRtSzBH?oc=5",
-      "published": "Fri, 29 May 2026 14:24:52 GMT",
-      "summary": "The North Caucasus Investment Forum 2026: Russia’s Pivot Towards Islamic Finance, Investment, Trade & Tourism&nbsp;&nbsp;russia's pivot to asia",
-      "source": "GNews | CA Infra",
+      "title": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports - Pipeline and Gas Journal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbEl2WDlQTkJYOVY1T0Q2NzhuMFd3bWhHdTVlWXhVcTJkRDBkcEl0dzA1b1NJS3FMS2JEV2VfZGJ2MVQ2WmNuTFRjQnFCYUR2MUtfay1UMkxERV8zOFJMcF9CalRmWmJIOWVvbW1yVHpBQ1A5V2wwbC04aDRtVDRTZVBSYk5mYlk2X0gzU1NyaUhUWjhpZ3VnRlkzal9aVUR4UFZjM3BsUGtEc1Y0OGtXRlZZVGppUXVrb0hiZUJVVlg4Znk0UEZvQlc5UFdpQmc?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports&nbsp;&nbsp;Pipeline and Gas Journal",
+      "source": "GNews | CIS Energy",
       "priority": 12.0,
-      "category": "基础设施+科技",
+      "category": "白俄罗斯+能源",
       "_incremental": "new",
       "relevance": "high",
       "matched_modules": [
@@ -953,7 +957,7 @@
       "title": "China sanctions Philippine defence chief Gilberto Teodoro",
       "link": "https://www.scmp.com/news/china/diplomacy/article/3356786/china-sanctions-philippine-defence-chief-teodoro?utm_source=rss_feed",
       "published": "Thu, 11 Jun 2026 12:14:49 +0000",
-      "summary": "China has sanctioned Philippine Defence Secretary Gilberto Teodoro Jnr, according to the Chinese foreign ministry.\nBeijing said on Thursday that Teodoro had repeatedly made erroneous remarks against China, undermined China’s legitimate interests and damaged bilateral relations.\n“To safeguard China’s national sovereignty, security, and development interests, the Chinese side has decided to ban Teodoro, his spouse and his children from entering the Chinese mainland, Hong Kong and Macau,” the...",
+      "summary": "China has sanctioned Philippine Defence Secretary Gilberto Teodoro Jnr, according to the Chinese foreign ministry.\nBeijing said on Thursday that Teodoro had repeatedly made erroneous remarks against China, undermined China’s legitimate interests and damaged bilateral relations.\n“To uphold China’s national sovereignty, security, and development interests, the Chinese side has decided to ban Teodoro, his spouse and his child from entering the Chinese mainland, Hong Kong and Macau,” the ministry...",
       "source": "SCMP Economy",
       "priority": 11.25,
       "category": "全球财经",
@@ -1014,20 +1018,6 @@
       "source": "GNews | USTR 301",
       "priority": 10.8,
       "category": "政策+制裁",
-      "_incremental": "new",
-      "relevance": "high",
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Why the USMCA Midterm Review Will Drive New Nearshoring to Mexico - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTXhRRFJQUTVkdDFoM3VZSG5tT2VILTZrVGtHdndhUGVwd2NKZnhBRFhtOFItRmdLSWZPbHZLNF9DQldWQXdjQTJmSDEwNVFMUUFLMXhKNEFqVDc0dldOZF9RSnZBMWNyb3M1MzZ3S2JUcFplaWVJN2ZQVHV1UGRsblVaVkRBRWVYdS01ZERiam1ialhVQlFKbVdSdEh5TEw4Y2Fn?oc=5",
-      "published": "Fri, 05 Jun 2026 12:30:00 GMT",
-      "summary": "Why the USMCA Midterm Review Will Drive New Nearshoring to Mexico&nbsp;&nbsp;Mexico Business News",
-      "source": "GNews | Mexico Nearshoring",
-      "priority": 10.8,
-      "category": "全球产业链重构",
       "_incremental": "new",
       "relevance": "high",
       "matched_modules": [
@@ -1234,6 +1224,20 @@
       ]
     },
     {
+      "title": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones - Business News Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVERsd0FpSVF6ZnVmTzYyRWdlN0tqSHMyTU1SQmg4ekJJNlphbzBzZkpaSTlCLWdrb3pmS1NleDJUUW0yTTM0NG41RWR3eVdfWXFwbHpvM0V4RmkxdDRzWGFKRDlYeDZrUjREWGNCLVlMVGNxQ1VPRlkxNTV3aWtJLTg3Y0dCNVhQbGhhVnJfV2I0ckVBSlFtZExaZHJ1djFpejBKOGVnYTFnZUp6LV9XcnlUWWgwRy15eGhrcHc5U0VncjNvdXBibQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones&nbsp;&nbsp;Business News Nigeria",
+      "source": "GNews | AfCFTA",
+      "priority": 10.8,
+      "category": "贸易+区域",
+      "_incremental": "new",
+      "relevance": "high",
+      "matched_modules": [
+        "非洲深度"
+      ]
+    },
+    {
       "title": "Belgium Joins Germany, Italy, France, Netherlands, Austria, Hungary, Czech Republic and Others in Facing Continuing Oil, LNG and Fuel Supply Disruptions as Delayed Red Sea and Hormuz Shipping Recovery Amid Middle East Conflict Threatens Flight Op - Travel And Tour World",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJd0d6UlBJMlBtRTdWaGtLSmFwRlNMQktnSzkzMkRvWE1fLTJkSmk3b0gxU000YlplOG8zVVVvNVBpOUp5eFpLYi04Z2M3VU83eDFZV0VGaV90UkJOSnJNT2tMY3hmaUp5cjZURDRn?oc=5",
       "published": "Wed, 27 May 2026 07:00:00 GMT",
@@ -1300,20 +1304,6 @@
       "source": "GNews | US-JK Trilateral",
       "priority": 10.8,
       "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "high",
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "South Korea’s Lee wins big in local election, Bolivia’s domestic crisis deepens, White House goes back to tariff policy - GZERO Media",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeEdNWkFiN3NsRE5JU1gyRU96el9WbWdfTXN6eWlXa3hxb1lPZVhSMDBUbWdNYUNueGh5eUxpQjdNTkJ0UnB0anNmSWRuQ0QteDV3OERQeENuMWtFandCalBnczI5ekdNb3BCbEFjWGxtWF9SNS1GaWZkNWxLR3BVcDg4ZnRQLXdxTlM1MUlscTU1NkVrUGZPS2pCUmlsUjJ4SU02MGh3VzNxMXBPNkx0eTlTZVRHVFVMRVBzaHRkMnk5LWJVa3lOaFFuX1U3U0c0T1oyTHVlWkFIUi1EbERJdkxlZHFJOHFMOWhiVtIB7gFBVV95cUxNZHFMYW9lR0dzU0FzMnVaTFJKa3ZFSFF0OXBIWnIxdWFqd3Zlb2VvVXQ4aGJhM2Q1QWJ5cHd3WHFMWVZ6d2M4QjhoTkh3X1VZbUpRdkMzS3R2MDdFbUNSa09mbUJ3MUhUclUwNTNUd0xmcFJEeGNaQnBXY1dfa0c3T29xTHVhZ3p0Y2ZnSV9VV0x5TXcyQTFCLVQ4UklYYXZ2dEV1T2l5c1VkV25TbTJsa2ZzTjg4bWg2TTZuRDZqSzlFVll0dTBXbTVoRkxLb09ESG5GbU8tUkZLWVczelVieTNJM0pBNDVUWk9CSGRn?oc=5",
-      "published": "Wed, 03 Jun 2026 16:14:59 GMT",
-      "summary": "South Korea’s Lee wins big in local election, Bolivia’s domestic crisis deepens, White House goes back to tariff policy&nbsp;&nbsp;GZERO Media",
-      "source": "GNews | KR Politics",
-      "priority": 10.8,
-      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "high",
       "matched_modules": [

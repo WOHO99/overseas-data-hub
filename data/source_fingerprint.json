@@ -1,22 +1,22 @@
 {
   "version": "1.0",
-  "updated": "2026-06-11T13:43:07.618521+00:00",
+  "updated": "2026-06-11T14:06:52.540209+00:00",
   "fetch_date_utc": "2026-06-11",
   "window": "24h",
   "summary": {
     "unchanged": 0,
     "changed": 0,
-    "new_source": 65
+    "new_source": 69
   },
   "sources": {
     "FedReg | BIS": {
-      "fingerprint": "3eaf1fa00e40",
-      "article_count": 26,
+      "fingerprint": "0088e5b04d17",
+      "article_count": 27,
       "module": "全球商业与产业链重构",
       "status": "new_source"
     },
     "SCMP Economy": {
-      "fingerprint": "cc30b7f5ff2d",
+      "fingerprint": "0ac2cc150705",
       "article_count": 30,
       "module": "全球商业与产业链重构",
       "status": "new_source"
@@ -46,26 +46,26 @@
       "status": "new_source"
     },
     "FedReg | USTR": {
-      "fingerprint": "dc10ed88e3d0",
-      "article_count": 22,
+      "fingerprint": "dbbced4a4d40",
+      "article_count": 23,
       "module": "全球商业与产业链重构",
       "status": "new_source"
     },
     "Bangkok Post": {
-      "fingerprint": "076f4c2d0011",
+      "fingerprint": "eec5f6ec694d",
       "article_count": 10,
       "module": "东南亚深度",
       "status": "new_source"
     },
-    "GNews | Global Macro": {
-      "fingerprint": "ad11fcbaeb1d",
-      "article_count": 5,
-      "module": "全球商业与产业链重构",
+    "GNews | BOJ": {
+      "fingerprint": "67b1d8df7c51",
+      "article_count": 1,
+      "module": "全球宏观与资本流动",
       "status": "new_source"
     },
     "FT Home": {
-      "fingerprint": "49cf4a2ded43",
-      "article_count": 10,
+      "fingerprint": "89279af9693e",
+      "article_count": 12,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -76,7 +76,7 @@
       "status": "new_source"
     },
     "GNews | ECB": {
-      "fingerprint": "f8a7751f8093",
+      "fingerprint": "108d26a071ca",
       "article_count": 10,
       "module": "全球宏观与资本流动",
       "status": "new_source"
@@ -84,12 +84,6 @@
     "GNews | EUR/USD": {
       "fingerprint": "9c59e19f92ae",
       "article_count": 1,
-      "module": "全球宏观与资本流动",
-      "status": "new_source"
-    },
-    "WSJ World": {
-      "fingerprint": "3de6b08491fd",
-      "article_count": 12,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -105,6 +99,12 @@
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
+    "WSJ World": {
+      "fingerprint": "3de6b08491fd",
+      "article_count": 12,
+      "module": "全球宏观与资本流动",
+      "status": "new_source"
+    },
     "GNews | US Stock/SEC": {
       "fingerprint": "fa05ead9e421",
       "article_count": 1,
@@ -117,6 +117,12 @@
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
+    "GNews | Japan Stock/FSA": {
+      "fingerprint": "d5311de08e92",
+      "article_count": 1,
+      "module": "全球宏观与资本流动",
+      "status": "new_source"
+    },
     "GNews | Liquidity/Outflow": {
       "fingerprint": "cbe6b92b3157",
       "article_count": 1,
@@ -124,7 +130,7 @@
       "status": "new_source"
     },
     "GNews | SWF": {
-      "fingerprint": "0e7b1b3fe9aa",
+      "fingerprint": "b7e25f2b959e",
       "article_count": 1,
       "module": "全球宏观与资本流动",
       "status": "new_source"
@@ -141,6 +147,12 @@
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
+    "GNews | AI Safety": {
+      "fingerprint": "adff2dee4a13",
+      "article_count": 1,
+      "module": "全球科技与工业前沿",
+      "status": "new_source"
+    },
     "Wired": {
       "fingerprint": "9602bbd7c7e8",
       "article_count": 30,
@@ -148,8 +160,8 @@
       "status": "new_source"
     },
     "Ars Technica": {
-      "fingerprint": "7dcfc59e320d",
-      "article_count": 13,
+      "fingerprint": "fb64c3e7016e",
+      "article_count": 14,
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
@@ -183,12 +195,6 @@
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
-    "GNews | Chip Export Ban": {
-      "fingerprint": "fcea283525e9",
-      "article_count": 1,
-      "module": "全球科技与工业前沿",
-      "status": "new_source"
-    },
     "GNews | LNG Expansion": {
       "fingerprint": "5fb1ecd4a75e",
       "article_count": 1,
@@ -196,7 +202,7 @@
       "status": "new_source"
     },
     "OilPrice.com": {
-      "fingerprint": "eb2dcc87b96c",
+      "fingerprint": "fad8eb56442f",
       "article_count": 15,
       "module": "全球能源与大宗商品",
       "status": "new_source"
@@ -226,8 +232,8 @@
       "status": "new_source"
     },
     "ESG News": {
-      "fingerprint": "9858b51e8169",
-      "article_count": 9,
+      "fingerprint": "d18581170f2b",
+      "article_count": 7,
       "module": "ESG与可持续发展",
       "status": "new_source"
     },
@@ -244,7 +250,7 @@
       "status": "new_source"
     },
     "VN Express EN": {
-      "fingerprint": "0206302affb2",
+      "fingerprint": "ea891e525b27",
       "article_count": 25,
       "module": "东南亚深度",
       "status": "new_source"
@@ -262,20 +268,26 @@
       "status": "new_source"
     },
     "The Hindu Business": {
-      "fingerprint": "6a01d1a179d6",
-      "article_count": 21,
+      "fingerprint": "c791aec4b591",
+      "article_count": 22,
+      "module": "南亚深度",
+      "status": "new_source"
+    },
+    "GNews | IN Infra": {
+      "fingerprint": "efa33664be1a",
+      "article_count": 2,
       "module": "南亚深度",
       "status": "new_source"
     },
     "Al Jazeera": {
-      "fingerprint": "87c9ec50acd7",
+      "fingerprint": "f1bc9e902309",
       "article_count": 25,
       "module": "中东深度",
       "status": "new_source"
     },
     "Daily Sabah": {
-      "fingerprint": "edf7273f05cf",
-      "article_count": 15,
+      "fingerprint": "cf8fc4ff1e0f",
+      "article_count": 13,
       "module": "中东深度",
       "status": "new_source"
     },
@@ -298,13 +310,19 @@
       "status": "new_source"
     },
     "MercoPress": {
-      "fingerprint": "8d50933ecf9c",
-      "article_count": 7,
+      "fingerprint": "ada1ee665bc3",
+      "article_count": 6,
       "module": "拉美深度",
       "status": "new_source"
     },
     "GNews | BR Lithium/Mining": {
       "fingerprint": "f803a24a169b",
+      "article_count": 1,
+      "module": "拉美深度",
+      "status": "new_source"
+    },
+    "GNews | AR Español": {
+      "fingerprint": "24b7a4b0893b",
       "article_count": 1,
       "module": "拉美深度",
       "status": "new_source"
@@ -340,7 +358,7 @@
       "status": "new_source"
     },
     "GNews | ECB/Rate": {
-      "fingerprint": "86d1ec7a4f83",
+      "fingerprint": "207d150476fa",
       "article_count": 12,
       "module": "欧洲深度",
       "status": "new_source"
@@ -363,14 +381,20 @@
       "module": "欧洲深度",
       "status": "new_source"
     },
+    "GNews | DE Economy": {
+      "fingerprint": "3e03e254084a",
+      "article_count": 1,
+      "module": "欧洲深度",
+      "status": "new_source"
+    },
     "Moscow Times": {
-      "fingerprint": "50c523763186",
-      "article_count": 9,
+      "fingerprint": "a76efcc7f3f8",
+      "article_count": 8,
       "module": "独联体深度",
       "status": "new_source"
     },
-    "GNews | CA Infra": {
-      "fingerprint": "7caedba74389",
+    "GNews | KZ Русский": {
+      "fingerprint": "e44a063913a1",
       "article_count": 1,
       "module": "独联体深度",
       "status": "new_source"
@@ -388,7 +412,7 @@
       "status": "new_source"
     },
     "GNews | KR Politics": {
-      "fingerprint": "e968c4e845da",
+      "fingerprint": "9e80502be2c5",
       "article_count": 1,
       "module": "东亚深度",
       "status": "new_source"
