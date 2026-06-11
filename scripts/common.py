@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-common.py v3.3.1 — 全球商业情报仪表盘共享工具库
+common.py v3.4 — 全球商业情报仪表盘共享工具库
 v3.1: 并发抓取、双层去重、原子写入、关键词外置
 v3.3: 信号性词汇检测(signal keywords)、模块版本号升级
-v3.3.1: 修复feedparser无HTTP超时导致fetch挂起的致命bug(socket.setdefaulttimeout)
+v3.3.1: 修复feedparser无HTTP超时导致fetch挂起(socket.setdefaulttimeout)
+v3.4: feed并发15+socket超时15s+future超时20s，配合fetch_all.py并行模块
 """
 
 import feedparser
@@ -17,8 +18,8 @@ import yaml
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# 全局Socket超时：防止feedparser.parse()对无响应服务器无限挂起
-socket.setdefaulttimeout(30)
+# 全局Socket超时：15s（v3.4: 从30s收紧，慢源快速失败）
+socket.setdefaulttimeout(15)
 
 
 # ============================================================
@@ -77,8 +78,11 @@ def fetch_feed(url, tag, max_items=30):
     return items
 
 
-def fetch_feed_concurrent(feeds, max_workers=8, max_items=30):
-    """并发抓取多个RSS源"""
+def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
+    """
+    并发抓取多个RSS源。
+    v3.4: max_workers从8提升到15，future超时从30s收紧到20s。
+    """
     all_items = []
     fail_count = 0
 
@@ -93,10 +97,11 @@ def fetch_feed_concurrent(feeds, max_workers=8, max_items=30):
         for future in as_completed(future_to_tag):
             tag = future_to_tag[future]
             try:
-                items = future.result(timeout=30)  # 单源30秒超时
+                items = future.result(timeout=20)  # v3.4: 从30s收紧到20s
                 if not items:
                     fail_count += 1
-                print(f"    Got {len(items)} items from {tag}")
+                else:
+                    print(f"    Got {len(items)} items from {tag}")
                 for item in items:
                     item["_feed_tag"] = tag  # 临时标记来源
                 all_items.extend(items)
@@ -148,11 +153,9 @@ def detect_signal_keywords(title, summary, signal_kw):
 
 def link_hash(link):
     """URL标准化+哈希"""
-    # 统一https，去跟踪参数
     normalized = link.strip()
     if normalized.startswith("http://"):
         normalized = "https://" + normalized[7:]
-    # 去常见跟踪参数
     for param in ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]:
         normalized = re.sub(r'[?&]' + param + r'=[^&]*', '', normalized)
     normalized = normalized.rstrip('?&')
@@ -203,7 +206,6 @@ def dedup_title_level(items, threshold=0.85, hours=24):
     if len(items) < 2:
         return items
 
-    # 按priority降序排列，高优先级保留
     items_sorted = sorted(items, key=lambda x: x["priority"], reverse=True)
     kept = []
     removed = set()
@@ -212,15 +214,13 @@ def dedup_title_level(items, threshold=0.85, hours=24):
         if i in removed:
             continue
         kept.append(item)
-        # 与后续条目比较
         for j in range(i + 1, len(items_sorted)):
             if j in removed:
                 continue
             sim = title_similarity(item["title"], items_sorted[j]["title"])
             if sim >= threshold:
-                # 检查时间窗口
                 t1 = parse_published_time(item["published"])
-                t2 = parse_published_time(items_sorted[j]["published"])
+                t2 = parse_published_time(items_sorted[j]["item"]["published"] if "item" in items_sorted[j] else items_sorted[j]["published"])
                 if t1 and t2 and abs((t1 - t2).total_seconds()) < hours * 3600:
                     removed.add(j)
 
@@ -234,17 +234,17 @@ def dedup_title_level(items, threshold=0.85, hours=24):
 def run_module(config):
     """
     运行单个模块。config现在从yaml加载关键词，feeds仍在模块内定义。
+    v3.4: feed并发15workers。
     """
     name = config["name"]
     print(f"\n{'='*60}")
     print(f"MODULE: {name}")
     print(f"{'='*60}")
 
-    # 加载关键词（从yaml）
     core_kw = config.get("core_keywords", [])
     important_kw = config.get("important_keywords", [])
     aux_kw = config.get("aux_keywords", [])
-    signal_kw = config.get("signal_keywords", [])  # v3.3
+    signal_kw = config.get("signal_keywords", [])
 
     all_items = []
     stats = {}
@@ -252,20 +252,17 @@ def run_module(config):
 
     for category, feeds in config["feeds"].items():
         print(f"  Category: {category} ({len(feeds)} feeds, concurrent fetch...)")
-        items, fail_count = fetch_feed_concurrent(feeds, max_workers=8)
+        items, fail_count = fetch_feed_concurrent(feeds, max_workers=15)
 
-        # 计算优先级
         for item in items:
             item["priority"] = calc_priority(
                 item["title"], item["summary"],
                 core_kw, important_kw, aux_kw
             )
-            # v3.3: 信号性词汇检测
             sig_hits = detect_signal_keywords(item["title"], item["summary"], signal_kw)
             if sig_hits:
                 item["signal_keywords"] = sig_hits
             item["category"] = category
-            # 清理临时字段
             item.pop("_feed_tag", None)
 
         all_items.extend(items)
@@ -298,16 +295,13 @@ def run_module(config):
 
     # 原子写入JSON
     now = datetime.now(timezone.utc)
-    # v3.3: 信号性词汇统计
     signal_stats = {}
-    all_signals = []
     for item in unique_items:
         for sk in item.get("signal_keywords", []):
             signal_stats[sk] = signal_stats.get(sk, 0) + 1
-            all_signals.append({"keyword": sk, "title": item["title"], "link": item["link"]})
 
     output = {
-        "version": "3.3",
+        "version": "3.4",
         "module": name,
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
@@ -336,7 +330,6 @@ def atomic_write_json(data, filepath):
     tmp_path = filepath + ".tmp"
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    # Windows需先删目标文件
     if os.path.exists(filepath):
         os.remove(filepath)
     os.rename(tmp_path, filepath)
