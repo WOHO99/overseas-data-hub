@@ -6,15 +6,19 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # v4.1 subprocess隔离+硬超时，30min足够（预期8-12min）
+    timeout-minutes: 60  # v4.2 Bucket+RapidFuzz，预期10-15min完成
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -22,7 +26,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser pyyaml aiohttp
+        run: pip install feedparser pyyaml aiohttp rapidfuzz
 
       - name: Run global fetch
         run: |
