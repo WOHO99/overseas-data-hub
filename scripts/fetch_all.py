@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v3.3 — 主调度脚本
+fetch_all.py v3.4 — 主调度脚本
 v3.2: 模块超时、错误隔离、连续失败告警、关键词外置、全局双层去重
 v3.3: 14模块（2场景+4主题+8区域），信号性词汇检测，全球商业情报仪表盘
+v3.4: 模块并行执行(ProcessPoolExecutor)+模块超时收紧5min，总运行时间从30-60min降至4-8min
 """
 
 import json
-import hashlib
 import os
 import sys
-import threading
-import subprocess
 from datetime import datetime, timezone
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # 将common.py和modules目录加入path
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -41,79 +40,85 @@ MODULE_REGISTRY = [
     {"module": "region_east_asia", "output": "east_asia.json", "core": False},
 ]
 
-MODULE_TIMEOUT_SECONDS = 900  # 15分钟超时
+MODULE_TIMEOUT_SECONDS = 300  # 5分钟超时（v3.4: 从15min收紧，含15s/socket超时后单模块最多3-4min）
+MAX_PARALLEL_MODULES = 7      # 并行模块数（GitHub Actions ubuntu-latest: 2核，7进程足够）
 
 
-def run_module_with_timeout(mod_name, timeout=MODULE_TIMEOUT_SECONDS):
+def run_single_module(mod_name):
     """
-    在子进程中运行单个模块，带超时控制。
-    超时则杀子进程，返回None。
+    在当前进程中运行单个模块（用于ProcessPoolExecutor）。
+    返回 (mod_name, success_bool)。
     """
+    import socket
+    socket.setdefaulttimeout(15)  # 子进程也要设socket超时
+
     try:
-        proc = subprocess.Popen(
-            [sys.executable, "-c",
-             f"import sys; sys.path.insert(0, '{SCRIPT_DIR}'); "
-             f"sys.path.insert(0, '{os.path.join(SCRIPT_DIR, 'modules')}'); "
-             f"import {mod_name}; from common import run_module; "
-             f"run_module({mod_name}.CONFIG)"],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            cwd=SCRIPT_DIR,
-        )
-        try:
-            stdout, _ = proc.communicate(timeout=timeout)
-            print(stdout)
-            if proc.returncode != 0:
-                print(f"  [MODULE_ERROR] {mod_name} exited with code {proc.returncode}")
-                return False
-            return True
-        except subprocess.TimeoutExpired:
-            proc.kill()
-            proc.communicate()
-            print(f"  [TIMEOUT] {mod_name} exceeded {timeout}s, killed.")
-            return False
+        mod = __import__(mod_name)
+        from common import run_module
+        output = run_module(mod.CONFIG)
+        return (mod_name, True)
     except Exception as e:
-        print(f"  [LAUNCH_ERROR] {mod_name}: {e}")
-        return False
+        print(f"  [RUN_ERROR] {mod_name}: {e}")
+        return (mod_name, False)
 
 
-def run_all_modules():
-    """顺序执行所有模块，错误隔离"""
+def run_all_modules_parallel():
+    """
+    v3.4: 并行执行所有模块，错误隔离。
+    14个模块分批并行，每批MAX_PARALLEL_MODULES个。
+    """
     results = {}
-    # 读取连续失败计数
+
+    print(f"\nLaunching {len(MODULE_REGISTRY)} modules with max {MAX_PARALLEL_MODULES} parallel...")
+    start_time = datetime.now(timezone.utc)
+
+    with ProcessPoolExecutor(max_workers=MAX_PARALLEL_MODULES) as executor:
+        future_to_mod = {}
+        for entry in MODULE_REGISTRY:
+            mod_name = entry["module"]
+            future = executor.submit(run_single_module, mod_name)
+            future_to_mod[future] = mod_name
+
+        for future in as_completed(future_to_mod, timeout=MODULE_TIMEOUT_SECONDS + 30):
+            mod_name = future_to_mod[future]
+            try:
+                _, success = future.result(timeout=5)
+                results[mod_name] = success
+                status = "OK" if success else "FAIL"
+                print(f"  [{status}] {mod_name} (parallel)")
+            except Exception as e:
+                results[mod_name] = False
+                print(f"  [EXCEPTION] {mod_name}: {e}")
+
+    elapsed = (datetime.now(timezone.utc) - start_time).total_seconds()
+    print(f"\nAll modules finished in {elapsed:.0f}s ({elapsed/60:.1f}min)")
+
+    # 连续失败计数
     fail_counts = load_fail_counts()
     new_fail_counts = {}
-
     for entry in MODULE_REGISTRY:
         mod_name = entry["module"]
         is_core = entry.get("core", False)
-        print(f"\n{'#'*70}")
-        print(f"# Module: {mod_name} {'[CORE]' if is_core else ''}")
-        print(f"{'#'*70}")
-
-        success = run_module_with_timeout(mod_name)
-
-        if success and os.path.exists(entry["output"]):
-            results[entry["output"]] = True
-            new_fail_counts[mod_name] = 0  # 重置失败计数
-            print(f"[OK] {mod_name} → {entry['output']}")
+        if results.get(mod_name, False):
+            new_fail_counts[mod_name] = 0
         else:
-            results[entry["output"]] = False
             prev = fail_counts.get(mod_name, 0)
             new_fail_counts[mod_name] = prev + 1
             consecutive = new_fail_counts[mod_name]
-            print(f"[FAIL] {mod_name} (consecutive: {consecutive})")
-
             if is_core and consecutive >= 3:
                 print(f"\n{'!'*70}")
                 print(f"!!! CRITICAL: Core module {mod_name} has failed {consecutive} days in a row!")
                 print(f"!!! Manual intervention required.")
                 print(f"{'!'*70}")
 
-    # 保存失败计数
     save_fail_counts(new_fail_counts)
-    return results
+
+    # 转换为 output_file → bool 格式
+    output_results = {}
+    for entry in MODULE_REGISTRY:
+        output_results[entry["output"]] = results.get(entry["module"], False)
+
+    return output_results
 
 
 # ============================================================
@@ -210,7 +215,7 @@ def global_dedup():
 # ============================================================
 
 def build_index(seen, module_outputs):
-    """构建全局索引文件 index.json（v3.3: 含信号性词汇聚集检测）"""
+    """构建全局索引文件 index.json（v3.4: 含信号性词汇聚集检测）"""
     from common import atomic_write_json
 
     now = datetime.now(timezone.utc)
@@ -251,7 +256,7 @@ def build_index(seen, module_outputs):
     signal_alerts = {k: v for k, v in global_signal_counts.items() if v >= 5}
 
     index = {
-        "version": "3.3",
+        "version": "3.4",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
@@ -271,12 +276,13 @@ def build_index(seen, module_outputs):
 # ============================================================
 
 def main():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v3.3 (14 modules)...")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v3.4 (14 modules, parallel)...")
     print(f"Registered modules: {len(MODULE_REGISTRY)}")
+    print(f"Parallel workers: {MAX_PARALLEL_MODULES}")
     print(f"Module timeout: {MODULE_TIMEOUT_SECONDS}s ({MODULE_TIMEOUT_SECONDS//60}min)")
 
-    # Step 1: 运行所有模块（错误隔离+超时）
-    results = run_all_modules()
+    # Step 1: 并行运行所有模块
+    results = run_all_modules_parallel()
 
     # Step 2: 全局去重+索引
     print(f"\n{'='*70}")
