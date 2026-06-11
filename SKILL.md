@@ -497,7 +497,7 @@ def match_role(query: str) -> str:
 | RSSHub | B | 路由404 → webfetch原始页 → online_search | Agent调用时HTTP状态码 |
 | Statically CDN | C | 跳过，用GitHub Raw | Agent调用时超时检测 |
 
-**国内服务分级**（AKShare/统计局V2.0/世界银行/中国日报等）见 SKILL_CN.md。
+**国内服务分级及错误码**见 SKILL_CN.md v2.0（L1=HTTP API主干，L1.5=AKShare可选快捷）。
 
 ## 安全规则
 
@@ -595,7 +595,7 @@ Agent每次输出情报分析结果时，末尾必须附加以下免责声明（
 
 **恢复优先级**：E05(安全) > E07(数据持久性) > E06 > E04
 
-**国内错误码**（E01 AKSHARE_ERR / E02 NBS_LIMIT / E03 WB_TIMEOUT / E08 SEARCH_EMPTY）见 SKILL_CN.md。
+**国内错误码**（E01 AKSHARE_ERR / E02 NBS_LIMIT / E03 WB_TIMEOUT / E08 SEARCH_EMPTY / E09 API_ENDPOINT_CHANGED）见 SKILL_CN.md。
 
 **告警阈值**：
 - E06连续3天 → 必须人工介入
@@ -615,4 +615,4 @@ Agent每次输出情报分析结果时，末尾必须附加以下免责声明（
 | `docs/rsshub_routes.md` | RSSHub常用路由速查（副本） | Agent按需读取 |
 | `config/domestic_sources.yaml` | 国内信源A-E级数据库 | Agent读取（SKILL_CN.md使用） |
 | `config/domestic_search_templates.yaml` | 国内12场景搜索模板 | Agent读取（SKILL_CN.md使用） |
-| `SKILL_CN.md` | 国内信源收集技能v1.3(Trust-Source) | 双核联动，纯国内问题走此Skill |
+| `SKILL_CN.md` | 国内信源收集技能v2.0(Trust-Source, HTTP API主干) | 双核联动，纯国内问题走此Skill |
