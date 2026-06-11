@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "updated": "2026-06-11T13:43:07.618521+00:00",
+  "fetch_date_utc": "2026-06-11",
+  "method": "max(7d_high, 3)",
+  "signals": [
+    {
+      "keyword": "discovery",
+      "today_count": 8,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": true,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "central bank",
+      "today_count": 4,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": true,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "record high",
+      "today_count": 4,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": true,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "supply disruption",
+      "today_count": 3,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": true,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "unprecedented",
+      "today_count": 3,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": true,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "BIS",
+      "today_count": 2,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "warning",
+      "today_count": 2,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "nuclear threat",
+      "today_count": 2,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "breakthrough",
+      "today_count": 2,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "coup",
+      "today_count": 1,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "political crisis",
+      "today_count": 1,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "export ban",
+      "today_count": 1,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "IMF",
+      "today_count": 1,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "World Bank",
+      "today_count": 1,
+      "baseline": 3,
+      "high_7d": 0,
+      "triggered": false,
+      "baseline_note": "max(7d_high=0, 3)=3"
+    }
+  ]
+}

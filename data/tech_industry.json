@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "全球科技与工业前沿",
-  "updated": "2026-06-11T13:35:52.726286+00:00",
+  "updated": "2026-06-11T13:42:35.049648+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 170,
+  "total": 186,
   "high_priority": 0,
-  "medium_priority": 14,
+  "medium_priority": 15,
   "signal_alerts": {
     "record high": 1,
     "discovery": 8,
@@ -66,6 +66,17 @@
       "source": "GNews | AI Safety",
       "priority": 6.0,
       "category": "AI",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Taiwan mulls curbs on AI chip exports to China; TSMC shares rise - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnZaS3dNb1FXM2xWU1RTclduX2JtWS1OZjFQUFVwbmlfTmtIS2FuUU91MU84cHlFNWZaMDJ4WW9wOTJpaU1qU09LbWhvbkN4T3VIWjl1MzktaS1yTEZHV1U3TFdhWGlfb1RfcUNIYnNOUE8zVEhnYjRYSzI1ZDJLMnNHVlM4V2tBMlFwM1gta25CN1JwTG92dlRKeFQxcDJLNFJvWkE5RzJJR2xlaE54SkVFTkpxOXZ6?oc=5",
+      "published": "Tue, 09 Jun 2026 14:45:42 GMT",
+      "summary": "Taiwan mulls curbs on AI chip exports to China; TSMC shares rise&nbsp;&nbsp;Investing.com",
+      "source": "GNews | Chip Export Ban",
+      "priority": 6.0,
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -249,13 +260,13 @@
       "relevance": "low"
     },
     {
-      "title": "Battery & Energy Storage India Expo 2026 - EVTech.News",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2VhWDZ2dUFFX3dYT0liamRkaW5MRW9kN0hBVV9UdmUyeGVhN0o0TExpM0d3aVZQMVR0bTFjUE8xcXRnNjZXSUtFMzlMRlYzX0lIZFJ0bkdJMkpGWlY3TVhqVFpLb0Q5bHZadjBsVGlueDlFNXVVdThiNHZHLXlfSGVfT1U?oc=5",
-      "published": "Wed, 13 May 2026 04:51:19 GMT",
-      "summary": "Battery & Energy Storage India Expo 2026&nbsp;&nbsp;EVTech.News",
-      "source": "GNews | EV/Battery",
+      "title": "Washington tried to slow China’s chips, but Huawei says the pressure forced a tech stack that now competes with America - OkDiario",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnluczEtM1FURU1jZW9NVUxHQTNOYjE1eE5ERk54RTN6aHEtYTRqazdxcWx0dnZSTnd5RzhwMzluUGFpTEdWV05hQ21ydklsQ1ZibkVya3pZR2tQTHNzZ0tZcDhTMlctYzNoRzZTajJHd2pGTVVzdlo5emFKbmM4QmF0QUpoakJKbEdwMDkzenlxX1UtYzBTcmpNSGhPeTQwdGUwUWZSWWtZZmhncGI0OXNUeEg5RzJxNFZjaEFkZkF2UDhlUTFhTkxHQmVGNnIwNFBneE5YeFEzbWk3bjFyeGRGZ2tWbi1G?oc=5",
+      "published": "Wed, 10 Jun 2026 12:45:00 GMT",
+      "summary": "Washington tried to slow China’s chips, but Huawei says the pressure forced a tech stack that now competes with America&nbsp;&nbsp;OkDiario",
+      "source": "GNews | Chip Export Ban",
       "priority": 1.2,
-      "category": "电动车+电池",
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -348,6 +359,17 @@
       "relevance": "low"
     },
     {
+      "title": "Innovation ecosystem driving rapid battery advancements - China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Cc1FyMWotTE5TczRSREtTUmstRjdQc1JZNEJzb0lKVVFGS0xNaXFVbW9nM09ua1FvVTFscG5qdU1MNXktdXcybnFHTkJUb3JMb2h5QWhaZXVORnJpSklNd3pzS2lIZUU2dVNaekd2amQzdkRQaTV5cW91ZGNwdw?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Innovation ecosystem driving rapid battery advancements&nbsp;&nbsp;China Daily",
+      "source": "GNews | LFP Battery",
+      "priority": 1.2,
+      "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Sprawling new House AI bill includes frontier model oversight, open-source security grants - Cybersecurity Dive",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjViV1g5NkxmR3RHWm0yY2Q5ZEZLTU5IenlrNHdsSEZXY0U1by1UTkh4M0trdTRCVXl4cFNkNEZEZk9LLW1pR3ZyYUhrZ2VBaTFaM1ZuMC1qMDBtczlQSkYtOFhHSVJSQlV4eU5vWHVLMjF5T1RUdko2RVB0Y01DTTU3am9VQlVFRWVuTjFDa0M0MndmVWdKRQ?oc=5",
       "published": "Fri, 05 Jun 2026 15:21:43 GMT",
@@ -381,13 +403,24 @@
       "relevance": "low"
     },
     {
-      "title": "Illinois lawmakers send landmark AI frontier model safety bill to Gov. Pritzker - Transparency Coalition",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEtEMnlmSnJ1ejR5RW5ORzdUajZsemxhVVhtSXowU3lnS215NXlzNUVBSGN4R2NjeXIxZXJwWnVtam93UDc4Yk9iZ3g3cVk2WjhRbUluX0UyWW9yaDA1ekQxVlZlZHVWc005UWtvMzBHUmlPNFV3WWFmaUpTZTNQLWpQQTdKQnFIZV9md0JldHF6WXVXLUFkYzl6Q0t1b2ZINGgtOHlnUVFKdzZHeGtDa2lyaXNjOWtmelEtMndXSTA?oc=5",
-      "published": "Wed, 27 May 2026 22:42:30 GMT",
-      "summary": "Illinois lawmakers send landmark AI frontier model safety bill to Gov. Pritzker&nbsp;&nbsp;Transparency Coalition",
-      "source": "GNews | AI Safety",
+      "title": "10 Battery Storage Companies to Know - Built In",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IZEFwSUZxa05RTDJJM3U0RXdnQUtkaE9wSS1TRE03RGYxNURGcU1UeHhleW5MR3FpM2hNU0kxUVR5cVA2N2RwZWhiT3Y2SWhLeVVueDZJRVVlRnFfeV9LcE9mQWc?oc=5",
+      "published": "Wed, 27 May 2026 15:18:33 GMT",
+      "summary": "10 Battery Storage Companies to Know&nbsp;&nbsp;Built In",
+      "source": "GNews | LFP Battery",
       "priority": 0.0,
-      "category": "AI",
+      "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it. - KING5.com",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPd3h2b1JzSjBwWXA4bHNKZXlsMUIwTEdHTUNQTmxmYWdONWx5N3phVUlDcjlhSlVYZUMtNjBvbUZfc2h2MFdCbV9QRnUtRHMyMFdyRnJjM0dfNEcwUVpHek8zQlJvQU01QWM0cGZiTkFUY0VRd1h1TFpQOTFhLW1JanVFWHR2ZmYzaENlY25nNUFINElHYnUtcldwcEtyRnRnZ1JybTdpNFlDelVOSWxHa2h6cThUWHExRi1ZS1FLU2ZDWGpTRzN2X0M5YkZyTk5iVXVmQkNCNW1xT2VYM19LVVJkUkQ0S3ItSzhGNUl5UnBZTElHYnZhZnBadFhNcExxdWpjUEgyTUNmenBT?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "She lost 110 pounds on a $199 weight loss drug. Knowing the risks, she's still taking it.&nbsp;&nbsp;KING5.com",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -421,17 +454,6 @@
       "source": "GNews | Signal: Record Tech",
       "priority": 0.0,
       "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "9 Mounjaro Alternatives for Weight Loss and Diabetes - GoodRx",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aeG5sUGppOFY5NkMwT3BmME1BckQ4T3I1N0xnVThCdXRYQ2dGZXppMDBpOWE2b2dOS0xTVXNhVzVHX2xHNm80eGFjX0ZRM3pRd0xOVWotMW5sRlZYNlR6eTJON2NxMFk?oc=5",
-      "published": "Wed, 10 Jun 2026 23:21:43 GMT",
-      "summary": "9 Mounjaro Alternatives for Weight Loss and Diabetes&nbsp;&nbsp;GoodRx",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -579,6 +601,17 @@
       "relevance": "low"
     },
     {
+      "title": "U.S. government restricts trade with prominent Chinese storage companies - pv magazine USA",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUlF0bk9PR21xa2hGTEVkZ1c2cEhCU2d4Z1VDcUpUaVYwR09adElnTDJBSWRaclR6aFR5MU1EaEl0cFhfZDdyU3lSQ3dqNDRnd29DWFFsYzlsc3hIRldEalZVRk52QzFpc21saTBpVU1SdFRzUW13WWJQWWQ5aGZMaFlLWXRvdDV6cGhObS1HYjdFajZGbUxkU1JtSU1CSGEwMnZjWkxwUHZUa2E3c0hnMA?oc=5",
+      "published": "Wed, 10 Jun 2026 13:26:51 GMT",
+      "summary": "U.S. government restricts trade with prominent Chinese storage companies&nbsp;&nbsp;pv magazine USA",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Europe Pursues New AI Chip Dream - Center for European Policy Analysis (CEPA)",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yMklKdFFMU2JxOUxkWnprYkpTUjhHTmpjX0NZS2dxM2JBWXhpNV9LNEJqVmpOSUZxdHUwX3pYd3lKZ1lUQ1FuTFA4bmZpR055X1dGX2h3VXJjQlZpblphQV8xU3FUbGlzd0E?oc=5",
       "published": "Wed, 10 Jun 2026 13:25:39 GMT",
@@ -703,6 +736,17 @@
       "relevance": "low"
     },
     {
+      "title": "Taiwan Mulls Curbs on AI Chip Exports to China to Align With US - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFFmRlhmQnc4cm9hOUVvdXlyTzlyQ0p4N09KQjJRcVhWR2llQ1JSTzZwZDBMY1hvMEhPdDROVGs4MHpGMnhpcEVrY0x4Qi1jVmxCMHRFRjRBVlNaelN5UWFfR1NINHctT3pKajFscDc4QUVUMlVUdENaWklQY2FyODRreEFkdXJUQVpNZmRXN0xqT1BYTDB3QlRzWS1XTGRZLVNzZmtVeG9GMndBV3UwbDJyYm8?oc=5",
+      "published": "Wed, 10 Jun 2026 05:05:00 GMT",
+      "summary": "Taiwan Mulls Curbs on AI Chip Exports to China to Align With US&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "대만, 對中 AI 첨단 칩 수출 전면 제한 검토…미국과 반도체 봉쇄망 공조 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YS2I0OFY0cVRoX2ZpeUhkSzVXMXpFVFJFRHdFLVhrQnZjRlhpMnJOQ2RfazBlNV9IVW9nN3B4aTByTWhNUXlBUjkweFVJU3RpNEJF?oc=5",
       "published": "Wed, 10 Jun 2026 04:33:00 GMT",
@@ -710,6 +754,17 @@
       "source": "GNews | KR 반도체",
       "priority": 0.0,
       "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Taiwan reportedly weighs tougher AI chip export curbs as US lawmakers push for tighter China controls - digitimes",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU0hXQVJCdnZ6QWxCcU50QWt0M0RSQUVac2J5T2N6Zk1BOGUtVGE0SVJsOFR0N01pYms4QW1TdHpFVng4cTNkdnlQN2R5aGQ4LVVHU1hTRVZYYjZ1NXhHYUNTY0RpYy1aQW5tSVNqdHc2VXJnTk5RUXN1YTEtQUhoWFpLWTAxck93M1E?oc=5",
+      "published": "Wed, 10 Jun 2026 03:43:00 GMT",
+      "summary": "Taiwan reportedly weighs tougher AI chip export curbs as US lawmakers push for tighter China controls&nbsp;&nbsp;digitimes",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -827,16 +882,24 @@
       "relevance": "low"
     },
     {
-      "title": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFVIVW5XSnhtTHo0UVJzQ0wzVGJ1OFh0dUFxVU05Zk1rUHhuRFZUcGRmS0dVWW5yV2VGMFpES0NIUlc0eFVlYkY4OXY4cVlKd3pqU1lvWXdOTF9PN2pTcVhUa3RHVDMxM2dJOFZrald5Yml3TktqM1BidktnX2dIMmM3TVdDTXdrbHQyM0lpWQ?oc=5",
+      "title": "Is the Weight-Loss Drug Revolution Causing a Frailty Epidemic? - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaGwzXzJvYUxCbTZtVXp6QzhaU0ZqSDRKdFhpM0JsSGgtM1JMcWFIa3BJVGx0NTVMbDNHUGNVbmRld2NYSmQ4UENmSnNVZ0lRb1FyV2dPbTJaNTNTYXQ1TVhqVm9wT3plbFZYSlhaMFpQZkotdUZJRFVUY0o4MUoycw?oc=5",
       "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Quad Critical Mineral Pact: Reshaping Global Supply Chains in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: Tech Disruption",
+      "summary": "Is the Weight-Loss Drug Revolution Causing a Frailty Epidemic?&nbsp;&nbsp;WSJ",
+      "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
-      "signal_keywords": [
-        "discovery"
-      ],
-      "category": "信号性查询",
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Do GLP-1 Weight-Loss Drugs Dull Emotions? ‘Ozempic Personality’ Concerns Patients, Doctors - TODAY.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUjd6RC1kVWE4MmEzcmtoWTBBQkpjU1pEdUpxTjNMOXY5T0IwM1RBWS1FSEpuaWJvS0h3bTUxVWpfdGo0a1BPeTVpVjNJRGtpUzh1RkxiSkZ1aEVFUHZaR1ZWRGNJZlpKQmw0TGNxTXpYWDRBcFBkYy1uc0ZTdHEtV2hhQzZvc19nU0ZXZDBibE92LVQ4UFpEUTlaN094V0k?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "Do GLP-1 Weight-Loss Drugs Dull Emotions? ‘Ozempic Personality’ Concerns Patients, Doctors&nbsp;&nbsp;TODAY.com",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -951,6 +1014,28 @@
       "relevance": "low"
     },
     {
+      "title": "Taiwan weighs stricter export controls on AI chip sales to China - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZWtZaUNqZnA5VG1FLVRQaWlURG5GTGU3NDdZNzRINjhhMzBiRkF5bXdaU3diTUF6SWtoeDBkR0lpUzIwZEpSVjhqYzJrOVVScVFZTDl4U3hlTFh0cU10aEcyWmNSR2VuY1d6QzBEbmVLN3VKVmp1c0FPdGJEZjhiNlBqZFYyS3AwbHRxd0p0aVNPWURSSmlTQXNDaktsRkhaT0VQOG9jRHc0ZFJ1eXNhTjlST3VDdUhySmtmalM5cGY1YUpLTzkwWk5UeVBReTcyWl9uZXh5TlRUSmM1V3pzMNIB5gFBVV95cUxNTmZTMHpYV3FRWENkamI0SnhlYzlVeU5Zc19yMGxzUG5QSng3ZmlMSmxsWUowdUt6UERzSTEtUU40cW1rSHJfXy1HbkV1WWZkclRwSVk0Z2Y2T2hpbWFueGJaNTV5QnhFNWh1dW4wSVlUQjZjVl9ZYTJ5U201Tnd2YU84TUEweTVmUlNpS2dfSlZxc0dnSGRpN2hZc2FLRWxKVjB4RjZ1TUYteXU4OC1xakxVOVZOZFpiOFhXOW9qSzFfWEZIc2E1RkdWeEk4cWliS2w2YWlZcmowZmxxeFpiMGtlMUhKQQ?oc=5",
+      "published": "Tue, 09 Jun 2026 17:15:43 GMT",
+      "summary": "Taiwan weighs stricter export controls on AI chip sales to China&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Taiwan weighs criminal ban on AI chip exports to all of China — stricter measures beyond blacklisted firms would make smuggling servers a crime - Tom's Hardware",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWpRaFhQZzQ0RWd2NEpaN2xmTllwTlpNV01JWGVHN0xZbUdFSk5WcF96cjhrbGFUSGFadERPZWE0eFF5UWdjZXpzZFRIeWljRkhXZ19vTmt1SlVYRUFzMFh2UlhXOUpIaHJ3Z0wzSWI2ckRaQVkxN3hwVmNCd1Z2V1BoV2VHVVNwTGVTMkhQTldmclVzcmZHZ0NRTnVtalc2Rlo1VDVOSExHb2tFcF95dlZlTXBZNXhZOW9OaDI0MmRzenl0eEZRZjlPVQ?oc=5",
+      "published": "Tue, 09 Jun 2026 15:53:39 GMT",
+      "summary": "Taiwan weighs criminal ban on AI chip exports to all of China — stricter measures beyond blacklisted firms would make smuggling servers a crime&nbsp;&nbsp;Tom's Hardware",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Sodium-ion batteries to reach cost parity with lithium by late 2026, report says - CarNewsChina.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2dvTG1NeFdwNnN5T2xJNkNQSXhCcGdSMWg2anNrVENWQ082MzFrT0ZQT1RPVGpOUHVCTWtOZVBqV3lCUWxUX0FHUURSbDB1QnFxNzR5UEU4cUtJNzZuSGgya3B1ZDcxcG8wY2VRQlhmb0dYY1JlUTE5UUtoUV84V3pQQWJtMjBZLTlZb2VpanhKMmM3VVFOZzRNMlBCakJjWS1nckUzYUFlNi0tM1dyQkZWemJyTnc?oc=5",
       "published": "Tue, 09 Jun 2026 13:44:00 GMT",
@@ -958,6 +1043,17 @@
       "source": "GNews | LFP Battery",
       "priority": 0.0,
       "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US senators urge tighter rules for contract chipmakers supplying China firms' overseas units: report - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcnUyTFVFRm5RaU90eGRGbk12d05XZmpRQVJ6bU1WNEpRcllON2EyeGt4TVQwcW5POHA5X3JWZTNobW1SQ3RaYVJVN01uNjhIam1LUkFQUUFIUHFUa0dNVzZPRVpiU1pXUzRTREdJNkQwQjJTTWQtbnI2eHUwLU9JbmowbGdDZlRydTNFUFNFbW9PN0xLU0NLMEhfaEpNempjOTNfbzVCNDhVLWdueUpGLVBLUmJKZ2JQaXdseHNrdlotR3pOMzZNSQ?oc=5",
+      "published": "Tue, 09 Jun 2026 08:58:03 GMT",
+      "summary": "US senators urge tighter rules for contract chipmakers supplying China firms' overseas units: report&nbsp;&nbsp;Seeking Alpha",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1031,6 +1127,17 @@
       "relevance": "low"
     },
     {
+      "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKVDBWQ3otcWN3TG43NzlkX1dRSHZ5bXhBdy1FMGNFaVRGcHd5NlZ0eExvc0pwWEgtMXRkQVlHOHBNcDRmcVBFbUVMN2kxOG5fTlpJbzVuYWhMekd2VUN4SWs2MjBWNXp1NXJoRm9hUGVQZw?oc=5",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "summary": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice&nbsp;&nbsp;Stanford Medicine",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "美, AI칩 중국 우회 수출 차단... 中 ‘美 제재 덕에 반도체 기술 발전’ - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONGVkbERRZmZnLXZxTmxpRlUwbFRXcUZpLVp3ZHk5alVIV2Q4RTdidENjUWFKQUhPQW50RkR2UlVoMkRxelFxLXRMVUNrV0l1Qi13VjZ5UlNYdmMxQ1JhV2ZQZmVOVk41bXZYUkNESm05VGdkTk1yWDNncHZGZ2JpUGFUYw?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
@@ -1090,6 +1197,17 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RTW0zVTI4MFpxQThuMDFFSkJ6UG5VLUI0eGE5clI5Y2dTaGRFNWl1UTVlRE9ReldwLWxRdi1Uek5jUFRaYk9XYW5RNzAzNnVqdURkVjVXU2psaFhTd2s4SnJMSWw0VW9aNndPcDU3bw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "Popular GLP-1 weight-loss drugs like Ozempic slash heart attack and stroke risk&nbsp;&nbsp;ScienceDaily",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial - BioPharma Dive",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHA4ZHZEY0dtMUg3THNSekVWM0JHTl9fbzAtN3FCeDBiaHRUdmpOOTF2dHpHNkVFa2dUTkN4aS1GczBYaGJPOHMzd3pqZGVpa1p2eVAtbHY1cEZ0ck93aHJCWEpfdDhKT29kZkg3OWw1VDBld0hYZDJKX29YeXJ3cmxBR2Q0WlQ2X1JkQlJzb1RKdFU?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Lilly’s triple-acting obesity drug hits goal in Phase 3 trial&nbsp;&nbsp;BioPharma Dive",
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
@@ -1449,6 +1567,17 @@
       "relevance": "low"
     },
     {
+      "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
+      "published": "Thu, 11 Jun 2026 01:02:00 GMT",
+      "summary": "China's control over indium phosphide exports threatens AI data centre rollout&nbsp;&nbsp;Reuters",
+      "source": "GNews | Chip Export Ban",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "America’s Critical Mineral Strategy: Gaps, Risks & Realities - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMnRRb2lIUVIySkpmRFBscUtQRGVOZWtqWVkxVzlvZGVxVkg0TDRUOGZxQ0VSRExLRGlKNExNdFlQMzlQcVdtTFEzV3lJX0VQNE9YZElnckNpZ3lBLXQzY3hlbmJtYTZEbXRqQkxjNzlnTHhDUFQ4RDBKN080UDEtQ0k2cUxqSUlUWnhad09KUE1pMV9EbmdoSExWbmpidEVzRHFFclFB?oc=5",
       "published": "Thu, 04 Jun 2026 19:47:40 GMT",
@@ -1631,17 +1760,6 @@
       "relevance": "low"
     },
     {
-      "title": "Lithium-ion Battery Market Size & Share Report [2026-2034] - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeDJLcUtQMXBpSGdTVWpSWElDdl9GSE9tdGxOZ2dPNUV1SW9USzBCZF9xQXljRkJSbHNVX1dkb05jc2JQblcyTFhSTnNlZnNmbVNYcVdfcFBpQlhCWGhaVF91THZiRmJ6NHpqUDZiLTlVNnJpSUcyM3p2LU5WOUpNd2JRVHFHWW10ZUFUTjVadVVxeXFr?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Lithium-ion Battery Market Size & Share Report [2026-2034]&nbsp;&nbsp;Fortune Business Insights",
-      "source": "GNews | LFP Battery",
-      "priority": 0.0,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "EU-China Relations After the 2024 European Elections: A Timeline - China Briefing",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWHZOcGl1U24wVWpZdjNyTlFHVTdUNFFSOXBMVUI2clNsSzNMMmFUeFRtRmk4WXZjMDZXT1Y2eFBrMGh1QUU4M3p5eDh3VkxhUS1sbTIyOGE4WG9IOFBMRFpMOWI2Z3pWQUNTZWZkWmwtSEZsRUVtcUdad2RrLXduMXdHQ2trci1OQ3cxdE9Na3BBNV9rRVh0alZVdU42d0VVV0E?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
@@ -1780,6 +1898,17 @@
       "relevance": "low"
     },
     {
+      "title": "CATL ramps up sodium-ion battery production for EV market - bestmag.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rVkFQN1lfbURGcmNJV1h0S3ZoWHlrekpxR3B1LUU4RGtBZjJKOThSeXI5aGRCN3hYaU5fekpZZEtaaUpBYnFhMWJ1QWkxV0hyVTFyY1M1TnBYZEZPVlB0elBnbzdRR1lNVU5vVEdIRQ?oc=5",
+      "published": "Mon, 01 Jun 2026 16:30:03 GMT",
+      "summary": "CATL ramps up sodium-ion battery production for EV market&nbsp;&nbsp;bestmag.co.uk",
+      "source": "GNews | Na-ion Battery",
+      "priority": 0.0,
+      "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제” - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRWVvUThteE9Ia3dSWTBvQzlZZl92Z183d3BNNnowTVJJQVROWkJfdkRBdWRCcnRhaFlabC10NGRmVXhLcU5pQ25rRUFuQ0NWT3fSAVNBVV95cUxONEtBYnlBZ195NFRtTVZpWGh4Slc0QlNURVJ1T3hpZEVENzVJS2IwQm1iQVo1Y0NJSk9keFJLY09aUnRUQXdWZVozd2ZWSHIxYXFCRQ?oc=5",
       "published": "Mon, 01 Jun 2026 08:42:41 GMT",
@@ -1824,6 +1953,17 @@
       "relevance": "low"
     },
     {
+      "title": "Automotive Production Risks Force Europe to Rethink China Chip Dependence - Astute Group",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON1MwSkhfb29qWjEtNEpfd0tDQ0VWZU83SkVLNmdGbHhxZExoZ1VuZ25zR0dsUm1idmxuS2FtRERaMUtTVHNmQVp1eGJDOHBkVnoyOC1EMV9MSGVENHhtT2wwUkN1cExWdE1qVG16NUFKMWxEbUNPZHQyZmN4MU5LZXAyMjNJcm5Wd3BWeUVKVlpCWjROZzZaRmNzQ3o2X0FmZER6LVNCNFJnZDM3bUNlQ1JJLV9rUQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Automotive Production Risks Force Europe to Rethink China Chip Dependence&nbsp;&nbsp;Astute Group",
+      "source": "GNews | Auto Chip Shortage",
+      "priority": 0.0,
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "An experimental GLP-1 pushes the limits of weight loss. There are risks. - The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUZJbmQ3eXZMV3h5SnBWNjc2RXNNZ0p2YU9xY0ViZlppOEt2bk84dl9ONnFyTTQzMS16Xzh5dW9ydzhjZEpwbUktUmVpY0pTV1V0dnJseHJpaWVySXRlV054TmhZdkZnZk13a05xUi1GVG4tQk5XUEhDVkp1b09hb0RSTFhWUQ?oc=5",
       "published": "Fri, 29 May 2026 07:00:00 GMT",
@@ -1860,6 +2000,20 @@
       "relevance": "low"
     },
     {
+      "title": "China Cuts Japan Off From Heavy Rare Earths in 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONnNfeEtSM2dCb3lrNGFFWWVCaUVqN3FnNE9nOUxoUVctdFBFZjc3aTRPMTFpVUVhR3JjZnFid2xRM2FtRGRpOHVIQnBvbmNsQ3dKb1YzTWlTSnlnX3BrQTVFS3BUU3NLb05VVkhJODlnRWZMTEYtNmVDbXVuV1BqZGc4ZkUySGJ3QUhLcGZGbk85dTA?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "China Cuts Japan Off From Heavy Rare Earths in 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Rare Earth/Chip SC",
+      "priority": 0.0,
+      "signal_keywords": [
+        "discovery"
+      ],
+      "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Could sodium replace lithium as the dominant ingredient in batteries? - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM09mRkVTbG9TN042VGR6b1Z5Sl9wTVF6NXQ1ZGpDdXJnUzFrVFVmNThER1UydHVBNVNmSkVaWFdNT2xJcTYzTTBYdEJ0b1FxZlRVVTl4NG5yUlI5S01jMVhXbzRGaEtmb0Q4MkU4c202dzRybkFUamVOamxfOFFYdkZDSjJDM3ZhQUl3ckNacGMtYllORzFVa0ZDUS14NTlVRHdEWnZ3?oc=5",
       "published": "Fri, 22 May 2026 07:00:00 GMT",
@@ -1867,6 +2021,17 @@
       "source": "GNews | Na-ion Battery",
       "priority": 0.0,
       "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Automotive Memory Crisis 2026: How a DRAM and NAND Shortage Reshapes Car Manufacturing - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkVjRG9mR3ZLOVlOWlVCSUpHT3hMN1RFM2dlamF5VHVBYmYxazg3czlWWW1NcGFuTkgtXzRrR0Y1czVpRG1vLV9FV1piSFVyeDFKZWNqd2V3SlhpVUJTZ0JWYUFFY09jczZWN1lWUnNXb1VpSnZiTEdsUjF3T01pYkRIdFUzUDdITFJZY1NZRnh5QWljVmhkNFpuaks3VTlGUFRVdGpQMnhYNDRv?oc=5",
+      "published": "Fri, 15 May 2026 20:40:00 GMT",
+      "summary": "Automotive Memory Crisis 2026: How a DRAM and NAND Shortage Reshapes Car Manufacturing - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Auto Chip Shortage",
+      "priority": 0.0,
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1922,6 +2087,17 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CATL to deliver first sodium-ion storage systems in September as material costs halve - CarNewsChina.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQzc4cG5ETE0yMVYyWm9FLVR4VnpaY0lneXBhTFBWWFJVYl9NRzNzaXcyNnp2T2UwTzRfTDdDbXhQSzJXdEp2OEY4NUZFNHlIb3ZVT0wwa0JiSVBUNDZJVk04bXNpN242V3RkWkFlakNYY3dFUVhDZ0xNZlphaUpGSkJiTWVPcVdwaERCa2E4MGZHaE01V0thNDAyX3pGMWhNam5vam1BdEU3d3cySlNqY1VKMkhBdVNhampxa2kzUQ?oc=5",
+      "published": "Fri, 05 Jun 2026 14:58:00 GMT",
+      "summary": "CATL to deliver first sodium-ion storage systems in September as material costs halve&nbsp;&nbsp;CarNewsChina.com",
+      "source": "GNews | LFP Battery",
+      "priority": 0.0,
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },

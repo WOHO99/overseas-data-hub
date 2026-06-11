@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "全球能源与大宗商品",
-  "updated": "2026-06-11T13:35:57.454318+00:00",
+  "updated": "2026-06-11T13:42:39.471119+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 79,
+  "total": 78,
   "high_priority": 2,
   "medium_priority": 37,
   "signal_alerts": {
     "record high": 1,
     "export ban": 1,
-    "supply disruption": 1
+    "supply disruption": 2
   },
   "stats_by_category": {
     "油气": {
@@ -29,7 +29,7 @@
       "feeds": 5
     },
     "本地语言搜索": {
-      "count": 40,
+      "count": 36,
       "feeds": 2
     },
     "独立RSS源": {
@@ -37,7 +37,7 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 88,
+      "count": 89,
       "feeds": 3
     }
   },
@@ -855,28 +855,6 @@
       "relevance": "low"
     },
     {
-      "title": "Commodities brasileiras ampliam importância estratégica do Atlântico Sul - Agência Marinha",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNkpvM1pfQXJnbE9ORm5IcGdXSHBQTF92SGR4NjFIcTFrcXJOZkF0T1cxUFpTbHowMU9yWUJkOEYwSXR1VU56bERnOUlJNnR6eEVCLUZ3ZHhFa1JpRGJyNHRGQm1XQUdhc05KQXAtOTdoQTV0Qnp6NHRkZUpoUExHYzhvZDlwYXNWLV9NYTNXNnd3bWtvMklVaTlnTWFMUG1hYzZQRmtIZjVsSExUU0dhaDFWc1hkUEoyVE5WWA?oc=5",
-      "published": "Sat, 16 May 2026 13:04:15 GMT",
-      "summary": "Commodities brasileiras ampliam importância estratégica do Atlântico Sul&nbsp;&nbsp;Agência Marinha",
-      "source": "GNews | BR Energia/Mineral",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Impact of the Middle East conflict on Asia-Pacific power markets | Japan | Global law firm - Norton Rose Fulbright",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGpRZHY5Slg3NU95TzN4Y2JNYzJtQzAwTGh0bGpSaHp1QkpyMmdPUEYtYW0yYWZOVmZVWWsyZDhUdTlvSzNuYUZfQnFSYW1VQzhBVS1EU2tIX25NQkRjdmVsS1hDa2padlVlaUd4VlN0Vk9Bb3dBYkhlNW1Tc0hWbHpVWDM5c21zVkZ3RnFxWmhjZ3lSMG90ZTRyMHAxRmxHemtPNXhHX1pFMkhDdl9KaUxBQ001cFp2cTNCOGJlZlp4SFlmWEdETVRJU2lfanBmT1htMA?oc=5",
-      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "summary": "Impact of the Middle East conflict on Asia-Pacific power markets | Japan | Global law firm&nbsp;&nbsp;Norton Rose Fulbright",
-      "source": "GNews | Signal: Force Majeure",
-      "priority": 0.0,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Food Security | Food Insecurity Statistics & Solutions - World Bank Group",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DX2tGWUZYMWxkZFNYanJSM0otV19Ec0dNZVlDZVVxd01MWmZ2bndjaEhCdVA0Ql9UNWpGSTFoN21MWldwazNNQWJncVFDRmV4MzdQWjBuLUdaUlJXOExBTUoyMVdSMGhwbGx0djlRQTdHU296eFFwTnZsWXlQdw?oc=5",
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
@@ -895,6 +873,20 @@
       "source": "GNews | Oil Disruption",
       "priority": 0.0,
       "category": "油气",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa3ZxVVpoN0RUYVBHbUNoSHItY0Q2UmhFek12eXRESndyQk5nQy1Za2VISi0wcWdPb2E2aVRraU11ZGtmSTZsSEpqQVdWM2doRjM2aXhXWGZScTVRdzBLS0s2Tmk0OXMzTkxCSGR4aVVpMW5pMGc1Z0hpbWpjSHZCYW4tdjdZUFRCcFptNQ?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Strait of Hormuz Oil Supply Disruption: 2026 Crisis Explained&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Signal: Energy Disruption",
+      "priority": 0.0,
+      "signal_keywords": [
+        "supply disruption"
+      ],
+      "category": "信号性查询",
       "_incremental": "new",
       "relevance": "low"
     },

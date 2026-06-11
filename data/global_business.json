@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "全球商业与产业链重构",
-  "updated": "2026-06-11T13:35:58.704862+00:00",
+  "updated": "2026-06-11T13:42:40.472380+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 237,
-  "high_priority": 22,
-  "medium_priority": 41,
+  "total": 250,
+  "high_priority": 23,
+  "medium_priority": 43,
   "signal_alerts": {
     "record high": 1
   },
@@ -15,7 +15,7 @@
       "feeds": 8
     },
     "科技+出海": {
-      "count": 222,
+      "count": 221,
       "feeds": 9
     },
     "政策+制裁": {
@@ -27,7 +27,7 @@
       "feeds": 7
     },
     "东南亚本地": {
-      "count": 180,
+      "count": 220,
       "feeds": 11
     },
     "本地语言搜索": {
@@ -35,11 +35,11 @@
       "feeds": 1
     },
     "信号性查询": {
-      "count": 50,
+      "count": 45,
       "feeds": 3
     }
   },
-  "fail_feeds": 7,
+  "fail_feeds": 6,
   "rate_limited_feeds": 0,
   "articles": [
     {
@@ -182,6 +182,17 @@
       "source": "GNews | USTR 301",
       "priority": 13.2,
       "category": "政策+制裁",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal - Supply Chain Dive",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0NpYnRQZmFmRExqY3pvUUExSS1YcHNZUUdKNVBQeFhMOElBZG1MOUJtaUQzRkZHdjRuaG1oa01ndV9XdEhXMHRFNGt5ekN0VGREWWtxYkFReUNLaU9YRU81SXBMQXJxRjhtWlN4OTN3M0Nva0pic0tBb3BXdlhEQnFIel8yUno4SVFWNXFqMjg2d0VIeURXZXhGcUpxQTE1MG5IazEzZndNU1JxM0E?oc=5",
+      "published": "Wed, 13 May 2026 07:00:00 GMT",
+      "summary": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal&nbsp;&nbsp;Supply Chain Dive",
+      "source": "GNews | China Trade/Tariff",
+      "priority": 12.0,
+      "category": "全球财经",
       "_incremental": "new",
       "relevance": "high"
     },
@@ -472,17 +483,6 @@
       "relevance": "medium"
     },
     {
-      "title": "India Manufacturing Sector Market Size, Share | CAGR of 7.5%.. - Market.us",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJdW9POUFfZnJ1NjVuWWFxdThSNldVYW1XS2FOMTUtMExaUlNWTXVYU1VwYlgycFRrTVowdC02Q0pNckVUV1I1X0FySzdCUFY3bERuMjBfTHIxRmNsdnZUT0x4S2xJekhsZ1ZJ?oc=5",
-      "published": "Wed, 03 Jun 2026 11:23:29 GMT",
-      "summary": "India Manufacturing Sector Market Size, Share | CAGR of 7.5%..&nbsp;&nbsp;Market.us",
-      "source": "GNews | India Mfg Rise",
-      "priority": 6.0,
-      "category": "全球产业链重构",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "US-China Tariff Rates - What Are They Now? - China Briefing",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3STlnT1E2aUIyX2JpeEFudzFKY290X0lPMU9lUDBwMTRXQ18yOVk0d1pYckszbGJ3MDVkakVBNHFFdW94N25jcUM3SHZRNnJBbHdkUWF4Q3BMQWFOb2s3dVpFaEgwSzd4MzhTYnlWRmI?oc=5",
       "published": "Wed, 03 Jun 2026 01:00:49 GMT",
@@ -714,11 +714,44 @@
       "relevance": "medium"
     },
     {
+      "title": "Australia's economic slowdown is just beginning, experts warn - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkF2QndTeHRQU2ZLRnlPUlNNRTE5WkhELW4yeUJqYkw0UUduc1JhM0FOdklDSnRBaXljVXhlS3lfeGFWTHJIeWMwaFZQeW5FbTBKVmlCeG9sTUNQeEU5TmxoQ3N2X3BUMXlydmh1Z3k4MFNHT0dMblpIZnZnYTJ0eElIUnFxdmJoYndYYnJtMUUyOVlZT3dmNHNiZXptT195aG5BM2ZTM3BKRXp2SktaRXZB?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Australia's economic slowdown is just beginning, experts warn&nbsp;&nbsp;Australian Broadcasting Corporation",
+      "source": "GNews | Global Macro",
+      "priority": 3.6,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "2nd Asia Sourcing Show 2026 & Global Sourcing Summit 2026 set to transform global supply chains - Textile Today",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0VWXzF3MFpuY3l1OHRVYUlTWlh3M3ROS3lRNEVOb2tPT0dKeG9GUjZLd2I5SzcwZ1dJWGh5SERNSTdoeE5IZF83dXNqSEhHWW0tZDZpOE84eHQ1RmtWb2NLb2VGY2pjdUNCc0tvMUROSy1URGwwQWVHUHpnV1NhUGxtSm9abWQ2bGg0LUswU0xSRXdvV1piZWtSREt0cVpUUko4dDhVbXpERFhIb0c4ZWFnOWI1VDd0bmtiNEdEWkFTWUk?oc=5",
+      "published": "Sun, 07 Jun 2026 07:00:00 GMT",
+      "summary": "2nd Asia Sourcing Show 2026 & Global Sourcing Summit 2026 set to transform global supply chains&nbsp;&nbsp;Textile Today",
+      "source": "GNews | MNC Diversification",
+      "priority": 3.6,
+      "category": "全球产业链重构",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "Kazakhstan, Thailand Seek to Expand Trade, Investment Ties at Bangkok Business Forum - The Astana Times",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObjFjbVExOTgtN19oQmFFY2hkZURNVDNHQTNLM0VyQnZNbi1iOUlFYXVSZ085WWFzc1J0eTVaMzJtV3pPQ1JXTl9aWVYzd1pRMEI2cnJxUW4xbzJkMFNmN0daQW55X2NNMG5ZbWF1cXJ6aW1pQnZQMTRteXNUS3ZsRkVFTGFrZk5GcVp6dGpNY2xlYW10WWFfUFlwSTh5bFAzSmFDZlpNcWN0T2FZQVR1V0JPd2R1QQ?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
       "summary": "Kazakhstan, Thailand Seek to Expand Trade, Investment Ties at Bangkok Business Forum&nbsp;&nbsp;The Astana Times",
       "source": "GNews | Thailand Trade",
+      "priority": 3.6,
+      "category": "东南亚本地",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Malaysia exports surge on AI-driven electronics demand - Let's Data Science",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVHVkeUFNZWh2XzJUelFjekQ1eUVIVnNNUGgtbEZVVll0akliQndFVEZrVXVXRVZJZTJhMkhjNGJEZ1JqeFItMHZ4OWp4WGxVSi13SWZEQXlERkxSeFpzWUlfbXBJOGRVekVNalhkRklka091TXRWQk5EQ254NVdPYWNTZF9ZQjFPeVhOVkxQMDg5dGtYdFJJWkpZZDE?oc=5",
+      "published": "Mon, 25 May 2026 00:30:45 GMT",
+      "summary": "Malaysia exports surge on AI-driven electronics demand&nbsp;&nbsp;Let's Data Science",
+      "source": "GNews | Malaysia",
       "priority": 3.6,
       "category": "东南亚本地",
       "_incremental": "new",
@@ -1165,17 +1198,6 @@
       "relevance": "low"
     },
     {
-      "title": "How Thai capital deepens its roots in Vietnam’s economy - Theinvestor",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaU4zNWI3UzNRQ1VLaUdwdGVZbXdlazMwa3k4aE5QUTFwRXRlMEJKSHVJcEhwZ3dDX2NkLWlFUlJvQ25EN19RVTFfSnpaMFg1dHl6RlZzOE1kQ192RmV2ODFzTVNGdHZnZW1ZWHpHYk9zMzVxa01zUV9SVk5Mem9XaHJpSklfYzdYUHBTd2lUaGpIZGM?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "How Thai capital deepens its roots in Vietnam’s economy&nbsp;&nbsp;Theinvestor",
-      "source": "GNews | Thailand Trade",
-      "priority": 1.2,
-      "category": "东南亚本地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Energy Metals Forecast: Oil Shock Hits Copper, Lithium and Uranium - FXEmpire",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkYxSDNNeFdqelp6eEtYV2NrdEo5R1ZqZGJHSllwaUN3anhVcU41X1V5c1NPb3haT3JfR1FHVUhaUmRtYTFnZ1RvSjdfcnczRGpkd1o3T2llYUw4UGJXTlphZ21oN2tocDlJaS1EWHphcGFDcXdXWm9sZnJHTFhJX0xITHE2eldSeXZxeGFWUUx3ZXJMTHZmbmp1UjkxeHluN1FFdUVqSDUyNXdDdkt4TXVoc3NYc3RwWThXMno0T0I?oc=5",
       "published": "Wed, 20 May 2026 07:00:00 GMT",
@@ -1326,6 +1348,17 @@
       "source": "GNews | India Mfg Rise",
       "priority": 1.2,
       "category": "全球产业链重构",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Malaysia Startup Ecosystem Sees SME, IPO Momentum in 2026 - Asia Business Outlook",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTFzRlEtbEFYV1E5NWZ6UjNXV0hZakJpdlBRY19kcDhDVHZkUXEzSEs1WEJBcXQzU1hsZmVhbVd0N28yWnUwRWRkOTZvLVlCZGFpVVZPT0hVS2lVcEZKMmFTal9JSmVOSXhrMzhpVlpYbWd0LUJCbjN5ekg1VWQ4aWhMaTRhN2VXbXZDQk1Jb0ZVX0pQSnExZk9aZDlnT1ZvWkJFSVFKSTBQUU9veFJuTlJuYWNNY3pvT1Zvbg?oc=5",
+      "published": "Mon, 18 May 2026 09:15:36 GMT",
+      "summary": "Malaysia Startup Ecosystem Sees SME, IPO Momentum in 2026&nbsp;&nbsp;Asia Business Outlook",
+      "source": "GNews | SE Asia Startup",
+      "priority": 1.2,
+      "category": "科技+出海",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1539,6 +1572,17 @@
       "relevance": "low"
     },
     {
+      "title": "Here's the inflation breakdown for May 2026 — in one chart - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1Q3UXRpYXdzVFptMEZ4cU5mRjBLLUZacUNSQkxuaU9MMEhaWjg5RnVuX2tjdmFYTUxNS3JOSVA3VTlwOEdUSWctVTRrbURGRFJZT3doRGVFLU1GWXlxQW4yRnpab1RpLUxpMm8zZ1ZxZGZ2MENFckFCblQ0dzFJN1dTdU9QekJHbHc1bFNSYU1mUkxfUkVN0gGcAUFVX3lxTFBuQk5yZUZ6VGtPT0pZYWhSXzBlZmJZdFdyZkcyV2J6SmZlNDJ2SEVldGYzUnVzVm9oNWFwSUZVNVNybnlDbHNCQzc3ZXZWZms0VldqcVVRVld6WTIwX1lJV0thdXdmTGVsbm5JdFNibzdnck96cGtPeUdjZWdfY1JyaC1CdGR4MEFHYUtxWThGMk9QY3Axd3ZqNGZRZg?oc=5",
+      "published": "Wed, 10 Jun 2026 14:14:51 GMT",
+      "summary": "Here's the inflation breakdown for May 2026 — in one chart&nbsp;&nbsp;CNBC",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Before Elon Musk’s SpaceX, these were the world’s 5 largest IPOs",
       "link": "https://www.scmp.com/business/banking-finance/article/3356623/elon-musks-spacex-these-were-worlds-5-largest-ipos?utm_source=rss_feed",
       "published": "Wed, 10 Jun 2026 12:00:07 +0000",
@@ -1605,6 +1649,17 @@
       "relevance": "low"
     },
     {
+      "title": "OECD says protracted war could drag on global growth, push up inflation - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMGN0c2VUOEMwRkF4QU81bFktZnEwTlJPMDhMdmcyMVhNX0RHZnZ2UUZMQUQ1bUJxTTZBNW9DVkZaRUNQSDRNMVJXRGdVS2F0dVNHZWYzU3dtOG5YUTZxVjIyUUZ2UGtvdlNUb0M0cFZUUV94bmdwRVpKQUwwRWg2UE5GR3I1SzhxMVdOeHVZeTVWZV9SSFZGYkFRbGVBQzVNTGIta0hjTEItYmNSRUJQMldGbUcyQ1R2b0Vr?oc=5",
+      "published": "Wed, 03 Jun 2026 12:40:33 GMT",
+      "summary": "OECD says protracted war could drag on global growth, push up inflation&nbsp;&nbsp;Reuters",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
       "published": "Wed, 03 Jun 2026 01:00:32 GMT",
@@ -1652,6 +1707,17 @@
       "relevance": "low"
     },
     {
+      "title": "Why the Fed Is Unlikely to Cut Rates This Year - Goldman Sachs",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbkZXVUpDX2pEeXJnbEZUZ056Ul9nQmxqUzZ2TElPX2RwTkJyOWdfNGp6UzN4QjZFSjBxOGV5VlotUmh0NlYwcGtMYUk5ZVVGV0NZazJNb0JwZVplODF0QWJRRU9aMmVsNmpIZTU4TTEyU3A0M1dHekNoZGdBVWdVb2VFVGlIbmM0X1JHQTVFcVZDaVdIcm1lbQ?oc=5",
+      "published": "Tue, 09 Jun 2026 19:01:04 GMT",
+      "summary": "Why the Fed Is Unlikely to Cut Rates This Year&nbsp;&nbsp;Goldman Sachs",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Pentagon Names Alibaba, Baidu, BYD Chinese Military Companies — 188 Total - abhs.in",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0pXUUxJakVtekpDMS1LQ2hNNWlrLXZ5R051d0ZPSlIwYkZZN3ZaamJmUzE5cFpqREFSb2psOFdaV2dyb2V1WDNfMUtKUFpCcEszd04tdDkzR1YtbDVWaW5RZC1LSmVCS0xYbXEzT1VHRVEyR3pEVHd2bGowQXZoT3Ewdmw1UlF0VjNMdXJqUVNqWVVaT2h6emY5bUh6TnMz?oc=5",
       "published": "Tue, 09 Jun 2026 18:15:58 GMT",
@@ -1659,6 +1725,17 @@
       "source": "GNews | 1260H",
       "priority": 0.0,
       "category": "政策+制裁",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ranked: The World’s Inflation Extremes in 2026 - Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUThRWXhYYmNDVGNKNlRGVGRYazg4QUNRS0FHRWlWbVVxY2paNldDSEJ2MVd1V2UxdnZsLURTS0lkZUdMemMyVDFnS3VJS01tc21EbWhDMXVlTTEyQlhaeGxTT3kwMms3c2pVNFZmeXZVUFlXMGZqN284bnlvWnc?oc=5",
+      "published": "Tue, 09 Jun 2026 17:17:44 GMT",
+      "summary": "Ranked: The World’s Inflation Extremes in 2026&nbsp;&nbsp;Visual Capitalist",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1696,6 +1773,28 @@
       "relevance": "low"
     },
     {
+      "title": "No Fed rate moves in store for the rest of 2026, economists say - mpamag.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUlpIZGM0WUhVOTM2Z1ZSWmVKRmk4WldvdnRRb3poVUZtSmNtdk9neWhnSlRBeGlaWWFqM2F5WThxd0VyaWFFWGtjRUlJZWwxaDJpTUlpeXZjNjhKdE1qSnZkcm1wX19fR1paRE5zSy1MTzN3S1B2M3hZNnFhNEVQTEd4aDA0T1ZTSWFKQlRrMDhtWFZUZ05GN0lrWFhtTnF4cDV2UGZ3VWthTW1xTWs5TlVaWjR6M1A1U0pWVkRKRG1GWllVVkFsWQ?oc=5",
+      "published": "Tue, 09 Jun 2026 13:48:15 GMT",
+      "summary": "No Fed rate moves in store for the rest of 2026, economists say&nbsp;&nbsp;mpamag.com",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US defies forecasts of economic slowdown, but its growth isn’t making ordinary people better off - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUU1xZFdzRVBCM25RUG4tbDd6bVJUQW1JME03eEJTX3dxaXhIZGtjQjR3Qlplc0hoQUdmNjFmd2txVFk0bUJUYmlqbnlhTks5N1dkUVdaeG9vemFranI2M3duUXlBN0V4cnFjOTQzUXU1eUhRd0Q1a2FiRFBWRUdkN1hxN2htdHRsSGpiYmgwcjYxY0ZYa3dYeE1fYTFpdkJHX2JGdW1xUnhtRG9KMTNWVDF3bmwzMTNVeDloV2Zsc1hmWlFScFJfVg?oc=5",
+      "published": "Tue, 09 Jun 2026 13:06:53 GMT",
+      "summary": "US defies forecasts of economic slowdown, but its growth isn’t making ordinary people better off&nbsp;&nbsp;The Conversation",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "US says BYD, Baidu, Alibaba and other tech giants are aiding China's military - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelJqSF9oSWNaaE56YnpwNkVadW83aHZ4OWNCWk40c21jTXF2T0l4dF94UmpiN0wyaHRoWUp2UXZ4NW9VVW1ERXJhRURTYkRQZnRycFZmMkoxMHdtblR2ZVNZcFVHTTV1NHFyQ1h1OUhkY2E2anBETkQySXlxeGd1cndQNlNzYzBXWkxJOUQ1WUlYamxfUFlCNFUyYThuM1I2MW9FTDJ6SHV2QngwYU9MOUFBRm4?oc=5",
       "published": "Tue, 09 Jun 2026 11:48:44 GMT",
@@ -1703,6 +1802,17 @@
       "source": "GNews | 1260H",
       "priority": 0.0,
       "category": "政策+制裁",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fed to hold rates this year, cut calls fade as war inflation persists, economists say - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDVoalZGQ2tUMUVRbVVaTDd6VUhMZGR0QlNXcGNrWXlBR25kMEVUNElSM1hRM3NHdHpZSjhsc3VsWldsdXBtZk5mVm92MGNWaWQzd0FoMjdmdngtbWV6U0lkVVNzWjhRMUFpQ1oxamdTQXBKTGFrQTY4QjFGb0RHSDVrVWJ1VmYtVWNtWkhQcW1sVWZrWWJCYjdVYnZocHZYb0Nkdk5vV01wTmZnWXROLU1PVjJ0VHZvSkhj?oc=5",
+      "published": "Tue, 09 Jun 2026 11:32:55 GMT",
+      "summary": "Fed to hold rates this year, cut calls fade as war inflation persists, economists say&nbsp;&nbsp;The Globe and Mail",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1795,17 +1905,6 @@
       "relevance": "low"
     },
     {
-      "title": "金融学术前沿丨特朗普2026年访华：战略博弈与务实接触 - 复旦发展研究院",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Fa1RvZFVFNnhaMURWeUtNQXUyN1YtTHN1cEdHNjQ5VmhxSHNjZ08ycHlsVjdyWjh0VGw4MF9yWFh2S2NMejdpU0V4RjI1OTQxdGlVdnJUdnFQX1k5Mk52VjBITXc?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "金融学术前沿丨特朗普2026年访华：战略博弈与务实接触&nbsp;&nbsp;复旦发展研究院",
-      "source": "GNews | CN 关税/制裁",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "The challenges of Xinpinmu's overseas expansion are more difficult than you can imagine. - 36 Kr",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wN2pucGFZT0w5RWtaYi1NbnFEcVEtWmVWQjJZSXJ6clkxYlgtSUpUa0hhTTNkM3R1QVNZSTZwcDRDMS1EUWQwRGVFSlpHMzFmenZZ?oc=5",
       "published": "Thu, 28 May 2026 02:52:43 GMT",
@@ -1872,11 +1971,44 @@
       "relevance": "low"
     },
     {
+      "title": "Global growth is slowing to lowest level since pandemic, says World Bank - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWmVVYVIxcE9ibUpDaXA1XzZQQU1CQlVSLWpCS19PMjdKbTRPOThhU2JXS201a2UtWE9kUFRLeXBUU3d1S3dtSkFudUJJV0xJTlgtQTVtQURHYzlSOTZ3RDhadkJrRjdUNUlSeS1JalBTeXVPanJ0WDZkWWROOHlLLWJlVkVnRGx4M0J5UWgzYjFCd2hIU0M1NW9MSzdQTVVQanc?oc=5",
+      "published": "Thu, 11 Jun 2026 13:30:00 GMT",
+      "summary": "Global growth is slowing to lowest level since pandemic, says World Bank&nbsp;&nbsp;The Guardian",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Hacking of Philippine Senate’s website spotlights widening political crisis",
       "link": "https://www.scmp.com/week-asia/politics/article/3356798/hacking-philippine-senates-website-spotlights-widening-political-crisis?utm_source=rss_feed",
       "published": "Thu, 11 Jun 2026 13:18:05 +0000",
       "summary": "The Philippine Senate’s political crisis has spilled into cyberspace after its official website went offline on Thursday following its defacement with a warning accusing lawmakers of betraying public trust.\n“The people deserve truth. The people deserve accountability. The people deserve better. We do not forgive. We do not forget. Expect Us,” the message said, using a closing phrase long associated with the global hacktivist collective Anonymous.\nThe incident comes as the Senate remains locked.....",
       "source": "SCMP Economy",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Europe Raises Interest Rates as War Stokes Inflation - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdk9LTVkyQm43cFJaV2QyZk1JUlktWTBzd3RaemZmVU1ob21tX2w4cDhUd2tfNHZobVFkQmxlNDZUNlE1VDdMR0VqQlVvcDBnUkgtc2c0Q3FudHM5X2JlUlRtamxEZ05UaC1uMTY4YVJjSHVBUUdsamlyQ2M1WEdodVYxZ1ltMUxOY0Zka3hVQl9kVVZ1c3A2YUlXNA?oc=5",
+      "published": "Thu, 11 Jun 2026 12:31:53 GMT",
+      "summary": "Europe Raises Interest Rates as War Stokes Inflation&nbsp;&nbsp;The New York Times",
+      "source": "GNews | Global Macro",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "ECB raises interest rates in long-telegraphed move - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0pjSkx2Tm5JSzZaRXFCeEhKT0dRUzdkZTBadEhraEY5bi0wVWNWaEZodUlpS3FqdjEtY0FwYlZJUGF6QlQ1a1RndnhPMi1pblRiUWg1VVRCdTE5RHZFSEJGYnZWd1U3TlhQVWVaUXpaRWJKeHRWb3h5ZVl5U2xIekg0RVRFbnRoU1o2aXJDdG95MW1BQzVF?oc=5",
+      "published": "Thu, 11 Jun 2026 12:21:43 GMT",
+      "summary": "ECB raises interest rates in long-telegraphed move&nbsp;&nbsp;Reuters",
+      "source": "GNews | Global Macro",
       "priority": 0.0,
       "category": "全球财经",
       "_incremental": "new",
@@ -1976,6 +2108,17 @@
       "published": "Thu, 11 Jun 2026 09:53:18 +0000",
       "summary": "Russia has lifted its ban on the popular gaming platform Roblox after tens of thousands of children and parents sent letters complaining about the measure.\nThe platform, which allows users to build their own games and share them with others, was among Russia’s most popular mobile games, tying third with TikTok in usage time among children in early 2025, according to Kaspersky Lab, a Moscow-based global cybersecurity firm.\nIn a statement published on Wednesday, Russia’s digital ministry said...",
       "source": "SCMP Economy",
+      "priority": 0.0,
+      "category": "全球财经",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rupture And Resilience - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lNXBXdnpZd29hQ1lrb05LZWJlT2VmaTBWZmxKdTZkVTlhZ1FoNGdUanAtai1pSnJySU54dWtLenJtR2VJajRESkZoNGE2MGZjMUQ0cm9yUmdPM2txdUdBeFplUF9DcG5KRGpMU2dQaDU?oc=5",
+      "published": "Thu, 11 Jun 2026 09:49:00 GMT",
+      "summary": "Rupture And Resilience&nbsp;&nbsp;Seeking Alpha",
+      "source": "GNews | Global Macro",
       "priority": 0.0,
       "category": "全球财经",
       "_incremental": "new",

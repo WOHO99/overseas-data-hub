@@ -1,17 +1,18 @@
 {
   "version": "4.0",
   "module": "非洲深度",
-  "updated": "2026-06-11T13:36:14.650449+00:00",
+  "updated": "2026-06-11T13:42:56.514896+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 102,
-  "high_priority": 9,
-  "medium_priority": 52,
+  "total": 108,
+  "high_priority": 10,
+  "medium_priority": 59,
   "signal_alerts": {
+    "coup": 1,
     "unprecedented": 1
   },
   "stats_by_category": {
     "主要经济体": {
-      "count": 150,
+      "count": 130,
       "feeds": 5
     },
     "矿业+中国": {
@@ -35,7 +36,7 @@
       "feeds": 2
     },
     "大国关系": {
-      "count": 71,
+      "count": 90,
       "feeds": 3
     },
     "独立RSS源": {
@@ -99,6 +100,20 @@
       "relevance": "high"
     },
     {
+      "title": "Crisis, coup, and social conflict: the Peruvian electoral situation - Peoples Dispatch",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazhDc1l3RE1qc0dFSHhtbGlTX0Z5OVl6MkRGSVJSQ3d1NzJzYkNRYlVpMTZ4MXlRSndwTHZtSXk5UlVqM1pvRHBxbVAyLUtJcEQ1N1lTaEU4MzBxbzJfb3hxNEMxaGtTVlBkcW9JRmZvMHNlOFBDRUR1SXRWVmpraEtlTTZTWlQ1VmlwSGZBdmhDMjJOVWhFb3ZnWkFSSlp4cjEyMHBpUQ?oc=5",
+      "published": "Wed, 20 May 2026 22:14:04 GMT",
+      "summary": "Crisis, coup, and social conflict: the Peruvian electoral situation&nbsp;&nbsp;Peoples Dispatch",
+      "source": "GNews | Africa Conflict",
+      "priority": 12.0,
+      "signal_keywords": [
+        "coup"
+      ],
+      "category": "政治+冲突",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
       "title": "African exporters regain duty-free U.S. access as Trump extends AGOA framework - Business Insider Africa",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOelZid0xpdWRpTEtVdTNkcjRWVzJnNFJNS1ljMVF6My1pYmYxMVF6UWl0ZmNJcmMwNTVWbTMyRFcyOUxhUWUtTnhhdEJKRW1wWEJhdGktSzQzaGgxZGxVZUYySTRqYU5NQ19MRExFTXlXcWsxTVBrRTAwNHFaX1Flb1d1ZWYwb2VsdkZVQ0paQ2hnRVVaU2dHMG1DeWlMUEhJSE5RWExhVmNYdDBkbjdmMXVlYzFyS3ByRmdLeXpiazFXQUprNW1SLWp3MExHQQ?oc=5",
       "published": "Wed, 20 May 2026 07:00:00 GMT",
@@ -106,6 +121,17 @@
       "source": "GNews | AGOA",
       "priority": 10.8,
       "category": "贸易+区域",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Africa’s Mining Infrastructure: Challenges and Opportunities in 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSGJvVUZpdWE1OXVYT0FHbDIyNm5IVHNUTDJrQTZ0Y0trbi03eUlPVnBKQmgyRV8zOXlGdkFrVVNYc09yMFpYenZGbkNjVXBhXzhSRzdybTNweHFyMWZndkxvd0xvVTlqNnh6T05XVVRXSGlVYVlwc2VqVnRpbUN0Slh2TXJLQVJ2b3BfSmNoclNTa1JtblRlYg?oc=5",
+      "published": "Tue, 26 May 2026 10:08:20 GMT",
+      "summary": "Africa’s Mining Infrastructure: Challenges and Opportunities in 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Africa Infra",
+      "priority": 10.8,
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high"
     },
@@ -128,17 +154,6 @@
       "source": "GNews | Africa Infra",
       "priority": 10.8,
       "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high"
-    },
-    {
-      "title": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVERsd0FpSVF6ZnVmTzYyRWdlN0tqSHMyTU1SQmg4ekJJNlphbzBzZkpaSTlCLWdrb3pmS1NleDJUUW0yTTM0NG41RWR3eVdfWXFwbHpvM0V4RmkxdDRzWGFKRDlYeDZrUjREWGNCLVlMVGNxQ1VPRlkxNTV3aWtJLTg3Y0dCNVhQbGhhVnJfV2I0ckVBSlFtZExaZHJ1djFpejBKOGVnYTFnZUp6LV9XcnlUWWgwRy15eGhrcHc5U0VncjNvdXBibQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "AfCFTA, Rendeavour to accelerate industrialisation, intra-African trade through economic zones&nbsp;&nbsp;Business News Nigeria",
-      "source": "GNews | AfCFTA",
-      "priority": 10.8,
-      "category": "贸易+区域",
       "_incremental": "new",
       "relevance": "high"
     },
@@ -352,6 +367,17 @@
       "relevance": "medium"
     },
     {
+      "title": "AGOA at a Crossroads as China Expands Zero‑Tariff Access to Africa - allAfrica.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wVERuelJTRDRKQWZoVXY4TllHYkl6dmRiY0pxWGpNSGE4ZTg2emJiSkJWU3JfWk5sckYycE1zNDdENVlya1VJWS1KN0xsR3k3Q1RKb0x0b1pobm8?oc=5",
+      "published": "Tue, 26 May 2026 16:59:09 GMT",
+      "summary": "AGOA at a Crossroads as China Expands Zero‑Tariff Access to Africa&nbsp;&nbsp;allAfrica.com",
+      "source": "GNews | AGOA",
+      "priority": 6.0,
+      "category": "贸易+区域",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "African leaders call for faster AfCFTA implementation at Biashara Afrika 2026 - Ahram Online",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR21xNlBwcDJOWm5HelBLTk5vcVVzZU1rUG9BWkljYVNWS3RsRGxqM1hrTjNjVlNQOGpPUllOb3RvNGZBWHNXS2dPYW9LX0pWQzB0aEVQSy1MVEdLSDRoazEwbHZCTHNSVjdrM1BTQ0t6X0l3Q1plWFZaRXVheW5QNEhycGxzZw?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
@@ -367,6 +393,17 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWhYcWFQU2xRZFZiQ2pBMWI4WkU3NWpwczFVRzNYb2huLTJjRnlXTkNQLWJSZ29vdE5iUXg5LWhjOElTQXE4cTVKSnliU0x1WnU1dEZLclJZVmhNeDBmSzhJSlJJYkwxMDdiOFhxejdCOXJ4bHM5NlV3RU9tQXZwekVVb29LZWRwWXB1R2tUeWt6MnNJQnNVeXBJeHVTUUZVODNJUHpyNzVQOGM?oc=5",
       "published": "Thu, 11 Jun 2026 11:06:52 GMT",
       "summary": "AfCFTA rooted in decades of Pan-African economic vision – Fareed Arthur&nbsp;&nbsp;CitiNewsroom.com",
+      "source": "GNews | AfCFTA",
+      "priority": 6.0,
+      "category": "贸易+区域",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA - CNBC Africa",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR056WUdZUGlhWGNyU2JFUEloajNxelpXOUQwU1FYOHFROXZGMEhZUkk0TjNfWVZKR0p3RDkzd1dnUV96Ql9HTThxdFJuak8zVHJnNElpMFJ3eXFJNWVjSTd0NnlpczJsdC1Ja3N1VF9xcEhlUm1sWlpQcklrRjd1TWZ0bmVZdlJNdzZ2SF9OVnVSdGlpdlF3c2xzLXdlZ1FabVRLbElNSW1EcHJLeUNEbmFlQUdzdlU?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Biashara Afrika 2026: Advancing private sector participation in AfCFTA&nbsp;&nbsp;CNBC Africa",
       "source": "GNews | AfCFTA",
       "priority": 6.0,
       "category": "贸易+区域",
@@ -429,6 +466,17 @@
       "relevance": "medium"
     },
     {
+      "title": "Pork producers press for AGOA market access - agronews.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nTHRsSkcxWUxsRGtFUEZKMUFIbVJoUUpzVlJQbjB5aXZFVkhLSUpVUHJjUFJvZFR0Sm9DU2REMkVkX0phdTRBd2g2ekVRZmZRZm5EMUJhQmFvWWRFWVdLdjEtWTZGMFFHSUpv?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Pork producers press for AGOA market access&nbsp;&nbsp;agronews.com",
+      "source": "GNews | AGOA",
+      "priority": 6.0,
+      "category": "贸易+区域",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "Togo reviews AfCFTA implementation to strengthen its foothold in African markets - Togo First",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWlNyQWRYakNSZ1FQbkI0ekI5aVRBV3Z3bHQ0NVJVcUNkNHZ5Z3lYVXFCQ2g1ZnVpMnRfOE1uMW1MVHdIVE9TODdsOUFMZmszbTFpeHlyTlJhT2h3cmx5UlMyV1duNWFfNXM3N0c4aDJ3a19zeHIyVnJzd1l5a282VmJyUGFLREsyWjVid2tWY0hoc21ZVDRMUzN3elR2OVJteXVfRkcwTnBvenVtcVFjc29wSThMUWk1MURsNEZRU2xvQzZhSkRIaENpYTdBZUdKUHNRSmZYOA?oc=5",
       "published": "Fri, 05 Jun 2026 13:05:48 GMT",
@@ -451,6 +499,17 @@
       "relevance": "medium"
     },
     {
+      "title": "200 companies join Johannesburg roadshow to bolster EU’s critical minerals and energy cooperation with South Africa - AL Circle",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHQxdFpYOWJYV3FpR09lcHk0bUNxakdLbEliUTNlRk04VDVJOTVvenVaRy0xczMySVhrUE5lelkwLWZwMjg2ZUlRc21LZjA0UXAwR1N0VnZmU2w5V3dUcEtoUlZUZGdVdjZQTHVCQ3BnalYxOFdDVkxnNVhiM2hoZ19lc2d6X1NNcWJKdy1GanJCSlcwR2tBUVU4a2lsRXhCTjd4UVZtZUlVNkhnU1p2MlhZT0NFRkpjb2tSbDVSMXR3T2p0Nk1BVHY2SFotQnZPYUIwR0E2ZDNTbmltTkJpbEU1SnVkdw?oc=5",
+      "published": "Tue, 02 Jun 2026 18:14:27 GMT",
+      "summary": "200 companies join Johannesburg roadshow to bolster EU’s critical minerals and energy cooperation with South Africa&nbsp;&nbsp;AL Circle",
+      "source": "GNews | EU-Africa",
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "Rendeavour becomes the African Continental Free Trade Area's inaugural implementation partner for African industrialisation and trade infrastructure - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkFLalJfckVVR2I1MlZ4WHUtWEtGX2wtbVZIRVlvNnIybFFBcWF6T0dwVmxORGEybWhlbXlUd2Y4Mjg1VWdaODJpM1E0NzhkeWdKckFDVkdmQUJSbDZYWUxaNG5pUEhFUUdLbjNJQk1Ra195ZkZtN1diSzRKS0VRR2xXVC1oN1JtZUxkZldkYnVsY2plTDRucHBkckJsY0VGRTNlb0pLZTJ4aFZY?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
@@ -462,11 +521,11 @@
       "relevance": "medium"
     },
     {
-      "title": "PM says no new IMF program needed as current deal nears completion - Egypt Today",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUm9xaEFGUlJRT2dxM2VnTWJqcFZfZFQzVjlpQjQyeUh5MWpuUUxYUGVRUWZVTlgxZXFqcUdlZVY5NTdlOUtvNU04Sm0zX0Y0TkcySU5HeHk1Zjd5OXpWbFh3MHRSczQzUTBjWjN2dTlmaTNSTHZCMDJ1NnJmVVNGVXA1TjUzeHVfRUd6SUNYTHdfbldNN2lKNw?oc=5",
-      "published": "Thu, 04 Jun 2026 01:51:00 GMT",
-      "summary": "PM says no new IMF program needed as current deal nears completion&nbsp;&nbsp;Egypt Today",
-      "source": "GNews | EG Economy",
+      "title": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency - وكالة الانباء الاردنية",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX3hZWGlhbkFqMWV4X3VwM243aEkyQ3NQbHNocTl5Y1AzM213S19sMThvUVI2MXIxbnU0LU9XaVdzVmZ5TkFmQy1qRGRMUzRPQVhrNkR3TzVtZzRJTVVhV1FtMkNlaWVvRWRTMTJhZFFISmxaZ01zSDZTLTZHc1FXRWpLOXZUbmoyTlZTMzBiOWpqTG9FUm1LLWRB?oc=5",
+      "published": "Sat, 06 Jun 2026 08:48:56 GMT",
+      "summary": "ACC urges strengthened trade, investment cooperation with Ethiopia - The Jordan News Agency&nbsp;&nbsp;وكالة الانباء الاردنية",
+      "source": "GNews | ET Economy/Mfg",
       "priority": 4.8,
       "category": "主要经济体",
       "_incremental": "new",
@@ -616,6 +675,17 @@
       "relevance": "medium"
     },
     {
+      "title": "EU South Africa Investment Roadshow: €12B Partnership Explained - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUh3dFh1THpLOU9CbEVyZjBoVWgyTlA4WUJxQVBJWU5ZU1RZQTBDX2hic2w1SW8tRGtvVllHV3k5UHdyWEQxY0d2RUI5bWlaOFhNM00wbXZuc0o5YlZZVG1tczMxNlY0Sy1vSTlRMW1naVhrSU9RcFFvM0o5NS1mcnFadWF1eEZoOExUcEVoNmFwM0U?oc=5",
+      "published": "Tue, 02 Jun 2026 08:33:31 GMT",
+      "summary": "EU South Africa Investment Roadshow: €12B Partnership Explained&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU-Africa",
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
       "title": "EU bets billions on South Africa as China tightens grip on critical minerals - Business Insider Africa",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXdqY3Z4ZWM2bzl0XzRhZWZ3N0R5UDRrZFEwcTljcnpVYXZ1T1dXc2JqOGpoaTNfRWdkTG51VmN6b0JUYU8yNXBpcDZKcENvSlZVZG5vWnZSQS1nUExFdlpFZjlQZkhFS1J0S21BTGVVaHpqdURaLUpkTkhtSTd5RzhTQXFDdTVuSzk0bTJNWGpWRFFhRm1rSGFwSy1hZXk3eENwdGhteEg5d182UEZJVERXT3MxVmJXUU1weEJzVlZOQnNvSnRuTUFJRnFaUQ?oc=5",
       "published": "Tue, 02 Jun 2026 07:00:00 GMT",
@@ -645,6 +715,17 @@
       "source": "GNews | Africa Tech",
       "priority": 3.6,
       "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Africa turns to private firms to rescue Africa’s biggest rail freight system - Business Insider Africa",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTjk1SHIxbHE3dWU5MHVudUQycVZSZFdRald0MTVvWmZGTmg1WGZfMmRwZ0RtMk5Sb0dtbElLSTU0MWk1akFrRHpnRVVSbDJTaWRVdVFqUTB2U3VBVkhwb2t0all1RXhSSFNoeGRiRGp6UEFGOG9Ic21lc1ZVdm9LYjRMZ3NwaHhxMDAzQ2JyTmc1X19ldEFSVlQtQlJPWHhtdlpyTEgyQTlSUUNiMGRwSGRlZHpYdTVsSEt5UGEyc3lrQlZfaTdyVA?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "South Africa turns to private firms to rescue Africa’s biggest rail freight system&nbsp;&nbsp;Business Insider Africa",
+      "source": "GNews | ZA English",
+      "priority": 3.6,
+      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -697,6 +778,17 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNDNFRlVwOHFPQ25sRzVtSVhzdGRHWnlwMnVqQkFWSFlpdUVhRGJNT0RlZURtTWlETG5GUENjU2E1bm1Kd0RYVEZvRVhHWjhxM0VrSmREUG40Y252bEFtcHpITXlqcmtvVmFFazg5YmNwTTNUSG4tblVqR1VoRmhDOEZwazBXRzBTcEozV3Z2QWV2WEJuTExtSy1SMk5RRXk0U1R3blRNbUk?oc=5",
       "published": "Mon, 01 Jun 2026 11:51:23 GMT",
       "summary": "EU starts first investment roadshow in South Africa targeting minerals&nbsp;&nbsp;CLUB OF MOZAMBIQUE",
+      "source": "GNews | EU-Africa",
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Morocco Country Report - Stimson Center",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQmtOT2k5X3IxZ3NHN25mMG84T01pandUQ3FkSGFUUUR4Nnloc3RZVXpTbG54TXJtQ2VHcmpnekx1S1g2MS03WE83cVRYeU15ZDBYbDVpZmZJTU1maDlxRUtfeGRoMG1FNFJr?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "summary": "Morocco Country Report&nbsp;&nbsp;Stimson Center",
       "source": "GNews | EU-Africa",
       "priority": 3.6,
       "category": "大国关系",
@@ -824,17 +916,6 @@
       "source": "GNews | Sudan Crisis",
       "priority": 0.0,
       "category": "政治+冲突",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "بعثة اقتصادية مصرية تحل بالدار البيضاء لتعزيز الشراكة التجارية مع المغرب - تليكسبريس - Telexpresse",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GNUptYkQ0cjl6bkUwMjZFSFRubzhSSzVXRFNhZ0pTemdfMXU0TzJjQ2JmN3UwWURNRGlhRHZLb24zekZrZ25ueV9mQdIBU0FVX3lxTE4yb0Zab2FOYWswZXBLbnAzQ2NZZUM0YXljd3ZBSWFFeFQtYjNkWks1LWU4VF9jNE5zUHdJd2ZBX2pOZXlZUDIwd3JCNHdHUTRvYS1z?oc=5",
-      "published": "Wed, 10 Jun 2026 08:47:10 GMT",
-      "summary": "بعثة اقتصادية مصرية تحل بالدار البيضاء لتعزيز الشراكة التجارية مع المغرب - تليكسبريس&nbsp;&nbsp;Telexpresse",
-      "source": "GNews | EG العربية",
-      "priority": 0.0,
-      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1132,17 +1213,6 @@
       "source": "GNews | Africa Infra",
       "priority": 0.0,
       "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة - اليوم السابع",
-      "link": "https://news.google.com/rss/articles/CBMixARBVV95cUxOalFUajNtZThWeUk4V29wQThtaFBLVFF4cUNvZld6WkhVbHplWnRESTdGS2NvQTZkd1NBdWdNekVGY0MzUU9EbUJIVGlMY3drVVpEaDdHQXVHYkp6UFl1Y2l6SXRUeGY0aDJGeXFQNE5TV3ZPTWdjMW53OVNHa0UyQTZxTklLYmlFSWZTRklBV1g1bUdaaERidEVMak5oeGR1T2oyUDR6YlVvM0dXc183cHRzVmdWRURDa1M2UjFkQ1NfQVpmeEVWdWZ2OHFKWVh1RFFfNlI0UkcxSzViODFJbms1T0tPOHlSc1pRb09IRWh0V1RZcTJjRnk1UVVhQVFlY3ktTGtxMEQzUW1pT1g1dTRhQjN0dGpqLWVtc255aGRkVVQ3dFNjY0ExOGhIdlZlVWh5RDdFb2dScEpmU1hwUmg0eWdiLXlhZUxxWVZPZmMxWEctWHZHRUtKdUs3OWkwWWN2dGNSdzB5NmQwMjlENHVLYVNkLURJMHpNbkZ4aHRCelliNGVqRWFtVGlCekMycWNoeVhMMlItbHV3Mm55OEtnb2s1VXphNXUyeWNldE85UEtCUUEwSmJmU0E2RXI5ZFJ3b3hrRnVPMjhiWENmNjJyNkRYelA5Zy1KZmRMY1lGNktpcHd4b0c5YnhxZnpPQlhadFFkdmdEM2s2WDQ4ZTZwQ3JiY0xyNGlSUFAxcVRhWDhWTDhQZmhIQXdvOERjRXFYQkd3bHRvWGhrTV9VYWpLVThLcWpjWTBYazEzaGVZVkhG0gG_BEFVX3lxTFBxMkRKT183TkxrckRQZUhIUE9ial8tMnltUFlyZjFPRk1QcXJIcWZ2Z1lhRXB4YXM4UTZteWxWdVJGLUlXeFpsYjJQNm80Y2pCcUhQNENHcU14dzhnWTZKYy1OQ1lDRDdhbFdReFBXQ3UtNkZNTFp6UHU3ZWZSSDdIdmVhcGZpeFR3c25LMkU0YVBUYTMxaVVUck9GTERHNFFhbmVUUngxSGVpMU5jZVBkZ2Y5eXVpcUxtc3Z0NF8wWGhJWVlUME1zbmRfd2dlT3hfXzNHUllKWjhiSk9rV2dqZ2JaTjFxWm5TS0FfZWhpRnpUSmx6cVFQbUZsYmhrNUFmNVJFYzFna1Jod0tDYXRCZFRkWklYU2VPSGhxM2R0RThkQkI5QmhxUkxNRExGYU80N3QzWVRGdTJPWjRBRkZkeXRWd0ZJSlBlQzZhaTBKQW9lSVhfSnhmVTd3akRRQ3pRZm9vQ2V0T0N5RFEyZW11NjR4V3lYalFJQjBDaFVsYnRuVm1XZ0JocjhyNDdMTUtZbnVhR1VIZmhQemt3NzBESnV6OElybGlXWUdoWVlKUFBWMHRma283QUxqdnJqWFRwR0ZQNDNfMmIzcVA1d3JsbnFJT0FvM3pFOFEwYkg0Qk9NelE4dExGQWlmY3ZGNnQ0WmU0S1lxS1A1V1JHVGlhTlM3b091cS1SM1JObDRiUVNJRmlpZjg3Ti0wVVdXWkZmSUgwTE52dEpIRFFqZVBONm5mMHIzU1FZWkdYRW1F?oc=5",
-      "published": "Sat, 06 Jun 2026 15:44:00 GMT",
-      "summary": "الجمعية المصرية البريطانية تختتم مؤتمر «مصر المستقبل» بتأكيد الثقة في الاقتصاد المصري واستعراض فرص استثمارية واعدة&nbsp;&nbsp;اليوم السابع",
-      "source": "GNews | EG العربية",
-      "priority": 0.0,
-      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },

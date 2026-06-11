@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-06-11T13:36:23.348030+00:00",
+  "updated": "2026-06-11T13:43:03.381972+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 77,
-  "high_priority": 7,
-  "medium_priority": 50,
+  "total": 74,
+  "high_priority": 6,
+  "medium_priority": 49,
   "signal_alerts": {
     "nuclear threat": 2
   },
@@ -15,7 +15,7 @@
       "feeds": 3
     },
     "中亚": {
-      "count": 83,
+      "count": 85,
       "feeds": 3
     },
     "白俄罗斯+能源": {
@@ -31,7 +31,7 @@
       "feeds": 1
     },
     "气候+人口": {
-      "count": 60,
+      "count": 42,
       "feeds": 2
     },
     "大国关系": {
@@ -95,17 +95,6 @@
       "source": "GNews | CA Infra",
       "priority": 12.0,
       "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high"
-    },
-    {
-      "title": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports - Pipeline and Gas Journal",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbEl2WDlQTkJYOVY1T0Q2NzhuMFd3bWhHdTVlWXhVcTJkRDBkcEl0dzA1b1NJS3FMS2JEV2VfZGJ2MVQ2WmNuTFRjQnFCYUR2MUtfay1UMkxERV8zOFJMcF9CalRmWmJIOWVvbW1yVHpBQ1A5V2wwbC04aDRtVDRTZVBSYk5mYlk2X0gzU1NyaUhUWjhpZ3VnRlkzal9aVUR4UFZjM3BsUGtEc1Y0OGtXRlZZVGppUXVrb0hiZUJVVlg4Znk0UEZvQlc5UFdpQmc?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "Alberta Pushes 1-MMbpd Pacific Oil Pipeline to Expand Asian Exports&nbsp;&nbsp;Pipeline and Gas Journal",
-      "source": "GNews | CIS Energy",
-      "priority": 12.0,
-      "category": "白俄罗斯+能源",
       "_incremental": "new",
       "relevance": "high"
     },
@@ -286,17 +275,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Putin Talks Multipolarity and Shrugs Off Economic Pain at ‘Russian Davos’",
-      "link": "https://www.themoscowtimes.com/2026/06/05/putin-talks-multipolarity-and-shrugs-off-economic-pain-at-russian-davos-a92945",
-      "published": "Fri, 05 Jun 2026 18:10:00 +0300",
-      "summary": "The president’s address bore a striking similarity to his speech last year, once again touting BRICS and framing Russia’s economy as resilient.",
-      "source": "Moscow Times",
-      "priority": 7.5,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Armenia, Azerbaijan and the unfinished peace - Engelsberg Ideas",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObVR6enloRlV6Mi1sMzZ6b2NtSHNnMGhLOEFhQVZOSkwtSTRjblMxSnM5UmoxZUVQQjg5cV84RDBvWEhGNHl1eTROZzlSQTY5ZDdCVURjYVNVaTVNTGpnM0RKMXowRHU2b1QwSEVMd0xoRVhmeFVqOV9RbUZzQjFDVTlXY3BmZw?oc=5",
       "published": "Wed, 03 Jun 2026 07:00:00 GMT",
@@ -326,6 +304,17 @@
       "source": "GNews | RU Sanctions",
       "priority": 7.2,
       "category": "俄罗斯",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Melting glaciers and rising heat: Why climate change is becoming a national security issue in Central Asia - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVGZJa0VfbFdJcHdQc2IxaEEwSFNLbEJJN2tmdnVBWWdoZkZHa3MyQVVXSmtwOS1nUm1wVGJKLTFVZFBoRmlwSXp4WU8zTkNJbzlBREhSZFN2T1BwdFpQZGNPdzgxbUk2LW1EMXNFSFRfdGZmVkVESHNkNmNXenoyQXpwajFzalV1N09Wc2FuaE1rSXZuZ2J5MjVzZkFxQ0dKMDl0alNOTmlLcnp2ejdwRUx1M3hRQmdob09SRFJVUzc0SVR0?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "Melting glaciers and rising heat: Why climate change is becoming a national security issue in Central Asia&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | CA Climate/Water",
+      "priority": 7.2,
+      "category": "气候+人口",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -418,10 +407,10 @@
       "relevance": "medium"
     },
     {
-      "title": "How China became Russia's economic lifeline - dw.com",
+      "title": "How China became Russia's economic lifeline - DW",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFdMdVAwYk5HNnNaY1pUVXc0ODhpYWZTNnh0Wmk4TzlMdG9fajBiTmlTMUdBWDIxay10QnFndENqNW01NmFJN0dGSHJFWlNKVUlxWVRVOXVQMlRNY0RyVzhnVUx3a2syQjRJSXh4R3ZKQ0k4MlFMUldzeDNYNUoyWjMtaGFPWWJma000U3BKc29UNEt2ckpvV09ZY3BDanFvNkN4Vi1VenVDQdIBqgFBVV95cUxNTmhmbkxGdEt5Z0c3cS1KSWQ3TnMtbU1vN0NLMk5jb0ExalU2aEg5RFJ6UHdpQXRHNmdPUTFHbm02bGlyaHdaak5tenRaUXFoRFltODJsc2NINE5wam5WZ2t4Z0lwUVZmY0NlNWMxMXpzYXk0OVVEbGxqbDEwcEZEWmdYVVVxRGZWX2Z2Vk9mTmFCMWVCWE10UmIzYTNFMGtBNUxuQmdRRTM1QQ?oc=5",
       "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "How China became Russia's economic lifeline&nbsp;&nbsp;dw.com",
+      "summary": "How China became Russia's economic lifeline&nbsp;&nbsp;DW",
       "source": "GNews | RU Economy",
       "priority": 4.8,
       "category": "俄罗斯",
@@ -466,6 +455,17 @@
       "link": "https://www.themoscowtimes.com/2026/06/10/third-government-auction-fails-to-sell-stake-in-russian-gold-miner-a92968",
       "published": "Wed, 10 Jun 2026 13:18:56 +0300",
       "summary": "Since May, the Russian government has been trying to sell a 67.2% stake in the Yuzhuralzoloto Group of Companies.",
+      "source": "Moscow Times",
+      "priority": 4.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Cyprus Stops Accepting Visa Applications at Centers in Russia, Shifts Operations to Consulates",
+      "link": "https://www.themoscowtimes.com/2026/06/11/cyprus-stops-accepting-visa-applications-at-centers-in-russia-shifts-operations-to-consulates-a92983",
+      "published": "Thu, 11 Jun 2026 16:34:50 +0300",
+      "summary": "Cyprus will suspend visa processing at its third-party centers across Russia and temporarily route all applications directly through its consulates.",
       "source": "Moscow Times",
       "priority": 4.5,
       "category": "独立RSS源",
@@ -564,17 +564,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Central Asia’s Water Crisis is Becoming a Regional Economic Risk - The Diplomat – Asia-Pacific",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN0dubEo1c3JGM1hXTnpmZV9zRTNvUEx2Qm02Y1VBX3FlY0VmYVlYdjBYZHUtNzRvcHJOT0lTOWctNkdVa1JiMU9jZ3BjQXpmWWE2bk5jczlOZGVZY2sxUGx4U2h4QUEtb0dMVHhDQkNyV0pVWllNMG1mVW9RTUpUN0RqYlA4VTlnYUdTWkhIbmV5QUVtejNFRXJ2ZFA?oc=5",
-      "published": "Tue, 09 Jun 2026 09:10:22 GMT",
-      "summary": "Central Asia’s Water Crisis is Becoming a Regional Economic Risk&nbsp;&nbsp;The Diplomat – Asia-Pacific",
-      "source": "GNews | CA Climate/Water",
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "This Ex-Soviet State Is Buying Up Sensitive EU Tech — and Selling 699% More to Russia - Kharon",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdFkzZ2ZuWXJoUHdsWkR2NDUyTXFORDE3ZllUNzNHcUg4VkE2d1BPZnA1SldlTTVOdzdpMnZraWVhQjl2aEI1V2RBeWEtaWV3MXU3OXU1M3VKcTMxZ3pudHhXZmtsVWVGNUNjdVJvMmJtdGM2WkhzSURQOXZRcVh0bHA5cw?oc=5",
       "published": "Tue, 02 Jun 2026 14:07:36 GMT",
@@ -655,17 +644,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Megaprojects Instead of Quotas: How Central Asia’s Water Diplomacy Is Changing - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdTROQmtaUDVtaTVQaDlCNjBUVTltT0ZGUENUOWFDSWtYaHRJLXFuMF9hTG0wTnAtb05wTW0xWnFfV3l5UkNteXNoM21WU1d0TnN2OWhoOWFDcGFyY3lpWWo2bzl1Q0lLNHFURnduNjJVWnRJTmpFQXVVQ2gxU1J5OFRCTDRqMXJaaGdKX3FkWEFLTDRCLW9jb181c09vZw?oc=5",
-      "published": "Fri, 05 Jun 2026 13:13:12 GMT",
-      "summary": "Megaprojects Instead of Quotas: How Central Asia’s Water Diplomacy Is Changing&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | CA Climate/Water",
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Woman Killed in Ukrainian Drone Attack on Belgorod Apartment Building",
       "link": "https://www.themoscowtimes.com/2026/06/09/woman-killed-in-ukrainian-drone-attack-on-belgorod-apartment-building-a92959",
       "published": "Tue, 09 Jun 2026 13:48:23 +0300",
@@ -695,6 +673,17 @@
       "source": "GNews | CA Infra",
       "priority": 2.4,
       "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "From raw materials to value-added exports: A structural trade transformation - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2ZBN3NZMnU1cEFhWVhHekU2T0h0bTlrNlVSd3RYSVIzU19UOGhwZ1lXTTJ1Smh3amt2eG5XVlg0SzRZLWtEcVFwSnA3MkQtWXhsbHNBLXBIaWlvV2tLSUtEV3FCbDNjS193LUEybkdRVlBGSEx2bjlYSzVKWWJ2THcxMkpYWkFGZHo0dXNOZl9DTkVnVmkxOHJkNjFERUt0VG9oV3lUWkxzRTBuMjcwbWdMaktmbGQzeDdkbA?oc=5",
+      "published": "Tue, 19 May 2026 07:00:00 GMT",
+      "summary": "From raw materials to value-added exports: A structural trade transformation&nbsp;&nbsp;Euronews.com",
+      "source": "GNews | UZ Economy",
+      "priority": 2.4,
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -776,6 +765,17 @@
       "relevance": "low"
     },
     {
+      "title": "Внутренний спрос стал основой экономического роста России: заявление Решетникова - Финансы Mail",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVNmVjNZUTBnWXZ1eG1aVnRvY1hMS0pqbG03NVF4czUtZ2FsWE5fbDNtT2cwMW45RGJMRUdLbGpCenJnd1RXVUh2QUx5bXdqRHl4NUZJWTBjN2pKX1BjV1FfQTlmb3Jwb2VzNGlKWExwREl1RUJRMW9BWDdlbF9IMXhNT2x2Y281bHZ2aGFfN2R3UWtGeW5KaWJYSDdPZDJkQVgwaw?oc=5",
+      "published": "Tue, 09 Jun 2026 09:16:34 GMT",
+      "summary": "Внутренний спрос стал основой экономического роста России: заявление Решетникова&nbsp;&nbsp;Финансы Mail",
+      "source": "GNews | RU Русский",
+      "priority": 0.0,
+      "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Россия перестраивает экономический рост на внутренний спрос и рубль | IF | 09.06.2026 - InvestFuture",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVTJrSWl4ZlN2dU5fNGJNSGgta2QzdFBWQUF4ZEVvWXh3dnJLSkxOcnBQX19CcTJIQ2xmdzRNWWFuVmh1eFNlRjMxaDJ5Qk5yZUFlclpLbjRRTkVadGhDc3ozTGtKenZQc3BPZjdnQjlZZk0tY3d5V1ctVjR3c29jLWJlXzlHbUplcXBnb21YQ01Id3dIalJuUTJ0WEpLUWpOSGRtWjdXSlJ2c3NjWUdN?oc=5",
       "published": "Tue, 09 Jun 2026 07:03:33 GMT",
@@ -849,39 +849,6 @@
       "source": "GNews | RU Русский",
       "priority": 0.0,
       "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "В спецпроекте «Эксперта» «Дружим экономиками» Индонезия - Эксперт - последние новости и публикации журнала Эксперт",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCamtxWld3M2lpcTBsenFqMjVQcHNodG1BbUQ1TGt0eldsY1daZ1hkS2hRc0liejB0OWNldnlFbWt4ME03cWNJVG9CT20wTXRzMzNTQnQ1dzFCVl9iX1B2YWtudFFhQ3Bsbmc?oc=5",
-      "published": "Sun, 17 May 2026 11:03:37 GMT",
-      "summary": "В спецпроекте «Эксперта» «Дружим экономиками» Индонезия&nbsp;&nbsp;Эксперт - последние новости и публикации журнала Эксперт",
-      "source": "GNews | RU Русский",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Зачем Китай инвестировал $24 млрд в порты по всему миру - Эксперт - последние новости и публикации журнала Эксперт",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OVkZrMDZGTUtXYzZwaDlHRnNxS2RPNnhaNG1XV2J2bDYwcXVNSkt3aHNPRmE1TE85V2R5Slo2dHA4WEhmaFNTbUlrV1JlRkZjc1BfR0lIVVJKUEFlaVhUaA?oc=5",
-      "published": "Sun, 17 May 2026 08:56:45 GMT",
-      "summary": "Зачем Китай инвестировал $24 млрд в порты по всему миру&nbsp;&nbsp;Эксперт - последние новости и публикации журнала Эксперт",
-      "source": "GNews | RU Русский",
-      "priority": 0.0,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Xi–Trump summit lived up to modest expectations - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmc2MmpQaFhKd0ZpdnVJRjA5TTBUbVBPc0VqempZT0dITVplenJ0YU5mOUNxVzJ6RHhVWVVpUm14MEpuR2hPaGlzRVRJMmRKb2F1VEY4WnZ3S0RVU0dlUVU5Wk1FTENfZHFoaERGTnBycG9LSGp4eU9ycTRnTFhSeFVDS0ozUnFscE1aRDhhdy1XUEE?oc=5",
-      "published": "Sat, 30 May 2026 07:00:00 GMT",
-      "summary": "The Xi–Trump summit lived up to modest expectations&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | US-CA",
-      "priority": 0.0,
-      "category": "大国关系",
       "_incremental": "new",
       "relevance": "low"
     },

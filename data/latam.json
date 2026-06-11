@@ -1,12 +1,14 @@
 {
   "version": "4.0",
   "module": "拉美深度",
-  "updated": "2026-06-11T13:36:16.131196+00:00",
+  "updated": "2026-06-11T13:42:55.381872+00:00",
   "fetch_date_utc": "2026-06-11",
-  "total": 46,
-  "high_priority": 5,
-  "medium_priority": 18,
-  "signal_alerts": {},
+  "total": 51,
+  "high_priority": 6,
+  "medium_priority": 20,
+  "signal_alerts": {
+    "political crisis": 1
+  },
   "stats_by_category": {
     "墨西哥": {
       "count": 90,
@@ -52,6 +54,17 @@
   "fail_feeds": 1,
   "rate_limited_feeds": 0,
   "articles": [
+    {
+      "title": "Colombia election outcome could reshape copper investment - Mining.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb2RBSnFXdEc0NUpLQ0dVT3RwVUhSLVVlRzcyamZxcVB0X0ZXLVNUb3I3RXppbzI1T2tXWlEyZHd1Z0ZrU19mZnRnNDZNdldsYmJOOFBwQkxiZ21jN09QSFkxZGhzUUk0aU9BaDN1MzVLbHBqLW9PSUxCWDdTVkk5QnItc08tQUFHT1dBOE9oenFmbjE5d2c?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Colombia election outcome could reshape copper investment&nbsp;&nbsp;Mining.com",
+      "source": "GNews | CO/PE Trade",
+      "priority": 18.0,
+      "category": "阿根廷+智利+其他",
+      "_incremental": "new",
+      "relevance": "high"
+    },
     {
       "title": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus - Mexico Business News",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmJGSHdaMDFUaDl6dENEdGVmdWVVNlRDS05jWE9MSjloQVU3UEMxNFVNS2Z3dUo4VGlIV1VTd1pWNzZaVFVHeHJkT1ZOX2NzV0xtLV96RTFvS1hRLW9ENWFtdHFHZlFERjJxSmp3X0wzaFQwbDNVYS1YWEdycHB6UUZ3QkJVMDcxQXlTMENxNkhBZmE1T2FqUWJMSTVEOEpPX3JwYg?oc=5",
@@ -108,10 +121,10 @@
       "relevance": "high"
     },
     {
-      "title": "EU Manufacturing Investment in Mexico Nears $47 Billion - Mexico Business News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1JpWWlZcHBjVVR3eURZejhLUGs3Rlk0VE03eVY5aVBkOFVURWoyT29zbGpfaWttRnZBQ19nUi1Scy1XbjZHR2lUV181WVM4LTVVV0RpempxTVJ5Z2dOZEx4U0dmdkNQc3RWU2FjOUFmc3NUUTd6U0EzcjhrU1V2N3RBbGlQZlJKNUgyYTZQdkl0NTJlSHpra2RZZXVMNGF6TVBrMzJSNTQ?oc=5",
-      "published": "Fri, 22 May 2026 17:58:09 GMT",
-      "summary": "EU Manufacturing Investment in Mexico Nears $47 Billion&nbsp;&nbsp;Mexico Business News",
+      "title": "EU Manufacturing Investment in Mexico Nears US$47 Billion - Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQzE5V2gxNjFFRHRZbmZTTGF3T2pqeVN0NGlMam5KWVdKakZ2aTlKd3M5VHVGVUxEU1Q2VnpvbVhOaTFINnpISUw0T3RFUzBwUTVacU5Zb3dvYkF3WU5uckxJVXpyMEN1YXR0Ylpidlp2bE5ncmN0Y3NzVzRwZ0xIUmUzaDh1eUNFOFIzX3BadmVjVDFpWTBEbTVqaUt6TUtNXzdZRTRxamw3aGs?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "EU Manufacturing Investment in Mexico Nears US$47 Billion&nbsp;&nbsp;Mexico Business News",
       "source": "GNews | MX Auto/Mfg",
       "priority": 9.6,
       "category": "墨西哥",
@@ -137,6 +150,20 @@
       "source": "GNews | BR Lithium/Mining",
       "priority": 7.2,
       "category": "巴西",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Bolivia Austerity Protests: Reform, Unrest and Political Crisis 2026 - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVhYVW1relo2N0F1Zjd6RWw2OVppVXVnUmpsVzBYbUZ4WVBIVFdMMnZFa3IyeUpwU21PbFFHN2haR0hlZVI3a3cwZDhpb0dKUXBxTHFCcDFUVHkxNXN0Uk9EZ1NKdFVJazA0aXNTSE1RUEJKTFRQVXUzNlR5czJENEduWFJYN1N1eGg4Qm90cEk?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Bolivia Austerity Protests: Reform, Unrest and Political Crisis 2026&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | LatAm Politics",
+      "priority": 7.2,
+      "signal_keywords": [
+        "political crisis"
+      ],
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -214,6 +241,17 @@
       "source": "GNews | BR Economy",
       "priority": 4.8,
       "category": "巴西",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Latin American Mining Companies Betting on India Without Abandoning China - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXhIYnpQaG9xci02bG0zQXd4NWRFd0RMUkFCWXd6Sk9WbmNQX2tJb3VmY0t5LWNuTkVNNkVaN3NmSHNBZXhVTVVNVEJPbGdTN1p4T2Q5ZVpjSDRyWV92WjdhMWVTeGJBRDlMWFVwS3R3ZDZzRDZhSG1IUlBqOGpMLXRuc3VyUHpTTnhtdnlR?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "summary": "Latin American Mining Companies Betting on India Without Abandoning China&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | CL Lithium/Copper",
+      "priority": 4.8,
+      "category": "阿根廷+智利+其他",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -372,6 +410,17 @@
       "relevance": "low"
     },
     {
+      "title": "Smoother Road Trips Ahead: How the New US Freight Plan Will Clear Highway Congestion for Travelers - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zbmNyVllvLWQ5a0lyZmV2TVhVVXNybTVTYVdaTk54ZFRHYzlyQ2MzY3VHWVlGVWhFX0tMRjBhWnIxUVFQRWV0cmN1czAzd2pvRG0tRkFpdm9DeEN0a05mVVNOV3ljd0N5U2pnSjlR?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Smoother Road Trips Ahead: How the New US Freight Plan Will Clear Highway Congestion for Travelers&nbsp;&nbsp;Travel And Tour World",
+      "source": "GNews | LatAm Infra",
+      "priority": 1.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Brasil foi o terceiro maior destino de investimento estrangeiro direto em 2025, diz OCDE - Brasil 61",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0J5SE1ic0pmQWM2VVpUY3BVOU1ZLUtsRndSeG5kTmJpdGh6UWg3VzJoNHFjUzdyVkFRMmEwMmdzNDhqRTZ2Q2RnQ3pFVlhVR1dnRE5SOEMyRFlRY2ptWVhLSVB6UW80M3ZkU2ZpeWRoeHdnVnp6Y0p4Q2lxWm1fRjNoQnBBOXdQWnhzTWNibzRvbmtPbEVkNjFYRkR4NDRZRFhESlhZZWtYYTVpOFd6U1dMLUJ4M3cyT3R6NkZB0gHDAUFVX3lxTFA2S09DSFEzSjZHclZ3OGFxSDFFTC1OT1FjOS1YZGdvNllneHZpR0JMQVp0ek1TVVhvaHZYb2wyUVAtZFR0UWIweG1mOGFCeW1vbUN6MmdfS2tBZkFTanJBVHBOM21jRmw1NzYwQlltRXR2al93cUQ1WkFFZ3ZmbDVRUUZqYlVZOTBxaGUyTXQxSjB1S2hoQ1ZobnZCbGVzazNBSEZLMjhZZ3Z2TFZIVUI1ZXZoOFl0c25GbjZ1ai1fY3ZyOA?oc=5",
       "published": "Sat, 23 May 2026 07:00:00 GMT",
@@ -401,6 +450,17 @@
       "source": "GNews | BR Português",
       "priority": 1.2,
       "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bolivia’s Crisis Is About More Than Evo Morales - Americas Quarterly",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMURYa29zTFE0UTdlbXA4RTEwU2YxaGhleUlFT2Mtb293RWZYbFhYaV9nUzJ2MEdFVkpDd09iVjhhekNTUmJhQk16M1E3SWhUbEJ6bnUxUElCcWlpWlQyeS0xeTVkQmtjVFo3VVp2Q3R1Y2RMWlVfSEJYTDNxVS0wamhuRC1sTTM2akJZMGZ3?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Bolivia’s Crisis Is About More Than Evo Morales&nbsp;&nbsp;Americas Quarterly",
+      "source": "GNews | LatAm Politics",
+      "priority": 0.0,
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -449,17 +509,6 @@
       "relevance": "low"
     },
     {
-      "title": "Bangladesh’s Unfinished Revolution - Carnegie Endowment for International Peace",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU0tEUkhZcTA0WHBGdlVLMlZ0VnlkOFRQbk5iMUtyNzNFZmZ3WGZOYnpvdUpRUmpPcUR0NWN1dkdtdHdEalI2N3UtVDZzUDhMM3FPVHQxb2lNV2hESVV4QXNWa1JfTTI4Wk1kVHg3aHNzMW5uZV9VeTdGck9hZXhvRjRXTU1RRFE?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "Bangladesh’s Unfinished Revolution&nbsp;&nbsp;Carnegie Endowment for International Peace",
-      "source": "GNews | LatAm Politics",
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Venezuela embarks on $150 billion restructuring of debt amid political turmoil - CNBC",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdjk3UWRURV9kTWtGRmRLWE1KazMzZmRUSDR5NDVvcDh2OXgzMFpJdm9qa2xJQXFjSmhlOTh2V2ltaXJDbEJGeko4NllJZTkybThFX1ozbDFCOUp0eWttZ3ZkSzkxVkdiR0dYajN6cVNoMGtKUjh2RXozSmx3aFh0M0ltcGNiel96aG1pU2hpSdIBlAFBVV95cUxOS1AwaDlabFdQQ3AxTUtDeGFYdWR1OTRoSVUtU0h0WmsyOFZMXzkybVJHOVpodnNIR0Y3YURVYlk0YlFGcGdJc0hqdWowOF9BY1lKTE94NDI0N3RCakhjbVlhWGpua0dIampZVFBSXzdDcERoUndpYUREUlVLQTNZUWpoWHlJbDk2NEtvdl82ci1FY3dk?oc=5",
       "published": "Thu, 14 May 2026 07:00:00 GMT",
@@ -478,6 +527,17 @@
       "source": "GNews | LatAm Demo",
       "priority": 0.0,
       "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Despite Trump's pressure, Cuba may not turn out like Venezuela - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVJfWm5zYzExSlFjX2FLQVQ5VkxDd2J5bmRNdFFHMmlWelYyNHRVVkFFU0hTZE1Id3Z4czYxTUtDLXlub29PTjF3ZERlLUJ4RmRyRk05aERXOThIYmxOYndRRE9MNnJ1dERLZzZSMnlUQnFWMnltbW41cVp4UldnODh1V1BGM2pLeWZlR09RQVNWUDdjMWR0bU1fdTlwQTJPTHVISF90dEZrOTFOQnE0Ug?oc=5",
+      "published": "Sat, 23 May 2026 07:00:00 GMT",
+      "summary": "Despite Trump's pressure, Cuba may not turn out like Venezuela&nbsp;&nbsp;Reuters",
+      "source": "GNews | LatAm Politics",
+      "priority": 0.0,
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
