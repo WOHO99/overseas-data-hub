@@ -9,7 +9,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 保持120min直到async重构后降为30min
+    timeout-minutes: 30  # v4.1 subprocess隔离+硬超时，30min足够（预期8-12min）
 
     steps:
       - uses: actions/checkout@v4
@@ -26,8 +26,8 @@ jobs:
 
       - name: Run global fetch
         run: |
-          cp -r scripts/* . 2>/dev/null || true
-          python fetch_all.py 2>&1 | tee fetch_log.txt
+          cd scripts
+          python fetch_all.py 2>&1 | tee ../fetch_log.txt
 
       - name: Upload fetch log
         if: always()
@@ -42,17 +42,21 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: json-outputs-${{ github.run_number }}
-          path: |
-            *.json
-            !fail_counts.json
+          path: scripts/*.json
           retention-days: 7
 
       - name: Commit and push all JSON outputs
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add *.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "daily global fetch $(date -u +%Y-%m-%d)" && git push)
+          # 移动JSON文件到仓库根目录data/路径
+          mkdir -p data
+          cp scripts/index.json data/ 2>/dev/null || true
+          for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json; do
+            [ -f "$f" ] && cp "$f" data/
+          done
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "daily fetch $(date -u +%Y-%m-%d)" && git push)
 
       - name: Purge jsDelivr CDN cache
         if: success()
@@ -60,6 +64,6 @@ jobs:
           REPO="${{ github.repository }}"
           BRANCH="main"
           for file in index.json global_business.json finance.json tech_industry.json energy_commodities.json geopolitics_risk.json esg_sustainability.json se_asia.json south_asia.json middle_east.json latam.json africa.json europe.json cis.json east_asia.json; do
-            curl -s "https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/${file}" > /dev/null 2>&1 || true
+            curl -s "https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/data/${file}" > /dev/null 2>&1 || true
           done
-          echo "CDN cache purged for all JSON files (v3.5: 15 files)"
+          echo "CDN cache purged for data/*.json"
