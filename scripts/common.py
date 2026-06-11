@@ -358,6 +358,26 @@ async def run_module_async(config):
     unique_items = dedup_title_level(unique_items, threshold=0.85, hours=24)
     print(f"  After title dedup: → {len(unique_items)}")
 
+    # 时效过滤：保留近max_age_days天的文章，published解析失败的保守保留
+    max_age_days = config.get("max_age_days", 30)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    before_filter = len(unique_items)
+    filtered_items = []
+    for item in unique_items:
+        pt = parse_published_time(item.get("published", ""))
+        if pt is None:
+            filtered_items.append(item)  # 无法解析时间的保守保留
+        else:
+            # 统一转UTC比较
+            if pt.tzinfo is None:
+                pt = pt.replace(tzinfo=timezone.utc)
+            if pt >= cutoff:
+                filtered_items.append(item)
+    unique_items = filtered_items
+    removed_by_age = before_filter - len(unique_items)
+    if removed_by_age > 0:
+        print(f"  After age filter ({max_age_days}d): {before_filter} → {len(unique_items)} (-{removed_by_age})")
+
     for item in unique_items:
         if item["priority"] >= 10:
             item["relevance"] = "high"
