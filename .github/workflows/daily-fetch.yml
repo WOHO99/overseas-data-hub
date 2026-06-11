@@ -59,6 +59,10 @@ jobs:
           for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json; do
             [ -f "$f" ] && cp "$f" data/
           done
+          # P4新增JSON文件
+          for f in scripts/signal_summary.json scripts/source_fingerprint.json scripts/sources_dead.json scripts/signal_baseline.json scripts/last_state.json; do
+            [ -f "$f" ] && cp "$f" data/
+          done
           git add data/
           git diff --quiet && git diff --staged --quiet || (git commit -m "daily fetch $(date -u +%Y-%m-%d)" && git push)
 
@@ -67,7 +71,7 @@ jobs:
         run: |
           REPO="${{ github.repository }}"
           BRANCH="main"
-          for file in index.json global_business.json finance.json tech_industry.json energy_commodities.json geopolitics_risk.json esg_sustainability.json se_asia.json south_asia.json middle_east.json latam.json africa.json europe.json cis.json east_asia.json; do
+          for file in index.json global_business.json finance.json tech_industry.json energy_commodities.json geopolitics_risk.json esg_sustainability.json se_asia.json south_asia.json middle_east.json latam.json africa.json europe.json cis.json east_asia.json signal_summary.json source_fingerprint.json sources_dead.json signal_baseline.json last_state.json; do
             curl -s "https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/data/${file}" > /dev/null 2>&1 || true
           done
           echo "CDN cache purged for data/*.json"
