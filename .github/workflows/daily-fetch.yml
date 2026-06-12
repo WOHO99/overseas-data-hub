@@ -12,7 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # v4.4: +full_text_batch，预期8-15min完成
+    timeout-minutes: 20  # v4.4: 模块120s超时+batch_resolve+full_text_batch+beijing_backfill
 
     steps:
       - uses: actions/checkout@v4

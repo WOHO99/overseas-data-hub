@@ -53,7 +53,7 @@ MODULE_REGISTRY = [
 ]
 
 MAX_CONCURRENT = 3
-MODULE_TIMEOUT = 300  # 5分钟硬超时
+MODULE_TIMEOUT = 120  # 2分钟硬超时（v4.4: 从300s缩短，避免超时模块拖垮整体）
 MAX_RETRIES = 1       # 失败重试1次
 
 
