@@ -23,3 +23,10 @@ Thumbs.db
 .env
 .venv/
 venv/
+
+# Local-only scripts and outputs (not tracked by git)
+.temp/
+*.html
+
+# Date subdirectories (local archive, not tracked)
+data/20??-??-??/

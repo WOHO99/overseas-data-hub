@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-daily_brief.py v1.1 — 海外情报每日简报（主动推送心脏）
+daily_brief.py v1.2 — 全球视野每日简报（主动推送心脏）
+v1.2 变更：18模块 + 四新板块速览段落 + 发布日期
 v1.1 变更：加载uri_map，必读TOP5标题加Obsidian链接
 在 GitHub Actions 数据采集成功后运行，读取 index.json 生成精简简报，
 通过 Resend SMTP 推送到邮箱。
@@ -30,23 +31,39 @@ API_KEY = os.environ.get("RESEND_API_KEY", "")
 
 DATA_DIR = Path("data")
 
-# 模块中文名映射
+# 模块中文名映射（18模块）
 MODULE_NAMES = {
-    "global_business": "全球商业与产业链",
-    "finance_global": "全球宏观与资本",
-    "tech_industry": "全球科技与工业",
-    "energy_commodities": "全球能源与大宗",
-    "geopolitics_risk": "全球治理与地缘",
-    "esg_sustainability": "ESG与可持续发展",
+    "global_business": "全球商业",
+    "finance": "金融",
+    "finance_global": "金融",
+    "tech_industry": "科技",
+    "energy_commodities": "能源大宗",
+    "geopolitics_risk": "地缘风险",
+    "esg_sustainability": "ESG与可持续",
+    "cross_border_ecommerce": "跨境电商",
+    "trade_import_export": "进出口贸易",
+    "global_risk": "全球风险",
+    "chinese_firms_overseas": "中企海外",
+    "se_asia": "东南亚",
     "region_se_asia": "东南亚",
+    "south_asia": "南亚",
     "region_south_asia": "南亚",
+    "middle_east": "中东",
     "region_middle_east": "中东",
+    "latam": "拉美",
     "region_latin_america": "拉美",
+    "africa": "非洲",
     "region_africa": "非洲",
+    "europe": "欧洲",
     "region_europe": "欧洲",
+    "cis": "独联体",
     "region_cis": "独联体",
-    "region_east_asia": "东亚(日韩)",
+    "east_asia": "日韩",
+    "region_east_asia": "日韩",
 }
+
+# 新增4模块
+NEW_MODULES = {"cross_border_ecommerce", "trade_import_export", "global_risk", "chinese_firms_overseas"}
 
 
 # ── 数据读取 ────────────────────────────────────────────────────
@@ -198,6 +215,23 @@ th{{color:#666;font-weight:500;font-size:12px}}
         html += f'<tr><td class="module-name">{name}</td><td class="module-count">{h}</td><td>{m}</td><td>{t}</td></tr>'
     html += '</table></div>'
 
+    # ── 3.5 四新板块速览 ─────────────────────────────────────
+    html += '<div class="section"><h2>四新板块速览</h2>'
+    new_mod_found = False
+    for mod_key in NEW_MODULES:
+        mod_data = modules.get(mod_key)
+        if not isinstance(mod_data, dict):
+            continue
+        new_mod_found = True
+        name = MODULE_NAMES.get(mod_key, mod_key)
+        total = mod_data.get("total", 0) or 0
+        high = mod_data.get("high", 0) or 0
+        medium = mod_data.get("medium", 0) or 0
+        html += f'<div class="module-row"><span class="module-name">{name} (NEW)</span><span class="module-count">High {high} / Med {medium} / Total {total}</span></div>'
+    if not new_mod_found:
+        html += '<p style="font-size:14px;color:#666;margin:0">四新模块暂无数据（可能尚未上线）</p>'
+    html += '</div>'
+
     # ── 4. 必读 Top 5 ────────────────────────────────────────
     # 加载uri_map（Actions环境里uri_map在同级目录uri_map/下）
     uri_map = load_uri_map(idx)
@@ -209,6 +243,7 @@ th{{color:#666;font-weight:500;font-size:12px}}
         priority = art.get("priority", 0)
         category = art.get("category", "")
         link = art.get("link", "")
+        published = art.get("published", "")[:16]
         # Obsidian链接
         obsidian_html = ""
         if link and link in uri_map:
@@ -217,7 +252,7 @@ th{{color:#666;font-weight:500;font-size:12px}}
                 obsidian_html = f' <a href="{obsidian_uri}" style="font-size:11px;color:#16a34a;text-decoration:none">📂Obsidian</a>'
         html += f"""<div class="article">
 <div class="article-title">{i}. {title}{obsidian_html}</div>
-<div class="article-meta">{source} | P{priority:.0f} | {category}</div>
+<div class="article-meta">{source} | P{priority:.0f} | {category} | {published}</div>
 </div>"""
     html += '</div>'
 

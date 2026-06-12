@@ -1,15 +1,14 @@
 {
   "version": "4.0",
   "module": "全球科技与工业前沿",
-  "updated": "2026-06-11T14:06:20.138656+00:00",
-  "fetch_date_utc": "2026-06-11",
-  "total": 169,
+  "updated": "2026-06-12T00:04:13.178598+00:00",
+  "fetch_date_utc": "2026-06-12",
+  "total": 170,
   "high_priority": 0,
-  "medium_priority": 14,
+  "medium_priority": 12,
   "signal_alerts": {
-    "record high": 1,
-    "breakthrough": 2,
-    "discovery": 3
+    "discovery": 4,
+    "breakthrough": 1
   },
   "stats_by_category": {
     "半导体": {
@@ -45,22 +44,8 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Another stock linked to Jensen Huang: Navitas Semiconductor surges to a record high, entering the 'Huang Chain' via AI power technology - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV25aVk13c21IcjIxVkVPajhudWwtRjBaZFZQdl9jb3lvU2pJR1UxVVhsVHB6NFQ4VFZTZndVNTdha1VvZDhianZqS1pfc0MxU3AwdHJ0NzIwb3NJRXZsQkRsMmFtSWx1VjA1YTZiSzR5M29ucC1USjdQQ0FXbjA2Y1c2bmxXWmQ2aTh3dkNqcU5KcmJCZDRoVFlVZXZDTFUtY2xGaVB5UGh4M3FfNjRv?oc=5",
-      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "summary": "Another stock linked to Jensen Huang: Navitas Semiconductor surges to a record high, entering the 'Huang Chain' via AI power technology&nbsp;&nbsp;Moomoo",
-      "source": "GNews | Signal: Record Tech",
-      "priority": 7.2,
-      "signal_keywords": [
-        "record high"
-      ],
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPanNNUDN0VXhZU1hSYUNrczB0T21MQVFpeElnTElqQnpFVkdLamxqM3VFZURHZjFXRXZuZEFuUUF6M1ViUmx1cGFxSjEtWWxEVzMxeW9wbVpnaWt5UHJ0Q2pJY3dnSkxWTm1jcnlib3laVVBQSi1SSzRyV0tvUk1ubE5WaGRqUUVvUTIyaVE5cEYxWFpxQk5WZmZhdUJCZHpjYnNFTm1MWlR2NDhhMHFMd2xKN0dFVmZiV2JqOUNvQnNibW1iOEFScElGaTlTSUJLMzdXVXFyWW5GUnJWMWFz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLWNnMWJLSzNkenFaNy1JUm00NUtoeEFSUU1iSi1PcGV5RnlzRUVTOHRFNUdKZW5iVGVJZUVSaWZ6Uk54NEEwZTY0Ml9kMkItb0tweDc2UlI0dnNkWEs2OEplZUxEN0xvT2QtdlQ0Wm84VXJMZmlBS3VWYjgwVGdyUGdIOWN6SUEwSm5OV3pyaVRFbzRIa29iWDQ4M2h4azVPSzYxV1NpQjREc19lbTU5M0lpUGVVVHZoSWlQcFBROXpnLVRRSTVuQjhCZ3EwVDlhX2lhWG5XZWtyUHFsWWhXRQ?oc=5",
       "published": "Thu, 11 Jun 2026 13:41:46 GMT",
       "summary": "AI Regulation Push: Amodei Demands Power Blocking Unsafe Models, Anthropic Pledges $350 Million&nbsp;&nbsp;Tech Times",
       "source": "GNews | AI Safety",
@@ -136,13 +121,13 @@
       "relevance": "medium"
     },
     {
-      "title": "Starlink charges $10 monthly hardware fee in move away from one-time purchases",
-      "link": "https://arstechnica.com/tech-policy/2026/06/starlink-takes-page-from-cable-firms-with-10-monthly-rental-fee-for-hardware/",
-      "published": "Tue, 09 Jun 2026 21:05:39 +0000",
-      "summary": "Starlink, SpaceX's top moneymaker, also raised service prices by $5 to $10.",
-      "source": "Ars Technica",
-      "priority": 4.5,
-      "category": "独立RSS源",
+      "title": "Electric Vehicle Market Size, Share & Global Analysis, 2034 - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDdPM0VwRXE3dDlfTTJFS3BVX2FmU0ZLWVVDR2JLcWk5UjVnUmJQaDJ2N2E1Z1VkMWdIUzdnWXVrSFc3cHBLWmhSb3dodGpOTlZzejhjaFRBcm5fRi1jMzhzTV9CcFRqVVRVUVdWUWliWkdiMXdzLXpFMWY3M1doOW1hTHBaUnlnYV81YmMyLTU?oc=5",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "summary": "Electric Vehicle Market Size, Share & Global Analysis, 2034&nbsp;&nbsp;Fortune Business Insights",
+      "source": "GNews | EV Competition",
+      "priority": 3.6,
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -180,24 +165,13 @@
       "relevance": "medium"
     },
     {
-      "title": "SpaceX to launch Starlink mission Saturday morning from Vandenberg SFB - Santa Maria Times",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOX1NIdG5mWUp4QzNiOWQ2WFRzel9TS2RHbGZlTkpQZTFFa2JyeXFzZ2VYLWdYNnYzVmN0eGloQ0RiQ3I0bmM0NzZJbXNjYjhuTzlJS0NYTnlIaEo2M3dnNWpBT25pd1J2VEUyTUVac1hzak1WTFFZcGhzZVdSS2Nvd0VaVW04OV9FVUFqRHZOVEFZakl5TUZ4TlV0TEtFeGgwU3l3cHNFRm9sY0ktRWZ3QlpGcGMwc2VVX0NFdC1rcHV2QXJKV1pYeWl4amVldDVQeDk3Y0JLR2c5MDFFN04xaWd6Q2x2ZkxDUXVHWjYzRnF3RkU1Q1Z0ekl5cnpoMklieVNGYmpJM1JSSTg?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "summary": "SpaceX to launch Starlink mission Saturday morning from Vandenberg SFB&nbsp;&nbsp;Santa Maria Times",
-      "source": "GNews | Space",
+      "title": "Fast Charging EV Battery Chemistries Market Size, Share [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObV9sS0VkOEgydzMtZWduTGpISDR2UVZXdl95cDBuVmlIcl9KWmdKTnl6OHp1a3RaYjJSMXBQTEg2OGJoMEg5V2VPSkhvLVAwS0Q5WmpuaFBzSExRX3FZQm9NTHN2Rnk4bUxld1A1QXFuY0p3ZENKSnVjeGdaTFZPZ012dEVBY1pBOUhKT0ZYWl9mS1Vu?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Fast Charging EV Battery Chemistries Market Size, Share [2034]&nbsp;&nbsp;Fortune Business Insights",
+      "source": "GNews | EV/Battery",
       "priority": 3.6,
-      "category": "生物+航天",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Trump Risks Key Surveillance Authority Over ‘Unqualified’ Spy-Chief Pick",
-      "link": "https://www.wired.com/story/trump-risks-key-surveillance-authority-over-unqualified-spy-chief-pick/",
-      "published": "Wed, 10 Jun 2026 20:28:58 +0000",
-      "summary": "US lawmakers are alarmed that Bill Pulte, a housing official with no intelligence experience, is poised to take charge of one of the government's most powerful surveillance tools.",
-      "source": "Wired",
-      "priority": 3.0,
-      "category": "独立RSS源",
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -246,17 +220,6 @@
       "relevance": "low"
     },
     {
-      "title": "Battery & Energy Storage India Expo 2026 - EVTech.News",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2VhWDZ2dUFFX3dYT0liamRkaW5MRW9kN0hBVV9UdmUyeGVhN0o0TExpM0d3aVZQMVR0bTFjUE8xcXRnNjZXSUtFMzlMRlYzX0lIZFJ0bkdJMkpGWlY3TVhqVFpLb0Q5bHZadjBsVGlueDlFNXVVdThiNHZHLXlfSGVfT1U?oc=5",
-      "published": "Wed, 13 May 2026 04:51:19 GMT",
-      "summary": "Battery & Energy Storage India Expo 2026&nbsp;&nbsp;EVTech.News",
-      "source": "GNews | EV/Battery",
-      "priority": 1.2,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Digital and Technologies Sector Plan: Year One Update - GOV.UK",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPb0h3c0dvcFpNMTRsNXlaYjVndEVyVzBoZkU3YmROcXU3OEtvcEMzcjRTeHJEOHVYTHY1MXVCWE5nZUxwaDhDVHRYaGstaGpoRnlaRXdLVVBhR3JQNjZvZlZuU3RJWklodXVDQ3NtTDNCcmNqNmZxWlhfeHBKcWxSOEJEVFltaHJDRFFNYmpsSkdkdk12V1dPMzdHZF9NSWJmdXZXTnJ2ZzQ4REJ5QTlmUTkzZU54d2RoZVdaUFpaUFZwQmFaZnltWDEtaTFSRXdFbkFGWnJ6WEJVR2RCdUI4cWJn?oc=5",
       "published": "Wed, 10 Jun 2026 08:58:18 GMT",
@@ -264,17 +227,6 @@
       "source": "GNews | Signal: First Ever Tech",
       "priority": 1.2,
       "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "BYD Overtakes Tesla as Top-Selling EV Brand Overseas, Dominates UK, Australia and Brazil Markets - EVTech.News",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHQ0MFFLVWtoS1ptUDhqckdTTUZycTBJdGdaQVJmUi1EeHFLU2tsYUpYOHNNRXJ3OEVkVXRWT3I1QU1BMWZBMDRKMzNXa1N3emZydHF5OGFBUExTMmdXQXhmTWphUEhuVU5BbDFzcG5IQUNUa2tCbUN4S3BlVWRIXzZ6ZzhZc0VpV1NEWGlHTGdJNjZKY2hDWWNEME9VSmF2REhMaE85NDZESnBRdHpDQkh4MnRqekY4ZUIxalRucGVTdw?oc=5",
-      "published": "Wed, 03 Jun 2026 04:19:11 GMT",
-      "summary": "BYD Overtakes Tesla as Top-Selling EV Brand Overseas, Dominates UK, Australia and Brazil Markets&nbsp;&nbsp;EVTech.News",
-      "source": "GNews | EV Competition",
-      "priority": 1.2,
-      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -312,6 +264,17 @@
       "relevance": "low"
     },
     {
+      "title": "Quantum Space’s military SPAC is trying to catch SpaceX’s IPO wave - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlBvRVVWN3VvOWRqd2hFdDdGTVBZYmJhN2FqVklsckVxMFpWV1hyN3NnX2NHdUkwemlUeWZxV3pjZDFYWW1FQjBkVThUWHBIN2s2dlhabTVhaEhBb2ZWMk94X2dNZl9UTW5jYUFNN2dzWEJYZnpwS1J1ODJuOThyNUlkUGRHeTYzZldycGlXQUt1M0Z1MmlHTVRrSnNxM3Q0?oc=5",
+      "published": "Thu, 11 Jun 2026 16:59:28 GMT",
+      "summary": "Quantum Space’s military SPAC is trying to catch SpaceX’s IPO wave&nbsp;&nbsp;TechCrunch",
+      "source": "GNews | Space",
+      "priority": 1.2,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Chinese EVs Reach 15% Market Share in Europe as BYD Challenges Legacy Automakers - EVTech.News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeUNDdXVHVTBReldmLXJ5VGpwU1k3MzhLTklpZGMtcG5TblpEekZDQTBtYmUzblB5QXJuZy10cEhyS3ozSnU3MHBvS3hhM1gtbDkzMEI3d0JRVklUMXEwMUZwdElYZFNPeTZCR3ZHS0hjQ1J3TVZyT2ZfLVFUMUZZTEJNMDMzOTU4UXdvS2dld0hKNzBmUzJMZUtmQUQwTmVSaFAzZ1hnaU0zcVJsR1E?oc=5",
       "published": "Thu, 11 Jun 2026 04:57:54 GMT",
@@ -334,28 +297,6 @@
       "relevance": "low"
     },
     {
-      "title": "Innovation ecosystem driving rapid battery advancements - China Daily",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Cc1FyMWotTE5TczRSREtTUmstRjdQc1JZNEJzb0lKVVFGS0xNaXFVbW9nM09ua1FvVTFscG5qdU1MNXktdXcybnFHTkJUb3JMb2h5QWhaZXVORnJpSklNd3pzS2lIZUU2dVNaekd2amQzdkRQaTV5cW91ZGNwdw?oc=5",
-      "published": "Mon, 25 May 2026 07:00:00 GMT",
-      "summary": "Innovation ecosystem driving rapid battery advancements&nbsp;&nbsp;China Daily",
-      "source": "GNews | LFP Battery",
-      "priority": 1.2,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "CISA Tells US Agencies to Fix Security Bugs in as Little as 3 Days Thanks to AI Threats",
-      "link": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
-      "published": "Wed, 10 Jun 2026 20:55:40 +0000",
-      "summary": "“Defenders cannot afford to take weeks to patch,” one Cybersecurity and Infrastructure Security Agency official warned on Wednesday.",
-      "source": "Wired",
-      "priority": 1.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "Dell Coupon Codes: 20% Off for June 2026",
       "link": "https://www.wired.com/story/dell-coupon-code/",
       "published": "Thu, 11 Jun 2026 05:00:00 +0000",
@@ -374,17 +315,6 @@
       "source": "GNews | AI Safety",
       "priority": 0.0,
       "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "10 Battery Storage Companies to Know - Built In",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IZEFwSUZxa05RTDJJM3U0RXdnQUtkaE9wSS1TRE03RGYxNURGcU1UeHhleW5MR3FpM2hNU0kxUVR5cVA2N2RwZWhiT3Y2SWhLeVVueDZJRVVlRnFfeV9LcE9mQWc?oc=5",
-      "published": "Wed, 27 May 2026 15:18:33 GMT",
-      "summary": "10 Battery Storage Companies to Know&nbsp;&nbsp;Built In",
-      "source": "GNews | LFP Battery",
-      "priority": 0.0,
-      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -449,17 +379,6 @@
       "published": "Wed, 10 Jun 2026 21:30:44 +0000",
       "summary": "Lawsuit: \"Police let an error-prone AI system stand in for an investigation.\"",
       "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A Meta Employee Who Just Lost Their Job Was Detained by Immigration Agents",
-      "link": "https://www.wired.com/story/meta-layoffs-immigration-customs-enforcement/",
-      "published": "Wed, 10 Jun 2026 19:49:26 +0000",
-      "summary": "Colleagues discussed the incident on internal message boards, according to documents seen by WIRED.",
-      "source": "Wired",
       "priority": 0.0,
       "category": "独立RSS源",
       "_incremental": "new",
@@ -565,6 +484,17 @@
       "relevance": "low"
     },
     {
+      "title": "Novo Nordisk faces off in court with South African weight-loss drug compounder - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSTk4VnlhNFItNTY1VFJSWVA4MWJ6Nks3Y1doSk5vQVJkazJmMmM2RkdkX3NmN2lhVHY3Y3FoSF8zd09GZTk3Vk5LZW03VEN1UFM4MmdYeGJpdTBmelhvNGIxTUwzc3NRakNzVFdhQUoxM0lvVWJkYk5HeVJ4YzF0YUdVVVFLWnlucEpFRmtUaGtFa2RDQ2NyUE5iMXlIOTZ3YmdWbThYRl91UmJlcElMWXh6Y3RBV0xjUWItMS12YTBwSWtQMG04?oc=5",
+      "published": "Wed, 10 Jun 2026 14:46:09 GMT",
+      "summary": "Novo Nordisk faces off in court with South African weight-loss drug compounder&nbsp;&nbsp;Reuters",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "Racist comments targeting politicians tripled since Meta relaxed its rules",
       "link": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
       "published": "Wed, 10 Jun 2026 13:31:37 +0000",
@@ -587,17 +517,6 @@
       "relevance": "low"
     },
     {
-      "title": "GM Energy introduces V2G support and new energy storage battery chemistry",
-      "link": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
-      "published": "Wed, 10 Jun 2026 13:13:33 +0000",
-      "summary": "There are more than a quarter of a million V2G-capable GM EVs on the roads already.",
-      "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "대만, AI 칩 중국 수출 전면 통제 검토 - 경향신문",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MbUw4Tl9tVEc4NzFJWXNYYUNpUUNzazJ2c2VDMDdKOXpvZHlZejVEX2VLNDhVYnlmblJlczA3b2M2alk2bEZJUjM1bktNanRPM2xIemJXVjZKUdIBX0FVX3lxTE9XZmcweEdUVjJmelpObmFaSFhFZlJEOGJsc3plb0RpWkltUkU0MXZYOE94akFsNFhlMlhiMjFFZEdEbnZxUUVCWnkxeVRXR3llREhRM0xkZjRJbDJfc25r?oc=5",
       "published": "Wed, 10 Jun 2026 12:19:00 GMT",
@@ -616,20 +535,6 @@
       "source": "GNews | KR 반도체",
       "priority": 0.0,
       "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "First-Ever Pacesetter Awards Recognize HR Breakthrough Achievements On-Stage at Josh Bersin Company Irresistible 2026 - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVmJ6TlJhczJzVlUyV1dmNmRFUXEtWmF5dXY4aWFWWnZhNVVtNGJUUGpPd1k3cy1Qb1gyT0FGWUx6dE9rT1JwSzF2QVhTYkJHbXhCXzl5ZFpxYWF2bEpmWFBnVkZ5VElnRVZRWFlwMVktYWo0WllFd0Fxblc4bUViNDlNcnNMSTdCc3cxWld5Y3RVOU5iSHRGLXBpVUJRNDhIakRLc3pzU3oyTDUtMmtLNkxyYWVKOTBPZHR0dG5iR3hjT3hUYjFSX1BuVVhab2JCbE1scS1DT083VEhYTG1tUktsdFNobnJGTnFlUk1Vb3hwZV82cVFmZlV2YlR4bEl0R3Zn?oc=5",
-      "published": "Wed, 10 Jun 2026 11:07:00 GMT",
-      "summary": "First-Ever Pacesetter Awards Recognize HR Breakthrough Achievements On-Stage at Josh Bersin Company Irresistible 2026&nbsp;&nbsp;PR Newswire",
-      "source": "GNews | Signal: First Ever Tech",
-      "priority": 0.0,
-      "signal_keywords": [
-        "breakthrough"
-      ],
-      "category": "信号性查询",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -711,10 +616,10 @@
       "relevance": "low"
     },
     {
-      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fRkJhRnRXeV9aYlBxUXdULXhwblJJMkI4Nmk5YVYwRm03UGd6ejVfS3h4Y05jb2tuZWhvLXVZV0t3NEc4NUZ5YmhfMA?oc=5",
-      "published": "Wed, 10 Jun 2026 01:24:51 GMT",
-      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;v.daum.net",
+      "title": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhamRHMUd3R0hEWUNKOVhDX0h1T1NPMGFGT0NIOHBGNkdLb19uNE0yQTZqMVg1VHpvTF83UWJLV1V2aHhJVlZYMW1ZTUhsS1RuYUhjajZaVUNNd9IBWEFVX3lxTE10NnNFTjdLNm94Wk1CRnNKeEZoTmdYeW9EUTlGeVRFY25NbFFLX0F1OGFISVJZSnpYenBfdjV1bGFKSS12QnN0VDdUZFliaU1wTVE3SEhXSkE?oc=5",
+      "published": "Wed, 10 Jun 2026 01:24:44 GMT",
+      "summary": "대만, 中 AI칩 수출 전면 규제 검토…美 반도체 봉쇄망 동참&nbsp;&nbsp;아주경제",
       "source": "GNews | KR 반도체",
       "priority": 0.0,
       "category": "本地语言搜索",
@@ -733,28 +638,6 @@
       "relevance": "low"
     },
     {
-      "title": "Why Canadians can now get cheaper generic Ozempic - and Americans can't - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53dHR4RnZ1NGY1eHJuTzNUODEycDRZSXhDSW9qcW5aOVo0X0tKSDcteUQyWVhXQzBFS2JFWldpNjB2SFlhVlYtdXJKeTM2R1dYNDJBRzJlMXFOUQ?oc=5",
-      "published": "Wed, 03 Jun 2026 23:34:48 GMT",
-      "summary": "Why Canadians can now get cheaper generic Ozempic - and Americans can't&nbsp;&nbsp;BBC",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Automakers, retailers warn US memory-chip shortage is impacting prices - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlVNYkY1ZGNrbFpNc1FiMFZLckVCdlhMb2xpSzN4TllOZ1cwLUNBMjQwamlpMzdkSDN5cXFQYm5xWGZLSzRtVkpraWdLamRRQm9wQkd4bGJDNmEwZXdHX3plUm5TenN5WEUxZmRoLXNlQ3BwZFA4ako2RndhdURWOXR5ZVFXeHdnbVVHY1prSnJnaUtoYm1ROGpNOUFkakE0QVZqMUtPcHZ3SF9nOXJrU29zQ1RvOVBjdHEzSGtyaU80azBsU1RXRQ?oc=5",
-      "published": "Wed, 03 Jun 2026 17:54:07 GMT",
-      "summary": "Automakers, retailers warn US memory-chip shortage is impacting prices&nbsp;&nbsp;Reuters",
-      "source": "GNews | Auto Chip Shortage",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "After Suno, Udio asks court to seal the size of its AI training data in Sony Music’s copyright case, also citing ‘competitive harm’ - Music Business Worldwide",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOUJaNmMxRUtrOWd6dFE5bjY1UmEzWklKZ09ETTBqZnZaeEJZYXY4RTg5ODdKWFNwY09jWUlUYUVYRmcxTkliLUhkUUl0S2IyQ0V1bzVWYWYyM3Myd0ZZdkJ2WVA1QzZiVkduOVYtcF9tSjY3cVdnd3pUc3RUbWJ1UUloeEx3cDA1UjhrVWZ2UXpyUlJvU1o5cHJGU2FwVWNEZXVtMmJiOEw2dUViTVVFVU1yczVsQkVxX2VGcjlMRnVzVDFWOE82eEh3WFNfLVRmWkhsb2VKSWg5bThMempSU1V0YnpaY0NtQ1lJeXBBN2gxRVU5MzVicndn?oc=5",
       "published": "Wed, 03 Jun 2026 14:55:19 GMT",
@@ -766,13 +649,13 @@
       "relevance": "low"
     },
     {
-      "title": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose - ScienceDaily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fZ0Y0aXZqRC1ONER4LXRvUFpnaEg0bVlJTkVrLUh3WU40aVhVTjBiZnpqRFR2a1l0eW1oRnhGRExSdXN2U29PN0dSZUNMVlAyYUVYN0wtTlRXVUxfcVBPdjhNcmRKN1lFM3pUOWRyYw?oc=5",
-      "published": "Wed, 03 Jun 2026 14:05:57 GMT",
-      "summary": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose&nbsp;&nbsp;ScienceDaily",
-      "source": "GNews | GLP-1 Drug",
+      "title": "Automakers, retailers warn US memory-chip shortage is impacting prices - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlVNYkY1ZGNrbFpNc1FiMFZLckVCdlhMb2xpSzN4TllOZ1cwLUNBMjQwamlpMzdkSDN5cXFQYm5xWGZLSzRtVkpraWdLamRRQm9wQkd4bGJDNmEwZXdHX3plUm5TenN5WEUxZmRoLXNlQ3BwZFA4ako2RndhdURWOXR5ZVFXeHdnbVVHY1prSnJnaUtoYm1ROGpNOUFkakE0QVZqMUtPcHZ3SF9nOXJrU29zQ1RvOVBjdHEzSGtyaU80azBsU1RXRQ?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Automakers, retailers warn US memory-chip shortage is impacting prices&nbsp;&nbsp;Reuters",
+      "source": "GNews | Auto Chip Shortage",
       "priority": 0.0,
-      "category": "生物+航天",
+      "category": "半导体",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -784,6 +667,39 @@
       "source": "GNews | EV Tariff",
       "priority": 0.0,
       "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose - ScienceDaily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fZ0Y0aXZqRC1ONER4LXRvUFpnaEg0bVlJTkVrLUh3WU40aVhVTjBiZnpqRFR2a1l0eW1oRnhGRExSdXN2U29PN0dSZUNMVlAyYUVYN0wtTlRXVUxfcVBPdjhNcmRKN1lFM3pUOWRyYw?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Popular GLP-1 weight-loss drugs linked to lower risks of addiction and overdose&nbsp;&nbsp;ScienceDaily",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Why Canadians can now get cheaper generic Ozempic - and Americans can't - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53dHR4RnZ1NGY1eHJuTzNUODEycDRZSXhDSW9qcW5aOVo0X0tKSDcteUQyWVhXQzBFS2JFWldpNjB2SFlhVlYtdXJKeTM2R1dYNDJBRzJlMXFOUQ?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "Why Canadians can now get cheaper generic Ozempic - and Americans can't&nbsp;&nbsp;BBC",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sony Music expands copyrights in lawsuit against Udio - Let's Data Science",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGZaNkhXNWRkd2k0cXdlQXpUMFMwTU55M0ItLTVLbGN2dlJhYVhVam9KTU10d3lYMjhRcS15SFJjS2V2WVZzbTNkUk9jLVFkVVhkV05UMFF4R2toOFFyV3AteWRqWFd5ZmJBb29lS01LQ1RkWl9STms0d0lHb3JpMDYzd05EVjB2NDJlOGFVMExpYURNWmhKc2Q5RQ?oc=5",
+      "published": "Tue, 26 May 2026 07:00:00 GMT",
+      "summary": "Sony Music expands copyrights in lawsuit against Udio&nbsp;&nbsp;Let's Data Science",
+      "source": "GNews | AI Copyright",
+      "priority": 0.0,
+      "category": "AI",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -808,17 +724,6 @@
       "signal_keywords": [
         "discovery"
       ],
-      "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sony Music expands copyrights in lawsuit against Udio - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGZaNkhXNWRkd2k0cXdlQXpUMFMwTU55M0ItLTVLbGN2dlJhYVhVam9KTU10d3lYMjhRcS15SFJjS2V2WVZzbTNkUk9jLVFkVVhkV05UMFF4R2toOFFyV3AteWRqWFd5ZmJBb29lS01LQ1RkWl9STms0d0lHb3JpMDYzd05EVjB2NDJlOGFVMExpYURNWmhKc2Q5RQ?oc=5",
-      "published": "Tue, 26 May 2026 07:00:00 GMT",
-      "summary": "Sony Music expands copyrights in lawsuit against Udio&nbsp;&nbsp;Let's Data Science",
-      "source": "GNews | AI Copyright",
-      "priority": 0.0,
       "category": "AI",
       "_incremental": "new",
       "relevance": "low"
@@ -879,46 +784,13 @@
       "relevance": "low"
     },
     {
-      "title": "YouTube Terms of Service Allow AI Music Training, Google Says in Copyright Lawsuit - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWVXVGdVSHVXQ3VvSUJ0TWxyMUhVbXh4Ynd5U0dJOVJYb3NvRWcxWXZfUUc4ZWtycUF5YmpjUjE0TDNWU3VlNkNuWm80Yl9yNVlXYUlHQklFNndQNGFaOTZETktiZkVrSHZvRDJWWHhpZHQ2bUtqOVF6Y1lvMjEtZm9HdFNqbHgwUXdPTi1waVZTUQ?oc=5",
-      "published": "Tue, 09 Jun 2026 22:31:28 GMT",
-      "summary": "YouTube Terms of Service Allow AI Music Training, Google Says in Copyright Lawsuit&nbsp;&nbsp;Billboard",
+      "title": "YouTube Terms of Service Allow AI Music Training, Google Says in Copyright Lawsuit - K-Jewel 99.3 FM",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFVsWi1nUk9iaHlpSHFJdWZRaDRrdUdXWTFBX0VYWElJbWVoTzBhaldHOE42c0dzbTI2aGlJSU5DNFpqNkFYQ2dtTTFZM1JOdmo5dmNKYVliMEJjcGhlcXhDV2R3NTNUeGFiY2FvYVd2ODNqZ0RnQ1RfUUJqd2lVRmlhWHNsYVBPRDhiTWl0TEFVTEhVZ0tQU1ZPSHNfZzFma1EyYmdiNmdLWTR0N2VRYzZjSkE?oc=5",
+      "published": "Tue, 09 Jun 2026 23:08:55 GMT",
+      "summary": "YouTube Terms of Service Allow AI Music Training, Google Says in Copyright Lawsuit&nbsp;&nbsp;K-Jewel 99.3 FM",
       "source": "GNews | AI Copyright",
       "priority": 0.0,
       "category": "AI",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-      "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
-      "published": "Tue, 09 Jun 2026 20:56:52 +0000",
-      "summary": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
-      "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Three key vital signs make up the \"urban pulse\" of a city",
-      "link": "https://arstechnica.com/science/2026/06/study-how-to-take-the-urban-pulse-of-a-city/",
-      "published": "Tue, 09 Jun 2026 20:35:22 +0000",
-      "summary": "Cities are dynamic, not static grids, and urbanization is a \"spiky,\" cyclical, and asynchronous process.",
-      "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Commonwealth Fusion makes the physics case for its 400 MW reactor",
-      "link": "https://arstechnica.com/science/2026/06/__trashed-19/",
-      "published": "Tue, 09 Jun 2026 20:25:56 +0000",
-      "summary": "Five peer-reviewed papers update the design and model its expected output.",
-      "source": "Ars Technica",
-      "priority": 0.0,
-      "category": "独立RSS源",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -992,17 +864,6 @@
       "relevance": "low"
     },
     {
-      "title": "Tesla Stock Rises on China Sales Surge and AI Ambitions - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVU5XNVdGLWRuVDFFd1E0MlJIR3pJUmVUUTBOcUZaSE9GZjFFZlpNWGt2b2VkUWpPb2RhUGttYm1ibXdnMlBRNHA4Yy1lcklMdDdYbVo2Njd5cVdFdFIyX2VlWVdmcjEtS3d0M1BJekM5Y2JlclRDbkVWN0dLNy1aZXI1bGx6ZHFMaEVRWXVPbUNxajJzVDlDMnBzMWY2RzdCR1l3UWtGeEpOeDhNZDFmeUNyczlnTlZrX0dKaGhVWS01bXM4UzlVRGVGeHpuMnRXQ1VYckxabEw0VUJEUUZ1VW9NUktLWUZUc2ZwbTlNeGY?oc=5",
-      "published": "Tue, 02 Jun 2026 17:44:04 GMT",
-      "summary": "Tesla Stock Rises on China Sales Surge and AI Ambitions&nbsp;&nbsp;MSN",
-      "source": "GNews | EV Competition",
-      "priority": 0.0,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "AI impact on employment 2026: Labor market data and outlook - S&P Global",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPanRCS0pRZ0ZsS05aQUtycVpvVWk3UTlWS2xGVFBwV1FWZUtDaUpDUkM3cU92ZURCNlViVUR0YXVxYXptamVIaXI5Sy1ZWnZMMHM4RnZtSFNnZnJySk80YW5OR1Q5OEtvYVZLUy1SMi1fdWgzbVY2ckY0TFVKMU5qUGloMHdNa1E4aWdUd3hCR1FjYTli?oc=5",
       "published": "Tue, 02 Jun 2026 17:18:33 GMT",
@@ -1010,6 +871,17 @@
       "source": "GNews | GenAI Enterprise",
       "priority": 0.0,
       "category": "AI",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[분석] 美, 1년 만에 中 AI칩 우회로 막았지만···이미 '빈 마구간' - 여성경제신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52Vm03TXFfaGlLaUpzS0E4aUNTSkZDbnBjcTlLVDJCZ3g3YUE3dE51LXo2d2IyMzJ3UTNtOXN6TTdNcmJONWFWNV9iMkI4bl82ejE5MGJIZ2txUjFWdl95dHhud1g3eW44dVpXa0J4Y2t0c03SAXdBVV95cUxNaDR3N1lGWUpDRXl3UTc3UGVLMkhpTkNMNlNsMTRZSVYzbDFCTGF6M0lCa1Y5cW1HcDFRNmpkeW55T3BrcTNCTmY4ZTZZOGw1SG0yNlBDWjFfQ25SWjBWYl9sSHctdmQ0bWpick1la3VsZmpKd1FpUQ?oc=5",
+      "published": "Tue, 02 Jun 2026 09:00:00 GMT",
+      "summary": "[분석] 美, 1년 만에 中 AI칩 우회로 막았지만···이미 '빈 마구간'&nbsp;&nbsp;여성경제신문",
+      "source": "GNews | KR 반도체",
+      "priority": 0.0,
+      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1047,10 +919,10 @@
       "relevance": "low"
     },
     {
-      "title": "European carmakers face EU pressure to diversify chip suppliers - Euronews.com",
+      "title": "European carmakers face EU pressure to diversify chip suppliers - Euronews",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEpJb3JocG52TFN3b0dzb2RJNERoYU1CRjhmVlZjUHFWcERPZVRwMWgxT0QxMEg4MmViS1hlQnhTaEVnMV9ybWxyZms0ZGRQUnVNSXMwei14akItTDRYXzg4SWQtSjc1bm9ZYzhQTlp1SmdESnRIRE0td0MzS1J0WVBlbVVVYVRJYllaaEE5US1ab253SzV2cHBnWXZDRW5LR08tcldGVFF0Yi1RWlE?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "European carmakers face EU pressure to diversify chip suppliers&nbsp;&nbsp;Euronews.com",
+      "summary": "European carmakers face EU pressure to diversify chip suppliers&nbsp;&nbsp;Euronews",
       "source": "GNews | Auto Chip Shortage",
       "priority": 0.0,
       "category": "半导体",
@@ -1058,24 +930,13 @@
       "relevance": "low"
     },
     {
-      "title": "The Best Portable Power Stations of 2026 - gearjunkie.com",
+      "title": "The Best Portable Power Stations of 2026 - GearJunkie",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yVS1oSkpLY2ZJOV9DX3NpMnhNR2xOTzd2UkxFOUItbi01dmFQa0lxSVEzMXplMUc3U0JKUlR1WUVKbmF5R1ZYdm00MnMtRlJadG1QTzduc2tRdVlWWWw0TDg0TTYtdXlCZGRBTlhLOA?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "The Best Portable Power Stations of 2026&nbsp;&nbsp;gearjunkie.com",
+      "summary": "The Best Portable Power Stations of 2026&nbsp;&nbsp;GearJunkie",
       "source": "GNews | EV/Battery",
       "priority": 0.0,
       "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Weight-Loss Drugs May Have Surprising Side Effect: Stalling Cancer - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdjY1M0laT01yOVktU1FEb0lFVVBuYjVEV0trM0JtV184RmljZGJ2a2hvMHloaHFaek5HczhvVkR2MzAtb0Zvd2I0dFhmQmdZNXNCNGVkSnlNV000b01rVEVOTEEyOGN4TjdfekkxOXBQTDQ4ay1aaFVSYnA4OExpVDlRSzFqVVdxdl9TRGtvV0g5RmtkLUFDNzNBdHNiclBlbUdVd2tZNmY4MTZ4R2ZvZ1pVYVE5c00?oc=5",
-      "published": "Thu, 21 May 2026 07:00:00 GMT",
-      "summary": "Weight-Loss Drugs May Have Surprising Side Effect: Stalling Cancer&nbsp;&nbsp;WSJ",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1084,6 +945,17 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RTW0zVTI4MFpxQThuMDFFSkJ6UG5VLUI0eGE5clI5Y2dTaGRFNWl1UTVlRE9ReldwLWxRdi1Uek5jUFRaYk9XYW5RNzAzNnVqdURkVjVXU2psaFhTd2s4SnJMSWw0VW9aNndPcDU3bw?oc=5",
       "published": "Thu, 21 May 2026 07:00:00 GMT",
       "summary": "Popular GLP-1 weight-loss drugs like Ozempic slash heart attack and stroke risk&nbsp;&nbsp;ScienceDaily",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Weight-Loss Drugs May Have Surprising Side Effect: Stalling Cancer - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdjY1M0laT01yOVktU1FEb0lFVVBuYjVEV0trM0JtV184RmljZGJ2a2hvMHloaHFaek5HczhvVkR2MzAtb0Zvd2I0dFhmQmdZNXNCNGVkSnlNV000b01rVEVOTEEyOGN4TjdfekkxOXBQTDQ4ay1aaFVSYnA4OExpVDlRSzFqVVdxdl9TRGtvV0g5RmtkLUFDNzNBdHNiclBlbUdVd2tZNmY4MTZ4R2ZvZ1pVYVE5c00?oc=5",
+      "published": "Thu, 21 May 2026 07:00:00 GMT",
+      "summary": "Weight-Loss Drugs May Have Surprising Side Effect: Stalling Cancer&nbsp;&nbsp;WSJ",
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
@@ -1113,6 +985,160 @@
       "relevance": "low"
     },
     {
+      "title": "Why You Might Already Own SpaceX Shares, Siri’s AI Makeover, and Knicks Owner’s Surveillance Machine",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-why-you-might-already-own-spacex-shares-siri-ai-makeover-knicks-owner-surveillance-machine/",
+      "published": "Thu, 11 Jun 2026 23:37:49 +0000",
+      "summary": "Today on Uncanny Valley, we take an early look at the SpaceX IPO and why you might find yourself among the investors without even realizing it.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "‘Hands Off Our NHS’: Anti-Palantir Protests Break Out in UK Over Deal With National Health Service",
+      "link": "https://www.wired.com/story/palantir-protests-nhs-conference-uk/",
+      "published": "Thu, 11 Jun 2026 21:33:31 +0000",
+      "summary": "Crowding the gates of a major health care conference, protesters called for Palantir to be booted out of the UK’s National Health Service over privacy concerns and political grievances.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Meet the OpenAI Engineer Leading ChatGPT’s Biggest Transformation Yet",
+      "link": "https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/",
+      "published": "Thu, 11 Jun 2026 21:21:04 +0000",
+      "summary": "Thibault Sottiaux helped make AI coding one of OpenAI’s fastest-growing businesses. Now he’s overseeing a sweeping overhaul of ChatGPT.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Massive Effigy of Elon Musk Raised Over Times Square to Protest Grok",
+      "link": "https://www.wired.com/story/massive-effigy-of-elon-musk-raised-over-times-square-to-protest-grok/",
+      "published": "Thu, 11 Jun 2026 20:50:13 +0000",
+      "summary": "Activists raised a 40-foot-tall inflatable Elon Musk in Manhattan to draw attention to the risk he allegedly poses to investors.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Grok Is Still Hosting Sexualized Deepfakes of Famous Women",
+      "link": "https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women/",
+      "published": "Thu, 11 Jun 2026 19:41:01 +0000",
+      "summary": "A WIRED investigation found dozens of “nudified” deepfake images and videos on Grok's website, including nonconsensual depictions of celebrities and at least one prominent US politician.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ted Cruz and Ron Wyden try to fight censorship with bipartisan JAWBONE Act",
+      "link": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
+      "published": "Thu, 11 Jun 2026 19:31:37 +0000",
+      "summary": "Cruz/Wyden bill would help Americans sue federal officials over censorship.",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Is It a Super El Niño Year? It Could Turn the World’s Weather Upside Down",
+      "link": "https://www.wired.com/story/super-el-nino-turns-worlds-weather-upside-down/",
+      "published": "Thu, 11 Jun 2026 19:24:46 +0000",
+      "summary": "From a wet winter in the Southwest to fewer Atlantic hurricanes, this is what to expect as a potential super El Niño takes shape.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AcuRite admits new app falls short, delays old app’s May shutdown to fix problems",
+      "link": "https://arstechnica.com/gadgets/2026/06/iot-gadget-firm-acurite-delays-forced-app-migration-due-to-new-apps-shortfalls/",
+      "published": "Thu, 11 Jun 2026 19:08:54 +0000",
+      "summary": "The old app \"still needs to be retired,\" AcuRite tells us.",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "After nearly breaking, NASA's Deep Space Network \"worked well\" on Artemis II",
+      "link": "https://arstechnica.com/space/2026/06/after-nearly-breaking-nasas-deep-space-network-worked-well-on-artemis-ii/",
+      "published": "Thu, 11 Jun 2026 18:34:01 +0000",
+      "summary": "\"Some missions are using more than what their paperwork would say.\"",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "F1 teams spend millions on their simulators—what makes them different?",
+      "link": "https://arstechnica.com/cars/2026/06/whats-so-special-about-a-formula-1-driver-in-the-loop-simulator/",
+      "published": "Thu, 11 Jun 2026 18:18:12 +0000",
+      "summary": "Latency, bandwidth, and fidelity all matter when you're chasing milliseconds.",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Did Iron Age Britons remove brains of the dead?",
+      "link": "https://arstechnica.com/science/2026/06/did-iron-age-britons-remove-brains-of-the-dead/",
+      "published": "Thu, 11 Jun 2026 17:21:53 +0000",
+      "summary": "Archaeologists found apparent scrape marks inside a skull; long bones may have been sharpened into tools.",
+      "source": "Ars Technica",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Drug Sites Hijacked Spotify’s Search Ranking Through Fake Podcasts",
+      "link": "https://www.wired.com/story/drug-sites-hijacked-spotifys-search-ranking-through-fake-podcasts-report-finds/",
+      "published": "Thu, 11 Jun 2026 16:07:30 +0000",
+      "summary": "A joint congressional report describes a spam operation that turned tens of thousands of fake podcasts into search-engine bait for illegal pharmacy and scam sites.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Daily weight-loss pills approved for UK sale - The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXhJUmdrQWItdkQzdEpiNllnakFOU24wOGNIbm1hMHdGZDlwT0ZkRGtpWXpkQ05tREU1VG1LQlNPOTFRN2NxcmloRzQwR25fc1Q4XzhqamZOR1BGM2VNQ1IwVlVGbG90ZFBFMVh1ZUNwMjd5NEZmeXRfNFBvdldPd1RUQlhtbVhhQXRQQUZZcnRDTlFpZUlEbWJHbWd0X1FWdURpZQ?oc=5",
+      "published": "Thu, 11 Jun 2026 15:00:00 GMT",
+      "summary": "Daily weight-loss pills approved for UK sale&nbsp;&nbsp;The Telegraph",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "New drug could fight ‘Ozempic butt’ — and some other unwelcome side effects of GLP-1 drugs - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObmgxSExBRDRsMlpfVjRUVlctczJEWUdYYzJxandXRl9Gb2RoRzNSZEpFVGVQZlJRQ2ttZTNjVnk3NEo3bm93WGpGWVN4R2xKdGZydC1iSF9sMXdQN3NyVWNpSkx2RGE4M185MmVDZFZsZUJCQmJITVZjTTN3TXM3b25zcTBiNTd1OHQtSG5DeEJMYllURkE3NlJJb25UX0d2ZUJyM1k4aw?oc=5",
+      "published": "Thu, 11 Jun 2026 14:14:00 GMT",
+      "summary": "New drug could fight ‘Ozempic butt’ — and some other unwelcome side effects of GLP-1 drugs&nbsp;&nbsp;New York Post",
+      "source": "GNews | GLP-1 Drug",
+      "priority": 0.0,
+      "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "\"This cannot continue\": Xbox leaders lay out \"hard truths\" behind sagging brand",
       "link": "https://arstechnica.com/gaming/2026/06/this-cannot-continue-xbox-leaders-lay-out-hard-truths-behind-sagging-brand/",
       "published": "Thu, 11 Jun 2026 13:56:30 +0000",
@@ -1131,6 +1157,17 @@
       "source": "Ars Technica",
       "priority": 0.0,
       "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "GM may ditch lithium-iron phosphate batteries for future EVs - The Detroit News",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTG90V2NOTlhuaURObkgzcVFIWi1XYjlLdDlhQUhTYWhETHJOTnF4NjllZ2NIaUJsdnYtUkFlc21XWm5hWG5KZmhEd0Q4Yks3TnA0N3ViR2RkSFJsdTJsR1ViUEd5TkpXN29ES1k5NFVfdWpnS3ZwaGRQYUw2bTc4UHNad2E4RXRBZEZSY2p5WlZ2NEpaODhzMk9lQkhyY0ZkaG53anYtYzRFZmNWbllRTEVocE5iMUhZOGxNM1RDTU00VWRqWk5VUHFDb3NZdHhwdEZxYnU3NGVwVHY4QkdmMHBn?oc=5",
+      "published": "Thu, 11 Jun 2026 12:59:00 GMT",
+      "summary": "GM may ditch lithium-iron phosphate batteries for future EVs&nbsp;&nbsp;The Detroit News",
+      "source": "GNews | LFP Battery",
+      "priority": 0.0,
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1256,6 +1293,17 @@
       "relevance": "low"
     },
     {
+      "title": "How to Watch the 2026 World Cup",
+      "link": "https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup/",
+      "published": "Thu, 11 Jun 2026 10:00:00 +0000",
+      "summary": "The games start June 11 and end with a grand finale in New Jersey on July 19. There are 104 of them. Here’s how to watch ’em all.",
+      "source": "Wired",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "How Mexican World Cup Stadiums Achieved FIFA’s Environmental Certifications",
       "link": "https://www.wired.com/story/how-mexican-world-cup-stadiums-achieved-fifas-environmental-certifications/",
       "published": "Thu, 11 Jun 2026 10:00:00 +0000",
@@ -1267,13 +1315,13 @@
       "relevance": "low"
     },
     {
-      "title": "How to Watch the 2026 World Cup",
-      "link": "https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup/",
-      "published": "Thu, 11 Jun 2026 10:00:00 +0000",
-      "summary": "The games start June 11 and end with a grand finale in New Jersey on July 19. There are 104 of them. Here’s how to watch ’em all.",
-      "source": "Wired",
+      "title": "How Ozempic and Wegovy Are Driving Up Whey Protein Prices - nssmag.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSnVWSkJWdjduR2EtQmxxdmFMVExOSkpzR0xLdGllREhjaHZjeXo1WGxyeloxQVptTGg0cnYwMEZZSTlJcXFGdWFmSlJkOUc1OE5QenJWbWV4MmRibzBILWJLV0s0NDlsU2RGQkxQQmJGU1pwVVpYQzFWb3Y5REdUMDR5SkZXZWVULVhJYg?oc=5",
+      "published": "Thu, 11 Jun 2026 09:21:34 GMT",
+      "summary": "How Ozempic and Wegovy Are Driving Up Whey Protein Prices&nbsp;&nbsp;nssmag.com",
+      "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
-      "category": "独立RSS源",
+      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1399,50 +1447,6 @@
       "relevance": "low"
     },
     {
-      "title": "30% VistaPrint Coupon & Promo Codes | June 2026",
-      "link": "https://www.wired.com/story/vistaprint-coupon-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Newegg Promo Code: 10% Off in June 2026",
-      "link": "https://www.wired.com/story/newegg-promo-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "AT&T Promo Codes: $50 Off This June 2026",
-      "link": "https://www.wired.com/story/att-promo-code/",
-      "published": "Thu, 11 Jun 2026 05:00:00 +0000",
-      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&amp;T coupons and deals.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-      "link": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
-      "published": "Thu, 11 Jun 2026 03:11:22 +0000",
-      "summary": "The company changed course after researchers spoke out against the policy, which would have covertly limited Claude’s ability to develop competing AI models.",
-      "source": "Wired",
-      "priority": 0.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "대만, 중국 全고객 대상 AI 칩 수출 규제 검토... 美 봉쇄망 동참 시동 - 마켓잉크",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aeWlfWFFwcTllWk5QNVZubENGTVFfTk5KMnJKbHFNenpTOWtEQTI0X1BNQlR2bWpheERxTDM5MmxNWTN0ZERHSDJZSXZabDV2ay1INGxIcEhESWpRVFRVWlB1TGVtRFkzYzJGVVJn?oc=5",
       "published": "Thu, 11 Jun 2026 02:36:12 GMT",
@@ -1534,10 +1538,10 @@
       "relevance": "low"
     },
     {
-      "title": "South Korea export growth hits four-decade high on AI chip boom - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObUZaNE0zcldLWGpoVWFONHR4OS12MTZ4Um5rN2xYNkZLdUUyM3JWbDMxX0I0WTFaNXNuRXNnaGJIeGJ3WjdxV1ltams4cGVEeURGX2Jxd1NEV1BsNFNjVHV2Rk12NnR4VGZxQmxlMHU1X1F6UTdvdUxURnJ6bHdKdUNmM0o4elVZbVozSG5McmlkLXQ1eV8tWnNPX3laNmpHOVo2eWl6ZXZKc1VQUldMMTBoQjN4TWlJNnR1MHFwckEzMWstNVdpdGI1WTQ?oc=5",
+      "title": "South Korea export growth hits four-decade high on AI chip boom - The Mighty 790 KFGO",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdWJoOFRPSHBMVEpuXzhxcnRudnBjNTdfcjktUEhlN01lRVRnTXEwamJyeW9mLWhzaGRNOXlodm5YWjlLeXZCN1VyYWxNS0VuckRFdGNkaHhjYkxQa2huLS1nYl9MS2g1RElMa3hpYjRiT3ZFeThudjYyNXBGYTBGai1ndUVZYncxUVA5TXJQb1NIeldHSG02a1RseC1qQlVka291Sk9nVkZPc1hJNHhqc2x3?oc=5",
       "published": "Sun, 31 May 2026 07:00:00 GMT",
-      "summary": "South Korea export growth hits four-decade high on AI chip boom&nbsp;&nbsp;Reuters",
+      "summary": "South Korea export growth hits four-decade high on AI chip boom&nbsp;&nbsp;The Mighty 790 KFGO",
       "source": "GNews | Signal: Record Tech",
       "priority": 0.0,
       "category": "信号性查询",
@@ -1550,17 +1554,6 @@
       "published": "Sun, 24 May 2026 07:00:00 GMT",
       "summary": "AI scans 400,000 Reddit posts and finds hidden Ozempic side effects&nbsp;&nbsp;ScienceDaily",
       "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "IonQ’s Quantum Leap in Error Correction Meets a Wall Street Reality Check - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVm5lcTRDeS1lcTVYeC1RSUdxVGZiUjU5WlB0ZXRTUFRLV1FISjJ6SFFiYXZFbnVyRU5yd1VienpDNFljak5wM0NWQkY2X29oaUJacnpSUDZFRzRDWmZOTUZWanAybXE4cnpaYkdXRmczS0ZOTGJoclB6OHNaVkR3dkd2N2V4NnNfV2drbHRyQWs0aUl2bjJJYl9pcGVnYlczOFB1MHBQSGRWMnJoUHRkQ3lVNHNYOHA2bDJUS0gtYkFGczJf?oc=5",
-      "published": "Sun, 07 Jun 2026 17:05:10 GMT",
-      "summary": "IonQ’s Quantum Leap in Error Correction Meets a Wall Street Reality Check&nbsp;&nbsp;AD HOC NEWS",
-      "source": "GNews | Quantum",
       "priority": 0.0,
       "category": "生物+航天",
       "_incremental": "new",
@@ -1585,6 +1578,20 @@
       "source": "GNews | GLP-1 Drug",
       "priority": 0.0,
       "category": "生物+航天",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump’s Critical Minerals Memo: Talent as National Security Strategy - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVVFjZG1LODBKV2FwUm1yVWc1TG15QUFrTnJnNHRadUhpdUJfZnBneFh3aEZ4NThaU0ZrVlhqS1NBa2RRR3pBN3JDUzVlN29EQ1Ffck5teGtuSVViUzBablRsanRoTjcza0VFNHJEc3lnVUJGdDZ2UWJvWnAwWXJ1aEN4VHpsRnFXVkZuLWpwa0FhQU9XQ0E?oc=5",
+      "published": "Sat, 30 May 2026 21:22:05 GMT",
+      "summary": "Trump’s Critical Minerals Memo: Talent as National Security Strategy&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | Signal: Tech Disruption",
+      "priority": 0.0,
+      "signal_keywords": [
+        "discovery"
+      ],
+      "category": "信号性查询",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1633,6 +1640,17 @@
       "relevance": "low"
     },
     {
+      "title": "Lithium-ion Battery Market Size & Share Report [2026-2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeDJLcUtQMXBpSGdTVWpSWElDdl9GSE9tdGxOZ2dPNUV1SW9USzBCZF9xQXljRkJSbHNVX1dkb05jc2JQblcyTFhSTnNlZnNmbVNYcVdfcFBpQlhCWGhaVF91THZiRmJ6NHpqUDZiLTlVNnJpSUcyM3p2LU5WOUpNd2JRVHFHWW10ZUFUTjVadVVxeXFr?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Lithium-ion Battery Market Size & Share Report [2026-2034]&nbsp;&nbsp;Fortune Business Insights",
+      "source": "GNews | LFP Battery",
+      "priority": 0.0,
+      "category": "电动车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "EU-China Relations After the 2024 European Elections: A Timeline - China Briefing",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWHZOcGl1U24wVWpZdjNyTlFHVTdUNFFSOXBMVUI2clNsSzNMMmFUeFRtRmk4WXZjMDZXT1Y2eFBrMGh1QUU4M3p5eDh3VkxhUS1sbTIyOGE4WG9IOFBMRFpMOWI2Z3pWQUNTZWZkWmwtSEZsRUVtcUdad2RrLXduMXdHQ2trci1OQ3cxdE9Na3BBNV9rRVh0alZVdU42d0VVV0E?oc=5",
       "published": "Mon, 25 May 2026 07:00:00 GMT",
@@ -1654,6 +1672,17 @@
         "breakthrough"
       ],
       "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것” - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHE4dEhLRzVNdkRSclVQUnRjWWtiY2ZhTFUyb3lPdjV2UDlqWUFfMm1zRlRMMXlsQ2JFb3hNVE1lcVFtS21EbjZvZUEya0tKbUFBV2ZsX2hiNmdlR1VRRGlXYXpQZTc2dEpOUW5tcWRVMG55Q0xkYW01VHpUb214NVN6WQ?oc=5",
+      "published": "Mon, 18 May 2026 07:00:00 GMT",
+      "summary": "美·中 정상회담에도 ‘반도체 노딜’… 中 “엔비디아 대신 중국산 칩 쓸 것”&nbsp;&nbsp;조선일보",
+      "source": "GNews | KR 반도체",
+      "priority": 0.0,
+      "category": "本地语言搜索",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1757,6 +1786,17 @@
       "relevance": "low"
     },
     {
+      "title": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제” - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRWVvUThteE9Ia3dSWTBvQzlZZl92Z183d3BNNnowTVJJQVROWkJfdkRBdWRCcnRhaFlabC10NGRmVXhLcU5pQ25rRUFuQ0NWT3fSAVNBVV95cUxONEtBYnlBZ195NFRtTVZpWGh4Slc0QlNURVJ1T3hpZEVENzVJS2IwQm1iQVo1Y0NJSk9keFJLY09aUnRUQXdWZVozd2ZWSHIxYXFCRQ?oc=5",
+      "published": "Mon, 01 Jun 2026 08:42:41 GMT",
+      "summary": "美, AI칩 中 우회수출 차단…“해외 자회사도 규제”&nbsp;&nbsp;서울경제",
+      "source": "GNews | KR 반도체",
+      "priority": 0.0,
+      "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "미 상무부, 중국 해외 자회사도 AI 칩 수출 제한…우회 경로 차단 - AI타임스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMaEtCR25KTFFmNFNSZ2FMT21IcmtVS0lLZEM4VmF1Y3ZHU0hkVXdpZkpqN1p1bWF2RTQ0ZXI0WGtIa0Q3V21Sb3Zpc0Y1YVlpTERZWDBqUWRQV1g1Nk1Cbk1WUklILXpLUkE?oc=5",
       "published": "Mon, 01 Jun 2026 07:00:00 GMT",
@@ -1768,8 +1808,19 @@
       "relevance": "low"
     },
     {
+      "title": "美, 中기업 ‘제3국 AI칩 우회 구매’ 차단… 대중 반도체 통제망 확대 - 미디어워치",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oWTNUU0hqRUh3V2NhbEhVWlVuaXRFV293dXFKVVJ6YmRLVGtSdW9SN1hwUXF5b3pUR2lsRlNrVGxqZFlJWk9pQWttNnY0RzlXWkFCNTRRb2tPTlJraHZaeVYwVQ?oc=5",
+      "published": "Mon, 01 Jun 2026 03:45:53 GMT",
+      "summary": "美, 中기업 ‘제3국 AI칩 우회 구매’ 차단… 대중 반도체 통제망 확대&nbsp;&nbsp;미디어워치",
+      "source": "GNews | KR 반도체",
+      "priority": 0.0,
+      "category": "本地语言搜索",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
       "title": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9WY0pRbWNoNFFMUFZ2M0ZXMmVWbzVZQTNPbFMxZ25VbDF6YmxqRmJTY0dNenprSngtQ1ItVWp6cjZMM0MybFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UT2ZQbjExUVZrV2NMNzU0bExVZ1ZmZGNhNjdWdWY5U2NXaC1UY1lZcGdxRmxIbjdSV1JkWHN0c1hYY1JyNTFvbEdma2puUFk?oc=5",
       "published": "Mon, 01 Jun 2026 02:33:00 GMT",
       "summary": "美, AI칩 수출통제 대상 中기업 해외 자회사로 확대&nbsp;&nbsp;v.daum.net",
       "source": "GNews | KR 반도체",
@@ -1786,6 +1837,17 @@
       "source": "GNews | Auto Chip Shortage",
       "priority": 0.0,
       "category": "半导体",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sodium Is Cheap, Abundant, and Now Powering Batteries That Could Rival Lithium - SingularityHub",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQm04dWxXYVptSmNtUWxWSEw4QTRtOWh4WGFQRmNORm0tYmNKbUNpMTItQjVWSVo3cG5PSXJtaGtwZlFpU19LSWdiOFJ4SmRRSV9FZ1V1TFZEdTN3SU5xd0pKOWxSM0dETy1hV1Vyem9zdlo1SWtSMllUS2Z6Vnd0WWJRMnMxamluMmpxR1NmeUFZX3c4RTdLR0VCZnZ0SUVZeHAzcmhzSGpQZEF2ZEs1UVBJOEc2UQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "summary": "Sodium Is Cheap, Abundant, and Now Powering Batteries That Could Rival Lithium&nbsp;&nbsp;SingularityHub",
+      "source": "GNews | Na-ion Battery",
+      "priority": 0.0,
+      "category": "电动车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1834,17 +1896,6 @@
       "relevance": "low"
     },
     {
-      "title": "US Needs Another Decade to Fix $1.2 Trillion Rare Earth Crisis - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcHVLSlI2VS14bEdSNEdmMUNheFVNOEh2T0hSYmExYXZSNk5oaFN5c2x2YnhXU1pqdlRuanBkUEJ1bmpSMmV0N3h0M01RWTEwbnk0QTgycXU2cU5fSFI3Z2R1cHVhdlBydlRVWVdud21qLUsxU2NrZGFPUlBVNENaVDBlX3YzaldoZ2c?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "US Needs Another Decade to Fix $1.2 Trillion Rare Earth Crisis&nbsp;&nbsp;Bloomberg.com",
-      "source": "GNews | Rare Earth/Chip SC",
-      "priority": 0.0,
-      "category": "半导体",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "House talks look at blocking some state AI laws, including in California and New York - Politico",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNFl0OENaSEFud25JUGdVWjVKVzhQZmNQOF8tWjMySk9SOFlYWlJVOVdMc09EYXlRU3B2WDZGZk5Xb2VFeFVwNnQyR3BJQ0pUS3JUUmFFSXRfRy1HekF6eTdVQkd1QzM5Y29ESzZraGw5VzZxcmljeU9HR0tMWXdYb19ZX20?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
@@ -1856,17 +1907,6 @@
       "relevance": "low"
     },
     {
-      "title": "What does BYD overtaking Tesla in battery storage mean for the global energy industry? - Latest news from Azerbaijan",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEo4bEtGMGpwRkNUa19rRkp4RnJPczRlVGdzWWNZa3RqR1VkOUFLUmFOMlVLdGdJV0xSTERWYzRCdXVFOUs5OUU4LU1oVHdTZzIyZFNqMFhaTURjWFpSQ1hGZ3YtbkE2ZlVRMWMwcWI5dmtudkI2ampSNGtmY0luemVaRV9kbG04aGJEU0U2bUFYYWljaEo5S3JFQTdzc0pCaS1BakxYbnU5UQ?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "summary": "What does BYD overtaking Tesla in battery storage mean for the global energy industry?&nbsp;&nbsp;Latest news from Azerbaijan",
-      "source": "GNews | EV Competition",
-      "priority": 0.0,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
       "title": "The U.S.-China Trade Relationship: What’s Behind the Competition? - Council on Foreign Relations",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85R1Rxa096czZxUGpuWjB0T0RCeWtvNzUwM2kxcHRhVXp4MjBJUXVIbC1vU2EtRGZ6c2MxQnVNamVJUHhpZU4yMVBqRUZ3YUgxNGVRT0pRSWYteGpFeW1mRlBuazdselRXZDdpaVY1NW0xS2hzSlUtb1p1VWhwdw?oc=5",
       "published": "Fri, 15 May 2026 07:00:00 GMT",
@@ -1874,39 +1914,6 @@
       "source": "GNews | EV Tariff",
       "priority": 0.0,
       "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Scientists discover why ozempic may not work for some people - ScienceDaily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9odU9DR1kxdWVVM2M5MllsVTlRaDhlZGNyUmZzd1IwU3ZyUjFKNmlfYXJSMjVKQVExcmFQdkZueDdNTGlfeDZSYXRXR0tTX3dVaDFLMVFicEEyVER4elNaQ2ZCTWptNi1rNWlISUlTRQ?oc=5",
-      "published": "Fri, 05 Jun 2026 15:44:53 GMT",
-      "summary": "Scientists discover why ozempic may not work for some people&nbsp;&nbsp;ScienceDaily",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "CATL to deliver first sodium-ion storage systems in September as material costs halve - CarNewsChina.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQzc4cG5ETE0yMVYyWm9FLVR4VnpaY0lneXBhTFBWWFJVYl9NRzNzaXcyNnp2T2UwTzRfTDdDbXhQSzJXdEp2OEY4NUZFNHlIb3ZVT0wwa0JiSVBUNDZJVk04bXNpN242V3RkWkFlakNYY3dFUVhDZ0xNZlphaUpGSkJiTWVPcVdwaERCa2E4MGZHaE01V0thNDAyX3pGMWhNam5vam1BdEU3d3cySlNqY1VKMkhBdVNhampxa2kzUQ?oc=5",
-      "published": "Fri, 05 Jun 2026 14:58:00 GMT",
-      "summary": "CATL to deliver first sodium-ion storage systems in September as material costs halve&nbsp;&nbsp;CarNewsChina.com",
-      "source": "GNews | LFP Battery",
-      "priority": 0.0,
-      "category": "电动车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "FAQ: What Does the Medicare GLP-1 Bridge Mean for Pharma? - Pharmaceutical Commerce",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXy10RGtUVGs4UVlmamZPWEFadG9lTTZoUG5yVGgtRmh0OWdWNTNrZXlMTWo4NDQ1LUdOQjJLRXZmWHZCQmdlY2sxbGlMN1dITXRkWkdMdmF1X1RPeDd4amJ5LUlFNldEWl9jVVFWNC1ERlZwQlhvYkp0NmlKMDZZYV9oSWV3U3pRNFl1TUtqNktqTWJ1bXkxeUR6VjUyNFlvUlE?oc=5",
-      "published": "Fri, 05 Jun 2026 13:21:17 GMT",
-      "summary": "FAQ: What Does the Medicare GLP-1 Bridge Mean for Pharma?&nbsp;&nbsp;Pharmaceutical Commerce",
-      "source": "GNews | GLP-1 Drug",
-      "priority": 0.0,
-      "category": "生物+航天",
       "_incremental": "new",
       "relevance": "low"
     },

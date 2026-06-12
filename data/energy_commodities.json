@@ -1,14 +1,12 @@
 {
   "version": "4.0",
   "module": "全球能源与大宗商品",
-  "updated": "2026-06-11T14:06:25.540355+00:00",
-  "fetch_date_utc": "2026-06-11",
-  "total": 73,
+  "updated": "2026-06-12T00:04:18.648179+00:00",
+  "fetch_date_utc": "2026-06-12",
+  "total": 64,
   "high_priority": 2,
-  "medium_priority": 35,
+  "medium_priority": 26,
   "signal_alerts": {
-    "record high": 1,
-    "export ban": 1,
     "supply disruption": 1
   },
   "stats_by_category": {
@@ -29,7 +27,7 @@
       "feeds": 5
     },
     "本地语言搜索": {
-      "count": 36,
+      "count": 39,
       "feeds": 2
     },
     "独立RSS源": {
@@ -37,17 +35,17 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 89,
+      "count": 51,
       "feeds": 3
     }
   },
-  "fail_feeds": 1,
+  "fail_feeds": 2,
   "rate_limited_feeds": 0,
   "articles": [
     {
       "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZrV2dPZ2xjY0NWT0lIUFVNeUlJZ1I5V3BsdkU0X01tWFVHLWZWTVBQN0pHeHNGZF9fS01BY2RrbWtLWFcyazR0bVNOWERwQVFBYjhHMFNZYW5XWHNRM2VWZUU2aFpTd3IzRGhiVUZHNUJsbWlCb19CX19SUG5DOXozd1cyak1RdUFhS0FtaUYxMG5xNGtfYW9idFhNWGRUd25PeUFYTWJJWVhqeS1lNUJHS3pCUQ?oc=5",
-      "published": "Mon, 08 Jun 2026 05:48:30 GMT",
+      "published": "Sun, 07 Jun 2026 07:08:00 GMT",
       "summary": "OPEC+ approves fourth oil output quota hike since Hormuz closure&nbsp;&nbsp;Reuters",
       "source": "GNews | OPEC+ Quota",
       "priority": 12.0,
@@ -74,6 +72,17 @@
       "source": "GNews | LNG Expansion",
       "priority": 8.4,
       "category": "油气",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "U.S. To Build Its First Ever Floating LNG Export Terminal",
+      "link": "https://oilprice.com/Energy/Natural-Gas/US-To-Build-Its-First-Ever-Floating-LNG-Export-Terminal.html",
+      "published": "Thu, 11 Jun 2026 19:00:00 -0500",
+      "summary": "Over the past couple of years, the United States has established itself as the world's largest exporter of liquefied natural gas (LNG), with an operational liquefaction capacity of ~15.4 billion cubic feet per day (Bcf/d). It’s home to nine large-scale operating LNG export terminals and more than 170 smaller, localized LNG facilities across the country used for domestic storage and peak-demand supply. And while it has traditionally favored building massive onshore liquefaction plants to make use...",
+      "source": "OilPrice.com",
+      "priority": 7.5,
+      "category": "独立RSS源",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -111,17 +120,6 @@
       "relevance": "medium"
     },
     {
-      "title": "India and US broaden cooperation on critical minerals supply chain. Will it catalyse investments? - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVkZpWDBUNGdBOW9JeGV0YTZSQ2psYVZwWml4ZEdMcnNRTEhnOVl4MUgwLUUxR1B0bGlDUWtJcG9SRFpyU1Rudnl3X1ZJT0k0V2ZybVdVa2tTcEg3enJYTUFRSWlPYklWSklPVFAyT2YtU0tseEhuR0dLTUV0RkV1djBKQ0VYSkszdGZIRk1pakVRcXBZU3JadDVneFdMRWJuYU5nVy1LcWdWVFoyVVc2bEhsaHpWd9IBvAFBVV95cUxPQ1psZFR1bE1XUUExQXM0bURNTUI3SEtPeXEzbWdnRVd0MUd3eVpVY2lBWWx6eHBfaDdBX3oxZHB0MHNlSzZGWFNYWGRWb0NqS3VmQ1NRaS1EQ0hCMnFBTU1Eck5qRDNxS1JiSTdSQmhSNnJLS0c3MXNwUTdpUjdSVTNDNExKdW5fRDk4SmM0a1UzcDJrVS1WM3dBcjlNSW5QcEUtQnYwcG84N3pybXhRNFVPU1NQVzZLY2lBRw?oc=5",
-      "published": "Wed, 27 May 2026 07:00:00 GMT",
-      "summary": "India and US broaden cooperation on critical minerals supply chain. Will it catalyse investments?&nbsp;&nbsp;The Indian Express",
-      "source": "GNews | Critical Minerals",
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Securing India's Midstream Capacity by Processing Critical Minerals Overseas - orfonline.org",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcUE1YUR0emV2bXVSUnlnZzU4SHpzOWhSWFZaMkVIT252MnB6V1pDUjVjOF9ERk1DM0xJZ0R6YnYzQVZhYTVsZVRkWFprNXctWDlnMjR1TWE1T2d4T0ZFWXBXQWJ5elRPUVBPdlBRNnlqNzZIOHprazJSaEg2c25BaGxJaHpJdXljTWl2SzBmR0R4ODJKNDQ4cDFqUlNvWGJKWDhuYUNqVFpHWXgtMVZ3Qg?oc=5",
       "published": "Wed, 27 May 2026 02:57:40 GMT",
@@ -144,39 +142,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Charted: China’s Grip on Critical Mineral Refining - Visual Capitalist",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYmQ1UUpNaEk4blZHUWdVZ1VRX21oNEZkSEVQLWoxZ2hfdUNfeDk3MlBWMkFLNkZHMkxRZzZYU3pGOExVSXR4bzhLR1VZTXlFN0lheDFYRDRaSENpMURXY1JLbU5Wd2FxOHp4VC1maFpuREViVWhCS3RhUG1oVl9BQmhXZlk3NFZQbFE?oc=5",
-      "published": "Tue, 19 May 2026 07:00:00 GMT",
-      "summary": "Charted: China’s Grip on Critical Mineral Refining&nbsp;&nbsp;Visual Capitalist",
-      "source": "GNews | Critical Minerals",
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "What the sulphuric acid supply crunch means for critical minerals - Benchmark Mineral Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZE5Zc19nN0ZuaklIalRYLXdMcW9lQS04MXFHdWhseVNxTW5BaHQ2TlhQS2REcm9SZ1BwdGZuamdzWEtwNlUyY2R4NFliTndGaVNNSG1JNVJUMWdWMGxVbTllUUo2d0tPTkdleGhDZUktenRFNUdtczJ2RkMxbWhpdWExY1UyNXppVDJ2U3czdl9OYk83ckttVmNnY1UtWk5XRlhMaW5GQmV1QUVhWDVv?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "summary": "What the sulphuric acid supply crunch means for critical minerals&nbsp;&nbsp;Benchmark Mineral Intelligence",
-      "source": "GNews | Critical Minerals",
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "How critical mineral alliances aim to shape the future of e-scrap metals - Resource Recycling",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX3pDSkdjbnRCSU5aUTJUYzkzUmtobnpEcElZMzdadUU5Z0s3dVdzbVdrMGQ4Q2hHejRMai0wc0VTeDFhc0p1XzZ5RzVhcEg5ZF9Ec2xjWGJyeWZieUZ3TkxuNDZjMV8tU0Npa3BFaDA4S2QxeTFtXzZNdXZuRFJTM3RBejRjcDk1clBXRE9VREZhWm1EMzYxYTFpcjhEQkdMYmljd095QnR6ZjBjcFlDOGVwVkVIdU82WXlXS29xalU?oc=5",
-      "published": "Thu, 21 May 2026 10:00:00 GMT",
-      "summary": "How critical mineral alliances aim to shape the future of e-scrap metals&nbsp;&nbsp;Resource Recycling",
-      "source": "GNews | Critical Minerals",
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "US-China Summit Rare Earth Export Controls: What Investors Must Know - Discovery Alert",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGY2SVV5S1BWdTNfWXI0SS1rcHlwZzl3SGs4MUVNem1QZkdlOUR2QkpUd3hRMVpuMmNGRVFSclV3UGptWXJ3bEdBYUNrZy1LN3BuSVpBa3lDdFFhR2FmbmVRSFJ1TGVWMHRnUy1HYXpHeEY4Y0FNQkZoS2w1Z3JTQ3dZQlJvUVd1ZDdON0FMbUZ6QUhOZzFGcA?oc=5",
       "published": "Sat, 16 May 2026 07:00:00 GMT",
@@ -184,6 +149,28 @@
       "source": "GNews | Rare Earth/China",
       "priority": 6.0,
       "category": "关键矿产",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "What's Stopping the Trans-Caspian Pipeline After 27 Years?",
+      "link": "https://oilprice.com/Energy/Energy-General/Whats-Stopping-the-Trans-Caspian-Pipeline-After-27-Years.html",
+      "published": "Thu, 11 Jun 2026 11:00:00 -0500",
+      "summary": "With the Iran war disrupting traditional energy supply routes and the West seeking to lessen reliance on Russian transit networks, Trans-Caspian corridors have again emerged as a focus of international diplomacy and investment. Several distinct regional networks gained increased attention from global players at the Baku Energy Week earlier this month, including a subsea green electricity link and the Trans-Caspian International Transport Route, also known as the Middle Corridor. But prospects fo...",
+      "source": "OilPrice.com",
+      "priority": 5.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "OPEC Sees Oil Demand Growth Outpacing Supply Through 2027",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Outpacing-Supply-Through-2027.html",
+      "published": "Thu, 11 Jun 2026 13:30:00 -0500",
+      "summary": "OPEC is sticking to its view that the oil market will remain relatively tight through next year, with demand growth expected to continue outpacing non-OPEC+ supply additions despite months of war-related disruption and elevated prices. According to OPEC's June Monthly Oil Market Report released on Thursday, crude production from countries participating in the Declaration of Cooperation averaged 33.13 million barrels per day in May, down 190,000 bpd from April based on secondary-source estimates....",
+      "source": "OilPrice.com",
+      "priority": 5.0,
+      "category": "独立RSS源",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -232,28 +219,6 @@
       "relevance": "medium"
     },
     {
-      "title": "Trans Mountain Oil Pipeline Hits Full Capacity as Asian Demand Surges",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Trans-Mountain-Oil-Pipeline-Hits-Full-Capacity-as-Asian-Demand-Surges.html",
-      "published": "Thu, 11 Jun 2026 03:30:00 -0500",
-      "summary": "The Trans Mountain pipeline has reached full capacity for the first time since its expansion was completed, boosting the pipe’s total carrying capability to 890,000 barrels daily. Indeed, this month the pipeline has seen more demand than there is capacity, a senior executive at the same-name company said, as quoted by Reuters. The expansion of the Trans Mountain infrastructure has been crucial for Canadian oil producers’ output plans, which have focused on responding to higher demand for oil, es...",
-      "source": "OilPrice.com",
-      "priority": 4.5,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Just a few projects are driving a small bump in hydrogen investment - Latitude Media",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGZicUlXSzZhclc0YUxaaDJkX2wwUmkxVTJIWThWd0NldXlrZld3akdfTG5tZmxfRk95OVo5YTZmQXQzemV0aGtkMmZiZXFWZDRTa2VlMGRmMWhJRGs4UjQ1dWtrYlpXMUpCWkl1blctOGFCZFAtMjc3TExNeDBUOUZjZjR3X1JKUEs2WHdONzI5UTR5aEdXMEdjdnVtSkVCa0RXSHBn?oc=5",
-      "published": "Wed, 20 May 2026 15:17:27 GMT",
-      "summary": "Just a few projects are driving a small bump in hydrogen investment&nbsp;&nbsp;Latitude Media",
-      "source": "GNews | Hydrogen",
-      "priority": 3.6,
-      "category": "能源转型+碳",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
       "title": "Lithium's Second Wind: Battery Metals Recharge Amid EV Demand - Kalkine Media",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWWtRRjN3UHRXWWNCbS1ZVVdtMVlrSFE3QUdwdEROS3I2RlhKb3c5NVBqb1JnSTE0NHdKVWppTkNlZnFURldVQzJsWXZndzJUZHFKcWZmY2QxelEwMkZBWVdJOHVQcVVheHMxa2plY1BJMFJfWVEwOVVFTlI3U3d5MzliUnJmRU5iZUtVZmh1OU9oenplcWlYZWtNYUZ6SEtsZjRKTy1HZjh3aEhzM3duSA?oc=5",
       "published": "Wed, 10 Jun 2026 20:15:00 GMT",
@@ -276,10 +241,10 @@
       "relevance": "medium"
     },
     {
-      "title": "Can Freeport-McMoRan Ride Copper’s Next Big Demand Wave? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGdtQzQtYXNsTHRjWGdldF9Tdi1TcHpINTBobWFnWW5ZS1UzZ0YwX2Q5V2phUHFzRlBxYmtLWFZUTDZRN1lrTXVZaF9KaFNxYUYxMEZVTHhjZjN0b2FxdGFsNGxfWFYtTzJTS3BwT3hnWHFxbmQyUnE1eHlQd3FTTmgycHJHUjBpQU1sSWY1SjdIMmtSeUNNdnVuZlhMU2NGemJObm1pZDNIQQ?oc=5",
-      "published": "Tue, 09 Jun 2026 18:18:00 GMT",
-      "summary": "Can Freeport-McMoRan Ride Copper’s Next Big Demand Wave?&nbsp;&nbsp;Kalkine Media",
+      "title": "Copper Hits Records As AI And Electrification Demand Builds - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0ZDNGR6S3oyUDVKZFhTaVlvZnJvbEFId1VhN2JMbHAxNWdZNjc0dGVvblBLdWkwaDJENTZodnFlTFo4VXJQRFk2MDYwVnBubkFwR3JkUF9tOEFsMXhEM0RqYU44RzlQa0Jnemk5ZF90eExLQ2JOTFIxTVI0M1RwYVVzV3FjbTJlbmlrRTlCTjZFZWlIbjdrM0xqNnMtZWxwbl83UFBmcUxqVW92TWtoQw?oc=5",
+      "published": "Wed, 03 Jun 2026 23:21:00 GMT",
+      "summary": "Copper Hits Records As AI And Electrification Demand Builds&nbsp;&nbsp;Kalkine Media",
       "source": "GNews | Copper",
       "priority": 3.6,
       "category": "关键矿产",
@@ -287,50 +252,13 @@
       "relevance": "medium"
     },
     {
-      "title": "LNG Canada contractors set to prepare B.C. terminal site for potential expansion - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdy1TRUVwdjFBZXhpdlY0LWxJY2ZCUXdzRDAtSU1XSlVJdTVMQW1MdGVkVDhrbHJTNDdKZHJ3LV9aVkJwaWpkQnQ4WkZEYVpVRUUwa2hkTHJKS0dQLTBtNFpDdkR5WXQxS1FmN3VDUnpaV25ScUZ4Y0lCOHZJRTBPYzZMc2UtN1d6dGtvY01YbUpoeDYtZlVXRk9ZejZ3WFgzYnZoR3FtLUEyNE5xTmtWZkxFNDNwT1oydWc?oc=5",
-      "published": "Tue, 02 Jun 2026 22:33:19 GMT",
-      "summary": "LNG Canada contractors set to prepare B.C. terminal site for potential expansion&nbsp;&nbsp;The Globe and Mail",
-      "source": "GNews | LNG Expansion",
+      "title": "Can Freeport-McMoRan Ride Copper’s Next Big Demand Wave? - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGdtQzQtYXNsTHRjWGdldF9Tdi1TcHpINTBobWFnWW5ZS1UzZ0YwX2Q5V2phUHFzRlBxYmtLWFZUTDZRN1lrTXVZaF9KaFNxYUYxMEZVTHhjZjN0b2FxdGFsNGxfWFYtTzJTS3BwT3hnWHFxbmQyUnE1eHlQd3FTTmgycHJHUjBpQU1sSWY1SjdIMmtSeUNNdnVuZlhMU2NGemJObm1pZDNIQQ?oc=5",
+      "published": "Tue, 09 Jun 2026 18:18:00 GMT",
+      "summary": "Can Freeport-McMoRan Ride Copper’s Next Big Demand Wave?&nbsp;&nbsp;Kalkine Media",
+      "source": "GNews | Copper",
       "priority": 3.6,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Wheat prices hit record high after Indian export ban - Digital Journal",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOclllWWl2b0djLWEtSm54ekhfUjlrdzlHYnNnWTc4ZFdRSDJnLWpGVTBHUDhfWUdWWTF4SE1Qc3hpRE02NXE3Y2xuM3hXWXNGX01kNzlOejZkV1N4VHZZb2RrN19HRk5SQVBmVUF2WWZBNkNIUXU0UjBabl80UlZSVFVSUlRnN2FCR0FqOFpia2NEQ2hzV2E0?oc=5",
-      "published": "Tue, 02 Jun 2026 19:04:32 GMT",
-      "summary": "Wheat prices hit record high after Indian export ban&nbsp;&nbsp;Digital Journal",
-      "source": "GNews | Signal: Export Ban/Record",
-      "priority": 3.6,
-      "signal_keywords": [
-        "record high",
-        "export ban"
-      ],
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cheniere Locks In $4.69 Billion Sabine Pass Expansion Contract - Pipeline and Gas Journal",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkQ5UGtrbjB1c1RoNnJBU2s2cERKX1YtTW9oMTZ3czZMVjFCVnhSVVVHVkhGTGE1N3kyS1l0WFRyV2JCaE9QMkp3bUNGWmNxbTFzRDNCT29LY0ZLSGdVZTNsOGV6WVBrQU9aLTZnOFlpVk05ZHJIYzZWd0ZXLWxfQ1BRS3RSM083WUtwNVRWem1lS1VTck82Mjd5TU4?oc=5",
-      "published": "Thu, 28 May 2026 20:15:58 GMT",
-      "summary": "Cheniere Locks In $4.69 Billion Sabine Pass Expansion Contract&nbsp;&nbsp;Pipeline and Gas Journal",
-      "source": "GNews | LNG Expansion",
-      "priority": 3.6,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "SSE pauses ‘standalone’ hydrogen production projects citing policy delays - Hydrogen Insight",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSlR1ODdudV9rcnM3SzZmd1pXdzNHcnRpcl9CV0xEdUlQUVNodlEzeVd5QWZFNmx5VktyN19xa2ZOVjlfak9GTkp6TEJqX3hLRlBhaDAxS1hsbUJOVmtYWS03a0N3TEZSelRGcEJnQlZPa2JYRWt6WWNZM01XU3JweTlrdjRkNVlfQ2ltRDVFckpZM09ieDhJdHY5bkJVVW40MTFtV2wxeEZWSG9EZ1FiRnlIV01Gdk9vdE12LVprUUUwaGw4?oc=5",
-      "published": "Thu, 28 May 2026 11:02:35 GMT",
-      "summary": "SSE pauses ‘standalone’ hydrogen production projects citing policy delays&nbsp;&nbsp;Hydrogen Insight",
-      "source": "GNews | Hydrogen",
-      "priority": 3.6,
-      "category": "能源转型+碳",
+      "category": "关键矿产",
       "_incremental": "new",
       "relevance": "medium"
     },
@@ -350,17 +278,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa0kwVW5TQjdHeV8xYzk0dW9NOURBUkdadjdGVmlrSEIyZm81dlB2cWpsRll5aWhieW93RFBkaDZfc0FVYUtTdGZaNjdDRW5wTWVaMnJpVnYyc3RwWGhfRUNRa3YxamlKMkpNbHpYRkN2X0ZOcjlmRFBQMkRhVjU3Y2tsSEpiNjFhMnFrcUpObw?oc=5",
       "published": "Thu, 28 May 2026 07:00:00 GMT",
       "summary": "Cheniere signs deal with Bechtel to expand US LNG export capacity&nbsp;&nbsp;New Orleans CityBusiness",
-      "source": "GNews | LNG Expansion",
-      "priority": 3.6,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "B.C., Ottawa reach pact to support LNG Canada’s expansion plans - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSmlrVnQtcDFnVzU4aFM2RVBwX3V5cWQyZVJVTEMwRk41bDRWbUR5MllnVVpWLWNXcGFaWldxVGRvdVFXNWp4LWtzLXBVeFV0R0E1dTkwWEpWUV9lR1M0NXBQMENwYzBCSGJrRmRzLVRaWEtwNkczaWRuTXFQbTdJTlRqdk00Q0c3ZUZLa2NCcUdBd1JPVDNkWF9qb0JKQkVQaFJEZXVlSGYxVzhKZ2c?oc=5",
-      "published": "Thu, 14 May 2026 07:00:00 GMT",
-      "summary": "B.C., Ottawa reach pact to support LNG Canada’s expansion plans&nbsp;&nbsp;The Globe and Mail",
       "source": "GNews | LNG Expansion",
       "priority": 3.6,
       "category": "油气",
@@ -423,10 +340,10 @@
       "relevance": "medium"
     },
     {
-      "title": "Oil Prices Spike as Iran Declares Strait of Hormuz Closed",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Spike-as-Iran-Declares-Strait-of-Hormuz-Closed.html",
-      "published": "Wed, 10 Jun 2026 21:01:00 -0500",
-      "summary": "Oil prices surged again in early Asian trade on Thursday after Iran declared the Strait of Hormuz closed following a fresh round of U.S. strikes on the country. At the time of writing, Brent crude had climbed 2.26% to trade at $95.20 per barrel, while West Texas Intermediate had risen 2.5% to $92.30 per barrel. Both benchmarks have seen extreme volatility this week as outbreaks of attacks are quickly followed by claims of an imminent deal being signed.  The latest escalation started with the dow...",
+      "title": "Why Power Prices Are Rising Faster in Deregulated States",
+      "link": "https://oilprice.com/Energy/Energy-General/Why-Power-Prices-Are-Rising-Faster-in-Deregulated-States.html",
+      "published": "Thu, 11 Jun 2026 12:00:00 -0500",
+      "summary": "Back in the last century, when neo-liberalism, deregulation, and privatization were all the rage, we, in the USA, decided to restructure and deregulate the electricity industry, on the theory that such action would bring about the same benefits to electricity consumers as it did for consumers of transportation, natural gas, and telecommunications. The idea took hold mainly in states where consumers paid high prices for electricity. The other states decided to leave well enough alone. The introdu...",
       "source": "OilPrice.com",
       "priority": 3.0,
       "category": "独立RSS源",
@@ -434,35 +351,32 @@
       "relevance": "medium"
     },
     {
-      "title": "Algeria’s Gas Advantage Is Real. So Are Its Production Problems.",
-      "link": "https://oilprice.com/Energy/Natural-Gas/Algerias-Gas-Advantage-Is-Real-So-Are-Its-Production-Problems.html",
-      "published": "Wed, 10 Jun 2026 18:00:00 -0500",
-      "summary": "Algeria’s 2026 hydrocarbon bidding round is arriving at a moment when timing may matter as much as geology. Oil and gas prices have been lifted by the prolonged Middle Eastern crisis, Europe is still trying to hardwire non-Russian gas into its supply system, and former Middle Eastern investors are reassessing where long-cycle upstream capital can be redirected without excessive security risk. For Algiers, this creates a sudden opening to cement its position as Europe’s second-largest natural gas...",
-      "source": "OilPrice.com",
-      "priority": 3.0,
-      "category": "独立RSS源",
+      "title": "Thailand Enters Climate Crisis as 'Super El Niño' Threatens Historic Drought and Temperatures Above 45°C - Nation Thailand",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zUnpJVU9nWkJoNXVTMURoZG5qNXB0bmVBZ3VDTXhZZGtmbUhURGhsNktsM0ctbG1OVVkyUzJvM0hNWmlSd2xZZnhPeXg4NEJ3ZTIwRV9kSnpJU1oyRkVLYlB3?oc=5",
+      "published": "Mon, 25 May 2026 07:00:00 GMT",
+      "summary": "Thailand Enters Climate Crisis as 'Super El Niño' Threatens Historic Drought and Temperatures Above 45°C&nbsp;&nbsp;Nation Thailand",
+      "source": "GNews | Drought/Crop",
+      "priority": 2.4,
+      "category": "粮食安全",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "Traders Are Shorting Oil As If The Hormuz Crisis Is Over",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Traders-Are-Shorting-Oil-As-If-The-Hormuz-Crisis-Is-Over.html",
-      "published": "Wed, 10 Jun 2026 17:00:00 -0500",
-      "summary": "In yet another sign that the paper oil market may be too complacent about the magnitude of the supply disruption in the Middle East, trades have been boosting their short positions in oil futures for most of the past two months. Since the beginning of April, portfolio managers have been increasingly betting that oil prices would fall, according to the latest available commitment of traders (COT) data from exchanges as of June 2. Shorts on Brent Crude tripled between the end of March and the begi...",
+      "title": "Iraq's Energy Sector Faces Its Most Important Test in Decades",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Iraqs-Energy-Sector-Faces-Its-Most-Important-Test-in-Decades.html",
+      "published": "Thu, 11 Jun 2026 17:00:00 -0500",
+      "summary": "Iraq’s oil sector has been discussed over the last few years primarily through the lens of production figures, OPEC quotas and reserve estimates. The latter, however, is no longer sufficient or even appropriate, as today’s story is no longer only oil. The current focus should be on a struggle over sovereignty, state authority, regional geopolitics and economic survival. The coming months will prove decisive for the future of Iraq’s hydrocarbon sector. The government in Baghdad is currently attem...",
       "source": "OilPrice.com",
-      "priority": 3.0,
-      "signal_keywords": [
-        "supply disruption"
-      ],
+      "priority": 1.5,
       "category": "独立RSS源",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "low"
     },
     {
-      "title": "How Fake News Became the Most Dangerous Force in Energy Markets",
-      "link": "https://oilprice.com/Energy/Energy-General/How-Fake-News-Became-the-Most-Dangerous-Force-in-Energy-Markets.html",
-      "published": "Wed, 10 Jun 2026 19:01:00 -0500",
-      "summary": "We live in a dangerously synthetic world. Scalper-style traders reportedly generated significant profits on suspiciously timed oil trades surrounding Iran war developments in Q2. AI-generated content is creating new verification challenges. Fake news about an attack on Saudi oil facilities, for instance, could contribute to crude price volatility. It’s a dangerous, unsustainable, AI-generated environment that rewards whoever gets information first, whether it’s real or not. Now, it’s time to lev...",
+      "title": "Big Tech's Private Power Plants Will Drive Up Your Energy Bill, Experts Warn",
+      "link": "https://oilprice.com/Energy/Energy-General/Big-Techs-Private-Power-Plants-Will-Drive-Up-Your-Energy-Bill-Experts-Warn.html",
+      "published": "Thu, 11 Jun 2026 16:00:00 -0500",
+      "summary": "As urged by President Donald Trump, tech companies are starting to build power plants alongside their new data center campuses to provide their own energy. The Trump administration has promised that this approach will help to shield ratepayers from skyrocketing power prices as data centers move into the neighborhood, but experts contend that it will do the opposite. As data centers continue to rapidly increase in number and size thanks to the artificial intelligence boom, the amount of energy ne...",
       "source": "OilPrice.com",
       "priority": 1.5,
       "category": "独立RSS源",
@@ -481,13 +395,13 @@
       "relevance": "low"
     },
     {
-      "title": "SPR Draw Down at Critical Levels and May Surpass the Biden Abuse - Energy News Beat",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNVhoOXROUmRJZ3o1Rm9lZFpSVkx5cWxqVnFFQjlmNDVOQnRYUmZ2dFYwVEJjOUJjX3lmRFZZbUtWMjBQMWU0ckRQV1ZGblU1bnNqWnVVNGw2alFPR2x0NDVDd29BS1cxNXJFcmt0QmFCYVdGMG50clM3bmRvTmhCY2tpUXYycHNfcjRSaV9fRndBVzhTZWx3amViWVVDc001SG1N?oc=5",
-      "published": "Wed, 03 Jun 2026 03:48:18 GMT",
-      "summary": "SPR Draw Down at Critical Levels and May Surpass the Biden Abuse&nbsp;&nbsp;Energy News Beat",
-      "source": "GNews | SPR",
+      "title": "Addressing Southern Africa climate shocks: Advocating for Child-Centred Climate Resilience and Fiscal Prioritization - ReliefWeb",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUWRzTV9VME1QWHdaTk9HUjdrYkJxUkRFZ0VRSHcwdzNwMHNyYmR6RlVLc2pXOElNUm54ZWRJOE91aHpla0dqNlRQSTZzdGJINHN2XzQxQUdwU1NUbkNmOWJxUTM3QUxFdk9rMnRZN1JnYjRZMmVvc2hRSEF4YzgzaXV5YUZHU3pJLUdYSk1BTUpOcnI2Z1hTMkd6a0d1dGY4SXF3d3pzRldJUlZrODliYy1ZWGJUUldROWZnck5uQkpuWkpwMlFacmtUcHUwRGNpb0cwY3ZKdXN6VDZsenlaR1ZGaWNIUQ?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "summary": "Addressing Southern Africa climate shocks: Advocating for Child-Centred Climate Resilience and Fiscal Prioritization&nbsp;&nbsp;ReliefWeb",
+      "source": "GNews | Drought/Crop",
       "priority": 1.2,
-      "category": "油气",
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -514,32 +428,10 @@
       "relevance": "low"
     },
     {
-      "title": "How the Iran War Is Reshaping Global Commodity Markets in 2026 - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSnJkZWxzcmZJLVp5YVU5cGs4ekJlaGRVb3JjdkczYy1Pc0k4TUJ2OHZxeE4wY0RzZjFsTk1KZXI1eEZsdEZ1Vkt0aHpid3g3ek9EdkIzVnBKYzk5bmtCdVB2ZS1ZR1FQOGwxejFCeDY0bFJuRUNaOG9aMUhCUW0wMXRzZUNpVTl5TEZEeTUwVlRHQQ?oc=5",
-      "published": "Thu, 04 Jun 2026 09:55:27 GMT",
-      "summary": "How the Iran War Is Reshaping Global Commodity Markets in 2026&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Signal: Energy Disruption",
-      "priority": 1.2,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Regenerative farming may shield crops from drought losses - FarmingUK",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS21QQTZPMzFmODlWbVRPLVZnd2E0WWFKdllyRmJmVlhzRDlacElyNE84UWduQ0JaR0puNThNRXhEZnJUZUlEb0V6UnkzV2taenlpOWhZcGFxcEFNVnBmRGJyenUwX0x6RUY5alIyMHh3ZnV6S0JfQkdSZUZock1kMGdVX3hpbkVEOURYZmtlTy1KZnlvMzFnWnpnT2xEOUZz?oc=5",
-      "published": "Mon, 08 Jun 2026 07:38:13 GMT",
-      "summary": "Regenerative farming may shield crops from drought losses&nbsp;&nbsp;FarmingUK",
-      "source": "GNews | Drought/Crop",
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The World's Biggest Battery Maker Is Turning Away From EVs",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Worlds-Biggest-Battery-Maker-Is-Turning-Away-From-EVs.html",
-      "published": "Wed, 10 Jun 2026 16:00:00 -0500",
-      "summary": "As global energy markets change, companies along the electric vehicles manufacturing supply chain are rushing to expand and diversify. The Trump administration’s stance on clean energy and aggression in Iran, among other energy-related bombshells, have made waves through global energy markets and created a general air of uncertainty that is leading many energy firms to put their eggs in more baskets. As a result, many EV companies and battery makers are turning to the next obvious market for the...",
+      "title": "Why Household Batteries Are Becoming Strategic Assets",
+      "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Why-Household-Batteries-Are-Becoming-Strategic-Assets.html",
+      "published": "Thu, 11 Jun 2026 11:30:00 -0500",
+      "summary": "The Strait of Hormuz has become the pressure point of the global energy system. The war has already deprived global markets of 1 billion barrels of crude oil and petroleum products. Supply from the Middle East has been severely disrupted, and there is now rising uncertainty around Chinese refining projects and global inventories. For governments, part of the answer to this strategic crisis may now begin much closer to home. While energy security is often discussed from the top down – and pipelin...",
       "source": "OilPrice.com",
       "priority": 1.0,
       "category": "独立RSS源",
@@ -547,43 +439,10 @@
       "relevance": "low"
     },
     {
-      "title": "Sanctioned Private Chinese Refiner Seeks Non-Iranian Crude",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Sanctioned-Private-Chinese-Refiner-Seeks-Non-Iranian-Crude.html",
-      "published": "Thu, 11 Jun 2026 08:30:00 -0500",
-      "summary": "Hengli Petrochemical, the privately-owned Chinese refiner that was sanctioned by the U.S. in April over allegedly buying Iranian oil, is looking to buy crude from other Middle Eastern producers and West Africa, Reuters reported on Thursday, citing trade sources. Hengli Petrochemical, one of China's largest independent refiners which operates a refinery in Dalian with the capacity to process 400,000 barrels per day of crude, was sanctioned by the U.S. Department of the Treasury's Office of Foreig...",
-      "source": "OilPrice.com",
-      "priority": 1.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Another Gulf Producer Joins Dark-Mode Tanker Traffic Through Hormuz",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Another-Gulf-Producer-Joins-Dark-Mode-Tanker-Traffic-Through-Hormuz.html",
-      "published": "Thu, 11 Jun 2026 07:30:00 -0500",
-      "summary": "Kuwait appears to have joined a growing bunch of Middle Eastern oil and gas producers that have moved to ship energy cargoes in dark mode through the Strait of Hormuz. The liquefied petroleum gas (LPG) carrier Gas Umm Al Rowaisat, which is owned by the national Kuwait Petroleum Corporation, has passed through the Strait in recent days, then transferred the cargo onto another ship which is currently en route to an Indian port, vessel-tracking data compiled by Bloomberg showed on Thursday. The Gas...",
-      "source": "OilPrice.com",
-      "priority": 1.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Oil Could Hit $150 If U.S.-Iran Ceasefire Collapses",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Could-Hit-150-If-US-Iran-Ceasefire-Collapses.html",
-      "published": "Thu, 11 Jun 2026 05:30:00 -0500",
-      "summary": "Oil prices could hit $150 per barrel if hostilities between the United States and Iran escalate further from the current, most testing period in the ceasefire, according to intelligence firm Rystad Energy. Renewed hostilities would further deepen the supply shut-ins in the Middle East as the war risk and the near-closed Strait of Hormuz continue to pressure upstream production, the Norway-based energy research company said. “At this stage, it is too early to say whether the current escalation ma...",
-      "source": "OilPrice.com",
-      "priority": 1.0,
-      "category": "独立RSS源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan Taps Reserves and New Suppliers to Beat the Oil Blockade",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Taps-Reserves-and-New-Suppliers-to-Beat-the-Oil-Blockade.html",
-      "published": "Thu, 11 Jun 2026 04:30:00 -0500",
-      "summary": "Despite the Hormuz crisis, Japan has secured the same volumes of oil imports for July as it did a year ago, as it is boosting imports from producers not dependent on the Strait to deliver their crude, sources familiar with the procurement plans told Kyodo News on Thursday. Resource-poor Japan is one of the biggest energy importers globally and relied on the Middle East for as much as 95% of its oil imports before the war broke out. Most of the oil came from Saudi Arabia, Kuwait, the United Arab ...",
+      "title": "UK Clean Tech Firms Plan Europe's Biggest Direct Air Capture Project",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/UK-Clean-Tech-Firms-Plan-Europes-Biggest-Direct-Air-Capture-Project.html",
+      "published": "Thu, 11 Jun 2026 10:31:00 -0500",
+      "summary": "UK clean energy technology firms have set up a joint venture to build and operate Europe's biggest direct air capture project. Carbon capture technology developers Airhive and Mission Zero Technologies have joined forces with Progressive Energy, a developer of low-carbon energy projects, to build a direct air capture (DAC) facility on Teesside, south of Newcastle, Bloomberg reports. The new venture, named UnionDAC, expects to begin removing carbon dioxide (CO2) from air in 2030. Two years later,...",
       "source": "OilPrice.com",
       "priority": 1.0,
       "category": "独立RSS源",
@@ -635,13 +494,13 @@
       "relevance": "low"
     },
     {
-      "title": "Scientists Create Giant Fire Tornadoes To Clean Up Oil Spills",
-      "link": "https://oilprice.com/The-Environment/Oil-Spills/Scientists-Create-Giant-Fire-Tornadoes-To-Clean-Up-Oil-Spills.html",
-      "published": "Wed, 10 Jun 2026 18:30:00 -0500",
-      "summary": "Oil spills are some of the most destructive forms of marine pollution known to man, thanks to their acute toxicity and ability to devastate marine habitats. The BP Plc. (NYSE:BP) Deepwater Horizon spill in 2010 ranks as one of the worst accidental oil spills in history, having released over 134 million gallons (~4.9 million barrels) of oil into the Gulf of Mexico over a period of 87 days. The spill is estimated to have caused $17.2 billion in natural resource damages; killed ~1 million birds, hu...",
-      "source": "OilPrice.com",
+      "title": "‘Super’ El Nino could trigger a global food price shock. Here’s how companies can prevent the next crisis - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbk9WTU1WWC1sRnlzTzlsRTJQal9KdGxDZXRtc2pGeERwbzgtbXpLbzM4clM0ckdrVHE1X3RjRGY3TmRZV01yeklUZE9lQW5XZkI0RXVBeWFycWw5ZEUzdERJd04yVjEyV19ERHkzYTFxVmpaRjVQeVc5VWM2M0lnNWllcWQ2VzhuU3JCMzJTRENTeU5zMGhHcDdKZG0wV2hHVkN0UVI2SGRrckpnOXlyc3oxcjhRR2VLN3RrSTl2aXh1TE93cmhWNkkxVmhvZUZLUnpxbUVKckZBSTY2ZGVVX1hrNUlYMmdmOTBv?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "summary": "‘Super’ El Nino could trigger a global food price shock. Here’s how companies can prevent the next crisis&nbsp;&nbsp;Reuters",
+      "source": "GNews | Drought/Crop",
       "priority": 0.0,
-      "category": "独立RSS源",
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -661,17 +520,6 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG5BVlNnYkMwaDRXNGZ4R0ZPLXlTSXl4V1Rabkd4aGFRLXBSSnE4cDVWQ0kwOHB5NmZMTUxXOGFrdjFIcmV0V1lJcFhEM1hmUTRFOHVrS1ZNSmRzRDZXYWR6UENvTm5saUZ3aS15QWhoWUJrZDZqNXpQRG5oUlgyc2tfTDFmWVdydDNPenZwdEtjMUFXRVUzS19mYw?oc=5",
       "published": "Tue, 09 Jun 2026 13:52:00 GMT",
       "summary": "View / One of Trump’s key oil market fixes is about to break&nbsp;&nbsp;Semafor",
-      "source": "GNews | SPR",
-      "priority": 0.0,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Emergency Oil Reserve Approaching All-Time Low Despite Trump Promise - Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajJRZWZZU1FzLVEtTGJQZ1hjVWZ5NTlkM3ZMZnVmMzcwMnVTaGRKZzdhb3Y4U0dDbGNkdWRIdmtXRDR3VUZlVmdKa3Y2REJLSjFNVG4zSzNqbHpJLUd6ZlJaUG9BejVLWC1jVGRuS05yTXVJY0w4eXhVNF9JR3NzMHpIRFkxR2VfOTlJ?oc=5",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "US Emergency Oil Reserve Approaching All-Time Low Despite Trump Promise&nbsp;&nbsp;Newsweek",
       "source": "GNews | SPR",
       "priority": 0.0,
       "category": "油气",
@@ -745,10 +593,21 @@
       "relevance": "low"
     },
     {
-      "title": "Trump Says U.S. Will Hit Iran Again Tonight, Eyes Control of Its Oil Sector",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Trump-Says-US-Will-Hit-Iran-Again-Tonight-Eyes-Control-of-Its-Oil-Sector.html",
-      "published": "Thu, 11 Jun 2026 08:55:00 -0500",
-      "summary": "President Donald Trump on Thursday threatened to seize Iran's main oil export hub, Kharg Island, and assume \"total control\" of the country's oil and gas markets, drawing a direct line to the U.S. operation in Venezuela as a template for what could come next in Iran. \"At some point in the not too distant future, we will be taking Kharg Island, and other oil infrastructure points,\" Trump wrote on Truth Social, adding that the move would mirror what Washington \"has with Venezuela, which is working ...",
+      "title": "Canada oil outages and bad weather to tighten inventories at key US storage hub - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYy1xcFNWT0NLWDQycE5hcTY4YlVMR09ISVdrdGxEZVhJQWtrdmVhcXRlbjQ0T2tCSHhkbWlwYzU5djdpSWhRTlpjODlLVGE2c3VSZ2NjVDNlWlIzOVg3TlZTcGpSSkJBZHVBblpCakkxaXRFbVZsYmRVUm42M1Y5ZXVscmtXWWFkRkM4LW9jWVVNNHVJQVc3TFpKSFhRbzh2ZE1qNU1ORWR6MU9kVDRlLTRqRzVia1FCV29IRmhB?oc=5",
+      "published": "Thu, 11 Jun 2026 20:23:43 GMT",
+      "summary": "Canada oil outages and bad weather to tighten inventories at key US storage hub&nbsp;&nbsp;Reuters",
+      "source": "GNews | Oil Disruption",
+      "priority": 0.0,
+      "category": "油气",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rotterdam's Growing Oil Storage Fraud Problem Is Costing Traders Millions",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Rotterdams-Growing-Oil-Storage-Fraud-Problem-Is-Costing-Traders-Millions.html",
+      "published": "Thu, 11 Jun 2026 18:00:00 -0500",
+      "summary": "The port of Rotterdam has seen, in recent years, increasingly sophisticated attempts by fraudsters to scam millions of dollars out of traders by paper fraud, offering non-existent oil storage at one of the world’s biggest oil hubs. The frauds, using fake documents and fraudulent websites, lure traders to pay for oil storage that simply doesn’t exist at the Port of Rotterdam. The scams have been running for about 15 years, the Port of Rotterdam Authority has estimated, and has created a special t...",
       "source": "OilPrice.com",
       "priority": 0.0,
       "category": "独立RSS源",
@@ -756,10 +615,10 @@
       "relevance": "low"
     },
     {
-      "title": "India Secures Crude Supply Through August with Higher UAE Imports",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Secures-Crude-Supply-Through-August-with-Higher-UAE-Imports.html",
-      "published": "Thu, 11 Jun 2026 06:30:00 -0500",
-      "summary": "Indian refiners have secured crude supply at least through August as they boost purchases from the United Arab Emirates (UAE), Africa, and Brazil, trade sources told Reuters on Thursday. India's state-run refiners have been lifting growing volumes of both crude and liquefied petroleum gas (LPG), the main cooking fuel in the country, from the UAE after India last month signed a strategic agreement with Abu Dhabi's national oil company ADNOC for crude and LPG supply. ADNOC is offering crude from F...",
+      "title": "The Reliability Crisis Utilities Don't Want to Talk About",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Reliability-Crisis-Utilities-Dont-Want-to-Talk-About.html",
+      "published": "Thu, 11 Jun 2026 15:00:00 -0500",
+      "summary": "What are the optics? AI centers are gobbling up power production, transmission space, and water. Transmission line expansion at a pitiable pace. A rush to build enough power plants. Forest fires burn lines and vice versa. The Trump administration plans to solve power shortages by cancelling windmill projects and subsidizing coal-fired power plants. (Why not quash the sales of electric vehicles by subsidizing horses? Just a question.) And, of course, in the meantime, pictures of utility executive...",
       "source": "OilPrice.com",
       "priority": 0.0,
       "category": "独立RSS源",
@@ -767,10 +626,10 @@
       "relevance": "low"
     },
     {
-      "title": "SLB Lands Major Deal to Help Rebuild Venezuela’s Oil Industry",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/SLB-Lands-Major-Deal-to-Help-Rebuild-Venezuelas-Oil-Industry.html",
-      "published": "Thu, 11 Jun 2026 02:30:00 -0500",
-      "summary": "SLB has signed a long-term contract with Venezuela’s PDVSA to reverse a major decline in oil production and modernize the country’s oil industry. “Venezuela's oil and gas sector has substantial resource potential, and realising that potential will require technology, digital integration and long-term talent development,” SLB chief executive Olivier Le Peuch said in a company statement this week. The focus of the modernization push would be artificial intelligence, the statement also said, aiming...",
+      "title": "9 Billion BOE on the Table as Kazakhstan Opens Biggest Licensing Round in Years",
+      "link": "https://oilprice.com/Energy/Energy-General/9-Billion-BOE-on-the-Table-as-Kazakhstan-Opens-Biggest-Licensing-Round-in-Years.html",
+      "published": "Thu, 11 Jun 2026 14:00:00 -0500",
+      "summary": "Kazakhstan’s 12th hydrocarbon licensing round puts 30 suboil plots across roughly 53,000 sq km on offer, backed by more than 9 billion preliminary estimated hydrocarbon resource potential. With signature bonuses from USD 30,000 and minimum work commitments mostly sitting between USD 2 million and USD 3 million per block, the 29 July auction opens a wide range of entry points alongside bilateral partnerships already advancing with BP, Sinopec, Eni, Chevron and Shell. What’s on offer Kazakhstan’s ...",
       "source": "OilPrice.com",
       "priority": 0.0,
       "category": "独立RSS源",
@@ -778,10 +637,46 @@
       "relevance": "low"
     },
     {
-      "title": "OPEC Oil Production Falls to Lowest Level Since 2000",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Oil-Production-Falls-to-Lowest-Level-Since-2000.html",
-      "published": "Thu, 11 Jun 2026 01:30:00 -0500",
-      "summary": "Crude oil production among members of OPEC has this year collapsed to a generational low, at just 16.13 million barrels daily, Reuters reported, citing a regular survey it conducts on OPEC production. The amount is the lowest since 2000, the publication noted. The May average is also lower than OPEC production at the height of the Covid lockdowns, when the reduction was prompted by the collapse in demand as a result of the lockdowns. It is worth noting, however, that the May OPEC figure excludes...",
+      "title": "Britain’s Electric Vehicle Market Is Booming as Fuel Prices Climb",
+      "link": "https://oilprice.com/Energy/Energy-General/Britains-Electric-Vehicle-Market-Is-Booming-as-Fuel-Prices-Climb.html",
+      "published": "Thu, 11 Jun 2026 13:00:00 -0500",
+      "summary": "Brits are racing to get their hands on electric vehicles after a surge in oil prices triggered by the war in Iran has driven away demand for petrol and diesel cars, one of the UK’s biggest used car supermarkets has said. London-listed Motorpoint, which has seen its shares jump on the back of bumper profits, said it had seen a more than doubling of sales for EVs in recent months in a “watershed moment” for the future of the car industry. Motorpoint chief executive Mark Carpenter told City AM: “EV...",
+      "source": "OilPrice.com",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Oil Held the Biggest IPO Record. Tonight It Loses the Crown.",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Held-the-Biggest-IPO-Record-Tonight-It-Loses-the-Crown.html",
+      "published": "Thu, 11 Jun 2026 12:30:00 -0500",
+      "summary": "For nearly seven years, the largest IPO in history belonged to an oil company. Not just any oil company. Saudi Aramco, the crown jewel of the world's largest crude exporter, raised $29.4 billion in its 2019 market debut, cementing what many viewed as the ultimate victory lap for the petroleum age. That record appears set to fall today. SpaceX is expected to price what will likely become the largest IPO ever, raising roughly $75 billion and surpassing Aramco's long-standing mark. The offering has...",
+      "source": "OilPrice.com",
+      "priority": 0.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China Is Learning to Use Less Oil—and That's a Bigger Deal Than It Sounds",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Is-Learning-to-Use-Less-Oiland-Thats-a-Bigger-Deal-Than-It-Sounds.html",
+      "published": "Thu, 11 Jun 2026 11:30:00 -0500",
+      "summary": "Three months into the biggest oil supply disruption in modern history, China appears to have discovered something that should make oil bulls at least a little uncomfortable. It can get by on less fuel than anyone thought. China's gasoline and diesel demand has been falling for years as electric vehicles gained market share and economic growth slowed. But the latest drop has surprised even seasoned observers. According to Reuters, gasoline sales at Sinopec, China's largest refiner and fuel retail...",
+      "source": "OilPrice.com",
+      "priority": 0.0,
+      "signal_keywords": [
+        "supply disruption"
+      ],
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Guyana’s Oil Boom Gets a Major Boost From $100 Crude",
+      "link": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Gets-a-Major-Boost-From-100-Crude.html",
+      "published": "Thu, 11 Jun 2026 10:00:00 -0500",
+      "summary": "Oil prices remain elevated in the wake of the Iran War. Tehran’s ability to close the Strait of Hormuz has sharply crimped world oil supply, with around 20% of all petroleum consumed globally passing through the waterway. This triggered an oil shock with prices surging to levels not seen since Russia’s invasion of Ukraine. Although this is straining economies worldwide, it is creating a windfall for the tiny South American nation of Guyana, which recently emerged as a global oil producer and exp...",
       "source": "OilPrice.com",
       "priority": 0.0,
       "category": "独立RSS源",
@@ -801,7 +696,7 @@
     },
     {
       "title": "China told the solar industry to cut capacity. Firms built new factories anyway - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFJ3V0FFMGF0ZTU3Q0hxSWtVNTV0NEUzQm44X3pIMEVVQUw1WE1NbDN6YWprbHFHbjM3N044SEJmRDhvTVVjMkVKZS1ZZlZ0TjVQQ2F3Q3hXS2txOGlTanF1cUl4U200NU1STTlFZlE2QkNORnltakdrLXlaNHJ4c3VyV1FiWlNKN1FVbnJoc0dUXzgyUjcxSGVrWHVwNWkzXy1MaEphYzRVbnhCMWcwR0NaZ3pqTnltT00xV2FMM3laYmNMSWNyc1Z3bG8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFJ3V0FFMGF0ZTU3Q0hxSWtVNTV0NEUzQm44X3pIMEVVQUw1WE1NbDN6YWprbHFHbjM3N044SEJmRDhvTVVjMkVKZS1ZZlZ0TjVQQ2F3Q3hXS2txOGlTanF1cUl4U200NU1STTlFZlE2QkNORnltakdrLXlaNHJ4c3VyV1FiWlNKN1FVbnJoc0dUXzgyUjcxSGVrWHVwNWkzXy1MaEphYzRVbnhCMWcwR0NaZ3pqTnltT00xV2FMM3laYmNMSWNyc1Z3bG_SAcwBQVVfeXFMUFY4eEJ2cHRFRS1zaGJVS1hoU1RXTXZMSmNtaERVX2wyZkp5M2FuemNFYXZfbW4ycFdVREozNkRMcklmQU12Ylh2Slh3OTEzT3ZITmtEVUZBNHFYU190bFJqV2hIYlgxckhFYVNoRFJHSm4tVTlVTUVVMXlFelk2dUpoNVB2WWR2bWFlSXA1dFNEd2FkQm1ESm1KZGl1QXBGTUNpUzgwVDFCR2kxcXhNeGVEWmNWU0tKWHJZWGFxVnZFd21maWRzRE9Zb3kw?oc=5",
       "published": "Sat, 23 May 2026 07:00:00 GMT",
       "summary": "China told the solar industry to cut capacity. Firms built new factories anyway&nbsp;&nbsp;South China Morning Post",
       "source": "GNews | Solar Mfg",

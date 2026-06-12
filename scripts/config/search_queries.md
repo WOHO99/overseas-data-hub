@@ -3,6 +3,17 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
+  ProduceID: '8d9301d9-2ded-4bb9-90bb-30e43bcf684d'
+  PropagateID: '8d9301d9-2ded-4bb9-90bb-30e43bcf684d'
+  ReservedCode1: 'a9423212-dbc3-4aaf-87c4-b14332835f0e'
+  ReservedCode2: 'a9423212-dbc3-4aaf-87c4-b14332835f0e'
+---
+
+---
+AIGC:
+  ContentProducer: '001191110102MAD55U9H0F10002'
+  ContentPropagator: '001191110102MAD55U9H0F10002'
+  Label: '1'
   ProduceID: 'c402f67d-51d5-403d-af57-d0404b5d3c1b'
   PropagateID: 'c402f67d-51d5-403d-af57-d0404b5d3c1b'
   ReservedCode1: '701d07ea-6830-4e67-8945-39671c375621'
@@ -191,3 +202,126 @@ AIGC:
 - 某搜索词返回大量low relevance → 查询太宽，需加限定词
 - 某重要话题总是漏掉 → 考虑新增搜索词或在keywords.yaml加关键词
 - 多语言搜索词返回乱码/噪音 → 可能需调整hl/gl/ceid参数或换词
+
+---
+
+## cross_border_ecommerce（跨境电商）
+
+### 设计逻辑
+聚焦中国企业出海电商全链路：平台政策变动、关税/合规、物流支付。
+核心视角：亚马逊封号→Temu关税→SHEIN IPO→TikTok Shop禁令，按平台分组。
+
+| 搜索词 | 意图 | 备注 |
+|--------|------|------|
+| Amazon seller ban suspension policy change | 亚马逊政策变动 | 卖家最怕的封号 |
+| "Amazon seller ban" account suspended listing removed | 精准：封号信号 | 引号+组合 |
+| Temu tariff regulation EU US compliance investigation | Temu合规风险 | 欧美双管 |
+| SHEIN IPO supply chain compliance forced labor | SHEIN上市+供应链 | forced labor=核心指控 |
+| TikTok Shop ban suspension EU regulation | TikTok Shop监管 | 欧盟DSA为最大风险 |
+| de minimis repeal small parcel tariff exemption end | 小额免税取消 | 直接影响Temu/SHEIN |
+| EU digital services tax marketplace platform liability | 欧盟数字服务税 | 平台责任扩大 |
+| VAT cross-border e-commerce retroactive audit | VAT追溯 | 卖家隐性风险 |
+| customs seizure counterfeit product e-commerce import | 海关扣留 | 假冒品=高频事件 |
+
+### 信号性查询
+
+| 搜索词 | 意图 |
+|--------|------|
+| "platform ban" "total ban" marketplace seller | 平台封杀信号 |
+| "customs detention" "forced recall" "product delisting" | 海关/召回信号 |
+| "market exit" "platform shutdown" e-commerce | 市场退出信号 |
+
+---
+
+## trade_import_export（进出口贸易）
+
+### 设计逻辑
+不追价格追政策——301/232/反倾销/原产地规则，直接影响企业进出口成本。
+按贸易管制→自贸协定→贸易壁垒三层分组。
+
+| 搜索词 | 意图 | 备注 |
+|--------|------|------|
+| Section 301 tariff US China trade war escalation | 301关税 | 中美贸易核心 |
+| Section 232 tariff steel aluminum national security | 232关税 | 钢铝+national security |
+| anti-dumping countervailing duty investigation China | 双反调查 | 高频事件 |
+| RCEP implementation trade agreement tariff reduction | RCEP执行 | 降税=机遇 |
+| rules of origin transshipment circumvention trade | 原产地规则 | 转运规避=合规风险 |
+| WTO dispute settlement ruling trade complaint | WTO争端 | 裁决=政策依据 |
+| technical barrier trade TBT SPS import restriction | TBT/SPS壁垒 | 隐性保护主义 |
+| import quota license trade restriction emergency | 配额/许可证 | 紧急限制=直接信号 |
+
+### 信号性查询
+
+| 搜索词 | 意图 |
+|--------|------|
+| "import ban" "export ban" "emergency restriction" | 贸易禁令信号 |
+| "trade sanctions" "quota suspension" "mandatory recall" | 贸易制裁信号 |
+| "sudden inspection" import export customs seizure | 突击检查信号 |
+
+---
+
+## global_risk（国际风险）
+
+### 设计逻辑
+企业级跨境风险——制裁清单/外资审查/征用/资本管制/主权违约。
+互斥边界：不含国家间军事冲突（geopolitics_risk管）、不含宏观金融（finance管）。
+用exclude词表确保互斥，命中"election""missile""interest rate hike"等词的文章降低评分。
+
+| 搜索词 | 意图 | 备注 |
+|--------|------|------|
+| OFAC sanctions list designation entity update | OFAC清单更新 | 最高频制裁 |
+| BIS entity list addition export control US | BIS实体清单 | 中国企业最常上 |
+| EU sanctions package Russia China designation | 欧盟制裁包 | 含中国关联 |
+| CFIUS review block acquisition national security | CFIUS审查/否决 | 中企并购最大障碍 |
+| EU FDI screening investment review regulation | 欧盟FDI审查 | 2024法规落地 |
+| expropriation nationalization foreign investment sovereign | 征收/国有化 | 极端风险 |
+| forced divestiture sell-off foreign company order | 被迫出售 | TikTok式风险 |
+| capital controls foreign exchange restriction | 资本/外汇管制 | 资金回不来 |
+| sovereign default debt restructuring emerging market | 主权违约 | 新兴市场风险 |
+| FCPA anticorruption enforcement compliance penalty | FCPA反腐 | 中企高风险 |
+
+### 信号性查询
+
+| 搜索词 | 意图 |
+|--------|------|
+| "blacklisted" "freeze order" "forced expropriation" | 制裁行动信号 |
+| "capital controls imposed" "default declared" "force majeure invoked" | 风险升级信号 |
+| "investment blocked" "deal blocked" national security review | 投资被阻信号 |
+
+---
+
+## chinese_firms_overseas（中企海外动态）
+
+### 设计逻辑
+跟踪50家重点中国企业的海外动态，按行业分组查询。
+核心输入：企业名+事件词组合查询（如"BYD factory Europe tariff"）。
+按行业分组：新能源车→半导体→电商→安防→光伏→基建→能源→制造→金融。
+
+### 行业分组查询
+
+| 分组 | 代表搜索词 | 意图 |
+|------|-----------|------|
+| 新能源车 | BYD factory Europe Hungary tariff | 比亚迪海外建厂+关税 |
+| 新能源车 | CATL battery plant Hungary Germany | 宁德时代海外工厂 |
+| 半导体 | Huawei ban overseas contract 5G chip | 华为海外禁令 |
+| 半导体 | SMIC YMTC CXMT entity list sanctions | 芯片企业制裁 |
+| 电商 | Temu EU regulation tariff forced labor | Temu合规 |
+| 电商 | ByteDance TikTok ban EU DSA divestiture | TikTok禁令 |
+| 安防 | DJI ban entity list restriction drone | 大疆禁令 |
+| 安防 | Hikvision Dahua entity list ban surveillance | 海康大华制裁 |
+| 光伏 | LONGi JinkoSolar tariff anti-circumvention | 光伏关税 |
+| 基建 | CCCC CRRC CRCC CRECG Belt and Road | 基建企业一带一路 |
+| 能源 | PetroChina Sinopec CNOOC overseas sanction | 三桶油海外 |
+| 制造 | Xiaomi OPPO vivo overseas India patent | 手机企业海外 |
+| 金融 | Bank of China ICBC CCB overseas sanctions | 中资银行海外 |
+
+### 信号性查询
+
+| 搜索词 | 意图 |
+|--------|------|
+| "construction halted" "contract terminated" "worker strike" Chinese company | 项目停工信号 |
+| "license revoked" "forced divestiture" "added to list" Chinese firm | 许可/清单信号 |
+| "compliance fine" "regulatory penalty" "investigation" Chinese overseas | 合规处罚信号 |
+
+### 企业名单可升级说明
+50家重点企业名单存储在 keywords.yaml 的 aux 词表中（英文名），更换/新增企业只需编辑 keywords.yaml 的 aux 字段，无需修改代码。

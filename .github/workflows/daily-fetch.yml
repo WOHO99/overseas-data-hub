@@ -53,7 +53,7 @@ jobs:
         run: |
           mkdir -p data
           cp scripts/index.json data/ 2>/dev/null || true
-          for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json; do
+          for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
             [ -f "$f" ] && cp "$f" data/
           done
           # 信号与运维JSON

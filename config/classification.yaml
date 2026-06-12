@@ -1,16 +1,24 @@
-# classification.yaml v1.0 — 海外数据分类映射
-# 共用方：generate_html_report.py / import_to_vault.py / intl-news-monitor技能
+# classification.yaml v1.1 — 全球视野分类映射
+# 共用方：generate_daily_html.py / import_to_vault.py / intl-news-monitor技能
 # 维护规则：变更后必须同步测试HTML日报+Agent检索，禁止单方修改
 
 # ── 模块定义 ────────────────────────────────────────────────────
 modules:
   order:
+    # 场景模块
     - global_business
     - finance
+    # 主题模块
     - tech_industry
     - energy_commodities
     - geopolitics_risk
     - esg_sustainability
+    # 新增主题模块(v5.0)
+    - cross_border_ecommerce
+    - trade_import_export
+    - global_risk
+    - chinese_firms_overseas
+    # 区域模块
     - se_asia
     - south_asia
     - middle_east
@@ -26,6 +34,10 @@ modules:
     energy_commodities: 能源大宗
     geopolitics_risk: 地缘风险
     esg_sustainability: ESG与可持续
+    cross_border_ecommerce: 跨境电商
+    trade_import_export: 进出口贸易
+    global_risk: 全球风险
+    chinese_firms_overseas: 中企海外
     se_asia: 东南亚
     south_asia: 南亚
     middle_east: 中东
@@ -88,6 +100,10 @@ country:
     europe: 欧洲
     cis: 独联体
     east_asia: 日韩
+    cross_border_ecommerce: 全球
+    trade_import_export: 全球
+    global_risk: 全球
+    chinese_firms_overseas: 全球
 
   # 国家关键词 → 从title/source中二次提取（大小写敏感）
   keyword_map:
@@ -297,6 +313,10 @@ topic:
     geopolitics_risk: 地缘与安全
     esg_sustainability: ESG与可持续
     global_business: 商业综合
+    cross_border_ecommerce: 跨境电商
+    trade_import_export: 贸易与区域
+    global_risk: 全球风险
+    chinese_firms_overseas: 中企海外
 
   # 主题关键词 → 从title中二次提取（小写匹配）
   keyword_map:

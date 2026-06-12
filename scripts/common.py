@@ -113,6 +113,33 @@ def _is_sensitive_url(url):
     return any(domain in url for domain in RATE_LIMITED_DOMAINS)
 
 
+def _is_gnews_url(url):
+    """判定URL是否为Google News跟踪链接"""
+    return bool(url and "news.google.com" in url)
+
+
+async def _resolve_gnews_redirect(session, gnews_url, timeout_sec=8):
+    """
+    解析GNews跟踪URL的最终跳转地址。
+    在Actions环境（ubuntu）下news.google.com可达，本地可能不可达。
+    成功返回canonical_url，失败返回None。
+    """
+    try:
+        async with session.get(
+            gnews_url,
+            timeout=aiohttp.ClientTimeout(total=timeout_sec, connect=3),
+            allow_redirects=True,
+        ) as resp:
+            if resp.status == 200:
+                final_url = str(resp.url)
+                # 确认不是还在google.com上
+                if "google.com" not in final_url:
+                    return final_url
+    except Exception:
+        pass
+    return None
+
+
 def _parse_feed_text(text):
     return feedparser.parse(text)
 
@@ -163,13 +190,19 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                     summary = re.sub(r'<[^>]+>', '', summary).strip()
                     if len(summary) > 500:
                         summary = summary[:500] + "..."
-                    items.append({
+                    item = {
                         "title": title,
                         "link": link,
                         "published": published,
                         "summary": summary,
                         "source": tag,
-                    })
+                    }
+                    # GNews跟踪URL解析canonical_url（Actions环境可达）
+                    if _is_gnews_url(link):
+                        canonical = await _resolve_gnews_redirect(session, link)
+                        if canonical:
+                            item["canonical_url"] = canonical
+                    items.append(item)
                 return items, False
 
         except (aiohttp.ClientError, asyncio.TimeoutError) as e:

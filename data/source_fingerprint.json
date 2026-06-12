@@ -1,14 +1,20 @@
 {
   "version": "1.0",
-  "updated": "2026-06-11T14:06:52.540209+00:00",
-  "fetch_date_utc": "2026-06-11",
+  "updated": "2026-06-12T00:04:44.811778+00:00",
+  "fetch_date_utc": "2026-06-12",
   "window": "24h",
   "summary": {
     "unchanged": 0,
     "changed": 0,
-    "new_source": 69
+    "new_source": 66
   },
   "sources": {
+    "SCMP Tech": {
+      "fingerprint": "da528a5c2692",
+      "article_count": 13,
+      "module": "全球商业与产业链重构",
+      "status": "new_source"
+    },
     "FedReg | BIS": {
       "fingerprint": "0088e5b04d17",
       "article_count": 27,
@@ -16,27 +22,15 @@
       "status": "new_source"
     },
     "SCMP Economy": {
-      "fingerprint": "0ac2cc150705",
+      "fingerprint": "e99b89e900e5",
       "article_count": 30,
       "module": "全球商业与产业链重构",
       "status": "new_source"
     },
     "Nikkei Asia": {
-      "fingerprint": "1c04b3cdc945",
+      "fingerprint": "28c622d56a67",
       "article_count": 30,
       "module": "东亚深度",
-      "status": "new_source"
-    },
-    "SCMP Tech": {
-      "fingerprint": "0628915eda72",
-      "article_count": 10,
-      "module": "全球商业与产业链重构",
-      "status": "new_source"
-    },
-    "GNews | CFIUS": {
-      "fingerprint": "281afea4ed1e",
-      "article_count": 1,
-      "module": "全球商业与产业链重构",
       "status": "new_source"
     },
     "GNews | 1260H": {
@@ -52,20 +46,44 @@
       "status": "new_source"
     },
     "Bangkok Post": {
-      "fingerprint": "eec5f6ec694d",
+      "fingerprint": "27e3105c2462",
       "article_count": 10,
       "module": "东南亚深度",
       "status": "new_source"
     },
+    "GNews | CN 关税/制裁": {
+      "fingerprint": "e134175625ec",
+      "article_count": 1,
+      "module": "全球商业与产业链重构",
+      "status": "new_source"
+    },
+    "GNews | EU Regulation": {
+      "fingerprint": "41041b9cd4e6",
+      "article_count": 2,
+      "module": "全球商业与产业链重构",
+      "status": "new_source"
+    },
+    "GNews | ECB": {
+      "fingerprint": "f76814dd0112",
+      "article_count": 14,
+      "module": "全球宏观与资本流动",
+      "status": "new_source"
+    },
     "GNews | BOJ": {
-      "fingerprint": "67b1d8df7c51",
+      "fingerprint": "1e1fd9bb7e9f",
+      "article_count": 2,
+      "module": "全球宏观与资本流动",
+      "status": "new_source"
+    },
+    "GNews | EUR/USD": {
+      "fingerprint": "015fbc36e16a",
       "article_count": 1,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
-    "FT Home": {
-      "fingerprint": "89279af9693e",
-      "article_count": 12,
+    "GNews | Fed/FOMC": {
+      "fingerprint": "02268d4fc3fc",
+      "article_count": 1,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -75,21 +93,15 @@
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
-    "GNews | ECB": {
-      "fingerprint": "108d26a071ca",
+    "FT Home": {
+      "fingerprint": "3a50da333b01",
       "article_count": 10,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
-    "GNews | EUR/USD": {
-      "fingerprint": "9c59e19f92ae",
-      "article_count": 1,
-      "module": "全球宏观与资本流动",
-      "status": "new_source"
-    },
-    "GNews | JP 日央行": {
-      "fingerprint": "6843c90ea18c",
-      "article_count": 1,
+    "GNews | BOE": {
+      "fingerprint": "db3bcd66ed17",
+      "article_count": 4,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -100,8 +112,14 @@
       "status": "new_source"
     },
     "WSJ World": {
-      "fingerprint": "3de6b08491fd",
-      "article_count": 12,
+      "fingerprint": "3094e31301a2",
+      "article_count": 10,
+      "module": "全球宏观与资本流动",
+      "status": "new_source"
+    },
+    "GNews | Iron Ore": {
+      "fingerprint": "f006444ccfe5",
+      "article_count": 1,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -111,33 +129,15 @@
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
-    "GNews | JPY": {
-      "fingerprint": "eafd5004327e",
-      "article_count": 1,
-      "module": "全球宏观与资本流动",
-      "status": "new_source"
-    },
     "GNews | Japan Stock/FSA": {
-      "fingerprint": "d5311de08e92",
+      "fingerprint": "e490c5a6fc77",
       "article_count": 1,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
-    "GNews | Liquidity/Outflow": {
-      "fingerprint": "cbe6b92b3157",
-      "article_count": 1,
-      "module": "全球宏观与资本流动",
-      "status": "new_source"
-    },
-    "GNews | SWF": {
-      "fingerprint": "b7e25f2b959e",
-      "article_count": 1,
-      "module": "全球宏观与资本流动",
-      "status": "new_source"
-    },
-    "GNews | Lithium": {
-      "fingerprint": "7a4b55620b25",
-      "article_count": 1,
+    "GNews | IMF/World Bank": {
+      "fingerprint": "4ff0e6f80945",
+      "article_count": 3,
       "module": "全球宏观与资本流动",
       "status": "new_source"
     },
@@ -148,20 +148,20 @@
       "status": "new_source"
     },
     "GNews | AI Safety": {
-      "fingerprint": "adff2dee4a13",
+      "fingerprint": "abf5a4af2b73",
       "article_count": 1,
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
     "Wired": {
-      "fingerprint": "9602bbd7c7e8",
+      "fingerprint": "f7c52da08531",
       "article_count": 30,
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
-    "Ars Technica": {
-      "fingerprint": "fb64c3e7016e",
-      "article_count": 14,
+    "GNews | Space": {
+      "fingerprint": "cf03693f0f05",
+      "article_count": 1,
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
@@ -171,14 +171,20 @@
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
-    "GNews | AI Copyright": {
-      "fingerprint": "689f92ab43a3",
-      "article_count": 1,
+    "Ars Technica": {
+      "fingerprint": "b55229f35930",
+      "article_count": 9,
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
     "GNews | GLP-1 Drug": {
-      "fingerprint": "69350b7a7c6b",
+      "fingerprint": "fd2536069eb4",
+      "article_count": 3,
+      "module": "全球科技与工业前沿",
+      "status": "new_source"
+    },
+    "GNews | LFP Battery": {
+      "fingerprint": "dee874b4948c",
       "article_count": 1,
       "module": "全球科技与工业前沿",
       "status": "new_source"
@@ -195,32 +201,20 @@
       "module": "全球科技与工业前沿",
       "status": "new_source"
     },
-    "GNews | LNG Expansion": {
-      "fingerprint": "5fb1ecd4a75e",
-      "article_count": 1,
-      "module": "全球能源与大宗商品",
-      "status": "new_source"
-    },
     "OilPrice.com": {
-      "fingerprint": "fad8eb56442f",
+      "fingerprint": "7777a8aea94a",
       "article_count": 15,
-      "module": "全球能源与大宗商品",
-      "status": "new_source"
-    },
-    "GNews | Lithium Mine": {
-      "fingerprint": "7a4b55620b25",
-      "article_count": 1,
-      "module": "全球能源与大宗商品",
-      "status": "new_source"
-    },
-    "GNews | Fertilizer": {
-      "fingerprint": "1f37e57786b6",
-      "article_count": 1,
       "module": "全球能源与大宗商品",
       "status": "new_source"
     },
     "GNews | Drought/Crop": {
       "fingerprint": "231768e59c0a",
+      "article_count": 1,
+      "module": "全球能源与大宗商品",
+      "status": "new_source"
+    },
+    "GNews | Oil Disruption": {
+      "fingerprint": "f66dbb230eae",
       "article_count": 1,
       "module": "全球能源与大宗商品",
       "status": "new_source"
@@ -232,31 +226,19 @@
       "status": "new_source"
     },
     "ESG News": {
-      "fingerprint": "d18581170f2b",
+      "fingerprint": "b04282955b91",
       "article_count": 7,
       "module": "ESG与可持续发展",
       "status": "new_source"
     },
-    "GNews | Modern Slavery": {
-      "fingerprint": "506f849edec0",
-      "article_count": 1,
-      "module": "ESG与可持续发展",
-      "status": "new_source"
-    },
-    "GNews | Biodiversity": {
-      "fingerprint": "44a1ec1d8617",
-      "article_count": 1,
-      "module": "ESG与可持续发展",
-      "status": "new_source"
-    },
     "VN Express EN": {
-      "fingerprint": "ea891e525b27",
+      "fingerprint": "2149c042847a",
       "article_count": 25,
       "module": "东南亚深度",
       "status": "new_source"
     },
-    "GNews | VN Tiếng Việt": {
-      "fingerprint": "a6b4c37299bc",
+    "GNews | Signal: SE Asia Disrupt": {
+      "fingerprint": "e353bfef608b",
       "article_count": 1,
       "module": "东南亚深度",
       "status": "new_source"
@@ -268,32 +250,44 @@
       "status": "new_source"
     },
     "The Hindu Business": {
-      "fingerprint": "c791aec4b591",
+      "fingerprint": "19be36208cba",
       "article_count": 22,
       "module": "南亚深度",
       "status": "new_source"
     },
-    "GNews | IN Infra": {
-      "fingerprint": "efa33664be1a",
-      "article_count": 2,
+    "GNews | IN Economy/RBI": {
+      "fingerprint": "eb4b2321e71d",
+      "article_count": 1,
+      "module": "南亚深度",
+      "status": "new_source"
+    },
+    "GNews | IN हिन्दी": {
+      "fingerprint": "edca286fe116",
+      "article_count": 3,
+      "module": "南亚深度",
+      "status": "new_source"
+    },
+    "GNews | SA Climate": {
+      "fingerprint": "1d7b97a8a6d1",
+      "article_count": 1,
       "module": "南亚深度",
       "status": "new_source"
     },
     "Al Jazeera": {
-      "fingerprint": "f1bc9e902309",
+      "fingerprint": "851c3c79c3ee",
       "article_count": 25,
       "module": "中东深度",
       "status": "new_source"
     },
     "Daily Sabah": {
-      "fingerprint": "cf8fc4ff1e0f",
+      "fingerprint": "bc82d7beb360",
       "article_count": 13,
       "module": "中东深度",
       "status": "new_source"
     },
-    "GNews | UAE العربية": {
-      "fingerprint": "0be91574b5ef",
-      "article_count": 3,
+    "GNews | Signal: ME Disrupt": {
+      "fingerprint": "3dd9e396c710",
+      "article_count": 1,
       "module": "中东深度",
       "status": "new_source"
     },
@@ -303,63 +297,51 @@
       "module": "中东深度",
       "status": "new_source"
     },
-    "GNews | MX Auto/Mfg": {
-      "fingerprint": "3e03e254084a",
+    "GNews | UAE العربية": {
+      "fingerprint": "ba8a8ee0da30",
       "article_count": 1,
-      "module": "拉美深度",
+      "module": "中东深度",
       "status": "new_source"
     },
     "MercoPress": {
-      "fingerprint": "ada1ee665bc3",
-      "article_count": 6,
+      "fingerprint": "8c53641ffdf0",
+      "article_count": 9,
       "module": "拉美深度",
       "status": "new_source"
     },
-    "GNews | BR Lithium/Mining": {
-      "fingerprint": "f803a24a169b",
+    "GNews | MX Economy": {
+      "fingerprint": "f2678b740a4c",
       "article_count": 1,
       "module": "拉美深度",
       "status": "new_source"
     },
-    "GNews | AR Español": {
-      "fingerprint": "24b7a4b0893b",
+    "GNews | Signal: LatAm Disrupt": {
+      "fingerprint": "05f5c846453e",
       "article_count": 1,
       "module": "拉美深度",
       "status": "new_source"
     },
-    "GNews | LatAm Demo": {
-      "fingerprint": "38b6a5148d0a",
+    "GNews | LatAm Infra": {
+      "fingerprint": "f3f8f7140eb6",
       "article_count": 1,
       "module": "拉美深度",
       "status": "new_source"
     },
     "GNews | AfCFTA": {
-      "fingerprint": "17e15f30d657",
+      "fingerprint": "85cddf03fd80",
       "article_count": 8,
       "module": "非洲深度",
       "status": "new_source"
     },
     "Daily Maverick ZA": {
-      "fingerprint": "9ba4696dc33e",
-      "article_count": 28,
-      "module": "非洲深度",
-      "status": "new_source"
-    },
-    "GNews | CD Cobalt": {
-      "fingerprint": "b4aaaec2979c",
-      "article_count": 1,
-      "module": "非洲深度",
-      "status": "new_source"
-    },
-    "GNews | Sudan Crisis": {
-      "fingerprint": "993eb8400591",
-      "article_count": 1,
+      "fingerprint": "255f04aed9a7",
+      "article_count": 30,
       "module": "非洲深度",
       "status": "new_source"
     },
     "GNews | ECB/Rate": {
-      "fingerprint": "207d150476fa",
-      "article_count": 12,
+      "fingerprint": "9faf0753aa1a",
+      "article_count": 17,
       "module": "欧洲深度",
       "status": "new_source"
     },
@@ -381,21 +363,27 @@
       "module": "欧洲深度",
       "status": "new_source"
     },
-    "GNews | DE Economy": {
-      "fingerprint": "3e03e254084a",
+    "GNews | FR Economy": {
+      "fingerprint": "a6465b88c6bf",
       "article_count": 1,
       "module": "欧洲深度",
       "status": "new_source"
     },
     "Moscow Times": {
-      "fingerprint": "a76efcc7f3f8",
-      "article_count": 8,
+      "fingerprint": "300d1fb048aa",
+      "article_count": 7,
+      "module": "独联体深度",
+      "status": "new_source"
+    },
+    "GNews | CA Climate/Water": {
+      "fingerprint": "feeea4a3e44b",
+      "article_count": 1,
       "module": "独联体深度",
       "status": "new_source"
     },
     "GNews | KZ Русский": {
-      "fingerprint": "e44a063913a1",
-      "article_count": 1,
+      "fingerprint": "60e3c2f3e206",
+      "article_count": 2,
       "module": "独联体深度",
       "status": "new_source"
     },
@@ -405,14 +393,8 @@
       "module": "独联体深度",
       "status": "new_source"
     },
-    "GNews | KR Chip/Export": {
-      "fingerprint": "0f902c5adeca",
-      "article_count": 1,
-      "module": "东亚深度",
-      "status": "new_source"
-    },
     "GNews | KR Politics": {
-      "fingerprint": "9e80502be2c5",
+      "fingerprint": "e968c4e845da",
       "article_count": 1,
       "module": "东亚深度",
       "status": "new_source"

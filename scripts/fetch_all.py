@@ -39,6 +39,10 @@ MODULE_REGISTRY = [
     {"module": "region_europe", "output": "europe.json", "core": False},
     {"module": "region_cis", "output": "cis.json", "core": False},
     {"module": "region_east_asia", "output": "east_asia.json", "core": False},
+    {"module": "cross_border_ecommerce", "output": "cross_border_ecommerce.json", "core": False},
+    {"module": "trade_import_export", "output": "trade_import_export.json", "core": False},
+    {"module": "global_risk", "output": "global_risk.json", "core": False},
+    {"module": "chinese_firms_overseas", "output": "chinese_firms_overseas.json", "core": False},
 ]
 
 MAX_CONCURRENT = 3

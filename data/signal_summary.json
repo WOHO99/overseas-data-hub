@@ -1,34 +1,12 @@
 {
   "version": "1.1",
-  "updated": "2026-06-11T14:06:52.540209+00:00",
-  "fetch_date_utc": "2026-06-11",
+  "updated": "2026-06-12T00:04:44.811778+00:00",
+  "fetch_date_utc": "2026-06-12",
   "method": "max(7d_high, 3) + sustained(mean_7d*1.5)",
   "signals": [
     {
-      "keyword": "central bank",
-      "today_count": 4,
-      "baseline": 3,
-      "high_7d": 0,
-      "mean_7d": 0,
-      "consecutive_alert_days": 0,
-      "triggered": true,
-      "status": "spike",
-      "baseline_note": "max(7d_high=0, 3)=3"
-    },
-    {
-      "keyword": "unprecedented",
-      "today_count": 4,
-      "baseline": 3,
-      "high_7d": 0,
-      "mean_7d": 0,
-      "consecutive_alert_days": 0,
-      "triggered": true,
-      "status": "spike",
-      "baseline_note": "max(7d_high=0, 3)=3"
-    },
-    {
-      "keyword": "record high",
-      "today_count": 4,
+      "keyword": "World Bank",
+      "today_count": 5,
       "baseline": 3,
       "high_7d": 0,
       "mean_7d": 0,
@@ -39,6 +17,28 @@
     },
     {
       "keyword": "discovery",
+      "today_count": 4,
+      "baseline": 3,
+      "high_7d": 0,
+      "mean_7d": 0,
+      "consecutive_alert_days": 0,
+      "triggered": true,
+      "status": "spike",
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "central bank",
+      "today_count": 3,
+      "baseline": 3,
+      "high_7d": 0,
+      "mean_7d": 0,
+      "consecutive_alert_days": 0,
+      "triggered": false,
+      "status": "normal",
+      "baseline_note": "max(7d_high=0, 3)=3"
+    },
+    {
+      "keyword": "record high",
       "today_count": 3,
       "baseline": 3,
       "high_7d": 0,
@@ -60,7 +60,7 @@
       "baseline_note": "max(7d_high=0, 3)=3"
     },
     {
-      "keyword": "BIS",
+      "keyword": "warning",
       "today_count": 2,
       "baseline": 3,
       "high_7d": 0,
@@ -71,7 +71,7 @@
       "baseline_note": "max(7d_high=0, 3)=3"
     },
     {
-      "keyword": "warning",
+      "keyword": "unprecedented",
       "today_count": 2,
       "baseline": 3,
       "high_7d": 0,
@@ -93,17 +93,6 @@
       "baseline_note": "max(7d_high=0, 3)=3"
     },
     {
-      "keyword": "breakthrough",
-      "today_count": 2,
-      "baseline": 3,
-      "high_7d": 0,
-      "mean_7d": 0,
-      "consecutive_alert_days": 0,
-      "triggered": false,
-      "status": "normal",
-      "baseline_note": "max(7d_high=0, 3)=3"
-    },
-    {
       "keyword": "coup",
       "today_count": 1,
       "baseline": 3,
@@ -115,18 +104,7 @@
       "baseline_note": "max(7d_high=0, 3)=3"
     },
     {
-      "keyword": "political crisis",
-      "today_count": 1,
-      "baseline": 3,
-      "high_7d": 0,
-      "mean_7d": 0,
-      "consecutive_alert_days": 0,
-      "triggered": false,
-      "status": "normal",
-      "baseline_note": "max(7d_high=0, 3)=3"
-    },
-    {
-      "keyword": "export ban",
+      "keyword": "BIS",
       "today_count": 1,
       "baseline": 3,
       "high_7d": 0,
@@ -148,7 +126,7 @@
       "baseline_note": "max(7d_high=0, 3)=3"
     },
     {
-      "keyword": "World Bank",
+      "keyword": "breakthrough",
       "today_count": 1,
       "baseline": 3,
       "high_7d": 0,
