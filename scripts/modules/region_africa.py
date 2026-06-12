@@ -18,7 +18,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "非洲深度",
     "output_file": "africa.json",
-    "max_articles": 250,
+    "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -26,34 +26,34 @@ CONFIG = {
     "exclude_keywords": _exclude_kw,
     "feeds": {
         "主要经济体": [
-            {"url": gnews_url("South Africa economy trade mining export GDP"), "tag": "GNews | ZA Economy"},
-            {"url": gnews_url("Nigeria economy oil trade investment GDP"), "tag": "GNews | NG Economy"},
-            {"url": gnews_url("Kenya economy trade fintech investment startup"), "tag": "GNews | KE Economy/Fintech"},
-            {"url": gnews_url("Egypt economy trade Suez Canal investment IMF"), "tag": "GNews | EG Economy"},
-            {"url": gnews_url("Ethiopia economy manufacturing investment trade"), "tag": "GNews | ET Economy/Mfg"},
+            {"url": gnews_url("South Africa economy trade mining export GDP", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | ZA Economy"},
+            {"url": gnews_url("Nigeria economy oil trade investment GDP", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | NG Economy"},
+            {"url": gnews_url("Kenya economy trade fintech investment startup", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | KE Economy/Fintech"},
+            {"url": gnews_url("Egypt economy trade Suez Canal investment IMF", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | EG Economy"},
+            {"url": gnews_url("Ethiopia economy manufacturing investment trade", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | ET Economy/Mfg"},
         ],
         "矿业+中国": [
-            {"url": gnews_url("Congo DRC cobalt mining export China investment child labor"), "tag": "GNews | CD Cobalt"},
-            {"url": gnews_url("Africa China investment infrastructure Belt Road BRI mining"), "tag": "GNews | Africa-China/BRI"},
-            {"url": gnews_url("Africa critical minerals cobalt lithium copper export EU US"), "tag": "GNews | Africa Minerals"},
+            {"url": gnews_url("Congo DRC cobalt mining export China investment child labor", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | CD Cobalt"},
+            {"url": gnews_url("Africa China investment infrastructure Belt Road BRI mining", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa-China/BRI"},
+            {"url": gnews_url("Africa critical minerals cobalt lithium copper export EU US", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Minerals"},
         ],
         "贸易+区域": [
-            {"url": gnews_url("AfCFTA African Continental Free Trade Area implementation"), "tag": "GNews | AfCFTA"},
-            {"url": gnews_url("AGOA Africa trade preference US renewal 2026"), "tag": "GNews | AGOA"},
-            {"url": gnews_url("Africa debt crisis IMF World Bank default restructuring"), "tag": "GNews | Africa Debt/IMF"},
+            {"url": gnews_url("AfCFTA African Continental Free Trade Area implementation", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | AfCFTA"},
+            {"url": gnews_url("AGOA Africa trade preference US renewal 2026", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | AGOA"},
+            {"url": gnews_url("Africa debt crisis IMF World Bank default restructuring", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Debt/IMF"},
         ],
         "政治+冲突": [
-            {"url": gnews_url("Africa conflict coup political crisis instability 2026"), "tag": "GNews | Africa Conflict"},
-            {"url": gnews_url("Sahel conflict terrorism Mali Burkina Faso Niger"), "tag": "GNews | Sahel Crisis"},
-            {"url": gnews_url("Sudan conflict civil war humanitarian crisis"), "tag": "GNews | Sudan Crisis"},
+            {"url": gnews_url("Africa conflict coup political crisis instability 2026", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Conflict"},
+            {"url": gnews_url("Sahel conflict terrorism Mali Burkina Faso Niger", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Sahel Crisis"},
+            {"url": gnews_url("Sudan conflict civil war humanitarian crisis", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Sudan Crisis"},
         ],
         "基础设施+科技": [
-            {"url": gnews_url("Africa infrastructure port expansion railway project 2026"), "tag": "GNews | Africa Infra"},
-            {"url": gnews_url("Africa technology mobile money fintech innovation hub"), "tag": "GNews | Africa Tech"},
+            {"url": gnews_url("Africa infrastructure port expansion railway project 2026", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Infra"},
+            {"url": gnews_url("Africa technology mobile money fintech innovation hub", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Tech"},
         ],
         "气候+人口": [
-            {"url": gnews_url("Africa drought flood climate change Sahara East Africa"), "tag": "GNews | Africa Climate"},
-            {"url": gnews_url("Africa youth population unemployment urbanization"), "tag": "GNews | Africa Demo"},
+            {"url": gnews_url("Africa drought flood climate change Sahara East Africa", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Climate"},
+            {"url": gnews_url("Africa youth population unemployment urbanization", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Demo"},
         ],
         "大国关系": [
             {"url": gnews_url("US Africa summit trade investment partnership 2026"), "tag": "GNews | US-Africa"},
@@ -63,6 +63,7 @@ CONFIG = {
         "独立RSS源": [
             {"url": "https://www.dailymaverick.co.za/rss/", "tag": "Daily Maverick ZA"},
             {"url": "https://www.theeastafrican.co.ke/rss", "tag": "The East African"},
+            {"url": "https://mg.co.za/feed/", "tag": "Mail & Guardian ZA"},
         ],
         "本地语言搜索": [
             {"url": gnews_url("South Africa trade export investment economy mining", hl="en", gl="ZA", ceid="ZA:en"), "tag": "GNews | ZA English"},
@@ -71,6 +72,9 @@ CONFIG = {
         "信号性查询": [
             {"url": gnews_url('"conflict escalation" "coup" Africa political crisis'), "tag": "GNews | Signal: Africa Crisis"},
             {"url": gnews_url('"famine" "record displacement" "debt default" Africa'), "tag": "GNews | Signal: Africa Emergency"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="WORLD", hl="en-US", gl="ZA", ceid="ZA:en"), "tag": "GNews Topic | WORLD(ZA)"},
         ],
     },
 }

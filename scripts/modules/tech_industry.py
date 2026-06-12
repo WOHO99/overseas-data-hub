@@ -19,7 +19,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "全球科技与工业前沿",
     "output_file": "tech_industry.json",
-    "max_articles": 400,
+    "max_articles": 500,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -66,6 +66,14 @@ CONFIG = {
             {"url": gnews_url('"first ever" breakthrough technology semiconductor AI'), "tag": "GNews | Signal: First Ever Tech"},
             {"url": gnews_url('"unprecedented" "record high" chip AI technology'), "tag": "GNews | Signal: Record Tech"},
             {"url": gnews_url('"supply disruption" semiconductor battery critical technology'), "tag": "GNews | Signal: Tech Disruption"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="TECHNOLOGY"), "tag": "GNews Topic | TECH(US)"},
+        ],
+        "科技权威RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "tag": "BBC Tech"},
+            {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
+            {"url": "http://rss.cnn.com/rss/cnn_tech.rss", "tag": "CNN Tech"},
         ],
     },
 }

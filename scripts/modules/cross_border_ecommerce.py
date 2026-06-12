@@ -65,6 +65,9 @@ CONFIG = {
             {"url": gnews_url('"customs detention" "forced recall" "product delisting" import'), "tag": "GNews | Signal: Customs/Recall"},
             {"url": gnews_url('"market exit" "platform shutdown" e-commerce seller'), "tag": "GNews | Signal: Market Exit"},
         ],
+        "电商科技RSS": [
+            {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
+        ],
     },
 }
 

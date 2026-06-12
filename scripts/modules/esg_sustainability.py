@@ -19,7 +19,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "ESG与可持续发展",
     "output_file": "esg_sustainability.json",
-    "max_articles": 250,
+    "max_articles": 500,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -62,6 +62,13 @@ CONFIG = {
             {"url": gnews_url('"greenwashing" scandal investigation penalty corporate'), "tag": "GNews | Signal: Greenwash"},
             {"url": gnews_url('"class action" ESG climate environmental lawsuit'), "tag": "GNews | Signal: ESG Lawsuit"},
             {"url": gnews_url('"landmark ruling" climate ESG regulation compliance'), "tag": "GNews | Signal: Landmark"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="SCIENCE"), "tag": "GNews Topic | SCIENCE(US)"},
+        ],
+        "ESG环境RSS": [
+            {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
+            {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
         ],
     },
 }

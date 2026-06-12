@@ -63,6 +63,10 @@ CONFIG = {
             {"url": gnews_url('"capital controls imposed" "default declared" "force majeure invoked"'), "tag": "GNews | Signal: Risk Escalation"},
             {"url": gnews_url('"investment blocked" "deal blocked" national security review'), "tag": "GNews | Signal: Deal Blocked"},
         ],
+        "风险情报RSS": [
+            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
+            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+        ],
     },
 }
 

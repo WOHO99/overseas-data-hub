@@ -18,7 +18,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "全球治理与地缘风险",
     "output_file": "geopolitics_risk.json",
-    "max_articles": 350,
+    "max_articles": 500,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -56,6 +56,17 @@ CONFIG = {
             {"url": gnews_url('"emergency meeting" security council NATO defense'), "tag": "GNews | Signal: Emergency"},
             {"url": gnews_url('"unprecedented" military escalation red line ultimatum'), "tag": "GNews | Signal: Escalation"},
             {"url": gnews_url('"first ever" treaty summit diplomatic breakthrough'), "tag": "GNews | Signal: Diplomacy First"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="WORLD"), "tag": "GNews Topic | WORLD(US)"},
+            {"url": gnews_url(topic="WORLD", hl="en-GB", gl="GB", ceid="GB:en"), "tag": "GNews Topic | WORLD(GB)"},
+        ],
+        "地缘权威RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
+            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            {"url": "https://www.theguardian.com/us-news/rss", "tag": "Guardian US"},
+            {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
+            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
         ],
     },
 }

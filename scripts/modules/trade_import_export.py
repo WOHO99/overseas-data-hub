@@ -62,6 +62,10 @@ CONFIG = {
             {"url": gnews_url('"trade sanctions" "quota suspension" "mandatory recall" import'), "tag": "GNews | Signal: Trade Sanctions"},
             {"url": gnews_url('"sudden inspection" import export customs seizure'), "tag": "GNews | Signal: Sudden Inspection"},
         ],
+        "贸易政策RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
+        ],
     },
 }
 

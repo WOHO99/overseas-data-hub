@@ -19,7 +19,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "全球能源与大宗商品",
     "output_file": "energy_commodities.json",
-    "max_articles": 350,
+    "max_articles": 500,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -64,6 +64,13 @@ CONFIG = {
             {"url": gnews_url('"supply disruption" energy commodity oil gas mineral'), "tag": "GNews | Signal: Energy Disruption"},
             {"url": gnews_url('"force majeure" oil gas mining production'), "tag": "GNews | Signal: Force Majeure"},
             {"url": gnews_url('"export ban" "record high" commodity food energy'), "tag": "GNews | Signal: Export Ban/Record"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="SCIENCE"), "tag": "GNews Topic | SCIENCE(US)"},
+        ],
+        "能源环境RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
+            {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
         ],
     },
 }

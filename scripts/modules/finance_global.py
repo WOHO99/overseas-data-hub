@@ -19,7 +19,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "全球宏观与资本流动",
     "output_file": "finance.json",
-    "max_articles": 500,
+    "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -106,6 +106,15 @@ CONFIG = {
             {"url": gnews_url('"emergency meeting" central bank rate decision'), "tag": "GNews | Signal: CB Emergency"},
             {"url": gnews_url('"warning" IMF World Bank BIS financial stability'), "tag": "GNews | Signal: IMF/BIS Warning"},
             {"url": gnews_url('"record high" "record low" market bond yield price'), "tag": "GNews | Signal: Market Record"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="BUSINESS"), "tag": "GNews Topic | BUSINESS(US)"},
+            {"url": gnews_url(topic="BUSINESS", hl="en-IN", gl="IN", ceid="IN:en"), "tag": "GNews Topic | BUSINESS(IN)"},
+        ],
+        "权威财经RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
+            {"url": "http://rss.cnn.com/rss/money_news_international.rss", "tag": "CNN Business"},
         ],
     },
 }

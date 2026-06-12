@@ -18,7 +18,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "东亚深度",
     "output_file": "east_asia.json",
-    "max_articles": 300,
+    "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -27,31 +27,31 @@ CONFIG = {
     "feeds": {
         "日本": [
             {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
-            {"url": gnews_url("Japan semiconductor chip export control equipment restriction"), "tag": "GNews | JP Chip/Export"},
-            {"url": gnews_url("Japan trade tariff manufacturing supply chain reshoring"), "tag": "GNews | JP Trade/SCM"},
-            {"url": gnews_url("Japan economy BOJ monetary policy yen GDP 2026"), "tag": "GNews | JP Economy/BOJ"},
+            {"url": gnews_url("Japan semiconductor chip export control equipment restriction", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Chip/Export"},
+            {"url": gnews_url("Japan trade tariff manufacturing supply chain reshoring", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Trade/SCM"},
+            {"url": gnews_url("Japan economy BOJ monetary policy yen GDP 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Economy/BOJ"},
         ],
         "韩国": [
-            {"url": gnews_url("South Korea semiconductor chip export restriction trade K-CHIPS"), "tag": "GNews | KR Chip/Export"},
-            {"url": gnews_url("South Korea trade tariff manufacturing battery EV shipbuilding"), "tag": "GNews | KR Trade/Mfg"},
-            {"url": gnews_url("South Korea economy GDP Bank of Korea rate inflation"), "tag": "GNews | KR Economy"},
+            {"url": gnews_url("South Korea semiconductor chip export restriction trade K-CHIPS", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Chip/Export"},
+            {"url": gnews_url("South Korea trade tariff manufacturing battery EV shipbuilding", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Trade/Mfg"},
+            {"url": gnews_url("South Korea economy GDP Bank of Korea rate inflation", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Economy"},
         ],
         "朝鲜半岛": [
-            {"url": gnews_url("North Korea sanctions trade missile nuclear China Russia"), "tag": "GNews | DPRK Sanctions"},
+            {"url": gnews_url("North Korea sanctions trade missile nuclear China Russia", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | DPRK Sanctions"},
         ],
         "政治+社会": [
-            {"url": gnews_url("Japan political stability election policy LDP 2026"), "tag": "GNews | JP Politics"},
-            {"url": gnews_url("South Korea political crisis election protest 2026"), "tag": "GNews | KR Politics"},
-            {"url": gnews_url("Taiwan Strait military tension China patrol 2026"), "tag": "GNews | Taiwan/SCS"},
+            {"url": gnews_url("Japan political stability election policy LDP 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Politics"},
+            {"url": gnews_url("South Korea political crisis election protest 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Politics"},
+            {"url": gnews_url("Taiwan Strait military tension China patrol 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | Taiwan/SCS"},
         ],
         "基础设施+科技": [
-            {"url": gnews_url("Japan chip fab semiconductor factory TSMC Kumamoto Rapidus"), "tag": "GNews | JP Chip Fab"},
-            {"url": gnews_url("South Korea technology hub semiconductor Samsung SK Hynix"), "tag": "GNews | KR Tech Hub"},
+            {"url": gnews_url("Japan chip fab semiconductor factory TSMC Kumamoto Rapidus", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Chip Fab"},
+            {"url": gnews_url("South Korea technology hub semiconductor Samsung SK Hynix", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Tech Hub"},
         ],
         "气候+人口": [
-            {"url": gnews_url("Japan Korea typhoon earthquake climate disaster 2026"), "tag": "GNews | JK Climate"},
-            {"url": gnews_url("Japan Korea demographic aging low birth rate population"), "tag": "GNews | JK Demo"},
-            {"url": gnews_url("Japan Korea energy import dependency nuclear LNG"), "tag": "GNews | JK Energy"},
+            {"url": gnews_url("Japan Korea typhoon earthquake climate disaster 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JK Climate"},
+            {"url": gnews_url("Japan Korea demographic aging low birth rate population", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JK Demo"},
+            {"url": gnews_url("Japan Korea energy import dependency nuclear LNG", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JK Energy"},
         ],
         "大国关系": [
             {"url": gnews_url("US Japan Korea trilateral security trade summit 2026"), "tag": "GNews | US-JK Trilateral"},
@@ -66,10 +66,14 @@ CONFIG = {
         "独立RSS源": [
             {"url": "https://www3.nhk.or.jp/nhkworld/rss/news/headline.xml", "tag": "NHK World"},
             {"url": "http://www.chinadaily.com.cn/rss/china_rss.xml", "tag": "China Daily"},
+            {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
         ],
         "信号性查询": [
             {"url": gnews_url('"military escalation" "first ever" Japan Korea Taiwan'), "tag": "GNews | Signal: JK Military"},
             {"url": gnews_url('"supply disruption" "breakthrough" Japan Korea semiconductor'), "tag": "GNews | Signal: JK Chip"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="WORLD", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews Topic | WORLD(JP)"},
         ],
     },
 }

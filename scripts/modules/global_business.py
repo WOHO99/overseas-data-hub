@@ -20,7 +20,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "全球商业与产业链重构",
     "output_file": "global_business.json",
-    "max_articles": 500,
+    "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -90,6 +90,19 @@ CONFIG = {
             {"url": gnews_url('"supply disruption" "force majeure" supply chain trade'), "tag": "GNews | Signal: SC Disruption"},
             {"url": gnews_url('"sanctions announced" "new restrictions" trade export control'), "tag": "GNews | Signal: New Sanctions"},
             {"url": gnews_url('"first ever" breakthrough discovery trade technology'), "tag": "GNews | Signal: First Ever"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="BUSINESS"), "tag": "GNews Topic | BUSINESS(US)"},
+            {"url": gnews_url(topic="WORLD"), "tag": "GNews Topic | WORLD(US)"},
+        ],
+        "权威媒体RSS": [
+            {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
+            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            {"url": "http://rss.cnn.com/rss/cnn_world.rss", "tag": "CNN World"},
+            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
+            {"url": "https://www.reutersagency.com/feed/?best-regions=world&post_type=best", "tag": "Reuters Agency"},
+            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
         ],
     },
 }

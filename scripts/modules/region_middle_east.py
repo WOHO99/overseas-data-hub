@@ -18,7 +18,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 CONFIG = {
     "name": "中东深度",
     "output_file": "middle_east.json",
-    "max_articles": 300,
+    "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
     "aux_keywords": _aux_kw,
@@ -26,34 +26,34 @@ CONFIG = {
     "exclude_keywords": _exclude_kw,
     "feeds": {
         "海湾国家": [
-            {"url": gnews_url("Saudi Arabia Vision 2030 investment trade export diversification"), "tag": "GNews | SA Vision 2030"},
-            {"url": gnews_url("UAE Dubai trade logistics free zone investment DIFC"), "tag": "GNews | UAE Trade/FTZ"},
-            {"url": gnews_url("Qatar investment LNG trade energy economy"), "tag": "GNews | QA Trade/LNG"},
-            {"url": gnews_url("Gulf sovereign wealth fund PIF ADIA investment global"), "tag": "GNews | Gulf SWF"},
-            {"url": gnews_url("Saudi NEOM construction infrastructure project"), "tag": "GNews | SA NEOM/Infra"},
+            {"url": gnews_url("Saudi Arabia Vision 2030 investment trade export diversification", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | SA Vision 2030"},
+            {"url": gnews_url("UAE Dubai trade logistics free zone investment DIFC", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | UAE Trade/FTZ"},
+            {"url": gnews_url("Qatar investment LNG trade energy economy", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | QA Trade/LNG"},
+            {"url": gnews_url("Gulf sovereign wealth fund PIF ADIA investment global", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | Gulf SWF"},
+            {"url": gnews_url("Saudi NEOM construction infrastructure project", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | SA NEOM/Infra"},
         ],
         "伊朗+土耳其": [
-            {"url": gnews_url("Iran sanctions oil export trade SWIFT nuclear"), "tag": "GNews | Iran Sanctions"},
-            {"url": gnews_url("Turkey economy trade inflation lira Erdogan policy"), "tag": "GNews | TR Economy"},
-            {"url": gnews_url("Turkey manufacturing export textile automotive"), "tag": "GNews | TR Mfg/Export"},
+            {"url": gnews_url("Iran sanctions oil export trade SWIFT nuclear", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | Iran Sanctions"},
+            {"url": gnews_url("Turkey economy trade inflation lira Erdogan policy", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | TR Economy"},
+            {"url": gnews_url("Turkey manufacturing export textile automotive", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | TR Mfg/Export"},
         ],
         "以色列+其他": [
-            {"url": gnews_url("Israel tech startup investment trade cybersecurity"), "tag": "GNews | IL Tech/Trade"},
-            {"url": gnews_url("Middle East logistics port shipping trade corridor"), "tag": "GNews | ME Logistics"},
-            {"url": gnews_url("Middle East China trade investment Belt Road BRI"), "tag": "GNews | ME-China/BRI"},
+            {"url": gnews_url("Israel tech startup investment trade cybersecurity", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | IL Tech/Trade"},
+            {"url": gnews_url("Middle East logistics port shipping trade corridor", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | ME Logistics"},
+            {"url": gnews_url("Middle East China trade investment Belt Road BRI", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | ME-China/BRI"},
         ],
         "政治+安全": [
-            {"url": gnews_url("Middle East conflict Gaza Israel ceasefire Red Sea Houthi"), "tag": "GNews | ME Conflict"},
-            {"url": gnews_url("Saudi Israel normalization Abraham Accord diplomacy"), "tag": "GNews | SA-IL Normalization"},
-            {"url": gnews_url("Iran nuclear deal JCPOA diplomacy sanctions relief"), "tag": "GNews | Iran Nuclear Deal"},
+            {"url": gnews_url("Middle East conflict Gaza Israel ceasefire Red Sea Houthi", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | ME Conflict"},
+            {"url": gnews_url("Saudi Israel normalization Abraham Accord diplomacy", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | SA-IL Normalization"},
+            {"url": gnews_url("Iran nuclear deal JCPOA diplomacy sanctions relief", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | Iran Nuclear Deal"},
         ],
         "基础设施+科技": [
-            {"url": gnews_url("Gulf infrastructure megaproject port desalination solar energy"), "tag": "GNews | Gulf Infra"},
-            {"url": gnews_url("Dubai technology hub AI startup innovation"), "tag": "GNews | Gulf Tech"},
+            {"url": gnews_url("Gulf infrastructure megaproject port desalination solar energy", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | Gulf Infra"},
+            {"url": gnews_url("Dubai technology hub AI startup innovation", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | Gulf Tech"},
         ],
         "气候+人口": [
-            {"url": gnews_url("Middle East heatwave drought water crisis energy"), "tag": "GNews | ME Climate"},
-            {"url": gnews_url("MENA youth unemployment population demographic"), "tag": "GNews | ME Demo"},
+            {"url": gnews_url("Middle East heatwave drought water crisis energy", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | ME Climate"},
+            {"url": gnews_url("MENA youth unemployment population demographic", hl="en-AE", gl="AE", ceid="AE:en"), "tag": "GNews | ME Demo"},
         ],
         "大国关系": [
             {"url": gnews_url("US Gulf cooperation trade investment defense"), "tag": "GNews | US-Gulf"},
@@ -73,6 +73,9 @@ CONFIG = {
         "信号性查询": [
             {"url": gnews_url('"supply disruption" oil gas Red Sea Suez Middle East'), "tag": "GNews | Signal: ME Disrupt"},
             {"url": gnews_url('"military escalation" "unprecedented" Middle East'), "tag": "GNews | Signal: ME Escalation"},
+        ],
+        "专题精选": [
+            {"url": gnews_url(topic="WORLD", hl="en-US", gl="AE", ceid="AE:en"), "tag": "GNews Topic | WORLD(AE)"},
         ],
     },
 }
