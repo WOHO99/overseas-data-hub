@@ -12,7 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # v4.4: 模块120s超时+batch_resolve+full_text_batch+beijing_backfill
+    timeout-minutes: 30  # v4.5: 模块120s超时+batch_resolve+Playwright(6-8min)+full_text+beijing
 
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +26,18 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8
+        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40
+
+      - name: Cache Playwright Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-v1
+          restore-keys: |
+            playwright-chromium-${{ runner.os }}-
+
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
 
       - name: Run global fetch
         run: |

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.4 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.5 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -12,6 +12,10 @@ v4.4: 三合一升级
   - fetch_one: feedburner_origlink/guid回退 + published_beijing时间标准化
   - fetch_full_text_batch: Actions端正文抓取(trafilatura), high+medium优先级
   - normalize_to_beijing_time: 统一北京时间+08:00
+v4.5: Playwright无头浏览器解析GNews canonical_url
+  - batch_resolve_gnews_with_browser: 用Chromium执行JS渲染，解决纯HTTP 0%覆盖率的问题
+  - 仅处理high priority文章中的GNews URL（约60-70篇/日），串行6-8分钟
+  - 单进程模式+no-sandbox，适配2核VM
 """
 
 import asyncio
@@ -454,6 +458,126 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     elapsed = _time.monotonic() - start
     print(f"  [FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s)")
     return fetched, total, elapsed
+
+
+# ============================================================
+# v4.5: Playwright 无头浏览器解析 GNews canonical_url
+# ============================================================
+
+async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high"):
+    """
+    v4.5: 使用 Playwright 无头浏览器批量解析 GNews 跟踪 URL。
+    只处理指定优先级的文章中的 GNews 链接（默认仅 high）。
+    
+    Google News 跟踪 URL 不是标准 HTTP 302，而是 JS 渲染后才跳转，
+    纯 HTTP(batch_resolve_gnews_urls)覆盖率为 0%。
+    Playwright 启动无头 Chromium，完整执行 JS 渲染，成功率预计 85-95%。
+    
+    articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url
+    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
+    
+    返回: (resolved_count, total_attempted, elapsed_seconds)
+    """
+    import time as _time
+    start = _time.monotonic()
+    
+    # 收集需要解析的 GNews URL
+    targets = []  # [(filename, article_index, gnews_url)]
+    
+    if priority_filter == "high":
+        min_priority = 10
+    else:  # "high+medium"
+        min_priority = 3
+    
+    for filename, articles in articles_by_file.items():
+        for idx, article in enumerate(articles):
+            # 只处理 GNews URL 且尚未解析的
+            if not _is_gnews_url(article.get("link", "")):
+                continue
+            if article.get("canonical_url"):
+                continue  # 已有 canonical_url（feedburner_origlink/guid回退已解析）
+            # 优先级过滤
+            if article.get("priority", 0) < min_priority:
+                continue
+            targets.append((filename, idx, article["link"]))
+    
+    total = len(targets)
+    if not targets:
+        print(f"  [PLAYWRIGHT] No high-priority GNews URLs to resolve, skipping")
+        return 0, 0, 0.0
+    
+    print(f"  [PLAYWRIGHT] Resolving {total} GNews URLs with headless Chromium...")
+    
+    resolved = 0
+    failed = 0
+    
+    try:
+        from playwright.async_api import async_playwright
+    except ImportError:
+        print(f"  [PLAYWRIGHT] ERROR: playwright not installed, skipping browser resolve")
+        print(f"  [PLAYWRIGHT] Install with: pip install playwright && playwright install chromium")
+        return 0, total, _time.monotonic() - start
+    
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",       # 2核VM内存有限，禁用/dev/shm
+                "--disable-gpu",
+                "--single-process",              # 单进程模式，减少内存占用
+            ]
+        )
+        
+        context = await browser.new_context(
+            user_agent=_BROWSER_HEADERS.get("User-Agent", "Mozilla/5.0"),
+            viewport={"width": 1280, "height": 720},
+        )
+        
+        page = await context.new_page()
+        
+        for i, (filename, idx, gnews_url) in enumerate(targets, 1):
+            try:
+                # 导航到 GNews 跟踪 URL，等待 JS 重定向完成
+                # domcontentloaded 比 networkidle 更快，GNews redirect 不依赖完整网络加载
+                await page.goto(gnews_url, wait_until="domcontentloaded", timeout=15000)
+                
+                # 额外等待 JS 重定向执行（GNews 有时需要 1-3 秒）
+                await asyncio.sleep(random.uniform(1.0, 2.5))
+                
+                final_url = page.url
+                
+                # 验证：最终 URL 不再是 Google News 跟踪链接
+                if final_url != gnews_url and "news.google.com" not in final_url:
+                    articles_by_file[filename][idx]["canonical_url"] = final_url
+                    resolved += 1
+                else:
+                    failed += 1
+                    
+            except Exception as e:
+                # 超时/导航失败/页面崩溃等
+                failed += 1
+                err_name = type(e).__name__
+                # 只在首次失败时打印详细错误，避免刷屏
+                if failed <= 3:
+                    print(f"  [PLAYWRIGHT] {err_name} for article {idx}: {str(e)[:100]}")
+                continue
+            
+            # 每20篇打印进度
+            if i % 20 == 0:
+                elapsed = _time.monotonic() - start
+                print(f"  [PLAYWRIGHT] Progress: {i}/{total} "
+                      f"({resolved} resolved, {failed} failed, {elapsed:.1f}s elapsed)")
+            
+            # 随机小延迟，避免被 Google 检测为自动化访问
+            await asyncio.sleep(random.uniform(0.3, 0.8))
+        
+        await browser.close()
+    
+    elapsed = _time.monotonic() - start
+    print(f"  [PLAYWRIGHT] Done: {resolved}/{total} resolved ({failed} failed, {elapsed:.1f}s)")
+    return resolved, total, elapsed
 
 
 async def fetch_one(session, url, tag, max_items=30, max_retries=1):

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v4.4 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
+fetch_all.py v4.5 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
 v3.5: 顺序执行，40-60min，卡死风险
 v4.0: asyncio同进程，仍然卡死（feedparser线程池hang无法取消）
 v4.1: 每个模块独立subprocess，3个模块并发，硬超时SIGKILL
@@ -15,6 +15,11 @@ v4.4: 新增 fetch_full_text_batch 步骤 — Actions端正文抓取
   - batch_resolve完成后，对high+medium文章抓正文(trafilatura)
   - 新增 published_beijing 字段批量回填
   - 预期：+3-5min Actions时间，70%+ high文章正文覆盖
+v4.5: 新增 batch_resolve_gnews_with_browser 步骤 — Playwright无头浏览器解析GNews
+  - 纯HTTP batch_resolve对GNews覆盖率为0%（需JS渲染）
+  - Playwright启动Chromium，只处理high priority的GNews URL（约60-70篇/日）
+  - 解析出canonical_url后，fetch_full_text_batch可用真实URL抓正文
+  - Pipeline顺序：modules → HTTP batch_resolve → Playwright batch → full_text → beijing → dedup → index
 """
 
 import json
@@ -633,7 +638,7 @@ def build_index(seen, module_outputs):
 
 
 async def main_async():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.4")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.5")
     print(f"  Concurrency: {MAX_CONCURRENT} modules at a time")
     print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)")
     print(f"  Retry: {MAX_RETRIES}x on failure")
@@ -677,6 +682,46 @@ async def main_async():
             except (json.JSONDecodeError, OSError) as e:
                 print(f"  [WARN] Failed to update {output_file}: {e}")
         print(f"  Updated {resolved} canonical_urls written to module files")
+
+    # v4.5: Playwright 无头浏览器解析 GNews canonical_url（仅 high priority）
+    # 纯HTTP batch_resolve对GNews覆盖率为0%，需JS渲染
+    print(f"\n{'='*70}")
+    print("Resolving GNews URLs with Playwright (high priority only)...")
+    from common import batch_resolve_gnews_with_browser
+
+    # 重新加载文章（可能已被batch_resolve更新了非GNews的canonical_url）
+    articles_by_file_pw = {}
+    for entry in MODULE_REGISTRY:
+        output_file = entry["output"]
+        full_path = os.path.join(SCRIPT_DIR, output_file)
+        if not os.path.exists(full_path):
+            continue
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            articles_by_file_pw[output_file] = data.get("articles", [])
+        except json.JSONDecodeError:
+            continue
+
+    pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
+        articles_by_file_pw, priority_filter="high"
+    )
+
+    # 将Playwright解析结果写回模块JSON文件
+    if pw_resolved > 0:
+        for entry in MODULE_REGISTRY:
+            output_file = entry["output"]
+            full_path = os.path.join(SCRIPT_DIR, output_file)
+            if output_file not in articles_by_file_pw:
+                continue
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                data["articles"] = articles_by_file_pw[output_file]
+                atomic_write_json(data, full_path)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  [WARN] Failed to update {output_file}: {e}")
+        print(f"  Updated {pw_resolved} Playwright-resolved canonical_urls written to module files")
 
     # v4.4: Batch fetch full text — Actions端正文抓取（在canonical_url解析之后）
     print(f"\n{'='*70}")
