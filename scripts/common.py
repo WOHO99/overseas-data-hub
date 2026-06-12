@@ -1013,7 +1013,7 @@ def dedup_title_level(items, threshold=0.85, hours=24):
                         if t2.tzinfo is not None:
                             t2 = t2.replace(tzinfo=None)
                         if abs((t1 - t2).total_seconds()) < hours * 3600:
-                        removed.add(j)
+                            removed.add(j)
 
     return [items_sorted[i] for i in range(len(items_sorted)) if i not in removed]
 
