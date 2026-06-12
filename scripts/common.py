@@ -516,22 +516,18 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                     if beijing:
                         item["published_beijing"] = beijing
                     
-                    # v4.4: canonical_url 多源回退
+                    # v4.4: canonical_url 多源回退（仅本地字段，不做网络请求）
+                    # GNews redirect解析由 batch_resolve_gnews_urls() 统一处理，不在fetch_one中逐个解析
                     if _is_gnews_url(link):
-                        # 方法1: HTTP redirect解析（Actions环境可达）
-                        canonical = await _resolve_gnews_redirect(session, link)
-                        if canonical:
-                            item["canonical_url"] = canonical
+                        # 方法1: feedburner_origlink（FeedBurner代理RSS的真实链接）
+                        origlink = entry.get("feedburner_origlink")
+                        if origlink and "news.google.com" not in origlink:
+                            item["canonical_url"] = origlink
                         else:
-                            # 方法2: feedburner_origlink（FeedBurner代理RSS的真实链接）
-                            origlink = entry.get("feedburner_origlink")
-                            if origlink and "news.google.com" not in origlink:
-                                item["canonical_url"] = origlink
-                            else:
-                                # 方法3: guid字段有时就是真实URL
-                                guid = entry.get("guid", entry.get("id", ""))
-                                if guid and guid.startswith("http") and "news.google.com" not in guid:
-                                    item["canonical_url"] = guid
+                            # 方法2: guid字段有时就是真实URL
+                            guid = entry.get("guid", entry.get("id", ""))
+                            if guid and guid.startswith("http") and "news.google.com" not in guid:
+                                item["canonical_url"] = guid
                     items.append(item)
                 return items, False
 

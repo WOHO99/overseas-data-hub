@@ -633,7 +633,7 @@ def build_index(seen, module_outputs):
 
 
 async def main_async():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.3")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.4")
     print(f"  Concurrency: {MAX_CONCURRENT} modules at a time")
     print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)")
     print(f"  Retry: {MAX_RETRIES}x on failure")
