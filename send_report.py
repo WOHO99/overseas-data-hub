@@ -47,12 +47,32 @@ def generate_summary() -> str:
     if idx_path.exists():
         with open(idx_path, encoding="utf-8") as f:
             idx = json.load(f)
-        total = idx.get("total_articles", "?")
-        high = idx.get("high_priority", "?")
-        med = idx.get("medium_priority", "?")
-        ts = idx.get("generated_at", "?")
-        lines.append(f"总文章数: {total}  |  高优先: {high}  |  中优先: {med}")
-        lines.append(f"生成时间: {ts}\n")
+        total = idx.get("global_total", "?")
+        high = idx.get("global_high", "?")
+        med = idx.get("global_medium", "?")
+        new = idx.get("global_new", "?")
+        ts = idx.get("updated", idx.get("fetch_date_utc", "?"))
+        circuit = idx.get("circuit_breaker_count", 0)
+        lines.append(f"总文章数: {total}  |  高优先: {high}  |  中优先: {med}  |  新增: {new}")
+        lines.append(f"生成时间: {ts}")
+        if circuit > 0:
+            lines.append(f"⚠ 熔断源数: {circuit}")
+        lines.append("")
+        # 各模块概况
+        modules = idx.get("modules", {})
+        if modules:
+            lines.append("模块概况:")
+            for mod_name, mod_data in modules.items():
+                if isinstance(mod_data, dict):
+                    t = mod_data.get("total", 0)
+                    h = mod_data.get("high", 0)
+                    m = mod_data.get("medium", 0)
+                    fail = mod_data.get("fail_feeds", 0)
+                    info = f"  [{mod_name}] {t}篇, 高{h}/中{m}"
+                    if fail > 0:
+                        info += f", ⚠ {fail}源失败"
+                    lines.append(info)
+            lines.append("")
     else:
         lines.append("[!] index.json 不存在\n")
 
@@ -62,29 +82,21 @@ def generate_summary() -> str:
         with open(sig_path, encoding="utf-8") as f:
             sig = json.load(f)
         if isinstance(sig, dict):
-            global_alerts = sig.get("global_signal_alerts", [])
-            if global_alerts:
-                lines.append(f"⚠ 全局信号告警 ({len(global_alerts)} 条):")
-                for a in global_alerts[:10]:  # 最多显示10条
-                    lines.append(f"  - {a}")
-                if len(global_alerts) > 10:
-                    lines.append(f"  ... 及另外 {len(global_alerts)-10} 条")
+            signals = sig.get("signals", [])
+            triggered = [s for s in signals if isinstance(s, dict) and s.get("triggered")]
+            if triggered:
+                lines.append(f"信号告警 ({len(triggered)} 条触发):")
+                for s in triggered[:10]:
+                    kw = s.get("keyword", "?")
+                    cnt = s.get("today_count", "?")
+                    base = s.get("baseline", "?")
+                    status = s.get("status", "?")
+                    lines.append(f"  - {kw}: {cnt}次 (基线{base}, {status})")
+                if len(triggered) > 10:
+                    lines.append(f"  ... 及另外 {len(triggered)-10} 条")
             else:
-                lines.append("全局信号: 无告警")
+                lines.append("信号: 无告警（全部在基线内）")
             lines.append("")
-            # 各模块信号
-            modules = sig.get("modules", {})
-            if modules:
-                lines.append("模块信号摘要:")
-                for mod_name, mod_data in modules.items():
-                    signals = mod_data.get("signals", []) if isinstance(mod_data, dict) else []
-                    if signals:
-                        lines.append(f"  [{mod_name}] {len(signals)} 条信号")
-                        for s in signals[:3]:
-                            lines.append(f"    - {s}")
-                        if len(signals) > 3:
-                            lines.append(f"    ... 及另外 {len(signals)-3} 条")
-                lines.append("")
     else:
         lines.append("[!] signal_summary.json 不存在\n")
 
