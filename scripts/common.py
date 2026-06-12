@@ -473,7 +473,10 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     纯 HTTP(batch_resolve_gnews_urls)覆盖率为 0%。
     Playwright 启动无头 Chromium，完整执行 JS 渲染，成功率预计 85-95%。
     
-    articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url
+    v4.5优化：解析URL后直接从已加载的页面提取正文（trafilatura解析HTML），
+    不需要后续fetch_full_text_batch再发第二次HTTP请求。
+    
+    articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url + full_text
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
     
     返回: (resolved_count, total_attempted, elapsed_seconds)
@@ -496,6 +499,9 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 continue
             if article.get("canonical_url"):
                 continue  # 已有 canonical_url（feedburner_origlink/guid回退已解析）
+            # 已有正文的不需要解析（路径1RSS提取已覆盖）
+            if article.get("full_text"):
+                continue
             # 优先级过滤
             if article.get("priority", 0) < min_priority:
                 continue
@@ -509,6 +515,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     print(f"  [PLAYWRIGHT] Resolving {total} GNews URLs with headless Chromium...")
     
     resolved = 0
+    text_extracted = 0
     failed = 0
     
     try:
@@ -517,6 +524,14 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
         print(f"  [PLAYWRIGHT] ERROR: playwright not installed, skipping browser resolve")
         print(f"  [PLAYWRIGHT] Install with: pip install playwright && playwright install chromium")
         return 0, total, _time.monotonic() - start
+    
+    # 预加载trafilatura用于正文提取（页面HTML已在内存，无需第二次网络请求）
+    try:
+        import trafilatura
+        _has_trafilatura = True
+    except ImportError:
+        _has_trafilatura = False
+        print(f"  [PLAYWRIGHT] WARNING: trafilatura not installed, will only resolve URLs without extracting text")
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -552,6 +567,22 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 if final_url != gnews_url and "news.google.com" not in final_url:
                     articles_by_file[filename][idx]["canonical_url"] = final_url
                     resolved += 1
+                    
+                    # v4.5优化：页面已加载，直接提取正文（省掉后续fetch_full_text_batch的HTTP请求）
+                    if _has_trafilatura and not articles_by_file[filename][idx].get("full_text"):
+                        try:
+                            html_content = await page.content()
+                            loop = asyncio.get_event_loop()
+                            extracted_text = await loop.run_in_executor(
+                                None,
+                                lambda: trafilatura.extract(html_content, url=final_url,
+                                                           include_tables=True, favor_precision=True)
+                            )
+                            if extracted_text and len(extracted_text) > 100:
+                                articles_by_file[filename][idx]["full_text"] = extracted_text[:10000]
+                                text_extracted += 1
+                        except Exception:
+                            pass  # 正文提取失败不影响canonical_url解析
                 else:
                     failed += 1
                     
@@ -568,7 +599,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             if i % 20 == 0:
                 elapsed = _time.monotonic() - start
                 print(f"  [PLAYWRIGHT] Progress: {i}/{total} "
-                      f"({resolved} resolved, {failed} failed, {elapsed:.1f}s elapsed)")
+                      f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed:.1f}s elapsed)")
             
             # 随机小延迟，避免被 Google 检测为自动化访问
             await asyncio.sleep(random.uniform(0.3, 0.8))
@@ -576,7 +607,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
         await browser.close()
     
     elapsed = _time.monotonic() - start
-    print(f"  [PLAYWRIGHT] Done: {resolved}/{total} resolved ({failed} failed, {elapsed:.1f}s)")
+    print(f"  [PLAYWRIGHT] Done: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
     return resolved, total, elapsed
 
 
@@ -634,6 +665,30 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                         "summary": summary,
                         "source": tag,
                     }
+                    
+                    # v4.5: 路径1 — RSS字段正文提取（零网络成本）
+                    # 优先从content:encoded提取全文，其次从长description提取
+                    rss_full_text = None
+                    # 方法1: content:encoded（部分RSS源在字段中直接提供全文HTML）
+                    content_list = entry.get("content")
+                    if content_list:
+                        for c in content_list:
+                            ctype = c.get("type", "")
+                            if ctype.startswith("text/html") or ctype.startswith("text/plain"):
+                                raw = c.get("value", "")
+                                text = re.sub(r'<[^>]+>', '', raw).strip()
+                                if len(text) > 500:
+                                    rss_full_text = text[:10000]
+                                    break
+                    # 方法2: description字段较长时视为全文（>800字符原文≈500字纯文本）
+                    if not rss_full_text:
+                        desc_raw = entry.get("description", "")
+                        if len(desc_raw) > 800:
+                            text = re.sub(r'<[^>]+>', '', desc_raw).strip()
+                            if len(text) > 500:
+                                rss_full_text = text[:10000]
+                    if rss_full_text:
+                        item["full_text"] = rss_full_text
                     
                     # v4.4: 北京时间标准化
                     beijing = normalize_to_beijing_time(published, published_parsed)
