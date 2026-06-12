@@ -1006,7 +1006,13 @@ def dedup_title_level(items, threshold=0.85, hours=24):
                 if sim >= threshold:
                     t1 = parse_published_time(items_sorted[i]["published"])
                     t2 = parse_published_time(items_sorted[j]["published"])
-                    if t1 and t2 and abs((t1 - t2).total_seconds()) < hours * 3600:
+                    if t1 and t2:
+                        # v4.6 fix: strip tzinfo to avoid naive-aware subtraction error
+                        if t1.tzinfo is not None:
+                            t1 = t1.replace(tzinfo=None)
+                        if t2.tzinfo is not None:
+                            t2 = t2.replace(tzinfo=None)
+                        if abs((t1 - t2).total_seconds()) < hours * 3600:
                         removed.add(j)
 
     return [items_sorted[i] for i in range(len(items_sorted)) if i not in removed]
