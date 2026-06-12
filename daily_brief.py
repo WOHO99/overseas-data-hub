@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-daily_brief.py — 海外情报每日简报（主动推送心脏）
+daily_brief.py v1.1 — 海外情报每日简报（主动推送心脏）
+v1.1 变更：加载uri_map，必读TOP5标题加Obsidian链接
 在 GitHub Actions 数据采集成功后运行，读取 index.json 生成精简简报，
 通过 Resend SMTP 推送到邮箱。
 
@@ -54,6 +55,19 @@ def load_index() -> dict:
     idx_path = DATA_DIR / "index.json"
     if idx_path.exists():
         with open(idx_path, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def load_uri_map(idx: dict) -> dict:
+    """加载 obsidian URI 映射。Actions环境里uri_map在 uri_map/ 下。"""
+    fetch_date = idx.get("fetch_date_utc", "")
+    if not fetch_date:
+        return {}
+    # Actions环境：脚本在项目根目录，uri_map在 uri_map/ 下
+    uri_map_path = Path("uri_map") / f"{fetch_date}.json"
+    if uri_map_path.exists():
+        with open(uri_map_path, encoding="utf-8") as f:
             return json.load(f)
     return {}
 
@@ -185,6 +199,8 @@ th{{color:#666;font-weight:500;font-size:12px}}
     html += '</table></div>'
 
     # ── 4. 必读 Top 5 ────────────────────────────────────────
+    # 加载uri_map（Actions环境里uri_map在同级目录uri_map/下）
+    uri_map = load_uri_map(idx)
     html += '<div class="section"><h2>必读标题 TOP 5</h2>'
     sorted_articles = sorted(top_articles, key=lambda x: x.get("priority", 0), reverse=True)
     for i, art in enumerate(sorted_articles[:5], 1):
@@ -192,8 +208,15 @@ th{{color:#666;font-weight:500;font-size:12px}}
         source = art.get("source", "")
         priority = art.get("priority", 0)
         category = art.get("category", "")
+        link = art.get("link", "")
+        # Obsidian链接
+        obsidian_html = ""
+        if link and link in uri_map:
+            obsidian_uri = uri_map[link].get("obsidian_uri", "")
+            if obsidian_uri:
+                obsidian_html = f' <a href="{obsidian_uri}" style="font-size:11px;color:#16a34a;text-decoration:none">📂Obsidian</a>'
         html += f"""<div class="article">
-<div class="article-title">{i}. {title}</div>
+<div class="article-title">{i}. {title}{obsidian_html}</div>
 <div class="article-meta">{source} | P{priority:.0f} | {category}</div>
 </div>"""
     html += '</div>'
