@@ -1,0 +1,34 @@
+name: Verify GNews Params
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install feedparser>=6.0 aiohttp>=3.9
+
+      - name: Run verification
+        run: python scripts/verify_gnews_params.py 2>&1 | tee verify_log.txt
+
+      - name: Upload verification log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verify-log
+          path: verify_log.txt
+          retention-days: 7

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.5 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.6 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -16,6 +16,10 @@ v4.5: Playwright无头浏览器解析GNews canonical_url
   - batch_resolve_gnews_with_browser: 用Chromium执行JS渲染，解决纯HTTP 0%覆盖率的问题
   - 仅处理high priority文章中的GNews URL（约60-70篇/日），串行6-8分钟
   - 单进程模式+no-sandbox，适配2核VM
+v4.6: GNews RSS功能利用率优化
+  - gnews_url(): 新增num(默认100)+when(默认7d)+topic模式
+  - max_items 30→50, max_articles 500→800
+  - fetch_one: GNews <source>元素提取(source_detail)
 """
 
 import asyncio
@@ -611,7 +615,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     return resolved, total, elapsed
 
 
-async def fetch_one(session, url, tag, max_items=30, max_retries=1):
+async def fetch_one(session, url, tag, max_items=50, max_retries=1):
     """
     异步抓取单个RSS源。
     返回 (items_list, is_rate_limited)。
@@ -707,6 +711,21 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                             guid = entry.get("guid", entry.get("id", ""))
                             if guid and guid.startswith("http") and "news.google.com" not in guid:
                                 item["canonical_url"] = guid
+                        # v4.6: GNews <source>元素提取 — 原始来源名称+主页URL
+                        source_elem = entry.get("source")
+                        if source_elem:
+                            source_detail = {}
+                            if hasattr(source_elem, 'get'):
+                                # feedparser返回的source是dict-like对象
+                                source_detail["name"] = source_elem.get("title", source_elem.get("value", ""))
+                                source_detail["url"] = source_elem.get("href", source_elem.get("url", ""))
+                            elif isinstance(source_elem, dict):
+                                source_detail["name"] = source_elem.get("title", source_elem.get("value", ""))
+                                source_detail["url"] = source_elem.get("href", source_elem.get("url", ""))
+                            elif isinstance(source_elem, str):
+                                source_detail["name"] = source_elem
+                            if source_detail.get("name"):
+                                item["source_detail"] = source_detail
                     items.append(item)
                 return items, False
 
@@ -737,7 +756,7 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
     return [], False
 
 
-async def fetch_feed_concurrent_async(feeds, max_items=30):
+async def fetch_feed_concurrent_async(feeds, max_items=50):
     """
     异步并发抓取多个RSS源。
     使用双信号量：全局Semaphore(50) + Google News Semaphore(5)。
@@ -785,7 +804,7 @@ async def fetch_feed_concurrent_async(feeds, max_items=30):
 
 
 # 同步包装（兼容）
-def fetch_feed_concurrent(feeds, max_workers=15, max_items=30):
+def fetch_feed_concurrent(feeds, max_workers=15, max_items=50):
     return asyncio.run(fetch_feed_concurrent_async(feeds, max_items))
 
 
@@ -1084,7 +1103,7 @@ async def run_module_async(config, prev_hashes=None):
 
     unique_items.sort(key=lambda x: (x["priority"], x["published"]), reverse=True)
 
-    max_articles = config.get("max_articles", 500)
+    max_articles = config.get("max_articles", 800)
     unique_items = unique_items[:max_articles]
 
     now = datetime.now(timezone.utc)
@@ -1135,7 +1154,30 @@ def atomic_write_json(data, filepath):
     os.rename(tmp_path, filepath)
 
 
-def gnews_url(query, hl="en-US", gl="US", ceid="US:en"):
+def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100, when="7d"):
+    """
+    生成 Google News RSS URL。v4.6 支持两种模式：
+    
+    1. 搜索模式（默认）：query非空 → /rss/search?q={query}
+       - num: 返回文章数，最大100，默认100
+       - when: 时间过滤，默认"7d"（7天窗口），可选"24h"/"1h"/None
+       
+    2. 专题模式：topic非空 → /rss/headlines/section/topic/{topic}
+       - Topic是Google编辑精选，num上限30，不支持when
+       - 已知Topic: WORLD / NATION / BUSINESS / TECHNOLOGY / ENTERTAINMENT / SCIENCE / SPORTS / HEALTH
+    """
     import urllib.parse
-    q = urllib.parse.quote(query)
-    return f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+    
+    if topic:
+        # 专题模式：编辑精选，不支持num/when
+        base = f"https://news.google.com/rss/headlines/section/topic/{urllib.parse.quote(topic)}"
+        return f"{base}?hl={hl}&gl={gl}&ceid={ceid}"
+    else:
+        # 搜索模式
+        if not query:
+            raise ValueError("gnews_url: either query or topic must be provided")
+        # 拼接时间过滤运算符（字符串拼接避免urlencode编码冒号）
+        q_full = f"{query} when:{when}" if when else query
+        q_encoded = urllib.parse.quote(q_full, safe=':')
+        return (f"https://news.google.com/rss/search?q={q_encoded}"
+                f"&hl={hl}&gl={gl}&ceid={ceid}&num={min(num, 100)}")
