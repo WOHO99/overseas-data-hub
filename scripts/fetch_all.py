@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v4.3 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
+fetch_all.py v4.4 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
 v3.5: 顺序执行，40-60min，卡死风险
 v4.0: asyncio同进程，仍然卡死（feedparser线程池hang无法取消）
 v4.1: 每个模块独立subprocess，3个模块并发，硬超时SIGKILL
@@ -11,6 +11,10 @@ v4.2: global_dedup()用Bucket分桶+RapidFuzz替代O(n²)difflib，97min→0.4s
 v4.3: 新增 batch_resolve_gnews_urls 步骤 — 所有模块完成后批量解析GNews redirect
   - fetch_one()内GNews semaphore(5)导致0/1140 canonical_url，此步骤用15并发+6s超时
   - 在run_all_modules_concurrent()之后、global_dedup()之前执行
+v4.4: 新增 fetch_full_text_batch 步骤 — Actions端正文抓取
+  - batch_resolve完成后，对high+medium文章抓正文(trafilatura)
+  - 新增 published_beijing 字段批量回填
+  - 预期：+3-5min Actions时间，70%+ high文章正文覆盖
 """
 
 import json
@@ -673,6 +677,58 @@ async def main_async():
             except (json.JSONDecodeError, OSError) as e:
                 print(f"  [WARN] Failed to update {output_file}: {e}")
         print(f"  Updated {resolved} canonical_urls written to module files")
+
+    # v4.4: Batch fetch full text — Actions端正文抓取（在canonical_url解析之后）
+    print(f"\n{'='*70}")
+    print("Fetching full text for high+medium priority articles...")
+    from common import fetch_full_text_batch
+
+    # 重新加载文章（可能已被batch_resolve更新了canonical_url）
+    articles_by_file_ft = {}
+    for entry in MODULE_REGISTRY:
+        output_file = entry["output"]
+        full_path = os.path.join(SCRIPT_DIR, output_file)
+        if not os.path.exists(full_path):
+            continue
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            articles_by_file_ft[output_file] = data.get("articles", [])
+        except json.JSONDecodeError:
+            continue
+
+    fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
+        articles_by_file_ft, priority_filter="high+medium", concurrency=10, timeout=15
+    )
+
+    # v4.4: published_beijing 回填 — 对所有缺少的文章补填北京时间
+    from common import normalize_to_beijing_time
+    bj_filled = 0
+    for filename, articles in articles_by_file_ft.items():
+        for article in articles:
+            if not article.get("published_beijing") and article.get("published"):
+                beijing = normalize_to_beijing_time(article["published"])
+                if beijing:
+                    article["published_beijing"] = beijing
+                    bj_filled += 1
+    if bj_filled > 0:
+        print(f"  [BEIJING_TIME] Filled {bj_filled} articles with published_beijing")
+
+    # 将正文+时间结果写回模块JSON文件
+    if fetched > 0 or bj_filled > 0:
+        for entry in MODULE_REGISTRY:
+            output_file = entry["output"]
+            full_path = os.path.join(SCRIPT_DIR, output_file)
+            if output_file not in articles_by_file_ft:
+                continue
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                data["articles"] = articles_by_file_ft[output_file]
+                atomic_write_json(data, full_path)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  [WARN] Failed to update {output_file}: {e}")
+        print(f"  Updated {fetched} full_texts + {bj_filled} beijing_times written to module files")
 
     print(f"\n{'='*70}")
     print("Building global index...")

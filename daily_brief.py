@@ -243,7 +243,15 @@ th{{color:#666;font-weight:500;font-size:12px}}
         priority = art.get("priority", 0)
         category = art.get("category", "")
         link = art.get("link", "")
-        published = art.get("published", "")[:16]
+        published_beijing = art.get("published_beijing", "")
+        published_raw = art.get("published", "")
+        # 优先显示北京时间
+        if published_beijing and len(published_beijing) >= 16:
+            published = published_beijing[:16]
+        elif published_beijing and len(published_beijing) >= 10:
+            published = published_beijing[:10]
+        else:
+            published = published_raw[:16]
         # Obsidian链接
         obsidian_html = ""
         if link and link in uri_map:

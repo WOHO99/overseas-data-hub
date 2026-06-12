@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """
-common.py v4.3 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.4 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
       dedup_title_level用Bucket分桶(88x fewer comparisons)
 v4.3: 新增 batch_resolve_gnews_urls() — 所有模块完成后批量解析GNews redirect,
       解决fetch_one()内GNews semaphore(5)瓶颈导致0/1140 canonical_url的问题
+v4.4: 三合一升级
+  - _resolve_gnews_redirect: allow_redirects=False先读Location, fallback allow_redirects=True
+  - fetch_one: feedburner_origlink/guid回退 + published_beijing时间标准化
+  - fetch_full_text_batch: Actions端正文抓取(trafilatura), high+medium优先级
+  - normalize_to_beijing_time: 统一北京时间+08:00
 """
 
 import asyncio
@@ -17,6 +22,8 @@ import re
 import hashlib
 import os
 import socket
+import calendar
+import random
 import yaml
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
@@ -36,6 +43,22 @@ socket.setdefaulttimeout(10)
 feedparser.USER_AGENT = "Mozilla/5.0 (compatible; OverseasDataHub/1.0; +https://github.com/WOHO99/overseas-data-hub)"
 
 RATE_LIMITED_DOMAINS = ["news.google.com"]
+
+# 北京时间时区
+BEIJING_TZ = timezone(timedelta(hours=8))
+
+# 浏览器模拟请求头（用于GNews redirect解析和正文抓取）
+_BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+}
 
 # 全局并发控制
 SEMAPHORE_GLOBAL = 50
@@ -117,25 +140,51 @@ def _is_gnews_url(url):
     return bool(url and "news.google.com" in url)
 
 
-async def _resolve_gnews_redirect(session, gnews_url, timeout_sec=8):
+async def _resolve_gnews_redirect(session, gnews_url, timeout_sec=10):
     """
-    解析GNews跟踪URL的最终跳转地址。
-    在Actions环境（ubuntu）下news.google.com可达，本地可能不可达。
-    成功返回canonical_url，失败返回None。
+    v4.4: 解析GNews跟踪URL的最终跳转地址。
+    策略1(快): allow_redirects=False → 读Location头（单跳，省带宽）
+    策略2(兜底): allow_redirects=True → 跟踪全部跳转读resp.url
+    加入浏览器模拟请求头 + 随机延迟，绕过Google反爬。
     """
+    # 随机延迟避免触发Google速率限制
+    await asyncio.sleep(random.uniform(0.3, 1.0))
+
+    # 策略1: 读取302 Location头
     try:
         async with session.get(
             gnews_url,
+            headers=_BROWSER_HEADERS,
             timeout=aiohttp.ClientTimeout(total=timeout_sec, connect=3),
+            allow_redirects=False,
+        ) as resp:
+            if resp.status in (301, 302, 303, 307, 308):
+                location = resp.headers.get("Location", "")
+                if location and "google.com" not in location:
+                    # 补全相对URL
+                    if location.startswith("/"):
+                        from urllib.parse import urlparse
+                        parsed = urlparse(gnews_url)
+                        location = f"{parsed.scheme}://{parsed.netloc}{location}"
+                    return location
+    except Exception:
+        pass
+
+    # 策略2: 跟踪全部重定向
+    try:
+        async with session.get(
+            gnews_url,
+            headers=_BROWSER_HEADERS,
+            timeout=aiohttp.ClientTimeout(total=timeout_sec + 5, connect=3),
             allow_redirects=True,
         ) as resp:
             if resp.status == 200:
                 final_url = str(resp.url)
-                # 确认不是还在google.com上
                 if "google.com" not in final_url:
                     return final_url
     except Exception:
         pass
+
     return None
 
 
@@ -170,7 +219,7 @@ async def batch_resolve_gnews_urls(articles_by_file, concurrency=15, timeout_sec
     print(f"  [BATCH_RESOLVE] {total_gnews} GNews URLs pending (concurrency={concurrency}, timeout={timeout_sec}s)")
     
     sem = asyncio.Semaphore(concurrency)
-    headers = {"User-Agent": feedparser.USER_AGENT}
+    headers = dict(_BROWSER_HEADERS)  # v4.4: 使用浏览器模拟头
     
     async with aiohttp.ClientSession(headers=headers) as session:
         async def _resolve_one(item):
@@ -215,6 +264,198 @@ def _parse_feed_text(text):
     return feedparser.parse(text)
 
 
+# ============================================================
+# 北京时间标准化 (v4.4)
+# ============================================================
+
+def normalize_to_beijing_time(published_str, published_parsed=None):
+    """
+    将各种格式的时间统一转换为北京时间 ISO 格式。
+    优先使用 feedparser 提供的 published_parsed (time.struct_time)，
+    其次用 dateutil.parser 解析原始字符串，最后手动格式匹配。
+    
+    返回: "2026-06-12T08:00:00+08:00" 格式字符串，失败返回 None
+    """
+    if not published_str and published_parsed is None:
+        return None
+    
+    dt = None
+    
+    # 方法1: feedparser 的 time.struct_time（最可靠，UTC基准）
+    if published_parsed is not None:
+        try:
+            ts = calendar.timegm(published_parsed)
+            dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+        except Exception:
+            pass
+    
+    # 方法2: dateutil.parser（灵活解析各种字符串格式）
+    if dt is None and published_str:
+        try:
+            from dateutil import parser as dateutil_parser
+            dt = dateutil_parser.parse(published_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)  # RSS常见：无时区默认UTC
+        except Exception:
+            pass
+    
+    # 方法3: 手动格式匹配（dateutil不可用时的fallback）
+    if dt is None and published_str:
+        for fmt in [
+            "%a, %d %b %Y %H:%M:%S %z",
+            "%a, %d %b %Y %H:%M:%S GMT",
+            "%a, %d %b %Y %H:%M:%S",
+            "%Y-%m-%dT%H:%M:%S.%f%z",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%dT%H:%M:%SZ",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d",
+        ]:
+            try:
+                dt = datetime.strptime(published_str.strip(), fmt)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                break
+            except (ValueError, TypeError):
+                continue
+    
+    if dt is None:
+        return None
+    
+    dt_beijing = dt.astimezone(BEIJING_TZ)
+    return dt_beijing.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+
+
+# ============================================================
+# Actions端正文抓取 (v4.4)
+# ============================================================
+
+def _extract_text_sync(html, url):
+    """同步函数：用trafilatura从HTML提取正文"""
+    try:
+        import trafilatura
+        return trafilatura.extract(html, url=url, include_comments=False, include_tables=True)
+    except ImportError:
+        return None
+
+
+async def fetch_full_text_async(session, url, timeout=15):
+    """
+    在Actions端异步抓取单篇文章正文。
+    使用trafilatura提取纯文本，自动处理重定向。
+    返回: 正文文本(>100字符) 或 None
+    """
+    try:
+        async with session.get(
+            url,
+            headers=_BROWSER_HEADERS,
+            timeout=aiohttp.ClientTimeout(total=timeout, connect=5),
+            allow_redirects=True,
+        ) as resp:
+            if resp.status == 200:
+                # 检查Content-Type，只处理HTML
+                content_type = resp.headers.get("Content-Type", "")
+                if "text/html" not in content_type and "application/xhtml" not in content_type:
+                    return None
+                html = await resp.text()
+                if not html or len(html) < 200:
+                    return None
+                # trafilatura是同步库，用run_in_executor避免阻塞事件循环
+                loop = asyncio.get_event_loop()
+                text = await loop.run_in_executor(None, _extract_text_sync, html, str(resp.url))
+                if text and len(text) > 100:
+                    return text[:10000]  # 限制单篇正文最大10000字符
+    except Exception:
+        pass
+    return None
+
+
+async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15):
+    """
+    v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
+    
+    articles_by_file: {filename: [article_dicts]} — 原地修改
+    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
+    concurrency: 并发数
+    timeout: 单篇超时秒数
+    
+    返回: (fetched_count, total_attempted, elapsed_seconds)
+    """
+    import time as _time
+    start = _time.monotonic()
+    
+    # 收集需要抓取正文的文章
+    fetch_items = []  # [(filename, article_index, url)]
+    
+    if priority_filter == "high":
+        min_priority = 10
+    else:  # "high+medium"
+        min_priority = 3
+    
+    for filename, articles in articles_by_file.items():
+        for idx, article in enumerate(articles):
+            # 跳过已有正文的
+            if article.get("full_text"):
+                continue
+            # 优先级过滤
+            if article.get("priority", 0) < min_priority:
+                continue
+            # 获取URL：canonical_url优先 > link fallback
+            url = article.get("canonical_url") or article.get("link", "")
+            if not url or _is_gnews_url(url):
+                continue  # 跳过GNews跟踪URL
+            fetch_items.append((filename, idx, url))
+    
+    total = len(fetch_items)
+    if not fetch_items:
+        return 0, 0, 0.0
+    
+    print(f"  [FULL_TEXT] {total} articles to fetch (priority>={min_priority}, concurrency={concurrency})")
+    
+    sem = asyncio.Semaphore(concurrency)
+    
+    async with aiohttp.ClientSession() as session:
+        async def _fetch_one(item):
+            filename, idx, url = item
+            async with sem:
+                # 随机延迟，避免过于集中请求同一源
+                await asyncio.sleep(random.uniform(0.1, 0.5))
+                text = await fetch_full_text_async(session, url, timeout)
+                return (filename, idx, text)
+        
+        # 分批处理
+        batch_size = 50
+        fetched = 0
+        failed = 0
+        
+        for i in range(0, total, batch_size):
+            batch = fetch_items[i:i+batch_size]
+            batch_end = min(i + batch_size, total)
+            
+            tasks = [_fetch_one(item) for item in batch]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            for result in results:
+                if isinstance(result, Exception):
+                    failed += 1
+                    continue
+                filename, idx, text = result
+                if text:
+                    articles_by_file[filename][idx]["full_text"] = text
+                    fetched += 1
+                else:
+                    failed += 1
+            
+            elapsed = _time.monotonic() - start
+            print(f"  [FULL_TEXT] Progress: {batch_end}/{total} "
+                  f"({fetched} fetched, {failed} failed, {elapsed:.1f}s elapsed)")
+    
+    elapsed = _time.monotonic() - start
+    print(f"  [FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s)")
+    return fetched, total, elapsed
+
+
 async def fetch_one(session, url, tag, max_items=30, max_retries=1):
     """
     异步抓取单个RSS源。
@@ -257,6 +498,7 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                     title = entry.get("title", "")
                     link = entry.get("link", "")
                     published = entry.get("published", entry.get("updated", ""))
+                    published_parsed = entry.get("published_parsed") or entry.get("updated_parsed")
                     summary = entry.get("summary", entry.get("description", ""))
                     summary = re.sub(r'<[^>]+>', '', summary).strip()
                     if len(summary) > 500:
@@ -268,11 +510,28 @@ async def fetch_one(session, url, tag, max_items=30, max_retries=1):
                         "summary": summary,
                         "source": tag,
                     }
-                    # GNews跟踪URL解析canonical_url（Actions环境可达）
+                    
+                    # v4.4: 北京时间标准化
+                    beijing = normalize_to_beijing_time(published, published_parsed)
+                    if beijing:
+                        item["published_beijing"] = beijing
+                    
+                    # v4.4: canonical_url 多源回退
                     if _is_gnews_url(link):
+                        # 方法1: HTTP redirect解析（Actions环境可达）
                         canonical = await _resolve_gnews_redirect(session, link)
                         if canonical:
                             item["canonical_url"] = canonical
+                        else:
+                            # 方法2: feedburner_origlink（FeedBurner代理RSS的真实链接）
+                            origlink = entry.get("feedburner_origlink")
+                            if origlink and "news.google.com" not in origlink:
+                                item["canonical_url"] = origlink
+                            else:
+                                # 方法3: guid字段有时就是真实URL
+                                guid = entry.get("guid", entry.get("id", ""))
+                                if guid and guid.startswith("http") and "news.google.com" not in guid:
+                                    item["canonical_url"] = guid
                     items.append(item)
                 return items, False
 
