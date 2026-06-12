@@ -69,3 +69,10 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
         run: python send_report.py
+
+      - name: Send daily brief (push notification)
+        if: success()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
+        run: python daily_brief.py
