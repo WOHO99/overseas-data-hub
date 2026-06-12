@@ -101,7 +101,6 @@ CONFIG = {
             {"url": "http://rss.cnn.com/rss/cnn_world.rss", "tag": "CNN World"},
             {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
-            {"url": "https://www.reutersagency.com/feed/?best-regions=world&post_type=best", "tag": "Reuters Agency"},
             {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
         ],
     },

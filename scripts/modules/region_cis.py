@@ -26,29 +26,29 @@ CONFIG = {
     "exclude_keywords": _exclude_kw,
     "feeds": {
         "俄罗斯": [
-            {"url": gnews_url("Russia sanctions SWIFT oil price cap export control 2026", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Sanctions"},
-            {"url": gnews_url("Russia economy ruble trade China oil gas pipeline", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Economy"},
-            {"url": gnews_url("Russia sanctions evasion circumvention transshipment", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Evasion"},
+            {"url": gnews_url("Russia sanctions SWIFT oil price cap export control 2026"), "tag": "GNews | RU Sanctions"},
+            {"url": gnews_url("Russia economy ruble trade China oil gas pipeline"), "tag": "GNews | RU Economy"},
+            {"url": gnews_url("Russia sanctions evasion circumvention transshipment"), "tag": "GNews | RU Evasion"},
         ],
         "中亚": [
-            {"url": gnews_url("Kazakhstan trade investment China Belt Road uranium mining", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | KZ Trade/BRI"},
-            {"url": gnews_url("Uzbekistan economy trade investment reform manufacturing", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | UZ Economy"},
-            {"url": gnews_url("Central Asia China Belt Road investment infrastructure", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | Central Asia/BRI"},
+            {"url": gnews_url("Kazakhstan trade investment China Belt Road uranium mining"), "tag": "GNews | KZ Trade/BRI"},
+            {"url": gnews_url("Uzbekistan economy trade investment reform manufacturing"), "tag": "GNews | UZ Economy"},
+            {"url": gnews_url("Central Asia China Belt Road investment infrastructure"), "tag": "GNews | Central Asia/BRI"},
         ],
         "白俄罗斯+能源": [
-            {"url": gnews_url("Belarus sanctions trade economy potassium", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | BY Sanctions"},
-            {"url": gnews_url("CIS energy oil gas pipeline LNG export", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | CIS Energy"},
+            {"url": gnews_url("Belarus sanctions trade economy potassium"), "tag": "GNews | BY Sanctions"},
+            {"url": gnews_url("CIS energy oil gas pipeline LNG export"), "tag": "GNews | CIS Energy"},
         ],
         "战争+地缘": [
-            {"url": gnews_url("Russia Ukraine war frontline ceasefire negotiation 2026", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU-UA War"},
-            {"url": gnews_url("Georgia Armenia Azerbaijan conflict relation Russia", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | Caucasus"},
+            {"url": gnews_url("Russia Ukraine war frontline ceasefire negotiation 2026"), "tag": "GNews | RU-UA War"},
+            {"url": gnews_url("Georgia Armenia Azerbaijan conflict relation Russia"), "tag": "GNews | Caucasus"},
         ],
         "基础设施+科技": [
-            {"url": gnews_url("Central Asia infrastructure railway project technology park 2026", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | CA Infra"},
+            {"url": gnews_url("Central Asia infrastructure railway project technology park 2026"), "tag": "GNews | CA Infra"},
         ],
         "气候+人口": [
-            {"url": gnews_url("Central Asia water dispute Aral Sea climate drought", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | CA Climate/Water"},
-            {"url": gnews_url("Central Asia demographic labor migration Russia Kazakhstan", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | CA Demo"},
+            {"url": gnews_url("Central Asia water dispute Aral Sea climate drought"), "tag": "GNews | CA Climate/Water"},
+            {"url": gnews_url("Central Asia demographic labor migration Russia Kazakhstan"), "tag": "GNews | CA Demo"},
         ],
         "大国关系": [
             {"url": gnews_url("US Central Asia relation trade cooperation 2026"), "tag": "GNews | US-CA"},

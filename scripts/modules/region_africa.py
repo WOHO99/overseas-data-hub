@@ -63,7 +63,6 @@ CONFIG = {
         "独立RSS源": [
             {"url": "https://www.dailymaverick.co.za/rss/", "tag": "Daily Maverick ZA"},
             {"url": "https://www.theeastafrican.co.ke/rss", "tag": "The East African"},
-            {"url": "https://mg.co.za/feed/", "tag": "Mail & Guardian ZA"},
         ],
         "本地语言搜索": [
             {"url": gnews_url("South Africa trade export investment economy mining", hl="en", gl="ZA", ceid="ZA:en"), "tag": "GNews | ZA English"},

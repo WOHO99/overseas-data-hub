@@ -66,7 +66,6 @@ CONFIG = {
         "独立RSS源": [
             {"url": "https://en.mercopress.com/rss/", "tag": "MercoPress"},
             {"url": "https://valor.globo.com/rss", "tag": "Valor Econômico"},
-            {"url": "https://feeds.elpais.com/mrss-s/list/ep/site/english.elpais.com/section/section", "tag": "El País English"},
         ],
         "信号性查询": [
             {"url": gnews_url('"supply disruption" Latin America mining commodity'), "tag": "GNews | Signal: LatAm Disrupt"},
