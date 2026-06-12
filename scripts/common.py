@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-common.py v4.2 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.3 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
       dedup_title_level用Bucket分桶(88x fewer comparisons)
+v4.3: 新增 batch_resolve_gnews_urls() — 所有模块完成后批量解析GNews redirect,
+      解决fetch_one()内GNews semaphore(5)瓶颈导致0/1140 canonical_url的问题
 """
 
 import asyncio
@@ -15,9 +17,6 @@ import re
 import hashlib
 import os
 import socket
-import re
-import hashlib
-import os
 import yaml
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
@@ -138,6 +137,78 @@ async def _resolve_gnews_redirect(session, gnews_url, timeout_sec=8):
     except Exception:
         pass
     return None
+
+
+async def batch_resolve_gnews_urls(articles_by_file, concurrency=15, timeout_sec=6):
+    """
+    批量解析GNews跟踪URL的canonical_url（所有模块完成后专用）。
+    
+    问题：fetch_one()内GNews semaphore(5并发)限制下，大多数URL无法及时解析，
+    导致生产数据中0/1140 canonical_url被填充。
+    
+    此函数以更高并发+更短超时作为post-module步骤专门处理。
+    已有canonical_url的文章自动跳过。
+    
+    articles_by_file: {filename: [article_dicts]} — 原地修改(modifies in-place)
+    返回: (resolved_count, total_gnews_count, elapsed_seconds)
+    """
+    import time as _time
+    start = _time.monotonic()
+    
+    # 收集需要解析的文章
+    resolve_items = []  # [(filename, article_index, gnews_url)]
+    for filename, articles in articles_by_file.items():
+        for idx, article in enumerate(articles):
+            link = article.get("link", "")
+            if _is_gnews_url(link) and "canonical_url" not in article:
+                resolve_items.append((filename, idx, link))
+    
+    total_gnews = len(resolve_items)
+    if not resolve_items:
+        return 0, 0, 0.0
+    
+    print(f"  [BATCH_RESOLVE] {total_gnews} GNews URLs pending (concurrency={concurrency}, timeout={timeout_sec}s)")
+    
+    sem = asyncio.Semaphore(concurrency)
+    headers = {"User-Agent": feedparser.USER_AGENT}
+    
+    async with aiohttp.ClientSession(headers=headers) as session:
+        async def _resolve_one(item):
+            filename, idx, url = item
+            async with sem:
+                canonical = await _resolve_gnews_redirect(session, url, timeout_sec)
+                return (filename, idx, canonical)
+        
+        # 分批处理，每100个打印进度
+        batch_size = 100
+        resolved = 0
+        failed = 0
+        
+        for i in range(0, total_gnews, batch_size):
+            batch = resolve_items[i:i+batch_size]
+            batch_end = min(i + batch_size, total_gnews)
+            
+            tasks = [_resolve_one(item) for item in batch]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            for result in results:
+                if isinstance(result, Exception):
+                    failed += 1
+                    continue
+                filename, idx, canonical = result
+                if canonical:
+                    articles_by_file[filename][idx]["canonical_url"] = canonical
+                    resolved += 1
+                else:
+                    failed += 1
+            
+            elapsed = _time.monotonic() - start
+            print(f"  [BATCH_RESOLVE] Progress: {batch_end}/{total_gnews} "
+                  f"({resolved} resolved, {failed} failed, {elapsed:.1f}s elapsed)")
+    
+    elapsed = _time.monotonic() - start
+    print(f"  [BATCH_RESOLVE] Done: {resolved}/{total_gnews} resolved ({failed} failed, {elapsed:.1f}s)")
+    return resolved, total_gnews, elapsed
 
 
 def _parse_feed_text(text):

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v4.2 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
+fetch_all.py v4.3 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
 v3.5: 顺序执行，40-60min，卡死风险
 v4.0: asyncio同进程，仍然卡死（feedparser线程池hang无法取消）
 v4.1: 每个模块独立subprocess，3个模块并发，硬超时SIGKILL
@@ -8,6 +8,9 @@ v4.2: global_dedup()用Bucket分桶+RapidFuzz替代O(n²)difflib，97min→0.4s
   - Bucket分桶：按标准化标题前3字符分桶，比较次数降88倍
   - RapidFuzz：C++实现，单次比较比difflib快206倍
   - dedup_title_level()同步优化
+v4.3: 新增 batch_resolve_gnews_urls 步骤 — 所有模块完成后批量解析GNews redirect
+  - fetch_one()内GNews semaphore(5)导致0/1140 canonical_url，此步骤用15并发+6s超时
+  - 在run_all_modules_concurrent()之后、global_dedup()之前执行
 """
 
 import json
@@ -632,6 +635,44 @@ async def main_async():
     print(f"  Retry: {MAX_RETRIES}x on failure")
 
     results = await run_all_modules_concurrent()
+
+    # v4.3: Batch resolve GNews redirect URLs — 所有模块完成后专用步骤
+    print(f"\n{'='*70}")
+    print("Batch resolving GNews canonical URLs...")
+    from common import batch_resolve_gnews_urls, atomic_write_json, _is_gnews_url
+
+    articles_by_file = {}
+    for entry in MODULE_REGISTRY:
+        output_file = entry["output"]
+        full_path = os.path.join(SCRIPT_DIR, output_file)
+        if not os.path.exists(full_path):
+            continue
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            articles_by_file[output_file] = data.get("articles", [])
+        except json.JSONDecodeError:
+            continue
+
+    resolved, total_gnews, resolve_elapsed = await batch_resolve_gnews_urls(
+        articles_by_file, concurrency=15, timeout_sec=6
+    )
+
+    # 将解析结果写回模块JSON文件
+    if resolved > 0:
+        for entry in MODULE_REGISTRY:
+            output_file = entry["output"]
+            full_path = os.path.join(SCRIPT_DIR, output_file)
+            if output_file not in articles_by_file:
+                continue
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                data["articles"] = articles_by_file[output_file]
+                atomic_write_json(data, full_path)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  [WARN] Failed to update {output_file}: {e}")
+        print(f"  Updated {resolved} canonical_urls written to module files")
 
     print(f"\n{'='*70}")
     print("Building global index...")
