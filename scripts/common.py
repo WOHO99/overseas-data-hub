@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.6 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.8 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -20,6 +20,9 @@ v4.6: GNews RSS功能利用率优化
   - gnews_url(): 新增num(默认100)+when(默认7d)+topic模式
   - max_items 30→50, max_articles 500→800
   - fetch_one: GNews <source>元素提取(source_detail)
+v4.8: priority_filter参数统一
+  - batch_resolve_gnews_with_browser + fetch_full_text_batch 统一使用priority_map
+  - 新增"all"选项(>=0)，支持全量抓取
 """
 
 import asyncio
@@ -382,9 +385,10 @@ async def fetch_full_text_async(session, url, timeout=15):
 async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15):
     """
     v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
+    v4.8: priority_filter新增"all"选项，全量抓取(>=0分)。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改
-    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
+    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
     concurrency: 并发数
     timeout: 单篇超时秒数
     
@@ -396,10 +400,8 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     # 收集需要抓取正文的文章
     fetch_items = []  # [(filename, article_index, url)]
     
-    if priority_filter == "high":
-        min_priority = 10
-    else:  # "high+medium"
-        min_priority = 3
+    priority_map = {"high": 10, "high+medium": 3, "all": 0}
+    min_priority = priority_map.get(priority_filter, 10)
     
     for filename, articles in articles_by_file.items():
         for idx, article in enumerate(articles):
@@ -481,7 +483,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     不需要后续fetch_full_text_batch再发第二次HTTP请求。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url + full_text
-    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
+    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
     
     返回: (resolved_count, total_attempted, elapsed_seconds)
     """
@@ -491,10 +493,8 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     # 收集需要解析的 GNews URL
     targets = []  # [(filename, article_index, gnews_url)]
     
-    if priority_filter == "high":
-        min_priority = 10
-    else:  # "high+medium"
-        min_priority = 3
+    priority_map = {"high": 10, "high+medium": 3, "all": 0}
+    min_priority = priority_map.get(priority_filter, 10)
     
     for filename, articles in articles_by_file.items():
         for idx, article in enumerate(articles):
