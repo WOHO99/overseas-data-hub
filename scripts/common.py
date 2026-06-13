@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.8 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.7.1 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -20,9 +20,10 @@ v4.6: GNews RSS功能利用率优化
   - gnews_url(): 新增num(默认100)+when(默认7d)+topic模式
   - max_items 30→50, max_articles 500→800
   - fetch_one: GNews <source>元素提取(source_detail)
-v4.8.2: max_time参数限制总执行时间
-  - fetch_full_text_batch新增max_time参数(秒)，批次循环中检查超时则提前退出
-  - 解决v4.8/v4.8.1因full_text阶段耗尽workflow timeout的问题
+v4.7.1: 从v4.7回滚+可观测性增强
+  - 回滚v4.8/v4.8.1/v4.8.2的Playwright medium和full_text all改动
+  - 新增phase_log()时间戳日志函数 + 关键print加flush=True
+  - 解决tee缓冲导致Actions取消时进度日志丢失的问题
 """
 
 import asyncio
@@ -38,6 +39,15 @@ import random
 import yaml
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor
+
+# v4.7.1: 可观测性 — 强制flush的时间戳日志函数
+import time as _time_mod
+_phase_start = _time_mod.monotonic()
+
+def phase_log(msg):
+    """带时间戳+累计耗时的日志输出，强制flush确保tee可见"""
+    elapsed = _time_mod.monotonic() - _phase_start
+    print(f"[{_time_mod.strftime('%Y-%m-%d %H:%M:%S')}] [+{elapsed:.0f}s] {msg}", flush=True)
 
 try:
     from rapidfuzz import fuzz as _rf_fuzz
@@ -382,19 +392,15 @@ async def fetch_full_text_async(session, url, timeout=15):
     return None
 
 
-async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15, max_articles=0, max_time=0):
+async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15):
     """
     v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
-    v4.8: priority_filter新增"all"选项，全量抓取(>=0分)。
-    v4.8.1: max_articles参数限制最大抓取篇数(按优先级降序截取) + 跳过已有summary(>200字符)的文章。
-    v4.8.2: max_time参数限制总执行时间(秒)，超时提前退出。
+    v4.7.1: 回滚v4.8改动，恢复v4.7逻辑(high+medium)，加flush日志。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改
-    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
+    priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
     concurrency: 并发数
     timeout: 单篇超时秒数
-    max_articles: 最大抓取篇数(0=不限制)，按优先级降序截取TopN
-    max_time: 总执行时间上限秒数(0=不限制)，超时提前退出已抓取的仍保留
     
     返回: (fetched_count, total_attempted, elapsed_seconds)
     """
@@ -402,20 +408,15 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     start = _time.monotonic()
     
     # 收集需要抓取正文的文章
-    fetch_items = []  # [(filename, article_index, url, priority)]
+    fetch_items = []  # [(filename, article_index, url)]
     
-    priority_map = {"high": 10, "high+medium": 3, "all": 0}
+    priority_map = {"high": 10, "high+medium": 3}
     min_priority = priority_map.get(priority_filter, 10)
-    skipped_summary = 0
     
     for filename, articles in articles_by_file.items():
         for idx, article in enumerate(articles):
             # 跳过已有正文的
             if article.get("full_text"):
-                continue
-            # v4.8.1: 跳过已有足够summary的文章(>200字符，summary已提供信息价值)
-            if len(article.get("summary", "")) > 200:
-                skipped_summary += 1
                 continue
             # 优先级过滤
             if article.get("priority", 0) < min_priority:
@@ -424,26 +425,13 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
             url = article.get("canonical_url") or article.get("link", "")
             if not url or _is_gnews_url(url):
                 continue  # 跳过GNews跟踪URL
-            fetch_items.append((filename, idx, url, article.get("priority", 0)))
-    
-    # v4.8.1: 按优先级降序排序 + max_articles截取
-    fetch_items.sort(key=lambda x: x[3], reverse=True)
-    total_before_cap = len(fetch_items)
-    if max_articles > 0 and len(fetch_items) > max_articles:
-        fetch_items = fetch_items[:max_articles]
-        print(f"  [FULL_TEXT] Capped: {total_before_cap} -> {max_articles} (max_articles)")
-    
-    # 去掉priority只保留(filename, idx, url)
-    fetch_items = [(f, i, u) for f, i, u, _ in fetch_items]
+            fetch_items.append((filename, idx, url))
     
     total = len(fetch_items)
     if not fetch_items:
-        if skipped_summary > 0:
-            print(f"  [FULL_TEXT] Skipped {skipped_summary} articles with summary>200 chars")
         return 0, 0, 0.0
     
-    print(f"  [FULL_TEXT] {total} articles to fetch (priority>={min_priority}, concurrency={concurrency})"
-          f"{f', skipped {skipped_summary} with summary' if skipped_summary else ''}")
+    phase_log(f"[FULL_TEXT] {total} articles to fetch (priority>={min_priority}, concurrency={concurrency})")
     
     sem = asyncio.Semaphore(concurrency)
     
@@ -462,11 +450,6 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
         failed = 0
         
         for i in range(0, total, batch_size):
-            # v4.8.2: 总时间上限检查
-            if max_time > 0 and (_time.monotonic() - start) > max_time:
-                print(f"  [FULL_TEXT] Time limit reached: {max_time}s, stopping at {i}/{total}")
-                break
-            
             batch = fetch_items[i:i+batch_size]
             batch_end = min(i + batch_size, total)
             
@@ -485,12 +468,11 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
                     failed += 1
             
             elapsed = _time.monotonic() - start
-            print(f"  [FULL_TEXT] Progress: {batch_end}/{total} "
+            phase_log(f"[FULL_TEXT] Progress: {batch_end}/{total} "
                   f"({fetched} fetched, {failed} failed, {elapsed:.1f}s elapsed)")
     
     elapsed = _time.monotonic() - start
-    time_limited = " (time-limited)" if max_time > 0 and elapsed >= max_time else ""
-    print(f"  [FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s){time_limited}")
+    phase_log(f"[FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s)")
     return fetched, total, elapsed
 
 
@@ -541,10 +523,10 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     
     total = len(targets)
     if not targets:
-        print(f"  [PLAYWRIGHT] No high-priority GNews URLs to resolve, skipping")
+        phase_log("[PLAYWRIGHT] No high-priority GNews URLs to resolve, skipping")
         return 0, 0, 0.0
     
-    print(f"  [PLAYWRIGHT] Resolving {total} GNews URLs with headless Chromium...")
+    phase_log(f"[PLAYWRIGHT] Resolving {total} GNews URLs with headless Chromium...")
     
     resolved = 0
     text_extracted = 0
@@ -630,7 +612,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             # 每20篇打印进度
             if i % 20 == 0:
                 elapsed = _time.monotonic() - start
-                print(f"  [PLAYWRIGHT] Progress: {i}/{total} "
+                phase_log(f"[PLAYWRIGHT] Progress: {i}/{total} "
                       f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed:.1f}s elapsed)")
             
             # 随机小延迟，避免被 Google 检测为自动化访问
@@ -639,7 +621,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
         await browser.close()
     
     elapsed = _time.monotonic() - start
-    print(f"  [PLAYWRIGHT] Done: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
+    phase_log(f"[PLAYWRIGHT] Done: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
     return resolved, total, elapsed
 
 
