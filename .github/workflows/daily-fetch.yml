@@ -1,4 +1,4 @@
-name: Daily Global Fetch v5.0
+name: Daily Global Fetch
 
 on:
   schedule:
@@ -10,12 +10,15 @@ permissions:
   contents: write
 
 jobs:
-  # Job 1: RSS采集 — 18模块并发，产出生成per-module JSON
-  rss-collect:
+  fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45  # v4.9: Playwright high+medium(~16min)+full_text all(~5min)+RSS(~1min)+rest
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -23,44 +26,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8
-
-      - name: Run collect mode
-        run: |
-          cd scripts
-          python -u fetch_all.py collect 2>&1 | tee ../fetch_log_collect.txt
-
-      - name: Upload module data
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: modules-raw
-          path: scripts/*.json
-          retention-days: 1
-
-      - name: Upload collect log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: log-collect-${{ github.run_number }}
-          path: fetch_log_collect.txt
-          retention-days: 7
-
-  # Job 2: Playwright HIGH — 解析high priority GNews URL
-  pw-high:
-    needs: rss-collect
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40
+        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40 jinja2>=3.1
 
       - name: Cache Playwright Chromium
         uses: actions/cache@v4
@@ -73,132 +39,17 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install chromium --with-deps
 
-      - name: Download module data
-        uses: actions/download-artifact@v4
-        with:
-          name: modules-raw
-          path: scripts/
-
-      - name: Run pw-high mode
+      - name: Run global fetch
         run: |
           cd scripts
-          python -u fetch_all.py pw-high 2>&1 | tee ../fetch_log_pw_high.txt
-
-      - name: Upload PW high result
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: pw-high-result
-          path: scripts/_pw_high_map.json
-          retention-days: 1
-
-      - name: Upload pw-high log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: log-pw-high-${{ github.run_number }}
-          path: fetch_log_pw_high.txt
-          retention-days: 7
-
-  # Job 3: Playwright MEDIUM — 解析medium priority GNews URL (与Job2并行)
-  pw-medium:
-    needs: rss-collect
-    runs-on: ubuntu-latest
-    timeout-minutes: 150
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40
-
-      - name: Cache Playwright Chromium
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-chromium-${{ runner.os }}-v1
-          restore-keys: |
-            playwright-chromium-${{ runner.os }}-
-
-      - name: Install Playwright Chromium
-        run: playwright install chromium --with-deps
-
-      - name: Download module data
-        uses: actions/download-artifact@v4
-        with:
-          name: modules-raw
-          path: scripts/
-
-      - name: Run pw-medium mode
-        run: |
-          cd scripts
-          python -u fetch_all.py pw-medium 2>&1 | tee ../fetch_log_pw_medium.txt
-
-      - name: Upload PW medium result
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: pw-medium-result
-          path: scripts/_pw_medium_map.json
-          retention-days: 1
-
-      - name: Upload pw-medium log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: log-pw-medium-${{ github.run_number }}
-          path: fetch_log_pw_medium.txt
-          retention-days: 7
-
-  # Job 4: 合并PW结果 + full_text + beijing + dedup + index + 投送
-  finalize:
-    needs: [pw-high, pw-medium]
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 jinja2>=3.1
-
-      - name: Download module data
-        uses: actions/download-artifact@v4
-        with:
-          name: modules-raw
-          path: scripts/
-
-      - name: Download PW high result
-        uses: actions/download-artifact@v4
-        with:
-          name: pw-high-result
-          path: scripts/
-
-      - name: Download PW medium result
-        uses: actions/download-artifact@v4
-        with:
-          name: pw-medium-result
-          path: scripts/
-
-      - name: Run finalize mode
-        run: |
-          cd scripts
-          python -u fetch_all.py finalize 2>&1 | tee ../fetch_log_finalize.txt
+          python -u fetch_all.py 2>&1 | tee ../fetch_log.txt
 
       - name: Upload fetch log
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: log-finalize-${{ github.run_number }}
-          path: fetch_log_finalize.txt
+          name: fetch-log-${{ github.run_number }}
+          path: fetch_log.txt
           retention-days: 7
 
       - name: Upload JSON outputs
@@ -216,10 +67,11 @@ jobs:
           for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
             [ -f "$f" ] && cp "$f" data/
           done
+          # 信号与运维JSON
           for f in scripts/signal_summary.json scripts/source_fingerprint.json scripts/sources_dead.json scripts/signal_baseline.json scripts/last_state.json; do
             [ -f "$f" ] && cp "$f" data/
           done
-          echo "JSON files staged to data/:"
+          echo "JSON 文件已汇总到 data/:"
           ls -lh data/
 
       - name: Generate unified HTML report
