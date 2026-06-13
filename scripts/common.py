@@ -410,7 +410,7 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     # 收集需要抓取正文的文章
     fetch_items = []  # [(filename, article_index, url)]
     
-    priority_map = {"high": 10, "high+medium": 3}
+    priority_map = {"high": 10, "high+medium": 3, "all": 0}
     min_priority = priority_map.get(priority_filter, 10)
     
     for filename, articles in articles_by_file.items():
@@ -513,9 +513,9 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 continue
             if article.get("canonical_url"):
                 continue  # 已有 canonical_url（feedburner_origlink/guid回退已解析）
-            # 已有正文的不需要解析（路径1RSS提取已覆盖）
-            if article.get("full_text"):
-                continue
+            # v4.9: 已有正文但无canonical_url的也要解析（正文阅读器需要原文链接）
+            if article.get("full_text") and article.get("canonical_url"):
+                continue  # 两者都有，跳过
             # 优先级过滤
             if article.get("priority", 0) < min_priority:
                 continue
@@ -616,7 +616,13 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                       f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed:.1f}s elapsed)")
             
             # 随机小延迟，避免被 Google 检测为自动化访问
-            await asyncio.sleep(random.uniform(0.3, 0.8))
+            await asyncio.sleep(random.uniform(0.5, 1.2))
+            
+            # v4.9: 每60篇冷却30s，防Google限速导致成功率暴跌
+            # (v4.7.1实测: 前60篇83%成功率，之后34%)
+            if i % 60 == 0 and i > 0:
+                phase_log(f"[PLAYWRIGHT] Cooldown: 30s pause after {i} articles (anti-rate-limit)")
+                await asyncio.sleep(30)
         
         await browser.close()
     
