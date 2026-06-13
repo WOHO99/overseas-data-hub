@@ -1,32 +1,16 @@
 #!/usr/bin/env python3
 """
-fetch_all.py v4.7.1 — 主调度脚本 (subprocess隔离 + 并发模块 + Bucket+RapidFuzz去重)
-v3.5: 顺序执行，40-60min，卡死风险
-v4.0: asyncio同进程，仍然卡死（feedparser线程池hang无法取消）
-v4.1: 每个模块独立subprocess，3个模块并发，硬超时SIGKILL
-v4.2: global_dedup()用Bucket分桶+RapidFuzz替代O(n²)difflib，97min→0.4s
-  - Bucket分桶：按标准化标题前3字符分桶，比较次数降88倍
-  - RapidFuzz：C++实现，单次比较比difflib快206倍
-  - dedup_title_level()同步优化
-v4.3: 新增 batch_resolve_gnews_urls 步骤 — 所有模块完成后批量解析GNews redirect
-  - fetch_one()内GNews semaphore(5)导致0/1140 canonical_url，此步骤用15并发+6s超时
-  - 在run_all_modules_concurrent()之后、global_dedup()之前执行
-v4.4: 新增 fetch_full_text_batch 步骤 — Actions端正文抓取
-  - batch_resolve完成后，对high+medium文章抓正文(trafilatura)
-  - 新增 published_beijing 字段批量回填
-  - 预期：+3-5min Actions时间，70%+ high文章正文覆盖
-v4.5: 新增 batch_resolve_gnews_with_browser 步骤 — Playwright无头浏览器解析GNews
-  - 纯HTTP batch_resolve对GNews覆盖率为0%（需JS渲染）
-  - Playwright启动Chromium，只处理high priority的GNews URL（约60-70篇/日）
-  - 解析出canonical_url后，fetch_full_text_batch可用真实URL抓正文
-  - Pipeline顺序：modules → [SKIP HTTP batch] → Playwright batch → full_text → beijing → dedup → index
-v4.7: HTTP batch_resolve跳过(GNews HTTP解析0%覆盖，浪费10+min) + dedup_title_level naive/aware datetime修复
-  - 保留Playwright batch_resolve（83%成功率）作为唯一canonical_url解析步骤
-  - Pipeline顺序简化：modules → [SKIP HTTP batch] → Playwright batch(high) → full_text(high+medium) → beijing → dedup → index
-v4.7.1: 从v4.7回滚+可观测性增强
-  - 回滚v4.8/v4.8.1/v4.8.2改动（Playwright medium + full_text all均超时）
-  - 关键print加flush=True，使用phase_log()时间戳日志
-  - 解决tee缓冲导致Actions取消时进度日志丢失的问题
+fetch_all.py v5.0 — Split-Job架构 (4-Job流水线)
+v4.7.1: 回滚+可观测性增强
+v4.7.2: Playwright medium采样测试 → 数据证明medium全量需122min
+v5.0: Split-Job架构 — 将pipeline拆为4个独立Job:
+  - collect: 18模块RSS采集+去重
+  - pw-high: Playwright HIGH only (~12min)
+  - pw-medium: Playwright MEDIUM only (~122min, 与pw-high并行)
+  - finalize: 合并PW结果+full_text+beijing+dedup+index
+
+用法: python fetch_all.py [--mode collect|pw-high|pw-medium|finalize|full]
+  full = v4.7.1单Job模式(默认, 兼容回退)
 """
 
 import json
@@ -252,6 +236,98 @@ def save_fail_counts(counts):
     path = os.path.join(SCRIPT_DIR, "fail_counts.json")
     with open(path, "w") as f:
         json.dump(counts, f)
+
+
+# ============================================================================
+# v5.0: Split-Job辅助函数
+# ============================================================================
+
+def load_articles_from_modules():
+    """从per-module JSON文件加载所有文章，返回 {filename: [article_dicts]}"""
+    articles_by_file = {}
+    for entry in MODULE_REGISTRY:
+        output_file = entry["output"]
+        full_path = os.path.join(SCRIPT_DIR, output_file)
+        if not os.path.exists(full_path):
+            continue
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            articles_by_file[output_file] = data.get("articles", [])
+        except json.JSONDecodeError:
+            continue
+    total = sum(len(v) for v in articles_by_file.values())
+    phase_log(f"  Loaded {total} articles from {len(articles_by_file)} module files")
+    return articles_by_file
+
+
+def save_pw_map(articles_by_file, pw_map_path):
+    """将Playwright解析结果保存为 link→{canonical_url, full_text} 映射"""
+    from common import atomic_write_json
+    pw_map = {}
+    for filename, articles in articles_by_file.items():
+        for article in articles:
+            updates = {}
+            if article.get("canonical_url"):
+                updates["canonical_url"] = article["canonical_url"]
+            if article.get("full_text"):
+                updates["full_text"] = article["full_text"]
+            if updates:
+                pw_map[article["link"]] = updates
+    atomic_write_json(pw_map, pw_map_path)
+    phase_log(f"  Saved PW map: {len(pw_map)} entries to {os.path.basename(pw_map_path)}")
+    return len(pw_map)
+
+
+def apply_pw_map(articles_by_file, *pw_map_paths):
+    """将PW映射应用到文章列表(原地修改)"""
+    from common import atomic_write_json
+    combined_map = {}
+    for path in pw_map_paths:
+        if not os.path.exists(path):
+            phase_log(f"  [WARN] PW map not found: {path}")
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                pw_map = json.load(f)
+            combined_map.update(pw_map)
+        except (json.JSONDecodeError, OSError) as e:
+            phase_log(f"  [WARN] Failed to load PW map {path}: {e}")
+
+    applied = 0
+    for filename, articles in articles_by_file.items():
+        for article in articles:
+            link = article.get("link", "")
+            if link in combined_map:
+                updates = combined_map[link]
+                if "canonical_url" in updates and not article.get("canonical_url"):
+                    article["canonical_url"] = updates["canonical_url"]
+                if "full_text" in updates and not article.get("full_text"):
+                    article["full_text"] = updates["full_text"]
+                applied += 1
+
+    phase_log(f"  Applied {applied} PW map updates from {len(combined_map)} map entries")
+    return applied
+
+
+def write_back_articles(articles_by_file):
+    """将修改后的文章写回per-module JSON文件"""
+    from common import atomic_write_json
+    written = 0
+    for entry in MODULE_REGISTRY:
+        output_file = entry["output"]
+        if output_file not in articles_by_file:
+            continue
+        full_path = os.path.join(SCRIPT_DIR, output_file)
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            data["articles"] = articles_by_file[output_file]
+            atomic_write_json(data, full_path)
+            written += 1
+        except (json.JSONDecodeError, OSError) as e:
+            phase_log(f"  [WARN] Failed to update {output_file}: {e}")
+    phase_log(f"  Written back to {written} module files")
 
 
 def global_dedup():
@@ -648,7 +724,8 @@ def build_index(seen, module_outputs):
 
 
 async def main_async():
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.7.1", flush=True)
+    """v4.7.1单Job模式 — 保留作为full模式的兼容回退"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.7.1 (full mode)", flush=True)
     print(f"  Concurrency: {MAX_CONCURRENT} modules at a time", flush=True)
     print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)", flush=True)
     print(f"  Retry: {MAX_RETRIES}x on failure", flush=True)
@@ -785,8 +862,174 @@ async def main_async():
         sys.exit(1)
 
 
+# ============================================================================
+# v5.0: Split-Job Mode入口
+# ============================================================================
+
+async def collect_mode():
+    """Job 1: RSS采集 — 18模块并发执行，产出per-module JSON文件"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting collect mode v5.0", flush=True)
+    print(f"  Concurrency: {MAX_CONCURRENT} modules at a time", flush=True)
+    print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)", flush=True)
+
+    results = await run_all_modules_concurrent()
+
+    if all(not v for v in results.values()):
+        phase_log("ALL MODULES FAILED — aborting")
+        sys.exit(1)
+
+    phase_log("COLLECT DONE: Module JSON files ready for artifact upload")
+
+
+async def pw_high_mode():
+    """Job 2: Playwright HIGH — 解析high priority GNews URL，产出一个映射文件"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting pw-high mode v5.0", flush=True)
+
+    articles_by_file = load_articles_from_modules()
+    from common import batch_resolve_gnews_with_browser
+
+    phase_log("=" * 70)
+    phase_log("PHASE: Playwright GNews resolve (high priority only)")
+    pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
+        articles_by_file, priority_filter="high"
+    )
+    phase_log(f"PHASE DONE: Playwright(high) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
+
+    # 保存映射文件
+    save_pw_map(articles_by_file, os.path.join(SCRIPT_DIR, "_pw_high_map.json"))
+    phase_log("PW-HIGH DONE: _pw_high_map.json ready for artifact upload")
+
+
+async def pw_medium_mode():
+    """Job 3: Playwright MEDIUM — 解析medium priority GNews URL，产出一个映射文件"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting pw-medium mode v5.0", flush=True)
+
+    articles_by_file = load_articles_from_modules()
+
+    # 预过滤: 仅medium priority (>=3, <10) 的GNews URL
+    from common import _is_gnews_url
+    articles_by_file_medium = {}
+    total_medium_gnews = 0
+    for filename, articles in articles_by_file.items():
+        medium = [a for a in articles
+                  if a.get("priority", 0) >= 3
+                  and a.get("priority", 0) < 10
+                  and _is_gnews_url(a.get("link", ""))
+                  and not a.get("canonical_url")]
+        if medium:
+            articles_by_file_medium[filename] = medium
+            total_medium_gnews += len(medium)
+
+    phase_log(f"  Pre-filtered: {total_medium_gnews} medium GNews URLs across {len(articles_by_file_medium)} files")
+
+    if total_medium_gnews == 0:
+        phase_log("  No medium GNews URLs to process — saving empty map")
+        save_pw_map({}, os.path.join(SCRIPT_DIR, "_pw_medium_map.json"))
+        phase_log("PW-MEDIUM DONE: _pw_medium_map.json (empty)")
+        return
+
+    from common import batch_resolve_gnews_with_browser
+
+    phase_log("=" * 70)
+    phase_log("PHASE: Playwright GNews resolve (medium priority only)")
+    # 使用high+medium滤器(>=3) + 预过滤列表(已排除high)
+    pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
+        articles_by_file_medium, priority_filter="high+medium"
+    )
+    phase_log(f"PHASE DONE: Playwright(medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
+
+    # 保存映射文件
+    save_pw_map(articles_by_file_medium, os.path.join(SCRIPT_DIR, "_pw_medium_map.json"))
+    phase_log("PW-MEDIUM DONE: _pw_medium_map.json ready for artifact upload")
+
+
+async def finalize_mode():
+    """Job 4: 合并PW结果 + full_text + beijing + dedup + index"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting finalize mode v5.0", flush=True)
+
+    # 1. 加载原始文章 + 应用PW映射
+    articles_by_file = load_articles_from_modules()
+
+    phase_log("=" * 70)
+    phase_log("PHASE: Apply Playwright results")
+    high_map = os.path.join(SCRIPT_DIR, "_pw_high_map.json")
+    medium_map = os.path.join(SCRIPT_DIR, "_pw_medium_map.json")
+    applied = apply_pw_map(articles_by_file, high_map, medium_map)
+
+    # 统计映射文件内容
+    for map_name, map_path in [("HIGH", high_map), ("MEDIUM", medium_map)]:
+        if os.path.exists(map_path):
+            try:
+                with open(map_path, "r", encoding="utf-8") as f:
+                    pw_data = json.load(f)
+                phase_log(f"  PW-{map_name} map: {len(pw_data)} entries")
+            except (json.JSONDecodeError, OSError):
+                phase_log(f"  PW-{map_name} map: FAILED to load")
+        else:
+            phase_log(f"  PW-{map_name} map: NOT FOUND (non-fatal)")
+
+    # 2. 写回模块JSON
+    write_back_articles(articles_by_file)
+
+    # 3. Full text抓取
+    phase_log("=" * 70)
+    phase_log("PHASE: Full text fetch (high+medium priority)")
+    from common import fetch_full_text_batch
+
+    articles_by_file_ft = load_articles_from_modules()
+    fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
+        articles_by_file_ft, priority_filter="high+medium", concurrency=8, timeout=15
+    )
+    phase_log(f"PHASE DONE: Full text — {fetched}/{total_ft} fetched ({ft_elapsed:.1f}s)")
+
+    # 4. Beijing time回填
+    phase_log("PHASE: Beijing time backfill")
+    from common import normalize_to_beijing_time
+    bj_filled = 0
+    for filename, articles in articles_by_file_ft.items():
+        for article in articles:
+            if not article.get("published_beijing") and article.get("published"):
+                beijing = normalize_to_beijing_time(article["published"])
+                if beijing:
+                    article["published_beijing"] = beijing
+                    bj_filled += 1
+    if bj_filled > 0:
+        phase_log(f"  Filled {bj_filled} articles with published_beijing")
+
+    # 5. 写回正文+时间
+    if fetched > 0 or bj_filled > 0:
+        write_back_articles(articles_by_file_ft)
+
+    # 6. Dedup + Index
+    phase_log("=" * 70)
+    phase_log("PHASE: Global dedup + Build index")
+    seen, module_outputs = global_dedup()
+    index = build_index(seen, module_outputs)
+
+    print(f"\n{'='*70}")
+    print(f"FINALIZE DONE.")
+    print(f"  PW applied: {applied}")
+    print(f"  Full text: {fetched}/{total_ft}")
+    print(f"  Global total: {index['global_total']}")
+    print(f"  Global high: {index['global_high']}")
+    print(f"  Global medium: {index['global_medium']}")
+    print(f"  Global new: {index['global_new']}, continuing: {index['global_continuing']}")
+    print(f"{'='*70}")
+
+
 def main():
-    asyncio.run(main_async())
+    mode = sys.argv[1] if len(sys.argv) > 1 else "full"
+    modes = {
+        "collect": collect_mode,
+        "pw-high": pw_high_mode,
+        "pw-medium": pw_medium_mode,
+        "finalize": finalize_mode,
+        "full": main_async,
+    }
+    if mode not in modes:
+        print(f"Unknown mode: {mode}. Available: {', '.join(modes.keys())}")
+        sys.exit(1)
+    asyncio.run(modes[mode]())
 
 
 if __name__ == "__main__":
