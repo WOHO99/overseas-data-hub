@@ -382,15 +382,17 @@ async def fetch_full_text_async(session, url, timeout=15):
     return None
 
 
-async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15):
+async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15, max_articles=0):
     """
     v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
     v4.8: priority_filter新增"all"选项，全量抓取(>=0分)。
+    v4.8.1: max_articles参数限制最大抓取篇数(按优先级降序截取) + 跳过已有summary(>200字符)的文章。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
     concurrency: 并发数
     timeout: 单篇超时秒数
+    max_articles: 最大抓取篇数(0=不限制)，按优先级降序截取TopN
     
     返回: (fetched_count, total_attempted, elapsed_seconds)
     """
@@ -398,15 +400,20 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     start = _time.monotonic()
     
     # 收集需要抓取正文的文章
-    fetch_items = []  # [(filename, article_index, url)]
+    fetch_items = []  # [(filename, article_index, url, priority)]
     
     priority_map = {"high": 10, "high+medium": 3, "all": 0}
     min_priority = priority_map.get(priority_filter, 10)
+    skipped_summary = 0
     
     for filename, articles in articles_by_file.items():
         for idx, article in enumerate(articles):
             # 跳过已有正文的
             if article.get("full_text"):
+                continue
+            # v4.8.1: 跳过已有足够summary的文章(>200字符，summary已提供信息价值)
+            if len(article.get("summary", "")) > 200:
+                skipped_summary += 1
                 continue
             # 优先级过滤
             if article.get("priority", 0) < min_priority:
@@ -415,13 +422,26 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
             url = article.get("canonical_url") or article.get("link", "")
             if not url or _is_gnews_url(url):
                 continue  # 跳过GNews跟踪URL
-            fetch_items.append((filename, idx, url))
+            fetch_items.append((filename, idx, url, article.get("priority", 0)))
+    
+    # v4.8.1: 按优先级降序排序 + max_articles截取
+    fetch_items.sort(key=lambda x: x[3], reverse=True)
+    total_before_cap = len(fetch_items)
+    if max_articles > 0 and len(fetch_items) > max_articles:
+        fetch_items = fetch_items[:max_articles]
+        print(f"  [FULL_TEXT] Capped: {total_before_cap} -> {max_articles} (max_articles)")
+    
+    # 去掉priority只保留(filename, idx, url)
+    fetch_items = [(f, i, u) for f, i, u, _ in fetch_items]
     
     total = len(fetch_items)
     if not fetch_items:
+        if skipped_summary > 0:
+            print(f"  [FULL_TEXT] Skipped {skipped_summary} articles with summary>200 chars")
         return 0, 0, 0.0
     
-    print(f"  [FULL_TEXT] {total} articles to fetch (priority>={min_priority}, concurrency={concurrency})")
+    print(f"  [FULL_TEXT] {total} articles to fetch (priority>={min_priority}, concurrency={concurrency})"
+          f"{f', skipped {skipped_summary} with summary' if skipped_summary else ''}")
     
     sem = asyncio.Semaphore(concurrency)
     
