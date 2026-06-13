@@ -1,0 +1,627 @@
+# sources_metadata.yaml — RSS源元数据与健康管理
+# 版本: v1.0 (2026-06-14)
+# 用途: 源审计/健康监控/full_text策略标记/分批部署
+# Batch A=首次部署 / Batch B=观察2天后部署 / Batch C=低优先级
+
+sources:
+  # ===== Batch A (10源, 首次部署) =====
+
+  fed-press-all:
+    name: "Federal Reserve Press All"
+    url: "https://www.federalreserve.gov/feeds/press_all.xml"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS无content:encoded，需trafilatura抓正文(Fed HTML结构标准，预期高成功率)"
+    expected_weekday: 5
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["central_bank", "monetary_policy", "US"]
+    language: "en"
+    region: "US"
+
+  ecb-press:
+    name: "ECB Press"
+    url: "https://www.ecb.europa.eu/rss/press.html"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS无content:encoded/description，仅title+link，需trafilatura"
+    expected_weekday: 3
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["central_bank", "monetary_policy", "EU"]
+    language: "en"
+    region: "EU"
+
+  reuters-company:
+    name: "Reuters Company News"
+    url: "http://feeds.reuters.com/reuters/companyNews"
+    module: "global_business"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "Reuters RSS条目通常只有summary，需trafilatura抓全文(Wired反爬中等)"
+    expected_weekday: 25
+    expected_weekend: 15
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["business", "corporate", "global"]
+    language: "en"
+    region: "global"
+
+  reuters-hot-stocks:
+    name: "Reuters Hot Stocks"
+    url: "http://feeds.reuters.com/reuters/hotStocksNews"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "同Reuters Company，需trafilatura"
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["stocks", "finance", "US"]
+    language: "en"
+    region: "US"
+
+  reuters-world:
+    name: "Reuters World News"
+    url: "http://feeds.reuters.com/Reuters/worldNews"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "同Reuters，需trafilatura"
+    expected_weekday: 30
+    expected_weekend: 20
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["geopolitics", "global", "conflict"]
+    language: "en"
+    region: "global"
+
+  esg-dive:
+    name: "ESG Dive"
+    url: "https://www.esgdive.com/feeds/news/"
+    module: "esg_sustainability"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS条目有简短摘要，需trafilatura(Informa旗下，反爬弱)"
+    expected_weekday: 8
+    expected_weekend: 3
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 4
+    fallback_url: null
+    tags: ["ESG", "sustainability", "regulation"]
+    language: "en"
+    region: "US"
+
+  politico:
+    name: "Politico"
+    url: "https://www.politico.com/rss"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS有截断内容，trafilatura可能受paywall限制(Politico Pro内容)"
+    expected_weekday: 20
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["politics", "US_policy", "congress"]
+    language: "en"
+    region: "US"
+
+  politico-eu:
+    name: "Politico EU"
+    url: "https://www.politico.eu/feed/"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "EU政策/NATO焦点，归geopolitics_risk而非region_europe"
+    expected_weekday: 15
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["EU_policy", "NATO", "geopolitics"]
+    language: "en"
+    region: "EU"
+
+  marketwatch-top:
+    name: "MarketWatch Top Stories"
+    url: "https://www.marketwatch.com/rss/topstories"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "Dow Jones旗下，RSS截断，trafilatura预期中等成功率"
+    expected_weekday: 20
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["finance", "markets", "US"]
+    language: "en"
+    region: "US"
+
+  cointelegraph:
+    name: "CoinTelegraph"
+    url: "https://cointelegraph.com/rss"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "A"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS content:encoded可能含全文(加密媒体通常完整输出)，需验证截断率"
+    expected_weekday: 15
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["crypto", "blockchain", "digital_assets"]
+    language: "en"
+    region: "global"
+
+  # ===== Batch B (15源, A部署2天后部署) =====
+
+  stratechery:
+    name: "Stratechery"
+    url: "https://stratechery.com/feed/"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "65% Daily Updates仅1句content:encoded，会员文章截断"
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["tech_analysis", "strategy"]
+    language: "en"
+    region: "US"
+
+  the-verge:
+    name: "The Verge"
+    url: "https://www.theverge.com/rss/index.xml"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "70-80%条目截断含'Read the full story at The Verge'"
+    expected_weekday: 25
+    expected_weekend: 15
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "consumer_tech"]
+    language: "en"
+    region: "US"
+
+  openai-blog:
+    name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS需验证可用性，OpenAI官网改版频繁"
+    expected_weekday: 2
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["AI", "LLM", "research"]
+    language: "en"
+    region: "US"
+
+  deepmind-blog:
+    name: "DeepMind Blog"
+    url: "https://deepmind.google/blog/rss.xml"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS需验证URL格式，Google博客RSS路径不稳定"
+    expected_weekday: 2
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["AI", "research", "Google"]
+    language: "en"
+    region: "US"
+
+  bloomberg-technology:
+    name: "Bloomberg Technology"
+    url: "https://feeds.feedburner.com/bloomberg-technology-news"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "FeedBurner跟踪URL，trafilatura可能因重定向至Bloomberg付费墙失败—需单独验证"
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "finance", "US"]
+    language: "en"
+    region: "US"
+
+  bloomberg-markets:
+    name: "Bloomberg Markets"
+    url: "https://feeds.feedburner.com/bloomberg-markets-news"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "已在global_business中，Batch B同步添加到finance_global(同源不同模块视角)"
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["finance", "markets", "US"]
+    language: "en"
+    region: "US"
+
+  cnbc-world:
+    name: "CNBC World"
+    url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "cnbc.com/rss-feeds/是HTML非RSS，此为真实RSS端点"
+    expected_weekday: 20
+    expected_weekend: 12
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: "https://rss.cnbc.com/headlines/world/"
+    tags: ["finance", "business", "US"]
+    language: "en"
+    region: "US"
+
+  cnbc-tech:
+    name: "CNBC Technology"
+    url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10002647"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "CNBC Tech专用RSS端点"
+    expected_weekday: 12
+    expected_weekend: 6
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "business", "US"]
+    language: "en"
+    region: "US"
+
+  wsj-markets:
+    name: "WSJ Markets"
+    url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "Dow Jones RSS，WSJ付费墙可能阻止trafilatura抓全文"
+    expected_weekday: 20
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["finance", "markets", "US"]
+    language: "en"
+    region: "US"
+
+  wsj-tech:
+    name: "WSJ Tech"
+    url: "https://feeds.content.dowjones.io/public/rss/WSJD"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "同WSJ付费墙限制"
+    expected_weekday: 12
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "business", "US"]
+    language: "en"
+    region: "US"
+
+  ft-alphaville:
+    name: "FT Alphaville"
+    url: "https://www.ft.com/rss.ft Alphaville"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "FT RSS URL格式需验证，FT有付费墙"
+    expected_weekday: 8
+    expected_weekend: 3
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["finance", "analysis", "UK"]
+    language: "en"
+    region: "UK"
+
+  nikkei-asia-economy:
+    name: "Nikkei Asia Economy"
+    url: "https://asia.nikkei.com/rss/feed/nar"
+    module: "global_business"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "已在global_business中，标记为已在Pipeline"
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["business", "asia", "Japan"]
+    language: "en"
+    region: "APAC"
+
+  foreign-policy:
+    name: "Foreign Policy"
+    url: "https://foreignpolicy.com/feed/"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "RSS有摘要，FP部分文章付费，trafilatura中等成功率"
+    expected_weekday: 8
+    expected_weekend: 3
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["geopolitics", "foreign_policy", "analysis"]
+    language: "en"
+    region: "US"
+
+  foreign-affairs:
+    name: "Foreign Affairs"
+    url: "https://www.foreignaffairs.com/rss.xml"
+    module: "geopolitics_risk"
+    tier: "bronze"
+    full_text_strategy: "summary_only"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "几乎全部付费，trafilatura必定失败，仅标题+摘要用于信号检测"
+    expected_weekday: 5
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 2
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["geopolitics", "analysis", "academic"]
+    language: "en"
+    region: "US"
+
+  carbon-pulse:
+    name: "Carbon Pulse"
+    url: "https://carbon-pulse.com/feed/"
+    module: "esg_sustainability"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "B"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "碳市场专业媒体，部分付费，trafilatura中等成功率"
+    expected_weekday: 8
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["carbon", "ESG", "markets"]
+    language: "en"
+    region: "EU"
+
+  # ===== Batch C (3源, 低优先级/信号价值) =====
+
+  imf-blog:
+    name: "IMF Blog"
+    url: "https://www.imf.org/en/News/Rss"
+    module: "finance_global"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "C"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "IMF官方RSS，产出低但信号价值高(政策风向)"
+    expected_weekday: 3
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 10
+    fallback_url: null
+    tags: ["IMF", "monetary_policy", "official"]
+    language: "en"
+    region: "global"
+
+  world-bank:
+    name: "World Bank News"
+    url: "https://www.worldbank.org/en/rss/rssfeed"
+    module: "finance_global"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "C"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "世界银行RSS，产出低但信号价值高"
+    expected_weekday: 3
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 10
+    fallback_url: null
+    tags: ["World_Bank", "development", "official"]
+    language: "en"
+    region: "global"
+
+  bis:
+    name: "BIS News"
+    url: "https://www.bis.org/rss/press.rss"
+    module: "finance_global"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "C"
+    verified_full_text: false
+    verified_full_text_date: "2026-06-14"
+    verified_full_text_note: "BIS央行论坛RSS，极低产出但系统性风险信号价值极高"
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["BIS", "systemic_risk", "official"]
+    language: "en"
+    region: "global"
