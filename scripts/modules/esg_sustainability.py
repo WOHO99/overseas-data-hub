@@ -3,6 +3,7 @@
 esg_sustainability.py — ESG与可持续发展模块
 覆盖：ESG法规、碳信用、可持续供应链、气候风险
 欧美市场合规越来越离不开ESG
+v3.4: Batch A新增1个直连RSS源(ESG Dive)
 """
 
 import sys
@@ -57,6 +58,8 @@ CONFIG = {
         ],
         "独立RSS源": [
             {"url": "https://www.esgnews.com/rss", "tag": "ESG News"},
+            # v3.4 Batch A: ESG Dive直连RSS
+            {"url": "https://www.esgdive.com/feeds/news/", "tag": "ESG Dive"},
         ],
         "信号性查询": [
             {"url": gnews_url('"greenwashing" scandal investigation penalty corporate'), "tag": "GNews | Signal: Greenwash"},
