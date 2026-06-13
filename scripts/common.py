@@ -480,7 +480,11 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
 # v4.5: Playwright 无头浏览器解析 GNews canonical_url
 # ============================================================
 
-async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high"):
+async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high", max_items=0):
+    """
+    v4.9: 增加 max_items 参数限制最大解析数量，按优先级降序截取。
+    防止 high+medium scope 下 2800+ 篇 GNews URL 超时。
+    max_items=0 表示不限制。
     """
     v4.5: 使用 Playwright 无头浏览器批量解析 GNews 跟踪 URL。
     只处理指定优先级的文章中的 GNews 链接（默认仅 high）。
@@ -519,7 +523,15 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             # 优先级过滤
             if article.get("priority", 0) < min_priority:
                 continue
-            targets.append((filename, idx, article["link"]))
+            targets.append((filename, idx, article["link"], article.get("priority", 0)))
+    
+    # v4.9: 按优先级降序排序，截取前 max_items 篇
+    targets.sort(key=lambda x: x[3], reverse=True)
+    if max_items > 0 and len(targets) > max_items:
+        phase_log(f"[PLAYWRIGHT] Trimming {len(targets)} targets to top {max_items} by priority")
+        targets = targets[:max_items]
+    # 去掉priority列
+    targets = [(f, i, u) for f, i, u, _ in targets]
     
     total = len(targets)
     if not targets:
