@@ -12,7 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 45  # v4.8.1: 模块+Playwright两轮+full_text(2k cap)+beijing+dedup
+    timeout-minutes: 30  # v4.7.1: 回滚v4.7基线，模块+Playwright(high)+full_text(high+medium)≈11min
 
     steps:
       - uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
       - name: Run global fetch
         run: |
           cd scripts
-          python fetch_all.py 2>&1 | tee ../fetch_log.txt
+          python -u fetch_all.py 2>&1 | tee ../fetch_log.txt
 
       - name: Upload fetch log
         if: always()
