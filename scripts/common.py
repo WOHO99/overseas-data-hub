@@ -20,9 +20,9 @@ v4.6: GNews RSS功能利用率优化
   - gnews_url(): 新增num(默认100)+when(默认7d)+topic模式
   - max_items 30→50, max_articles 500→800
   - fetch_one: GNews <source>元素提取(source_detail)
-v4.8: priority_filter参数统一
-  - batch_resolve_gnews_with_browser + fetch_full_text_batch 统一使用priority_map
-  - 新增"all"选项(>=0)，支持全量抓取
+v4.8.2: max_time参数限制总执行时间
+  - fetch_full_text_batch新增max_time参数(秒)，批次循环中检查超时则提前退出
+  - 解决v4.8/v4.8.1因full_text阶段耗尽workflow timeout的问题
 """
 
 import asyncio
@@ -382,17 +382,19 @@ async def fetch_full_text_async(session, url, timeout=15):
     return None
 
 
-async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15, max_articles=0):
+async def fetch_full_text_batch(articles_by_file, priority_filter="high", concurrency=10, timeout=15, max_articles=0, max_time=0):
     """
     v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
     v4.8: priority_filter新增"all"选项，全量抓取(>=0分)。
     v4.8.1: max_articles参数限制最大抓取篇数(按优先级降序截取) + 跳过已有summary(>200字符)的文章。
+    v4.8.2: max_time参数限制总执行时间(秒)，超时提前退出。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
     concurrency: 并发数
     timeout: 单篇超时秒数
     max_articles: 最大抓取篇数(0=不限制)，按优先级降序截取TopN
+    max_time: 总执行时间上限秒数(0=不限制)，超时提前退出已抓取的仍保留
     
     返回: (fetched_count, total_attempted, elapsed_seconds)
     """
@@ -460,6 +462,11 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
         failed = 0
         
         for i in range(0, total, batch_size):
+            # v4.8.2: 总时间上限检查
+            if max_time > 0 and (_time.monotonic() - start) > max_time:
+                print(f"  [FULL_TEXT] Time limit reached: {max_time}s, stopping at {i}/{total}")
+                break
+            
             batch = fetch_items[i:i+batch_size]
             batch_end = min(i + batch_size, total)
             
@@ -482,7 +489,8 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
                   f"({fetched} fetched, {failed} failed, {elapsed:.1f}s elapsed)")
     
     elapsed = _time.monotonic() - start
-    print(f"  [FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s)")
+    time_limited = " (time-limited)" if max_time > 0 and elapsed >= max_time else ""
+    print(f"  [FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s){time_limited}")
     return fetched, total, elapsed
 
 
