@@ -12,7 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 45  # v4.9: Playwright high+medium(~16min)+full_text all(~5min)+RSS(~1min)+rest
+    timeout-minutes: 60  # v4.9: Playwright high+medium(500篇~20min)+cooldown(~4min)+full_text all(~5min)+RSS(~1min)+rest
 
     steps:
       - uses: actions/checkout@v4
