@@ -26,7 +26,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40
+        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40 jinja2>=3.1
 
       - name: Cache Playwright Chromium
         uses: actions/cache@v4
@@ -71,8 +71,22 @@ jobs:
           for f in scripts/signal_summary.json scripts/source_fingerprint.json scripts/sources_dead.json scripts/signal_baseline.json scripts/last_state.json; do
             [ -f "$f" ] && cp "$f" data/
           done
-          echo "JSON 文件已汇聚到 data/:"
+          echo "JSON 文件已汇总到 data/:"
           ls -lh data/
+
+      - name: Generate unified HTML report
+        if: success()
+        run: |
+          cd scripts
+          python gen_unified_html.py ../data/ ../全球视野日报.html || echo "HTML generation failed, continuing..."
+
+      - name: Upload HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-report-${{ github.run_number }}
+          path: 全球视野日报.html
+          retention-days: 30
 
       - name: Send daily report via email
         if: success()
