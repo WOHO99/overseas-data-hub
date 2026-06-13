@@ -764,8 +764,9 @@ async def main_async():
         except json.JSONDecodeError:
             continue
 
+    # v4.9: 扩大到high+medium(>=3)，覆盖更多GNews URL
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_pw, priority_filter="high"
+        articles_by_file_pw, priority_filter="high+medium"
     )
     phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -882,18 +883,19 @@ async def collect_mode():
 
 
 async def pw_high_mode():
-    """Job 2: Playwright HIGH — 解析high priority GNews URL，产出一个映射文件"""
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting pw-high mode v5.0", flush=True)
+    """Job 2: Playwright HIGH — 解析high+medium priority GNews URL，产出一个映射文件"""
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting pw-high mode v4.9", flush=True)
 
     articles_by_file = load_articles_from_modules()
     from common import batch_resolve_gnews_with_browser
 
     phase_log("=" * 70)
-    phase_log("PHASE: Playwright GNews resolve (high priority only)")
+    phase_log("PHASE: Playwright GNews resolve (high+medium priority)")
+    # v4.9: 扩大到high+medium(>=3)，pw-medium Job不再需要
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file, priority_filter="high"
+        articles_by_file, priority_filter="high+medium"
     )
-    phase_log(f"PHASE DONE: Playwright(high) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
+    phase_log(f"PHASE DONE: Playwright(high+medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
     # 保存映射文件
     save_pw_map(articles_by_file, os.path.join(SCRIPT_DIR, "_pw_high_map.json"))
@@ -971,14 +973,14 @@ async def finalize_mode():
     # 2. 写回模块JSON
     write_back_articles(articles_by_file)
 
-    # 3. Full text抓取
+    # 3. Full text抓取 — v4.9: all priority，只抓有canonical_url/非GNews链接的
     phase_log("=" * 70)
-    phase_log("PHASE: Full text fetch (high+medium priority)")
+    phase_log("PHASE: Full text fetch (all priority, canonical_url or direct link)")
     from common import fetch_full_text_batch
 
     articles_by_file_ft = load_articles_from_modules()
     fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
-        articles_by_file_ft, priority_filter="high+medium", concurrency=8, timeout=15
+        articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
     )
     phase_log(f"PHASE DONE: Full text — {fetched}/{total_ft} fetched ({ft_elapsed:.1f}s)")
 
