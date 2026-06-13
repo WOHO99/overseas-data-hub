@@ -20,8 +20,10 @@ v4.6: GNews RSS功能利用率优化
   - gnews_url(): 新增num(默认100)+when(默认7d)+topic模式
   - max_items 30→50, max_articles 500→800
   - fetch_one: GNews <source>元素提取(source_detail)
-v4.7.2: batch_resolve_gnews_with_browser新增max_items参数
-  - 用于小样本测试，测量medium单篇耗时推算全量时间
+v4.7.1: 从v4.7回滚+可观测性增强
+  - 回滚v4.8/v4.8.1/v4.8.2的Playwright medium和full_text all改动
+  - 新增phase_log()时间戳日志函数 + 关键print加flush=True
+  - 解决tee缓冲导致Actions取消时进度日志丢失的问题
 """
 
 import asyncio
@@ -478,11 +480,10 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
 # v4.5: Playwright 无头浏览器解析 GNews canonical_url
 # ============================================================
 
-async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high", max_items=0):
+async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high"):
     """
     v4.5: 使用 Playwright 无头浏览器批量解析 GNews 跟踪 URL。
     只处理指定优先级的文章中的 GNews 链接（默认仅 high）。
-    v4.7.2: 新增max_items参数(0=不限制)，用于小样本测试推算全量耗时。
     
     Google News 跟踪 URL 不是标准 HTTP 302，而是 JS 渲染后才跳转，
     纯 HTTP(batch_resolve_gnews_urls)覆盖率为 0%。
@@ -520,15 +521,9 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 continue
             targets.append((filename, idx, article["link"]))
     
-    # v4.7.2: max_items截取（用于小样本测试推算全量耗时）
-    total_all = len(targets)
-    if max_items > 0 and len(targets) > max_items:
-        targets = targets[:max_items]
-        phase_log(f"[PLAYWRIGHT] Capped: {total_all} -> {max_items} (max_items)")
-    
     total = len(targets)
     if not targets:
-        phase_log("[PLAYWRIGHT] No GNews URLs to resolve, skipping")
+        phase_log("[PLAYWRIGHT] No high-priority GNews URLs to resolve, skipping")
         return 0, 0, 0.0
     
     phase_log(f"[PLAYWRIGHT] Resolving {total} GNews URLs with headless Chromium...")
