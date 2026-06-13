@@ -4,6 +4,7 @@ global_business.py — 全球商业与产业链重构模块
 v3.3: 从"出海商业"升级，不再只看"中国公司出去"
 覆盖：全球产业链转移、跨国公司全球布局、各国制造业回流/新兴制造中心
 无论是谁在动，只要是产业链在动，就抓
+v3.4: Batch A新增1个直连RSS源(Reuters Company)
 """
 
 import sys
@@ -33,6 +34,8 @@ CONFIG = {
             {"url": "https://feeds.feedburner.com/bloomberg-markets-news", "tag": "Bloomberg Markets"},
             {"url": "https://www.reuters.com/rssFeed/businessNews", "tag": "Reuters Business"},
             {"url": "https://rss.cnbc.com/headlines/world/", "tag": "CNBC World"},
+            # v3.4 Batch A: Reuters Company直连RSS
+            {"url": "http://feeds.reuters.com/reuters/companyNews", "tag": "Reuters Company"},
             {"url": gnews_url("China trade tariff 301 supply chain"), "tag": "GNews | China Trade/Tariff"},
             {"url": gnews_url("global economy recession inflation interest rate 2026"), "tag": "GNews | Global Macro"},
             {"url": gnews_url("commodity price oil copper lithium 2026"), "tag": "GNews | Commodity"},

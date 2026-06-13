@@ -3,6 +3,7 @@
 finance_global.py — 全球宏观与资本流动全图
 v3.3升级：增加系统性风险、全球资本流动异动、前沿市场风险、
 去美元化/数字货币/支付体系变革
+v3.4: Batch A新增5个直连RSS源(Fed/ECB/Reuters Hot Stocks/MarketWatch/CoinTelegraph)
 """
 
 import sys
@@ -100,6 +101,14 @@ CONFIG = {
         "独立RSS源": [
             {"url": "https://www.ft.com/rss/home", "tag": "FT Home"},
             {"url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews", "tag": "WSJ World"},
+        ],
+        "新增直连RSS": [
+            # v3.4 Batch A: 5个新增直连RSS，full_text_strategy=trafilatura
+            {"url": "https://www.federalreserve.gov/feeds/press_all.xml", "tag": "Fed Press All"},
+            {"url": "https://www.ecb.europa.eu/rss/press.html", "tag": "ECB Press"},
+            {"url": "http://feeds.reuters.com/reuters/hotStocksNews", "tag": "Reuters Hot Stocks"},
+            {"url": "https://www.marketwatch.com/rss/topstories", "tag": "MarketWatch Top"},
+            {"url": "https://cointelegraph.com/rss", "tag": "CoinTelegraph"},
         ],
         "信号性查询": [
             # v3.3新增
