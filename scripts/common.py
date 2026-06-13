@@ -482,22 +482,22 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
 
 async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="high", max_items=0):
     """
-    v4.9: 增加 max_items 参数限制最大解析数量，按优先级降序截取。
-    防止 high+medium scope 下 2800+ 篇 GNews URL 超时。
-    max_items=0 表示不限制。
-    """
+    v4.9: max_items 参数限制最大解析数量，按优先级降序截取。
+    防止 high+medium scope 下 2800+ 篇 GNews URL 超时。max_items=0 不限制。
+    
     v4.5: 使用 Playwright 无头浏览器批量解析 GNews 跟踪 URL。
     只处理指定优先级的文章中的 GNews 链接（默认仅 high）。
-    
     Google News 跟踪 URL 不是标准 HTTP 302，而是 JS 渲染后才跳转，
     纯 HTTP(batch_resolve_gnews_urls)覆盖率为 0%。
     Playwright 启动无头 Chromium，完整执行 JS 渲染，成功率预计 85-95%。
     
     v4.5优化：解析URL后直接从已加载的页面提取正文（trafilatura解析HTML），
     不需要后续fetch_full_text_batch再发第二次HTTP请求。
+    v4.9: 每60篇冷却30s防止Google限速。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url + full_text
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
+    max_items: 最大解析数量，0=不限制
     
     返回: (resolved_count, total_attempted, elapsed_seconds)
     """
