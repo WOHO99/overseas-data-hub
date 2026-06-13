@@ -12,7 +12,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # v4.5: 模块120s超时+batch_resolve+Playwright(6-8min)+full_text+beijing
+    timeout-minutes: 45  # v4.8.1: 模块+Playwright两轮+full_text(2k cap)+beijing+dedup
 
     steps:
       - uses: actions/checkout@v4
