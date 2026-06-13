@@ -764,9 +764,9 @@ async def main_async():
         except json.JSONDecodeError:
             continue
 
-    # v4.9: 扩大到high+medium(>=3)，覆盖更多GNews URL
+    # v4.9: 扩大到high+medium(>=3)，max_items=500防止2800+篇超时
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_pw, priority_filter="high+medium"
+        articles_by_file_pw, priority_filter="high+medium", max_items=500
     )
     phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -805,9 +805,9 @@ async def main_async():
         except json.JSONDecodeError:
             continue
 
-    # v4.7: priority_filter="high+medium" — 仅抓取高+中优先级正文
+    # v4.9: priority_filter="all" — 抓取所有有canonical_url或非GNews链接的文章正文
     fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
-        articles_by_file_ft, priority_filter="high+medium", concurrency=8, timeout=15
+        articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
     )
     phase_log(f"PHASE DONE: Full text — {fetched}/{total_ft} fetched ({ft_elapsed:.1f}s)")
 
@@ -891,9 +891,9 @@ async def pw_high_mode():
 
     phase_log("=" * 70)
     phase_log("PHASE: Playwright GNews resolve (high+medium priority)")
-    # v4.9: 扩大到high+medium(>=3)，pw-medium Job不再需要
+    # v4.9: high+medium + max_items=500
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file, priority_filter="high+medium"
+        articles_by_file, priority_filter="high+medium", max_items=500
     )
     phase_log(f"PHASE DONE: Playwright(high+medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -934,9 +934,9 @@ async def pw_medium_mode():
 
     phase_log("=" * 70)
     phase_log("PHASE: Playwright GNews resolve (medium priority only)")
-    # 使用high+medium滤器(>=3) + 预过滤列表(已排除high)
+    # 使用high+medium滤器(>=3) + 预过滤列表(已排除high), max_items=500
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_medium, priority_filter="high+medium"
+        articles_by_file_medium, priority_filter="high+medium", max_items=500
     )
     phase_log(f"PHASE DONE: Playwright(medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
