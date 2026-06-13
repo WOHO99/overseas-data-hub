@@ -403,6 +403,25 @@ def global_dedup():
     print(f"  Global dedup: {len(items_list)} -> {len(kept)} (removed {len(removed_indices)}, "
           f"comparisons: {total_comparisons} vs n²/2={len(items_list)*(len(items_list)-1)//2})")
 
+    # FIX: v4.7.3 - 未来日期过滤：published > now + 3天 的条目视为异常，跳过
+    max_future_days = 3
+    future_cutoff = datetime.now(timezone.utc) + timedelta(days=max_future_days)
+    before_future = len(kept)
+    kept_future = []
+    for entry in kept:
+        pt = parse_published_time(entry["item"].get("published", ""))
+        if pt is None:
+            kept_future.append(entry)  # 无法解析时间的保守保留
+        else:
+            if pt.tzinfo is None:
+                pt = pt.replace(tzinfo=timezone.utc)
+            if pt <= future_cutoff:
+                kept_future.append(entry)
+    kept = kept_future
+    removed_by_future = before_future - len(kept)
+    if removed_by_future > 0:
+        print(f"  Future date filter (+{max_future_days}d): {before_future} → {len(kept)} (-{removed_by_future})")
+
     final_seen = {}
     for entry in kept:
         h = link_hash(entry["item"]["link"])

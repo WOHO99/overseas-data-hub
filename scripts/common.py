@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.7.1 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v4.7.3 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -24,6 +24,10 @@ v4.7.1: 从v4.7回滚+可观测性增强
   - 回滚v4.8/v4.8.1/v4.8.2的Playwright medium和full_text all改动
   - 新增phase_log()时间戳日志函数 + 关键print加flush=True
   - 解决tee缓冲导致Actions取消时进度日志丢失的问题
+v4.7.3: 时间戳修复三合一
+  - 未来日期过滤：run_module_async() age filter + global_dedup() 加前向截断(+3天容差)
+  - 无pubDate回退：fetch_one()空published字段回退到抓取时间(北京时间)+[fallback]日志
+  - 空标题跳过：fetch_one()空title条目跳过+[skip]日志
 """
 
 import asyncio
@@ -684,8 +688,22 @@ async def fetch_one(session, url, tag, max_items=50, max_retries=1):
                 for entry in feed.entries[:max_items]:
                     title = entry.get("title", "")
                     link = entry.get("link", "")
+
+                    # FIX: v4.7.3 - 空标题条目跳过
+                    if not title.strip():
+                        print(f"  [skip] empty title, link={link[:80]}")
+                        continue
+
                     published = entry.get("published", entry.get("updated", ""))
                     published_parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+
+                    # FIX: v4.7.3 - 无pubDate回退到抓取时间（北京时间）
+                    if not published:
+                        bj_tz = timezone(timedelta(hours=8))
+                        fetch_time_bj = datetime.now(bj_tz).strftime("%Y-%m-%d %H:%M:%S +0800")
+                        published = fetch_time_bj
+                        print(f"  [fallback] no pubDate for '{title[:40]}', using fetch_time: {fetch_time_bj}")
+
                     summary = entry.get("summary", entry.get("description", ""))
                     summary = re.sub(r'<[^>]+>', '', summary).strip()
                     if len(summary) > 500:
@@ -1118,6 +1136,25 @@ async def run_module_async(config, prev_hashes=None):
     removed_by_age = before_filter - len(unique_items)
     if removed_by_age > 0:
         print(f"  After age filter ({max_age_days}d): {before_filter} → {len(unique_items)} (-{removed_by_age})")
+
+    # FIX: v4.7.3 - 未来日期过滤：published > now + max_future_days 的条目视为异常，跳过
+    max_future_days = config.get("max_future_days", 3)
+    future_cutoff = datetime.now(timezone.utc) + timedelta(days=max_future_days)
+    before_future = len(unique_items)
+    future_filtered = []
+    for item in unique_items:
+        pt = parse_published_time(item.get("published", ""))
+        if pt is None:
+            future_filtered.append(item)  # 无法解析时间的保守保留
+        else:
+            if pt.tzinfo is None:
+                pt = pt.replace(tzinfo=timezone.utc)
+            if pt <= future_cutoff:
+                future_filtered.append(item)
+    unique_items = future_filtered
+    removed_by_future = before_future - len(unique_items)
+    if removed_by_future > 0:
+        print(f"  After future filter (+{max_future_days}d): {before_future} → {len(unique_items)} (-{removed_by_future})")
 
     # P4-7: 增量标记
     if prev_hashes is None:
