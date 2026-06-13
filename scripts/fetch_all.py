@@ -671,7 +671,7 @@ async def main_async():
     # 纯HTTP batch_resolve对GNews覆盖率为0%，需JS渲染
     phase_log("=" * 70)
     phase_log("PHASE: Playwright GNews resolve (high priority only)")
-    from common import batch_resolve_gnews_with_browser
+    from common import batch_resolve_gnews_with_browser, atomic_write_json
 
     # 重新加载文章
     articles_by_file_pw = {}
