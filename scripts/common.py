@@ -185,6 +185,12 @@ KEEP_DIFFERENT_SOURCE = _env_param(
     "ODH_KEEP_DIFFERENT_SOURCE", 1, int, 0, 1,
     "产品决策(2026-06-14)", "同标题不同来源是否保留: 1=保留并标[不同来源], 0=不保留"
 )
+
+# --- DRY RUN模式 ---
+DRY_RUN = _env_param(
+    "OVERSEAS_DRY_RUN", 0, int, 0, 1,
+    "v6.0.4新增", "1=跳过Playwright和full_text, 仅做dedup+index+统计; 0=正常运行"
+)
 # 进展关键词（含常见词形变体）：出现任一即视为跟进报道，强制保留并标[进展]
 # 中文词直接子串匹配，英文词用\b词边界匹配
 _PROGRESS_KEYWORDS_CN = ["遇难", "死亡", "确诊", "逮捕", "宣判", "预警", "辟谣"]
@@ -599,13 +605,23 @@ def normalize_to_beijing_time(published_str, published_parsed=None):
 # Actions端正文抓取 (v4.4)
 # ============================================================
 
-def _extract_text_sync(html, url):
-    """同步函数：用trafilatura从HTML提取正文"""
+def _extract_text_sync(html, url, include_tables=True):
+    """v6.0.4: 同步函数：用trafilatura从HTML提取正文，favor_recall回退。
+    策略: 先默认extract → 失败则favor_recall=True重试 → 仍失败返回None
+    """
     try:
         import trafilatura
-        return trafilatura.extract(html, url=url, include_comments=False, include_tables=True)
     except ImportError:
         return None
+    # 第一次: 默认提取(favor_precision)
+    text = trafilatura.extract(html, url=url, include_comments=False, include_tables=include_tables)
+    if text and len(text) > 100:
+        return text
+    # 第二次: favor_recall + deduplicate 回退（trafilatura无--compat参数，这是正确替代方案）
+    text2 = trafilatura.extract(html, url=url, include_comments=False,
+                                include_tables=include_tables,
+                                favor_recall=True, deduplicate=True)
+    return text2
 
 
 async def fetch_full_text_async(session, url, timeout=15, source_name=""):
@@ -651,6 +667,7 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     """
     v4.4: 批量抓取文章正文（Actions端专用，在batch_resolve之后执行）。
     v4.7.1: 回滚v4.8改动，恢复v4.7逻辑(high+medium)，加flush日志。
+    v6.0.4: DRY_RUN模式支持。
     
     articles_by_file: {filename: [article_dicts]} — 原地修改
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分)
@@ -661,6 +678,11 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     """
     import time as _time
     start = _time.monotonic()
+    
+    # v6.0.4: DRY_RUN模式 — 跳过full_text批量抓取
+    if DRY_RUN:
+        phase_log("[FULL_TEXT] DRY_RUN mode: skipping full_text batch fetch")
+        return 0, 0, 0.0
     
     # 收集需要抓取正文的文章
     fetch_items = []  # [(filename, article_index, url)]
@@ -761,6 +783,11 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     import time as _time
     start = _time.monotonic()
     
+    # v6.0.4: DRY_RUN模式 — 跳过Playwright
+    if DRY_RUN:
+        phase_log("[PLAYWRIGHT] DRY_RUN mode: skipping Playwright + full_text")
+        return 0, 0, 0.0
+    
     # 收集需要解析的 GNews URL
     targets = []  # [(filename, article_index, gnews_url)]
     
@@ -835,6 +862,13 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
         
         page = await context.new_page()
         
+        # v6.0.4: playwright_stealth — 规避反爬指纹检测
+        try:
+            from playwright_stealth import stealth_async
+            await stealth_async(page)
+        except ImportError:
+            phase_log("[PLAYWRIGHT] playwright-stealth not installed, skipping stealth")
+        
         for i, (filename, idx, gnews_url) in enumerate(targets, 1):
             try:
                 # 导航到 GNews 跟踪 URL，等待 JS 重定向完成
@@ -889,8 +923,8 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 phase_log(f"[PLAYWRIGHT] Progress: {i}/{total} "
                       f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed:.1f}s elapsed)")
             
-            # 随机小延迟，避免被 Google 检测为自动化访问
-            await asyncio.sleep(random.uniform(0.5, 1.2))
+            # v6.0.4: 随机延迟2-5s，模拟人类行为（原0.5-1.2s太短易被反爬识别）
+            await asyncio.sleep(random.uniform(2.0, 5.0))
             
             # v4.9: 每60篇冷却30s，防Google限速导致成功率暴跌
             # (v4.7.1实测: 前60篇83%成功率，之后34%)
