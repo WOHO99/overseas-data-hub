@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-common.py v4.7.3 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
+common.py v6.0 — 全球商业情报仪表盘共享工具库 (asyncio+aiohttp + RapidFuzz版)
 v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
@@ -28,6 +28,12 @@ v4.7.3: 时间戳修复三合一
   - 未来日期过滤：run_module_async() age filter + global_dedup() 加前向截断(+3天容差)
   - 无pubDate回退：fetch_one()空published字段回退到抓取时间(北京时间)+[fallback]日志
   - 空标题跳过：fetch_one()空title条目跳过+[skip]日志
+v6.0: 增量采集架构升级
+  - gnews_url(): 支持环境变量 OVERSEAS_WHEN_DAYS/OVERSEAS_NUM 覆盖默认值
+  - SeenIndex类: 持久化去重索引，2层同源去重(canonical_url + source|title)
+  - normalize_title_for_dedup(): 去重用标题归一化
+  - last_fetch_date/daily_stats: 补漏计算+采集统计
+  - prune_old_entries(): 90天自动清理，防索引膨胀
 """
 
 import asyncio
@@ -1228,6 +1234,7 @@ def atomic_write_json(data, filepath):
 def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100, when="7d"):
     """
     生成 Google News RSS URL。v4.6 支持两种模式：
+    v6.0: 环境变量覆盖 when/num — 支持 OVERSEAS_WHEN_DAYS / OVERSEAS_NUM
     
     1. 搜索模式（默认）：query非空 → /rss/search?q={query}
        - num: 返回文章数，最大100，默认100
@@ -1238,6 +1245,14 @@ def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100
        - 已知Topic: WORLD / NATION / BUSINESS / TECHNOLOGY / ENTERTAINMENT / SCIENCE / SPORTS / HEALTH
     """
     import urllib.parse
+    
+    # v6.0: 环境变量覆盖（用于incremental/backfill模式动态调整采集窗口）
+    env_when = os.environ.get("OVERSEAS_WHEN_DAYS")
+    if env_when:
+        when = env_when
+    env_num = os.environ.get("OVERSEAS_NUM")
+    if env_num:
+        num = int(env_num)
     
     if topic:
         # 专题模式：编辑精选，不支持num/when
@@ -1252,3 +1267,139 @@ def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100
         q_encoded = urllib.parse.quote(q_full, safe=':')
         return (f"https://news.google.com/rss/search?q={q_encoded}"
                 f"&hl={hl}&gl={gl}&ceid={ceid}&num={min(num, 100)}")
+
+
+# ============================================================
+# v6.0: 持久化去重索引 (SeenIndex)
+# ============================================================
+
+def normalize_title_for_dedup(title):
+    """去重用标题归一化：小写 + 去标点 + 压缩空格"""
+    if not title:
+        return ""
+    t = title.lower()
+    t = re.sub(r'[^\w\s]', '', t)  # 去除标点
+    t = re.sub(r'\s+', ' ', t).strip()  # 压缩空格
+    return t
+
+
+class SeenIndex:
+    """
+    持久化去重索引 — 支持跨run去重和补漏。
+    
+    去重策略（2层，仅同源去重，跨源不去重）：
+      Layer 1: canonical_url hash — 同源同文重发
+      Layer 2: source + normalized_title hash — 同源改题重发
+    
+    存储格式 (seen_index.json):
+      {
+        "version": 1,
+        "last_fetch_date": "2026-06-14",
+        "daily_stats": {"2026-06-14": {"added": 823, "deduped": 312}},
+        "entries": {"<hash>": {"first_seen": "2026-06-01", "source": "reuters"}, ...}
+      }
+    """
+    
+    def __init__(self):
+        self.version = 1
+        self.last_fetch_date = None
+        self.daily_stats = {}
+        self.entries = {}
+    
+    @classmethod
+    def load(cls, path):
+        """从JSON文件加载索引，文件不存在则返回空索引"""
+        if os.path.exists(path) and os.path.getsize(path) > 0:
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                idx = cls()
+                idx.version = data.get("version", 1)
+                idx.last_fetch_date = data.get("last_fetch_date")
+                idx.daily_stats = data.get("daily_stats", {})
+                idx.entries = data.get("entries", {})
+                phase_log(f"[SEEN_INDEX] Loaded: {len(idx.entries)} entries, last_fetch={idx.last_fetch_date}")
+                return idx
+            except (json.JSONDecodeError, OSError) as e:
+                phase_log(f"[SEEN_INDEX] Load failed ({e}), starting fresh")
+        return cls()
+    
+    def save(self, path):
+        """保存索引到JSON文件"""
+        data = {
+            "version": self.version,
+            "last_fetch_date": self.last_fetch_date,
+            "daily_stats": self.daily_stats,
+            "entries": self.entries,
+        }
+        # 原子写入
+        tmp_path = path + ".tmp"
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+        os.replace(tmp_path, path)
+        phase_log(f"[SEEN_INDEX] Saved: {len(self.entries)} entries, last_fetch={self.last_fetch_date}")
+    
+    def _make_key_url(self, article):
+        """Layer 1: URL hash — canonical_url优先，否则link"""
+        url = article.get("canonical_url") or article.get("link", "")
+        if not url:
+            return None
+        return hashlib.md5(url.encode()).hexdigest()
+    
+    def _make_key_title(self, article):
+        """Layer 2: source + normalized_title hash"""
+        source = article.get("source", "unknown")
+        title = normalize_title_for_dedup(article.get("title", ""))
+        if not title:
+            return None
+        raw = f"{source}|{title}"
+        return hashlib.md5(raw.encode()).hexdigest()
+    
+    def is_seen(self, article):
+        """检查文章是否已在索引中（2层检查）"""
+        key1 = self._make_key_url(article)
+        if key1 and key1 in self.entries:
+            return True
+        key2 = self._make_key_title(article)
+        if key2 and key2 in self.entries:
+            return True
+        return False
+    
+    def add(self, article, date_str=None):
+        """将文章加入索引（同时写入2个key）"""
+        if date_str is None:
+            date_str = self.last_fetch_date or datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+        source = article.get("source", "unknown")
+        key1 = self._make_key_url(article)
+        if key1 and key1 not in self.entries:
+            self.entries[key1] = {"first_seen": date_str, "source": source}
+        key2 = self._make_key_title(article)
+        if key2 and key2 not in self.entries:
+            self.entries[key2] = {"first_seen": date_str, "source": source}
+    
+    def update_stats(self, date_str, added, deduped):
+        """更新每日统计和last_fetch_date"""
+        self.daily_stats[date_str] = {"added": added, "deduped": deduped}
+        self.last_fetch_date = date_str
+    
+    def calc_when_days(self):
+        """计算应采集的天数窗口（基于last_fetch_date补漏）"""
+        if not self.last_fetch_date:
+            return 30  # 首次运行：回填30天
+        try:
+            last = datetime.strptime(self.last_fetch_date, "%Y-%m-%d")
+            today = datetime.now(BEIJING_TZ).date()
+            gap = (today - last.date()).days
+            return max(1, gap + 1)  # 至少1天，+1包含今天
+        except ValueError:
+            return 30
+    
+    def prune_old_entries(self, max_age_days=90):
+        """清理超过max_age_days的旧条目，防止索引无限膨胀"""
+        cutoff = (datetime.now(BEIJING_TZ) - timedelta(days=max_age_days)).strftime("%Y-%m-%d")
+        to_remove = [k for k, v in self.entries.items() if v.get("first_seen", "") < cutoff]
+        for k in to_remove:
+            del self.entries[k]
+        if to_remove:
+            phase_log(f"[SEEN_INDEX] Pruned {len(to_remove)} entries older than {max_age_days} days")
+        return len(to_remove)
