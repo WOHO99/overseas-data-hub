@@ -77,9 +77,10 @@ except ImportError:
 # 保留socket超时作为底层安全网
 socket.setdefaulttimeout(10)
 
-# v6.0.3: 最早诊断输出 — 确认common.py能否完成导入
-import sys as _diag_sys
-print(f"[DIAG] common.py importing... PID={os.getpid()} Python={'.'.join(map(str,_diag_sys.version_info[:3]))}", flush=True)
+# v6.0.3: 条件诊断输出 — 仅ODH_DEBUG=1时打印
+if os.environ.get("ODH_DEBUG"):
+    import sys as _diag_sys
+    print(f"[DIAG] common.py importing... PID={os.getpid()} Python={'.'.join(map(str,_diag_sys.version_info[:3]))}", flush=True)
 
 feedparser.USER_AGENT = "Mozilla/5.0 (compatible; OverseasDataHub/1.0; +https://github.com/WOHO99/overseas-data-hub)"
 
