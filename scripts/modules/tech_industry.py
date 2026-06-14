@@ -97,6 +97,19 @@ CONFIG = {
             {"url": "https://www.omgubuntu.co.uk/feed", "tag": "OMG! Ubuntu"},
             {"url": "https://www.phoronix.com/rss.php", "tag": "Phoronix"},
         ],
+        "新增直连RSS(B)": [
+            # v3.6 Batch B: 7源
+            {"url": "https://stratechery.com/feed/", "tag": "Stratechery"},
+            {"url": "https://www.theverge.com/rss/index.xml", "tag": "The Verge"},
+            {"url": "https://openai.com/blog/rss.xml", "tag": "OpenAI Blog"},
+            {"url": "https://deepmind.google/blog/rss.xml", "tag": "DeepMind Blog"},
+            {"url": "https://feeds.feedburner.com/bloomberg-technology-news", "tag": "Bloomberg Technology"},
+            {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10002647", "tag": "CNBC Technology"},
+            {"url": "https://feeds.content.dowjones.io/public/rss/WSJD", "tag": "WSJ Tech"},
+            # v3.6 RSS Library: 2源(科学)
+            {"url": "http://feeds.nature.com/nature/rss/current", "tag": "Nature"},
+            {"url": "https://www.science.org/rss/news_current.xml", "tag": "Science News"},
+        ],
         "信号性查询": [
             {"url": gnews_url('"first ever" breakthrough technology semiconductor AI'), "tag": "GNews | Signal: First Ever Tech"},
             {"url": gnews_url('"unprecedented" "record high" chip AI technology'), "tag": "GNews | Signal: Record Tech"},
