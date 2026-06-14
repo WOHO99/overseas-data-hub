@@ -34,6 +34,12 @@ v6.0: 增量采集架构升级
   - normalize_title_for_dedup(): 去重用标题归一化
   - last_fetch_date/daily_stats: 补漏计算+采集统计
   - prune_old_entries(): 90天自动清理，防索引膨胀
+v6.0.2: 进展豁免+不同来源保留
+  - _extract_numbers(): 提取标题中的数字用于变化检测
+  - _has_progress_keywords(): 中英文进展关键词匹配(中文子串+英文词边界)
+  - _is_progress_update(): 进展判断(数字变化≥20% 或 新增进展关键词)
+  - dedup_title_level(): 进展报道保留+标[进展], 不同来源保留+标[不同来源]
+  - KEEP_DIFFERENT_SOURCE参数(ODH_KEEP_DIFFERENT_SOURCE, 默认1=保留)
 """
 
 import asyncio
@@ -168,6 +174,21 @@ SIGNAL_MIN_BASELINE = _env_param(
     "ODH_SIGNAL_MIN_BASELINE", 3, int, 1, 10,
     "估算未校准", "信号告警最低基线值，低频但重要信号可能永远不触发"
 )
+
+# --- 去重豁免参数 ---
+KEEP_DIFFERENT_SOURCE = _env_param(
+    "ODH_KEEP_DIFFERENT_SOURCE", 1, int, 0, 1,
+    "产品决策(2026-06-14)", "同标题不同来源是否保留: 1=保留并标[不同来源], 0=不保留"
+)
+# 进展关键词（含常见词形变体）：出现任一即视为跟进报道，强制保留并标[进展]
+# 中文词直接子串匹配，英文词用\b词边界匹配
+_PROGRESS_KEYWORDS_CN = ["遇难", "死亡", "确诊", "逮捕", "宣判", "预警", "辟谣"]
+_PROGRESS_KEYWORDS_EN = [
+    r"\bkills?\b", r"\bkilled\b", r"\bdead\b", r"\bdeath\b", r"\bdeaths\b",
+    r"\bconfirmed\b", r"\barrest(s|ed)?\b", r"\bsentenced\b",
+    r"\bwarning\b", r"\bdebunked?\b",
+]
+_PROGRESS_EN_PATTERN = re.compile("|".join(_PROGRESS_KEYWORDS_EN), re.IGNORECASE)
 
 
 # 浏览器模拟请求头（用于GNews redirect解析和正文抓取）
@@ -1127,6 +1148,9 @@ def dedup_link_level(items):
 def dedup_title_level(items, threshold=None, hours=None):
     """v4.4: 核心实体词分桶 + RapidFuzz，解决前3字符分桶的假阴性问题
     v6.0.1: threshold/hours 默认值从参数区块读取（可通过ODH_DEDUP_THRESHOLD/ODH_DEDUP_HOURS覆盖）
+    v6.0.2: 进展豁免 + 不同来源保留
+      - 数字变化≥20% 或 进展关键词 → 保留并标[进展]
+      - 不同来源(KEEP_DIFFERENT_SOURCE=1) → 保留并标[不同来源]
     """
     if threshold is None:
         threshold = DEDUP_TITLE_THRESHOLD
@@ -1142,6 +1166,8 @@ def dedup_title_level(items, threshold=None, hours=None):
         buckets.setdefault(key, []).append(idx)
 
     removed = set()
+    progress_count = 0
+    diff_source_count = 0
     for bucket_indices in buckets.values():
         for i_pos in range(len(bucket_indices)):
             i = bucket_indices[i_pos]
@@ -1162,8 +1188,28 @@ def dedup_title_level(items, threshold=None, hours=None):
                         if t2.tzinfo is not None:
                             t2 = t2.replace(tzinfo=None)
                         if abs((t1 - t2).total_seconds()) < hours * 3600:
+                            # v6.0.2: 进展豁免检查
+                            is_pg, pg_reason = _is_progress_update(
+                                items_sorted[i]["title"], items_sorted[j]["title"])
+                            if is_pg:
+                                # 进展报道：保留，标题加[进展]标签
+                                items_sorted[j]["title"] = "[进展] " + items_sorted[j]["title"]
+                                progress_count += 1
+                                continue
+                            # v6.0.2: 不同来源豁免检查
+                            src_i = items_sorted[i].get("source", "")
+                            src_j = items_sorted[j].get("source", "")
+                            if KEEP_DIFFERENT_SOURCE and src_i and src_j and src_i != src_j:
+                                # 不同来源：保留，标题加[不同来源]标签
+                                items_sorted[j]["title"] = "[不同来源] " + items_sorted[j]["title"]
+                                diff_source_count += 1
+                                continue
                             removed.add(j)
 
+    if progress_count:
+        phase_log(f"[DEDUP] 进展豁免保留: {progress_count}篇")
+    if diff_source_count:
+        phase_log(f"[DEDUP] 不同来源保留: {diff_source_count}篇")
     return [items_sorted[i] for i in range(len(items_sorted)) if i not in removed]
 
 
@@ -1370,6 +1416,46 @@ def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100
 # ============================================================
 # v6.0: 持久化去重索引 (SeenIndex)
 # ============================================================
+
+def _extract_numbers(text):
+    """从文本中提取所有数字（含小数），用于进展豁免的数字变化检测"""
+    return [float(m) for m in re.findall(r'\d+\.?\d*', text)]
+
+
+def _has_progress_keywords(title):
+    """检查标题是否包含进展关键词（中文子串+英文词边界）"""
+    t_lower = title.lower()
+    for kw in _PROGRESS_KEYWORDS_CN:
+        if kw in t_lower:
+            return True
+    if _PROGRESS_EN_PATTERN.search(title):
+        return True
+    return False
+
+
+def _is_progress_update(title_old, title_new):
+    """判断 title_new 是否为 title_old 的进展报道（而非重复）
+    条件（满足任一即视为进展）:
+      1. 数字变化 ≥20%：两标题提取数字，若新标题某数字相对旧标题对应数字变化≥20%
+      2. 进展关键词：新标题包含进展关键词但旧标题不包含
+    返回: (is_progress, reason) — reason用于日志/标签
+    """
+    # 条件2: 进展关键词
+    if _has_progress_keywords(title_new) and not _has_progress_keywords(title_old):
+        return True, "keyword"
+    # 条件1: 数字变化 ≥20%
+    nums_old = _extract_numbers(title_old)
+    nums_new = _extract_numbers(title_new)
+    if nums_old and nums_new:
+        # 对每个新数字，检查是否相对旧数字变化≥20%
+        for nv in nums_new:
+            for ov in nums_old:
+                if ov != 0 and abs(nv - ov) / abs(ov) >= 0.2:
+                    return True, "number_change"
+                elif ov == 0 and nv != 0:
+                    return True, "number_change"
+    return False, ""
+
 
 def normalize_title_for_dedup(title):
     """去重用标题归一化：小写 + 去标点 + 压缩空格

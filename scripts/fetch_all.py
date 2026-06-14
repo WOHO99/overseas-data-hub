@@ -560,7 +560,13 @@ def build_index(seen, module_outputs):
     print(f"  Source fingerprint: {fp_changes['unchanged']} unchanged, "
           f"{fp_changes['changed']} changed, {fp_changes['new_source']} new")
 
-    # P4-8: 死源熔断器 — 连续3天零产出（排除rate_limited源）
+    # P4-8: 死源熔断器 — 连续X天零产出（排除rate_limited源）
+    # v6.0.2: 指数退避恢复机制
+    #   - 熔断源不再永久丢失，按1h→2h→4h→8h→12h→24h退避重试
+    #   - 恢复产出则立即重置fail_count+next_retry
+    #   - 人工编辑sources_dead.json仍优先
+    CIRCUIT_BREAKER_BACKOFF_HOURS = [1, 2, 4, 8, 12, 24]  # 最大24h
+
     circuit_breaker_path = os.path.join(SCRIPT_DIR, "sources_dead.json")
     dead_history = {}
     if os.path.exists(circuit_breaker_path):
@@ -585,27 +591,58 @@ def build_index(seen, module_outputs):
             for cat, cat_stats in data.get("stats_by_category", {}).items():
                 rate_limited_sources.add(cat)
 
-    # 更新死亡历史
+    # 更新死亡历史（含指数退避恢复）
     # v6.0.1: 从参数区块读取（ODH_CIRCUIT_BREAKER），默认3天
     CIRCUIT_BREAKER_THRESHOLD_VAL = CIRCUIT_BREAKER_THRESHOLD
     updated_dead = {}
     circuit_broken_sources = []
+    recovered_sources = []
     all_tags = set(list(source_output_count.keys()) + list(dead_history.keys()))
     for tag in all_tags:
         count = source_output_count.get(tag, 0)
         prev = dead_history.get(tag, {})
         consecutive_zeros = prev.get("consecutive_zeros", 0)
+        fail_count = prev.get("fail_count", 0)
+        next_retry = prev.get("next_retry", None)  # ISO timestamp or null
         is_rate_limited = tag in rate_limited_sources
         status = "active"
 
-        if count == 0 and not is_rate_limited:
-            consecutive_zeros += 1
-        else:
+        if count > 0:
+            # 有产出：恢复 → 重置
+            if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD_VAL:
+                # 从熔断状态恢复
+                recovered_sources.append(tag)
+                phase_log(f"[CIRCUIT_BREAKER] {tag} recovered after {fail_count} retries")
             consecutive_zeros = 0
+            fail_count = 0
+            next_retry = None
+        elif not is_rate_limited:
+            consecutive_zeros += 1
+        # else: rate_limited源不累积consecutive_zeros
 
         if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD_VAL:
             status = "circuit_breaker"
             circuit_broken_sources.append(tag)
+
+            # 计算退避时间
+            now_utc = datetime.now(timezone.utc)
+            if next_retry is not None:
+                try:
+                    retry_dt = datetime.fromisoformat(next_retry.replace("Z", "+00:00"))
+                    if now_utc >= retry_dt:
+                        # 退避时间已过但仍无产出 → fail_count+1
+                        fail_count += 1
+                except (ValueError, AttributeError):
+                    fail_count += 1
+            else:
+                # 首次熔断 → 开始退避
+                fail_count = 1
+
+            # 计算下次重试时间
+            backoff_idx = min(fail_count - 1, len(CIRCUIT_BREAKER_BACKOFF_HOURS) - 1)
+            backoff_hours = CIRCUIT_BREAKER_BACKOFF_HOURS[backoff_idx]
+            next_retry = (now_utc + timedelta(hours=backoff_hours)).isoformat()
+
             # 联动source_fingerprint：标记熔断状态
             if tag in source_fingerprint:
                 source_fingerprint[tag]["status"] = "circuit_breaker"
@@ -614,6 +651,8 @@ def build_index(seen, module_outputs):
             "consecutive_zeros": consecutive_zeros,
             "status": status,
             "last_output_date": today_str if count > 0 else prev.get("last_output_date", ""),
+            "fail_count": fail_count,
+            "next_retry": next_retry,
         }
 
     atomic_write_json(updated_dead, circuit_breaker_path)
@@ -622,7 +661,12 @@ def build_index(seen, module_outputs):
               f"(>= {CIRCUIT_BREAKER_THRESHOLD_VAL} days zero output)")
         for src in circuit_broken_sources[:10]:
             info = updated_dead[src]
-            print(f"    - {src}: {info['consecutive_zeros']} days zero, last output: {info.get('last_output_date', 'never')}")
+            print(f"    - {src}: {info['consecutive_zeros']}d zero, fail_count={info['fail_count']}, "
+                  f"next_retry={info.get('next_retry', 'N/A')[:16]}, last: {info.get('last_output_date', 'never')}")
+    if recovered_sources:
+        print(f"  Circuit breaker recovered: {len(recovered_sources)} sources")
+        for src in recovered_sources[:10]:
+            print(f"    + {src}")
 
     module_stats = {}
     for entry in MODULE_REGISTRY:
