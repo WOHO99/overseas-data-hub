@@ -1,10 +1,19 @@
-name: Daily Global Fetch
+name: Manual Global Fetch
 
 on:
-  schedule:
-    # 北京时间每天8:00 = UTC 0:00
-    - cron: '0 0 * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Fetch mode'
+        type: choice
+        options:
+          - incremental
+          - backfill
+        default: incremental
+      when_days:
+        description: 'Override when_days (e.g. 7, 30). Leave empty for auto-calc based on seen_index.'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -12,13 +21,21 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # v4.9: Playwright high+medium(500篇~20min)+cooldown(~4min)+full_text all(~5min)+RSS(~1min)+rest
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
+
+      - name: Restore seen_index cache
+        uses: actions/cache@v4
+        with:
+          path: scripts/seen_index.json
+          key: seen-index-${{ github.run_id }}
+          restore-keys: |
+            seen-index-
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -39,10 +56,19 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install chromium --with-deps
 
-      - name: Run global fetch
+      - name: Set env overrides
+        run: |
+          if [ -n "${{ github.event.inputs.when_days }}" ]; then
+            echo "OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d" >> $GITHUB_ENV
+            echo "Override: OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d"
+          else
+            echo "Auto: when_days will be calculated from seen_index"
+          fi
+
+      - name: Run fetch
         run: |
           cd scripts
-          python -u fetch_all.py 2>&1 | tee ../fetch_log.txt
+          python -u fetch_all.py ${{ github.event.inputs.mode || 'incremental' }} 2>&1 | tee ../fetch_log.txt
 
       - name: Upload fetch log
         if: always()
@@ -57,26 +83,26 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: json-outputs-${{ github.run_number }}
-          path: scripts/*.json
+          path: |
+            scripts/*.json
           retention-days: 7
 
-      - name: Stage JSON files to data/
+      - name: Upload seen_index artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seen-index-${{ github.run_number }}
+          path: scripts/seen_index.json
+          retention-days: 30
+
+      - name: Generate unified HTML report
+        if: success()
         run: |
           mkdir -p data
           cp scripts/index.json data/ 2>/dev/null || true
           for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
             [ -f "$f" ] && cp "$f" data/
           done
-          # 信号与运维JSON
-          for f in scripts/signal_summary.json scripts/source_fingerprint.json scripts/sources_dead.json scripts/signal_baseline.json scripts/last_state.json; do
-            [ -f "$f" ] && cp "$f" data/
-          done
-          echo "JSON 文件已汇总到 data/:"
-          ls -lh data/
-
-      - name: Generate unified HTML report
-        if: success()
-        run: |
           cd scripts
           python gen_unified_html.py ../data/ ../全球视野日报.html || echo "HTML generation failed, continuing..."
 
