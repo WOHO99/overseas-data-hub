@@ -495,6 +495,11 @@ def generate(data_dir: Path, output_path: Path):
               <option value="10">中(10+)</option>
               <option value="5">低(5+)</option>
             </select>
+            <select id="sigFulltext" onchange="filterSignals()">
+              <option value="">全文状态</option>
+              <option value="yes">有全文</option>
+              <option value="no">无全文</option>
+            </select>
             <span class="sig-count" id="sigCountLabel"></span>
           </div>
           <div class="signal-list" id="signalList"></div>
@@ -693,9 +698,10 @@ a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}
 @media print{{body{{background:#fff;color:#222}}.toolbar,.sidebar{{display:none}}.reader{{display:block}}.content-area{{max-height:none;overflow:visible}}.dash-section{{border:1px solid #ddd}}.card{{border:1px solid #ddd;break-inside:avoid}}}}
 
 /* ── Signal Dashboard ── */
-.signal-section{{}}
-.signal-layout{{display:grid;grid-template-columns:1fr 1.6fr;gap:16px}}
-.signal-matrix-wrap{{overflow-x:auto}}
+.signal-section{{position:relative}}
+.signal-layout{{display:grid;grid-template-columns:minmax(320px,1fr) 1.6fr;gap:16px;position:relative;pointer-events:none}}
+.signal-layout>*{{pointer-events:auto;min-width:0}}
+.signal-matrix-wrap{{overflow-x:auto;position:relative;z-index:2}}
 .signal-matrix{{border-collapse:collapse;font-size:0.72em;width:100%}}
 .signal-matrix th,.signal-matrix td{{padding:3px 6px;text-align:center;border:1px solid var(--border)}}
 .signal-matrix th{{background:var(--surface2);color:var(--text2);font-weight:600;white-space:nowrap}}
@@ -941,10 +947,13 @@ function renderSignals(){{
   var country=document.getElementById("sigCountry").value;
   var topic=document.getElementById("sigTopic").value;
   var strength=document.getElementById("sigStrength").value;
+  var fulltext=document.getElementById("sigFulltext").value;
   var f=SIGNALS.filter(function(s){{
     if(country&&s.cu!==country)return false;
     if(topic&&s.to!==topic)return false;
     if(strength&&s.ss<parseFloat(strength))return false;
+    if(fulltext==="yes"&&!s.hf)return false;
+    if(fulltext==="no"&&s.hf)return false;
     return true;
   }});
   f.sort(function(a,b){{return b.ss-a.ss}});
