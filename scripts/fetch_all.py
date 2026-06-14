@@ -867,8 +867,30 @@ def build_index(seen, module_outputs):
     triggered_count = len(signal_alerts)
     print(f"  Signal baseline: {triggered_count} triggered, {len(global_signal_counts)} total signals")
 
+    # v6.0.4: 源成功率排名 (full_text成功率 per source)
+    source_ft_stats = {}  # {source: {total, has_fulltext}}
+    for a in all_articles:
+        src = a["item"].get("source", "unknown")
+        if src not in source_ft_stats:
+            source_ft_stats[src] = {"total": 0, "has_fulltext": 0}
+        source_ft_stats[src]["total"] += 1
+        if a["item"].get("full_text"):
+            source_ft_stats[src]["has_fulltext"] += 1
+    source_success_ranking = []
+    for src, stats in sorted(source_ft_stats.items(), key=lambda x: x[1]["total"], reverse=True)[:30]:
+        rate = stats["has_fulltext"] / stats["total"] if stats["total"] > 0 else 0
+        source_success_ranking.append({
+            "source": src, "total": stats["total"],
+            "has_fulltext": stats["has_fulltext"], "success_rate": round(rate, 3)
+        })
+    # v6.0.4: 连续零产出源告警 (有文章但0% full_text且非付费墙)
+    zero_ft_sources = [
+        s for s in source_success_ranking
+        if s["success_rate"] == 0 and s["total"] >= 5 and s["source"] not in PAYWALL_SOURCES
+    ]
+
     index = {
-        "version": "6.0.3",
+        "version": "6.0.4",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
@@ -884,6 +906,8 @@ def build_index(seen, module_outputs):
         "content_status_counts": content_status_counts,
         "fetch_capability_counts": fetch_capability_counts,
         "source_tier_counts": tier_counts,
+        "source_success_ranking": source_success_ranking,
+        "zero_fulltext_sources": zero_ft_sources,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
