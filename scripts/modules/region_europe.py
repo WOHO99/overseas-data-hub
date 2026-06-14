@@ -79,6 +79,8 @@ CONFIG = {
             {"url": "https://www.migrationsverket.se/rss_en", "tag": "Swedish Migration Agency"},
             {"url": "https://www.migrationsverket.se/rss_employers", "tag": "Swedish Migration Employers"},
             {"url": "https://www.migrationsverket.se/rss_working", "tag": "Swedish Migration Work Permits"},
+            # v3.6: 1源(瑞士监管)
+            {"url": "https://www.finma.ch/en/rss/", "tag": "FINMA"},
         ],
         "信号性查询": [
             {"url": gnews_url('"energy crisis" "supply disruption" Europe gas nuclear'), "tag": "GNews | Signal: EU Energy"},
