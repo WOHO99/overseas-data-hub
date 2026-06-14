@@ -270,6 +270,95 @@ def get_source_coefficient(source_tag, authority_map):
     return 1.0
 
 
+def get_source_tier(source_tag, authority_map):
+    """v6.0.3: 从源权威度系数派生A-E等级
+    A(>=1.5): 顶级官方/通讯社 | B(>=1.2): 主流大报 | C(==1.0, default): 一般媒体
+    D(<1.0): 低可信度/博客 | E(无匹配且GNews): 未解析GNews
+    """
+    if not source_tag:
+        return "E"
+    # GNews未解析源：默认系数1.0且无单独配置 → E
+    if source_tag.startswith("GNews") and "|" in source_tag:
+        coeff = get_source_coefficient(source_tag, authority_map)
+        if coeff == 1.0:
+            return "E"  # GNews默认系数，未单独配置
+    coeff = get_source_coefficient(source_tag, authority_map)
+    if coeff >= 1.5:
+        return "A"
+    elif coeff >= 1.2:
+        return "B"
+    elif coeff >= 1.0:
+        return "C"
+    else:
+        return "D"
+
+
+# ============================================================
+# v6.0.3: 正文清洗 + 安全页检测
+# ============================================================
+
+# 安全页检测模式(8种) — 检出则丢弃(full_text=None)
+_SECURITY_PATTERNS = [
+    r"(?i)cloudflare.*ray\s+id",                    # Cloudflare challenge
+    r"(?i)access\s+denied",                          # 403/通配
+    r"(?i)performing\s+security\s+verification",     # 通用安全验证页
+    r"(?i)verify\s+(you\s+are|that\s+you)[\s'a]*human",  # reCAPTCHA/验证人类
+    r"(?i)complete\s+(a\s+)?security\s+check",       # 安全检查
+    r"(?i)member\s+login",                           # 付费墙登录
+    r"(?i)subscribe\s+(to\s+continue|now|to\s+read)", # 付费墙订阅
+    r"(?i)\b403\b.*forbidden",                       # 403 Forbidden
+]
+
+
+def is_security_page(text):
+    """v6.0.3: 检测正文是否为安全页/反爬页/付费墙。
+    输入: 正文文本(可为None)。返回 True=安全页(应丢弃)。
+    判定规则: 正文前500字符匹配任一_SECURITY_PATTERNS。
+    """
+    if not text:
+        return False
+    check_block = text[:500].lower()
+    for pat in _SECURITY_PATTERNS:
+        if re.search(pat, check_block):
+            return True
+    return False
+
+
+def clean_full_text(text, title=None):
+    """v6.0.3: 确定性正文清洗 3 规则，在 full_text 赋值前调用。
+    Rule 1 (trafilatura #160): 首行==标题 → 删首行
+    Rule 2 (trafilatura #768): 连续重复段落 → 去重
+    Rule 3: is_security_page → return None (丢弃)
+    返回: 清洗后正文 或 None(安全页/无效)
+    """
+    if not text:
+        return None
+    # Rule 1: 首行==标题 → 移除
+    lines = text.split("\n")
+    if title and lines:
+        first_line = lines[0].strip()
+        # 去标点后比较，容忍微小差异
+        title_clean = re.sub(r'[^\w\s]', '', title.lower()).strip()
+        first_clean = re.sub(r'[^\w\s]', '', first_line.lower()).strip()
+        if title_clean and first_clean and (title_clean == first_clean or first_clean in title_clean):
+            lines = lines[1:]
+    # Rule 2: 连续重复段落 → 去重
+    if len(lines) > 2:
+        deduped = [lines[0]]
+        for i in range(1, len(lines)):
+            if lines[i].strip() and lines[i].strip() == lines[i-1].strip():
+                continue  # 跳过与前一行完全相同的非空行
+            deduped.append(lines[i])
+        lines = deduped
+    result = "\n".join(lines).strip()
+    if not result or len(result) < 50:
+        return None
+    # Rule 3: 安全页检测
+    if is_security_page(result):
+        return None
+    return result[:10000]  # 仍限10000字符
+
+
 # ============================================================
 # 异步RSS抓取
 # ============================================================
@@ -508,7 +597,11 @@ async def fetch_full_text_async(session, url, timeout=15):
                 loop = asyncio.get_event_loop()
                 text = await loop.run_in_executor(None, _extract_text_sync, html, str(resp.url))
                 if text and len(text) > 100:
-                    return text[:10000]  # 限制单篇正文最大10000字符
+                    # v6.0.3: 清洗(标题残留+重复段落+安全页)
+                    text = clean_full_text(text)
+                    if text:
+                        return text[:10000]
+                    return None  # 安全页或清洗后无效
     except Exception:
         pass
     return None
@@ -727,8 +820,12 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                                                            include_tables=True, favor_precision=True)
                             )
                             if extracted_text and len(extracted_text) > 100:
-                                articles_by_file[filename][idx]["full_text"] = extracted_text[:10000]
-                                text_extracted += 1
+                                # v6.0.3: 清洗(标题残留+重复段落+安全页)
+                                article_title = articles_by_file[filename][idx].get("title")
+                                cleaned = clean_full_text(extracted_text, title=article_title)
+                                if cleaned:
+                                    articles_by_file[filename][idx]["full_text"] = cleaned[:10000]
+                                    text_extracted += 1
                         except Exception:
                             pass  # 正文提取失败不影响canonical_url解析
                 else:
@@ -856,7 +953,10 @@ async def fetch_one(session, url, tag, max_items=50, max_retries=1):
                             if len(text) > 500:
                                 rss_full_text = text[:10000]
                     if rss_full_text:
-                        item["full_text"] = rss_full_text
+                        # v6.0.3: 清洗(标题残留+重复段落+安全页)
+                        cleaned = clean_full_text(rss_full_text, title=title)
+                        if cleaned:
+                            item["full_text"] = cleaned
                     
                     # v4.4: 北京时间标准化
                     beijing = normalize_to_beijing_time(published, published_parsed)
