@@ -3,6 +3,7 @@
 tech_industry.py — 全球科技与工业前沿模块
 覆盖：半导体、AI、电动车/电池、生物科技、航天、新材料、量子计算
 无论地域，只追前沿
+v3.5: Batch D新增19个直连RSS源(Hacker News/博客/科技媒体/安全/科学)
 """
 
 import sys
@@ -59,8 +60,42 @@ CONFIG = {
             {"url": gnews_url("반도체 칩 수출 통제 AI 규제", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 반도체"},
         ],
         "独立RSS源": [
-            {"url": "https://arstechnica.com/rss", "tag": "Ars Technica"},
+            {"url": "https://arstechnica.com/rss", "tag": "Ars Technica (old)"},
             {"url": "https://www.wired.com/feed/rss", "tag": "Wired"},
+        ],
+        "科技媒体RSS(D)": [
+            # v3.5 Batch D: 科技新闻媒体
+            {"url": "http://feeds.arstechnica.com/arstechnica/index", "tag": "Ars Technica Index"},
+            {"url": "http://feeds.arstechnica.com/arstechnica/science", "tag": "Ars Technica Science"},
+            {"url": "https://www.technologyreview.com/feed/", "tag": "MIT Tech Review"},
+            {"url": "https://www.newscientist.com/feed/home", "tag": "New Scientist"},
+            {"url": "https://www.nasa.gov/rss/dyn/breaking_news.rss", "tag": "NASA Breaking News"},
+            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "tag": "NYT Technology"},
+            {"url": "https://feeds.reuters.com/reuters/technologyNews", "tag": "Reuters Technology"},
+        ],
+        "开发者社区RSS(D)": [
+            # v3.5 Batch D: 开发者社区/聚合器
+            {"url": "https://news.ycombinator.com/rss", "tag": "Hacker News Top"},
+            {"url": "https://news.ycombinator.com/newest?rss", "tag": "Hacker News New"},
+            {"url": "https://stackoverflow.blog/feed/", "tag": "Stack Overflow Blog"},
+            {"url": "https://github.blog/feed/", "tag": "GitHub Blog"},
+            {"url": "https://lwn.net/headlines/rss", "tag": "LWN Headlines"},
+        ],
+        "技术博客RSS(D)": [
+            # v3.5 Batch D: 个人/公司技术博客
+            {"url": "https://blog.codinghorror.com/rss/", "tag": "Coding Horror"},
+            {"url": "https://www.joelonsoftware.com/feed/", "tag": "Joel on Software"},
+            {"url": "https://martinfowler.com/feed.atom", "tag": "Martin Fowler"},
+            {"url": "https://simonwillison.net/atom/everything/", "tag": "Simon Willison"},
+            {"url": "https://jvns.ca/atom.xml", "tag": "Julia Evans"},
+            {"url": "https://danluu.com/atom.xml", "tag": "Dan Luu"},
+        ],
+        "平台专精RSS(D)": [
+            # v3.5 Batch D: Apple/Linux/硬件专精
+            {"url": "https://9to5mac.com/feed/", "tag": "9to5Mac"},
+            {"url": "https://www.macrumors.com/macrumors.xml", "tag": "MacRumors"},
+            {"url": "https://www.omgubuntu.co.uk/feed", "tag": "OMG! Ubuntu"},
+            {"url": "https://www.phoronix.com/rss.php", "tag": "Phoronix"},
         ],
         "信号性查询": [
             {"url": gnews_url('"first ever" breakthrough technology semiconductor AI'), "tag": "GNews | Signal: First Ever Tech"},
