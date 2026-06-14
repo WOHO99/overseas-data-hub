@@ -133,6 +133,16 @@ CONFIG = {
             {"url": "http://feeds.feedburner.com/CalculatedRisk", "tag": "Calculated Risk"},
             {"url": "https://feeds.feedburner.com/zerohedge/feed", "tag": "ZeroHedge"},
         ],
+        "新增直连RSS(B+C)": [
+            # v3.6 Batch B: 4源 + Batch C: 3源
+            {"url": "https://feeds.feedburner.com/bloomberg-markets-news", "tag": "Bloomberg Markets"},
+            {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "tag": "CNBC World"},
+            {"url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "tag": "WSJ Markets"},
+            {"url": "https://www.ft.com/alphaville/rss", "tag": "FT Alphaville"},
+            {"url": "https://www.imf.org/en/News/Rss", "tag": "IMF Blog"},
+            {"url": "https://www.worldbank.org/en/rss/rssfeed", "tag": "World Bank News"},
+            {"url": "https://www.bis.org/rss/press.rss", "tag": "BIS News"},
+        ],
     },
 }
 
