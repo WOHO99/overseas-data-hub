@@ -37,6 +37,18 @@ sys.path.insert(0, os.path.join(SCRIPT_DIR, "modules"))
 # v4.7.1: 可观测性 — 从common导入phase_log
 from common import phase_log
 
+# v6.0.1: 从common导入可配置参数（消除幻觉硬编码）
+from common import (
+    CIRCUIT_BREAKER_THRESHOLD,
+    DEDUP_TITLE_THRESHOLD,
+    DEDUP_TITLE_HOURS,
+    MAX_FUTURE_DAYS,
+    PRUNE_AGE_DAYS,
+    SIGNAL_MIN_BASELINE,
+    PLAYWRIGHT_WAIT_MIN,
+    PLAYWRIGHT_WAIT_MAX,
+)
+
 # v6.0: 北京时间时区
 BEIJING_TZ = timezone(timedelta(hours=8))
 
@@ -413,8 +425,9 @@ def global_dedup():
     print(f"  Global dedup: {len(items_list)} -> {len(kept)} (removed {len(removed_indices)}, "
           f"comparisons: {total_comparisons} vs n²/2={len(items_list)*(len(items_list)-1)//2})")
 
-    # FIX: v4.7.3 - 未来日期过滤：published > now + 3天 的条目视为异常，跳过
-    max_future_days = 3
+    # FIX: v4.7.3 - 未来日期过滤：published > now + max_future_days 的条目视为异常，跳过
+    # v6.0.1: max_future_days 从参数区块读取（ODH_MAX_FUTURE_DAYS）
+    max_future_days = MAX_FUTURE_DAYS
     future_cutoff = datetime.now(timezone.utc) + timedelta(days=max_future_days)
     before_future = len(kept)
     kept_future = []
@@ -573,7 +586,8 @@ def build_index(seen, module_outputs):
                 rate_limited_sources.add(cat)
 
     # 更新死亡历史
-    CIRCUIT_BREAKER_THRESHOLD = 3
+    # v6.0.1: 从参数区块读取（ODH_CIRCUIT_BREAKER），默认3天
+    CIRCUIT_BREAKER_THRESHOLD_VAL = CIRCUIT_BREAKER_THRESHOLD
     updated_dead = {}
     circuit_broken_sources = []
     all_tags = set(list(source_output_count.keys()) + list(dead_history.keys()))
@@ -589,7 +603,7 @@ def build_index(seen, module_outputs):
         else:
             consecutive_zeros = 0
 
-        if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD:
+        if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD_VAL:
             status = "circuit_breaker"
             circuit_broken_sources.append(tag)
             # 联动source_fingerprint：标记熔断状态
@@ -605,7 +619,7 @@ def build_index(seen, module_outputs):
     atomic_write_json(updated_dead, circuit_breaker_path)
     if circuit_broken_sources:
         print(f"  Circuit breaker: {len(circuit_broken_sources)} sources dead "
-              f"(>= {CIRCUIT_BREAKER_THRESHOLD} days zero output)")
+              f"(>= {CIRCUIT_BREAKER_THRESHOLD_VAL} days zero output)")
         for src in circuit_broken_sources[:10]:
             info = updated_dead[src]
             print(f"    - {src}: {info['consecutive_zeros']} days zero, last output: {info.get('last_output_date', 'never')}")
@@ -677,7 +691,7 @@ def build_index(seen, module_outputs):
         day_counts = [v for k, v in sorted(history.items()) if k != today_str]
         high_7d = max(day_counts) if day_counts else 0
         mean_7d = round(sum(day_counts) / len(day_counts), 1) if day_counts else 0
-        baseline = max(high_7d, 3)
+        baseline = max(high_7d, SIGNAL_MIN_BASELINE)
 
         # P1: 计算连续告警天数
         consecutive_alert_days = 0
@@ -685,7 +699,7 @@ def build_index(seen, module_outputs):
             if d_str == today_str:
                 continue
             d_count = history[d_str]
-            d_baseline = 3  # 历史天无法重算baseline，用min baseline=3
+            d_baseline = SIGNAL_MIN_BASELINE  # 历史天无法重算baseline，用参数区块最低基线
             if d_count >= d_baseline:
                 consecutive_alert_days += 1
             else:
@@ -693,7 +707,7 @@ def build_index(seen, module_outputs):
 
         # P1: 触发条件 = 超基线 OR (持续告警条件: count>=3 AND 连续告警>=1 AND count >= 7d均值×1.5)
         spike_triggered = count > baseline
-        sustained_triggered = (count >= 3 and consecutive_alert_days >= 1 and count >= mean_7d * 1.5) if mean_7d > 0 else False
+        sustained_triggered = (count >= SIGNAL_MIN_BASELINE and consecutive_alert_days >= 1 and count >= mean_7d * 1.5) if mean_7d > 0 else False
         triggered = spike_triggered or sustained_triggered
         status = "sustained" if (sustained_triggered and not spike_triggered) else ("spike" if spike_triggered else "normal")
 
@@ -706,7 +720,7 @@ def build_index(seen, module_outputs):
             "consecutive_alert_days": consecutive_alert_days,
             "triggered": triggered,
             "status": status,
-            "baseline_note": f"max(7d_high={high_7d}, 3)={baseline}",
+            "baseline_note": f"max(7d_high={high_7d}, {SIGNAL_MIN_BASELINE})={baseline}",
         }
         signal_summary_list.append(entry)
         if triggered:
@@ -723,7 +737,7 @@ def build_index(seen, module_outputs):
         "version": "1.1",
         "updated": now.isoformat(),
         "fetch_date_utc": today_str,
-        "method": "max(7d_high, 3) + sustained(mean_7d*1.5)",
+        "method": f"max(7d_high, {SIGNAL_MIN_BASELINE}) + sustained(mean_7d*1.5)",
         "signals": signal_summary_list,
     }
     from common import atomic_write_json as _awj  # already imported above
@@ -1048,7 +1062,29 @@ async def finalize_mode():
     print(f"{'='*70}")
 
 
+def validate_params():
+    """v6.0.1: 启动时校验关键参数间的逻辑一致性，防止配置冲突"""
+    errors = []
+    # PRUNE_AGE_DAYS 必须 >= 2× RETENTION_DAYS(30) 才能确保去重记忆覆盖数据保留期
+    if PRUNE_AGE_DAYS < 60:
+        errors.append(f"PRUNE_AGE_DAYS={PRUNE_AGE_DAYS} < 60，seen_index记忆可能不足以覆盖30天数据保留期，导致重复入库")
+    # PLAYWRIGHT_WAIT_MAX 必须 > PLAYWRIGHT_WAIT_MIN
+    if PLAYWRIGHT_WAIT_MAX <= PLAYWRIGHT_WAIT_MIN:
+        errors.append(f"PLAYWRIGHT_WAIT_MAX={PLAYWRIGHT_WAIT_MAX} <= PLAYWRIGHT_WAIT_MIN={PLAYWRIGHT_WAIT_MIN}，等待范围无效")
+    # DEDUP_TITLE_THRESHOLD 范围合理性
+    if DEDUP_TITLE_THRESHOLD > 0.95:
+        errors.append(f"DEDUP_TITLE_THRESHOLD={DEDUP_TITLE_THRESHOLD} > 0.95，去重极松，大量重复文章可能涌入")
+
+    if errors:
+        phase_log("[VALIDATE] 参数校验失败:")
+        for e in errors:
+            phase_log(f"  !! {e}")
+        sys.exit(1)
+    phase_log("[VALIDATE] 参数校验通过")
+
+
 def main():
+    validate_params()  # v6.0.1: 启动校验
     mode = sys.argv[1] if len(sys.argv) > 1 else "incremental"
     modes = {
         "collect": collect_mode,
