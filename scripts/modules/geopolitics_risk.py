@@ -79,6 +79,11 @@ CONFIG = {
             {"url": "https://feeds.washingtonpost.com/rss/world", "tag": "WaPo World"},
             {"url": "https://www.theatlantic.com/feed/all/", "tag": "The Atlantic"},
         ],
+        "新增直连RSS(B)": [
+            # v3.6 Batch B: 2源
+            {"url": "https://foreignpolicy.com/feed/", "tag": "Foreign Policy"},
+            {"url": "https://www.foreignaffairs.com/rss.xml", "tag": "Foreign Affairs"},
+        ],
     },
 }
 
