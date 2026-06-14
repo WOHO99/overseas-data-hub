@@ -2,6 +2,7 @@
 """
 region_europe.py — 欧洲深度模块
 v3.3升级：增加政治稳定、基础设施、科技、气候、人口、大国关系+德/法语搜索
+v3.4: Batch D新增3个瑞典移民局RSS源
 """
 
 import sys
@@ -74,6 +75,10 @@ CONFIG = {
             {"url": "https://www.theguardian.com/uk/rss", "tag": "Guardian UK"},
             {"url": "https://www.lemonde.fr/rss/une.xml", "tag": "Le Monde"},
             {"url": "http://www.spiegel.de/schlagzeilen/index.rss", "tag": "Der Spiegel"},
+            # v3.4 Batch D: 3个瑞典移民局RSS
+            {"url": "https://www.migrationsverket.se/rss_en", "tag": "Swedish Migration Agency"},
+            {"url": "https://www.migrationsverket.se/rss_employers", "tag": "Swedish Migration Employers"},
+            {"url": "https://www.migrationsverket.se/rss_working", "tag": "Swedish Migration Work Permits"},
         ],
         "信号性查询": [
             {"url": gnews_url('"energy crisis" "supply disruption" Europe gas nuclear'), "tag": "GNews | Signal: EU Energy"},
