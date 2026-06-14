@@ -4,6 +4,7 @@ finance_global.py — 全球宏观与资本流动全图
 v3.3升级：增加系统性风险、全球资本流动异动、前沿市场风险、
 去美元化/数字货币/支付体系变革
 v3.4: Batch A新增5个直连RSS源(Fed/ECB/Reuters Hot Stocks/MarketWatch/CoinTelegraph)
+v3.5: Batch D新增4个直连RSS源(Bloomberg Markets Direct/Economist Business/Calculated Risk/ZeroHedge)
 """
 
 import sys
@@ -124,6 +125,13 @@ CONFIG = {
             {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
             {"url": "http://rss.cnn.com/rss/money_news_international.rss", "tag": "CNN Business"},
+        ],
+        "新增直连RSS(D)": [
+            # v3.5 Batch D: 4个新增直连RSS
+            {"url": "https://www.bloomberg.com/feed/", "tag": "Bloomberg Markets Direct"},
+            {"url": "https://www.economist.com/feeds/print-sections/77/business.xml", "tag": "Economist Business"},
+            {"url": "http://feeds.feedburner.com/CalculatedRisk", "tag": "Calculated Risk"},
+            {"url": "https://feeds.feedburner.com/zerohedge/feed", "tag": "ZeroHedge"},
         ],
     },
 }
