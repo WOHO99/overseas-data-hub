@@ -5,6 +5,7 @@ v3.3: 从"出海商业"升级，不再只看"中国公司出去"
 覆盖：全球产业链转移、跨国公司全球布局、各国制造业回流/新兴制造中心
 无论是谁在动，只要是产业链在动，就抓
 v3.4: Batch A新增1个直连RSS源(Reuters Company)
+v3.5: Batch D新增6个直连RSS源(NYT Business/Reuters Top News/Business blogs)
 """
 
 import sys
@@ -105,6 +106,15 @@ CONFIG = {
             {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
             {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
+        ],
+        "新增直连RSS(D)": [
+            # v3.5 Batch D: 6个新增
+            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "tag": "NYT Business"},
+            {"url": "http://feeds.reuters.com/reuters/topNews", "tag": "Reuters Top News"},
+            {"url": "https://bothsidesofthetable.com/feed", "tag": "Both Sides of the Table"},
+            {"url": "https://www.ycombinator.com/blog/rss", "tag": "Y Combinator Blog"},
+            {"url": "http://marginalrevolution.com/feed/", "tag": "Marginal Revolution"},
+            {"url": "https://ritholtz.com/feed/", "tag": "The Big Picture"},
         ],
     },
 }
