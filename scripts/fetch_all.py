@@ -517,6 +517,27 @@ def global_dedup():
     save_last_state(SCRIPT_DIR, new_state)
     print(f"  Saved last_state.json ({len(new_state)} modules)")
 
+    # v6.0.4.1: 跨模块link去重 — 从module_outputs中移除不在final_seen中的文章
+    # 根因: 同一篇文章(同一link)出现在多个模块时, global_dedup的seen只保留1份,
+    # 但module_outputs各模块仍保留原稿, 导致模块JSON之间有重复
+    final_links = set(final_seen.keys())
+    deduped_modules = 0
+    deduped_articles = 0
+    for output_file, data in module_outputs.items():
+        if "articles" not in data:
+            continue
+        before = len(data["articles"])
+        data["articles"] = [
+            a for a in data["articles"]
+            if link_hash(a["link"]) in final_links
+        ]
+        removed = before - len(data["articles"])
+        if removed > 0:
+            deduped_modules += 1
+            deduped_articles += removed
+    if deduped_articles > 0:
+        print(f"  Cross-module dedup: removed {deduped_articles} duplicate articles from {deduped_modules} modules")
+
     return final_seen, module_outputs
 
 
