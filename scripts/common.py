@@ -329,11 +329,42 @@ def is_security_page(text):
     return False
 
 
-def clean_full_text(text, title=None):
-    """v6.0.3: 确定性正文清洗 3 规则，在 full_text 赋值前调用。
+# v6.0.4: 安全页源级退化 — 连续3次安全页 → 自动跳过该源的full_text
+_SECURITY_SKIP_THRESHOLD = _env_param("ODH_SECURITY_SKIP_THRESHOLD", 3, int, min_val=1, max_val=10)
+_security_page_counts = {}   # {source_name: consecutive_count}
+_auto_skip_fulltext_sources = set()  # 自动加入的源黑名单
+
+def check_security_page_source(text, source_name=""):
+    """v6.0.4: 安全页检测 + 源级退化追踪。
+    返回 True=安全页(应丢弃)。
+    副作用: 连续3次安全页 → source加入_auto_skip_fulltext_sources。
+    成功提取则重置计数器。
+    """
+    if not text or not is_security_page(text):
+        # 成功提取: 重置该源的计数器
+        if source_name and source_name in _security_page_counts:
+            _security_page_counts[source_name] = 0
+        return False
+    # 安全页: 累加计数
+    if source_name:
+        _security_page_counts[source_name] = _security_page_counts.get(source_name, 0) + 1
+        if _security_page_counts[source_name] >= _SECURITY_SKIP_THRESHOLD:
+            _auto_skip_fulltext_sources.add(source_name)
+            phase_log(f"[SECURITY_DEGRADE] Source '{source_name}' auto-added to skip_fulltext "
+                     f"(consecutive={_security_page_counts[source_name]})")
+    return True
+
+def should_skip_fulltext(source_name):
+    """v6.0.4: 判断该源是否应跳过full_text (付费墙白名单 或 安全页退化)"""
+    return source_name in _auto_skip_fulltext_sources
+
+
+def clean_full_text(text, title=None, source_name=""):
+    """v6.0.4: 确定性正文清洗 4 规则，在 full_text 赋值前调用。
     Rule 1 (trafilatura #160): 首行==标题 → 删首行
     Rule 2 (trafilatura #768): 连续重复段落 → 去重
     Rule 3: is_security_page → return None (丢弃)
+    Rule 4 (v6.0.4): 源级退化追踪 — 连续3次安全页→自动跳过该源
     返回: 清洗后正文 或 None(安全页/无效)
     """
     if not text:
@@ -358,8 +389,8 @@ def clean_full_text(text, title=None):
     result = "\n".join(lines).strip()
     if not result or len(result) < 50:
         return None
-    # Rule 3: 安全页检测
-    if is_security_page(result):
+    # Rule 3+4: 安全页检测 + 源级退化追踪
+    if check_security_page_source(result, source_name):
         return None
     return result[:10000]  # 仍限10000字符
 
@@ -577,12 +608,16 @@ def _extract_text_sync(html, url):
         return None
 
 
-async def fetch_full_text_async(session, url, timeout=15):
+async def fetch_full_text_async(session, url, timeout=15, source_name=""):
     """
     在Actions端异步抓取单篇文章正文。
     使用trafilatura提取纯文本，自动处理重定向。
+    v6.0.4: 增加source_name参数用于安全页源级退化追踪。
     返回: 正文文本(>100字符) 或 None
     """
+    # v6.0.4: 源级退化 — 已被auto-skip的源直接返回None
+    if source_name and should_skip_fulltext(source_name):
+        return None
     try:
         async with session.get(
             url,
@@ -602,8 +637,8 @@ async def fetch_full_text_async(session, url, timeout=15):
                 loop = asyncio.get_event_loop()
                 text = await loop.run_in_executor(None, _extract_text_sync, html, str(resp.url))
                 if text and len(text) > 100:
-                    # v6.0.3: 清洗(标题残留+重复段落+安全页)
-                    text = clean_full_text(text)
+                    # v6.0.4: 清洗(标题残留+重复段落+安全页+源级退化)
+                    text = clean_full_text(text, source_name=source_name)
                     if text:
                         return text[:10000]
                     return None  # 安全页或清洗后无效
@@ -645,7 +680,9 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
             url = article.get("canonical_url") or article.get("link", "")
             if not url or _is_gnews_url(url):
                 continue  # 跳过GNews跟踪URL
-            fetch_items.append((filename, idx, url))
+            # v6.0.4: 获取source_name用于安全页源级退化
+            source_name = article.get("source", "")
+            fetch_items.append((filename, idx, url, source_name))
     
     total = len(fetch_items)
     if not fetch_items:
@@ -657,11 +694,11 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
     
     async with aiohttp.ClientSession() as session:
         async def _fetch_one(item):
-            filename, idx, url = item
+            filename, idx, url, source_name = item
             async with sem:
                 # 随机延迟，避免过于集中请求同一源
                 await asyncio.sleep(random.uniform(0.1, 0.5))
-                text = await fetch_full_text_async(session, url, timeout)
+                text = await fetch_full_text_async(session, url, timeout, source_name=source_name)
                 return (filename, idx, text)
         
         # 分批处理
@@ -825,9 +862,10 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                                                            include_tables=True, favor_precision=True)
                             )
                             if extracted_text and len(extracted_text) > 100:
-                                # v6.0.3: 清洗(标题残留+重复段落+安全页)
+                                # v6.0.4: 清洗+源级退化
                                 article_title = articles_by_file[filename][idx].get("title")
-                                cleaned = clean_full_text(extracted_text, title=article_title)
+                                article_source = articles_by_file[filename][idx].get("source", "")
+                                cleaned = clean_full_text(extracted_text, title=article_title, source_name=article_source)
                                 if cleaned:
                                     articles_by_file[filename][idx]["full_text"] = cleaned[:10000]
                                     text_extracted += 1
@@ -958,8 +996,8 @@ async def fetch_one(session, url, tag, max_items=50, max_retries=1):
                             if len(text) > 500:
                                 rss_full_text = text[:10000]
                     if rss_full_text:
-                        # v6.0.3: 清洗(标题残留+重复段落+安全页)
-                        cleaned = clean_full_text(rss_full_text, title=title)
+                        # v6.0.4: 清洗(标题残留+重复段落+安全页+源级退化)
+                        cleaned = clean_full_text(rss_full_text, title=title, source_name=tag)
                         if cleaned:
                             item["full_text"] = cleaned
                     
