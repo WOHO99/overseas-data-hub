@@ -78,6 +78,98 @@ RATE_LIMITED_DOMAINS = ["news.google.com"]
 # 北京时间时区
 BEIJING_TZ = timezone(timedelta(hours=8))
 
+
+# ============================================================
+# v6.0.1: 可配置参数 — 消除幻觉硬编码，所有参数附来源和合法范围
+# 修改规则: 1) 仅通过 _env_param 定义 2) 附来源/source标注 3) 附合法范围[min,max]
+# 环境变量前缀: ODH_ (Overseas Data Hub)
+# ============================================================
+
+def _env_param(name, default, typ=float, min_val=None, max_val=None, source="未标注", note=""):
+    """
+    从环境变量读取可配置参数，附范围校验和来源标注。
+    超范围行为: WARNING + 降回默认值(不exit，由validate_params统一校验)。
+    """
+    raw = os.environ.get(name)
+    val = default
+    overridden = False
+
+    if raw is not None:
+        try:
+            val = typ(raw)
+            overridden = True
+        except (ValueError, TypeError):
+            print(f"  [CONFIG] {name}={raw} 无法转为{typ.__name__}，使用默认值{default}", flush=True)
+
+    # 范围校验
+    if min_val is not None and val < min_val:
+        print(f"  [CONFIG] WARNING: {name}={val} < 下限{min_val}，降回默认值{default} "
+              f"[来源:{source}]{f' ({note})' if note else ''}", flush=True)
+        val = default
+        overridden = False
+
+    if max_val is not None and val > max_val:
+        print(f"  [CONFIG] WARNING: {name}={val} > 上限{max_val}，降回默认值{default} "
+              f"[来源:{source}]{f' ({note})' if note else ''}", flush=True)
+        val = default
+        overridden = False
+
+    if overridden:
+        print(f"  [CONFIG] {name}={val} (from env, default={default}) "
+              f"[来源:{source}]{f' ({note})' if note else ''}", flush=True)
+
+    return val
+
+
+# --- 去重参数 ---
+DEDUP_TITLE_THRESHOLD = _env_param(
+    "ODH_DEDUP_THRESHOLD", 0.85, float, 0.5, 1.0,
+    "通用参考值，未校准", "待30天真实数据离线校准误杀/漏杀率"
+)
+DEDUP_TITLE_HOURS = _env_param(
+    "ODH_DEDUP_HOURS", 24, int, 1, 168,
+    "估算未校准(产品决策)", "同一事件跟进报道去重时间窗口(小时)，需内容负责人拍板"
+)
+MAX_FUTURE_DAYS = _env_param(
+    "ODH_MAX_FUTURE_DAYS", 3, int, 0, 7,
+    "估算未校准", "超过此天数的未来日期文章视为异常并过滤"
+)
+PRUNE_AGE_DAYS = _env_param(
+    "ODH_PRUNE_AGE_DAYS", 90, int, 14, 365,
+    "估算未校准", "seen_index去重记忆保留天数，须>=本地数据保留期(当前30天)"
+)
+
+# --- 并发/网络参数 ---
+SEMAPHORE_GNEWS = _env_param(
+    "ODH_SEMAPHORE_GNEWS", 5, int, 1, 20,
+    "估算未校准", "Google News并发限制，Google限速策略不透明"
+)
+
+# --- Playwright参数 ---
+PLAYWRIGHT_TIMEOUT_SEC = _env_param(
+    "ODH_PLAYWRIGHT_TIMEOUT", 15, int, 5, 60,
+    "估算未校准", "Playwright页面加载超时(秒)"
+)
+PLAYWRIGHT_WAIT_MIN = _env_param(
+    "ODH_PLAYWRIGHT_WAIT_MIN", 1.0, float, 0.5, 5.0,
+    "估算未校准", "Playwright JS渲染最小等待(秒)"
+)
+PLAYWRIGHT_WAIT_MAX = _env_param(
+    "ODH_PLAYWRIGHT_WAIT_MAX", 2.5, float, 1.0, 10.0,
+    "估算未校准", "Playwright JS渲染最大等待(秒)"
+)
+
+# --- 熔断/告警参数 ---
+CIRCUIT_BREAKER_THRESHOLD = _env_param(
+    "ODH_CIRCUIT_BREAKER", 3, int, 2, 7,
+    "估算未校准", "连续零产出天数达此值触发熔断(天)，周末/假日可能误判"
+)
+SIGNAL_MIN_BASELINE = _env_param(
+    "ODH_SIGNAL_MIN_BASELINE", 3, int, 1, 10,
+    "估算未校准", "信号告警最低基线值，低频但重要信号可能永远不触发"
+)
+
+
 # 浏览器模拟请求头（用于GNews redirect解析和正文抓取）
 _BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -91,9 +183,8 @@ _BROWSER_HEADERS = {
     "Cache-Control": "max-age=0",
 }
 
-# 全局并发控制
+# 全局并发控制（SEMAPHORE_GNEWS 已通过 _env_param 定义，见上方参数区块）
 SEMAPHORE_GLOBAL = 50
-SEMAPHORE_GNEWS = 5
 MAX_PARSE_WORKERS = 2
 
 _parse_executor = ThreadPoolExecutor(max_workers=MAX_PARSE_WORKERS)
@@ -592,10 +683,10 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             try:
                 # 导航到 GNews 跟踪 URL，等待 JS 重定向完成
                 # domcontentloaded 比 networkidle 更快，GNews redirect 不依赖完整网络加载
-                await page.goto(gnews_url, wait_until="domcontentloaded", timeout=15000)
+                await page.goto(gnews_url, wait_until="domcontentloaded", timeout=PLAYWRIGHT_TIMEOUT_SEC * 1000)
                 
                 # 额外等待 JS 重定向执行（GNews 有时需要 1-3 秒）
-                await asyncio.sleep(random.uniform(1.0, 2.5))
+                await asyncio.sleep(random.uniform(PLAYWRIGHT_WAIT_MIN, PLAYWRIGHT_WAIT_MAX))
                 
                 final_url = page.url
                 
@@ -1033,8 +1124,14 @@ def dedup_link_level(items):
     return list(seen.values())
 
 
-def dedup_title_level(items, threshold=0.85, hours=24):
-    """v4.4: 核心实体词分桶 + RapidFuzz，解决前3字符分桶的假阴性问题"""
+def dedup_title_level(items, threshold=None, hours=None):
+    """v4.4: 核心实体词分桶 + RapidFuzz，解决前3字符分桶的假阴性问题
+    v6.0.1: threshold/hours 默认值从参数区块读取（可通过ODH_DEDUP_THRESHOLD/ODH_DEDUP_HOURS覆盖）
+    """
+    if threshold is None:
+        threshold = DEDUP_TITLE_THRESHOLD
+    if hours is None:
+        hours = DEDUP_TITLE_HOURS
     if len(items) < 2:
         return items
     items_sorted = sorted(items, key=lambda x: x["priority"], reverse=True)
@@ -1144,7 +1241,8 @@ async def run_module_async(config, prev_hashes=None):
         print(f"  After age filter ({max_age_days}d): {before_filter} → {len(unique_items)} (-{removed_by_age})")
 
     # FIX: v4.7.3 - 未来日期过滤：published > now + max_future_days 的条目视为异常，跳过
-    max_future_days = config.get("max_future_days", 3)
+    # v6.0.1: max_future_days 从参数区块读取（ODH_MAX_FUTURE_DAYS），默认3天
+    max_future_days = MAX_FUTURE_DAYS
     future_cutoff = datetime.now(timezone.utc) + timedelta(days=max_future_days)
     before_future = len(unique_items)
     future_filtered = []
@@ -1274,7 +1372,10 @@ def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100
 # ============================================================
 
 def normalize_title_for_dedup(title):
-    """去重用标题归一化：小写 + 去标点 + 压缩空格"""
+    """去重用标题归一化：小写 + 去标点 + 压缩空格
+    [校准待办] 实现未用真实数据验证误杀率/漏杀率，待backfill完成后用30天离线数据校准。
+    可能的问题：短标题(<=3词)经归一化后容易误杀；某些标点有语义(如连字符)被误去。
+    """
     if not title:
         return ""
     t = title.lower()
@@ -1394,8 +1495,12 @@ class SeenIndex:
         except ValueError:
             return 30
     
-    def prune_old_entries(self, max_age_days=90):
-        """清理超过max_age_days的旧条目，防止索引无限膨胀"""
+    def prune_old_entries(self, max_age_days=None):
+        """清理超过max_age_days的旧条目，防止索引无限膨胀
+        v6.0.1: 默认值从参数区块读取（ODH_PRUNE_AGE_DAYS），须>=本地数据保留期
+        """
+        if max_age_days is None:
+            max_age_days = PRUNE_AGE_DAYS
         cutoff = (datetime.now(BEIJING_TZ) - timedelta(days=max_age_days)).strftime("%Y-%m-%d")
         to_remove = [k for k, v in self.entries.items() if v.get("first_seen", "") < cutoff]
         for k in to_remove:
