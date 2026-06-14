@@ -91,7 +91,7 @@ async def run_module_subprocess(mod_name, output_file, is_core, timeout=MODULE_T
     start = time.time()
     
     proc = await asyncio.create_subprocess_exec(
-        sys.executable, script_path,
+        sys.executable, "-u", script_path,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
         cwd=SCRIPT_DIR,
@@ -110,11 +110,13 @@ async def run_module_subprocess(mod_name, output_file, is_core, timeout=MODULE_T
             # 只打印关键行（MODULE DONE / FAIL / RATE_LIMITED 等）
             for line in out_text.splitlines():
                 if any(kw in line for kw in ["MODULE DONE", "MODULE:", "After link", "After title",
-                                               "RATE_LIMITED", "FAIL", "Category:", "Elapsed"]):
+                                               "RATE_LIMITED", "FAIL", "Category:", "Elapsed",
+                                               "DIAG", "Error", "Traceback", "import"]):
                     print(f"  {line}")
         
-        if stderr_data and proc.returncode != 0:
-            err_text = stderr_data.decode("utf-8", errors="replace")[-500:]
+        # v6.0.3: 始终打印stderr（调试超时问题）
+        if stderr_data:
+            err_text = stderr_data.decode("utf-8", errors="replace")[-1000:]
             print(f"  [STDERR] {err_text}")
         
         return {
