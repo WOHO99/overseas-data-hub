@@ -4,6 +4,7 @@ global_risk.py — 国际风险模块
 覆盖：企业面临的跨境风险（制裁清单/外资审查/征用/资本管制/主权违约）
 互斥边界：不含国家间军事冲突（geopolitics_risk管）、不含宏观金融（finance管）
 与跨境电商模块边界：本模块管制裁/审查/征收等政策级风险，跨境电商模块管平台合规
+v3.2: Batch D新增8个安全/隐私直连RSS源
 """
 
 import sys
@@ -66,6 +67,17 @@ CONFIG = {
         "风险情报RSS": [
             {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
             {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+        ],
+        "安全与隐私RSS(D)": [
+            # v3.2 Batch D: 8个安全/隐私直连RSS
+            {"url": "https://www.schneier.com/feed/atom/", "tag": "Schneier on Security"},
+            {"url": "https://krebsonsecurity.com/feed/", "tag": "Krebs on Security"},
+            {"url": "https://www.troyhunt.com/rss/", "tag": "Troy Hunt"},
+            {"url": "https://www.hackerfactor.com/blog/index.php?/feeds/index.rss2", "tag": "Hacker Factor"},
+            {"url": "https://www.eff.org/rss/updates.xml", "tag": "EFF Updates"},
+            {"url": "https://isc.sans.edu/rssfeed_full.xml", "tag": "SANS ISC Diary"},
+            {"url": "https://feeds.feedburner.com/TheHackersNews", "tag": "The Hacker News"},
+            {"url": "https://grahamcluley.com/feed/", "tag": "Graham Cluley"},
         ],
     },
 }
