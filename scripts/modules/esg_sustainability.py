@@ -73,6 +73,10 @@ CONFIG = {
             {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
             {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
         ],
+        "新增直连RSS(B)": [
+            # v3.6 Batch B: 1源
+            {"url": "https://carbon-pulse.com/feed/", "tag": "Carbon Pulse"},
+        ],
     },
 }
 
