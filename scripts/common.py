@@ -366,24 +366,46 @@ def should_skip_fulltext(source_name):
 
 
 def clean_full_text(text, title=None, source_name=""):
-    """v6.0.4: 确定性正文清洗 4 规则，在 full_text 赋值前调用。
-    Rule 1 (trafilatura #160): 首行==标题 → 删首行
+    """v6.0.4.1: 确定性正文清洗 7 规则，在 full_text 赋值前调用。
+    Rule 0: html.unescape() — 解码HTML实体
+    Rule 1 (trafilatura #160): 首行==标题 → 删首行（放宽容差）
     Rule 2 (trafilatura #768): 连续重复段落 → 去重
     Rule 3: is_security_page → return None (丢弃)
     Rule 4 (v6.0.4): 源级退化追踪 — 连续3次安全页→自动跳过该源
+    Rule 5: 超长单行 → 按句分割（trafilatura/Playwright有时输出无换行段落）
+    Rule 6: 去除HTML标签残留（strip_tags保险）
     返回: 清洗后正文 或 None(安全页/无效)
     """
+    import html as _html
     if not text:
         return None
-    # Rule 1: 首行==标题 → 移除
+    # Rule 0: HTML实体解码 (&nbsp; → 空格, &rsquo; → ', etc.)
+    text = _html.unescape(text)
+    # Rule 6: 去除残留HTML标签
+    text = re.sub(r'<[^>]+>', '', text)
+    # Rule 1: 首行==标题 → 移除（放宽容差：首行是标题子串也移除）
     lines = text.split("\n")
     if title and lines:
         first_line = lines[0].strip()
-        # 去标点后比较，容忍微小差异
+        # 去标点后比较
         title_clean = re.sub(r'[^\w\s]', '', title.lower()).strip()
         first_clean = re.sub(r'[^\w\s]', '', first_line.lower()).strip()
-        if title_clean and first_clean and (title_clean == first_clean or first_clean in title_clean):
+        if title_clean and first_clean and (
+            title_clean == first_clean
+            or first_clean in title_clean
+            or title_clean.startswith(first_clean[:30])  # 前30字符匹配也算
+        ):
             lines = lines[1:]
+    # Rule 5: 超长单行分割（>1500字符的行按句号分割）
+    split_lines = []
+    for line in lines:
+        if len(line) > 1500:
+            # 按英文句号+空格 或 中文句号 分割
+            sentences = re.split(r'(?<=[.。！？])\s*', line)
+            split_lines.extend(sentences)
+        else:
+            split_lines.append(line)
+    lines = split_lines
     # Rule 2: 连续重复段落 → 去重
     if len(lines) > 2:
         deduped = [lines[0]]
@@ -398,7 +420,7 @@ def clean_full_text(text, title=None, source_name=""):
     # Rule 3+4: 安全页检测 + 源级退化追踪
     if check_security_page_source(result, source_name):
         return None
-    return result[:10000]  # 仍限10000字符
+    return result[:10000]
 
 
 # ============================================================
