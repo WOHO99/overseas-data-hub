@@ -34,7 +34,7 @@ from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
 REPO = "WOHO99/overseas-data-hub"
-DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
+DATA_ROOT = Path(__file__).resolve().parent / "data"
 ARTIFACT_PREFIX = "json-outputs-"
 SEEN_INDEX_PREFIX = "seen-index-"
 RETENTION_DAYS = 30
