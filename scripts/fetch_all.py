@@ -47,10 +47,17 @@ from common import (
     SIGNAL_MIN_BASELINE,
     PLAYWRIGHT_WAIT_MIN,
     PLAYWRIGHT_WAIT_MAX,
+    get_source_tier,
+    get_source_coefficient,
 )
 
 # v6.0: 北京时间时区
 BEIJING_TZ = timezone(timedelta(hours=8))
+
+# v6.0.3: 辅助函数
+def _is_gnews_link(link):
+    """判定URL是否为Google News链接"""
+    return bool(link and "news.google.com" in link)
 
 MODULE_REGISTRY = [
     {"module": "global_business", "output": "global_business.json", "core": True},
@@ -487,7 +494,7 @@ def global_dedup():
 
 
 def build_index(seen, module_outputs):
-    from common import atomic_write_json, link_hash
+    from common import atomic_write_json, link_hash, load_source_authority
 
     now = datetime.now(timezone.utc)
     today_str = now.strftime("%Y-%m-%d")
@@ -495,6 +502,10 @@ def build_index(seen, module_outputs):
     total_global = len(all_articles)
     high_global = len([a for a in all_articles if a["item"]["relevance"] == "high"])
     medium_global = len([a for a in all_articles if a["item"]["relevance"] == "medium"])
+    
+    # v6.0.3: 加载权威度映射(用于source_tier)
+    config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config")
+    authority_map = load_source_authority(config_dir)
 
     # P4-1: 源指纹计算 — 只从24h窗口文章计算
     from common import parse_published_time
@@ -561,11 +572,11 @@ def build_index(seen, module_outputs):
           f"{fp_changes['changed']} changed, {fp_changes['new_source']} new")
 
     # P4-8: 死源熔断器 — 连续X天零产出（排除rate_limited源）
-    # v6.0.2: 指数退避恢复机制
-    #   - 熔断源不再永久丢失，按1h→2h→4h→8h→12h→24h退避重试
-    #   - 恢复产出则立即重置fail_count+next_retry
+    # v6.0.3: 运行次数退避替代时间退避
+    #   - Pipeline是手动触发(workflow_dispatch)，非cron/daemon，时间退避无意义
+    #   - 运行次数退避: 0→1→2→3→5次跳过，即连续0产出后第1次仍运行，之后递增跳过
     #   - 人工编辑sources_dead.json仍优先
-    CIRCUIT_BREAKER_BACKOFF_HOURS = [1, 2, 4, 8, 12, 24]  # 最大24h
+    CIRCUIT_BREAKER_BACKOFF_RUNS = [0, 1, 2, 3, 5]  # 对应fail_count 1-5的跳过次数
 
     circuit_breaker_path = os.path.join(SCRIPT_DIR, "sources_dead.json")
     dead_history = {}
@@ -603,7 +614,6 @@ def build_index(seen, module_outputs):
         prev = dead_history.get(tag, {})
         consecutive_zeros = prev.get("consecutive_zeros", 0)
         fail_count = prev.get("fail_count", 0)
-        next_retry = prev.get("next_retry", None)  # ISO timestamp or null
         is_rate_limited = tag in rate_limited_sources
         status = "active"
 
@@ -615,7 +625,6 @@ def build_index(seen, module_outputs):
                 phase_log(f"[CIRCUIT_BREAKER] {tag} recovered after {fail_count} retries")
             consecutive_zeros = 0
             fail_count = 0
-            next_retry = None
         elif not is_rate_limited:
             consecutive_zeros += 1
         # else: rate_limited源不累积consecutive_zeros
@@ -624,24 +633,10 @@ def build_index(seen, module_outputs):
             status = "circuit_breaker"
             circuit_broken_sources.append(tag)
 
-            # 计算退避时间
-            now_utc = datetime.now(timezone.utc)
-            if next_retry is not None:
-                try:
-                    retry_dt = datetime.fromisoformat(next_retry.replace("Z", "+00:00"))
-                    if now_utc >= retry_dt:
-                        # 退避时间已过但仍无产出 → fail_count+1
-                        fail_count += 1
-                except (ValueError, AttributeError):
-                    fail_count += 1
-            else:
-                # 首次熔断 → 开始退避
-                fail_count = 1
-
-            # 计算下次重试时间
-            backoff_idx = min(fail_count - 1, len(CIRCUIT_BREAKER_BACKOFF_HOURS) - 1)
-            backoff_hours = CIRCUIT_BREAKER_BACKOFF_HOURS[backoff_idx]
-            next_retry = (now_utc + timedelta(hours=backoff_hours)).isoformat()
+            # v6.0.3: 运行次数退避
+            fail_count += 1  # 每次熔断+1
+            backoff_idx = min(fail_count - 1, len(CIRCUIT_BREAKER_BACKOFF_RUNS) - 1)
+            next_retry_skip = CIRCUIT_BREAKER_BACKOFF_RUNS[backoff_idx]
 
             # 联动source_fingerprint：标记熔断状态
             if tag in source_fingerprint:
@@ -652,7 +647,7 @@ def build_index(seen, module_outputs):
             "status": status,
             "last_output_date": today_str if count > 0 else prev.get("last_output_date", ""),
             "fail_count": fail_count,
-            "next_retry": next_retry,
+            "next_retry_skip": next_retry_skip if consecutive_zeros >= CIRCUIT_BREAKER_THRESHOLD_VAL else 0,
         }
 
     atomic_write_json(updated_dead, circuit_breaker_path)
@@ -662,7 +657,7 @@ def build_index(seen, module_outputs):
         for src in circuit_broken_sources[:10]:
             info = updated_dead[src]
             print(f"    - {src}: {info['consecutive_zeros']}d zero, fail_count={info['fail_count']}, "
-                  f"next_retry={info.get('next_retry', 'N/A')[:16]}, last: {info.get('last_output_date', 'never')}")
+                  f"skip_next={info.get('next_retry_skip', 0)} runs, last: {info.get('last_output_date', 'never')}")
     if recovered_sources:
         print(f"  Circuit breaker recovered: {len(recovered_sources)} sources")
         for src in recovered_sources[:10]:
@@ -686,12 +681,64 @@ def build_index(seen, module_outputs):
     high_articles = []
     new_count_global = 0
     cont_count_global = 0
+    # v6.0.3: content_status/fetch_capability/source_tier 统计
+    content_status_counts = {"has_fulltext": 0, "fulltext_needs_retry": 0, "fulltext_unavailable": 0}
+    fetch_capability_counts = {"direct_fetchable": 0, "gnews_resolved": 0, "gnews_unresolved": 0}
+    tier_counts = {}
     for a in all_articles:
-        if a["item"]["relevance"] == "high":
-            art = a["item"].copy()
+        item = a["item"]
+        # --- v6.0.3: content_status ---
+        full_text = item.get("full_text")
+        is_gnews = _is_gnews_link(item.get("link", ""))
+        has_canonical = bool(item.get("canonical_url"))
+        if full_text:
+            item["content_status"] = "has_fulltext"
+            content_status_counts["has_fulltext"] += 1
+        elif is_gnews and has_canonical:
+            item["content_status"] = "fulltext_needs_retry"
+            content_status_counts["fulltext_needs_retry"] += 1
+        else:
+            item["content_status"] = "fulltext_unavailable"
+            content_status_counts["fulltext_unavailable"] += 1
+        # --- v6.0.3: fetch_capability ---
+        if not is_gnews:
+            item["fetch_capability"] = "direct_fetchable"
+            fetch_capability_counts["direct_fetchable"] += 1
+        elif has_canonical:
+            item["fetch_capability"] = "gnews_resolved"
+            fetch_capability_counts["gnews_resolved"] += 1
+        else:
+            item["fetch_capability"] = "gnews_unresolved"
+            fetch_capability_counts["gnews_unresolved"] += 1
+        # --- v6.0.3: source_tier ---
+        tier = get_source_tier(item.get("source", ""), authority_map)
+        item["source_tier"] = tier
+        tier_counts[tier] = tier_counts.get(tier, 0) + 1
+        # --- v6.0.3: auto_tags (可检索标签) ---
+        tags = []
+        cat = item.get("category", "")
+        if cat:
+            # 按+号拆分中文分类为独立标签
+            for part in re.split(r'[+]', cat):
+                part = part.strip()
+                if part:
+                    tags.append(part)
+        tags.append(f"tier:{tier}")
+        fc = item.get("fetch_capability", "")
+        if fc:
+            tags.append(f"fetch:{fc}")
+        inc = item.get("_incremental", "")
+        if inc:
+            tags.append(f"status:{inc}")
+        for sk in item.get("signal_keywords", []):
+            tags.append(f"signal:{sk}")
+        item["auto_tags"] = tags
+        # --- high articles / incremental ---
+        if item["relevance"] == "high":
+            art = item.copy()
             art["matched_modules"] = a["modules"]
             high_articles.append(art)
-        inc = a["item"].get("_incremental", "")
+        inc = item.get("_incremental", "")
         if inc == "new":
             new_count_global += 1
         elif inc == "continuing":
@@ -790,7 +837,7 @@ def build_index(seen, module_outputs):
     print(f"  Signal baseline: {triggered_count} triggered, {len(global_signal_counts)} total signals")
 
     index = {
-        "version": "4.3",
+        "version": "6.0.3",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
@@ -803,6 +850,9 @@ def build_index(seen, module_outputs):
         "source_fingerprint_summary": fp_changes,
         "circuit_breaker_count": len(circuit_broken_sources),
         "circuit_broken_sources": circuit_broken_sources[:20],
+        "content_status_counts": content_status_counts,
+        "fetch_capability_counts": fetch_capability_counts,
+        "source_tier_counts": tier_counts,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
