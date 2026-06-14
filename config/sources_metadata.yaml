@@ -625,3 +625,1003 @@ sources:
     tags: ["BIS", "systemic_risk", "official"]
     language: "en"
     region: "global"
+
+  # ===== Batch D (47源, RSS Library集成, 2026-06-14) =====
+  # V=本地验证可用 / G=GFW阻断从CN不可达但GitHub Actions可达
+
+  # --- 金融/商务 (high relevance) ---
+
+  bloomberg-markets-direct:
+    name: "Bloomberg Markets Direct"
+    url: "https://www.bloomberg.com/feed/"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 20
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["finance", "markets", "US"]
+    language: "en"
+    region: "US"
+
+  economist-business:
+    name: "Economist Business"
+    url: "https://www.economist.com/feeds/print-sections/77/business.xml"
+    module: "finance_global"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["business", "economics", "UK"]
+    language: "en"
+    region: "UK"
+
+  calculated-risk:
+    name: "Calculated Risk"
+    url: "http://feeds.feedburner.com/CalculatedRisk"
+    module: "finance_global"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 3
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["finance", "housing", "US_macro"]
+    language: "en"
+    region: "US"
+
+  zerohedge:
+    name: "ZeroHedge"
+    url: "https://feeds.feedburner.com/zerohedge/feed"
+    module: "finance_global"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 15
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["finance", "contrarian", "macro"]
+    language: "en"
+    region: "US"
+
+  nyt-business:
+    name: "NYT Business"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+    module: "global_business"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 20
+    expected_weekend: 10
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["business", "NYT", "US"]
+    language: "en"
+    region: "US"
+
+  reuters-top-news:
+    name: "Reuters Top News"
+    url: "http://feeds.reuters.com/reuters/topNews"
+    module: "global_business"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 30
+    expected_weekend: 20
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["news", "Reuters", "global"]
+    language: "en"
+    region: "global"
+
+  both-sides:
+    name: "Both Sides of the Table"
+    url: "https://bothsidesofthetable.com/feed"
+    module: "global_business"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["VC", "startups", "business"]
+    language: "en"
+    region: "US"
+
+  ycombinator-blog:
+    name: "Y Combinator Blog"
+    url: "https://www.ycombinator.com/blog/rss"
+    module: "global_business"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["VC", "startups", "YC"]
+    language: "en"
+    region: "US"
+
+  marginal-revolution:
+    name: "Marginal Revolution"
+    url: "http://marginalrevolution.com/feed/"
+    module: "global_business"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 3
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["economics", "policy", "blog"]
+    language: "en"
+    region: "US"
+
+  the-big-picture:
+    name: "The Big Picture"
+    url: "https://ritholtz.com/feed/"
+    module: "global_business"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["finance", "markets", "blog"]
+    language: "en"
+    region: "US"
+
+  # --- 地缘/全球新闻 (high relevance) ---
+
+  bbc-news-top:
+    name: "BBC News Top"
+    url: "http://feeds.bbci.co.uk/news/rss.xml"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 30
+    expected_weekend: 25
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["news", "BBC", "global"]
+    language: "en"
+    region: "global"
+
+  nyt-world:
+    name: "NYT World"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 25
+    expected_weekend: 15
+    health_check:
+      min_articles_weekday: 8
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["news", "NYT", "world"]
+    language: "en"
+    region: "global"
+
+  wapo-world:
+    name: "Washington Post World"
+    url: "https://feeds.washingtonpost.com/rss/world"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 20
+    expected_weekend: 12
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["news", "WaPo", "world"]
+    language: "en"
+    region: "global"
+
+  the-atlantic:
+    name: "The Atlantic"
+    url: "https://www.theatlantic.com/feed/all/"
+    module: "geopolitics_risk"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 10
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["news", "analysis", "US"]
+    language: "en"
+    region: "US"
+
+  reuters-technology:
+    name: "Reuters Technology"
+    url: "https://feeds.reuters.com/reuters/technologyNews"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "Reuters", "global"]
+    language: "en"
+    region: "global"
+
+  nyt-technology:
+    name: "NYT Technology"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+    module: "tech_industry"
+    tier: "silver"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["technology", "NYT", "US"]
+    language: "en"
+    region: "US"
+
+  # --- 北欧监管 (high relevance, region_europe) ---
+
+  swedish-migration-general:
+    name: "Swedish Migration Agency General"
+    url: "https://www.migrationsverket.se/rss_en"
+    module: "region_europe"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "regulatory"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["immigration", "Sweden", "regulatory"]
+    language: "en"
+    region: "SE"
+
+  swedish-migration-employers:
+    name: "Swedish Migration Agency Employers"
+    url: "https://www.migrationsverket.se/rss_employers"
+    module: "region_europe"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "regulatory"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["immigration", "Sweden", "employers", "regulatory"]
+    language: "en"
+    region: "SE"
+
+  swedish-migration-work:
+    name: "Swedish Migration Agency Work Permits"
+    url: "https://www.migrationsverket.se/rss_working"
+    module: "region_europe"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "regulatory"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["immigration", "Sweden", "work_permit", "regulatory"]
+    language: "en"
+    region: "SE"
+
+  # --- 安全/隐私 (medium relevance, global_risk) ---
+
+  schneier-security:
+    name: "Schneier on Security"
+    url: "https://www.schneier.com/feed/atom/"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 3
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["security", "cryptography", "privacy"]
+    language: "en"
+    region: "US"
+
+  krebs-security:
+    name: "Krebs on Security"
+    url: "https://krebsonsecurity.com/feed/"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["security", "cybercrime", "investigations"]
+    language: "en"
+    region: "US"
+
+  troy-hunt:
+    name: "Troy Hunt"
+    url: "https://www.troyhunt.com/rss/"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["security", "breaches", "haveibeenpwned"]
+    language: "en"
+    region: "AU"
+
+  hacker-factor:
+    name: "Hacker Factor"
+    url: "https://www.hackerfactor.com/blog/index.php?/feeds/index.rss2"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["security", "forensics", "analysis"]
+    language: "en"
+    region: "US"
+
+  eff-updates:
+    name: "EFF Updates"
+    url: "https://www.eff.org/rss/updates.xml"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["privacy", "digital_rights", "civil_liberties"]
+    language: "en"
+    region: "US"
+
+  sans-isc:
+    name: "SANS ISC Diary"
+    url: "https://isc.sans.edu/rssfeed_full.xml"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["security", "threat_intel", "SANS"]
+    language: "en"
+    region: "US"
+
+  the-hacker-news:
+    name: "The Hacker News"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 8
+    expected_weekend: 4
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["security", "hacking", "vulnerabilities"]
+    language: "en"
+    region: "global"
+
+  graham-cluley:
+    name: "Graham Cluley"
+    url: "https://grahamcluley.com/feed/"
+    module: "global_risk"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 3
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["security", "privacy", "blog"]
+    language: "en"
+    region: "UK"
+
+  # --- 技术/科技 (medium relevance, tech_industry) ---
+
+  hacker-news-top:
+    name: "Hacker News Top"
+    url: "https://news.ycombinator.com/rss"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "aggregator"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 30
+    expected_weekend: 25
+    health_check:
+      min_articles_weekday: 10
+      max_consecutive_zero: 2
+    fallback_url: null
+    tags: ["tech", "HN", "aggregator"]
+    language: "en"
+    region: "US"
+
+  hacker-news-new:
+    name: "Hacker News New"
+    url: "https://news.ycombinator.com/newest?rss"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "aggregator"
+    signal_detection: true
+    batch: "D"
+    validation: "trusted_gfw"
+    verified_full_text: false
+    expected_weekday: 50
+    expected_weekend: 40
+    health_check:
+      min_articles_weekday: 20
+      max_consecutive_zero: 2
+    fallback_url: null
+    tags: ["tech", "HN", "aggregator"]
+    language: "en"
+    region: "US"
+
+  stack-overflow-blog:
+    name: "Stack Overflow Blog"
+    url: "https://stackoverflow.blog/feed/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 3
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["dev", "SO", "programming"]
+    language: "en"
+    region: "US"
+
+  github-blog:
+    name: "GitHub Blog"
+    url: "https://github.blog/feed/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["dev", "GitHub", "platform"]
+    language: "en"
+    region: "US"
+
+  coding-horror:
+    name: "Coding Horror"
+    url: "https://blog.codinghorror.com/rss/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: false
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 30
+    fallback_url: null
+    tags: ["dev", "programming", "blog"]
+    language: "en"
+    region: "US"
+
+  joel-on-software:
+    name: "Joel on Software"
+    url: "https://www.joelonsoftware.com/feed/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: false
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 30
+    fallback_url: null
+    tags: ["dev", "software", "blog"]
+    language: "en"
+    region: "US"
+
+  martin-fowler:
+    name: "Martin Fowler"
+    url: "https://martinfowler.com/feed.atom"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: false
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 30
+    fallback_url: null
+    tags: ["dev", "architecture", "blog"]
+    language: "en"
+    region: "US"
+
+  simon-willison:
+    name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 3
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 1
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["dev", "AI", "data", "blog"]
+    language: "en"
+    region: "US"
+
+  julia-evans:
+    name: "Julia Evans"
+    url: "https://jvns.ca/atom.xml"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["dev", "systems", "blog"]
+    language: "en"
+    region: "US"
+
+  dan-luu:
+    name: "Dan Luu"
+    url: "https://danluu.com/atom.xml"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "blog"
+    signal_detection: false
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 1
+    expected_weekend: 0
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 30
+    fallback_url: null
+    tags: ["dev", "engineering", "blog"]
+    language: "en"
+    region: "US"
+
+  lwn-headlines:
+    name: "LWN Headlines"
+    url: "https://lwn.net/headlines/rss"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 5
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 2
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["Linux", "kernel", "open_source"]
+    language: "en"
+    region: "US"
+
+  phoronix:
+    name: "Phoronix"
+    url: "https://www.phoronix.com/rss.php"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 10
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["Linux", "hardware", "benchmarks"]
+    language: "en"
+    region: "US"
+
+  omg-ubuntu:
+    name: "OMG! Ubuntu"
+    url: "https://www.omgubuntu.co.uk/feed"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: false
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 5
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 2
+      max_consecutive_zero: 7
+    fallback_url: null
+    tags: ["Ubuntu", "Linux", "desktop"]
+    language: "en"
+    region: "UK"
+
+  9to5mac:
+    name: "9to5Mac"
+    url: "https://9to5mac.com/feed/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["Apple", "iOS", "mac"]
+    language: "en"
+    region: "US"
+
+  macrumors:
+    name: "MacRumors"
+    url: "https://www.macrumors.com/macrumors.xml"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 10
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["Apple", "rumors", "iOS"]
+    language: "en"
+    region: "US"
+
+  ars-technica:
+    name: "Ars Technica"
+    url: "http://feeds.arstechnica.com/arstechnica/index"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 15
+    expected_weekend: 8
+    health_check:
+      min_articles_weekday: 5
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["tech", "science", "reviews"]
+    language: "en"
+    region: "US"
+
+  mit-tech-review:
+    name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 5
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 2
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["tech", "AI", "research"]
+    language: "en"
+    region: "US"
+
+  new-scientist:
+    name: "New Scientist"
+    url: "https://www.newscientist.com/feed/home"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 10
+    expected_weekend: 5
+    health_check:
+      min_articles_weekday: 3
+      max_consecutive_zero: 3
+    fallback_url: null
+    tags: ["science", "tech", "research"]
+    language: "en"
+    region: "UK"
+
+  ars-technica-science:
+    name: "Ars Technica Science"
+    url: "http://feeds.arstechnica.com/arstechnica/science"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "trafilatura"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: false
+    expected_weekday: 5
+    expected_weekend: 2
+    health_check:
+      min_articles_weekday: 2
+      max_consecutive_zero: 5
+    fallback_url: null
+    tags: ["science", "research"]
+    language: "en"
+    region: "US"
+
+  nasa-breaking:
+    name: "NASA Breaking News"
+    url: "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+    module: "tech_industry"
+    tier: "bronze"
+    full_text_strategy: "rss_first"
+    source_type: "news"
+    signal_detection: true
+    batch: "D"
+    validation: "verified"
+    verified_full_text: true
+    expected_weekday: 2
+    expected_weekend: 1
+    health_check:
+      min_articles_weekday: 0
+      max_consecutive_zero: 14
+    fallback_url: null
+    tags: ["space", "NASA", "science"]
+    language: "en"
+    region: "US"
