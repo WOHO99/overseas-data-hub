@@ -3,6 +3,7 @@
 geopolitics_risk.py — 全球治理与地缘风险模块
 覆盖：制裁、战争、条约、选举、网络攻击，不受国别限制
 v3.4: Batch A新增3个直连RSS源(Reuters World/Politico/Politico EU)
+v3.5: Batch D新增4个直连RSS源(BBC Top/NYT World/WaPo World/The Atlantic)
 """
 
 import sys
@@ -72,6 +73,11 @@ CONFIG = {
             {"url": "http://feeds.reuters.com/Reuters/worldNews", "tag": "Reuters World"},
             {"url": "https://www.politico.com/rss", "tag": "Politico"},
             {"url": "https://www.politico.eu/feed/", "tag": "Politico EU"},
+            # v3.5 Batch D: 4个新增直连RSS
+            {"url": "http://feeds.bbci.co.uk/news/rss.xml", "tag": "BBC News Top"},
+            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "tag": "NYT World"},
+            {"url": "https://feeds.washingtonpost.com/rss/world", "tag": "WaPo World"},
+            {"url": "https://www.theatlantic.com/feed/all/", "tag": "The Atlantic"},
         ],
     },
 }
