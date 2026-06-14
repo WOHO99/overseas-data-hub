@@ -157,6 +157,7 @@ def generate(data_dir: Path, output_path: Path):
 
         for a in articles:
             a["_module"] = mk
+            a["_module_cn"] = MODULE_NAMES.get(mk, mk)
             a["_country"] = classify_country(a)
             a["_topic"] = classify_topic(a)
             all_articles.append(a)
@@ -249,6 +250,82 @@ def generate(data_dir: Path, output_path: Path):
         key=lambda x: x.get("priority", 0), reverse=True
     )[:15]
 
+    # ── 信号看板 + 选题候选 数据准备（两层架构） ──
+    # 信号层公式：priority + auth_bonus（标题+摘要即可，方向感知）
+    def calc_signal_score(a):
+        base = a.get("priority", 0)
+        sd = a.get("source_detail", {})
+        src_name = sd.get("name", "") if isinstance(sd, dict) else ""
+        auth_bonus = 0.0
+        for auth_src, bonus in [("Reuters",2.0),("Bloomberg",2.0),("Financial Times",2.0),
+            ("The Economist",2.0),("BBC",1.5),("The Guardian",1.5),("The New York Times",1.5),
+            ("The Wall Street Journal",2.0),("Nikkei Asia",1.5),("South China Morning Post",1.5)]:
+            if auth_src.lower() in src_name.lower():
+                auth_bonus = bonus; break
+        return round(base + auth_bonus, 1)
+
+    # 决策层公式：必须有全文，信号层得分 + 全文质量加成
+    def calc_decision_score(a):
+        if not a.get("full_text") or len(str(a.get("full_text",""))) < 100:
+            return 0.0  # 无全文不得进入决策层
+        sig = calc_signal_score(a)
+        ft_len = len(str(a.get("full_text","")))
+        quality_bonus = 1.0 if ft_len >= 2000 else 0.5 if ft_len >= 500 else 0.0
+        return round(sig + 2.0 + quality_bonus, 1)  # 2.0=有全文基础分
+
+    # 国家×行业统计
+    country_topic_matrix = {}
+    for a in all_articles:
+        c = a.get("_country", "全球")
+        t = a.get("_topic", "综合")
+        if c not in country_topic_matrix: country_topic_matrix[c] = {}
+        country_topic_matrix[c][t] = country_topic_matrix[c].get(t, 0) + 1
+
+    top_countries = sorted(((c, sum(v.values())) for c, v in country_topic_matrix.items()), key=lambda x: -x[1])[:15]
+    top_topics = sorted(set(t for v in country_topic_matrix.values() for t in v), key=lambda x: -sum(country_topic_matrix[c].get(x,0) for c in country_topic_matrix))[:15]
+
+    # 选题候选（决策层：必须有全文 + decision_score >= 10）
+    topic_candidates = []
+    from datetime import timedelta
+    _deadline = (datetime.strptime(fetch_date, "%Y-%m-%d") + timedelta(days=2)).strftime("%Y-%m-%d") if len(fetch_date)==10 else ""
+    for i, a in enumerate(sorted(all_articles, key=lambda x: calc_decision_score(x), reverse=True)):
+        ds = calc_decision_score(a)
+        if ds < 10: break  # 决策层准入门槛
+        country_str = "/".join([a.get("_country","全球")])
+        topic_str = "/".join([a.get("_topic","综合")])
+        ft_len = len(str(a.get("full_text","")))
+        est_words = "1500-2500" if ft_len >= 2000 else "800-1500"
+        urgency = "高" if ds >= 17 else "中" if ds >= 13 else "低"
+        alt_angles = []
+        if a.get("_country","全球") != "全球": alt_angles.append(f"从{a['_country']}本土视角切入")
+        if a.get("_topic","综合") != "综合": alt_angles.append(f"聚焦{a['_topic']}产业链影响")
+        topic_candidates.append({"id": f"D{i+1:03d}", "title": a.get("title","")[:60], "module_cn": MODULE_NAMES.get(a.get("_module",""),""), "urgency": urgency, "est_words": est_words, "reason": f"{country_str}·{topic_str}方向，决策分{ds}", "country_topic": f"{country_str}×{topic_str}", "link": a.get("canonical_url") or a.get("link",""), "deadline": _deadline, "alt_angles": alt_angles, "ft_status": "has_fulltext", "ft_len": ft_len})
+    topic_candidates = topic_candidates[:30]
+
+    # 待采信号（信号层高强度但无全文，潜力候选）
+    pending_candidates = []
+    for i, a in enumerate(sorted(all_articles, key=lambda x: calc_signal_score(x), reverse=True)):
+        ss = calc_signal_score(a)
+        if ss < 10: break  # 信号层强度门槛
+        if a.get("full_text") and len(str(a.get("full_text",""))) >= 100: continue  # 有全文的已在决策层
+        country_str = "/".join([a.get("_country","全球")])
+        topic_str = "/".join([a.get("_topic","综合")])
+        pending_candidates.append({"id": f"S{i+1:03d}", "title": a.get("title","")[:60], "ss": ss, "country_topic": f"{country_str}×{topic_str}", "link": a.get("canonical_url") or a.get("link",""), "source": a.get("source","")[:30]})
+    pending_candidates = pending_candidates[:20]
+
+    # 统计
+    n_has_ft = sum(1 for a in all_articles if a.get("full_text") and len(str(a.get("full_text",""))) >= 100)
+    n_no_ft = total_articles - n_has_ft
+    n_decision = len(topic_candidates)
+    n_pending = len(pending_candidates)
+
+    # 信号数据（compact for JS，用信号层公式）
+    signals_compact = []
+    for i, a in enumerate(all_articles):
+        ss = calc_signal_score(a)
+        has_ft = bool(a.get("full_text") and len(str(a.get("full_text",""))) >= 100)
+        signals_compact.append({"i": i, "ss": ss, "cu": a.get("_country","全球"), "to": a.get("_topic","综合"), "hf": has_ft})
+
     # 5. 准备JS嵌入数据 (compact JSON for articles)
     articles_compact = []
     fulltexts = {}
@@ -298,6 +375,11 @@ def generate(data_dir: Path, output_path: Path):
     modules_json = safe_json(module_list)
     top_sources = sorted(source_stats.items(), key=lambda x: x[1], reverse=True)[:30]
     sources_json = json.dumps(top_sources, ensure_ascii=False, separators=(",", ":"))
+    signals_json = safe_json(signals_compact)
+    topic_candidates_json = safe_json(topic_candidates)
+    pending_candidates_json = safe_json(pending_candidates)
+    matrix_countries = [c for c, _ in top_countries]
+    matrix_topics = list(top_topics)
 
     # 6. 仪表盘HTML段落
     # 态势灯
@@ -374,6 +456,62 @@ def generate(data_dir: Path, output_path: Path):
         risk_html = f'''<div class="dash-section" id="sec-chinarisk"><h2 class="sec-title">中企风险快讯</h2><div class="risk-list">{risk_rows}</div></div>'''
     else:
         risk_html = '''<div class="dash-section" id="sec-chinarisk"><h2 class="sec-title">中企风险快讯</h2><div class="risk-empty">今日无中企相关风险文章</div></div>'''
+
+    # ── 信号看板 HTML ──
+    mx_head = "<th></th>" + "".join(f"<th>{esc(t[:6])}</th>" for t in matrix_topics)
+    mx_body = ""
+    for c, _ in top_countries:
+        cells = f"<th>{esc(c)}</th>"
+        for t in matrix_topics:
+            cnt = country_topic_matrix.get(c, {}).get(t, 0)
+            if cnt == 0:
+                cells += "<td class='mx-zero'>-</td>"
+            elif cnt >= 5:
+                cells += f"<td class='mx-hot'>{cnt}</td>"
+            elif cnt >= 3:
+                cells += f"<td class='mx-warm'>{cnt}</td>"
+            else:
+                cells += f"<td class='mx-cool'>{cnt}</td>"
+        mx_body += f"<tr>{cells}</tr>"
+    country_options_sig = "<option value=''>全部国家</option>" + "".join(
+        f"<option value='{esc(c)}'>{esc(c)}</option>" for c, _ in top_countries)
+    topic_options_sig = "<option value=''>全部行业</option>" + "".join(
+        f"<option value='{esc(t)}'>{esc(t)}</option>" for t in matrix_topics)
+
+    signal_html = f'''
+    <div class="dash-section signal-section" id="sec-signal" style="grid-column:1/-1">
+      <h2 class="sec-title">信号看板 <span class="sec-hint">信号层：方向感知 | 国家×行业交叉分析 | 全文{n_has_ft}篇/总计{total_articles}篇</span></h2>
+      <div class="signal-layout">
+        <div class="signal-matrix-wrap">
+          <table class="signal-matrix" id="sigMatrix"><thead><tr>{mx_head}</tr></thead><tbody>{mx_body}</tbody></table>
+        </div>
+        <div class="signal-list-wrap">
+          <div class="signal-filters">
+            <select id="sigCountry" onchange="filterSignals()">{country_options_sig}</select>
+            <select id="sigTopic" onchange="filterSignals()">{topic_options_sig}</select>
+            <select id="sigStrength" onchange="filterSignals()">
+              <option value="">全部强度</option>
+              <option value="15">高(15+)</option>
+              <option value="10">中(10+)</option>
+              <option value="5">低(5+)</option>
+            </select>
+            <span class="sig-count" id="sigCountLabel"></span>
+          </div>
+          <div class="signal-list" id="signalList"></div>
+        </div>
+      </div>
+    </div>'''
+
+    # ── 选题候选 HTML（两层架构：决策层+待采信号层） ──
+    topic_html = f'''
+    <div class="dash-section topic-section" id="sec-topic" style="grid-column:1/-1">
+      <h2 class="sec-title">选题候选 <span class="sec-hint">决策层：有全文×可直接判断 | 限30条 | {n_decision}条入选（全文{n_has_ft}篇/总计{total_articles}篇）</span></h2>
+      <div class="topic-scroll"><table class="topic-table" id="topicTable"></table></div>
+    </div>
+    <div class="dash-section pending-section" id="sec-pending" style="grid-column:1/-1">
+      <h2 class="sec-title">待采信号 <span class="sec-hint">信号层：高强度但无全文，方向参考 | 限20条 | {n_pending}条</span></h2>
+      <div class="pending-scroll"><table class="topic-table pending-table" id="pendingTable"></table></div>
+    </div>'''
 
     # 7. 侧边栏数据
     mod_stats_rows = ""
@@ -553,6 +691,62 @@ a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}
 @media(max-width:900px){{.reader{{flex-direction:column}}.sidebar{{width:100%;max-height:260px;border-right:none;border-bottom:1px solid var(--border);position:static}}.content-area{{max-height:none}}}}
 @media(max-width:640px){{.container{{padding:10px}}.header h1{{font-size:18px}}.dashboard{{grid-template-columns:1fr}}.newmod-grid{{grid-template-columns:1fr 1fr}}.heatmap-grid{{grid-template-columns:repeat(auto-fill,minmax(70px,1fr))}}}}
 @media print{{body{{background:#fff;color:#222}}.toolbar,.sidebar{{display:none}}.reader{{display:block}}.content-area{{max-height:none;overflow:visible}}.dash-section{{border:1px solid #ddd}}.card{{border:1px solid #ddd;break-inside:avoid}}}}
+
+/* ── Signal Dashboard ── */
+.signal-section{{}}
+.signal-layout{{display:grid;grid-template-columns:1fr 1.6fr;gap:16px}}
+.signal-matrix-wrap{{overflow-x:auto}}
+.signal-matrix{{border-collapse:collapse;font-size:0.72em;width:100%}}
+.signal-matrix th,.signal-matrix td{{padding:3px 6px;text-align:center;border:1px solid var(--border)}}
+.signal-matrix th{{background:var(--surface2);color:var(--text2);font-weight:600;white-space:nowrap}}
+.signal-matrix td{{cursor:pointer;transition:background .15s}}
+.signal-matrix td:hover{{outline:2px solid var(--accent3)}}
+.mx-zero{{color:var(--text3);opacity:.4}}
+.mx-cool{{color:var(--tag-topic);background:rgba(96,165,250,.08)}}
+.mx-warm{{color:var(--medium);background:rgba(245,166,35,.12);font-weight:700}}
+.mx-hot{{color:var(--high);background:rgba(255,77,106,.18);font-weight:800}}
+.signal-list-wrap{{display:flex;flex-direction:column;gap:8px}}
+.signal-filters{{display:flex;gap:8px;flex-wrap:wrap;align-items:center}}
+.signal-filters select{{background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:4px 8px;font-size:0.82em}}
+.sig-count{{font-size:0.82em;color:var(--text3);margin-left:auto}}
+.signal-list{{max-height:400px;overflow-y:auto;display:flex;flex-direction:column;gap:4px}}
+.sig-item{{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:6px;background:var(--surface2);font-size:0.82em}}
+.sig-item:hover{{background:var(--border)}}
+.sig-strength{{min-width:32px;text-align:right;font-weight:700;font-size:0.9em}}
+.sig-high{{color:var(--high)}}.sig-med{{color:var(--medium)}}.sig-low{{color:var(--text3)}}
+.sig-country-tag{{font-size:0.8em;padding:1px 4px;border-radius:3px;background:var(--tag-country-bg);color:var(--tag-country)}}
+.sig-topic-tag{{font-size:0.8em;padding:1px 4px;border-radius:3px;background:var(--tag-topic-bg);color:var(--tag-topic)}}
+.sig-title{{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.sig-source{{color:var(--text3);font-size:0.85em;white-space:nowrap}}
+.sig-feedback{{display:flex;gap:2px;flex-shrink:0}}
+.fb-btn{{background:none;border:1px solid var(--border);color:var(--text3);border-radius:3px;padding:1px 5px;font-size:0.8em;cursor:pointer;line-height:1}}
+.fb-btn:hover{{background:var(--border)}}.fb-btn.active{{border-color:var(--accent3);color:var(--accent3)}}.fb-btn.fb-down.active{{border-color:var(--high);color:var(--high)}}
+
+/* ── Topic Candidates ── */
+.topic-section{{}}
+.topic-scroll{{overflow-x:auto;max-height:500px;overflow-y:auto}}
+.topic-table{{border-collapse:collapse;font-size:0.78em;width:100%}}
+.topic-table th{{position:sticky;top:0;background:var(--surface2);color:var(--text2);padding:6px 8px;text-align:left;border-bottom:2px solid var(--border);white-space:nowrap;z-index:1}}
+.topic-table td{{padding:5px 8px;border-bottom:1px solid rgba(48,54,61,.5);vertical-align:top}}
+.topic-table tr:hover td{{background:var(--surface2)}}
+.tt-title{{max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.select-btn{{background:var(--surface);border:1px solid var(--accent3);color:var(--accent3);border-radius:4px;padding:2px 8px;font-size:0.85em;cursor:pointer;white-space:nowrap}}
+.select-btn:hover{{background:rgba(88,166,255,.1)}}
+.select-btn.selected{{background:var(--accent3);color:var(--bg)}}
+
+/* FT tag in signal list */
+.ft-tag{{font-size:0.68em;padding:1px 3px;border-radius:2px;font-weight:700;margin-right:2px}}
+.ft-tag.has{{background:rgba(52,211,153,.15);color:var(--tag-country)}}
+.ft-tag.no{{background:rgba(139,148,158,.1);color:var(--text3)}}
+
+/* Pending section */
+.pending-section{{}}
+.pending-scroll{{overflow-x:auto;max-height:300px;overflow-y:auto}}
+.pending-table tbody tr{{opacity:0.7}}
+.pending-table tbody tr:hover{{opacity:1}}
+.ft-col{{font-size:0.85em;font-variant-numeric:tabular-nums;color:var(--tag-country)}}
+
+@media(max-width:900px){{.signal-layout{{grid-template-columns:1fr}}}}
 </style>
 </head>
 <body>
@@ -570,6 +764,9 @@ a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}
     {heatmap_html}
     {risk_html}
   </div>
+
+  {signal_html}
+  {topic_html}
 
   <hr class="divider">
   <div class="detail-header">全文浏览</div>
@@ -613,6 +810,9 @@ a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}
 
 <script type="application/json" id="articles-data">{articles_json}</script>
 <script type="application/json" id="fulltexts-data">{fulltexts_json}</script>
+<script type="application/json" id="signals-data">{signals_json}</script>
+<script type="application/json" id="topics-data">{topic_candidates_json}</script>
+<script type="application/json" id="pending-data">{pending_candidates_json}</script>
 <script>
 var DATA=JSON.parse(document.getElementById("articles-data").textContent);
 var FT=JSON.parse(document.getElementById("fulltexts-data").textContent);
@@ -727,6 +927,126 @@ document.getElementById("content").addEventListener("scroll",function(){{
 document.getElementById("content").addEventListener("click",function(e){{
   if(e.target.classList.contains("ft-btn"))toggleFT(e.target);
 }});
+
+// ── Signal Dashboard + Topic Candidates (两层架构) ──
+var SIGNALS=JSON.parse(document.getElementById("signals-data").textContent);
+var TOPICS=JSON.parse(document.getElementById("topics-data").textContent);
+var PENDING=JSON.parse(document.getElementById("pending-data").textContent);
+
+function getOdhFb(type,id){{try{{var v=localStorage.getItem("odh_fb_"+type+"_"+id);return v||""}}catch(e){{return""}}}}
+function saveOdhFb(type,id,val){{var k="odh_fb_"+type+"_"+id;var c=getOdhFb(type,id);localStorage.setItem(k,val===c?"":val);if(type==="sig")renderSignals();else renderTopics();}}
+function selectTopic(tid){{var k="odh_fb_topic_"+tid;var c=getOdhFb("topic",tid);localStorage.setItem(k,c?"":"selected");renderTopics();}}
+
+function renderSignals(){{
+  var country=document.getElementById("sigCountry").value;
+  var topic=document.getElementById("sigTopic").value;
+  var strength=document.getElementById("sigStrength").value;
+  var f=SIGNALS.filter(function(s){{
+    if(country&&s.cu!==country)return false;
+    if(topic&&s.to!==topic)return false;
+    if(strength&&s.ss<parseFloat(strength))return false;
+    return true;
+  }});
+  f.sort(function(a,b){{return b.ss-a.ss}});
+  var h="";
+  for(var i=0;i<Math.min(f.length,150);i++){{
+    var s=f[i];var a=DATA[s.i];if(!a)continue;
+    var sc=s.ss>=15?"sig-high":s.ss>=10?"sig-med":"sig-low";
+    var fb=getOdhFb("sig",s.i);
+    var upCls=fb==="up"?" active":"";
+    var dnCls=fb==="down"?" active":"";
+    var ftTag=s.hf?"<span class='ft-tag has'>FT</span>":"<span class='ft-tag no'>无FT</span>";
+    h+="<div class='sig-item'>"
+      +"<span class='sig-strength "+sc+"'>"+s.ss.toFixed(1)+"</span>"
+      +ftTag
+      +"<span class='sig-country-tag'>"+esc(s.cu)+"</span>"
+      +"<span class='sig-topic-tag'>"+esc(s.to)+"</span>"
+      +"<span class='sig-title'>"+esc(a.t)+"</span>"
+      +"<span class='sig-source'>"+esc((a.s||"").substring(0,25))+"</span>"
+      +"<div class='sig-feedback'>"
+      +"<button class='fb-btn fb-up"+upCls+"' data-sig-idx='"+s.i+"' data-action='up'>▲</button>"
+      +"<button class='fb-btn fb-down"+dnCls+"' data-sig-idx='"+s.i+"' data-action='down'>▼</button>"
+      +"</div></div>";
+  }}
+  document.getElementById("signalList").innerHTML=h;
+  document.getElementById("sigCountLabel").textContent=f.length+"条信号";
+}}
+
+function filterSignals(){{renderSignals();}}
+
+function renderTopics(){{
+  var h="<thead><tr><th>ID</th><th>紧迫</th><th>标题</th><th>国家×行业</th><th>理由</th><th>全文</th><th>字数</th><th>截稿</th><th>备选视角</th><th>操作</th></tr></thead><tbody>";
+  for(var i=0;i<TOPICS.length;i++){{
+    var t=TOPICS[i];
+    var uc=t.urgency==="高"?"sig-high":t.urgency==="中"?"sig-med":"sig-low";
+    var sel=getOdhFb("topic",t.id);
+    var angles=(t.alt_angles||[]).join("；");
+    var href=t.link?(" href='"+esc(t.link)+"' target='_blank'"):"";
+    var ftLen=t.ft_len?(""+t.ft_len+"字"):"-";
+    h+="<tr>"
+      +"<td>"+esc(t.id)+"</td>"
+      +"<td><span class='"+uc+"'>"+esc(t.urgency)+"</span></td>"
+      +"<td class='tt-title' title='"+esc(t.title)+"'>"+esc(t.title)+"</td>"
+      +"<td>"+esc(t.country_topic)+"</td>"
+      +"<td>"+esc(t.reason)+"</td>"
+      +"<td class='ft-col'>"+ftLen+"</td>"
+      +"<td>"+esc(t.est_words)+"</td>"
+      +"<td>"+esc(t.deadline)+"</td>"
+      +"<td style='max-width:160px;font-size:0.9em'>"+esc(angles)+"</td>"
+      +"<td nowrap>"+(t.link?"<a"+href+">原文</a> ":"")
+      +"<button class='select-btn"+(sel?" selected":"")+"' data-topic-id='"+esc(t.id)+"'>"+(sel?"已选用":"选用")+"</button></td></tr>";
+  }}
+  h+="</tbody>";
+  document.getElementById("topicTable").innerHTML=h;
+}}
+
+function renderPending(){{
+  var h="<thead><tr><th>ID</th><th>信号分</th><th>标题</th><th>国家×行业</th><th>信源</th><th>操作</th></tr></thead><tbody>";
+  for(var i=0;i<PENDING.length;i++){{
+    var p=PENDING[i];
+    var href=p.link?(" href='"+esc(p.link)+"' target='_blank'"):"";
+    h+="<tr>"
+      +"<td>"+esc(p.id)+"</td>"
+      +"<td class='sig-med'>"+p.ss.toFixed(1)+"</td>"
+      +"<td class='tt-title' title='"+esc(p.title)+"'>"+esc(p.title)+"</td>"
+      +"<td>"+esc(p.country_topic)+"</td>"
+      +"<td>"+esc(p.source)+"</td>"
+      +"<td nowrap>"+(p.link?"<a"+href+">原文</a>":"")+"</td></tr>";
+  }}
+  h+="</tbody>";
+  document.getElementById("pendingTable").innerHTML=h;
+}}
+
+// Signal feedback event delegation
+document.getElementById("signalList").addEventListener("click",function(e){{
+  var btn=e.target.closest(".fb-btn");if(!btn)return;
+  var idx=parseInt(btn.getAttribute("data-sig-idx"));
+  var action=btn.getAttribute("data-action");
+  saveOdhFb("sig",idx,action);
+}});
+
+// Topic select event delegation
+document.getElementById("topicTable").addEventListener("click",function(e){{
+  var btn=e.target.closest(".select-btn");if(!btn)return;
+  var tid=btn.getAttribute("data-topic-id");
+  selectTopic(tid);
+}});
+
+// Matrix cell click → filter
+document.getElementById("sigMatrix").addEventListener("click",function(e){{
+  var td=e.target;if(td.tagName!=="TD")return;
+  var tr=td.parentElement;var ci=td.cellIndex;var ri=tr.rowIndex;
+  if(ci===0||ri===0)return;
+  var country=tr.cells[0].textContent;
+  var topic=document.getElementById("sigMatrix").querySelector("thead tr").cells[ci].textContent;
+  document.getElementById("sigCountry").value=country;
+  document.getElementById("sigTopic").value=topic;
+  filterSignals();
+}});
+
+renderSignals();
+renderTopics();
+renderPending();
 </script>
 </body>
 </html>'''
