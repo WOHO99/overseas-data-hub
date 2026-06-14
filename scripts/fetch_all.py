@@ -49,6 +49,7 @@ from common import (
     PLAYWRIGHT_WAIT_MAX,
     get_source_tier,
     get_source_coefficient,
+    should_skip_fulltext,
 )
 
 # v6.0: 北京时间时区
@@ -59,10 +60,28 @@ def _is_gnews_link(link):
     """判定URL是否为Google News链接"""
     return bool(link and "news.google.com" in link)
 
-# v6.0.3: 付费墙源白名单 — 这些源full_text成功率为0%，直接标记unavailable避免无效请求
+# v6.0.4: 付费墙源白名单 — 这些源full_text成功率为0%，直接标记unavailable避免无效请求
+# 分类: 硬付费墙(paywall) / 反爬拦截(anti-bot) / 需登录(login-required)
 PAYWALL_SOURCES = frozenset([
+    # --- 原6个 (v6.0.3) ---
     "WSJ World", "FT Home", "Le Monde",
     "SCMP Tech", "SCMP Economy", "CNN Business",
+    # --- v6.0.4新增: 硬付费墙 ---
+    "WSJ Markets", "WSJ Tech", "WSJ Opinion",              # Dow Jones全系
+    "FT Alphaville", "FT Markets",                          # Financial Times全系
+    "Bloomberg Markets Direct", "Bloomberg Markets",        # Bloomberg
+    "Economist Business",                                   # The Economist
+    "The Atlantic",                                         # metered paywall
+    "Nikkei Asia",                                          # hard paywall
+    "Foreign Affairs",                                      # paywall
+    # --- v6.0.4新增: 反爬/需登录 ---
+    "NYT Business", "NYT World",                            # NYT metered+anti-bot
+    "WaPo World",                                           # WaPo metered
+    "SCMP Economy",  # 已在上面, 保留去重安全
+    # --- v6.0.4新增: GNews解析后付费墙(0%成功率源) ---
+    "South China Morning Post",
+    "Haaretz",
+    "Carbon Pulse",
 ])
 
 MODULE_REGISTRY = [
@@ -703,7 +722,7 @@ def build_index(seen, module_outputs):
         if full_text:
             item["content_status"] = "has_fulltext"
             content_status_counts["has_fulltext"] += 1
-        elif source_name in PAYWALL_SOURCES:
+        elif source_name in PAYWALL_SOURCES or should_skip_fulltext(source_name):
             item["content_status"] = "fulltext_unavailable"
             content_status_counts["fulltext_unavailable"] += 1
         elif is_gnews and has_canonical:
