@@ -64,6 +64,10 @@ jobs:
           else
             echo "Auto: when_days will be calculated from seen_index"
           fi
+          # v6.0.1: 打印所有ODH_参数（可在workflow inputs或secrets中预设）
+          echo "=== ODH Configurable Params ==="
+          for var in $(env | grep ^ODH_ || true); do echo "  $var"; done
+          echo "=== (defaults from common.py _env_param if not set) ==="
 
       - name: Run fetch
         run: |
@@ -85,6 +89,7 @@ jobs:
           name: json-outputs-${{ github.run_number }}
           path: |
             scripts/*.json
+          # retention=7天: 绑定download_daily.py调度频率，若调度间隔>3天需调整为2x间隔
           retention-days: 7
 
       - name: Upload seen_index artifact
@@ -93,6 +98,7 @@ jobs:
         with:
           name: seen-index-${{ github.run_number }}
           path: scripts/seen_index.json
+          # retention=30天: 与PRUNE_AGE_DAYS(默认90天)对齐，30天内可恢复seen_index基线
           retention-days: 30
 
       - name: Generate unified HTML report
