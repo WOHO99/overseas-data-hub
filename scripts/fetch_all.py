@@ -59,6 +59,12 @@ def _is_gnews_link(link):
     """判定URL是否为Google News链接"""
     return bool(link and "news.google.com" in link)
 
+# v6.0.3: 付费墙源白名单 — 这些源full_text成功率为0%，直接标记unavailable避免无效请求
+PAYWALL_SOURCES = frozenset([
+    "WSJ World", "FT Home", "Le Monde",
+    "SCMP Tech", "SCMP Economy", "CNN Business",
+])
+
 MODULE_REGISTRY = [
     {"module": "global_business", "output": "global_business.json", "core": True},
     {"module": "finance_global", "output": "finance.json", "core": False},
@@ -693,9 +699,13 @@ def build_index(seen, module_outputs):
         full_text = item.get("full_text")
         is_gnews = _is_gnews_link(item.get("link", ""))
         has_canonical = bool(item.get("canonical_url"))
+        source_name = item.get("source", "")
         if full_text:
             item["content_status"] = "has_fulltext"
             content_status_counts["has_fulltext"] += 1
+        elif source_name in PAYWALL_SOURCES:
+            item["content_status"] = "fulltext_unavailable"
+            content_status_counts["fulltext_unavailable"] += 1
         elif is_gnews and has_canonical:
             item["content_status"] = "fulltext_needs_retry"
             content_status_counts["fulltext_needs_retry"] += 1
