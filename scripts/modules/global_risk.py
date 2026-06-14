@@ -79,6 +79,10 @@ CONFIG = {
             {"url": "https://feeds.feedburner.com/TheHackersNews", "tag": "The Hacker News"},
             {"url": "https://grahamcluley.com/feed/", "tag": "Graham Cluley"},
         ],
+        "新增直连RSS(E)": [
+            # v3.6: 1源(网络安全)
+            {"url": "https://www.bleepingcomputer.com/feed/", "tag": "BleepingComputer"},
+        ],
     },
 }
 
