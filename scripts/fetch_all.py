@@ -1278,12 +1278,15 @@ def main():
 async def incremental_mode(forced_when_days=None):
     """
     v6.0 增量采集模式 — 补漏 + SeenIndex去重 + 仅对新增条目做full_text
+    v6.0.6: P1 fulltext增量重试 — 从上一轮articles中提取fulltext_needs_retry，
+            重试抓取（max_retry=2），避免有canonical_url的文章永远丢失FT机会。
     
     流程:
       1. 加载seen_index → 计算when_days（补漏天数）
       2. 设置环境变量OVERSEAS_WHEN_DAYS → 模块自动使用
       3. 运行18模块采集
       4. 加载articles → vs seen_index过滤（在full_text之前！）
+      4.5 P1: 从上一轮articles提取fulltext_needs_retry，加入FT重试队列
       5. 仅对新增articles: Playwright + full_text + beijing
       6. 全局去重（within-run）
       7. 更新seen_index → 保存
@@ -1323,9 +1326,54 @@ async def incremental_mode(forced_when_days=None):
     phase_log("PHASE: SeenIndex dedup (before Playwright/full_text)")
     articles_by_file = load_articles_from_modules()
     
+    # 4a. P1: 在写回之前，先从全量articles中收集fulltext_needs_retry
+    #     此时articles_by_file包含上一轮所有文章（含retry候选）
+    #     写回后只有new articles，retry候选就丢失了
+    MAX_FT_RETRY = 2       # 最多重试2次（加上首次共3次机会）
+    MAX_RETRY_PER_RUN = 10 # 每次增量运行最多重试10篇，避免FT阶段耗时过长
+    retry_articles_by_file = {}
+    retry_count = 0
+    retry_skipped = 0
+    all_retry_candidates = []  # BUG3 FIX: 收集所有候选再统一排序
+    for filename, articles in articles_by_file.items():
+        for a in articles:
+            if a.get("content_status") != "fulltext_needs_retry":
+                continue
+            retry_num = a.get("fulltext_retry_count", 0)
+            if retry_num >= MAX_FT_RETRY:
+                retry_skipped += 1
+                a["content_status"] = "fulltext_unavailable"
+                continue
+            # 需要有canonical_url才值得重试
+            if not (a.get("canonical_url") and not _is_gnews_link(a["canonical_url"])):
+                continue
+            a["fulltext_retry_count"] = retry_num + 1
+            all_retry_candidates.append((filename, a))
+    # BUG3 FIX: 按fulltext_retry_count升序排序，优先重试次数最少的
+    all_retry_candidates.sort(key=lambda x: x[1].get("fulltext_retry_count", 0))
+    for filename, a in all_retry_candidates:
+        if retry_count >= MAX_RETRY_PER_RUN:
+            break
+        retry_articles_by_file.setdefault(filename, []).append(a)
+        retry_count += 1
+    if retry_count > 0:
+        phase_log(f"P1 FT RETRY: {retry_count} articles to retry (skipped {retry_skipped} max-retry exceeded)")
+    elif retry_skipped > 0:
+        phase_log(f"P1 FT RETRY: {retry_skipped} articles max-retry exceeded, marked unavailable")
+    
+    # BUG1 FIX: 构建 retry_id_set，防止retry文章同时出现在new_articles中
+    retry_id_set = set()
+    for retry_list in retry_articles_by_file.values():
+        for a in retry_list:
+            rid = a.get("canonical_url") or a.get("link", "")
+            if rid:
+                retry_id_set.add(rid)
+
+    # 4b. SeenIndex过滤（全量 → 仅新增）
     total_raw = 0
     total_new = 0
     total_seen = 0
+    total_retry_deduped = 0
     for filename in list(articles_by_file.keys()):
         articles = articles_by_file[filename]
         total_raw += len(articles)
@@ -1334,11 +1382,16 @@ async def incremental_mode(forced_when_days=None):
             if seen_idx.is_seen(a):
                 total_seen += 1
             else:
+                # BUG1 FIX: 排除retry文章，避免双重处理
+                a_id = a.get("canonical_url") or a.get("link", "")
+                if a_id and a_id in retry_id_set:
+                    total_retry_deduped += 1
+                    continue
                 new_articles.append(a)
                 total_new += 1
         articles_by_file[filename] = new_articles
     
-    phase_log(f"  SeenIndex dedup: {total_raw} raw → {total_new} new ({total_seen} already seen, skipped)")
+    phase_log(f"  SeenIndex dedup: {total_raw} raw → {total_new} new ({total_seen} already seen, {total_retry_deduped} retry-deduped, skipped)")
     
     # 将过滤后的articles写回模块JSON（后续Playwright/full_text只处理新的）
     for entry in MODULE_REGISTRY:
@@ -1356,51 +1409,88 @@ async def incremental_mode(forced_when_days=None):
         except (json.JSONDecodeError, OSError) as e:
             phase_log(f"  [WARN] Failed to update {output_file}: {e}")
     
-    if total_new == 0:
-        phase_log("No new articles — skipping Playwright/full_text")
+    if total_new == 0 and retry_count == 0:
+        phase_log("No new articles and no FT retries — skipping Playwright/full_text")
         # 仍然更新seen_index的last_fetch_date
         today_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
         seen_idx.update_stats(today_str, 0, total_seen)
         seen_idx.save(seen_index_path)
-        phase_log("INCREMENTAL DONE: 0 new articles")
+        phase_log("INCREMENTAL DONE: 0 new articles, 0 retries")
         return
     
-    # 5. Playwright（仅处理新增articles）
-    phase_log("=" * 70)
-    phase_log("PHASE: Playwright GNews resolve (new articles only, high+medium)")
-    from common import batch_resolve_gnews_with_browser
+    # total_new==0但有retry时，跳过Playwright和新增FT，直接做retry
+    pw_resolved = 0; pw_total = 0; pw_elapsed = 0.0
+    fetched = 0; total_ft = 0; ft_elapsed = 0.0
     
-    articles_by_file_pw = load_articles_from_modules()
-    pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_pw, priority_filter="high+medium", max_items=500
-    )
-    phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
+    if total_new > 0:
+        # 5. Playwright（仅处理新增articles）
+        phase_log("=" * 70)
+        phase_log("PHASE: Playwright GNews resolve (new articles only, high+medium)")
+        from common import batch_resolve_gnews_with_browser
+        
+        articles_by_file_pw = load_articles_from_modules()
+        pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
+            articles_by_file_pw, priority_filter="high+medium", max_items=500
+        )
+        phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
+        
+        # 将PW结果写回
+        if pw_resolved > 0:
+            for entry in MODULE_REGISTRY:
+                output_file = entry["output"]
+                full_path = os.path.join(SCRIPT_DIR, output_file)
+                if output_file not in articles_by_file_pw:
+                    continue
+                try:
+                    with open(full_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                    data["articles"] = articles_by_file_pw[output_file]
+                    atomic_write_json(data, full_path)
+                except (json.JSONDecodeError, OSError) as e:
+                    phase_log(f"  [WARN] PW write-back {output_file}: {e}")
+        
+        # 6. Full text（仅处理新增articles）
+        phase_log("=" * 70)
+        phase_log("PHASE: Full text fetch (new articles only)")
+        from common import fetch_full_text_batch
+        
+        articles_by_file_ft = load_articles_from_modules()
+        fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
+            articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
+        )
+        phase_log(f"PHASE DONE: Full text — {fetched}/{total_ft} fetched ({ft_elapsed:.1f}s)")
+    else:
+        phase_log("No new articles but FT retries pending — skipping Playwright/new FT")
+        from common import fetch_full_text_batch
     
-    # 将PW结果写回
-    if pw_resolved > 0:
-        for entry in MODULE_REGISTRY:
-            output_file = entry["output"]
+    # 6.5 P1: fulltext增量重试 — 处理上一轮fulltext_needs_retry的文章
+    retry_fetched = 0
+    if retry_count > 0:
+        phase_log("=" * 70)
+        phase_log(f"P1 FT RETRY: Retrying {retry_count} articles from previous runs")
+        retry_fetched_actual, retry_total, retry_elapsed = await fetch_full_text_batch(
+            retry_articles_by_file, priority_filter="all", concurrency=8, timeout=15
+        )
+        phase_log(f"P1 FT RETRY DONE: {retry_fetched_actual}/{retry_total} fetched ({retry_elapsed:.1f}s)")
+        # 将重试成功的结果回写到模块JSON
+        for output_file, retry_list in retry_articles_by_file.items():
             full_path = os.path.join(SCRIPT_DIR, output_file)
-            if output_file not in articles_by_file_pw:
+            if not os.path.exists(full_path):
                 continue
             try:
                 with open(full_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                data["articles"] = articles_by_file_pw[output_file]
+                existing_urls = {a.get("canonical_url") or a.get("link") for a in data.get("articles", [])}
+                for ra in retry_list:
+                    if ra.get("full_text"):
+                        # 重试成功：更新content_status
+                        ra["content_status"] = "has_fulltext"
+                        retry_fetched += 1
+                        if ra.get("canonical_url") not in existing_urls and ra.get("link") not in existing_urls:
+                            data["articles"].append(ra)
                 atomic_write_json(data, full_path)
             except (json.JSONDecodeError, OSError) as e:
-                phase_log(f"  [WARN] PW write-back {output_file}: {e}")
-    
-    # 6. Full text（仅处理新增articles）
-    phase_log("=" * 70)
-    phase_log("PHASE: Full text fetch (new articles only)")
-    from common import fetch_full_text_batch
-    
-    articles_by_file_ft = load_articles_from_modules()
-    fetched, total_ft, ft_elapsed = await fetch_full_text_batch(
-        articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
-    )
-    phase_log(f"PHASE DONE: Full text — {fetched}/{total_ft} fetched ({ft_elapsed:.1f}s)")
+                phase_log(f"  [WARN] P1 retry write-back {output_file}: {e}")
     
     # 7. Beijing time回填
     phase_log("PHASE: Beijing time backfill")
@@ -1431,13 +1521,26 @@ async def incremental_mode(forced_when_days=None):
     phase_log("PHASE: Update SeenIndex")
     today_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
     
-    # 将全局去重后的文章加入seen_index
+    # BUG2 FIX: pw_skipped_early_stop的文章也加入seen_index
+    # 原逻辑：不加入→下轮重新出现→但没有canonical_url→P1 retry无法捞→死区
+    # 新逻辑：加入seen_index防止重复采集 + 标记fulltext_unavailable
     added_to_index = 0
+    skipped_pw = 0
     for h, entry in seen.items():
         article = entry["item"]
+        if article.get("pw_skipped_early_stop"):
+            skipped_pw += 1
+            article["content_status"] = "fulltext_unavailable"
+            # 仍然加入seen_index，避免下轮重复采集但永远无法获取正文
+            if not seen_idx.is_seen(article):
+                seen_idx.add(article, date_str=today_str)
+                added_to_index += 1
+            continue
         if not seen_idx.is_seen(article):
             seen_idx.add(article, date_str=today_str)
             added_to_index += 1
+    if skipped_pw > 0:
+        phase_log(f"  {skipped_pw} pw_skipped_early_stop articles added to seen_index as fulltext_unavailable (BUG2 fix)")
     
     # 清理旧条目（>90天）
     seen_idx.prune_old_entries(max_age_days=90)
@@ -1457,7 +1560,7 @@ async def incremental_mode(forced_when_days=None):
     print(f"  New articles: {total_new}")
     print(f"  After global dedup: {index['global_total']}")
     print(f"  Added to seen_index: {added_to_index}")
-    print(f"  Playwright: {pw_resolved}/{pw_total}, Full text: {fetched}/{total_ft}")
+    print(f"  Playwright: {pw_resolved}/{pw_total}, Full text: {fetched}/{total_ft}, FT retry: {retry_fetched}")
     print(f"  SeenIndex total entries: {len(seen_idx.entries)}")
     print(f"{'='*70}")
 
