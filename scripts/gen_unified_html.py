@@ -984,7 +984,7 @@ function renderSignals(){{
 function filterSignals(){{renderSignals();}}
 
 function renderTopics(){{
-  var h="<thead><tr><th>ID</th><th>紧迫</th><th>标题</th><th>国家×行业</th><th>理由</th><th>全文</th><th>字数</th><th>截稿</th><th>备选视角</th><th>操作</th></tr></thead><tbody>";
+  var h="<thead><tr><th>ID</th><th>紧迫</th><th>标题</th><th>国家×行业</th><th>理由</th><th>全文</th><th>字数</th><th>建议出稿</th><th>备选视角</th><th>操作</th></tr></thead><tbody>";
   for(var i=0;i<TOPICS.length;i++){{
     var t=TOPICS[i];
     var uc=t.urgency==="高"?"sig-high":t.urgency==="中"?"sig-med":"sig-low";
@@ -1000,7 +1000,7 @@ function renderTopics(){{
       +"<td>"+esc(t.reason)+"</td>"
       +"<td class='ft-col'>"+ftLen+"</td>"
       +"<td>"+esc(t.est_words)+"</td>"
-      +"<td>"+esc(t.deadline)+"</td>"
+      +"<td>"+esc(t.deadline?t.deadline+"前出稿":"")+"</td>"
       +"<td style='max-width:160px;font-size:0.9em'>"+esc(angles)+"</td>"
       +"<td nowrap>"+(t.link?"<a"+href+">原文</a> ":"")
       +"<button class='select-btn"+(sel?" selected":"")+"' data-topic-id='"+esc(t.id)+"'>"+(sel?"已选用":"选用")+"</button></td></tr>";
