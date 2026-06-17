@@ -1311,6 +1311,7 @@ def main():
         "full": main_async,
         "incremental": incremental_mode,
         "backfill": backfill_mode,
+        "pw-backfill": pw_backfill_mode,
     }
     if mode not in modes:
         print(f"Unknown mode: {mode}. Available: {', '.join(modes.keys())}")
@@ -1648,6 +1649,133 @@ async def backfill_mode():
     await incremental_mode(forced_when_days=30)
     
     phase_log("BACKFILL DONE: seen_index baseline established")
+
+
+async def pw_backfill_mode():
+    """
+    v6.0.8.1 GNews Playwright回填 — 对已有数据中未解析的GNews链接批量解析
+    不跑采集/去重，只做Playwright解析+正文提取+写回模块文件
+    分批处理，每批500篇，批次间冷却60s防Google限速
+    """
+    from common import batch_resolve_gnews_with_browser, atomic_write_json, _is_gnews_url
+    
+    phase_log("=" * 70)
+    phase_log("PW-BACKFILL MODE: Resolve unresolved GNews URLs in existing data")
+    
+    # 1. 加载现有模块数据
+    articles_by_file = load_articles_from_modules()
+    
+    # 2. 统计未解析GNews链接
+    unresolved = 0
+    for filename, articles in articles_by_file.items():
+        for article in articles:
+            if _is_gnews_url(article.get("link", "")) and not article.get("canonical_url"):
+                unresolved += 1
+    phase_log(f"  Unresolved GNews URLs: {unresolved}")
+    
+    if unresolved == 0:
+        phase_log("PW-BACKFILL DONE: No unresolved GNews URLs")
+        return
+    
+    # 3. 分批Playwright解析
+    BATCH_SIZE = 500
+    total_resolved = 0
+    total_attempted = 0
+    batch_num = 0
+    
+    while True:
+        batch_num += 1
+        # 重新加载（前批结果已写回）
+        articles_by_file = load_articles_from_modules()
+        
+        # 统计剩余未解析
+        remaining = 0
+        for filename, articles in articles_by_file.items():
+            for article in articles:
+                if _is_gnews_url(article.get("link", "")) and not article.get("canonical_url"):
+                    remaining += 1
+        
+        if remaining == 0:
+            phase_log(f"PW-BACKFILL: All GNews URLs resolved after {batch_num - 1} batches")
+            break
+        
+        phase_log(f"  Batch {batch_num}: {remaining} URLs remaining, processing up to {BATCH_SIZE}")
+        
+        # v6.0.8.1: 容错
+        try:
+            resolved, attempted, elapsed = await batch_resolve_gnews_with_browser(
+                articles_by_file, priority_filter="all", max_items=BATCH_SIZE
+            )
+        except Exception as pw_err:
+            phase_log(f"  [PW-BACKFILL] Batch {batch_num} CRASHED: {type(pw_err).__name__}: {str(pw_err)[:200]}")
+            resolved, attempted, elapsed = 0, 0, 0.0
+        
+        total_resolved += resolved
+        total_attempted += attempted
+        phase_log(f"  Batch {batch_num} DONE: {resolved}/{attempted} resolved ({elapsed:.1f}s)")
+        
+        # 4. 写回模块文件
+        written = 0
+        for entry in MODULE_REGISTRY:
+            output_file = entry["output"]
+            full_path = os.path.join(SCRIPT_DIR, output_file)
+            if output_file not in articles_by_file:
+                continue
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                data["articles"] = articles_by_file[output_file]
+                atomic_write_json(data, full_path)
+                written += 1
+            except (json.JSONDecodeError, OSError) as e:
+                phase_log(f"  [WARN] PW write-back {output_file}: {e}")
+        phase_log(f"  Written back to {written} module files")
+        
+        # 5. 批次间冷却
+        if remaining > BATCH_SIZE:
+            phase_log(f"  Cooling down 60s before next batch...")
+            import asyncio
+            await asyncio.sleep(60)
+    
+    # 6. 对新解析的文章补充full_text（有canonical_url但无full_text的）
+    phase_log("=" * 70)
+    phase_log("PHASE: Full text fetch for newly resolved articles")
+    from common import fetch_full_text_batch
+    
+    articles_by_file_ft = load_articles_from_modules()
+    ft_candidates = 0
+    for filename, articles in articles_by_file_ft.items():
+        for article in articles:
+            if article.get("canonical_url") and not article.get("full_text") and not article.get("content_status"):
+                ft_candidates += 1
+    phase_log(f"  {ft_candidates} articles with canonical_url but no full_text")
+    
+    if ft_candidates > 0:
+        try:
+            fetched, ft_total, ft_elapsed = await fetch_full_text_batch(
+                articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
+            )
+            phase_log(f"  Full text: {fetched}/{ft_total} fetched ({ft_elapsed:.1f}s)")
+        except Exception as ft_err:
+            phase_log(f"  [PW-BACKFILL] Full text CRASHED: {type(ft_err).__name__}: {str(ft_err)[:200]}")
+        
+        # 写回
+        written = 0
+        for entry in MODULE_REGISTRY:
+            output_file = entry["output"]
+            full_path = os.path.join(SCRIPT_DIR, output_file)
+            if output_file not in articles_by_file_ft:
+                continue
+            try:
+                with open(full_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                data["articles"] = articles_by_file_ft[output_file]
+                atomic_write_json(data, full_path)
+                written += 1
+            except (json.JSONDecodeError, OSError) as e:
+                phase_log(f"  [WARN] FT write-back {output_file}: {e}")
+    
+    phase_log(f"PW-BACKFILL DONE: {total_resolved}/{total_attempted} URLs resolved total")
 
 
 if __name__ == "__main__":
