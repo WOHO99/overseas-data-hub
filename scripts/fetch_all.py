@@ -1798,7 +1798,7 @@ async def pw_backfill_mode():
         
         total_resolved += resolved
         total_attempted += attempted
-        phase_log(f"  Batch {batch_num} DONE: {resolved}/{attempted} resolved ({elapsed:.1f}s)")
+        phase_log(f"  Batch {batch_num} DONE: {resolved}/{attempted} resolved ({elapsed or 0.0:.1f}s)")
         
         # 4. 写回模块文件
         written = 0
@@ -1841,7 +1841,7 @@ async def pw_backfill_mode():
             fetched, ft_total, ft_elapsed = await fetch_full_text_batch(
                 articles_by_file_ft, priority_filter="all", concurrency=8, timeout=15
             )
-            phase_log(f"  Full text: {fetched}/{ft_total} fetched ({ft_elapsed:.1f}s)")
+            phase_log(f"  Full text: {fetched}/{ft_total} fetched ({ft_elapsed or 0.0:.1f}s)")
         except Exception as ft_err:
             phase_log(f"  [PW-BACKFILL] Full text CRASHED: {type(ft_err).__name__}: {str(ft_err)[:200]}")
         
