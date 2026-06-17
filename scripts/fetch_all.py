@@ -1495,9 +1495,15 @@ async def incremental_mode(forced_when_days=None):
         from common import batch_resolve_gnews_with_browser
         
         articles_by_file_pw = load_articles_from_modules()
-        pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-            articles_by_file_pw, priority_filter="high+medium", max_items=500
-        )
+        # v6.0.8.1: Playwright容错 — 浏览器崩溃不杀整个pipeline
+        try:
+            pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
+                articles_by_file_pw, priority_filter="high+medium", max_items=500
+            )
+        except Exception as pw_err:
+            phase_log(f"[PLAYWRIGHT] CRASHED: {type(pw_err).__name__}: {str(pw_err)[:200]}")
+            phase_log("[PLAYWRIGHT] Continuing pipeline without Playwright results")
+            pw_resolved, pw_total, pw_elapsed = 0, 0, 0.0
         phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
         
         # 将PW结果写回
