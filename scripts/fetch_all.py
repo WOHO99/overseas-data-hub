@@ -1710,11 +1710,17 @@ async def pw_backfill_mode():
             
             phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
             
-            # Step 3: Download artifact zip
-            _dl_url = _json_art["archive_download_url"]
+            # Step 3: Download artifact zip via GitHub API (handles Azure Blob redirect)
+            _dl_url = f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip"
             _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
-            with _urllib_request.urlopen(_dl_req, timeout=60) as _dl_resp:
-                _dl_content = _dl_resp.read()
+            # Follow redirect to Azure Blob Storage (no auth needed for blob URL)
+            try:
+                _opener = _urllib_request.build_opener(_urllib_request.HTTPRedirectHandler)
+                _dl_resp_raw = _opener.open(_dl_req, timeout=60)
+                _dl_content = _dl_resp_raw.read()
+            except _urllib_error.HTTPError as _http_err:
+                phase_log(f"  WARN: Download artifact failed ({_http_err.code}): {str(_http_err)[:200]}")
+                raise
             
             phase_log(f"  Downloaded artifact zip: {len(_dl_content)} bytes")
             
