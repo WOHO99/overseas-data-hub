@@ -20,7 +20,7 @@ _core_kw, _important_kw, _aux_kw, _signal_kw, _exclude_kw = load_keywords(_confi
 
 CONFIG = {
     "name": "全球宏观与资本流动",
-    "output_file": "finance.json",
+    "output_file": "finance_global.json",
     "max_articles": 800,
     "core_keywords": _core_kw,
     "important_keywords": _important_kw,
