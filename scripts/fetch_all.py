@@ -1669,48 +1669,70 @@ async def pw_backfill_mode():
     
     if total_loaded == 0:
         phase_log("  No module data found locally, attempting to download from GitHub artifact...")
-        _gh_env = os.environ.copy()
-        # gh CLI needs GH_TOKEN; in GitHub Actions, GITHUB_TOKEN is available
-        if "GH_TOKEN" not in _gh_env and "GITHUB_TOKEN" in _gh_env:
-            _gh_env["GH_TOKEN"] = _gh_env["GITHUB_TOKEN"]
+        _gh_token = os.environ.get("GITHUB_TOKEN", os.environ.get("GH_TOKEN", ""))
+        _gh_repo = os.environ.get("GITHUB_REPOSITORY", "")
         try:
-            import subprocess
-            result = subprocess.run(
-                ["gh", "run", "list", "-R", os.environ.get("GITHUB_REPOSITORY", ""), "--status", "success", "--limit", "5", "--json", "databaseId"],
-                capture_output=True, text=True, timeout=30, env=_gh_env
+            import subprocess, zipfile, io, glob as _glob, shutil
+            import requests as _requests
+            _api = "https://api.github.com"
+            _headers = {"Authorization": f"token {_gh_token}", "Accept": "application/vnd.github.v3+json"}
+            
+            # Step 1: Find latest successful workflow run
+            _runs_resp = _requests.get(
+                f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=5",
+                headers=_headers, timeout=15
             )
-            if result.returncode == 0:
-                import json as _json
-                runs = _json.loads(result.stdout)
-                if runs:
-                    best_run_id = str(runs[0].get("databaseId", ""))
-                    phase_log(f"  Latest successful run: {best_run_id}")
-                    # 用gh run download下载所有artifact到/tmp/artifacts/
-                    dl_result = subprocess.run(
-                        ["gh", "run", "download", best_run_id, "-D", "/tmp/artifacts/"],
-                        capture_output=True, text=True, timeout=60, env=_gh_env
-                    )
-                    if dl_result.returncode == 0:
-                        # 从下载的artifact中查找json-outputs目录
-                        import glob as _glob
-                        json_dirs = _glob.glob("/tmp/artifacts/json-outputs-*")
-                        if json_dirs:
-                            src_dir = json_dirs[0]
-                            phase_log(f"  Found artifact dir: {src_dir}")
-                            # 复制所有JSON到scripts/
-                            for jf in _glob.glob(os.path.join(src_dir, "*.json")):
-                                dest = os.path.join(SCRIPT_DIR, os.path.basename(jf))
-                                import shutil
-                                shutil.copy2(jf, dest)
-                                phase_log(f"    Copied {os.path.basename(jf)}")
-                        else:
-                            phase_log("  WARN: No json-outputs-* directory found in artifact")
-                    else:
-                        phase_log(f"  WARN: gh run download failed: {dl_result.stderr[:200]}")
-                else:
-                    phase_log("  WARN: No successful runs found")
-            else:
-                phase_log(f"  WARN: gh run list failed: {result.stderr[:200]}")
+            if _runs_resp.status_code != 200:
+                phase_log(f"  WARN: List runs API failed ({_runs_resp.status_code})")
+                raise Exception(f"API { _runs_resp.status_code}")
+            
+            _runs = _runs_resp.json().get("workflow_runs", [])
+            if not _runs:
+                phase_log("  WARN: No successful runs found")
+                raise Exception("No runs")
+            
+            _best_run_id = _runs[0]["id"]
+            phase_log(f"  Latest successful run: {_best_run_id}")
+            
+            # Step 2: List artifacts for that run
+            _art_resp = _requests.get(
+                f"{_api}/repos/{_gh_repo}/actions/runs/{_best_run_id}/artifacts",
+                headers=_headers, timeout=15
+            )
+            _artifacts = _art_resp.json().get("artifacts", [])
+            _json_art = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
+            
+            if not _json_art:
+                phase_log("  WARN: No json-outputs artifact found in run")
+                raise Exception("No artifact")
+            
+            phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
+            
+            # Step 3: Download and extract the artifact
+            _dl_resp = _requests.get(
+                f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip",
+                headers={"Authorization": f"token {_gh_token}"},
+                timeout=60
+            )
+            if _dl_resp.status_code != 200:
+                phase_log(f"  WARN: Download artifact failed ({_dl_resp.status_code})")
+                raise Exception(f"Download { _dl_resp.status_code}")
+            
+            # Step 4: Extract JSON files from zip to scripts/
+            _zf = zipfile.ZipFile(io.BytesIO(_dl_resp.content))
+            _copied = 0
+            for name in _zf.namelist():
+                if name.endswith(".json") and not name.endswith("seen_index.json"):
+                    data = _zf.read(name)
+                    fname = os.path.basename(name)
+                    dest = os.path.join(SCRIPT_DIR, fname)
+                    with open(dest, "wb") as wf:
+                        wf.write(data)
+                    _copied += 1
+                    phase_log(f"    Extracted {fname} ({len(data)} bytes)")
+            _zf.close()
+            phase_log(f"  Extracted {_copied} JSON files from artifact")
+            
         except Exception as e:
             phase_log(f"  WARN: Artifact download failed: {type(e).__name__}: {str(e)[:200]}")
         
