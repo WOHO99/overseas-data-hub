@@ -1669,11 +1669,15 @@ async def pw_backfill_mode():
     
     if total_loaded == 0:
         phase_log("  No module data found locally, attempting to download from GitHub artifact...")
+        _gh_env = os.environ.copy()
+        # gh CLI needs GH_TOKEN; in GitHub Actions, GITHUB_TOKEN is available
+        if "GH_TOKEN" not in _gh_env and "GITHUB_TOKEN" in _gh_env:
+            _gh_env["GH_TOKEN"] = _gh_env["GITHUB_TOKEN"]
         try:
             import subprocess
             result = subprocess.run(
                 ["gh", "run", "list", "-R", os.environ.get("GITHUB_REPOSITORY", ""), "--status", "success", "--limit", "5", "--json", "databaseId"],
-                capture_output=True, text=True, timeout=30
+                capture_output=True, text=True, timeout=30, env=_gh_env
             )
             if result.returncode == 0:
                 import json as _json
@@ -1684,7 +1688,7 @@ async def pw_backfill_mode():
                     # 用gh run download下载所有artifact到/tmp/artifacts/
                     dl_result = subprocess.run(
                         ["gh", "run", "download", best_run_id, "-D", "/tmp/artifacts/"],
-                        capture_output=True, text=True, timeout=60
+                        capture_output=True, text=True, timeout=60, env=_gh_env
                     )
                     if dl_result.returncode == 0:
                         # 从下载的artifact中查找json-outputs目录
