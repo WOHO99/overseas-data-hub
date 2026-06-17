@@ -989,20 +989,60 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                     await context.close()
                 except Exception:
                     pass
-                context = await browser.new_context(
-                    user_agent=_BROWSER_HEADERS.get("User-Agent", "Mozilla/5.0"),
-                    viewport={"width": 1280, "height": 720},
-                )
-                page = await context.new_page()
+                # v6.0.8.1: Context重建容错 — 浏览器进程可能崩溃
+                context_ok = False
                 try:
-                    from playwright_stealth import stealth_async
-                    await stealth_async(page)
-                except ImportError:
-                    pass
-                # v6.0.8: Context重建后重置滑动窗口（仅影响近K篇观测），基线不清空
-                recent_results.clear()
-                context_rebuild_at = i  # 记录重建位置，用于热身期
-                phase_log(f"[PLAYWRIGHT] Context rebuilt at article {i} (anti-fingerprint, window reset, baseline preserved)")
+                    context = await browser.new_context(
+                        user_agent=_BROWSER_HEADERS.get("User-Agent", "Mozilla/5.0"),
+                        viewport={"width": 1280, "height": 720},
+                    )
+                    page = await context.new_page()
+                    try:
+                        from playwright_stealth import stealth_async
+                        await stealth_async(page)
+                    except ImportError:
+                        pass
+                    context_ok = True
+                except Exception as ctx_err:
+                    phase_log(f"[PLAYWRIGHT] Context rebuild failed: {type(ctx_err).__name__}: {str(ctx_err)[:100]}")
+                    # 尝试重启整个浏览器
+                    try:
+                        await browser.close()
+                    except Exception:
+                        pass
+                    try:
+                        browser = await p.chromium.launch(
+                            headless=True,
+                            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage",
+                                  "--disable-gpu", "--no-zygote", "--single-process"],
+                        )
+                        context = await browser.new_context(
+                            user_agent=_BROWSER_HEADERS.get("User-Agent", "Mozilla/5.0"),
+                            viewport={"width": 1280, "height": 720},
+                        )
+                        page = await context.new_page()
+                        try:
+                            from playwright_stealth import stealth_async
+                            await stealth_async(page)
+                        except ImportError:
+                            pass
+                        context_ok = True
+                        phase_log(f"[PLAYWRIGHT] Browser restarted successfully at article {i}")
+                    except Exception as br_err:
+                        phase_log(f"[PLAYWRIGHT] Browser restart also failed: {type(br_err).__name__}: {str(br_err)[:100]}")
+                
+                if context_ok:
+                    # v6.0.8: Context重建后重置滑动窗口（仅影响近K篇观测），基线不清空
+                    recent_results.clear()
+                    context_rebuild_at = i  # 记录重建位置，用于热身期
+                    phase_log(f"[PLAYWRIGHT] Context rebuilt at article {i} (anti-fingerprint, window reset, baseline preserved)")
+                else:
+                    # 浏览器完全不可用，标记所有剩余文章并提前退出Playwright阶段
+                    phase_log(f"[PLAYWRIGHT] Browser unavailable, stopping at article {i}/{total}")
+                    for skip_i in range(i - 1, len(targets)):
+                        sf, si, _ = targets[skip_i]
+                        articles_by_file[sf][si]["pw_skipped_browser_crash"] = True
+                    break
             
             try:
                 # 导航到 GNews 跟踪 URL，等待 JS 重定向完成
