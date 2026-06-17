@@ -1,173 +1,173 @@
-name: Manual Global Fetch
-
-on:
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: 'Fetch mode'
-        type: choice
-        options:
-          - incremental
-          - backfill
-          - pw-backfill
-        default: incremental
-      when_days:
-        description: 'Override when_days (e.g. 7, 30). Leave empty for auto-calc based on seen_index.'
-        type: string
-        default: ''
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
-permissions:
-  contents: write
-  actions: read
-
-concurrency:
-  group: global-fetch
-  cancel-in-progress: true
-
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    timeout-minutes: 300
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
-
-      - name: Restore seen_index cache
-        uses: actions/cache@v4
-        with:
-          path: scripts/seen_index.json
-          key: seen-index-${{ github.run_id }}
-          restore-keys: |
-            seen-index-
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40 playwright-stealth>=1.0 jinja2>=3.1
-
-      - name: Cache Playwright Chromium
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-chromium-${{ runner.os }}-v1
-          restore-keys: |
-            playwright-chromium-${{ runner.os }}-
-
-      - name: Install Playwright Chromium
-        run: playwright install chromium --with-deps
-
-      - name: Set env overrides
-        run: |
-          if [ -n "${{ github.event.inputs.when_days }}" ]; then
-            echo "OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d" >> $GITHUB_ENV
-            echo "Override: OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d"
-          else
-            echo "Auto: when_days will be calculated from seen_index"
-          fi
-          # v6.0.1: 打印所有ODH_参数（可在workflow inputs或secrets中预设）
-          echo "=== ODH Configurable Params ==="
-          for var in $(env | grep ^ODH_ || true); do echo "  $var"; done
-          echo "=== (defaults from common.py _env_param if not set) ==="
-
-      - name: Restore module data for pw-backfill
-        if: github.event.inputs.mode == 'pw-backfill'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Find latest successful run and download its json-outputs artifact
-          LATEST_RUN=$(gh run list -R ${{ github.repository }} --status success --limit 10 --json databaseId --jq '.[0].databaseId')
-          if [ -z "$LATEST_RUN" ]; then
-            echo "ERROR: No successful run found to download module data from"
-            exit 1
-          fi
-          echo "Downloading json-outputs from run $LATEST_RUN"
-          gh run download $LATEST_RUN -R ${{ github.repository }} -n json-outputs-$(gh run view $LATEST_RUN -R ${{ github.repository }} --json runNumber --jq '.runNumber') -D scripts/ 2>/dev/null || {
-            # Fallback: try downloading by artifact name pattern
-            echo "Direct download failed, trying artifact list..."
-            ARTIFACT_NAME=$(gh run view $LATEST_RUN -R ${{ github.repository }} --json artifacts --jq '.artifacts[] | select(.name | startswith("json-outputs")) | .name' | head -1)
-            if [ -n "$ARTIFACT_NAME" ]; then
-              gh run download $LATEST_RUN -R ${{ github.repository }} -n "$ARTIFACT_NAME" -D /tmp/json-outputs/
-              cp /tmp/json-outputs/*.json scripts/ 2>/dev/null || true
-            else
-              echo "WARN: No json-outputs artifact found, pw-backfill will have no data to process"
-            fi
-          }
-          echo "Module JSON files in scripts/:"
-          ls -la scripts/*.json 2>/dev/null || echo "  (none)"
-
-      - name: Run fetch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: |
-          cd scripts
-          python -u fetch_all.py ${{ github.event.inputs.mode || 'incremental' }} 2>&1 | tee ../fetch_log.txt
-
-      - name: Upload fetch log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: fetch-log-${{ github.run_number }}
-          path: fetch_log.txt
-          retention-days: 7
-
-      - name: Upload JSON outputs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: json-outputs-${{ github.run_number }}
-          path: |
-            scripts/*.json
-          # retention=7天: 绑定download_daily.py调度频率，若调度间隔>3天需调整为2x间隔
-          retention-days: 7
-
-      - name: Upload seen_index artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: seen-index-${{ github.run_number }}
-          path: scripts/seen_index.json
-          # retention=30天: 与PRUNE_AGE_DAYS(默认90天)对齐，30天内可恢复seen_index基线
-          retention-days: 30
-
-      - name: Generate unified HTML report
-        if: success()
-        run: |
-          mkdir -p data
-          cp scripts/index.json data/ 2>/dev/null || true
-          for f in scripts/global_business.json scripts/finance_global.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
-            [ -f "$f" ] && cp "$f" data/
-          done
-          cd scripts
-          python gen_unified_html.py ../data/ ../全球视野日报.html || echo "HTML generation failed, continuing..."
-
-      - name: Upload HTML report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: html-report-${{ github.run_number }}
-          path: 全球视野日报.html
-          retention-days: 30
-
-      - name: Send daily report via email
-        if: success()
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
-        run: python send_report.py
-
-      - name: Send daily brief (push notification)
-        if: success()
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
-        run: python daily_brief.py
+name: Manual Global Fetch
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Fetch mode'
+        type: choice
+        options:
+          - incremental
+          - backfill
+          - pw-backfill
+        default: incremental
+      when_days:
+        description: 'Override when_days (e.g. 7, 30). Leave empty for auto-calc based on seen_index.'
+        type: string
+        default: ''
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: global-fetch
+  cancel-in-progress: true  # Must be true: shared module JSON files between runs are not compatible
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Restore seen_index cache
+        uses: actions/cache@v4
+        with:
+          path: scripts/seen_index.json
+          key: seen-index-${{ github.run_id }}
+          restore-keys: |
+            seen-index-
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser>=6.0 pyyaml>=6.0 aiohttp>=3.9 rapidfuzz>=3.0 trafilatura>=1.6 python-dateutil>=2.8 playwright>=1.40 playwright-stealth>=1.0 jinja2>=3.1
+
+      - name: Cache Playwright Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-v1
+          restore-keys: |
+            playwright-chromium-${{ runner.os }}-
+
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+
+      - name: Set env overrides
+        run: |
+          if [ -n "${{ github.event.inputs.when_days }}" ]; then
+            echo "OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d" >> $GITHUB_ENV
+            echo "Override: OVERSEAS_WHEN_DAYS=${{ github.event.inputs.when_days }}d"
+          else
+            echo "Auto: when_days will be calculated from seen_index"
+          fi
+          # v6.0.1: 打印所有ODH_参数（可在workflow inputs或secrets中预设）
+          echo "=== ODH Configurable Params ==="
+          for var in $(env | grep ^ODH_ || true); do echo "  $var"; done
+          echo "=== (defaults from common.py _env_param if not set) ==="
+
+      - name: Restore module data for pw-backfill
+        if: github.event.inputs.mode == 'pw-backfill'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find latest successful run and download its json-outputs artifact
+          LATEST_RUN=$(gh run list -R ${{ github.repository }} --status success --limit 10 --json databaseId --jq '.[0].databaseId')
+          if [ -z "$LATEST_RUN" ]; then
+            echo "ERROR: No successful run found to download module data from"
+            exit 1
+          fi
+          echo "Downloading json-outputs from run $LATEST_RUN"
+          gh run download $LATEST_RUN -R ${{ github.repository }} -n json-outputs-$(gh run view $LATEST_RUN -R ${{ github.repository }} --json runNumber --jq '.runNumber') -D scripts/ 2>/dev/null || {
+            # Fallback: try downloading by artifact name pattern
+            echo "Direct download failed, trying artifact list..."
+            ARTIFACT_NAME=$(gh run view $LATEST_RUN -R ${{ github.repository }} --json artifacts --jq '.artifacts[] | select(.name | startswith("json-outputs")) | .name' | head -1)
+            if [ -n "$ARTIFACT_NAME" ]; then
+              gh run download $LATEST_RUN -R ${{ github.repository }} -n "$ARTIFACT_NAME" -D /tmp/json-outputs/
+              cp /tmp/json-outputs/*.json scripts/ 2>/dev/null || true
+            else
+              echo "WARN: No json-outputs artifact found, pw-backfill will have no data to process"
+            fi
+          }
+          echo "Module JSON files in scripts/:"
+          ls -la scripts/*.json 2>/dev/null || echo "  (none)"
+
+      - name: Run fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          cd scripts
+          python -u fetch_all.py ${{ github.event.inputs.mode || 'incremental' }} 2>&1 | tee ../fetch_log.txt
+
+      - name: Upload fetch log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fetch-log-${{ github.run_number }}
+          path: fetch_log.txt
+          retention-days: 7
+
+      - name: Upload JSON outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: json-outputs-${{ github.run_number }}
+          path: |
+            scripts/*.json
+          # retention=7天: 绑定download_daily.py调度频率，若调度间隔>3天需调整为2x间隔
+          retention-days: 7
+
+      - name: Upload seen_index artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seen-index-${{ github.run_number }}
+          path: scripts/seen_index.json
+          # retention=30天: 与PRUNE_AGE_DAYS(默认90天)对齐，30天内可恢复seen_index基线
+          retention-days: 30
+
+      - name: Generate unified HTML report
+        if: success()
+        run: |
+          mkdir -p data
+          cp scripts/index.json data/ 2>/dev/null || true
+          for f in scripts/global_business.json scripts/finance_global.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
+            [ -f "$f" ] && cp "$f" data/
+          done
+          cd scripts
+          python gen_unified_html.py ../data/ ../全球视野日报.html || echo "HTML generation failed, continuing..."
+
+      - name: Upload HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-report-${{ github.run_number }}
+          path: 全球视野日报.html
+          retention-days: 30
+
+      - name: Send daily report via email
+        if: success()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
+        run: python send_report.py
+
+      - name: Send daily brief (push notification)
+        if: success()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
+        run: python daily_brief.py
