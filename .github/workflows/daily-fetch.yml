@@ -8,6 +8,7 @@ on:
         type: choice
         options:
           - incremental
+          - pw-backfill
           - backfill
         default: incremental
       when_days:
@@ -25,7 +26,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 300
 
     steps:
       - uses: actions/checkout@v4
@@ -68,7 +69,6 @@ jobs:
           else
             echo "Auto: when_days will be calculated from seen_index"
           fi
-          # v6.0.1: 打印所有ODH_参数（可在workflow inputs或secrets中预设）
           echo "=== ODH Configurable Params ==="
           for var in $(env | grep ^ODH_ || true); do echo "  $var"; done
           echo "=== (defaults from common.py _env_param if not set) ==="
@@ -93,7 +93,6 @@ jobs:
           name: json-outputs-${{ github.run_number }}
           path: |
             scripts/*.json
-          # retention=7天: 绑定download_daily.py调度频率，若调度间隔>3天需调整为2x间隔
           retention-days: 7
 
       - name: Upload seen_index artifact
@@ -102,7 +101,6 @@ jobs:
         with:
           name: seen-index-${{ github.run_number }}
           path: scripts/seen_index.json
-          # retention=30天: 与PRUNE_AGE_DAYS(默认90天)对齐，30天内可恢复seen_index基线
           retention-days: 30
 
       - name: Generate unified HTML report
@@ -110,7 +108,7 @@ jobs:
         run: |
           mkdir -p data
           cp scripts/index.json data/ 2>/dev/null || true
-          for f in scripts/global_business.json scripts/finance.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
+          for f in scripts/global_business.json scripts/finance_global.json scripts/tech_industry.json scripts/energy_commodities.json scripts/geopolitics_risk.json scripts/esg_sustainability.json scripts/se_asia.json scripts/south_asia.json scripts/middle_east.json scripts/latam.json scripts/africa.json scripts/europe.json scripts/cis.json scripts/east_asia.json scripts/cross_border_ecommerce.json scripts/trade_import_export.json scripts/global_risk.json scripts/chinese_firms_overseas.json; do
             [ -f "$f" ] && cp "$f" data/
           done
           cd scripts
