@@ -1051,7 +1051,8 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                     print(f"  [PLAYWRIGHT] {err_name} for article {idx}: {str(e)[:100]}")
             
             # v6.0.8: 更新滑动窗口 + 基线累积 + 动态阈值早停
-            last_success = (i <= len(targets) and articles_by_file[filename][idx].get("canonical_url") 
+            last_success = bool(i <= len(targets)
+                           and articles_by_file[filename][idx].get("canonical_url")
                            and "news.google.com" not in articles_by_file[filename][idx].get("canonical_url", ""))
             recent_results.append(last_success)
             if len(recent_results) > _window:
