@@ -47,6 +47,7 @@ from common import (
     SIGNAL_MIN_BASELINE,
     PLAYWRIGHT_WAIT_MIN,
     PLAYWRIGHT_WAIT_MAX,
+    FT_RETRY_MIN_GAP_HOURS,
     get_source_tier,
     get_source_coefficient,
     should_skip_fulltext,
@@ -985,6 +986,7 @@ def build_index(seen, module_outputs):
 
 async def main_async():
     """v4.7.1单Job模式 — 保留作为full模式的兼容回退"""
+    phase_log("[DEPRECATED] full mode is legacy (v4.7.1). Use incremental mode instead.")
     print(f"[{datetime.now(timezone.utc).isoformat()}] Starting daily global fetch v4.7.1 (full mode)", flush=True)
     print(f"  Concurrency: {MAX_CONCURRENT} modules at a time", flush=True)
     print(f"  Module timeout: {MODULE_TIMEOUT}s ({MODULE_TIMEOUT//60}min)", flush=True)
@@ -1349,6 +1351,11 @@ async def incremental_mode(forced_when_days=None):
     phase_log("PHASE: Load SeenIndex + Calculate when_days")
     seen_idx = SeenIndex.load(seen_index_path)
     
+    # v6.0.8.3: 首次运行告警
+    if seen_idx.last_fetch_date is None:
+        phase_log("[WARN] SeenIndex is empty (first run): incremental mode will fetch 30d of data. "
+                  "Use backfill mode for full history.")
+    
     if forced_when_days is not None:
         when_days = forced_when_days
     else:
@@ -1379,7 +1386,7 @@ async def incremental_mode(forced_when_days=None):
     #     写回后只有new articles，retry候选就丢失了
     MAX_FT_RETRY = 2       # 最多重试2次（加上首次共3次机会）
     MAX_RETRY_PER_RUN = 10 # 每次增量运行最多重试10篇，避免FT阶段耗时过长
-    RETRY_MIN_GAP_HOURS = 24  # v6.0.8: 第2次重试间隔最低24h
+    RETRY_MIN_GAP_HOURS = FT_RETRY_MIN_GAP_HOURS  # v6.0.8.3: 从_env_param读取(原硬编码24h)
     today_retry_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
     retry_articles_by_file = {}
     retry_count = 0
@@ -1768,6 +1775,7 @@ async def pw_backfill_mode():
     total_resolved = 0
     total_attempted = 0
     batch_num = 0
+    zero_success_batches = 0  # v6.0.8.3: 连续0成功批次数
     
     while True:
         batch_num += 1
@@ -1799,6 +1807,15 @@ async def pw_backfill_mode():
         total_resolved += resolved
         total_attempted += attempted
         phase_log(f"  Batch {batch_num} DONE: {resolved}/{attempted} resolved ({elapsed or 0.0:.1f}s)")
+        
+        # v6.0.8.3: 连续0成功早停
+        if resolved == 0 and attempted > 0:
+            zero_success_batches += 1
+        else:
+            zero_success_batches = 0
+        if zero_success_batches >= 3:
+            phase_log(f"[PW-BACKFILL] Early stop: {zero_success_batches} consecutive batches with 0 resolved")
+            break
         
         # 4. 写回模块文件
         written = 0
