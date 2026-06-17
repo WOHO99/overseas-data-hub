@@ -1673,20 +1673,20 @@ async def pw_backfill_mode():
         _gh_repo = os.environ.get("GITHUB_REPOSITORY", "")
         try:
             import subprocess, zipfile, io, glob as _glob, shutil
-            import requests as _requests
+            import urllib.request as _urllib_request
+            import urllib.error as _urllib_error
+            
             _api = "https://api.github.com"
             _headers = {"Authorization": f"token {_gh_token}", "Accept": "application/vnd.github.v3+json"}
             
-            # Step 1: Find latest successful workflow run
-            _runs_resp = _requests.get(
-                f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=5",
-                headers=_headers, timeout=15
-            )
-            if _runs_resp.status_code != 200:
-                phase_log(f"  WARN: List runs API failed ({_runs_resp.status_code})")
-                raise Exception(f"API { _runs_resp.status_code}")
+            def _api_get(url):
+                req = _urllib_request.Request(url, headers=_headers)
+                with _urllib_request.urlopen(req, timeout=15) as resp:
+                    return json.loads(resp.read().decode("utf-8")), resp.status
             
-            _runs = _runs_resp.json().get("workflow_runs", [])
+            # Step 1: Find latest successful workflow run
+            _runs_data, _status = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=5")
+            _runs = _runs_data.get("workflow_runs", [])
             if not _runs:
                 phase_log("  WARN: No successful runs found")
                 raise Exception("No runs")
@@ -1695,11 +1695,8 @@ async def pw_backfill_mode():
             phase_log(f"  Latest successful run: {_best_run_id}")
             
             # Step 2: List artifacts for that run
-            _art_resp = _requests.get(
-                f"{_api}/repos/{_gh_repo}/actions/runs/{_best_run_id}/artifacts",
-                headers=_headers, timeout=15
-            )
-            _artifacts = _art_resp.json().get("artifacts", [])
+            _art_data, _ = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs/{_best_run_id}/artifacts")
+            _artifacts = _art_data.get("artifacts", [])
             _json_art = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
             
             if not _json_art:
@@ -1708,18 +1705,16 @@ async def pw_backfill_mode():
             
             phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
             
-            # Step 3: Download and extract the artifact
-            _dl_resp = _requests.get(
-                f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip",
-                headers={"Authorization": f"token {_gh_token}"},
-                timeout=60
-            )
-            if _dl_resp.status_code != 200:
-                phase_log(f"  WARN: Download artifact failed ({_dl_resp.status_code})")
-                raise Exception(f"Download { _dl_resp.status_code}")
+            # Step 3: Download artifact zip
+            _dl_url = _json_art["archive_download_url"]
+            _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
+            with _urllib_request.urlopen(_dl_req, timeout=60) as _dl_resp:
+                _dl_content = _dl_resp.read()
+            
+            phase_log(f"  Downloaded artifact zip: {len(_dl_content)} bytes")
             
             # Step 4: Extract JSON files from zip to scripts/
-            _zf = zipfile.ZipFile(io.BytesIO(_dl_resp.content))
+            _zf = zipfile.ZipFile(io.BytesIO(_dl_content))
             _copied = 0
             for name in _zf.namelist():
                 if name.endswith(".json") and not name.endswith("seen_index.json"):
