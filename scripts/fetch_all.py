@@ -1656,16 +1656,66 @@ async def pw_backfill_mode():
     v6.0.8.1 GNews Playwright回填 — 对已有数据中未解析的GNews链接批量解析
     不跑采集/去重，只做Playwright解析+正文提取+写回模块文件
     分批处理，每批500篇，批次间冷却60s防Google限速
+    v6.0.8.2: 自动从artifact下载模块数据（runner上无持久化的module JSON）
     """
     from common import batch_resolve_gnews_with_browser, atomic_write_json, _is_gnews_url
     
     phase_log("=" * 70)
     phase_log("PW-BACKFILL MODE: Resolve unresolved GNews URLs in existing data")
     
-    # 1. 加载现有模块数据
+    # 0. 尝试从GitHub artifact下载模块数据（CI runner上没有持久化数据）
     articles_by_file = load_articles_from_modules()
+    total_loaded = sum(len(v) for v in articles_by_file.values())
     
-    # 2. 统计未解析GNews链接
+    if total_loaded == 0:
+        phase_log("  No module data found locally, attempting to download from GitHub artifact...")
+        try:
+            import subprocess
+            result = subprocess.run(
+                ["gh", "run", "list", "-R", os.environ.get("GITHUB_REPOSITORY", ""), "--status", "success", "--limit", "5", "--json", "databaseId"],
+                capture_output=True, text=True, timeout=30
+            )
+            if result.returncode == 0:
+                import json as _json
+                runs = _json.loads(result.stdout)
+                if runs:
+                    best_run_id = str(runs[0].get("databaseId", ""))
+                    phase_log(f"  Latest successful run: {best_run_id}")
+                    # 用gh run download下载所有artifact到/tmp/artifacts/
+                    dl_result = subprocess.run(
+                        ["gh", "run", "download", best_run_id, "-D", "/tmp/artifacts/"],
+                        capture_output=True, text=True, timeout=60
+                    )
+                    if dl_result.returncode == 0:
+                        # 从下载的artifact中查找json-outputs目录
+                        import glob as _glob
+                        json_dirs = _glob.glob("/tmp/artifacts/json-outputs-*")
+                        if json_dirs:
+                            src_dir = json_dirs[0]
+                            phase_log(f"  Found artifact dir: {src_dir}")
+                            # 复制所有JSON到scripts/
+                            for jf in _glob.glob(os.path.join(src_dir, "*.json")):
+                                dest = os.path.join(SCRIPT_DIR, os.path.basename(jf))
+                                import shutil
+                                shutil.copy2(jf, dest)
+                                phase_log(f"    Copied {os.path.basename(jf)}")
+                        else:
+                            phase_log("  WARN: No json-outputs-* directory found in artifact")
+                    else:
+                        phase_log(f"  WARN: gh run download failed: {dl_result.stderr[:200]}")
+                else:
+                    phase_log("  WARN: No successful runs found")
+            else:
+                phase_log(f"  WARN: gh run list failed: {result.stderr[:200]}")
+        except Exception as e:
+            phase_log(f"  WARN: Artifact download failed: {type(e).__name__}: {str(e)[:200]}")
+        
+        # 重新加载
+        articles_by_file = load_articles_from_modules()
+        total_loaded = sum(len(v) for v in articles_by_file.values())
+        phase_log(f"  After artifact restore: {total_loaded} articles from {len(articles_by_file)} files")
+    
+    # 1. 统计未解析GNews链接
     unresolved = 0
     for filename, articles in articles_by_file.items():
         for article in articles:
