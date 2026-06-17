@@ -1711,11 +1711,20 @@ async def pw_backfill_mode():
             phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
             
             # Step 3: Download artifact zip via GitHub API (handles Azure Blob redirect)
+            # Must strip Authorization header on redirect to Azure Blob (different host)
             _dl_url = f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip"
-            _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
-            # Follow redirect to Azure Blob Storage (no auth needed for blob URL)
+            
+            class _NoAuthRedirectHandler(_urllib_request.HTTPRedirectHandler):
+                """Remove Authorization header when redirecting to a different host"""
+                def redirect_request(self, req, fp, code, msg, headers, newurl):
+                    new_req = super().redirect_request(req, fp, code, msg, headers, newurl)
+                    if new_req and new_req.host != req.host:
+                        new_req.remove_header("Authorization")
+                    return new_req
+            
             try:
-                _opener = _urllib_request.build_opener(_urllib_request.HTTPRedirectHandler)
+                _opener = _urllib_request.build_opener(_NoAuthRedirectHandler)
+                _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
                 _dl_resp_raw = _opener.open(_dl_req, timeout=60)
                 _dl_content = _dl_resp_raw.read()
             except _urllib_error.HTTPError as _http_err:
