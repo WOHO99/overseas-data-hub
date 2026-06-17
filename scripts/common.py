@@ -169,6 +169,27 @@ PLAYWRIGHT_WAIT_MAX = _env_param(
     "ODH_PLAYWRIGHT_WAIT_MAX", 2.5, float, 1.0, 10.0,
     "估算未校准", "Playwright JS渲染最大等待(秒)"
 )
+# v6.0.8: Playwright早停参数（从硬编码迁移到_env_param）
+PW_EARLY_STOP_WINDOW = _env_param(
+    "ODH_PW_EARLY_STOP_WINDOW", 15, int, 5, 50,
+    "v6.0.6 P0/v6.0.8迁移", "早停观测窗口K（近K篇成功率低于阈值则早停）"
+)
+PW_EARLY_STOP_THRESHOLD = _env_param(
+    "ODH_PW_EARLY_STOP_THRESHOLD", 0.10, float, 0.01, 0.50,
+    "v6.0.6 P0/v6.0.8迁移", "早停成功率阈值下限（动态阈值=前30篇基线×0.25与此值取大）"
+)
+PW_EARLY_STOP_MIN_REMAIN = _env_param(
+    "ODH_PW_EARLY_STOP_MIN_REMAIN", 10, int, 1, 50,
+    "v6.0.6 P0/v6.0.8迁移", "剩余队列少于此数不触发早停（防误杀）"
+)
+PW_EARLY_STOP_WARMUP = _env_param(
+    "ODH_PW_EARLY_STOP_WARMUP", 5, int, 1, 20,
+    "v6.0.6 P0/v6.0.8迁移", "Context重建后热身期（前N篇不检查早停）"
+)
+PW_BASELINE_SAMPLE_SIZE = _env_param(
+    "ODH_PW_BASELINE_SAMPLE_SIZE", 30, int, 10, 100,
+    "v6.0.8新增", "基线成功率采样量（前N篇文章累积成功率，跨Context重建保留）"
+)
 
 # --- 熔断/告警参数 ---
 CIRCUIT_BREAKER_THRESHOLD = _env_param(
@@ -260,6 +281,51 @@ def load_source_authority(config_dir):
     return all_kw.get("source_authority", {}) or {}
 
 
+def load_source_tier_override(config_dir):
+    """v6.0.8: 从source_tier_override.yaml加载domain→tier映射。
+    返回 dict{domain_pattern: tier}，支持后缀匹配(.example.com匹配子域名)。
+    """
+    override_path = os.path.join(config_dir, "source_tier_override.yaml")
+    if not os.path.exists(override_path):
+        return {}
+    try:
+        with open(override_path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+        return data.get("overrides", {}) or {}
+    except (yaml.YAMLError, OSError) as e:
+        phase_log(f"[CONFIG] Failed to load source_tier_override.yaml: {e}")
+        return {}
+
+
+def _lookup_tier_by_domain(url, tier_override):
+    """v6.0.8: 根据URL的domain查找tier_override。
+    优先精确匹配，后缀匹配(.example.com)次之。
+    返回 tier 字符串或 None。
+    """
+    if not url or not tier_override:
+        return None
+    try:
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc.lower()
+    except Exception:
+        return None
+    if not domain:
+        return None
+    # 去掉 www.
+    if domain.startswith("www."):
+        domain = domain[4:]
+    # 精确匹配
+    if domain in tier_override:
+        return tier_override[domain]
+    # 后缀匹配: .example.com 匹配 sub.example.com
+    parts = domain.split(".")
+    for i in range(1, len(parts)):
+        suffix = "." + ".".join(parts[i:])
+        if suffix in tier_override:
+            return tier_override[suffix]
+    return None
+
+
 def get_source_coefficient(source_tag, authority_map):
     """
     匹配源权威度系数。
@@ -281,11 +347,19 @@ def get_source_coefficient(source_tag, authority_map):
     return 1.0
 
 
-def get_source_tier(source_tag, authority_map):
-    """v6.0.3: 从源权威度系数派生A-E等级
+def get_source_tier(source_tag, authority_map, tier_override=None, canonical_url=None):
+    """v6.0.3/v6.0.8: 从源权威度系数派生A-E等级
+    v6.0.8新增: 优先按 canonical_url domain 查找 tier_override
+    回退: source tag + authority_map 系数
     A(>=1.5): 顶级官方/通讯社 | B(>=1.2): 主流大报 | C(==1.0, default): 一般媒体
     D(<1.0): 低可信度/博客 | E(无匹配且GNews): 未解析GNews
     """
+    # v6.0.8: 优先 domain lookup
+    if tier_override and canonical_url:
+        domain_tier = _lookup_tier_by_domain(canonical_url, tier_override)
+        if domain_tier:
+            return domain_tier
+    # 回退: 原有 source tag + authority_map 逻辑
     if not source_tag:
         return "E"
     # GNews未解析源：默认系数1.0且无单独配置 → E
@@ -795,6 +869,9 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     v4.5优化：解析URL后直接从已加载的页面提取正文（trafilatura解析HTML），
     不需要后续fetch_full_text_batch再发第二次HTTP请求。
     v4.9: 每60篇冷却30s防止Google限速。
+    v6.0.6 P0: 滑落成功率早停 + 每30篇重建Browser Context
+      - 跟踪近K篇成功率，滑落到阈值以下→提前终止（剩余<M篇时不触发防误杀）
+      - 每30篇重建context避免指纹累积导致成功率衰退
     
     articles_by_file: {filename: [article_dicts]} — 原地修改，补充 canonical_url + full_text
     priority_filter: "high"=仅high(>=10分), "high+medium"=high+medium(>=3分), "all"=全量(>=0)
@@ -849,6 +926,20 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     resolved = 0
     text_extracted = 0
     failed = 0
+    # v6.0.8: 早停参数统一从 _env_param 读取
+    _window = PW_EARLY_STOP_WINDOW
+    _threshold_floor = PW_EARLY_STOP_THRESHOLD
+    _min_remain = PW_EARLY_STOP_MIN_REMAIN
+    _warmup = PW_EARLY_STOP_WARMUP
+    _baseline_n = PW_BASELINE_SAMPLE_SIZE
+    recent_results = []          # 滑动窗口: True=成功, False=失败
+    early_stopped = False
+    context_rebuild_at = 0       # 最近一次Context重建的文章序号
+    # v6.0.8: 动态基线 — 前N篇累积成功率，跨Context重建保留
+    baseline_success = 0         # 基线期内成功数
+    baseline_total = 0           # 基线期内总处理数
+    baseline_rate = None         # 基线成功率（前N篇处理完后计算）
+    adaptive_threshold = _threshold_floor  # 初始=下限，基线建立后更新
     
     try:
         from playwright.async_api import async_playwright
@@ -892,6 +983,27 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             phase_log("[PLAYWRIGHT] playwright-stealth not installed, skipping stealth")
         
         for i, (filename, idx, gnews_url) in enumerate(targets, 1):
+            # v6.0.6 P0: 每30篇重建Browser Context，避免指纹累积
+            if i > 1 and (i - 1) % 30 == 0:
+                try:
+                    await context.close()
+                except Exception:
+                    pass
+                context = await browser.new_context(
+                    user_agent=_BROWSER_HEADERS.get("User-Agent", "Mozilla/5.0"),
+                    viewport={"width": 1280, "height": 720},
+                )
+                page = await context.new_page()
+                try:
+                    from playwright_stealth import stealth_async
+                    await stealth_async(page)
+                except ImportError:
+                    pass
+                # v6.0.8: Context重建后重置滑动窗口（仅影响近K篇观测），基线不清空
+                recent_results.clear()
+                context_rebuild_at = i  # 记录重建位置，用于热身期
+                phase_log(f"[PLAYWRIGHT] Context rebuilt at article {i} (anti-fingerprint, window reset, baseline preserved)")
+            
             try:
                 # 导航到 GNews 跟踪 URL，等待 JS 重定向完成
                 # domcontentloaded 比 networkidle 更快，GNews redirect 不依赖完整网络加载
@@ -937,6 +1049,45 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 # 只在首次失败时打印详细错误，避免刷屏
                 if failed <= 3:
                     print(f"  [PLAYWRIGHT] {err_name} for article {idx}: {str(e)[:100]}")
+            
+            # v6.0.8: 更新滑动窗口 + 基线累积 + 动态阈值早停
+            last_success = (i <= len(targets) and articles_by_file[filename][idx].get("canonical_url") 
+                           and "news.google.com" not in articles_by_file[filename][idx].get("canonical_url", ""))
+            recent_results.append(last_success)
+            if len(recent_results) > _window:
+                recent_results.pop(0)
+            
+            # 基线累积：前N篇文章跨Context重建保留
+            if baseline_rate is None:
+                baseline_total += 1
+                if last_success:
+                    baseline_success += 1
+                if baseline_total >= _baseline_n:
+                    baseline_rate = baseline_success / baseline_total
+                    adaptive_threshold = max(_threshold_floor, baseline_rate * 0.25)
+                    phase_log(f"[PLAYWRIGHT] Baseline established: {baseline_success}/{baseline_total} = "
+                              f"{baseline_rate:.0%}, adaptive_threshold = {adaptive_threshold:.2f} "
+                              f"(cap=max({_threshold_floor:.0%}, {baseline_rate:.0%}×0.25))")
+            
+            # 热身期：Context重建后前N篇不检查早停，给新context积累足够样本
+            in_warmup = (context_rebuild_at > 0 and i <= context_rebuild_at + _warmup)
+            if len(recent_results) >= _window and not early_stopped and not in_warmup:
+                recent_rate = sum(recent_results) / len(recent_results)
+                remaining = total - i
+                if recent_rate < adaptive_threshold and remaining >= _min_remain:
+                    elapsed = _time.monotonic() - start
+                    phase_log(f"[PLAYWRIGHT] Early stop: recent {_window} success rate "
+                          f"{recent_rate:.0%} < adaptive_threshold {adaptive_threshold:.0%} "
+                          f"(baseline={baseline_rate:.0%}×0.25 cap={_threshold_floor:.0%}) "
+                          f"({remaining} articles remaining, {resolved} resolved, {elapsed:.1f}s elapsed)")
+                    early_stopped = True
+                    # 标记所有未被处理的文章，让下一轮可以重新尝试
+                    for skip_i in range(i, len(targets)):
+                        sf, si, _ = targets[skip_i]
+                        articles_by_file[sf][si]["pw_skipped_early_stop"] = True
+                    break
+            
+            if not last_success:
                 continue
             
             # 每20篇打印进度
@@ -957,7 +1108,8 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
         await browser.close()
     
     elapsed = _time.monotonic() - start
-    phase_log(f"[PLAYWRIGHT] Done: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
+    early_stop_note = " (early stopped)" if early_stopped else ""
+    phase_log(f"[PLAYWRIGHT] Done{early_stop_note}: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
     return resolved, total, elapsed
 
 
@@ -1686,44 +1838,114 @@ class SeenIndex:
       }
     """
     
+    # ── 冷备份配置 ──
+    _BACKUP_DIR_NAME = "backup"   # 相对于 seen_index.json 所在目录
+    _BACKUP_FILENAME = "seen_index_backup.json"
+    _MIN_HEALTHY_ENTRIES = 1000   # 成熟索引条目下限（正常≥30K）
+    
     def __init__(self):
         self.version = 1
         self.last_fetch_date = None
         self.daily_stats = {}
         self.entries = {}
     
+    # ── 冷备份路径 ──
+    @staticmethod
+    def _backup_path(main_path):
+        """返回备份文件路径：scripts/backup/seen_index_backup.json"""
+        backup_dir = os.path.join(os.path.dirname(main_path), SeenIndex._BACKUP_DIR_NAME)
+        os.makedirs(backup_dir, exist_ok=True)
+        return os.path.join(backup_dir, SeenIndex._BACKUP_FILENAME)
+    
+    # ── 校验索引健康度 ──
+    def _validate(self, label=""):
+        """校验索引数据完整性，返回 (ok, reason)"""
+        n = len(self.entries)
+        if n < self._MIN_HEALTHY_ENTRIES:
+            return False, f"entries={n} < {self._MIN_HEALTHY_ENTRIES}"
+        if not isinstance(self.entries, dict):
+            return False, "entries is not dict"
+        return True, ""
+    
     @classmethod
     def load(cls, path):
-        """从JSON文件加载索引，文件不存在则返回空索引"""
-        if os.path.exists(path) and os.path.getsize(path) > 0:
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                idx = cls()
-                idx.version = data.get("version", 1)
-                idx.last_fetch_date = data.get("last_fetch_date")
-                idx.daily_stats = data.get("daily_stats", {})
-                idx.entries = data.get("entries", {})
-                phase_log(f"[SEEN_INDEX] Loaded: {len(idx.entries)} entries, last_fetch={idx.last_fetch_date}")
-                return idx
-            except (json.JSONDecodeError, OSError) as e:
-                phase_log(f"[SEEN_INDEX] Load failed ({e}), starting fresh")
+        """从JSON文件加载索引，带校验+冷备份恢复"""
+        idx = cls._load_raw(path)
+        if idx is None:
+            # 主文件不可用 → 尝试备份恢复
+            bk_path = cls._backup_path(path)
+            phase_log(f"[SEEN_INDEX] Main file unavailable, trying backup: {bk_path}")
+            idx = cls._load_raw(bk_path)
+            if idx is not None:
+                phase_log(f"[SEEN_INDEX] Recovered from backup: {len(idx.entries)} entries")
+            else:
+                phase_log(f"[SEEN_INDEX] No backup available, starting fresh")
+                return cls()
+        
+        # 健康度校验
+        ok, reason = idx._validate("main")
+        if ok:
+            phase_log(f"[SEEN_INDEX] Loaded: {len(idx.entries)} entries, last_fetch={idx.last_fetch_date}")
+            return idx
+        
+        phase_log(f"[SEEN_INDEX] Main index unhealthy ({reason}), trying backup")
+        bk_path = cls._backup_path(path)
+        bk_idx = cls._load_raw(bk_path)
+        if bk_idx is not None:
+            bk_ok, bk_reason = bk_idx._validate("backup")
+            if bk_ok:
+                phase_log(f"[SEEN_INDEX] Recovered from backup: {len(bk_idx.entries)} entries")
+                return bk_idx
+            else:
+                phase_log(f"[SEEN_INDEX] Backup also unhealthy ({bk_reason})")
+        
+        # 主+备都不可用 → 返回空索引用户将感知增量退化为全量
+        phase_log(f"[SEEN_INDEX] WARNING: Both main and backup failed validation, starting fresh (incremental→full mode)")
         return cls()
     
+    @classmethod
+    def _load_raw(cls, path):
+        """原始加载，不校验，返回 cls() 实例或 None"""
+        if not os.path.exists(path) or os.path.getsize(path) == 0:
+            return None
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            idx = cls()
+            idx.version = data.get("version", 1)
+            idx.last_fetch_date = data.get("last_fetch_date")
+            idx.daily_stats = data.get("daily_stats", {})
+            idx.entries = data.get("entries", {})
+            return idx
+        except (json.JSONDecodeError, OSError) as e:
+            phase_log(f"[SEEN_INDEX] Raw load failed ({path}): {e}")
+            return None
+    
     def save(self, path):
-        """保存索引到JSON文件"""
+        """保存索引到JSON文件，同时写冷备份"""
         data = {
             "version": self.version,
             "last_fetch_date": self.last_fetch_date,
             "daily_stats": self.daily_stats,
             "entries": self.entries,
         }
-        # 原子写入
+        # 原子写入主文件
         tmp_path = path + ".tmp"
         with open(tmp_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False)
         os.replace(tmp_path, path)
         phase_log(f"[SEEN_INDEX] Saved: {len(self.entries)} entries, last_fetch={self.last_fetch_date}")
+        
+        # 写冷备份（覆盖式，保留1份）
+        try:
+            bk_path = self._backup_path(path)
+            bk_tmp = bk_path + ".tmp"
+            with open(bk_tmp, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False)
+            os.replace(bk_tmp, bk_path)
+            phase_log(f"[SEEN_INDEX] Backup saved: {bk_path}")
+        except OSError as e:
+            phase_log(f"[SEEN_INDEX] Backup save failed (non-fatal): {e}")
     
     def _make_key_url(self, article):
         """Layer 1: URL hash — canonical_url优先，否则link"""
