@@ -1684,23 +1684,28 @@ async def pw_backfill_mode():
                 with _urllib_request.urlopen(req, timeout=15) as resp:
                     return json.loads(resp.read().decode("utf-8")), resp.status
             
-            # Step 1: Find latest successful workflow run
-            _runs_data, _status = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=5")
+            # Step 1: Find successful workflow runs with substantial json-outputs artifact
+            # (pw-backfill runs are "success" but have tiny artifacts ~1MB with only seen_index)
+            _runs_data, _status = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=10")
             _runs = _runs_data.get("workflow_runs", [])
             if not _runs:
                 phase_log("  WARN: No successful runs found")
                 raise Exception("No runs")
             
-            _best_run_id = _runs[0]["id"]
-            phase_log(f"  Latest successful run: {_best_run_id}")
-            
-            # Step 2: List artifacts for that run
-            _art_data, _ = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs/{_best_run_id}/artifacts")
-            _artifacts = _art_data.get("artifacts", [])
-            _json_art = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
+            _best_run_id = None
+            _json_art = None
+            for _run in _runs:
+                _art_data, _ = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs/{_run['id']}/artifacts")
+                _artifacts = _art_data.get("artifacts", [])
+                _cand = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
+                if _cand and _cand["size_in_bytes"] > 200000:  # >200KB = has module data (not just seen_index)
+                    _best_run_id = _run["id"]
+                    _json_art = _cand
+                    phase_log(f"  Found data-rich run: {_best_run_id} ({_cand['name']}, {_cand['size_in_bytes']} bytes)")
+                    break
             
             if not _json_art:
-                phase_log("  WARN: No json-outputs artifact found in run")
+                phase_log("  WARN: No json-outputs artifact with module data found in recent runs")
                 raise Exception("No artifact")
             
             phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
