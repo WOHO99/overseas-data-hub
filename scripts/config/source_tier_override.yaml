@@ -1,5 +1,6 @@
 # source_tier_override.yaml — Domain-based source tier override
 # 版本: v1.0 (2026-06-15)
+# 覆盖范围: 仅海外信源域名。国内信源评级见 domestic_sources.yaml
 # 用途: 当文章有 canonical_url 时，用 domain 查找 tier，优先于 source tag 查找
 # 规则:
 #   1. 精确 domain 匹配（如 reuters.com）
