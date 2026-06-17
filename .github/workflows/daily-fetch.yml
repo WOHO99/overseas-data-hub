@@ -8,16 +8,20 @@ on:
         type: choice
         options:
           - incremental
-          - pw-backfill
           - backfill
+          - pw-backfill
         default: incremental
       when_days:
         description: 'Override when_days (e.g. 7, 30). Leave empty for auto-calc based on seen_index.'
         type: string
         default: ''
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: global-fetch
@@ -69,11 +73,41 @@ jobs:
           else
             echo "Auto: when_days will be calculated from seen_index"
           fi
+          # v6.0.1: 打印所有ODH_参数（可在workflow inputs或secrets中预设）
           echo "=== ODH Configurable Params ==="
           for var in $(env | grep ^ODH_ || true); do echo "  $var"; done
           echo "=== (defaults from common.py _env_param if not set) ==="
 
+      - name: Restore module data for pw-backfill
+        if: github.event.inputs.mode == 'pw-backfill'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find latest successful run and download its json-outputs artifact
+          LATEST_RUN=$(gh run list -R ${{ github.repository }} --status success --limit 10 --json databaseId --jq '.[0].databaseId')
+          if [ -z "$LATEST_RUN" ]; then
+            echo "ERROR: No successful run found to download module data from"
+            exit 1
+          fi
+          echo "Downloading json-outputs from run $LATEST_RUN"
+          gh run download $LATEST_RUN -R ${{ github.repository }} -n json-outputs-$(gh run view $LATEST_RUN -R ${{ github.repository }} --json runNumber --jq '.runNumber') -D scripts/ 2>/dev/null || {
+            # Fallback: try downloading by artifact name pattern
+            echo "Direct download failed, trying artifact list..."
+            ARTIFACT_NAME=$(gh run view $LATEST_RUN -R ${{ github.repository }} --json artifacts --jq '.artifacts[] | select(.name | startswith("json-outputs")) | .name' | head -1)
+            if [ -n "$ARTIFACT_NAME" ]; then
+              gh run download $LATEST_RUN -R ${{ github.repository }} -n "$ARTIFACT_NAME" -D /tmp/json-outputs/
+              cp /tmp/json-outputs/*.json scripts/ 2>/dev/null || true
+            else
+              echo "WARN: No json-outputs artifact found, pw-backfill will have no data to process"
+            fi
+          }
+          echo "Module JSON files in scripts/:"
+          ls -la scripts/*.json 2>/dev/null || echo "  (none)"
+
       - name: Run fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           cd scripts
           python -u fetch_all.py ${{ github.event.inputs.mode || 'incremental' }} 2>&1 | tee ../fetch_log.txt
@@ -93,6 +127,7 @@ jobs:
           name: json-outputs-${{ github.run_number }}
           path: |
             scripts/*.json
+          # retention=7天: 绑定download_daily.py调度频率，若调度间隔>3天需调整为2x间隔
           retention-days: 7
 
       - name: Upload seen_index artifact
@@ -101,6 +136,7 @@ jobs:
         with:
           name: seen-index-${{ github.run_number }}
           path: scripts/seen_index.json
+          # retention=30天: 与PRUNE_AGE_DAYS(默认90天)对齐，30天内可恢复seen_index基线
           retention-days: 30
 
       - name: Generate unified HTML report
