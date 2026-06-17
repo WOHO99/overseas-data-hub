@@ -7,7 +7,7 @@ modules:
   order:
     # 场景模块
     - global_business
-    - finance
+    - finance_global
     # 主题模块
     - tech_industry
     - energy_commodities
@@ -29,7 +29,7 @@ modules:
     - east_asia
   names:
     global_business: 全球商业
-    finance: 金融
+    finance_global: 金融
     tech_industry: 科技
     energy_commodities: 能源大宗
     geopolitics_risk: 地缘风险
@@ -307,7 +307,7 @@ topic:
 
   # 模块级默认主题（category和关键词都没命中时）
   module_defaults:
-    finance: 金融市场
+    finance_global: 金融市场
     tech_industry: 科技
     energy_commodities: 大宗商品
     geopolitics_risk: 地缘与安全
