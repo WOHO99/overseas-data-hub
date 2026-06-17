@@ -623,10 +623,10 @@ async def batch_resolve_gnews_urls(articles_by_file, concurrency=15, timeout_sec
             
             elapsed = _time.monotonic() - start
             print(f"  [BATCH_RESOLVE] Progress: {batch_end}/{total_gnews} "
-                  f"({resolved} resolved, {failed} failed, {elapsed:.1f}s elapsed)")
+                  f"({resolved} resolved, {failed} failed, {elapsed or 0.0:.1f}s elapsed)")
     
     elapsed = _time.monotonic() - start
-    print(f"  [BATCH_RESOLVE] Done: {resolved}/{total_gnews} resolved ({failed} failed, {elapsed:.1f}s)")
+    print(f"  [BATCH_RESOLVE] Done: {resolved}/{total_gnews} resolved ({failed} failed, {elapsed or 0.0:.1f}s)")
     return resolved, total_gnews, elapsed
 
 
@@ -844,10 +844,10 @@ async def fetch_full_text_batch(articles_by_file, priority_filter="high", concur
             
             elapsed = _time.monotonic() - start
             phase_log(f"[FULL_TEXT] Progress: {batch_end}/{total} "
-                  f"({fetched} fetched, {failed} failed, {elapsed:.1f}s elapsed)")
+                  f"({fetched} fetched, {failed} failed, {elapsed or 0.0:.1f}s elapsed)")
     
     elapsed = _time.monotonic() - start
-    phase_log(f"[FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed:.1f}s)")
+    phase_log(f"[FULL_TEXT] Done: {fetched}/{total} fetched ({failed} failed, {elapsed or 0.0:.1f}s)")
     return fetched, total, elapsed
 
 
@@ -881,6 +881,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     """
     import time as _time
     start = _time.monotonic()
+    elapsed = 0.0  # v6.0.8.2: 防御性初始化，避免NoneType format崩溃
     
     # v6.0.4: DRY_RUN模式 — 跳过Playwright
     if DRY_RUN:
@@ -1117,10 +1118,11 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
                 remaining = total - i
                 if recent_rate < adaptive_threshold and remaining >= _min_remain:
                     elapsed = _time.monotonic() - start
+                    _bl_display = f"{baseline_rate:.0%}" if baseline_rate is not None else "N/A"
                     phase_log(f"[PLAYWRIGHT] Early stop: recent {_window} success rate "
                           f"{recent_rate:.0%} < adaptive_threshold {adaptive_threshold:.0%} "
-                          f"(baseline={baseline_rate:.0%}×0.25 cap={_threshold_floor:.0%}) "
-                          f"({remaining} articles remaining, {resolved} resolved, {elapsed:.1f}s elapsed)")
+                          f"(baseline={_bl_display}×0.25 cap={_threshold_floor:.0%}) "
+                          f"({remaining} articles remaining, {resolved} resolved, {elapsed or 0.0:.1f}s elapsed)")
                     early_stopped = True
                     # 标记所有未被处理的文章，让下一轮可以重新尝试
                     for skip_i in range(i, len(targets)):
@@ -1135,7 +1137,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
             if i % 20 == 0:
                 elapsed = _time.monotonic() - start
                 phase_log(f"[PLAYWRIGHT] Progress: {i}/{total} "
-                      f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed:.1f}s elapsed)")
+                      f"({resolved} resolved, {text_extracted} text, {failed} failed, {elapsed or 0.0:.1f}s elapsed)")
             
             # v6.0.4: 随机延迟2-5s，模拟人类行为（原0.5-1.2s太短易被反爬识别）
             await asyncio.sleep(random.uniform(2.0, 5.0))
@@ -1150,7 +1152,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     
     elapsed = _time.monotonic() - start
     early_stop_note = " (early stopped)" if early_stopped else ""
-    phase_log(f"[PLAYWRIGHT] Done{early_stop_note}: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed:.1f}s)")
+    phase_log(f"[PLAYWRIGHT] Done{early_stop_note}: {resolved}/{total} resolved, {text_extracted} text extracted ({failed} failed, {elapsed or 0.0:.1f}s)")
     return resolved, total, elapsed
 
 
