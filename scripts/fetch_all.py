@@ -1676,6 +1676,14 @@ async def pw_backfill_mode():
             import urllib.request as _urllib_request
             import urllib.error as _urllib_error
             
+            # Redirect handler that strips Authorization header on cross-host redirects (Azure Blob)
+            class _NoAuthRedirectHandler(_urllib_request.HTTPRedirectHandler):
+                def redirect_request(self, req, fp, code, msg, headers, newurl):
+                    new_req = super().redirect_request(req, fp, code, msg, headers, newurl)
+                    if new_req and new_req.host != req.host:
+                        new_req.remove_header("Authorization")
+                    return new_req
+            
             _api = "https://api.github.com"
             _headers = {"Authorization": f"token {_gh_token}", "Accept": "application/vnd.github.v3+json"}
             
@@ -1684,70 +1692,55 @@ async def pw_backfill_mode():
                 with _urllib_request.urlopen(req, timeout=15) as resp:
                     return json.loads(resp.read().decode("utf-8")), resp.status
             
-            # Step 1: Find successful workflow runs with substantial json-outputs artifact
-            # (pw-backfill runs are "success" but have tiny artifacts ~1MB with only seen_index)
-            _runs_data, _status = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=10")
+            # Step 1: Find successful workflow runs with module data in json-outputs artifact
+            # Iterate runs, download artifact, check for module JSON files (not just seen_index)
+            _runs_data, _status = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs?status=success&per_page=20")
             _runs = _runs_data.get("workflow_runs", [])
             if not _runs:
                 phase_log("  WARN: No successful runs found")
                 raise Exception("No runs")
             
-            _best_run_id = None
-            _json_art = None
+            _dl_content = None
+            _copied = 0
+            
             for _run in _runs:
                 _art_data, _ = _api_get(f"{_api}/repos/{_gh_repo}/actions/runs/{_run['id']}/artifacts")
                 _artifacts = _art_data.get("artifacts", [])
-                _cand = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
-                if _cand and _cand["size_in_bytes"] > 200000:  # >200KB = has module data (not just seen_index)
-                    _best_run_id = _run["id"]
-                    _json_art = _cand
-                    phase_log(f"  Found data-rich run: {_best_run_id} ({_cand['name']}, {_cand['size_in_bytes']} bytes)")
-                    break
+                _json_art = next((a for a in _artifacts if a["name"].startswith("json-outputs")), None)
+                if not _json_art:
+                    continue
+                
+                # Download and inspect this artifact
+                try:
+                    _dl_url = f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip"
+                    _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
+                    _opener = _urllib_request.build_opener(_NoAuthRedirectHandler)
+                    _dl_resp_raw = _opener.open(_dl_req, timeout=30)
+                    _dl_bytes = _dl_resp_raw.read()
+                    
+                    _zf = zipfile.ZipFile(io.BytesIO(_dl_bytes))
+                    _names = _zf.namelist()
+                    # Check for module data JSON (not just seen_index)
+                    _module_jsons = [n for n in _names if n.endswith(".json") and not n.endswith("seen_index.json")]
+                    if _module_jsons:
+                        phase_log(f"  Found module data in run {_run['id']} ({len(_module_jsons)} JSON files)")
+                        # Extract module JSONs
+                        for name in _module_jsons:
+                            data = _zf.read(name)
+                            fname = os.path.basename(name)
+                            dest = os.path.join(SCRIPT_DIR, fname)
+                            with open(dest, "wb") as wf:
+                                wf.write(data)
+                            _copied += 1
+                            if _copied <= 20:
+                                phase_log(f"    Extracted {fname} ({len(data)} bytes)")
+                        _zf.close()
+                        break
+                    _zf.close()
+                except Exception as _art_err:
+                    phase_log(f"  WARN: Artifact check for run {_run['id']} failed: {str(_art_err)[:100]}")
+                    continue
             
-            if not _json_art:
-                phase_log("  WARN: No json-outputs artifact with module data found in recent runs")
-                raise Exception("No artifact")
-            
-            phase_log(f"  Found artifact: {_json_art['name']} (id: {_json_art['id']})")
-            
-            # Step 3: Download artifact zip via GitHub API (handles Azure Blob redirect)
-            # Must strip Authorization header on redirect to Azure Blob (different host)
-            _dl_url = f"{_api}/repos/{_gh_repo}/actions/artifacts/{_json_art['id']}/zip"
-            
-            class _NoAuthRedirectHandler(_urllib_request.HTTPRedirectHandler):
-                """Remove Authorization header when redirecting to a different host"""
-                def redirect_request(self, req, fp, code, msg, headers, newurl):
-                    new_req = super().redirect_request(req, fp, code, msg, headers, newurl)
-                    if new_req and new_req.host != req.host:
-                        new_req.remove_header("Authorization")
-                    return new_req
-            
-            try:
-                _opener = _urllib_request.build_opener(_NoAuthRedirectHandler)
-                _dl_req = _urllib_request.Request(_dl_url, headers={"Authorization": f"token {_gh_token}"})
-                _dl_resp_raw = _opener.open(_dl_req, timeout=60)
-                _dl_content = _dl_resp_raw.read()
-            except _urllib_error.HTTPError as _http_err:
-                phase_log(f"  WARN: Download artifact failed ({_http_err.code}): {str(_http_err)[:200]}")
-                raise
-            
-            phase_log(f"  Downloaded artifact zip: {len(_dl_content)} bytes")
-            
-            # Step 4: Extract JSON files from zip to scripts/
-            _zf = zipfile.ZipFile(io.BytesIO(_dl_content))
-            _copied = 0
-            phase_log(f"  Zip contains {len(_zf.namelist())} files: {_zf.namelist()[:10]}")
-            for name in _zf.namelist():
-                if name.endswith(".json"):
-                    data = _zf.read(name)
-                    fname = os.path.basename(name)
-                    dest = os.path.join(SCRIPT_DIR, fname)
-                    with open(dest, "wb") as wf:
-                        wf.write(data)
-                    _copied += 1
-                    if _copied <= 20:
-                        phase_log(f"    Extracted {fname} ({len(data)} bytes)")
-            _zf.close()
             phase_log(f"  Extracted {_copied} JSON files from artifact")
             
         except Exception as e:
