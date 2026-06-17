@@ -5,10 +5,9 @@ v3.5: 顺序版止血，socket 10s + User-Agent + rate_limited
 v4.0: asyncio+aiohttp全量异步重构，预期3-5分钟完成376源抓取
 v4.2: title_similarity用RapidFuzz(206x faster)替代difflib,
       dedup_title_level用Bucket分桶(88x fewer comparisons)
-v4.3: 新增 batch_resolve_gnews_urls() — 所有模块完成后批量解析GNews redirect,
-      解决fetch_one()内GNews semaphore(5)瓶颈导致0/1140 canonical_url的问题
+v4.3: batch_resolve GNews redirect（后由v4.5 Playwright替代，HTTP版已移除）
 v4.4: 三合一升级
-  - _resolve_gnews_redirect: allow_redirects=False先读Location, fallback allow_redirects=True
+  - _resolve_gnews_redirect: [已移除] HTTP方式0%成功率，由Playwright替代
   - fetch_one: feedburner_origlink/guid回退 + published_beijing时间标准化
   - fetch_full_text_batch: Actions端正文抓取(trafilatura), high+medium优先级
   - normalize_to_beijing_time: 统一北京时间+08:00
@@ -207,6 +206,12 @@ KEEP_DIFFERENT_SOURCE = _env_param(
     "产品决策(2026-06-14)", "同标题不同来源是否保留: 1=保留并标[不同来源], 0=不保留"
 )
 
+# --- FT重试参数 ---
+FT_RETRY_MIN_GAP_HOURS = _env_param(
+    "ODH_FT_RETRY_GAP_HOURS", 24, int, 1, 168,
+    "v6.0.8.3可配置化(原硬编码24h)", "FT重试最小间隔(小时)，距首次尝试不足此时间则延迟"
+)
+
 # --- DRY RUN模式 ---
 DRY_RUN = _env_param(
     "OVERSEAS_DRY_RUN", 0, int, 0, 1,
@@ -351,6 +356,8 @@ def get_source_tier(source_tag, authority_map, tier_override=None, canonical_url
     """v6.0.3/v6.0.8: 从源权威度系数派生A-E等级
     v6.0.8新增: 优先按 canonical_url domain 查找 tier_override
     回退: source tag + authority_map 系数
+    优先级: source_tier_override(Pipeline运行时, 海外专属) > source tag + authority_map
+    注: 国内信源评级由 domestic_sources.yaml 独立管理，不经过此函数
     A(>=1.5): 顶级官方/通讯社 | B(>=1.2): 主流大报 | C(==1.0, default): 一般媒体
     D(<1.0): 低可信度/博客 | E(无匹配且GNews): 未解析GNews
     """
@@ -508,126 +515,6 @@ def _is_sensitive_url(url):
 def _is_gnews_url(url):
     """判定URL是否为Google News跟踪链接"""
     return bool(url and "news.google.com" in url)
-
-
-async def _resolve_gnews_redirect(session, gnews_url, timeout_sec=10):
-    """
-    v4.4: 解析GNews跟踪URL的最终跳转地址。
-    策略1(快): allow_redirects=False → 读Location头（单跳，省带宽）
-    策略2(兜底): allow_redirects=True → 跟踪全部跳转读resp.url
-    加入浏览器模拟请求头 + 随机延迟，绕过Google反爬。
-    """
-    # 随机延迟避免触发Google速率限制
-    await asyncio.sleep(random.uniform(0.3, 1.0))
-
-    # 策略1: 读取302 Location头
-    try:
-        async with session.get(
-            gnews_url,
-            headers=_BROWSER_HEADERS,
-            timeout=aiohttp.ClientTimeout(total=timeout_sec, connect=3),
-            allow_redirects=False,
-        ) as resp:
-            if resp.status in (301, 302, 303, 307, 308):
-                location = resp.headers.get("Location", "")
-                if location and "google.com" not in location:
-                    # 补全相对URL
-                    if location.startswith("/"):
-                        from urllib.parse import urlparse
-                        parsed = urlparse(gnews_url)
-                        location = f"{parsed.scheme}://{parsed.netloc}{location}"
-                    return location
-    except Exception:
-        pass
-
-    # 策略2: 跟踪全部重定向
-    try:
-        async with session.get(
-            gnews_url,
-            headers=_BROWSER_HEADERS,
-            timeout=aiohttp.ClientTimeout(total=timeout_sec + 5, connect=3),
-            allow_redirects=True,
-        ) as resp:
-            if resp.status == 200:
-                final_url = str(resp.url)
-                if "google.com" not in final_url:
-                    return final_url
-    except Exception:
-        pass
-
-    return None
-
-
-async def batch_resolve_gnews_urls(articles_by_file, concurrency=15, timeout_sec=6):
-    """
-    批量解析GNews跟踪URL的canonical_url（所有模块完成后专用）。
-    
-    问题：fetch_one()内GNews semaphore(5并发)限制下，大多数URL无法及时解析，
-    导致生产数据中0/1140 canonical_url被填充。
-    
-    此函数以更高并发+更短超时作为post-module步骤专门处理。
-    已有canonical_url的文章自动跳过。
-    
-    articles_by_file: {filename: [article_dicts]} — 原地修改(modifies in-place)
-    返回: (resolved_count, total_gnews_count, elapsed_seconds)
-    """
-    import time as _time
-    start = _time.monotonic()
-    
-    # 收集需要解析的文章
-    resolve_items = []  # [(filename, article_index, gnews_url)]
-    for filename, articles in articles_by_file.items():
-        for idx, article in enumerate(articles):
-            link = article.get("link", "")
-            if _is_gnews_url(link) and "canonical_url" not in article:
-                resolve_items.append((filename, idx, link))
-    
-    total_gnews = len(resolve_items)
-    if not resolve_items:
-        return 0, 0, 0.0
-    
-    print(f"  [BATCH_RESOLVE] {total_gnews} GNews URLs pending (concurrency={concurrency}, timeout={timeout_sec}s)")
-    
-    sem = asyncio.Semaphore(concurrency)
-    headers = dict(_BROWSER_HEADERS)  # v4.4: 使用浏览器模拟头
-    
-    async with aiohttp.ClientSession(headers=headers) as session:
-        async def _resolve_one(item):
-            filename, idx, url = item
-            async with sem:
-                canonical = await _resolve_gnews_redirect(session, url, timeout_sec)
-                return (filename, idx, canonical)
-        
-        # 分批处理，每100个打印进度
-        batch_size = 100
-        resolved = 0
-        failed = 0
-        
-        for i in range(0, total_gnews, batch_size):
-            batch = resolve_items[i:i+batch_size]
-            batch_end = min(i + batch_size, total_gnews)
-            
-            tasks = [_resolve_one(item) for item in batch]
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-            
-            for result in results:
-                if isinstance(result, Exception):
-                    failed += 1
-                    continue
-                filename, idx, canonical = result
-                if canonical:
-                    articles_by_file[filename][idx]["canonical_url"] = canonical
-                    resolved += 1
-                else:
-                    failed += 1
-            
-            elapsed = _time.monotonic() - start
-            print(f"  [BATCH_RESOLVE] Progress: {batch_end}/{total_gnews} "
-                  f"({resolved} resolved, {failed} failed, {elapsed or 0.0:.1f}s elapsed)")
-    
-    elapsed = _time.monotonic() - start
-    print(f"  [BATCH_RESOLVE] Done: {resolved}/{total_gnews} resolved ({failed} failed, {elapsed or 0.0:.1f}s)")
-    return resolved, total_gnews, elapsed
 
 
 def _parse_feed_text(text):
@@ -863,7 +750,7 @@ async def batch_resolve_gnews_with_browser(articles_by_file, priority_filter="hi
     v4.5: 使用 Playwright 无头浏览器批量解析 GNews 跟踪 URL。
     只处理指定优先级的文章中的 GNews 链接（默认仅 high）。
     Google News 跟踪 URL 不是标准 HTTP 302，而是 JS 渲染后才跳转，
-    纯 HTTP(batch_resolve_gnews_urls)覆盖率为 0%。
+    纯 HTTP方式覆盖率为0%（已移除），需Playwright JS渲染。
     Playwright 启动无头 Chromium，完整执行 JS 渲染，成功率预计 85-95%。
     
     v4.5优化：解析URL后直接从已加载的页面提取正文（trafilatura解析HTML），
@@ -1258,7 +1145,7 @@ async def fetch_one(session, url, tag, max_items=50, max_retries=1):
                         item["published_beijing"] = beijing
                     
                     # v4.4: canonical_url 多源回退（仅本地字段，不做网络请求）
-                    # GNews redirect解析由 batch_resolve_gnews_urls() 统一处理，不在fetch_one中逐个解析
+                    # GNews redirect解析由 Playwright batch_resolve_gnews_with_browser() 统一处理
                     if _is_gnews_url(link):
                         # 方法1: feedburner_origlink（FeedBurner代理RSS的真实链接）
                         origlink = entry.get("feedburner_origlink")
@@ -1868,9 +1755,9 @@ class SeenIndex:
     """
     持久化去重索引 — 支持跨run去重和补漏。
     
-    去重策略（2层，仅同源去重，跨源不去重）：
+    去重策略（2级，canonical_url优先，source|title fallback）：
       Layer 1: canonical_url hash — 同源同文重发
-      Layer 2: source + normalized_title hash — 同源改题重发
+      Layer 2: source + normalized_title hash — Layer1未命中时的fallback（同源改题/无canonical_url）
     
     存储格式 (seen_index.json):
       {
