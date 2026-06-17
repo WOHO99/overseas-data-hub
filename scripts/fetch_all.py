@@ -1736,15 +1736,17 @@ async def pw_backfill_mode():
             # Step 4: Extract JSON files from zip to scripts/
             _zf = zipfile.ZipFile(io.BytesIO(_dl_content))
             _copied = 0
+            phase_log(f"  Zip contains {len(_zf.namelist())} files: {_zf.namelist()[:10]}")
             for name in _zf.namelist():
-                if name.endswith(".json") and not name.endswith("seen_index.json"):
+                if name.endswith(".json"):
                     data = _zf.read(name)
                     fname = os.path.basename(name)
                     dest = os.path.join(SCRIPT_DIR, fname)
                     with open(dest, "wb") as wf:
                         wf.write(data)
                     _copied += 1
-                    phase_log(f"    Extracted {fname} ({len(data)} bytes)")
+                    if _copied <= 20:
+                        phase_log(f"    Extracted {fname} ({len(data)} bytes)")
             _zf.close()
             phase_log(f"  Extracted {_copied} JSON files from artifact")
             
