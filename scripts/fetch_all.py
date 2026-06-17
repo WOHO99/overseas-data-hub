@@ -86,7 +86,7 @@ PAYWALL_SOURCES = frozenset([
 
 MODULE_REGISTRY = [
     {"module": "global_business", "output": "global_business.json", "core": True},
-    {"module": "finance_global", "output": "finance.json", "core": False},
+    {"module": "finance_global", "output": "finance_global.json", "core": False},
     {"module": "tech_industry", "output": "tech_industry.json", "core": False},
     {"module": "energy_commodities", "output": "energy_commodities.json", "core": False},
     {"module": "geopolitics_risk", "output": "geopolitics_risk.json", "core": False},
@@ -542,7 +542,7 @@ def global_dedup():
 
 
 def build_index(seen, module_outputs):
-    from common import atomic_write_json, link_hash, load_source_authority
+    from common import atomic_write_json, link_hash, load_source_authority, load_source_tier_override
 
     now = datetime.now(timezone.utc)
     today_str = now.strftime("%Y-%m-%d")
@@ -554,6 +554,8 @@ def build_index(seen, module_outputs):
     # v6.0.3: 加载权威度映射(用于source_tier)
     config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config")
     authority_map = load_source_authority(config_dir)
+    # v6.0.8: 加载domain→tier override映射
+    tier_override = load_source_tier_override(config_dir)
 
     # P4-1: 源指纹计算 — 只从24h窗口文章计算
     from common import parse_published_time
@@ -762,8 +764,8 @@ def build_index(seen, module_outputs):
         else:
             item["fetch_capability"] = "gnews_unresolved"
             fetch_capability_counts["gnews_unresolved"] += 1
-        # --- v6.0.3: source_tier ---
-        tier = get_source_tier(item.get("source", ""), authority_map)
+        # --- v6.0.3/v6.0.8: source_tier (优先domain lookup) ---
+        tier = get_source_tier(item.get("source", ""), authority_map, tier_override, item.get("canonical_url"))
         item["source_tier"] = tier
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
         # --- v6.0.3: auto_tags (可检索标签) ---
@@ -910,8 +912,52 @@ def build_index(seen, module_outputs):
         if s["success_rate"] == 0 and s["total"] >= 5 and s["source"] not in PAYWALL_SOURCES
     ]
 
+    # v6.0.8: Health check — 对比上轮数据，生成运行健康摘要
+    prev_index_path = os.path.join(SCRIPT_DIR, "index.json")
+    prev_index = {}
+    if os.path.exists(prev_index_path):
+        try:
+            with open(prev_index_path, "r", encoding="utf-8") as f:
+                prev_index = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    health_check = {
+        "timestamp": now.isoformat(),
+        "total_articles": total_global,
+        "high_priority": high_global,
+        "ft_success_rate": round(content_status_counts["has_fulltext"] / total_global, 3) if total_global > 0 else 0,
+        "content_status": content_status_counts,
+        "fetch_capability": fetch_capability_counts,
+        "source_tier": tier_counts,
+        "circuit_broken_count": len(circuit_broken_sources),
+        "zero_ft_sources_count": len(zero_ft_sources),
+    }
+    # 对比上轮
+    prev_total = prev_index.get("global_total", 0)
+    prev_ft_rate = None
+    prev_cs = prev_index.get("content_status_counts", {})
+    prev_sum = sum(prev_cs.values())
+    if prev_sum > 0:
+        prev_ft_rate = prev_cs.get("has_fulltext", 0) / prev_sum
+    health_check["prev_total_articles"] = prev_total
+    health_check["delta_articles"] = total_global - prev_total if prev_total > 0 else None
+    health_check["prev_ft_success_rate"] = round(prev_ft_rate, 3) if prev_ft_rate is not None else None
+    # 模块级对比
+    prev_modules = prev_index.get("modules", {})
+    module_health = []
+    for mod_name, mstat in module_stats.items():
+        prev_mcount = prev_modules.get(mod_name, {}).get("article_count", 0)
+        delta = mstat.get("article_count", 0) - prev_mcount
+        module_health.append({
+            "module": mod_name,
+            "articles": mstat.get("article_count", 0),
+            "prev_articles": prev_mcount,
+            "delta": delta,
+        })
+    health_check["modules"] = module_health
+
     index = {
-        "version": "6.0.4",
+        "version": "6.0.8",
         "updated": now.isoformat(),
         "fetch_date_utc": now.strftime("%Y-%m-%d"),
         "global_total": total_global,
@@ -929,6 +975,7 @@ def build_index(seen, module_outputs):
         "source_tier_counts": tier_counts,
         "source_success_ranking": source_success_ranking,
         "zero_fulltext_sources": zero_ft_sources,
+        "health_check": health_check,
         "modules": module_stats,
         "high_priority_articles": high_articles[:100],
     }
@@ -1331,9 +1378,12 @@ async def incremental_mode(forced_when_days=None):
     #     写回后只有new articles，retry候选就丢失了
     MAX_FT_RETRY = 2       # 最多重试2次（加上首次共3次机会）
     MAX_RETRY_PER_RUN = 10 # 每次增量运行最多重试10篇，避免FT阶段耗时过长
+    RETRY_MIN_GAP_HOURS = 24  # v6.0.8: 第2次重试间隔最低24h
+    today_retry_str = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
     retry_articles_by_file = {}
     retry_count = 0
     retry_skipped = 0
+    retry_time_skipped = 0  # v6.0.8: 时间退避跳过的数量
     all_retry_candidates = []  # BUG3 FIX: 收集所有候选再统一排序
     for filename, articles in articles_by_file.items():
         for a in articles:
@@ -1347,6 +1397,21 @@ async def incremental_mode(forced_when_days=None):
             # 需要有canonical_url才值得重试
             if not (a.get("canonical_url") and not _is_gnews_link(a["canonical_url"])):
                 continue
+            # v6.0.8: 记录首次尝试日期（仅首次）
+            if not a.get("fulltext_first_try_date"):
+                a["fulltext_first_try_date"] = today_retry_str
+            # v6.0.8: 第2次重试时间退避 — 距首次尝试不足24h则延迟
+            if retry_num == 1:
+                first_date_str = a.get("fulltext_first_try_date", "")
+                if first_date_str:
+                    try:
+                        first_date = datetime.strptime(first_date_str, "%Y-%m-%d").date()
+                        gap_hours = (datetime.now(BEIJING_TZ).date() - first_date).days * 24
+                        if gap_hours < RETRY_MIN_GAP_HOURS:
+                            retry_time_skipped += 1
+                            continue
+                    except ValueError:
+                        pass  # 日期格式异常，不阻拦重试
             a["fulltext_retry_count"] = retry_num + 1
             all_retry_candidates.append((filename, a))
     # BUG3 FIX: 按fulltext_retry_count升序排序，优先重试次数最少的
@@ -1357,9 +1422,10 @@ async def incremental_mode(forced_when_days=None):
         retry_articles_by_file.setdefault(filename, []).append(a)
         retry_count += 1
     if retry_count > 0:
-        phase_log(f"P1 FT RETRY: {retry_count} articles to retry (skipped {retry_skipped} max-retry exceeded)")
-    elif retry_skipped > 0:
-        phase_log(f"P1 FT RETRY: {retry_skipped} articles max-retry exceeded, marked unavailable")
+        time_note = f", {retry_time_skipped} time-backoff deferred" if retry_time_skipped > 0 else ""
+        phase_log(f"P1 FT RETRY: {retry_count} articles to retry (skipped {retry_skipped} max-retry exceeded{time_note})")
+    elif retry_skipped > 0 or retry_time_skipped > 0:
+        phase_log(f"P1 FT RETRY: {retry_skipped} max-retry exceeded, {retry_time_skipped} time-backoff deferred")
     
     # BUG1 FIX: 构建 retry_id_set，防止retry文章同时出现在new_articles中
     retry_id_set = set()
