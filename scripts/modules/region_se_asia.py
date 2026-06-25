@@ -80,8 +80,6 @@ CONFIG = {
             {"url": gnews_url("ASEAN US China Japan relations trade investment summit 2026", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | ASEAN Powers"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("xuất khẩu thuế quan đầu tư FDI Việt Nam", hl="vi", gl="VN", ceid="VN:vi"), "tag": "GNews | VN Tiếng Việt"},
-            {"url": gnews_url("ekspor tarif investasi Indonesia", hl="id", gl="ID", ceid="ID:id"), "tag": "GNews | ID Bahasa"},
             {"url": gnews_url("ส่งออก ภาษี การลงทุน ไทย เศรษฐกิจ", hl="th", gl="TH", ceid="TH:th"), "tag": "GNews | TH ไทย"},
             {"url": gnews_url("Philippines kalakalan pamumuhukan ekonomiya", hl="fil", gl="PH", ceid="PH:fil"), "tag": "GNews | PH Filipino"},
             {"url": gnews_url("Malaysia eksport pelaburan ekonomi perdagangan", hl="ms", gl="MY", ceid="MY:ms"), "tag": "GNews | MY Bahasa Melayu"},

@@ -257,7 +257,7 @@ def load_keywords(config_dir, module_name):
     kw_path = os.path.join(config_dir, "keywords.yaml")
     if not os.path.exists(kw_path):
         print(f"  [WARN] keywords.yaml not found at {kw_path}, using empty keywords")
-        return [], [], [], []
+        return [], [], [], [], []
 
     with open(kw_path, "r", encoding="utf-8") as f:
         all_kw = yaml.safe_load(f)
@@ -1651,9 +1651,7 @@ def atomic_write_json(data, filepath):
     tmp_path = filepath + ".tmp"
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    if os.path.exists(filepath):
-        os.remove(filepath)
-    os.rename(tmp_path, filepath)
+    os.replace(tmp_path, filepath)
 
 
 def gnews_url(query=None, topic=None, hl="en-US", gl="US", ceid="US:en", num=100, when="7d"):
@@ -1771,7 +1769,7 @@ class SeenIndex:
     # ── 冷备份配置 ──
     _BACKUP_DIR_NAME = "backup"   # 相对于 seen_index.json 所在目录
     _BACKUP_FILENAME = "seen_index_backup.json"
-    _MIN_HEALTHY_ENTRIES = 1000   # 成熟索引条目下限（正常≥30K）
+    _MIN_HEALTHY_ENTRIES = 50   # 索引条目下限（过低=可能损坏；新部署<50也正常，不阻赛）
     
     def __init__(self):
         self.version = 1

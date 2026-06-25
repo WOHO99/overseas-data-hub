@@ -74,6 +74,15 @@ def classify_priority(article, module_name=None):
     P2: medium/low → 不抓
     """
     relevance = article.get("relevance", "")
+    # 降级：relevance缺失时从priority数值反推
+    if not relevance and "priority" in article:
+        p = article["priority"]
+        if p >= 10:
+            relevance = "high"
+        elif p >= 3:
+            relevance = "medium"
+        else:
+            relevance = "low"
     has_signal = bool(article.get("signal_keywords"))
     is_chinese_firm = module_name in CHINESE_FIRMS_MODULES
     is_new_focus = module_name in NEW_FOCUS_MODULES

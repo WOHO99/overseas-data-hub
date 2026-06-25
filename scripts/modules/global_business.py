@@ -116,10 +116,6 @@ CONFIG = {
             {"url": "http://marginalrevolution.com/feed/", "tag": "Marginal Revolution"},
             {"url": "https://ritholtz.com/feed/", "tag": "The Big Picture"},
         ],
-        "新增直连RSS(B)": [
-            # v3.6 Batch B: 1源
-            {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia Economy"},
-        ],
     },
 }
 

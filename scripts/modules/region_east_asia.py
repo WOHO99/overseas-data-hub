@@ -32,21 +32,21 @@ CONFIG = {
             {"url": gnews_url("Japan economy BOJ monetary policy yen GDP 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Economy/BOJ"},
         ],
         "韩国": [
-            {"url": gnews_url("South Korea semiconductor chip export restriction trade K-CHIPS", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Chip/Export"},
-            {"url": gnews_url("South Korea trade tariff manufacturing battery EV shipbuilding", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Trade/Mfg"},
-            {"url": gnews_url("South Korea economy GDP Bank of Korea rate inflation", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Economy"},
+            {"url": gnews_url("South Korea semiconductor chip export restriction trade K-CHIPS", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | KR Chip/Export"},
+            {"url": gnews_url("South Korea trade tariff manufacturing battery EV shipbuilding", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | KR Trade/Mfg"},
+            {"url": gnews_url("South Korea economy GDP Bank of Korea rate inflation", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | KR Economy"},
         ],
         "朝鲜半岛": [
-            {"url": gnews_url("North Korea sanctions trade missile nuclear China Russia", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | DPRK Sanctions"},
+            {"url": gnews_url("North Korea sanctions trade missile nuclear China Russia", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | DPRK Sanctions"},
         ],
         "政治+社会": [
             {"url": gnews_url("Japan political stability election policy LDP 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Politics"},
-            {"url": gnews_url("South Korea political crisis election protest 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Politics"},
+            {"url": gnews_url("South Korea political crisis election protest 2026", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | KR Politics"},
             {"url": gnews_url("Taiwan Strait military tension China patrol 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | Taiwan/SCS"},
         ],
         "基础设施+科技": [
             {"url": gnews_url("Japan chip fab semiconductor factory TSMC Kumamoto Rapidus", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Chip Fab"},
-            {"url": gnews_url("South Korea technology hub semiconductor Samsung SK Hynix", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | KR Tech Hub"},
+            {"url": gnews_url("South Korea technology hub semiconductor Samsung SK Hynix", hl="en", gl="KR", ceid="KR:en"), "tag": "GNews | KR Tech Hub"},
         ],
         "气候+人口": [
             {"url": gnews_url("Japan Korea typhoon earthquake climate disaster 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JK Climate"},

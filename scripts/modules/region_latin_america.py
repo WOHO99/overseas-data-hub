@@ -31,14 +31,14 @@ CONFIG = {
             {"url": gnews_url("Mexico economy GDP trade FDI infrastructure energy", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | MX Economy"},
         ],
         "巴西": [
-            {"url": gnews_url("Brazil commodity export soybean iron ore China trade", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | BR Commodity/China"},
-            {"url": gnews_url("Brazil economy GDP inflation central bank BCB", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | BR Economy"},
-            {"url": gnews_url("Brazil lithium mining critical minerals investment export", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | BR Lithium/Mining"},
+            {"url": gnews_url("Brazil commodity export soybean iron ore China trade", hl="pt-BR", gl="BR", ceid="BR:pt-419"), "tag": "GNews | BR Commodity/China"},
+            {"url": gnews_url("Brazil economy GDP inflation central bank BCB", hl="pt-BR", gl="BR", ceid="BR:pt-419"), "tag": "GNews | BR Economy"},
+            {"url": gnews_url("Brazil lithium mining critical minerals investment export", hl="pt-BR", gl="BR", ceid="BR:pt-419"), "tag": "GNews | BR Lithium/Mining"},
         ],
         "阿根廷+智利+其他": [
-            {"url": gnews_url("Argentina economy IMF debt peso inflation trade", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | AR Economy/IMF"},
-            {"url": gnews_url("Chile lithium mining export trade copper investment", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | CL Lithium/Copper"},
-            {"url": gnews_url("Colombia Peru trade mining investment economy", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | CO/PE Trade"},
+            {"url": gnews_url("Argentina economy IMF debt peso inflation trade", hl="es-419", gl="AR", ceid="AR:es-419"), "tag": "GNews | AR Economy/IMF"},
+            {"url": gnews_url("Chile lithium mining export trade copper investment", hl="es-419", gl="CL", ceid="CL:es-419"), "tag": "GNews | CL Lithium/Copper"},
+            {"url": gnews_url("Colombia Peru trade mining investment economy", hl="es-419", gl="CO", ceid="CO:es-419"), "tag": "GNews | CO/PE Trade"},
             {"url": gnews_url("Latin America China trade investment infrastructure BRI", hl="es-419", gl="MX", ceid="MX:es-419"), "tag": "GNews | LatAm-China/BRI"},
         ],
         "政治+社会": [

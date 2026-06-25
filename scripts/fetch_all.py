@@ -1542,6 +1542,7 @@ async def incremental_mode(forced_when_days=None):
     else:
         phase_log("No new articles but FT retries pending — skipping Playwright/new FT")
         from common import fetch_full_text_batch
+        articles_by_file_ft = {}
     
     # 6.5 P1: fulltext增量重试 — 处理上一轮fulltext_needs_retry的文章
     retry_fetched = 0
