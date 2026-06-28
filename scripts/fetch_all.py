@@ -1026,9 +1026,9 @@ async def main_async():
         except json.JSONDecodeError:
             continue
 
-    # v4.9: 扩大到high+medium(>=3)，max_items=500防止2800+篇超时
+    # v4.9: 扩大到high+medium(>=3)，max_items=800防止2800+篇超时
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_pw, priority_filter="high+medium", max_items=500
+        articles_by_file_pw, priority_filter="high+medium", max_items=800
     )
     phase_log(f"PHASE DONE: Playwright — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -1153,9 +1153,9 @@ async def pw_high_mode():
 
     phase_log("=" * 70)
     phase_log("PHASE: Playwright GNews resolve (high+medium priority)")
-    # v4.9: high+medium + max_items=500
+    # v4.9: high+medium + max_items=800
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file, priority_filter="high+medium", max_items=500
+        articles_by_file, priority_filter="high+medium", max_items=800
     )
     phase_log(f"PHASE DONE: Playwright(high+medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -1196,9 +1196,9 @@ async def pw_medium_mode():
 
     phase_log("=" * 70)
     phase_log("PHASE: Playwright GNews resolve (medium priority only)")
-    # 使用high+medium滤器(>=3) + 预过滤列表(已排除high), max_items=500
+    # 使用high+medium滤器(>=3) + 预过滤列表(已排除high), max_items=800
     pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-        articles_by_file_medium, priority_filter="high+medium", max_items=500
+        articles_by_file_medium, priority_filter="high+medium", max_items=800
     )
     phase_log(f"PHASE DONE: Playwright(medium) — {pw_resolved}/{pw_total} resolved ({pw_elapsed:.1f}s)")
 
@@ -1506,7 +1506,7 @@ async def incremental_mode(forced_when_days=None):
         # v6.0.8.1: Playwright容错 — 浏览器崩溃不杀整个pipeline
         try:
             pw_resolved, pw_total, pw_elapsed = await batch_resolve_gnews_with_browser(
-                articles_by_file_pw, priority_filter="high+medium", max_items=500
+                articles_by_file_pw, priority_filter="high+medium", max_items=800
             )
         except Exception as pw_err:
             phase_log(f"[PLAYWRIGHT] CRASHED: {type(pw_err).__name__}: {str(pw_err)[:200]}")
