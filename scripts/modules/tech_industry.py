@@ -35,6 +35,21 @@ CONFIG = {
             {"url": gnews_url("chip shortage automotive supply 2026"), "tag": "GNews | Auto Chip Shortage"},
             {"url": gnews_url("rare earth magnet semiconductor supply chain China"), "tag": "GNews | Rare Earth/Chip SC"},
         ],
+        "Track17半导体AI专项": [
+            # v3.4新增(07/21): Track17 A股池技术股深度查询
+            # 技术/产品视角,与chinese_firms_overseas的业务合规视角互补
+            {"url": gnews_url("SMIC 7nm 5nm foundry Huawei HiSilicon Kirin chip breakthrough"), "tag": "GNews | SMIC Tech T17"},
+            {"url": gnews_url("Cambricon AI inference training chip MLU performance datacenter 2026"), "tag": "GNews | Cambricon Tech T17"},
+            {"url": gnews_url("Loongson 3A6000 3C5000 CPU MIPS LoongArch performance benchmark"), "tag": "GNews | Loongson Tech T17"},
+            {"url": gnews_url("Hygon DCU deep learning accelerator CUDA Copicker AI compute"), "tag": "GNews | Hygon Tech T17"},
+            {"url": gnews_url("Naura etching PVD ALD semiconductor equipment domestic China 2026"), "tag": "GNews | Naura Tech T17"},
+            {"url": gnews_url("JCET Chiplet HBM fan-out packaging test 2026"), "tag": "GNews | JCET Tech T17"},
+            {"url": gnews_url("Sugon supercomputer server HPC liquid cooling liquid immersion 2026"), "tag": "GNews | Sugon Tech T17"},
+            {"url": gnews_url("QuantumCTek QKD quantum communication distribution network China 2026"), "tag": "GNews | QuantumCTek Tech T17"},
+            {"url": gnews_url("Will Semiconductor OmniVision image sensor 50MP 200MP smartphone CIS 2026"), "tag": "GNews | Will Semi Tech T17"},
+            {"url": gnews_url("ZTE 5G 6G base station Open RAN telecom equipment overseas"), "tag": "GNews | ZTE Tech T17"},
+            {"url": gnews_url("GigaDevice NAND flash MCU GD32 microcontroller China"), "tag": "GNews | GigaDevice Tech T17"},
+        ],
         "AI": [
             {"url": gnews_url("artificial intelligence regulation ban deepfake generative AI"), "tag": "GNews | AI Regulation"},
             {"url": gnews_url("AI chip export control NVIDIA compute restriction"), "tag": "GNews | AI Chip Control"},

@@ -75,6 +75,62 @@ CONFIG = {
         "金融": [
             {"url": gnews_url("Bank of China ICBC CCB overseas branch sanctions cross-border RMB"), "tag": "GNews | Bank Firms"},
         ],
+        "Track17重点27股监控": [
+            # v3.4新增(07/21): Track17 A股27股池海外情报主动监控
+            # 高价值4只(扩展查询,补全海外事件最新关键词)
+            {"url": gnews_url("BYD overseas factory Hungary Brazil Turkey Europe tariff EV export 2026"), "tag": "GNews | BYD T17"},
+            {"url": gnews_url("CATL battery plant Hungary Germany Indonesia Morocco US investment 2026"), "tag": "GNews | CATL T17"},
+            {"url": gnews_url("ZTE Nvidia H200 chip license US export restriction sanctions 2026"), "tag": "GNews | ZTE T17"},
+            {"url": gnews_url("SMIC foundry entity list sanctions equipment ASML Chip supply 2026"), "tag": "GNews | SMIC T17"},
+            # 中价值9只(新增主动查询)
+            {"url": gnews_url("Gree Electric overseas air conditioner Midea Haier market expansion acquisition"), "tag": "GNews | Gree T17"},
+            {"url": gnews_url("Cambricon AI chip entity list US sanction China 2026"), "tag": "GNews | Cambricon T17"},
+            {"url": gnews_url("Loongson CPU architecture China domestic semiconductor MIPS x86 2026"), "tag": "GNews | Loongson T17"},
+            {"url": gnews_url("Trina Solar tariff anti-circumvention US EU panel module 2026"), "tag": "GNews | Trina T17"},
+            {"url": gnews_url("Will Semiconductor OmniVision image sensor CIS smartphone 2026"), "tag": "GNews | Will Semi T17"},
+            {"url": gnews_url("Hygon DCU AI chip sanction entity list AMD x86 license China 2026"), "tag": "GNews | Hygon T17"},
+            {"url": gnews_url("Naura Technology semiconductor equipment Chinese domestic ASML 2026"), "tag": "GNews | Naura T17"},
+            {"url": gnews_url("JCET Chiplet HBM packaging test China semiconductor 2026"), "tag": "GNews | JCET T17"},
+            {"url": gnews_url("Sugon server entity list supercomputer HPC China 2026"), "tag": "GNews | Sugon T17"},
+        ],
+        "Track17行业竞争维度": [
+            # v3.4新增(07/21): 7大板块产业级新闻(含中企+国际同行)
+            # 比单查公司更高效,能抓到关税/管制/产业政策级别的新闻
+            # 板块1: 电动车整车(影响比亚迪)
+            {"url": gnews_url("Chinese EV maker Europe tariff BYD NIO XPeng Li Auto Geely SAIC Chery 2026"), "tag": "GNews | T17 EV板块"},
+            {"url": gnews_url("Chinese EV maker US Mexico factory BYD Geely tariff anti-dumping"), "tag": "GNews | T17 EV北美"},
+            # 板块2: 动力电池(影响宁德时代、比亚迪)
+            {"url": gnews_url("Chinese battery maker Europe plant CATL BYD CALB Sunwoda LG Energy Samsung SDI 2026"), "tag": "GNews | T17 电池板块"},
+            {"url": gnews_url("LFP lithium iron phosphate battery cost market share CATL BYD 2026"), "tag": "GNews | T17 LFP技术"},
+            # 板块3: 风电(影响金风/明阳/泰胜)
+            {"url": gnews_url("Chinese wind turbine maker overseas Goldwind Mingyang Envision Vestas Siemens Gamesa GE Vernova 2026"), "tag": "GNews | T17 风电板块"},
+            {"url": gnews_url("offshore wind farm China Goldwind Mingyang export contract Vietnam India"), "tag": "GNews | T17 海上风电"},
+            # 板块4: 光伏(影响天合/奥特维/正泰光伏)
+            {"url": gnews_url("Chinese solar panel maker tariff anti-circumvention Trina JinkoSolar JA Solar LONGi Canadian Solar First Solar 2026"), "tag": "GNews | T17 光伏板块"},
+            {"url": gnews_url("solar cell TOPCon HJT technology Trina JinkoSolar LONGi efficiency record"), "tag": "GNews | T17 光伏技术"},
+            # 板块5: 晶圆代工+封测(影响中芯/长电)
+            {"url": gnews_url("China foundry SMIC Hua Hong 7nm 5nm breakthrough TSMC UMC GlobalFoundries 2026"), "tag": "GNews | T17 代工板块"},
+            {"url": gnews_url("JCET ASE Amkor Chiplet HBM advanced packaging China 2026"), "tag": "GNews | T17 封测板块"},
+            # 板块6: 半导体设备+存储(影响北方华创/兆易)
+            {"url": gnews_url("Chinese semiconductor equipment Naura AMEC Piotech domestic Applied Materials ASML Lam Research 2026"), "tag": "GNews | T17 半导体设备"},
+            {"url": gnews_url("GigaDevice NAND flash MCU GD32 Samsung SK Hynix Micron China 2026"), "tag": "GNews | T17 存储板块"},
+            # 板块7: AI芯片+CPU+GPU(影响寒武纪/海光/龙芯/景嘉微/韦尔)
+            {"url": gnews_url("Chinese AI chip Cambricon Hygon Biren Moore Threads Huawei Ascend NVIDIA AMD sanction 2026"), "tag": "GNews | T17 AI芯片板块"},
+            {"url": gnews_url("Chinese CPU Loongson Phytium Zhaoxin Intel AMD ARM domestic substitution 2026"), "tag": "GNews | T17 国产CPU"},
+            {"url": gnews_url("Chinese GPU JingJia Micro Moore Threads Intel NVIDIA AMD domestic 2026"), "tag": "GNews | T17 国产GPU"},
+            {"url": gnews_url("image sensor CIS OmniVision Will Semiconductor Sony Samsung smartphone 2026"), "tag": "GNews | T17 CIS板块"},
+            # 板块8: 网安+CDN+量子+服务器(影响奇安信/网宿/国盾/曙光)
+            {"url": gnews_url("Chinese cybersecurity firm Qi An Xin Palo Alto Fortinet CrowdStrike enterprise 2026"), "tag": "GNews | T17 网安板块"},
+            {"url": gnews_url("China CDN edge computing Wangsu Akamai Cloudflare 5G 2026"), "tag": "GNews | T17 CDN板块"},
+            {"url": gnews_url("quantum communication QKD China QuantumCTek ID Quantique IBM network 2026"), "tag": "GNews | T17 量子板块"},
+            {"url": gnews_url("China AI server Sugon Inspur Lenovo NVIDIA H100 H200 restriction 2026"), "tag": "GNews | T17 AI服务器板块"},
+            # 板块9: 家电+电力+科创生物(影响格力/长江电力/立新能源/正泰低压/键凯/药康)
+            {"url": gnews_url("Chinese home appliance maker Gree Midea Haier overseas acquisition Daikin LG 2026"), "tag": "GNews | T17 家电板块"},
+            {"url": gnews_url("China hydropower utility Yangtze River Three Gorges Huaneng Power CGN renewable IPP 2026"), "tag": "GNews | T17 电力板块"},
+            {"url": gnews_url("Chint low voltage electrical Schneider ABB Siemens overseas 2026"), "tag": "GNews | T17 低压电器板块"},
+            {"url": gnews_url("PEGylation JenKem Nektar polymer drug conjugate China 2026"), "tag": "GNews | T17 PEG生物板块"},
+            {"url": gnews_url("GemPharmatech animal model CRO Charles River Jackson Laboratory WuXi 2026"), "tag": "GNews | T17 实验动物板块"},
+        ],
         "本地语言搜索": [
             {"url": gnews_url("中国企业 海外建厂 并购 制裁 合规处罚", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 中企海外"},
             {"url": gnews_url("BYD CATL Huawei 海外 工厂 制裁 关税", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 重点企业"},
