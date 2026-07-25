@@ -44,8 +44,6 @@ CONFIG = {
         ],
         "政治+冲突": [
             {"url": gnews_url("Africa conflict coup political crisis instability 2026", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Conflict"},
-            {"url": gnews_url("Sahel conflict terrorism Mali Burkina Faso Niger", hl="fr-ML", gl="ML", ceid="ML:fr"), "tag": "GNews | Sahel Crisis"},
-            {"url": gnews_url("Sudan conflict civil war humanitarian crisis", hl="ar-SD", gl="SD", ceid="SD:ar"), "tag": "GNews | Sudan Crisis"},
         ],
         "基础设施+科技": [
             {"url": gnews_url("Africa infrastructure port expansion railway project 2026", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | Africa Infra"},
@@ -61,19 +59,11 @@ CONFIG = {
             {"url": gnews_url("China Africa FOCAC trade investment infrastructure BRI"), "tag": "GNews | China-Africa FOCAC"},
         ],
         "独立RSS源": [
-            {"url": "https://www.dailymaverick.co.za/rss/", "tag": "Daily Maverick ZA"},
+            # DEAD: {"url": "https://www.dailymaverick.co.za/rss/", "tag": "Daily Maverick ZA"},
             {"url": "https://www.theeastafrican.co.ke/rss", "tag": "The East African"},
         ],
         "本地语言搜索": [
             {"url": gnews_url("South Africa trade export investment economy mining", hl="en-ZA", gl="ZA", ceid="ZA:en"), "tag": "GNews | ZA English"},
-            {"url": gnews_url("مصر اقتصاد تجارة استثمار تصدير", hl="ar", gl="EG", ceid="EG:ar"), "tag": "GNews | EG العربية"},
-            {"url": gnews_url("Nigeria commerce investissement pétrole exportation", hl="fr-NG", gl="NG", ceid="NG:fr"), "tag": "GNews | NG Français"},
-            {"url": gnews_url("Congo RDC mines cobalt investissement Chine", hl="fr-CD", gl="CD", ceid="CD:fr"), "tag": "GNews | CD Français"},
-            {"url": gnews_url("Sénégal économie commerce investissement", hl="fr-SN", gl="SN", ceid="SN:fr"), "tag": "GNews | SN Français"},
-            {"url": gnews_url("Côte d'Ivoire économie commerce cacao investissement", hl="fr-CI", gl="CI", ceid="CI:fr"), "tag": "GNews | CI Français"},
-            {"url": gnews_url("Kenya biashara uwekezaji biashara ya kimataifa", hl="sw", gl="KE", ceid="KE:sw"), "tag": "GNews | KE Kiswahili"},
-            {"url": gnews_url("Angola economia comércio petróleo investimento", hl="pt-AO", gl="AO", ceid="AO:pt"), "tag": "GNews | AO Português"},
-            {"url": gnews_url("Moçambique economia comércio gás investimento", hl="pt-MZ", gl="MZ", ceid="MZ:pt"), "tag": "GNews | MZ Português"},
         ],
         "信号性查询": [
             {"url": gnews_url('"conflict escalation" "coup" Africa political crisis'), "tag": "GNews | Signal: Africa Crisis"},

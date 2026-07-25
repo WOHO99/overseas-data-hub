@@ -4,6 +4,7 @@ trade_import_export.py — 进出口贸易模块
 覆盖：贸易数据、进出口管制、原产地规则、自贸协定、反倾销
 聚焦影响中国企业进出口的政策与事件
 与其他模块边界：跨境电商模块管平台合规，本模块管贸易政策/管制/壁垒
+v3.5: Batch E补充8个直连RSS源(Reuters/CNBC/BBC/Nikkei/FedReg/Politico/SCMP/Guardian)
 """
 
 import sys
@@ -48,14 +49,8 @@ CONFIG = {
         ],
         "中国企业视角": [
             {"url": gnews_url("Chinese exporter tariff impact US EU market access 2026"), "tag": "GNews | CN Exporter Impact"},
-            {"url": gnews_url("反倾销 出口管制 中国企业 影响 关税", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 贸易影响 (zh)"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("反倾销 出口管制 自贸协定 进出口 关税", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 贸易"},
-            {"url": gnews_url("反ダンピング 関税 輸出規制 貿易協定 日本", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 貿易"},
-            {"url": gnews_url("Anti-Dumping Zoll Exportkontrolle Handelsabkommen Deutschland", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE Handel"},
-            {"url": gnews_url("반덤핑 관세 수출통제 무역협정 한국", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 무역"},
-            {"url": gnews_url("WTO droit de douane commerce international France", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR Commerce"},
         ],
         "信号性查询": [
             {"url": gnews_url('"import ban" "export ban" "emergency restriction" trade'), "tag": "GNews | Signal: Trade Ban"},
@@ -63,8 +58,17 @@ CONFIG = {
             {"url": gnews_url('"sudden inspection" import export customs seizure'), "tag": "GNews | Signal: Sudden Inspection"},
         ],
         "贸易政策RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
+            {"url": "https://www.reuters.com/rssFeed/businessNews", "tag": "Reuters Business"},
+            # DEAD: {"url": "https://rss.cnbc.com/headlines/world/", "tag": "CNBC World"},
+            # DEAD: {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
+            {"url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=office-of-the-united-states-trade-representative&conditions%5Btype%5D%5B%5D=NOTICE", "tag": "FedReg | USTR"},
+            {"url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=department-of-commerce-bureau-of-industry-and-security&conditions%5Btype%5D%5B%5D=RULE", "tag": "FedReg | BIS"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
+            # DEAD: {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            {"url": "https://www.politico.com/rss", "tag": "Politico"},
+            # DEAD: {"url": "https://www.scmp.com/rss/91/feed", "tag": "SCMP Economy"},
         ],
     },
 }

@@ -71,12 +71,10 @@ CONFIG = {
             {"url": gnews_url("quantum computing breakthrough error correction 2026"), "tag": "GNews | Quantum"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("芯片 半导体 出口管制 人工智能 制裁", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 芯片/AI"},
-            {"url": gnews_url("반도체 칩 수출 통제 AI 규제", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 반도체"},
         ],
         "独立RSS源": [
-            {"url": "https://arstechnica.com/rss", "tag": "Ars Technica (old)"},
-            {"url": "https://www.wired.com/feed/rss", "tag": "Wired"},
+            # DEAD: {"url": "https://arstechnica.com/rss", "tag": "Ars Technica (old)"},
+            # DEAD: {"url": "https://www.wired.com/feed/rss", "tag": "Wired"},
         ],
         "科技媒体RSS(D)": [
             # v3.5 Batch D: 科技新闻媒体
@@ -84,17 +82,17 @@ CONFIG = {
             {"url": "http://feeds.arstechnica.com/arstechnica/science", "tag": "Ars Technica Science"},
             {"url": "https://www.technologyreview.com/feed/", "tag": "MIT Tech Review"},
             {"url": "https://www.newscientist.com/feed/home", "tag": "New Scientist"},
-            {"url": "https://www.nasa.gov/rss/dyn/breaking_news.rss", "tag": "NASA Breaking News"},
-            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "tag": "NYT Technology"},
+            # DEAD: {"url": "https://www.nasa.gov/rss/dyn/breaking_news.rss", "tag": "NASA Breaking News"},
+            # DEAD: {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "tag": "NYT Technology"},
             {"url": "https://feeds.reuters.com/reuters/technologyNews", "tag": "Reuters Technology"},
         ],
         "开发者社区RSS(D)": [
             # v3.5 Batch D: 开发者社区/聚合器
-            {"url": "https://news.ycombinator.com/rss", "tag": "Hacker News Top"},
+            # DEAD: {"url": "https://news.ycombinator.com/rss", "tag": "Hacker News Top"},
             {"url": "https://news.ycombinator.com/newest?rss", "tag": "Hacker News New"},
             {"url": "https://stackoverflow.blog/feed/", "tag": "Stack Overflow Blog"},
-            {"url": "https://github.blog/feed/", "tag": "GitHub Blog"},
-            {"url": "https://lwn.net/headlines/rss", "tag": "LWN Headlines"},
+            # DEAD: {"url": "https://github.blog/feed/", "tag": "GitHub Blog"},
+            # DEAD: {"url": "https://lwn.net/headlines/rss", "tag": "LWN Headlines"},
         ],
         "技术博客RSS(D)": [
             # v3.5 Batch D: 个人/公司技术博客
@@ -107,17 +105,17 @@ CONFIG = {
         ],
         "平台专精RSS(D)": [
             # v3.5 Batch D: Apple/Linux/硬件专精
-            {"url": "https://9to5mac.com/feed/", "tag": "9to5Mac"},
-            {"url": "https://www.macrumors.com/macrumors.xml", "tag": "MacRumors"},
-            {"url": "https://www.omgubuntu.co.uk/feed", "tag": "OMG! Ubuntu"},
-            {"url": "https://www.phoronix.com/rss.php", "tag": "Phoronix"},
+            # DEAD: {"url": "https://9to5mac.com/feed/", "tag": "9to5Mac"},
+            # DEAD: {"url": "https://www.macrumors.com/macrumors.xml", "tag": "MacRumors"},
+            # DEAD: {"url": "https://www.omgubuntu.co.uk/feed", "tag": "OMG! Ubuntu"},
+            # DEAD: {"url": "https://www.phoronix.com/rss.php", "tag": "Phoronix"},
         ],
         "新增直连RSS(B)": [
             # v3.6 Batch B: 7源
             {"url": "https://stratechery.com/feed/", "tag": "Stratechery"},
-            {"url": "https://www.theverge.com/rss/index.xml", "tag": "The Verge"},
-            {"url": "https://openai.com/blog/rss.xml", "tag": "OpenAI Blog"},
-            {"url": "https://deepmind.google/blog/rss.xml", "tag": "DeepMind Blog"},
+            # DEAD: {"url": "https://www.theverge.com/rss/index.xml", "tag": "The Verge"},
+            # DEAD: {"url": "https://openai.com/blog/rss.xml", "tag": "OpenAI Blog"},
+            # DEAD: {"url": "https://deepmind.google/blog/rss.xml", "tag": "DeepMind Blog"},
             {"url": "https://feeds.feedburner.com/bloomberg-technology-news", "tag": "Bloomberg Technology"},
             {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10002647", "tag": "CNBC Technology"},
             {"url": "https://feeds.content.dowjones.io/public/rss/WSJD", "tag": "WSJ Tech"},
@@ -134,8 +132,8 @@ CONFIG = {
             {"url": gnews_url(topic="TECHNOLOGY"), "tag": "GNews Topic | TECH(US)"},
         ],
         "科技权威RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "tag": "BBC Tech"},
-            {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "tag": "BBC Tech"},
+            # DEAD: {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
             {"url": "http://rss.cnn.com/rss/cnn_tech.rss", "tag": "CNN Tech"},
         ],
     },

@@ -87,15 +87,21 @@ def classify_topic(article):
                 return topic
     return MODULE_TOPIC_DEFAULTS.get(article.get("_module", ""), "综合")
 
-def priority_class(p):
-    if p >= 15: return "high"
-    if p >= 10: return "medium"
+def priority_class(a):
+    """Use priority_label from P0 calibration, fallback to numeric thresholds."""
+    pl = a.get("priority_label", "") if isinstance(a, dict) else ""
+    if pl == "high": return "high"
+    if pl == "medium": return "medium"
+    p = a.get("priority", 0) if isinstance(a, dict) else 0
+    try: pv = float(p)
+    except (ValueError, TypeError): pv = 0
+    if pv >= 6: return "high"
+    if pv >= 2: return "medium"
     return "low"
 
-def priority_label(p):
-    if p >= 15: return "高"
-    if p >= 10: return "中"
-    return "低"
+def priority_label_zh(a):
+    pl = priority_class(a)
+    return {"high": "高", "medium": "中", "low": "低"}.get(pl, "低")
 
 def _fmt_pubdate(article):
     pb = article.get("published_beijing", "") if isinstance(article, dict) else ""
@@ -140,6 +146,14 @@ def generate(data_dir: Path, output_path: Path):
     module_list = []
     source_stats = {}
 
+    # Load feed quality scores for downstream filtering
+    feed_scores = {}
+    fs_path = data_dir / "feed_score.json"
+    if fs_path.exists():
+        with open(fs_path, encoding="utf-8") as f:
+            feed_scores = json.load(f)
+    _filtered_by_feed = 0
+
     for mk in MODULE_ORDER:
         jf = data_dir / f"{mk}.json"
         if not jf.exists() or jf.name in SKIP_FILES:
@@ -156,6 +170,13 @@ def generate(data_dir: Path, output_path: Path):
         module_list.append({"id": mk, "name": cn, "total": m_total, "high": m_hp, "med": m_mp, "signals": sig_str})
 
         for a in articles:
+            # Downstream filter: skip articles from low-quality feeds (score < 5)
+            src_name = a.get("source", "")
+            fs = feed_scores.get(src_name, {})
+            if fs and fs.get("score", 100) < 5:
+                _filtered_by_feed += 1
+                continue
+
             a["_module"] = mk
             a["_module_cn"] = MODULE_NAMES.get(mk, mk)
             a["_country"] = classify_country(a)
@@ -173,7 +194,7 @@ def generate(data_dir: Path, output_path: Path):
                 source_stats[display_src] = source_stats.get(display_src, 0) + 1
 
     total_articles = len(all_articles)
-    high_count = sum(1 for a in all_articles if a.get("priority", 0) >= 15)
+    high_count = sum(1 for a in all_articles if priority_class(a) == "high")
     sig_count = len(triggered_signals)
 
     # 4. 仪表盘数据准备
@@ -221,7 +242,7 @@ def generate(data_dir: Path, output_path: Path):
             continue
         cn = MODULE_NAMES[mk]
         arts = [a for a in all_articles if a.get("_module") == mk]
-        m_high = sum(1 for a in arts if a.get("priority", 0) >= 15)
+        m_high = sum(1 for a in arts if priority_class(a) == "high")
         m_sig = sum(1 for a in arts if a.get("signal_keywords"))
         top3 = sorted(arts, key=lambda x: x.get("priority", 0), reverse=True)[:3]
         newmod_data.append({"name": cn, "total": len(arts), "high": m_high, "sig": m_sig, "top3": top3})
@@ -232,7 +253,7 @@ def generate(data_dir: Path, output_path: Path):
         cn = MODULE_NAMES.get(mk, mk)
         arts = [a for a in all_articles if a.get("_module") == mk]
         m_total = len(arts)
-        m_high = sum(1 for a in arts if a.get("priority", 0) >= 15)
+        m_high = sum(1 for a in arts if priority_class(a) == "high")
         m_sig = sum(1 for a in arts if a.get("signal_keywords"))
         if m_total == 0:
             heat = 0
@@ -246,7 +267,7 @@ def generate(data_dir: Path, output_path: Path):
 
     # 中企风险
     risk_arts = sorted(
-        [a for a in all_articles if a.get("_module") in CHINESE_FIRMS_MODULES and a.get("priority", 0) >= 10],
+        [a for a in all_articles if a.get("_module") in CHINESE_FIRMS_MODULES and priority_class(a) != "low"],
         key=lambda x: x.get("priority", 0), reverse=True
     )[:15]
 
@@ -336,7 +357,9 @@ def generate(data_dir: Path, output_path: Path):
             pri_val = float(pri)
         except (ValueError, TypeError):
             pri_val = 0
-        level = "high" if pri_val >= 15 else ("medium" if pri_val >= 10 else "low")
+        level = a.get("priority_label", "low")
+        if level not in ("high", "medium", "low"):
+            level = "high" if pri_val >= 6 else ("medium" if pri_val >= 2 else "low")
         ft = a.get("full_text", "")
         has_ft = bool(ft and len(ft) > 100)
         summary = (a.get("summary", "") or "").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&nbsp;", " ")[:500]
@@ -418,10 +441,10 @@ def generate(data_dir: Path, output_path: Path):
     top10_rows = ""
     for i, a in enumerate(top10, 1):
         p = a.get("priority", 0)
-        pc = priority_class(p)
+        pc = priority_class(a)
         top10_rows += f'''<div class="mustread-item">
   <span class="mustread-rank">{i}</span>
-  <span class="mustread-badge {pc}">{priority_label(p)} {p:.1f}</span>
+  <span class="mustread-badge {pc}">{priority_label_zh(a)} {p:.1f}</span>
   <span class="mustread-date">{_fmt_pubdate(a)}</span>
   <span class="mustread-title">{esc(a.get("title",""))}</span>
   <span class="mustread-source">{esc(a.get("source",""))}</span>
@@ -434,7 +457,7 @@ def generate(data_dir: Path, output_path: Path):
         top3_rows = ""
         for a in nm["top3"]:
             p = a.get("priority", 0)
-            top3_rows += f'''<div class="newmod-item"><span class="newmod-prio {priority_class(p)}">{p:.1f}</span><span class="newmod-date">{_fmt_pubdate(a)}</span><span class="newmod-title">{esc(a.get("title",""))[:70]}</span></div>'''
+            top3_rows += f'''<div class="newmod-item"><span class="newmod-prio {priority_class(a)}">{p:.1f}</span><span class="newmod-date">{_fmt_pubdate(a)}</span><span class="newmod-title">{esc(a.get("title",""))[:70]}</span></div>'''
         newmod_cards += f'''<div class="newmod-card"><div class="newmod-header">{esc(nm["name"])} <span class="newmod-stats">{nm["total"]}篇 | 高{nm["high"]} | 信号{nm["sig"]}</span></div><div class="newmod-items">{top3_rows}</div></div>'''
     newmod_html = f'''<div class="dash-section" id="sec-newmod"><h2 class="sec-title">四新板块速览</h2><div class="newmod-grid">{newmod_cards}</div></div>'''
 
@@ -451,8 +474,8 @@ def generate(data_dir: Path, output_path: Path):
         risk_rows = ""
         for a in risk_arts:
             p = a.get("priority", 0)
-            pc = priority_class(p)
-            risk_rows += f'''<div class="risk-item"><span class="risk-badge {pc}">{priority_label(p)} {p:.1f}</span><span class="risk-mod">{esc(MODULE_NAMES.get(a.get("_module",""),""))}</span><span class="risk-date">{_fmt_pubdate(a)}</span><span class="risk-title">{esc(a.get("title",""))[:80]}</span><span class="risk-source">{esc(a.get("source",""))}</span></div>'''
+            pc = priority_class(a)
+            risk_rows += f'''<div class="risk-item"><span class="risk-badge {pc}">{priority_label_zh(a)} {p:.1f}</span><span class="risk-mod">{esc(MODULE_NAMES.get(a.get("_module",""),""))}</span><span class="risk-date">{_fmt_pubdate(a)}</span><span class="risk-title">{esc(a.get("title",""))[:80]}</span><span class="risk-source">{esc(a.get("source",""))}</span></div>'''
         risk_html = f'''<div class="dash-section" id="sec-chinarisk"><h2 class="sec-title">中企风险快讯</h2><div class="risk-list">{risk_rows}</div></div>'''
     else:
         risk_html = '''<div class="dash-section" id="sec-chinarisk"><h2 class="sec-title">中企风险快讯</h2><div class="risk-empty">今日无中企相关风险文章</div></div>'''
@@ -758,8 +781,8 @@ a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}
 <body>
 <div class="container">
   <div class="header">
-    <h1>全球视野日报</h1>
-    <div class="header-date">{fetch_date} | 18模块 {total_articles}篇 | 高{high_count}+中{sum(1 for a in all_articles if 10<=a.get("priority",0)<15)} | 信号{sig_count}</div>
+    <h1>全球视野日报 · {fetch_date}</h1>
+    <div class="header-date">{fetch_date} | 18模块 {total_articles}篇 | 高{high_count}+中{sum(1 for a in all_articles if priority_class(a)=="medium")} | 信号{sig_count}</div>
   </div>
 
   <div class="dashboard">
@@ -1067,9 +1090,21 @@ renderPending();
     print(f"  全文浏览器: {total_articles}篇 懒加载50/页, {len(fulltexts)}篇全文, source:语法")
     print(f"  侧边栏: 模块统计+信源TOP30")
     print(f"  数据嵌入: articles {len(articles_json)//1024}KB + fulltexts {len(fulltexts_json)//1024}KB")
+    if _filtered_by_feed > 0:
+        print(f"  Feed质量过滤: {_filtered_by_feed}篇被过滤(feed score<5)")
 
 
 if __name__ == "__main__":
     data_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data")
-    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else data_dir.parent / "全球视野日报.html"
+    if len(sys.argv) > 2:
+        output_path = Path(sys.argv[2])
+    else:
+        # Auto-inject fetch date: 全球视野日报_YYYY-MM-DD.html
+        idx = data_dir / "index.json"
+        if idx.exists():
+            fetch_date = json.loads(idx.read_text(encoding="utf-8")).get("fetch_date_utc", "")
+        else:
+            fetch_date = ""
+        date_tag = fetch_date if fetch_date else datetime.utcnow().strftime("%Y-%m-%d")
+        output_path = data_dir.parent / f"全球视野日报_{date_tag}.html"
     generate(data_dir, output_path)

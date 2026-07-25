@@ -96,20 +96,18 @@ CONFIG = {
             {"url": gnews_url("sovereign wealth fund investment allocation"), "tag": "GNews | SWF"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("日銀 金融政策 金利 円 経済", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 日央行"},
-            {"url": gnews_url("央行 货币政策 利率 人民币 经济", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 央行/经济"},
         ],
         "独立RSS源": [
-            {"url": "https://www.ft.com/rss/home", "tag": "FT Home"},
-            {"url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews", "tag": "WSJ World"},
+            # DEAD: {"url": "https://www.ft.com/rss/home", "tag": "FT Home"},
+            # DEAD: {"url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews", "tag": "WSJ World"},
         ],
         "新增直连RSS": [
             # v3.4 Batch A: 5个新增直连RSS，full_text_strategy=trafilatura
             {"url": "https://www.federalreserve.gov/feeds/press_all.xml", "tag": "Fed Press All"},
             {"url": "https://www.ecb.europa.eu/rss/press.html", "tag": "ECB Press"},
             {"url": "http://feeds.reuters.com/reuters/hotStocksNews", "tag": "Reuters Hot Stocks"},
-            {"url": "https://www.marketwatch.com/rss/topstories", "tag": "MarketWatch Top"},
-            {"url": "https://cointelegraph.com/rss", "tag": "CoinTelegraph"},
+            # DEAD: {"url": "https://www.marketwatch.com/rss/topstories", "tag": "MarketWatch Top"},
+            # DEAD: {"url": "https://cointelegraph.com/rss", "tag": "CoinTelegraph"},
         ],
         "信号性查询": [
             # v3.3新增
@@ -122,7 +120,7 @@ CONFIG = {
             {"url": gnews_url(topic="BUSINESS", hl="en-IN", gl="IN", ceid="IN:en"), "tag": "GNews Topic | BUSINESS(IN)"},
         ],
         "权威财经RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
             {"url": "http://rss.cnn.com/rss/money_news_international.rss", "tag": "CNN Business"},
         ],
@@ -131,13 +129,13 @@ CONFIG = {
             {"url": "https://www.bloomberg.com/feed/", "tag": "Bloomberg Markets Direct"},
             {"url": "https://www.economist.com/feeds/print-sections/77/business.xml", "tag": "Economist Business"},
             {"url": "http://feeds.feedburner.com/CalculatedRisk", "tag": "Calculated Risk"},
-            {"url": "https://feeds.feedburner.com/zerohedge/feed", "tag": "ZeroHedge"},
+            # DEAD: {"url": "https://feeds.feedburner.com/zerohedge/feed", "tag": "ZeroHedge"},
         ],
         "新增直连RSS(B+C)": [
             # v3.6 Batch B: 4源 + Batch C: 3源
             {"url": "https://feeds.feedburner.com/bloomberg-markets-news", "tag": "Bloomberg Markets"},
-            {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "tag": "CNBC World"},
-            {"url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "tag": "WSJ Markets"},
+            # DEAD: {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "tag": "CNBC World"},
+            # DEAD: {"url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "tag": "WSJ Markets"},
             {"url": "https://www.ft.com/alphaville/rss", "tag": "FT Alphaville"},
             {"url": "https://www.imf.org/en/News/Rss", "tag": "IMF Blog"},
             {"url": "https://www.worldbank.org/en/rss/rssfeed", "tag": "World Bank News"},

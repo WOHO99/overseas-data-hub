@@ -30,11 +30,11 @@ CONFIG = {
     "exclude_keywords": _exclude_kw,
     "feeds": {
         "全球财经": [
-            {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
-            {"url": "https://www.scmp.com/rss/91/feed", "tag": "SCMP Economy"},
+            # DEAD: {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
+            # DEAD: {"url": "https://www.scmp.com/rss/91/feed", "tag": "SCMP Economy"},
             {"url": "https://feeds.feedburner.com/bloomberg-markets-news", "tag": "Bloomberg Markets"},
             {"url": "https://www.reuters.com/rssFeed/businessNews", "tag": "Reuters Business"},
-            {"url": "https://rss.cnbc.com/headlines/world/", "tag": "CNBC World"},
+            # DEAD: {"url": "https://rss.cnbc.com/headlines/world/", "tag": "CNBC World"},
             # v3.4 Batch A: Reuters Company直连RSS
             {"url": "http://feeds.reuters.com/reuters/companyNews", "tag": "Reuters Company"},
             {"url": gnews_url("China trade tariff 301 supply chain"), "tag": "GNews | China Trade/Tariff"},
@@ -46,7 +46,7 @@ CONFIG = {
             {"url": "https://techcrunch.com/tag/southeast-asia/feed/", "tag": "TC | SE Asia"},
             {"url": "https://techcrunch.com/tag/fintech/feed/", "tag": "TC | Fintech"},
             {"url": "https://techcrunch.com/tag/saas/feed/", "tag": "TC | SaaS"},
-            {"url": "https://www.scmp.com/rss/92/feed", "tag": "SCMP Tech"},
+            # DEAD: {"url": "https://www.scmp.com/rss/92/feed", "tag": "SCMP Tech"},
             {"url": gnews_url("Chinese companies going global overseas expansion"), "tag": "GNews | China Going Global"},
             {"url": gnews_url("Chinese tech overseas TikTok Temu Shein BYD"), "tag": "GNews | Chinese Tech Overseas"},
             {"url": gnews_url("Southeast Asia startup funding VC investment 2026"), "tag": "GNews | SE Asia Startup"},
@@ -76,7 +76,7 @@ CONFIG = {
         "东南亚本地": [
             {"url": "https://www.thejakartapost.com/rss", "tag": "Jakarta Post"},
             {"url": "https://www.straitstimes.com/rss/breaking-news", "tag": "Straits Times"},
-            {"url": "https://www.bangkokpost.com/rss/data/breakingnews.xml", "tag": "Bangkok Post"},
+            # DEAD: {"url": "https://www.bangkokpost.com/rss/data/breakingnews.xml", "tag": "Bangkok Post"},
             {"url": "https://www.thestar.com.my/rss/News", "tag": "The Star MY"},
             {"url": gnews_url("Vietnam export trade tariff manufacturing"), "tag": "GNews | Vietnam Trade"},
             {"url": gnews_url("Indonesia tariff export nickel critical minerals"), "tag": "GNews | Indonesia Trade"},
@@ -87,7 +87,6 @@ CONFIG = {
             {"url": gnews_url("ASEAN free trade RCEP CPTPP agreement"), "tag": "GNews | ASEAN FTA"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("关税 制裁 出口管制 供应链 贸易战 301", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 关税/制裁"},
         ],
         "信号性查询": [
             # v3.3新增：信号性词汇查询
@@ -100,21 +99,21 @@ CONFIG = {
             {"url": gnews_url(topic="WORLD"), "tag": "GNews Topic | WORLD(US)"},
         ],
         "权威媒体RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
-            {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
             {"url": "http://rss.cnn.com/rss/cnn_world.rss", "tag": "CNN World"},
-            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            # DEAD: {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
             {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
-            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
+            # DEAD: {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
         ],
         "新增直连RSS(D)": [
             # v3.5 Batch D: 6个新增
-            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "tag": "NYT Business"},
+            # DEAD: {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "tag": "NYT Business"},
             {"url": "http://feeds.reuters.com/reuters/topNews", "tag": "Reuters Top News"},
             {"url": "https://bothsidesofthetable.com/feed", "tag": "Both Sides of the Table"},
             {"url": "https://www.ycombinator.com/blog/rss", "tag": "Y Combinator Blog"},
             {"url": "http://marginalrevolution.com/feed/", "tag": "Marginal Revolution"},
-            {"url": "https://ritholtz.com/feed/", "tag": "The Big Picture"},
+            # DEAD: {"url": "https://ritholtz.com/feed/", "tag": "The Big Picture"},
         ],
     },
 }

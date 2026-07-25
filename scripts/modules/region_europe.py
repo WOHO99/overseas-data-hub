@@ -63,18 +63,14 @@ CONFIG = {
             {"url": gnews_url("China EU relation trade investment sanction negotiation"), "tag": "GNews | China-EU"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("Deutschland Wirtschaft Handel Investition Industrie", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE Deutsch"},
-            {"url": gnews_url("France économie commerce investissement industrie", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR Français"},
-            {"url": gnews_url("España economía comercio inversión industria", hl="es", gl="ES", ceid="ES:es"), "tag": "GNews | ES Español"},
-            {"url": gnews_url("Italia economia commercio investimento industria", hl="it", gl="IT", ceid="IT:it"), "tag": "GNews | IT Italiano"},
         ],
         "独立RSS源": [
             {"url": "https://english.elpais.com/rss/elpais/rss_section.html?lst=english&s=business", "tag": "El País Business EN"},
             {"url": "https://www.corriere.it/rss/homepage.xml", "tag": "Corriere della Sera"},
-            {"url": "http://feeds.bbci.co.uk/news/uk/rss.xml", "tag": "BBC UK"},
-            {"url": "https://www.theguardian.com/uk/rss", "tag": "Guardian UK"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/uk/rss.xml", "tag": "BBC UK"},
+            # DEAD: {"url": "https://www.theguardian.com/uk/rss", "tag": "Guardian UK"},
             {"url": "https://www.lemonde.fr/rss/une.xml", "tag": "Le Monde"},
-            {"url": "http://www.spiegel.de/schlagzeilen/index.rss", "tag": "Der Spiegel"},
+            # DEAD: {"url": "http://www.spiegel.de/schlagzeilen/index.rss", "tag": "Der Spiegel"},
             # v3.4 Batch D: 3个瑞典移民局RSS
             {"url": "https://www.migrationsverket.se/rss_en", "tag": "Swedish Migration Agency"},
             {"url": "https://www.migrationsverket.se/rss_employers", "tag": "Swedish Migration Employers"},

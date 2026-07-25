@@ -26,7 +26,7 @@ CONFIG = {
     "exclude_keywords": _exclude_kw,
     "feeds": {
         "日本": [
-            {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
+            # DEAD: {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
             {"url": gnews_url("Japan semiconductor chip export control equipment restriction", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Chip/Export"},
             {"url": gnews_url("Japan trade tariff manufacturing supply chain reshoring", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Trade/SCM"},
             {"url": gnews_url("Japan economy BOJ monetary policy yen GDP 2026", hl="en-JP", gl="JP", ceid="JP:en"), "tag": "GNews | JP Economy/BOJ"},
@@ -59,21 +59,17 @@ CONFIG = {
             {"url": gnews_url("China Korea relation trade THAAD dispute"), "tag": "GNews | CN-KR"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("日本 輸出 貿易 規制 経済", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 日本語"},
-            {"url": gnews_url("한국 수출 무역 투자 경제", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 한국어"},
-            {"url": gnews_url("中国 关税 制裁 出口管制 供应链 贸易", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 中文"},
         ],
         "独立RSS源": [
             {"url": "https://www3.nhk.or.jp/nhkworld/rss/news/headline.xml", "tag": "NHK World"},
             {"url": "http://www.chinadaily.com.cn/rss/china_rss.xml", "tag": "China Daily"},
-            {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
         ],
         "信号性查询": [
             {"url": gnews_url('"military escalation" "first ever" Japan Korea Taiwan'), "tag": "GNews | Signal: JK Military"},
             {"url": gnews_url('"supply disruption" "breakthrough" Japan Korea semiconductor'), "tag": "GNews | Signal: JK Chip"},
         ],
         "专题精选": [
-            {"url": gnews_url(topic="WORLD", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews Topic | WORLD(JP)"},
         ],
     },
 }

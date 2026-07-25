@@ -51,8 +51,6 @@ CONFIG = {
             {"url": gnews_url("election interference disinformation deepfake foreign influence"), "tag": "GNews | Info War"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("санкции война конфликт безопасность Россия", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Санкции"},
-            {"url": gnews_url("санкції війна конфлікт безпека Україна", hl="uk", gl="UA", ceid="UA:uk"), "tag": "GNews | UA Санкції"},
         ],
         "信号性查询": [
             {"url": gnews_url('"emergency meeting" security council NATO defense'), "tag": "GNews | Signal: Emergency"},
@@ -64,24 +62,24 @@ CONFIG = {
             {"url": gnews_url(topic="WORLD", hl="en-GB", gl="GB", ceid="GB:en"), "tag": "GNews Topic | WORLD(GB)"},
         ],
         "地缘权威RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
-            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
-            {"url": "https://www.theguardian.com/us-news/rss", "tag": "Guardian US"},
-            {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
-            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "tag": "BBC World"},
+            # DEAD: {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            # DEAD: {"url": "https://www.theguardian.com/us-news/rss", "tag": "Guardian US"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "tag": "BBC North America"},
+            # DEAD: {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
             # v3.4 Batch A: 3个新增直连RSS
             {"url": "http://feeds.reuters.com/Reuters/worldNews", "tag": "Reuters World"},
             {"url": "https://www.politico.com/rss", "tag": "Politico"},
-            {"url": "https://www.politico.eu/feed/", "tag": "Politico EU"},
+            # DEAD: {"url": "https://www.politico.eu/feed/", "tag": "Politico EU"},
             # v3.5 Batch D: 4个新增直连RSS
-            {"url": "http://feeds.bbci.co.uk/news/rss.xml", "tag": "BBC News Top"},
-            {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "tag": "NYT World"},
-            {"url": "https://feeds.washingtonpost.com/rss/world", "tag": "WaPo World"},
-            {"url": "https://www.theatlantic.com/feed/all/", "tag": "The Atlantic"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/rss.xml", "tag": "BBC News Top"},
+            # DEAD: {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "tag": "NYT World"},
+            # DEAD: {"url": "https://feeds.washingtonpost.com/rss/world", "tag": "WaPo World"},
+            # DEAD: {"url": "https://www.theatlantic.com/feed/all/", "tag": "The Atlantic"},
         ],
         "新增直连RSS(B)": [
             # v3.6 Batch B: 2源
-            {"url": "https://foreignpolicy.com/feed/", "tag": "Foreign Policy"},
+            # DEAD: {"url": "https://foreignpolicy.com/feed/", "tag": "Foreign Policy"},
             {"url": "https://www.foreignaffairs.com/rss.xml", "tag": "Foreign Affairs"},
         ],
     },

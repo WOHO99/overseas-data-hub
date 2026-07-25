@@ -1,8 +1,9 @@
-# keywords.yaml v3.3 — 全球商业情报仪表盘关键词配置
+# keywords.yaml v3.4 — 全球商业情报仪表盘关键词配置
 # 改关键词不用动代码，直接在GitHub网页编辑此文件，Actions下次运行自动生效
 # 格式：每个模块三个词表（core=核心+5, important=重要+3, aux=辅助+1, signal=信号性+8）
 # signal: 信号性词汇，用于异常聚集检测，单独计分不进priority
 # source_authority: 源权威度系数（1.0-2.0），匹配source tag，score × coefficient
+# 跨模块重叠词评分策略(P3-8): 同一词在多模块出现时，取各模块得分累加(如NIO在chinese_firms+tech_industry双命中则得分叠加)，overlap约21词以中企英文名为主定义
 
 # ============================================================
 # 全局源权威度系数 (P4-2)

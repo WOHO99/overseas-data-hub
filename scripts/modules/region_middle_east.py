@@ -60,13 +60,9 @@ CONFIG = {
             {"url": gnews_url("China Gulf trade investment BRI Saudi UAE"), "tag": "GNews | China-Gulf"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("السعودية استثمار تجارة تصدير اقتصاد", hl="ar", gl="SA", ceid="SA:ar"), "tag": "GNews | SA العربية"},
-            {"url": gnews_url("الإمارات اقتصاد تجارة استثمار", hl="ar", gl="AE", ceid="AE:ar"), "tag": "GNews | UAE العربية"},
-            {"url": gnews_url("Türkiye ekonomi ticaret ihracat yatırım", hl="tr", gl="TR", ceid="TR:tr"), "tag": "GNews | TR Türkçe"},
-            {"url": gnews_url("ישראל כלכלה מסחר השקעה יצוא", hl="he", gl="IL", ceid="IL:he"), "tag": "GNews | IL עברית"},
         ],
         "独立RSS源": [
-            {"url": "https://www.aljazeera.com/xml/rss/all.xml", "tag": "Al Jazeera"},
+            # DEAD: {"url": "https://www.aljazeera.com/xml/rss/all.xml", "tag": "Al Jazeera"},
             {"url": "https://www.dailysabah.com/rssFeed/world", "tag": "Daily Sabah"},
             {"url": "https://www.timesofisrael.com/rss/feedsfrontpage.xml", "tag": "Times of Israel"},
         ],

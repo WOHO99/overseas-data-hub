@@ -35,17 +35,15 @@ CONFIG = {
             {"url": gnews_url("Vietnam tariff US EU market access textile electronics", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | VN Tariff"},
             {"url": gnews_url("Vietnam factory relocation China supply chain shift", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | VN Factory Shift"},
             {"url": gnews_url("Vietnam economy GDP growth real estate banking", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | VN Economy"},
-            {"url": gnews_url("xuất khẩu thuế quan đầu tư FDI Việt Nam", hl="vi", gl="VN", ceid="VN:vi"), "tag": "GNews | VN Tiếng Việt"},
         ],
         "印尼": [
             {"url": "https://www.thejakartapost.com/rss", "tag": "Jakarta Post"},
             {"url": gnews_url("Indonesia nickel EV battery export ban processing", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | ID Nickel/EV"},
             {"url": gnews_url("Indonesia trade tariff US EU critical minerals", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | ID Trade/Tariff"},
             {"url": gnews_url("Indonesia economy GDP investment manufacturing", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | ID Economy"},
-            {"url": gnews_url("ekspor tarif investasi Indonesia", hl="id", gl="ID", ceid="ID:id"), "tag": "GNews | ID Bahasa"},
         ],
         "泰国": [
-            {"url": "https://www.bangkokpost.com/rss/data/breakingnews.xml", "tag": "Bangkok Post"},
+            # DEAD: {"url": "https://www.bangkokpost.com/rss/data/breakingnews.xml", "tag": "Bangkok Post"},
             {"url": gnews_url("Thailand export manufacturing tariff investment EV", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | TH Trade/EV"},
             {"url": gnews_url("Thailand economy GDP tourism BOI investment", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | TH Economy"},
         ],
@@ -80,12 +78,9 @@ CONFIG = {
             {"url": gnews_url("ASEAN US China Japan relations trade investment summit 2026", hl="en-SG", gl="SG", ceid="SG:en"), "tag": "GNews | ASEAN Powers"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("ส่งออก ภาษี การลงทุน ไทย เศรษฐกิจ", hl="th", gl="TH", ceid="TH:th"), "tag": "GNews | TH ไทย"},
-            {"url": gnews_url("Philippines kalakalan pamumuhukan ekonomiya", hl="fil", gl="PH", ceid="PH:fil"), "tag": "GNews | PH Filipino"},
-            {"url": gnews_url("Malaysia eksport pelaburan ekonomi perdagangan", hl="ms", gl="MY", ceid="MY:ms"), "tag": "GNews | MY Bahasa Melayu"},
         ],
         "独立RSS源": [
-            {"url": "https://e.vnexpress.net/rss/home.rss", "tag": "VN Express EN"},
+            # DEAD: {"url": "https://e.vnexpress.net/rss/home.rss", "tag": "VN Express EN"},
             {"url": "https://vietnamnet.vn/en/rss/home.xml", "tag": "VietNamNet EN"},
             {"url": "https://en.antaranews.com/rss/terkini.xml", "tag": "Antara News EN"},
         ],

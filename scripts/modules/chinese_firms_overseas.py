@@ -132,12 +132,6 @@ CONFIG = {
             {"url": gnews_url("GemPharmatech animal model CRO Charles River Jackson Laboratory WuXi 2026"), "tag": "GNews | T17 实验动物板块"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("中国企业 海外建厂 并购 制裁 合规处罚", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 中企海外"},
-            {"url": gnews_url("BYD CATL Huawei 海外 工厂 制裁 关税", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 重点企业"},
-            {"url": gnews_url("BYD CATL Huawei 工廠 制裁 ヨーロッパ", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP 中国企業"},
-            {"url": gnews_url("BYD CATL Huawei 글로벌 공장 제재 관세", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR 중국기업"},
-            {"url": gnews_url("BYD Huawei chinesische Firma Investition Sanktionen Deutschland", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE China-Firmen"},
-            {"url": gnews_url("Huawei BYD entreprise chinoise investissement sanctions France", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR Entreprises CN"},
         ],
         "信号性查询": [
             {"url": gnews_url('"construction halted" "contract terminated" "worker strike" Chinese company'), "tag": "GNews | Signal: Project Halt"},

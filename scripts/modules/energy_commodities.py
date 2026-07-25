@@ -53,12 +53,10 @@ CONFIG = {
             {"url": gnews_url("hydrogen green blue project investment policy"), "tag": "GNews | Hydrogen"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("ekspor mineral kritis nikel energi Indonesia", hl="id", gl="ID", ceid="ID:id"), "tag": "GNews | ID Energi/Mineral"},
-            {"url": gnews_url("exportação mineral crítico petróleo energia Brasil", hl="pt-BR", gl="BR", ceid="BR:pt-419"), "tag": "GNews | BR Energia/Mineral"},
         ],
         "独立RSS源": [
             {"url": "https://www.spglobal.com/rss", "tag": "S&P Global"},
-            {"url": "https://oilprice.com/rss/main", "tag": "OilPrice.com"},
+            # DEAD: {"url": "https://oilprice.com/rss/main", "tag": "OilPrice.com"},
         ],
         "信号性查询": [
             {"url": gnews_url('"supply disruption" energy commodity oil gas mineral'), "tag": "GNews | Signal: Energy Disruption"},
@@ -69,8 +67,8 @@ CONFIG = {
             {"url": gnews_url(topic="SCIENCE"), "tag": "GNews Topic | SCIENCE(US)"},
         ],
         "能源环境RSS": [
-            {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
-            {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
+            # DEAD: {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
         ],
     },
 }

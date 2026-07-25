@@ -53,13 +53,11 @@ CONFIG = {
             {"url": gnews_url("circular economy plastic regulation waste reduction"), "tag": "GNews | Circular Econ"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("Nachhaltigkeit ESG Klimaschutz Lieferkette Deutschland", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE ESG/Nachhaltigkeit"},
-            {"url": gnews_url("développement durable ESG climat chaîne d'approvisionnement France", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR ESG/Durabilité"},
         ],
         "独立RSS源": [
             {"url": "https://www.esgnews.com/rss", "tag": "ESG News"},
             # v3.4 Batch A: ESG Dive直连RSS
-            {"url": "https://www.esgdive.com/feeds/news/", "tag": "ESG Dive"},
+            # DEAD: {"url": "https://www.esgdive.com/feeds/news/", "tag": "ESG Dive"},
         ],
         "信号性查询": [
             {"url": gnews_url('"greenwashing" scandal investigation penalty corporate'), "tag": "GNews | Signal: Greenwash"},
@@ -70,12 +68,12 @@ CONFIG = {
             {"url": gnews_url(topic="SCIENCE"), "tag": "GNews Topic | SCIENCE(US)"},
         ],
         "ESG环境RSS": [
-            {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
-            {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
+            # DEAD: {"url": "https://www.theguardian.com/environment/rss", "tag": "Guardian Env"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "tag": "BBC Sci/Env"},
         ],
         "新增直连RSS(B)": [
             # v3.6 Batch B: 1源
-            {"url": "https://carbon-pulse.com/feed/", "tag": "Carbon Pulse"},
+            # DEAD: {"url": "https://carbon-pulse.com/feed/", "tag": "Carbon Pulse"},
         ],
     },
 }

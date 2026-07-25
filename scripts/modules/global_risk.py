@@ -51,13 +51,8 @@ CONFIG = {
         ],
         "中国企业视角": [
             {"url": gnews_url("Chinese company sanctions designation entity list investment blocked 2026"), "tag": "GNews | CN Company Sanctions"},
-            {"url": gnews_url("中国企业 制裁清单 实体清单 投资被阻 合规处罚", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 制裁/风险 (zh)"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("制裁清单 资产冻结 外资审查 征收 资本管制", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 制裁/风险"},
-            {"url": gnews_url("санкции список замораживание активов иностранные инвестиции", hl="ru", gl="RU", ceid="RU:ru"), "tag": "GNews | RU Санкции/Риск"},
-            {"url": gnews_url("Sanktionen Liste Investitionsprüfung Enteignung Deutschland", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE Sanktionen"},
-            {"url": gnews_url("sanctions liste contrôle investissements expropriation France", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR Sanctions"},
         ],
         "信号性查询": [
             {"url": gnews_url('"blacklisted" "freeze order" "forced expropriation" sanction'), "tag": "GNews | Signal: Sanctions Action"},
@@ -65,23 +60,23 @@ CONFIG = {
             {"url": gnews_url('"investment blocked" "deal blocked" national security review'), "tag": "GNews | Signal: Deal Blocked"},
         ],
         "风险情报RSS": [
-            {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
-            {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
+            # DEAD: {"url": "https://feeds.npr.org/1001/rss.xml", "tag": "NPR World"},
+            # DEAD: {"url": "https://www.theguardian.com/world/rss", "tag": "Guardian World"},
         ],
         "安全与隐私RSS(D)": [
             # v3.2 Batch D: 8个安全/隐私直连RSS
             {"url": "https://www.schneier.com/feed/atom/", "tag": "Schneier on Security"},
-            {"url": "https://krebsonsecurity.com/feed/", "tag": "Krebs on Security"},
+            # DEAD: {"url": "https://krebsonsecurity.com/feed/", "tag": "Krebs on Security"},
             {"url": "https://www.troyhunt.com/rss/", "tag": "Troy Hunt"},
             {"url": "https://www.hackerfactor.com/blog/index.php?/feeds/index.rss2", "tag": "Hacker Factor"},
-            {"url": "https://www.eff.org/rss/updates.xml", "tag": "EFF Updates"},
-            {"url": "https://isc.sans.edu/rssfeed_full.xml", "tag": "SANS ISC Diary"},
-            {"url": "https://feeds.feedburner.com/TheHackersNews", "tag": "The Hacker News"},
+            # DEAD: {"url": "https://www.eff.org/rss/updates.xml", "tag": "EFF Updates"},
+            # DEAD: {"url": "https://isc.sans.edu/rssfeed_full.xml", "tag": "SANS ISC Diary"},
+            # DEAD: {"url": "https://feeds.feedburner.com/TheHackersNews", "tag": "The Hacker News"},
             {"url": "https://grahamcluley.com/feed/", "tag": "Graham Cluley"},
         ],
         "新增直连RSS(E)": [
             # v3.6: 1源(网络安全)
-            {"url": "https://www.bleepingcomputer.com/feed/", "tag": "BleepingComputer"},
+            # DEAD: {"url": "https://www.bleepingcomputer.com/feed/", "tag": "BleepingComputer"},
         ],
     },
 }

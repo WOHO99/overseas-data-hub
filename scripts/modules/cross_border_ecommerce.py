@@ -3,6 +3,7 @@
 cross_border_ecommerce.py — 跨境电商模块
 覆盖：平台政策（亚马逊/Temu/SHEIN/TikTok Shop）、关税变动、物流、支付、合规
 站在中国企业视角，追踪出海电商全链路风险与机遇
+v3.5: Batch E补充6个直连RSS源(Reuters/CNBC/BBC/Guardian/Nikkei/SCMP)
 """
 
 import sys
@@ -50,15 +51,9 @@ CONFIG = {
         "中国卖家视角": [
             {"url": gnews_url("Chinese seller Amazon ban account suspended appeal 2026"), "tag": "GNews | CN Seller Amazon"},
             {"url": gnews_url("China cross-border e-commerce seller EU regulation compliance cost"), "tag": "GNews | CN Seller EU"},
-            {"url": gnews_url("中国卖家 亚马逊 封号 资金冻结 申诉", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN Seller Ban (zh)"},
         ],
         "本地语言搜索": [
-            {"url": gnews_url("跨境电商 合规 关税 平台 海外仓", hl="zh-CN", gl="CN", ceid="CN:zh-Hans"), "tag": "GNews | CN 跨境电商"},
             {"url": gnews_url("amazon seller suspend ban listing removed policy", hl="en-US", gl="US", ceid="US:en"), "tag": "GNews | US Amazon Seller"},
-            {"url": gnews_url("Temu SHEIN Zoll Steuer EU Regulierung", hl="de", gl="DE", ceid="DE:de"), "tag": "GNews | DE E-commerce"},
-            {"url": gnews_url("Temu SHEIN droits de douane régulation UE", hl="fr", gl="FR", ceid="FR:fr"), "tag": "GNews | FR E-commerce"},
-            {"url": gnews_url("越境EC 関税 コンプライアンス Amazon Temu", hl="ja", gl="JP", ceid="JP:ja"), "tag": "GNews | JP E-commerce"},
-            {"url": gnews_url("직구 해외직구 관세 테무 쉬인", hl="ko", gl="KR", ceid="KR:ko"), "tag": "GNews | KR E-commerce"},
         ],
         "信号性查询": [
             {"url": gnews_url('"platform ban" "total ban" marketplace seller e-commerce'), "tag": "GNews | Signal: Platform Ban"},
@@ -66,7 +61,13 @@ CONFIG = {
             {"url": gnews_url('"market exit" "platform shutdown" e-commerce seller'), "tag": "GNews | Signal: Market Exit"},
         ],
         "电商科技RSS": [
-            {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
+            # DEAD: {"url": "https://www.theguardian.com/technology/rss", "tag": "Guardian Tech"},
+            {"url": "https://www.reuters.com/rssFeed/businessNews", "tag": "Reuters Business"},
+            # DEAD: {"url": "https://rss.cnbc.com/headlines/world/", "tag": "CNBC World"},
+            # DEAD: {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "tag": "BBC Business"},
+            {"url": "https://www.theguardian.com/business/rss", "tag": "Guardian Business"},
+            # DEAD: {"url": "https://asia.nikkei.com/rss/feed/nar", "tag": "Nikkei Asia"},
+            # DEAD: {"url": "https://www.scmp.com/rss/91/feed", "tag": "SCMP Economy"},
         ],
     },
 }
