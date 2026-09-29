@@ -152,6 +152,19 @@ jobs:
           cd scripts
           python gen_unified_html.py ../data/ ../全球视野日报.html || echo "HTML generation failed, continuing..."
 
+      - name: Commit and push module data
+        if: success()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git add scripts/seen_index.json 2>/dev/null || true
+          git diff --cached --quiet && echo "No data changes to commit; repository stays as-is" || {
+            git commit -m "chore: daily module data update $(date -u +%Y-%m-%d)"
+            git push origin main
+          }
+
       - name: Upload HTML report
         if: always()
         uses: actions/upload-artifact@v4
