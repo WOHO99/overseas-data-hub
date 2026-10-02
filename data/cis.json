@@ -1,27 +1,29 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-10-01T04:41:17.503541+00:00",
-  "fetch_date_utc": "2026-10-01",
+  "updated": "2026-10-02T04:32:33.775901+00:00",
+  "fetch_date_utc": "2026-10-02",
   "total": 70,
-  "high_priority": 1,
-  "medium_priority": 39,
-  "signal_alerts": {},
+  "high_priority": 4,
+  "medium_priority": 42,
+  "signal_alerts": {
+    "nuclear threat": 1
+  },
   "stats_by_category": {
     "俄罗斯": {
-      "count": 4,
+      "count": 3,
       "feeds": 3
     },
     "中亚": {
-      "count": 14,
+      "count": 12,
       "feeds": 3
     },
     "白俄罗斯+能源": {
-      "count": 2,
+      "count": 4,
       "feeds": 2
     },
     "战争+地缘": {
-      "count": 2,
+      "count": 1,
       "feeds": 2
     },
     "基础设施+科技": {
@@ -29,11 +31,11 @@
       "feeds": 1
     },
     "气候+人口": {
-      "count": 4,
+      "count": 3,
       "feeds": 2
     },
     "大国关系": {
-      "count": 40,
+      "count": 42,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -53,546 +55,469 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 7,
+  "fail_feeds": 6,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "AIIB and Uzbekistan Agree on $5 Billion Infrastructure Project Pipeline - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONEZlVWlFc0pkbHducERCUnFtQUxxWjhFSW44a0xyUlBRVHVjUndwWFZsd3BwVHhxNGVQY19hTERZaEhqR21tbVNXN1EzWkdJWjFoUXE0U0JucDRaOW5tdEE2S01GTktuSzhEVjhsMnROb1Qzdzh5YnNMQmpkYnJRX1B6UExLaTJGZWZXVks2T3NnZw?oc=5",
-      "published": "Wed, 30 Sep 2026 12:39:31 GMT",
-      "summary": "AIIB and Uzbekistan Agree on $5 Billion Infrastructure Project Pipeline&nbsp;&nbsp;The Times Of Central Asia",
+      "title": "Farid Shafiyev: Azerbaijan, Georgia, Kazakhstan stepped up investment cooperation over past 5 years - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOUZ5dDZ6WUZFWDJjTElWQWkzMS1obGVNa0Q2amJMRk8yLWUxX1lKUzU3RmNzTVZ1Z29acFk4aUJrWWQ3OTIxQnp1NUxuZ05vS29FOXJlR1o1by1vaW1QUUZIYW4zdGI1LWVBeldrak93Wk1FMDk2LWlZRGhnUS1GS1Q4UC1hdk5WRmVoZ3Bvc1ZuQ1JDVlhoU0lsOU1VY0VnSlIyQW1PUUpYcTUwa1pKNUpoYnNVb1hJQTNVVzBYVmRqLUx5S1RBUWZWOUg3RDk4aVIteNIB1AFBVV95cUxNOUZ5dDZ6WUZFWDJjTElWQWkzMS1obGVNa0Q2amJMRk8yLWUxX1lKUzU3RmNzTVZ1Z29acFk4aUJrWWQ3OTIxQnp1NUxuZ05vS29FOXJlR1o1by1vaW1QUUZIYW4zdGI1LWVBeldrak93Wk1FMDk2LWlZRGhnUS1GS1Q4UC1hdk5WRmVoZ3Bvc1ZuQ1JDVlhoU0lsOU1VY0VnSlIyQW1PUUpYcTUwa1pKNUpoYnNVb1hJQTNVVzBYVmRqLUx5S1RBUWZWOUg3RDk4aVIteA?oc=5",
+      "published": "Thu, 01 Oct 2026 08:55:34 GMT",
+      "summary": "Farid Shafiyev: Azerbaijan, Georgia, Kazakhstan stepped up investment cooperation over past 5 years&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T16:55:34+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 13.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://report.az/en/amp/foreign-politics/farid-shafiyev-azerbaijan-georgia-kazakhstan-stepped-up-investment-cooperation-over-past-5-years"
+    },
+    {
+      "title": "Argentina's Rio Negro to launch tender for free-trade zone tied to LNG export hub - Pipeline and Gas Journal",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNS1qaGJNV2pBSFA4Z2VJN3JhVHlNQlF5T2RjT20temJDNXhYVjI5bnlPQzVybzF6eXhLM2NvSEZ6aW9wMnN1dDNEdDVfTkZ0TDFCREJNczlvU3RqUGRYRHY5RW5QWTg1ejBRdHQzbmF6UnhMRmxpOVd1VWh1eklIc2I2TUQ4dVp0MUxwTU5SeTNzQWJvQ0xvV0tnTldHT19jZ2ZQNGVmMDNUWkdsQTA3ZHhqQ240NnpDRmVVUg?oc=5",
+      "published": "Fri, 02 Oct 2026 01:49:40 GMT",
+      "summary": "Argentina's Rio Negro to launch tender for free-trade zone tied to LNG export hub&nbsp;&nbsp;Pipeline and Gas Journal",
+      "source": "GNews | CIS Energy",
+      "published_beijing": "2026-10-02T09:49:40+08:00",
+      "source_detail": {
+        "name": "Pipeline and Gas Journal",
+        "url": "https://pgjonline.com"
+      },
+      "priority": 13.2,
+      "category": "白俄罗斯+能源",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Kazakhstan, Uzbekistan, and UAE Study CASA Rail Route to Indian Ocean - The Times Of Central Asia",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2E2Q01nMkhFcGZBTzZJaFZHN092dUV0R1U5MEx6eHItTFJuYzVCdTlpMEVHU2VQbV9iVDI3SnUzMXBuWGo0QnN6QXBMbnBzaF84dFMyb1hNZ0V5aHQ3T1plVW05ZlYwRFh1dmhFUXNfS3lCQUh2dk9YeGlpbG9jdlhpMA?oc=5",
+      "published": "Thu, 01 Oct 2026 13:20:21 GMT",
+      "summary": "Kazakhstan, Uzbekistan, and UAE Study CASA Rail Route to Indian Ocean&nbsp;&nbsp;The Times Of Central Asia",
       "source": "GNews | CA Infra",
-      "published_beijing": "2026-09-30T20:39:31+08:00",
+      "published_beijing": "2026-10-01T21:20:21+08:00",
       "source_detail": {
         "name": "The Times Of Central Asia",
         "url": "https://timesca.com"
       },
-      "priority": 12.0,
+      "priority": 10.8,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://timesca.com/aiib-and-uzbekistan-agree-5-billion-infrastructure-project-pipeline/",
-      "full_text": "The Asian Infrastructure Investment Bank (AIIB) and Uzbekistan have agreed on a pipeline of potential infrastructure projects worth up to $5 billion for 2026-2029. The two sides also signed a $1.5 million grant agreement to help prepare a project to modernize the country’s electricity transmission network.\nThe updated Multi-Year Rolling Pipeline (MYRP) was signed on the sidelines of the AIIB’s 11th Annual Meeting in Doha. The document identifies areas for potential financing through 2029. The $5 billion figure represents a pipeline of prospective investments, rather than loans already approved by the bank.\nUzbekistan is a founding member of the AIIB and is the bank’s largest partner in Central Asia, accounting for 51% of its operations in the region, according to Uzbekistan’s Ministry of Investment, Industry and Trade. Tashkent is seeking to expand cooperation on cross-border transport, energy, and water projects, while bringing more private capital into infrastructure development.\nThe AIIB also agreed to provide a $1.5 million grant to help prepare the electricity transmission project. The funding will support technical studies, assessments of investment needs and climate risks, and preparations for integrating new solar and wind power plants into the grid.\nThe work will focus on the southern energy corridor between the Surkhandarya and Samarkand regions and on the Fergana Valley. The studies are intended to identify bottlenecks in the transmission network and options for increasing its capacity.\nGrid modernization is becoming one of the key challenges in Uzbekistan’s energy transition. The government says renewable energy accounted for around 30% of electricity generation in 2025 and aims to raise the share to 54% by 2030. Connecting additional generating capacity will require both an expansion of the high-voltage transmission network and improvements in its reliability.\nAs previously reported by The Times of Central Asia, Uzbekistan plans to commission more than 17 GW of additional renewable energy capacity and build around 6,000 kilometers of high-voltage transmission lines by 2030. The expansion of green generation is becoming increasingly important as domestic gas production declines: Uzbekistan, once a net gas exporter, became a net importer in 2023."
+      "canonical_url": "https://timesca.com/casa-1000-central-asia-seeks-a-route-to-the-indian-ocean/",
+      "full_text": "Kazakhstan, Uzbekistan, and the United Arab Emirates have agreed to study a proposed railway corridor through Afghanistan to Pakistan’s seaports.\nThe transport ministries of Kazakhstan and Uzbekistan and the UAE Ministry of Energy and Infrastructure signed a memorandum on the Central Asia-South Asia (CASA) project on September 30. They agreed to study its technical and economic feasibility and examine possible financing. The memorandum leaves the route and construction timetable open and provides no cost estimate.\nKazakhstan and Uzbekistan are both landlocked, and Uzbekistan is one of only two countries worldwide that must cross at least two national borders to reach the open sea. Kazakh authorities estimate that CASA could eventually carry up to 10 million tons of freight a year toward Karachi and Gwadar.\nUzbekistan is working with Afghanistan and Pakistan on a railway from Termez through central Afghanistan to Kharlachi on the Pakistani border. The three countries agreed in July 2025 to prepare a feasibility study. Estimates put the cost at around $7 billion, although some have been higher.\nKazakhstan is involved in a separate proposal from Torghundi on the Turkmen border through Herat and Kandahar to Spin Boldak near Pakistan. In April 2025, Kazakhstan and Afghanistan signed a protocol of intent, with the Torghundi-Herat railway and a logistics center in Herat envisaged as an initial stage.\nA new 43-kilometer section of the Khaf-Herat railway connecting Afghanistan with Iran was inaugurated on September 28. Kazakhstan’s Integra Construction KZ helped build it, and Afghan authorities say work is under way on further links from Herat toward the Turkmen and Pakistani borders.\nA study by the Moscow-based Institute of World Economy and International Relations (IMEMO) found that Afghanistan’s Taliban-led authorities had signed more than 15 railway-related agreements by March 2026. By then, no new mainline track had entered service under those initiatives, and active projects represented less than 1% of the estimated cost of the announced plans.\nDauren Ilesaliev, a professor at Tashkent State Transport University, points to the need for steady freight. “Having railway infrastructure does not guarantee that it will work,” Ilesaliev said. Countries along the route would also need to agree on a through-tariff.\nKazakhstan’s trade with Afghanistan could provide some of that freight. Bilateral trade reached $581.1 million in January-July 2026, with Kazakh exports accounting for $572.9 million. Flour accounted for $215.6 million and wheat for $122 million of those exports. Kazakhstan has also explored prospective mineral deposits in Afghanistan’s Nuristan Province and is discussing exports of locally assembled vehicles.\nIn an interview with Novastan, Uzbek analyst Aziza Mukhammedova said a corridor’s value to Afghanistan would depend on the jobs and investment it generates there, alongside transit freight. She also cited unresolved financing as a challenge.\nThe UAE sits outside the proposed route, and the memorandum names neither an Emirati company nor a possible investment amount.\nIf a trans-Afghan line is built, Uzbekistan’s China-Kyrgyzstan-Uzbekistan railway could form part of a rail route from China to Pakistan. For Kazakhstan, CASA would provide an Indian Ocean outlet alongside the westbound Middle Corridor across the Caspian Sea.\nRenewed airstrikes and cross-border clashes in late September further strained relations between Afghanistan and Pakistan. Prolonged closures of their main commercial crossings have disrupted bilateral and transit trade. Even a completed railway would remain dependent on a functioning border between the two countries."
     },
     {
-      "title": "Russia/Ukraine Sanctions Update - Month of September 2026 - Mayer Brown",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTFlbjBzaC1ZR25NUmFuYms4aU5mSDRUNUxIQVRzMzFSd1A2ZWx5aFR1TVpVWlRaZFJWc1ZDQXJzSkRZel9CU1B4UnBRZFFlQ0czaEItRHVUc2w3WEp3UUtzaFdrTTdnY2JtZjh1OTBEV1Z1cUVIZFoweDlfa2NNN0pKQjg5cG9FOVA4YlQweDZRWmp6RlhVcmt4XzlZMF9kOWRYRGR3NHJSNTFqSF8tX0JR?oc=5",
-      "published": "Wed, 30 Sep 2026 19:52:30 GMT",
-      "summary": "Russia/Ukraine Sanctions Update - Month of September 2026&nbsp;&nbsp;Mayer Brown",
-      "source": "GNews | RU Sanctions",
-      "published_beijing": "2026-10-01T03:52:30+08:00",
+      "title": "Kazakhstan, Belarus discuss trade, investment and industrial cooperation - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94YVVxM3UzbUo2aGRoZjBkT05SVGVZN1VfdTZUa2c3WGNVaUNUanBSWExncFlFSk9qUDVHLTBBU0ItMTdnT2pYYlhPODNnN29Vb256QUh3YW5Nb0VvelFj?oc=5",
+      "published": "Thu, 01 Oct 2026 11:52:00 GMT",
+      "summary": "Kazakhstan, Belarus discuss trade, investment and industrial cooperation&nbsp;&nbsp;trend.az",
+      "source": "GNews | UZ Economy",
+      "published_beijing": "2026-10-01T19:52:00+08:00",
       "source_detail": {
-        "name": "Mayer Brown",
-        "url": "https://www.mayerbrown.com"
+        "name": "trend.az",
+        "url": "https://www.trend.az"
       },
       "priority": 9.6,
-      "category": "俄罗斯",
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.trend.az/casia/kazakhstan/4230159.html",
+      "full_text": "BAKU, Azerbaijan, October 1. Kazakhstan and Belarus discussed expanding trade, investment, industrial cooperation and transport-transit ties during high-level talks in Minsk today.\nThis was reflected in a press release issued by the press service of the Kazakh government following talks between Prime Minister Olzhas Bektenov and Belarusian Prime Minister Alexander Turchin.\nAccording to the publication, the talks focused on practical measures to develop trade and economic cooperation, investment ties, industrial cooperation, transport and transit interaction, as well as the implementation of joint projects.\nBektenov said Kazakhstan and Belarus have a long-standing partnership based on mutual respect and regular contacts between their presidents.\n“Our governments’ task is to actively implement the agreements reached between our leaders. There is positive momentum in this direction,” Bektenov said.\nTurchin said the two countries’ government-level contacts remain intensive and have contributed to growth in bilateral trade.\nHe also noted that there is significant potential to increase mutual supplies between Kazakhstan and Belarus.\nThe Belarusian prime minister said the meeting could help identify areas for further growth and expand the bilateral economic agenda.\nThe talks took place during Bektenov’s official visit to Minsk, where he was also received by Belarusian President Alexander Lukashenko.\nNotably, Kazakhstan and Belarus have established a strategic partnership covering political, economic, industrial, transport and humanitarian cooperation. Diplomatic relations between the two countries were established in 1992.\nIndustrial cooperation has become one of the key areas of the bilateral economic agenda. The countries are working on joint projects in agricultural and automotive machinery, machine building and other manufacturing sectors. In 2026, the sides also discussed expanding cooperation in processing, localization of production and light industry.\nThe two governments are implementing a 2025-2029 roadmap aimed at developing industrial cooperation, creating joint production facilities and expanding cooperation in agriculture, construction and transport. Several joint industrial projects are already being implemented in Kazakhstan.\nTransport and transit cooperation is another established component of the relationship. In September 2026, the countries discussed accelerating transit cargo processing, improving customs procedures and strengthening direct cooperation between their customs authorities."
     },
     {
-      "title": "Russia Warns NATO of Nuclear Response Over Kaliningrad - SuaraGarut.ID",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40QmZfeWsxdFRQZ2NPdnFkQUNqRzJMeTNyM2h6My1pVmhJM2lvdHdrcFNxYXpUbzlQVUNJLWY4WHE4TGZXSW5OZGNIdzNyWEdCNkdGX1ZBbWlzRUh3b1VIVnNEZEZaZWhwQXlWVkhkR1FtZDVQV3lGaHo5WQ?oc=5",
-      "published": "Wed, 30 Sep 2026 19:22:00 GMT",
-      "summary": "Russia Warns NATO of Nuclear Response Over Kaliningrad&nbsp;&nbsp;SuaraGarut.ID",
-      "source": "GNews | Signal: RU-UA",
-      "published_beijing": "2026-10-01T03:22:00+08:00",
+      "title": "Matthew Ehret: \"Bridge People\" Can Prevent New Wars » News of Kyrgyzstan, Bishkek and Osh — latest events today - open.kg",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRU14WG1QMnNKb3BkaFpyR3J4ZVdhVHhlc3J2OGN0VS1IUEhEcU1JVkNrRzl2Nm1xNm1ldnVtX3RoLUMydHk1VUl3TDZRMzBNWHd3akpZSnp3dnBfaTFOckhWaDF3M1hRblUzTzJvaV95Zkx0QmxvQWF4NFlhU0tyOXdrdFhBSVdMTDRhWkladU1ZLU0tdkZSVWc4dmJ0X1FoalNiQXhBb3dyOWVRR2c?oc=5",
+      "published": "Thu, 01 Oct 2026 05:16:47 GMT",
+      "summary": "Matthew Ehret: \"Bridge People\" Can Prevent New Wars » News of Kyrgyzstan, Bishkek and Osh — latest events today&nbsp;&nbsp;open.kg",
+      "source": "GNews | RU-CA",
+      "published_beijing": "2026-10-01T13:16:47+08:00",
       "source_detail": {
-        "name": "SuaraGarut.ID",
-        "url": "https://suaragarut.id"
-      },
-      "priority": 9.6,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Russia sends nuclear warning to NATO as tensions rise in the Baltic - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNENpb1FXeXRSUzdRdDloRUF4a0RsaFE3SWJOb3NIYjZaRVV6ajVJUU1NdkRudGtZVUxyaFk5eGJua0hYZm9mNnNINGc4UXhuY0lEMVlJek9aT2JSczZZUXlCN1FLb05OaVJZZk5ITDBkQ0hhTk1ick1Id2xnUzRzZS1kWFJSTjRPeldmQVBpbWFZQUhxblZRUWNDbWMwbjZjbFI4UU1RZWVPUlJQcTN2Tmg1SDN0OFpYN0R6VExhRkZ6aXVKOFpOY0FnS2FmQWfSAdQBQVVfeXFMTk9seHg4ZFNSZ1Fpb1liVVZ6eFRURU1KcTVKTmYyMlg0NXJIRDRYRzhES3dZQnVlSXo4RHNpaUJsS241TlJDbU9iYjdEZ2phT0hfcC15MUVvUjhhMm41Z1ZEZVhSeUtRaEJ5aUpSNFMtMHpvN0hublB2bXZ0RmQ2WVZhbzNRZ195OFhGTzdVVWtqS2N1cl9LVXkxX2VKMVlSeDM2MHlPUTBhaWxHa25samdVbHBiRGQ2cmdUOEtxdUN6NHppMDctakpzUU9QMEw2dHprUjQ?oc=5",
-      "published": "Wed, 30 Sep 2026 11:56:51 GMT",
-      "summary": "Russia sends nuclear warning to NATO as tensions rise in the Baltic&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | Signal: RU-UA",
-      "published_beijing": "2026-09-30T19:56:51+08:00",
-      "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com"
-      },
-      "priority": 9.6,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Tokayev, Merz Take Kazakhstan-Germany Partnership Forward as 30+ Deals Reach $2 Billion - The Astana Times",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTE03aTZSQk1FYXplUDl4NkhMMmd0SVdaam9EeEIya0l6Q3pMeHYxSjV3N3JXUkRxWndmcURrOC1QU0FoanpxZE5oTlJSSUMwdFc2SGlHdTNkZ1hGS1djSVlJVWFvWXdWeVhPdF8xRVp0LV9LaGQ4TTNWcmhYUFczM3ZrZFJ3akJZZlBKSHYxQXZkS2Zwd2N1b0JRWG9Pd01ROTZvbXRtZ3FtUlZEeDI1WDVtQnBnRzFv?oc=5",
-      "published": "Wed, 30 Sep 2026 07:49:43 GMT",
-      "summary": "Tokayev, Merz Take Kazakhstan-Germany Partnership Forward as 30+ Deals Reach $2 Billion&nbsp;&nbsp;The Astana Times",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T15:49:43+08:00",
-      "source_detail": {
-        "name": "The Astana Times",
-        "url": "https://astanatimes.com"
+        "name": "open.kg",
+        "url": "https://open.kg"
       },
       "priority": 9.6,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://open.kg/en/news/political-news/126429-mjettju-jeret-ljudi-mosty-mogut-predotvraschat-novye-vojny.html",
+      "full_text": "At the Second World Public Assembly in Moscow, Canadian journalist and political analyst Matthew Ehret emphasized the importance of the alliance between the USSR, the USA, and the United Kingdom during World War II. He spoke at a discussion dedicated to historical memory and the significance of the meeting of Soviet and American troops at the Elbe River on April 25, 1945, highlighting the need to maintain human connections between nations and actively work for peace.\nEhret noted that it is important to remember not only military events but also how nations were able to unite in the face of a common threat.\nAllied Routes\nAs an example, he cited the first Arctic convoy \"Dervish,\" which successfully arrived in Arkhangelsk with military cargo on August 31, 1941. This convoy was the first of 78, playing a significant role in allied cooperation, which also involved ships from the Royal Canadian and U.S. Navies. Ehret emphasized how risky these routes were and reminded everyone of the bravery of the sailors who delivered vital cargoes, risking their lives.\nIn conclusion, he noted that the meeting at the Elbe also symbolized cooperation between the USSR and the USA, as the troops of both countries met after long battles, including Stalingrad and Berlin.\nThe Psychology of the Post-War World\nEhret also raised the topic of the post-war period, mentioning the British plan \"Unthinkable,\" which considered the possibility of conflict with the USSR in the summer of 1945. The existence of such a document is confirmed by archival data, illustrating the transition from alliance to tension in relations. Ehret emphasizes that it was extremely difficult to explain to the people the shift from allies to adversaries, and the memory of the joint war temporarily restrained conflicts.\nAccording to Ehret, modern realities also require attention to the creation of an image of the \"other\" people. He cited examples of statements that prepare society for conflicts, which is a dangerous trend.\nCreating \"Bridge People\"\nIn his speech, Ehret proposed the concept of \"bridge people,\" defining them as an important element for bringing societies closer together. He called for the use of modern technologies to establish dialogue between people from different countries, noting that this could help prevent conflicts.\nDuring the Assembly, an initiative was also proposed to create an international movement \"Spirit of the Elbe,\" which would promote public diplomacy and restore trust between nations.\nCall to Action\nEhret urged participants not to leave the preservation of peace solely to the discretion of politicians. He emphasized that everyone should take an active part; otherwise, the opportunities for civil society to influence the situation will be limited. Concluding his speech, he noted that humanity is on the brink of war, and it is important to work to prevent it.\nEhret's speech touched on the significance of historical memory in the context of modernity. Despite political disagreements, the legacy of alliance can serve as a foundation for public diplomacy and interaction between nations, which is particularly relevant in the current international relations landscape.\nIt is important to remember that historical memory requires careful work with documents and facts so that it is not distorted and serves as a unifying factor between peoples."
     },
     {
-      "title": "Trump team explores sanctions relief for Russia in exchange for prisoners - Dagens.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQekd4SWxSVjJHRFVtX1dkTXBfcWhNcXV5bERNR1dMcFU2QW1ITFpjMFp4d3Z2cXRUNzl6SXZVTmhhMm1rckVQYlczeF9FT2tMLWg1ODFOOEF1VzVFVmpNd2I0eHpmLXVfMWJtN0R4akdsc2FRWEpiUEgzZDFfTHBCNmttTnVKMlhYZHV0UDdxbjlOajlUa0xxMXVjOTRPWkFxdDdnbHA5bFU?oc=5",
-      "published": "Tue, 29 Sep 2026 13:44:50 GMT",
-      "summary": "Trump team explores sanctions relief for Russia in exchange for prisoners&nbsp;&nbsp;Dagens.com",
-      "source": "GNews | BY Sanctions",
-      "published_beijing": "2026-09-29T21:44:50+08:00",
-      "source_detail": {
-        "name": "Dagens.com",
-        "url": "https://www.dagens.com"
-      },
-      "priority": 9.6,
-      "category": "白俄罗斯+能源",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Multiple trade routes help Iran evade sanctions - GIS Reports",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5maEo5VHhkSUZ0OEk0TzZzMTRuSnhlX0psLTQyMUxrRmpkVzZCd1pkWWVSTHE2WTRfNWJYTmVoTzRDb0VjUFEyTG80Zk9VSGhrLTBmRUwzM255NEstMU1YTUJZUHNwcmZ1US1GOW5tTkM?oc=5",
-      "published": "Tue, 29 Sep 2026 06:00:00 GMT",
-      "summary": "Multiple trade routes help Iran evade sanctions&nbsp;&nbsp;GIS Reports",
-      "source": "GNews | RU Economy",
-      "published_beijing": "2026-09-29T14:00:00+08:00",
-      "source_detail": {
-        "name": "GIS Reports",
-        "url": "https://www.gisreportsonline.com"
-      },
-      "priority": 9.6,
-      "category": "俄罗斯",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Kazakhstan Identified as Germany’s Most Important Trading Partner in Central Asia - INDiplomacy",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlAwa1NZcFpBTmVpQTRIM3F0cjFtSUlGalI2aE9QU0FvMmV3ajdsdDJqZGZWdzRaYTFZWTZRSlVYOGV6Y01SMTluT25YQmRZNkRxenZ3Uk1icldZaFM1TXNvVk82ZUxPRXRiMEY3bzB6T0VMSDl3WDdOLTM0UlFIQlV2UXF4Qm10WWZRMlJLTDJVMllPQkpxMl9kV0ZnT2oyakk4cGI3TDExLUFVdkFYX0dPcmRFRXM?oc=5",
-      "published": "Wed, 30 Sep 2026 11:55:44 GMT",
-      "summary": "Kazakhstan Identified as Germany’s Most Important Trading Partner in Central Asia&nbsp;&nbsp;INDiplomacy",
+      "title": "Kazakhstan's trade turnover with Belarus grows 20% in 7M2026 - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oOGVvWUJZaGo2RzhxaE5kVjlwekZ1NmNNYlpDNEpFd19GWU02UWZiNGVSdkkwd2ppSWtHN1NqdzhUSGRDNnltQU1YakNPaWpCV2Fhc1pOYUFwSnlZak84?oc=5",
+      "published": "Thu, 01 Oct 2026 12:05:00 GMT",
+      "summary": "Kazakhstan's trade turnover with Belarus grows 20% in 7M2026&nbsp;&nbsp;trend.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T19:55:44+08:00",
+      "published_beijing": "2026-10-01T20:05:00+08:00",
       "source_detail": {
-        "name": "INDiplomacy",
-        "url": "https://indiplomacy.com"
+        "name": "trend.az",
+        "url": "https://www.trend.az"
       },
       "priority": 8.4,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.trend.az/casia/kazakhstan/4230163.html",
+      "full_text": "BAKU, Azerbaijan, October 1. Kazakhstan-Belarus trade turnover grew by 20% in the first seven months of 2026, Kazakh Prime Minister Olzhas Bektenov said today during his talks with Belarusian Prime Minister Alexander Turchin in Minsk on October 1.\nThis was reflected in a statement published by the press service of the Kazakh government.\nAccording to Bektenov, bilateral trade turnover increased by 27.7% in 2025 and continued to grow in 2026.\n“Last year, according to our statistics, trade turnover increased by 27.7%, while over the seven months of this year, it grew by 20%. There is a basis for further increasing our cooperation and expanding the range of supplied products, including in railway engineering,” Bektenov said.\nBilateral trade turnover amounted to about $1.2 billion in 2025 and reached $723 million in the first seven months of 2026, the press release says.\nBektenov said Kazakhstan sees potential for further increasing mutual trade and expanding the range of supplied products.\nKazakhstan has potential to increase exports of food products, vehicles, metals, chemical and petrochemical products, textiles, machinery and railway equipment to Belarus, he added.\nAccording to the press service, the two countries have also implemented 13 joint industrial projects worth more than $200 million. Production of Belarusian tractors, Gomselmash combines, vehicles and other machinery has been localized in Kazakhstan.\nKazakhstan also expressed readiness to increase supplies of sunflower, safflower and rapeseed oils, as well as packaged grocery products to the Belarusian market, the report noted.\nFor reference, Kazakhstan and Belarus have established a strategic partnership covering political, economic, industrial, transport and humanitarian cooperation. Diplomatic relations between the two countries were established in 1992.\nIndustrial cooperation has become one of the key areas of the bilateral economic agenda. The countries are working on joint projects in agricultural and automotive machinery, machine building and other manufacturing sectors. In 2026, the sides also discussed expanding cooperation in processing, localization of production and light industry.\nThe two governments are implementing a 2025-2029 roadmap aimed at developing industrial cooperation, creating joint production facilities and expanding cooperation in agriculture, construction and transport. Several joint industrial projects are already being implemented in Kazakhstan.\nTransport and transit cooperation is another established component of the relationship. In September 2026, the countries discussed accelerating transit cargo processing, improving customs procedures, and strengthening direct cooperation between their customs authorities."
     },
     {
-      "title": "Uzbekistan, Russia advance comprehensive strategic partnership - trend.az",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16ZVVEaDNXWWJ3cWVuRmVmbTM3WTJUS2dHUy1GUEtYRjJ1RmJ1cVB1ZXA3YUhzU0FPbWFXT3Q0RHJlN1dKQU9TTkxBUXkyVGZrcXFDcnZoTjM3bXo2M2JV?oc=5",
-      "published": "Tue, 29 Sep 2026 05:43:13 GMT",
-      "summary": "Uzbekistan, Russia advance comprehensive strategic partnership&nbsp;&nbsp;trend.az",
+      "title": "Jabbarov: Azerbaijan and Central Asia target $20 billion trade - Azernews.az",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tZmQ0d1c4cUg5c1ZCQVc3ZzFZdk5VTGx2WVhDRU1MY3ZIZGFfZzU4NlFOUDdYMFNNS0F6VnVodXRhckN4WGFvQVRWeDA2dG1BMkVabmxvWQ?oc=5",
+      "published": "Thu, 01 Oct 2026 10:22:00 GMT",
+      "summary": "Jabbarov: Azerbaijan and Central Asia target $20 billion trade&nbsp;&nbsp;Azernews.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-29T13:43:13+08:00",
+      "published_beijing": "2026-10-01T18:22:00+08:00",
       "source_detail": {
-        "name": "trend.az",
-        "url": "https://www.trend.az"
+        "name": "Azernews.az",
+        "url": "https://www.azernews.az"
       },
-      "priority": 7.2,
+      "priority": 8.4,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.azernews.az/business/264804.html",
+      "full_text": "Azerbaijan and Central Asian countries are aiming to increase regional trade to $20 billion while developing joint production under the “Made in Central Asia” brand, Azerbaijan’s Minister of Economy Mikayil Jabbarov said at the CAMCA 2026 Regional Forum in Baku.\n“Our future is most clearly reflected in the relations between the South Caucasus and Central Asia. Over the years, we have become part of this regional architecture,” Jabbarov said.\nThe minister noted that the political dimension of these ties deepened after Azerbaijan became a full participant in the Consultative Meeting format of Central Asian heads of state in Tashkent in November 2025.\n“Azerbaijan was the first country from outside the region to join this format,” he said.\nJabbarov also pointed to the first meeting of trade and investment ministers from Azerbaijan and Central Asian countries, held several days ago, as another step toward greater economic integration.\n“Our goal is to bring the volume of regional trade to $20 billion and establish joint production under the ‘Made in Central Asia’ brand,” the minister said.\nAccording to Jabbarov, Azerbaijan has already established joint investment funds with Kazakhstan, Uzbekistan and Kyrgyzstan, creating mechanisms to combine several mid-sized markets into a broader investment platform.\n“Azerbaijan holds a share of at least 50% in each of these funds. Thus, Azerbaijan and the Central Asian countries are forming a unified economic space that connects, on one side, Türkiye and Europe, and, on the other, Asia,” he said.\nTrans-Caspian fiber-optic link nearing launch\nThe expansion of regional economic ties is increasingly extending beyond traditional trade and transport infrastructure into digital connectivity.\nJabbarov announced that the Trans-Caspian Fiber-Optic Cable Line connecting Azerbaijan and Kazakhstan is expected to become operational in less than a month.\n“The launch of the fiber-optic cable line between Azerbaijan and Kazakhstan will create a new high-capacity communication channel between Europe and Asia. The line is expected to go into operation in less than a month,” he stated.\nThe minister emphasized that modern regional corridors should no longer be viewed solely through the movement of physical cargo, as energy and digital connectivity are increasingly becoming integral components of the emerging East-West infrastructure network.\nUnder the Trans-Caspian Fiber-Optic Cable Line project implemented by AzerTelecom and Kazakhtelecom, a 380-kilometer subsea fiber-optic cable has been laid between Sumgayit in Azerbaijan and Aktau in Kazakhstan.\nThe first subsea digital route across the Caspian Sea is expected to provide high-speed connectivity with capacity exceeding 400 terabits per second, facilitating large-scale data exchange and supporting the development of digital services across the region.\nThe cable is a key component of the broader “Digital Silk Way” project.\nSpanning Azerbaijan, Georgia, Türkiye, Kazakhstan and Bulgaria, the telecommunications corridor is designed to provide a shorter, high-capacity route with minimal latency for data transmission between Asia and Europe while strengthening regional digital cooperation.\nNew connectivity opportunities after peace\nJabbarov also linked the changing political environment in the South Caucasus with emerging economic and transport opportunities.\n“The agreements reached in Washington in August 2025 also opened a new chapter for the South Caucasus,” the minister said.\nAccording to him, the Zangezur Corridor is expected to directly connect mainland Azerbaijan with the Nakhchivan Autonomous Republic and eventually integrate with the infrastructure of the Middle Corridor.\n“Central Asian countries are interested in further expanding transit capacity. Thanks to this, we see how connectivity is transforming from an aspiration into bankable projects,” Jabbarov emphasized.\nThe development would add another dimension to the growing network of transport links connecting Central Asia with the South Caucasus and onward toward Türkiye and European markets.\nDespite lacking direct access to the world's oceans, Azerbaijan has sought to turn its geographical position between Europe and Asia into a strategic advantage through sustained investment in connectivity, Jabbarov said.\n“Azerbaijan is a country without direct access to the world's oceans, yet this very fact has shaped our path: recognizing our geographic position, we place great emphasis on connectivity, do not hesitate to invest in transport infrastructure, and strive to mitigate the challenges associated with our geography,” he noted.\nThe minister said Azerbaijan consequently attaches particular importance to transport and logistics projects and continues to direct significant investment toward infrastructure development.\nAmong the projects highlighted by Jabbarov were the Middle Corridor and the Baku International Sea Trade Port in Alat, both of which form key elements of Azerbaijan's strategy to position itself as a transport, trade and increasingly digital bridge between Central Asia and markets to the west.\nTaken together, the $20 billion trade ambition, joint investment mechanisms, plans for shared production, expanding transport infrastructure and the imminent launch of the Trans-Caspian digital connection point toward a broader effort to integrate Azerbaijan and Central Asia economically while strengthening their links with Türkiye and Europe.\nHere we are to serve you with news right now. It does not cost much, but worth your attention.\nChoose to support open, independent, quality journalism and subscribe on a monthly basis.\nBy subscribing to our online newspaper, you can have full digital access to all news, analysis, and much more.\nYou can also follow AzerNEWS on Twitter @AzerNewsAz or Facebook @AzerNewsNewspaper\nThank you!"
     },
     {
-      "title": "Afghanistan and Iran synchronize transport diplomacy: Implications for Central Asia - Eurasianet",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZlJKb2ZJYmI3djAzNnpGV3pkMnJxZU9JMXBHZ3FYUDJFc2o5V2NNb3FuS3RzUUVpbDJJa2pCRGJDSXVHSEFmYjNsV1ZWQjN2NXl1VzFMMXZ5NUI2TzAzMHJKemtTWVdpSWh5OEdjNjBEV2lyYWtia01OVHBFTVp3UnNvb3RkZ01LNll0LWgyb2x5Z1Z3TW9rWDlnUE43V0l4NW0yQVRTX0U?oc=5",
-      "published": "Wed, 30 Sep 2026 14:29:56 GMT",
-      "summary": "Afghanistan and Iran synchronize transport diplomacy: Implications for Central Asia&nbsp;&nbsp;Eurasianet",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-09-30T22:29:56+08:00",
-      "source_detail": {
-        "name": "Eurasianet",
-        "url": "https://eurasianet.org"
-      },
-      "priority": 6.0,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Kremlin reacts to Trump envoy’s shock proposal to drop sanctions for prisoners - Dagens.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDIxeElKSGR3dEtXZVYtTWwwSlY0eFVySUZEamlHS0Y3Ty1MNmJ1VGpuTEZXdjJ2LTVnMWo4Z0pBc0pkeFJDTG5PQTJWeks1aF9IQXl2NjhsY2ZMTUxyVGZ4cGlQVWJSOG9OaHNMcnNkWXFtR1l6RnFCdDRQaHRYb2ZoNmc0TjlqcGh6M3dGSmNrQWp3aFVQTmRFTE9oWkthMUoxVkpvbw?oc=5",
-      "published": "Wed, 30 Sep 2026 14:29:53 GMT",
-      "summary": "Kremlin reacts to Trump envoy’s shock proposal to drop sanctions for prisoners&nbsp;&nbsp;Dagens.com",
-      "source": "GNews | BY Sanctions",
-      "published_beijing": "2026-09-30T22:29:53+08:00",
-      "source_detail": {
-        "name": "Dagens.com",
-        "url": "https://www.dagens.com"
-      },
-      "priority": 6.0,
-      "category": "白俄罗斯+能源",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Transport reforms are reshaping Uzbekistan's trade future under Mirziyoyev – ahead of TCTC conference - trend.az",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5VjVpeWRFTUN5Y3lpM1RZZHBHeV85dk55QTVPdlYyZ1BOTV9SMjRQaWthVnU3bG1pRTZvQ1VnR3BMV19JcjczdkNnVWZQcGVhMHc1ZVFsY1R1amotUEdB?oc=5",
-      "published": "Wed, 30 Sep 2026 05:00:00 GMT",
-      "summary": "Transport reforms are reshaping Uzbekistan's trade future under Mirziyoyev – ahead of TCTC conference&nbsp;&nbsp;trend.az",
-      "source": "GNews | UZ Economy",
-      "published_beijing": "2026-09-30T13:00:00+08:00",
-      "source_detail": {
-        "name": "trend.az",
-        "url": "https://www.trend.az"
-      },
-      "priority": 6.0,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Bridging Nations, Driving Prosperity: NLC's role in Promoting Trade & Connectivity between Pakistan and China - Pakistan Observer",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWtSbTRwZjlUS3VhS1FxWDJNN0pGS2xKWG1fREpGWFhGTkR1WkJZTk5jU21qeHF2VEVveWszS1lvT2YtbXlVYklHQjNRczFmNWtJNHYzdzZhT0FjOXRzZWtDcndhSkdkSEYwR3lJYmNKZkJrMjF0QjA2LVFyYU0yQnJFVUxmN3EzQWs0U3NLYkFIRTNsRXdTclF6ZDJFZWYyY0ZxbXJ6R0QteWstYWNJcHM1UjBUdmlscENYVll0clBac0o3a1Q4YQ?oc=5",
-      "published": "Thu, 01 Oct 2026 02:49:55 GMT",
-      "summary": "Bridging Nations, Driving Prosperity: NLC's role in Promoting Trade & Connectivity between Pakistan and China&nbsp;&nbsp;Pakistan Observer",
+      "title": "Azerbaijan and Central Asia aim to increase regional trade to $20B - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeU0xYWxSQU1Xa1I4dXlSUEl3Y1czcGRraW1naWZpYV9HZ3M1dFluNnZvMk1fM0JWVE8zT3ZyYUZZS1lIbHlrUnJjNTk1bklTR2lIZ29lWEItSUlHTmpETkVPQ3hQUFFZaG82UnNXTFhpTTN5QWpaWWZYUm81Tjl1UXl1SmVxN0lEQUF4OUlGTQ?oc=5",
+      "published": "Thu, 01 Oct 2026 07:48:14 GMT",
+      "summary": "Azerbaijan and Central Asia aim to increase regional trade to $20B&nbsp;&nbsp;Latest news from Azerbaijan",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T10:49:55+08:00",
+      "published_beijing": "2026-10-01T15:48:14+08:00",
       "source_detail": {
-        "name": "Pakistan Observer",
-        "url": "https://pakobserver.net"
+        "name": "Latest news from Azerbaijan",
+        "url": "https://news.az"
       },
-      "priority": 6.0,
+      "priority": 8.4,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://news.az/news/azerbaijan-and-central-asia-aim-to-increase-regional-trade-to-20b"
     },
     {
-      "title": "Uzbekistan Railways, EU seek stronger rail links via Trans-Caspian route - trend.az",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54a0ptNUFFRGFtS01pNS0xaDZyRURCd0YydU1IWnhydVBta1JsRzFJalJuUVYzQ1Z1MjYxUjVkazJid1hReG51bUtxSGtZcng5eU42UEhIOWY4NUl2dlRN?oc=5",
-      "published": "Wed, 30 Sep 2026 13:45:38 GMT",
-      "summary": "Uzbekistan Railways, EU seek stronger rail links via Trans-Caspian route&nbsp;&nbsp;trend.az",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-09-30T21:45:38+08:00",
+      "title": "Uzbekistan proposes transforming Consultative Meeting of Central Asian heads of state - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTlPVlNhWHVhMXVtZGpLa0ZxMHhuRWh1S3dRM0UwdXZ3X29KVlM1YjBsSldZTXRjMmQtazhDUEh6U1FYMWZLaFhVY1Z2azdWeW5XVk1sRTh3X3o1NjMybk5RS0tPVnZKdDR0VTJ5bmtLQmY2d0RoSnpFbjJsMnp6RHBsS3diQ0ZqUy0zZ0oxa216LXRiSHhNRGZiS1k1QUdzSkRFLXRvNDJwQ09tRUpKNlRDdGhWekZlcVNrZkxMRlBLM0xIS2fSAcYBQVVfeXFMT0U5T1ZTYVh1YTF1bWRqS2tGcTB4bkVodUt3UTNFMHV2d19vSlZTNWIwbEpXWU10YzJkLWs4Q1BIelNRWDFmS2hYVWNWdms3VnluV1ZNbEU4d196NTYzMm5OUUtLT1Z2SnQ0dFUyeW5rS0JmNndEaEp6RW4ybDJ6ekRwbEt3YkNGalMtM2dKMWttei10Ykh4TURmYktZNUFHc0pERS10bzQycENPbUVKSjZUQ3RoVnpGZXFTa2ZMTEZQSzNMSEtn?oc=5",
+      "published": "Thu, 01 Oct 2026 07:21:42 GMT",
+      "summary": "Uzbekistan proposes transforming Consultative Meeting of Central Asian heads of state&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T15:21:42+08:00",
       "source_detail": {
-        "name": "trend.az",
-        "url": "https://www.trend.az"
+        "name": "Report.az",
+        "url": "https://report.az"
       },
-      "priority": 4.8,
-      "category": "基础设施+科技",
+      "priority": 8.4,
+      "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://report.az/en/amp/foreign-politics/uzbekistan-proposes-transforming-consultative-meeting-of-central-asian-heads-of-state"
     },
     {
-      "title": "Central Asia’s Border Regime Creates New Distance and Connection - Substack",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zTVNRRDdIaUNpSUF4SXdXXzFlc2ZZaE1kNGdGVndoM0ZEOURKM0ZWc1RVNWFIZXRQSHlHM3pBbFc5VDBiOFN2dlQ5MGNrdXNScWVlOTF2c2VTZVlwSFRnYmpxZ0RVS0hta3oxOER0Y285SHBEajdZ?oc=5",
-      "published": "Wed, 30 Sep 2026 22:02:26 GMT",
-      "summary": "Central Asia’s Border Regime Creates New Distance and Connection&nbsp;&nbsp;Substack",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-10-01T06:02:26+08:00",
-      "source_detail": {
-        "name": "Substack",
-        "url": "https://jamestown.substack.com"
-      },
-      "priority": 3.6,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "REG - Central Asia Metals Morgan Stanley - TR-1: Notification of major holdings - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYm5jOUpRenZ6RmRiWHZ1M0ZPWVBjUkszVFBzRnBPMUNqdV9DUGM5bTItUGY4MjNzeFB2aUhyckRBb2tXQUlxVEJWbXdEQ3pOOHNnRm14TVhUVG9vcHBCN1FuMkdGZ3ZWY3MyaWE2ZGoxMVg4MjBGZ29obndpc2dZLTNZVEZ0MVA1cHVpNHlzR1A0SW9meGZmQmFCd0dreXJkdVl2V3RBZUNNRUlmZlZBX3gtcGdKZUU3c2pDM3BlQWkybGJ5OFB5QXpodFU1R2RNUkJtUmFzdEZSYnJ0X25ETllCeWU?oc=5",
-      "published": "Wed, 30 Sep 2026 15:43:35 GMT",
-      "summary": "REG - Central Asia Metals Morgan Stanley - TR-1: Notification of major holdings&nbsp;&nbsp;TradingView",
+      "title": "Kazakhstan Aims to Boost Trade with Afghanistan to $3 Billion - TOLOnews",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAycDhNX2J3ZUF1Yk8yNjBOM3NFejFNanBseTlXZU9SRzdYNHVJemZOQUp6VjlhNXFnTVIzTEpkVENFTVVnOWVIeXl2bm1vLTVocGc?oc=5",
+      "published": "Wed, 30 Sep 2026 16:24:42 GMT",
+      "summary": "Kazakhstan Aims to Boost Trade with Afghanistan to $3 Billion&nbsp;&nbsp;TOLOnews",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T23:43:35+08:00",
-      "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Kazakhstan and Germany Deepen Green Hydrogen and Energy Cooperation - Fuel Cells Works",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHpOeGk4cGxuaWRWdHFrb1M5ZHNpSmRJbU82YVd4YjlNOU04dFN1UTE4OW5HZ0V5cWIweHdkYl9QeUtQSDhVVXhmeE54N3NDR3lHOEEzWUtva2xUcm9EREhfZzloYXlzbm5GT25XamxBYVNBbEtvbmtfVWViS1d4TV96ZmQyUUlpd0ZmYWFHYjZNMG56M1VNeS1sd0psX21nMXhkWV9yQkRuQkRm?oc=5",
-      "published": "Wed, 30 Sep 2026 14:58:00 GMT",
-      "summary": "Kazakhstan and Germany Deepen Green Hydrogen and Energy Cooperation&nbsp;&nbsp;Fuel Cells Works",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T22:58:00+08:00",
-      "source_detail": {
-        "name": "Fuel Cells Works",
-        "url": "https://fuelcellsworks.com"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Opinion: Central Asia Is More Than Minerals - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDMUhtRU4zU2w2M093d3pWekx0bmdGaEZCcnVqcnVvbTkxWWxrMlFua1NPMlRxWDdpWHZWLS05LUl2V0MzMVdweEpuVkJBdFlGOTNVVERYQnVsV251UHZLY1JpQjhQQQ?oc=5",
-      "published": "Wed, 30 Sep 2026 14:13:31 GMT",
-      "summary": "Opinion: Central Asia Is More Than Minerals&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T22:13:31+08:00",
-      "source_detail": {
-        "name": "The Times Of Central Asia",
-        "url": "https://timesca.com"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Kyrgyzstan Plans $1 Billion Pharmaceutical Industrial Park - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGhCWS02V3VJYWhabTlqQk5LWXhKNDNvOVFuSjRaOEkzd3Z1R2VoRVlCXzB4dXV6cjRFeHFER3RPby1HNDNkMm1wRnRRc3J1NHdaZUVyWjdIUk56RHRBR0I4T056dVZMXzlnOTJWQ1Z3QTZBbnhBSE5EVmpLWVZZQVpuVEE?oc=5",
-      "published": "Wed, 30 Sep 2026 13:15:39 GMT",
-      "summary": "Kyrgyzstan Plans $1 Billion Pharmaceutical Industrial Park&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-09-30T21:15:39+08:00",
-      "source_detail": {
-        "name": "The Times Of Central Asia",
-        "url": "https://timesca.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Central Asia Common Digital Space Proposed at Astana Roundtable - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxSTY1V2VFRjEydF9DU0g2UVg4ZHFMWWRVQlZ6Q2pxaXJ6eW1QY0J1cTdBa1dSZ1g2Smxwa2xNdVpvVHJJcDJheGVrUGJhZXh3UWRLS2FxNThXNzB0RkFFWVY5QnQ?oc=5",
-      "published": "Wed, 30 Sep 2026 12:27:10 GMT",
-      "summary": "Central Asia Common Digital Space Proposed at Astana Roundtable&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T20:27:10+08:00",
-      "source_detail": {
-        "name": "The Times Of Central Asia",
-        "url": "https://timesca.com"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Uzbekistan, Tajikistan advance IT Park cooperation in Dushanbe - trend.az",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12eERfbFBMNnR4YkVfZElkcXk3YzNFdm5GZWVTcE91ZHA1ZF80SXRqdmV3cDVjNEdIQ3lBUzlYaUxOSFpFQkFDR01McHdBV2RMc1I2NFg3UTA3YUVUc2Zr?oc=5",
-      "published": "Wed, 30 Sep 2026 11:25:51 GMT",
-      "summary": "Uzbekistan, Tajikistan advance IT Park cooperation in Dushanbe&nbsp;&nbsp;trend.az",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-09-30T19:25:51+08:00",
-      "source_detail": {
-        "name": "trend.az",
-        "url": "https://www.trend.az"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "“Water Insecurity Is Not Experienced Equally”: Why Scarcity Is Also a Social Problem - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IbHRXY3ZUb2dzRVRPaGZDUnMwdXJJQXRoYkgwMlN0ckpocXdNZHhyU211ZkEwZnZ5R3JyWHlZQ1BXNG1CZHRBal9XcHViY1NtTW81aExYdEwyOUVES1hodC1zVTVGd0l6SVhZUFJqRF9Fd1pY?oc=5",
-      "published": "Wed, 30 Sep 2026 11:10:24 GMT",
-      "summary": "“Water Insecurity Is Not Experienced Equally”: Why Scarcity Is Also a Social Problem&nbsp;&nbsp;The Times Of Central Asia",
-      "source": "GNews | CA Climate/Water",
-      "published_beijing": "2026-09-30T19:10:24+08:00",
-      "source_detail": {
-        "name": "The Times Of Central Asia",
-        "url": "https://timesca.com"
-      },
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "From self-defence to political statements: how former Georgian PM Garibashvili's 'prison' letters have evolved - JAMnews",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUlRSTEZQYXRLUG5uZkZKOUp4Y0N5TEV4VUxPU01WQXpRS19hSnQzQVNwR0tBSTIwZkxTSVNiTHFaVjFkd0pUNUg5YnJvTVVFME53bVdDUlp3YVVQUzhBcVNnLU40M0hkMC1ZU1h3RUFhMzVOSkNFblhQRTd5SjVpVzRLbTVfY1VzX3k2c0w5R28tOFgwMWw0OUNFVGNNRk1zLXVqci1peExsakR1RksxY0dXclJPcThvb0hIa0xuYWJsU2E1LWdr?oc=5",
-      "published": "Wed, 30 Sep 2026 11:05:03 GMT",
-      "summary": "From self-defence to political statements: how former Georgian PM Garibashvili's 'prison' letters have evolved&nbsp;&nbsp;JAMnews",
-      "source": "GNews | Caucasus",
-      "published_beijing": "2026-09-30T19:05:03+08:00",
-      "source_detail": {
-        "name": "JAMnews",
-        "url": "https://jam-news.net"
-      },
-      "priority": 3.6,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Cuisine and Music Bring Hearts Closer: Chongqing–Jizzakh Day Held in Chongqing - iChongqing",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUEhBaWlsVms3bm1rbGttaFVyOVRWeks0MmJoTzNuRU1Ob1lpRE91Z3ZrZHV5TWV2VHFkUzZzZ1BkMzlvRUdScU9DSy1uN1hxWWJ0OXJuUHF6cTh0SmpfSFRrN2xyb0VPeS1tQzFaNFRHNkhDRUlXSXB5bDBhbUNCWldfTm52SEhobHA4LURyQWE4dmxfdDhyTjd6dEtiQkQwYXVaTEhJbHZzbUY4UENFX3JobTNIOEJ30gG-AUFVX3lxTFBiSVV3akRaUml4cjlwelhMR2FPOHB6c3lzTTlYZnhKSlFaeDlvYTR5ZjFGeDhaUG5IZklZdXpMX0Fha3FyUlVueGpJYmdveDFFZkhOUVBDSUFQRnRMdS1zUkZKbzdFSWlSNTFFYWJ0WGZzR0JwTGg0YnoxNnZHM2thRlZVNW0wWlAzRlgtUkRMUXU3aFpPbFdveG9IVXJwaG5LTXdqY1d4WkxHbTNMZW9DU2kzUHhELTBud3p1SUE?oc=5",
-      "published": "Wed, 30 Sep 2026 09:50:45 GMT",
-      "summary": "Cuisine and Music Bring Hearts Closer: Chongqing–Jizzakh Day Held in Chongqing&nbsp;&nbsp;iChongqing",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T17:50:45+08:00",
-      "source_detail": {
-        "name": "iChongqing",
-        "url": "https://www.ichongqing.info"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Central Asia-India Forum - orfonline.org",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MVi1SdTNObWRyQi02cWJGNUtHbHQyVWxsM1lZYUx2X2k4SEpMdGtBVE1CSDdGMWxMYThyNEVCRklpN1hUdndyZUhXR1VHcVY3TUZSYWpGYWpwZkVsSENYXzNRcEdYazQ?oc=5",
-      "published": "Wed, 30 Sep 2026 09:41:09 GMT",
-      "summary": "Central Asia-India Forum&nbsp;&nbsp;orfonline.org",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T17:41:09+08:00",
-      "source_detail": {
-        "name": "orfonline.org",
-        "url": "https://www.orfonline.org"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Adylbek Kasymaliev discussed migration issues with the Ombudsman of Russia - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTDVtMjc3LUNCazFaNGFxWjQ1eDRYaE1Cek9OUkt4djl2cWxMSUJHRmhZS3l5cEhXNEVIT29Ya1gyTldLVWNrSnktbUVURVZZTHhIWjFtVHVaZ2NSNTgzMFI2NU9TNnZId095SmUtZkVOSi0xRTRFdHpSbXFRaVhlX0t6cWd1aE42aXVxSVR0SG52YzA1Z2JhV1ZkbE00bDNvX3AzQzBodERHZXI1dG1QSEdxQm4tQQ?oc=5",
-      "published": "Wed, 30 Sep 2026 05:21:57 GMT",
-      "summary": "Adylbek Kasymaliev discussed migration issues with the Ombudsman of Russia&nbsp;&nbsp;open.kg",
-      "source": "GNews | CA Demo",
-      "published_beijing": "2026-09-30T13:21:57+08:00",
-      "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
-      },
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "[不同来源] Future Center - The Contours of Kazakhstan’s Growing Ties with Southeast Asia - مركز المستقبل",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSk1UU3RhdFR4dWRyT3V0MjB2OTJ5SVo1TEc3bDdvN2QxZUtlS2FLSC1sOUdzNEY4bFFiMjRqUGpXS1diWjIzY2JYNlduUXRqOGJTTnJudTdFZlkySDl3Wko1RWFzOWpQdXJCbG1QUE42dnh4SEpaeDdzaTdocXdOTEZFZ05JY3UtdmdrR2NRU3g3NVJCbVNZdVJQTTBUb1dSYVRxdXN5VURkV0NnY1kyRTFsYUZ0UFdwbzdzNjhNaDhTd3Zo?oc=5",
-      "published": "Tue, 29 Sep 2026 14:35:48 GMT",
-      "summary": "Future Center - The Contours of Kazakhstan’s Growing Ties with Southeast Asia&nbsp;&nbsp;مركز المستقبل",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-29T22:35:48+08:00",
-      "source_detail": {
-        "name": "مركز المستقبل",
-        "url": "https://futureuae.com"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Kazakhstan offers Germany a raw materials partnership, - Tokayev - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRG5UYTY1Ql81VlVQWkNxZlplVWk1R1R4STBmV2tPRzVxSmhfUnFWRWc3anpEcDloVmFTdGstXzN1cDhVbFhMM2hhcVB6eHplTldLT0FYcF9vVFRYZTNwWUpYUXlzNVY5NnFycnduLUZJdUlzTWxPVnhaVHhfUE5zMUhUa3YxMzVPQkFyRE8wZ29pYmZPWGJjNjN3N3l6eTRLT2dKODc2U0g?oc=5",
-      "published": "Tue, 29 Sep 2026 07:38:51 GMT",
-      "summary": "Kazakhstan offers Germany a raw materials partnership, - Tokayev&nbsp;&nbsp;open.kg",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-29T15:38:51+08:00",
-      "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Turkmenistan, Russia's Tatarstan discuss economic cooperation - trend.az",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11OG56LTF2aGM2cF9kRXN5dG1XMmJVNEVsR3FCa0tPa3hadkpXd3BXZHFNQkNtZ2d2Rms3WlMwRmRBenZITGppRHVfamhZeW53Z3NyNEpGelBqcGh3NnY0MW9R?oc=5",
-      "published": "Tue, 29 Sep 2026 06:13:05 GMT",
-      "summary": "Turkmenistan, Russia's Tatarstan discuss economic cooperation&nbsp;&nbsp;trend.az",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-29T14:13:05+08:00",
-      "source_detail": {
-        "name": "trend.az",
-        "url": "https://www.trend.az"
-      },
-      "priority": 3.6,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Comedy takes root in Korea's Russian-speaking community - The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY2JGYTJ5MlI2SG9nMEhydjlHUnZvbjlkTG5BU0RORUVEalJMNUtoYlVWSnlHZlBHbXpycFJhRkplam5lX3VIcVdtVTJwVUNPaWtXMlE1X0k4cnE3WTJtRFpQMVFjd0EtMDFmZ3d4ZlNsTDRsRUxfOExDUVp2M0JodDNlU0c5WXpjbDlvWnJBR1EyNDVNZ20xM21SVl9KbGVhNG56WW8zNzdFYlEtaGxOTnlpWDh3Tm1SZFg0TFhiWXPSAcABQVVfeXFMTmNiRmEyeTJSNkhvZzBIcnY5R1J2b245ZExuQVNETkVFRGpSTDVLaGJVVkp5R2ZQR216cnBSYUZKZWpuZV91SHFXbVUycFVDT2lrVzJRNV9JOHJxN1kybURaUDFRY3dBLTAxZmd3eGZTbEw0bEVMXzhMQ1FadjNCaHQzZVNHOVl6Y2w5b1pyQUdRMjQ1TWdtMTNtUlZfSmxlYTRuellvMzc3RWJRLWhsTk55aVg4d05tUmRYNExYYllz?oc=5",
-      "published": "Thu, 01 Oct 2026 02:17:03 GMT",
-      "summary": "Comedy takes root in Korea's Russian-speaking community&nbsp;&nbsp;The Korea Times",
-      "source": "GNews | CA Demo",
-      "published_beijing": "2026-10-01T10:17:03+08:00",
-      "source_detail": {
-        "name": "The Korea Times",
-        "url": "https://www.koreatimes.co.kr"
-      },
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Trans-Caspian Transport Corridor Enhancements Could Triple Trade by 2040 - streamlinefeed.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT05jMi1TTENMZFl0MTMwQUl4WlV1Mk1HQUFyWmhXdnZnaklPTDdYUFVCUkpFM1RpYkFmUmxSOGoxSUdOVWJjeUpaQm1MbWk1TVpXaF9YZ0E3Y0VLYTVicEZwZW5Jc0RSWmtsVXhDZG9BNHRQODRSMGZQSVhrWXBlZlpXTEFhdEo5Q20zZzVHZjZqTXNGSm9idjJha0pQbER4X1RjU2czNnpGZw?oc=5",
-      "published": "Wed, 30 Sep 2026 10:11:55 GMT",
-      "summary": "Trans-Caspian Transport Corridor Enhancements Could Triple Trade by 2040&nbsp;&nbsp;streamlinefeed.co.ke",
-      "source": "GNews | UZ Economy",
-      "published_beijing": "2026-09-30T18:11:55+08:00",
-      "source_detail": {
-        "name": "streamlinefeed.co.ke",
-        "url": "https://streamlinefeed.co.ke"
-      },
-      "priority": 2.4,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Afghanistan, Iran Seek to Boost Trade to $10 Billion - TOLOnews",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtcmhBWTJuMFZiX3NIc3FMY1M2Qkh1R0lxaC1BanE0czZ6YkN0anh1V196QkROTzhxeTFWOW05ZXNFcHp4SVdLandrWUVBT3FTX0E?oc=5",
-      "published": "Tue, 29 Sep 2026 17:33:52 GMT",
-      "summary": "Afghanistan, Iran Seek to Boost Trade to $10 Billion&nbsp;&nbsp;TOLOnews",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T01:33:52+08:00",
+      "published_beijing": "2026-10-01T00:24:42+08:00",
       "source_detail": {
         "name": "TOLOnews",
         "url": "https://www.tolonews.com"
       },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.tolonews.com/business-198859",
+      "full_text": "Kazakh media report that officials in the country are striving to increase the volume of trade with Afghanistan from the current level of around $500 million to $3 billion in the coming years.\nAccording to the report, Kazakh authorities have also emphasized that the majority of this trade is currently based on Kazakhstan’s exports, including grain, flour, and agricultural products.\nAn excerpt from Kazakh media reports states: “Kazakhstan intends to raise its trade volume with Afghanistan to $3 billion in the coming years, while the current figure stands at approximately $500 million annually.”\nQutbuddin Yaqoubi, an economic analyst, said: “The capacities that Kazakhstan possesses, in cooperation with the Afghan government, can be considered a valuable opportunity for Afghanistan, particularly in the development of economic infrastructure.”\nMeanwhile, the Ministry of Industry and Commerce says that the trade volume between Afghanistan and Kazakhstan reached $565 million in 2025.\nAkhundzada Abdul Salam Jawad, spokesperson for the Ministry of Industry and Commerce, said: “The trade volume between Afghanistan and Kazakhstan reached $565 million in 2025. Of this amount, $55 million accounted for Afghanistan’s exports and $510 million for imports.”\nAbdul Jabbar Safi, head of the Kabul Industrialists Association, told TOLOnews: “If we rely solely on imports and the level of imports exceeds our exports, it will not be beneficial for Afghanistan’s economy. Solutions must be identified to determine which Afghan products can enter markets without obstacles and help strengthen the country’s exports.”\nEarlier, Amir Khan Muttaqi, Acting Minister of Foreign Affairs of the Islamic Emirate of Afghanistan, said at the Afghanistan–Central Asia Consultative Dialogue held in Kabul that over the past nearly five years, Afghanistan’s relations with Central Asian countries have seen notable progress in the economic, trade, and transit sectors, and that the ground is now prepared for further expansion of this cooperation."
+    },
+    {
+      "title": "Philip Reeker: US should view Central Asia, South Caucasus as interconnected regions - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdmJkMmF4eG1jQmtvUmJacS1UdGJzd2pNUWNDTWhqNVJQaG9MR1JBVHV5bkc2QWFIQmpWMnpmX3NKcE1vbWZyWFh4czM0cHVwUVZ4RXMwS2g5Y2FZcXFWSWxsTVcyaGZfR3FvM1BkbFhESmFRT2RWU1VSQzJPQ2RNVXZXQWlFTWhsT0Z4eTM0cjgySjF3RTRyQmRaQmxMNVAzeU5XWnhsRkE3dFhfSG4xdl8yX2xkNXoyVDBSdnFucjk1UdIBwgFBVV95cUxQdmJkMmF4eG1jQmtvUmJacS1UdGJzd2pNUWNDTWhqNVJQaG9MR1JBVHV5bkc2QWFIQmpWMnpmX3NKcE1vbWZyWFh4czM0cHVwUVZ4RXMwS2g5Y2FZcXFWSWxsTVcyaGZfR3FvM1BkbFhESmFRT2RWU1VSQzJPQ2RNVXZXQWlFTWhsT0Z4eTM0cjgySjF3RTRyQmRaQmxMNVAzeU5XWnhsRkE3dFhfSG4xdl8yX2xkNXoyVDBSdnFucjk1UQ?oc=5",
+      "published": "Thu, 01 Oct 2026 08:30:04 GMT",
+      "summary": "Philip Reeker: US should view Central Asia, South Caucasus as interconnected regions&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T16:30:04+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://report.az/en/amp/foreign-politics/philip-reeker-us-should-view-central-asia-south-caucasus-as-interconnected-regions"
+    },
+    {
+      "title": "Azerbaijan shares ASAN service experience at Caribbean governance forum - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZEI2cThzUTBHaUZBRnlUZ0paa1Q1d2pEaFdSelNfZVUzWmJrTTBxYUMyak83ZjA3Z3BlbTNDM2EzVHJOQ2I2bkZoekRockdiZ3FrellNN3dUbzQ0MEJWT0UzNDY4UkpOLUlXNDRMd1ZHTUFqMkhoZnRRMEVxY3hYMGlZb3VuY1NHaFg2V25rZHk5VTNCbnRyUEJSZ2pBNHp3SG53OXp3Y0FwZ2QwOGhKZE43WdIBswFBVV95cUxNZEI2cThzUTBHaUZBRnlUZ0paa1Q1d2pEaFdSelNfZVUzWmJrTTBxYUMyak83ZjA3Z3BlbTNDM2EzVHJOQ2I2bkZoekRockdiZ3FrellNN3dUbzQ0MEJWT0UzNDY4UkpOLUlXNDRMd1ZHTUFqMkhoZnRRMEVxY3hYMGlZb3VuY1NHaFg2V25rZHk5VTNCbnRyUEJSZ2pBNHp3SG53OXp3Y0FwZ2QwOGhKZE43WQ?oc=5",
+      "published": "Thu, 01 Oct 2026 07:32:08 GMT",
+      "summary": "Azerbaijan shares ASAN service experience at Caribbean governance forum&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T15:32:08+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://report.az/en/amp/foreign-politics/azerbaijan-shares-asan-service-experience-at-caribbean-governance-forum"
+    },
+    {
+      "title": "US describes past year in relations with Azerbaijan as landmark - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlphQUJKTTVueDk3N29pR1I1bUVHTWhPdU85SllJS0c0Sjl1ZklyQm56RHJUOGFNbmstQzFjcnA5NDFFTGx5T0xVSW9nY19MeV95WmhwZDVsQl9MZDVyYjRWdFlFdUdaWVR4dWFnWkszQUU3eklBbnhJVlRqMV9Xd1FJZWRVN0lWMnlfTm0xbU5rLWVveTRoZUZ1bkRCdzRPWmtrWWlZNnTSAagBQVVfeXFMUHZaYUFCSk01bng5NzdvaUdSNW1FR01oT3VPOUpZSUtHNEo5dWZJckJuekRyVDhhTW5rLUMxY3JwOTQxRUxseU9MVUlvZ2NfTHlfeVpocGQ1bEJfTGQ1cmI0VnRZRXVHWllUeHVhZ1pLM0FFN3pJQW54SVZUajFfV3dRSWVkVTdJVjJ5X05tMW1Oay1lb3k0aGVGdW5EQnc0T1pra1lpWTZ0?oc=5",
+      "published": "Thu, 01 Oct 2026 06:42:45 GMT",
+      "summary": "US describes past year in relations with Azerbaijan as landmark&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T14:42:45+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://report.az/en/amp/foreign-politics/us-describes-past-year-in-relations-with-azerbaijan-as-landmark"
+    },
+    {
+      "title": "China’s BRI cuts both ways for authoritarian rule - East Asia Forum",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb0E2aU9VT3VnUWJCUFdkM2ZySXlzajNoTkY4cXBjQlg0bkJwMkpaVHVocjhwYklEYUIwczBEWnlxNmJLbG5ELURBMXFpTzVMYjliV3lSVDZPa2xEeGlKWks3OG9WNkRPMW9BRk5UU1dHZTY4WlU3dzlMYXBQX3JzT1JUQ1hWXzg1SkpTczdJQQ?oc=5",
+      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "summary": "China’s BRI cuts both ways for authoritarian rule&nbsp;&nbsp;East Asia Forum",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-02T08:00:00+08:00",
+      "source_detail": {
+        "name": "East Asia Forum",
+        "url": "https://eastasiaforum.org"
+      },
+      "priority": 4.8,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://eastasiaforum.org/2026/10/02/chinas-bri-cuts-both-ways-for-authoritarian-rule/"
+    },
+    {
+      "title": "Expert on why Lithuania is powerless against US-Belarus potash deal - sb.by",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOclVFeVF3UlVJLTNRN2lDa2E0cjZXaXZHTFFxbE9Mb2JIOXBWV252VjNrUkEtcml5T2VsQ0h6amlUQVpWb01mUFdwbWZ6OUI4VjhJME5vYVhpZHJST3V0SG1TZERHeEFOOEZFai1RRExEYk5KZmdwWkdaRHVZc3ZuUmlTeW1ZRFd0UC1iOThFc0NLRTE4NGlyYg?oc=5",
+      "published": "Wed, 30 Sep 2026 13:55:00 GMT",
+      "summary": "Expert on why Lithuania is powerless against US-Belarus potash deal&nbsp;&nbsp;sb.by",
+      "source": "GNews | BY Sanctions",
+      "published_beijing": "2026-09-30T21:55:00+08:00",
+      "source_detail": {
+        "name": "sb.by",
+        "url": "https://www.sb.by"
+      },
+      "priority": 3.6,
+      "category": "白俄罗斯+能源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.sb.by/en/expert-on-why-lithuania-is-powerless-against-us-belarus-potash-deal.html"
+    },
+    {
+      "title": "US hopes Belarus will force Canadian firms to lower prices - Chemical & Engineering News",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRzdYX01mbWE1WlBKYmR4Q095dlRuNnNaa3NhNUVfVnBkcGdNRGowRXB4V203VFBUQjF0Vklia0dtR2htd0JNanZFR0pjb3ZaLUJMem9BSzhsYjRYX3o2dE9oVUx3OVhKM2ZWemlicUQ2MkxfYjJwUGJxeUtmQWpWYVZQLXlvdlVDRzRkd1NESzVxZw?oc=5",
+      "published": "Thu, 01 Oct 2026 19:01:26 GMT",
+      "summary": "US hopes Belarus will force Canadian firms to lower prices&nbsp;&nbsp;Chemical & Engineering News",
+      "source": "GNews | BY Sanctions",
+      "published_beijing": "2026-10-02T03:01:26+08:00",
+      "source_detail": {
+        "name": "Chemical & Engineering News",
+        "url": "https://cen.acs.org"
+      },
+      "priority": 3.6,
+      "category": "白俄罗斯+能源",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Current state and prospects of Azerbaijan–EU relations discussed - azertag.az",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdno1NlFubVVkTlYxNHdlOXFJWGF0SVlUcjFXR0tKMjYzd2x3SFFMZEVtbjZjbGFqeUhNNUNMWmVrcnd3eEYzZmNxMWhNbjl4WXRtWTNEeURhNEZLeHZtdFl1aC0tcWdLWHo2QWFsX2tEUDJGX1l4MndseF9MWFZ1dklVTzlaUHJqTkVraS1SeTBvUER1SGxjVFZ0emYteW10V3c?oc=5",
+      "published": "Thu, 01 Oct 2026 18:26:00 GMT",
+      "summary": "Current state and prospects of Azerbaijan–EU relations discussed&nbsp;&nbsp;azertag.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-02T02:26:00+08:00",
+      "source_detail": {
+        "name": "azertag.az",
+        "url": "https://azertag.az"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://azertag.az/en/xeber/current_state_and_prospects_of_azerbaijan_eu_relations_discussed-4442052",
+      "full_text": "Baku, October 1, AZERTAC\nOn October 1, Deputy Minister of Foreign Affairs Yalchin Rafiyev met with a visiting delegation of the EU Council Working Party on Eastern Europe and Central Asia (COEST).\nThe meeting focused on the current state and prospects of Azerbaijan–EU relations, partnership priorities, negotiations on a new bilateral agreement, energy and transport connectivity, climate cooperation, as well as regional issues.\nThe Deputy Minister stated that high-level contacts between Azerbaijan and the EU have intensified recently, and cooperation in the areas of energy, trade, and connectivity has expanded. Highlighting the growing importance of the Middle Corridor, he provided information on Azerbaijan’s efforts to develop its transport and logistics infrastructure, including the Baku–Tbilisi–Kars railway, the Port of Baku, and projects implemented in the liberated territories.\nRegarding energy cooperation, the meeting addressed Azerbaijan's contribution to European energy security, the prospects for expanding natural gas supplies, and projects implemented in the field of renewable energy.\nDuring the exchange of views on the Azerbaijan–Armenia reconciliation process, he provided information on the progress achieved since the Washington summit, Azerbaiajan’s peace agenda, and the steps taken toward confidence-building.\nNumerous questions from the delegation were answered during the meeting."
+    },
+    {
+      "title": "Central Asia’s Diplomatic Balancing Act on Display from Bishkek to New York - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEJPbnRpQmwtLTFGNGFHUFFoOTRMdWlTWGxwdmhYS201UG00UXNOUGdQbV9xUHkzWHlzT000U0ZFYVVyV3k0MG9DWkd4emJYcUN2THNfZmpBLUQwT2Nwdm9Vb3RNZGNjVVpZUm9Id0VtSmhCTUQxTGs2RUFZRGlETjBMU3RmWnVTWGdrdnpiQkNkb0Q3aGMwSTVVZXVoZllQMEZOQUxTUEtCOGM?oc=5",
+      "published": "Thu, 01 Oct 2026 13:29:10 GMT",
+      "summary": "Central Asia’s Diplomatic Balancing Act on Display from Bishkek to New York&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T21:29:10+08:00",
+      "source_detail": {
+        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://thediplomat.com"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://thediplomat.com/2026/10/central-asias-diplomatic-balancing-act-on-display-from-bishkek-to-new-york/",
+      "full_text": "The general debate of the 81st U.N. General Assembly closed this week, and the Central Asian speeches put the region’s balancing act on full display. As the world moves toward multipolarity, the five Central Asian states find themselves in a tight spot. They must manage relations with the two leading global powers, the United States and China, while preserving their ties with Russia, with which they share deep historical, economic, and political bonds.\nThree weeks before the debate opened, Kyrgyzstan hosted the Shanghai Cooperation Organization’s (SCO) 25th-anniversary summit on August 31 and September 1. Four of the five Central Asian states – Kazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan – are SCO members, while neutral Turkmenistan remains formally out, although it occasionally participates as a guest. The SCO is widely seen as a vehicle for Beijing and Moscow to limit Washington’s footprint in Eurasia, and the 2026 summit’s Bishkek Declaration gave the United States plenty to dislike, from a firm condemnation of military strikes on Iran to opposition to “unilateral coercive measures.”\n[...]"
+    },
+    {
+      "title": "China’s biggest port project in Pakistan faces a reckoning: Why Gwadar has failed to become the trade hub it promised - dailyasianage.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNU3dCX3d4eFVNdUpQeHBEMEdISjdDMGMyUWpMel9iTmNUT3BUYTFUdEZ4SUozUVFzSXcxYVp1TUNoWkRFdHlvMWV1YTMxOGNoTllxTkh1Z2NjXzNzOTl5YWZJX1NPOGUzZmp6WlRRTGVtUC1lWGNONmFtUzc5VEpUcXZjX3VscXlWdzFTU1pnbnBSNE90M2xNRkZTTUFhWW5iYVNGTjBDREZWeFNWdUlyWG9Wa0NQcG9FcnprTWxBNGRyX2NSdEVXM09fRDNYaVdPaTNJZWQ3MkdCUUJxeXl4bVY4M1RBNUh5?oc=5",
+      "published": "Thu, 01 Oct 2026 11:00:00 GMT",
+      "summary": "China’s biggest port project in Pakistan faces a reckoning: Why Gwadar has failed to become the trade hub it promised&nbsp;&nbsp;dailyasianage.com",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-01T19:00:00+08:00",
+      "source_detail": {
+        "name": "dailyasianage.com",
+        "url": "https://dailyasianage.com"
+      },
+      "priority": 3.6,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://dailyasianage.com/news/358674/chinas-biggest-port-project-in-pakistan-faces-a-reckoning-why-gwadar-has-failed-to-become-the-trade-hub-it-promised",
+      "full_text": "A general view of Gwadar port in Gwadar, Pakistan October 4, 2017. (REUTERS)\n”Gwadar was sold as a potential Dubai or Singapore of South Asia, backed by billions in Chinese investment under CPEC. Its weak cargo volumes, difficult connectivity and recurring security threats have left that vision far from reality. ”\nFor more than a decade, Gwadar Port has been presented as the crown jewel of the China-Pakistan Economic Corridor and one of the most strategically important projects under Beijing’s Belt and Road Initiative. But the port’s promised transformation into a major regional commercial hub has yet to materialise.\nA recent analysis by Australia’s Lowy Institute has raised fresh questions over the future of the project, arguing that China’s Gwadar gamble is no longer delivering the commercial or strategic returns originally envisaged. The analysis says Beijing’s risk appetite is diminishing as security problems mount and China faces its own economic pressures.\nThis does not mean China is preparing for an immediate withdrawal from Gwadar. Rather, the emerging picture points towards a more cautious approach, with the port’s commercial ambitions increasingly constrained by security, geography, weak local infrastructure and Pakistan’s economic difficulties.\nFrom CPEC showcase to strategic liability?\nWhen CPEC was unveiled in 2013 and significantly expanded during Chinese President Xi Jinping’s 2015 visit to Pakistan, Gwadar was supposed to become a key link between western China and the Arabian Sea.\nIts location on Pakistan’s Balochistan coast, close to the Persian Gulf and the Strait of Hormuz, gave the port considerable strategic significance. The underlying logic was straightforward: Chinese goods and energy supplies arriving through the Arabian Sea could potentially avoid part of the vulnerable maritime route through the Malacca Strait by travelling overland towards Xinjiang.\nThe plan involved connecting Gwadar with Kashgar through a network of roads, railways and energy infrastructure. China’s state-owned China Overseas Port Holding Company was given a long-term operating lease for the port. The wider CPEC programme subsequently envisaged billions of dollars in investment in roads, power projects, an airport, industrial zones and other infrastructure.\nYet the commercial transformation promised by Islamabad and Beijing has remained elusive. The Lowy Institute analysis argues that Gwadar has increasingly become a financial and security liability rather than the commercial success originally envisioned.\nThe security problem is getting harder to contain\nThe biggest challenge for the project is the security environment in Balochistan. Baloch separatist groups have repeatedly targeted Chinese citizens and CPEC-linked infrastructure. The Baloch Liberation Army and its Majeed Brigade have specifically identified Chinese interests as targets.\nThe March 2024 attack on the Gwadar Port Authority complex was one of the most serious assaults on infrastructure associated with the project. Chinese nationals have also been targeted elsewhere in Pakistan, including in a suicide bombing near Karachi airport in October 2024.\nThe attacks have placed growing pressure on Pakistan to provide stronger protection for Chinese citizens and projects.\nIslamabad has established dedicated security formations, including the Special Security Division, to protect CPEC projects. But the continued attacks have demonstrated the difficulty of securing infrastructure spread across a volatile province.\nThe Lowy Institute argues that Chinese engineering teams, convoys and infrastructure have become primary targets for insurgent groups and that the security burden has strained the relationship between Beijing and Islamabad.\nThis is particularly significant because Gwadar was supposed to demonstrate how Chinese infrastructure investment could transform a remote region. Instead, the project remains heavily dependent on security arrangements and military protection.\nGeography is another major problem\nGwadar's biggest strategic selling point was also its biggest logistical challenge. The original CPEC vision assumed that goods moving between China and the Arabian Sea could travel overland through Pakistan. But the route between Gwadar and Xinjiang passes through some of the world's most difficult terrain.\nThe Karakoram Highway reaches altitudes of more than 4,600 metres and passes through areas vulnerable to landslides, avalanches and extreme weather, according to the Lowy Institute. (The Lowy Institute)\nThe proposed corridor also crosses Gilgit-Baltistan, Khyber Pakhtunkhwa and Balochistan before reaching Gwadar. These areas present their own security and infrastructure challenges.\nFor energy shipments, the economics are even more complicated. Moving oil from an Arabian Sea port across thousands of kilometres of mountainous terrain requires expensive pipelines, railways or road transport.\nThat raises a fundamental question about the original CPEC proposition: whether moving energy overland through Pakistan can compete economically with conventional maritime shipments directly to China's eastern ports.\nThe Lowy Institute analysis argues that pipelines and overland trucking are substantially more expensive than ocean freight and that a long energy corridor through difficult and politically unstable terrain would also be difficult to secure.\nGwadar still lacks the commercial ecosystem\nA successful port needs more than berths and cranes. It needs cargo, shipping connections, industries, warehouses, road and rail networks and a functioning economic hinterland.\nGwadar has struggled to develop that ecosystem.\nThe Lowy Institute says major international shipping lines continue to bypass Gwadar in favour of established regional hubs such as Dubai, Salalah and Karachi because the port lacks sufficient cargo volumes to justify regular calls.\nThat leaves Gwadar heavily dependent on state-directed or specialised cargo rather than the broad commercial activity originally envisaged.\nThe problem extends beyond the port itself. Gwadar has faced persistent shortages of drinking water and electricity, while connectivity and local infrastructure remain inadequate.\nThis creates a striking contradiction at the heart of CPEC. Billions of dollars have been committed to strategic infrastructure, yet the city surrounding the flagship port continues to face basic infrastructure shortages.\nLocal opposition has complicated the project\nThe port has also faced sustained opposition from sections of the local population. The Haq Do Tehreek movement has repeatedly organised protests over water shortages, electricity, fishing rights and restrictions imposed around the port.\nFishing is particularly important to Gwadar's local economy. The expansion of port infrastructure, security exclusion zones and industrial fishing activity has created tensions with local fishermen.\nThe Lowy Institute has argued that the Chinese and Pakistani authorities have struggled to build local support for the project because sections of the Baloch population believe they have not received adequate economic benefits from the investment.\nThat creates another challenge for Beijing. Infrastructure can be built relatively quickly, but sustained commercial activity requires a stable political and social environment around it.\nChina is becoming more selective with overseas projects\nGwadar's problems are also emerging at a time when China's overseas investment strategy has become more cautious. The era of very large Belt and Road infrastructure projects has increasingly given way to what Beijing describes as a more selective approach, often associated with the \"Small is Beautiful\" framework.\nThe shift places greater emphasis on projects that are financially sustainable, technologically advanced and capable of generating clearer returns. That makes Gwadar particularly difficult to justify as a conventional commercial investment.\nThe Lowy Institute notes that China has already invested heavily in the port, while the project continues to face security costs and weak commercial returns. Under the current lease arrangement, 91% of port revenues are supposed to go to Beijing, according to the analysis.\nThe problem is that a large share of revenue from a port has little value if the port itself is not generating substantial commercial activity.\nPakistan's economic burden adds another layer\nFor Pakistan, the stakes are considerably higher. CPEC brought significant Chinese financing into roads, energy and infrastructure projects, but Islamabad continues to face severe balance-of-payments pressures and dependence on external financing.\nA commercially weak Gwadar therefore presents Pakistan with a difficult equation. Infrastructure and associated debt obligations remain, while the port has yet to generate the level of economic activity originally promised.\nThe Lowy Institute describes Pakistan as being caught in a structural balance-of-payments crisis and reliant on IMF support and Chinese debt arrangements.\nThis means Islamabad has limited room to absorb additional costs associated with securing, maintaining and expanding an underperforming strategic project.\nWhat does this mean for China's military ambitions?\nGwadar's strategic value has never been limited to trade.\nIts location near the Strait of Hormuz gives it potential importance for Chinese naval logistics and access to the western Indian Ocean. Earlier Lowy Institute analysis has noted longstanding speculation about whether Gwadar could eventually support Chinese naval vessels through functions such as fuelling, provisioning and maintenance.\nThat does not establish that Gwadar is being converted into a Chinese naval base.\nHowever, if commercial activity remains limited, the strategic value of the facility could increasingly lie in functions other than conventional container shipping.\nThe latest Lowy Institute assessment argues that Beijing could downscale the port's com"
+    },
+    {
+      "title": "C5+1 Meets Again in Samarkand, but Central Asia Has Changed - The Times Of Central Asia",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFRsN2dvcXRVSkVQWE9mdzJjTURoTlF5bnJXQlFDaGN2VFFjZncydTZyTUpuQlg2NzZ5SmFoZEk5a0d6ZEJialU3bjc1N0lRZ3VDM2daVl82eS13M0JWa2FTM2VHNU1XM01QOTg4ZnZWajdoVEVxaHdxUmNrUGI1ZlBIVFk?oc=5",
+      "published": "Thu, 01 Oct 2026 09:49:00 GMT",
+      "summary": "C5+1 Meets Again in Samarkand, but Central Asia Has Changed&nbsp;&nbsp;The Times Of Central Asia",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T17:49:00+08:00",
+      "source_detail": {
+        "name": "The Times Of Central Asia",
+        "url": "https://timesca.com"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://timesca.com/c51-meets-again-in-samarkand-but-central-asia-has-changed/",
+      "full_text": "In mid-October, C5+1 will meet again in Samarkand, where its first ministerial was held in November 2015. The regional actor it was created to engage has, however, changed substantially. Secretary of State Marco Rubio is expected to arrive with representatives of more than 100 American companies for talks focused on regional economic connectivity, energy security, trade, private investment, and economic modernization.\nJohn Kerry convened the first C5+1 ministerial in Samarkand on November 1, 2015, after the six governments had met in New York that September and agreed to regular consultations. The initial agenda already treated security, economic connectivity, and environmental problems as fields where regional approaches could add value. The question is what purposes C5+1 serves now.\nC5+1 itself began with a Kazakhstani initiative. As S. Frederick Starr recently reconstructed the history, Ambassador Kairat Umarov, after consulting Astana, proposed in 2013 that Washington create a regular mechanism for engaging Central Asia collectively rather than only through five bilateral relationships. The State Department subsequently developed the proposal, and the format took institutional shape in 2015. That origin rules out any account in which regional agency appears only later. Kazakhstan helped create the mechanism through which Washington would engage the region collectively; the five states’ own capacity for regional coordination deepened substantially thereafter.\nThe second ministerial in Washington in 2016 launched joint projects in economic connectivity, renewable energy, climate resilience, and security, while explicitly recognizing the value of regional approaches. A secretariat was established in 2022; the format reached presidential level for the first time in New York a year later. That summit also produced plans for a private-sector business platform and a Critical Minerals Dialogue, which held its inaugural meeting in February 2024. Its basic structure has remained the same: the United States engages the five Central Asian states collectively.\nAlongside C5+1, the five developed their own regional process, independent of any outside partner. President Shavkat Mirziyoyev proposed regular consultations among the Central Asian leaders in 2017, and their first Consultative Meeting took place in Astana in March 2018. Further meetings followed in Tashkent in 2019 and Turkmenistan in 2021 before the process moved to Cholpon-Ata in 2022. Subsequent meetings extended the process into trade, transport, energy, water, security, and cultural cooperation. The process remained intergovernmental and did not require policy uniformity among the five states. It gave them a recurring political process of their own.\nBy 2022, the process had expanded from consultation among the five to coordination in dealing with outside partners. At the fourth Consultative Meeting in Cholpon-Ata, the leaders adopted a regional cooperation roadmap for 2022–2024, a Green Agenda, and a Concept of Interaction of the Central Asian States in Multilateral Formats. A treaty on friendship, good-neighborliness, and cooperation for the development of Central Asia in the twenty-first century was also opened for signature. President Kassym-Jomart Tokayev had proposed regular foreign-minister consultations to develop coordinated approaches to regional and international issues. He specifically connected the multilateral-formats concept to cooperation with non-regional strategic partners. The Concept of Interaction in Multilateral Formats made that external coordination explicit.\nSubsequent steps gave that coordination a more permanent institutional form. At the fifth Consultative Meeting in Dushanbe in 2023, the leaders established a Council of National Coordinators to prepare and implement agreements reached by the heads of state. Security consultations and interparliamentary cooperation also became more regular. In 2024, the “Central Asia–2040” concept set longer-term priorities for regional security and development. By 2025, the consultative process had also produced a Concept of Regional Security and Stability and a catalogue of security risks and preventive measures for 2026–2028.\nInstitutional development was accompanied by more practical interaction: official Uzbekistani figures put intraregional trade at about $11 billion, roughly double the level eight years earlier; meanwhile, joint investment funds and industrial cooperation programs multiplied. These expanding trade and investment relationships give the consultative process an economic basis as well as a diplomatic one, without implying political integration.\nBy 2025, an official account of the regional process described the 2022 concept as a framework for coordinating positions in “Central Asia Plus” formats and developing agreed priorities toward external partners. The concept is intended to help the five derive greater economic benefit from extra-regional cooperation, develop joint regional projects, and attract investment, technology, and advanced practices.\nIn Astana this week, representatives of the five Central Asian states discussed how they might approach digital policy and govern artificial intelligence collectively. During a parallel C5+1 conference, the five met with the United States to discuss how to govern AI, develop digital infrastructure, strengthen cybersecurity, and attract investment in new technologies. The agenda was new to the regional process, but the way the five handled it was not: they worked out a regional approach among themselves and dealt with the United States as a group.\nThe five now use multiple “Central Asia Plus” formats to deal collectively with outside powers. Germany’s Z5+1 has reached summit level; Japan held the first leaders’ summit of its long-running Central Asia plus Japan Dialogue in 2025; China has established a biennial summit mechanism and permanent secretariat; and the European Union elevated its relationship with Central Asia to a strategic partnership at its first summit in Samarkand in April 2025. By 2025, more than ten such formats existed, and an increasing number had reached summit level. The American mechanism itself provides a precedent: the 2016 C5+1 declaration called for aligning projects and dialogues with other international-partner C5 formats where interests overlapped.\nThe agendas differ in emphasis but overlap substantially. Germany has stressed energy, raw materials, transport, and economic ties; Japan’s summit agenda included green transition and connectivity; China’s mechanism spans trade, investment, transport, energy, agriculture, and technology. The formats do not amount to a neat division of labor among external partners.\nWhen Rubio arrives in Samarkand, he will find substantially stronger mechanisms of Central Asian regional coordination than existed when Kerry was there in 2015. The meeting’s emphasis on connectivity, energy, and investment addresses areas where the five increasingly coordinate among themselves. In transport and energy in particular, growing trans-governmental coordination among Central Asian states now frames engagement with external investors and governments. Washington will be dealing with five governments that now meet regularly among themselves, maintain regional coordinating institutions, and have articulated common principles for external engagement.\nThe five now pursue regional cooperation independently of C5+1, while the format provides a collective channel for cooperation with the United States. Bilateral relations with Washington remain important to all five governments, but C5+1 now enters a regional process already underway. As this regional process increasingly precedes C5+1 engagement, the format serves more clearly as a channel through which a more organized Central Asia engages Washington.\nThe C5+1 has changed less in eleven years than Central Asia itself. The Samarkand meeting therefore has a different institutional meaning from the first ministerial in 2015, when the question was how the United States could engage the five Central Asian states collectively. In 2026, the five have their own sustained regional process and an explicit framework for coordinating relations with outside partners. C5+1’s continued relevance will lie increasingly in how well Washington uses it to engage a regional process that the five states themselves now sustain."
+    },
+    {
+      "title": "Georgia Is Betting Billions on the Middle Corridor. Can It Become Eurasia’s Black Sea Gateway? - Caspian Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUEZIZ3p3OFpUU1VqNWNoMmQ1bVB4dXBxN19NX1FRZFlXbzlydFBRWmNHbFBPVjA5RUdkSmZ1X3ZRMUVVVUtneHFJelJGMENwQlIzcGdFaHUtWS1mSks5TUJwQmUxOE1MblZxc3FEMW1LNmwxSEQweFJaWDJ4Y1JNWF9KblluX3lQNVVmR0h3c0puYm1YOEo2WUtPVzc1RnZ4T1JVZng5Vy1ObG1XQjZZeFpXV2dHRjZrTHpLUlNOMU1qRGFS?oc=5",
+      "published": "Thu, 01 Oct 2026 09:01:00 GMT",
+      "summary": "Georgia Is Betting Billions on the Middle Corridor. Can It Become Eurasia’s Black Sea Gateway?&nbsp;&nbsp;Caspian Post",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-01T17:01:00+08:00",
+      "source_detail": {
+        "name": "Caspian Post",
+        "url": "https://caspianpost.com"
+      },
+      "priority": 3.6,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://caspianpost.com/analytics/georgia-is-betting-billions-on-the-middle-corridor-can-it-become-eurasia-s-black-sea-gateway"
+    },
+    {
+      "title": "Russian nuclear threat to NATO over Kaliningrad and military - جريدة القدس",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRk9HNXBGQlhNbFB5RlZZWWhKYTdkeDRPOXFPTG03X0RSa0lZRFNISm9iMl9Ba01tMkpaQW0wd1lwSDFkbHFfcHF0RjNSNU9vYkozQm5wSTUxSVIxWnNlNk9PWEM0OUkxQ1Y2YTltbGh2clFnM3VsYU9yazBkTEpMNGhuc0lHYkxjWGR1QlcxbHdzdG5hY1lrOFZNQ2hxSXBwUWY0WEJib3FYMWtvRHVtbUNB?oc=5",
+      "published": "Thu, 01 Oct 2026 08:50:52 GMT",
+      "summary": "Russian nuclear threat to NATO over Kaliningrad and military&nbsp;&nbsp;جريدة القدس",
+      "source": "GNews | Signal: RU-UA",
+      "published_beijing": "2026-10-01T16:50:52+08:00",
+      "source_detail": {
+        "name": "جريدة القدس",
+        "url": "https://alquds.com"
+      },
+      "priority": 3.6,
+      "signal_keywords": [
+        "nuclear threat"
+      ],
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "CACI Chairman highlights co-op challenges facing Central Asia, Caucasus - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5YVMzUGRwVHQzQ19yR3huR0hTMC1ZRGZpcV9SZ2syWnNRYlBuOWpEdmQ0T1FucE1yLTh1U3Q3Y2k0MExrNkdWd3QtdnJTMjRHMTRIQlQ1Yw?oc=5",
+      "published": "Thu, 01 Oct 2026 06:24:06 GMT",
+      "summary": "CACI Chairman highlights co-op challenges facing Central Asia, Caucasus&nbsp;&nbsp;trend.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T14:24:06+08:00",
+      "source_detail": {
+        "name": "trend.az",
+        "url": "https://www.trend.az"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.trend.az/azerbaijan/4229914.html",
+      "full_text": "BAKU, Azerbaijan, October 1. Central Asia and the Caucasus lack their own institutional mechanisms for regional cooperation, Frederick Starr, chairman of the Central Asia-Caucasus Institute (CACI) at the American Foreign Policy Council, said at the CAMCA Regional Forum 2026 in Baku today, Trend's correspondent reports from the event.\nAccording to Starr, various countries and regions have established different formats for engagement with Central Asia over the past decades.\n“The main point is that this region lacks centripetal forces – forces that bring its countries together and connect them. They are doing this: business representatives are far ahead, and it is also happening at the highest level, but they lack institutionalization of their relations,” he said.\nStarr said Central Asia and the Caucasus remain the only region in the world without their own separate organizational infrastructure.\nHe cited the Association of Southeast Asian Nations (ASEAN) as an example.\n“Look at ASEAN – it is an excellent example. Several years ago, a delegation of CAMCA participants went to Singapore and spent a week studying how they operate within ASEAN,” Starr said.\nHe emphasized that ASEAN countries differ significantly from one another but, in his words, interact “very successfully, sensibly and purposefully.”\nStarr also recalled attempts by Central Asian countries to establish their own regional structures following the collapse of the Soviet Union.\nAccording to him, shortly after the dissolution of the Soviet Union, the five Central Asian presidents jointly approached the UN with an initiative to declare the region a nuclear-weapon-free zone.\n“They worked as a team and secured a vote at the UN. Thus, all of Central Asia became a nuclear-weapon-free zone. Several years ago, the Central Asian countries approached the UN stating that they are a separate world region and need their own structures. They asked the General Assembly to vote on recognizing Central Asia as a world region. Everyone voted in favor,” he said.\nAccording to Starr, no significant development of the initiative followed, but he described the step taken by the Central Asian countries as important."
+    },
+    {
+      "title": "Expanding new space for China-US economic and trade cooperation - news.cgtn.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0ZUcnhicWtIVHR3UkdYblpaYUw2WlN5Z2tXeWVTN29fWmx6UzhOYnFHVmhpUXM4MV9JNk1fVHdQX2JfaUNwamNLeVczTlVyVTdySGg5OUltRXdlY1l5OFVvdVdsODJXajBjVDV3UTduTWk0bG9RSG1McVhSSDNIT2d4cFhmblIxRG90WHNwaFZfRUJfZ1ZRUFlndmtfcWF4ZjMteXpURVBhanRMY0UyeG5IUGhWUnNqbDEtczYwR0Y3VlR5QXJr?oc=5",
+      "published": "Thu, 01 Oct 2026 09:21:23 GMT",
+      "summary": "Expanding new space for China-US economic and trade cooperation&nbsp;&nbsp;news.cgtn.com",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T17:21:23+08:00",
+      "source_detail": {
+        "name": "news.cgtn.com",
+        "url": "https://news.cgtn.com"
+      },
       "priority": 2.4,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "In Islamabad, Indian official flags regional connectivity, transit & trade - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNU50TVViVW9lLXV2cTdBS1R5MWc1c0hVY2N4ZUdUenUwRXpwR0h6YnBSOXN0RjZieHBycmdMZkRGbXBJWjNRNDFWdDg0cTdHYkhIMUpxSnhqU1Zkelg3MnRoWEhzdVQ5ZzVseDNUc0Z0T1llckRQNEJQYlMxNC1kcGd4cXRXVFJ4bWxuVHpLa2syR0IwQWFrOHllUEVnUlAzRGc5ZzlZSE1DVXN1MC05Uk82a1VRQmp6ZFNKN9IBwwFBVV95cUxOOE15dVVaR0QxUllHOXJLUmFfU1AwejNsNVA0c0IyU05sd05IZTFoem50eFVSbXU5a2Z3aV8xczNHdFZYcV9wcXN4THU0OUh5c05PSW80WTBRRF9ab1BqQXk2d0FERnh6OFFnbm15dUNhTkstdUlLazRwWGNOTkRqZktNOEl5ellSSm1FMTlOUUdvenlhLWNNTkp6Sjk2dy1iNG5JSzA0Z0RMQmFFWlFuamVTelYxQVk2VkVMN0hCcWRETW8?oc=5",
-      "published": "Wed, 30 Sep 2026 23:29:04 GMT",
-      "summary": "In Islamabad, Indian official flags regional connectivity, transit & trade&nbsp;&nbsp;The Indian Express",
+      "title": "President: We attach special importance to the development of our relations with China, our reliable strategic partner - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQzhGVmFYejNOWUlBS256WmFBX0xIMHYwMmRhVW1FWE01d1k4aDhLS0dBcDI1NDJ3V1R4Q0loUVpqQkp3dnhSNng0bG1TcWpsV2RkdmpWVXZiMXowOEU5QXpKQ3VCV0k2OTBpNnRtQWlOejFwNW5faFFWdV9NZFJwdkstNWdvc3pjTklZOXFvQWl4Y0tmMGxCTTlTZDAwMTYwQWtUN1ZGZkVJdmdpbDBqZHFuYlBQZE40Wng1VWtTNXIwY1RTUWRRWGZCOTNWeVp6Y0NTc0tBMEdEbTRacG9xQ2xMYmp4UEVVWHIyamdZY9IB7wFBVV95cUxPQzhGVmFYejNOWUlBS256WmFBX0xIMHYwMmRhVW1FWE01d1k4aDhLS0dBcDI1NDJ3V1R4Q0loUVpqQkp3dnhSNng0bG1TcWpsV2RkdmpWVXZiMXowOEU5QXpKQ3VCV0k2OTBpNnRtQWlOejFwNW5faFFWdV9NZFJwdkstNWdvc3pjTklZOXFvQWl4Y0tmMGxCTTlTZDAwMTYwQWtUN1ZGZkVJdmdpbDBqZHFuYlBQZE40Wng1VWtTNXIwY1RTUWRRWGZCOTNWeVp6Y0NTc0tBMEdEbTRacG9xQ2xMYmp4UEVVWHIyamdZYw?oc=5",
+      "published": "Thu, 01 Oct 2026 08:32:33 GMT",
+      "summary": "President: We attach special importance to the development of our relations with China, our reliable strategic partner&nbsp;&nbsp;Report.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T07:29:04+08:00",
+      "published_beijing": "2026-10-01T16:32:33+08:00",
       "source_detail": {
-        "name": "The Indian Express",
-        "url": "https://indianexpress.com"
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 2.4,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Amy Carlon: Fully implemented TITR could transform trade flows across Eurasia - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmNKeV9oWjFWelRndDY1RG1ZYmVlVEdtNXNua05TSllkcnFReUx2d1ZwVFh2S1ZaSlhydGI4X2UxVDVyTjF2Vnp6WFFrakVMTGJpS2lIX1g5LXlqcmM1Q0JJcHRpbjdXc3pQbTNsczFUNW5yVWlRMlI3dWxJdnhTcVhZYUMxYldBZ2hmaXU5cGcySVpIRVJtYkJuUHMzYUxEcExERmI5Qy1uR03SAasBQVVfeXFMT1JjSnlfaFoxVnpUZ3Q2NURtWWJlZVRHbTVzbmtOU0pZZHJxUXlMdndWcFRYdktWWkpYcnRiOF9lMVQ1ck4xdlZ6elhRa2pFTExiaUtpSF9YOS15anJjNUNCSXB0aW43V3N6UG0zbHMxVDVuclVpUTJSN3VsSXZ4U3FYWWFDMWJXQWdoZml1OXBnMklaSEVSbWJCblBzM2FMRHBMREZiOUMtbkdN?oc=5",
+      "published": "Thu, 01 Oct 2026 05:45:19 GMT",
+      "summary": "Amy Carlon: Fully implemented TITR could transform trade flows across Eurasia&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T13:45:19+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 2.4,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Kabul to Host Talks on Regional Security, Trade, Connectivity - TOLOnews",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yY09LbG1HclJxTXdfNVBSSEFidFFIX1F5UXctUEFpOTJnamc2ckpQM2lrOXROYmljWFNTLVJVWG9uMmhFRk5MLVBRUHdwYTJ5dS1sdGpB?oc=5",
+      "published": "Wed, 30 Sep 2026 19:22:19 GMT",
+      "summary": "Kabul to Host Talks on Regional Security, Trade, Connectivity&nbsp;&nbsp;TOLOnews",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T03:22:19+08:00",
+      "source_detail": {
+        "name": "TOLOnews",
+        "url": "https://www.tolonews.com"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -600,15 +525,15 @@
       "relevance": "low"
     },
     {
-      "title": "Southeast Asia Between China, the United States, and a Changing Global Order - asiasociety.org",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2kySGRKNkFQU2IzMzc4R1RsNDRhelh5WWFJUUNtaV84cWQ3LUw4Vm9pRkVqeC1GTGI0ZEtuSFlqOGdPSlVHd1M3QUVMdHotYWthWEVvX0tPS3E0anY0d0tvb3U5cWN6UEt5b08wLVNMYXNhQzQzY3huQkNzWFZQYzNvaGhfVkJ2X1A0YmtMWHlEUklzWGdEZmY5OFpnSUFNSGFkakZCMUVBUDFOd25sd0huWERTaDQ?oc=5",
-      "published": "Wed, 30 Sep 2026 18:40:53 GMT",
-      "summary": "Southeast Asia Between China, the United States, and a Changing Global Order&nbsp;&nbsp;asiasociety.org",
+      "title": "Xi’s U.S. Visit and Iran’s Place in a New Strategic Triangle - نورنیوز",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb1FZS1lROEdLWUNFVXYyb3VJQkpqZEVtYnhETXVWRDRrUmJrY3JuUl9oQkQ0bmVfQzBmR1ZJS3h1RjN5ZUNBOXhTN2xaTi1yQnBuSWdOZkZWVjZnbkpQZGI0Rzg0X2F4T0VyOFd4X09fNFN0eHFiZUR5UWJJUFFKcHEzN3BlMzh2RXdxcA?oc=5",
+      "published": "Thu, 01 Oct 2026 14:21:22 GMT",
+      "summary": "Xi’s U.S. Visit and Iran’s Place in a New Strategic Triangle&nbsp;&nbsp;نورنیوز",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T02:40:53+08:00",
+      "published_beijing": "2026-10-01T22:21:22+08:00",
       "source_detail": {
-        "name": "asiasociety.org",
-        "url": "https://asiasociety.org"
+        "name": "نورنیوز",
+        "url": "https://nournews.ir"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -616,15 +541,15 @@
       "relevance": "low"
     },
     {
-      "title": "US, China Move to Cut Tariffs on $60 Billion in Goods - Vision Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1E1eXFwekdFZ3RsRU9lODNvN2J5bzlHSUtBZlZNR2Uya1YzWHBkRHJFS0ctdjRVUDFHTHFpZ19jT3BvMHg2WVh3cVpTcW1yZEZ3bkdYMFpIcWpfd1BEbjh5MTloZ2VxWHZfLVVQTGE4LXB3ZGxoZ3dLWkdhdHRtM0phUHRxMlhoRkhiSGZjVk1YXzVLdVl1NDdaNA?oc=5",
-      "published": "Wed, 30 Sep 2026 18:01:05 GMT",
-      "summary": "US, China Move to Cut Tariffs on $60 Billion in Goods&nbsp;&nbsp;Vision Times",
+      "title": "Uzbek Orient Finans Bank, Germany’s LBBW sign new deal on trade financing - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxWUgwdTJZUXBYdFM4Y0prU2ZUb210dGJiM3J0WHFYYVYxSXlJcC10cEtNeUp3bU9DTVhYYmFMSW9feHdRVlRBWlZ2RUU3d2ktNmhDMnpici1oaHY4aTJ3?oc=5",
+      "published": "Thu, 01 Oct 2026 11:27:00 GMT",
+      "summary": "Uzbek Orient Finans Bank, Germany’s LBBW sign new deal on trade financing&nbsp;&nbsp;trend.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T02:01:05+08:00",
+      "published_beijing": "2026-10-01T19:27:00+08:00",
       "source_detail": {
-        "name": "Vision Times",
-        "url": "https://www.visiontimes.com"
+        "name": "trend.az",
+        "url": "https://www.trend.az"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -632,15 +557,15 @@
       "relevance": "low"
     },
     {
-      "title": "2026 Fourth Quarter Forecast Report - New Lines Institute",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ1JBMmJRZlh6VmNMamZvcXBocWs4T18zYTZ3NlMyMUpNUkF1R2N5SjRJMkxPWHE3UEYyR1JzNS0yY045Rk5ETmxqaUtTa0g1dkZMZ3l1eXIwb1NFNEgyYWNxUVBhYXdra2NFbjB2S0p1SGVJUF96SkdfZ3I0Rlp3dQ?oc=5",
-      "published": "Wed, 30 Sep 2026 14:11:27 GMT",
-      "summary": "2026 Fourth Quarter Forecast Report&nbsp;&nbsp;New Lines Institute",
+      "title": "Kubanychbek Omuraliev: Zangazur Corridor important for East-West transport connectivity - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0lGT1JiZFM5T2h5bC15cldMc1Awai1NTlVmNElSYnZZZ01fR3JvRUJNTjdDeFVrNndOUjZuYUhySldLSHIzVWhGNGc2SHNMYVczSmVvM0NGbVJveWJXQjRtbVUtM042YThsRXlDdlhLV1MxeExlN3ZLQWtCUE13MnpkN25ycm5XTC1TSG5BMjdvQ21uWG5Xemw3VE5qLUhSUWNUa1VGZ2d3ZDFaUFFWenlLN3Z6VE5DZFJmSmxyS19WaHY5YVBz0gHHAUFVX3lxTE5XSUZPUmJkUzlPaHlsLXlyV0xzUDBqLU1OVWY0SVJidllnTV9Hcm9FQk1ON0N4VWs2d05SNm5hSHJKV0tIcjNVaEY0ZzZIc0xhVzNKZW8zQ0ZtUm95YldCNG1tVS0zTjZhOGxFeUN2WEtXUzF4TGU3dktBa0JQTXcyemQ3bnJybldMLVNIbkEyN29DbW5Ybld6bDdUTmotSFJRY1RrVUZnZ3dkMVpQUVZ6eUs3dnpUTkNkUmZKbHJLX1ZodjlhUHM?oc=5",
+      "published": "Thu, 01 Oct 2026 10:11:11 GMT",
+      "summary": "Kubanychbek Omuraliev: Zangazur Corridor important for East-West transport connectivity&nbsp;&nbsp;Report.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T22:11:27+08:00",
+      "published_beijing": "2026-10-01T18:11:11+08:00",
       "source_detail": {
-        "name": "New Lines Institute",
-        "url": "https://newlinesinstitute.org"
+        "name": "Report.az",
+        "url": "https://report.az"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -648,15 +573,15 @@
       "relevance": "low"
     },
     {
-      "title": "ANN Original: Key highlights from the China-US Summit 2026 - Asia News Network",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeWFpUzQ2eU0ydUYyQVktWHd2UDFGekdwZ3VxUEVod0Z4SWZVYkhYdkp5OTVoNmxtUU5HT2FEWTI0eVlBbzFrN3lPWm54eEd4d3owaVZCVk1FcXVKRzY3Y00zbUxMbDVkNVNiSW9oVTA3OTNMRk9Uanh0aDEzSWlOajFrSDE2bEN3MUVF?oc=5",
-      "published": "Wed, 30 Sep 2026 07:11:51 GMT",
-      "summary": "ANN Original: Key highlights from the China-US Summit 2026&nbsp;&nbsp;Asia News Network",
+      "title": "President Ilham Aliyev sends congratulatory letter to President of People's Republic of China - Today.Az",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12cG0xUEhZSWVTUHZRb0J1NVMzLWhzeElMRVFPNEpTQmRzZTFkYVJjcTZjTk83eXdaSkR2RnRFX3I5dlRYRmR5VUc5WGFEd2xvVGpJ?oc=5",
+      "published": "Thu, 01 Oct 2026 09:08:06 GMT",
+      "summary": "President Ilham Aliyev sends congratulatory letter to President of People's Republic of China&nbsp;&nbsp;Today.Az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T15:11:51+08:00",
+      "published_beijing": "2026-10-01T17:08:06+08:00",
       "source_detail": {
-        "name": "Asia News Network",
-        "url": "https://asianews.network"
+        "name": "Today.Az",
+        "url": "https://today.az"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -664,15 +589,15 @@
       "relevance": "low"
     },
     {
-      "title": "The fallacy of US delusions about Iran’s economic collapse - PressTV",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbkdOQ3V5SVBqZElicThXM1ZKOERxZ21CX192VXg0SDlGaXBuYngxbFhxNV9GajZEVUpJYm10MkNiYlhwRkdxYld3eWM5Y3hfXzRNSVFfMTRWX3VqMXYyTUV6cjUzbkVSY0xwanlKWjhtWFR6Y0pKM19IajdmaVpnZGZoMms3UHdSZ05YQ2lmZU02eWpMUWtMOHJRT0ZxVXJkZDJfLWFiZXBsNC1tNmlJYVhmb3VaSFc3?oc=5",
-      "published": "Wed, 30 Sep 2026 04:56:00 GMT",
-      "summary": "The fallacy of US delusions about Iran’s economic collapse&nbsp;&nbsp;PressTV",
+      "title": "United States Pledges $201 Million to Trans-Caspian Trade Route at Baku Regional Forum - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmRaelZCdnRhS1dmUFNLTTd6WHg4SGFHaXpjN2lGbWd3dEJxQ3I5RjVLYUxEU2JnTmhYcWxhY2FQTG9SU3F4ZVUwOUVZMFZ6OUdrQ3RLUk9wWGk4OTFsV045VnlKYnZWWjNCLXFmdkxxRVhNUXo4QlRURnFQUlNZQ2VzWVB0dllBaTdELWZJd3lLY0JtN09ieDlBcmMtTG02dXJ6TWpKVmlTZWJOcUhIUENDdTYxLTRka1pZ?oc=5",
+      "published": "Thu, 01 Oct 2026 06:55:11 GMT",
+      "summary": "United States Pledges $201 Million to Trans-Caspian Trade Route at Baku Regional Forum&nbsp;&nbsp;streamlinefeed.co.ke",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T12:56:00+08:00",
+      "published_beijing": "2026-10-01T14:55:11+08:00",
       "source_detail": {
-        "name": "PressTV",
-        "url": "https://www.presstv.co.uk"
+        "name": "streamlinefeed.co.ke",
+        "url": "https://streamlinefeed.co.ke"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -680,111 +605,95 @@
       "relevance": "low"
     },
     {
-      "title": "Middle Corridor Could Create 2 Million Jobs and Transform Trade in Nine Nations - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOTVvTTFuM2JDZ0tCa2hKeVRKVE5SRGhTTkNGdmVpQjkwdUJtODJfQUdYR0EzVU9lREJEZzRwbzhPdTVNbm1DRWJwS1M4RUJWNm5vYW9HQk83NlI0Y3NVSERVa2U0ZFlablpEdXExczZCN1FLU1BZbDNUd1BQT3licEx6WllvQWhmczlMTnhBM1hvbmtyMnJLN3AwU2c1T1ZUNU1HbHlRMUZVM3NNMzNXc1NZXzBwbFo2cUhPTERDaWRyb3lmZ21tVS1UYjRoLTNFRGFR0gHTAUFVX3lxTE45NW9NMW4zYkNnS0JraEp5VEpUTlJEaFNOQ0Z2ZWlCOTB1Qm04Ml9BR1hHQTNVT2VEQkRnNHBvOE91NU1ubUNFYnBLUzhFQlY2bm9hb0dCTzc2UjRjc1VIRFVrZTRkWVpuWkR1cTFzNkI3UUtTUFlsM1R3UFBPeWJwTHpaWW9BaGZzOUxOeEEzWG9ua3Iycks3cDBTZzVPVlQ1TUdseVExRlUzc00zM1dzU1lfMHBsWjZxSE9MRENpZHJveWZnbW1VLVRiNGgtM0VEYVE?oc=5",
-      "published": "Tue, 29 Sep 2026 07:04:15 GMT",
-      "summary": "Middle Corridor Could Create 2 Million Jobs and Transform Trade in Nine Nations&nbsp;&nbsp;Devdiscourse",
+      "title": "CICA chief: Building an intergovernmental communication mechanism is top priority - Report.az",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2xHTnhmaE54QjNQSlNLWTZVZlpXQk9LTXV1WVZSNXU1amFfc2R2bWdUVDdDLUNoVk1mbzFTeEVqa0hXNjV0Zm5KeUpMS2hDMmhYUlpUY0IySDRDTzhnd1ZIN1FNWjRsbm5Wbm91NVU1WjRoSUxxZ1RrR3ZKekVHQUROV0FrODhIU1Jrel8yeTZUU2VoNzN3bWpoS0VKWFk2SFBheDEzU0VBTFBSbXJWb0FVdU9FM29mNlpWYUR0WdIBvwFBVV95cUxOc2xHTnhmaE54QjNQSlNLWTZVZlpXQk9LTXV1WVZSNXU1amFfc2R2bWdUVDdDLUNoVk1mbzFTeEVqa0hXNjV0Zm5KeUpMS2hDMmhYUlpUY0IySDRDTzhnd1ZIN1FNWjRsbm5Wbm91NVU1WjRoSUxxZ1RrR3ZKekVHQUROV0FrODhIU1Jrel8yeTZUU2VoNzN3bWpoS0VKWFk2SFBheDEzU0VBTFBSbXJWb0FVdU9FM29mNlpWYUR0WQ?oc=5",
+      "published": "Thu, 01 Oct 2026 06:51:38 GMT",
+      "summary": "CICA chief: Building an intergovernmental communication mechanism is top priority&nbsp;&nbsp;Report.az",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-01T14:51:38+08:00",
+      "source_detail": {
+        "name": "Report.az",
+        "url": "https://report.az"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Asian Development Bank Steps In to Fund Pakistan's Main Line-1 Railway Overhaul - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQm5heEV5Zm5EU1BqUHRrRjZQaUpGQlZ4d0dpSndnQTF0YzYweFdCQ2FtVzVXSTV1aXhsMFRTWW9LcnR3WFBDelE2dXBwNnZUSTZuOEpERlJacG11RkJZWmdHU1ZEeTRVV3Y1VWtSNmFscloxNS1ic2JTODBieGNtRkM5ZGEtWWZ6LXp5MkY3QkxPaUtVYURwV2dmNFowWGFEakNHMFVRV196SGxBNlJBdkFn?oc=5",
+      "published": "Thu, 01 Oct 2026 05:58:53 GMT",
+      "summary": "Asian Development Bank Steps In to Fund Pakistan's Main Line-1 Railway Overhaul&nbsp;&nbsp;streamlinefeed.co.ke",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-01T13:58:53+08:00",
+      "source_detail": {
+        "name": "streamlinefeed.co.ke",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 1.2,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tajikistan marks Independence Day in Seoul - The Korea News Plus",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uODhJOUpXdEpxSnlrVFAwb2tpUU1XVUN2V1dUNlMzOXZVX0ViSXdHbkNnUVppVEVhUU4yZGRUdzJhU2syRF9Bak5NNlNrc2dCeVBuQWtndm9aNnNmd2VfOUdoRTk4S2NvbGZLRHo4U3p5WmE4a2Zj?oc=5",
+      "published": "Thu, 01 Oct 2026 21:06:58 GMT",
+      "summary": "Tajikistan marks Independence Day in Seoul&nbsp;&nbsp;The Korea News Plus",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-02T05:06:58+08:00",
+      "source_detail": {
+        "name": "The Korea News Plus",
+        "url": "https://www.newsarticleinsiders.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russlands Wirtschaft am Belastungslimit: Der Kreml führt Krieg auf Kredit – und eine Zentralbankerin hält das System zusammen - Xpert.Digital - Konrad Wolfenstein",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxbEtCOHpTN0t2WE5WUV8wZ092aTVUUjdMLTVYSnFBeHpkZVRaWlU3UHRwbmdUUVMwZHhwSTBtTjYxOFpYT2hSVEhpS2lDeG5PNFFxUmk3SmFXZmZTOHJxR25nWlHSAWxBVV95cUxQOG1TejBhaXpHYkplaGJrUG8xU195dFBwWG9qNWR1Z2R2WTBTV2IwSU1idUw4MHgxa2ZtbXhwSjBTbGFqSTNQc1RhMl9vN3hGb1lOSEJQUGxHWWt4TEh6S19lbmRsMVNkYTdSS0o?oc=5",
+      "published": "Thu, 01 Oct 2026 09:34:19 GMT",
+      "summary": "Russlands Wirtschaft am Belastungslimit: Der Kreml führt Krieg auf Kredit – und eine Zentralbankerin hält das System zusammen&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
+      "source": "GNews | RU Sanctions",
+      "published_beijing": "2026-10-01T17:34:19+08:00",
+      "source_detail": {
+        "name": "Xpert.Digital - Konrad Wolfenstein",
+        "url": "https://xpert.digital"
+      },
+      "priority": 0.0,
+      "category": "俄罗斯",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "President Berdimuhamedov outlines Turkmenistan’s economic dev't priorities - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YNEllbWdoNGYxSDREZFlZV3JlLTZjcHlJQ2dLeWFGNWVWenMxN1NHTFhRQXhxNE1DLW5OQWk1Nl9wVEhyR3ZRalhlVVg3QkRTcHRmdDZfeGowb09IMkJGODlR?oc=5",
+      "published": "Thu, 01 Oct 2026 07:02:00 GMT",
+      "summary": "President Berdimuhamedov outlines Turkmenistan’s economic dev't priorities&nbsp;&nbsp;trend.az",
       "source": "GNews | UZ Economy",
-      "published_beijing": "2026-09-29T15:04:15+08:00",
+      "published_beijing": "2026-10-01T15:02:00+08:00",
       "source_detail": {
-        "name": "Devdiscourse",
-        "url": "https://www.devdiscourse.com"
+        "name": "trend.az",
+        "url": "https://www.trend.az"
       },
-      "priority": 1.2,
+      "priority": 0.0,
       "category": "中亚",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "The China-SCO Digital Economy Platform Celebrates Its First Year with New Milestones - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHZVZ0U4S21CeUpPYzE1NnU4c0VLR3kySnIzTml0Q3dEZXBqLWgteXVJOGplSkdwdThsTmFzZ2xZczU0RUpmX095TEo3YmRKcHZGX0VCcXMxbWhnVkU1OFM0YmwtWXQwTkZocVpvalI0ODVkakg5MnprR2pwUnRwMEE4djR5M1pwU0xQSUk0T3o1Qy1HbGtXQW40VkVMcWlnQk55RHRJMkhEZDlLcHRualZoY2l1VF8wcW5QOA?oc=5",
-      "published": "Tue, 29 Sep 2026 06:43:07 GMT",
-      "summary": "The China-SCO Digital Economy Platform Celebrates Its First Year with New Milestones&nbsp;&nbsp;open.kg",
+      "title": "Strengthening Regulatory Frameworks for Fintech-Driven Green Growth Initiative - AZoCleantech",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Vckh6cnNOR1FhWlVGUGp5M0hjcGZndUlDd2NxeWNMN29tWHNVX3ZzMThxS1VKNW5wWlJGYzNTOWFtb0JEQUduaTFra1AwZXpwdUpOc2RiUnhqcnN1VnRBTA?oc=5",
+      "published": "Thu, 01 Oct 2026 06:15:00 GMT",
+      "summary": "Strengthening Regulatory Frameworks for Fintech-Driven Green Growth Initiative&nbsp;&nbsp;AZoCleantech",
       "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-09-29T14:43:07+08:00",
+      "published_beijing": "2026-10-01T14:15:00+08:00",
       "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
-      },
-      "priority": 1.2,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Pakistan-China Relations: Friendship and a Shared Future - Pakistan Observer",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNUE2aGpBd2hXREw3dUo3Q1FLRmhKMDg4d0FUaEdEVjhjM0UzQnRXcEk4MEN4QUdKNXRGRUt0Z2NBMGMyZXpMdlplc29fQVZ2RmlrRDEyRHUxWXgwWkxTc2ljdWl3UVRvS243SkliSGVQTU5Zb3c5Wkd4MHRROFJQelVvMFRMNDQ?oc=5",
-      "published": "Thu, 01 Oct 2026 02:41:51 GMT",
-      "summary": "Pakistan-China Relations: Friendship and a Shared Future&nbsp;&nbsp;Pakistan Observer",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T10:41:51+08:00",
-      "source_detail": {
-        "name": "Pakistan Observer",
-        "url": "https://pakobserver.net"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China at 77: Entering a new era of innovation and global influence - Prothom Alo English",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1QZmRNXzlTbmlmb0JyRVhFRGtPRXhJSFR6UlpJNTQzc2R4VDBRVFgzOXUyTTExcmpzTWhmTnZXTEluTXJTbWVRWnlRSmt0OXN4N0xKVU1YSdIBZEFVX3lxTFAySmxoMW9GQkVsRGtkNGw2NzktU1pZMkY4Q2lIb1JUWXVZbkxfS2dGanhjVDVtUmRQbVZDbi1fa2xJREQxSU1senFBTEN1bTU3SXI4NTlTTjVmWVNHOUd0bjQxc0o?oc=5",
-      "published": "Thu, 01 Oct 2026 02:35:24 GMT",
-      "summary": "China at 77: Entering a new era of innovation and global influence&nbsp;&nbsp;Prothom Alo English",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-10-01T10:35:24+08:00",
-      "source_detail": {
-        "name": "Prothom Alo English",
-        "url": "https://en.prothomalo.com"
-      },
-      "priority": 1.2,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why Is Brazil So Interested in ASEAN? - The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tQ3ladGxpc2VJZWlCSFVEZkRIMVpnamJRSjRnX2FXcEd2NTBFR19Vel95OEVuaGlZZzZnQXRtUXkwUGk5bnVCc3BfcEhzOW9jaDFiajFKYmRNRE1MdHR3eWxlNEVzbUV4SUVDSzFfeDVjX0taemhoYg?oc=5",
-      "published": "Wed, 30 Sep 2026 13:29:56 GMT",
-      "summary": "Why Is Brazil So Interested in ASEAN?&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T21:29:56+08:00",
-      "source_detail": {
-        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-        "url": "https://thediplomat.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan Is Preparing For A Harder World - StratNews Global",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcXF6Uk5lcDNuSlBNcFNEY1JmekFuQVhjdXlBVzZTRjJ4MGhoS1c0YjNlcjFOZmc2b0Zlel9EUUtnYWo4MlpieVNyaGZ6X2JpU05XQThMVE43MWZxSG9UUlRmYm92OWF5SDYxOTVlLU5BR1JVaFlRdlluc2hOZzBtd0Jtcw?oc=5",
-      "published": "Wed, 30 Sep 2026 13:21:42 GMT",
-      "summary": "Japan Is Preparing For A Harder World&nbsp;&nbsp;StratNews Global",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T21:21:42+08:00",
-      "source_detail": {
-        "name": "StratNews Global",
-        "url": "https://stratnewsglobal.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How a Tiny Macedonian Mine Reveals the New Era of Strategic Globalization - Hungarian Conservative",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZS11SHlnZVE2S01sRnFwUlpodXI1a1pmZkVRS1EtLWVfOGduV0Fvc3k1QnpNa1BZSGh5VVk3VUxiUkpRN3E0bEVCWlJFby1meU1nbVpXeUpjb2tWT0JnMnUxVnVRLXBmU1k1bmxTRjdmVWVUMGxhdjFhaVBkSTgwNjRRZThqdVozb0RDVkJDaGxJV1h4eDN0aDRYUlpvQzFTdXl4MFFTTXRZZGUtVTE1Yk4yZTdDT253N1NiZjFjQWZUeG9KeW80d1ZVSm5tSDA?oc=5",
-      "published": "Wed, 30 Sep 2026 10:20:25 GMT",
-      "summary": "How a Tiny Macedonian Mine Reveals the New Era of Strategic Globalization&nbsp;&nbsp;Hungarian Conservative",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-09-30T18:20:25+08:00",
-      "source_detail": {
-        "name": "Hungarian Conservative",
-        "url": "https://www.hungarianconservative.com"
+        "name": "AZoCleantech",
+        "url": "https://www.azocleantech.com"
       },
       "priority": 0.0,
       "category": "中亚",
@@ -792,79 +701,15 @@
       "relevance": "low"
     },
     {
-      "title": "Eurasia’s Middle Corridor Faces a $55 Billion Test to Turn Connectivity Into Economic Growth - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVFdzWXVaclFyY2hKX0xFSUNoanVjZTQyZXhsWVhrTXV3ZEZzeElRdzZKT2ItVERPZlpmbGg2MFd5UU9wMWtLWkhURU5nTEs4SUR4R0ktQ2xBWHU0a1FMZERJTWZ1bEN2eF9MOGNaMWd6MmNyNl9EMF9QS1padERBQlJjNVpFWHd0YzRfRHN5SmF2bHBMRENXWTRkQjJPU1FxVWRNMERtdS1na0d2MjgzUXJJNFRMXzJLMnlGMUdCXzJjaFFVUkk3OVdlYmR0OVU1eXMtRW1OS2s3Q2NUR1HSAd4BQVVfeXFMUFRXc1l1WnJRcmNoSl9MRUlDaGp1Y2U0MmV4bFlYa011d2RGc3hJUXc2Sk9iLVRET2ZaZmxoNjBXeVFPcDFrS1pIVEVOZ0xLOElEeEdJLUNsQVh1NGtRTGRESU1mdWxDdnhfTDhjWjFnejJjcjZfRDBfUEtaWnREQUJSYzVaRVh3dGM0X0RzeUphdmxwTERDV1k0ZEIyT1NRcVVkTTBEbXUtZ2tHdjI4M1FySTRUTF8ySzJ5RjFHQl8yY2hRVVJJNzlXZWJkdDlVNXlzLUVtTktrN0NjVEdR?oc=5",
-      "published": "Wed, 30 Sep 2026 03:24:35 GMT",
-      "summary": "Eurasia’s Middle Corridor Faces a $55 Billion Test to Turn Connectivity Into Economic Growth&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | UZ Economy",
-      "published_beijing": "2026-09-30T11:24:35+08:00",
-      "source_detail": {
-        "name": "Devdiscourse",
-        "url": "https://www.devdiscourse.com"
-      },
-      "priority": 0.0,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US regains foothold in Bangladesh’s corn market with 6% share - thedailystar.net",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUE1SZGpySXhGZ0hmOGF2akhTNmFNSUdJZjZ0MTA1a0EtM1JLcjNlWHpaTWp6bE5vTmcyRkI3ZlJZelRrblREYzU1LW9xYnRnWTIxRkJLMC1MTEw5aUluS3pqQVlTb3N0UlU3aTM2ZUxLTmU4WGNjOHgzLUVxS0RaYTFaTENBdkZLcUloMnBYSFJZZU1pRnVhVllYbGtvZDlkRDF0VkFjLTIyY2t4VllB?oc=5",
-      "published": "Wed, 30 Sep 2026 03:18:33 GMT",
-      "summary": "US regains foothold in Bangladesh’s corn market with 6% share&nbsp;&nbsp;thedailystar.net",
+      "title": "U.S. highlights Trans-Caspian Route as key driver of regional connectivity - trend.az",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Pam9Mc3NnLUJPbHpCdi1EeUZrMHRJTVZzUmJpcHctVS1QaUpuOHJYNXNUTnNzVGgzZzdUTUNkcnlZa2h0aDRPY1dfRnBjR1RRQV9pdw?oc=5",
+      "published": "Thu, 01 Oct 2026 05:55:27 GMT",
+      "summary": "U.S. highlights Trans-Caspian Route as key driver of regional connectivity&nbsp;&nbsp;trend.az",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T11:18:33+08:00",
+      "published_beijing": "2026-10-01T13:55:27+08:00",
       "source_detail": {
-        "name": "thedailystar.net",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Indonesia, Mongolia Mark 70 Years of Diplomatic Relations - en.tempo.co",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmtvblRDQ1c3amhyUU5VWjdGS192R2NkM0hna2QwSjRsX084UlFPTG1DUVVtS2NtZFFRRmQ3T2dFQWJUX09pd05fSEthdXJrRzZkSnd5YWY2SjlpMnVMSDVRaHJGNGoyTV9rMkFtUU1mdXZ5R2JNWklqZ0pWbVF0UFpyNmp1VlVCMWhpaF9BRjllZw?oc=5",
-      "published": "Wed, 30 Sep 2026 01:25:00 GMT",
-      "summary": "Indonesia, Mongolia Mark 70 Years of Diplomatic Relations&nbsp;&nbsp;en.tempo.co",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-09-30T09:25:00+08:00",
-      "source_detail": {
-        "name": "en.tempo.co",
-        "url": "https://en.tempo.co"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Greenland’s power shift: new Arctic twist reshaping the world - Business Recorder",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Iak43WjB5b3p4OHA0U2x1cHd3Q2F3RkhnWnBPSHVwaXR0QUctbFhSLW9tMXJ2aWFfNTBNY0NiUWxoejZUcmdiWFJ4NkxKWXgzNktmLUhB0gFWQVVfeXFMTkhqTjdaMHlveng4cDRTbHVwd3dDYXdGSGdacE9IdXBpdHRBRy1sWFItb20xcnZpYV81ME1jQ2JRbGh6NlRyZ2JYUng2TEpZeDM2S2YtSEE?oc=5",
-      "published": "Thu, 01 Oct 2026 00:39:56 GMT",
-      "summary": "Greenland’s power shift: new Arctic twist reshaping the world&nbsp;&nbsp;Business Recorder",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T08:39:56+08:00",
-      "source_detail": {
-        "name": "Business Recorder",
-        "url": "https://www.brecorder.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sri Lanka and Australia continue strategic maritime dialogue - Island.lk",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2JuZEZMOHNYeXZFWGZtbWh0MmxjRURBY2tIWG5PRFM2Vk9JSG5sTjMwQ082QlNkdGFSY2VpYjZleUlwXzZWMTE4QWVCdkJZbWR4MEJXMms3WlFPakhVWW1sMW42SE03a2JvTTVkNmZUdGpfQkdlSWE1VnBUZVFqcGN3U0c?oc=5",
-      "published": "Thu, 01 Oct 2026 00:01:46 GMT",
-      "summary": "Sri Lanka and Australia continue strategic maritime dialogue&nbsp;&nbsp;Island.lk",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-01T08:01:46+08:00",
-      "source_detail": {
-        "name": "Island.lk",
-        "url": "http://island.lk"
+        "name": "trend.az",
+        "url": "https://www.trend.az"
       },
       "priority": 0.0,
       "category": "大国关系",
