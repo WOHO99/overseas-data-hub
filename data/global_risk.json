@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-02T04:32:35.828741+00:00",
-  "fetch_date_utc": "2026-10-02",
-  "total": 56,
+  "updated": "2026-10-04T04:46:36.896725+00:00",
+  "fetch_date_utc": "2026-10-04",
+  "total": 59,
   "high_priority": 0,
-  "medium_priority": 5,
+  "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 11,
+      "count": 18,
       "feeds": 4
     },
     "外资审查+征收": {
@@ -21,11 +21,11 @@
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 3,
+      "count": 1,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 1,
+      "count": 0,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,116 +49,204 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 8,
+  "fail_feeds": 9,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Ukraine to Seek Return of Usmanov and Fridman to EU Sanctions List - EU Today",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEUDJsVkhZQmxpU19NRzlWYjhxOUt1c3VwakdqVTFIVFlkS2JYMnZ3NU5TSFhYTkNyZTh1WXB4NmhYSzVsT28zWUdUQTJTWDFRYkdDRU1lNGJadHZSZVpHTnFNMHdMVUdfbGZFOFRNcXdJZw?oc=5",
-      "published": "Thu, 01 Oct 2026 21:33:56 GMT",
-      "summary": "Ukraine to Seek Return of Usmanov and Fridman to EU Sanctions List&nbsp;&nbsp;EU Today",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T05:33:56+08:00",
-      "source_detail": {
-        "name": "EU Today",
-        "url": "https://eutoday.net"
-      },
-      "priority": 6.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "OFAC Sanctions Tren de Aragua Network Laundering ATM Heist Funds via Crypto - CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNUJLenNOX1hEQWZNZGJmaWRnZDJweFpnTGo1SjdLNTJGUmJheHh0R1dBOFdUeXNqaXF4N1ZEc0l6REloZ0p1czFvaU96M0c2d2ttNjYtR1RPNTBzaDYyaVVqUXdJcWhsVTFJcDlmTXNZZGpjeGtYLVprNXU5cWZITlZwNVJZRTF5T2ZzQkVB?oc=5",
-      "published": "Thu, 01 Oct 2026 20:18:02 GMT",
-      "summary": "OFAC Sanctions Tren de Aragua Network Laundering ATM Heist Funds via Crypto&nbsp;&nbsp;CryptoRank",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T04:18:02+08:00",
-      "source_detail": {
-        "name": "CryptoRank",
-        "url": "https://cryptorank.io"
-      },
-      "priority": 6.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://cryptorank.io/news/feed/c95c6-ofac-sanctions-tren-de-aragua-crypto-laundering",
-      "full_text": "Share:\nOn September 30, the U.S. Treasury’s OFAC sanctioned 10 people and entities tied to Venezuelan group Tren de Aragua after an FBI-linked probe found ATM jackpotting thefts totaled $40.73 million across more than 1,500 U.S. attacks as of August 2025. The SDN update lists Tron (TRX) wallet addresses for seven individuals and two Mexican front companies for crypto money laundering, increasing regulatory and security scrutiny on crypto transactions, DeFi/DEX/CEX laundering vectors and overall protocol risk.\nThe U.S. Treasury’s Office of Foreign Assets Control (OFAC) sanctioned 10 people and entities on Tuesday, September 30, tied to Tren de Aragua (TdA), a Venezuela-based criminal organization designated as a foreign terrorist group, according to a Treasury announcement. The network used malware to force U.S. ATMs to dispense cash in “jackpotting” attacks, then laundered the proceeds through cryptocurrency, including Tron (TRX) wallet addresses now published on the sanctions list.\nATM jackpotting powered the scheme\nThe operation was orchestrated by Anibal Alexander Canelon Aguirre, known as “Prometheus,” an FBI Ten Most Wanted fugitive who investigators say engineered the jackpotting malware. The network targeted U.S.-based automated teller machines, installing malware that forced the machines to dispense cash without debiting an account. OFAC said reported losses from alleged ATM jackpotting attacks across the United States totaled $40.73 million across more than 1,500 attacks as of August 2025.\nTdA, which the State Department designated a foreign terrorist organization in February 2025, has expanded from Venezuela across the Western Hemisphere through drug trafficking, human trafficking, extortion and money laundering.\nCrypto laundering and Tron addresses on the SDN list\nAmong other methods, the network used cryptocurrency transactions to launder jackpotting proceeds, the Treasury said. The Specially Designated Nationals (SDN) update lists Tron digital currency addresses for seven of the designated individuals, including Prometheus and six associates indicted in the District of Nebraska on bank fraud, bank burglary and money-laundering conspiracy charges.\nOFAC also designated two Mexican front companies owned by the suspects — Enigma Community and Soluciones Integrales Toluca — under the same executive orders, which block any U.S. property and generally prohibit U.S. persons from dealing with the listed parties.\nPart of a wider enforcement push\n“President Trump’s administration will not allow terrorist organizations like Tren de Aragua to exploit the U.S. financial system,” said Treasury Secretary Scott Bessent. Since October 2025, the Justice Department has indicted 98 people in the jackpotting investigation, which also touched TdA-linked gold mining and involved the FBI, HSI, FinCEN and DOJ’s Joint Task Force Vulcan.\nThe same order designated Juan Gabriel Rivas Nunez, a high-ranking TdA leader, over his role directing gold mining, narcotics export and violent crime across South America. It follows other Treasury crypto designations, including its sanctions on the Iranian crypto exchange BitBank and a separate cross-border crypto money-laundering sweep.\nRead More\nShare:\nRegistrations of Slovenia's .si domains jumped from under 2,000 in August to roughly 44,000 in September after Slovenia signed an AI partnership on Sept 24 and following Donald Trump's Sept 19–29 push to rebrand AI as \"Super Intelligence\"; investor Adam Cochran says registrations rose from June and about 12,000 AI- or MAGA-related domains were registered or changed hands, with some selling for tens of thousands. There is no public evidence tying buyers to Trump, Netcraft attributes much of the boom to cheap speculation (.si ≈ $11 vs .ai ≈ $180) and more than half of detected .si names were listed for resale, raising security and market-manipulation concerns that could impact crypto domain use, token launch planning, fundraising and regulatory scrutiny.\nDonald Trump’s decision to rename Artificial Intelligence (AI) “Super Intelligence” across the US government might not be random.\nIt could be an insider move tied to Slovenia, which could make the Trump family millions. At least, that is the explosive allegation surrounding a sudden boom in Slovenia’s .si domains.\nSlovenia signed an AI partnership with Washington on September 24. The country owns the .si web suffix and is Melania Trump’s birth country.\nAccording to the BBC, .si registrations exploded. New registrations jumped from fewer than 2,000 in August to roughly 44,000 in September.\nDid people close to Trump buy valuable .si domains before the announcement? There is no public evidence that they did.\nWho Bought .si Domains Before Trump Said “Super Intelligence”?\nInvestor and policy consultant Adam Cochran claims the activity began much earlier. He says registrations started rising in June, while AI-related .si names began changing hands at high prices.\n“AI-related .si names started going for tens of thousands of dollars,” Cochran wrote.\nHe claims around 12,000 AI- or MAGA-related domains were registered or changed hands before Trump pushed the rebrand.\nTrump floated “Super Intelligence” on Truth Social on September 19 and used the term at the UN on September 22.\nOn September 29, he signed an executive order requiring federal agencies to use “Super Intelligence” and “SI” instead of AI.\nCochran alleges people in Trump’s inner circle profited from that shift. Economist Roman Sheremeta called the episode an alleged “enrichment ploy.”\nTrump Family’s Controversial Deals\nThe Theory Has No Names\nNo public record identifies the buyers or connects them to Trump, his family or his inner circle.\nNetcraft found a simpler explanation: speculation. A .si name costs about $11 a year, compared with roughly $180 for a minimum two-year .ai registration.\nMore than half of the .si domains it detected at Dynadot between Trump’s September 19 post and UN speech were later listed for resale.\nMeanwhile, Slovenia’s US agreement covers AI, semiconductors, critical minerals and secure supply chains. It mentions no domains.\nFor now, the domain boom is real. The alleged Trump connection remains unproven.\nCochran says a future Congress should investigate who bought the domains before prices surged.\nRead the article at BeInCrypto\nRead More"
-    },
-    {
-      "title": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year - freshfields.com",
+      "title": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year - Freshfields",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOM1VPeV9KZFJRS0tsOHZQWjZjeFphbmhkN3poZTVuVGVtT1plSzg0MV9WRFdHZFNsb3B3aDlsQUFWN3hPYjFhVkpjT0hoaWQxdElzRVZZNUtEWHBDS1dvYzZDbGNkRTg0U1RBT3pNcmJTMjJJckRBd1ota2lPTjY1MHBneTAyampiMUhIclhQZFp6a3hRaWNXempFVDRsRHBGWUsycWRPdm9aVzhXWUlPdlpQd05fVE9iNkFiLUNxVFdJTkcySG5pdGkzVmdWYWlUMU9zZmNyX19ubFF5bWQ1NThTcDJHZw?oc=5",
       "published": "Thu, 01 Oct 2026 20:42:42 GMT",
-      "summary": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year&nbsp;&nbsp;freshfields.com",
+      "summary": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year&nbsp;&nbsp;Freshfields",
       "source": "GNews | FCPA/Compliance",
       "published_beijing": "2026-10-02T04:42:42+08:00",
       "source_detail": {
-        "name": "freshfields.com",
+        "name": "Freshfields",
         "url": "https://www.freshfields.com"
       },
       "priority": 3.6,
       "category": "供应链风险+FCPA",
       "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/fcpa-enforcement-priorities-continue-to-drive-outcomes-an-update-on-developments-102o452",
-      "full_text": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year\nIn remarks on September 30, 2026, Assistant Attorney General Tysen Duva, head of the U.S. Department of Justice’s Criminal Division, stated that FCPA enforcement is “really ramping up” and that DOJ intends to increase its enforcement efforts under the framework established by then-Deputy Attorney General Todd Blanche’s June 2025 memorandum, issued before Blanche’s appointment as U.S. Attorney General. Those comments, coming more than a year after the issuance of the memorandum, provide a timely opportunity to assess how DOJ has applied those priorities in practice.\nIn June 2025, DOJ issued updated Guidelines for Investigations and Enforcement of the Foreign Corrupt Practices Act (the FCPA Guidelines or the Blanche Memorandum), signaling a recalibration of FCPA enforcement priorities. As we previously discussed, the FCPA Guidelines identified four key areas of focus: eliminating cartels and transnational criminal organizations (TCOs); addressing conduct detrimental to U.S. companies; protecting U.S. national security interests; and pursuing “serious misconduct.” The FCPA Guidelines also emphasized the Administration’s focus on individual accountability.\nDOJ further refined its approach in March 2026 through its Corporate Enforcement and Voluntary Self-Disclosure Policy (CEP), which offers enhanced incentives for companies that voluntarily disclose misconduct and cooperate with government investigations. (For further discussion of the CEP, see our prior analysis here.)\nThis article reviews a selection DOJ’s FCPA enforcement activity since the issuance of the Blanche Memorandum and CEP. Although many of the matters discussed below originated before these policies were announced, they nonetheless provide meaningful insight into DOJ’s current enforcement approach. To date, the enforcement record reflects a range of corporate resolutions, a notable concentration on matters involving alleged bribery schemes in Latin America, and a continued emphasis on individual accountability.\nThe Corporate Resolution Spectrum\nDeclinations:\nDOJ’s August 2025 decision to decline to prosecute Liberty Mutual Insurance Company (Liberty Mutual) for paying $1.47 million to Indian officials marked the first resolution under the FCPA Guidelines. (See our prior discussion here.) DOJ declined to prosecute Liberty Mutual under a predecessor policy to the March 2026 CEP because it (1) voluntarily and timely disclosed the misconduct, (2) fully cooperated with DOJ, (3) did not engage in serious misconduct, (4) engaged in timely remediation, (5) made significant improvements to its compliance program, (6) did not present any aggravating factors, and (7) disgorged ill-gotten profits.\nIn March 2026, DOJ declined to prosecute Balt SAS (Balt), a French medical device manufacturer, and its U.S. subsidiary for allegedly bribing a French official, marking the first declination under the March 2026 CEP. As part of the resolution, Balt agreed to disgorge approximately $1.2 million in ill-gotten profits and entered into a parallel resolution with French authorities. DOJ cited to several factors supporting the declination under the CEP, including Balt’s (1) timely, voluntary self-disclosure, (2) cooperation, (3) prompt remediation, and (4) lack of aggravating circumstances.\nBoth the Liberty Mutual and Balt declinations highlight the potential benefits of timely and voluntary self-disclosure under the CEP. The Balt resolution also illustrates that cross-border cooperation with foreign enforcement authorities remains an important component of FCPA enforcement notwithstanding shifts in DOJ’s enforcement priorities.\nDeferred Prosecution Agreement (DPA):\nIn July 2026, DOJ announced a corporate FCPA resolution with the Scoular Company (Scoular), an Omaha-based agricultural supply chain company. (Please see our prior coverage here.) According to DOJ, Scoular directed third-party customs brokers to pay more than $400,000 to Mexican officials at the U.S. border to facilitate the importation of corn and other agricultural products into the United States and avoid more than $6.5 million in customs duties.\nUnlike Balt, Scoular did not receive credit under the CEP because it failed to make a voluntary and timely self-disclosure. DOJ nevertheless reduced the penalty by 25% from the bottom of the applicable Sentencing Guidelines range and agreed to resolve the matter through a DPA based on Scoular’s subsequent cooperation and remediation efforts.\nThe Scoular resolution provides insight into the benefits available to companies that meaningfully cooperate and remediate misconduct. More broadly, the resolution reinforces that compliance program enhancements, timely remediation, and meaningful cooperation remain important factors in DOJ’s resolution analysis, even when a company is ineligible for the full benefits available through voluntary self-disclosure.\nCorporate Indictment:\nIn August 2024, DOJ indicted executives of Smartmatic, a voting technology company, for allegedly bribing an elections official in the Philippines. In October 2025, DOJ obtained a superseding indictment adding Smartmatic as a corporate defendant, marking the first corporate indictment for FCPA violations since 2010. Smartmatic has moved to dismiss the indictment, arguing, among other things, that the prosecution is inconsistent with the FCPA Guidelines.\nThe Smartmatic matter is a rare example of a corporate indictment under the FCPA, illustrating the potential consequences when DOJ concludes that a company is not entitled to a resolution under the CEP. The matter also highlights ongoing questions regarding what DOJ considers “serious misconduct” under the FCPA Guidelines. Although recent resolutions provide some insight into the factors DOJ considers relevant, the precise contours of that category remain uncertain.\nFocus on TCOs and Latin America\nSeveral recent enforcement actions highlight DOJ’s continued focus on bribery schemes, particularly where the conduct allegedly intersects with cartels or TCOs.\nIn November 2025, TIGO Guatemala (TIGO), a subsidiary of Millicom International Cellular, entered into a three-year DPA and agreed to pay over $118 million to resolve allegations that it made monthly cash payments to members of the Guatemalan Congress between 2012 and 2018 to secure telecommunications legislation favorable to TIGO. Notably, some of the funds used to pay the bribes were allegedly derived from narcotrafficking proceeds, placing the conduct squarely within DOJ’s stated enforcement priorities.\nThe July 2026 Scoular resolution (discussed above) is also noteworthy because DOJ alleged that some of the funds provided to Mexican customs officials ultimately flowed to Mexican cartels. In the press release announcing the DPA, DOJ expressly linked the conduct to the FCPA Guidelines, stating that “American businesses that engage in any cross-border trade bear a significant amount of responsibility to do so without benefitting those cartels and without threatening our national security.”\nRelatedly, Carlos Leopoldo Alvelais, a customs broker who paid bribes on Scoular’s behalf, was sentenced in July 2026 to 18 months’ imprisonment and ordered to pay a $250,000 fine. Alvelais has appealed.\nMore broadly, several of the post-Blanche Memorandum enforcement actions have arisen in Latin America. While some of those matters have involved alleged cartel or TCO connections, others have not, suggesting that the region may continue to feature prominently in DOJ’s FCPA docket even outside the contexts most directly associated with the Blanche Memorandum’s enforcement priorities. For example, in April 2026, Alfonso Wilson, the Chief Executive Officer of Oil Technologies Consortium, pleaded guilty to conspiring to violate the FCPA. According to the criminal information, Wilson bribed employees of Petróleos Mexicanos (PEMEX), Mexico’s state-owned petroleum company, and one of its subsidiaries to help a Texas company secure a $540 million drilling equipment contract.\nSimilarly, on September 18, 2026, energy trader Javier Aguilar received a 48 month prison sentence and was required to pay over $7.2 million in connection with his February 2024 conviction for conspiracy to violate the FCPA, substantive FCPA violations, and money laundering. Aguilar bribed Ecuadorian officials and, like Wilson, made improper payments to PEMEX employees. Statements from U.S. Attorney for the Eastern District of New York Joseph Nocella and Assistant Attorney General Duva not only reinforce DOJ’s emphasis on Latin America, but also its focus on conduct that “tilts the playing field and threatens American businesses.”\nEnforcement Actions Against Individuals\nIn addition to the prosecutions of Carlos Leopoldo Alvelais, Alfonso Wilson, and Javier Aguilar, recent developments underscore DOJ’s continued focus on individual accountability.\nBerko Found Guilty of Violating the FCPA\nAsante Kwaku Berko, a former Executive Director in Goldman Sachs’ Investment Banking Division, was indicted in the Eastern District of New York in August 2020 for conspiracy to violate the FCPA, substantive FCPA violations, and conspiracy to commit money laundering relating to a Ghanaian power plant. Following a nine-day trial in July 2026, a federal jury returned a unanimous verdict convicting Berko on all counts.\nWhile Berko’s case began long before the current Administration took office, Berko sought dismissal based on the Administration’s February 10, 2025 Executive Order temporarily pausing certain aspects of FCPA enforcement. DOJ’s decision to proceed with the prosecution, and its post-trial statements, suggest that DOJ viewed the case as consistent with the priorities outlined in the FCPA Guidelines.\nIn announcing the conviction, Assistant Attorney General Duva stated that Berko “abused his position at a world-renowned American investment bank by helping bribe Gha"
+      "relevance": "medium"
     },
     {
-      "title": "Ukraine's Anti-Corruption Watchdog Exposes Chinese Sex Toy Cover for Russian Military Electronics - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQODFRVV8zdVB5LWlDLXVoUlF2eXhVM0tndVNqcXBCcjJhdE1KRmFNbzhJSlQ5bFF1RXNVbVZiUTVCbU95U21MZTRNVkloTkZkajBnakg3VW1BTE5OYmptS2F0SHFHczB1bHlPY0pMcngwb1Znem41UVRQTk15cktyQWlEYUYxeFk?oc=5",
-      "published": "Wed, 30 Sep 2026 19:34:43 GMT",
-      "summary": "Ukraine's Anti-Corruption Watchdog Exposes Chinese Sex Toy Cover for Russian Military Electronics&nbsp;&nbsp;Pasquale Pillitteri",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-01T03:34:43+08:00",
+      "title": "Best Trading Platforms For UK Investors In 2026 - forbes.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9La2NONjR5N2VPSVA1V0xqVG51YWpwYnViQUIwdGx5OU5vQThoT3dONURsM05tOW5JQmt4RVcweGNISkh3SkxDR3lVNXl3VU4xYXlCMUx1bWZSRGl6TVM4UnhMLWVjLU5pM1VqSEFmekJkcDh4aEE?oc=5",
+      "published": "Thu, 01 Oct 2026 22:19:00 GMT",
+      "summary": "Best Trading Platforms For UK Investors In 2026&nbsp;&nbsp;forbes.com",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-02T06:19:00+08:00",
       "source_detail": {
-        "name": "Pasquale Pillitteri",
-        "url": "https://pasqualepillitteri.it"
+        "name": "forbes.com",
+        "url": "https://www.forbes.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Iran conflict and LNG disruption unlikely to end before 2027, warns risk expert - gasworld",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSlQwdkptTG1JaWQxUTVrWWdFQzY5ajVicndJbzhscVllMmE2dnB3QlBTQVk0RU5oOUFIX2hvOF9qWFQzR3lJOGpSVFJWM1djMmVoME5PWWhIRTVEdFhFd1g3dU14UXR3S0cxdmlCNUFFRE12bUZEUngtVkhkaENTdFBkdkQ3ekJtWV81MEFEdzVQSk05MHNfLTRSa3pCZ3Z5NXJleV9RLWxscXhNbTVtX0E1ZzMwT19ocm5RQ3hFenU3SGc?oc=5",
-      "published": "Wed, 30 Sep 2026 08:30:44 GMT",
-      "summary": "Iran conflict and LNG disruption unlikely to end before 2027, warns risk expert&nbsp;&nbsp;gasworld",
-      "source": "GNews | SC Disruption",
-      "published_beijing": "2026-09-30T16:30:44+08:00",
-      "source_detail": {
-        "name": "gasworld",
-        "url": "https://www.gasworld.com"
-      },
-      "priority": 0.0,
-      "category": "供应链风险+FCPA",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "U.S. designates Russia-linked sanctions-evasion payment network A7 a ‘significant transnational criminal organization’ - Meduza",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUzBuMEJGSTJuQ2p5N3g0QzRFWHNMTmd5ZlV6b2o3VFY4X0lvaEhwaWkxdVBENU1WZGVFdnpXNFhtQ0EtanRXbGNuYU9Vd1JCNzQyU1YyV1dmOTZYcDBhOFBwOW5EZXRueld1VGZ5YVJFWXAyRHpwZ0ljR21zZ3ZDenR4NlcxS3VkckpVN0M2VHdZYnl4cHZ3TGliT0g5NnV2STBZVGdqU0hYNlNBaFNUWU5uX1RYZzBzTWJmYkN3NFdWNmVPeUQyQUo1MUdfRVNfbkJiLUNNbTlNMFJuM0ltN1Bsak93TzE1N1RZONIB7AFBVV95cUxOUzBuMEJGSTJuQ2p5N3g0QzRFWHNMTmd5ZlV6b2o3VFY4X0lvaEhwaWkxdVBENU1WZGVFdnpXNFhtQ0EtanRXbGNuYU9Vd1JCNzQyU1YyV1dmOTZYcDBhOFBwOW5EZXRueld1VGZ5YVJFWXAyRHpwZ0ljR21zZ3ZDenR4NlcxS3VkckpVN0M2VHdZYnl4cHZ3TGliT0g5NnV2STBZVGdqU0hYNlNBaFNUWU5uX1RYZzBzTWJmYkN3NFdWNmVPeUQyQUo1MUdfRVNfbkJiLUNNbTlNMFJuM0ltN1Bsak93TzE1N1RZOA?oc=5",
-      "published": "Thu, 01 Oct 2026 21:05:00 GMT",
-      "summary": "U.S. designates Russia-linked sanctions-evasion payment network A7 a ‘significant transnational criminal organization’&nbsp;&nbsp;Meduza",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T05:05:00+08:00",
-      "source_detail": {
-        "name": "Meduza",
-        "url": "https://meduza.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Sanctions A7 Network and Proposes Sub-Agent Payment Ban - Altcoin Buzz",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXd0R1p2NGdXaU5aQ29hbFdDMkFVcEN1azdMVkc3TkxvZGZqWEtVX0IzY0F2cktCQm56ckJsaDRuTndfaFdZdDBtQ05IVVhLSXJnWmlmay11SGtGaUVNc09GYVBJMmM0dV80V2FJUFJZclFvcm96MVhzN293U0hTVDY0QmxUNEIxUy0xdFB3?oc=5",
-      "published": "Thu, 01 Oct 2026 20:32:10 GMT",
-      "summary": "US Sanctions A7 Network and Proposes Sub-Agent Payment Ban&nbsp;&nbsp;Altcoin Buzz",
+      "title": "U.S. Sanctions Latin American Gang Over $40 Million ATM Hacking Scheme - en.sedaily.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHFQRnlhejZKQjNWcGtsVEN6Z1p1UDJ5OHFBNURwSFpVdTdTRlpCXy0zMTdISDhTN240V2o4SXJFUUN6LWxHektwanN6NUV0MzZEcnNBYWdxUWZ1MUlzd1ZaVC00b0twaVRFemhaYm4xU2RPSUNaYU5mdFFKYzlfZkhZdGw5NE1JQm9QeUhTWGxxT1FneEFVOWNxNHdBZGtlS0E?oc=5",
+      "published": "Thu, 01 Oct 2026 13:55:00 GMT",
+      "summary": "U.S. Sanctions Latin American Gang Over $40 Million ATM Hacking Scheme&nbsp;&nbsp;en.sedaily.com",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T04:32:10+08:00",
+      "published_beijing": "2026-10-01T21:55:00+08:00",
+      "source_detail": {
+        "name": "en.sedaily.com",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hezbollah’s Shadow Economy in Post-Assad Syria - Foundation for Defense of Democracies",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMU1KU2RfYVZ2M2UwWTdQdmtRZXU2dTc2UjQ2M1pJbE45VFExdXhKMFptdU1mMTliZm1WcThpVmlfUkdteV8tdDM2azJwVWV0X3J0ZTJwdXcwUGtnbXRQVUJFRThzVDViZnFia2hMSkp0UEU0Q2d0WHRuYVZyX2JlT1FTOTZ1QzNXNi1VRHI5cw?oc=5",
+      "published": "Thu, 01 Oct 2026 11:41:22 GMT",
+      "summary": "Hezbollah’s Shadow Economy in Post-Assad Syria&nbsp;&nbsp;Foundation for Defense of Democracies",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-01T19:41:22+08:00",
+      "source_detail": {
+        "name": "Foundation for Defense of Democracies",
+        "url": "https://www.fdd.org"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CSTO Forces Practice Actions Based on SMO' Expertise during Military Exercises in Russia - News.by",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORk5GQW1ESUx5Rmc2VXNmS3BJRjRUWmptX1lFVXAwN0dRWXVUTnpwVW9OamcwY1FZNXlKb1l4d01rQ3VBM1pjbkVWbFFKdnZlT2ptWk9TZTA5YU80LTFRbTBvcEx1bGlOOVE4amN3YUdFMmUzdGl3RndTalhMM3d6MkIwZ1lJU3NORTRQaUZHVHJKSGEtWS1ic044X0NXRUdvTnotOVp6aE95QmplZE1rTVRIRUpacW8xb1g0?oc=5",
+      "published": "Thu, 01 Oct 2026 09:41:37 GMT",
+      "summary": "CSTO Forces Practice Actions Based on SMO' Expertise during Military Exercises in Russia&nbsp;&nbsp;News.by",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-01T17:41:37+08:00",
+      "source_detail": {
+        "name": "News.by",
+        "url": "https://news.by"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The End of Cheap Money? Why Record Global Bond Yields Matter for the Global South - Modern Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWVaZ216N2JNekplekpSVHNQYTRhazkwUkhJY3kxSzNSbmtoYmt2U2dRRVZMVExOcG9TMG1FRGNMWG9fazgwMjF5QmdGU0h0MGQwMDB2RGhQVEVmajFBSjVOTTZ2dGtERy1vY1RUNTZKVXprVUQtZ3VsbHBtUk8xWEh5bmxHS0lMSm5kaThBTmcya3FyelNpZmlB?oc=5",
+      "published": "Sat, 03 Oct 2026 11:50:39 GMT",
+      "summary": "The End of Cheap Money? Why Record Global Bond Yields Matter for the Global South&nbsp;&nbsp;Modern Diplomacy",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-03T19:50:39+08:00",
+      "source_detail": {
+        "name": "Modern Diplomacy",
+        "url": "https://moderndiplomacy.eu"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Treasury Targets Hamas Financing Network, Imposes Sanctions on Five Individuals and Entities - IBG News",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVNFUnlWLWlibzJDMlVKWkdJdVNpTWowUXJycFl1aElTcWc1eXNPcTZqbWRobkZVbzNOZGhCZjBWWG5FSXVuY1ZtVTk4OTR6SFl3bzBMam4tTmtLX1RFbVFidHEzeXREa1JaemQ1Nks0U1VfYTFNRmhYMVBZbTdoVmRlU0FlVlhrMGlvalc3TkQ5Rzg0dlZDdHBpY2t4OHI3dll0WW0wYWhtaDcwRXJDNFRBaUtFN1VaOEliaGlONkxnbTBk?oc=5",
+      "published": "Sat, 03 Oct 2026 09:25:09 GMT",
+      "summary": "US Treasury Targets Hamas Financing Network, Imposes Sanctions on Five Individuals and Entities&nbsp;&nbsp;IBG News",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-03T17:25:09+08:00",
+      "source_detail": {
+        "name": "IBG News",
+        "url": "https://ibgnews.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "N0n ransomware: what you need to know",
+      "link": "https://www.fortra.com/blog/n0n-ransomware-what-you-need-know",
+      "published": "Sat, 03 Oct 2026 08:29:54 +0000",
+      "summary": "N0n is a newly-emerged cyber extortion gang. The group was first spotted in the middle of September 2026, and within days it had published on its dark web leak site details of what it claimed to be around a dozen victims. Since then, the tally has continued to grow.\n\nRead more in my article on the Fortra blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-03T16:29:54+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hindalco Alumina Deal Ends After US Regulatory Delays - urbanacres.in",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVdDMUZYWnM2NERuSllyTTdsM0ZFeUdEalpmVWtrbEVCSlpsUC1QWFRmU3VNZmppT1BqYkRGYjJqYjg4SEFQWGRiOWZaYU1uS2tZVko2WnlJX1V4OUpNUk1VTVpBeUZka1ViR2N6MFpORHpCX1NpLW1jbUxLT0JaMlBuMVZESmlCUE5BQld3?oc=5",
+      "published": "Sat, 03 Oct 2026 01:20:32 GMT",
+      "summary": "Hindalco Alumina Deal Ends After US Regulatory Delays&nbsp;&nbsp;urbanacres.in",
+      "source": "GNews | CFIUS",
+      "published_beijing": "2026-10-03T09:20:32+08:00",
+      "source_detail": {
+        "name": "urbanacres.in",
+        "url": "https://urbanacres.in"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sanctions keep catching Russia’s gas tankers, so Moscow is building new ones, UK says - Euromaidan Press",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUNWMThUUzZxQVJjNEYwVmoyZ090UlA5QkZKd3lBdWdYZDc3N1EtaU44Y0UxdkFucV9sb01fZTFRUE9mNzRfYU5TZW5BSERJYVBJMThiMEtkU05LZXhXMWNjYkJJalVPQjVDQ2lqYWxJRjJNWjh5ZWdXY0xnemcxLU94emo5ZkFzdDJ6SGJtNlRtQS1UNG95YVd6MU9HcERJSV96VXc2ZXJLVFU2SkdrMGVlMW5mdkVoZjZqMnlxTQ?oc=5",
+      "published": "Fri, 02 Oct 2026 15:41:46 GMT",
+      "summary": "Sanctions keep catching Russia’s gas tankers, so Moscow is building new ones, UK says&nbsp;&nbsp;Euromaidan Press",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-02T23:41:46+08:00",
+      "source_detail": {
+        "name": "Euromaidan Press",
+        "url": "https://euromaidanpress.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Japan Sanctions 35 Russian Shadow Fleet Vessels in New Crackdown on Moscow - UNITED24 Media",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0gtV0kyVFpKYk00Qk5jUFljTmNTWWN6aXFaQUpzLTczU3dQN3RKcF9oQzFsMmxRTHpfcmdBMktnaVhIUDBjUkxGS05KT21mN0llWUpIZnZ0bFRnN3hGNFptNkVfazRCbktFMVRMNmdWaEFmeEs0UHllQXhaVGthTy1HVDFfU3JVOWU2Z3p1WHMzWGQ0Z002TXE4allCeWdGS1JKTTBCcG9ZSERnbnJOY3pB?oc=5",
+      "published": "Fri, 02 Oct 2026 15:08:04 GMT",
+      "summary": "Japan Sanctions 35 Russian Shadow Fleet Vessels in New Crackdown on Moscow&nbsp;&nbsp;UNITED24 Media",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-02T23:08:04+08:00",
+      "source_detail": {
+        "name": "UNITED24 Media",
+        "url": "https://united24media.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The City That Brought Down an ICE Airline - The American Prospect",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRW1oT2cxY2loaWVLa2x1dnpTY09QMndkQkhjYjdWdGZYMURYWWRDWUhFLWtLZDNJeUZPVnZBWFJrU05EZ1lJdXlMVldwM0o5Qm9lTnd3N3hsWkpwOE8xTFNjc3VfUFBSUzZveC1GSWJRR0MzN2RCWHpzazM0OC1OU3lNSkN6WlZ6OHlTc1VJdHVCZ1BZTHlTVmJrUGlCWFFUbTFF?oc=5",
+      "published": "Fri, 02 Oct 2026 14:54:18 GMT",
+      "summary": "The City That Brought Down an ICE Airline&nbsp;&nbsp;The American Prospect",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-02T22:54:18+08:00",
+      "source_detail": {
+        "name": "The American Prospect",
+        "url": "https://prospect.org"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Targets Russia-Linked Payment Network Behind $17B in Transactions - Altcoin Buzz",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTRHODlNNzFwemU0VFlXaHlRQTRCZTZzTGFxYldYaW9MRlJ4WFRLUEFabUNROG9yRkV5TVJSSUZuc3VoUWVIZXJsc0U1UEpjOUE2bXg3Q1g3eWlQak9BdkxNX2JkSUdmZXpNOW5rVHpVdkRSOGVkdC1Ga2luTmg5NUlrdEtFUlNhbFBUZjRMeGZwaWRKMzFNZl9R?oc=5",
+      "published": "Fri, 02 Oct 2026 14:23:01 GMT",
+      "summary": "US Targets Russia-Linked Payment Network Behind $17B in Transactions&nbsp;&nbsp;Altcoin Buzz",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-02T22:23:01+08:00",
       "source_detail": {
         "name": "Altcoin Buzz",
         "url": "https://www.altcoinbuzz.io"
@@ -169,15 +257,15 @@
       "relevance": "low"
     },
     {
-      "title": "US sanctions Iran’s major automakers, rail firms under new rules from October 1 - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUEJsNFl0TFg1bmg5ZE9rdnpUVWFQMzJ2dDlMNVotNHFENW9oekNjV3NJT05RVnhacjFtZkdfV0VtUzQ4M2RFMDktTHdnRUlISWh4V0g4dTlaVFNFSFF5ZWlBSFZyQ05pSzdnM19QUGRhRDMzdnhIazdJZGcxNEVJa1JhS0EtbWJYVjZZVHMtTjBqRkY5RThmZXA1aEpWYlBUc2cxbHNCbmE1SnVLTHgyWTBJbE5fU1puOW9WVlBQQjdZYmd2b3JERm9TQTVXZzFzLW1JTGx3VzlvcmJlanZYNFJMZDJXdXhxdXhoSlFyYTc1WlBFajJTcmZ2N3ZJYm_SAfgBQVVfeXFMT0tjNUVCVlU4ZUFCd0hpSW1mZElrZVNMTGxxY1A2LUpod19DT2VhNnFWd3VKZkNack9nT3FPY29vTnhfMllFOWhyUndjR2k1SGFKMU82T293bkw1NnRvWFF6cUVjaU9zd3REQXY4Z2JDTGNQNHd1ZUh4QlZ6enlxVEFJb1FPX0JvYW14VFprZEI5OWFFZU5QUlhYUlhWT1FwY0JKbHRSa3NhM1lWTG1YZjVZYTd1VDMtSDh4OUdZR2lfMl91cFFvTXlGcnRxSjBFRWYwTXVYQlkxTDY2ZUV0a1pKbWxXQXZlN2JjanV1Yi1fZ3lQeEJ6dnM?oc=5",
-      "published": "Thu, 01 Oct 2026 16:54:07 GMT",
-      "summary": "US sanctions Iran’s major automakers, rail firms under new rules from October 1&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T00:54:07+08:00",
+      "title": "Ex-German Chancellor Schröder Joins Board of German Chain in Russia - themoscowtimes.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWGpMNHNueUNxWFpiTmM1d3N1WWhmNzJpckZ3ZG1keURNTEJGaFppVDIyOFd5R2NaYnhDOTQ2ai1sS2lXb3J6VVRaRkl5SHZqSWhsMTZNWmc1UVd6SUFwM29TWlFSNXBxQkF4Uy0yOFVCVXNCQ3BEczhvRldXRjBoMzV6Z3p4dkpseEhWSVd6ZzFpSEVZbmZBd1RQZjJ6VTZOZVBQZ3lzUTJNVUJ2c3ZTcV9CNF9CcUk?oc=5",
+      "published": "Fri, 02 Oct 2026 13:49:25 GMT",
+      "summary": "Ex-German Chancellor Schröder Joins Board of German Chain in Russia&nbsp;&nbsp;themoscowtimes.com",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-02T21:49:25+08:00",
       "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://economictimes.indiatimes.com"
+        "name": "themoscowtimes.com",
+        "url": "https://www.themoscowtimes.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -185,57 +273,63 @@
       "relevance": "low"
     },
     {
-      "title": "[不同来源] US sanctions Iran’s major automakers, rail firms under new rules from October 1 - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS2M1RUJWVThlQUJ3SGlJbWZkSWtlU0xMbHFjUDYtSmh3X0NPZWE2cVZ3dUpmQ1pyT2dPcU9jb29OeF8yWUU5aHJSd2NHaTVIYUoxTzZPb3duTDU2dG9YUXpxRWNpT3N3dERBdjhnYkNMY1A0d3VlSHhCVnp6eXFUQUlvUU9fQm9hbXhUWmtkQjk5YUVlTlBSWFhSWFZPUXBjQkpsdFJrc2EzWVZMbVhmNVlhN3VUMy1IOHg5R1lHaV8yX3VwUW9NeUZydHFKMEVFZjBNdVhCWTFMNjZlRXRrWkptbFdBdmU3YmNqdXViLV9neVB4Qnp2c9IB-AFBVV95cUxPS2M1RUJWVThlQUJ3SGlJbWZkSWtlU0xMbHFjUDYtSmh3X0NPZWE2cVZ3dUpmQ1pyT2dPcU9jb29OeF8yWUU5aHJSd2NHaTVIYUoxTzZPb3duTDU2dG9YUXpxRWNpT3N3dERBdjhnYkNMY1A0d3VlSHhCVnp6eXFUQUlvUU9fQm9hbXhUWmtkQjk5YUVlTlBSWFhSWFZPUXBjQkpsdFJrc2EzWVZMbVhmNVlhN3VUMy1IOHg5R1lHaV8yX3VwUW9NeUZydHFKMEVFZjBNdVhCWTFMNjZlRXRrWkptbFdBdmU3YmNqdXViLV9neVB4Qnp2cw?oc=5",
-      "published": "Thu, 01 Oct 2026 16:54:00 GMT",
-      "summary": "US sanctions Iran’s major automakers, rail firms under new rules from October 1&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | CN Company Sanctions",
-      "published_beijing": "2026-10-02T00:54:00+08:00",
+      "title": "BIS Affiliates Rule Suspension Extended but Uncertainty Remains - The National Law Review",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHZSR2UyWVlCN3NRZ1dscmNMcUhYLW9pN0wzVEFmUG9ZaUprYmF2RVd3LUswSmVRYlJ5YWQ3cDVxMHlyNHZLNlhPSUZpT1pCT21FbXFyd0JTY0I5X0J5ODFkQ25FeEJpdTB3dXBTdnRVTjg3WlM3SHZnaDE3Z1VQbW5sREt5ZXhNVnVEMTlpNk5lVi1JaVNN0gGcAUFVX3lxTE9LZG9jRk5YYkJoY05abnc2bkQzSUJSa085ZmhkZzNmQUFuUG5nMFhtampVbzZMQ3RfTXBEckhIeDBWSGpIeVA1WVB3X0E1ZXFqYmt5WktwUVlzLUZrMnBqSXNDN1VVRmFwcTEzanhJUTdBSDREZERxX2tETmlrajF4OTZQUFpjdFRSd2FVcnBxamVLdWtieTRIVjhIWg?oc=5",
+      "published": "Fri, 02 Oct 2026 13:29:24 GMT",
+      "summary": "BIS Affiliates Rule Suspension Extended but Uncertainty Remains&nbsp;&nbsp;The National Law Review",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-02T21:29:24+08:00",
       "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com"
+        "name": "The National Law Review",
+        "url": "https://natlawreview.com"
       },
       "priority": 0.0,
-      "category": "中国企业视角",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "FBI tells ShinyHunters members to turn themselves in, after arrest of alleged leader",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-shinyhunters-turn-themselves-in-arrest-leader",
-      "published": "Thu, 01 Oct 2026 10:53:38 +0000",
-      "summary": "The FBI has a very simple message for the ShinyHunters gang: give yourselves up.\n\nOn Tuesday, FBI cyber division assistant director Brett Leatherman released a video, thanking the Dutch police for arresting a 24-year-old man they believe to be a member of the group, and and who is separately suspected of attempting to arrange two murders.\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-01T18:53:38+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "The FBI has a very simple message for the ShinyHunters gang: give yourselves up.\nOn Tuesday, FBI cyber division assistant director Brett Leatherman released a video, thanking the Dutch police for arresting a 24-year-old man they believe to be a member of the group, and and who is separately suspected of attempting to arrange two murders.\nThe FBI describes the man arrested in Amsterdam as \"one of the alleged leaders of ShinyHunters\", although Dutch police say only that he played a role.\nLeatherman is warning remaining members of the ShinyHunters gang that the arrest of the man changes things considerably, could encourage others to share information with the authorities, and that they should get in touch \"while the choice is still yours.\"\nThe warning to remaining members of ShinyHunters follows particularly embarrassing episode for the FBI, which recently confirmed it had had its job application portal compromised by the gang.\nData stolen in the breach included Social Security numbers and personal details of approximately 5,000 FBI staff, including some who had worked on sensitive investigations involving China and Russia. Furthermore some of the hacked data included files that contained sensitive medical and psychiatric records.\nAccording to ShinyHunters, it gained access to the FBI's data by exploiting a recently-patched flaw (CVE-2026-35273) in Oracle PeopleSoft PeopleTools.\nIt would be incorrect, however, to believe that the Dutch police, with the FBI's help, have arrested a suspected leader of ShinyHunters in reaction to the FBI's embarrassing data breach. The truth is that the arrest came a week or so before the compromise of the FBI became headline news.\nObservers of the criminal underground say the group's activities escalated sharply after the arrest, which they link to a change of leadership. The subsequent days saw not just the FBI hack but also the attempted extortion of the Russian ransomware gang Cl0p.\nIn mid-September, ShinyHunters claimed to have stolen source code, CMS plugins, and Tor private keys from Cl0p's leak site, as well as logs that they claimed could reveal the IP addresses of members.\nShinyHunters went on to threaten that if a ransom was not paid, it would publish details of which companies had paid ransoms to Cl0p, and how much.\nClearly there is no love lost between cybercriminals, with rival gangs and hackers frequently falling out and finding themselves battling each other.\nIf, like me, you like a ray of sunshine - focus on the thought that this is something that will help encourage information to be shared with the FBI and other law enforcement agencies around the world, if not individual hackers directly handing themselves in.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "ShinyHunters suspect arrested, and is now investigated over alleged murder plots",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/shinyhunters-suspect-arrested-now-investigated-alleged-murder-plots",
-      "published": "Thu, 01 Oct 2026 10:52:03 +0000",
-      "summary": "An alleged key figure in the ShinyHunters cybercrime group has been arrested in the Netherlands, and - in a sinister twist - the 24-year-old suspect is also being investigated for attempting to arrange two murders.\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-01T18:52:03+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "An alleged key figure in the ShinyHunters cybercrime group has been arrested in the Netherlands, and - in a grotesque turn - the 24-year-old suspect is also being investigated for attempting to arrange two murders.\nThe 24-year-old from Amsterdam, whom Dutch police have not named, was arrested on September 15 on suspicion of playing a role within the ShinyHunters criminal organisation. Although the authorities are declining to name the individual, celebrated cybersecurity blogger Brian Krebs has identified him as Pepijn van der Stap, a convicted hacker.\nAccording to police, a search of the suspect's laptop uncovered details of two murders that \"were to be committed abroad.\" The suggestion is that the man attempted to solicit the murder of others, rather than was intending to carry out the murders himself.\nThe identities of those targeted in the murder plots, or which countries were involved, or even if anybody was ever recruited to commit the crime, are all details which have not been released by the police. It is understood that the digital forensic work is ongoing, and that further arrests have not been ruled out. In an indication of the seriousness with which the case is being treated by the authorities, a Rotterdam court has ordered the man to be held for at least another three months.\nPolice have stressed that the allegations of plotting to have people murdered are being investigated separately from the cybercriminal activities of the ShinyHunters group. They also said that the individual was not arrested as part of the investigation into the hack of Dutch telecoms firm Odido, where the data of more than 6.2 million people was stolen in February.\nWith details frustratingly brief from the Dutch police, one has to turn to the likes of Brian Krebs, who describes how in 2023 Van der Stap was convicted for stealing data, which prosecutors said earnt him between €1.5 million and €2.7 million. Krebs says that while working as a software engineer at a security firm, Van der Stap (using the online handle \"Umbreon\") extorted payments from his victims.\nVan der Stap was released from prison in December last year, and has since been working as a penetration tester at Amsterdam-based Neo Security.\nThe company's CEO Benjamin Korper told Reuters that on the day of Van der Stap's arrest Neo Security's office was visited by investigators, and that no evidence has been found to date that its systems or customers had been compromised.\nNotably, Van der Stap appears to claim on his personal website that he is a reformed character. While he admits that his journey \"hasn't been a straight line\", he says that his experiences have taught him that \"knowledge is for building and protecting, not breaking.\"\nOpinion is split on whether Van der Stap is a key figure within the ShinyHunters hacking gang or not, and - of course - he has not yet been through the legal process. That hasn't stopped FBI Director Kash Patel from describing the arrested man as \"one of the alleged leaders of ShinyHunters\".\nShinyHunters for its part have told the media that \"that individual has no association with us.\"\nOnly time is likely to tell if that is true or not. But in the meantime, the FBI has issued a stark message to the group's remaining members.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "[Special Report] Senegalese debt: what the treatment plan announced by Dakar entails - Seneweb",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVmFIamlRYWxIbi03ZWFNUVhpV2lvQS1ONEkxMWtPbkxnVl9wZGJXNFB2bVA0UXZvaXZ0MkVuOXh1RHB4LWNZM3VXQTBMRnhlVUd5c0M3X1FaSm5Xd3VEdi0yX1JsQXc4TmtXZEdfaG1FakpXOGI3eVFTOEhWS3J3RlpralRJNmlyZ1M1TzlYcElqbHh6bFRndEU4SlBlcEI4Ul9LNTFEdHg2ajdraGIwNnJkT2J3bXZKcEd1NmVRZWJfLW5tSkFBaEd2NHhzcVVm?oc=5",
-      "published": "Thu, 01 Oct 2026 09:55:29 GMT",
-      "summary": "[Special Report] Senegalese debt: what the treatment plan announced by Dakar entails&nbsp;&nbsp;Seneweb",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-01T17:55:29+08:00",
+      "title": "JAPANESE ECONOMIC AND BUSINESS WEEKLY NEWSLETTER: 19 September - 02 October ,2026 - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMVVPUUZnZjd3UTFIY0x6aW9TOWhlZE9nVHd3Z3lIeWphR0xYQTR4V1VPazJ3Q2paR2psQUdTRWVxS2JDOTdsMXBJTmVqbXVIUHd1Mkx2NjFWU0hfdDljYThRbWNiRGRySUtkcVFhcVp1YTRsX2FjM1owdzVGNTY1bnpMRW8wY1hpbUo3NEg4dkRCZDBNTG90VWRZQ1hIZVFFTHYtSlA0VnRyczU1Mzg1MzYxWkVUVVRxc0x3?oc=5",
+      "published": "Fri, 02 Oct 2026 12:12:00 GMT",
+      "summary": "JAPANESE ECONOMIC AND BUSINESS WEEKLY NEWSLETTER: 19 September - 02 October ,2026&nbsp;&nbsp;EIN News",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-02T20:12:00+08:00",
       "source_detail": {
-        "name": "Seneweb",
-        "url": "https://www.seneweb.com"
+        "name": "EIN News",
+        "url": "https://www.einnews.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Greenland’s new foreign direct investment regime - White & Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjB3Z2l0NE5sRTFqM2dIN0t2bzY3UUFiQkZ3MlZtRU93U3JLWDJmMjNmOFA4ejRBMnNJeEpzVWhrd2ZIZ1NzSmtRWGhfSURBMFIzdU5Cd2ZzNzAwVGVGYVF2d2JtVWNEaHF2c2hIYll1QUQ2a3daSE9SdFQ1LURrUG5qeExoZG5wUWZhb3hXQTQ?oc=5",
+      "published": "Fri, 02 Oct 2026 12:00:00 GMT",
+      "summary": "Greenland’s new foreign direct investment regime&nbsp;&nbsp;White & Case LLP",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-02T20:00:00+08:00",
+      "source_detail": {
+        "name": "White & Case LLP",
+        "url": "https://www.whitecase.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lebanese Eurobonds gain 26% in 2026 - libnanews.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VVFBodm5CbnBzNWJ5X3oyM1VaMW80QkR6bV9xanBoMjQ5Ty1KR1p6ckxFdUhaZzV2bV90VGZsV3VJUE5OdnFuV1AwVTg0M2hGMWhmeWRrclNhMFlBMlBWRk5vaHYzY3ZS?oc=5",
+      "published": "Fri, 02 Oct 2026 11:20:54 GMT",
+      "summary": "Lebanese Eurobonds gain 26% in 2026&nbsp;&nbsp;libnanews.com",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-02T19:20:54+08:00",
+      "source_detail": {
+        "name": "libnanews.com",
+        "url": "https://libnanews.com"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -243,26 +337,102 @@
       "relevance": "low"
     },
     {
-      "title": "Connected Cars Are a Surveillance Platform",
-      "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
-      "published": "2026-10-01T11:06:14Z",
-      "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers:\nThe new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiving that information. \nBasically, your car&#8217;s manufacturer has you under constant surveillance,...",
+      "title": "Latest edition of EY Belgium’s customs and excise update - EY",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGw3YUpFdVdPNVMzSUlrWVRGbV9BOFEyS3hOaDhjbzZQZGJma1gzR3lmWmplRVByUE9pc2t2TTZHZFMxYWtUZThpRXFmY1kxbzVYZUswcXdZd1ZtZkxNcklCamh0c0VNT3hKRElOaXc4RFZaVFhULWV2enB2VG9WSEpPa1Q5VmtNTkRkVFZ1RXpwNUNSTjRxbDVoQkxRSDBJUzdn?oc=5",
+      "published": "Fri, 02 Oct 2026 08:33:25 GMT",
+      "summary": "Latest edition of EY Belgium’s customs and excise update&nbsp;&nbsp;EY",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-02T16:33:25+08:00",
+      "source_detail": {
+        "name": "EY",
+        "url": "https://www.ey.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russia sentences founder of exile news outlet Astra to seven years in absentia. Her lawyers say she was convicted of violating ‘foreign agent’ regulations despite never being designated one. - Meduza",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPclFwd1NlVm9OU0VkT01RT2t5SGx4ZUtsLU5vRHpHSWxyX0UwQngxc3F2R0liQWFmY0RXbjg2dXhMSWpjeDctZy1Rb0ROc1pTMGFvM0pjSGM3NHRJNEtrM3lvdGdtaDVONEtnQ0ZVRGRTU1lrcmVnU2I2T0JqWVNvWUtpa0JMYUNoWWR5S0ZqU3RtaUVMcWZoNnRRVXJFek5yODQ5QXJKZW9XTHh4WFRBVi1mYTZzdy1MSkdDTFpxdW9TV3lRMHN5am9FWmxOOE9Ccjc1T2xtMFUxdkt4dDZ2SnF5YVFFTjNPV2I0Rm1kTG14Wm0xV0xEbnVDejFYU250VkpzSVFfellvRklHSU9RWnhQN3ZvRjNSYkNITDlDNkhRaWJ1aXlBeHFzNnV3SHM1M1FKLTl5VWFrU2F4Y1VuckszZGRZODJocFFv0gHLAkFVX3lxTE9yUXB3U2VWb05TRWRPTVFPa3lIbHhlS2wtTm9EekdJbHJfRTBCeDFzcXZHSWJBYWZjRFduODZ1eExJamN4Ny1nLVFvRE5zWlMwYW8zSmNIYzc0dEk0S2szeW90Z21oNU40S2dDRlVEZFNTWWtyZWdTYjZPQmpZU29ZS2lrQkxhQ2hZZHlLRmpTdG1pRUxxZmg2dFFVckV6TnI4NDlBckplb1dMeHhYVEFWLWZhNnN3LUxKR0NMWnF1b1NXeVEwc3lqb0VabE44T0JyNzVPbG0wVTF2S3h0NnZKcXlhUUVOM09XYjRGbWRMbXhabTFXTERudUN6MVhTbnRWSnNJUV96WW9GSUdJT1FaeFA3dm9GM1JiQ0hMOUM2SFFpYnVpeUF4cXM2dXdIczUzUUotOXlVYWtTYXhjVW5ySzNkZFk4MmhwUW8?oc=5",
+      "published": "Fri, 02 Oct 2026 07:40:00 GMT",
+      "summary": "Russia sentences founder of exile news outlet Astra to seven years in absentia. Her lawyers say she was convicted of violating ‘foreign agent’ regulations despite never being designated one.&nbsp;&nbsp;Meduza",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-02T15:40:00+08:00",
+      "source_detail": {
+        "name": "Meduza",
+        "url": "https://meduza.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. sanctions A7 Network after $17B in transfers - crypto.news",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6QkZrWWk3emh4V1ptOW5pWl9sNzA0NXdqa0xqWXB6bkRRc012UFI0N1RXeElmNnlRWlBZejIwbEdKY2h4WExZSW0xUzNKVm1LYUltbUtSSS0tczJyS3ktMlNxbm9Xdk1LNWRxR0xDWXFYY0J0LUk4?oc=5",
+      "published": "Fri, 02 Oct 2026 05:19:00 GMT",
+      "summary": "U.S. sanctions A7 Network after $17B in transfers&nbsp;&nbsp;crypto.news",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-02T13:19:00+08:00",
+      "source_detail": {
+        "name": "crypto.news",
+        "url": "https://crypto.news"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Sanctions A7 Network, Proposes Ban on Sub-Agent Payments - The Defiant",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnA1UG9mN2lGaXpKX05kb3FTMWFiZ1gtTTNWUmR2NkVqcF9paWJWNDUyWEQybFd0azF4RVgtMFFkN2Y5YU9waTd4T1k5SG4zVVoxd0hwQi1QamhjeXVBc2Z0eHNub2dxalVDNmdmd195T2tSLWo5RGZsN2c0cGRuNGdCemR6bUFGWC1CUUFnU1ZDeUJGZjdWUTlJZDdVc3YxUXc?oc=5",
+      "published": "Fri, 02 Oct 2026 01:07:35 GMT",
+      "summary": "US Sanctions A7 Network, Proposes Ban on Sub-Agent Payments&nbsp;&nbsp;The Defiant",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-02T09:07:35+08:00",
+      "source_detail": {
+        "name": "The Defiant",
+        "url": "https://thedefiant.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
+      "published": "2026-10-02T21:02:18Z",
+      "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
       "source": "Schneier on Security",
-      "full_text": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers:\nThe new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiving that information. \nBasically, your car’s manufacturer has you under constant surveillance, and they use that data against you.\nThe companies on the receiving end of your data, our investigation has found, include car insurers and lenders that are partners in “telematics data exchanges,” which compile driving data on millions of drivers, thousands of data brokers that create personalized risk scores, companies selling infotainment and WiFi hotspot products, and even local and state government agencies working on planning, traffic, and safety initiatives.\nNearly every automaker sent data to outside companies.\nEven more troubling, almost a quarter of the vehicle apps were found to be sending out personally identifiable information, including vehicle owners’ names, vehicle identification numbers (VINs), and precise geographic locations. That information can make it easy for companies to link driving behavior to personal data profiles created by data brokers and marketers. Such profiles are routinely sold to banks, insurers, pharmaceutical companies, lenders, and retailers, who can use it for personalized loan terms and filtered bank and insurance offers, a CR and CalMatters investigation found.\nRemember the adage “If you’re not the customer, then you’re the product”? (The sentiment is older than you think.) Turns out that with modern internet-connected everything, you’re the product even if you are the customer.",
-      "published_beijing": "2026-10-01T19:06:14+08:00",
+      "published_beijing": "2026-10-03T05:02:18+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "I Want Better Reporting on AI Genie Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "published": "2026-09-30T11:05:35Z",
-      "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening.\nI wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&#8221; framing because it deflects the responsibility from the prompters&#8212;often the AI companie...",
+      "title": "Unidentified Flock Cameras in Florida",
+      "link": "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
+      "published": "2026-10-02T14:52:46Z",
+      "summary": "St. Lucie County in Florida discovered (alt link) a dozen Flock cameras whose ownership it can&#8217;t identify, and that the county government had not permitted.\nI am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.\nMy guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn&#8217;t bother getting approval. Were I a forei...",
       "source": "Schneier on Security",
-      "full_text": "AI systems are regularly completing tasks in ways that their prompters don’t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I’ve been calling “genie behavior,” because I think that really gets at the core of what’s happening.\nI wish the popular press would report on this better. I don’t like the “going rogue” framing because it deflects the responsibility from the prompters—often the AI companies themselves. And now, pretty much anything off-script is being called “hacking.”\nTake, for example, the recent stories of one of OpenAI’s models hacking into government systems. First, The New York Times writes this headline: “OpenAI’s Systems Meddled With U.S. Government Sites After Going Rogue.”\nSounds scary, but this is from the body of the article:\nWith the Education Department, OpenAI’s technology tried to hack the website to gather data from the department’s civil rights office but failed, researchers from the A.I. research firm Transluce said. The A.I. also pulled data from the Census Bureau website, which is housed at the Commerce Department, using login credentials it found online. Separately, OpenAI’s agents shared public data from the S.E.C. website on an online forum.\nThis is from the original Transluce report. It is explicit that the agents were trying to discover vulnerabilities:\nThe first hacking attempt was against the University of New Mexico’s Digital Library (nmdigital.unm.edu) from May 25-26 2026. Agents repeatedly tried to retrieve one photograph in UNM’s Valmora collection, both directly and through third-party relay services. They sent seven probes attempting to verify the existence of vulnerabilities, including SQL injection, command injection, and path traversals. In all cases, these tactics appear to have been unsuccessful. The agents also sent a self-described “flood: of 80 requests to the UNM server in an apparent attempt to access the image.\nTransluce doesn’t talk about the other two anecdotes, and I don’t know where they come from. But one involves using Census Bureau credentials found online. (I know from a colleague that those are incredibly easy to create; all use you need is an email address.) And the other involves sharing publicly available data.\nSo no actual hacking. And certainly no “meddling.”\nThe other story making the rounds is about Australia, from the same Transluce report. The news stories have headlines like  “An OpenAI Agent Hacked Australia’s Health Service” and “Rogue OpenAI agent ‘infiltrated’ Australian government website in world first.” And Prime Minister Anthony Albanese said: “There will obviously be legal consequences on it.”\nAgain from Transluce’s actual report:\nOn June 20-21, agents attempted to exploit vulnerabilities in the Australian Institute of Health and Welfare (AIHW), a government statistics agency). The agents were tasked with finding the January 2022 rolling-12-month-average government cost per person for Dermatologicals across Victorian LGAs.\nAgain, the agents ran into errors, including requests blocked by Cloudflare and issues  with correctly identifying Tableau parameter names. As before, they then resorted to probing for exploitable vulnerabilities. Minutes after Cloudflare blocked  the dataset download, an agent sent a reflected cross-site scripting probe  to the same dashboard: a web address with code embedded in it, designed to test whether the site would run code supplied by an outsider. Cloudflare’s firewall blocked the probe before it reached the dashboard. When Cloudflare blocked the dataset download on AIHW’s main site, they fetched  the file from AIHW’s pre-production server (pp.aihw.gov.au) instead, which served it in pieces over more than 100 scans. The file itself is public, so no non-public data was exposed, but the agent bypassed the site’s anti-bot controls.\nNote the last sentence: “The file itself is public….”\nI’m not saying that these AI systems aren’t incredibly sophisticated cyberattackers. I’m also not saying that they don’t occasionally autonomously attack other systems and networks. If we are ever going to get trustworthy AI—integrous AI—we are going to need to figure out how to ensure that AI systems complete tasks in line with all sorts of implicit constraints and restrictions. But every instance of genie-like behavior isn’t a cyberattack.\nI want to measure genie-like behavior in AIs, but I am much more worried about human hackers enhanced with this technology than I am about this technology acting autonomously.",
-      "published_beijing": "2026-09-30T19:05:35+08:00",
+      "full_text": "St. Lucie County in Florida discovered (alt link) a dozen Flock cameras whose ownership it can’t identify, and that the county government had not permitted.\nI am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.\nMy guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn’t bother getting approval. Were I a foreign actor, I would rather hack the existing Flock network—like Israel did with Tehran’s surveillance cameras—than risk installing my own.\nRegardless, once we normalize a surveillance infrastructure, both friends and foes will take advantage of it.",
+      "published_beijing": "2026-10-02T22:52:46+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How American Political Campaigns Are Using AI—and What They’re Spending on the Tools",
+      "link": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "published": "2026-10-02T11:02:19Z",
+      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nNew campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.\nCandidates&#8217;, parties&#8217; and committees&#8217; spending reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns. It&#8217;s a sensitive issue that we hav...",
+      "source": "Schneier on Security",
+      "full_text": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nNew campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.\nCandidates’, parties’ and committees’ spending reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns. It’s a sensitive issue that we have been tracking closely since we started writing our book, Rewiring Democracy, which examined how AI is beginning to influence politics. A September 2025 Pew survey of Americans found that more than 70% would think less of a candidate if they used AI to help write a speech.\nItemized expenditure disclosure data from the US Federal Election Commission, dating back to 2020, reveals at least $17m in disclosed spending on AI technology vendors across 523 federal candidates and campaigns. Data from four states, California, Colorado, Massachusetts and Washington, provides a more localized picture going back to 2022.\nBeginning with the AI behemoths, at least 80 federal campaigns and committees have reported spending with OpenAI since 2024. The total spending is not huge: only about $50,000 reported, skewing slightly more Republican than Democratic. The Republican National Committee is the largest overall buyer, with nearly $10,000 in reported expenses. Top individual users include the campaigns of Republicans Mike Lawler, John Kennedy and Bill Cassidy, as well as the California Democrats Ro Khanna and Ted Lieu. Most of these expenses are listed as office expenses, subscriptions to ChatGPT for staff, or research tools, rather than as specific political services. The company’s policies prohibit some political uses of their ChatGPT tool.\nOpenAI’s biggest competitor, Anthropic, has rapidly built a similar level of usage, but with a different split. At least 65 candidates or committees now report paying the Claude maker in 2026, up from essentially zero in previous years, with a nearly two-to-one Democrat-to-Republican ratio. However, the largest individual user is the campaign of Tom Cotton, a Republican senator from Arkansas, who reported more than $4,000 in spend on Anthropic software in his June filing. Other major users are the Montana independent Senate candidate Seth Bodnar and Jason Knapp, who lost a Democratic House primary in Virginia, and the Democratic Alaska Senate candidate Mary Peltola.\nCandidates use either Claude or ChatGPT, rarely both, according to the disclosures. Only about 12% of campaigns or committees using either tool reported expenditures to both vendors. The Democratic lean of Anthropic usage may reflect the company’s alleged liberal skew and clashes with the Trump administration.\nIn contrast, Elon Musk’s xAI caters to Republican interests and, accordingly, its meager usage comes almost entirely from the political right. Just seven federal and two state-level candidates or committees have reported paying xAI, a total of about $5,000, the majority of which was spent by the presidential campaign of RFK Jr in 2024, but also includes Republicans Dave McCormick and Thomas Massie.\nMore dollars go to the vendors specializing in political campaign applications of AI. For years, AmplifAI, which provides automated text messaging, essentially a new iteration on robocalling technology, was a dominant target of spending, soaking up $4.7m in campaign spending in the 2022 cycle alone. It was used heavily by Democratic candidates including Mark Kelly, Joe Biden, Bernie Sanders and Adam Schiff. Spending on AmplifAI, now owned by the troubled media conglomerate Triller, seems to have tapered off in the years since 2022.\nThe new rising Democratic solution for AI-powered text messaging is Daisychain, which has so far garnered about $300,000 in reported candidate spend in the 2026 cycle—up from only about $50,000 reported in 2024. More than half of this year’s spending comes from the Senate campaign of Democrat Abdul El-Sayed in Michigan.\nThe closest equivalent on the Republican side has been Campaign Nucleus, associated with former Trump campaign manager Brad Parscale. The AI-powered voter engagement tool has attracted six-figure spending from the Republican National Committee, multiple PACs aligned with Donald Trump, and five-figure investments from Mike Johnson, Kari Lake and other candidates. It is displacing the legacy Republican-serving texting vendor Prompt.io, which has retained about $375,000 in 2026 spending to date, down from more than $500,000 in the 2022 cycle. But it continues to be used: the A More Affordable California PAC sponsored by Uber has single-handedly spent more than $1m on Prompt.io in 2026. The Republican Massachusetts gubernatorial nominee Michael Minogue has been a recurring customer, as has the failed Republican California gubernatorial candidate Ché Ahn and Republican-aligned Super PAC Neighbors for a Better Colorado.\nAt the state level\nAt the state level, the AI spending is smaller but growing fast. Across the four states studied, we found a total of at least $92,000 in spending confidently attributable to modern generative AI vendors since 2022. The spending is spread across at least 108 candidates and committees. The growth has been explosive; there has already been about 10 times the amount of state-level AI spending reported in 2026 as there was in all of 2024.\nMuch of the state spending mirrors federal patterns. Daisychain again has the highest overall spend, and OpenAI and Claude dominate among the general-purpose AI vendors. DonorAtlas—the AI-powered prospect research tool—sticks out for its usage in these states, sitting behind only Daisychain and OpenAI and buoyed up by nearly $4,000 in spending by the California Democratic party.\nEven though it has dominated so much media conversation, few candidates seem to be reporting spending on AI tools designed specifically to create synthetic audio and video, also known as “deepfakes”. We found just six federal candidates or committees reporting spending on the popular AI audio generator tool from ElevenLabs, with total spending of about $1,400 led by independent candidate for Colorado’s sixth congressional district Samir Witta. The AI image generator service Midjourney has five reported federal campaign or committee users reporting about $1,600, led by Sholdon Daniels, the Republican primary runner-up in the Texas 30th district. Combined, those two firms had less than $100 in reported spend across the four states.\nHowever, recent data from the Wesleyan Media Project shows that at least 164 political ads in this cycle have included AI-generated media, supported by at least $80m in ad spending. What this illustrates is that candidate and committee disclosure reports are just the tip of the iceberg. They don’t cover spending on AI by political consultants, media firms and other vendors hired by the campaigns or by PACs, or independent committees raising and spending money aimed at boosting candidates’ campaigns. Those entities aren’t required to disclose detailed expenditure reports, and are very likely where the bulk of campaign AI usage is happening.\nSince a large fraction of all spending in the campaign cycle will happen in the final weeks leading to November, much remains to be seen about the totality of how campaigns will leverage AI and what impact its use will have on voters’ decisions.",
+      "published_beijing": "2026-10-02T19:02:19+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",

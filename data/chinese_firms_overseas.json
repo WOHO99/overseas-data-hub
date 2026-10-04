@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-02T04:32:38.533702+00:00",
-  "fetch_date_utc": "2026-10-02",
-  "total": 22,
+  "updated": "2026-10-04T04:46:38.925278+00:00",
+  "fetch_date_utc": "2026-10-04",
+  "total": 21,
   "high_priority": 0,
-  "medium_priority": 3,
+  "medium_priority": 1,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 10,
+      "count": 11,
       "feeds": 5
     },
     "半导体+科技": {
-      "count": 0,
+      "count": 1,
       "feeds": 4
     },
     "跨境电商+互联网": {
@@ -25,7 +25,7 @@
       "feeds": 3
     },
     "光伏+新能源": {
-      "count": 8,
+      "count": 2,
       "feeds": 3
     },
     "基建+工程": {
@@ -45,11 +45,11 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 0,
+      "count": 1,
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 5,
+      "count": 7,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,19 +61,35 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 62,
+  "fail_feeds": 60,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Nio Inc. Meets Q3 Guidance, Needs Record Months to Hit Annual Target - eletric-vehicles.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON3ExZnBhRUtKX29NQ1JsNTZzNnNzMVE2VFdRZ3N5VjRtVmw3ZHNVUElEXzg0MmplVnlvdmcxNm5kX0tSbFdUR0NNZVhyN01fS3BKXzctY2JURnVPLS0zMk5EY0FXWkF3cmcwUTYwbnhFQVZ3NEgxSHVDbWszeGR1ZHBuLU5pOXB2b3lQSHNoaHI2SGViZnpYdndLa1A1eXBUdmc?oc=5",
-      "published": "Thu, 01 Oct 2026 07:57:17 GMT",
-      "summary": "Nio Inc. Meets Q3 Guidance, Needs Record Months to Hit Annual Target&nbsp;&nbsp;eletric-vehicles.com",
+      "title": "NIO Stock Slides as Rival Geely Takes 30% Stake in Battery Unit - inkl",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVjJxQ2tHcFIycnk2RUJwaFNkLUctVWVwa0g2TkpycF8tRHpBVllyZzhJM0lvNW1TNW5yRlo0RF92Tm9YRmlXTTg3RktjeV84VXJpNktrS0Z6UXE3OUhabXR4NzYyQU14UnpVZ3lhckQtSnhJYjIxQkluR0hBcFJjbDBtTDhEdzNYbkdjZW9jdDBFZw?oc=5",
+      "published": "Thu, 01 Oct 2026 12:42:54 GMT",
+      "summary": "NIO Stock Slides as Rival Geely Takes 30% Stake in Battery Unit&nbsp;&nbsp;inkl",
       "source": "GNews | NIO Overseas",
-      "published_beijing": "2026-10-01T15:57:17+08:00",
+      "published_beijing": "2026-10-01T20:42:54+08:00",
       "source_detail": {
-        "name": "eletric-vehicles.com",
-        "url": "https://eletric-vehicles.com"
+        "name": "inkl",
+        "url": "https://www.inkl.com"
+      },
+      "priority": 3.6,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Nio Stock Slides In Hong Kong As EV Maker Admits Flaws In Europe Expansion Plan Amid Sales Slump - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQLWgyMzVnaUg1NnVIemZqeEQ1TkhhZUpLWU8xMzN5T19XYndKN24wLWstNmhzR0U4Q1JvZTRKdktPYXhCNlpDMHcweVJ3bmZwMnVSMFlxRjZLUzBlRGFiMjN2aFRTVTgyZEg3bnk2YklZdUFhT2N0RVoxclBHc1d4TzdKNk44am03NmdPaFQxWXVGejV1emhlV1QwMDVXeWRWVUxuV2JLM1d3RTZ4N3FFUFktUjJ0UEpnUDl2cnhRUENvaVEzaHhrNkRzQTNLNjhRc2E5Q0pYQUt6V3JrdXFCbFVvcVdIMnp3RlNGWDdDOUxMQQ?oc=5",
+      "published": "Fri, 02 Oct 2026 22:11:42 GMT",
+      "summary": "Nio Stock Slides In Hong Kong As EV Maker Admits Flaws In Europe Expansion Plan Amid Sales Slump&nbsp;&nbsp;Stocktwits",
+      "source": "GNews | NIO Overseas",
+      "published_beijing": "2026-10-03T06:11:42+08:00",
+      "source_detail": {
+        "name": "Stocktwits",
+        "url": "https://stocktwits.com"
       },
       "priority": 2.4,
       "category": "新能源车+电池",
@@ -81,47 +97,79 @@
       "relevance": "low"
     },
     {
-      "title": "Renewable energy projects: AM Green, Vestas, FRV Australia - GreentechLead",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEhZdHFvWlpMZHFJcVNOVV9ueGdOTTd4TGlUY2FYVFF4M3ZLdDZHQ0lUVExHSUVxNXZPZC1lSzBkOGJfNmhqMFk0cGlBNi1IQkg1RGZmY2tIRUFGbW1WLXRkazJveXk5N0c3QzR0VTljSDJtc2JIS1NsMU9XMkZISmJCNzRFMG1OMEVXbi1JNkM2dEtKODJ0ZlEyYTNGQmsz?oc=5",
-      "published": "Thu, 01 Oct 2026 05:13:05 GMT",
-      "summary": "Renewable energy projects: AM Green, Vestas, FRV Australia&nbsp;&nbsp;GreentechLead",
-      "source": "GNews | Wind Firms",
-      "published_beijing": "2026-10-01T13:13:05+08:00",
+      "title": "China vs Europe Offshore Wind 2026: Who Leads on Capacity, Cost, Turbines and Investment? - GreentechLead",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX0NMTS1yNVdlMmFHZXJJVmh1MXRPT2NPczRNX21RWVpvNDJuNlhuUXVhNHZmOUxJT0R3OFN1dGtNeHllRmIxcmszQVRWaXRUa3NRa2MzMF8tbTlYRXBva1RvTTl4eXdqZ2tYZWdIZEJTSEFPVHZKMk9YX1UxS3kxMnZjZTd0ako0enpBWEJHZFc3SFdqR1E1bGlPQ3hoYzVudzJxc2VLcXB2SWVWbWJzSl9vbzN1YmhreXd5ZnBWTQ?oc=5",
+      "published": "Thu, 01 Oct 2026 12:09:07 GMT",
+      "summary": "China vs Europe Offshore Wind 2026: Who Leads on Capacity, Cost, Turbines and Investment?&nbsp;&nbsp;GreentechLead",
+      "source": "GNews | T17 风电板块",
+      "published_beijing": "2026-10-01T20:09:07+08:00",
       "source_detail": {
         "name": "GreentechLead",
         "url": "https://greentechlead.com"
       },
-      "priority": 2.4,
-      "category": "光伏+新能源",
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Li Auto delivers 31,800 vehicles in September, cumulative total tops 1.83 million - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZQXNFRlg3Mk5DQlRMbHRMMlRNWnFnR2x1UUxkdUNLb2RGZVBELTVGTFFMVktFU1QxaVBySkwtVWszbzdSdmVKZjNQeEl3b2ZPdF85T2FEdXlGS3dGRzFsMmFaNEpvenJla2l3WlZTbG9mUGxJc2c?oc=5",
-      "published": "Thu, 01 Oct 2026 11:05:00 GMT",
-      "summary": "Li Auto delivers 31,800 vehicles in September, cumulative total tops 1.83 million&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-01T19:05:00+08:00",
+      "title": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56SHVoX3BpcG9pMDBaSVloZVRUcTYzNGtHNmtva0VNSjZQUl8xdURsY3VGUXpEOW5ld2lJUkxPY2RnOXNkdWVFb0FrUmtIcUxDN3FFTFJ1WnBDZ0d4UTJ0WTVZeWcwcEgwR1FPcUN3ZlUyRDlET0E?oc=5",
+      "published": "Sat, 03 Oct 2026 22:25:00 GMT",
+      "summary": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology&nbsp;&nbsp;finance.biggo.com",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-04T06:25:00+08:00",
       "source_detail": {
         "name": "finance.biggo.com",
         "url": "https://finance.biggo.com"
       },
       "priority": 1.2,
-      "category": "新能源车+电池",
+      "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Tesla and XPENG will be the only automakers in the Paris show’s official self-driving experience. - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0JUVXMtRHFzMndPWUkzaTFyZ1FNU2dDNlN0NHRuNzJNU09yRWpSS0IyVGUta29FeEJZUmxNSG1zNGlNT2ttcEZOSzZhSHAtY3dHZGZCYXlOTE1KZlhtZjFoVzBiY2E4SHF0bUFDMGVuM1pHWERsRV85RmJLaVZqd0E4M2JwbEVIMXN1SzZoS2EyNHAwQUVBa2JUNjE5eFdUeFN3TDJ4SWtVWXg5QW9GcEh6ZVJ0YlF0MC1JWQ?oc=5",
-      "published": "Thu, 01 Oct 2026 10:14:00 GMT",
-      "summary": "Tesla and XPENG will be the only automakers in the Paris show’s official self-driving experience.&nbsp;&nbsp;Stock Titan",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-01T18:14:00+08:00",
+      "title": "Huawei is building 'China's own Nvidia'. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WWEFsOF92MUNva2lwNkdqS3NFYlJhcjFpbGNfb25RR3NwWjlFVElwOS1vTjRCV0Z4ODhjWXdZT0FiSEdKek5veDZSLTZRTkRlTTJzdlZvYngyWkpWaTRVblpuaHhNLUkyMkhVbmxIcUFIcHBvVk9qcA?oc=5",
+      "published": "Fri, 02 Oct 2026 21:33:51 GMT",
+      "summary": "Huawei is building 'China's own Nvidia'.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | HiSilicon",
+      "published_beijing": "2026-10-03T05:33:51+08:00",
       "source_detail": {
-        "name": "Stock Titan",
-        "url": "https://www.stocktitan.net"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 1.2,
+      "category": "半导体+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power - Wind Power Monthly",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVTZyLURWQXRRemc5VzA1QnpRRzI4bE43S0lpT0I4WWdSQW9icnRqcGVvcGNSekJuaTZDakZmS2RxQzJEM29pVElRUWxBRkpTOEp3UkEzSGpjdjZEd1QxMDZWV2tpZHZwQkQxcnZRbTBwdXZIZGZKVk5LRjJwZXAyN2tqV1p4YzJsR1hDb245akVRTl9DYlBfVzVIWmtqbDZIcUVIdGZWYmpXMmd6QkNlQXZR?oc=5",
+      "published": "Fri, 02 Oct 2026 12:07:06 GMT",
+      "summary": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power&nbsp;&nbsp;Wind Power Monthly",
+      "source": "GNews | T17 风电板块",
+      "published_beijing": "2026-10-02T20:07:06+08:00",
+      "source_detail": {
+        "name": "Wind Power Monthly",
+        "url": "https://www.windpowermonthly.com"
+      },
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CATL to Increase Workforce at Debrecen Plant - Hungary Today",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rMHBocENxVFc3d1k5VFp1d1NDT2tDRS1BOVhaSzk1YVA5Slpxc1p1MU1uZDhBdk1raTE2alhiLXhhQk9lT0xsVll4alpqdnYtb3dlZmgwbkVEZkNUd0JYMXl1U0NoMjRWYUlEWHBMNVl0aTNjNXRyQQ?oc=5",
+      "published": "Fri, 02 Oct 2026 07:18:45 GMT",
+      "summary": "CATL to Increase Workforce at Debrecen Plant&nbsp;&nbsp;Hungary Today",
+      "source": "GNews | CATL Overseas",
+      "published_beijing": "2026-10-02T15:18:45+08:00",
+      "source_detail": {
+        "name": "Hungary Today",
+        "url": "https://hungarytoday.hu"
       },
       "priority": 1.2,
       "category": "新能源车+电池",
@@ -129,79 +177,15 @@
       "relevance": "low"
     },
     {
-      "title": "September NEV Startup Sales Rankings: Leapmotor Tops 100,000 Units for Third Straight Month, Zeekr Doubles Year-on-Year - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jQzlkRzNSRHZpLXpjTWFnSko4OFhKS3lGNGRldjN4a0pvN3hIQ1dfVXB5OHg4WG9EWUxERmxiSTVnZFoxUk1yU3hQWjBmTUVOU19ld2V5dmViXzNhdjV5S1pvVFVGRV9qejFoTGY2U2Y5TGkxZmc?oc=5",
-      "published": "Thu, 01 Oct 2026 06:35:00 GMT",
-      "summary": "September NEV Startup Sales Rankings: Leapmotor Tops 100,000 Units for Third Straight Month, Zeekr Doubles Year-on-Year&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-01T14:35:00+08:00",
+      "title": "Hyundai leads solid-state battery race as Korea, Japan, China chase EV edge - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNclFpRi1sbVFmYm5Od3dLVG03bUpVamNoZVZUOTNJVnY3VmlQZkc1X0ZDaHVEakVnYV9yR3MtNEZyTk9SZ3Z1MFp2blM4Yk5aWTBSRlpFN2pKU2RJeE5pTDZSRTNIcHFnODFZLTV1T2kxVi1NZ0Y1UVQ2VE5fcE05SFZVMlU1bkVaVmh0UENGeHUyRjdKVEHSAZYBQVVfeXFMTXJRaUYtbG1RZmJuTnd3S1RtN21KVWpjaGVWVDkzSVZ2N1ZpUGZHNV9GQ2h1RGpFZ2FfckdzLTRGck5PUmd2dTBadm5TOGJOWlkwUkZaRTdqSlNkSXhOaUw2UkUzSHBxZzgxWS01dU9pMVYtTWdGNVFUNlROX3BNOUhWVTJVNW5FWlZodFBDRnh1MkY3SlRB?oc=5",
+      "published": "Sat, 03 Oct 2026 21:07:00 GMT",
+      "summary": "Hyundai leads solid-state battery race as Korea, Japan, China chase EV edge - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-04T05:07:00+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Renewable energy projects: Nordex, Statkraft, Greenvolt, Octopus Energy - GreentechLead",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTVyaW9PRUdLTjVmY0UwdjhPdE5zbV9PVHNTM0NySjNmcldvd0tuam1WLUxULVJjYmU4NzZYdVVhZHkwN2dJN2laLTlVUWp3aTdjTTF4MUNjbXlZMEZPaUsyaVFXME5xTzE5MXk0VjQ4S2pnMXc1TVBGUE1nMmdhaFVma3FVdGs2di1hNlNNRUxuaU9vN3Q1NkpsMHlLVGFydmdOTUVwSkZPS2Q5bVMzVw?oc=5",
-      "published": "Thu, 01 Oct 2026 05:17:59 GMT",
-      "summary": "Renewable energy projects: Nordex, Statkraft, Greenvolt, Octopus Energy&nbsp;&nbsp;GreentechLead",
-      "source": "GNews | Wind Firms",
-      "published_beijing": "2026-10-01T13:17:59+08:00",
-      "source_detail": {
-        "name": "GreentechLead",
-        "url": "https://greentechlead.com"
-      },
-      "priority": 1.2,
-      "category": "光伏+新能源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Renewable energy projects: Orsted, ACME Solar, Trina Storage - GreentechLead",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMGs3YTJhRzBXZTBUalNsWktpS0VMUDlWdnNuZ1ZISURCMUVYUTZsbzRIOGVGVF9vZGhsQVhZcUxOV2tZYXBCUnNJcjl0RVE1RDgzU3hVQWowdGYweGdtRmpzV0RJb2x2NklKdURrZG9VTEZ2N1VXaVZlVGoxMDRvMWFqeWEtY3RWTU84OGlaTVZ2cnduU3E3b1hETVN0LURTZ3Jv?oc=5",
-      "published": "Thu, 01 Oct 2026 05:15:36 GMT",
-      "summary": "Renewable energy projects: Orsted, ACME Solar, Trina Storage&nbsp;&nbsp;GreentechLead",
-      "source": "GNews | Wind Firms",
-      "published_beijing": "2026-10-01T13:15:36+08:00",
-      "source_detail": {
-        "name": "GreentechLead",
-        "url": "https://greentechlead.com"
-      },
-      "priority": 1.2,
-      "category": "光伏+新能源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Renewable energy projects: Green Energy Corridor, Actis, Leo Energies, KPI Green Energy - GreentechLead",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU0dCLUpuc0czeUsxejBlVWdaZHRuSWJ1aW9lYURxaVo0TDM1RmdZc1YxaUZFWEF0THNuZ1RpZEhfOFZMMEZ4NmpEcGc4dS02V29lOWZWdExGNlEtcjFuZi1kNEtfU1RkNGpXeGUtV3E3WlIxbDR5QTJIXzdwMXdsZWRjaUYwaTAtV2VwR1hobUw0eUJmd3dtdV9BSFU4bjJMVjdtQUQwcWRraFVrcTZYc2RlSkpjb2wySVU4RWd4SldmS3RjQmc?oc=5",
-      "published": "Thu, 01 Oct 2026 05:10:25 GMT",
-      "summary": "Renewable energy projects: Green Energy Corridor, Actis, Leo Energies, KPI Green Energy&nbsp;&nbsp;GreentechLead",
-      "source": "GNews | Wind Firms",
-      "published_beijing": "2026-10-01T13:10:25+08:00",
-      "source_detail": {
-        "name": "GreentechLead",
-        "url": "https://greentechlead.com"
-      },
-      "priority": 1.2,
-      "category": "光伏+新能源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Distribution Boxes Market To 2035: Renewable Energy and Grid Modernization Fuel Expansion - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQkhWMTVVWFhfTnYyRTd0ZTVTUFRiazdweXEzSXg1ejFhNFpqUkJVNUZfNDhQWDJCYWNBVnpiS0dBVE1MOVBTTVo5OV9YeWhqYWhla2t6RnhQaTdHbmcxNEF2UWswYzNBSW1SZTBIVGRjeGhjYjBobjlxV25iNFFCMGdJSkZfN3h0aDY5WGVtUHJ5Sm1LUXRic2ViSGVMbGo5czVhZFRHeGh2Z01yNG41UExhNlNpTG05VG50MGhPM2xGWjg?oc=5",
-      "published": "Thu, 01 Oct 2026 21:56:04 GMT",
-      "summary": "Distribution Boxes Market To 2035: Renewable Energy and Grid Modernization Fuel Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | T17 低压电器板块",
-      "published_beijing": "2026-10-02T05:56:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
+        "name": "Chosunbiz",
+        "url": "https://biz.chosun.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
@@ -209,15 +193,31 @@
       "relevance": "low"
     },
     {
-      "title": "Chinese Automakers' Go-Global Push Pays Off as 2026 Overseas Sales Set to Surpass Forecasts - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUVCdmx5ZFJ5NzJmOGphVlN3a1dpTW9mOVFzY2RBWllBUG1CRVFZemtfZDBVUlZJa3k2SVdFQjZkZUVmOHBmTTB1R1RHSHNuNmhEajFXQ2szY3RzUzJFR3llR0wxUXgtUzFVZzktWGJkT3FsMGl0ek9veVZzSnhuME01MlgtLTY5RWtmLUlEb3daeWVrMThXaktKVk5iTVlmamllX1J3UlFoUExORGhzeUFvQ3VNRFBhWnVBMw?oc=5",
-      "published": "Thu, 01 Oct 2026 11:21:57 GMT",
-      "summary": "Chinese Automakers' Go-Global Push Pays Off as 2026 Overseas Sales Set to Surpass Forecasts&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Geely Overseas",
-      "published_beijing": "2026-10-01T19:21:57+08:00",
+      "title": "Portable Air Conditioner Market Forecast to 2035: Heat Waves and E-Commerce to Drive Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2V3RXZ3ZmppOF9rTVVCYUg5aXRNUG9MZG5xS01BWjNmM0tmX055SkZ4MDZtdUNfcks0VnpaMUtlX0lUdU9wdm9uTXhLSTMxa0oyQ1RodTNqRFRIa0gxQUZoN0J0V0cybGFzU2VpRlRXVmZoUndOb21aVGZGUWRTRFlYbE8yZ09iR0ZlZmFwLWNSNGRCSFo0eTdPWGFOOUc1bWVOSXQxVzI0SVprMlhMS1kzVXNBalZnOU0yaQ?oc=5",
+      "published": "Sat, 03 Oct 2026 19:21:04 GMT",
+      "summary": "Portable Air Conditioner Market Forecast to 2035: Heat Waves and E-Commerce to Drive Growth&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Gree T17",
+      "published_beijing": "2026-10-04T03:21:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "Track17重点27股监控",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "12 Listed Automakers' First Three Quarters: Overseas Sales Carry Half the Load, Annual Target Completion Rates All in Danger Zone - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zQlNvWG9ZZ0M5dGFYNXlRRHZLc2N4ZTBFdm1UUC14aEFMTXc3Uzh6U3p6UTVOZVFacXE4NTk2OWlxd2tuUkVQVFZUSDlIbGcyWDNXeGhLSmtETFZnNUlKajBCUElzWThXaGFfTWxEV3VWX09ISXc?oc=5",
+      "published": "Sat, 03 Oct 2026 12:55:00 GMT",
+      "summary": "12 Listed Automakers' First Three Quarters: Overseas Sales Carry Half the Load, Annual Target Completion Rates All in Danger Zone&nbsp;&nbsp;finance.biggo.com",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-03T20:55:00+08:00",
+      "source_detail": {
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
       "category": "新能源车+电池",
@@ -225,15 +225,31 @@
       "relevance": "low"
     },
     {
-      "title": "Global EV Battery Usage Grows 20%, but South Korean Trio's Share Slides to 12.7% - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PbVRzMUFDNjVfMXIzVmsyUGdGR054eGZXUDFtSWk3YmVOR3pGNUtoWlhidVVzRTlZX3RsVzl1NGhQOTBVU0I4b1ZaRHRhRl9ncTA0RERIYkNKZzU0VmFzdkM5SEtFWDlBdnNFbVJWVDdPRWFrU0E?oc=5",
-      "published": "Fri, 02 Oct 2026 02:25:00 GMT",
-      "summary": "Global EV Battery Usage Grows 20%, but South Korean Trio's Share Slides to 12.7%&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-02T10:25:00+08:00",
+      "title": "Investing in Europe’s next growth engine - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT1NGbjd4VnBvWTl0ME9XdVZtXzJoc1JsMlFUdVREMkZwVEZOWTNkNHNMaWh1dmd2WEgwMnVsX0QtZk9MWHJQSF9oS1B0VGhqWndibU83ajJNdWJWT2tkdENLc2xwMmgtM2R4NUZBajdRbG1wX0pWQ2VZRHAxcU5yaW94VjlDeDRfd0wtRGZMQmdvUm9VbGJZ?oc=5",
+      "published": "Fri, 02 Oct 2026 14:15:00 GMT",
+      "summary": "Investing in Europe’s next growth engine&nbsp;&nbsp;Atlantic Council",
+      "source": "GNews | CATL Overseas",
+      "published_beijing": "2026-10-02T22:15:00+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
+        "name": "Atlantic Council",
+        "url": "https://www.atlanticcouncil.org"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "What to expect from Chinese car brands at the Paris Auto Show 2026 - CarNewsChina.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeWV3V2lkMC1namdTTm8xSGl5NXpMNEd0WmhYY1R2M3VZY3FMZFpvLXpJaXVuNF8wekFpZFBxUmNXREUzcG9ieFRwYklfRVVaQlN2OTh0cktNcGJONjZOWkFfdHJDb21jNDRyRkZrY0QzeUFMMGtKdExxLWh4dENSYzM0Zy0yb3EwRFBTTzZzVVd5cjZnbV9lQjNDYWFVQ05uMm1ITWxB?oc=5",
+      "published": "Fri, 02 Oct 2026 07:18:00 GMT",
+      "summary": "What to expect from Chinese car brands at the Paris Auto Show 2026&nbsp;&nbsp;CarNewsChina.com",
+      "source": "GNews | T17 EV板块",
+      "published_beijing": "2026-10-02T15:18:00+08:00",
+      "source_detail": {
+        "name": "CarNewsChina.com",
+        "url": "https://carnewschina.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",

@@ -1,9 +1,9 @@
 {
   "version": "4.0",
   "module": "跨境电商",
-  "updated": "2026-10-02T04:32:34.593237+00:00",
-  "fetch_date_utc": "2026-10-02",
-  "total": 40,
+  "updated": "2026-10-04T04:46:33.619777+00:00",
+  "fetch_date_utc": "2026-10-04",
+  "total": 44,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
@@ -13,15 +13,15 @@
       "feeds": 6
     },
     "关税+合规": {
-      "count": 9,
+      "count": 7,
       "feeds": 5
     },
     "物流+支付": {
-      "count": 13,
+      "count": 19,
       "feeds": 4
     },
     "中国卖家视角": {
-      "count": 2,
+      "count": 3,
       "feeds": 2
     },
     "本地语言搜索": {
@@ -33,100 +33,151 @@
       "feeds": 3
     },
     "电商科技RSS": {
-      "count": 20,
+      "count": 19,
       "feeds": 2
     }
   },
-  "fail_feeds": 15,
+  "fail_feeds": 17,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Not just ocean: How Maersk grew its US logistics capabilities - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY3NxTG9TWl80ZThFcFIxVEhPVmVvR1NXZm9aZkxXNWp4YWVZdnV3cWF2b2hkb1A5anllQzdZdzNUeFUyT1VELXJzcTNYY3RfVUUxazRQVWdlVlE2WnN1LTJIUXlzU3NpU1ZDcFBEenhqQUNLbmFDeDhMeG1FejZuSWExUnJkRldndTYwdDlHWENsVHZPdngxRUJHYmtRZmpKR1RCS1ctcVc?oc=5",
-      "published": "Wed, 30 Sep 2026 20:06:25 GMT",
-      "summary": "Not just ocean: How Maersk grew its US logistics capabilities&nbsp;&nbsp;Supply Chain Dive",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-01T04:06:25+08:00",
+      "title": "As e-commerce speeds up, 3PLs keep pace - Logistics Management",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRUo4Ym1qT2xIb1BGVnVoUWFJWGRxWnJkVUduZEFnY3ZYbk1ZeHd1QUZwM19LSjBIZjY0b3YxVEY1Zk1LS2FrQ19lV01XcjBqQ2l3bXRVZC01UlUwYTRKZFVjdnNkQmJTZmtoUm5mXzNyVHdZMnVlMllSV0FWbTNuclhn?oc=5",
+      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "summary": "As e-commerce speeds up, 3PLs keep pace&nbsp;&nbsp;Logistics Management",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-01T15:00:00+08:00",
       "source_detail": {
-        "name": "Supply Chain Dive",
-        "url": "https://www.supplychaindive.com"
+        "name": "Logistics Management",
+        "url": "https://www.logisticsmgmt.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "The National Competition Commission warns that recalled products abroad pose a risk to Vietnamese consumers. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT0E3MEhLbGNudXI4RFRNam5maW82N1dUVk9OVV9IM2lRRFF5V3o4eExXSl9zLUxGZk9GZEwtM0t2Y3BSNHFTM3lZQmdSX0k2U3pzc2UwRVNHMWF2WkdFNUNjaktuVEVGdFB5TVc5dzJpRThUTnpIVDJwQ2xwN3RlakFkUGtIMkFzeHpuTGNlQXBXSWREN0Nsel9hZl9GRWxmYkhhSHhLdW9xVFRLS0RscXZTUmlxQjFUV3RfVzI2aHk5aXFUOVR2cnJGc2Z5TkdOOHJDQXMyQ0E5Zw?oc=5",
-      "published": "Wed, 30 Sep 2026 13:19:35 GMT",
-      "summary": "The National Competition Commission warns that recalled products abroad pose a risk to Vietnamese consumers.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-09-30T21:19:35+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Walmart recalls 4.4 million grill brushes, CPSC says - KWKT - FOX 44",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORkNkcE9fa3JsSVdaT3lFOXZZaUhxeGlSeE9VdjB0bUtFemtBZEF4QXM3eUlGWmN5UEg2YVF5bkREdkU4V180Q1RlVzRSUzNJS3UyWGQ2dHE1SGNMM2o1aVVwWEFQZ0NPbmxaRGJtVldkWWdLM3A1UUlfMmMyYWpiU3o4MzdhQ3dUeURuS1drV19xYmF0QjVXUXBXYXZTZ9IBowFBVV95cUxPcllZM1FlZ3Z3VktfMUFBZ1VrU0VpdTJjNDVPOGc5blJKWkl4M3h2dUk0OVlEbkFHQWFLQkd0WnRQVHI4U0d1Mlg0MV9aQ3dMQkZ3YzF1dHVCTTZaWHNFQi1RUWZtdUl2cVZLRW1PWVYxaThQSTBxbE1MbHRobnNJVmRsTE12OXN1dWNZOGVwcktQVkVQd2M0ZWhxcEhkT0pGWHRB?oc=5",
-      "published": "Thu, 01 Oct 2026 21:52:33 GMT",
-      "summary": "Walmart recalls 4.4 million grill brushes, CPSC says&nbsp;&nbsp;KWKT - FOX 44",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-02T05:52:33+08:00",
-      "source_detail": {
-        "name": "KWKT - FOX 44",
-        "url": "https://www.fox44news.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Product Type Market To 2035: Digitalization and Circular Economy to Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaVgzbUhRRzBrQ1VZWkhUUFUtMTc4TEd3ckZJaXhNWFpVdzBXZ0dDNWlDWVRTV1R1YWtOdFBaZnR1LTZKNWljMm5vZEUtUTdNRG9uV0hJdkNfQjNVelFmZy1rbmhKYnVBdmJGX0gwYUlEZFEtbGpQdkd2ejczVmhaaWZhSm5GZnVBR2YwT2Rwc3BJUF9rTlpMeDVtNkZ2VGNBS2xhaGlXUGZRd1V6OXFEbmRLUVNtVFNyWVE?oc=5",
-      "published": "Thu, 01 Oct 2026 18:41:04 GMT",
-      "summary": "Product Type Market To 2035: Digitalization and Circular Economy to Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "title": "Inventory Tags Market To 2035: RFID and E-Commerce Fulfillment Fuel Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMDFYU1ltdzRoTzdvNjRNeE4zcU5fNWdsdEtndndsc2k1ZzFPRno4aUduTWZxQnd5ZDBzYVFPOE1qTGZLemlWUXZFN2lzV1liRUZrdHk2M0M4cndOWlMwLWdTTERKT2dTVW4tRFd3R09oT0hMTWxtVDB1QURUZ3RjV2pNSkh4ZmJUY2xJam9CcXBSc09lN05qcXRpRjNsN3p1VlBGUXdZTUFhUTdyQ0huQ2YzMTFWa0c0NjhURzNmRWdIMlU?oc=5",
+      "published": "Sat, 03 Oct 2026 14:16:05 GMT",
+      "summary": "Inventory Tags Market To 2035: RFID and E-Commerce Fulfillment Fuel Growth - News and Statistics&nbsp;&nbsp;IndexBox",
       "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-02T02:41:04+08:00",
+      "published_beijing": "2026-10-03T22:16:05+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
-      "link": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
-      "published": "Thu, 01 Oct 2026 17:56:18 GMT",
-      "summary": "Fears that US deficit is unsustainable also drive UK 30-year bond yields briefly above 6% for first time since 1998Business live – latest updatesThe global bond sell-off intensified on Thursday, driving 10-year US government borrowing costs to their highest level in 24 years in a frantic day’s trading.The threat of a renewed round of inflation from the persistently high cost of oil has spooked investors on both sides of the Atlantic, with central banks expected to raise interest rates in the com...",
-      "source": "Guardian Business",
-      "full_text": "Fears that US deficit is unsustainable also drive UK 30-year bond yields briefly above 6% for first time since 1998Business live – latest updatesThe global bond sell-off intensified on Thursday, driving 10-year US government borrowing costs to their highest level in 24 years in a frantic day’s trading.The threat of a renewed round of inflation from the persistently high cost of oil has spooked investors on both sides of the Atlantic, with central banks expected to raise interest rates in the coming months to prevent price increases from becoming embedded. Continue reading...",
-      "published_beijing": "2026-10-02T01:56:18+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
+      "title": "Transport, Access Cradles and Loading Bay Equipment Market Forecast to 2035: E-Commerce Logistics to Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQR2d3ZE5zRjVqUFd2bUNOUFlLcnQ2NlYyM0VqRXFOMDdPNngwTXNNY2lrenYwZzVqQldFdS1vQ1JXWG42aGh2QlBkYmUxRXJ2YkRGUmxDQUJYV2F6WldxYkVPZ2xCQzB0M20yS1otZjhXTk1jZHJsSThKZ25aNWFmQ1FnMG14My1EVUxVeUhsSHZILTNXVGdHLVJfU0dEN0FYbEZfa3VZTWRud1VVYllYRVlhQVpZSnJGQkRULVQ4Qk9TX3dxRzY0YkpOb1Qxa3VDUDA1TGtJb2FKVXp1MlRha2FPWQ?oc=5",
+      "published": "Sat, 03 Oct 2026 11:46:04 GMT",
+      "summary": "Transport, Access Cradles and Loading Bay Equipment Market Forecast to 2035: E-Commerce Logistics to Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-03T19:46:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Walmart recalls nearly 4.5 million grill wire brushes. Here are the impacted brushes - KY3",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHdvcDQzUG5ha2s0VlItN19PUjRrdU9uUUJHU082MTZwNDZMV19Kb083Uy0tMGF4T1J1SFptNUJoQ2dfaUh5TVY0Nkc5dmNRdjV0bks3NEtZWDJXdTJCQ2NYcFNuSmNvQ3VfZzUxc0ItRVlLY0l3ZXJqdlhPY1o1bVRJQXdRZ3U0UEpORVFHaFZLd3JBS2Y4eGRlUFpOTHhRbXFvUFloRXYzVUdJd3NsVnNyWmFidS1nMl9DcldSUEJraFnSAcMBQVVfeXFMUHR3b3A0M1BuYWtrNFZSLTdfT1I0a3VPblFCR1NPNjE2cDQ2TFdfSm9PN1MtLTBheE9SdUhabTVCaENnX2lIeU1WNDZHOXZjUXY1dG5LNzRLWVgyV3UyQkNjWHBTbkpjb0N1X2c1MXNCLUVZS2NJd2VyanZYT2NaNW1USUF3UWd1NFBKTkVRR2hWS3dyQUtmOHhkZVBaTkx4UW1xb1BZaEV2M1VHSXdzbFZzclphYnUtZzJfQ3JXUlBCa2hZ?oc=5",
-      "published": "Thu, 01 Oct 2026 16:36:00 GMT",
-      "summary": "Walmart recalls nearly 4.5 million grill wire brushes. Here are the impacted brushes&nbsp;&nbsp;KY3",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-02T00:36:00+08:00",
+      "title": "Conveying / Accumulating / Lane Dividers Market Forecast to 2035: E-Commerce Fulfillment Automation to Drive Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYk40MkM2dzhMb0JEQUNuYV95aVVQdnIzQmRHRGZtWHc5R0tyUkpUU1dfSGgxLWlBUW5YVXpUVFdFeXBXekFsWXlSRG10dEFseGkwelBDNHA0XzdTU2tFdkVob05zLXRVTUFpbElXdzlNUlgzUTZMWW5kQXNCMElnOWJYNE9OcG54blFMQWw0MV8zNDVCcGNxVE80ODlIc1ZwWmFRLXJ4dWZsQWFsWUZRaEpobElWU1VobTBBdEMzRmZGRGZsOFdMdnB3Y29BN2hLb1F0NVh1SQ?oc=5",
+      "published": "Fri, 02 Oct 2026 22:56:04 GMT",
+      "summary": "Conveying / Accumulating / Lane Dividers Market Forecast to 2035: E-Commerce Fulfillment Automation to Drive Growth&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-03T06:56:04+08:00",
       "source_detail": {
-        "name": "KY3",
-        "url": "https://www.ky3.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Haulage Equipment Systems Market Forecast to 2035: Automation and E-Commerce Fulfillment Drive Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZU1xS1BsYldkbllpRVV4WHp6eGtpUDRzZDdoN0h1d2JsQVREeENESzB1QU5mSFpzbWwxWFRTSk94LTRNYWVjaEN4T1NEOUhJQTVBSjhUV3l3bFJoZ0lMMF91YVdwOHdZMVRITTBibU9vUWdld2kyLUs5SDljX3FhUEcxNmRNbzJFZHo2bXBOX1lYR3VHcFpRZnNOa1FKVjhnV1ZNbUJ2NmFrN1luOTZpaDdwM1ZGd2xFdXN3NEVROFZOWVB0eE1KUFBB?oc=5",
+      "published": "Fri, 02 Oct 2026 19:21:04 GMT",
+      "summary": "Haulage Equipment Systems Market Forecast to 2035: Automation and E-Commerce Fulfillment Drive Growth&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-03T03:21:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Last Mile Equipment Market Forecast to 2035: E-Commerce Parcel Demand Drives Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1VKZ0x0MlV0Qm9wMVd1dlVNeEJSRF9EUGNFNHFYT0JURHVSU244SXJPQmRvOHViQWhsUFowaERUOG5CMXE1NHYwdC10b3Y0ZHowQXotVmQzS2ZGV2FZVXBqb05XMXNsaXJFQWdieU9kRHNTQ1AyaXhWUUl5cGlzLXBuUGRxbFJrSlNyZ0dGSUZZcWhVb1RjSExSQTVIVlhzSjliQ20wSlZwUVNpUHFGc1VB?oc=5",
+      "published": "Fri, 02 Oct 2026 16:51:03 GMT",
+      "summary": "Last Mile Equipment Market Forecast to 2035: E-Commerce Parcel Demand Drives Growth&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-03T00:51:03+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Carton Taping Machines Market To 2035: E-Commerce Automation Fuels Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc09LeUd0eDRZTlJJWEFteUJLOFJhZ1BDZ3lHejN0UlZiRzAxbVMtT2h6OV9XTm1MN1Z1MnVXWFJMLWZzUk5pZjJ6Um9vTjlqYXMyaEt2VmlOVzVtcDNMOHFXNDBqQTlOY0lSNnRHNm1WYXFleWpJTDVrZld0M0MtM3NOTTB1T25Yd3RXYzFuLU8teVB3dVJ5dGxqR3FrLWhjc3BOU2xTV0RGeHpaaHFBZHh0WEpjdjZHV0JsQVhRMTFsOEtUeEE?oc=5",
+      "published": "Fri, 02 Oct 2026 16:31:04 GMT",
+      "summary": "Carton Taping Machines Market To 2035: E-Commerce Automation Fuels Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-03T00:31:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "7 e-commerce mistakes that can slow peak season growth - KMVU FOX 26 Medford",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMC1yb0ZCTk5MaGhheDltU3UtOHB6NnpBRUJKTU10X0hwdXh0dk9NUWtTamJRR2VfRWp6WDh2azVOVFk1d0VGWWtaSGY5RHNuclBJNTQ3UlNyWlY4QjZubnV6MXlFc1JXTUUwUGtvbGxVTFR0VVdNYlFpQlN3Wi1wZDZNTDJ0MjYtdk9VQ3VTQmMwSEtyTzF4LTlpdDI4c3hpdU5ncXhMbFhJYURta2V6VzVQTWZXczNBZWpKSzV1Y3JnSGxqX01EdHZ4VVRWdnBLZjhveQ?oc=5",
+      "published": "Fri, 02 Oct 2026 15:30:05 GMT",
+      "summary": "7 e-commerce mistakes that can slow peak season growth&nbsp;&nbsp;KMVU FOX 26 Medford",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-02T23:30:05+08:00",
+      "source_detail": {
+        "name": "KMVU FOX 26 Medford",
+        "url": "https://www.fox26medford.com"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Walmart recalls 4.4 million grill brushes, CPSC says - SNN News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYl9LV1l2NHBiY2dfTkNibEdyTFYxbjg4bUFjYzJTVTkwekRkZXBvaUlVOWtIRGtvTUtwWlNwbjhHel9XTUNpZTlHbGw2T2p3N2NrUDlyLXM0VlBDTlhEQlNjMHJhd2RPZUF2NFc1MU1jQ2tDS2p0QWJiVEcwTzRRSVpoUTdINjY4SEFTdjc4bDMtUGN1eHN6VDVacUNiTUJhUXhvaHVCb205YTN10gGjAUFVX3lxTE9lTFBoeU9EUHdxQ1p1aDIxOVJvNUtsdXFJb3d2QUVyc1BSX2RsLUFyeU1jNXRNNF9DRTBsSk5ZdERLVTM3cVZ4dE9ETzlvQkFRVzEtQVBZcDdvSnBsUXdiejlMYkd1Y1o5NGZQQTRwQS1tSzlVdW5XYnpjdU5RenJUX2k3X0QyUmdUSUVWaEVOZzh1d0JtM19Ld3RCSUtScUhqSDQ?oc=5",
+      "published": "Thu, 01 Oct 2026 18:16:28 GMT",
+      "summary": "Walmart recalls 4.4 million grill brushes, CPSC says&nbsp;&nbsp;SNN News",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-02T02:16:28+08:00",
+      "source_detail": {
+        "name": "SNN News",
+        "url": "https://www.snntv.com"
       },
       "priority": 0.0,
       "category": "关税+合规",
@@ -134,12 +185,44 @@
       "relevance": "low"
     },
     {
-      "title": "How to buy products from 1688 to Australia [2026] - WorldFirst",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQzFWUzdiYzlqZmpFWXo5Q2xqamlVdlNaUEZabnRTZDlVUi04a1VSZnd6QW1YQmZaMFh0RmRVdlhZSTEzb21PcHdmdVByMjFrd1ZnRHNOd0pnZndRS1RPQURyX3JRSlBkRzBTTENzQ3dURjBVRUxwTmxDM0lxZWRaaWlvWFJ6NjFoVFFHRE0zN3BHUDRh?oc=5",
-      "published": "Thu, 01 Oct 2026 14:24:20 GMT",
-      "summary": "How to buy products from 1688 to Australia [2026]&nbsp;&nbsp;WorldFirst",
-      "source": "GNews | Returns/Last Mile",
-      "published_beijing": "2026-10-01T22:24:20+08:00",
+      "title": "Urgent recall: HotHands & Gobi Heat rechargeable handwarmers pose fire risk. Check your model numbers now! - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOW1jRUtJS1paOE5teUI5dXlPdDhqWWZXaUo1NU9JU0EzS1lONnY0QVVxYnM2TTFPMWR1MGJvbVhWaWw3M05yYXpZVW40bkU4R2V4NDBRWlk1Y21meF9xUk5DajRqWDVnTlFSeVowS1czVEdaU3JVcTRPUGJNMTlGa2tHMGN3N1plajltOVVOUDJ2MG0ya0tIRmV2U3A5czVZYXJDS0NvLXRRWjlubHNucjlzcG5wRjdlYlAxU0Z1T0hhXzZrTEkweWFwZmdLQjd6NGVRc0dUZk9pdw?oc=5",
+      "published": "Thu, 01 Oct 2026 17:47:39 GMT",
+      "summary": "Urgent recall: HotHands & Gobi Heat rechargeable handwarmers pose fire risk. Check your model numbers now!&nbsp;&nbsp;facebook.com",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-02T01:47:39+08:00",
+      "source_detail": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Photos: A list of some of the food recalls in 2026, including meat, eggs and Taylor Farms lettuce. See link below ⬇️ 📸 FDA - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRThiem9XV2dlcTE0N3lFd08tRmdjUGxldC00TnU1NTFaTkpGcTRDalBCejdyRGJISWwyYk5FaGFBYjFWZnhzRExWSERoS05Ud3dmVVV3Z0FFQ2FjMVF2YzBYdndBNGxjT09iLTlnekVzWThDd25GRExDYjFGNmJaNVE4aTllX1J6NVZhVmlTUGpaTFZCbXhiSWE4UE91UjVFd29WdEVVZ2p4WEpGaVNlREx4MUNBYXpLb29uc0dYemM1Z2Q1OTdsRUw3YmtrUE1xX2FBTm1Vc2FKZDhPT0ZB?oc=5",
+      "published": "Thu, 01 Oct 2026 17:15:10 GMT",
+      "summary": "Photos: A list of some of the food recalls in 2026, including meat, eggs and Taylor Farms lettuce. See link below ⬇️ 📸 FDA&nbsp;&nbsp;facebook.com",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-02T01:15:10+08:00",
+      "source_detail": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How to sell on Lazada from Australia: Guide for cross-border sellers [2026] - WorldFirst",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMXZyc0dUcXJXVzFqeEZpSzlYeE1nRzhhUG5iQVpmY2JJd0wwNkFONmVSMW5abUltUHhvWXVqQ2RUQmVLdDRmbmducm5LWEoyU0Q3cGhmMFM0emZzU29lWTZ3d0g2ZjRydkhDZEcyX3gtRXVXNDVmVTFWNnBUTDR4XzdGV2NFZ2l5TXVUek1acU5CWjBGdXFUSG4yUjM2QQ?oc=5",
+      "published": "Thu, 01 Oct 2026 16:05:59 GMT",
+      "summary": "How to sell on Lazada from Australia: Guide for cross-border sellers [2026]&nbsp;&nbsp;WorldFirst",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-02T00:05:59+08:00",
       "source_detail": {
         "name": "WorldFirst",
         "url": "https://www.worldfirst.com"
@@ -150,47 +233,15 @@
       "relevance": "low"
     },
     {
-      "title": "Walmart Recalls Over 4.4 Million Expert Grill Brushes Due to Ingestion Hazard - CPSC.gov",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOak9ycGdIcjk5cFJodHUwc09sSnZnUUtuSEhLdDZ5RTk0NFpUYm1aa0VQdlNWV0g1eEZNel9SbWZXUG9rX2dpQ2ZYdVQtTllTYVNJdEFCUm5FdVNTTnVOZlIzRHNsTDRSTER0eUlJa0RaUl9WQnhQZ3NIa1h0N0ZCRXZhcFJ6U2p1SkkyUElKRE5McHhqeXQ5VGZ0WElEM25VWDBDNUFFYjQ2RHlsT2t6cw?oc=5",
-      "published": "Thu, 01 Oct 2026 13:11:53 GMT",
-      "summary": "Walmart Recalls Over 4.4 Million Expert Grill Brushes Due to Ingestion Hazard&nbsp;&nbsp;CPSC.gov",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-01T21:11:53+08:00",
-      "source_detail": {
-        "name": "CPSC.gov",
-        "url": "https://www.cpsc.gov"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "SHEIN Global Holdings (SEHK:625) Profit Fell As Tariffs And Levies Rose - Simply Wall Street",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTmlHNXU5SVB2dERJS0gtd05kQS15VVkycG0xLVJxeXp2MWFDNEZFUndBQ0Y3cGkwNnFHMFBhTk9BTzN2VmYycExtT1Q3TzNROGtkVmRQOTVtRHdheEk2OC14MEtySzk2WjctRnQxSEo1YTdQZDdXUGp3OTUyVFBEdmMwVjNfaWJwUklUOGhjcUtxOHZ0UTZpVTIxc2xOQ3FDc0lCMkRwVjJEa3BLOHU1VjhCWHh6SXM0b2h1b3dLQ1dLTF9yUndUU2wyZlhsM3BqQUR4ZEpxejfSAd4BQVVfeXFMTmYtc0lZc3lyRzBKZHN3ZXQ2cXgxaXZkeHlQNWJKWFpLd0wtd0tyTjAtUFpYSW8tUVdfLS0xWm5VOUphaEp4cFJLc2dTS0xwU3ZNMjBra2lTSWFaNGI2aE5sbUVqaDNoYk9wX2tCOUh0ZklYeXpiajdVUU9wMmdBaGRDSmxWNnplaXlORUxRUnVzU0g1RUh3RmlfRUpMMV8zWEt2Wk9fNU1DU1plQjBqcTlkWmt6S2tDZUlTQ2h2S1l0ZDhGZ1R6aXhLbWs5OVQ2OWJLclNrNTJMUUpfSkNR?oc=5",
-      "published": "Thu, 01 Oct 2026 12:11:16 GMT",
-      "summary": "SHEIN Global Holdings (SEHK:625) Profit Fell As Tariffs And Levies Rose&nbsp;&nbsp;Simply Wall Street",
-      "source": "GNews | CN Seller EU",
-      "published_beijing": "2026-10-01T20:11:16+08:00",
-      "source_detail": {
-        "name": "Simply Wall Street",
-        "url": "https://simplywall.st"
-      },
-      "priority": 0.0,
-      "category": "中国卖家视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Luno Pivots to Institutional Crypto Services Following Bermuda Licence and Restructuring - streamlinefeed.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1rc1d6Ymw0c3BTcGlKTkVPeC1sUzFOLTBCWTJmRUxCNEdLZG9WdGtYRkRxTFJkTGh1ZkRTYjFOcG9zMkVuc2wxSGNrcmMydE1EUVRFYWdZQTBadEtNZTNOVm52eWFhOFdNSHAzcEd1bEtsOE54WU1meFh4Zy1FMThpYWs0YklnbTBvLXVCQVMwYzVMczByQlZYdGVzTWtZZ3BiTVQ2YXV0bmVid3RmYUpETUJPZ3czNzRYWWdQVQ?oc=5",
-      "published": "Thu, 01 Oct 2026 11:29:38 GMT",
-      "summary": "Luno Pivots to Institutional Crypto Services Following Bermuda Licence and Restructuring&nbsp;&nbsp;streamlinefeed.co.ke",
+      "title": "Hectofin Financial Connects to 'OpenUSD' Following Circle... Expanding Stablecoin International Payment Network - 벤처스퀘어",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xN2xhVUk2dmlvRzl2elZ3aVJMeVpoZlk5TmhKdF9QTkhma3ZlUUowcjBCVWJZa214MC1KSENRdXJmcHBFSmVMU3U5aHpnU2NpRkFJ?oc=5",
+      "published": "Thu, 01 Oct 2026 13:54:44 GMT",
+      "summary": "Hectofin Financial Connects to 'OpenUSD' Following Circle... Expanding Stablecoin International Payment Network&nbsp;&nbsp;벤처스퀘어",
       "source": "GNews | Cross-border Payment",
-      "published_beijing": "2026-10-01T19:29:38+08:00",
+      "published_beijing": "2026-10-01T21:54:44+08:00",
       "source_detail": {
-        "name": "streamlinefeed.co.ke",
-        "url": "https://streamlinefeed.co.ke"
+        "name": "벤처스퀘어",
+        "url": "https://www.venturesquare.net"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -198,57 +249,153 @@
       "relevance": "low"
     },
     {
-      "title": "I went to America’s largest gathering of astrologers. It was a battle over how to read the stars",
-      "link": "https://www.theguardian.com/science/ng-interactive/2026/oct/01/united-astrology-conference",
-      "published": "Thu, 01 Oct 2026 11:00:49 GMT",
-      "summary": "Now a $15bn industry, astrology is more mainstream in the US than ever. But its practitioners are still debating: who gets to have authority on the celestial bodies?“The dwarf planets change everything,” said the woman with the smart haircut as she made a mind blown gesture with her fingertips, temples to air.I am at the United Astrology Conference, the largest professional gathering of astrologers in the world, in downtown Chicago. Around me, vendors are hoping to excite the 1,500 attenders, fl...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-01T19:00:49+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "“The dwarf planets change everything,” said the woman with the smart haircut as she made a mind blown gesture with her fingertips, temples to air.\nI am at the United Astrology Conference, the largest professional gathering of astrologers in the world, in downtown Chicago. Around me, vendors are hoping to excite the 1,500 attenders, flogging books, tracts, affiliations, proprietary apps and various software programs that have replaced the laborious chart-drawing of yore.\nI admit, I had come expecting a crowd flaunting amulets and sweeping cloaks. But apart from the occasional streak of purple hair and wispy wizard beard, what I encountered was an even weirder normcore of podiatry-sensible footwear and Oxford button-downs. At a glance, it could almost have been a trade convention of insurance adjusters: experts gathered to contemplate the future, assess risk, gauge the impact of events beyond our control.\nIn that sense, the room reflected astrology’s broader transformation. Astrology is now a $15bn industry. From the marginal, it has crept into the mainstream. A 2025 Pew Research report found that 30% of American adults consult astrology, tarot or a fortune teller at least once a year, and 43% of women under 50 claim to “believe in astrology”.\nBut its influence on the zeitgeist has hardly made astrology more settled. As I sat down with my interlocutor, her companion Alan Clay, founder of Dwarf Planet University, tells me the mainstays of the solar system can only get you so far. Recent astral discoveries, he said, have enriched the picture, offering a view into the unconscious through bodies drifting in the Kuiper belt, billions of miles beyond the sun.\nOn the wall behind his booth, the price of a reading has been slashed from $29 to $9.\nHe pulled my chart, a term that I learn carries tremendous weight, something between destiny and the template of my very being. There is the dwarf planet Makemake in my fifth house (I too, had to look this up), which carries bold implications for creative expression and, less attractively, secret or potentially bruising sexual affairs.\nSome of this resonated. And therein lies the problem. Part of astrology’s current appeal is how quickly it can make itself feel personal – and persuasive.\nLike any sufficiently established field, modern astrology has developed its own hierarchies, factions and grudges. There are fights over tradition and fears about AI; impatient zoomers butting heads with baffled boomers; older men with reputations for harassment; and quieter epistemic disputes. (Has no one noticed, for instance, that almost all the planets are male?)\nBeneath all of it was a more fundamental question: who gets to interpret the stars?\n“Astrology is the oldest of the occult sciences,” writes scholar Benson Bobrick in his 2005 history, The Fated Sky. “It is also the origin of science itself.”\nFor millennia, people have looked to the heavens for guidance and meaning: when to hunt and harvest, how to navigate the seas. The night presents a tapestry of gods and heroes, myths and parables. The stars are indifferent to these projections, of course, but they reveal a great deal about the people making them.\nThe basic premise of astrology is that the configuration of the sky at the moment of your birth leaves its imprint on your constitution and life trajectory. As above, so below. If in the past, the stars reflected a collective social order, today they are more often treated as a vast personal mirror.\nThe principle is straightforward. What astrologers make of it is not.\nI arrived at the conference, which sold out of its advance weekend passes, with what seemed like a simple question: what does astrology mean to the practitioner in 2026? Moving from room to windowless room, I quickly realized the question was less simple than naive.\n“Astrology is really an art form,” said one seasoned practitioner. “There is the technical component, but it’s mostly about understanding human behavior.”\nTo another, it was a spiritual practice, a means of communing with the ancients. It was unscientific, and also “not not a science”. It was a field of infinite study: “We’ll never get to the bottom of it.” It was moreover a language, composed of symbols and competing dialects, but nonetheless extant. “No one questions whether Spanish is real,” the astrologer Samuel Reynolds told me.\nAnd yet, in one lecture I attended, Mark Jones, an astrologer and psychotherapist, opened with the controversial claim: “Astrology is not real.” At his words, a murmur rolled through the room, before he elaborated: “not in the sense that you are”. By his telling, the planets exert their influence on the psyche through a theory of object relations. He clicked through slides, and spoke with great authority on the spatial impact of Neptune and the role of the moon in the developmental self.\nBut that notwithstanding, he said: “The single biggest problem astrologers have is that they believe in astrology too much.”\nJust what to believe in and what methods to follow are open and contentious questions. “There are as many branches of astrology as there are astrologers,” one attender told me, before rattling off a list. There’s horary astrology, an oracle for a single moment – is the person I made eyes with on the subway someone special? – and electional astrology, dealing with the timing of events (one woman told me that, much to the chagrin of her friends and family, her chart dictated a 7.30am wedding.)\nThere’s also evolutionary astrology, which maps the soul over lifetimes; mundane astrology, concerning politics and society; and medical astrology. It goes on: relational, predictive, Jungian (the Jungian vibes are strong).\nAbove all, it was presented to me as a kind of security blanket: a system for understanding the inexplicable, a way to make sense of a shitty day, a means to grasp the contours of current upheavals and find solace in their eventual end. During Covid, one astrologer explained: “People were really looking for answers. They were like, ‘Sky, tell me what’s going on.’”\nThe 185 experts who presented were doing what people at conferences do: establishing hierarchies and professionalizing a crowded, competitive field. A conference, after all, is an occasion for conferring legitimacy and codifying the rules of the trade.\nIn astrology, this raises some obvious complications. If you are claiming to see something about a person’s future, what are you responsible for telling them?\nSome clients, I was told, “just want the good stuff”. Other practitioners prefer to rip off the Band-Aid – if dark days lie ahead, it’s better to make an ominous prognostication so the afflicted can prepare or hunker down as necessary.\nBut what happens when you get it wrong?\n“There is no wrong,” Clay told me. “There are different interpretations. Right or wrong is a Saturnian construct, it’s useful but doesn’t help us understand these new energies.”\nThat is not, however, the abiding consensus. One of the conference seminars was devoted to learning from readings that went awry.\n“When people are giving predictions, there is at least a five or 10% chance that it’s not right, and the stakes are huge,” said Kay Taylor, president of the UAC and the Organization for Professional Astrology.\nAnother astrologer illustrated the stakes with a story from her own practice. Based on her reading of a client’s chart, she concluded that both of the client’s parents would die within the year. She felt obliged to convey this information, whereupon the client quit their job and moved across the country to be with their parents for the end.\n“But they didn’t die!” She exclaimed with surprising pride.\nThat was years ago. Mom and dad are still alive and well. Yet the astrologer assured me that even though the prediction was off, the message remained sound. Her client got to enjoy some bonus time with her parents.\nGaffes like this are what make training critical, I was told. No fewer than six professional organizations were sponsoring this year’s gathering – the National Council for Geocosmic Research is the only one without “astrology” in its name – and they offered various routes to affiliated credentialing and curricula, ranging from astrological markers of ADHD to advanced training in asteroids.\nCeleste Nash-Weninger, from the American Federation of Astrologers, told me: “Every person is a complicated mathematical formula.” She used to be intimidated by the graphs and numbers, but after taking recommended courses – “and they’re tough: eight hours of math and delineation” – she has confidence in “how the heavens move”.\nWhether advanced math is required for mastery is open to debate. But there is one thing nearly everyone here agrees on: technology has made astrology more accessible – but also, some practitioners worry, diluted its expertise.\n“Before, people had to do it all by hand,” said Leslie Benson, an astrologer who works for AstroGraph, maker of the popular TimePassages app. “You had to have an ephemeris, where you looked up every placement. You had to draw it all. Now it’s instant.”\nMost have eagerly embraced the new tools; after all, if software can do the calculations, practitioners have more time for the interpretive work. But they also remove one of the barriers by which skill was once recognized.\nArtificial intelligence is where most everyone here draws the line. Of course, AI was inevitable: Pluto is in Aquarius and Uranus is in Gemini – yikes – but the contemporary astrologer, at least according to one seminar, must safeguard the personal and spiritual component of the work. “Embracing Uranus,” it advised, referring to the dark trickster of the cosmos, “without losing your soul.”\nCo-Star, the astrology app that has brought personalized charts and algorithmic readings to millions of users, is notably absent from the conference, and attenders clucked in disapproval over news of its recent acquisition by the AI startup Midjourney. The technology that made astrology"
-    },
-    {
-      "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
-      "link": "https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
-      "published": "Thu, 01 Oct 2026 10:49:24 GMT",
-      "summary": "Hostile states could access cameras, microphones or GPS, says intelligence agency amid concerns over Chinese importsDrivers have been warned that the smart features built into modern cars such as microphones, cameras and GPS trackers could be used by hostile states to spy on them.The Dutch General Intelligence and Security Service (AIVD) called for “awareness of espionage risks around modern vehicles”, including microphones that can by switched on remotely to listen to conversations. Continue re...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-01T18:49:24+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "Drivers have been warned that the smart features built into modern cars such as microphones, cameras and GPS trackers could be used by hostile states to spy on them.\nThe Dutch General Intelligence and Security Service (AIVD) called for “awareness of espionage risks around modern vehicles”, including microphones that can by switched on remotely to listen to conversations.\nIt did not mention an individual country, but the warning will add to concerns around a recent boom in Chinese car imports into the UK.\nIn a translated document released on Wednesday, the AIVD said cars were becoming “increasingly smart” with digital systems that collected data and connected to the internet.\n“On the one hand this offers practical benefits, but on the other hand these systems collect a great deal of data about occupants, the vehicle itself, and about objects and people in the vicinity. Various parties, including state actors, can gain access to this data,” it added.\nThe alert follows reports last year that British defence firms working for the UK government had cautioned staff against connecting or pairing their phones with Chinese-made electric cars, owing to fears that Beijing could extract sensitive data from the devices.\nChinese-owned brands now account for 15% of all new cars registered in the UK, according to the Society of Motor Manufacturers and Traders, almost 175,000 vehicles in the first half of 2026 and more than double the same period last year.\nModels by MG, BYD and Jaecoo, whose parent company Chery is part-owned by the Chinese state, have led the surge, popular for their low price and in-car technology. The Jaecoo 7 was the UK’s bestselling car in March.\nMPs have raised concerns that China’s national intelligence law requires its companies to assist the state’s intelligence services when requested.\nThe UK Ministry of Defence has said it is working with other government departments “to understand and mitigate any potential threats to national security” from vehicles.\nThis year, the MoD reportedly banned cars with Chinese parts from sensitive military sites, including RAF Wyton in Cambridgeshire and the Dorset headquarters of Britain’s maritime special forces, the SBS.\nThe AIVD said it was “technically possible to activate” microphones and cameras remotely in some cars, allowing malicious actors to “eavesdrop on conversations” and “make recordings in and around the vehicle”.\nThe agency added that drivers should “not hold confidential conversations in or around the vehicle”, or “use a vehicle with an external camera when travelling to a sensitive location”.\nIt also said connecting phones and other devices, either via Bluetooth, wifi or charging systems could allow malicious actors to “extract data from connected devices via the vehicle”. The AIVD suggested systems such as GPS navigation systems, telematics modules and charging stations could all be used to gather and send data about the car and drivers’ whereabouts elsewhere.\nOn Wednesday, MI5 issued a rare public warning to UK universities to stop working with the China General Technology Research Institute, which it said was being used as a front by Beijing’s intelligence service to pay for research by UK academics and steal the secrets of hi-tech projects.\nThe Chinese embassy in London issued a strongly worded rebuttal, describing the accusations as “imaginary and purely fabricated”."
-    },
-    {
-      "title": "Are squishy toys safe? What experts want you to know - NBC10 Philadelphia",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck1ZR2dwV3FUUlp4NW1HM1h6MC14dFFicUVQR0RTbWQ1U0dXQnFyU3gyNTZZa1JlTDNtS0ViUng2aGJ4RXVaTEdBek1DV0V6WXpEcGZ2YXZ3c2lsblMybkpEVzl6RWVlZXhaY3FNLUdDeW9lekQ4MjNJX25wUlBXejg5ek15UDBBU2hMelpTdmtBTWgweG4tVmtSWDjSAaQBQVVfeXFMTm9qQkxlUldrZ3h5YnBVT0dpWVpqTV94RERrdHZOXzNsaHF2dmpwbkNIZnBJaHpWb05BaDZ3T1VHRlBBVUxUcTRac01MTDBiOE8xRjA5NnNQbnhsWHpFS01XSXZzaXJCTEFxRDNPOUh2aVhnb3lEdkJPY1pyalZLUHNLaTA1UjFiUmtQTXFGczg4YkNpNVRvV3lxMkZwNU1xRXdncVc?oc=5",
-      "published": "Thu, 01 Oct 2026 08:22:18 GMT",
-      "summary": "Are squishy toys safe? What experts want you to know&nbsp;&nbsp;NBC10 Philadelphia",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-01T16:22:18+08:00",
+      "title": "Truck Loading Devices Market Forecast to Expand by 2035, Driven by Warehouse Automation and Safety Mandates - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT3hQcmItdkF3UWhqS0l3MF9mTGNQa3M3a0NCWF94Y2FoNTB0czJUOGVQOU1FLUE3cnd4SV84azZ1LWJVU2tSQ1pTdTVSQ0dmWE1jWS1vYktOZXBiZkVsVEwtbnI1OE5pdEFPZ0pONGg2Q0RMcDJQMU5YZTJuM1R3TG5mdi11ZGlHVW1YaTdCU3pVeG05dklKZWFlRU1WdkpmUk5FcGFpZXhwdF8xZ285Smc2YjVEOFM5dzM3b0V2d2cxMzBsMnhzLVNRWEhaVlA5LVE?oc=5",
+      "published": "Sat, 03 Oct 2026 21:46:04 GMT",
+      "summary": "Truck Loading Devices Market Forecast to Expand by 2035, Driven by Warehouse Automation and Safety Mandates&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-04T05:46:04+08:00",
       "source_detail": {
-        "name": "NBC10 Philadelphia",
-        "url": "https://www.nbcphiladelphia.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
-      "category": "关税+合规",
+      "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "UK house price growth halves amid rising mortgage interest rates",
-      "link": "https://www.theguardian.com/money/2026/oct/01/uk-house-price-growth-rising-mortgage-interest-rates-nationwide",
-      "published": "Thu, 01 Oct 2026 07:51:32 GMT",
-      "summary": "Prices fell by 0.2% month on month in September as average price of a home slipped to £274,251, says NationwideBusiness live – latest updatesAnnual house price growth halved in the UK last month, as economic uncertainty caused by conflict in the Middle East continued to deter homebuyers.The average price of a British home rose 0.8% in the year to September to £274,251, according to Nationwide. That was half the rate recorded in August, when house prices grew 1.6% year on year. It also marked the...",
+      "title": "3 Logistics Stocks Riding Trade Rerouting Investors Should Know - Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS0ZUZHNXTzIwa3Q0Tkx5b0lOSVF5c3F5RnFaQjJQY09nWndzWk13RDJCbUVnVVNLYzQxbHFWQkJwY0VqRk13WjhtU29GaXNMaEVMSTNMbFFhSU1FRnVhN1U4NHNkMTFmTmNRaFRyb0JfTmpPZnhzXzBxSmh1TXhhcEVvSDd1S0doUkl4MnZMN25Lekd5dTZaYkRYQ1I5OXNDbFNzU1BPak4wVzhHYXQ2dHZIR1JlaVE5RGVHZGtZaUhZWUJQUVY0Y1NobVFhVUZiTEdKVWR3aWrSAd4BQVVfeXFMUFFla0dnTk10ektldE55QjhLZEQwQW0tWmo3d21sUEhURXFIYlFBUG1WZDB1ZDJPZWxKSWI5NFo4dzdKbVVhc0MwMktyZDdLWUZvZUJOdXFzQkJob3RRZmlxZjgwSmgtYlBBbGl2eEJnNG80dFpiYnRDSnF6SHhFdlZHQktPbWJ4aXVrdGhUWlBKdUpMcENRNDVoZ0ZCQU9kcGlwc2JOVHhhLUJsVHpUaDNSdnU3NUtJMFRhejVRMWY0ZElWTDJUQnFNeVBqTmZYUVdTMllzYlVnNDMtdVlR?oc=5",
+      "published": "Sat, 03 Oct 2026 15:03:33 GMT",
+      "summary": "3 Logistics Stocks Riding Trade Rerouting Investors Should Know&nbsp;&nbsp;Simply Wall Street",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-03T23:03:33+08:00",
+      "source_detail": {
+        "name": "Simply Wall Street",
+        "url": "https://simplywall.st"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The American dream remains elusive in the valley that inspired East of Eden",
+      "link": "https://www.theguardian.com/us-news/2026/oct/03/salinas-california-john-steinbeck",
+      "published": "Sat, 03 Oct 2026 09:00:54 GMT",
+      "summary": "John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author John Steinbeck m...",
       "source": "Guardian Business",
-      "full_text": "Prices fell by 0.2% month on month in September as average price of a home slipped to £274,251, says NationwideBusiness live – latest updatesAnnual house price growth halved in the UK last month, as economic uncertainty caused by conflict in the Middle East continued to deter homebuyers.The average price of a British home rose 0.8% in the year to September to £274,251, according to Nationwide. That was half the rate recorded in August, when house prices grew 1.6% year on year. It also marked the slowest pace of home price growth since December last year. Continue reading...",
-      "published_beijing": "2026-10-01T15:51:32+08:00",
+      "full_text": "John Steinbeck’s hometown of Salinas is the least affordable city in the US for the middle class, a recent Brookings Institution analysis found Nestled between two mountain ranges at the crook of central California’s coastline sits a valley known as the “salad bowl of the world”.Farm workers stoop over neatly lined rows of crops off Highway 101 to harvest more than half of the nation’s supply of lettuce and nearly a third of its strawberries. The soil here is so rich that author John Steinbeck made the Salinas valley the promised land in his literary depictions of people chasing the American dream: immigrants, farm workers, westward-moving hopefuls, hungering for a better life. Continue reading...",
+      "published_beijing": "2026-10-03T17:00:54+08:00",
       "priority": 0.0,
       "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Slat Wall Panel Market Forecast to 2035: Retail Modernization and Flexible Storage Drive Forward Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVJ4U0JPN0JYQnQ0M09rLVd4N0hBSEFrNUdHbjF0d1AwVE4wYkl2dnpkUkNBZ3dxY1poVV85b2ZjV0picGtYdkwyR09xVzYtbTVjUDFONDVZQTVEVThmQlR3b1R2Q2NWam5ZQncyZWV5Ynp1aW9QY05JcWVLRHlEUG9PdVJzaG0wOXBhOURxWXJOeGJYRUVJZnhFOFlXRnhGX0tMNWIwSE0zYThMM2hVbkhDaU92NURhWmFZZ3Q2VEkwa3B0cXJzYW0tLXQ?oc=5",
+      "published": "Sat, 03 Oct 2026 05:21:04 GMT",
+      "summary": "Slat Wall Panel Market Forecast to 2035: Retail Modernization and Flexible Storage Drive Forward Growth&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-03T13:21:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Void fill now counts against EU packaging compliance - Packaging Gateway",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSE5vVGduNDBJcDR2Vk5OakQ0aHJvbG1lbEJ6MG9kSWRtQWgxYklCZ01GZXJtWW5VekxudFU4OS1ZMmpMaDZDOV9qUTFqcTU4LUNDM0JkQ1QzeHpXTTB6bXA0ZUhoaU9GOUdPY2llUDZaVE11OVpxcmw3Y3B2bDVRSDJzOGZKLUREMVl5MkRGaHJKY2I0NHlwUjdTRU4?oc=5",
+      "published": "Fri, 02 Oct 2026 21:29:02 GMT",
+      "summary": "Void fill now counts against EU packaging compliance&nbsp;&nbsp;Packaging Gateway",
+      "source": "GNews | CN Seller EU",
+      "published_beijing": "2026-10-03T05:29:02+08:00",
+      "source_detail": {
+        "name": "Packaging Gateway",
+        "url": "https://www.packaging-gateway.com"
+      },
+      "priority": 0.0,
+      "category": "中国卖家视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+      "link": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+      "published": "Fri, 02 Oct 2026 18:52:03 GMT",
+      "summary": "Leaders agree a coordinated drawdown after surge in prices and Donald Trump’s threat to cut off US suppliesLeaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil stockpiles after Donald Trump threatened to cut off supplies of US diesel.The French President, Emmanuel Macron, said ministers from some of world’s largest economies had agreed to release stocks from their strategic oil reserves after crisis talks on Friday. Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-03T02:52:03+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Leaders of G7 nations are to release up to 100m barrels of their emergency diesel and crude oil stockpiles after Donald Trump threatened to cut off supplies of US diesel.\nThe French President, Emmanuel Macron, said ministers from some of world’s largest economies had agreed to release stocks from their strategic oil reserves after crisis talks on Friday.\nMacron convened the leaders’ video call to discuss the global surge in diesel prices, and Trump’s threat to cut off US diesel exports unless Europe tapped their own stockpiles to help cool global markets.\nUnder proposals reportedly drawn up by Macron, the current G7 chair, members will release 50m barrels of diesel and 50m of crude oil into the global market to ease prices.\nThe agreement suggests European countries will avoid being cut off from vital supplies of US diesel after coming under pressure from the White House in recent days to release their emergency supplies or face a US diesel export ban.\nTrump said he was considering a ban on diesel exports after the surge in sales to overseas buyers pushed US diesel prices to record highs in a blow to the economy before the US midterm elections in November.\nMacron said G7 nations – which also includes the US, UK, Germany, Italy, Canada and Japan – wanted to “work in a coordinated manner to help bring down the prices of petroleum products, particularly diesel”.\nHe added that the G7 members and partners would front-load a substantial diesel release within the first 20 days and that ministers would discuss the “possibility of additional diesel releases as necessary” in the coming days.\n“We have all committed together to releasing these strategic reserves in the proportions I mentioned, with a focus on diesel, and we are all committed to ensuring there are no export bans, and President Trump, in particular, was very clear on this point,” Macron said.\nTrump said in a post on his Truth Social platform that Europe had “agreed to release a massive amount of their heavily stocked Diesel Oil” and that the process would start “immediately”.\nThe threat of a US export ban presented a considerable challenge for Europe, which produces about 70% of the diesel it consumes from domestic refineries but relies on imports to make up the shortfall.\nThe ongoing disruption to fossil fuel exports from the Middle East has limited output from the region’s refineries as well as those in China, which is a leading buyer of Gulf crude. Meanwhile, Russian refineries have come under attack from Ukraine, causing its fuel output to fall to 20-year lows.\nIn response, the US exported a record high of 1.9m barrels a week to overseas buyers in early August as the slump in global refining squeezed supplies across Europe and Asia.\nThe record exports caused the US’s own distillate stockpiles to fall to their lowest seasonal levels since 1996, causing diesel pump prices to climb above $5.85 a gallon (£1.18 a litre) for the first time in early September.\nThe proposed ban on US exports was expected to fuel greater competition for cargoes on the global market which would push prices in the UK and Europe well beyond current record levels.\nIn the UK, the average price of diesel at the pumps climbed to a record high of £2 a litre on forecourts on Friday, putting more pressure on motorists and the wider economy.\nThe cost of filling up an average family car is now £110, according to the RAC motoring group, nearly £32 more than before the Iran war. UK lorries, vans and farming vehicles are also typically diesel-fuelled, meaning the price rises will be felt in the higher cost of goods across the economy.\nBrent crude oil was trading at just above $100 (£76) a barrel on Friday, compared with about $72 before the Iran war started. It fell to about $98 a barrel after news of the emergency stockpile release before returning to more than $102 a barrel by the end of the day.\nMacquarie Group’s Walt Chancellor said Europe’s decision to rely more on its own emergency reserves than US imports would not address the underlying problem in the US or the global market.\n“The core issue the US faces is not a diesel problem. Nor is it a refined product problem. It may not even be a petroleum problem. It is a global energy problem,” he said, according to CNBC.\n“So what is the solution then? In short, more oil through the strait of Hormuz and out of the Middle East. Anything short of that is really just shuffling deck chairs,” he added.\nThe IEA, the world’s energy watchdog, ordered the largest release of government oil reserves in its history in March when it agreed to release 400m barrels of emergency crude, to help calm the oil price shock sparked by the US-Israeli attacks on Iran.\nThe intervention represented a third of the group’s total government stockpiles and was more than double the release of 182m barrels of oil made in 2022 after Russia’s invasion of Ukraine."
+    },
+    {
+      "title": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
+      "link": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+      "published": "Fri, 02 Oct 2026 14:04:29 GMT",
+      "summary": "Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the midterm election.The numbers were under half of economists’ expectations of just under 70,000 new jobs. Most job gains were concentrated in the healthcare industry, which added 17,000 new jobs, while...",
+      "source": "Guardian Business",
+      "full_text": "Final jobs report before the midterm elections also shows the US unemployment rate rose slightly to 4.2%US employers added just 29,000 jobs in September, a sharp drop from last month’s gains, and unemployment rose slightly to 4.2%, a sign of a cooling labor market in the final jobs report before the midterm election.The numbers were under half of economists’ expectations of just under 70,000 new jobs. Most job gains were concentrated in the healthcare industry, which added 17,000 new jobs, while the information, financial and professional industries saw losses, according to the latest data from the US Bureau of Labor Statistics. Continue reading...",
+      "published_beijing": "2026-10-02T22:04:29+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Japan's FSA Seeks 15-Fold Budget Hike to ¥1.33 Billion for Digital Finance, Plus 13 Additional Staff - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01U1FDbjBPU250SU8tNzRaS011ckVTYU1LNXhVMVJlUmVGM2hpQnpLWkVqa290Rm1BTHQ1Y1N0UjVoTnl4cFRaYlltQVlHOUhxZDRNZ3lpSHZqMlN5YWdxMF9WYnhyUlY5RHNiR3RYVjZmcmdUSmc?oc=5",
+      "published": "Fri, 02 Oct 2026 12:55:00 GMT",
+      "summary": "Japan's FSA Seeks 15-Fold Budget Hike to ¥1.33 Billion for Digital Finance, Plus 13 Additional Staff&nbsp;&nbsp;finance.biggo.com",
+      "source": "GNews | Cross-border Payment",
+      "published_beijing": "2026-10-02T20:55:00+08:00",
+      "source_detail": {
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hand Trucks and Trollies Market Outlook to 2035 - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeHh1R2c0SFJkN3Q2dFhscTlkaEo1M0EyMUtJUE1fY0lKQ2RfRlZtbnZmaFprcVJVTjRZWlhqeFphblEzekkzQ0xkeTJ6RjYtSWJhVGVSeW5jTWdfVGxqNWdOSU5oMDR5cnlnWUNNdE82ZTJ1QS1UTVpqVlltY0FuaHdDOA?oc=5",
+      "published": "Fri, 02 Oct 2026 12:26:04 GMT",
+      "summary": "Hand Trucks and Trollies Market Outlook to 2035&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-02T20:26:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China's express delivery industry shifts toward higher-quality growth - IOL",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc0lieFNISDFKN2t4Qlp6Y1dkYjh4OUh6TXpXWTY1THB1UHI3WGloRnI0UC1JUGtqVm9oVzJtZGRCZkkzSVdwczhORzdlWEFxdnQ2YjRESGlkUlF6bFUwdGlUd2FzWEZxd1dYVmlKU2VtZjVRa1FIcGI2MHpkZk1hWWNqUEpQT2lTQ3VQRzI1WEdCUVZYRzRkUVBfb1ZEVDQzb0JsakVBdllMLV9JcHBGTEZtWUgyOFJqd1lYenZBVDY?oc=5",
+      "published": "Fri, 02 Oct 2026 09:41:49 GMT",
+      "summary": "China's express delivery industry shifts toward higher-quality growth&nbsp;&nbsp;IOL",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-02T17:41:49+08:00",
+      "source_detail": {
+        "name": "IOL",
+        "url": "https://iol.co.za"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     }
