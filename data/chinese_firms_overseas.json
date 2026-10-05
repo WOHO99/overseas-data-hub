@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-04T04:46:38.925278+00:00",
-  "fetch_date_utc": "2026-10-04",
-  "total": 21,
+  "updated": "2026-10-05T04:35:03.639540+00:00",
+  "fetch_date_utc": "2026-10-05",
+  "total": 10,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 11,
+      "count": 4,
       "feeds": 5
     },
     "半导体+科技": {
-      "count": 1,
+      "count": 0,
       "feeds": 4
     },
     "跨境电商+互联网": {
@@ -25,7 +25,7 @@
       "feeds": 3
     },
     "光伏+新能源": {
-      "count": 2,
+      "count": 0,
       "feeds": 3
     },
     "基建+工程": {
@@ -49,7 +49,7 @@
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 7,
+      "count": 5,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,32 +61,16 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 60,
+  "fail_feeds": 66,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "NIO Stock Slides as Rival Geely Takes 30% Stake in Battery Unit - inkl",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVjJxQ2tHcFIycnk2RUJwaFNkLUctVWVwa0g2TkpycF8tRHpBVllyZzhJM0lvNW1TNW5yRlo0RF92Tm9YRmlXTTg3RktjeV84VXJpNktrS0Z6UXE3OUhabXR4NzYyQU14UnpVZ3lhckQtSnhJYjIxQkluR0hBcFJjbDBtTDhEdzNYbkdjZW9jdDBFZw?oc=5",
-      "published": "Thu, 01 Oct 2026 12:42:54 GMT",
-      "summary": "NIO Stock Slides as Rival Geely Takes 30% Stake in Battery Unit&nbsp;&nbsp;inkl",
-      "source": "GNews | NIO Overseas",
-      "published_beijing": "2026-10-01T20:42:54+08:00",
-      "source_detail": {
-        "name": "inkl",
-        "url": "https://www.inkl.com"
-      },
-      "priority": 3.6,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nio Stock Slides In Hong Kong As EV Maker Admits Flaws In Europe Expansion Plan Amid Sales Slump - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQLWgyMzVnaUg1NnVIemZqeEQ1TkhhZUpLWU8xMzN5T19XYndKN24wLWstNmhzR0U4Q1JvZTRKdktPYXhCNlpDMHcweVJ3bmZwMnVSMFlxRjZLUzBlRGFiMjN2aFRTVTgyZEg3bnk2YklZdUFhT2N0RVoxclBHc1d4TzdKNk44am03NmdPaFQxWXVGejV1emhlV1QwMDVXeWRWVUxuV2JLM1d3RTZ4N3FFUFktUjJ0UEpnUDl2cnhRUENvaVEzaHhrNkRzQTNLNjhRc2E5Q0pYQUt6V3JrdXFCbFVvcVdIMnp3RlNGWDdDOUxMQQ?oc=5",
-      "published": "Fri, 02 Oct 2026 22:11:42 GMT",
-      "summary": "Nio Stock Slides In Hong Kong As EV Maker Admits Flaws In Europe Expansion Plan Amid Sales Slump&nbsp;&nbsp;Stocktwits",
-      "source": "GNews | NIO Overseas",
-      "published_beijing": "2026-10-03T06:11:42+08:00",
+      "title": "NIO Stock Tracks Worst Month In 2026: EV Maker Pursues Hong Kong Primary Listing Upgrade To Expand Investor Base - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb0NsWGJUSDE2TWt0QzFjbTV1eFFJdWF1X3lXV0QwdERtMnVCaTg3amVuaHpPMXhIa3Z2ZFdjU1FkdEZ2Z0FrT3czSXN0QjJDeEhCLTN1RlRUWGlDdURmY21yT3BfNFc2YXVpRmZNMG5yaV9pSFVZZnh5VTg0dDNyRWRjNXVrVGR4aWVLR1ZMcHhuWl9CQ2ZIc2NSZHFobWZnUEd6N01DRV9DdVNSWXloTg?oc=5",
+      "published": "Sun, 04 Oct 2026 02:31:41 GMT",
+      "summary": "NIO Stock Tracks Worst Month In 2026: EV Maker Pursues Hong Kong Primary Listing Upgrade To Expand Investor Base&nbsp;&nbsp;Stocktwits",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-04T10:31:41+08:00",
       "source_detail": {
         "name": "Stocktwits",
         "url": "https://stocktwits.com"
@@ -97,81 +81,49 @@
       "relevance": "low"
     },
     {
-      "title": "China vs Europe Offshore Wind 2026: Who Leads on Capacity, Cost, Turbines and Investment? - GreentechLead",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX0NMTS1yNVdlMmFHZXJJVmh1MXRPT2NPczRNX21RWVpvNDJuNlhuUXVhNHZmOUxJT0R3OFN1dGtNeHllRmIxcmszQVRWaXRUa3NRa2MzMF8tbTlYRXBva1RvTTl4eXdqZ2tYZWdIZEJTSEFPVHZKMk9YX1UxS3kxMnZjZTd0ako0enpBWEJHZFc3SFdqR1E1bGlPQ3hoYzVudzJxc2VLcXB2SWVWbWJzSl9vbzN1YmhreXd5ZnBWTQ?oc=5",
-      "published": "Thu, 01 Oct 2026 12:09:07 GMT",
-      "summary": "China vs Europe Offshore Wind 2026: Who Leads on Capacity, Cost, Turbines and Investment?&nbsp;&nbsp;GreentechLead",
-      "source": "GNews | T17 风电板块",
-      "published_beijing": "2026-10-01T20:09:07+08:00",
+      "title": "BYD's Xixian Battery Plant Hits Full Throttle as Washington Delays Connected-Vehicle Ban - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZkJOSDMwYTQ4LUdnc2NCc0ljVDA4aEJjZjBfUEUya2ttOEhJNVJ6d1hZZjR4TFRrQm5OSDFEdDRQelhEcVFIcXZIRFE1WEh0dS12b0lWWUtlbTlMMDZ6YW9kY3VRYjdsTEFZbXEyczZ5Tk8ydlJ3TWludUhfdmlNeE1YV3dTMzdkOWptaEdSUjBhSW00U2I5ck5hTEZDZXZFeW1OTVA3aTVGXzRlVEYzcmN6MjJOb1FBTzhFUkxaQURYZFNDMmRzbUM0cUJyOUF3RDYzSw?oc=5",
+      "published": "Sun, 04 Oct 2026 11:51:25 GMT",
+      "summary": "BYD's Xixian Battery Plant Hits Full Throttle as Washington Delays Connected-Vehicle Ban&nbsp;&nbsp;AD HOC NEWS",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-04T19:51:25+08:00",
       "source_detail": {
-        "name": "GreentechLead",
-        "url": "https://greentechlead.com"
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       },
       "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Electrical Cabinets Market To 2035: Data Center and Renewable Energy Demand Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOai1TNDFvRDdsbmtHSFl2amlieU5LYkVYM1NackdpQ3l1NGpLaDZJQXJJNWw0UEQ5UE1VWmpJOVJ5M19mVHZxY1ZWNWVoS1JMaVRnbnVUeXYzRU9EbV9pTWhVTlJtS3ZHZWlYZmRjSWN3OUVWUmVOT2dUSUlCejdjcE4zVnUtOVliWUF0NG9LdzRIRE4zU2JpRzU5R01iUU5zdUhLcnR4djhwVDBaS0Vhek5VRERBVHFxMEN4ck5KNjdqQ1RNb2ZsUUJ3?oc=5",
+      "published": "Sun, 04 Oct 2026 15:06:04 GMT",
+      "summary": "Electrical Cabinets Market To 2035: Data Center and Renewable Energy Demand Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | T17 低压电器板块",
+      "published_beijing": "2026-10-04T23:06:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
       "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56SHVoX3BpcG9pMDBaSVloZVRUcTYzNGtHNmtva0VNSjZQUl8xdURsY3VGUXpEOW5ld2lJUkxPY2RnOXNkdWVFb0FrUmtIcUxDN3FFTFJ1WnBDZ0d4UTJ0WTVZeWcwcEgwR1FPcUN3ZlUyRDlET0E?oc=5",
-      "published": "Sat, 03 Oct 2026 22:25:00 GMT",
-      "summary": "Hyundai Motor, Toyota, BYD Intensify Race to Develop 'Dream Battery' Solid-State Technology&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-04T06:25:00+08:00",
+      "title": "Chinese car manufacturers try to buy history - Diari ARA",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQml5dnZWQm1XSUQ2UGRHZS1QQ2FpYkxoLUVKT1NpRmlUbndrYUxfUFh2cXRwM29wenZzZzJDalVVSkVnZG16NVFLZFF1cHdTSjNPa0pZOHlvNENXenp5aENKY2liUnhLLUZYZFJKTXVJM3llQk5YendtYlJsenRiUzNzb0dNcGNNcjljamxPRnrSAZABQVVfeXFMTkJpeXZ2VkJtV0lENlBkR2UtUENhaWJMaC1FSk9TaUZpVG53a2FMX1BYdnF0cDNvcHp2c2cyQ2pVVUpFZ2RtejVRS2RRdXB3U0ozT2tKWTh5bzRDV3p6eWhDSmNpYlJ4Sy1GWGRSSk11STN5ZUJOWHp3bWJSbHp0YlMzc29HTXBjTXI5Y2psT0Z6?oc=5",
+      "published": "Sun, 04 Oct 2026 07:00:52 GMT",
+      "summary": "Chinese car manufacturers try to buy history&nbsp;&nbsp;Diari ARA",
+      "source": "GNews | Geely Overseas",
+      "published_beijing": "2026-10-04T15:00:52+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
+        "name": "Diari ARA",
+        "url": "https://en.ara.cat"
       },
-      "priority": 1.2,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Huawei is building 'China's own Nvidia'. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WWEFsOF92MUNva2lwNkdqS3NFYlJhcjFpbGNfb25RR3NwWjlFVElwOS1vTjRCV0Z4ODhjWXdZT0FiSEdKek5veDZSLTZRTkRlTTJzdlZvYngyWkpWaTRVblpuaHhNLUkyMkhVbmxIcUFIcHBvVk9qcA?oc=5",
-      "published": "Fri, 02 Oct 2026 21:33:51 GMT",
-      "summary": "Huawei is building 'China's own Nvidia'.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | HiSilicon",
-      "published_beijing": "2026-10-03T05:33:51+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 1.2,
-      "category": "半导体+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power - Wind Power Monthly",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVTZyLURWQXRRemc5VzA1QnpRRzI4bE43S0lpT0I4WWdSQW9icnRqcGVvcGNSekJuaTZDakZmS2RxQzJEM29pVElRUWxBRkpTOEp3UkEzSGpjdjZEd1QxMDZWV2tpZHZwQkQxcnZRbTBwdXZIZGZKVk5LRjJwZXAyN2tqV1p4YzJsR1hDb245akVRTl9DYlBfVzVIWmtqbDZIcUVIdGZWYmpXMmd6QkNlQXZR?oc=5",
-      "published": "Fri, 02 Oct 2026 12:07:06 GMT",
-      "summary": "Wind power patents: Siemens Gamesa | Nordex | Envision | LM Wind Power&nbsp;&nbsp;Wind Power Monthly",
-      "source": "GNews | T17 风电板块",
-      "published_beijing": "2026-10-02T20:07:06+08:00",
-      "source_detail": {
-        "name": "Wind Power Monthly",
-        "url": "https://www.windpowermonthly.com"
-      },
-      "priority": 1.2,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "CATL to Increase Workforce at Debrecen Plant - Hungary Today",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rMHBocENxVFc3d1k5VFp1d1NDT2tDRS1BOVhaSzk1YVA5Slpxc1p1MU1uZDhBdk1raTE2alhiLXhhQk9lT0xsVll4alpqdnYtb3dlZmgwbkVEZkNUd0JYMXl1U0NoMjRWYUlEWHBMNVl0aTNjNXRyQQ?oc=5",
-      "published": "Fri, 02 Oct 2026 07:18:45 GMT",
-      "summary": "CATL to Increase Workforce at Debrecen Plant&nbsp;&nbsp;Hungary Today",
-      "source": "GNews | CATL Overseas",
-      "published_beijing": "2026-10-02T15:18:45+08:00",
-      "source_detail": {
-        "name": "Hungary Today",
-        "url": "https://hungarytoday.hu"
-      },
-      "priority": 1.2,
+      "priority": 0.0,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
@@ -193,63 +145,31 @@
       "relevance": "low"
     },
     {
-      "title": "Portable Air Conditioner Market Forecast to 2035: Heat Waves and E-Commerce to Drive Growth - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2V3RXZ3ZmppOF9rTVVCYUg5aXRNUG9MZG5xS01BWjNmM0tmX055SkZ4MDZtdUNfcks0VnpaMUtlX0lUdU9wdm9uTXhLSTMxa0oyQ1RodTNqRFRIa0gxQUZoN0J0V0cybGFzU2VpRlRXVmZoUndOb21aVGZGUWRTRFlYbE8yZ09iR0ZlZmFwLWNSNGRCSFo0eTdPWGFOOUc1bWVOSXQxVzI0SVprMlhMS1kzVXNBalZnOU0yaQ?oc=5",
-      "published": "Sat, 03 Oct 2026 19:21:04 GMT",
-      "summary": "Portable Air Conditioner Market Forecast to 2035: Heat Waves and E-Commerce to Drive Growth&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Gree T17",
-      "published_beijing": "2026-10-04T03:21:04+08:00",
+      "title": "380V 400V Power Distribution Market To 2035: Data Centers and Renewables Drive Expansion - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM3pQU1AwWjd0eU5zN0xQWDZZNVJpRU5BTVA4eWtfQnVJZWxIZnNISk1EdVVaMTNmUXRiRVRoVEtlYlhSb1E3NGFUMTZPRHF5R1BPaDFQeHBCVzJzbFJ1T3VIRFhqNXNEeGZCSmNGRTlTY21iOXc4US1sRm1BSGdORjVDQXZLUzRJUzZzQjktemttemVuWGdjYW1leE4wbnA1cExqMUg0cE9vRWRSWDdTYW1aXzlzTjlDUm5ldVJCM3g3NW90bFA0V051WlR3MVA1a2RF?oc=5",
+      "published": "Mon, 05 Oct 2026 04:16:04 GMT",
+      "summary": "380V 400V Power Distribution Market To 2035: Data Centers and Renewables Drive Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | T17 低压电器板块",
+      "published_beijing": "2026-10-05T12:16:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
-      "category": "Track17重点27股监控",
+      "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "12 Listed Automakers' First Three Quarters: Overseas Sales Carry Half the Load, Annual Target Completion Rates All in Danger Zone - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zQlNvWG9ZZ0M5dGFYNXlRRHZLc2N4ZTBFdm1UUC14aEFMTXc3Uzh6U3p6UTVOZVFacXE4NTk2OWlxd2tuUkVQVFZUSDlIbGcyWDNXeGhLSmtETFZnNUlKajBCUElzWThXaGFfTWxEV3VWX09ISXc?oc=5",
-      "published": "Sat, 03 Oct 2026 12:55:00 GMT",
-      "summary": "12 Listed Automakers' First Three Quarters: Overseas Sales Carry Half the Load, Annual Target Completion Rates All in Danger Zone&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-03T20:55:00+08:00",
+      "title": "What China has that Elon Musk doesn’t: A state-backed solid-state battery push - Gulf News",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMFRBNEI4Q0FSdVlWRzdDRTB1dkFmZG9KNjhDVTllRzF3Y3VWaHBWejVRMHFncGd3blgyNTNiSU5tNkRiS3pwY1l6ZEFaVWlzRi1wRTlCcDdYbW5kNXI0cUFET2w1UHZqX3RPa0hSSHhiX3Q2YjJtX1l1UGZ6dTBvYUhhRzQxaGRlTmphUndYdU5oV2NtQ3BhOXRwdHhXN0xib0s4MWZOXzE0UEdVUllfWHB1dllaMUpXeTU2RGJLZ3ctVWc?oc=5",
+      "published": "Mon, 05 Oct 2026 03:56:09 GMT",
+      "summary": "What China has that Elon Musk doesn’t: A state-backed solid-state battery push&nbsp;&nbsp;Gulf News",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-05T11:56:09+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Investing in Europe’s next growth engine - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT1NGbjd4VnBvWTl0ME9XdVZtXzJoc1JsMlFUdVREMkZwVEZOWTNkNHNMaWh1dmd2WEgwMnVsX0QtZk9MWHJQSF9oS1B0VGhqWndibU83ajJNdWJWT2tkdENLc2xwMmgtM2R4NUZBajdRbG1wX0pWQ2VZRHAxcU5yaW94VjlDeDRfd0wtRGZMQmdvUm9VbGJZ?oc=5",
-      "published": "Fri, 02 Oct 2026 14:15:00 GMT",
-      "summary": "Investing in Europe’s next growth engine&nbsp;&nbsp;Atlantic Council",
-      "source": "GNews | CATL Overseas",
-      "published_beijing": "2026-10-02T22:15:00+08:00",
-      "source_detail": {
-        "name": "Atlantic Council",
-        "url": "https://www.atlanticcouncil.org"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "What to expect from Chinese car brands at the Paris Auto Show 2026 - CarNewsChina.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeWV3V2lkMC1namdTTm8xSGl5NXpMNEd0WmhYY1R2M3VZY3FMZFpvLXpJaXVuNF8wekFpZFBxUmNXREUzcG9ieFRwYklfRVVaQlN2OTh0cktNcGJONjZOWkFfdHJDb21jNDRyRkZrY0QzeUFMMGtKdExxLWh4dENSYzM0Zy0yb3EwRFBTTzZzVVd5cjZnbV9lQjNDYWFVQ05uMm1ITWxB?oc=5",
-      "published": "Fri, 02 Oct 2026 07:18:00 GMT",
-      "summary": "What to expect from Chinese car brands at the Paris Auto Show 2026&nbsp;&nbsp;CarNewsChina.com",
-      "source": "GNews | T17 EV板块",
-      "published_beijing": "2026-10-02T15:18:00+08:00",
-      "source_detail": {
-        "name": "CarNewsChina.com",
-        "url": "https://carnewschina.com"
+        "name": "Gulf News",
+        "url": "https://gulfnews.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",

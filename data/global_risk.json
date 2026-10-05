@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-04T04:46:36.896725+00:00",
-  "fetch_date_utc": "2026-10-04",
-  "total": 59,
+  "updated": "2026-10-05T04:35:00.735790+00:00",
+  "fetch_date_utc": "2026-10-05",
+  "total": 31,
   "high_priority": 0,
-  "medium_priority": 2,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 18,
+      "count": 8,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 6,
+      "count": 0,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 3,
+      "count": 2,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 1,
+      "count": 0,
       "feeds": 2
     },
     "中国企业视角": {
@@ -41,7 +41,7 @@
       "feeds": 0
     },
     "安全与隐私RSS(D)": {
-      "count": 50,
+      "count": 40,
       "feeds": 4
     },
     "新增直连RSS(E)": {
@@ -49,51 +49,35 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 9,
-  "rate_limited_feeds": 0,
+  "fail_feeds": 13,
+  "rate_limited_feeds": 1,
   "articles": [
     {
-      "title": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year - Freshfields",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOM1VPeV9KZFJRS0tsOHZQWjZjeFphbmhkN3poZTVuVGVtT1plSzg0MV9WRFdHZFNsb3B3aDlsQUFWN3hPYjFhVkpjT0hoaWQxdElzRVZZNUtEWHBDS1dvYzZDbGNkRTg0U1RBT3pNcmJTMjJJckRBd1ota2lPTjY1MHBneTAyampiMUhIclhQZFp6a3hRaWNXempFVDRsRHBGWUsycWRPdm9aVzhXWUlPdlpQd05fVE9iNkFiLUNxVFdJTkcySG5pdGkzVmdWYWlUMU9zZmNyX19ubFF5bWQ1NThTcDJHZw?oc=5",
-      "published": "Thu, 01 Oct 2026 20:42:42 GMT",
-      "summary": "FCPA Enforcement Priorities Continue to Drive Outcomes: An Update on Developments in the Last Year&nbsp;&nbsp;Freshfields",
-      "source": "GNews | FCPA/Compliance",
-      "published_beijing": "2026-10-02T04:42:42+08:00",
+      "title": "Expleo Solutions settles EPF dues, bank account freeze lifted - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZjdMX0hZMkptZ1I1UDJNWGd3dUhRQmU4UWtwQ205eTZUZ2phZ08wMndUdXNJV25URDJTN2RzaEZXOUptclpvdzdFZVctX2haclZucDNKY1JDcjJPMnNvcHBGbjRFRGU4dklmTS05NW5QcHppUldmM0Vnd2FDank0U3hTZW9JLWhTYXlqT2RfN2hoN21GOHlKZUY5ZVNQUmkxQ2pTTTQ3cUdtZVdBeWZaVHgwSS16WjRKeVZ4UmwzMmM2MDA?oc=5",
+      "published": "Sun, 04 Oct 2026 20:59:39 GMT",
+      "summary": "Expleo Solutions settles EPF dues, bank account freeze lifted&nbsp;&nbsp;scanx.trade",
+      "source": "GNews | Payment/Compliance",
+      "published_beijing": "2026-10-05T04:59:39+08:00",
       "source_detail": {
-        "name": "Freshfields",
-        "url": "https://www.freshfields.com"
-      },
-      "priority": 3.6,
-      "category": "供应链风险+FCPA",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Best Trading Platforms For UK Investors In 2026 - forbes.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9La2NONjR5N2VPSVA1V0xqVG51YWpwYnViQUIwdGx5OU5vQThoT3dONURsM05tOW5JQmt4RVcweGNISkh3SkxDR3lVNXl3VU4xYXlCMUx1bWZSRGl6TVM4UnhMLWVjLU5pM1VqSEFmekJkcDh4aEE?oc=5",
-      "published": "Thu, 01 Oct 2026 22:19:00 GMT",
-      "summary": "Best Trading Platforms For UK Investors In 2026&nbsp;&nbsp;forbes.com",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-02T06:19:00+08:00",
-      "source_detail": {
-        "name": "forbes.com",
-        "url": "https://www.forbes.com"
+        "name": "scanx.trade",
+        "url": "https://scanx.trade"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
+      "category": "资本管制+主权风险",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "U.S. Sanctions Latin American Gang Over $40 Million ATM Hacking Scheme - en.sedaily.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHFQRnlhejZKQjNWcGtsVEN6Z1p1UDJ5OHFBNURwSFpVdTdTRlpCXy0zMTdISDhTN240V2o4SXJFUUN6LWxHektwanN6NUV0MzZEcnNBYWdxUWZ1MUlzd1ZaVC00b0twaVRFemhaYm4xU2RPSUNaYU5mdFFKYzlfZkhZdGw5NE1JQm9QeUhTWGxxT1FneEFVOWNxNHdBZGtlS0E?oc=5",
-      "published": "Thu, 01 Oct 2026 13:55:00 GMT",
-      "summary": "U.S. Sanctions Latin American Gang Over $40 Million ATM Hacking Scheme&nbsp;&nbsp;en.sedaily.com",
+      "title": "European Companies in Cuba: Navigating the Risk of U.S. Sanctions Linked to GAESA - CubaHeadlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyR3RFZ3VNR0E5ejh5VnJtWjJNbEV6UGdEMzBscjU2a2NuWFdSNmE2NTBLM3lHZlBoZ3pnRWUtTUI4OUdjNTlVSVpGa1hHQ09Cb3hDMkd1Rmw?oc=5",
+      "published": "Sun, 04 Oct 2026 17:56:26 GMT",
+      "summary": "European Companies in Cuba: Navigating the Risk of U.S. Sanctions Linked to GAESA&nbsp;&nbsp;CubaHeadlines",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-01T21:55:00+08:00",
+      "published_beijing": "2026-10-05T01:56:26+08:00",
       "source_detail": {
-        "name": "en.sedaily.com",
-        "url": "https://en.sedaily.com"
+        "name": "CubaHeadlines",
+        "url": "https://www.cubaheadlines.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -101,15 +85,15 @@
       "relevance": "low"
     },
     {
-      "title": "Hezbollah’s Shadow Economy in Post-Assad Syria - Foundation for Defense of Democracies",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMU1KU2RfYVZ2M2UwWTdQdmtRZXU2dTc2UjQ2M1pJbE45VFExdXhKMFptdU1mMTliZm1WcThpVmlfUkdteV8tdDM2azJwVWV0X3J0ZTJwdXcwUGtnbXRQVUJFRThzVDViZnFia2hMSkp0UEU0Q2d0WHRuYVZyX2JlT1FTOTZ1QzNXNi1VRHI5cw?oc=5",
-      "published": "Thu, 01 Oct 2026 11:41:22 GMT",
-      "summary": "Hezbollah’s Shadow Economy in Post-Assad Syria&nbsp;&nbsp;Foundation for Defense of Democracies",
+      "title": "Vima is not the only one: which European companies maintain ties to GAESA and what risks do they face now? - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNblVxOGQ1elZYVDJxNXdRRHFlMGl6V3JQNzNVLVpsOElSNEpmNWd5RjRrcjlHRmFFOEtpVWhvSkxFQURGOW1JN1dudzJPZVpyd2VUeUN1R0FRUTZWM3F1emF0VmhlNlBzRDJMN205Z1VBUFVIMTNZU3dQd25JcGhpeEQzdF9ybWI4aGI5am5IcE1UUW0zeGY5cUFEOGpTbFBMRmhQSGZ4NFVRM1ktdDFsb3FWQUJVX0U?oc=5",
+      "published": "Sun, 04 Oct 2026 13:09:31 GMT",
+      "summary": "Vima is not the only one: which European companies maintain ties to GAESA and what risks do they face now?&nbsp;&nbsp;CiberCuba",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-01T19:41:22+08:00",
+      "published_beijing": "2026-10-04T21:09:31+08:00",
       "source_detail": {
-        "name": "Foundation for Defense of Democracies",
-        "url": "https://www.fdd.org"
+        "name": "CiberCuba",
+        "url": "https://en.cibercuba.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -117,15 +101,60 @@
       "relevance": "low"
     },
     {
-      "title": "CSTO Forces Practice Actions Based on SMO' Expertise during Military Exercises in Russia - News.by",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORk5GQW1ESUx5Rmc2VXNmS3BJRjRUWmptX1lFVXAwN0dRWXVUTnpwVW9OamcwY1FZNXlKb1l4d01rQ3VBM1pjbkVWbFFKdnZlT2ptWk9TZTA5YU80LTFRbTBvcEx1bGlOOVE4amN3YUdFMmUzdGl3RndTalhMM3d6MkIwZ1lJU3NORTRQaUZHVHJKSGEtWS1ic044X0NXRUdvTnotOVp6aE95QmplZE1rTVRIRUpacW8xb1g0?oc=5",
-      "published": "Thu, 01 Oct 2026 09:41:37 GMT",
-      "summary": "CSTO Forces Practice Actions Based on SMO' Expertise during Military Exercises in Russia&nbsp;&nbsp;News.by",
+      "title": "Japan sanctions Garantex among 33 Russian entities - Crypto News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XRzhuOXFmTlBlcHdBZjhBX2haXzV6eF9WSmdxWF83dFlvX3hQa2pHZmMxa3FYYjlKUHRNaHBPNmxVTTFiNk5GeWQtR3VHemI4cVBGRlRBaHNHTzlqMzhFSEJSYVlYUUxHNTctZzhTMGpjUUhKaUI4REhqWQ?oc=5",
+      "published": "Sun, 04 Oct 2026 13:02:24 GMT",
+      "summary": "Japan sanctions Garantex among 33 Russian entities&nbsp;&nbsp;Crypto News",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-04T21:02:24+08:00",
+      "source_detail": {
+        "name": "Crypto News",
+        "url": "https://crypto.news"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Weekly Update 524: Live From Copenhagen",
+      "link": "https://www.troyhunt.com/weekly-update-524/",
+      "published": "Sun, 04 Oct 2026 11:52:23 GMT",
+      "summary": "I&apos;m in Denmark! Well, just, I&apos;m now at Copenhagen airport ready to begin the long trek home, with the final event at GOTO now done and going just perfectly. This week, there are two ShinyHunters arrests in the news: Pepijn in the Netherlands and then Saif",
+      "source": "Troy Hunt",
+      "full_text": "I'm in Denmark! Well, just, I'm now at Copenhagen airport ready to begin the long trek home, with the final event at GOTO now done and going just perfectly. This week, there are two ShinyHunters arrests in the news: Pepijn in the Netherlands and then Saif in Jordon. It's an inevitable outcome, of course, and as I say this week, it was also the most likely one. Time will tell how many more join their ranks, but the seriousness of the crimes, the length of time they were perpetrated over, and the motivations behind them will certainly see substantial custodial sentences.In other news, this week I'm properly introducing a new sponsor for the blog: Origin. One of our next AI frontiers is understanding what agents have actually done (and we've all seen news of where they're been a bit too, well, \"creative\" in executing their tasks), and Origin's solution gives you visiblity into just that. Check them out, and a big thanks to them for their ongoing support.",
+      "published_beijing": "2026-10-04T19:52:23+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump Administration’s Economic Terrorism: U.S. Sanctions More Than 30 Individuals and Entities Linked to Iran - هابیلیان",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd3hRRDJPbXQ5eFFaeFhQMWtpeUJzcW9Jb2VuTE9ORW5EQzBheWFFTVIwV3FieE1ESHl6TWxyUW8tRWttRmU4S0RhMjlwM2ZVbEhZUmtpQVgxMXBDRXlOblZpQnRhMl9paExIWS1BLVNyekxoNUdTNTVWM05XeTNtZFEzM0lhV1QxamR1c2EwQ1dtUkEwTnFJdjJnbDgwZEJ1LTlLMzF2ZkVMUG1ORE9kMmtITmZCVEJ6OEg2SDlUc1lzRFlmdk5XMkptQzFYUnRaY0FZOUg0R2dCa1NTczNSVTlFbWJQdWJwaTNzaVpYVzNSZkN3SjNvLQ?oc=5",
+      "published": "Sun, 04 Oct 2026 10:27:52 GMT",
+      "summary": "Trump Administration’s Economic Terrorism: U.S. Sanctions More Than 30 Individuals and Entities Linked to Iran&nbsp;&nbsp;هابیلیان",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-04T18:27:52+08:00",
+      "source_detail": {
+        "name": "هابیلیان",
+        "url": "https://www.habilian.ir"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Lawmakers Target Serbia's Democratic Backsliding, Ties To Russia, China, Iran - rferl.org",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaENiX0RIQmNhVzRlcUxtWUVZMDQyQk9fNDNtX1ZPQ2dURWFtdDViaW8xNmdCUlZxOEhIdGpPUUpiUjFoc3VLQmE1ZGV0c0JiVHkyX3UwcmJFRHpJQkZ4T1NwZVhnVVQzLTZSNmNiTEJabHByZlNob2ZLVERxR2FSQnRZQmtDMDFJdjRBbUcyVjBhRElPcXdXLUZhOE13NlFySnUzaGotNXhsOGRDYjNxcWk5eWZiNmZC0gG4AUFVX3lxTE9oQ2JfREhCY2FXNGVxTG1ZRVkwNDJCT180M21fVk9DZ1RFYW10NWJpbzE2Z0JSVnE4SEh0ak9RSmJSMWhzdUtCYTVkZXRzQmJUeTJfdTByYkVEeklCRnhPU3BlWGdVVDMtNlI2Y2JMQlpscHJmU2hvZktURHFHYVJCdFlCa0MwMUl2NEFtRzJWMGFESU9xd1ctRmE4TXc2UXJKdTNoai01eGw4ZENiM3FxaTl5ZmI2ZkI?oc=5",
+      "published": "Sat, 03 Oct 2026 12:27:02 GMT",
+      "summary": "US Lawmakers Target Serbia's Democratic Backsliding, Ties To Russia, China, Iran&nbsp;&nbsp;rferl.org",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-01T17:41:37+08:00",
+      "published_beijing": "2026-10-03T20:27:02+08:00",
       "source_detail": {
-        "name": "News.by",
-        "url": "https://news.by"
+        "name": "rferl.org",
+        "url": "https://www.rferl.org"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -145,296 +174,6 @@
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Treasury Targets Hamas Financing Network, Imposes Sanctions on Five Individuals and Entities - IBG News",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVNFUnlWLWlibzJDMlVKWkdJdVNpTWowUXJycFl1aElTcWc1eXNPcTZqbWRobkZVbzNOZGhCZjBWWG5FSXVuY1ZtVTk4OTR6SFl3bzBMam4tTmtLX1RFbVFidHEzeXREa1JaemQ1Nks0U1VfYTFNRmhYMVBZbTdoVmRlU0FlVlhrMGlvalc3TkQ5Rzg0dlZDdHBpY2t4OHI3dll0WW0wYWhtaDcwRXJDNFRBaUtFN1VaOEliaGlONkxnbTBk?oc=5",
-      "published": "Sat, 03 Oct 2026 09:25:09 GMT",
-      "summary": "US Treasury Targets Hamas Financing Network, Imposes Sanctions on Five Individuals and Entities&nbsp;&nbsp;IBG News",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-03T17:25:09+08:00",
-      "source_detail": {
-        "name": "IBG News",
-        "url": "https://ibgnews.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "N0n ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/n0n-ransomware-what-you-need-know",
-      "published": "Sat, 03 Oct 2026 08:29:54 +0000",
-      "summary": "N0n is a newly-emerged cyber extortion gang. The group was first spotted in the middle of September 2026, and within days it had published on its dark web leak site details of what it claimed to be around a dozen victims. Since then, the tally has continued to grow.\n\nRead more in my article on the Fortra blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-03T16:29:54+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Hindalco Alumina Deal Ends After US Regulatory Delays - urbanacres.in",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVdDMUZYWnM2NERuSllyTTdsM0ZFeUdEalpmVWtrbEVCSlpsUC1QWFRmU3VNZmppT1BqYkRGYjJqYjg4SEFQWGRiOWZaYU1uS2tZVko2WnlJX1V4OUpNUk1VTVpBeUZka1ViR2N6MFpORHpCX1NpLW1jbUxLT0JaMlBuMVZESmlCUE5BQld3?oc=5",
-      "published": "Sat, 03 Oct 2026 01:20:32 GMT",
-      "summary": "Hindalco Alumina Deal Ends After US Regulatory Delays&nbsp;&nbsp;urbanacres.in",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-03T09:20:32+08:00",
-      "source_detail": {
-        "name": "urbanacres.in",
-        "url": "https://urbanacres.in"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sanctions keep catching Russia’s gas tankers, so Moscow is building new ones, UK says - Euromaidan Press",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMUNWMThUUzZxQVJjNEYwVmoyZ090UlA5QkZKd3lBdWdYZDc3N1EtaU44Y0UxdkFucV9sb01fZTFRUE9mNzRfYU5TZW5BSERJYVBJMThiMEtkU05LZXhXMWNjYkJJalVPQjVDQ2lqYWxJRjJNWjh5ZWdXY0xnemcxLU94emo5ZkFzdDJ6SGJtNlRtQS1UNG95YVd6MU9HcERJSV96VXc2ZXJLVFU2SkdrMGVlMW5mdkVoZjZqMnlxTQ?oc=5",
-      "published": "Fri, 02 Oct 2026 15:41:46 GMT",
-      "summary": "Sanctions keep catching Russia’s gas tankers, so Moscow is building new ones, UK says&nbsp;&nbsp;Euromaidan Press",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T23:41:46+08:00",
-      "source_detail": {
-        "name": "Euromaidan Press",
-        "url": "https://euromaidanpress.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan Sanctions 35 Russian Shadow Fleet Vessels in New Crackdown on Moscow - UNITED24 Media",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0gtV0kyVFpKYk00Qk5jUFljTmNTWWN6aXFaQUpzLTczU3dQN3RKcF9oQzFsMmxRTHpfcmdBMktnaVhIUDBjUkxGS05KT21mN0llWUpIZnZ0bFRnN3hGNFptNkVfazRCbktFMVRMNmdWaEFmeEs0UHllQXhaVGthTy1HVDFfU3JVOWU2Z3p1WHMzWGQ0Z002TXE4allCeWdGS1JKTTBCcG9ZSERnbnJOY3pB?oc=5",
-      "published": "Fri, 02 Oct 2026 15:08:04 GMT",
-      "summary": "Japan Sanctions 35 Russian Shadow Fleet Vessels in New Crackdown on Moscow&nbsp;&nbsp;UNITED24 Media",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T23:08:04+08:00",
-      "source_detail": {
-        "name": "UNITED24 Media",
-        "url": "https://united24media.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The City That Brought Down an ICE Airline - The American Prospect",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRW1oT2cxY2loaWVLa2x1dnpTY09QMndkQkhjYjdWdGZYMURYWWRDWUhFLWtLZDNJeUZPVnZBWFJrU05EZ1lJdXlMVldwM0o5Qm9lTnd3N3hsWkpwOE8xTFNjc3VfUFBSUzZveC1GSWJRR0MzN2RCWHpzazM0OC1OU3lNSkN6WlZ6OHlTc1VJdHVCZ1BZTHlTVmJrUGlCWFFUbTFF?oc=5",
-      "published": "Fri, 02 Oct 2026 14:54:18 GMT",
-      "summary": "The City That Brought Down an ICE Airline&nbsp;&nbsp;The American Prospect",
-      "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-02T22:54:18+08:00",
-      "source_detail": {
-        "name": "The American Prospect",
-        "url": "https://prospect.org"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Targets Russia-Linked Payment Network Behind $17B in Transactions - Altcoin Buzz",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTRHODlNNzFwemU0VFlXaHlRQTRCZTZzTGFxYldYaW9MRlJ4WFRLUEFabUNROG9yRkV5TVJSSUZuc3VoUWVIZXJsc0U1UEpjOUE2bXg3Q1g3eWlQak9BdkxNX2JkSUdmZXpNOW5rVHpVdkRSOGVkdC1Ga2luTmg5NUlrdEtFUlNhbFBUZjRMeGZwaWRKMzFNZl9R?oc=5",
-      "published": "Fri, 02 Oct 2026 14:23:01 GMT",
-      "summary": "US Targets Russia-Linked Payment Network Behind $17B in Transactions&nbsp;&nbsp;Altcoin Buzz",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T22:23:01+08:00",
-      "source_detail": {
-        "name": "Altcoin Buzz",
-        "url": "https://www.altcoinbuzz.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Ex-German Chancellor Schröder Joins Board of German Chain in Russia - themoscowtimes.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWGpMNHNueUNxWFpiTmM1d3N1WWhmNzJpckZ3ZG1keURNTEJGaFppVDIyOFd5R2NaYnhDOTQ2ai1sS2lXb3J6VVRaRkl5SHZqSWhsMTZNWmc1UVd6SUFwM29TWlFSNXBxQkF4Uy0yOFVCVXNCQ3BEczhvRldXRjBoMzV6Z3p4dkpseEhWSVd6ZzFpSEVZbmZBd1RQZjJ6VTZOZVBQZ3lzUTJNVUJ2c3ZTcV9CNF9CcUk?oc=5",
-      "published": "Fri, 02 Oct 2026 13:49:25 GMT",
-      "summary": "Ex-German Chancellor Schröder Joins Board of German Chain in Russia&nbsp;&nbsp;themoscowtimes.com",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T21:49:25+08:00",
-      "source_detail": {
-        "name": "themoscowtimes.com",
-        "url": "https://www.themoscowtimes.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "BIS Affiliates Rule Suspension Extended but Uncertainty Remains - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHZSR2UyWVlCN3NRZ1dscmNMcUhYLW9pN0wzVEFmUG9ZaUprYmF2RVd3LUswSmVRYlJ5YWQ3cDVxMHlyNHZLNlhPSUZpT1pCT21FbXFyd0JTY0I5X0J5ODFkQ25FeEJpdTB3dXBTdnRVTjg3WlM3SHZnaDE3Z1VQbW5sREt5ZXhNVnVEMTlpNk5lVi1JaVNN0gGcAUFVX3lxTE9LZG9jRk5YYkJoY05abnc2bkQzSUJSa085ZmhkZzNmQUFuUG5nMFhtampVbzZMQ3RfTXBEckhIeDBWSGpIeVA1WVB3X0E1ZXFqYmt5WktwUVlzLUZrMnBqSXNDN1VVRmFwcTEzanhJUTdBSDREZERxX2tETmlrajF4OTZQUFpjdFRSd2FVcnBxamVLdWtieTRIVjhIWg?oc=5",
-      "published": "Fri, 02 Oct 2026 13:29:24 GMT",
-      "summary": "BIS Affiliates Rule Suspension Extended but Uncertainty Remains&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-02T21:29:24+08:00",
-      "source_detail": {
-        "name": "The National Law Review",
-        "url": "https://natlawreview.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "JAPANESE ECONOMIC AND BUSINESS WEEKLY NEWSLETTER: 19 September - 02 October ,2026 - EIN News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMVVPUUZnZjd3UTFIY0x6aW9TOWhlZE9nVHd3Z3lIeWphR0xYQTR4V1VPazJ3Q2paR2psQUdTRWVxS2JDOTdsMXBJTmVqbXVIUHd1Mkx2NjFWU0hfdDljYThRbWNiRGRySUtkcVFhcVp1YTRsX2FjM1owdzVGNTY1bnpMRW8wY1hpbUo3NEg4dkRCZDBNTG90VWRZQ1hIZVFFTHYtSlA0VnRyczU1Mzg1MzYxWkVUVVRxc0x3?oc=5",
-      "published": "Fri, 02 Oct 2026 12:12:00 GMT",
-      "summary": "JAPANESE ECONOMIC AND BUSINESS WEEKLY NEWSLETTER: 19 September - 02 October ,2026&nbsp;&nbsp;EIN News",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-02T20:12:00+08:00",
-      "source_detail": {
-        "name": "EIN News",
-        "url": "https://www.einnews.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Greenland’s new foreign direct investment regime - White & Case LLP",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjB3Z2l0NE5sRTFqM2dIN0t2bzY3UUFiQkZ3MlZtRU93U3JLWDJmMjNmOFA4ejRBMnNJeEpzVWhrd2ZIZ1NzSmtRWGhfSURBMFIzdU5Cd2ZzNzAwVGVGYVF2d2JtVWNEaHF2c2hIYll1QUQ2a3daSE9SdFQ1LURrUG5qeExoZG5wUWZhb3hXQTQ?oc=5",
-      "published": "Fri, 02 Oct 2026 12:00:00 GMT",
-      "summary": "Greenland’s new foreign direct investment regime&nbsp;&nbsp;White & Case LLP",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-02T20:00:00+08:00",
-      "source_detail": {
-        "name": "White & Case LLP",
-        "url": "https://www.whitecase.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lebanese Eurobonds gain 26% in 2026 - libnanews.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VVFBodm5CbnBzNWJ5X3oyM1VaMW80QkR6bV9xanBoMjQ5Ty1KR1p6ckxFdUhaZzV2bV90VGZsV3VJUE5OdnFuV1AwVTg0M2hGMWhmeWRrclNhMFlBMlBWRk5vaHYzY3ZS?oc=5",
-      "published": "Fri, 02 Oct 2026 11:20:54 GMT",
-      "summary": "Lebanese Eurobonds gain 26% in 2026&nbsp;&nbsp;libnanews.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-02T19:20:54+08:00",
-      "source_detail": {
-        "name": "libnanews.com",
-        "url": "https://libnanews.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Latest edition of EY Belgium’s customs and excise update - EY",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGw3YUpFdVdPNVMzSUlrWVRGbV9BOFEyS3hOaDhjbzZQZGJma1gzR3lmWmplRVByUE9pc2t2TTZHZFMxYWtUZThpRXFmY1kxbzVYZUswcXdZd1ZtZkxNcklCamh0c0VNT3hKRElOaXc4RFZaVFhULWV2enB2VG9WSEpPa1Q5VmtNTkRkVFZ1RXpwNUNSTjRxbDVoQkxRSDBJUzdn?oc=5",
-      "published": "Fri, 02 Oct 2026 08:33:25 GMT",
-      "summary": "Latest edition of EY Belgium’s customs and excise update&nbsp;&nbsp;EY",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T16:33:25+08:00",
-      "source_detail": {
-        "name": "EY",
-        "url": "https://www.ey.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russia sentences founder of exile news outlet Astra to seven years in absentia. Her lawyers say she was convicted of violating ‘foreign agent’ regulations despite never being designated one. - Meduza",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPclFwd1NlVm9OU0VkT01RT2t5SGx4ZUtsLU5vRHpHSWxyX0UwQngxc3F2R0liQWFmY0RXbjg2dXhMSWpjeDctZy1Rb0ROc1pTMGFvM0pjSGM3NHRJNEtrM3lvdGdtaDVONEtnQ0ZVRGRTU1lrcmVnU2I2T0JqWVNvWUtpa0JMYUNoWWR5S0ZqU3RtaUVMcWZoNnRRVXJFek5yODQ5QXJKZW9XTHh4WFRBVi1mYTZzdy1MSkdDTFpxdW9TV3lRMHN5am9FWmxOOE9Ccjc1T2xtMFUxdkt4dDZ2SnF5YVFFTjNPV2I0Rm1kTG14Wm0xV0xEbnVDejFYU250VkpzSVFfellvRklHSU9RWnhQN3ZvRjNSYkNITDlDNkhRaWJ1aXlBeHFzNnV3SHM1M1FKLTl5VWFrU2F4Y1VuckszZGRZODJocFFv0gHLAkFVX3lxTE9yUXB3U2VWb05TRWRPTVFPa3lIbHhlS2wtTm9EekdJbHJfRTBCeDFzcXZHSWJBYWZjRFduODZ1eExJamN4Ny1nLVFvRE5zWlMwYW8zSmNIYzc0dEk0S2szeW90Z21oNU40S2dDRlVEZFNTWWtyZWdTYjZPQmpZU29ZS2lrQkxhQ2hZZHlLRmpTdG1pRUxxZmg2dFFVckV6TnI4NDlBckplb1dMeHhYVEFWLWZhNnN3LUxKR0NMWnF1b1NXeVEwc3lqb0VabE44T0JyNzVPbG0wVTF2S3h0NnZKcXlhUUVOM09XYjRGbWRMbXhabTFXTERudUN6MVhTbnRWSnNJUV96WW9GSUdJT1FaeFA3dm9GM1JiQ0hMOUM2SFFpYnVpeUF4cXM2dXdIczUzUUotOXlVYWtTYXhjVW5ySzNkZFk4MmhwUW8?oc=5",
-      "published": "Fri, 02 Oct 2026 07:40:00 GMT",
-      "summary": "Russia sentences founder of exile news outlet Astra to seven years in absentia. Her lawyers say she was convicted of violating ‘foreign agent’ regulations despite never being designated one.&nbsp;&nbsp;Meduza",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-02T15:40:00+08:00",
-      "source_detail": {
-        "name": "Meduza",
-        "url": "https://meduza.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "U.S. sanctions A7 Network after $17B in transfers - crypto.news",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6QkZrWWk3emh4V1ptOW5pWl9sNzA0NXdqa0xqWXB6bkRRc012UFI0N1RXeElmNnlRWlBZejIwbEdKY2h4WExZSW0xUzNKVm1LYUltbUtSSS0tczJyS3ktMlNxbm9Xdk1LNWRxR0xDWXFYY0J0LUk4?oc=5",
-      "published": "Fri, 02 Oct 2026 05:19:00 GMT",
-      "summary": "U.S. sanctions A7 Network after $17B in transfers&nbsp;&nbsp;crypto.news",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T13:19:00+08:00",
-      "source_detail": {
-        "name": "crypto.news",
-        "url": "https://crypto.news"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Sanctions A7 Network, Proposes Ban on Sub-Agent Payments - The Defiant",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnA1UG9mN2lGaXpKX05kb3FTMWFiZ1gtTTNWUmR2NkVqcF9paWJWNDUyWEQybFd0azF4RVgtMFFkN2Y5YU9waTd4T1k5SG4zVVoxd0hwQi1QamhjeXVBc2Z0eHNub2dxalVDNmdmd195T2tSLWo5RGZsN2c0cGRuNGdCemR6bUFGWC1CUUFnU1ZDeUJGZjdWUTlJZDdVc3YxUXc?oc=5",
-      "published": "Fri, 02 Oct 2026 01:07:35 GMT",
-      "summary": "US Sanctions A7 Network, Proposes Ban on Sub-Agent Payments&nbsp;&nbsp;The Defiant",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-02T09:07:35+08:00",
-      "source_detail": {
-        "name": "The Defiant",
-        "url": "https://thedefiant.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
-      "published": "2026-10-02T21:02:18Z",
-      "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
-      "source": "Schneier on Security",
-      "published_beijing": "2026-10-03T05:02:18+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Unidentified Flock Cameras in Florida",
-      "link": "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
-      "published": "2026-10-02T14:52:46Z",
-      "summary": "St. Lucie County in Florida discovered (alt link) a dozen Flock cameras whose ownership it can&#8217;t identify, and that the county government had not permitted.\nI am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.\nMy guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn&#8217;t bother getting approval. Were I a forei...",
-      "source": "Schneier on Security",
-      "full_text": "St. Lucie County in Florida discovered (alt link) a dozen Flock cameras whose ownership it can’t identify, and that the county government had not permitted.\nI am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.\nMy guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn’t bother getting approval. Were I a foreign actor, I would rather hack the existing Flock network—like Israel did with Tehran’s surveillance cameras—than risk installing my own.\nRegardless, once we normalize a surveillance infrastructure, both friends and foes will take advantage of it.",
-      "published_beijing": "2026-10-02T22:52:46+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How American Political Campaigns Are Using AI—and What They’re Spending on the Tools",
-      "link": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
-      "published": "2026-10-02T11:02:19Z",
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nNew campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.\nCandidates&#8217;, parties&#8217; and committees&#8217; spending reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns. It&#8217;s a sensitive issue that we hav...",
-      "source": "Schneier on Security",
-      "full_text": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian.\nNew campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.\nCandidates’, parties’ and committees’ spending reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns. It’s a sensitive issue that we have been tracking closely since we started writing our book, Rewiring Democracy, which examined how AI is beginning to influence politics. A September 2025 Pew survey of Americans found that more than 70% would think less of a candidate if they used AI to help write a speech.\nItemized expenditure disclosure data from the US Federal Election Commission, dating back to 2020, reveals at least $17m in disclosed spending on AI technology vendors across 523 federal candidates and campaigns. Data from four states, California, Colorado, Massachusetts and Washington, provides a more localized picture going back to 2022.\nBeginning with the AI behemoths, at least 80 federal campaigns and committees have reported spending with OpenAI since 2024. The total spending is not huge: only about $50,000 reported, skewing slightly more Republican than Democratic. The Republican National Committee is the largest overall buyer, with nearly $10,000 in reported expenses. Top individual users include the campaigns of Republicans Mike Lawler, John Kennedy and Bill Cassidy, as well as the California Democrats Ro Khanna and Ted Lieu. Most of these expenses are listed as office expenses, subscriptions to ChatGPT for staff, or research tools, rather than as specific political services. The company’s policies prohibit some political uses of their ChatGPT tool.\nOpenAI’s biggest competitor, Anthropic, has rapidly built a similar level of usage, but with a different split. At least 65 candidates or committees now report paying the Claude maker in 2026, up from essentially zero in previous years, with a nearly two-to-one Democrat-to-Republican ratio. However, the largest individual user is the campaign of Tom Cotton, a Republican senator from Arkansas, who reported more than $4,000 in spend on Anthropic software in his June filing. Other major users are the Montana independent Senate candidate Seth Bodnar and Jason Knapp, who lost a Democratic House primary in Virginia, and the Democratic Alaska Senate candidate Mary Peltola.\nCandidates use either Claude or ChatGPT, rarely both, according to the disclosures. Only about 12% of campaigns or committees using either tool reported expenditures to both vendors. The Democratic lean of Anthropic usage may reflect the company’s alleged liberal skew and clashes with the Trump administration.\nIn contrast, Elon Musk’s xAI caters to Republican interests and, accordingly, its meager usage comes almost entirely from the political right. Just seven federal and two state-level candidates or committees have reported paying xAI, a total of about $5,000, the majority of which was spent by the presidential campaign of RFK Jr in 2024, but also includes Republicans Dave McCormick and Thomas Massie.\nMore dollars go to the vendors specializing in political campaign applications of AI. For years, AmplifAI, which provides automated text messaging, essentially a new iteration on robocalling technology, was a dominant target of spending, soaking up $4.7m in campaign spending in the 2022 cycle alone. It was used heavily by Democratic candidates including Mark Kelly, Joe Biden, Bernie Sanders and Adam Schiff. Spending on AmplifAI, now owned by the troubled media conglomerate Triller, seems to have tapered off in the years since 2022.\nThe new rising Democratic solution for AI-powered text messaging is Daisychain, which has so far garnered about $300,000 in reported candidate spend in the 2026 cycle—up from only about $50,000 reported in 2024. More than half of this year’s spending comes from the Senate campaign of Democrat Abdul El-Sayed in Michigan.\nThe closest equivalent on the Republican side has been Campaign Nucleus, associated with former Trump campaign manager Brad Parscale. The AI-powered voter engagement tool has attracted six-figure spending from the Republican National Committee, multiple PACs aligned with Donald Trump, and five-figure investments from Mike Johnson, Kari Lake and other candidates. It is displacing the legacy Republican-serving texting vendor Prompt.io, which has retained about $375,000 in 2026 spending to date, down from more than $500,000 in the 2022 cycle. But it continues to be used: the A More Affordable California PAC sponsored by Uber has single-handedly spent more than $1m on Prompt.io in 2026. The Republican Massachusetts gubernatorial nominee Michael Minogue has been a recurring customer, as has the failed Republican California gubernatorial candidate Ché Ahn and Republican-aligned Super PAC Neighbors for a Better Colorado.\nAt the state level\nAt the state level, the AI spending is smaller but growing fast. Across the four states studied, we found a total of at least $92,000 in spending confidently attributable to modern generative AI vendors since 2022. The spending is spread across at least 108 candidates and committees. The growth has been explosive; there has already been about 10 times the amount of state-level AI spending reported in 2026 as there was in all of 2024.\nMuch of the state spending mirrors federal patterns. Daisychain again has the highest overall spend, and OpenAI and Claude dominate among the general-purpose AI vendors. DonorAtlas—the AI-powered prospect research tool—sticks out for its usage in these states, sitting behind only Daisychain and OpenAI and buoyed up by nearly $4,000 in spending by the California Democratic party.\nEven though it has dominated so much media conversation, few candidates seem to be reporting spending on AI tools designed specifically to create synthetic audio and video, also known as “deepfakes”. We found just six federal candidates or committees reporting spending on the popular AI audio generator tool from ElevenLabs, with total spending of about $1,400 led by independent candidate for Colorado’s sixth congressional district Samir Witta. The AI image generator service Midjourney has five reported federal campaign or committee users reporting about $1,600, led by Sholdon Daniels, the Republican primary runner-up in the Texas 30th district. Combined, those two firms had less than $100 in reported spend across the four states.\nHowever, recent data from the Wesleyan Media Project shows that at least 164 political ads in this cycle have included AI-generated media, supported by at least $80m in ad spending. What this illustrates is that candidate and committee disclosure reports are just the tip of the iceberg. They don’t cover spending on AI by political consultants, media firms and other vendors hired by the campaigns or by PACs, or independent committees raising and spending money aimed at boosting candidates’ campaigns. Those entities aren’t required to disclose detailed expenditure reports, and are very likely where the bulk of campaign AI usage is happening.\nSince a large fraction of all spending in the campaign cycle will happen in the final weeks leading to November, much remains to be seen about the totality of how campaigns will leverage AI and what impact its use will have on voters’ decisions.",
-      "published_beijing": "2026-10-02T19:02:19+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }

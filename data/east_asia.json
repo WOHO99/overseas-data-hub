@@ -1,39 +1,41 @@
 {
   "version": "4.0",
   "module": "东亚深度",
-  "updated": "2026-10-04T04:46:31.227037+00:00",
-  "fetch_date_utc": "2026-10-04",
-  "total": 123,
-  "high_priority": 4,
-  "medium_priority": 46,
-  "signal_alerts": {},
+  "updated": "2026-10-05T04:34:58.591203+00:00",
+  "fetch_date_utc": "2026-10-05",
+  "total": 66,
+  "high_priority": 1,
+  "medium_priority": 21,
+  "signal_alerts": {
+    "record high": 1
+  },
   "stats_by_category": {
     "日本": {
-      "count": 13,
+      "count": 10,
       "feeds": 3
     },
     "韩国": {
-      "count": 13,
+      "count": 3,
       "feeds": 3
     },
     "朝鲜半岛": {
-      "count": 4,
+      "count": 0,
       "feeds": 1
     },
     "政治+社会": {
-      "count": 43,
+      "count": 27,
       "feeds": 3
     },
     "基础设施+科技": {
-      "count": 38,
+      "count": 20,
       "feeds": 2
     },
     "气候+人口": {
-      "count": 11,
+      "count": 6,
       "feeds": 3
     },
     "大国关系": {
-      "count": 4,
+      "count": 0,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -53,136 +55,34 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 9,
+  "fail_feeds": 12,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "AI Reshapes South Korea's Semiconductor Investment Landscape—The Rally in Materials, Components, and Back-End Processing Is Just Beginning - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjcUJNQTJOclFLRi05dEJ2REtkbW9YVGJwZHNZV0NMTHBZblpmSlRZdFAwV2h4UEdaSjVTY1dqM1ltNk10WW1hQ0h4bU1EcjkwWllsX3NtbkFwY091NHhEYk9ucndSRUsyYk43bGtqaTlNamN2S3c?oc=5",
-      "published": "Sat, 03 Oct 2026 02:25:00 GMT",
-      "summary": "AI Reshapes South Korea's Semiconductor Investment Landscape—The Rally in Materials, Components, and Back-End Processing Is Just Beginning&nbsp;&nbsp;finance.biggo.com",
+      "title": "South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ueUdJOUpEUmFtSE85UllMZVlSYlU1cndacUVieHlqX1EyU08yNWdXLXJxZ3dhY2hwdEtxYnN0aHhHMlZDcXp6VGZGN2xjR0stRUVQVnNzdjhMU2VTX1o1dmJ6cmlyS0E5SmV2SmREZXRTUWQyaThR?oc=5",
+      "published": "Sun, 04 Oct 2026 12:44:30 GMT",
+      "summary": "South Korea unveils a roughly $900B AI and chip plan it calls a survival strategy&nbsp;&nbsp;Crypto Briefing",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T10:25:00+08:00",
+      "published_beijing": "2026-10-04T20:44:30+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 15.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high"
-    },
-    {
-      "title": "Semiconductor Boom Turns Korean Chip-Equipment Founder Into A Billionaire - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZlB3Sm50aEFRVlZPVnZwNjNSMkhPMVJTVTI5bmVLNDdmOHRJeFRrbm9MUlc0OXcwV2swOFoxc1RUdjBKMkhmUWNuV2xlRkExWG9wUXRqcFlhYXMzeXpCTUNXanRCQVJMQlhvamhudG9YM0xZQXExanhvRzJsc3RyWlROejZBVGVDcTN1c29RUTJfR3dRMHZieVFKZ2dlUQ?oc=5",
-      "published": "Thu, 01 Oct 2026 09:40:07 GMT",
-      "summary": "Semiconductor Boom Turns Korean Chip-Equipment Founder Into A Billionaire&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-01T17:40:07+08:00",
-      "source_detail": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
-      },
-      "priority": 14.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://finance.yahoo.com/technology/articles/semiconductor-boom-turns-korean-chip-094007713.html",
-      "full_text": "The AI-driven memory boom has turned Park Kyoung-soo, founder of PSK Holdings, into a billionaire. Shares of the South Korean chip-equipment maker, which trades on South Korea's tech-focused Kosdaq exchange, surged more than threefold over the past year. Park, 73, who owns roughly 35% of PSK Holdings, including shares held by his three daughters, is the company's largest shareholder. Based on that stake, Forbes estimates his net worth at $1.1 billion at Thursday's market close.\nBased in Hwaseong, south of Seoul and near Samsung Electronics' semiconductor factories, PSK Holdings makes machines that clean and connect the components inside high-bandwidth memory (HBM) and other advanced semiconductor packages. These packages place AI processors close to stacks of HBM, allowing data to move rapidly between the processor and memory. In the first half of this year, revenue rose 14% year over year to 75.3 billion won ($55 million), while net income climbed 35% to 44 billion won.\nOne of its main products, Ecolite, uses plasma to remove microscopic residue left behind when chipmakers use a light-sensitive material called photoresist to create redistribution layers, which are microscopic copper wires that carry electrical signals between chips and other components inside the package. Another main product, Geneva, melts tiny pieces of solder that electrically connect one chip or layer to another—a critical step in assembling packages that combine AI processors with stacks of HBM.\nAnalysts at KB Securities said in a July research note that they expect demand for Ecolite to grow as memory chip makers such as Samsung, SK hynix and Micron expand HBM production to supply AI accelerators, which need HBM's faster data-transfer speeds to keep their processors supplied with data. The analysts also expect demand for Geneva to grow because chipmakers are expanding production capacity for advanced packages that use the equipment to form electrical connections between AI processors, HBM and the layers beneath them.\nPark founded PSK Holdings in 1990 and took it public on the Kosdaq in 1997. Before starting the company, Park worked for Miryung Construction, founded by fellow billionaire Kim Jun-ki, which is now known as DB Construction. There, he worked on the construction of a silicon-wafer factory for U.S. seeds and pesticides maker Monsanto, whose electronic-materials division manufactured silicon wafers for chip makers at the time. He has a bachelor's degree in business from Korea University in Seoul and an M.B.A. from California State University, Los Angeles."
-    },
-    {
-      "title": "Korea Alcohol Group Shifts From Ethanol to Semiconductor Materials Value Chain - thelec.net",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZUFnazFhaHBWOHRGbk1IdkM1ci16UVlfeWQ3bkU2R0pmam5sVEdMSExRZlY5VXNjcFU3UDFEcFhqenptRVdKbWwxNlQ1M3Y1RnBiUzFtbldEWEVRZ3BSQkVxc252Q1E?oc=5",
-      "published": "Thu, 01 Oct 2026 22:56:19 GMT",
-      "summary": "Korea Alcohol Group Shifts From Ethanol to Semiconductor Materials Value Chain&nbsp;&nbsp;thelec.net",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T06:56:19+08:00",
-      "source_detail": {
-        "name": "thelec.net",
-        "url": "https://www.thelec.net"
+        "name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com"
       },
       "priority": 10.8,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://www.thelec.net/news/articleView.html?idxno=14366",
-      "full_text": "Korea Alcohol Group is shifting its portfolio toward semiconductor materials, moving the focus from ethanol and commodity chemicals to higher-value semiconductor materials. The group has built a circular semiconductor materials value chain connecting its affiliates, covering the process from production and distribution to resource recycling. It is also establishing a production hub in Yesan, South Chungcheong Province, bringing together major materials affiliates.\nAccording to industry sources on Oct. 1, Korea Alcohol Group has expanded its semiconductor materials business through affiliates including KC&A, Korea Alcohol Industrial, ENF Technology, UBM, PURIT and PAM Technology. The growing share of high-value semiconductor products has translated into improved earnings.\nKorea Alcohol Industrial's standalone sales in the first half of this year rose 8.6% from a year earlier to 153.2 billion won. Operating profit increased 123% to 13.6 billion won. PURIT reported sales of 82.6 billion won and operating profit of 12.5 billion won, up 19.3% and 64.8%, respectively. ENF Technology reported consolidated sales of 349.9 billion won and operating profit of 52.2 billion won, increases of 8.7% and 16%, respectively.\nKorea Alcohol Industrial is the only company in South Korea producing normal butyl acetate, according to the company. It began as an ethanol producer in 1984 and entered the electronic materials market in 1999 after completing an electronic-grade normal butyl acetate plant in Ulsan. Normal butyl acetate is an organic solvent used to control the dissolution performance and volatility of semiconductor thinners. Thinners are solvents used in semiconductor photolithography to dilute photoresist (PR) or remove residual PR from the edge of wafers. Korea Alcohol Industrial's official materials identify normal butyl acetate and electronic and semiconductor materials among its businesses.\nPURIT, established in 2010 to recover and refine waste organic solvents, has expanded its portfolio into high-purity chemicals for semiconductors. It currently produces high-purity organic solvents used in semiconductor photolithography, including propylene glycol monomethyl ether (PGME), propylene glycol monomethyl ether acetate (PGMEA), ethyl 3-ethoxypropionate (EEP) and ethyl lactate (EL).\nAmong these products, PGME and PGMEA are supplied as raw materials for semiconductor thinners and other products manufactured by ENF Technology. EEP is supplied to Dow Chemical and Dongjin Semichem, while EL is supplied to Dongjin Semichem and others. Semiconductor materials accounted for more than 80% of PURIT's sales in the first half of this year, at 66.8 billion won.\nENF Technology has also shifted its focus from displays to semiconductor materials. Semiconductor materials sales began surpassing display materials in 2020. They now account for about 65% of total semiconductor-related sales. The company supplies thinners, etchants, strippers, cleaning solutions, monomers and polymers used in semiconductor photolithography and etching processes. Semiconductor materials sales have recently increased, led by hydrofluoric acid (HF)-based etchants that the company has successfully localized. ENF Technology's official materials describe its portfolio as including process chemicals for semiconductor and display manufacturing.\nThe group has also expanded its product portfolio by adding affiliates. In 2021, ENF Technology acquired a stake in UBM to enter the chemical mechanical planarization (CMP) slurry market. CMP slurry is a material made by mixing abrasive particles and chemicals used for wafer planarization. Earlier this year, ENF Technology increased its stake in PAM Technology, a joint venture with Japan's Morita Chemical Industries, making it a consolidated subsidiary. PAM Technology produces hydrofluoric acid-based buffered oxide etchant (BOE) and ammonia water, a raw material. ENF Technology's official materials identify UBM as a semiconductor CMP slurry company and PAM Technology as a producer of HF/BOE etchants.\nThe group has established a structure linking the businesses of its affiliates from raw-material sourcing and distribution through basic chemical materials, advanced semiconductor materials, and recycling and resource circulation. KC&A sources chemical raw materials in South Korea and overseas, while Korea Alcohol Industrial and PURIT produce high-purity electronic-grade solvents. ENF Technology uses those materials to make semiconductor process products such as thinners. PURIT also operates a waste organic-solvent recycling business using waste generated during manufacturing processes. KC&A describes its role as supplying raw materials to affiliates including Korea Alcohol Industrial and ENF Technology.\nThe group is also building a large production hub bringing together its major materials affiliates. Korea Alcohol Industrial, ENF Technology and PURIT are establishing an integrated campus in the Yesan 2 General Industrial Complex in South Chungcheong Province, with a combined investment of 450 billion won. PURIT has moved fastest on construction. It plans to invest about 45 billion won and complete preparations for production in the first half of 2027. The investment could be increased to as much as 100 billion won depending on future demand. Korea Alcohol Industrial and ENF Technology have secured sites with investments of 14.3 billion won and 31.8 billion won, respectively.\nThe group plans to continue expanding each affiliate's business around semiconductor materials. Korea Alcohol Industrial has set a target of 805 billion won in consolidated sales, 88.2 billion won in operating profit and a return on equity (ROE) of at least 12% by 2030."
+      "canonical_url": "https://cryptobriefing.com/south-korea-900b-ai-chip-investment-plan/",
+      "full_text": "Samsung and SK Hynix anchor a decade-long push into memory fabs, AI data centers and robotics\nSouth Korea has put a price tag on its AI ambitions, and it is one of the largest national tech commitments on record.\nOn June 29, 2026, President Lee Jae Myung unveiled a public-private investment plan worth approximately $880–900 billion, or around 1,350 trillion won, to be deployed over the next decade.\nLee described the effort as a “national survival strategy.” He shared the stage with leaders from Samsung and SK Hynix.\nThree bets, one decade\nThe plan rests on three flagship projects: memory chips, AI data centers, and physical AI and robotics.\nSamsung and SK Hynix are committing approximately $518 billion, or 800 trillion won, to build new memory fabrication plants in the Gwangju region.\nAn additional approximately $52 billion is set aside for an HBM packaging hub. HBM stands for high-bandwidth memory, a design that stacks memory chips so they can feed data to AI processors quickly.\nThe second project is AI data centers. The plan calls for approximately $356 billion, or 550 trillion won, with a target of 8.4 GW of capacity by 2029.\nAI, tech, and the markets they move—in one daily briefing.\nDaily. Free. Join 34,000+ readers across crypto, finance, and policy.\nSK Group, GS Group and Naver are backing the data center buildout. The longer-range goal is more than 18 GW of AI data center capacity by 2035.\nSeoul wants South Korea to rank among the top 3 global AI robot powers by 2030. It also plans to train 10,000 specialists in physical AI by the same year.\nSuperintelligence, in name more than in practice\nThe investment centers on computing power and semiconductor manufacturing, not on standalone ASI projects. The physical assets are concrete, while the superintelligence framing is aspirational.\nWhy Samsung and SK sit at the center\nSouth Korea’s strategy leans on companies that already dominate parts of the memory market. Samsung, led by Jay Y. Lee, and SK, led by Chey Tae-won, are the key corporate figures attached to the plan.\nThe structure is a public-private partnership rather than a pure government spending bill. The state sets the direction and the targets, while corporate balance sheets supply much of the capital.\nWhat this means\nThe HBM packaging hub deserves particular attention. High-bandwidth memory sits at the core of modern AI hardware, so a dedicated hub signals that Seoul wants to own more of the value chain, not just the raw memory chips.\nMoving to 8.4 GW by 2029 and beyond 18 GW by 2035 implies a major expansion in electricity supply, and the plan’s credibility will partly depend on whether the power can be delivered on schedule.\nThe talent target may prove a quiet bottleneck. Fabs, data centers and robots all need skilled people, and 10,000 physical AI specialists by 2030 is a measurable milestone worth tracking.\nThe milestones to watch are groundbreaking progress on the Gwangju fabs, the 2029 data center capacity mark and the 2030 robotics and training goals."
     },
     {
-      "title": "Chip Industry Week In Review - Semiconductor Engineering",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kRGpjTTZKZERfLUNKcERsMjRjc3dMM1pZdnk2UXlTZ2RqY0RUNW5iSEdkRlY2OGc5RC0xVFJYUkQwYlNhZWdydUNxMHhhRVFBQ1NINlcwOUZTUWQtb0s4MmJZejFrYlN2c2RTaWF3?oc=5",
-      "published": "Fri, 02 Oct 2026 15:24:58 GMT",
-      "summary": "Chip Industry Week In Review&nbsp;&nbsp;Semiconductor Engineering",
+      "title": "South Korea's National Pension Service Sells ₩793.7 Billion of Samsung Electronics, Buys ₩1.6 Trillion of SK Hynix - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80ejROX2lyblo3dFAxeV96ejFxREZjUXI2NmNnQXZObkQ5ZWIxaFV5RFhzdnJ6UkNPU3IzLUhETXNlSUI3WDlib2wwZFF5aGQ5OWZ6M0hsTlAwMk9VcGZBczZXV0hXbFNQQkI2WXc0a1RTRDRqVEE?oc=5",
+      "published": "Mon, 05 Oct 2026 02:05:00 GMT",
+      "summary": "South Korea's National Pension Service Sells ₩793.7 Billion of Samsung Electronics, Buys ₩1.6 Trillion of SK Hynix&nbsp;&nbsp;finance.biggo.com",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T23:24:58+08:00",
-      "source_detail": {
-        "name": "Semiconductor Engineering",
-        "url": "https://semiengineering.com"
-      },
-      "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "South Korea CPI inflation eases slightly in September - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTjhpZU04RkRfQW9hZmJ4Q2ZkYlZoR2NZV1NaUFlOdDhVZmMwWDRrWkV2Z3o5b28zNjRYdVl5QjhJbGNZSUNkZnZFQm1FeEZqcm5ESGtrQU96bTdmVnpaZUlXZVlpVHI0QVlKVmhaZjlLV3AyelkyNlpfVEpnZWs0UHFWdkNPSnY5TmN4MDFINDNUdUtod3FLMFJxc3FCZzcwTkx6MWo2WDhhYUk1OHJuU1JR?oc=5",
-      "published": "Thu, 01 Oct 2026 23:31:41 GMT",
-      "summary": "South Korea CPI inflation eases slightly in September&nbsp;&nbsp;Investing.com",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T07:31:41+08:00",
-      "source_detail": {
-        "name": "Investing.com",
-        "url": "https://www.investing.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.investing.com/news/economic-indicators/south-korea-cpi-inflation-eases-slightly-in-september-4928671"
-    },
-    {
-      "title": "Micron Posts Record Results on AI Demand as Korea, Japan Fund U.S. Power Plants - en.sedaily.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRk9yZUw1SkhJNDNZcmZMX0Z5MFRVam5TLWp0ckxWYUZ1UG9CU0wzdWw2SUxoMVJSdUc4a25PYzVzbDdCRmRvcmZjM19BYWNnTTFMNEpKUmNFRTQwbWxTclZna2NBZDFQY1RjVjZmbEFmQ3dkdHpHZE5UejRnS0NpbW5GNjJmMjhTeEpZdzVuSmFQbS1YUER6QXc0Q0JKenNLUVdpb05n?oc=5",
-      "published": "Thu, 01 Oct 2026 21:00:05 GMT",
-      "summary": "Micron Posts Record Results on AI Demand as Korea, Japan Fund U.S. Power Plants&nbsp;&nbsp;en.sedaily.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T05:00:05+08:00",
-      "source_detail": {
-        "name": "en.sedaily.com",
-        "url": "https://en.sedaily.com"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://en.sedaily.com/international/2026/10/02/micron-posts-record-results-on-ai-demand-as-korea-japan",
-      "full_text": "Global Morning Briefing is a roundup of worldwide news compiled by Seoul Economic Daily.\nMicron's AI Data Center Revenue Jumps 11-Fold; 35% of Four-Year Sales Already Locked In\nMicron Technology, the U.S. memory chipmaker often seen as a barometer for the semiconductor market, posted record results for both the quarter and the full year. Revenue from its data center business surged 11-fold in a single year on artificial intelligence demand. By shrugging off concerns that the cycle had peaked and confirming the memory upcycle, the results are raising expectations that favorable conditions will extend to earnings at Samsung Electronics (005930.KS) and SK hynix (000660.KS).\nMicron said in a filing that revenue reached a record $54.23 billion (about 73.704 trillion won) in the fourth quarter of fiscal 2026, which ran from May 29 to Sept. 3. It marked the sixth straight quarter of record revenue.\nQuarterly revenue rose nearly fivefold from $11.32 billion a year earlier, beating the $51.07 billion average estimate compiled by the London Stock Exchange Group. Annual revenue also hit a record, jumping 256% to $133.19 billion from $37.38 billion a year earlier.\nAdjusted earnings per share for the fourth quarter came in at $33.42, above the $31.61 estimate. Micron said it expects first-quarter revenue of $61.5 billion and adjusted earnings per share of $38.15 in fiscal 2027, higher than LSEG estimates of $57 billion and $35.40.\nChief Executive Sanjay Mehrotra said the company is gaining confidence that strategic customer agreements will make its financial performance more robust. Under the arrangements, customers commit in advance to specific memory volumes and amounts.\nTrump Uses Allied Money to Clear the AI Bottleneck\nInvestment projects in the United States that South Korea, Japan and others have finalized with the Trump administration share a common feature: they are concentrated on power plant construction. Most of the selected sites are places where data centers, the core infrastructure for AI, already operate at scale or are slated for construction. That has led to analysis that Washington is using allied investment as leverage to resolve the electricity constraints that have emerged as a bottleneck for advanced industries.\nPennsylvania, where the United States and Japan agreed in March to spend $17 billion on a 4.3-gigawatt natural gas power plant, is a region where AI power demand is rising sharply. It is also where Amazon said last year it would invest at least $20 billion to build an AI and cloud data center campus.\nTexas, where both South Korea and Japan plan to build gas-fired power plants, is one of the world's most closely watched data center hubs.\nCitadel Securities said in a recent report that China will add nearly six times more generation capacity than the United States over the next five years, while the United States will struggle with grid interconnection, permitting procedures and local opposition to data centers.\nPassengers Avert Airliner Crash After Co-Pilot Stabs Captain\nAttention is focused on the motive behind an incident in which a co-pilot stabbed the captain on a flight bound for Israel, nearly causing the aircraft to crash. With the exact motive still unestablished, Israeli officials appear to be leaning toward the possibility of terrorism driven by religious extremism.\nOn the 30th, a co-pilot of Omani nationality attacked the Indian captain with a bladed weapon aboard a Flydubai Boeing 737 MAX flying from Dubai to Tel Aviv. There were 174 passengers on board, 166 of them Israelis. The aircraft plunged from 34,000 feet to 17,000 feet in less than a minute. The seriously wounded captain opened the cockpit door, and three Israeli passengers and a crew member entered and subdued the co-pilot. Two off-duty pilots traveling as passengers then took over the controls and made an emergency landing in Saudi Arabia, averting a major disaster.\nIsraeli Defense Minister Israel Katz described the incident as an attempted jihadist terror attack, saying initial information indicated the attacker had only one intention: to crash the aircraft with everyone on board.\nIn an interview with Fox News, Israeli Prime Minister Benjamin Netanyahu said the exact background was unclear but that the man clearly hated Israelis. Asked whether there were signs that Iran was involved, he said it was too early to say.\nFull Pay Past Retirement Age: Japan Courts Older Workers\nJapanese companies have long cut wages by about half when rehiring workers past the mandatory retirement age, but going forward they must pay the full amount unless there is a clear reason not to. That is because workers rehired after retirement have been brought under the scope of equal pay for equal work. It is a stopgap measure devised by Japan, which unlike South Korea faces labor shortages extending even to older workers.\nAccording to the Nihon Keizai Shimbun on the 1st, the Ministry of Health, Labour and Welfare put revised equal pay for equal work guidelines, amended in April, into effect that day. The revision allows non-regular workers to demand that employers explain why their treatment differs from that of permanent employees doing the same work. Employers must also set standards for allowances, leave and benefits.\nThe revised guidelines also bar employers from differentiating treatment for older workers hired on fixed-term contracts after retirement, known as shokutaku staff, solely on the grounds that they have been switched to contract status. Last year, Japan had a record 9.43 million workers aged 65 and over, 76.1% of whom were non-regular workers, meaning they fall under the new rules.\nJapan has been pushing back retirement ages since 2005, when it became the world's first country in which people aged 65 and over exceeded 20% of the total population, making it a super-aged society.\nParamount-Warner Merger Settlement Reached With 150-Film Production Condition\nParamount's acquisition of Warner Bros. Discovery has cleared its last major hurdle. With an antitrust lawsuit filed by 12 states resolved through a settlement in U.S. federal court, the merger is expected to close soon.\nAccording to The Wall Street Journal on the 30th, the federal court approved a settlement between the two sides in an antitrust suit brought against Paramount by the attorneys general of 12 states, led by California. Because the European Union granted conditional approval of the merger in July, the U.S. federal ruling was the final gateway for the deal. Paramount said it expects the transaction to close on Oct. 6 following the decision.\nThe two companies agreed to establish an editorial board of five journalists within 180 days of completing the merger. The board will have authority to mediate disputes among CBS News and CNN staff over violations of editorial principles, reporting bias, fairness and related issues."
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang Says AI Could Boost South Korea’s Global Technology Power - The Trumpet Newspaper Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnE2TGJQcUlQamM3Zzd5Q0RRUEk4NmFIQjhUOFUydFcyWmxUTG4tU2lQQm1ZNU43OTRTM25XRV9GbldCdWZfMDBsMndnNm5ONWV1RDVCV21SRUVtUnRrdGlDOVJRaEktQWh3alJZSEZIYkI0SHpUTnQ0b2ZJS0tOWmRlcC0yYVNFeEhGTy1kekhGRDRmRHVqam5Qbkh1Qmo5bmh4eDJR?oc=5",
-      "published": "Sat, 03 Oct 2026 18:46:16 GMT",
-      "summary": "Nvidia CEO Jensen Huang Says AI Could Boost South Korea’s Global Technology Power&nbsp;&nbsp;The Trumpet Newspaper Nigeria",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-04T02:46:16+08:00",
-      "source_detail": {
-        "name": "The Trumpet Newspaper Nigeria",
-        "url": "https://thetrumpet.ng"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://thetrumpet.ng/nvidia-ceo-jensen-huang-says-ai-could-boost-south-koreas-global-technology-power/"
-    },
-    {
-      "title": "AI Capex Seen Reaching $1.2 Trillion Next Year — Rally Broadens to Semiconductor Materials and Power Infrastructure Stocks - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41cE1ScnlrTTdlTWJMUTczZzdzc3ZGTWNULUthdnJRTkY0T0pHMUNBZDJRS19paXVMc0xaYjdQQVlXMUdvRVo2Xy1KdmFNRnQ3OWRhcnZZb3E4N0g5dWIzSTE0X095QXRucHBvT1hCTEx2R2ZBUnc?oc=5",
-      "published": "Sat, 03 Oct 2026 07:35:00 GMT",
-      "summary": "AI Capex Seen Reaching $1.2 Trillion Next Year — Rally Broadens to Semiconductor Materials and Power Infrastructure Stocks&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T15:35:00+08:00",
+      "published_beijing": "2026-10-05T10:05:00+08:00",
       "source_detail": {
         "name": "finance.biggo.com",
         "url": "https://finance.biggo.com"
@@ -193,180 +93,104 @@
       "relevance": "medium"
     },
     {
-      "title": "South Korea inflation eases to 2.9% in September - IntelliNews",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUE1oQUVMRjB2YUpHaEJ1QzlfWnR3bjFJNTlUd3hveXVEQnk3THNPQTdiMEJDb3c0NkE3Tkw5bW42VUcwSnBISVFYVGxxcjlXazJmNFZKekJ2eENjS2sza2pDSENkUTZQVUVKSnBIRDA2QV9xYy1JYjh4Y3YyNkhaaGFPMGE5TDdIUHhzdEl6NzJNZ2M3alUtVVRnZFJzdV9xMXlUMw?oc=5",
-      "published": "Sat, 03 Oct 2026 02:39:16 GMT",
-      "summary": "South Korea inflation eases to 2.9% in September&nbsp;&nbsp;IntelliNews",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-03T10:39:16+08:00",
-      "source_detail": {
-        "name": "IntelliNews",
-        "url": "https://www.intellinews.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.intellinews.com/south-korea-inflation-eases-to-2-9-in-september-473105/?source=south-korea"
-    },
-    {
-      "title": "Korea-Japan Cooperation Still Has a Long Way to Go - Toda Peace Institute",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTE8yaWxib1RIdWZZODBMRHV3WU40TVVNUTZiTUJzT0pYZkM1QUFOdHhZVTFpMHNBWlN0UVRZQjAxYzR1OTZZU3pHejBPYTJ5Rm1jNDVzQ0JISlBGcHJrSzV1VC0wZjZzblBmY05fa2JLalpmbUM4Z0FnQVNOdlNOWTdpaTZJcVRlWDNOeQ?oc=5",
-      "published": "Fri, 02 Oct 2026 23:08:48 GMT",
-      "summary": "Korea-Japan Cooperation Still Has a Long Way to Go&nbsp;&nbsp;Toda Peace Institute",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-10-03T07:08:48+08:00",
-      "source_detail": {
-        "name": "Toda Peace Institute",
-        "url": "https://toda.org"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://toda.org/global-outlooks/korea-japan-cooperation-still-has-a-long-way-to-go/"
-    },
-    {
-      "title": "The Case for Canada-Japan-Republic of Korea Trilateral Cybersecurity Cooperation - cgai.ca",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU29xQzgtU1FMOUhvdV9ZWm9iVmxkS1ZPUWs5ZUFmRUlyYk5JZUpvRmlCUFUtS09lR3FqOXMySWdwVHhuMHV5RkJNRTZ2M3NsRDRZTjZJZ1J1d3JPQWY0bUF3emc5cTZnMWxEbHpwNmp1RE9RRGZCMGx2MVg0V25IcUNKTDE5U3E1eUpXeEFPSUt1RzFiWExMUzZRM0xlU2F0VW9FOXR3?oc=5",
-      "published": "Fri, 02 Oct 2026 17:19:32 GMT",
-      "summary": "The Case for Canada-Japan-Republic of Korea Trilateral Cybersecurity Cooperation&nbsp;&nbsp;cgai.ca",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-10-03T01:19:32+08:00",
-      "source_detail": {
-        "name": "cgai.ca",
-        "url": "https://www.cgai.ca"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.cgai.ca/pp_the_case_for_canada_japan_republic_of_korea_trilateral_cybersecurity_cooperation"
-    },
-    {
-      "title": "KOSPI jumps nearly 2% on chip rally, U.S. investment deal - Aju Press",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44NTJKVzRCY0p6NjNuaU1PS3pINWc2NDQ4dEh0bXJWNkNXa3pkaERmSTBNU090V0VZVmR6Ui0wZ3l0Z1FjNFNJTWExNU52MzgtVW53NnlLdURGdTDSAVdBVV95cUxNU19jc3lpZ3hiMlo3WnB5c2hJMjNLUzgyV2s2QzRBQW9rcG5lclFjbGtaYmU3VUdOTlZLV00wVHdNbTNyU0MycGZ6RkFyM0pvdFlyQlVKQUE?oc=5",
-      "published": "Thu, 01 Oct 2026 08:48:55 GMT",
-      "summary": "KOSPI jumps nearly 2% on chip rally, U.S. investment deal&nbsp;&nbsp;Aju Press",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-01T16:48:55+08:00",
-      "source_detail": {
-        "name": "Aju Press",
-        "url": "https://www.ajupress.com"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "​Applied Materials, Besi to Co-Develop Hybrid Bonding at EPIC Center - thelec.net",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40czRmQWFoUTRjRXc3VHB0V3dQNjFWV3kzX1VIZHlORWVRd2FRTW1hYkhPbjJNZ00zOHlTSEpSTG1CN01WZ1BOR1dYVnFhdlUzREh0bnRCNEdZblg5eWcza3pZbVBHcVE?oc=5",
-      "published": "Fri, 02 Oct 2026 13:39:53 GMT",
-      "summary": "​Applied Materials, Besi to Co-Develop Hybrid Bonding at EPIC Center&nbsp;&nbsp;thelec.net",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T21:39:53+08:00",
-      "source_detail": {
-        "name": "thelec.net",
-        "url": "https://www.thelec.net"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.thelec.net/news/articleView.html?idxno=14384",
-      "full_text": "Applied Materials and BE Semiconductor Industries NV, known as Besi, are expanding their collaboration on next-generation packaging technologies including heterogeneous integration and bonding.\nTHE ELEC reported on October 1 that Besi will join Applied Materials' EPIC Center as an innovation partner. The EPIC Center, short for Equipment and Process Innovation and Commercialization, is a collaborative research and development facility being established in Silicon Valley for semiconductor equipment and process innovation. It aims to significantly shorten the time required to commercialize technologies developed by semiconductor companies, from research to high-volume manufacturing.\nEngineers from the two companies will jointly develop full-flow solutions for advanced packaging technologies ranging from wafer-level packaging (WLP) to panel-level packaging (PLP) at the EPIC Center. Demand for chip-to-chip and chip-to-package integration with higher density and bandwidth has increased as companies accelerate the build-out of artificial intelligence (AI) infrastructure.\nThe companies will focus on 3D integrated circuits (ICs) for next-generation AI compute and memory architectures, as well as logic-memory integration. The work will include developing new die-to-wafer (D2W) hybrid bonding equipment, expanding thermo-compression bonding (TCB) technology and building an ecosystem spanning front-end and back-end processes. It will also cover die-on-wafer (DoW) process technology and equipment platforms, die-on-die (DoD) platforms, die-on-panel (DoP) integrated platforms and co-packaged optics (CPO) interconnect technology.\nD2W hybrid bonding is an advanced packaging technology that directly bonds dies, or chips, to wafers using copper and dielectric materials. Unlike conventional TCB, it does not use a soldering process in which metal bumps, or microbumps, are melted to connect chips. The technology increases signal transmission speeds and reduces power consumption, making it a key technology for high-performance AI computing.\nDoW places individual dies on a wafer and bonds them, while DoD directly stacks and bonds another die vertically on an individual die that has already been cut from a wafer. DoP places multiple chips across a large square panel, such as a glass substrate, and packages them simultaneously. CPO is a next-generation packaging technology that integrates optical chips, including silicon photonics devices that transmit signals using light, with high-performance electronic chips in a single package.\nAdvanced packaging was historically treated as a simple assembly step in the back-end process. In contrast, next-generation technologies such as hybrid bonding and PLP require materials engineering capabilities, high precision and cleanliness comparable to those used in front-end wafer manufacturing.\nThe two companies began collaborating in 2020, when they established a joint center at Applied Materials’ Advanced Packaging Development Center in Singapore. The collaboration combined Applied Materials’ advanced semiconductor process technologies, including etch, planarization, deposition, cleaning and precision metrology, with Besi’s die placement, interconnect and assembly technologies. The result was the launch last year of Kinex, the industry’s first integrated D2W hybrid bonding system, according to Applied Materials.\nMore than 10 companies and institutions, including Samsung Electronics, SK hynix, Micron Technology, Taiwan Semiconductor Manufacturing Co. (TSMC) and Broadcom, are participating in the EPIC Center. The center is in the final stages of preparations for operation. Research and development equipment is being moved into its clean rooms, and a center unveiling ceremony is scheduled for Oct. 12. A total investment of $5 billion is planned for the center."
-    },
-    {
-      "title": "Why Japanese Yen underperforms on Thursday? - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcmFGdUM2WURiYXJVeXFhVGpiOGY3Q0t4d2d6Y2FHTDJ3RFNpSGVZV1lKbkJiX19VV0E3cGVNZGxCOGVHRVNKcjJmZEthTzVDa2FPUmN1RUxvcHoxYm5CdHRkUm50MU1Ha3RyZFN2cUZnaWZyOEpPMy1mZURJcDdLMDltNGcxdEJyYkFlZlVhVGhQemI1em9mczhlWTVJa29RVWR6dU9aSG1WMnJ4YmJnOXlOaVJNVTBudngwd3BoWQ?oc=5",
-      "published": "Thu, 01 Oct 2026 11:49:13 GMT",
-      "summary": "Why Japanese Yen underperforms on Thursday?&nbsp;&nbsp;FXStreet",
+      "title": "Former BOJ Board Member Says Japan No Longer Needs Stimulus, Sees Rate at 1.5% in December - bloomingbit",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14S0FibGhJQmlZSTdmVmFkUG1Xd2pmeGN2bnNnUmJ6MHBDQndxSnVUREMzVUhqbXgyaERwbVV2ck16a0tweWhraWk0QU91d2tpUzZ4cg?oc=5",
+      "published": "Mon, 05 Oct 2026 01:46:48 GMT",
+      "summary": "Former BOJ Board Member Says Japan No Longer Needs Stimulus, Sees Rate at 1.5% in December&nbsp;&nbsp;bloomingbit",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-01T19:49:13+08:00",
+      "published_beijing": "2026-10-05T09:46:48+08:00",
       "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
+        "name": "bloomingbit",
+        "url": "https://en.bloomingbit.io"
       },
-      "priority": 3.6,
+      "priority": 7.2,
       "category": "日本",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://en.bloomingbit.io/feed/news/121583",
+      "full_text": "Summary\n- Professor Asahi Noguchi said Japan no longer needs to support demand through fiscal and monetary policy.\n- He said the BOJ may have little choice but to speed up rate hikes to keep the yen from weakening beyond 160 per dollar.\n- Noguchi said he expects the BOJ to raise its benchmark interest rate to 1.50% from 1.25% in December, with a path to 1.75% and 2% depending on conditions.\nForecast Trend Report by Period\nJapan no longer needs to support demand through fiscal or monetary policy, and the Bank of Japan is poised to raise its benchmark interest rate again in December, according to a former BOJ board member.\nAsahi Noguchi, a Senshu University professor who served on the BOJ's policy board through March, said in an interview that underlying inflation is nearing the central bank's 2% target and wages have settled at a level consistent with 2% price growth, Reuters reported on October 5. Under those conditions, pursuing policies to lift demand further would be too risky, he said.\nThe BOJ raised interest rates in June and again in September. The pace of monetary-policy normalization has accelerated as inflationary pressure intensified, driven by higher import costs stemming from yen weakness and an energy-price shock tied to the war in Iran.\nNoguchi said the BOJ would prefer gradual rate increases to avoid a recession, but may have little choice but to move faster to prevent the yen from weakening past 160 per dollar. Its biggest concern, though not something it would say publicly, is that the yen could fall beyond 160 against the dollar and trigger another jump in food prices, he said.\nThe yen is trading around 158 per dollar, close to the 160 level where markets see a rising chance of foreign-exchange intervention. Noguchi said the BOJ will probably hold rates steady this month as the likelihood of a U.S. rate increase in October has receded. He expects the central bank to lift its policy rate by 25 basis points in December, to 1.50% from 1.25%.\nHe also said the BOJ's policy rate could rise to 1.75%, and eventually 2%, depending on the extent of future Federal Reserve rate increases and developments in the Middle East. Japan's economy can absorb rates of up to 1.75%, he said. A move to 2%, however, could shock households and companies that have grown accustomed to ultra-low interest rates over a prolonged period.\nNoguchi was previously a leading advocate of aggressive monetary easing. He joined the BOJ's policy board in 2021 and opposed both the end of negative interest rates in 2024 and a later rate increase to 0.25% that same year, but backed the two subsequent hikes.\nHe also said fiscal policy should move away from an expansionary stance now that Japan's output gap has turned positive. Excessive government spending could push up government bond yields and crowd out private-sector investment, he said.\nSuehyeon Lee\nshlee@bloomingbit.ioI'm reporter Suehyeon Lee, your Web3 Moderator."
     },
     {
-      "title": "Japan’s population includes more than 100,000 people age 100 or older - Honolulu Star-Advertiser",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGh5X0cxNlNsdG9Uc2YxeTlHMmxkcTNmVHZ3VWZCTUkwSXBUb1gtUkFVOExMWUY3ekVENG9VUThLMTBtSjF4cENzeW1yTGdLS3FjTXVKMlc4OUNRb0tqRUh1T2VWQV9qWkJnX0g3V1E1LWstTU0wUUxMNmM2dzFVWXk3RFI0ekhUMUNfREQ2aEgxVG5iZzRwWlJRbEtYRWFjYU1xRnRQQ2VsT1RBQXNzbS1SNHlXUQ?oc=5",
-      "published": "Thu, 01 Oct 2026 10:14:28 GMT",
-      "summary": "Japan’s population includes more than 100,000 people age 100 or older&nbsp;&nbsp;Honolulu Star-Advertiser",
+      "title": "Japan’s population shrinks faster, but the government makes it harder for foreigners to live there - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNm5iRE42Z2x6UXZ4RWxtUG9iQ3BVZS1nRlBwMi0zUlpLeElHSzNqd192YXQwb25qeGRNd3lUNzNsUGhJa1pDSElxTms0QUJxM19PVHE2clJaOVo0WWdlRlZxQ1I1cTliT2VYbEptU29fbWY3ZUlsTWRNdHNHbkhZcDRQZ0hJdjVLeXEtTG1LMDJ6YVFrcUl6OF9aYjBuaTZ4cTduckM2a0dWUXdZWGJFSUJkS3J3OVpHZFJFLWVOTEhuNmFlWHB4b09iRGNiT1BtVTgzYXBkblNaQ3kzdzBV?oc=5",
+      "published": "Sun, 04 Oct 2026 23:02:00 GMT",
+      "summary": "Japan’s population shrinks faster, but the government makes it harder for foreigners to live there&nbsp;&nbsp;Fortune",
       "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-01T18:14:28+08:00",
+      "published_beijing": "2026-10-05T07:02:00+08:00",
       "source_detail": {
-        "name": "Honolulu Star-Advertiser",
-        "url": "https://www.staradvertiser.com"
+        "name": "Fortune",
+        "url": "https://fortune.com"
       },
       "priority": 3.6,
       "category": "气候+人口",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://fortune.com/2026/10/04/japan-population-decline-rate-2025-census-prime-minister-sanae-takaichi-foreigners-permanent-residency-immigration/",
+      "full_text": "New census data over the past week showed Japan’s population shrank more quickly than in the prior tally. Also last week, the government rolled out tougher rules for foreign nationals who want to live in Japan.\nWhile foreigners make up just 3.4% of Japan’s population, the share has increased to a record high and a political backlash has been building—even as the country also grapples with rapidly aging demographics and the need to find new workers to sustain economic growth.\nOn Tuesday, the latest five-year population survey detailed how stark Japan’s situation is. As of October 2025, the total population, including foreign residents, was 22.9 million, down 2.5% from five years earlier. The prior census in 2020 showed a dip of 0.7%.\nThe number of Japanese nationals revealed an even steeper decline of 3.5% to 119.1 million, following a 1.4% drop in the 2020 count.\nMeanwhile, foreign residents jumped 40% to a record high of 3.84 million, and permanent residents climbed 17% to 947,125.\nLike other wealthy economies in Asia, Japan’s birth rate has been below the replacement level of 2.1 children per woman for decades, and the population has been in steady decline since around 2008.\nAt the same time, Japan is aging, and the percentage of people age 65 and older rose to 29.4% in 2025 from 28.5% in 2020. In fact, adult diapers have been outselling baby diapers since 2011.\nThe country is scrambling to find ways to encourage people to have more kids. For example, Tokyo’s metropolitan government launched a dating app to bring more couples together.\nTokyo also started a four-day workweek and partial leave policy for city workers to help those who are parents balance childcare and work.\nBy contrast, policies have turned more hostile when it comes to foreigners.\nOn Thursday, the Japanese government increased fees for permanent residency to $1,271 from $64 — a 2,000% jump that marks the largest increase in the country’s history. The cost for a five-year residence permit shot up to $475 from $38.\nJapan also imposed more detailed requirements on income for permanent residents, who must now earn a minimum of $36,428 per year. And for the first time, applicants for permanent residency will be evaluated based on their Japanese language skills as well as their grasp of rules and customs.\nOn top of that, the government can revoke permanent residency for not meeting pension contribution obligations, failing to pay health insurance and taxes, and violating immigration law or the penal code.\nThe changes come as Prime Minister Sanae Takaichi has ushered in a more nationalist, right-wing stance.\nOn the global stage, that has meant taking a harder line against rivals like China and North Korea, while also bulking up Japan’s military.\nDomestically, the pivot has translated to a crackdown on immigration and even tourism, drawing criticism that Takaichi is encouraging xenophobia. In July, the government hiked some tourist visa prices by more than 400%.\nIn a post on X ahead of the government’s new residency rules, Takaichi said many permanent residents could not maintain independent livelihoods.\n“The government recognizes that, with the increasing number of foreign residents, there are citizens who feel anxiety and a sense of unfairness, and is addressing this by making ‘foreign policy’ more ‘orderly’ so that both citizens and foreigners can live safely and securely,” she wrote."
     },
     {
-      "title": "Won-dollar rate edges up as U.S. yields rise, Korea exports stay strong - CHOSUNBIZ - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12ejVkaU40YjlGc3RzRXJtUS1OdjJGU05scmFkd2I0Q0taVXBETGhyendjekdJVXFvTklZaTAxbmdaSFQzREdkQlhJeGtPYnF1ZUl5ajEwdEphRU1YbVkyRDZkX1hRLVI3QXBqakJhM0gyOTRmY2JoUW0tNHB3cU3SAZMBQVVfeXFMTUFsN3FvREkyRkU0RDdsR2tEdi14NW53R3Z3dG5TWnBLWUl2LVFZb09faUxIekFXbVduWC1TV2lxSFpwNUFPRVFrdjhUdndRUk5VREhJaU0zSUdIdXZBREpZczd5WDBOd3JaM3FqaGNXdUxyYmZtclg4R0ZHQkc5VkZUd3pUQnA4SGZ4WWJibzFjeHhj?oc=5",
-      "published": "Thu, 01 Oct 2026 06:34:00 GMT",
-      "summary": "Won-dollar rate edges up as U.S. yields rise, Korea exports stay strong - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-01T14:34:00+08:00",
+      "title": "Memory Chip Shortage Set to Persist Through 2028 as Micron Secures Orders - briefasia.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnR6TkNIT2otUFM2Y1U5aGVheDJrZ2JRam1PemVQeWdibVdIdkNlN282Z042NkZLU3NGZkVGRE9FN0dyUkZwRDdpVHBDeE1rbERVVU55cGVac2ZndTctLTZhQXJnTmF0X3VlMFZyUEhLVUsxZlZCOUc2V0VJcktzZVQ2c2hfU0phSFJv?oc=5",
+      "published": "Sun, 04 Oct 2026 21:56:15 GMT",
+      "summary": "Memory Chip Shortage Set to Persist Through 2028 as Micron Secures Orders&nbsp;&nbsp;briefasia.com",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-05T05:56:15+08:00",
+      "source_detail": {
+        "name": "briefasia.com",
+        "url": "https://www.briefasia.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.briefasia.com/article/memory-chip-shortage-2028-micron-samsung-sk-hynix",
+      "full_text": "Supply Commitments Signal Tight Market\nThe global memory chip shortage shows no sign of easing, with Micron Technology reporting that more than three-quarters of its production for fiscal 2027 has already been committed to buyers. The announcement underscores tight supply conditions that continue to favour the world's leading memory manufacturers, particularly South Korea's Samsung Electronics and SK hynix.\nMicron disclosed on Wednesday that fiscal fourth-quarter revenue hit $54.23 billion, up nearly fivefold from $11.32 billion in the same period a year earlier. The figure exceeded analyst projections and marks the strongest quarterly performance in the company's history. The results reflect surging demand for memory components driven by artificial intelligence infrastructure, data centres, and consumer devices.\nKorean Chipmakers Stand to Gain\nThe extended shortage strengthens the position of Samsung and SK hynix, which together control roughly 70 per cent of the global DRAM market and nearly half of the NAND flash segment. Both companies have reported robust earnings over the past year as memory prices climbed steadily from the trough reached in late 2023.\nSamsung's semiconductor division posted operating profit of 6.6 trillion won (approximately $5 billion) in the second quarter of 2026, the highest in two years, while SK hynix recorded its third consecutive quarter of rising margins. Analysts expect both firms to maintain pricing discipline as supply remains constrained relative to demand.\nThe shortage stems from a combination of factors: capital expenditure cuts implemented during the 2023 downturn, longer lead times for advanced manufacturing nodes, and accelerating consumption tied to generative AI workloads. Micron's pre-sold inventory indicates that customers are locking in supply well ahead of delivery, a behaviour typically associated with prolonged scarcity.\nImplications for the Chip Cycle\nMemory markets have historically moved in pronounced cycles, with periods of oversupply driving down prices and prompting capacity reductions, followed by shortages that restore profitability. The current upcycle, which began in early 2024, has already lasted longer than many industry observers anticipated.\nMicron's forward commitments suggest the cycle may extend into 2028, providing sustained revenue visibility for chipmakers and pricing leverage over original equipment manufacturers. That dynamic could support continued investment in next-generation technologies, including high-bandwidth memory used in AI accelerators and advanced packaging techniques.\nFor Samsung and SK hynix, the outlook offers an opportunity to recoup losses incurred during the previous downturn and fund transitions to smaller process nodes. Both companies have outlined plans to expand production of HBM3E, the latest iteration of high-bandwidth memory, which commands premium pricing and faces limited competition.\nWhat Comes Next\nMarket participants will watch for signs of new capacity entering production and any shifts in customer ordering patterns. Micron's guidance for fiscal 2027, along with capital spending announcements from Samsung and SK hynix in the coming quarters, will provide further clarity on supply trajectories.\nThe shortage also carries implications for electronics manufacturers, which face higher input costs and potential allocation constraints. Companies reliant on memory-intensive products may need to adjust pricing or accept margin compression until supply conditions normalise."
+    },
+    {
+      "title": "Trump Issues Ultimatum: Foreign Companies Face Up to 300% Tariffs If They Don't Build U.S. Plants Within 18 Months - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pcVBrMERuQWtFNGRMbUhwYkRDYzhUTnM4SzdSNDJJdUUzaXpCUG0xMTBHYmFnOXpxYWR2Vk1mallQU1EyQmJGRmpuQ0NneDU5Q1BFOVNmSV9zaEFscWJISTRqYUtpZ28xS0hSYlZLVjV2TEN0MGc?oc=5",
+      "published": "Sun, 04 Oct 2026 21:55:00 GMT",
+      "summary": "Trump Issues Ultimatum: Foreign Companies Face Up to 300% Tariffs If They Don't Build U.S. Plants Within 18 Months&nbsp;&nbsp;finance.biggo.com",
+      "source": "GNews | JP Trade/SCM",
+      "published_beijing": "2026-10-05T05:55:00+08:00",
+      "source_detail": {
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://finance.biggo.com/news/1695d04c-7bb2-4b25-8023-289f98087af5"
+    },
+    {
+      "title": "Yields rattle stocks as Korea eyes Samsung Q3 and key US data - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNjB2azNCbi1lY1hzWktUODctekNCRmRkVGVRdWhjemJMVkFKOGs5SHB1TzJJQWphcTdUcm9xOTgzOFBSaTh3a2I2ZHRVeDZSemhBNVVXQ2hhbFBlZ0p2ZlNLSHAxTmxTVTdKaU1wMXBtT2Q3dlN3MmVCaV9zTGU2cNIBlAFBVV95cUxNQmlPLXh5dWJYcldRbkxyMnptV0tsdXluUWtwZEhhTHExeUZPSGxuekpTNjJZdFRwZ2c4YVBEZzE0UjQydHVjWWp1Wk11Q09lSkVLMml1d2lfOXAyTWdzQVdtVHUxZ3pZVFdRWnFRdGhTVk9vVnZwWU0zN2Vkb3VrbjAtTUZxMFBwa3JBQTc2NFJZZVli?oc=5",
+      "published": "Sun, 04 Oct 2026 21:00:00 GMT",
+      "summary": "Yields rattle stocks as Korea eyes Samsung Q3 and key US data - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-05T05:00:00+08:00",
       "source_detail": {
         "name": "Chosunbiz",
         "url": "https://biz.chosun.com"
       },
       "priority": 3.6,
-      "category": "韩国",
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://biz.chosun.com/en/en-finance/2026/10/05/BOVOGK57PZHNFM4ZNUOESH6JYE/",
+      "full_text": "This week (the 5th–9th), Samsung Electronics(005930)'s preliminary third-quarter results will be released. The minutes of the Federal Reserve's September meeting (Fed) that could influence U.S. Government Bonds yields are also set to be made public. Expectations for corporations' earnings are expected to intersect with caution over macroeconomic variables such as Government Bonds yields and international oil prices.\nLast week (Sept. 28–Oct. 2), the domestic stock market showed weak momentum due to a surge in U.S. Government Bonds yields. The U.S. 10-year Government Bonds yield rose intraday to 5.23% on the 1st, marking a 24-year record high. When market rates rise, they increase corporations' funding expense and discount rates, weighing on the stock market.\nU.S. semiconductor company Micron reported strong results, but it only helped hold the market floor. Micron's fiscal year 2026 fourth-quarter revenue was $54.23 billion, beating market expectations ($51 billion), and its gross profit margin (GPM) was 87%, above the expected 85.2%. Guidance for the next quarter's revenue was set at $60 billion–$63 billion.\nThis week, investors are waiting for Samsung Electronics' preliminary third-quarter results due on the 8th. Many securities firm research centers are lowering their third-quarter operating profit forecasts for Samsung Electronics, citing the won-dollar exchange rate decline (won strength). According to Daishin Securities(003540), the consensus fell to 105 trillion won last week from 122.4 trillion won on Aug. 17.\nHowever, expectations remain high that the semiconductor super-boom will continue. Korea's September exports rose 84% year over year to $120.9 billion, with semiconductor exports in particular surging 263%. Na Jeong-hwan, an NH Investment & Securities researcher, said, \"There are short-term earnings concerns due to the stronger won, but the trend growth of semiconductor corporations continues.\"\nMacro indicators and remarks by Fed officials that will determine the market's direction will also be released in succession. On the 5th (local time), the U.S. September Institute for Supply Management (ISM) services index will be announced. As services account for a large share of the U.S. economy, the index can show whether the expansionary trend continues.\nOn the 6th, a speech by New York Fed President John Williams is scheduled. On the 7th, the minutes of the U.S. September Federal Open Market Committee (FOMC) will be released. They will offer a look at the background to the September rate decision and Fed members' detailed views on additional tightening, serving as material to gauge the future rate path.\nSome analysis suggests oil prices and interest rates could stabilize ahead of the U.S. midterm elections. Lee Kyung-min, a Daishin Securities researcher, said, \"The probability of a blue sweep is around 62%–64% on Polymarket,\" and noted, \"Given the increased political burden on the Trump administration, it may seek to resume negotiations with Iran and stabilize oil prices lower.\"\nMeanwhile, share buybacks by Samsung Electronics and SK hynix, which had served as major channels for large inflows into the main stock market, are expected to end soon. Samsung Electronics had bought back 14 trillion won as of the 1st, leaving only about 900 billion won of remaining capacity. SK hynix's cumulative buybacks total 32.0514 trillion won, accounting for 76.24% of the total planned purchases."
     },
     {
-      "title": "Korea's Monthly Exports Near Entire 1995 Annual Total - en.sedaily.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGJma0dhSmJteVZraFRPTFZYd2s5SUVYSjFRNlF2UlNlbU9CcnhnZnp0VVhPMXp6Ml9ZaGg5QmNFUmVNeXlaSW9BWjFNbV9SVDhUaU1JSnpyVkJJcXdraTNoaU5fUmxjT1RjMnJBUEN0b0oyQ0VRZXE5UW9Ta0p1MTBtRmttTlJMcXlKdXN1MEVNREZ5ckNvOEtB?oc=5",
-      "published": "Sun, 04 Oct 2026 04:00:05 GMT",
-      "summary": "Korea's Monthly Exports Near Entire 1995 Annual Total&nbsp;&nbsp;en.sedaily.com",
-      "source": "GNews | KR Chip/Export",
-      "published_beijing": "2026-10-04T12:00:05+08:00",
-      "source_detail": {
-        "name": "en.sedaily.com",
-        "url": "https://en.sedaily.com"
-      },
-      "priority": 3.6,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Economic Watch: Rising prices, weak spending put Japan's policymakers in tight spot - Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95RnNKWUJQSDRlNTcwYzFNQ3ZBaUxhYzl4Q0dNRWZZbW5GS2Q5Qnc5ZE1oT3M4cG5OUDFBQUgzVXRYR0JNeVJiUnY2WXd4NHRWZlFpZENsWkVwM21xNkV1ZFpWcnVSSjdqQ1JCc0VvbGMzRGRtOUpNM01UcEg?oc=5",
-      "published": "Sun, 04 Oct 2026 02:58:15 GMT",
-      "summary": "Economic Watch: Rising prices, weak spending put Japan's policymakers in tight spot&nbsp;&nbsp;Xinhua",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-04T10:58:15+08:00",
-      "source_detail": {
-        "name": "Xinhua",
-        "url": "https://english.news.cn"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Semiconductor Bonuses Emerge as Earnings Wildcard as Micron Flags $1 Billion in Added Costs - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLaTE4V01pMHpjUHJrRi1wbVlYS3FJQmxUd3duWW9VZHdDcWtfQzlGUDRQT2liT21fdnNjVUFkWFdzZWNBTno0Vl95RnNoeWxjMEdQaklyRFJjd2s4cjAtRUpJdHRyOE5lNXVrbUJhdWtiQUxsN3c?oc=5",
-      "published": "Sat, 03 Oct 2026 22:25:00 GMT",
-      "summary": "Semiconductor Bonuses Emerge as Earnings Wildcard as Micron Flags $1 Billion in Added Costs&nbsp;&nbsp;finance.biggo.com",
+      "title": "Foreign investors widen Korean stock selloff as buying dries up - KED Global",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40N192U3ctczl5SzVpUDlEUnBjZFY5blhHbHkyaXU5WXVoc1FFcEkycTFHT3k4NmpwWmVQRVQtdGNnRHhaWktjbmJoT3cyejFNb1drbkd0T1hSWF9GNUJkNGIySUszczM1MUZxUWlaOWNVUS1mcGRsTmFn?oc=5",
+      "published": "Sun, 04 Oct 2026 18:50:15 GMT",
+      "summary": "Foreign investors widen Korean stock selloff as buying dries up&nbsp;&nbsp;KED Global",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-04T06:25:00+08:00",
+      "published_beijing": "2026-10-05T02:50:15+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
+        "name": "KED Global",
+        "url": "https://www.kedglobal.com"
       },
       "priority": 3.6,
       "category": "基础设施+科技",
@@ -374,44 +198,12 @@
       "relevance": "medium"
     },
     {
-      "title": "GBP/JPY Outlook: What the Latest BoJ Decision Means for Markets - The Costa Rica News",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CZ1VSbWdsLXJCaXJwTnpkYzd6U2Y1cVlHT09zeVM1dXFJckZNa18wdi1CbzY1T1ZvbzRvWER4bWhzOUdUR1J3RUdkeVJpMFlKYWI2VW9lbVNVSUdkM1JTZ1pCaXlxdDg5WkE?oc=5",
-      "published": "Sat, 03 Oct 2026 19:19:11 GMT",
-      "summary": "GBP/JPY Outlook: What the Latest BoJ Decision Means for Markets&nbsp;&nbsp;The Costa Rica News",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-04T03:19:11+08:00",
-      "source_detail": {
-        "name": "The Costa Rica News",
-        "url": "https://thecostaricanews.com"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Why Is Japan’s Population Shrinking So Much? - Uncharted Territories | Tomas Pueyo",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTkNwOTZzdWF0bDRueUNkZE82X0EtS2ZxUGVzZnhuNTJWWkZob3pXaFdJaDVIel8wMlRiak4wWjg2VXkzMUJCclViZUh6SG15U3hnT3hPdTZpRk54SFdWOEx4ZnFuYjIxNldod0dKZTdxQXFrdDlFeWJYUXZqNW9SemltMkl5NE0?oc=5",
-      "published": "Sat, 03 Oct 2026 12:00:53 GMT",
-      "summary": "Why Is Japan’s Population Shrinking So Much?&nbsp;&nbsp;Uncharted Territories | Tomas Pueyo",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-03T20:00:53+08:00",
-      "source_detail": {
-        "name": "Uncharted Territories | Tomas Pueyo",
-        "url": "https://unchartedterritories.tomaspueyo.com"
-      },
-      "priority": 3.6,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Transport, Access Cradles and Loading Bay Equipment Market Forecast to 2035: E-Commerce Logistics to Drive Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQR2d3ZE5zRjVqUFd2bUNOUFlLcnQ2NlYyM0VqRXFOMDdPNngwTXNNY2lrenYwZzVqQldFdS1vQ1JXWG42aGh2QlBkYmUxRXJ2YkRGUmxDQUJYV2F6WldxYkVPZ2xCQzB0M20yS1otZjhXTk1jZHJsSThKZ25aNWFmQ1FnMG14My1EVUxVeUhsSHZILTNXVGdHLVJfU0dEN0FYbEZfa3VZTWRud1VVYllYRVlhQVpZSnJGQkRULVQ4Qk9TX3dxRzY0YkpOb1Qxa3VDUDA1TGtJb2FKVXp1MlRha2FPWQ?oc=5",
-      "published": "Sat, 03 Oct 2026 11:46:04 GMT",
-      "summary": "Transport, Access Cradles and Loading Bay Equipment Market Forecast to 2035: E-Commerce Logistics to Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | JP Trade/SCM",
-      "published_beijing": "2026-10-03T19:46:04+08:00",
+      "title": "Photolithography Equipment Market Forecast to 2035: AI and High-NA EUV Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUJ0SllGMDBPVEsxdHBNdEtQRnJnQzdLWVkwdlhNVkxTX0duUi00RFVrMTlOU1kwOWo4WDV1d05qYmFHcjZsamlKaGExMExFV0g3QXAyQnFiN2xuaGNjdkFqRWFxczNXMmxoRWRpY2FROGNfc0JabWhUQTE2ZHQ4Nzl6UFRTR3VkWElvQk4zODYtYVRFY1cxRXpiWHNPOEFCVktYbmFxY2RqVmVmRHpVV3JYX1U?oc=5",
+      "published": "Sun, 04 Oct 2026 18:16:04 GMT",
+      "summary": "Photolithography Equipment Market Forecast to 2035: AI and High-NA EUV Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | JP Chip/Export",
+      "published_beijing": "2026-10-05T02:16:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
@@ -419,18 +211,95 @@
       "priority": 3.6,
       "category": "日本",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://www.indexbox.io/blog/photolithography-equipment-market-to-accelerate-on-ai-and-high-na-euv-demand-by-2035/",
+      "full_text": "Abstract\nAccording to the latest IndexBox report on the global Photolithography Equipment market, the market enters 2026 with broader demand fundamentals, more disciplined procurement behavior, and a more regionally diversified supply architecture.\nThe global photolithography equipment market is the foundational enabler of semiconductor manufacturing, directly determining the pace of transistor miniaturization and chip performance. As of 2026, the market is defined by a bifurcated demand structure: leading-edge logic and memory producers are transitioning to extreme ultraviolet (EUV) and preparing for High-NA EUV insertion, while mature-node fabs continue to invest in deep ultraviolet (DUV) and i-line systems to serve automotive, industrial, and consumer applications. This report analyzes the market from 2026 to 2035, providing a data-driven outlook on system shipments, technology mix, regional dynamics, and competitive forces.\nThe analysis covers steppers, scanners, aligners, and EUV systems, with segmentation by application, wavelength, and value chain position. Key findings indicate that the market will grow at a robust CAGR, supported by secular demand for AI accelerators, advanced packaging, and the proliferation of connected devices. However, supply chain concentration, geopolitical tensions, and high capital costs present notable restraints. The report is designed for equipment manufacturers, component suppliers, foundries, IDMs, and investors seeking a consistent, transparent view of market dynamics and a clear definition of product scope.\nThe baseline scenario for the photolithography equipment market from 2026 to 2035 anticipates sustained growth, with a CAGR of 8.2%, reaching a market index of 220 by 2035 (2025=100). This outlook is anchored in the semiconductor industry's relentless pursuit of advanced nodes, where lithography accounts for an increasing share of wafer fab equipment spending. The transition to High-NA EUV, expected to enter high-volume manufacturing around 2028-2030, will drive a new wave of capital expenditure, particularly among leading logic and DRAM manufacturers.\nSimultaneously, the expansion of mature node capacity, spurred by automotive electrification and industrial automation, will underpin steady demand for ArF immersion, KrF, and i-line systems. The market's value growth will also be supported by the rising complexity of systems, including advanced wafer stages, alignment systems, and control software. Regionally, Asia-Pacific will remain the dominant consumer, led by Taiwan, South Korea, and China, though China's share may be tempered by export controls and domestic substitution efforts. North America and Europe will see growth driven by fab construction incentives and the reshoring of semiconductor production.\nThe baseline scenario assumes no severe global recession and a stable geopolitical environment, though risks remain skewed to the downside due to trade restrictions and supply chain bottlenecks.\nDemand Drivers and Constraints\nPrimary Demand Drivers\n- Rising demand for AI accelerators and high-performance computing chips, requiring advanced lithography nodes\n- Commercialization of High-NA EUV systems enabling sub-2nm logic and advanced DRAM production\n- Expansion of mature node capacity for automotive, industrial, and IoT applications, driving DUV and i-line equipment sales\n- Growth in advanced packaging technologies, such as 2.5D and 3D ICs, necessitating dedicated lithography steps\n- Increasing government incentives and fab construction in the U.S., Europe, and Japan to secure semiconductor supply chains\n- Proliferation of flat panel display manufacturing, particularly for OLED and microLED, requiring high-resolution photolithography\nPotential Growth Constraints\n- High capital cost of EUV and High-NA EUV systems, limiting adoption to a few large manufacturers\n- Geopolitical tensions and export controls restricting technology access to certain regions, notably China\n- Supply chain concentration in critical components, such as optics and lasers, creating vulnerability to disruptions\n- Cyclicality in semiconductor demand, leading to periodic oversupply and reduced capital expenditure\n- Technical challenges in extending optical lithography beyond current limits, requiring significant R&D investment\nDemand Structure by End-Use Industry\nEnd-Use Industry Demand Split (%)\nSemiconductor Fabrication (estimated share: 68%)\nSemiconductor fabrication remains the dominant end-use sector for photolithography equipment, accounting for the majority of market value. The segment is characterized by a bifurcated demand pattern: leading-edge logic and memory manufacturers are aggressively adopting EUV and preparing for High-NA EUV to achieve sub-3nm nodes, driven by AI, cloud computing, and 5G. Meanwhile, mature node fabs (28nm and above) continue to invest in ArF immersion, KrF, and i-line systems to serve automotive, industrial, and consumer electronics. Through 2035, the segment will see a gradual shift toward higher-NA systems, with High-NA EUV becoming the standard for leading-edge production.\nDemand-side indicators include wafer fab equipment spending, node transition rates, and capacity utilization at foundries and IDMs. The segment's growth is also supported by the increasing number of lithography layers per chip, as advanced packaging and 3D integration require additional patterning steps. Major players include TSMC, Samsung, Intel, and GlobalFoundries, who are the primary customers for advanced lithography systems. Current trend: Increasing share of EUV and High-NA EUV systems; steady demand for DUV in mature nodes.\nMajor trends: Transition to High-NA EUV for sub-2nm logic and advanced DRAM, Expansion of mature node capacity in China and other regions, Increasing lithography intensity per wafer due to multi-patterning and advanced packaging, Rising capital expenditure on EUV systems by leading foundries and IDMs, and Development of domestic lithography capabilities in China and other countries.\nRepresentative participants: TSMC, Samsung Electronics, Intel Corporation, GlobalFoundries, Micron Technology, and SK Hynix.\nMicroelectromechanical Systems (MEMS) (estimated share: 8%)\nThe MEMS sector utilizes photolithography equipment for patterning microstructures on silicon wafers, with typical feature sizes ranging from 1 to 10 microns. Demand is driven by the proliferation of sensors in automotive (pressure, accelerometers, gyroscopes), consumer electronics (microphones, inertial sensors), and medical devices (lab-on-a-chip, biosensors). As MEMS devices become more complex and integrated with CMOS, the requirement for higher resolution and alignment accuracy is increasing, leading to greater adoption of i-line and KrF steppers. Through 2035, the segment will benefit from the growth of autonomous vehicles, smart manufacturing, and wearable health monitors.\nDemand-side indicators include MEMS device shipments, automotive production volumes, and IoT connected device forecasts. The segment is less cyclical than leading-edge logic but is sensitive to consumer electronics cycles. Key equipment suppliers include SUSS MicroTec, EV Group, and Canon, while major MEMS manufacturers include Bosch, STMicroelectronics, and Texas Instruments. Current trend: Steady growth driven by automotive sensors, IoT, and medical devices; increasing use of i-line and KrF systems.\nMajor trends: Integration of MEMS with CMOS for smart sensors, Growing demand for MEMS in automotive safety and ADAS, Miniaturization of MEMS devices requiring advanced lithography, Expansion of MEMS foundries in Asia-Pacific, and Increasing use of nanoimprint lithography for MEMS patterning.\nRepresentative participants: Robert Bosch GmbH, STMicroelectronics, Texas Instruments, Knowles Corporation, and Infineon Technologies.\nAdvanced Packaging (estimated share: 10%)\nAdvanced packaging has emerged as a critical enabler of high-performance computing, enabling the integration of multiple chiplets into a single package. Photolithography equipment is used for creating redistribution layers (RDLs), microbumps, and through-silicon vias (TSVs), requiring thick photoresist processing and high-accuracy alignment. The segment is growing rapidly, driven by AI, data centers, and high-bandwidth memory (HBM). Through 2035, the demand for advanced packaging lithography will be fueled by the need for higher interconnect density and the adoption of fan-out wafer-level packaging (FOWLP) and 3D stacking.\nDemand-side indicators include advanced packaging capacity expansions, chiplet adoption rates, and HBM production volumes. Equipment requirements include i-line and KrF steppers with thick resist capabilities, as well as mask aligners. Major players in this segment include ASE Technology, Amkor Technology, and TSMC, while equipment suppliers include Canon, Nikon, and SUSS MicroTec. Current trend: Rapid growth due to 2.5D/3D ICs, chiplets, and heterogeneous integration; demand for thick resist and alignment systems.\nMajor trends: Shift from wafer-level to panel-level packaging for cost reduction, Increasing use of hybrid bonding requiring sub-micron alignment, Growth of chiplet-based designs in high-performance computing, Expansion of advanced packaging capacity in Taiwan, South Korea, and China, and Development of new photoresists for thick film applications.\nRepresentative participants: ASE Technology Holding, Amkor Technology, TSMC, Samsung Electronics, and Intel Corporation.\nFlat Panel Display (FPD) Manufacturing (estimated share: 9%)\nFlat panel display manufacturing uses photolithography equipment for patterning thin-film transistors (TFTs) and color filters on glass substrates. The segment is driven by the increasing demand for high-resolution displays in smartphones, TVs, and wearable devices. The transition from LCD to OLED and the emergence of microLED are driving the need for higher resolution and finer feature sizes, requiring advanced li"
     },
     {
-      "title": "US job market cools as Eurozone inflation accelerates and Japan unemployment rises - equiti.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSmdpUU82Qjh1bGRIM28tbkxrVUlrY2JmaFhpY1kzTF9Ga210cEVZaXV2T0pSdm1FbWphMHBSbURRNkxHOVVub2dIX3Rfc2dSVl9VNHN5MXAyaGtOcm5pdkVzRWtYYkNXZlFSc29VRkV2U21VWTlQVEw5VU4xRFZoWjBhb2FiSDREdVUzQXNOd3g0WnM?oc=5",
-      "published": "Fri, 02 Oct 2026 22:48:55 GMT",
-      "summary": "US job market cools as Eurozone inflation accelerates and Japan unemployment rises&nbsp;&nbsp;equiti.com",
+      "title": "Rising prices, weak spending put Japan's policymakers in tight spot - news.cgtn.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTlweDFQbmdkTFBaZXB6MlBBUV9DZl93dHR5YTRmUjA4Zk12dkhyQkREdnFPMVdxLUNaeFhPM3UyUkEyaXFqWE9OOG1wTHdYVjBVWXBlUjNEeTNPVkt2aEJrSWFfTmtWc2RYbVhTc0dncHI0dHdLcUkyRFNiYk9yWUs3cFdvRGd3aFF1QU5iVnpBcWVOYno3R3dLUGtIQmxXZU9mQW1NcEZpYXo0YjN1YmpnNnVtMWVTM0ZzaThBMzl1QjF5R3FhUW9RWQ?oc=5",
+      "published": "Sun, 04 Oct 2026 05:30:41 GMT",
+      "summary": "Rising prices, weak spending put Japan's policymakers in tight spot&nbsp;&nbsp;news.cgtn.com",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-03T06:48:55+08:00",
+      "published_beijing": "2026-10-04T13:30:41+08:00",
       "source_detail": {
-        "name": "equiti.com",
-        "url": "https://www.equiti.com"
+        "name": "news.cgtn.com",
+        "url": "https://news.cgtn.com"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://news.cgtn.com/news/2026-10-04/Rising-prices-weak-spending-put-Japan-s-policymakers-in-tight-spot-1QXHBfcprMs/share_amp.html",
+      "full_text": "At a chain store in Tokyo, the Japanese capital, a notice announcing price adjustments on selected items is hard to miss.\nThese days, price hikes not only rank among the most talked-about topics in Japanese media but are also keenly felt in daily life, from household goods to food and from supermarkets to restaurants.\nA customer shops for groceries at a supermarket in Tokyo, Japan, July 24, 2026. /VCG\nRising prices, weak consumption\nAccording to a survey released by Japanese research firm Teikoku Databank, more than 3,000 food and beverage items in the country are set to go up in price in October, with the full-year tally for 2026 expected to top 20,000.\nData recently released by the Bank of Japan (BOJ) showed that the consumer price index excluding institutional factors rose 2.6% year on year in August, overshooting the central bank's 2% price stability target.\nWith prices climbing across the board, spending is showing signs of slowing.\nPrivate consumption, which accounts for more than half of Japan's economy, was essentially flat in the second quarter.\nAs of July, inflation-adjusted household spending had declined year on year for eight consecutive months.\n\"Rising prices are eroding real purchasing power, and private consumption is likely to stagnate further going forward,\" said Taro Saito, an economist at NLI Research Institute.\nWeak consumer demand is also weighing on corporate earnings. Shingo Ide, chief equity strategist at NLI Research Institute, noted that with costs broadly on the rise, companies that cannot pass them on to customers through higher prices will face sustained pressure on their profit margins, putting their businesses under considerable strain.\nLarge Japanese companies with strong pricing power still have some room to offset rising costs through price increases, but for the country's many small and medium-sized businesses, raising prices is far from easy.\nTake ramen shops, a staple of Japan's dining scene, for example. According to Tokyo Shoko Research, bankruptcies among ramen shops jumped 44.4% year on year in the first half of 2026, pushing the number of failures to a record high for the period.\nPersistently rising costs for ingredients and utilities have forced many ramen shop owners to raise prices, but as consumers grow more cautious about spending, higher prices risk driving customers away.\nFor many small restaurant operators in Japan, striking a balance between covering elevated costs and keeping customers coming through the door has become a headache.\nAbandoned and vacant storefronts with weathered facades and damaged display windows in Hakodate, Hokkaido, Japan, June 18, 2026. /VCG\nLimited policy toolkit\nWith rising prices eating into household purchasing power and business costs continuing to climb, Japan's economic policymakers face an increasingly stark dilemma.\nOn monetary policy, the BOJ finds itself in a bind. The risk that a weaker yen and inflated import costs will push prices up further has not gone away, giving the central bank reason to continue with its tightening cycle.\nAt the same time, with signs of softening consumption already emerging, raising interest rates too quickly could dampen economic activity.\nRecent movements in the yen have added complexity to the BOJ's policy calculus. Even after joint intervention by Japan and the United States in the currency market, the yen has continued to face selling pressure.\nA recent Reuters poll found that more than two-thirds of economists surveyed believe the joint intervention has had only a limited effect, merely postponing rather than resolving the deeper problems facing the yen. Against this backdrop, market expectations of a BOJ rate hike have gained noticeable momentum.\nAt its September policy meeting, the central bank raised its key interest rate to 1.25%. However, because the US Federal Reserve also hiked its target federal funds rate, the interest rate gap between Japan and the United States narrowed only modestly, and the yen failed to sustain a meaningful rebound.\nAccording to multiple Japanese media reports, US President Donald Trump recently voiced concerns about the yen's weakness.\nThe BOJ, for its part, is keeping a close eye on the inflationary impact of a weaker currency.\n\"If the yen weakens further and economic indicators point to mounting price pressures, the likelihood of a BOJ rate hike in October will increase,\" said Eiji Maeda, president of Chibagin Research Institute and a former BOJ executive director.\nA pedestrian passes by an electronic stock board showing Japan's Nikkei index at a securities firm in Tokyo, Japan, September 29, 2026. /VCG\nKyohei Morita, chief economist at Nomura Securities, said the fiscal policy of Prime Minister Sanae Takaichi's government has pushed up inflation expectations, deepening market concerns that the BOJ is falling behind the curve.\nOn the fiscal side, the Takaichi government's strategy of \"responsible and proactive\" public finances is running up against the hard reality of limited fiscal space.\nA Reuters poll found that 89% of economists surveyed expect the government's fiscal policy to drive the yen lower, with markets particularly focused on how measures such as a food tax cut and expanded investment will be funded.\nAmid growing concerns over fiscal sustainability, the yield on the benchmark 10-year Japanese government bond, a barometer of long-term interest rates, rose to as high as 3.115% at one stage on September 25, its highest level since August 1996.\nJapan's government debt has long been high relative to GDP, and as interest rates climb, that debt load is turning into a more immediate interest burden.\nAccording to the Nikkei newspaper, the Ministry of Finance's budget request for fiscal 2027, which runs from April 2027 to March 2028, puts debt-servicing costs at 36.64 trillion yen (about $232 billion), including 16.59 trillion yen in interest payments, both record highs.\nUltimately, Japan's current economic troubles go beyond a simple rise in prices. They stem from the interplay of shrinking household purchasing power, rising business costs and mounting fiscal pressure, each pulling against the others. When it comes to reconciling price stability, growth and debt control, Japan's policymakers have limited room to maneuver."
+    },
+    {
+      "title": "MU, SNDK, DRAM Fall Sharply From Record Highs: Korean Market Crashes 10% Crash On SK Hynix, Samsung Pullback - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdHR6S1hxUDltN09lYV9VY0hQSmdCdFVCRmVPdnNxOTUtS24zX0l2d3BFS3VBU1hHdzFNV1p1Q2g1X0JfV3ZUa0RMR2RXLTdZM2dCQ2t6cnExMG95a3IwTUFvNHI3VW9xZGlvRFlNdWpOaGdLcExrMG1TSVo3eGxfcnNtb25KYkN2NmtfY0ZFUkJfa0pzYUpXMnNUblNnLTFyZzFQRG5TNW9DZ3djNlBndFpfR2licU4xSkV5Zlh5MWw0ZlJlNE9kRTBPX1FyTkRjZW1jSjE3VGtadlFaVE10MzlkcEdLTTdOWlBXRXp2Qkp4U2NIUkR5M1BYNA?oc=5",
+      "published": "Sun, 04 Oct 2026 03:13:38 GMT",
+      "summary": "MU, SNDK, DRAM Fall Sharply From Record Highs: Korean Market Crashes 10% Crash On SK Hynix, Samsung Pullback&nbsp;&nbsp;Stocktwits",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-04T11:13:38+08:00",
+      "source_detail": {
+        "name": "Stocktwits",
+        "url": "https://stocktwits.com"
+      },
+      "priority": 3.6,
+      "signal_keywords": [
+        "record high"
+      ],
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-dram-fall-sharply-from-record-highs-korean-market-crashes-10-crash-on-sk-hynix-samsung-pullback/cZKvUsaR79M",
+      "full_text": "U.S. memory chip stocks tumbled from record highs in Tuesday’s premarket trading, caught in a broader tech selloff that began Monday and spilled over into Asian markets overnight.\nSanDisk shares dropped 9.3%, while Micron stock declined 8.4%. Seagate and Western Digital shares declined over 7% each, and the Roundhill Memory ETF (DRAM) was down 13%.\nSouth Korea’s Kospi closed 10% lower on Tuesday, with SK Hynix and Samsung Electronics both sliding more than 12%. At one point, the trading was suspended for 20 minutes, a measure to avoid a runaway slide in the market.\nIn fact, artificial intelligence-linked stocks tumbled across Japan and European markets.\nSK Hynix, Samsung, and Micron are the top three holdings of DRAM. MU, SNDK, and DRAM closed at record highs on Monday.\nInvestor confidence in some of the market’s top-performing technology names showed signs of weakening in Monday’s U.S. session, as SpaceX shares declined and traders looked ahead to memory-chip maker Micron Technology’s earnings report due Wednesday.\nS&P 500 and Nasdaq futures fell early Tuesday after a sell-off in tech giants dragged down the broad market index. After rallying sharply in recent months, memory stocks were the top focus for retail investors as they debated whether the premarket drops were a temporary blip or the start of a correction period.\nOn Stocktwits, the retail sentiment from DRAM shifted to ‘bullish’ from ‘neutral,’ while that for WDC dipped to ‘bullish’ from ‘extremely bullish.’\nThe sentiment remained ‘bearish’ for MU, SNDK, and ‘bullish’ for STX.\n“$SNDK Institutions and insiders are taking all the profits. $MU $DRAM,” said a trader.\nAnother wrote: “$SNDK these inflated memory names sucked the air out of more deserving AI names like NVDA…let’s just hope the memory crash doesn’t take down the legitimate AI plays with it.”`\nThe drop is not a crash, contended a trader. “$MU Kospi. It’s more sell the news / profit-taking after an extreme rally than a full crash,” they said.\nMemory-chip stocks have surged over the past year on AI-driven demand for data centers. While companies and analysts still expect strong growth ahead, investors are increasingly debating how much of that optimism is already priced into shares and how much upside remains.\nFor updates and corrections, email newsroom[at]stocktwits[dot]com.\nComments posted here will also appear on symbol pages."
+    },
+    {
+      "title": "BOJ December Rate Hike to 1.5% Likely, Says Former Board Member Noguchi - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNDVxRUhnRlMzbldZQjVRWDZ6MGk3UEJHVGd3ZzA2Q01vZkJKRzh3cEhodUtlQk1KN3o5YmlxRzhIdmF6d3pzakRFQlI5WFpXaFVMREYxVzBLbE9vYzVScVJzX05pUHpuVWxRZFJzVi16a0dkRGRtVmxkTkVZaGlGb2g5Y3FhWFUxTngwYTNZTGFsTmo3YlFTVmZDTkxMcms?oc=5",
+      "published": "Mon, 05 Oct 2026 04:00:27 GMT",
+      "summary": "BOJ December Rate Hike to 1.5% Likely, Says Former Board Member Noguchi&nbsp;&nbsp;IndexBox",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-05T12:00:27+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.indexbox.io/blog/boj-december-rate-hike-to-15-likely-says-former-board-member-noguchi/",
+      "full_text": "Japan no longer requires expansionary fiscal and monetary policies designed to stimulate demand, according to Asahi Noguchi, a former Bank of Japan board member, as reported by Reuters. Noguchi, a reflationist academic who served at the central bank until March, told the news agency that he expects another interest rate increase by the BOJ in December.\nHis comments underscore a broader shift in thinking among former advocates of heavy spending and loose monetary policy, driven by years of rising inflation and wages. Noguchi said underlying inflation is close to the BOJ's 2% target and that wages are becoming embedded at levels consistent with 2% inflation, making demand-boosting policies too risky.\nAfter years of cautious movement on policy normalisation, the BOJ accelerated its rate increases with hikes in June and September. According to Noguchi, an energy shock linked to the Iran war compounded price pressures from rising import costs caused by a weak yen. While the BOJ likely preferred a gradual approach to avoid another economic downturn, Noguchi said it had little choice but to move faster to prevent undesirable yen declines.\nHe noted that it is difficult for the BOJ to act slowly when other central banks are shifting toward rate increases amid global inflationary pressures. Noguchi added that the BOJ is mostly concerned about the risk of the yen sliding below 160 against the dollar, which would trigger a fresh wave of food inflation, though he said the central bank would not state this openly.\nA weak yen has become a problem for Japan by raising import costs. The yen has traded around 158, near the 160 level that markets view as increasing the chance of yen intervention, as prospects of near-term US rate hikes strengthen the dollar.\nNoguchi said receding prospects of a US rate hike in October will likely allow the BOJ to hold steady this month, but he sees a good chance the central bank will raise its policy rate to 1.5% from the current 1.25% in December.\nPhasing Out Reflationism\nThe BOJ could eventually lift its policy rate to 1.75% or even 2%, depending on how far its US counterpart raises rates and on developments in the Middle East conflict, according to Noguchi. He said a hike to 1.75% is unlikely to hurt the economy, while an increase to 2% could be risky because it might shock households and firms long accustomed to ultra-low borrowing costs.\nNoguchi said that with so much uncertainty about how rate hikes affect the economy, the BOJ probably wants to proceed very slowly, but market forces will not allow it to do so.\nIn this Article\n- 1. INTRODUCTION Making Data-Driven Decisions to Grow Your Business \n  - REPORT DESCRIPTION\n  - RESEARCH METHODOLOGY AND THE AI PLATFORM\n  - DATA-DRIVEN DECISIONS FOR YOUR BUSINESS\n  - GLOSSARY AND SPECIFIC TERMS\n- 2. EXECUTIVE SUMMARY A Quick Overview of Market Performance \n  - KEY FINDINGS\n  - MARKET TRENDS This Chapter is Available Only for the Professional EditionPRO\n- 3. MARKET OVERVIEW Understanding the Current State of The Market and its Prospects \n  - MARKET SIZE: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - CONSUMPTION BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - MARKET FORECAST TO 2035\n- 4. MOST PROMISING PRODUCTS FOR DIVERSIFICATION Finding New Products to Diversify Your Business \n  - TOP PRODUCTS TO DIVERSIFY YOUR BUSINESS\n  - BEST-SELLING PRODUCTS\n  - MOST CONSUMED PRODUCTS\n  - MOST TRADED PRODUCTS\n  - MOST PROFITABLE PRODUCTS FOR EXPORT\n- 5. MOST PROMISING SUPPLYING COUNTRIES Choosing the Best Countries to Establish Your Sustainable Supply Chain \n  - TOP COUNTRIES TO SOURCE YOUR PRODUCT\n  - TOP PRODUCING COUNTRIES\n  - TOP EXPORTING COUNTRIES\n  - LOW-COST EXPORTING COUNTRIES\n- 6. MOST PROMISING OVERSEAS MARKETS Choosing the Best Countries to Boost Your Export \n  - TOP OVERSEAS MARKETS FOR EXPORTING YOUR PRODUCT\n  - TOP CONSUMING MARKETS\n  - UNSATURATED MARKETS\n  - TOP IMPORTING MARKETS\n  - MOST PROFITABLE MARKETS\n- 7. PRODUCTION The Latest Trends and Insights into The Industry \n  - PRODUCTION VOLUME AND VALUE: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - PRODUCTION BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n- 8. IMPORTS The Largest Import Supplying Countries \n  - IMPORTS: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - IMPORTS BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - IMPORT PRICES BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n- 9. EXPORTS The Largest Destinations for Exports \n  - EXPORTS: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - EXPORTS BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n  - EXPORT PRICES BY COUNTRY: HISTORICAL DATA (2012–2025) AND FORECAST (2026–2035)\n- 10. PROFILES OF MAJOR PRODUCERS The Largest Producers on The Market and Their Profiles\n- 11. COUNTRY PROFILES The Largest Markets And Their Profiles This Chapter is Available Only for the Professional Edition PRO\n  - 11.1United States\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.2China\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.3Japan\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.4Germany\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.5United Kingdom\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.6France\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.7Brazil\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.8Italy\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.9Russian Federation\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.10India\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.11Canada\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.12Australia\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.13Republic of Korea\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.14Spain\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.15Mexico\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.16Indonesia\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.17Netherlands\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.18Turkey\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.19Saudi Arabia\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.20Switzerland\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.21Sweden\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.22Nigeria\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.23Poland\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.24Belgium\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.25Argentina\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.26Norway\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.27Austria\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.28Thailand\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.29United Arab Emirates\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.30Colombia\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.31Denmark\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.32South Africa\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.33Malaysia\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.34Israel\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.35Singapore\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.36Egypt\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.37Philippines\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.38Finland\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.39Chile\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.40Ireland\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.41Pakistan\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.42Greece\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.43Portugal\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.44Kazakhstan\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.45Algeria\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.46Czech Republic\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.47Qatar\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.48Peru\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.49Romania\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n  - 11.50Vietnam\n    - Market Size\n    - Production\n    - Imports\n    - Exports\n- LIST OF TABLES\n  - Key Findings In 2025\n  - Market Volume, In Physical Terms: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Market Value: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Per Capita Consumption, by Country, 2022–2025\n  - Production, In Physical Terms, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Imports, In Physical Terms, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Imports, In Value Terms, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Import Prices, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Exports, In Physical Terms, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Exports, In Value Terms, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n  - Export Prices, By Country: Historical Data (2012–2025) and Forecast (2026–2035)\n- LIST OF FIGURES\n  - Market Volume, In Physical Terms: Histo"
+    },
+    {
+      "title": "Foreign Investors Dump 20 Trillion Won in Korean Stocks in a Month - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVcxWG0zVFVlWVBtalhnNVN5cFZFMmRlUGs3OTgxX0NMSmM0YkFKSENTMDdrb2xCNDRQV200TGhkN1l3eVAwVU9VZmdKODVKVkVZLUhJYjZNUDFZd0c5YVVwUEpKc2poUU9UdkJ3VUtZTk9kUGtaZUtOUXhFXzMyWEIzdmwtZklmbWpJN0ZpaUZESjNlUGNwM1REdjZDUkVZaWc?oc=5",
+      "published": "Mon, 05 Oct 2026 02:26:24 GMT",
+      "summary": "Foreign Investors Dump 20 Trillion Won in Korean Stocks in a Month&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-05T10:26:24+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://en.sedaily.com/finance/2026/10/05/foreign-investors-dump-20-trillion-won-in-korean-stocks-in",
+      "full_text": "Foreign investors sold a net 20 trillion won worth of KOSPI shares over the past month or so, with the selling concentrated in Samsung Electronics (005930.KS) and SK hynix (000660.KS). The two chipmakers alone accounted for more than 17 trillion won in net sales, pulling down foreign ownership in both. Analysts, however, say the pace of selling matters more than the cumulative total, noting that it has been easing. They expect foreign buying could return if third-quarter earnings confirm a solid chip market and profit growth.\nForeign investors sold a net 20.305 trillion won on the KOSPI between the 1st of last month and the 2nd of this month, according to the Korea Exchange on the 5th. The figure includes after-market trading, which launched on the 15th of last month. Foreigners were net buyers on only seven of the 22 trading sessions in that period. On the 28th of last month alone, net selling topped 3 trillion won. Foreign holdings now account for 39.66% of total KOSPI market capitalization, down from earlier levels.\nThe selling was concentrated in large-cap chip stocks. Net selling in SK hynix was the largest at 12.009 trillion won, followed by Samsung Electronics at 5.186 trillion won. Combined net sales of 17.195 trillion won in the two stocks amounted to about 85% of total foreign net selling on the KOSPI.\nForeign ownership ratios fell in tandem. SK hynix stood at 49.76% as of the 2nd of this month, the lowest in about three years and four months since May 15, 2023, when it was 49.46%. Samsung Electronics slid to 46.40% on the 30th of last month before edging up to 46.41% on the 2nd.\nThe selling reflects continued profit-taking after a steep rally in large-cap chip stocks in the first half. Uncertainty over the protracted war between the United States and Iran, along with rising interest rates in the U.S., Europe and other major economies, also appears to have weighed on sentiment.\nThe intensity of the selling has eased somewhat this month. Foreign investors bought a net 243 billion won on the KOSPI on the 1st, and while they returned to net selling on the 2nd, the amount was limited to 190 billion won. That is why analysts say investors should watch the easing selling pressure rather than judge the market's direction solely on whether foreign selling continues.\nHan Ji-young, an analyst at Kiwoom Securities, said foreign net selling on the KOSPI is at its highest level since the start of the year, but monthly net purchase figures show the intensity of that selling has weakened over time. \"At this point, reading the streak of foreign net selling as a signal of a trend break and cutting equity exposure on rebounds should be a lower priority,\" the analyst said. \"Investors need to maintain their exposure to Korean equities, centered on key sectors such as semiconductors, on the view that foreign investors are likely to return as net buyers once macro risks pass their peak.\"\nChipmakers' earnings are seen as the variable that will determine fund flows from here. Micron Technology, the first of the three global memory makers to report, posted better-than-expected results on the 30th of last month. Samsung Electronics is scheduled to release preliminary third-quarter earnings around the 8th of this month. If chipmakers can demonstrate a firm market through their results and improve visibility on future profits, that could support a return of foreign money to the Korean market, analysts said."
+    },
+    {
+      "title": "Former BOJ Board Member Noguchi: \"Reflation Policy Has Run Its Course… Sees 1.5% Hike in December\" - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01dFd1aERmTkwxM2hSUXZaUEFyQVNkZnFtMFNKZzE4dXc3V3BIMDNvRHBSMkZ3NEZtUlZKdm9tRmhQS09XSVgxbWhnVWNZb1RGS2FHMXV4VWd5WXFfbkt3elBCcWlCb1c0LUhpLXdVcWtocVo1R2c?oc=5",
+      "published": "Mon, 05 Oct 2026 02:05:00 GMT",
+      "summary": "Former BOJ Board Member Noguchi: \"Reflation Policy Has Run Its Course… Sees 1.5% Hike in December\"&nbsp;&nbsp;finance.biggo.com",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-05T10:05:00+08:00",
+      "source_detail": {
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
       },
       "priority": 3.6,
       "category": "日本",
@@ -438,175 +307,31 @@
       "relevance": "medium"
     },
     {
-      "title": "While semiconductor stocks such as Samsung Electronics and SK Hynix are taking a breather, warmth is.. - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYR1dJRnNmRkZzNmlIZkdvdnhaRklfY016YzBVekg5OV92OU55NjREanh4NzQwRU1nbzJuTEg3ZGVUTFZmLTJVLXNCYlNLNGM?oc=5",
-      "published": "Fri, 02 Oct 2026 21:15:27 GMT",
-      "summary": "While semiconductor stocks such as Samsung Electronics and SK Hynix are taking a breather, warmth is..&nbsp;&nbsp;매일경제",
+      "title": "Anti-data center wave spreads to Europe and Asia, stalling roughly $42 billion in European investment - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9peEhYSzZzc3p5UVI4S29PX2Y1a1lfeTFMdHVxbDllb1hnVDF6cEZ5d3dwV2Q2Vm5DRlZUdHhHTkxUV1lZYkMtTy1talMwaGhHN1lCcGd6dUI4cmpNeHdwaXdyRGtxOV9KN1NHWUNNanBtaTVRX3c?oc=5",
+      "published": "Sun, 04 Oct 2026 18:06:00 GMT",
+      "summary": "Anti-data center wave spreads to Europe and Asia, stalling roughly $42 billion in European investment&nbsp;&nbsp;finance.biggo.com",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T05:15:27+08:00",
+      "published_beijing": "2026-10-05T02:06:00+08:00",
       "source_detail": {
-        "name": "매일경제",
-        "url": "https://www.mk.co.kr"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Yongin powers Korea’s bok choy boom as mala, shabu demand surges - CHOSUNBIZ - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSnphdUdhUzBlSW4xREF3T2VIR2xtYzRFU0J0X3V2RTNtZ1RUaFBwVjdfTVNKcFI3NHJaMWdvSU1wcHdwYVIwNE5RanBBNE41amxqejd2RTgybEZiZnNMeGZYUjBOMGFIbE94X3M0UnVuTTZSSExxNHk3ZGxKaUNqcdIBlAFBVV95cUxPNjFnT0lnNjQ0S1dJR3ROcktXZzdSZl9JTWRiN2x5cEtOb2RjeU9TcTFNcDVsb1VyVGxiX0k1al9hM0ZqVURLS3E1dC1HZy1POXdSeldfSHdORi1NWnBTZGJPajBneVBHaEtLVFZHSzlEd1FWQ1ZSZGJZQUM0YWowTHM3S3BqbUFHbnpreDFZczg1MEpQ?oc=5",
-      "published": "Fri, 02 Oct 2026 21:01:00 GMT",
-      "summary": "Yongin powers Korea’s bok choy boom as mala, shabu demand surges - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T05:01:00+08:00",
-      "source_detail": {
-        "name": "Chosunbiz",
-        "url": "https://biz.chosun.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Korea Strikes Back - Haver Analytics",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vcEVTSHJSOE1VNUc4dXk0ZVZhR3JsR2dpUHA4VjFSeGVNenJVVGFxWDVLaXpEMG1TbWxiVTlDTUE2aGpIU2o5MHFiemxPU1piY3RwT3JsaE5VTkM1Snc?oc=5",
-      "published": "Fri, 02 Oct 2026 15:38:32 GMT",
-      "summary": "Korea Strikes Back&nbsp;&nbsp;Haver Analytics",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T23:38:32+08:00",
-      "source_detail": {
-        "name": "Haver Analytics",
-        "url": "https://www.haver.com"
-      },
-      "priority": 3.6,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Tokyo CPI jumps to 2.7%, beating forecasts; yen barely moves - Forextraders.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbURkcklFek5MdWhVSTFjSHBsTkYtWnRQaHlQN0dvdTJGWXBrdE5hWWJwbEFpMWpnRE1rTVVadzNxbF9GcGNaMjBUQmgwUk03czdhaDhkOERnOVJ3NHo0NXl4Z0VhaUJNUUdJTEg0YzVWYmFMWDhkRmZKdFVYZmo0dC1hTlJ0UzY0djNINlp5ZGx5V2RFanNVVm93?oc=5",
-      "published": "Fri, 02 Oct 2026 11:29:29 GMT",
-      "summary": "Tokyo CPI jumps to 2.7%, beating forecasts; yen barely moves&nbsp;&nbsp;Forextraders.com",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-02T19:29:29+08:00",
-      "source_detail": {
-        "name": "Forextraders.com",
-        "url": "https://forextraders.com"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Samsung vs SK hynix: AI Memory Chip Race 2026 - SNS Insider",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yT21ZdjlQSXlhMkx4aF93Z0JMM0VYQkowdmVuUThYSG8zU1Zrc21Jcml0QjVEcy1hZ3BpdFhYYmRuTmZVNlQxNWpLT0FfS0RyN3R4Mi1PT0tJSFpwQklacWpB?oc=5",
-      "published": "Fri, 02 Oct 2026 10:31:55 GMT",
-      "summary": "Samsung vs SK hynix: AI Memory Chip Race 2026&nbsp;&nbsp;SNS Insider",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T18:31:55+08:00",
-      "source_detail": {
-        "name": "SNS Insider",
-        "url": "https://www.snsinsider.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "KOSPI rebounds while Nikkei slides 1%: why Micron’s boost is not lifting Japan - Invezz",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYzcweWRMVlZQeW92ZXVFVmJRaENxazQ4ZmNBVG85Q2lWMUkya0NRblBNRU43UV9VRDRLa0tyaU5jRnlIZUVIV19UTXZmRlhiTnd5SU5CVjhITXRPYUx4QzU2c19hcWtEX1BoYkdnMVlITWpLVTc5WW85R0thdW92NjlmYlZRWERIa3lRY05wZlhVQ0lHUk1tdFFydHAwaHgtbS1idXF6aHpvVmhuZHdYZzZQc1k3SGpkY00ybC1B?oc=5",
-      "published": "Fri, 02 Oct 2026 05:33:14 GMT",
-      "summary": "KOSPI rebounds while Nikkei slides 1%: why Micron’s boost is not lifting Japan&nbsp;&nbsp;Invezz",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T13:33:14+08:00",
-      "source_detail": {
-        "name": "Invezz",
-        "url": "https://invezz.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Korea Stock Market (KRX) Today (October 2): Why is the Korean Stock Market Down Today? KOSPI Recovers From Early Losses, KOSDAQ Crosses 900 – Check Samsung Electronics, SK hynix, Top Gainers & Losers - The Sunday Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQVmtjVXBqU3pzNkU3b1V1ZFl5ZWxyX0JpeXZ3S0xISF9adWtWSXlYVnBJTWR3NUR2UXl2Z1NkMnZrR1Q0ckJVQU50djZ0TVlpbmNhSm10Vm8zZWI0NGwxN1pKckloYkR0SXM1Y28wT0JFMGo3eUJUVkh2WURxUHVFemYyVWFjbWZzeEJ3VE45dkJIRDctaVhRSjg5T19Fb1h3VVVKLVBYYUg0ZGR6QTV2R08xTnpPUVg3N2gwVVYtU0MtNDk4ZWZndDhULXhleEMzNENqQ3dkbk44Sll1SVZiblNBX3ZhT3NIVDh6RDRtX3RqX21wUHpTbl9PQmdhdDV4X2ZjVmxvTTlHdV9QRU5oa0FrRFdqRXpXNHFtaS1KNnlRbWRuN2JQYUQtY1VJS2dmVVNYaHZSWmZlYnNBSzdqbkdPRnJTU2hFNEVpaWNzNWN2SnZP0gHaAkFVX3lxTE9LdGt4dElGQUI0Wm92cXBXNHdNWDEtLUp1REh0OEJqSGdGazJ6VWFtR2E4cy1sYWNIdlVtV2hEcjI2RWZMTlF4eXEwdEVacFB5amt0UUU3YWhxMUpMSGF5azJVT1psZE55ZTU3d2xHNFl1bk1hVUJqNXI3NHprd2Z6V1ppdDEyNWhQMkxEUVhwOU9UZHI5ZmJ6SmVIbklXYjU5cm16NlBqNnd6d0ZSQjF4VlY2ekdteFkwbXlzNUtiUE1URlprZV9vRVp1d3YzQktORmdGWVU3NE5IM0NUQlQ4bFp2M3BlWUc0bG9iS3ZwUUh6ZHN6blROVDcyUWw5S0xQYWQ0QnNpZTNacF9wdl9MbE1iNUJod3pTYVg2SC02SkVidl9Bd1lJYnVlS19vckdIQmpnLW4xYl94VHdrQml3emdILVVJcUJyUVFSTzdOOXVXRTFhVVFhdEE?oc=5",
-      "published": "Fri, 02 Oct 2026 05:12:24 GMT",
-      "summary": "Korea Stock Market (KRX) Today (October 2): Why is the Korean Stock Market Down Today? KOSPI Recovers From Early Losses, KOSDAQ Crosses 900 – Check Samsung Electronics, SK hynix, Top Gainers & Losers&nbsp;&nbsp;The Sunday Guardian",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T13:12:24+08:00",
-      "source_detail": {
-        "name": "The Sunday Guardian",
-        "url": "https://sundayguardianlive.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "'When Samsung, SK hynix bonuses hit, people buy beds and appliances': SMEs target semiconductor belt - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tNWFKa2tkejJaOWF5RkN3N0MzbnhrcnRYbkNzb19ab2tuVlZsdHRUTXFMZFhlemc2Ymp1WVFQdi1jRmVPV1JGZjBLZkRNLUtKSkkxWVIxMA?oc=5",
-      "published": "Fri, 02 Oct 2026 01:16:56 GMT",
-      "summary": "'When Samsung, SK hynix bonuses hit, people buy beds and appliances': SMEs target semiconductor belt&nbsp;&nbsp;헤럴드경제",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T09:16:56+08:00",
-      "source_detail": {
-        "name": "헤럴드경제",
-        "url": "https://mbiz.heraldcorp.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Australia’s Death Rate Hits Highest Level Since Pandemic Amid Aging Population - SSBCrack",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYWhTV2s4Yks4ZG1qVkZacjc5NXJwcE8yTGhMRUpIMnN1elVMLUVNYVU3ckw3Yk1ZY0UzMmtEQXFKcURBajhtRElSbHVhOEFVTHo2TGdGZEt1cmJQMHIyd0hhSVdnd0xHVmdlb0c3cWNqTC10UExhTXZJQmxtclg2T045TlgwUzdGQk50QnVnOXhrd2RmWlV6M3JkQ094X0kyVG1BcFVQRQ?oc=5",
-      "published": "Sat, 03 Oct 2026 01:28:59 GMT",
-      "summary": "Australia’s Death Rate Hits Highest Level Since Pandemic Amid Aging Population&nbsp;&nbsp;SSBCrack",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-03T09:28:59+08:00",
-      "source_detail": {
-        "name": "SSBCrack",
-        "url": "https://news.ssbcrack.com"
-      },
-      "priority": 2.4,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Inflation rate and central bank interest rate in developed and emerging countries as of September 2026 - Statista",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN1dESGlPd05QSUM0VFdqd04wVGdkUzBSczA3WmpGOVAxZllzX2c4b3Fjdko1WTZISDdIbUxpWWJxcEpIbS0ya19wOFNLUjgtWFJPVUl4bkhERzQ3LWgzUmxKTmxCVXBRNUR4SFNwdGg1dEFWbXJaVWhBY2liOW44VmdBUkVyT2N4ckpKZg?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-      "summary": "Inflation rate and central bank interest rate in developed and emerging countries as of September 2026&nbsp;&nbsp;Statista",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-01T15:00:00+08:00",
-      "source_detail": {
-        "name": "Statista",
-        "url": "https://www.statista.com"
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
       },
       "priority": 1.2,
-      "category": "韩国",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Trump Touts Achievements, Vows Iran Decision Ahead of Midterms - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYTlWRHZPMDVGODlULW9oM3RZdWtPY2IxekdCQkZlREZQQllZOGIyVS00am1PZXpUNjVDWWJ1VktncmY2cmVBSi01RHdWbVd3Wk1PY0F2SG9jX2RDbTF6dU1LdGVSNGUxckIybHV4ZldzTWNxeGpLcHUxYWN4MjU3RmJuQUs?oc=5",
-      "published": "Sun, 04 Oct 2026 03:51:56 GMT",
-      "summary": "Trump Touts Achievements, Vows Iran Decision Ahead of Midterms&nbsp;&nbsp;조선일보",
+      "title": "Trump has described himself as one of the cleverest people in the world - UkrMedia News",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EM3otemVZa08wTTQ5Ukdva0hIX2I2UnNMWEJ5SHBpNHVpMVY1RUFNQUU3a3hDcUhrS3ZNSWJXY2h4VDE2dGxLWEpQUEN2QXg4Y2tjcS1ZQmxzRzlmbzUzVm9yc05vb051Tm5zWFE4R09HbnM?oc=5",
+      "published": "Sun, 04 Oct 2026 06:50:10 GMT",
+      "summary": "Trump has described himself as one of the cleverest people in the world&nbsp;&nbsp;UkrMedia News",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T11:51:56+08:00",
+      "published_beijing": "2026-10-04T14:50:10+08:00",
       "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
+        "name": "UkrMedia News",
+        "url": "https://ukrmedia.news"
       },
       "priority": 1.2,
       "category": "政治+社会",
@@ -614,18 +339,50 @@
       "relevance": "low"
     },
     {
-      "title": "[Energy Odyssey]⑨Restarting Even Accident-Stricken Reactors... AI Ignites the 'Nuclear Renaissance' - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PTldaYzg5NVozaC1teVdOWkUwLVVuU2pta29XNzdlZUpFVmYwVVk0c1V2ODNoLVFZV29wNllOWEd2SEJXTll3R21NQ0R1Y1d5Zk5FNFFjRzNfUVNfSHlOOWhKVFo?oc=5",
-      "published": "Sun, 04 Oct 2026 01:22:43 GMT",
-      "summary": "[Energy Odyssey]⑨Restarting Even Accident-Stricken Reactors... AI Ignites the 'Nuclear Renaissance'&nbsp;&nbsp;아시아경제",
-      "source": "GNews | JK Energy",
-      "published_beijing": "2026-10-04T09:22:43+08:00",
+      "title": "Takaichi Marks One Year as LDP Leader as 'Sanakatsu' Fever Cools - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDlZZjhwSTR6RUZYcmxqRldnaWhncHZsX3p0TWNWOVBpVG1PMHNiWDU3X1hLampPeTZ1OXFZR21QbjFNZ2dfc193SHkweUJrRGlEcUYtb1dfZmd0U3RLMWNseVBIVW5IbXVSTDg5RHpLTVVvOTFqQmMwRENUMktoZDZaYURteV9Uc25hQWtBZFQxTkgyN1ZaM3poM2swZnNZQTltcV9Faw?oc=5",
+      "published": "Sun, 04 Oct 2026 05:22:22 GMT",
+      "summary": "Takaichi Marks One Year as LDP Leader as 'Sanakatsu' Fever Cools&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | JP Politics",
+      "published_beijing": "2026-10-04T13:22:22+08:00",
       "source_detail": {
-        "name": "아시아경제",
-        "url": "https://www.asiae.co.kr"
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
       },
       "priority": 1.2,
-      "category": "气候+人口",
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Spain Erupts In Protests Over Housing Crisis - Evrim Ağacı",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlRkbWdnZWNhUDBOTWFtTEJ2bUlkVUo1clF3ZlBpQmZhZXJlam9MX29adExiOTRxcHZxZGZSYzlWLTQ5dmVrWkV6NGhhSVdDbW9ITU5aLUVva2loeGtGdlRJVU1feGY2LUFkTGpzcllwXzZlVHFiS0VPblY4RWo5VkJZYjY?oc=5",
+      "published": "Sun, 04 Oct 2026 00:45:51 GMT",
+      "summary": "Spain Erupts In Protests Over Housing Crisis&nbsp;&nbsp;Evrim Ağacı",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T08:45:51+08:00",
+      "source_detail": {
+        "name": "Evrim Ağacı",
+        "url": "https://evrimagaci.org"
+      },
+      "priority": 1.2,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump heads to Ohio rally as Republicans defend Senate seat in close race - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOY0dLWlRhbjVyNUZ5dm1IV0FJdUQxOUxzd1J5Z0JzSUlDdVR4Z3JDWU4xOVZMVUI0U1ZJYmM1NmxqNXdyUzBoLXVmOHE0cmtmS0xLd1IyNmRZcm53SW1vLWR6QkFwRHlwU1dobGZSMXBVdzdzS01XREZ2bklKMmViajJPRmZUZkp2MFFmOGhCN1R2REhJWWhsbm5BRlVwM1pReDV1VnN6RGxDWmpYS2xzcVFiSy1yeDFsenNyQnktcm0tbERTU3lKb0Fld25TRDIzZGfSAdIBQVVfeXFMTmNHS1pUYW41cjVGeXZtSFdBSXVEMTlMc3dSeWdCc0lJQ3VUeGdyQ1lOMTlWTFVCNFNWSWJjNTZsajV3clMwaC11ZjhxNHJrZktMS3dSMjZkWXJud0ltby1kekJBcER5cFNXaGxmUjFwVXc3c0tNV0RGdm5JSjJlYmoyT0ZmVGZKdjBRZjhoQjdUdkRISVlobG5uQUZVcDNaUXg1dVZzekRsQ1pqWEtsc3FRYkstcngxbHpzckJ5LXJtLWxEU1N5Sm9BZXduU0QyM2Rn?oc=5",
+      "published": "Sat, 03 Oct 2026 23:30:26 GMT",
+      "summary": "Trump heads to Ohio rally as Republicans defend Senate seat in close race&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T07:30:26+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 1.2,
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -646,172 +403,28 @@
       "relevance": "low"
     },
     {
-      "title": "Tens of thousands protest across Spain over housing crisis - devdiscourse.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOamtEZE42ZTFQcnZpTGRJd0YwRFp5R21XeVd2Sm45XzBVVHZtRUt0SjZuRlVIclNiX3hrbk1UdVdpWXVGVEZ0Z1Y0WFp4RnQ0VmRyeEdQRWtmTWc3anFJUG1TYkpmbFdLMUlfMEp6NVNkdW5ESC0zYnB0bkhqTjVVbmhOTzBIMUVUT2xmelBUTklNMGdkVmxjMWhkemZRSjdsbWxxNGRZMVp3TXVZcFlheno2V0hZbVZHelplOWdB0gG-AUFVX3lxTE5qa0RkTjZlMVBydmlMZEl3RjBEWnlHbVd5V3ZKbjlfMFVUdm1FS3RKNm5GVUhyU2JfeGtuTVR1V2lZdUZURnRnVjRYWnhGdDRWZHJ4R1BFa2ZNZzdqcUlQbVNiSmZsV0sxSV8wSno1U2R1bkRILTNicHRuSGpONVVuaE5PMEgxRVRPbGZ6UFROSU0wZ2RWbGMxaGR6ZlFKN2xtbHE0ZFkxWndNdVlwWWF6ejZXSFltVkd6WmU5Z0E?oc=5",
-      "published": "Sat, 03 Oct 2026 13:35:28 GMT",
-      "summary": "Tens of thousands protest across Spain over housing crisis&nbsp;&nbsp;devdiscourse.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T21:35:28+08:00",
-      "source_detail": {
-        "name": "devdiscourse.com",
-        "url": "https://www.devdiscourse.com"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Indian police detain several people in Gen Z-led protests against voter roll changes - Dawn",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1lmQllKYXBqRGQzZmRHWGRnWGVCZmo3RE9kZG9BM0k3SU9NSU9wcVFuSkpDdExBZ0QtT1dHRTBUd09XNjNWOWhCODBSVzA4ZFdGYlpnNnd2TEdrcDJJelQ1cDZnXzBndFBvSVpKUWZGV2poa055bDloa0xJUlV3LWctQmpWM0xJTE9zUFhTNHV1QkRhWXRRNEE3T0Q5bnZhcDh0Vm5DWnNDS3dJZDhXU296N3dObVV5eHc?oc=5",
-      "published": "Sat, 03 Oct 2026 12:27:20 GMT",
-      "summary": "Indian police detain several people in Gen Z-led protests against voter roll changes&nbsp;&nbsp;Dawn",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T20:27:20+08:00",
-      "source_detail": {
-        "name": "Dawn",
-        "url": "https://www.dawn.com"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "\"Next in Line After Samsung and SK hynix\"... AI Investments to Boost These Stocks [Weekend Money] - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLNFR4MkRMNXlMUTVRWE1JczRCQjhBSUZWQkFLNFp4VWs0eGhNSWR3anlaMzAyT2xIUU5aNFpOcXQzTFNuS0FGbHZoMFJ1V0FDTjFFeklKcEdjeHNhVzhPc2QtcXU?oc=5",
-      "published": "Sat, 03 Oct 2026 01:48:00 GMT",
-      "summary": "\"Next in Line After Samsung and SK hynix\"... AI Investments to Boost These Stocks [Weekend Money]&nbsp;&nbsp;아시아경제",
+      "title": "Post-CMP Cleaners Market To 2035: Sub-10nm Node Transition Drives Demand for Defect-Free Wafer Surfaces - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlk0My1LTWxxaUNST01ZU2w1Q2dURjQxME1VcENDLUM1UHVHQklMNGJkWUhRS0s2VGNpREhzSnE2ckpIZ2R4a1dqc1kwTGZiM1RTY2xGUF9XV05JcV9GeHA2d2VsdFRpUVRkSUZSaXB3ekhmWG1oUGNPWHV1UUFaZ0x4d1laTVY3QnVuX2Rfd3VrV3dkYVNYTXI1cHRjNzVNTTFQX3dMVHlUZHNQbV9xeUhueXR6RUJrMnVDUVVrb2JXeERCYU1SX1Vld0NvbWlSaDhEWUdFdlA?oc=5",
+      "published": "Sun, 04 Oct 2026 22:41:04 GMT",
+      "summary": "Post-CMP Cleaners Market To 2035: Sub-10nm Node Transition Drives Demand for Defect-Free Wafer Surfaces - News and Statistics&nbsp;&nbsp;IndexBox",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T09:48:00+08:00",
+      "published_beijing": "2026-10-05T06:41:04+08:00",
       "source_detail": {
-        "name": "아시아경제",
-        "url": "https://www.asiae.co.kr"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
-      "priority": 1.2,
+      "priority": 0.0,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Maintain replacement fertility levels and encourage families to have two children. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaVJWTmswOEtyMGUxRzQ2WUVLcmFCT2ZUTEVtOHQxUWNDbmlJd3Qwb2tId3RyMnVNek9MVjNDNml6Y093cGZxZ01PV1pfa2VCcFZQdU1PalhiTjlOMm85R2dSTGhYcnM4dTRERGFjVG4xMFd1WHlBOTBmYTVtR2U1ZmlGQVI?oc=5",
-      "published": "Sat, 03 Oct 2026 00:26:00 GMT",
-      "summary": "Maintain replacement fertility levels and encourage families to have two children.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-03T08:26:00+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 1.2,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spain faces more fury over housing after parliament rejects decree - devdiscourse.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTVZlbTJ2QUtnemkwQ180REIyNVhTdzBFOWM1dnN4M0dXTTdtN3JvTmlpaFUwUjc1X0QtZnZzUThJMG1XODJMQlhtODFyZ3VrRW11STl2Z200YkR2Z18tTHNwLVE4WUt5T01CZ0Q1R2UzZmVNZXI2Q0JiMkU1d0V3WmtCeW5CMlAxRlEwRnNvWlZnNnd1bU8wX1k3MnBiU2NSZjlrczJpWGFEVXdOdmNxUWk3aHhQczd6di1uVnYyaXAzR0dleDhjWdIByAFBVV95cUxNTVZlbTJ2QUtnemkwQ180REIyNVhTdzBFOWM1dnN4M0dXTTdtN3JvTmlpaFUwUjc1X0QtZnZzUThJMG1XODJMQlhtODFyZ3VrRW11STl2Z200YkR2Z18tTHNwLVE4WUt5T01CZ0Q1R2UzZmVNZXI2Q0JiMkU1d0V3WmtCeW5CMlAxRlEwRnNvWlZnNnd1bU8wX1k3MnBiU2NSZjlrczJpWGFEVXdOdmNxUWk3aHhQczd6di1uVnYyaXAzR0dleDhjWQ?oc=5",
-      "published": "Fri, 02 Oct 2026 15:53:37 GMT",
-      "summary": "Spain faces more fury over housing after parliament rejects decree&nbsp;&nbsp;devdiscourse.com",
+      "title": "Brazilians voted for next president as Lula and Flávio Bolsonaro hope for first round victory - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOY1B0NENhZmdNNFIzRHg5bGoyaTZhbzJuVUpiRlh1TTZ6WDF5cEVmNlpkck1Pd25lNHZ6eFg0QXZzWkc1c0ZFNHhFRHp6S3pfR1Z3Z1JZNlY0QXJHSjZOSGh0RDk0M1pkZVhhSEhzOEZvRThINVY0MF9ROHBxTHBFTkFaTFBuQmpsdDItM2JwNTA0UHg4WEdTX0xMVklybmZVUDh0cXlZWjhsWXcwTzhRckFnWTBCemFPOHVta0MwWFRRS2xkQV9Dd2ltN1ZsN1NNZmVJdTQ0MGJVbW1pOXRVa29OdnV6UFhHOHk0bm40bUJsc1FWU21nWHdjRVNSckh4VUNseThybk4?oc=5",
+      "published": "Sun, 04 Oct 2026 20:07:58 GMT",
+      "summary": "Brazilians voted for next president as Lula and Flávio Bolsonaro hope for first round victory&nbsp;&nbsp;thecanadianpressnews.ca",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T23:53:37+08:00",
-      "source_detail": {
-        "name": "devdiscourse.com",
-        "url": "https://www.devdiscourse.com"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Kenya's young voters weigh up the choices for next year as William Ruto seeks re-election - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WWXFhWG1DX0llaXpVRFpMa2tUZlFqWWRTRjg1aTJrdXpLQ1lnaTdGV3BzOWFONjZuUFpJb2RsQUh6UnlaRjFHVzBZX3U0eEtOVElMX1NVVEVpNWc?oc=5",
-      "published": "Thu, 01 Oct 2026 23:46:12 GMT",
-      "summary": "Kenya's young voters weigh up the choices for next year as William Ruto seeks re-election&nbsp;&nbsp;BBC",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T07:46:12+08:00",
-      "source_detail": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "James Moore: Why the B.C. election has big consequences for the rest of Canada - ctvnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3hwbGIybW51c2Y1WnZCbks2N0FmUkdwcDM2SDR4dk1CaUUzVTAwc0VNZ1hHWDV3eWRyb0ZKREpEMW5hTjF0QlJNMUlsQUs1TnNEc1FwN0FDZGJHdy1vRFdiNEgzRGN3dXViV1p3QTV4dnp2cm8xcHFzdXotOTB4Tlc4RUVCWG45ZDM0QkFUSDVhazl2TTh3cDcwOG5qM3RPUmdNLVp2MkxZWk1zYlZBbWMxSjEyQjQ?oc=5",
-      "published": "Thu, 01 Oct 2026 18:10:06 GMT",
-      "summary": "James Moore: Why the B.C. election has big consequences for the rest of Canada&nbsp;&nbsp;ctvnews.ca",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T02:10:06+08:00",
-      "source_detail": {
-        "name": "ctvnews.ca",
-        "url": "https://www.ctvnews.ca"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bangladesh is betting on coal and putting pressure on the Asian LNG market - Inspenet",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaWFReHowZ2FqaHY1N0hicms5RVJJMDR4NzBwUFA4el9ObmkwbW91S1Rqb3psVF9UcjRVY18tb3JLZWtPODRXdFpUQUdWd2gwLVY2RXJiZENrdm50MXo5YlA2eS1SejRGZDZlY3FfQ3o0M0pSRm9HYnJCemtEMlFwQg?oc=5",
-      "published": "Thu, 01 Oct 2026 15:08:27 GMT",
-      "summary": "Bangladesh is betting on coal and putting pressure on the Asian LNG market&nbsp;&nbsp;Inspenet",
-      "source": "GNews | JK Energy",
-      "published_beijing": "2026-10-01T23:08:27+08:00",
-      "source_detail": {
-        "name": "Inspenet",
-        "url": "https://inspenet.com"
-      },
-      "priority": 0.0,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Attackers douse teacher in gas as students protest across France - ctvnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbkQwemd1S0ZJaG5LdzZqWVg0MFFnMDhwUTBfWE9oTU9vT1NGQ2h0bzFBQ0tRWmRhT2ltcWZ6MXhVSDZsMlJqSGxCM1pGRWNRZzA1YzVSaWRKZXFMeG9PSlBCQmU5RTgxX3l3Rnk1UDFRNi10Y1RncWlZZlROZUw0eExZQmwzTExVcGkwMmdIRzVvc1pSZ2RVYmlOTjU5OVZwMlBxTg?oc=5",
-      "published": "Thu, 01 Oct 2026 12:16:38 GMT",
-      "summary": "Attackers douse teacher in gas as students protest across France&nbsp;&nbsp;ctvnews.ca",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-01T20:16:38+08:00",
-      "source_detail": {
-        "name": "ctvnews.ca",
-        "url": "https://www.ctvnews.ca"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Republicans Face Widening 2026 Senate Map as Campaign Strategies Shift - The Well News",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWWtTOE5VM1VMdGZReTl4OUpoT0xvbUFWOWpHbVZ4NjBXcFJseG83RnJEUXROOWV5SzFVaTZXNm5FN09SSzMtYWxxU3VoWlZSOUgtNmJnSGpsbGNoWlhyMTA3cE5kenk1dFZNSWIzOGlueXE3S0NueVBnQzdaemwxX2FEbUJzQ1VZRUJia0ExN2dkTl9yZWZpUTNkNl93WGZlZWZDT21TOEphQzhhdERiTWpTT18?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-      "summary": "Republicans Face Widening 2026 Senate Map as Campaign Strategies Shift&nbsp;&nbsp;The Well News",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-01T15:00:00+08:00",
-      "source_detail": {
-        "name": "The Well News",
-        "url": "https://www.thewellnews.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Latest: Trump campaigns in Alabama ahead of the midterm elections - thecanadianpressnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQM09rYktqS2hLN2F1aUU1RUhIZ2h1cU9DNm0waXhfZm5HN0M2SHZDQnpBQUthZDd4R01uZm1mOTM2MGxGbi01azJMYlNlenJieldXX0ZWaEd2QVZ0UVJ5NFFJajNUcVctVWpYVFNBRS1UUWFCTGNuLUozbnlXZ25vTEdGSy1UcGlPcDFBbktkbzYtVF8wdzJfbERFanZkQXczTlhhcUdLelB4VzVwc2VVMklPMTVVTlpjM2NRYWhZNTY0M2xDWmhLYzVHV1BkQjVjNHFZVkh5S01JN2RkYlEtNFZheklIV0toRThiZ3pCYmpjZw?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-      "summary": "The Latest: Trump campaigns in Alabama ahead of the midterm elections&nbsp;&nbsp;thecanadianpressnews.ca",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-01T15:00:00+08:00",
+      "published_beijing": "2026-10-05T04:07:58+08:00",
       "source_detail": {
         "name": "thecanadianpressnews.ca",
         "url": "https://www.thecanadianpressnews.ca"
@@ -822,156 +435,12 @@
       "relevance": "low"
     },
     {
-      "title": "SK hynix (KOSE:A000660) Launches SK hynix Ventures To Deepen Its AI Ecosystem Reach - Simply Wall Street",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYThQVjFVU0xIVTMyd1pjQi1kNXNwR0VMRmJsVW9kRUowUW9iSzVrbE1OWHNxendkcWtZT1d3SFJSejRnOWhFajRlVC1nOFF5UUFaWE1xREh5WGo5eE1iSHNWUVR4UkozLVZYMGRHeG1SRlBZbjhKV21JNVBBSDlOU29oZWZBbEhNelJaSGFubjkzRGFYSGl6d3IyRHVTZ9IB4AFBVV95cUxOYkZzVEQ3SVdrMkZFSU5STGVBV0l3NFNobUhRMDV1R2hRUEhGVm9xRVdkM2cxdHNqdXBidm9adThCZjg5UmYxVXp5MU5RWkhFb3NIOG1UOTc4QjhZbDg5S1RZdzZ5dWRnd2RVS0VTNzRUckJQRE9rdWhYNjZNb3EtcFVuZmNpbnRZUlN2bTNkNlNMT0xxWkgtSHhnZ0toREx3X2c2LVV2cVFxdFdkZHpYZ0QzWEFjS2lETHhuLVBHalRxUzloVUdLUzdLZzdmTjdRRlFoUGhxNmh1NzI5T01wbQ?oc=5",
-      "published": "Thu, 01 Oct 2026 07:00:00 GMT",
-      "summary": "SK hynix (KOSE:A000660) Launches SK hynix Ventures To Deepen Its AI Ecosystem Reach&nbsp;&nbsp;Simply Wall Street",
+      "title": "Zirconium Oxide ALD Precursors Market To 2035: GAA Transistors Fuel 7-9% CAGR - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDhhbURUZ044LV8tYzhvSGJ5RFR4Zi1TWkJUWXYyTzRtc1ExbEktcFFWYUFrQXZWUTlHSG5DemFTNWhTaTUzTktDbXhMeWNlX0phYmN2dExCWGxXTHBSN2JtOW9lUTNRR25xMC1ZSm1xZE56WVNTWldzRzhHdDFDZG40WDFYLUFtQTJxVGlKRjZnZ1NvNVZ6bEtiQ2F4TWFvVmxYMF9KaWp4Rl9NdHVUcldZaWp3Z2lWTURHS2tfRGFOZw?oc=5",
+      "published": "Sun, 04 Oct 2026 18:41:04 GMT",
+      "summary": "Zirconium Oxide ALD Precursors Market To 2035: GAA Transistors Fuel 7-9% CAGR - News and Statistics&nbsp;&nbsp;IndexBox",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-01T15:00:00+08:00",
-      "source_detail": {
-        "name": "Simply Wall Street",
-        "url": "https://simplywall.st"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Asia - Settlement Patterns, Geography, Cultures - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmaHI1b0RzY3RRZS1rdUpfeUtscHRjaXFTenZqaXVNZFJDZTExUFdwaHdMMGpZbTV4QzFKM09Ld0xaLW9xa2FxWkxrbF82V2hielpiTnItb005WlZvd3BDNkdWQUctcEoz?oc=5",
-      "published": "Thu, 01 Oct 2026 05:00:00 GMT",
-      "summary": "Asia - Settlement Patterns, Geography, Cultures&nbsp;&nbsp;Britannica",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-01T13:00:00+08:00",
-      "source_detail": {
-        "name": "Britannica",
-        "url": "https://www.britannica.com"
-      },
-      "priority": 0.0,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "After Micron's Earnings Beat, Eyes Turn to Samsung and SK hynix - en.sedaily.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNXNVdDZfby1EYTlnRTEtYkRpdm10RkFqWGxJZ1FSaXdNOHN6aUJMZjVyREVXYl9od0Y1NERsOFNlaUEwejk3NEdhckFQQ0E4UXVRby1rUVhkazZ5SkNjT2U4dkxlRzh5NmNOVWI5UDhDby1MekFSZFVnYmRGRnNrWDJUTXhlRlRDTkxkNm5ESjJLRVBHb2pvTzF4d1lIQQ?oc=5",
-      "published": "Sun, 04 Oct 2026 04:00:05 GMT",
-      "summary": "After Micron's Earnings Beat, Eyes Turn to Samsung and SK hynix&nbsp;&nbsp;en.sedaily.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-04T12:00:05+08:00",
-      "source_detail": {
-        "name": "en.sedaily.com",
-        "url": "https://en.sedaily.com"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bosnia votes as wartime divides drive campaigns - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOFptYTlDcXRaaXJabmF5bFFfY2ItZHZhcTQ5Y0hhTGFEYkRDU0d4VVRpUG1nWHBQeV9aMU0wdURJYmZmRFhydXdXSHEzTWh0TTVfSnhPSl9Kc0h6akdvZXgtMTd4TTF3ZE9lTm9wd1dXZ0d4V2hwbWFlRGxFQzRERnhwNldXV0RESnNtVnRiYXlBWFhyZk1lRE9leGllMS13NEVtUHJzaS1oZHMxblRMckN1c1pUZDA?oc=5",
-      "published": "Sun, 04 Oct 2026 03:39:44 GMT",
-      "summary": "Bosnia votes as wartime divides drive campaigns&nbsp;&nbsp;NST Online",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T11:39:44+08:00",
-      "source_detail": {
-        "name": "NST Online",
-        "url": "https://www.nst.com.my"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Delhi Latest News Today on October 4th, 2026: Voter Roll Protests, Water Crisis & Civic Audits - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUVd5dE1pMDlOOGNFbUtHR3NCaU80NFBINVJhSUE1cHN5T042c1RBWjZfTG56akxmTE5KRUUzamw1NVo0R3dDRXVHR2JQdFdDaHhxMDVhM2tHSUdic3RmYUc2M0ZWWkVBb2REbk9Zdk1jdWo5MUNtaTVkemVxTHJIY0VlRVdwY0FRVC1uUEdLXzBjeFFXRXZkRFdUQXNjclhuSndmS0dRaGpGOHp3eDkteU9ocHpKM3RCLXk0czBZRDM0LXpab1hhSjJ0ckJlS0d2RWVXTdIB2gFBVV95cUxQWURNZHctVlBqWWVNbGlUWERJQTJVenBsWDlkOVd0S0wtaGxHZUtaOTEtWHVYVWpfWXdaRGJuMHE4SUlpb1BLTWJNaUlJeHRNQUJjQm5JZ0xhaE5XMUM1V3VsMXdiWDA2NE1JYUFIOVlMTHVuM2hWemphMzRxaGpLMWxxU3praHhaWG5ncXhjVm1yYXgwdTVtOTJHVnVHMC01Wi1vd2RLNWozWVhlYmRGQzhnaThiZUxYRGVDbnEyUEJKSkRSSURBVEtkOGZPM2NKSmZwQmZabGZsZw?oc=5",
-      "published": "Sun, 04 Oct 2026 02:22:24 GMT",
-      "summary": "Delhi Latest News Today on October 4th, 2026: Voter Roll Protests, Water Crisis & Civic Audits&nbsp;&nbsp;LatestLY",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T10:22:24+08:00",
-      "source_detail": {
-        "name": "LatestLY",
-        "url": "https://www.latestly.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India detains protesters demanding election chief resignation - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdm9PbGpqY3BIYklUaGJaYWlMbTFMOUZSNnJjZ3JiTGtBMTd3ek52WEkzS1RaU2w3MjBPazJNd1BFTlo1OXllUlF4bDVPMUZ2UmFvMGZWbEJsRVQ5UEd3eTNhNmVkUG9NUk1jNzV2bzdodGxmN1M5TFZJbV8tMVBTMlp6UjY2a3hUSG12ZFJMSUN1dW5jcHFwSmVKdmlrODZ2M1lYcjFEN0RvZUpqWklHSGhKUEc?oc=5",
-      "published": "Sun, 04 Oct 2026 01:41:15 GMT",
-      "summary": "India detains protesters demanding election chief resignation&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T09:41:15+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Riot police clash with far-right agitators in explosive Spain housing protests - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMbjA2bmZhUnpodnpZeEVKdGJKeWdYRDBsTndGQXRtdE5uSmRXeGtWMDM3Y1ZJcFQtdkhBTHNsTXFMVk9rNUFHekY4WWM0dG5rQktqTkdOWVhRM2xMUVNn?oc=5",
-      "published": "Sat, 03 Oct 2026 23:24:08 GMT",
-      "summary": "Riot police clash with far-right agitators in explosive Spain housing protests&nbsp;&nbsp;The Jerusalem Post",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T07:24:08+08:00",
-      "source_detail": {
-        "name": "The Jerusalem Post",
-        "url": "https://www.jpost.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Protests over housing flare in Spain after relief measures rejected - ctvnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM25uMXdxWVVUY0dTWTF2YUlVb3loR2h3Rm5KZGpsUy1Bam92UXBaX1JodnBrWEZTajJNVVY2ZkctNFZQb2FVUWRSeGZuYm5WMld3dXczWFp3elpObTdhY0p5RlpXMkNqdF9kTlF5Q1hoc2FuWUl3UW9ET3NjMEtKUGdJRnBZLUtWVW0tNldwRzRFRmtLQkZCTDRPTUhLemI1VkFfLW40ZVE?oc=5",
-      "published": "Sat, 03 Oct 2026 22:01:22 GMT",
-      "summary": "Protests over housing flare in Spain after relief measures rejected&nbsp;&nbsp;ctvnews.ca",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T06:01:22+08:00",
-      "source_detail": {
-        "name": "ctvnews.ca",
-        "url": "https://www.ctvnews.ca"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump to speak at Ohio rally as Republicans defend Senate seat in close race - whbl.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbG1OSzZnalp1UkpxaE9xT2NjNnlCMkJfRk9KOEtxWVZMNXU4QXp4dDMwa2x2aXdzMWFfb293SHBCN3VvSEozSGluZnhMdzhza29mTEdYZFNQd2xSSVl1bmFKRHVzRW1CNnlsUm91ZDVXUTE1QmlCdzNkSUJNVEVRaEY2YldiWWRRMzJ1TDJEX3ZpUTFXZ2NYMzAtMEFiVElGaXg2VGh5eUY?oc=5",
-      "published": "Sat, 03 Oct 2026 19:02:46 GMT",
-      "summary": "Trump to speak at Ohio rally as Republicans defend Senate seat in close race&nbsp;&nbsp;whbl.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T03:02:46+08:00",
-      "source_detail": {
-        "name": "whbl.com",
-        "url": "https://whbl.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Metal-Containing Photoresists Market To 2035: High-NA EUV Adoption Fuels Expansion - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMUEtUUxfdVBUd2ZSQ2dfbC1Fc2w3WmpMUFRzc2dNMlRoS1llQmFCcUtQb21NSHg1RGhDMWNpMzBZMHp6YktIZzJfZHREUVJLZldhckNuSWk2U2tmaUNQY3FPNVVPMTJJcHRybXJQeGdXN3VaRWdqUUt1NDdmVk00elhiZ0FnMVNNN2U0YnZzal9xYnlKZW5BZE1Qb0FOdmN4OXhrMWtHMTlFcEVKdmJnTllSQlFWcXBydk82UjlFSmNOM0JjMWc?oc=5",
-      "published": "Sat, 03 Oct 2026 17:56:04 GMT",
-      "summary": "Metal-Containing Photoresists Market To 2035: High-NA EUV Adoption Fuels Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-04T01:56:04+08:00",
+      "published_beijing": "2026-10-05T02:41:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
@@ -982,111 +451,15 @@
       "relevance": "low"
     },
     {
-      "title": "Tens of thousands protest across Spain over housing crisis - whbl.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNalRyek1FUk5aNlZZWW5fdUVCQkRZNkUzMzNwYkJabGpHMnEzcV8wd2VzUms4TFpOQ2t6YTJDX2dwR1hnRU9IZGdzUTV1TExyeVlRVXdCdDFTNnJtNGRHd2kzQV9CWkZoSDh6Y0lLN2tMa1BhUGJkZ2g2aW9EZ1ozRHlBZVc1b1M1NUxYZUM5MXY?oc=5",
-      "published": "Sat, 03 Oct 2026 17:18:35 GMT",
-      "summary": "Tens of thousands protest across Spain over housing crisis&nbsp;&nbsp;whbl.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T01:18:35+08:00",
-      "source_detail": {
-        "name": "whbl.com",
-        "url": "https://whbl.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A gut punch in Ohio: Nearly 1,400 laid off at truck factory just days before Trump rally - scrippsnews.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObUxTS3hPd21VcXZoN2trdVZ6UFVyOTQtV19UMDB5Wmt2Q1lhMEJlS2t4alBpYlV5UGcySDJBM09MclhIWmpjWEJIaTd5NUF1emNXUk5nTHIxdzRvWUNmMVQtYjJnbUVQZGl0SUw0UUFFaUpCZkZwMkFadmI1LUtrSEctVHdHZkV2S2F5Sk8xUl9mcWEtaS1mMlpVTy1mN2kzRXZodDlUcGlOX1BoanpKN2FrbE93d094Q0VnY1VISlRaUQ?oc=5",
-      "published": "Sat, 03 Oct 2026 16:30:35 GMT",
-      "summary": "A gut punch in Ohio: Nearly 1,400 laid off at truck factory just days before Trump rally&nbsp;&nbsp;scrippsnews.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-04T00:30:35+08:00",
-      "source_detail": {
-        "name": "scrippsnews.com",
-        "url": "https://www.scrippsnews.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tens of Thousands Protest Across Spain Over Housing Crisis - PUKmedia یەکێتیی نیشتمانیی کوردستان",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vbTVGakk2a1htX3F4NGNab1g5VnlCcU5faXV6TUtSYnQ1MkdVdFQ4dTJUbzctZEttQW1XeTZvS3J0MzVVSzMxVmJDVDFkUQ?oc=5",
-      "published": "Sat, 03 Oct 2026 14:06:01 GMT",
-      "summary": "Tens of Thousands Protest Across Spain Over Housing Crisis&nbsp;&nbsp;PUKmedia یەکێتیی نیشتمانیی کوردستان",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T22:06:01+08:00",
-      "source_detail": {
-        "name": "PUKmedia یەکێتیی نیشتمانیی کوردستان",
-        "url": "https://pukmedia.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Global Diesel Crisis Boosts Petrobras’ Hot-Button Refining Plan - bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTkxtaFh2VTBOdC1qX0NqMlhqSmlCWHQzTnRaSlZWUGdHUkxZYlpLYmZneHVFUl8zTXVPMGZSUUtFX2lFWnZNemY1RVRXYUdyb3FVQ0RYeVRSdU1pQVlXcE5tY0NvNFljSlZjUk9DZHU2NkRZaWdoanQ3bHZ1Nk5ndnhOR09tQUtDNTR2V3RnajlwSkhpWkd6SmFsMF9GYlRvUkFBUmpXV0d0TDVydnFxWkc0WFd5MjVZYk9QWE1yN0RiUkkzdkV2UzByd29tQTZxdkE?oc=5",
-      "published": "Sat, 03 Oct 2026 13:00:00 GMT",
-      "summary": "Global Diesel Crisis Boosts Petrobras’ Hot-Button Refining Plan&nbsp;&nbsp;bloomberg.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T21:00:00+08:00",
-      "source_detail": {
-        "name": "bloomberg.com",
-        "url": "https://www.bloomberg.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Latvia: Exit polls show ruling party leading as populist party gains momentum - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM05wSF8xWWluTE1qSXNKNXMtTDZQc3VTd0x3a0FnTmtlWU1aZ2ZwNHpUeXBfQkZPS1B5QkFCOER3djVKN2JYZGdNYkQ1T0k3WG5sWUZYNklCYlJBZHZtd3o1bU8xX2c3bW1pUTNyZEZ5ZUlxcXN4Zk9PUEVJeTY1UkNzeW1CdDhnWkRWaFlnanlFOEd4Vkg0elU2Z0JkRmZiamdiNm1hM0tYc0ZVNHFqakc4SEs?oc=5",
-      "published": "Sat, 03 Oct 2026 07:00:57 GMT",
-      "summary": "Latvia: Exit polls show ruling party leading as populist party gains momentum&nbsp;&nbsp;Euronews.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T15:00:57+08:00",
-      "source_detail": {
-        "name": "Euronews.com",
-        "url": "https://www.euronews.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spain braces for fresh housing protests after decrees defeated - Kuwait Times",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcnlVM1lMdXkwMHdiMjd5ekdQcjNydjEycjN6RU0zNnNjRFVJV0pFbFQ3MF9WUmJMYk9kc3k0QXM0dk5yYmJBSlNEajZ0NFFRNTl1QTAyUWhLN1RDeFJhVjJpOVh5eDhNM0hVaTF6MmpXczNjMjdQdTdCMEhjWDNEMlNPaUhZY3AzLTloNUpyaDQxM2dsX3Q4WGY0eWpTLVNDbVc3MkE0cDFGcHV0NzM40gGvAUFVX3lxTFByeVUzWUx1eTAwd2IyN3l6R1ByM3J2MTJyM3pFTTM2c2NEVUlXSkVsVDcwX1ZSYkxiT2RzeTRBczR2TnJiYkFKU0RqNnQ0UVE1OXVBMDJRaEs3VEN4UmFWMmk5WHl4OE0zSFVpMXoyaldzM2MyN1B1N0IwSGNYM0QyU09pSFljcDMtOWg1SnJoNDEzZ2xfdDhYZjR5alMtU0NtVzcyQTRwMUZwdXQ3Mzg?oc=5",
-      "published": "Sat, 03 Oct 2026 06:11:00 GMT",
-      "summary": "Spain braces for fresh housing protests after decrees defeated&nbsp;&nbsp;Kuwait Times",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T14:11:00+08:00",
-      "source_detail": {
-        "name": "Kuwait Times",
-        "url": "https://kuwaittimes.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "\"Samsung Electronics and SK Hynix are going to go more, and so is the director.\"The pace of artifici.. - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82ZGZsZ1MzT2tUUzVxcFhKTkIzNGdQUEk5WFpDTnhBbHNwS1FOVkZFc3ZKX0lnVGRJYzJvQjhpVFJDS0wyUjNRQmx3eU5LTzg?oc=5",
-      "published": "Sat, 03 Oct 2026 00:32:26 GMT",
-      "summary": "\"Samsung Electronics and SK Hynix are going to go more, and so is the director.\"The pace of artifici..&nbsp;&nbsp;매일경제",
+      "title": "Northcape’s Cameron warns hardware tech ‘euphoria’ to end in a year - AFR",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzhTV25oMlZCanl2dFE5MUltU0s2X1Y2ejhfSjB6M3BXd3Zxd1J1R2FvTURpRW5nQVctaUZkRDRXMUczR1hQQVg1Q2NIRTlIV3BPRnpqYlR6ck9nZ0JhRXJhc3JrT3dWejZfWFVJUmYwdU5BdUFVQkM5STRTSEFzSzBwTW5udTBLa2o3VzI2bHRnNWtnTzBMejMxakpYdHJxZ2ZhQ2VHZldMcFJrczBwT0ItYl8wZjA0ZEl1T3N3Ymc2QQ?oc=5",
+      "published": "Sun, 04 Oct 2026 18:00:00 GMT",
+      "summary": "Northcape’s Cameron warns hardware tech ‘euphoria’ to end in a year&nbsp;&nbsp;AFR",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T08:32:26+08:00",
+      "published_beijing": "2026-10-05T02:00:00+08:00",
       "source_detail": {
-        "name": "매일경제",
-        "url": "https://www.mk.co.kr"
+        "name": "AFR",
+        "url": "https://www.afr.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -1094,15 +467,47 @@
       "relevance": "low"
     },
     {
-      "title": "RBI Set To Begin First of Rate Hikes By 25 Bps - fintechbiznews.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHRMcmg0OUV6M0wzN1B6cFBCWWlpN1VORDhTQ3VEOUlNeWxOMkdQeGR0VHVxRmhHei1sczZiZkVzUGg3RmJYdmozUHhxMTBScExicVc5RFpDeHBFMllMek94b294eGVGa0xmdENFU0dWM3RuaEY0OXNqOUxyNkRuQ2V0SFpfVm9RSGhiR216THFhc1ZNRWc?oc=5",
-      "published": "Sat, 03 Oct 2026 00:00:01 GMT",
-      "summary": "RBI Set To Begin First of Rate Hikes By 25 Bps&nbsp;&nbsp;fintechbiznews.com",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-03T08:00:01+08:00",
+      "title": "Brazil's presidential vote pits Trump ally against incumbent Lula - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbVQwbzB2NExJdzVBNVJycTV5cDZnMkZZT2MzZGwzLXp3MllSdVFud1U5d0t0cXVqQVowdUQwRm5uSXlWVkwtNmFOQm05bEdpb01Mekt1RDhtWVhsVkNzd000aE4zUHRKVlNERjZrd0QwNmtRVldBVnY4UmticElLSzRhUkFnU3htdUhJejUzNUdDeS1hNFRqZ2d1SWFnNlVhd2Y2MjM4STZQeEtzZlI0SU9lemxnX0liMVJQaV9zRFIxX1luSnlqNDQtWFRLU3E1QmFWSjVPdkwwSDBWWnpYZXp6VEtzSTBoYnRfcw?oc=5",
+      "published": "Sun, 04 Oct 2026 17:35:57 GMT",
+      "summary": "Brazil's presidential vote pits Trump ally against incumbent Lula&nbsp;&nbsp;thecanadianpressnews.ca",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-05T01:35:57+08:00",
       "source_detail": {
-        "name": "fintechbiznews.com",
-        "url": "https://www.fintechbiznews.com"
+        "name": "thecanadianpressnews.ca",
+        "url": "https://www.thecanadianpressnews.ca"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Pro-Ukraine governing coalition wins 35% in Latvian election - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUmFtcXFlNHBhR2xwYURXUHVOcWt1Q0I5QmxaaXlaTUJyV090U0t6N2hrci1VNVROVERnclpLSlpFX2hCNHdLR2swMzloT1VraUstVEJRdGw0TE03RlFtMmNKcDRiQzMtT2dEek9nTVFCVmI3MjdLemxWck5iaDNCM3FZTGFTN1VpVjVWMUxPZEVQdDJXMzB0XzFiMWIzTW50S3RkaWEybVp3RUsxa0FybDVwa3otTG1sTF9OMkxXR0IzLUNmc1JNYXNQOVhhLWxuWmZTZXBEbkJJeHhnNzhjSldxS3dHZw?oc=5",
+      "published": "Sun, 04 Oct 2026 17:35:57 GMT",
+      "summary": "Pro-Ukraine governing coalition wins 35% in Latvian election&nbsp;&nbsp;thecanadianpressnews.ca",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-05T01:35:57+08:00",
+      "source_detail": {
+        "name": "thecanadianpressnews.ca",
+        "url": "https://www.thecanadianpressnews.ca"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Asia's Week Ahead: Takaichi Faces Parliament, Anwar Balances Budget, Pacific Islands Sound Climate Alarm - news.lavx.hu",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYXBGSlJGRllWTVlTOUtlcXEtLWFuUFEtbE90RHNCa09IRTM3dUhHYnFyT21TUUNiQ0RsZ1EyNncwd3c3LVN0VnA0NVNwRFJQLXJnM0NfM3RpcWdZby1QU2NmMGg1azgzckZuU044UFNEdUZEeE1tdnRZZ0tCUlo1ZFhhVlJaV3Uwam9nZTJVZFlaVW9RbDdTb2RrZGRlSk1zT09BeWE2Vm54b0pGSVVwZWRCM2pDdnlnTl9pNmtqZXBuMDVhZ2lUSmln?oc=5",
+      "published": "Sun, 04 Oct 2026 16:35:58 GMT",
+      "summary": "Asia's Week Ahead: Takaichi Faces Parliament, Anwar Balances Budget, Pacific Islands Sound Climate Alarm&nbsp;&nbsp;news.lavx.hu",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-05T00:35:58+08:00",
+      "source_detail": {
+        "name": "news.lavx.hu",
+        "url": "https://news.lavx.hu"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -1110,63 +515,15 @@
       "relevance": "low"
     },
     {
-      "title": "Protests seek election chief’s resignation - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeWw2TTV0ZDRON2V0VXQtdEVRTzRWeG85eUtUSGJWY0ZaT3VxWDZPUkJXZWpTNEhGcDlTQUNzT0pLbmVHWlplaDVaVXNBSFZlN2FXSjhqRkMxV3FkWHo5NlBTNmk2eVJwdVc1cXkzSHJnTzBqWHZENnhLNXNhQ2dPUVIxQUJCOVFXV0ZidXZEcnFiYmN4WXMyUmxSd0ZsRGo2aHc?oc=5",
-      "published": "Fri, 02 Oct 2026 22:30:20 GMT",
-      "summary": "Protests seek election chief’s resignation&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T06:30:20+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Pakistan in talks with Khan’s party as protests loom - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmNyNEZYVUdUUXlybzZfRkZlRHpvNnp3RV9VR2NBUHA3ekJXRGtPUHNaS3BqMnNBVmZ4VlhlRlctSzJQWTdhZXY5N3hUQk0tUjdBS2gyUnQxaDJsdWVVNjl4cVZybGJ4OEhFTFRDNkxrSFVXS0NyUWxQM2o3QU1VMHBMRmF4ZWswZWkyUENPR2pWdG1KVHhMcnQycl91dUR6MXAtSUFtUQ?oc=5",
-      "published": "Fri, 02 Oct 2026 22:30:20 GMT",
-      "summary": "Pakistan in talks with Khan’s party as protests loom&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T06:30:20+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spain's housing crisis is becoming a political crisis | DW News - Modern Ghana",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3ZTVRaWtWcU40TzM4M3JFNEM2TzBMeUhndXNBZDBVbGNMY0YzSm5udWxJME1KZEJHeTMwaFBaLVNkN0dna0hJZnZBVDRTSmMyZkJSNmNFUG1oZldnOGfSAVxBVV95cUxPU0NYaDY0c241am9WM1NMaDNyR0FSVHFzazdObmJmRHY4SDJLeGlMZC16X2dtY2hUV1hFMjNQRjhBOWh1cEV4UldEcGs3UkxMTDJBRy1LUHM0TFc3cQ?oc=5",
-      "published": "Fri, 02 Oct 2026 22:20:00 GMT",
-      "summary": "Spain's housing crisis is becoming a political crisis | DW News&nbsp;&nbsp;Modern Ghana",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T06:20:00+08:00",
-      "source_detail": {
-        "name": "Modern Ghana",
-        "url": "https://www.modernghana.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Warning Against Overconcentration in Samsung Electronics and SK Hynix: \"Reduce Positions for Investors With 80% of Accounts in These Stocks\" - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvOHItcHp1NjBVd3JJLW9qcFhxdlJCNXpDRGk3SXFPT2F0R2dNdGhSRnU0TWoxYnJCWHVKcUlLZmJOV1RUTHNIZDg2YmxIQW82a1BLNVU0RzFIdWRrelJVS2VOa2Z6OC1QTXNZRWQ0aldxVkJ3dnc?oc=5",
-      "published": "Fri, 02 Oct 2026 21:25:00 GMT",
-      "summary": "Warning Against Overconcentration in Samsung Electronics and SK Hynix: \"Reduce Positions for Investors With 80% of Accounts in These Stocks\"&nbsp;&nbsp;finance.biggo.com",
+      "title": "GPT-6 Astra caught cheating at StarCraft by running a human-made bot - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PUlB1UV9fVDhyOUlQQjhhU3NGSm9jVHIzTGFqdlRtN2dRUlgxdGxsNEoycGVrR2JweHRSb2d1alhrX0IwOC03dnc1WDN2NFdhQlVGTV8xOXNmRWkwcEtlYS0teTlKSTdBeDU1UlZGR1lyYVE0RnBR?oc=5",
+      "published": "Sun, 04 Oct 2026 15:24:53 GMT",
+      "summary": "GPT-6 Astra caught cheating at StarCraft by running a human-made bot&nbsp;&nbsp;Crypto Briefing",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T05:25:00+08:00",
+      "published_beijing": "2026-10-04T23:24:53+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
+        "name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -1174,31 +531,15 @@
       "relevance": "low"
     },
     {
-      "title": "Micron closes in on SK Hynix for No. 2 spot in global DRAM market - kedglobal.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aQ3gwSU5oX1RKb0FZN294ZHJHcnJET3BWdERiXzFubkdWVEVoY0NCRWU2MXp2bElEemtoMmR1UWVIX25pM281ZVNyUmRXVjdBUWpwWG5GYzVGOXROblBMNDJiUm9JQnZyY2VoUDJBZGp5OWVuZVFJ?oc=5",
-      "published": "Fri, 02 Oct 2026 21:02:45 GMT",
-      "summary": "Micron closes in on SK Hynix for No. 2 spot in global DRAM market&nbsp;&nbsp;kedglobal.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-03T05:02:45+08:00",
-      "source_detail": {
-        "name": "kedglobal.com",
-        "url": "https://www.kedglobal.com"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India's election body faces flak over voter roll controversy - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVlRDUlFEUUFWVlF4cUpQQ2xOUWVlR0tlbVlaZE5oczNuNTU5NWRRR1NtX2gyS1liVklfb1lGSlRwd3dSYjd1aGNNWTdNc3BzM2xsSFdzbWxFVk9EM054aGxWdlRORlZhcmNYMUxWQ3FFRlRBUTBEbUVMMXZVS1JLYVhoQkVZTnY3QkdJaVRPZkdQNEV5VGJvdDkzdmNUNkVKQ181X2RadVgxQWJoVGZtQXF1am41X2dr?oc=5",
-      "published": "Fri, 02 Oct 2026 20:13:10 GMT",
-      "summary": "India's election body faces flak over voter roll controversy&nbsp;&nbsp;NST Online",
+      "title": "Morocco’s Elections in a Time of Despotism: Why Ballot Boxes Don’t Produce Liberation - International Viewpoint",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0gxMzRBSUdxS2pQQ1h2X0htRGNhRkFselRac09JVHU1Umt0Y3NBcmtmckpLdUxWR09jaWJMSklpSGZCVUp4T1Boamtpck1seDI0MkNUUlNLdHhvbWQzMGJhdkhvUkl2QnZ2TjQ4cllJbzdZUjdKdlpWR3liR0k4b09sQ3hFNUxEYUROZGUycnRQV1BxU2ludTAtamc3N3EtcVNuSXZxMFVVSmV5?oc=5",
+      "published": "Sun, 04 Oct 2026 14:34:06 GMT",
+      "summary": "Morocco’s Elections in a Time of Despotism: Why Ballot Boxes Don’t Produce Liberation&nbsp;&nbsp;International Viewpoint",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T04:13:10+08:00",
+      "published_beijing": "2026-10-04T22:34:06+08:00",
       "source_detail": {
-        "name": "NST Online",
-        "url": "https://www.nst.com.my"
+        "name": "International Viewpoint",
+        "url": "https://internationalviewpoint.org"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1206,254 +547,14 @@
       "relevance": "low"
     },
     {
-      "title": "Diapers Market To 2035: Adult Incontinence Demand and Premiumization Fuel Expansion - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZnI2YTZ2dHIycDJNNjJDMGhpUmtzLUNkOUV5U2JpaHM3andPVEl1MXdUazZjMmI5LTFKTEFBWjZBMW9DTnhmb21SRXU2azY0dm5hM0gwTVhuT1k2bHlUM2FieE5HQjB5cnJLQnFLSTZma0pvSHJXeVMwRnE4eGJERG5obThleGdJWFZmZmhiSmNxSGxTMTI0ZkJqNUxQS0FiYU5ia1h2cjlXTGtKbE83Wg?oc=5",
-      "published": "Fri, 02 Oct 2026 19:51:03 GMT",
-      "summary": "Diapers Market To 2035: Adult Incontinence Demand and Premiumization Fuel Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-03T03:51:03+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tom Mulcair: A defining vote for Quebec. A turning point for Canada. - ctvnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM21YekllTXVaWTRTYk9yblZrUlpreUpzazIxSjZHZG1zVzdEbnZaVTAzc2YzV2VFTExKVzBVSG9SYzJaQmlSZTlzX0lpUXFtQVFFdjNsd2hNUmQ5RW95VVNGMWVncy00R0RNSzh4U0Y3dDNGZm9VS3dVTDRqUnNiOXNmcFQwbkFTeEY0S2o3czQ3ZmNvZWg1a2VGcjIxZkNROHNXSi1aMVFYMThWWkIwRVhqZWtfTm91b3R2VmtNZw?oc=5",
-      "published": "Fri, 02 Oct 2026 19:45:30 GMT",
-      "summary": "Tom Mulcair: A defining vote for Quebec. A turning point for Canada.&nbsp;&nbsp;ctvnews.ca",
+      "title": "Protests intensify in India over demands for election chief to quit - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGR6ODMtN0dvb3BUbWlIdzJZVGx2ZnlGZDlHc3VVQVZ0d1dRaEVJcjZVdGJjeTN5QUYwNUFGMHZlbWV1ZS1ONkpSUzJ4c2VMTTdBQnJxWkszRnBQdi1XU0pKX0FnVlJKS1VYaDRid21KNmxCaHNmb2RsQlRYUHRfRTl6dnFXOHlLWU5zMlcxSkdrYnVHdVBhSzcyNDVxel9YSXlTajVlWFdkazJyRFduYmtR?oc=5",
+      "published": "Sun, 04 Oct 2026 14:25:13 GMT",
+      "summary": "Protests intensify in India over demands for election chief to quit&nbsp;&nbsp;Reuters",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T03:45:30+08:00",
+      "published_beijing": "2026-10-04T22:25:13+08:00",
       "source_detail": {
-        "name": "ctvnews.ca",
-        "url": "https://www.ctvnews.ca"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China & Taiwan Update, October 2, 2026 - Institute for the Study of War",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUTFKRmh3SHg0S3Jlajc1Q3JOMlhkT2pmTXRwVUhCZG5OTGl0S3NMc0Z5MUcxeW9EZFh3UHlLVUc1SDRBR2NYbms4Y1hLdzFOWnRWQWZDVzdZdG5XYVN1aTk2YTRfS3o3R2lvQnNrd2lmX0VJTkJPT0hENkNOZFpkYzZSTzBxaFVZQUo2dHpjbw?oc=5",
-      "published": "Fri, 02 Oct 2026 18:56:41 GMT",
-      "summary": "China & Taiwan Update, October 2, 2026&nbsp;&nbsp;Institute for the Study of War",
-      "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-10-03T02:56:41+08:00",
-      "source_detail": {
-        "name": "Institute for the Study of War",
-        "url": "https://understandingwar.org"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Taiwan coastguard uses water cannons to warn off mainland Chinese fishing vessel - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXV0UkliUUZlaEpxLV9vcEhlSmtfckk3VDlJWG0wb0JwUHhoSUxmdDdxYWkxM3VxeDZfYUc4MURlSVJCTXdPVGVvbHdrOVVNdTdTcDVFWVRYcEpzM3pOa2JJLXZpdVRMc2pOeXNqUjduVU5ZTlk0UldJMXllX2Fxb2N4Wk5mdzFMemphQXBPVExfNXlCdVdrYnFEOWxIYk5acFQ0SUZNcHUtNUtoTll4MnozNnhHa0trRnZUTDdyb3d5SlBlVHNUeHZn0gHKAUFVX3lxTE5WdDE1Zm1IbGpXcC1QUEdDc2IxbjVxLWdsUndlWTljS0FxYi1BVXhnZFhPTmNJN1lBRlVVb2pPWEJZNS0tQ1RVYTJZWWtESG9ITkVfTGhQOHQxaVFqVUpnSXB6VXQ4cDlkZlJ5VWlET3VwOFRBbF9lQ3pmYUk1UVIwUFRUNnd1TE9CNjg5YWJWUXJVODJycjBTbjRQNVBfcS1YZmVISVloMTBsRE5iWS14ZlkxZF9aZk5MVkxqaFZWTldsWXh1Y0hERkE?oc=5",
-      "published": "Fri, 02 Oct 2026 18:33:28 GMT",
-      "summary": "Taiwan coastguard uses water cannons to warn off mainland Chinese fishing vessel&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-10-03T02:33:28+08:00",
-      "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://www.scmp.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spain's government dealt blow after parliament rejects housing measures. Early election speculated - The Sun Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNRXJFYUx5RE1oYTItaTV2NVQ0a09wTXY3LVk4SHpfa0JEU0hZQ21jUEJJSnNKUWVFY2kzbDRDZTFtbk15cHFPSDFsZlFySmVHSWt1aHJ3ZS1pOXZSVVJoNEY3ZEtrSDdGWjhuVElrdDliYnlTeHgtb3ZkbGUzVTFHR2NRdmJHdk44NWhxYnJHZWtEak00VjJRN1BoV29Eb1VuSHVuaFpQd0ZlVzVPUE9uSzNyeHV5bS1uaEwybTYwdlV2QzdTZ09IanBfQ1VKOGk1eEZ5UmhZYldCbjE1blU5a1BPcXZmMVhmejV5Z2J2Z25xMllBNHdJUjlQTVZUVjFLbWJjUmFWRmNpZ3NCSVQxVUhXR2R0dzFxVGM3YQ?oc=5",
-      "published": "Fri, 02 Oct 2026 17:39:10 GMT",
-      "summary": "Spain's government dealt blow after parliament rejects housing measures. Early election speculated&nbsp;&nbsp;The Sun Chronicle",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-03T01:39:10+08:00",
-      "source_detail": {
-        "name": "The Sun Chronicle",
-        "url": "https://www.thesunchronicle.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Five French market hot spots on investors’ radars - The Mighty 790 KFGO",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR1FOZkx5cTQ2czRTeE1pM3dyX0RxeE1nWGItRU5GWmlBQ0h6UHE3LVcta1ppbWw2UWk0dFRJUTZWODl0MGtSVU80SElrZnNFQ1RVN0o5SmpLOGJ3VUVBNktTNlcwQmk5S2ZRelRPb3RIdEZtOFNVSy1FOExsTlQ3b05jVE16UQ?oc=5",
-      "published": "Fri, 02 Oct 2026 15:11:36 GMT",
-      "summary": "Five French market hot spots on investors’ radars&nbsp;&nbsp;The Mighty 790 KFGO",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T23:11:36+08:00",
-      "source_detail": {
-        "name": "The Mighty 790 KFGO",
-        "url": "https://kfgo.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Ranked: Inflation vs. Consumer Confidence by Country - Visual Capitalist",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcC1pUktMTHVPWWpUcEJ2WHNtZ29WeEplVkZLRmNzSGNXcmNNSDdnb2otZGJuNVpuSkVoMTdSalMtQTIydWlLdDl1NjZ0N0N0akhvMGg1eXd3NXJWRWc1eExFRXlsTFNreU5JaEdiSlRySzhBOVhGYXdiMWtfaGpJUGxaY0JtbFRnSTBXRWd3NjhqOVlNUmlxZGdaMA?oc=5",
-      "published": "Fri, 02 Oct 2026 13:45:46 GMT",
-      "summary": "Ranked: Inflation vs. Consumer Confidence by Country&nbsp;&nbsp;Visual Capitalist",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T21:45:46+08:00",
-      "source_detail": {
-        "name": "Visual Capitalist",
-        "url": "https://www.visualcapitalist.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "School protests send shivers down French government's spine - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3d045X2kwRGZKbkNGMTBOTEJFTnFaZlNSNW1mQUpPSXpQeWphMXQycDJYMUFLS1R3a1RmUHhhS1RqM09VNU5QWk1OWUUyR2Z2RW4zejBxY1FOMTA?oc=5",
-      "published": "Fri, 02 Oct 2026 12:43:02 GMT",
-      "summary": "School protests send shivers down French government's spine&nbsp;&nbsp;BBC",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T20:43:02+08:00",
-      "source_detail": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "CK Solution Eyes 500 Billion Won in Orders After Winning SK hynix Deal - thelec.net",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPZ1M0UEdGbEdnV2RXc3ZsenYyQjIyZjU2dmhtWHN4UzI2TEU0UzB3ampTQUU5bHlucHUxWHF0MzdqTy0zMFU1TU95V2kwRzJoek44V0dmSExSbkhPbzBrYnZZM3ZLUkU?oc=5",
-      "published": "Fri, 02 Oct 2026 12:31:54 GMT",
-      "summary": "CK Solution Eyes 500 Billion Won in Orders After Winning SK hynix Deal&nbsp;&nbsp;thelec.net",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T20:31:54+08:00",
-      "source_detail": {
-        "name": "thelec.net",
-        "url": "https://www.thelec.net"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Brazil next, US midterms coming, in impactful global election year - Y100 WNCY",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNektmZ1dmTjRELWR5RmFYN3YtblYzck02dGxXZktqT2xMMmFxT05nN21GeDBnVml4eF82SGc5UDJISHpycFZad21WcDBjNnR3Uk1BUWVxQ29PdFVpd1BXRi1wMHp5MWRQUjUxSC1LZXhkT2FsSl9DZmlPVEhqQ0gtWnVGSDZsckQwMTFPWWEtM3JpZnRLMkNwTw?oc=5",
-      "published": "Fri, 02 Oct 2026 10:55:27 GMT",
-      "summary": "Brazil next, US midterms coming, in impactful global election year&nbsp;&nbsp;Y100 WNCY",
-      "source": "GNews | JP Politics",
-      "published_beijing": "2026-10-02T18:55:27+08:00",
-      "source_detail": {
-        "name": "Y100 WNCY",
-        "url": "https://wncy.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russian Strikes Snarl Traffic on 3 Kyiv Bridges in New Disruption Tactic - شبكة تواصل الإخبارية",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPNzNUcXZkUWhFTUk3SjRDN0Q5UGViZDMwR0dNUnpfSjU2dEJXZGktdDhPRXNGbmRJUG9zWVVOVTZSZXRFX2d5RUlpemNqTVZvZ1ZJ?oc=5",
-      "published": "Fri, 02 Oct 2026 10:54:58 GMT",
-      "summary": "Russian Strikes Snarl Traffic on 3 Kyiv Bridges in New Disruption Tactic&nbsp;&nbsp;شبكة تواصل الإخبارية",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-02T18:54:58+08:00",
-      "source_detail": {
-        "name": "شبكة تواصل الإخبارية",
-        "url": "https://twaslnews1.twaslnews.com"
-      },
-      "priority": 0.0,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "AI Data Center Component Shortage to Persist Through 2028 - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ncUhVUDVQTUZLSjI1TmoyNE9wTmh3UUlNcEVTd1MxSUhUdXdXZXU4bjljbGxhaldYUklaRW1hUnRYdlA5X0FKR2E0SEJ1QmYtNG9iODQ3QUJ0TEJ1MXJyTnZqOW5pdnFCbTFIWUQzeUVHLXhGc0E?oc=5",
-      "published": "Fri, 02 Oct 2026 10:25:00 GMT",
-      "summary": "AI Data Center Component Shortage to Persist Through 2028&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T18:25:00+08:00",
-      "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The China factor behind the Iran war - Asia Times",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUanVhWGtYTlVUaW5VcUNZQ0x4MmVsQmlmUXFUazNkazJkUTlUWXRfZHlNODNVaUlaTFVjWExONzhhaWcta3JsVEN4UTlaQ3BsRXl5Tjk3WG9YN1RNMUQwOE1hbjB3dDZpN0RITTF5UmRxNklCdmc?oc=5",
-      "published": "Fri, 02 Oct 2026 08:19:55 GMT",
-      "summary": "The China factor behind the Iran war&nbsp;&nbsp;Asia Times",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-02T16:19:55+08:00",
-      "source_detail": {
-        "name": "Asia Times",
-        "url": "https://asiatimes.com"
-      },
-      "priority": 0.0,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "France calls crisis meeting as schools go online amid spreading student protests - PressTV",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbTA2Mm9BWGh0bF9aaGZvLTkzRHBJbVlMNG5zMVp4c2w2LS1xX25KYXlZM0dXX3BXTnFkb21aZGpqb0IyVjdqcDJseGh1TTY4UVBfdmZneUJ3SWJCQzZfNHJGam5lU0J0TjJRSnNkUGQyQUxfV3RLWnFrVVh3YkJVMVNCdS1wbHVE?oc=5",
-      "published": "Fri, 02 Oct 2026 08:18:00 GMT",
-      "summary": "France calls crisis meeting as schools go online amid spreading student protests&nbsp;&nbsp;PressTV",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T16:18:00+08:00",
-      "source_detail": {
-        "name": "PressTV",
-        "url": "https://www.presstv.co.uk"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Asian officials address long-rate volatility as Tokyo CPI jumps - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHhRZ2ZOMG93SE9ZcVJnZ0JfdFJpZHByNEVleDlkRXo4aFZxMGwxbTRXTWhFRWJ4U3ZNbEhUaGN6MWEwbVE0NjhHbnVKUXRrbjZ0SVZiQ3NtM1NGR29YbjFiazhxaHNVVDVVSVMxTGlpOGpzd082WmhLYkI0WjF3MS1nV1lza3dDMHpwNHRJV01Vd0U4d2pyV01HTVVjS2JNS2NBWEh4NW9NQXdzR0Zj?oc=5",
-      "published": "Fri, 02 Oct 2026 05:50:27 GMT",
-      "summary": "Asian officials address long-rate volatility as Tokyo CPI jumps&nbsp;&nbsp;FXStreet",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T13:50:27+08:00",
-      "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Students and police clash as France struggles to quell school protests - reuters.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFQyTU1FaVBENkY3X1RkbTlmMkE5LVBkTjF3X1lMMExZb1M5anM2THFGOHVTYmJzdWFCQ0VUNU0zN2xYNUI3ZDF6aEl4WXNUcnd1MkJsQmhLako0c2NqNW5Yb3JIbjkyVHN6MWFQNjBQMm15QjA0WDlheUVnSDAxdDRGd2NKQVRyX1lxSlhSa2FuMk55RUp3QUV4RFlfLXdXU1pEQXBLU0Y0OFdG?oc=5",
-      "published": "Fri, 02 Oct 2026 05:21:00 GMT",
-      "summary": "Students and police clash as France struggles to quell school protests&nbsp;&nbsp;reuters.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T13:21:00+08:00",
-      "source_detail": {
-        "name": "reuters.com",
+        "name": "Reuters",
         "url": "https://www.reuters.com"
       },
       "priority": 0.0,
@@ -1462,15 +563,47 @@
       "relevance": "low"
     },
     {
-      "title": "MPC set to begin rate hike cycle with at least 25 bps repo hike: SBI Economists - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbll6NXFpS0RpUlBjaHd1c21BTFNJSy05SlBFc3BjazE1bGdGY3owd2xWc1FVdThSMDlhYmxGNE16MzRWZHROOGp1TFNwaS12MnZadnRrcmc4YWI4TmVkbFl5cGxCVFdCTjRyU1lsM1pETVFCQXpBNTZFdE95aFVNZzVtWU01Y2dGdThZa3pKQ2Y1TkFrV0tCNkVZUm52MzRPc3p5V1drRS1EeWJwdnF3N0pJMXZNMUpHOTM3V0Y4VlJNaDhreV9LNWd3cUZnNkdt?oc=5",
-      "published": "Fri, 02 Oct 2026 05:07:00 GMT",
-      "summary": "MPC set to begin rate hike cycle with at least 25 bps repo hike: SBI Economists&nbsp;&nbsp;TradingView",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T13:07:00+08:00",
+      "title": "The Bond Market’s Tokyo Story - The Daily Upside",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVpoQ0Q5WjdxOXFNTzM2WG8wUjlFZEtHUm9EWnBkREN0OENwSUxwNHZJOUpWU201UnZ0MUN3WlUwdTlZTDI5VEc5TzJlLW1HeTdTQ09TYjhFNF9ObXhtTER1NGh4S0dGN2syODBocjY1SkZJUG9NbVZQWDlxNmVZUlB6ME0?oc=5",
+      "published": "Sun, 04 Oct 2026 14:00:00 GMT",
+      "summary": "The Bond Market’s Tokyo Story&nbsp;&nbsp;The Daily Upside",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-04T22:00:00+08:00",
       "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
+        "name": "The Daily Upside",
+        "url": "https://www.thedailyupside.com"
+      },
+      "priority": 0.0,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bosnians yearn for change as they vote in election that could affect EU bid - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMmRrLWtDcG5pWEI5ZV9lTUZrV2l2N0xISnRwSHUzeUExemt5cWJ0Wks1QVlxNDEweWNaOVFiVFJvOFQ2X1VrZnd3TE1sdHdyd1JRSEJkem1BdENjRzY2NjRnZXFDX1BSX3FXeUpDQjBrQkYyMWlNaWdRLU42c2xaTFVsTnc3cENTS3Jya25jVXZoNEtvMXc?oc=5",
+      "published": "Sun, 04 Oct 2026 13:30:00 GMT",
+      "summary": "Bosnians yearn for change as they vote in election that could affect EU bid&nbsp;&nbsp;Reuters",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T21:30:00+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Extreme inequality and jobless growth bound to create instability - Prothom Alo English",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WbUN3WU41ajJyXzUwcTlsdHlpVV8zZURxX0lWQWdxb3NVbENxVHQ0OVR6cHNBczRjaHpxVmRGamZPNDRzSWxCU29BRkxXei1Oc1lhVE44dGFJYzI4Slg1OW1JNnDSAXJBVV95cUxNVHFOUHQ2SklUc1lfSE92dW9zVlpLeV9jZldOdUNfREpscjdkTnExRHVIU2JUYjVYejRwLXhoRGFlQ0c3V2Zna3BiS3BOOUVRZXNHR09ucURlMFB3MWZJTnNiZks4M0xWbFVmU0EteU1qOEE?oc=5",
+      "published": "Sun, 04 Oct 2026 12:48:06 GMT",
+      "summary": "Extreme inequality and jobless growth bound to create instability&nbsp;&nbsp;Prothom Alo English",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-04T20:48:06+08:00",
+      "source_detail": {
+        "name": "Prothom Alo English",
+        "url": "https://en.prothomalo.com"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -1478,28 +611,140 @@
       "relevance": "low"
     },
     {
-      "title": "SBI Research makes case for 25-basis-point RBI rate hike - National Herald",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbXlTdUpLMFB6MFpTUGtPWURCRDNfbjVvMGJzQTZQMEdGYlh3TmtobF9RUE5acUhtTGRqMVNwbzVaVmVzZGhBVzFLdkRrTlVUSk9MOHhmZnN6ZGtUVFRKVl9VNWUyeWloVnFqVFhKcjFORG1EV05kYlVoX0N3ekVLeFpBV19oVTFtSDlLSVNvclRULUxOMFpUdFpyM1NTR0JvRm9zb1RxOVR0YVRDcTI0dtIBsAFBVV95cUxPbXlTdUpLMFB6MFpTUGtPWURCRDNfbjVvMGJzQTZQMEdGYlh3TmtobF9RUE5acUhtTGRqMVNwbzVaVmVzZGhBVzFLdkRrTlVUSk9MOHhmZnN6ZGtUVFRKVl9VNWUyeWloVnFqVFhKcjFORG1EV05kYlVoX0N3ekVLeFpBV19oVTFtSDlLSVNvclRULUxOMFpUdFpyM1NTR0JvRm9zb1RxOVR0YVRDcTI0dg?oc=5",
-      "published": "Fri, 02 Oct 2026 04:43:44 GMT",
-      "summary": "SBI Research makes case for 25-basis-point RBI rate hike&nbsp;&nbsp;National Herald",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-02T12:43:44+08:00",
+      "title": "Brazil presidential vote pits Trump ally against Lula, who is seeking 4th nonconsecutive term - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZk13VHJma2NYa1VVMWs0eDhnUXE5VENNMHg1RmRVOTc4cWhESXFyQ2ZCN1VrU2RENlYzeTVEMG9mcmN5Rk5HcTQ0SGZKUERtNndIX3RHQkdsb3lhaVRnZ0pJajloTnBPQmhheVF3dWR1amZkQjdFRGhXc3RkYVFWTUNEd1NRTWNBajZaelUxVVRRci03cEs4N2RENmQxaWZpWHJZazdjXzRtVHVmSVlwVmlscUlYb2FyeFptNHlGeFMyVE5URTdoUzk5Y09JS0tETHM3RWJROU1NM0t4cy1pR2thUk1ERE4tdEJSeDFvdFJjdmlyY1NSS3B6NU11M3RaQ1JGYzlsS1Q5LVBu0gGMAkFVX3lxTE1mTXdUcmZrY1hrVVUxazR4OGdRcTlUQ00weDVGZFU5NzhxaERJcXJDZkI3VWtTZEQ2VjN5NUQwb2ZyY3lGTkdxNDRIZkpQRG02d0hfdEdCR2xveWFpVGdnSklqOWhOcE9CaGF5UXd1ZHVqZmRCN0VEaFdzdGRhUVZNQ0R3U1FNY0FqNlp6VTFVVFFyLTdwSzg3ZEQ2ZDFpZmlYcllrN2NfNG1UdWZJWXBWaWxxSVhvYXJ4Wm00eUZ4UzJUTlRFN2hTOTljT0lLS0RMczdFYlE5TU0zS3hzLWlHa2FSTURETi10QlJ4MW90UmN2aXJjU1JLcHo1TXUzdFpDUkZjOWxLVDktUG4?oc=5",
+      "published": "Sun, 04 Oct 2026 12:29:00 GMT",
+      "summary": "Brazil presidential vote pits Trump ally against Lula, who is seeking 4th nonconsecutive term&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T20:29:00+08:00",
       "source_detail": {
-        "name": "National Herald",
-        "url": "https://www.nationalheraldindia.com"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 0.0,
-      "category": "韩国",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Samsung leads SK Hynix and Micron close the DRAM gap - Sammy Fans",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSjl0T0phTnNOTjdRZ2l1ek9aaU90SXJYMktqNDcyTzZjZkZKWWFXV0VfQVNkNGNLUzM1M0NRb2h5eE1fdHF1T29Kb3VzYjd3SmlFbm5qVjNIZU9ZOVdlVWVGWnBHTmtGT0Eya3V3RFJDWGJHLUxKMW5aSmpzaW5vZDM1THdlbDVWSndhbWRqY0owWWtU0gGaAUFVX3lxTE9MSjNKLURmUTJEZDYxaXdZanM0OXNhZ0RyTWlGVElIQWlIM0tOU3p3cjdRWkR4Z2ZBY0t2ZkpUNjZkS3JDU1RmMl96Z0RkUFdLZGp3OFc4Z2NiQTktS19QQlNaQjJrVl9rMFVXZFNYUE1iYUc3QWU3c2llNHcxU2l2YnROQUtHX2ZCdUpTVFFUQUphNFMyYkN6WVE?oc=5",
-      "published": "Fri, 02 Oct 2026 04:34:45 GMT",
-      "summary": "Samsung leads SK Hynix and Micron close the DRAM gap&nbsp;&nbsp;Sammy Fans",
+      "title": "Protests demanding Indian election chief resigns escalate - CTV News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEJDYXdtWVctZFB4THBfck9pcElRSW9OMDFtTXFkYWR5ZHc1cTcxRkphcDJRYzl2Q0xXUHlBbUlUc1FDVktLUVNZTExRZm1DbkhWUTNUQmRZVHA0SWpBaUZrRkJuUWtuZHZjejZ6NGQ1THJjaFlXV1lJM3ZzYlV5MXR2T1FGVDhmellzT1VGWUxSTU9qNFJRZVZkTQ?oc=5",
+      "published": "Sun, 04 Oct 2026 12:27:30 GMT",
+      "summary": "Protests demanding Indian election chief resigns escalate&nbsp;&nbsp;CTV News",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T20:27:30+08:00",
+      "source_detail": {
+        "name": "CTV News",
+        "url": "https://www.ctvnews.ca"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The solution to Malaysia's demographic challenge through parenteism - newswav.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVJCMnFPSE4xZzNucTJoaWhnZllsVk9yUTNRUGZoSWxYVFdxVW5HQkFieEM1cUxTU1BXR0paY1llT0YyTHlnSVdaMVo0WlUtc1BOeUthay1iYThzTFdFY1pfRC15ZFV6Rk5pZ2ZUc1hwRG1ra2JKZmw1bTRrbUltOEJmRTFtT3Z5S3RMb2R0aHdlYXhqa01MLU1FbnhQT05pcVhGMklwYmNIb0FO?oc=5",
+      "published": "Sun, 04 Oct 2026 07:00:00 GMT",
+      "summary": "The solution to Malaysia's demographic challenge through parenteism&nbsp;&nbsp;newswav.com",
+      "source": "GNews | JK Demo",
+      "published_beijing": "2026-10-04T15:00:00+08:00",
+      "source_detail": {
+        "name": "newswav.com",
+        "url": "https://newswav.com"
+      },
+      "priority": 0.0,
+      "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Protests over housing flare in Spain after relief measures rejected - afp.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMWI1X3BjVm9KN3BEeTYtWEppZXd1VUNHUnpSa0praFhmMGttTnVZQmlqaWxLY2pMY0Y2eU1peWZzQUhBWlFJMjI4bFMwb3c3Ukp3SXpxRE5YSnRPbmFpY28xSWNHSW9lUXhhX0xCT2dGZU1ERUItSy14S251a0xNZnBYcDZobXgxR095cnFPXzFiMDg?oc=5",
+      "published": "Sat, 03 Oct 2026 16:14:21 GMT",
+      "summary": "Protests over housing flare in Spain after relief measures rejected&nbsp;&nbsp;afp.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T00:14:21+08:00",
+      "source_detail": {
+        "name": "afp.com",
+        "url": "https://www.afp.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tens of thousands protest across Spain over housing crisis - WTVB",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV1E4UzJCMno4dmE1b2xBVTVKVkFXa3VDQ1poMmJQNWc4a21IQTA0dmFLTkVmMjFYZk5ZYi1EcDd2NmlMTTNyd09VcVJWYXJlOVFsbk9VRVV5QVo1QThhSTBIVFp5NGZRQ25lWUo5UWpsNHpMZVBJOTJaN19QRUgzaEVQZTVkSWpTSUhrX1NwN3JGS0E?oc=5",
+      "published": "Sat, 03 Oct 2026 16:12:53 GMT",
+      "summary": "Tens of thousands protest across Spain over housing crisis&nbsp;&nbsp;WTVB",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-04T00:12:53+08:00",
+      "source_detail": {
+        "name": "WTVB",
+        "url": "https://wtvbam.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Spain: Massive protests after housing bills voted down - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2hnUXhYZjVwV0lnTUpjZkQ0cTU0dC1vRkhCb3h4ZUYzeTlQWWJBeU9SZHp3OFVRYUVaazdiU0dDeFpYR29xc3Vrd0JXYzZnOHBVZzZQSTZzR2JYdXE4TVpfd1FXZHFMQ3lsM3NObW1MOGltRzQyU3BhbFFUY2M5LWtkRlgzc2NhMjJQUndOMFhPM05Ycl9SODhZQ1hLMm5rX2fSAaIBQVVfeXFMTVhnR016TndJckk5VGpielJCd1pqZmNNZ3l3OThIMGp2X0RhejJIaFVzaW5JZ0dEOVFCVHJxWFVpTTRqVWZSajFHQmxzdlFHNFVSYVFCb0lJLWRNUFJhNFhENExlSlRVSE44UGN3M1dUV3BQN2diUmNHcTNPRjdFbFVNdUc3TUNJTmFxTGlKNFlrTGRITDhsZnFWU1JCWlRwczRn?oc=5",
+      "published": "Sat, 03 Oct 2026 15:45:59 GMT",
+      "summary": "Spain: Massive protests after housing bills voted down&nbsp;&nbsp;DW.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-03T23:45:59+08:00",
+      "source_detail": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chemical Industry Machinery Market Forecast to 2035: Growth Driven by Specialty Chemical Demand - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHpDOGFmU1JVa1hnV19NME93UDdNTzFTaGJUNjZ4dVJOWkwyeGhpSEF2WXJWc0ZDYllwQ293Q1FUS3dZUTFPUVJfM2trc2dWdkxidl91X1d6SDJtY2s3ZUw1MFhldThVUE9ETjBVa1VXbFRISlVBTDVFVng5VWtOYWZKa3pQTlBiSDZHcHBHNTN4djh0Mlh1anhELWhtUGpaMnY0RXhOaF9uMHl2VlNUS3FSRFRmMG5uTnVhWUdUdFFUUQ?oc=5",
+      "published": "Sat, 03 Oct 2026 13:56:04 GMT",
+      "summary": "Chemical Industry Machinery Market Forecast to 2035: Growth Driven by Specialty Chemical Demand&nbsp;&nbsp;IndexBox",
+      "source": "GNews | JP Trade/SCM",
+      "published_beijing": "2026-10-03T21:56:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Protests in Spain Escalate Following Rejection of Housing Crisis Measures - Nacionale News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeE94d28zUm1YcUhvZFJyNTE1eFZIaTB0Mm1OMFhocUZ0ZmJiV2h4eUhVVm9OYUc0czZmczlOQzBNa3pWWW5fSlhlVzRNN2lPOXc5OFZjbXFsTkthMEJGT2FFRHhKVWtBWTdEeWZOTXpOakF6VFNqYk11R284cllXbW0tZDl6LUZ4LTVrcW5KNnVHQl9rS0JNN3lFakNKWXRrM1dBUEw3X1ZRazBWRE0zVg?oc=5",
+      "published": "Sat, 03 Oct 2026 13:30:52 GMT",
+      "summary": "Protests in Spain Escalate Following Rejection of Housing Crisis Measures&nbsp;&nbsp;Nacionale News",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-03T21:30:52+08:00",
+      "source_detail": {
+        "name": "Nacionale News",
+        "url": "https://www.nacionale.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Samsung seeks more than 3x HBM3E pricing for HBM4 - Sammy Fans",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObi1Sa2xRTXFYS3hUdUFFdzFoaG45STFRM0RrZU9hWDdJekdHNWxIWVp1NUI3UVkxdDRzc1BvZ3hEU2VUUFRFSnJma2pjVGh5VmZEcVIzRDB2S1UwUnVucVhfS3FxbFRtRG9nbHltVkViRUFoWTNOeFpDX0RKLU0wTm9nZjNiSlVTR0o2dlVFNWvSAZYBQVVfeXFMUFBkdFFaMTNhZ3gxaENheFBVQWVJaV9zSHlfMzlKdmZuUWlxa0t5czhlMWFaWGFyRFhHRXVXMWdKYXpYVjFDRk1BYzdCUEhrcVpfY20yTmlrVWptOXUzT1hBOVFMa2MzcTBsZkdHSFUyWWR4cVRaelZNdV9PektqVkJTZEEtdExmVWdQTzAzcG9GNTZmODdR?oc=5",
+      "published": "Sat, 03 Oct 2026 10:54:05 GMT",
+      "summary": "Samsung seeks more than 3x HBM3E pricing for HBM4&nbsp;&nbsp;Sammy Fans",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-02T12:34:45+08:00",
+      "published_beijing": "2026-10-03T18:54:05+08:00",
       "source_detail": {
         "name": "Sammy Fans",
         "url": "https://www.sammyfans.com"
@@ -1510,15 +755,15 @@
       "relevance": "low"
     },
     {
-      "title": "Gyanesh Kumar: CJP, or Cockroach Janta Party, calls for protests against election chief - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lXy1PQk0wX29IUjkxVG1HR1BYZ0R1c1RPNEwzQzd1VndsWlhrb2JLR0FhYWg1RmpqX01FMTlzOGZ1RUF1X3JUTDJUbHRRMUtGSWlfQXQ0c3dHNGc?oc=5",
-      "published": "Fri, 02 Oct 2026 04:25:54 GMT",
-      "summary": "Gyanesh Kumar: CJP, or Cockroach Janta Party, calls for protests against election chief&nbsp;&nbsp;BBC",
+      "title": "Dr Ashok Seth: 'Our Hearts Are Genetically Weaker Than The West' - India Today - India Today",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1RUOFBhTHI4UzY0Y0F6VFpPSzNZa25vUzk0dVdHSG5JY0pqanhDT0dwUS1vOUx4WFIxU2FkODIzRkxrRThQek1RUDFLUEYtcnd2Njl6THk0dURMVlNodV9ISHRUS0VzWXVSNjN5NjAzaXNfU2hzWTZ0WV9yNjZnTDRWNzdBS01yUGllbzJRNEtGYkF2R1ROc1VsXzlJTDdBTzBMLXM4WnhWRUZ2cXlhSE5EX1doNmVXVDJSWUtoZ07SAcYBQVVfeXFMTmRMQzZET21nNU5nUnMxNmcwSWJYMl9KWmNaX3FCT2dEOWFoeENJLTNDOW1yajVHX0lWVHdBc1dnU1ZSaG5ZeXY3eGtYdWNPVTNtQXhTNG1TWjM4QURWRHhzY21nTEFweFladFpYQTFETGhXRDJINFpNY1gwZUZYcUsyWGU0NTBuSEJGaXFNUzZ4NEJGMXJuUDZWV2Q2eFE5b1NNeGRaWE9vaklNQUp3SHJkQ3pwaldWejlETWZ5Uml6TlZSTy1R?oc=5",
+      "published": "Sat, 03 Oct 2026 05:12:13 GMT",
+      "summary": "Dr Ashok Seth: 'Our Hearts Are Genetically Weaker Than The West' - India Today&nbsp;&nbsp;India Today",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T12:25:54+08:00",
+      "published_beijing": "2026-10-03T13:12:13+08:00",
       "source_detail": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
+        "name": "India Today",
+        "url": "https://www.indiatoday.in"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1526,31 +771,31 @@
       "relevance": "low"
     },
     {
-      "title": "Late-night clashes in Thiruvananthapuram spark blame game among parties - The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNURhX29CMi01a3BiSXdOWXJHYU1tV0N6TWlRcEZqVXcxTGl5VTFXd2t3WlY0R0E2a05FckF1dkNmUzFPcEdPNm50SHRHX3YxVDRhWHBzTTdmekI4QVgyV3A1QVdFWF8zV2RvZmtwLWx4dzZYWnNZbHJRZjBDU0U2cl8xb3NPMGg2ZTVlVmZmNnZ4TE9UVUFnSWtORlJBTUNWZWZnaDUwMnYxWXZqUVNPR1RqSlVtQkJqWldXd2hNZmJQeXVya1VGankyTnlJN0E5blRjOGVNc9IB1wFBVV95cUxQNURhX29CMi01a3BiSXdOWXJHYU1tV0N6TWlRcEZqVXcxTGl5VTFXd2t3WlY0R0E2a05FckF1dkNmUzFPcEdPNm50SHRHX3YxVDRhWHBzTTdmekI4QVgyV3A1QVdFWF8zV2RvZmtwLWx4dzZYWnNZbHJRZjBDU0U2cl8xb3NPMGg2ZTVlVmZmNnZ4TE9UVUFnSWtORlJBTUNWZWZnaDUwMnYxWXZqUVNPR1RqSlVtQkJqWldXd2hNZmJQeXVya1VGankyTnlJN0E5blRjOGVNcw?oc=5",
-      "published": "Fri, 02 Oct 2026 03:18:00 GMT",
-      "summary": "Late-night clashes in Thiruvananthapuram spark blame game among parties&nbsp;&nbsp;The New Indian Express",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T11:18:00+08:00",
+      "title": "Asia’s AI boom leaves four major economies exposed to a potential bust - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4UjJPcVJ5cVNieVhnSU5NTkgyclNjc1ZnVGdfOEhMRENPeXpFdTZMaXJUaS1Edk5MME5pOWxEc0RObEV3WGxrZXJXeGt1WTJHRHd1Qk9iWFhjcjV6OFU3T0RjUndZd3NteWhxQQ?oc=5",
+      "published": "Mon, 05 Oct 2026 02:38:44 GMT",
+      "summary": "Asia’s AI boom leaves four major economies exposed to a potential bust&nbsp;&nbsp;Crypto Briefing",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-05T10:38:44+08:00",
       "source_detail": {
-        "name": "The New Indian Express",
-        "url": "https://www.newindianexpress.com"
+        "name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com"
       },
       "priority": 0.0,
-      "category": "政治+社会",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Delhi Police denies permission for Oct 2 protest at Jantar Mantar, security beefed up - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNVd4Q2VRZ2h1V3ZVVVlCaGZJR05SZFFNRzZING5Qbi1hN2RTTGE2aEJWTW5VTlpuUVF4RGNOSU5tNE0zQjRMMlNNcy1aMHZkeUFCUGFSR3BDS09IQjhaSi1uTnF2YjBXVi1wd2xwRzh1b2wxYXpCSU01MWJtbVlOc01IeUdVeWpiQ090eXJZT0xOeEZldGNGSTlwR3g2dW5zS1RRT1VxdnAwMkxPXzZoSDdXYVVrcE5HZERlZ2ZXa1k4QWcxMUZRdFJneTlSdXo0aVV1YjhkTENtbURua0wxem13M3hXQ0hkZFNiSVdnYW1ZNkJJTWhBSHZWZU3SAfwBQVVfeXFMUDVXeENlUWdodVd2VVVZQmhmSUdOUmRRTUc2SDRuUG4tYTdkU0xhNmhCVk1uVU5ablFReERjTklObTRNM0I0TDJTTXMtWjB2ZHlBQlBhUkdwQ0tPSEI4Wkotbk5xdmIwV1YtcHdscEc4dW9sMWF6QklNNTFibW1ZTnNNSHlHVXlqYkNPdHlyWU9MTnhGZXRjRkk5cEd4NnVuc0tUUU9VcXZwMDJMT182aEg3V2FVa3BOR2REZWdmV2tZOEFnMTFGUXRSZ3k5UnV6NGlVdWI4ZExDbW1EbmtMMXptdzN4V0NIZGRTYklXZ2FtWTZCSU1oQUh2VmVN?oc=5",
-      "published": "Fri, 02 Oct 2026 02:36:00 GMT",
-      "summary": "Delhi Police denies permission for Oct 2 protest at Jantar Mantar, security beefed up&nbsp;&nbsp;The Economic Times",
+      "title": "Brazil heads to a runoff election after Bolsonaro and Lula fail to garner a majority of votes - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdk94NWVCT2tsZTk5RURQV1JqMEpMWjhPaUZqZW5fTWpEazM3Z2FUdC1FQW9wRjBCWi1FbzhyRU1qX3Q2QXUyNXQyeE5HNE5uT0JUQlN2djJ1QTk0Z0pGVFVFTl9SOWNuYlVOb21QdVVKMXJTYjVrT3RBVWhnb3hIMEZVOTkxZklPd3k5cUdMUEZPQWRhYTJYblVqUGVpYWJaRDB3UXhtdkIwYktiQkpyVUFTZlFFWDNPVTd4eGZvR3V3VlBPREZTYk1yY3Fyc29MRXRlREExUzdlTE1QSE02SzIwa0s4RmowekRtVzQ2VWZJWGZWSzI2SC1SZndMLVlsa1Zfa1NOaw?oc=5",
+      "published": "Mon, 05 Oct 2026 00:27:57 GMT",
+      "summary": "Brazil heads to a runoff election after Bolsonaro and Lula fail to garner a majority of votes&nbsp;&nbsp;thecanadianpressnews.ca",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-02T10:36:00+08:00",
+      "published_beijing": "2026-10-05T08:27:57+08:00",
       "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com"
+        "name": "thecanadianpressnews.ca",
+        "url": "https://www.thecanadianpressnews.ca"
       },
       "priority": 0.0,
       "category": "政治+社会",
