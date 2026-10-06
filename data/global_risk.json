@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-05T04:35:00.735790+00:00",
-  "fetch_date_utc": "2026-10-05",
-  "total": 31,
+  "updated": "2026-10-06T05:21:10.041580+00:00",
+  "fetch_date_utc": "2026-10-06",
+  "total": 47,
   "high_priority": 0,
-  "medium_priority": 0,
+  "medium_priority": 1,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 8,
+      "count": 9,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 0,
+      "count": 1,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 2,
+      "count": 4,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "中国企业视角": {
@@ -41,7 +41,7 @@
       "feeds": 0
     },
     "安全与隐私RSS(D)": {
-      "count": 40,
+      "count": 50,
       "feeds": 4
     },
     "新增直连RSS(E)": {
@@ -49,19 +49,35 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 13,
-  "rate_limited_feeds": 1,
+  "fail_feeds": 11,
+  "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Expleo Solutions settles EPF dues, bank account freeze lifted - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZjdMX0hZMkptZ1I1UDJNWGd3dUhRQmU4UWtwQ205eTZUZ2phZ08wMndUdXNJV25URDJTN2RzaEZXOUptclpvdzdFZVctX2haclZucDNKY1JDcjJPMnNvcHBGbjRFRGU4dklmTS05NW5QcHppUldmM0Vnd2FDank0U3hTZW9JLWhTYXlqT2RfN2hoN21GOHlKZUY5ZVNQUmkxQ2pTTTQ3cUdtZVdBeWZaVHgwSS16WjRKeVZ4UmwzMmM2MDA?oc=5",
-      "published": "Sun, 04 Oct 2026 20:59:39 GMT",
-      "summary": "Expleo Solutions settles EPF dues, bank account freeze lifted&nbsp;&nbsp;scanx.trade",
-      "source": "GNews | Payment/Compliance",
-      "published_beijing": "2026-10-05T04:59:39+08:00",
+      "title": "Why sanctions lists alone leave compliance teams exposed - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0dtazJYWFd5N2xzZmxsSjlnTzRHN0pZRUxIT3JoTVBOaHRNS3h0YVc2RGh3TmJ4c2ZRZ3p4QnowVk56M0VRZkxyb1ZLeU9BUlc1MnlKdUZpT0s3anNocU8xU1FUTTNVaEhvUVF6aFVDdFgzdDU0Z0dqVGFTbnFJaTV3eFM4c094MVJzczRmTGJjYXRQQmc?oc=5",
+      "published": "Mon, 05 Oct 2026 12:20:39 GMT",
+      "summary": "Why sanctions lists alone leave compliance teams exposed&nbsp;&nbsp;FinTech Global",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-05T20:20:39+08:00",
       "source_detail": {
-        "name": "scanx.trade",
-        "url": "https://scanx.trade"
+        "name": "FinTech Global",
+        "url": "https://fintech.global"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Opinion | Hong Kong’s bridge of gold completes China’s yuan ambition - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT3VyOHZKY0ZSWlp0cDNsUGpEMjE3QXlxa1FQV0FYaFlsVW44cmxXTUVkZDNuNk5ucThGZm5rdi1UTG5jOUtRUHNfQjR3M0NBZFZ5RnY1X3FIbHh4R29qc3gyMU5OTzRYVHVUUWtrWHJnemZYa05QYjZtbm5nbzVvbDlzc0s2YVNJaDBfQVktcm9NeFhTT2VhZi1fdFVka0twM1M1cEVqNjBZSU8wV2NQaTluUWIxS2vSAbcBQVVfeXFMUE91cjh2SmNGUlpadHAzbFBqRDIxN0F5cWtRUFdBWGhZbFVuOHJsV01FZGQzbjZObnE4RmZua3YtVExuYzlLUVBzX0I0dzNDQWRWeUZ2NV9xSGx4eEdvanN4MjFOTk80WFR1VFFra1hyZ3pmWGtOUGI2bW5uZ281b2w5c3NLNmFTSWgwX0FZLXJvTXhYU09lYWYtX3RVZGtLcDNTNXBFajYwWUlPMFdjUGk5blFiMUtr?oc=5",
+      "published": "Tue, 06 Oct 2026 01:00:05 GMT",
+      "summary": "Opinion | Hong Kong’s bridge of gold completes China’s yuan ambition&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | Capital Controls",
+      "published_beijing": "2026-10-06T09:00:05+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://amp.scmp.com"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -69,15 +85,15 @@
       "relevance": "low"
     },
     {
-      "title": "European Companies in Cuba: Navigating the Risk of U.S. Sanctions Linked to GAESA - CubaHeadlines",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyR3RFZ3VNR0E5ejh5VnJtWjJNbEV6UGdEMzBscjU2a2NuWFdSNmE2NTBLM3lHZlBoZ3pnRWUtTUI4OUdjNTlVSVpGa1hHQ09Cb3hDMkd1Rmw?oc=5",
-      "published": "Sun, 04 Oct 2026 17:56:26 GMT",
-      "summary": "European Companies in Cuba: Navigating the Risk of U.S. Sanctions Linked to GAESA&nbsp;&nbsp;CubaHeadlines",
+      "title": "US warns foreign financial institutions over business dealings with Iran - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWE5jaGV2cVJmRzMwZkhjVjFwY1hmNC1kZWdMR0JsQ1NXZnB0c3pkcHI2SmJJcmZiR0N2RTNldjdUaUZIYVZXVWxNWGFCTzlfTUEyeXhoVFJkSmc0bjlwWkRpS3VmRExGUWE4czFXcm9zNndydVhBc1ppYnllTFNhQ2hCZUNPSHdHdG05WmM5MDRTZXpkVU4wZTluckgtTW5veTRqUXg5WkEtbllnNnc?oc=5",
+      "published": "Mon, 05 Oct 2026 19:57:00 GMT",
+      "summary": "US warns foreign financial institutions over business dealings with Iran&nbsp;&nbsp;Business Upturn",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T01:56:26+08:00",
+      "published_beijing": "2026-10-06T03:57:00+08:00",
       "source_detail": {
-        "name": "CubaHeadlines",
-        "url": "https://www.cubaheadlines.com"
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -85,15 +101,15 @@
       "relevance": "low"
     },
     {
-      "title": "Vima is not the only one: which European companies maintain ties to GAESA and what risks do they face now? - CiberCuba",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNblVxOGQ1elZYVDJxNXdRRHFlMGl6V3JQNzNVLVpsOElSNEpmNWd5RjRrcjlHRmFFOEtpVWhvSkxFQURGOW1JN1dudzJPZVpyd2VUeUN1R0FRUTZWM3F1emF0VmhlNlBzRDJMN205Z1VBUFVIMTNZU3dQd25JcGhpeEQzdF9ybWI4aGI5am5IcE1UUW0zeGY5cUFEOGpTbFBMRmhQSGZ4NFVRM1ktdDFsb3FWQUJVX0U?oc=5",
-      "published": "Sun, 04 Oct 2026 13:09:31 GMT",
-      "summary": "Vima is not the only one: which European companies maintain ties to GAESA and what risks do they face now?&nbsp;&nbsp;CiberCuba",
+      "title": "US Sanctions Two French Charities Over Alleged Hamas Crypto Financing - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vN0NhVi1COGRUNFkxVkJHR19DYURhczBVTlZGeHptcUMwQzJtV3Q2YzFDOXBXZnNOWG41VDFZVHpWWVRvUEltdU1oNFViSE1Xb1hFczhRREp5UUlpOWdSSmVaUS1mcGljcmtrLVpKX19aTG9LT2c?oc=5",
+      "published": "Mon, 05 Oct 2026 18:05:00 GMT",
+      "summary": "US Sanctions Two French Charities Over Alleged Hamas Crypto Financing&nbsp;&nbsp;finance.biggo.com",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-04T21:09:31+08:00",
+      "published_beijing": "2026-10-06T02:05:00+08:00",
       "source_detail": {
-        "name": "CiberCuba",
-        "url": "https://en.cibercuba.com"
+        "name": "finance.biggo.com",
+        "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -101,15 +117,47 @@
       "relevance": "low"
     },
     {
-      "title": "Japan sanctions Garantex among 33 Russian entities - Crypto News",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XRzhuOXFmTlBlcHdBZjhBX2haXzV6eF9WSmdxWF83dFlvX3hQa2pHZmMxa3FYYjlKUHRNaHBPNmxVTTFiNk5GeWQtR3VHemI4cVBGRlRBaHNHTzlqMzhFSEJSYVlYUUxHNTctZzhTMGpjUUhKaUI4REhqWQ?oc=5",
-      "published": "Sun, 04 Oct 2026 13:02:24 GMT",
-      "summary": "Japan sanctions Garantex among 33 Russian entities&nbsp;&nbsp;Crypto News",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-04T21:02:24+08:00",
+      "title": "Mind the gap: Strait of Hormuz disruption - risk allocation for traders and charterers - Stephenson Harwood",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNW43MWRRVlpCcDNaNHhfS05SZV9xLUx4STdIbU1vR3lnS0huQ3VsQTF6LW9vTEFzNV9iYUJwTGVuUTZLRXRnOEpYSlFyYXBHZlotYmNtTjFzcHktRHlydndFMUdsSGFReWhxTTAwTXdmeDF4VFFTb1EwbnI4OE1DdXg3N2Q2WDRLWUp0cjhyNjZTRV95Z2FnTjZ3R3VrVzVBTGl2MkVjNnNBUmtDZmhaVjd3cm5PdlRTbDdUQ0I2S01uUFZ1ZHc?oc=5",
+      "published": "Mon, 05 Oct 2026 15:53:39 GMT",
+      "summary": "Mind the gap: Strait of Hormuz disruption - risk allocation for traders and charterers&nbsp;&nbsp;Stephenson Harwood",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-10-05T23:53:39+08:00",
       "source_detail": {
-        "name": "Crypto News",
-        "url": "https://crypto.news"
+        "name": "Stephenson Harwood",
+        "url": "https://www.stephensonharwood.com"
+      },
+      "priority": 0.0,
+      "category": "供应链风险+FCPA",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Raiffeisen sees no signs of a confiscation of Russian businesses - LIGA.net",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUU94cFJXWU1TSGlkeWRteFlPUzhRLUxtNHR1N1k1VGdScmlTV0NqakM1TXFCUTNYTUZmWDg5cENrVEJ2TlZ2bl9EeGhmYWx2ektENHJkTE5wN2stRFRvTUFBbmY0V0gtR0x4WE5lOVBsNjZsd2t1N085cGtleHQ3YVVRc1BpRGZSV3M3WjZUakh0ei1SQThMV3l2aVl2cVRKbXExMdIBqgFBVV95cUxOZnRZNVoySVBTT2hqT1ZJMU1FeUJWMDF3MGhZV0hhdTVvVk44VTJ6dzdTZGVpN1kxNXZuUVV5YWJEdVhNX0x0MU5RdVpyTVR5OXEzU3JYX1pKUUJrRmwtVGlYcEpxV3hHeDNwRUF5amhjV0NXeXh0Vkthc1pCSnpkSkhuWXRwTkptcEFsZF9ZZWVYTTR5MjgwaFVXVmk0aXlxdzExeVptS3E5UQ?oc=5",
+      "published": "Mon, 05 Oct 2026 13:55:58 GMT",
+      "summary": "Raiffeisen sees no signs of a confiscation of Russian businesses&nbsp;&nbsp;LIGA.net",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-05T21:55:58+08:00",
+      "source_detail": {
+        "name": "LIGA.net",
+        "url": "https://finance.liga.net"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. expands sanctions linked to Hamas after tracing crypto - portalcripto.com.br",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWZlOVVhZFhTdUV5aUJCNm5qLXZ6VFktTFBreFNfSlpfR1lwb0VJU0MxM0ZoQllFMUlmSjg2bml4ZnZVaUdqZ3RKX09jY0hRLTlhQ2R0SmctXzl3aS11ajVHUUsycHo3S2QyQkhUSVduN2tiNTUyRzdGdUZrOC0zQm05eFFaNmw1enJQVHFqZVR1bFU?oc=5",
+      "published": "Mon, 05 Oct 2026 13:06:57 GMT",
+      "summary": "U.S. expands sanctions linked to Hamas after tracing crypto&nbsp;&nbsp;portalcripto.com.br",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-05T21:06:57+08:00",
+      "source_detail": {
+        "name": "portalcripto.com.br",
+        "url": "https://portalcripto.com.br"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -117,63 +165,78 @@
       "relevance": "low"
     },
     {
-      "title": "Weekly Update 524: Live From Copenhagen",
-      "link": "https://www.troyhunt.com/weekly-update-524/",
-      "published": "Sun, 04 Oct 2026 11:52:23 GMT",
-      "summary": "I&apos;m in Denmark! Well, just, I&apos;m now at Copenhagen airport ready to begin the long trek home, with the final event at GOTO now done and going just perfectly. This week, there are two ShinyHunters arrests in the news: Pepijn in the Netherlands and then Saif",
-      "source": "Troy Hunt",
-      "full_text": "I'm in Denmark! Well, just, I'm now at Copenhagen airport ready to begin the long trek home, with the final event at GOTO now done and going just perfectly. This week, there are two ShinyHunters arrests in the news: Pepijn in the Netherlands and then Saif in Jordon. It's an inevitable outcome, of course, and as I say this week, it was also the most likely one. Time will tell how many more join their ranks, but the seriousness of the crimes, the length of time they were perpetrated over, and the motivations behind them will certainly see substantial custodial sentences.In other news, this week I'm properly introducing a new sponsor for the blog: Origin. One of our next AI frontiers is understanding what agents have actually done (and we've all seen news of where they're been a bit too, well, \"creative\" in executing their tasks), and Origin's solution gives you visiblity into just that. Check them out, and a big thanks to them for their ongoing support.",
-      "published_beijing": "2026-10-04T19:52:23+08:00",
+      "title": "Why France's debt crisis matters - axios.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMFEtMnhLN29lakNpeUdOQVJ2TmVwcEczNW1QN0F3WFdjWVFTS2pSdHBpYU80MmZueEFtQ0poWGNhb3RWa3Axa0xjdVAyemcya0Jha3VIUGVrS1JKTDNZdWNhYVN0SUFFTXhQTA?oc=5",
+      "published": "Mon, 05 Oct 2026 11:04:21 GMT",
+      "summary": "Why France's debt crisis matters&nbsp;&nbsp;axios.com",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-05T19:04:21+08:00",
+      "source_detail": {
+        "name": "axios.com",
+        "url": "https://www.axios.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Who advises Africa when the debt comes due? - African Business",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMU9GeTZETzZWOW9udWlUUEI1bEdBY3VtME44S2xyOHhRQjlOazNRMHJjLWhrclhCSTF1VjR0a3FjcmZadU1td090akFzNzJOcXlYaFUtaXpuc0xrSDRRQ0JQQlNONEpyRW9Hc2R4YVY5M3YwdVVjalJjMTJkS3ZLeDNMVF85V1Noa2JrOGtxd0h5VmlIRzFR?oc=5",
+      "published": "Mon, 05 Oct 2026 09:51:07 GMT",
+      "summary": "Who advises Africa when the debt comes due?&nbsp;&nbsp;African Business",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-05T17:51:07+08:00",
+      "source_detail": {
+        "name": "African Business",
+        "url": "https://african.business"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "What is a Sovereign Debt Crisis? Why Europe’s Bond Stress is Back in Focus - EBC Financial Group",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nMk5HRjNJcnJ4VUhtdjVUaHFudzJ1ckpaaGtfV0tBNE0teGNDcDlDaG5OUFBFRDdhWlF5ZldHZE1EeXE0dndqbV81RFpJOGtQZks5WUFQaDNSaG93NnNqSDFqR0F6ZDhO?oc=5",
+      "published": "Mon, 05 Oct 2026 09:16:00 GMT",
+      "summary": "What is a Sovereign Debt Crisis? Why Europe’s Bond Stress is Back in Focus&nbsp;&nbsp;EBC Financial Group",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-05T17:16:00+08:00",
+      "source_detail": {
+        "name": "EBC Financial Group",
+        "url": "https://www.ebc.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Japan Sanctions Garantex, 33 Entities Over Russia’s War - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WVlMwMHRMQUtpaGZuYmEwUzByT1RrY25UYXAtR0VTVVlzclZXS1d3NUlQZWdoVjRWZzRvYVJGclZ1eGlZT3lyLVBhZnhabmlRR3cwRVQwMVVoUmtmWWZWRlAtQ0F0NTRjZTVPZ3E2aUhabVlUTjZsVQ?oc=5",
+      "published": "Mon, 05 Oct 2026 07:50:05 GMT",
+      "summary": "Japan Sanctions Garantex, 33 Entities Over Russia’s War&nbsp;&nbsp;CryptoRank",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-05T15:50:05+08:00",
+      "source_detail": {
+        "name": "CryptoRank",
+        "url": "https://cryptorank.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Another Historic Cipher Falls to AI",
+      "link": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "published": "2026-10-05T11:04:47Z",
+      "summary": "This one is from 1809, written by Napoleon&#8217;s nephew.",
+      "source": "Schneier on Security",
+      "published_beijing": "2026-10-05T19:04:47+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump Administration’s Economic Terrorism: U.S. Sanctions More Than 30 Individuals and Entities Linked to Iran - هابیلیان",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd3hRRDJPbXQ5eFFaeFhQMWtpeUJzcW9Jb2VuTE9ORW5EQzBheWFFTVIwV3FieE1ESHl6TWxyUW8tRWttRmU4S0RhMjlwM2ZVbEhZUmtpQVgxMXBDRXlOblZpQnRhMl9paExIWS1BLVNyekxoNUdTNTVWM05XeTNtZFEzM0lhV1QxamR1c2EwQ1dtUkEwTnFJdjJnbDgwZEJ1LTlLMzF2ZkVMUG1ORE9kMmtITmZCVEJ6OEg2SDlUc1lzRFlmdk5XMkptQzFYUnRaY0FZOUg0R2dCa1NTczNSVTlFbWJQdWJwaTNzaVpYVzNSZkN3SjNvLQ?oc=5",
-      "published": "Sun, 04 Oct 2026 10:27:52 GMT",
-      "summary": "Trump Administration’s Economic Terrorism: U.S. Sanctions More Than 30 Individuals and Entities Linked to Iran&nbsp;&nbsp;هابیلیان",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-04T18:27:52+08:00",
-      "source_detail": {
-        "name": "هابیلیان",
-        "url": "https://www.habilian.ir"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US Lawmakers Target Serbia's Democratic Backsliding, Ties To Russia, China, Iran - rferl.org",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaENiX0RIQmNhVzRlcUxtWUVZMDQyQk9fNDNtX1ZPQ2dURWFtdDViaW8xNmdCUlZxOEhIdGpPUUpiUjFoc3VLQmE1ZGV0c0JiVHkyX3UwcmJFRHpJQkZ4T1NwZVhnVVQzLTZSNmNiTEJabHByZlNob2ZLVERxR2FSQnRZQmtDMDFJdjRBbUcyVjBhRElPcXdXLUZhOE13NlFySnUzaGotNXhsOGRDYjNxcWk5eWZiNmZC0gG4AUFVX3lxTE9oQ2JfREhCY2FXNGVxTG1ZRVkwNDJCT180M21fVk9DZ1RFYW10NWJpbzE2Z0JSVnE4SEh0ak9RSmJSMWhzdUtCYTVkZXRzQmJUeTJfdTByYkVEeklCRnhPU3BlWGdVVDMtNlI2Y2JMQlpscHJmU2hvZktURHFHYVJCdFlCa0MwMUl2NEFtRzJWMGFESU9xd1ctRmE4TXc2UXJKdTNoai01eGw4ZENiM3FxaTl5ZmI2ZkI?oc=5",
-      "published": "Sat, 03 Oct 2026 12:27:02 GMT",
-      "summary": "US Lawmakers Target Serbia's Democratic Backsliding, Ties To Russia, China, Iran&nbsp;&nbsp;rferl.org",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-03T20:27:02+08:00",
-      "source_detail": {
-        "name": "rferl.org",
-        "url": "https://www.rferl.org"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The End of Cheap Money? Why Record Global Bond Yields Matter for the Global South - Modern Diplomacy",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWVaZ216N2JNekplekpSVHNQYTRhazkwUkhJY3kxSzNSbmtoYmt2U2dRRVZMVExOcG9TMG1FRGNMWG9fazgwMjF5QmdGU0h0MGQwMDB2RGhQVEVmajFBSjVOTTZ2dGtERy1vY1RUNTZKVXprVUQtZ3VsbHBtUk8xWEh5bmxHS0lMSm5kaThBTmcya3FyelNpZmlB?oc=5",
-      "published": "Sat, 03 Oct 2026 11:50:39 GMT",
-      "summary": "The End of Cheap Money? Why Record Global Bond Yields Matter for the Global South&nbsp;&nbsp;Modern Diplomacy",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-03T19:50:39+08:00",
-      "source_detail": {
-        "name": "Modern Diplomacy",
-        "url": "https://moderndiplomacy.eu"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
       "_incremental": "new",
       "relevance": "low"
     }

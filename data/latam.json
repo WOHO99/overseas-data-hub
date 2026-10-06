@@ -1,12 +1,14 @@
 {
   "version": "4.0",
   "module": "拉美深度",
-  "updated": "2026-10-05T04:34:52.015875+00:00",
-  "fetch_date_utc": "2026-10-05",
-  "total": 3,
+  "updated": "2026-10-06T05:21:00.941037+00:00",
+  "fetch_date_utc": "2026-10-06",
+  "total": 8,
   "high_priority": 0,
   "medium_priority": 1,
-  "signal_alerts": {},
+  "signal_alerts": {
+    "supply disruption": 1
+  },
   "stats_by_category": {
     "墨西哥": {
       "count": 0,
@@ -33,7 +35,7 @@
       "feeds": 0
     },
     "大国关系": {
-      "count": 3,
+      "count": 6,
       "feeds": 2
     },
     "本地语言搜索": {
@@ -45,7 +47,7 @@
       "feeds": 1
     },
     "信号性查询": {
-      "count": 0,
+      "count": 2,
       "feeds": 2
     },
     "专题精选": {
@@ -53,35 +55,103 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 4,
+  "fail_feeds": 3,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Week Ahead: FOMC and ECB Minutes; RBI Meeting; Brazil’s Presidential Rlection; EU-China Trade Talks; Amazon’s Prime Big Deal Days - christophe-barraud.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORjdEU2M2N21ia2VWWUUxN2hxS0pDaG1Gc2d3YXp4NkR2Nm1NbVE4T3hqckUtd3ZWNGZueEZiSEJzN1dHS1dyTmpVb1YyT2EtQnBOOExWMVpnS1U0OFVBRGZNQ1kyV296cFIybHpLVS1aUGVhUlpidDBRQTQtN21ZQkk2eWpBR0I5eFJ2WWVXU1R5d1VXcEt3REdHUkcwUzU4bGVKWUFPMVRNelBjNzN5eFpSYV9ZSzAtelNuLUZhZVhLWjh4N2FpVUxuUFNBVVdrUFdndjU4alN4b2NSLTN0S0Zrd253T3lGT0ZyNHQ5SQ?oc=5",
-      "published": "Sun, 04 Oct 2026 06:44:22 GMT",
-      "summary": "Week Ahead: FOMC and ECB Minutes; RBI Meeting; Brazil’s Presidential Rlection; EU-China Trade Talks; Amazon’s Prime Big Deal Days&nbsp;&nbsp;christophe-barraud.com",
-      "source": "GNews | US-LatAm",
-      "published_beijing": "2026-10-04T14:44:22+08:00",
+      "title": "Norsk Hydro sees up to $210 million hit from gas supply disruption at Alunorte - Mining.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOFNsUE9jcUtJb1ZaSFBuT0RDMEMtM0ZvU0d0aGYyc2gtZkx5WmltWG1PUk9oYjRNQkl1cHM2WjhCeVlSOEFGNHJNcE9uRUJMUDlDd1ByMnYyMVFzZWU5S0M0VTJuUEVuemxfTldIQ1ZsV1pxZU9Xanhnd200TEk2X0M3SmRoY3ZjUHdFQkNkYmxTLUtTUlYzV2tyc3pJTkt1RE10MmhEX0M?oc=5",
+      "published": "Tue, 06 Oct 2026 00:26:42 GMT",
+      "summary": "Norsk Hydro sees up to $210 million hit from gas supply disruption at Alunorte&nbsp;&nbsp;Mining.com",
+      "source": "GNews | Signal: LatAm Disrupt",
+      "published_beijing": "2026-10-06T08:26:42+08:00",
       "source_detail": {
-        "name": "christophe-barraud.com",
-        "url": "https://www.christophe-barraud.com"
+        "name": "Mining.com",
+        "url": "https://www.mining.com"
       },
-      "priority": 6.0,
-      "category": "大国关系",
+      "priority": 3.6,
+      "signal_keywords": [
+        "supply disruption"
+      ],
+      "category": "信号性查询",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "BRICS - PIB",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNS1hNazA5RlpsU1NjZktMTVdodi1vZDhVUUVLUGlsV01NZVdKZXVXb1JUdUF4TWxLQk1OcXJTUV9DQ2ItdWU5R0tORXlFWTVla0lWUXRBRUFZYmtwemVjRjdET2xySkxad1FoZ1ZWZmJkQlhPckpYVXY4dm4yQzByNjY2VQ?oc=5",
-      "published": "Mon, 05 Oct 2026 02:22:48 GMT",
-      "summary": "BRICS&nbsp;&nbsp;PIB",
+      "title": "Open Questions | Zheng Yongnian on battling for the upper hand ahead of the next China-US summit - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYlR4SEdSZThCd29DMmU3M0g0dU40Q2ViMFFtdXg0ZzZGcnZpZ0lyZkR4TUQzY3NVVXFoaVJOekpiQUR6amxReDlvY212dDNNdGpvcG5qMGp4X3g5RDg2WUwyc0l2VkVQQkM5eFgyMUg0cUhmZ3VXYVlZcTVmanVFMXE1dXFmbnpuaFJ6X0doOTJKY2NBSHd0czlxbzhrbnE3ODMtLWVpNEdGcXBJZzhqVHVpS0puQW1LOHNUMXBFQkVPa0HSAcMBQVVfeXFMTWdISk5KeHcta2ZqSS1HeGNoQ0h5V3V4YkwycGhYUm9jOXg2X0x3SFhvZUtGS0h5S2w1OHhzZ2g1dXdxNW8xM1VwbEpYeG1EeU12NWN1RHc2MGRDY0NXaUlXZnVTQWowUnpsTFQtM085dUpITl9wWDdnUUpfX3lWLS1ZX2xnWXUxUmdJcnY0YXM5NXo3ejFGT2xObmNhQ2dpeGRMTDN5anhhdzVSYWNqdGx2dUlsY3daQkpXVlY1WkRiOW1R?oc=5",
+      "published": "Sun, 04 Oct 2026 22:00:17 GMT",
+      "summary": "Open Questions | Zheng Yongnian on battling for the upper hand ahead of the next China-US summit&nbsp;&nbsp;South China Morning Post",
       "source": "GNews | US-LatAm",
-      "published_beijing": "2026-10-05T10:22:48+08:00",
+      "published_beijing": "2026-10-05T06:00:17+08:00",
       "source_detail": {
-        "name": "PIB",
-        "url": "https://www.pib.gov.in"
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      },
+      "priority": 2.4,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "What a record El Niño could potentially mean for European businesses - EY",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObVhNQWhTOFpSZ2Vnek1Fd1h0QVRxXzZSRjQ4OGRSTVRRbEJRNnZ6WVZJYVY4TkVGUmRSN1gyV0ZUNEVJcVYxS1FXN3NndXRNTGR4dFB3Wk9DOW9RUGZ2b1BOYWFFamxaeTBtdkI3S2RCYU5yTG9BM0x1ZkJzMTNTYVdUSExSd3VPMWpRVzVTUHczM2sxY3UyY2ZqaUpwVW5IYUdfZ3ppa0xXU0JNSU5UQ3dYMA?oc=5",
+      "published": "Mon, 05 Oct 2026 15:35:03 GMT",
+      "summary": "What a record El Niño could potentially mean for European businesses&nbsp;&nbsp;EY",
+      "source": "GNews | Signal: LatAm Disrupt",
+      "published_beijing": "2026-10-05T23:35:03+08:00",
+      "source_detail": {
+        "name": "EY",
+        "url": "https://www.ey.com"
+      },
+      "priority": 1.2,
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "A World Under Pressure: Wars, Strategic Rivalries and the New Contest for Global Influence - ENA English",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xTUZ4aUk3QlBQVUNablk5eGEyOHdscWRnbC00QmZiUVBBT1pDTHJHZFJ1Tms0NGpib3BTT0xwRldHSkloVjBXTWh1U3dKMWpUMGc?oc=5",
+      "published": "Mon, 05 Oct 2026 16:46:27 GMT",
+      "summary": "A World Under Pressure: Wars, Strategic Rivalries and the New Contest for Global Influence&nbsp;&nbsp;ENA English",
+      "source": "GNews | US-LatAm",
+      "published_beijing": "2026-10-06T00:46:27+08:00",
+      "source_detail": {
+        "name": "ENA English",
+        "url": "https://www.ena.et"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "El Alamein Summit tackles Sudan, Horn of Africa crises - t.co",
+      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA1TjE4REVjMzRaTlU5RWE5d1ZaWWtzNElncEVveVMxRzlLMFZiRWpfaEFuRk9aYXdId0Vv?oc=5",
+      "published": "Mon, 05 Oct 2026 11:42:06 GMT",
+      "summary": "El Alamein Summit tackles Sudan, Horn of Africa crises&nbsp;&nbsp;t.co",
+      "source": "GNews | US-LatAm",
+      "published_beijing": "2026-10-05T19:42:06+08:00",
+      "source_detail": {
+        "name": "t.co",
+        "url": "https://t.co"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Taiwan Is Not a Bargaining Chip: Agency and Deterrence after the Donald Trump – Xi Jinping Summit - Taiwan Insight",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeVJPVXU1dWNTc3BIYW1MNnNDaFlnblZnWm5rMVloTF9RbURFV3Mzc0Vnb0Jtc3laa3hOWnJoZXBXcUwyVktGNVFueGpDQ2lqdDhUSVJoVGtOX2pOOHFTU2tRZjFsc2tjTWFZQjFfa0RpdFFMYWFSbzZlWVdzdmxkUlQybGFScy1LeWFGckJyN3lzMUd1MXczd0tROFRNOUxLcDNfYTMyMm1mYWZWVWZZRnIwWjh3TVpfRHF1aDM0R1BFNXpxUG8wTHV2SEk?oc=5",
+      "published": "Mon, 05 Oct 2026 08:00:00 GMT",
+      "summary": "Taiwan Is Not a Bargaining Chip: Agency and Deterrence after the Donald Trump – Xi Jinping Summit&nbsp;&nbsp;Taiwan Insight",
+      "source": "GNews | US-LatAm",
+      "published_beijing": "2026-10-05T16:00:00+08:00",
+      "source_detail": {
+        "name": "Taiwan Insight",
+        "url": "https://taiwaninsight.org"
       },
       "priority": 0.0,
       "category": "大国关系",
