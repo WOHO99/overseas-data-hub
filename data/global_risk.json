@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-06T05:21:10.041580+00:00",
-  "fetch_date_utc": "2026-10-06",
-  "total": 47,
+  "updated": "2026-10-07T04:49:44.526714+00:00",
+  "fetch_date_utc": "2026-10-07",
+  "total": 56,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 9,
+      "count": 14,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 1,
+      "count": 4,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 4,
+      "count": 6,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 1,
+      "count": 2,
       "feeds": 2
     },
     "中国企业视角": {
@@ -49,51 +49,37 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 8,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Why sanctions lists alone leave compliance teams exposed - FinTech Global",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0dtazJYWFd5N2xzZmxsSjlnTzRHN0pZRUxIT3JoTVBOaHRNS3h0YVc2RGh3TmJ4c2ZRZ3p4QnowVk56M0VRZkxyb1ZLeU9BUlc1MnlKdUZpT0s3anNocU8xU1FUTTNVaEhvUVF6aFVDdFgzdDU0Z0dqVGFTbnFJaTV3eFM4c094MVJzczRmTGJjYXRQQmc?oc=5",
-      "published": "Mon, 05 Oct 2026 12:20:39 GMT",
-      "summary": "Why sanctions lists alone leave compliance teams exposed&nbsp;&nbsp;FinTech Global",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T20:20:39+08:00",
+      "title": "Japan enters a new era of foreign investment screening: What the 2026 FEFTA reforms mean for foreign investors - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT2ZGaEVVOVRRV0lFLWxKay1PWnZXZWJGaGtTM2JLODJfb1YyYmlUdDkzZE1yUmtkWFU1VW1wVm5BZndsYk5vYVJCQm5kNU4xQ1ROOGFlVzFOUG5TaWtTUDFDTWo1Vm9HbWRjb3pYY3ppSDY2aXRZVFprd2RGOE9aV2tobDJ6YWpJU3FNejNXRUVfc3lyZ3J6QkRDb0dqci1wVGxuMlRYcTFZS2xLcWUtZ1U2Wmd5MHhod3NjWG92Qkp5VmFIUmlTZEh0UU5WcjBrVEJ5dHFYR3JYekdmUHA0ODVlMDBVUQ?oc=5",
+      "published": "Tue, 06 Oct 2026 10:27:43 GMT",
+      "summary": "Japan enters a new era of foreign investment screening: What the 2026 FEFTA reforms mean for foreign investors&nbsp;&nbsp;Freshfields",
+      "source": "GNews | CFIUS",
+      "published_beijing": "2026-10-06T18:27:43+08:00",
       "source_detail": {
-        "name": "FinTech Global",
-        "url": "https://fintech.global"
+        "name": "Freshfields",
+        "url": "https://www.freshfields.com"
       },
       "priority": 6.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://www.freshfields.com/en/our-thinking/blogs/transactions/japan-enters-a-new-era-of-foreign-investment-screening-what-the-2026-fefta-refor-102o4mi",
+      "full_text": "Japan’s foreign investment screening regime is entering a new phase. The Diet approved the bill amending the Foreign Exchange and Foreign Trade Act (FEFTA) on 29 May 2026, and it was promulgated on 5 June. The provisions creating a legal basis for cross-ministerial screening took effect immediately, and the Japan Foreign Investment Committee (JFIC) was established on 29 June. Following a public consultation, the implementing regulations were promulgated on 16 September. The main FEFTA amendments will take effect on 4 January 2027. After a 30-day transition period, the new rules will generally apply to investments made on or after 3 February 2027, although the new post-closing call-in regime will apply to relevant investments made on or after 4 January 2027.\nThe reforms tighten scrutiny of higher-risk investments while reshaping the wider screening system. The new rules refine the list of designated sectors requiring prior notification, narrowing the scope of some software and information-processing businesses while expanding coverage in other areas of greater national security importance. Filing requirements will also be eased for certain director reappointments and intra-group transactions. At the same time, the rules will expand in several important ways. Acquisitions of foreign entities holding interests in Japanese companies will be regulated as “indirect acquisitions.” A new call-in power will allow the authorities to further investigate for up to five years after certain investments by foreign investors that cannot use the prior notification exemption regime (High-Risk Investors) in Japanese companies outside designated sectors. The amendments also tighten the rules on domestic investments controlled or influenced by foreign investors and set clearer rules for notified risk mitigation measures, including changes to those measures and failures to comply.\nThe practical message is clear: investors will need to start their FEFTA analysis earlier. Even for an overseas M&A deal or group reorganization, they should assess their own profile, their ownership links with Japanese companies, the target’s businesses and technologies, and their planned role after closing. Investors should build any filings and post-closing compliance steps into the deal timetable.\nBelow, we look at the most important changes.\n1. Indirect acquisition rules reach overseas M&A deals\nThe amendments extend the prior notification regime to some offshore deals. They cover transactions in which a foreign investor acquires a foreign entity that directly holds shares or voting rights in a Japanese company (Direct Holding Entity), and therefore gains indirect control of that Japanese company. We call these provisions the Indirect Acquisition Rules.\nA common example would be an overseas acquisition of a group that includes a Japanese subsidiary. The deal may require prior notification in Japan even if every party is outside Japan and the agreement is signed offshore.\nThe Indirect Acquisition Rules will cover transactions including:\n- An acquisition that gives a foreign investor, alone or together with specified related persons, 50% or more of the voting rights in a Direct Holding Entity\n- The exercise of voting rights that allows the foreign investor and specified related persons to make up a majority of the Direct Holding Entity’s directors\nThe filing threshold will depend on the investor’s risk profile. A High-Risk Investor may need to file if the Direct Holding Entity owns 1% or more of the shares or voting rights in a listed Japanese company, or even a single share or equity interest in an unlisted Japanese company.\nOther investors will generally not need to file if the Direct Holding Entity owns less than 50% of the relevant Japanese company. Some intra-group reorganizations will also be excluded. High-Risk Investors cannot rely on that exclusion, however, and every transaction will need to be assessed on its own facts.\nEarly in any overseas M&A process, foreign investors should therefore identify all Japanese entities – and other Japanese investments – held by the target group. They should then review the relevant business sectors and technologies, ownership percentages and other control rights to decide whether the Indirect Acquisition Rules apply.\n2. A five-year risk of call-in after closing\nUnder the current system, investments in Japanese companies outside designated business sectors have generally required only a post-closing report. The authorities have had limited power to issue FEFTA recommendations or orders for those investments.\nThat will change. An investment that required only post-closing reporting may later be called in if a national security risk emerges because of shifts in the international environment or other circumstances. The authorities may demand further reports and, if needed, recommend or order risk mitigation measures. In exceptionally urgent cases, they may directly block further investment or impose other measures without first using the usual recommendation process.\nThe new regime will cover acquisitions by High-Risk Investors of 10% or more of the shares or voting rights in a Japanese company outside a designated sector. The authorities may further investigate for five years after the investment is completed.\nUnlike the Committee on Foreign Investment in the United States (CFIUS) process, Japan’s regime currently offers no official voluntary filing route that gives investors an advance safe harbor. Investors must consider both their own risk profile and whether the target’s business or technology could become sensitive over time.\n3. “Japan’s CFIUS”: JFIC takes shape\nThe amended FEFTA formalizes cross-ministerial review. When national security concerns require it, the Minister of Finance and the relevant minister must seek views from the Prime Minister, the Minister for Foreign Affairs and other relevant authorities.\nJFIC supports this cross-ministerial system. It is co-chaired by the Ministry of Finance and the National Security Secretariat. Its main members are the Ministry of Foreign Affairs, the Ministry of Economy, Trade and Industry and the Ministry of Defense. Other bodies – including the National Police Agency, the Financial Services Agency, the Ministry of Internal Affairs and Communications and the Ministry of Health, Labour and Welfare – may join depending on the case.\nJFIC is not a separate filing authority like CFIUS. The power to review investments and impose measures remains with the Minister of Finance and the relevant minister.\nEven so, JFIC gives the Japanese Government a clearer way to assess investments using information from several agencies. Officials will look at factors such as the target’s business and technology, the investor’s links to foreign governments, the size of the stake and the investor’s planned role after closing. In sensitive cases, investors may face more questions, longer reviews and closer discussions about measures to reduce risk.\n4. A sharper focus on priority sectors\nThe implementing regulations redraw the designated sectors so that screening can focus more closely on businesses with greater national security importance.\nThe approach to information and communications technology has also changed. Instead of relying on broad categories, the new designations focus on particular functions and uses, including:\n- Cybersecurity\n- Systems for critical infrastructure\n- Cloud infrastructure and data centers\n- Systems for the design and manufacture of critical goods and supply-chain management\n- Systems handling trade secrets or large volumes of personal data\n- AI and advanced robotics\n- Geospatial information\nA separate rule will bring companies holding technology subject to FEFTA export controls into the prior notification regime. The analysis will therefore look beyond the target’s formal industry label to the technology it actually holds.\nThe designated sector lists will also expand to cover magnetic sensors, certain ship-hull manufacturing activities and pharmaceuticals seen as especially important to security of supply.\nThe aim is to remove lower-risk activities from the designated-sector framework while bringing more security-sensitive businesses and technologies within scope. Broad industry labels will no longer be enough to judge whether a filing is needed.\n5. How investors should prepare\nThe new rules will change early regulatory assessments, due diligence, deal documents and post-closing compliance. With the new rules applying from 4 January and 3 February 2027, four steps will be especially important:\n- Broaden the first FEFTA check for overseas M&A. Investors should identify any Japanese subsidiaries or interests in Japanese companies held by an overseas target group, even if the deal takes place entirely outside Japan.\n- Map ownership and control early. Key information includes the investor, its ultimate parent and major shareholders, links to foreign governments or state-owned enterprises, and the independence of its investment decisions. A Japanese company or resident may also be treated as a “deemed foreign investor” if it carries out that investment for a High-Risk investor that is a non-resident.\n- Look closely at the target’s products and services. For the target and its Japanese subsidiaries, the review should cover not only designated sectors but also how products and services are used, who the customers are, what data the target processes and which technologies it develops or holds.\n- Recheck deals already under way. Because different parts of the new rules will apply from 4 January and 3 February 2027, parties should review the expected closing date and decide whether the new regime will apply.\n6. Signs of tougher enforcement\nThe tougher legal framework is matched by signs of stricter enforcement. In April 2026, the authorities recommended that MBK Partners abandon its proposed acquisition of Makino Milling Machine, citing concerns about access to sensit"
     },
     {
-      "title": "Opinion | Hong Kong’s bridge of gold completes China’s yuan ambition - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT3VyOHZKY0ZSWlp0cDNsUGpEMjE3QXlxa1FQV0FYaFlsVW44cmxXTUVkZDNuNk5ucThGZm5rdi1UTG5jOUtRUHNfQjR3M0NBZFZ5RnY1X3FIbHh4R29qc3gyMU5OTzRYVHVUUWtrWHJnemZYa05QYjZtbm5nbzVvbDlzc0s2YVNJaDBfQVktcm9NeFhTT2VhZi1fdFVka0twM1M1cEVqNjBZSU8wV2NQaTluUWIxS2vSAbcBQVVfeXFMUE91cjh2SmNGUlpadHAzbFBqRDIxN0F5cWtRUFdBWGhZbFVuOHJsV01FZGQzbjZObnE4RmZua3YtVExuYzlLUVBzX0I0dzNDQWRWeUZ2NV9xSGx4eEdvanN4MjFOTk80WFR1VFFra1hyZ3pmWGtOUGI2bW5uZ281b2w5c3NLNmFTSWgwX0FZLXJvTXhYU09lYWYtX3RVZGtLcDNTNXBFajYwWUlPMFdjUGk5blFiMUtr?oc=5",
-      "published": "Tue, 06 Oct 2026 01:00:05 GMT",
-      "summary": "Opinion | Hong Kong’s bridge of gold completes China’s yuan ambition&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | Capital Controls",
-      "published_beijing": "2026-10-06T09:00:05+08:00",
+      "title": "On Wednesday, EU ambassadors will approve the largest package of sanctions against Russia since 2022 - Reuters - Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN1ZJZ21yMXV6MmRwNG9jWnQzaDJ2VG05WGpncXVSUFRhbHl4dFhIYW1HQXBmaV8tZmw4YTBfc2ZJeWFjT1hjalFPU1VCeWEtc3hpU3lLdU1hWF9FLWU1VXB1SE1nWHdXbnA4bjBEb0VBLWVMTHgwTlBOY2pMbW5kNVoxSmsxOTQtV1YwNFlPamt1WFcxWjFoOXlsU2JVZ00tbVc2R0NJOW5sa1l3OU10dVp6eDZ2WERNN0VYalJFUlVpeUdZS2lfZdIByAFBVV95cUxQN1ZJZ21yMXV6MmRwNG9jWnQzaDJ2VG05WGpncXVSUFRhbHl4dFhIYW1HQXBmaV8tZmw4YTBfc2ZJeWFjT1hjalFPU1VCeWEtc3hpU3lLdU1hWF9FLWU1VXB1SE1nWHdXbnA4bjBEb0VBLWVMTHgwTlBOY2pMbW5kNVoxSmsxOTQtV1YwNFlPamt1WFcxWjFoOXlsU2JVZ00tbVc2R0NJOW5sa1l3OU10dVp6eDZ2WERNN0VYalJFUlVpeUdZS2lfZQ?oc=5",
+      "published": "Tue, 06 Oct 2026 21:20:20 GMT",
+      "summary": "On Wednesday, EU ambassadors will approve the largest package of sanctions against Russia since 2022 - Reuters&nbsp;&nbsp;Українські Національні Новини (УНН)",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-07T05:20:20+08:00",
       "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://amp.scmp.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US warns foreign financial institutions over business dealings with Iran - Business Upturn",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWE5jaGV2cVJmRzMwZkhjVjFwY1hmNC1kZWdMR0JsQ1NXZnB0c3pkcHI2SmJJcmZiR0N2RTNldjdUaUZIYVZXVWxNWGFCTzlfTUEyeXhoVFJkSmc0bjlwWkRpS3VmRExGUWE4czFXcm9zNndydVhBc1ppYnllTFNhQ2hCZUNPSHdHdG05WmM5MDRTZXpkVU4wZTluckgtTW5veTRqUXg5WkEtbllnNnc?oc=5",
-      "published": "Mon, 05 Oct 2026 19:57:00 GMT",
-      "summary": "US warns foreign financial institutions over business dealings with Iran&nbsp;&nbsp;Business Upturn",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-06T03:57:00+08:00",
-      "source_detail": {
-        "name": "Business Upturn",
-        "url": "https://businessupturn.com"
+        "name": "Українські Національні Новини (УНН)",
+        "url": "https://unn.ua"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -101,15 +87,15 @@
       "relevance": "low"
     },
     {
-      "title": "US Sanctions Two French Charities Over Alleged Hamas Crypto Financing - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vN0NhVi1COGRUNFkxVkJHR19DYURhczBVTlZGeHptcUMwQzJtV3Q2YzFDOXBXZnNOWG41VDFZVHpWWVRvUEltdU1oNFViSE1Xb1hFczhRREp5UUlpOWdSSmVaUS1mcGljcmtrLVpKX19aTG9LT2c?oc=5",
-      "published": "Mon, 05 Oct 2026 18:05:00 GMT",
-      "summary": "US Sanctions Two French Charities Over Alleged Hamas Crypto Financing&nbsp;&nbsp;finance.biggo.com",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-06T02:05:00+08:00",
+      "title": "Maritime Sanctions Framework Expands with New US and UK Regulations - Data Portuaria",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUTRkX2tLamprd1hTR1VuNkt3bmlxVXlLcUl6UmVDQllmR09MUU5XNFBNY2hhOF9oOXd4UHRzcDdZYm9IcmMwTlI3QjlQbHF3Z2pwMm0tX2R0Z09uVl9QWHVCX1FmaFdRcFd4d1Uxcmw0eUlwUlJ4Z1Q3VkdkSlNfb09yMWptWXV3SlRmcVVUMkFYN3lwRktEUmZ6cGdyT2tNRXpsaFNyYl8tMENrOURhNi0wUVVvSmdzYVJXb2JPenI2Sjdu?oc=5",
+      "published": "Tue, 06 Oct 2026 19:55:11 GMT",
+      "summary": "Maritime Sanctions Framework Expands with New US and UK Regulations&nbsp;&nbsp;Data Portuaria",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-07T03:55:11+08:00",
       "source_detail": {
-        "name": "finance.biggo.com",
-        "url": "https://finance.biggo.com"
+        "name": "Data Portuaria",
+        "url": "https://dataportuaria.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -117,15 +103,15 @@
       "relevance": "low"
     },
     {
-      "title": "Mind the gap: Strait of Hormuz disruption - risk allocation for traders and charterers - Stephenson Harwood",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNW43MWRRVlpCcDNaNHhfS05SZV9xLUx4STdIbU1vR3lnS0huQ3VsQTF6LW9vTEFzNV9iYUJwTGVuUTZLRXRnOEpYSlFyYXBHZlotYmNtTjFzcHktRHlydndFMUdsSGFReWhxTTAwTXdmeDF4VFFTb1EwbnI4OE1DdXg3N2Q2WDRLWUp0cjhyNjZTRV95Z2FnTjZ3R3VrVzVBTGl2MkVjNnNBUmtDZmhaVjd3cm5PdlRTbDdUQ0I2S01uUFZ1ZHc?oc=5",
-      "published": "Mon, 05 Oct 2026 15:53:39 GMT",
-      "summary": "Mind the gap: Strait of Hormuz disruption - risk allocation for traders and charterers&nbsp;&nbsp;Stephenson Harwood",
-      "source": "GNews | SC Disruption",
-      "published_beijing": "2026-10-05T23:53:39+08:00",
+      "title": "ITAR Brokering in Foreign Defense Transactions: DS–4294 Approval, Expanding Enforcement, and Hidden Liability Risks - The National Law Review",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXpySVF5VFJzTXdDZ1J4ZWh5dngtemVIaTVSZFdxSjVlbTJzZTFwbUp1cVFfODJnOXByVm93bFZvdjN2SnBlVmc2NWIwS0s3WWIxYktUZzBoNVFZNEdZc2F5QVJrOG5BTW0zSWYwbE01UG4tbDVMbkJXM0ZIZjJuc21iVjlCY2dNSUFjaW1KMVNhYlh2WGV3Q0R0amlDMXRCUkxZcTZEaHFjR2w5ZkFTWHFfeVVNV2xnT05J0gG7AUFVX3lxTE5ZenJJUXlUUnNNd0NnUnhlaHl2eC16ZUhpNVJkV3FKNWVtMnNlMXBtSnVxUV84Mmc5cHJWb3dsVm92M3ZKcGVWZzY1YjBLSzdZYjFiS1RnMGg1UVk0R1lzYXlBUms4bkFNbTNJZjBsTTVQbi1sNUxuQlczRkhmMm5zbWJWOUJjZ01JQWNpbUoxU2FiWHZYZXdDRHRqaUMxdEJSTFlxNkRocWNHbDlmQVNYcV95VU1XbGdPTkk?oc=5",
+      "published": "Tue, 06 Oct 2026 19:36:42 GMT",
+      "summary": "ITAR Brokering in Foreign Defense Transactions: DS–4294 Approval, Expanding Enforcement, and Hidden Liability Risks&nbsp;&nbsp;The National Law Review",
+      "source": "GNews | FCPA/Compliance",
+      "published_beijing": "2026-10-07T03:36:42+08:00",
       "source_detail": {
-        "name": "Stephenson Harwood",
-        "url": "https://www.stephensonharwood.com"
+        "name": "The National Law Review",
+        "url": "https://natlawreview.com"
       },
       "priority": 0.0,
       "category": "供应链风险+FCPA",
@@ -133,31 +119,15 @@
       "relevance": "low"
     },
     {
-      "title": "Raiffeisen sees no signs of a confiscation of Russian businesses - LIGA.net",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUU94cFJXWU1TSGlkeWRteFlPUzhRLUxtNHR1N1k1VGdScmlTV0NqakM1TXFCUTNYTUZmWDg5cENrVEJ2TlZ2bl9EeGhmYWx2ektENHJkTE5wN2stRFRvTUFBbmY0V0gtR0x4WE5lOVBsNjZsd2t1N085cGtleHQ3YVVRc1BpRGZSV3M3WjZUakh0ei1SQThMV3l2aVl2cVRKbXExMdIBqgFBVV95cUxOZnRZNVoySVBTT2hqT1ZJMU1FeUJWMDF3MGhZV0hhdTVvVk44VTJ6dzdTZGVpN1kxNXZuUVV5YWJEdVhNX0x0MU5RdVpyTVR5OXEzU3JYX1pKUUJrRmwtVGlYcEpxV3hHeDNwRUF5amhjV0NXeXh0Vkthc1pCSnpkSkhuWXRwTkptcEFsZF9ZZWVYTTR5MjgwaFVXVmk0aXlxdzExeVptS3E5UQ?oc=5",
-      "published": "Mon, 05 Oct 2026 13:55:58 GMT",
-      "summary": "Raiffeisen sees no signs of a confiscation of Russian businesses&nbsp;&nbsp;LIGA.net",
-      "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-05T21:55:58+08:00",
+      "title": "EU envoys set to approve major new Russia sanctions on Wednesday - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTDJ4ZF9TakJ4NF9aZUlEV2ZEanBXX2xoRzRhOUU1TldVUy1pdWYyM2ZQVndneV9GSlJSMTRaaFhPdk5pZm1tY3FfWlJPOHFOVE1EbkZIR2l5dW5mYlZnWlVDZmVFaXRCTmk1cG1vc2hybmVNdnhzdk9rX0xzS3VvVi1hLTFCanpEQXREd21Ib1R3MHRRUWJ5QVBmZUZZYW5IY1E?oc=5",
+      "published": "Tue, 06 Oct 2026 16:39:20 GMT",
+      "summary": "EU envoys set to approve major new Russia sanctions on Wednesday&nbsp;&nbsp;Reuters",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-07T00:39:20+08:00",
       "source_detail": {
-        "name": "LIGA.net",
-        "url": "https://finance.liga.net"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "U.S. expands sanctions linked to Hamas after tracing crypto - portalcripto.com.br",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWZlOVVhZFhTdUV5aUJCNm5qLXZ6VFktTFBreFNfSlpfR1lwb0VJU0MxM0ZoQllFMUlmSjg2bml4ZnZVaUdqZ3RKX09jY0hRLTlhQ2R0SmctXzl3aS11ajVHUUsycHo3S2QyQkhUSVduN2tiNTUyRzdGdUZrOC0zQm05eFFaNmw1enJQVHFqZVR1bFU?oc=5",
-      "published": "Mon, 05 Oct 2026 13:06:57 GMT",
-      "summary": "U.S. expands sanctions linked to Hamas after tracing crypto&nbsp;&nbsp;portalcripto.com.br",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T21:06:57+08:00",
-      "source_detail": {
-        "name": "portalcripto.com.br",
-        "url": "https://portalcripto.com.br"
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -165,60 +135,108 @@
       "relevance": "low"
     },
     {
-      "title": "Why France's debt crisis matters - axios.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMFEtMnhLN29lakNpeUdOQVJ2TmVwcEczNW1QN0F3WFdjWVFTS2pSdHBpYU80MmZueEFtQ0poWGNhb3RWa3Axa0xjdVAyemcya0Jha3VIUGVrS1JKTDNZdWNhYVN0SUFFTXhQTA?oc=5",
-      "published": "Mon, 05 Oct 2026 11:04:21 GMT",
-      "summary": "Why France's debt crisis matters&nbsp;&nbsp;axios.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-05T19:04:21+08:00",
+      "title": "BRIEFING ROOM: International trade and sanctions - Financier Worldwide",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTlPZERXcWRHNnhkME1meUVvX2Yyb1NXSXNmNklFR1M4YTB0cHlWeDU5WEduSE16WUx3MnFXb0lKN2RrZ3Nkamk1TXNJQmJHRmphdmxnQklsektzR3BwUFAzUTBxbjB4Z2N1dmNnUjFWS19rRTZNdDluYW5GUm95Mm1CSnRLNjlpNnc?oc=5",
+      "published": "Tue, 06 Oct 2026 15:15:29 GMT",
+      "summary": "BRIEFING ROOM: International trade and sanctions&nbsp;&nbsp;Financier Worldwide",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-06T23:15:29+08:00",
       "source_detail": {
-        "name": "axios.com",
-        "url": "https://www.axios.com"
+        "name": "Financier Worldwide",
+        "url": "https://www.financierworldwide.com"
       },
       "priority": 0.0,
-      "category": "资本管制+主权风险",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Who advises Africa when the debt comes due? - African Business",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMU9GeTZETzZWOW9udWlUUEI1bEdBY3VtME44S2xyOHhRQjlOazNRMHJjLWhrclhCSTF1VjR0a3FjcmZadU1td090akFzNzJOcXlYaFUtaXpuc0xrSDRRQ0JQQlNONEpyRW9Hc2R4YVY5M3YwdVVjalJjMTJkS3ZLeDNMVF85V1Noa2JrOGtxd0h5VmlIRzFR?oc=5",
-      "published": "Mon, 05 Oct 2026 09:51:07 GMT",
-      "summary": "Who advises Africa when the debt comes due?&nbsp;&nbsp;African Business",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-05T17:51:07+08:00",
-      "source_detail": {
-        "name": "African Business",
-        "url": "https://african.business"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "What is a Sovereign Debt Crisis? Why Europe’s Bond Stress is Back in Focus - EBC Financial Group",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nMk5HRjNJcnJ4VUhtdjVUaHFudzJ1ckpaaGtfV0tBNE0teGNDcDlDaG5OUFBFRDdhWlF5ZldHZE1EeXE0dndqbV81RFpJOGtQZks5WUFQaDNSaG93NnNqSDFqR0F6ZDhO?oc=5",
-      "published": "Mon, 05 Oct 2026 09:16:00 GMT",
-      "summary": "What is a Sovereign Debt Crisis? Why Europe’s Bond Stress is Back in Focus&nbsp;&nbsp;EBC Financial Group",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-05T17:16:00+08:00",
-      "source_detail": {
-        "name": "EBC Financial Group",
-        "url": "https://www.ebc.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan Sanctions Garantex, 33 Entities Over Russia’s War - CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WVlMwMHRMQUtpaGZuYmEwUzByT1RrY25UYXAtR0VTVVlzclZXS1d3NUlQZWdoVjRWZzRvYVJGclZ1eGlZT3lyLVBhZnhabmlRR3cwRVQwMVVoUmtmWWZWRlAtQ0F0NTRjZTVPZ3E2aUhabVlUTjZsVQ?oc=5",
-      "published": "Mon, 05 Oct 2026 07:50:05 GMT",
-      "summary": "Japan Sanctions Garantex, 33 Entities Over Russia’s War&nbsp;&nbsp;CryptoRank",
+      "title": "US Dismantles Major Hamas Financing Network in Gaza and France - Israel Defense",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SV2RQS1lkcXpKMmhPSVNyLWdadjZvWFNfaE9uOG1RYTJueEotMnB4SThVWERsSWY2bHdWMUZmNXpGQnYwOFlOZlJfaXp1M05sdnltSTFod3g?oc=5",
+      "published": "Tue, 06 Oct 2026 14:05:01 GMT",
+      "summary": "US Dismantles Major Hamas Financing Network in Gaza and France&nbsp;&nbsp;Israel Defense",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T15:50:05+08:00",
+      "published_beijing": "2026-10-06T22:05:01+08:00",
+      "source_detail": {
+        "name": "Israel Defense",
+        "url": "https://www.israeldefense.co.il"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Anthony Albanese's nemesis unveils communist-style plan to take control of Coles and Woolworths and slash grocery prices - Daily Mail",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMS1LR2NEeTBYcG1OTlZjaWRhY0xJY2JJZlNIMThFSTdXZU1UMTJFUTJNZjdBNjhUMjc0Wk5mVlpUUktfODloT2h2aVVmV09KUW5OZU9oWVNFQ01DM0NBRTV4T01vV3otMkk3SmV4bkUyaUJYanFxek9zQk5DdkJTMW92ZnFmZVlmMFV0VklrZm55Wm1yTjIxUlZLZ0o2Uk1HWXBCUC1CVXBCd9IBrwFBVV95cUxNWGYyXzNRaTJiS1ExQkEteUQtN1MzZlFtZmktNnprVjNTQW5FX1l4dHJpM2tqOW9DYnFCcnd5SjM0bHo1cDdReVBwZTE1ZXpyVGVVbmx3OERvRTB4eEpJT1cxeHpXQ1Q5UDZUUTFtSFkyMkNkdUsxdVdTQVFWTXRkamhiWVpDd0hPUUswMWt2QU44VndUQkd3RGpLMjIyNHBFVVBTUWZpVHpoUkRweE9N?oc=5",
+      "published": "Tue, 06 Oct 2026 03:23:25 GMT",
+      "summary": "Anthony Albanese's nemesis unveils communist-style plan to take control of Coles and Woolworths and slash grocery prices&nbsp;&nbsp;Daily Mail",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-06T11:23:25+08:00",
+      "source_detail": {
+        "name": "Daily Mail",
+        "url": "https://www.dailymail.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The Debt Toll Booth: A Modular Solution to Addressing Sovereign Debt Crises - Carnegie Endowment for International Peace",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVZ4aENtelRBMnlvY3RSZVU4dnF1Q1FYQUh4RnlYbzJzX29NZ3IzNjk5YzAwZEpHSFNLLU45NmdBbGRlckJSN09oNHM0TllscFY4TTlqYTNsczlXTE9LMXBfTW96RmUxWFJvN0FDaGNwb0tYdVJYLW1FYlJjaHRZTU5xSlRQQVBqYW0tZ2Fiajc5amVXdllZWXlDV05hMHBmak1pSTRjQ2VBRXVxZXFHdVJoT1BaOHZ0dFI0SUxB?oc=5",
+      "published": "Tue, 06 Oct 2026 01:54:58 GMT",
+      "summary": "The Debt Toll Booth: A Modular Solution to Addressing Sovereign Debt Crises&nbsp;&nbsp;Carnegie Endowment for International Peace",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-06T09:54:58+08:00",
+      "source_detail": {
+        "name": "Carnegie Endowment for International Peace",
+        "url": "https://carnegieendowment.org"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russian Gold Sanctions Push Record 112.7 Tonnes Into Hong Kong - Discovery Alert",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTFYaWNuMXRkNjEyTFBpUGlkUmZwRVB6N3BSdGhmWlpxVGlqTEEtSUpBV1JkWEd5NlNCTkM2eGFWeDAwM05VQUNIYmFDd1lCeGx5UXdRYktJYnZFbzczd2swUDhhREhuN1V6THI4MG5GaG41T1B4eldjSkp5RWozX2Q0a2FDUFBCMHpKeXprWXlDZEha?oc=5",
+      "published": "Mon, 05 Oct 2026 23:55:18 GMT",
+      "summary": "Russian Gold Sanctions Push Record 112.7 Tonnes Into Hong Kong&nbsp;&nbsp;Discovery Alert",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-06T07:55:18+08:00",
+      "source_detail": {
+        "name": "Discovery Alert",
+        "url": "https://discoveryalert.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Too close for comfort: Kenya's banks and their government debt habit - Business & Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYy0xbzBMejdBQkFvUkk4MTJSX0owWlJ5MEdwVGNDMVFmbkZpRXBfVWVwSENCOER2SEQzYUZJa3dSRHl0S3EtV1czQ0RCR2VaN0EtUDQ1czBRNFJHVGJRa1B1TFhNLU9tc1hsaWRXMVZHdFA2NXRTTGZ5WHozM0lEM0xWT0puTzJzdl9VV1dfSlRRLXhLZ2FoMk15RzZwZHVYQWc?oc=5",
+      "published": "Mon, 05 Oct 2026 09:03:36 GMT",
+      "summary": "Too close for comfort: Kenya's banks and their government debt habit&nbsp;&nbsp;Business & Financial Times",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-05T17:03:36+08:00",
+      "source_detail": {
+        "name": "Business & Financial Times",
+        "url": "https://thebftonline.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US expands Hamas sanctions after tracing crypto transfers from France - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWN2YW1CY1FFTjNZZE5CQy1xTUtQOXdPM2x5d1JFb3drMWl5ZHRDMFYwX3RpNjN2MGxUZElVMWluTGlQaVVTTTZ3WFJFd1FGSFdMRWpCSnRpQUhnZjRENVlGZk5zeDRJWjhhejZKbFR3bGtFQWVTNTlFVHpqeXpSVzE1Z0t4cjNtVk53Y1lPSUc3c1c0YkNWWENDaUZ5Q3pPZVdnVm4tbnFxSEk?oc=5",
+      "published": "Mon, 05 Oct 2026 08:51:06 GMT",
+      "summary": "US expands Hamas sanctions after tracing crypto transfers from France&nbsp;&nbsp;CryptoRank",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-05T16:51:06+08:00",
       "source_detail": {
         "name": "CryptoRank",
         "url": "https://cryptorank.io"
@@ -229,12 +247,29 @@
       "relevance": "low"
     },
     {
-      "title": "Another Historic Cipher Falls to AI",
-      "link": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
-      "published": "2026-10-05T11:04:47Z",
-      "summary": "This one is from 1809, written by Napoleon&#8217;s nephew.",
+      "title": "French Charities Accused of Funding Hamas Through Crypto - Fincrime Central",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9md2tTV0E4M2hIWE45WmVxTnFucmRRWEFFUENYODZDaTAyVlFQYW9zNTJkdVg5TW5PYml6TEpVcS1qMGpxLXptZEhsRlB3dGluczFjQTdTaWRMVF9WTmxLUEJSOXM0aHpuMEVYX2NHQ005YXNfRVRoZTR1ZFE4QQ?oc=5",
+      "published": "Mon, 05 Oct 2026 05:56:10 GMT",
+      "summary": "French Charities Accused of Funding Hamas Through Crypto&nbsp;&nbsp;Fincrime Central",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-05T13:56:10+08:00",
+      "source_detail": {
+        "name": "Fincrime Central",
+        "url": "https://fincrimecentral.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Possible Vulnerability in Apple’s Automatic Reboot",
+      "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "published": "2026-10-06T11:06:46Z",
+      "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours.\nThe new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that allows them to unlock and access data stored in...",
       "source": "Schneier on Security",
-      "published_beijing": "2026-10-05T19:04:47+08:00",
+      "full_text": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn’t been used for 72 hours.\nThe new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that allows them to unlock and access data stored in iPhones and Android smartphones. Magnet has developed a new device called GrayKey Preserve and a feature for its regular GrayKey devices called Evidence Preservation Mode, according to the video.\n“This is an absolute game changer for iOS forensics and a function that I wish we had years ago,” a Magnet employee says in the leaked video, specifically mentioning that the solution is targeted at the iPhone’s inactivity reboot feature and the data it makes unavailable. GrayKey Preserve and Evidence Preservation Mode are also designed to combat another iPhone feature that automatically deletes certain data ­- such as cached locations, and recently deleted photos and iMessages ­- after a certain number of days. “We’re gonna be able to preserve that data for an infinite amount of time.”\nPresumably, now that Apple engineers know that this flaw exists they can find and fix it. AI turns out to be really good at this sort of thing.\nAnother news article.",
+      "published_beijing": "2026-10-06T19:06:46+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
