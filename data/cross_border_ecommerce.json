@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "跨境电商",
-  "updated": "2026-10-07T04:49:42.376786+00:00",
-  "fetch_date_utc": "2026-10-07",
-  "total": 33,
+  "updated": "2026-10-08T04:59:53.533247+00:00",
+  "fetch_date_utc": "2026-10-08",
+  "total": 35,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "平台政策": {
-      "count": 2,
+      "count": 0,
       "feeds": 6
     },
     "关税+合规": {
-      "count": 7,
+      "count": 6,
       "feeds": 5
     },
     "物流+支付": {
-      "count": 8,
+      "count": 12,
       "feeds": 4
     },
     "中国卖家视角": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "本地语言搜索": {
@@ -37,51 +37,51 @@
       "feeds": 2
     }
   },
-  "fail_feeds": 16,
+  "fail_feeds": 15,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "NextSmartShip: Interview With Founder And CEO William Yu About Global E-Commerce Fulfillment And Hybrid Logistics - Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Rc3hqb2NKU3NXZm5xX0FsbDN6dHY4T0NzOHFBeGJPX2VMZnNhcTJ0SWlMSnZQUFZqZENaSWZJX0hUSFNqQ2MwM1p1eExteTk1YzRQOHZIM2NDTkdpeHhXSUhvRm1wVjdtNEdZMDJZNNIBdEFVX3lxTE5PcFhxeTRfc1RuU2JuTnlMQ2VWa3REYWJTWjRaSUtGMjk4UTg2UjJLNGJWOGs0dG1MUktNbEhDWmJ2Ym1uQTZYdWx4Q0ViWG9XX2lRSDBOd0xEU0RMNzJPOEJyNjRJQmt6Y21hQ3pBZUdfMUpu?oc=5",
-      "published": "Wed, 07 Oct 2026 02:11:16 GMT",
-      "summary": "NextSmartShip: Interview With Founder And CEO William Yu About Global E-Commerce Fulfillment And Hybrid Logistics&nbsp;&nbsp;Pulse 2.0",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-07T10:11:16+08:00",
+      "title": "The EU is making cheap imports more expensive: what e-commerce companies need to know - Lexology",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVEZhRVZYTUFxTG9oRjRGU3JfcWhVRENWaEhEdldMSVhJNlNQaHRBQTgxN1FMUFREQWluVnI0Vk1lc1BuSERod0FNRDNveTlaV09qS0M0WFBiSk5uMkgyakx2aWZheEV2aktieExXVGIxQ05oS29pOXRuOXk0azJRRkFUVlFfVmFsMElqVy1VcWJmNzB2X0VRWTQydDZkZE1zZ0V0a2tka3pMSms1REFpbUh1VnpJdw?oc=5",
+      "published": "Wed, 07 Oct 2026 12:37:10 GMT",
+      "summary": "The EU is making cheap imports more expensive: what e-commerce companies need to know&nbsp;&nbsp;Lexology",
+      "source": "GNews | CN Seller EU",
+      "published_beijing": "2026-10-07T20:37:10+08:00",
       "source_detail": {
-        "name": "Pulse 2.0",
-        "url": "https://pulse2.com"
+        "name": "Lexology",
+        "url": "https://www.lexology.com"
       },
       "priority": 1.2,
+      "category": "中国卖家视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Paid Online Demand Is Becoming the Gate Before Korean Brands Enter Overseas Retail - KoreaTechDesk",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEVuZnVEQTRMdUJ1anpPaHlPX1laWEhzdFNtRjk5X2VwMDlFdHNwaWppaEhReWtYaUFxb0UxX2l2YzlkQ1dWNTJFMG1odV9qVW1STEpqdUtQY3lycjFrZmxoV1VYaHBiXzVrQ3k3YXhRUENranNreF9BMkJaSFpJbEhIRUpDUnBaSndOWQ?oc=5",
+      "published": "Wed, 07 Oct 2026 22:21:32 GMT",
+      "summary": "Paid Online Demand Is Becoming the Gate Before Korean Brands Enter Overseas Retail&nbsp;&nbsp;KoreaTechDesk",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-08T06:21:32+08:00",
+      "source_detail": {
+        "name": "KoreaTechDesk",
+        "url": "https://koreatechdesk.com"
+      },
+      "priority": 0.0,
       "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Costco's Digital Sales Top $33 Billion: Can E-commerce Keep Scaling? - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVWJLTTM2LW5qLWNYdXNTLTNXbW5SX0ROclNIOHpuUkg5WWZUOFo1LUF2MU5yQy1JdzZHRGltVmQtZFlweE5PRnVSUTAwOV82T1NUNWVWNXdjdXdOVDB2eW9XMmJ5aWJfMDctTWZPQzJTTi0wVWRMUmdRMndJODdVeEhwejM4SmpXTjJab1hrX2t0aV9PcWplX2ZXdHRmTUtoOGlnS0hySk45RzQtcW9lSUZJVWFabXNzcGF1Ty1B?oc=5",
-      "published": "Tue, 06 Oct 2026 13:03:00 GMT",
-      "summary": "Costco's Digital Sales Top $33 Billion: Can E-commerce Keep Scaling?&nbsp;&nbsp;TradingView",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-06T21:03:00+08:00",
-      "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
-      },
-      "priority": 1.2,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "JURISDICTION—TOOLS AND HARDWARE—E.D. Cal.: Chainsaw maker subject to jurisdiction but wins dismissal of injured consumer’s claims in explosion case - VitalLaw.com",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOT3hGQjRoMGVNWW5JNS1yVXZQejNDelBmNmlzV1RmNTFEWnZkbHhXSEQ2azBiNjg4TExpY3hrXzdmcDJQQy1maUhvSjF0cG5vcXI0SDkwcUN3VjlIejFZdng2V0dFTVA3VE0wSzE3Y2RRVXl6dW9qdk9Sb2VjaEZjcmN5LVdMQ3hLdmhnLTVPZ2RvaUJ2OEF4R3B1NENUOUJ0LXl1d1ZEMDA0VGpTbXYwWHhDTGxjWTZQUXkzeVNxNkRRM2dTMjdSaE13bnhGNEFmSTFIaFdveWhKZG85UkNTdVFPeExudmFRcjBGd2hlQ1ZLbk5MYWMwWEU3UjA0VVNUZmhSVW5ITU5HaG1hdm5ydDBFRUdmMzNKdXhCMUc1OWJSWVQzU0R1N1VXSE9McUR4N0lteWJhMA?oc=5",
-      "published": "Tue, 06 Oct 2026 22:15:00 GMT",
-      "summary": "JURISDICTION—TOOLS AND HARDWARE—E.D. Cal.: Chainsaw maker subject to jurisdiction but wins dismissal of injured consumer’s claims in explosion case&nbsp;&nbsp;VitalLaw.com",
+      "title": "Fabric dresser recalls top 436,000 units as AHFA warns of safety issues - Furniture Today",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa0pubUwySFBIbG52cFNlRXUyV0EtMTFRa0pKTU83SWtOVkdRQnAxZ1Z6SzZHbzRoR3Fickg5aU9qeWM4MWVlZS1teHBRSXdEajNabEZIYW9FdWVyd01MM0JZclBwN0wtMUdfOC05OWlvU01KYkVrM3d4WVl5Ti1SVTJ2bnM3ejBLV2hDX3RWQU9KbnVXWUVSS1lHV0luVDZtdXVQazVUNG9Sbzl3V1ZjV212d1owSFlpUlhoZVZLSTZHRDl6QUN5ei16Qllsc1BJ?oc=5",
+      "published": "Wed, 07 Oct 2026 19:46:35 GMT",
+      "summary": "Fabric dresser recalls top 436,000 units as AHFA warns of safety issues&nbsp;&nbsp;Furniture Today",
       "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-07T06:15:00+08:00",
+      "published_beijing": "2026-10-08T03:46:35+08:00",
       "source_detail": {
-        "name": "VitalLaw.com",
-        "url": "https://www.vitallaw.com"
+        "name": "Furniture Today",
+        "url": "https://www.furnituretoday.com"
       },
       "priority": 0.0,
       "category": "关税+合规",
@@ -89,70 +89,15 @@
       "relevance": "low"
     },
     {
-      "title": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
-      "link": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
-      "published": "Tue, 06 Oct 2026 20:28:42 GMT",
-      "summary": "S&amp;P tops 7,800 for first time in history as investors optimistic despite signs of instability in US economyThe S&amp;P 500 and Nasdaq closed at a record high after a rally around AI chipmakers and a dip in US treasury yields.At market’s close, the S&amp;P 500 was up 0.58%, topping 7,800 for the first time in its history. The tech-heavy Nasdaq index rose 0.45%, while the Dow, which is slightly down from its record high in August, climbed 0.49%. Continue reading...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-07T04:28:42+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "The S&P 500 and Nasdaq closed at a record high after a rally around AI chipmakers and a dip in US treasury yields.\nAt market’s close, the S&P 500 was up 0.58%, topping 7,800 for the first time in its history. The tech-heavy Nasdaq index rose 0.45%, while the Dow, which is slightly down from its record high in August, climbed 0.49%.\nInvestors appeared optimistic after recent developments for chipmakers including Marvell Technology, Advanced Micro Devices and Broadcom that showed growth in the markets for the chips used to power AI.\nWall Street has also grown more optimistic that the US Federal Reserve will leave interest rates unchanged at its next board meeting in October. Job figures from September showed underwhelming growth in the labor market, and multiple Fed officials have said the next interest rate increase can probably wait.\nThe optimism in the stock market, largely coming from continuing investment in AI, has defied other signs of instability in the US economy and global politics.\nThe US bond market, typically seen as one of the safest investment vehicles, has been in turmoil in recent weeks. US bond yields, or the return an investor receives when a bond matures, reached recent highs amid concerns over high inflation and interest rates. The yield for 10-year US treasury bonds on Monday reached 5.349%, the highest since April 2022, before dipping back down on Tuesday.\nFor American consumers, higher energy prices continue to be a major pain point. While gas prices have dipped over the last week, prices are still about $1.20 a gallon on average higher than a year ago. Diesel, which is used to fuel trucks, buses and trains, has also gone down from record high but is still over 40% higher than a year ago.\nThe economy is expected to be a top issue in the upcoming midterm elections, with many voters expressing frustration over high prices. Donald Trump, who has been stumping for Republican candidates across the country, has been trying to paint a different picture for voters.\nAt a rally in Nebraska on Monday night, Trump said that “our nation is doing better now than it’s ever done” and that gas prices would fall below $1.85 a gallon “in no time”."
-    },
-    {
-      "title": "Disney accuses Trump officials of ‘blatant violations’ of constitution amid FCC battle",
-      "link": "https://www.theguardian.com/media/2026/oct/06/disney-trump-abc-fcc",
-      "published": "Tue, 06 Oct 2026 20:12:20 GMT",
-      "summary": "Lawyers tell judge ABC being unfairly targeted as US regulator seeks review of network’s local TV station licensesLawyers for Disney accused the Trump administration of “blatant violations of the US constitution” and censorship on Tuesday in the first court hearing over the Federal Communications Commission’s early review of the media giant’s eight local television station licenses.District judge Loren AliKhan seemed unswayed by government arguments that the order to force Disney’s ABC to apply ...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-07T04:12:20+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "Lawyers for Disney accused the Trump administration of “blatant violations of the US constitution” and censorship on Tuesday in the first court hearing over the Federal Communications Commission’s early review of the media giant’s eight local television station licenses.\nDistrict judge Loren AliKhan seemed unswayed by government arguments that the order to force Disney’s ABC to apply years early to renew local television station licenses was tied to an investigation into parent company Disney’s hiring practices.\nABC, Disney and its station group filed suit against the FCC in August, seeking to block the US media regulator from taking any further steps to punish or pressure the network in connection to the order.\nIn its lawsuit, ABC argued that the FCC’s actions – taken at the behest of the Donald Trump-appointed chair, Brendan Carr – were actually intended to chill the network’s speech, which the president and Carr have argued is tilted against the administration.\nIn legal filings and during Tuesday’s hearing, the network cited past threats by the president and the FCC chairman that jeopardized the licenses of television networks, including ABC on several occasions, for editorial purposes.\n“These are blatant violations of the US constitution,” the prominent trial lawyer Beth Wilkinson, arguing on behalf of ABC, told the judge during the approximately two-hour hearing.\nShe said ABC faced a “chilling effect” that has affected – and will continue to impact – its editorial decision-making, as the network steers clear of political bookings and any other programming decisions that could spark further ire from the Trump administration and Carr. “That chilling effect has been happening and will happen every day,” she said, causing “irreparable harm” to the network and its ability to broadcast independent news for the benefit of the American people.\nABC has said it has stopped booking politicians on the daytime talkshow The View and chose to air a July speech by Trump on its streaming platform so as not to antagonize the president. “Our editorial decisions are being affected right now,” Wilkinson said, noting the significance of decisions about how to cover next month’s pivotal midterm elections. “We are watching everything we do … We have already altered our conduct because of the fear of retaliation.”\nShe also noted that ABC recently chose to air a Jimmy Kimmel-conducted interview with Texas US Senate candidate James Talarico on YouTube, rather than television, “because the FCC has no control over YouTube”.\nDimitar P Georgiev, representing the FCC defendants, argued that “there is no reason to believe the early renewal order has prompted changes to the plaintiffs’ editorial decisions”. He also argued that the US district court for the District of Columbia was not the proper jurisdiction for the case, saying that ABC could instead appeal any adverse decision to the US court of appeals for the District of Columbia.\nABC is seeking a decision from the judge to enjoin the FCC from taking any further actions against the network’s licenses. “We are asking to stop pure retaliation, putting us in a process that we should never have to be in,” Wilkinson said.\nIn what Wilkinson called a “fatal admission”, Georgiev said the license renewal process “is not about the licenses”, but is instead a “tool” to expedite the commission’s review of ABC for potential violations of federal equal opportunities regulations. The lawyer also said the FCC could choose to end the license review process early if ABC is able to satisfy its document requests.\nConsidering that the FCC opened its employment practice investigation into Disney last year, with requests for documents ongoing since then, the judge asked: “Why is it only in the summer that you determined that their responses were woefully inadequate?”\nShe also questioned why the commission required the company to submit renewal applications for all eight of its stations simultaneously.\nAnd she noted past comments by Carr about the network’s licenses, including a remark in July, when he had said ABC’s decision not to carry the president’s speech that month on its linear channel could factor into the license investigation.\n“It strikes me with all the comments that this was merely over a discovery dispute, what made this so different that you needed to call for an early license renewal?” Judge AliKhan asked lawyers for the FCC, whom she asked for a list of some of the other enforcement actions the commission could have taken short of calling up the network’s licenses early.\nAnd she noted that there was “some daylight” in the FCC’s arguments, considering that the diversity, equity and inclusion (DEI) inquiry was handled by the commission’s enforcement bureau, while the license order was made by the media bureau.\nThe judge ended the hearing without issuing an order, saying she would take the matter “under advisement”."
-    },
-    {
-      "title": "Check your drawer: Thousands of heating devices recalled nationwide for fire, burn risks - MassLive.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaDhIbFZpMDd0V0J6aUdZa3hKZGZhaGViZi1zTF9YX2tqYzc1ODdSeXJYZzFLbzhmTHd1YTBHZV9hZHE3bERMZ3dfbkU2LW9IMXQwZDB1U3pnei1SMG9obnNWRnNXcmUyRGRWV1lUajk5SUVQSm5lS1dFQUFJUnJuTjNlc2lwMWVhdTNmYnBpTEozMlc1M0xmZkVoSi1CNjhpZnF6WGpJU0o4WUJxbVhrN1U4cVg0aVhvaExqeFVSNFF4aUU3UW13emtHSUI0Ylc0NGxXTnFrb1lROGJB0gHcAUFVX3lxTE1oOEhsVmkwN3RXQnppR1lreEpkZmFoZWJmLXNMX1hfa2pjNzU4N1J5clhnMUtvOGZMd3VhMEdlX2FkcTdsRExnd19uRTYtb0gxdDBkMHVTemd6LVIwb2huc1ZGc1dyZTJEZFZXWVRqOTlJRVBKbmVLV0VBQUlScm5OM2VzaXAxZWF1M2ZicGlMSjMyVzUzTGZmRWhKLUI2OGlmcXpYaklTSjhZQnFtWGs3VThxWDRpWG9oTGp4VVI0UXhpRTdRbXd6a0dJQjRiVzQ0bFdOcWtvWVE4YkE?oc=5",
-      "published": "Tue, 06 Oct 2026 16:06:00 GMT",
-      "summary": "Check your drawer: Thousands of heating devices recalled nationwide for fire, burn risks&nbsp;&nbsp;MassLive.com",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-07T00:06:00+08:00",
+      "title": "Learn Why The Bull Case For JD Logistics Stock Could Change Following Global Warehouse Expansion - Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc3NwUEhUZTBFWXNyZTFDSnpGdk5nWDdZTlh1RHI3VHZ6LWhsSFVGVUFuUkZSWW91VXZXZDVTV21TQU90S3BaX2M1SFo0bUdmczRkU1lmM0JENkJHa29Ib2dLQUxZakhMVXd4dEg2TXcwSks2bEV2RWNMSFlhdmxETjh6aGJycDZJX0kyS0pXNmp0a2pLVklGbzBLY0U4WmhEdVdfUHhCSVhETExaS3YwSkI5SUcwWVRxdmtYM3ZxNWxKVFdncVhhZEM4S1JhU1k4Wmt2VWE0c0pXLVc50gHcAUFVX3lxTE5zc3BQSFRlMEVZc3JlMUNKekZ2TmdYN1lOWHVEcjdUdnotaGxIVUZVQW5SRlJZb3VVdldkNVNXbVNBT3RLcFpfYzVIWjRtR2ZzNGRTWWYzQkQ2Qkdrb0hvZ0tBTFlqSExVd3h0SDZNdzBKSzZsRXZFY0xIWWF2bEROOHpoYnJwNklfSTJLSlc2anRraktWSUZvMEtjRThaaER1V19QeEJJWERMTFpLdjBKQjlJRzBZVHF2a1gzdnE1bEpUV2dxWGFkQzhLUmFTWThaa3ZVYTRzSlctVzk?oc=5",
+      "published": "Wed, 07 Oct 2026 18:51:53 GMT",
+      "summary": "Learn Why The Bull Case For JD Logistics Stock Could Change Following Global Warehouse Expansion&nbsp;&nbsp;Simply Wall Street",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-08T02:51:53+08:00",
       "source_detail": {
-        "name": "MassLive.com",
-        "url": "https://www.masslive.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Paramount completes $111bn acquisition of Warner Bros to form new media empire Skydance",
-      "link": "https://www.theguardian.com/business/2026/oct/06/paramount-warner-bros-skydance-merger",
-      "published": "Tue, 06 Oct 2026 14:14:56 GMT",
-      "summary": "David Ellison and ex-Mattel CEO Ynon Kreiz to oversee both film studios, HBO Max, CNN and CBS News as co-executivesParamount completed its $111bn acquisition of Warner Bros Discovery on Tuesday, consolidating some of the world’s most recognizable studios and news outlets after a bidding war with Netflix and months of legal turmoil.The new company, now called Skydance, will have David Ellison, the son of a billionaire tech mogul, at its helm, with the former CEO of Mattel, Ynon Kreiz, as co-execu...",
-      "source": "Guardian Business",
-      "full_text": "David Ellison and ex-Mattel CEO Ynon Kreiz to oversee both film studios, HBO Max, CNN and CBS News as co-executivesParamount completed its $111bn acquisition of Warner Bros Discovery on Tuesday, consolidating some of the world’s most recognizable studios and news outlets after a bidding war with Netflix and months of legal turmoil.The new company, now called Skydance, will have David Ellison, the son of a billionaire tech mogul, at its helm, with the former CEO of Mattel, Ynon Kreiz, as co-executive. They will oversee Paramount and Warner Bros’ movie studios, HBO Max, CBS News and CNN. Continue reading...",
-      "published_beijing": "2026-10-06T22:14:56+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Can XRP Change the Way of Remittance Service in the Worldwide Market? - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeW9qYkxJa1ZObmtsektGdmlDT3ltN0ZuSkNSUEE4MHpOVTIwS01udlVYMEpvaXNPTG96ZVdHLVU2anFUdjluQmxJQ0VFTWthYVcxNVZVTzBUMXpEcEdNNms0TVRBMWViaVZvYWlIeTFXWjUyWHBxMGVvMDJGWmhVandjeW12c0hqUEJzdkh3THpIYVlQRlhlRTZRWkRmZ2FHYUV4dGRkb1nSAbYBQVVfeXFMTXVBYjVVR0stRG9WTk9iV1BaSTdxNnZ6OWRYYUIwLUZyTWd5Z0tJcnNld01HY1EtNGZlUmdqclpPSFE4cnpGLXpob3FVZ1FySG5OUlY1RDd3NjBmZV9zNHR1MG5NeWFGYW9TYXJJWWFVbXphalJFS1FmbVBFUVdkdk5OalFWYklfSVR4LVJqVFd1NVlZb1dMMlQ4VWIxdHpSX1ZERHZWX1pXdFhIWER1NXdSUlJoblE?oc=5",
-      "published": "Tue, 06 Oct 2026 11:45:00 GMT",
-      "summary": "Can XRP Change the Way of Remittance Service in the Worldwide Market?&nbsp;&nbsp;Analytics Insight",
-      "source": "GNews | Cross-border Payment",
-      "published_beijing": "2026-10-06T19:45:00+08:00",
-      "source_detail": {
-        "name": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net"
+        "name": "Simply Wall Street",
+        "url": "https://simplywall.st"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -160,31 +105,198 @@
       "relevance": "low"
     },
     {
-      "title": "Misuse of AI is brands’ top reputational threat, new survey says",
-      "link": "https://www.theguardian.com/technology/2026/oct/06/ai-misuse-brand-reputation",
-      "published": "Tue, 06 Oct 2026 11:00:35 GMT",
-      "summary": "The findings come after warnings from tech leaders that AI placed in the wrong hands could trigger larger threats such as nuclear war or bioweaponry destructionMisusing artificial intelligence (AI) is the top threat to companies’ reputations – more so than being accused of putting children in the way of mental, emotional or physical harm and issues exposed by the US-Israel war on Iran, among other brand risks, according to a new survey of more than 150 public affairs leaders.Those findings in th...",
+      "title": "ASEAN postal leaders meet in Manila, launch commemorative stamp series featuring regional fruits - ABS-CBN",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYU9pbV82NTlOZ3Y1TEdvVHNfeHV4QzNwMWh1QzdwcmhkWmQ3UFpWTTREYWlNb2pyY1RxYURaVUJfMXV0VTlKVmJiNWlYNTFhVUtja05tN0M3WUtVU2RSZWZONm9lVzlhMXZqN1F2MmlhbDdwWjdfTmdZVlpnUW9mWk1aT25DVVItRk1uM0NxSlpZZ2ozdzQ2SGtCMndHTk81TVlXMXJra3M3Ykg4TF92STRUelgyODc0aGJHNFkwVG9KYzZkSjc0ZHIxVEgwSjZvZVozV2o0V1E?oc=5",
+      "published": "Wed, 07 Oct 2026 15:55:00 GMT",
+      "summary": "ASEAN postal leaders meet in Manila, launch commemorative stamp series featuring regional fruits&nbsp;&nbsp;ABS-CBN",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-07T23:55:00+08:00",
+      "source_detail": {
+        "name": "ABS-CBN",
+        "url": "https://news.abs-cbn.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The end of de minimis raised prices at Shein and Temu - Quartz",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kcktsWGdiMDJzRTJ5cHdVSHRFeUlFUnlpTENWODhRZEVnUFdoQXQxd01RYUVrZERpZXMtUGxQcTM2OUl6ZEJTZFdUQ2dnY3RkXzBVeDBIR2I1Ymp6Nl9OdzFTbEFKOEhMRzctc2hnMWxPdw?oc=5",
+      "published": "Wed, 07 Oct 2026 15:32:42 GMT",
+      "summary": "The end of de minimis raised prices at Shein and Temu&nbsp;&nbsp;Quartz",
+      "source": "GNews | De Minimis Repeal",
+      "published_beijing": "2026-10-07T23:32:42+08:00",
+      "source_detail": {
+        "name": "Quartz",
+        "url": "https://qz.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Canada’s Weston family buys Boots for $8.9bn",
+      "link": "https://www.theguardian.com/business/2026/oct/07/canada-weston-family-buys-boots-uk",
+      "published": "Wed, 07 Oct 2026 15:12:09 GMT",
+      "summary": "Former Selfridges owners buy UK high street institution from long-term backer Stefano PessinaThe Canadian family that once owned Selfridges department store has bought the UK pharmacy and beauty retailer Boots for $8.9bn (£6.74bn).Wittington Investments, the holding company of the Weston family that controls the Loblaws grocery chain and Shoppers Drug Mart pharmacy outlets in Canada, will own Boots’ UK and Irish retail operations and opticians chain, the No7 beauty brand and a franchise arm in T...",
       "source": "Guardian Business",
-      "full_text": "The findings come after warnings from tech leaders that AI placed in the wrong hands could trigger larger threats such as nuclear war or bioweaponry destructionMisusing artificial intelligence (AI) is the top threat to companies’ reputations – more so than being accused of putting children in the way of mental, emotional or physical harm and issues exposed by the US-Israel war on Iran, among other brand risks, according to a new survey of more than 150 public affairs leaders.Those findings in the new edition of the quarterly Reputation Risk Index, released on Tuesday, came on the heels of other perhaps more dire warnings from leading tech figures that AI in the wrong hands could precipitate existential threats on a mass scale such as nuclear war or destruction by bioweaponry. Continue reading...",
-      "published_beijing": "2026-10-06T19:00:35+08:00",
+      "published_beijing": "2026-10-07T23:12:09+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "The Canadian family that once owned Selfridges department store has bought the UK pharmacy and beauty retailer Boots for $8.9bn (£6.74bn).\nWittington Investments, the holding company of the Weston family that controls the Loblaws grocery chain and Shoppers Drug Mart pharmacy outlets in Canada, will own Boots’ UK and Irish retail operations and opticians chain, the No7 beauty brand and a franchise arm in Thailand.\nThe acquisition of the Nottingham-headquartered chain, which has 1,800 stores across the UK and employs 50,000 people, is also being backed by the investment firm Fairfax, which owns The Sporting Life Group and Sleep Country, Canada’s largest mattress retailer, which owns Simba Sleep in the UK.\nGalen Weston, the chair of Wittington, who is likely to become chair of Boots, said: “Boots is one of Britain’s most enduring businesses, with a rich heritage, a trusted name and a vital role in everyday life across the UK and Ireland.\n“We see a meaningful opportunity to make a great business even better through stable long-term ownership, further capital investment, and the renewed operating focus required to serve customers with excellence for generations to come.”\nThe transaction, which sees the exit of Boots’ long-term backer Stefano Pessina and his latest backer, the financial firm Sycamore Partners, is subject to regulatory approval and is expected to close in the first quarter of 2027.\nIn 2022, the US pharmacy group Walgreens put Boots up for sale with a suggested price tag of up to £10bn, but it later dropped the plans as potential buyers, including Mukesh Ambani’s Reliance Industries, the US private equity investor Apollo Global Management and Asda’s owners TDR Capital, struggled to raise funds. A plan to float the business at a valuation of about £7bn was dropped in 2024.\n“Boots is an iconic brand and a British institution,” said Pessina, who took Boots private with the backing of the investment firm KKR in 2007. He has since kept a stake under different private equity owners and merged and demerged it from Walgreens.\n“It has been one of the privileges of my and [my wife] Ornella’s life to have been so closely associated with Boots over the last 20 years. We are delighted to be passing on a thriving Boots to strong and reliable owners who understand the value of its great heritage.”\nPessina will retain ownership of Boots’ interests in the Farmacias Benavides pharmacy chain in Mexico and the Alliance Healthcare Deutschland, a German drug distributor.\nThe acquisition of Boots marks the return of the Weston family’s Canadian branch to the UK high street, after the family sold off the Selfridges department store chain for £4bn in 2022.\nThe separate UK branch of the family’s company is known for holding a majority stake in Primark through the parent company Associated British Foods, which is led by family member George Weston.\nRichard Hyman, the veteran retail analyst, said the Weston family were “the most encouraging ownership of Boots for many, many years”.\nHe said: “For years, watching Boots has been a bit like watching corporate pass the parcel. Its ownership has changed with extraordinary frequency and each owner has stripped a bit more out of it.”\nHyman said Boots had an opportunity to make more of its vast loyalty scheme and to offer more services through its network of stores across the UK, many of which had seen little modernisation in recent decades.\nBoots has closed more than 300 outlets in recent years. It is unclear whether its new owners plan to close more shops, but they are likely to take a close look given the rising costs of high street retail, the shift of trade to online, and competition from discounters such as Savers, Lidl and Home Bargains.\nHyman said: “Boots needs and deserves owners that will show it a bit of love, and history shows the Westons take a longer view.”"
+    },
+    {
+      "title": "Banned baby gear still sold on eBay, Facebook, Mercari, Craigslist - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uSE40bE5iZTcwNUNmMG13V19uZ0l0OVZTTVRZSmFRSER6V1ZGbGxhMHFLb3BaVldjTUVWNjRmbHRYUmFzRlp1MjY5ZEt2QW5jZEl2bW1uOTVnVDVkYU1aZ3lKd1VBZHNaemo2Y0ZXTU5MR2NrX2liMmNQRlU?oc=5",
+      "published": "Wed, 07 Oct 2026 15:02:20 GMT",
+      "summary": "Banned baby gear still sold on eBay, Facebook, Mercari, Craigslist&nbsp;&nbsp;qz.com",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-07T23:02:20+08:00",
+      "source_detail": {
+        "name": "qz.com",
+        "url": "https://qz.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Over 430,000 Fabric Dressers Recalled - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRVZVZ1ZGajhsZlJlNDBHbUMtV2tycXM3Q0ZXWFRoTXhPejlWT1ZyN3lIRDA5c3Zabm9PQ1ZYWDRCSGQxUnQtcVhMTVdUOHA3WTZDQVl3LWs1OFRrbUt3VkVaYXdEOU1ISTQ0SXJMRjNJVUpWNWF5N01wajF2YzdPOFBrdHZIZw?oc=5",
+      "published": "Wed, 07 Oct 2026 14:00:00 GMT",
+      "summary": "Over 430,000 Fabric Dressers Recalled&nbsp;&nbsp;EIN News",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-07T22:00:00+08:00",
+      "source_detail": {
+        "name": "EIN News",
+        "url": "https://www.einnews.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Shippo Expands AI-Powered Shipping Capabilities Ahead of Peak Season - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYVdmSkF4Q1JERk5oMkR3Z2oyWnB1UGdGMGcyMktlQXFOWEpKcHNDTkV0bHE5YVJpUHVKdTVET2dOR1ZqeC05RHF0alhtNDNWTUo3Rkh2NWgycU05Sk5YSmVLRTgwRE96WWJxeGFlYjBMOFNhbHRTcXRLMWlSa3BtelNneGU5YlhLM3FMZS1aYWFMZlIxZDNjN3ptQlI1cHBxZzc5VGhJdk5IbWdSS2NWZC1EV2tyQndUSUxLWXQ3ZkoyUXZWSktEaQ?oc=5",
+      "published": "Wed, 07 Oct 2026 13:00:00 GMT",
+      "summary": "Shippo Expands AI-Powered Shipping Capabilities Ahead of Peak Season&nbsp;&nbsp;Morningstar",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-07T21:00:00+08:00",
+      "source_detail": {
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Millionaire tax no more? Rightwing groups lead effort to repeal Washington state law",
+      "link": "https://www.theguardian.com/us-news/2026/oct/07/washington-state-millionaire-tax",
+      "published": "Wed, 07 Oct 2026 11:00:09 GMT",
+      "summary": "An initiative on November’s ballot aims to overturn the 9.9% tax on earnings above $1m – who’s winning the fight? Voters in Washington state will soon decide the fate of the state’s so-called “millionaire tax” – a 9.9% income tax on earnings above $1m that was signed into law in March and is now facing a conservative-backed effort to repeal it.An initiative on November’s ballot aims to overturn the tax, claiming that the tax represents a slippery slope, and would eventually result in taxes for m...",
+      "source": "Guardian Business",
+      "full_text": "An initiative on November’s ballot aims to overturn the 9.9% tax on earnings above $1m – who’s winning the fight? Voters in Washington state will soon decide the fate of the state’s so-called “millionaire tax” – a 9.9% income tax on earnings above $1m that was signed into law in March and is now facing a conservative-backed effort to repeal it.An initiative on November’s ballot aims to overturn the tax, claiming that the tax represents a slippery slope, and would eventually result in taxes for more than just millionaires. A coalition of advocacy groups and unions opposing the initiative say taxing the state’s 20,000 highest-earning households could raise approximately $3.5bn in necessary annual revenue to fund core priorities like education and healthcare, and expand tax credits and sales tax exemptions. Continue reading...",
+      "published_beijing": "2026-10-07T19:00:09+08:00",
       "priority": 0.0,
       "category": "电商科技RSS",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Trump Expands Access to Tax-Exempt Dyed Diesel to Try to Lower Fuel Costs - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZm0yZnBiZDVsZ2J2WTU3ak5ETHV3Yk1vcTRwUGRXcldadjlNbU1lNDlKaHdVcnZIZUV6MFFySFFGczNfUmt1WGNhblZ4TnJ1MDZfRHZmMXVKTlcyR2tlcC1VZGZ4U3hqajIyODV1SEZBWDF2WTB3N1c2Mnk4b0ZrZEt0X0FoV3N3MGJoSW5HQm9ZYVc2SGVMajVRMGY?oc=5",
-      "published": "Tue, 06 Oct 2026 08:45:00 GMT",
-      "summary": "Trump Expands Access to Tax-Exempt Dyed Diesel to Try to Lower Fuel Costs&nbsp;&nbsp;Time Magazine",
-      "source": "GNews | Amazon Policy",
-      "published_beijing": "2026-10-06T16:45:00+08:00",
+      "title": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+      "link": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+      "published": "Wed, 07 Oct 2026 11:00:08 GMT",
+      "summary": "Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales informationMcDonald’s is facing a lawsuit in federal court over its alleged use of an AI tool to determine pricing across independent franchises, which prosecutors say violates antitrust laws and has unfairly inflated menu prices for Americans.The vast majority of McDonald’s US stores are independently owned and are said to individually decide on prices under company policy. Antitrust laws require busin...",
+      "source": "Guardian Business",
+      "full_text": "Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales informationMcDonald’s is facing a lawsuit in federal court over its alleged use of an AI tool to determine pricing across independent franchises, which prosecutors say violates antitrust laws and has unfairly inflated menu prices for Americans.The vast majority of McDonald’s US stores are independently owned and are said to individually decide on prices under company policy. Antitrust laws require businesses to set prices independently from their competitors, as coordinating prices can stifle market competition and push up costs for consumers. Continue reading...",
+      "published_beijing": "2026-10-07T19:00:08+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Parcel Sortation System Industry to Expand at 3.1% CAGR Through 2034 Amid Rising Automation Demand - Industry Today",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmp1aDlvV0s4VHNaeTFTWWhsaFhSV3cwXzd4OUpaejRHb2c2N1hiQnFQVmlUS1FXZFVTRkNDWF9lVVBwS0U4bnlDbWdQUEhnMXFLeWpsdDBVeEZZNnlQMGRoZTBpVGZDQ0xaN0VmX2VaUjVyMTNyXzE1MzItcDNSR0pWUlZ6Q25KNUxOMFI3eE9uVklrZEVSSE1SUXFBVzNlNTdPdXRpZ1BjNmcwakFxLUNjRlJabGpuNTVaT3hkeC1fY18zUm54Y3ZwdFREbGM?oc=5",
+      "published": "Wed, 07 Oct 2026 10:03:15 GMT",
+      "summary": "Parcel Sortation System Industry to Expand at 3.1% CAGR Through 2034 Amid Rising Automation Demand&nbsp;&nbsp;Industry Today",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-07T18:03:15+08:00",
       "source_detail": {
-        "name": "Time Magazine",
-        "url": "https://time.com"
+        "name": "Industry Today",
+        "url": "https://industrytoday.co.uk"
       },
       "priority": 0.0,
-      "category": "平台政策",
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Skepticism mires Trump’s Iowa steel plant project: ‘Promises are not the same as jobs’",
+      "link": "https://www.theguardian.com/business/2026/oct/07/trump-steel-plant-iowa-skepticism",
+      "published": "Wed, 07 Oct 2026 10:00:40 GMT",
+      "summary": "The project has sparked doubts over whether the plant will be built and delivered as promised, given Trump’s recordDonald Trump has long sought to portray himself as a man of steel, from the White House photoshopping Trump to look like Superman, to enacting tariffs on steel and approving the sale of US Steel to Japan’s Nippon Steel with a ”golden” share given to the US government.Most recently, the Trump administration announced plans to construct the largest steel plant in the US, a $15bn plant...",
+      "source": "Guardian Business",
+      "full_text": "The project has sparked doubts over whether the plant will be built and delivered as promised, given Trump’s recordDonald Trump has long sought to portray himself as a man of steel, from the White House photoshopping Trump to look like Superman, to enacting tariffs on steel and approving the sale of US Steel to Japan’s Nippon Steel with a ”golden” share given to the US government.Most recently, the Trump administration announced plans to construct the largest steel plant in the US, a $15bn plant in Lee county, Iowa, to be built by India-based Mesabi Metallics. Continue reading...",
+      "published_beijing": "2026-10-07T18:00:40+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Factors Driving the Growth of Vertical Lift Modules: - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUW5Kek5RMVQ0MGRwUk93bHBCRnNxZlRUMTRkLXlwMWpRY0lzTnVzcGpwZ2xTNHg4VlBiUzJpUDNOZDVMYUlGaUJiOVFXQ0N3MTBVaTZPSmpaYVNoVDctRlZWZGZQQ0VTN2gzWk95ejA5SDUzbTBMTE5JREFYOWZLcG9SNnJlNER2V0ROZzhvZ3E?oc=5",
+      "published": "Wed, 07 Oct 2026 08:03:07 GMT",
+      "summary": "Factors Driving the Growth of Vertical Lift Modules:&nbsp;&nbsp;openPR.com",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-07T16:03:07+08:00",
+      "source_detail": {
+        "name": "openPR.com",
+        "url": "https://www.openpr.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Woolworths Triples Fuel Levy on Major Grocery Suppliers - Retail News Asia",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMUF5ZWUtNU1STkM3enk3cEQzaXhRTzFDbjduWW1qalA1b0VKTndEWHl5amdnaXB3bFNtc0t1dzIwOGM5SDgyVUNYZGlCdGVqNzE2TTR1bDU2TDNvT1NxT0QzNnZXNURJbVJkSDlTbndhRWJhTXRJZ1c3STEzM3liX29hTmtNdw?oc=5",
+      "published": "Wed, 07 Oct 2026 07:06:40 GMT",
+      "summary": "Woolworths Triples Fuel Levy on Major Grocery Suppliers&nbsp;&nbsp;Retail News Asia",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-07T15:06:40+08:00",
+      "source_detail": {
+        "name": "Retail News Asia",
+        "url": "https://retailnews.asia"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Costco Revenue Per Employee - FourWeekMBA",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40VGgzS0FuQUFWUk5GcTZOajdScE54SjBtanhKYzl4VVpXVGNuR0JzOWUtUWU0SVV5OWZ6Tmk4SnJVeG9IYTFyeTZnak5pcjJ6NGxmcTRpV0MyNnprVi1SUVdn?oc=5",
+      "published": "Wed, 07 Oct 2026 06:49:18 GMT",
+      "summary": "Costco Revenue Per Employee&nbsp;&nbsp;FourWeekMBA",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-07T14:49:18+08:00",
+      "source_detail": {
+        "name": "FourWeekMBA",
+        "url": "https://fourweekmba.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -205,34 +317,18 @@
       "relevance": "low"
     },
     {
-      "title": "More Than 37,000 Squishy Toys Recalled as Water Beads Inside Can Swell in a Child and Evade X-Rays - inkl",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeVpyTHRLc2g3WEpQQVJsa1JCcnRVOHphakFRaElpTGZ3NFZWZXd6ZHAwZTBRYkJOY21ETUZMR21SWVdJSzdscDBEZGZ0bGxGTEJPSlJra3lUejhkRmN0UjhGNGk1THRqa1RIVmNvRmlHSGtyTTgzNkNCNjc5OXFINU5tVnBYTkJHcE45NW1YMXBFX3Uwb24xeHU0MnB2UDR5Y1c3Sm1vYzFZZlJ5OC1mZ2NhV0xhcFR2aTExcU81Tm52UQ?oc=5",
-      "published": "Tue, 06 Oct 2026 01:00:09 GMT",
-      "summary": "More Than 37,000 Squishy Toys Recalled as Water Beads Inside Can Swell in a Child and Evade X-Rays&nbsp;&nbsp;inkl",
+      "title": "AHFA Warns Consumers of Alarming Increase in Dressers Ruled Uncompliant - Home Furnishings Business",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM0VKU0dkWTFtblhjMm5fRm55R0J1RnFOc19ER3pZQi14NVd1RmFfNzdHUl9yc0o5aUhYVy00akF0T3lxazIwMjd1SGN6SGpTaE1pMTktd0VnTldzbWVfYW43Tml2SjlCSXpZQXE0MTJQaHV0TFp4cHdPQ3NOaDFuUVNmelZwWU01dWZKRGQwTzMxeHFKcUdUZnE3NjBtTWZCek5xX0p5LTROU3A5T0JicFc4dk5mVUE?oc=5",
+      "published": "Thu, 08 Oct 2026 00:17:04 GMT",
+      "summary": "AHFA Warns Consumers of Alarming Increase in Dressers Ruled Uncompliant&nbsp;&nbsp;Home Furnishings Business",
       "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-06T09:00:09+08:00",
+      "published_beijing": "2026-10-08T08:17:04+08:00",
       "source_detail": {
-        "name": "inkl",
-        "url": "https://www.inkl.com"
+        "name": "Home Furnishings Business",
+        "url": "http://hfbusiness.com"
       },
       "priority": 0.0,
       "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "PDD: Shein H1 2026 Readthrough Points To The End Of Cross-Border Arbitrage; Remain Neutral - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR0cwRl91RGFGODRNaEdWMUh0ZU9tRFlfS25Mc2l3YWpvS2N6NENVcXV2MmVhTExXbHMtNkN2UENHejhIYlpob0lTYTdvVkRkOFhUc2NuVGdYbGd1ZUp2TUNzbDZCVGNmcngwUGdrTUM0dDZqNGljNW50QmR6ekVnR0FsUnMzdDVadEVUTnFQRUg4cFcySm5GMnZnS1RIZmMzMzgwVzM3YXUwWVZQU3dBOUNZMGdhSVhUbHN2RVQzODRHRW8?oc=5",
-      "published": "Mon, 05 Oct 2026 17:18:51 GMT",
-      "summary": "PDD: Shein H1 2026 Readthrough Points To The End Of Cross-Border Arbitrage; Remain Neutral&nbsp;&nbsp;Seeking Alpha",
-      "source": "GNews | Temu Regulation",
-      "published_beijing": "2026-10-06T01:18:51+08:00",
-      "source_detail": {
-        "name": "Seeking Alpha",
-        "url": "https://seekingalpha.com"
-      },
-      "priority": 0.0,
-      "category": "平台政策",
       "_incremental": "new",
       "relevance": "low"
     }

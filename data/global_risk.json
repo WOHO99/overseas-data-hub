@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-07T04:49:44.526714+00:00",
-  "fetch_date_utc": "2026-10-07",
-  "total": 56,
-  "high_priority": 0,
-  "medium_priority": 2,
+  "updated": "2026-10-08T04:59:54.375093+00:00",
+  "fetch_date_utc": "2026-10-08",
+  "total": 49,
+  "high_priority": 1,
+  "medium_priority": 9,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 14,
+      "count": 21,
       "feeds": 4
     },
     "外资审查+征收": {
@@ -17,11 +17,11 @@
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 6,
+      "count": 2,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 2,
+      "count": 3,
       "feeds": 2
     },
     "中国企业视角": {
@@ -41,7 +41,7 @@
       "feeds": 0
     },
     "安全与隐私RSS(D)": {
-      "count": 50,
+      "count": 40,
       "feeds": 4
     },
     "新增直连RSS(E)": {
@@ -50,36 +50,187 @@
     }
   },
   "fail_feeds": 8,
-  "rate_limited_feeds": 0,
+  "rate_limited_feeds": 1,
   "articles": [
     {
-      "title": "Japan enters a new era of foreign investment screening: What the 2026 FEFTA reforms mean for foreign investors - Freshfields",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT2ZGaEVVOVRRV0lFLWxKay1PWnZXZWJGaGtTM2JLODJfb1YyYmlUdDkzZE1yUmtkWFU1VW1wVm5BZndsYk5vYVJCQm5kNU4xQ1ROOGFlVzFOUG5TaWtTUDFDTWo1Vm9HbWRjb3pYY3ppSDY2aXRZVFprd2RGOE9aV2tobDJ6YWpJU3FNejNXRUVfc3lyZ3J6QkRDb0dqci1wVGxuMlRYcTFZS2xLcWUtZ1U2Wmd5MHhod3NjWG92Qkp5VmFIUmlTZEh0UU5WcjBrVEJ5dHFYR3JYekdmUHA0ODVlMDBVUQ?oc=5",
-      "published": "Tue, 06 Oct 2026 10:27:43 GMT",
-      "summary": "Japan enters a new era of foreign investment screening: What the 2026 FEFTA reforms mean for foreign investors&nbsp;&nbsp;Freshfields",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-06T18:27:43+08:00",
+      "title": "U.S. removes three deceased former Chavista officials from OFAC sanctions list - Binance",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40NnNJeWRwMEh4ZExrdmFWSHJyUzk3SXVISEhwTFVCSjVFXzg2bGpBNF9fX2QyX2hwMTcxemNwZGdKYzZaMDhHLWpuTDc1cktBR1NOUUZzSkZpaFVmd1pxNlFNRjM?oc=5",
+      "published": "Wed, 07 Oct 2026 03:13:53 GMT",
+      "summary": "U.S. removes three deceased former Chavista officials from OFAC sanctions list&nbsp;&nbsp;Binance",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-07T11:13:53+08:00",
       "source_detail": {
-        "name": "Freshfields",
-        "url": "https://www.freshfields.com"
+        "name": "Binance",
+        "url": "https://www.binance.com"
+      },
+      "priority": 12.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://www.binance.com/en/square/post/374585890447801",
+      "full_text": "Before proceeding to your request, you need to solve a puzzle, and the puzzle requires Google Translate to be disabled. Please disable Google Translate and retry.\nLet's confirm you are human\nComplete the security check before continuing. This step verifies that you are not a bot, which helps to protect your account and prevent spam."
+    },
+    {
+      "title": "US formalises removal of three Pakistan-linked men from sanctions list - Social News XYZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVXczb19WN2ZVcm5MM1oyaG5Lek9BbUNONzBkWlJXUTl1NUVSdUVsWXpLcmkxWXRDZW82Z0ZtWmMzUk5BT2RKaVFjOEgxcUJlQ19VUm9ybWFvMVcySGFrMjRKMzVobXh0TkpEYjNNazlRR3RJTFdDY3RidjZyZmdEMGlzNTNzMnlCYnk2dkFuTnp6enE1Ymg1R0oxY2ZZNnJMa25QZTlnQnMtcVhWYWc?oc=5",
+      "published": "Wed, 07 Oct 2026 23:31:33 GMT",
+      "summary": "US formalises removal of three Pakistan-linked men from sanctions list&nbsp;&nbsp;Social News XYZ",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-08T07:31:33+08:00",
+      "source_detail": {
+        "name": "Social News XYZ",
+        "url": "https://www.socialnews.xyz"
       },
       "priority": 6.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.freshfields.com/en/our-thinking/blogs/transactions/japan-enters-a-new-era-of-foreign-investment-screening-what-the-2026-fefta-refor-102o4mi",
-      "full_text": "Japan’s foreign investment screening regime is entering a new phase. The Diet approved the bill amending the Foreign Exchange and Foreign Trade Act (FEFTA) on 29 May 2026, and it was promulgated on 5 June. The provisions creating a legal basis for cross-ministerial screening took effect immediately, and the Japan Foreign Investment Committee (JFIC) was established on 29 June. Following a public consultation, the implementing regulations were promulgated on 16 September. The main FEFTA amendments will take effect on 4 January 2027. After a 30-day transition period, the new rules will generally apply to investments made on or after 3 February 2027, although the new post-closing call-in regime will apply to relevant investments made on or after 4 January 2027.\nThe reforms tighten scrutiny of higher-risk investments while reshaping the wider screening system. The new rules refine the list of designated sectors requiring prior notification, narrowing the scope of some software and information-processing businesses while expanding coverage in other areas of greater national security importance. Filing requirements will also be eased for certain director reappointments and intra-group transactions. At the same time, the rules will expand in several important ways. Acquisitions of foreign entities holding interests in Japanese companies will be regulated as “indirect acquisitions.” A new call-in power will allow the authorities to further investigate for up to five years after certain investments by foreign investors that cannot use the prior notification exemption regime (High-Risk Investors) in Japanese companies outside designated sectors. The amendments also tighten the rules on domestic investments controlled or influenced by foreign investors and set clearer rules for notified risk mitigation measures, including changes to those measures and failures to comply.\nThe practical message is clear: investors will need to start their FEFTA analysis earlier. Even for an overseas M&A deal or group reorganization, they should assess their own profile, their ownership links with Japanese companies, the target’s businesses and technologies, and their planned role after closing. Investors should build any filings and post-closing compliance steps into the deal timetable.\nBelow, we look at the most important changes.\n1. Indirect acquisition rules reach overseas M&A deals\nThe amendments extend the prior notification regime to some offshore deals. They cover transactions in which a foreign investor acquires a foreign entity that directly holds shares or voting rights in a Japanese company (Direct Holding Entity), and therefore gains indirect control of that Japanese company. We call these provisions the Indirect Acquisition Rules.\nA common example would be an overseas acquisition of a group that includes a Japanese subsidiary. The deal may require prior notification in Japan even if every party is outside Japan and the agreement is signed offshore.\nThe Indirect Acquisition Rules will cover transactions including:\n- An acquisition that gives a foreign investor, alone or together with specified related persons, 50% or more of the voting rights in a Direct Holding Entity\n- The exercise of voting rights that allows the foreign investor and specified related persons to make up a majority of the Direct Holding Entity’s directors\nThe filing threshold will depend on the investor’s risk profile. A High-Risk Investor may need to file if the Direct Holding Entity owns 1% or more of the shares or voting rights in a listed Japanese company, or even a single share or equity interest in an unlisted Japanese company.\nOther investors will generally not need to file if the Direct Holding Entity owns less than 50% of the relevant Japanese company. Some intra-group reorganizations will also be excluded. High-Risk Investors cannot rely on that exclusion, however, and every transaction will need to be assessed on its own facts.\nEarly in any overseas M&A process, foreign investors should therefore identify all Japanese entities – and other Japanese investments – held by the target group. They should then review the relevant business sectors and technologies, ownership percentages and other control rights to decide whether the Indirect Acquisition Rules apply.\n2. A five-year risk of call-in after closing\nUnder the current system, investments in Japanese companies outside designated business sectors have generally required only a post-closing report. The authorities have had limited power to issue FEFTA recommendations or orders for those investments.\nThat will change. An investment that required only post-closing reporting may later be called in if a national security risk emerges because of shifts in the international environment or other circumstances. The authorities may demand further reports and, if needed, recommend or order risk mitigation measures. In exceptionally urgent cases, they may directly block further investment or impose other measures without first using the usual recommendation process.\nThe new regime will cover acquisitions by High-Risk Investors of 10% or more of the shares or voting rights in a Japanese company outside a designated sector. The authorities may further investigate for five years after the investment is completed.\nUnlike the Committee on Foreign Investment in the United States (CFIUS) process, Japan’s regime currently offers no official voluntary filing route that gives investors an advance safe harbor. Investors must consider both their own risk profile and whether the target’s business or technology could become sensitive over time.\n3. “Japan’s CFIUS”: JFIC takes shape\nThe amended FEFTA formalizes cross-ministerial review. When national security concerns require it, the Minister of Finance and the relevant minister must seek views from the Prime Minister, the Minister for Foreign Affairs and other relevant authorities.\nJFIC supports this cross-ministerial system. It is co-chaired by the Ministry of Finance and the National Security Secretariat. Its main members are the Ministry of Foreign Affairs, the Ministry of Economy, Trade and Industry and the Ministry of Defense. Other bodies – including the National Police Agency, the Financial Services Agency, the Ministry of Internal Affairs and Communications and the Ministry of Health, Labour and Welfare – may join depending on the case.\nJFIC is not a separate filing authority like CFIUS. The power to review investments and impose measures remains with the Minister of Finance and the relevant minister.\nEven so, JFIC gives the Japanese Government a clearer way to assess investments using information from several agencies. Officials will look at factors such as the target’s business and technology, the investor’s links to foreign governments, the size of the stake and the investor’s planned role after closing. In sensitive cases, investors may face more questions, longer reviews and closer discussions about measures to reduce risk.\n4. A sharper focus on priority sectors\nThe implementing regulations redraw the designated sectors so that screening can focus more closely on businesses with greater national security importance.\nThe approach to information and communications technology has also changed. Instead of relying on broad categories, the new designations focus on particular functions and uses, including:\n- Cybersecurity\n- Systems for critical infrastructure\n- Cloud infrastructure and data centers\n- Systems for the design and manufacture of critical goods and supply-chain management\n- Systems handling trade secrets or large volumes of personal data\n- AI and advanced robotics\n- Geospatial information\nA separate rule will bring companies holding technology subject to FEFTA export controls into the prior notification regime. The analysis will therefore look beyond the target’s formal industry label to the technology it actually holds.\nThe designated sector lists will also expand to cover magnetic sensors, certain ship-hull manufacturing activities and pharmaceuticals seen as especially important to security of supply.\nThe aim is to remove lower-risk activities from the designated-sector framework while bringing more security-sensitive businesses and technologies within scope. Broad industry labels will no longer be enough to judge whether a filing is needed.\n5. How investors should prepare\nThe new rules will change early regulatory assessments, due diligence, deal documents and post-closing compliance. With the new rules applying from 4 January and 3 February 2027, four steps will be especially important:\n- Broaden the first FEFTA check for overseas M&A. Investors should identify any Japanese subsidiaries or interests in Japanese companies held by an overseas target group, even if the deal takes place entirely outside Japan.\n- Map ownership and control early. Key information includes the investor, its ultimate parent and major shareholders, links to foreign governments or state-owned enterprises, and the independence of its investment decisions. A Japanese company or resident may also be treated as a “deemed foreign investor” if it carries out that investment for a High-Risk investor that is a non-resident.\n- Look closely at the target’s products and services. For the target and its Japanese subsidiaries, the review should cover not only designated sectors but also how products and services are used, who the customers are, what data the target processes and which technologies it develops or holds.\n- Recheck deals already under way. Because different parts of the new rules will apply from 4 January and 3 February 2027, parties should review the expected closing date and decide whether the new regime will apply.\n6. Signs of tougher enforcement\nThe tougher legal framework is matched by signs of stricter enforcement. In April 2026, the authorities recommended that MBK Partners abandon its proposed acquisition of Makino Milling Machine, citing concerns about access to sensit"
+      "canonical_url": "https://www.socialnews.xyz/2026/10/07/us-formalises-removal-of-three-pakistan-linked-men-from-sanctions-list/",
+      "full_text": "Washington, Oct 7 (SocialNews.XYZ) The United States has formally published the removal from its sanctions list of three Pakistan-linked men who had been designated more than two decades ago in cases involving terrorism and narcotics trafficking, according to the Treasury Department records.\nThe three are Mohammed Tufail, Sher Afghan and Nasir Ali Khan.\nThe removals were originally made by the Treasury Department's Office of Foreign Assets Control on July 27 as part of a broader effort to modernise its sanctions lists. They were formally published in the Federal Register on Wednesday.\nTreasury said the July action removed 84 individuals and entities and updated other entries as part of an effort to keep US sanctions targeted, effective and current.\nThose removed included individuals and entities no longer considered US national-security or foreign-policy priorities, including some deceased people, defunct entities and targets sanctioned more than 20 years ago. Treasury did not publicly specify which rationale applied to each of the three Pakistan-linked individuals.\nTufail, also identified as S M Tufail and Sheik Mohammed Tufail, had been designated under US terrorism sanctions.\nWhen his assets were blocked in December 2001, the Treasury Department identified him as an industrialist and one of three key directors of Ummah Tameer-e-Nau, or UTN, an organisation founded by Pakistani nuclear scientists.\nTreasury said at the time that UTN directors and members had met Osama bin Laden, al-Qaeda leaders and Taliban leader Mullah Omar and discussed the development of chemical, biological and nuclear weapons.\nThe other two men were designated under US narcotics sanctions.\nSher Afghan, also identified by aliases including Shir Afghan, Mohammad Aziz and Abdullah Khan, was born in Pakistan and was added to the sanctions list in June 2001 under the Foreign Narcotics Kingpin Designation Act.\nNasir Ali Khan, born in Pakistan in 1955, was also placed under narcotics sanctions in June 2001.\nA State Department report covering Pakistan's counter-narcotics efforts in 1996 said the country's caretaker government had arrested a major trafficker named Nasir Ali Khan who was wanted in the United States on drug charges. The report also said an American extradition request was pending.\nThe available records do not establish in the sanctions-removal notice why each of the three men was taken off the list in July.\nOFAC said its broader sanctions-modernisation exercise was intended to remove outdated entries and improve the accuracy of its lists while ensuring removals did not undermine US national-security or foreign-policy interests.\nSource: IANS"
     },
     {
-      "title": "On Wednesday, EU ambassadors will approve the largest package of sanctions against Russia since 2022 - Reuters - Українські Національні Новини (УНН)",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN1ZJZ21yMXV6MmRwNG9jWnQzaDJ2VG05WGpncXVSUFRhbHl4dFhIYW1HQXBmaV8tZmw4YTBfc2ZJeWFjT1hjalFPU1VCeWEtc3hpU3lLdU1hWF9FLWU1VXB1SE1nWHdXbnA4bjBEb0VBLWVMTHgwTlBOY2pMbW5kNVoxSmsxOTQtV1YwNFlPamt1WFcxWjFoOXlsU2JVZ00tbVc2R0NJOW5sa1l3OU10dVp6eDZ2WERNN0VYalJFUlVpeUdZS2lfZdIByAFBVV95cUxQN1ZJZ21yMXV6MmRwNG9jWnQzaDJ2VG05WGpncXVSUFRhbHl4dFhIYW1HQXBmaV8tZmw4YTBfc2ZJeWFjT1hjalFPU1VCeWEtc3hpU3lLdU1hWF9FLWU1VXB1SE1nWHdXbnA4bjBEb0VBLWVMTHgwTlBOY2pMbW5kNVoxSmsxOTQtV1YwNFlPamt1WFcxWjFoOXlsU2JVZ00tbVc2R0NJOW5sa1l3OU10dVp6eDZ2WERNN0VYalJFUlVpeUdZS2lfZQ?oc=5",
-      "published": "Tue, 06 Oct 2026 21:20:20 GMT",
-      "summary": "On Wednesday, EU ambassadors will approve the largest package of sanctions against Russia since 2022 - Reuters&nbsp;&nbsp;Українські Національні Новини (УНН)",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-07T05:20:20+08:00",
+      "title": "OFAC Targets Iran’s Aviation and Rail Sectors for Additional Sanctions - Thompson Hine",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkQ4eWE3amlqRTE5aGx1T0VzaHlncXJFcHY2TmRBMEtlZ1VHRlprRENaQllrdVY0NVVKdkxRaW56djNZem5kTTE2b1kxV1pYUDlwVmdvcVI3TFUwRVpHNmlJa283ZHgtV3V0ZzBKT0FOWmtQbEpuMnJGYmNRSEVJeEZDTWs5Sm1abndfUDVlWDExSGNDMkdOd2NtXzIzUi15VW80aFVEb0xFV1FGR1k2QzF2eVBYdVU?oc=5",
+      "published": "Wed, 07 Oct 2026 21:32:41 GMT",
+      "summary": "OFAC Targets Iran’s Aviation and Rail Sectors for Additional Sanctions&nbsp;&nbsp;Thompson Hine",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-08T05:32:41+08:00",
       "source_detail": {
-        "name": "Українські Національні Новини (УНН)",
-        "url": "https://unn.ua"
+        "name": "Thompson Hine",
+        "url": "https://www.thompsonhinesmartrade.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.thompsonhinesmartrade.com/2026/10/ofac-targets-irans-aviation-and-rail-sectors-for-additional-sanctions/",
+      "full_text": "On October 1, 2026, the Department of the Treasury’s Office of Foreign Assets Control (OFAC) issued new sectoral sanctions determinations targeting Iran’s automotive and rail sectors. These determinations authorize OFAC to sanction any entity or individual operating in these sectors. OFAC stated that Iran’s automotive sector is the country’s largest economic sector outside of oil and gas and remains a core contributor to Iran’s industrial base and is a major revenue generator for the regime. OFAC has also targeted Iran’s rail sector stating that, given the maritime blockade, the Iranian regime is using its railway companies to transport oil and sustain regional trade. In addition to these new automotive and rails sectoral sanctions, OFAC also announced additional designations and placement on the Specially Designated Nationals (SDN) List of multiple Iranian and third-country entities and individuals involved in the Iranian heavy equipment, mining, metals, steel and oil networks. Additional information on OFAC targeting of Iran’s automotive, rail, manufacturing, and steel industrial sectors is available here.\nSpecific identifying information on newly sanctioned entities and persons under these aviation and rail sectoral sanctions is available here. As a result of these actions, all property and interests in property of these designated or blocked persons that are in the United States or in the possession or control of U.S. persons are blocked and must be reported to OFAC. In addition, any entities that are owned, directly or indirectly, individually or in the aggregate, 50 percent or more by one or more blocked persons are also blocked. Unless authorized by a general or specific license issued by OFAC, or exempt, OFAC’s regulations generally prohibit all transactions by U.S. persons or within (or transiting) the United States that involve any property or interests in property of blocked persons.\nFurther, OFAC has issued a revised FAQ to assist in guidance on how it defines the sectors of the Iranain economy under its sectoral sanctions.\nWith these most recent sanctions, Iran’s oil, aviation, automotive and rail sectors are now targeted as being industrial sectors providing revenue to the Iranian regime and the Islamic Revolutionary Guard Corps (IRGC). For additional information on OFAC sanctions, see SmarTrade updates of September 11, 2026, August 25, 2026, and February 12, 2026."
+    },
+    {
+      "title": "EU envoys approve new Russia sanctions listings, diplomats say - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbFhKOW01WG1MSmNLajktYUVDcktCRUpUblFhU01HTzFSY2x1blBsaVdoS3RfZW90Q1QxY05qZEN2LTNSbEhHNXp6ZW94LXBRQzJva1MwejdpMUdvLVlxZXBRYWdvN1YxM2NwM0hxelJKQlMxZDJmTE5JRWY2V3NicHJ6V2xHR1dRdV93TEdObU5RT2tkS1JVTjZvb0VjWDdtcHlFYVRyQUhVX0l4SzFIMWROT2Q2eWdWSTlGZzhQcTIzdw?oc=5",
+      "published": "Wed, 07 Oct 2026 18:11:53 GMT",
+      "summary": "EU envoys approve new Russia sanctions listings, diplomats say&nbsp;&nbsp;Reuters",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-08T02:11:53+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.reuters.com/business/aerospace-defense/eu-envoys-approve-new-russia-sanctions-listings-diplomats-say-2026-10-07/"
+    },
+    {
+      "title": "EU envoys approve new Russia sanctions listings, diplomats say - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWTlHeWR6QTBOLUhEVlpINlF0di1WeG9hMTBxQktyT0Zoc0VUVTlVVGZfREZsM2JMekMwMkRkUFB5NTBMQ3BPRk9EM2dLczJKNnI4aEhjRWd2VUVmZTVoc1Y4SVhPWXR0bWUxelFTLTdlTDg5VmV1dDF2MjU1OXIybzJpRU05UjBZYldFdG5CZmtMcWVJdjRMNTBFdzV2d0cyeWIwVGtTTXZwR1JQT0hPUURGUnU4emZjcmJUbFd2dkp1UdIBwgFBVV95cUxNWTlHeWR6QTBOLUhEVlpINlF0di1WeG9hMTBxQktyT0Zoc0VUVTlVVGZfREZsM2JMekMwMkRkUFB5NTBMQ3BPRk9EM2dLczJKNnI4aEhjRWd2VUVmZTVoc1Y4SVhPWXR0bWUxelFTLTdlTDg5VmV1dDF2MjU1OXIybzJpRU05UjBZYldFdG5CZmtMcWVJdjRMNTBFdzV2d0cyeWIwVGtTTXZwR1JQT0hPUURGUnU4emZjcmJUbFd2dkp1UQ?oc=5",
+      "published": "Wed, 07 Oct 2026 18:03:59 GMT",
+      "summary": "EU envoys approve new Russia sanctions listings, diplomats say&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-08T02:03:59+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "US Drops Three Pakistan-Linked Men From Sanctions List After 20 Years - IndiaWest",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYUFqSURWV0RubXNGY19qdlk2cHNaMHhRSTZwU3JGNUN5WXFRaTFrdGJiVnF6cHJ5NlM0ZWVEeTd6eEprVUNBWWhpaVFwbFFETWZId3VUREctdlA2X240Sjcxc2hyRFdvOVRYdVYxYkI5TTh2dFc1a2tPLUV3N25Ra3A5cWZwMTNxQ2o4aDRzSTFIcXFRZEMw?oc=5",
+      "published": "Wed, 07 Oct 2026 17:52:35 GMT",
+      "summary": "US Drops Three Pakistan-Linked Men From Sanctions List After 20 Years&nbsp;&nbsp;IndiaWest",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-08T01:52:35+08:00",
+      "source_detail": {
+        "name": "IndiaWest",
+        "url": "https://indiawest.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://indiawest.com/us-drops-three-pakistan-linked-men-from-sanctions-list-after-20-years/",
+      "full_text": "WASHINGTON, DC-The United States has formally published the removal of three Pakistan-linked men from its sanctions list, more than two decades after they were designated in cases involving terrorism and narcotics trafficking, according to US Treasury Department records.\nThe three are Mohammed Tufail, Sher Afghan and Nasir Ali Khan.\nThe removals were made by the Treasury Department’s Office of Foreign Assets Control on July 27 as part of a broader effort to modernize its sanctions lists. They were formally published in the Federal Register on October 7.\nThe Treasury Department said the July action removed 84 individuals and entities and updated other entries as part of an effort to keep US sanctions targeted, effective and current. Those removed included individuals and entities no longer considered US national-security or foreign-policy priorities, including some deceased people, defunct entities and targets sanctioned more than 20 years ago.\nTreasury did not publicly specify which rationale applied to each of the three Pakistan-linked individuals.\nTufail, also identified as S M Tufail and Sheik Mohammed Tufail, had been designated under US terrorism sanctions. When his assets were blocked in December 2001, the Treasury Department identified him as an industrialist and one of three key directors of Ummah Tameer-e-Nau, or UTN, an organization founded by Pakistani nuclear scientists.\nTreasury said at the time that UTN directors and members had met Osama bin Laden, al-Qaeda leaders and Taliban leader Mullah Omar and discussed the development of chemical, biological and nuclear weapons.\nThe other two men had been designated under US narcotics sanctions.\nSher Afghan, who was born in Pakistan, was added to the sanctions list in June 2001 under the US Foreign Narcotics Kingpin Designation Act.\nNasir Ali Khan, born in Pakistan in 1955, was also placed under narcotics sanctions in June 2001.\nA US State Department report covering Pakistan’s counter-narcotics efforts in 1996 said the country’s caretaker government had arrested a major trafficker named Nasir Ali Khan, who was wanted in the United States on drug charges. The report also said an American extradition request was pending.\nThe available records do not establish why each of the three men was removed from the sanctions list in July.\nOFAC said its broader sanctions-modernization exercise was intended to remove outdated entries and improve the accuracy of its lists while ensuring that removals did not undermine US national-security or foreign-policy interests. (IANS)"
+    },
+    {
+      "title": "US Formalizes Removal of Three Pakistan-Linked Men From Sanctions List - INDIA New England News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN0U2a3pCcFdzWG9DdDFaRWhRd1RwdmRscENWemlzc0h2X3JLNW9YSG4yYUpSbF9zSU9mOHY0RVNTTmdZNWtBZmxXOVdlU2prdkZwSVhQT1czVWhiamlGZkd6LU12VHpTVXVFdlZoSmZmVGliQVlnQmpfbVlyRXZmamxvOE0zMmhWQ1JQWGFsa3ZNS01ZNWY3ODZ0dlF1NGdE?oc=5",
+      "published": "Wed, 07 Oct 2026 15:05:49 GMT",
+      "summary": "US Formalizes Removal of Three Pakistan-Linked Men From Sanctions List&nbsp;&nbsp;INDIA New England News",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-07T23:05:49+08:00",
+      "source_detail": {
+        "name": "INDIA New England News",
+        "url": "https://indianewengland.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://indianewengland.com/us-formalizes-removal-of-three-pakistan-linked-men-from-sanctions-list/",
+      "full_text": "Washington — The United States has formally published the removal of three Pakistan-linked men from its sanctions list, more than two decades after they were designated in cases involving terrorism and narcotics trafficking, according to Treasury Department records.\nThe three men are Mohammed Tufail, Sher Afghan and Nasir Ali Khan.\nThe Treasury Department’s Office of Foreign Assets Control removed them from its sanctions list on July 27 as part of a broader effort to modernize and update its records. The removals were formally published in the Federal Register on Wednesday.\nTreasury said the July action removed 84 individuals and entities and updated other entries as part of an effort to keep U.S. sanctions targeted, effective and current.\nThose removed included people and entities no longer considered U.S. national security or foreign policy priorities, including deceased individuals, defunct organizations and targets sanctioned more than 20 years ago.\nTreasury did not publicly specify which rationale applied to each of the three Pakistan-linked men.\nTufail, also identified as S M Tufail and Sheik Mohammed Tufail, had been designated under U.S. terrorism sanctions.\nWhen his assets were blocked in December 2001, the Treasury Department identified him as an industrialist and one of three key directors of Ummah Tameer-e-Nau, or UTN, an organization founded by Pakistani nuclear scientists.\nTreasury said at the time that UTN directors and members had met Osama bin Laden, al-Qaeda leaders and Taliban leader Mullah Omar and discussed the development of chemical, biological and nuclear weapons.\nSher Afghan and Nasir Ali Khan were designated under U.S. narcotics sanctions.\nAfghan, who was also identified by aliases including Shir Afghan, Mohammad Aziz and Abdullah Khan, was born in Pakistan and added to the sanctions list in June 2001 under the Foreign Narcotics Kingpin Designation Act.\nKhan, who was born in Pakistan in 1955, was also placed under narcotics sanctions in June 2001.\nA State Department report on Pakistan’s counter-narcotics efforts in 1996 said the country’s caretaker government had arrested a major trafficker named Nasir Ali Khan who was wanted in the United States on drug charges. The report also said a U.S. extradition request was pending.\nThe sanctions-removal notice does not explain why each of the three men was taken off the list.\nOFAC said the broader modernization effort was intended to remove outdated entries and improve the accuracy of U.S. sanctions lists while ensuring that removals did not undermine national security or foreign policy interests. (Source: IANS)"
+    },
+    {
+      "title": "Biren’s Conditional HK$4bn Share Deal Tests AI Chip Growth - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVlUwMWJCMEJVV21tSDV2N2U1cTAtdmpHOUM2VEVZN2RDcTZjR0tud3l6V0ZnQ0dIbE12Q1dabzdnY1FEd295RWR0UGJZRTlkTzJfOXEyQ0xRc2Z5ZC1Sa1lqdjFYZmlmLTlpSU1ncmstVi04dTU3MmM2RjJPbmpvLXpNdTk5emNob0hv?oc=5",
+      "published": "Thu, 08 Oct 2026 04:34:16 GMT",
+      "summary": "Biren’s Conditional HK$4bn Share Deal Tests AI Chip Growth&nbsp;&nbsp;streamlinefeed.co.ke",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-08T12:34:16+08:00",
+      "source_detail": {
+        "name": "streamlinefeed.co.ke",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 3.6,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://streamlinefeed.co.ke/news/biren-conditional-hk4bn-share-deal-ai-chip-growth",
+      "full_text": "Biren Technology conditionally agreed to place 130 million new shares for HK$4.04bn gross, but the deal is not complete and remains subject to listing and legal conditions.\nA conditional follow-on, not a new listing\nBiren signed the placing agreement on October 8, offering new H shares at HK$31.08 apiece through CICC Hong Kong Securities and UBS’s Hong Kong branch. The company estimates gross proceeds of HK$4.04bn and net proceeds of HK$4.02bn after expenses. At the exchange rate used in financial coverage, the net amount is about US$515m.\nThe price is 9.76% below the previous day’s close and 13.73% below the five-day average, according to the filing. If all shares are placed, they would equal 5% of existing share capital and 4.76% of the enlarged total. The company was already listed on Hong Kong’s main board in January; this is an additional capital raising, not an initial public offering.\nThe deal remains conditional on matters including approval to list the new shares and delivery of required documentation. Biren says the agreement can terminate if conditions are not met or waived by October 15, and the placing agents have termination rights. The proposed investors are not named; the filing says the placement is expected to involve at least six independent investors.\n- 130 million new H shares at HK$31.08 each.\n- Estimated proceeds: HK$4.04bn gross and HK$4.02bn net.\n- Potential dilution: 4.76% of enlarged share capital.\n- Status: conditionally agreed, not yet completed.\nProduction spending is the stated reason\nBiren says it plans to direct 70% of the net proceeds to supply-chain procurement, production readiness and commercialisation of next-generation products. Another 20% is earmarked for research and development and its software ecosystem, with 10% for working capital and general corporate needs. Those categories describe the company’s stated plan, not a guarantee of commercial success.\nThe filing says the next-generation product has completed initial bring-up and entered post-silicon validation, with sampling and volume production expected over coming quarters subject to validation and customer qualification. The company cites rising customer demand, longer supply lead times and higher procurement costs as reasons it needs to move faster. Those are management’s explanations; the announcement does not independently verify demand or product readiness.\nBiren completed a HK$7.07bn placement in July. Its October filing says that by September 30, only HK$814.8m—about 19%—of proceeds allocated to production and commercialisation had been used; it expects the balance to be substantially used by year-end. The earlier raise was not exhausted; the company says its spending timetable has accelerated.\nRapid revenue growth sits beside large losses\nBiren’s audited 2025 report shows a growing but loss-making business. Revenue rose to RMB1.03bn from RMB336.8m in 2024, while operating loss was RMB1.04bn. The RMB16.49bn net loss included RMB15.47bn in finance costs from revaluing redemption liabilities that ended upon listing. Its company-defined adjusted loss was RMB873.8m.\nFor the first half of 2026, the company reported unaudited revenue of RMB1.24bn, compared with RMB58.9m in the same period last year. Its loss narrowed to RMB377.2m, while the adjusted loss was RMB337.2m. At the same time, three customers accounted for roughly 74.5% of first-half revenue, underscoring concentration risk as the company scales sales.\nThe numbers make the fundraising story more complicated than a simple growth narrative. Revenue is rising quickly and adjusted losses have narrowed, but the business is spending heavily on research and production. The new issue would dilute existing shareholders, and its discounted price is below both the previous day’s market close and the July placing price.\nExport controls shape the supply-chain backdrop\nBiren’s filings and US export-control records place the company within a wider contest over advanced computing. The US Commerce Department added Biren-related entities to the Entity List in 2023 and later updated an alias. Under US rules, some exports, re-exports or transfers of items subject to the Export Administration Regulations may require a licence, with strict review policies applying to listed parties.\nThis is not a blanket ban on every Biren product or on investors buying shares in Hong Kong. Restrictions depend on the item, transaction and supply chain, and the October placing announcement does not say export controls caused the capital raise. They are a relevant operating constraint for a chip designer that relies on manufacturing ecosystems and equipment spanning multiple countries.\nWhat investors and customers should watch\nThe immediate milestone is whether the placement closes by the stated deadline and on what terms. Then comes product validation, customer qualification and repeat revenue. The filings show growth opportunities alongside capital needs and concentration risk.\n- Closing is conditional; the net proceeds are not yet secured.\n- The new shares would dilute existing holders.\n- Production plans depend on validation and customer qualification.\n- Three customers generated nearly three-quarters of H1 revenue.\nNo direct Kenyan customer, subsidiary or investment relationship is identified in the company’s filings. The wider significance is indirect: more domestic Chinese accelerator capacity could affect global competition and the range of compute suppliers available to cloud operators. Any impact on Kenyan prices, procurement or access remains an inference, not an announced outcome of this transaction.\nHow did this story land?\nNo sign-in required. Choose up to two. This captures your response to the story—it is not a vote on whether the reporting is true.\nSources & evidence\nThe documents, data and reporting consulted for this article. Links open the original material so readers can inspect the evidence directly.\nIncludes 6 primary sources\n- 01Hong Kong Exchanges and Clearing / Shanghai Biren TechnologyNews reportPrimaryPlacing of New H Shares Under General MandatePublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Conditional transaction status, share count and price, estimated proceeds, discount, dilution, use of proceeds, conditions and company-stated production plans.\n- 02Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimary2025 Annual ReportPublished 22 Apr 2026Accessed 8 Oct 2026 Evidence used \n  - • 2025 audited revenue, operating and net losses, adjusted loss definition and finance-cost context.\n- 03Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimary2026 Interim ReportPublished 17 Sept 2026Accessed 8 Oct 2026 Evidence used \n  - • First-half unaudited revenue and loss measures, customer concentration, receivables and liquidity disclosures.\n- 04Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimaryCompletion of Placing of New H Shares Under General MandatePublished 8 Jul 2026Accessed 8 Oct 2026 Evidence used \n  - • Prior July share placing and its completion, used as context for the new conditional raise.\n- 06Bureau of Industry and Security, US Department of CommerceNews reportPrimaryEAR Part 744 — Control Policy: End-User and End-Use BasedPublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Scope of end-user and end-use export controls and the need to avoid describing the designation as a universal product or investment ban.\n- 07BloombergNews reportAI Chipmaker Biren Taps Market Again in $515 Million Share SalePublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Independent news peg; central transaction terms are independently verified against the HKEX issuer filing.\nHot discussions around this story\nKeep the conversation in one place—threads here stay linked to the story and in the forums.\nContinue reading\nTopic, beat, location and recency are weighed together so the next story adds context instead of simply repeating the latest headlines.\nSame beat with closely related reporting\nVolantis Raises $88m for a Photonic AI Chip\nRead next\nSame beat with closely related reporting\nStuttgart’s Robot Teams Take Construction Automation to the Test\nRead next\nSame beat with closely related reporting"
+    },
+    {
+      "title": "EU Envoys Back 1,646 Russia Sanctions Listings Targeting Missile Industry - EU Today",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zQlBHRTZ5UVU0amFHSllpZ0lSWFB2d2poa2lBNkFXaFg1YTZlY01oMmNJZHFVTkJNSUY5X1g4eVVETXMwOTk2RFRDcVdhaHJyc2VpOHhubkNxSUFmUWRhaWpUNFBmMmtkWGFHRlVReWdPVmhsT3JfUU9yVQ?oc=5",
+      "published": "Thu, 08 Oct 2026 03:01:54 GMT",
+      "summary": "EU Envoys Back 1,646 Russia Sanctions Listings Targeting Missile Industry&nbsp;&nbsp;EU Today",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-08T11:01:54+08:00",
+      "source_detail": {
+        "name": "EU Today",
+        "url": "https://eutoday.net"
+      },
+      "priority": 3.6,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Smashing Security podcast #487: Clippy’s crypto comeback",
+      "link": "https://grahamcluley.com/smashing-security-podcast-487/",
+      "published": "Wed, 07 Oct 2026 23:10:49 +0000",
+      "summary": "Microsoft's Twitter account, with its 13 million followers, was hijacked by a paperclip. There was no ransomware or data theft, just Clippy, a dodgy crypto coin, and a corporate apology that wasn't from Microsoft either.\n\nMeanwhile, UK losses from hacked email and social media accounts have rocketed by 417%, as scammers pose as your friends to flog you tickets to gigs that don't exist.\n\nPlus, Hack The Box's Christine Bartlett joins us for a featured interview to ask what happens when AI agents j...",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-08T07:10:49+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[2026-10-07] Shaheen, Wicker Urge Rubio and Bessent to Target Revenue... - Senate Committee on Foreign Relations (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMG1hWG5WQVVIZWdsWnRib0dPeC1XNTRXeF9JVWNVSUdxZ0FZZlNLeVROTU50eE04RG4zTlpkT241cjFOUlgteG1EWlY2cXh5VXNiYlBQX0FnNUdDYnQzdncwMnhQdUYyeHdxX3QtN0ZQUTVJa2F6STctM0N4XzkxSEoxNkhlb0RpSG5qSW5TdG5MTXRWNlQyYjMzYXNUM3diam9rTmRqOFdvVHpjczBFVjZHYjdiTHAzdWRxNDdRVEdnZUtiNkp4Szg5alMxNjRBRXl4MHpwSkFtYnBIbk1qM0QtR01NM201M0NnaHlCU0xmSTFSQXo5cDdBXzczcDJTdW9FSURpSnZGbVREUWNGbl9VOUZKc3NQaUVpX3Jn?oc=5",
+      "published": "Wed, 07 Oct 2026 20:03:08 GMT",
+      "summary": "[2026-10-07] Shaheen, Wicker Urge Rubio and Bessent to Target Revenue...&nbsp;&nbsp;Senate Committee on Foreign Relations (.gov)",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-08T04:03:08+08:00",
+      "source_detail": {
+        "name": "Senate Committee on Foreign Relations (.gov)",
+        "url": "https://www.foreign.senate.gov"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -87,15 +238,15 @@
       "relevance": "low"
     },
     {
-      "title": "Maritime Sanctions Framework Expands with New US and UK Regulations - Data Portuaria",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUTRkX2tLamprd1hTR1VuNkt3bmlxVXlLcUl6UmVDQllmR09MUU5XNFBNY2hhOF9oOXd4UHRzcDdZYm9IcmMwTlI3QjlQbHF3Z2pwMm0tX2R0Z09uVl9QWHVCX1FmaFdRcFd4d1Uxcmw0eUlwUlJ4Z1Q3VkdkSlNfb09yMWptWXV3SlRmcVVUMkFYN3lwRktEUmZ6cGdyT2tNRXpsaFNyYl8tMENrOURhNi0wUVVvSmdzYVJXb2JPenI2Sjdu?oc=5",
-      "published": "Tue, 06 Oct 2026 19:55:11 GMT",
-      "summary": "Maritime Sanctions Framework Expands with New US and UK Regulations&nbsp;&nbsp;Data Portuaria",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-07T03:55:11+08:00",
+      "title": "What is ENETEC, the company of the Cuban regime that received the fuel intercepted by the U.S.? - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWEyY01pWllQVGFrSlNycTUwdTVLUEctSlZHWlpCSl8zWTVHdDEwcldLWENCZ0FMbXRPbmR2RUdiU2pkQXEyNmloUXFIMkx6WGdJUEMxMnNUN2l0MTNwWWpkekthb2gxMjJGbEVtRjg1UzgxMjNaeDdlM2Vtb2tUam4yZUJZTVFwNmtWTVRxN2tEYV9COXF6Yk4ycV9VaDFOODhWQWNVRURaODhvVUgwdEdlT1YxQQ?oc=5",
+      "published": "Wed, 07 Oct 2026 19:36:29 GMT",
+      "summary": "What is ENETEC, the company of the Cuban regime that received the fuel intercepted by the U.S.?&nbsp;&nbsp;CiberCuba",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-08T03:36:29+08:00",
       "source_detail": {
-        "name": "Data Portuaria",
-        "url": "https://dataportuaria.com"
+        "name": "CiberCuba",
+        "url": "https://en.cibercuba.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -103,15 +254,47 @@
       "relevance": "low"
     },
     {
-      "title": "ITAR Brokering in Foreign Defense Transactions: DS–4294 Approval, Expanding Enforcement, and Hidden Liability Risks - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXpySVF5VFJzTXdDZ1J4ZWh5dngtemVIaTVSZFdxSjVlbTJzZTFwbUp1cVFfODJnOXByVm93bFZvdjN2SnBlVmc2NWIwS0s3WWIxYktUZzBoNVFZNEdZc2F5QVJrOG5BTW0zSWYwbE01UG4tbDVMbkJXM0ZIZjJuc21iVjlCY2dNSUFjaW1KMVNhYlh2WGV3Q0R0amlDMXRCUkxZcTZEaHFjR2w5ZkFTWHFfeVVNV2xnT05J0gG7AUFVX3lxTE5ZenJJUXlUUnNNd0NnUnhlaHl2eC16ZUhpNVJkV3FKNWVtMnNlMXBtSnVxUV84Mmc5cHJWb3dsVm92M3ZKcGVWZzY1YjBLSzdZYjFiS1RnMGg1UVk0R1lzYXlBUms4bkFNbTNJZjBsTTVQbi1sNUxuQlczRkhmMm5zbWJWOUJjZ01JQWNpbUoxU2FiWHZYZXdDRHRqaUMxdEJSTFlxNkRocWNHbDlmQVNYcV95VU1XbGdPTkk?oc=5",
-      "published": "Tue, 06 Oct 2026 19:36:42 GMT",
-      "summary": "ITAR Brokering in Foreign Defense Transactions: DS–4294 Approval, Expanding Enforcement, and Hidden Liability Risks&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | FCPA/Compliance",
-      "published_beijing": "2026-10-07T03:36:42+08:00",
+      "title": "Investor Outlook: Stelco takeover could preserve Canadian steel jobs - BNN Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMG0zY0ZoZk5YUnp2RllpVGdpN01QWXU2eTIwNmdkTXU3VmVJMUtFazNPcVpfRjN6cVh2SGZ6Uy1EeWpTaDlZTWlnSE9KNzMxeGpEVXVQSm9QU25iOVNPWFBDaHIwZ0hQcmlORml2SXc2WVUxaU1lYmRmRnBLXzc5QldwcmltLWtFcy1mbHVzTEJyYTIyNmozc1JQWjJpX3FaTHhnR054dFdQd0FtR3JxZFR5dThPb1hlQjc1TFUtODhzMU9pNGl3dXNpMHc?oc=5",
+      "published": "Wed, 07 Oct 2026 19:12:39 GMT",
+      "summary": "Investor Outlook: Stelco takeover could preserve Canadian steel jobs&nbsp;&nbsp;BNN Bloomberg",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-08T03:12:39+08:00",
       "source_detail": {
-        "name": "The National Law Review",
-        "url": "https://natlawreview.com"
+        "name": "BNN Bloomberg",
+        "url": "https://www.bnnbloomberg.ca"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russian court fines rock musician Boris Grebenshchikov 15,000 rubles for giving an interview to Meduza - Meduza",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMGw2Tm9IMDV4ZFlvNDd5TE93TTJwRkI5SEtSQnVWa3h3OHVhWXdBX2p6SEZHX3RlSWFRNUNGS3hQbU5wclBTeVBjZlhmclJCZHhYSXBKWGM4N0d1NUxyNDdvOGNxVUtFOUJvRmdpOHZIdWhIOEg0UFgyMUpIcnc5dWVUS2N5UVBkeFhuZzRFYVgxbnVKUTlkRHVLS2hpbzhyUTFpVlFsUVowTVd0NUdnRi1Wb2IzNjEwOXJjdnMwVGkxSTJUYzRxcGlReTJoS0E0UXJ0QkZtY2o5VTjSAdsBQVVfeXFMTzBsNk5vSDA1eGRZbzQ3eUxPd00ycEZCOUhLUkJ1Vmt4dzh1YVl3QV9qekhGR190ZUlhUTVDRkt4UG1OcHJQU3lQY2ZYZnJSQmR4WElwSlhjODdHdTVMcjQ3bzhjcVVLRTlCb0ZnaTh2SHVoSDhINFBYMjFKSHJ3OXVlVEtjeVFQZHhYbmc0RWFYMW51SlE5ZER1S0toaW84clExaVZRbFFaME1XdDVHZ0YtVm9iMzYxMDlyY3ZzMFRpMUkyVGM0cXBpUXkyaEtBNFFydEJGbWNqOVU4?oc=5",
+      "published": "Wed, 07 Oct 2026 16:01:00 GMT",
+      "summary": "Russian court fines rock musician Boris Grebenshchikov 15,000 rubles for giving an interview to Meduza&nbsp;&nbsp;Meduza",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-08T00:01:00+08:00",
+      "source_detail": {
+        "name": "Meduza",
+        "url": "https://meduza.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Saudi Arabia’s Oil Supply Disruption: Remedies Available to Petroleum Buyers Facing Non-Performance - Foley Hoag",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQaWFGQ3hhejN1RGVDc0Vfc3Q2WUFpVEw3TFZKVUw5ZzlaNkRiTkgyN1FkVHE0U2FOd1Z2NUt1a182SkQ3QXdHLVNoMEZ6RktvNnlyZl9VaTZYcVpnQjkyQ2M3V2tlcDFEOW1LX1EwYUx5TlRqY0EzVFVaZGRibFJzSVI5cWlBcktjbVNiUUlBdmVPYTNSVWc5T2NBTDllZE1jVkhLeWRTSXJNZExteEpaT0lYYVJSNHVSMHQzZWdQaTE0dTNHMklYUm1JUmNXeVNkYzVmRXh3YjlPT09PeWctWkdwQzlWWnBNTFozM0Vac090Mk1vOXdiTm1tMnk1dUlYeGN4VFNPX1FoSUNBY3ZPS0xB?oc=5",
+      "published": "Wed, 07 Oct 2026 15:09:11 GMT",
+      "summary": "Saudi Arabia’s Oil Supply Disruption: Remedies Available to Petroleum Buyers Facing Non-Performance&nbsp;&nbsp;Foley Hoag",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-10-07T23:09:11+08:00",
+      "source_detail": {
+        "name": "Foley Hoag",
+        "url": "https://foleyhoag.com"
       },
       "priority": 0.0,
       "category": "供应链风险+FCPA",
@@ -119,15 +302,15 @@
       "relevance": "low"
     },
     {
-      "title": "EU envoys set to approve major new Russia sanctions on Wednesday - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTDJ4ZF9TakJ4NF9aZUlEV2ZEanBXX2xoRzRhOUU1TldVUy1pdWYyM2ZQVndneV9GSlJSMTRaaFhPdk5pZm1tY3FfWlJPOHFOVE1EbkZIR2l5dW5mYlZnWlVDZmVFaXRCTmk1cG1vc2hybmVNdnhzdk9rX0xzS3VvVi1hLTFCanpEQXREd21Ib1R3MHRRUWJ5QVBmZUZZYW5IY1E?oc=5",
-      "published": "Tue, 06 Oct 2026 16:39:20 GMT",
-      "summary": "EU envoys set to approve major new Russia sanctions on Wednesday&nbsp;&nbsp;Reuters",
+      "title": "‘No more dumping, no more spying’: European Parliament hardens line on China - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeVdvOWZmU1RtWE03cXZFYkYwdDdrY0VLdFJIc2E4alo3a29ibzhET2pwTlo2ZUo1Q3g2OE5MUDdIajFVOHRlVlRQWVhqRUt2SnlHdlE2Z29tUzBVS2JHTXF6aWdCaXluT1lFM2hjMTZ0M3RWaTFUYkVWM1RtLW4xa1gtMTk1WjJjdlRROG4wNGZlWjR5RjNyX1dwd21KVmFxWG5rOW1nbVFoaUlrY0V4bndEMmttXzctdV9lQ1NoTUtMcG5Tc2fSAcYBQVVfeXFMT08yVW5XbFBDTjk5QndjbVBIVGdfQmQ5dVV6MDRzeDFQZTQwYmRBazVvak9lT2NTcUQySjBHSDRXVEhWeERESnl5TmM3WXJwYTNybFBINEZ6RkVtWFE5Q0xhdkpqc2pVbTdxaVNvUDU3OTlJLTV0WEZ1UWVubTBZdmhLRE9FRE9uWW55R29jeXhabENxeklzbVBxSmlnV2trMVh3MjI4a2VDVUlCeXVVeUd3R0U5Uml3SVVla3ZackRZVWRuM1Zn?oc=5",
+      "published": "Wed, 07 Oct 2026 11:48:55 GMT",
+      "summary": "‘No more dumping, no more spying’: European Parliament hardens line on China&nbsp;&nbsp;South China Morning Post",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-07T00:39:20+08:00",
+      "published_beijing": "2026-10-07T19:48:55+08:00",
       "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -135,15 +318,15 @@
       "relevance": "low"
     },
     {
-      "title": "BRIEFING ROOM: International trade and sanctions - Financier Worldwide",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTlPZERXcWRHNnhkME1meUVvX2Yyb1NXSXNmNklFR1M4YTB0cHlWeDU5WEduSE16WUx3MnFXb0lKN2RrZ3Nkamk1TXNJQmJHRmphdmxnQklsektzR3BwUFAzUTBxbjB4Z2N1dmNnUjFWS19rRTZNdDluYW5GUm95Mm1CSnRLNjlpNnc?oc=5",
-      "published": "Tue, 06 Oct 2026 15:15:29 GMT",
-      "summary": "BRIEFING ROOM: International trade and sanctions&nbsp;&nbsp;Financier Worldwide",
+      "title": "EU Readies Biggest Russia Sanctions Sweep Since 2022 - Kyiv Post",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yQUZPems3YWR5U1NEdHktakFOSm9RY0pPMmtHdlBRNnh5WlFZdFlGS1BYMTFsejMxMFFLMkFQRXVNZ0l1bXM0ZlRfbw?oc=5",
+      "published": "Wed, 07 Oct 2026 11:44:09 GMT",
+      "summary": "EU Readies Biggest Russia Sanctions Sweep Since 2022&nbsp;&nbsp;Kyiv Post",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-06T23:15:29+08:00",
+      "published_beijing": "2026-10-07T19:44:09+08:00",
       "source_detail": {
-        "name": "Financier Worldwide",
-        "url": "https://www.financierworldwide.com"
+        "name": "Kyiv Post",
+        "url": "https://www.kyivpost.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -151,31 +334,47 @@
       "relevance": "low"
     },
     {
-      "title": "US Dismantles Major Hamas Financing Network in Gaza and France - Israel Defense",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SV2RQS1lkcXpKMmhPSVNyLWdadjZvWFNfaE9uOG1RYTJueEotMnB4SThVWERsSWY2bHdWMUZmNXpGQnYwOFlOZlJfaXp1M05sdnltSTFod3g?oc=5",
-      "published": "Tue, 06 Oct 2026 14:05:01 GMT",
-      "summary": "US Dismantles Major Hamas Financing Network in Gaza and France&nbsp;&nbsp;Israel Defense",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-06T22:05:01+08:00",
+      "title": "Geopolitical Risks Reshape Construction Contracts, Experts Flag - BW Legal World",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2tlSjNxWGh5cWZ4WjlKcmQzbDY0UlV3dUMtZkQxZjJVUERKd0lOdktWMDdxNUFrRXpKYlVwQThGdE9ZSWhIWGc0bWNuS19WUTdoeEljNWZYYTUtNmRxaE42dFlyeGRyd25yaUxpXzhXeUtWUk44bW5JTjdxcmtWMVM2MVRxX0NYdVltWHBGWlN0OGNRU2pIWDF3?oc=5",
+      "published": "Wed, 07 Oct 2026 05:45:53 GMT",
+      "summary": "Geopolitical Risks Reshape Construction Contracts, Experts Flag&nbsp;&nbsp;BW Legal World",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-10-07T13:45:53+08:00",
       "source_detail": {
-        "name": "Israel Defense",
-        "url": "https://www.israeldefense.co.il"
+        "name": "BW Legal World",
+        "url": "https://www.bwlegalworld.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "供应链风险+FCPA",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Anthony Albanese's nemesis unveils communist-style plan to take control of Coles and Woolworths and slash grocery prices - Daily Mail",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMS1LR2NEeTBYcG1OTlZjaWRhY0xJY2JJZlNIMThFSTdXZU1UMTJFUTJNZjdBNjhUMjc0Wk5mVlpUUktfODloT2h2aVVmV09KUW5OZU9oWVNFQ01DM0NBRTV4T01vV3otMkk3SmV4bkUyaUJYanFxek9zQk5DdkJTMW92ZnFmZVlmMFV0VklrZm55Wm1yTjIxUlZLZ0o2Uk1HWXBCUC1CVXBCd9IBrwFBVV95cUxNWGYyXzNRaTJiS1ExQkEteUQtN1MzZlFtZmktNnprVjNTQW5FX1l4dHJpM2tqOW9DYnFCcnd5SjM0bHo1cDdReVBwZTE1ZXpyVGVVbmx3OERvRTB4eEpJT1cxeHpXQ1Q5UDZUUTFtSFkyMkNkdUsxdVdTQVFWTXRkamhiWVpDd0hPUUswMWt2QU44VndUQkd3RGpLMjIyNHBFVVBTUWZpVHpoUkRweE9N?oc=5",
-      "published": "Tue, 06 Oct 2026 03:23:25 GMT",
-      "summary": "Anthony Albanese's nemesis unveils communist-style plan to take control of Coles and Woolworths and slash grocery prices&nbsp;&nbsp;Daily Mail",
+      "title": "America’s Wile E. Coyote Moment - Lew Rockwell",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZmowQm1ic0M0LTdtSHVFQXhnNW5xYnBTZmY0dEl5MkROOWZTOWU3UVQzYlRHQlJhc2VsT0dUMm96ZmRESXQ0NlZwQmk5Snl2dkZSbm1fZ3R6Qlh4aElNYnJ0MmZTXzU5ZHBGamthN29JOVBrUnJ6STZPNWttWGhjWlln?oc=5",
+      "published": "Wed, 07 Oct 2026 04:01:00 GMT",
+      "summary": "America’s Wile E. Coyote Moment&nbsp;&nbsp;Lew Rockwell",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-07T12:01:00+08:00",
+      "source_detail": {
+        "name": "Lew Rockwell",
+        "url": "https://www.lewrockwell.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ottawa gives Stelco's U.S. owner 5 days to share plan to keep jobs - CBC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hWm93YWVvVDVuckxSN1d5anRGRGgwYlRONHRJTC1SZ1ZBOVIxZThfb0FLSldCRGl0N1pieUxacnc2Y1JZOFJLZHF1cEFTZVhWdnc0eXN4WlJRVHhXOUtYLUxDc0ozdzdhd1ctQTZB?oc=5",
+      "published": "Tue, 06 Oct 2026 14:56:00 GMT",
+      "summary": "Ottawa gives Stelco's U.S. owner 5 days to share plan to keep jobs&nbsp;&nbsp;CBC",
       "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-06T11:23:25+08:00",
+      "published_beijing": "2026-10-06T22:56:00+08:00",
       "source_detail": {
-        "name": "Daily Mail",
-        "url": "https://www.dailymail.com"
+        "name": "CBC",
+        "url": "https://www.cbc.ca"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -183,95 +382,18 @@
       "relevance": "low"
     },
     {
-      "title": "The Debt Toll Booth: A Modular Solution to Addressing Sovereign Debt Crises - Carnegie Endowment for International Peace",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNVZ4aENtelRBMnlvY3RSZVU4dnF1Q1FYQUh4RnlYbzJzX29NZ3IzNjk5YzAwZEpHSFNLLU45NmdBbGRlckJSN09oNHM0TllscFY4TTlqYTNsczlXTE9LMXBfTW96RmUxWFJvN0FDaGNwb0tYdVJYLW1FYlJjaHRZTU5xSlRQQVBqYW0tZ2Fiajc5amVXdllZWXlDV05hMHBmak1pSTRjQ2VBRXVxZXFHdVJoT1BaOHZ0dFI0SUxB?oc=5",
-      "published": "Tue, 06 Oct 2026 01:54:58 GMT",
-      "summary": "The Debt Toll Booth: A Modular Solution to Addressing Sovereign Debt Crises&nbsp;&nbsp;Carnegie Endowment for International Peace",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-06T09:54:58+08:00",
-      "source_detail": {
-        "name": "Carnegie Endowment for International Peace",
-        "url": "https://carnegieendowment.org"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russian Gold Sanctions Push Record 112.7 Tonnes Into Hong Kong - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTFYaWNuMXRkNjEyTFBpUGlkUmZwRVB6N3BSdGhmWlpxVGlqTEEtSUpBV1JkWEd5NlNCTkM2eGFWeDAwM05VQUNIYmFDd1lCeGx5UXdRYktJYnZFbzczd2swUDhhREhuN1V6THI4MG5GaG41T1B4eldjSkp5RWozX2Q0a2FDUFBCMHpKeXprWXlDZEha?oc=5",
-      "published": "Mon, 05 Oct 2026 23:55:18 GMT",
-      "summary": "Russian Gold Sanctions Push Record 112.7 Tonnes Into Hong Kong&nbsp;&nbsp;Discovery Alert",
+      "title": "US senators urge Trump administration to enforce new Russia sanctions law ahead of Oct. 18 deadline - The Kyiv Independent",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT3Y0NFRtWkh5M3JwUzA4VjVBMzlHczZobVlwQ1dpNVg4NXl3OTZyb1lHWnIyRnQxeDhSdGw2dVVGektRSXZHaGEtZlN5dEhldUxnOUJUR2Z6bERBMTRudTJjSVB4NG13cko2VndxSmNpNjNTWndKRU11cERkb1czNVhuWUFPdjVub2l6Ukl2cWdRSlpJQkRvbzdpTkRBN3VLUzVhMFE5bXM2dEZZS2RGQU9OaWJQbHFCWmVPUk5WbjlfVUg2dHc?oc=5",
+      "published": "Thu, 08 Oct 2026 01:52:29 GMT",
+      "summary": "US senators urge Trump administration to enforce new Russia sanctions law ahead of Oct. 18 deadline&nbsp;&nbsp;The Kyiv Independent",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-06T07:55:18+08:00",
+      "published_beijing": "2026-10-08T09:52:29+08:00",
       "source_detail": {
-        "name": "Discovery Alert",
-        "url": "https://discoveryalert.com"
+        "name": "The Kyiv Independent",
+        "url": "https://kyivindependent.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Too close for comfort: Kenya's banks and their government debt habit - Business & Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYy0xbzBMejdBQkFvUkk4MTJSX0owWlJ5MEdwVGNDMVFmbkZpRXBfVWVwSENCOER2SEQzYUZJa3dSRHl0S3EtV1czQ0RCR2VaN0EtUDQ1czBRNFJHVGJRa1B1TFhNLU9tc1hsaWRXMVZHdFA2NXRTTGZ5WHozM0lEM0xWT0puTzJzdl9VV1dfSlRRLXhLZ2FoMk15RzZwZHVYQWc?oc=5",
-      "published": "Mon, 05 Oct 2026 09:03:36 GMT",
-      "summary": "Too close for comfort: Kenya's banks and their government debt habit&nbsp;&nbsp;Business & Financial Times",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-05T17:03:36+08:00",
-      "source_detail": {
-        "name": "Business & Financial Times",
-        "url": "https://thebftonline.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US expands Hamas sanctions after tracing crypto transfers from France - CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWN2YW1CY1FFTjNZZE5CQy1xTUtQOXdPM2x5d1JFb3drMWl5ZHRDMFYwX3RpNjN2MGxUZElVMWluTGlQaVVTTTZ3WFJFd1FGSFdMRWpCSnRpQUhnZjRENVlGZk5zeDRJWjhhejZKbFR3bGtFQWVTNTlFVHpqeXpSVzE1Z0t4cjNtVk53Y1lPSUc3c1c0YkNWWENDaUZ5Q3pPZVdnVm4tbnFxSEk?oc=5",
-      "published": "Mon, 05 Oct 2026 08:51:06 GMT",
-      "summary": "US expands Hamas sanctions after tracing crypto transfers from France&nbsp;&nbsp;CryptoRank",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T16:51:06+08:00",
-      "source_detail": {
-        "name": "CryptoRank",
-        "url": "https://cryptorank.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "French Charities Accused of Funding Hamas Through Crypto - Fincrime Central",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9md2tTV0E4M2hIWE45WmVxTnFucmRRWEFFUENYODZDaTAyVlFQYW9zNTJkdVg5TW5PYml6TEpVcS1qMGpxLXptZEhsRlB3dGluczFjQTdTaWRMVF9WTmxLUEJSOXM0aHpuMEVYX2NHQ005YXNfRVRoZTR1ZFE4QQ?oc=5",
-      "published": "Mon, 05 Oct 2026 05:56:10 GMT",
-      "summary": "French Charities Accused of Funding Hamas Through Crypto&nbsp;&nbsp;Fincrime Central",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-05T13:56:10+08:00",
-      "source_detail": {
-        "name": "Fincrime Central",
-        "url": "https://fincrimecentral.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Possible Vulnerability in Apple’s Automatic Reboot",
-      "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
-      "published": "2026-10-06T11:06:46Z",
-      "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours.\nThe new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that allows them to unlock and access data stored in...",
-      "source": "Schneier on Security",
-      "full_text": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn’t been used for 72 hours.\nThe new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that allows them to unlock and access data stored in iPhones and Android smartphones. Magnet has developed a new device called GrayKey Preserve and a feature for its regular GrayKey devices called Evidence Preservation Mode, according to the video.\n“This is an absolute game changer for iOS forensics and a function that I wish we had years ago,” a Magnet employee says in the leaked video, specifically mentioning that the solution is targeted at the iPhone’s inactivity reboot feature and the data it makes unavailable. GrayKey Preserve and Evidence Preservation Mode are also designed to combat another iPhone feature that automatically deletes certain data ­- such as cached locations, and recently deleted photos and iMessages ­- after a certain number of days. “We’re gonna be able to preserve that data for an infinite amount of time.”\nPresumably, now that Apple engineers know that this flaw exists they can find and fix it. AI turns out to be really good at this sort of thing.\nAnother news article.",
-      "published_beijing": "2026-10-06T19:06:46+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }
