@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-08T04:59:57.766359+00:00",
-  "fetch_date_utc": "2026-10-08",
-  "total": 11,
+  "updated": "2026-10-09T05:03:21.979792+00:00",
+  "fetch_date_utc": "2026-10-09",
+  "total": 13,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 6,
+      "count": 7,
       "feeds": 5
     },
     "半导体+科技": {
@@ -45,11 +45,11 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 1,
+      "count": 0,
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 4,
+      "count": 5,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,19 +61,19 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 63,
+  "fail_feeds": 64,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "XPeng Completes G9L Trial Production in Austria Ahead of Debut - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQnFXZFhET2QtTmFwLTlfa2NvR2NQNjd5bWNPWG9IT3J4RTdtM210SWIwVXJJcTIwMkVqUWduZmYxcjNETGVRYTBXcFZDU2tObGRNYmRTME9TUm1IM01ud1lzOVYwUHAzS2wtYlNJTnlFYlQteUUxYjh2eFhid3pDMUNsZ09ReG14RWhDdVAtM014aEt0ZDVfa25HVXoyMVE?oc=5",
-      "published": "Wed, 07 Oct 2026 13:34:05 GMT",
-      "summary": "XPeng Completes G9L Trial Production in Austria Ahead of Debut&nbsp;&nbsp;Electric Vehicles",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-07T21:34:05+08:00",
+      "title": "BYD blames geopolitics as Europe’s hybrid loophole narrows - Automotive World",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVjdQNnN2aVJvVERvZDdld2k5QjU2OWdaTHpxc2VERE8yNExkWTdUN1ZwY0J3cUMtRGZhSlBpRERxX2Y2ZVpyRm5sOHBvOFU0NTM1SWZQSzh3c0d3d21FQW5OQVJJeTAwVzUtNFJwdURaVHRvd1hYWF9JdVR0MVFNZFZyRzJ2RFZ6UTZlV1dvdTU2V2xFVThfUVdTT2hrVDFBUU9zSGVR?oc=5",
+      "published": "Thu, 08 Oct 2026 12:53:38 GMT",
+      "summary": "BYD blames geopolitics as Europe’s hybrid loophole narrows&nbsp;&nbsp;Automotive World",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-08T20:53:38+08:00",
       "source_detail": {
-        "name": "Electric Vehicles",
-        "url": "https://eletric-vehicles.com"
+        "name": "Automotive World",
+        "url": "https://www.automotiveworld.com"
       },
       "priority": 1.2,
       "category": "新能源车+电池",
@@ -81,15 +81,79 @@
       "relevance": "low"
     },
     {
-      "title": "XPENG G9L COMPLETES FIRST PRODUCTION TRIAL IN EUROPE - XPENG",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaN2dlM1F0TTBnU3AweDlxaXBhTGxmSVoxM1JBOXpzQ3EtYW5nRUFidURjMUYyRmhFbHRSaEVDR2oyZW5wcU5TZkR4elZJcl9lbm9JVkhUM1J6T1BuNUgxa2UwMWRlZ2JRRDNV?oc=5",
-      "published": "Wed, 07 Oct 2026 11:59:04 GMT",
-      "summary": "XPENG G9L COMPLETES FIRST PRODUCTION TRIAL IN EUROPE&nbsp;&nbsp;XPENG",
+      "title": "XPENG G9L Completes Production Trial at Magna Graz - The EV Report",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1neFNudHJKNm1kT3NvSWN6X25WeHhhQjZPX1V4ZFlPeDVsTmNCT25WZUQ4UzBiWUREM0gwZk5aSXhER1dHbEJHM2NuVzVCWG5tSTZrRVpVTnhzR1BxRGFjRlZZRWotc0JPeWk3V1J3?oc=5",
+      "published": "Thu, 08 Oct 2026 12:19:29 GMT",
+      "summary": "XPENG G9L Completes Production Trial at Magna Graz&nbsp;&nbsp;The EV Report",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-07T19:59:04+08:00",
+      "published_beijing": "2026-10-08T20:19:29+08:00",
       "source_detail": {
-        "name": "XPENG",
-        "url": "https://www.xpeng.com"
+        "name": "The EV Report",
+        "url": "https://theevreport.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Geely's Monjaro EM-i Will Make Euro Debut At Paris Motor Show - Motor1.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90NkdkMVpkanltMXU3S2V1YWhMZE10STlSeVNCOFhCWGVJVE1EOTRteks3bWppZnh3SEZiRlVDQTN0cldWSTRSbDI1UTJwbUNlZVlKcFNaU0ltUzdJVjdwTGdET1puWXAyVEZQaHJTdEI1dw?oc=5",
+      "published": "Thu, 08 Oct 2026 06:18:00 GMT",
+      "summary": "Geely's Monjaro EM-i Will Make Euro Debut At Paris Motor Show&nbsp;&nbsp;Motor1.com",
+      "source": "GNews | Geely Overseas",
+      "published_beijing": "2026-10-08T14:18:00+08:00",
+      "source_detail": {
+        "name": "Motor1.com",
+        "url": "https://www.motor1.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD's European Hybrid Run May Be Ending Just as the Tang Gets Its Cabin Revealed - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdktzX2FTSmJMTU9XMFJHcVdCQ3NPdTl3RThtTEMyNmdRNzB1LU9kdHdnbnlTb3pPSG9lVmFxX1VTSFpocm1uRTZDTDliczhic2RtaDRvQzVCR1YzVFJqeDhPZUJSNkhtd3B5ME1nMlN0eVhsUTNGUnpzNl9mZzB5RGJMSGJzUWJWNXMwYnE5ZHhHTG00QkdqWWJOeGZGank0R2RYR3lkYXFiRENxaHBqS0Y1S2NsRGJjNGk5YlFyLXhYNUFnWUJUMHBCX0JfaUpHRlU5MVg2ZXo5TVE?oc=5",
+      "published": "Fri, 09 Oct 2026 02:30:57 GMT",
+      "summary": "BYD's European Hybrid Run May Be Ending Just as the Tang Gets Its Cabin Revealed&nbsp;&nbsp;AD HOC NEWS",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-09T10:30:57+08:00",
+      "source_detail": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD opens pre-orders for larger second-gen Seagull ahead of launch this year - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nRTJRZldYWW1BWUZzLVdqa0dpZjRSY2k4ZVFjSXVXRThlVW9BQ2liZVMxZmo1OUVRVy13RXNiYVBrZ2JjMWI2c2hnS3o0NXEwUjlTaUFwRGQxWEtPMldIeFlna3RNb1p4WFZVNmhYSUhPd1BfTzhQRVhoMXY?oc=5",
+      "published": "Fri, 09 Oct 2026 02:01:00 GMT",
+      "summary": "BYD opens pre-orders for larger second-gen Seagull ahead of launch this year&nbsp;&nbsp;CnEVPost",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-09T10:01:00+08:00",
+      "source_detail": {
+        "name": "CnEVPost",
+        "url": "https://cnevpost.com"
+      },
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD's Hybrid Loophole Faces Closure as Brussels Weighs Quotas and Wang Retains the Helm - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbmdoYjBUY3hqV1hvY3RubkE3VExqR2hlQmhHZlJHSHJfNXB1SDFuaEZEOHhabkZwbC1zcFVHdDd1Qk5ueTRabGF3WEZjNW1FSDhsYjlQODl4bHBjYjR1VkRVSTJQaXpGWUp3UzhwNC1YcU1lbzlVVUdYV3NxVXRLV3dLY0t5WXFvNG5QQkozNnBLM3oySmIwcFFDZnBBdV9vX05weVFLWXRjMTBlYXgySEpHb3ZvaG5jYTBnWmdETUxHVGRXNEtvNGxzZGViTlNHMUQwUjlPbGhPUQ?oc=5",
+      "published": "Fri, 09 Oct 2026 00:50:29 GMT",
+      "summary": "BYD's Hybrid Loophole Faces Closure as Brussels Weighs Quotas and Wang Retains the Helm&nbsp;&nbsp;AD HOC NEWS",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-09T08:50:29+08:00",
+      "source_detail": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       },
       "priority": 1.2,
       "category": "新能源车+电池",
@@ -113,31 +177,15 @@
       "relevance": "low"
     },
     {
-      "title": "Battery Swap Hardware Market To 2035: Fleet Electrification Drives Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORFJMbkY1bWtkOG9HaVowT1NuNElsV2dSZFpxRHdzOW52OWtHZmtpMFE1ajhKS1d4THFRUUdKS21RTXVlRERHOFUwMHd4RkxGdW44MUNRVG5oSWwxTFZhUTdpOWJhVldnSGozX0lla3NBYXItbXlkSHJYZkRULTJER0w4Q1RmbDlqdk93SENPWDlTTDRfbWJ2MmhHbHVUeVJqSUNMME5PbFFOMTdqRVE1YkQyZw?oc=5",
-      "published": "Wed, 07 Oct 2026 14:46:04 GMT",
-      "summary": "Battery Swap Hardware Market To 2035: Fleet Electrification Drives Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | NIO Overseas",
-      "published_beijing": "2026-10-07T22:46:04+08:00",
+      "title": "China Top 10 Industrial Battery Storage Manufacturers Gain Market Attention - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbVBNSVpjaFhTM2dnb2ljOEw1LWl5WGdQVEl3R3BZbmNCbHJxbXVEZGt2b3ZoOGFiN3QyanpIRHZrQ0ZzVlFJUTZKcWh6aE9CM3V0anlGWnJEUWMxWmFpOUd1R2xYUThHWTBTRUVUVm9WZzZMaHQ1aV96a2w3UkllYl81OUw0M1FjbTFNYW9GdkFpQlB2Q0V6Rmx3?oc=5",
+      "published": "Thu, 08 Oct 2026 18:04:06 GMT",
+      "summary": "China Top 10 Industrial Battery Storage Manufacturers Gain Market Attention&nbsp;&nbsp;openPR.com",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-09T02:04:06+08:00",
       "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Low Voltage Commercial Switchgear Market Forecast to 2035: Digital Retrofits and Energy Efficiency to Drive Growth - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWV9pc0Z3VkJNSU1TX3Jhd0VkZlpNWDl2ZFhKWXpFSnZLd2pmT25CUnlIeXFQVHh3enIzbzZlRks4eW54d1lUUXdVY1ZnMldQN3dSVlRJcGlDT29NeUxXWVhOYWVLQWtSc0p3NzNOemFna0hUd2d0SVM3NW9yY1dDa1paTVEyNFluRE85MHBKUGxWV3A1Q1BhdmtiOFAxM003emVwZ1Jtd2VlOFhUR002VDR3clJLcWpmU1k2NmEzbl9RMHZkVXFCT3NMOVg3YS1KYXNPR1lQMF9xOHM?oc=5",
-      "published": "Wed, 07 Oct 2026 12:46:04 GMT",
-      "summary": "Low Voltage Commercial Switchgear Market Forecast to 2035: Digital Retrofits and Energy Efficiency to Drive Growth&nbsp;&nbsp;IndexBox",
-      "source": "GNews | T17 低压电器板块",
-      "published_beijing": "2026-10-07T20:46:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
+        "name": "openPR.com",
+        "url": "https://www.openpr.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
@@ -145,18 +193,18 @@
       "relevance": "low"
     },
     {
-      "title": "Cmos Camera Market Forecast to 2035: Automotive Safety Mandates and Industrial Vision to Drive Growth - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTW5wOG42R2hTZG50LWJhTm92ZXhlam4zeEVYWmlfa3ZfX0w1RW1rQzVMYnkwRmZyeGtubkNLNUJVUzlJNGpxejY0VEgzQ3RXUHNzVGl2ZFM5SjlQZjlHYmh6eVg3Q0tqc2hjMXBKTTJHeXc4aE10V0N2bUh3VUtWT2tPeVRHdTBRdW9TcTlZVWJudU5oWUFLcnZPa2tnbHdVZnlaajhUNFNCV19MSDdITXA3QmFTdWgyM1d0RnA1ZkV6UU5XcDdQOXpR?oc=5",
-      "published": "Tue, 06 Oct 2026 17:26:04 GMT",
-      "summary": "Cmos Camera Market Forecast to 2035: Automotive Safety Mandates and Industrial Vision to Drive Growth&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Will Semi T17",
-      "published_beijing": "2026-10-07T01:26:04+08:00",
+      "title": "Two Wheeler Battery Market To 2035: Urban Electrification and Swap Networks Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmhwSmQtNmo3Y2hqOW1YWXJzd1h5ZENET2ppa3BOcy04TF9zdTJQaTA0WTA5RlhiNzNjLUF6ZFlEREJ5T1BtZnk0SEl5empJOFpDRWc1Smh5TW9QRUs5RnJUblVyYmRRNVFDbGFZem9lWm5tSll6YzFmeEtOSldDck1renBkajduYWtHWjJyZXJLVHplRDVjdi1Xd0otdWhlR1JRa3VHWlpncmpOOXZ6RmhNdWxaZjRsekZBbnhwTkRZdnBz?oc=5",
+      "published": "Fri, 09 Oct 2026 00:01:04 GMT",
+      "summary": "Two Wheeler Battery Market To 2035: Urban Electrification and Swap Networks Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-09T08:01:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
-      "category": "Track17重点27股监控",
+      "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     }
