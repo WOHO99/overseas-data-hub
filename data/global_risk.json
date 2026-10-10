@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-09T05:03:18.261661+00:00",
-  "fetch_date_utc": "2026-10-09",
-  "total": 60,
+  "updated": "2026-10-10T04:48:40.029561+00:00",
+  "fetch_date_utc": "2026-10-10",
+  "total": 40,
   "high_priority": 0,
-  "medium_priority": 8,
+  "medium_priority": 1,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 23,
+      "count": 15,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 4,
+      "count": 5,
       "feeds": 4
     },
     "资本管制+主权风险": {
@@ -21,7 +21,7 @@
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 2,
+      "count": 0,
       "feeds": 2
     },
     "中国企业视角": {
@@ -41,7 +41,7 @@
       "feeds": 0
     },
     "安全与隐私RSS(D)": {
-      "count": 50,
+      "count": 40,
       "feeds": 4
     },
     "新增直连RSS(E)": {
@@ -49,105 +49,19 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 10,
-  "rate_limited_feeds": 0,
+  "fail_feeds": 12,
+  "rate_limited_feeds": 1,
   "articles": [
     {
-      "title": "Draft Investment Screening Act Would Recast German FDI Regime - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa2txQVdLSHFXTmI4SktFMnQtY0lDMVRTckVYREJ1c2w3OHJzR21RcjJvVHdMalc2TnM3Nk1RSVhaZDl1VGp5aVoyTTY0NUd6dFJBcGp6a3Z0Uk9HdGF6ZVJXdlFSel96bEhTbTRTMDNJbTlqeV9QMXpwZmZDdmlSOS1MTm5abjZqUV9kRVJZT2tTeTdiS2RWNnBR0gGfAUFVX3lxTFBWTjNXODU1aUxKelV4STMxODJvNjFOWS03cnVOM0FBdU1lU0Ixc3dlTW03d2NULTlmdVluWVhUZU5jUUk0VmFmTEl0NThVSW9NRDFVUVlWWDlfWENEMGVsaF9iNWh6akRiektEWjVQMU1yWXRDWlc2SElHWE05aks5djB6dXgydnFqZ1NxQV9RcThUUmtFTjJpYkFmMEVxWQ?oc=5",
-      "published": "Thu, 08 Oct 2026 19:14:14 GMT",
-      "summary": "Draft Investment Screening Act Would Recast German FDI Regime&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-09T03:14:14+08:00",
-      "source_detail": {
-        "name": "The National Law Review",
-        "url": "https://natlawreview.com"
-      },
-      "priority": 6.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://natlawreview.com/article/draft-investment-screening-act-would-recast-german-fdi-regime",
-      "full_text": "A first draft of a German Investment Screening Act (Investitionsprüfungsgesetz, IPG) was circulated in early October 2026. The text is a so-called Referentenentwurf – a working draft prepared by the Federal Ministry for Economic Affairs and Energy (BMWE).\nThe IPG would bring together screening rules currently spread across the Foreign Trade and Payments Act (AWG) and the Foreign Trade and Payments Ordinance (AWV) in a single statute. It would also implement the revised EU FDI Screening Regulation (EU) 2026/1386, whose minimum standards apply from 17 January 2028. In several areas, the draft goes beyond what the EU requires.\nThe government has not yet agreed on the text. Several provisions are expressly marked as subject to the outcome of consultations between the federal ministries (Ressortabstimmung). Once the ministries have aligned, the draft would normally be sent to the federal states and industry associations for comment, then adopted by the Federal Cabinet and submitted to the Bundestag and Bundesrat. Changes are likely along the way.\nWho Counts as a Foreign Investor\nInvestors from Switzerland, Norway, Liechtenstein and Iceland would be treated in the same way as other non-EU investors under the draft, as provided for by the EU Regulation. In addition, the draft would focus primarily on nationality rather than where an individual lives. Only individuals who hold exclusively German or other EU citizenship and live in Germany or the EU would count as domestic or EU investors. Dual nationals who also hold a third-country passport would therefore no longer benefit from EU investor status. In the defence sector, all non-German investors would remain covered, as before.\nBecause the test applies to the entire ownership chain, the nationality of founders, managers and co-investors may determine whether a transaction is notifiable.\nNew Thresholds and Sectors\nToday, a review is triggered when an investor reaches 10%, 20% or 25% of the voting rights, depending on the target’s sector. The draft would remove the 20% threshold, which, according to market observers, has led to many filings but no interventions. The 10% threshold would continue to apply to defence, armaments and IT security, as well as to critical infrastructure. The remaining sector categories would generally be subject to a 25% threshold.\nFor publicly listed companies in the 25% sectors, a lower threshold of 15% would apply to reflect the greater practical influence that smaller stakes may confer on listed companies. Further acquisitions would be reviewable at 25%, 50% and 75% and, for the first time, at 100%. For listed companies, the current 40% step-up would be replaced by a 30% threshold, in line with the Takeover Act. The draft would not provide an exemption for pure portfolio investments, but listed companies could still be notified after closing, as under current rules.\nThe list of sectors subject to the 10% threshold would be expanded to include, among others, manufacturers of critical components and sector-specific software, larger cloud providers, telematics infrastructure, media with significant reach and providers of government communications infrastructure. The 25% list largely follows the EU minimum scope, and includes AI, semiconductors, quantum technology, critical raw materials, dual-use goods and electoral systems. It also covers aerospace, autonomous vehicles and robotics, network technology and agricultural land exceeding 10,000 hectares.\nThe draft would also add a factor to the substantive assessment. When evaluating whether a transaction could affect public order or security, the BMWE would be required to consider whether a significant number of other German companies in the same sector are already controlled by investors from the same third country.\nAsset deals would remain covered, including sales by foreign companies of assets located in Germany. Greenfield investments would remain outside the regime for the time being.\nInfluence Without Voting Rights\nUnder the draft, a filing could be required even if the investor does not acquire a relevant shareholding. Board seats, veto rights over strategic decisions or special information rights would be sufficient if they give the investor influence comparable to that associated with a reviewable voting stake. This may be particularly relevant for minority investments with negotiated governance or information rights. The anti-circumvention rule would also be broadened: it would be sufficient for a structure to circumvent screening in practice, regardless of whether that was intended. Restructurings within a group would remain exempt from screening, provided the ultimate owner stays the same and no new jurisdiction is added to the ownership chain. For the first time, this exemption would also apply in the defence sector.\nProcedure and Timelines\nThe BMWE would remain responsible for screening. The review would continue to have two phases, but both would begin only once the complete filing has been received, rather than when the BMWE becomes aware of the signing. Phase I would last 45 calendar days, with no possibility of extension. Phase II would last 120 calendar days and could be extended by up to 90 days in complex cases. It could also be suspended – for example, while the BMWE waits for information, consults other Member States or negotiates remedies.\nThe BMWE could call in non-notified transactions for three years after signing, instead of five years under the current rules. The draft would replace the current distinction between different forms of positive decisions with a single clearance (Genehmigung).\nNotifiable transactions would remain provisionally ineffective until clearance. Until then, the acquirer would not be permitted to exercise voting rights or receive certain information about the target. The BMWE would also have express powers to impose interim measures during a review, including restrictions on voting rights and access to sensitive information. These powers would, for the first time, also apply in the residual cross-sector review before Phase II has been opened.\nRemedies, Sanctions and Publication\nThe BMWE could clear a transaction, clear it subject to conditions or, as a last resort, prohibit it with the consent of the Federal Chancellery and the Federal Ministries responsible for foreign affairs, the interior, defence and finance. Unlike under the current regime, approval by the full Federal Cabinet would no longer be required. If the BMWE does not act within the applicable deadlines, the transaction would be deemed cleared.\nThe draft expressly provides for a broad range of mitigation measures, including governance and information restrictions, security requirements and obligations designed to safeguard supply or data. An independent trustee could be appointed to monitor compliance.\nClosing a transaction before clearance, or intentionally breaching conditions or a prohibition, could be punished by imprisonment for up to five years or a fine. Negligent breaches, as well as late or missing filings, could result in administrative fines of up to EUR 1 million or EUR 100,000, respectively.\nProhibitions would be published on the BMWE website, and the BMWE could also decide to publish any conditions imposed. Press releases would identify the parties, the target’s sector and the general nature of the measures, but would not disclose business secrets. The notified transactions themselves would not be published.\nWhat Remains Under Discussion\nSeveral important questions remain under discussion among the ministries. These include whether intra-EU investments in critical infrastructure should also be subject to screening, a proposal that could raise significant concerns under EU law. It also remains unclear whether greenfield investments will be brought within the regime, and the list of covered sectors may still expand or contract. In addition, the current draft expressly leaves open the precise scope of the dual-use and cloud-computing triggers.\nOutlook\nAlthough the draft remains subject to change, investors may wish to review the acquirer chain, including founders, ultimate beneficial owners and relevant co-investors with dual citizenship, as well as board and information rights and the target’s activities. Potential suspensions during a Phase II review should also be factored into transaction timetables and closing conditions.\nThe same considerations may apply to existing structures involving Swiss or other EFTA investors and to special rights contained in articles of association, shareholders’ agreements, or other investor agreements."
-    },
-    {
-      "title": "US Seizes $2.8M in Cuba-Bound Fuel as Havana Cries 'Piracy' - streamlinefeed.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUhQbUtZM0kzUmNmdmh5a29kWDhhNC0zV2FXLVFUNXpnOVd2c240ZW5CTnJXT1g5dFNSbUxTdEJPNDdKQzFCRjVKa2thbGVhRm1lTU1YczZfd1VsTTJPNS10cEpYd2EwVkoxUUhhUFNPSmgyX3pqT3YtdHFJSmdGRXl4WkNHdmFTbEdCRE1vMlk0djdP?oc=5",
-      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "summary": "US Seizes $2.8M in Cuba-Bound Fuel as Havana Cries 'Piracy'&nbsp;&nbsp;streamlinefeed.co.ke",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-07T15:00:00+08:00",
-      "source_detail": {
-        "name": "streamlinefeed.co.ke",
-        "url": "https://streamlinefeed.co.ke"
-      },
-      "priority": 3.6,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://streamlinefeed.co.ke/news/us-seizes-2-8m-in-cuba-bound-fuel-as-havana-cries-piracy",
-      "full_text": "United States federal agents have intercepted 90 shipments of biodiesel fuel destined for Cuba, seizing more than 600,000 gallons valued at approximately $2.8 million in what authorities describe as a coordinated sanctions-evasion scheme. The interdiction, executed across major ports in Florida and Texas, has significantly escalated tensions between Washington and Havana, plunging the Caribbean island deeper into an energy crisis that has already crippled its healthcare system and basic infrastructure.\nThe seizure specifically targets Enetec S.A., a Cuban state-owned energy wholesaler sanctioned by the US Treasury in July 2026. The operation has sparked fierce condemnation from the Cuban government, with diplomats accusing Washington of \"piracy\" and deliberate economic asphyxiation amid the island's worst energy emergency in decades.\nA Coordinated Port Interdiction\nAgents from the Department of Homeland Security, including Homeland Security Investigations (HSI) and Customs and Border Protection (CBP), confiscated 71 shipments at Port Everglades in Florida and 19 at the Port of Houston in Texas. The fuel, a biodiesel blend, was allegedly routed through intermediary companies and deceptive commercial networks to bypass US embargoes and reach Enetec, which was placed on the Office of Foreign Assets Control (OFAC) Specially Designated Nationals list under a recent executive order targeting Cuban energy and trade sectors.\n“This seizure underscores HSI Miami's commitment to stopping fuel and other goods from reaching Cuba through sanctioned entities or deceptive commercial networks,” said HSI Miami Special Agent in Charge Jose R. Figueroa, emphasizing that the operation was the result of a complex investigation into illicit shipping routes. US authorities maintain that any transaction involving these designated entities violates federal sanctions and constitutes a deliberate attempt to circumvent American law.\nHavana Cries 'Piracy' and Economic Warfare\nIn a swift and furious response, Carlos Fernández de Cossío, Cuba's Deputy Minister of Foreign Affairs, vehemently denounced the seizure, asserting that the importation of fuel by Cuban entities is entirely legal under international law. He accused the US of \"intimidating sovereign states with threats of retaliation\" and characterized the interception of vessels in international waters as \"illegal, immoral, and criminal\" acts of pillaging designed to punish an entire population for political ends.\nCossío argued that the US blockade, which has been in place for over six decades, is an illegal instrument of coercion that the United Nations General Assembly has repeatedly condemned. By targeting fuel shipments from third-party countries, Havana argues that Washington is extending its domestic sanctions extraterritorially, effectively holding the Cuban populace hostage to force political concessions.\nTargeting the Fuel Supply Chain\nThe July 2026 sanctions were specifically designed to dismantle the Cuban government's ability to import fuel and generate foreign revenue. The Treasury Department designated both Enetec S.A. and Coreydan S.A., two relatively obscure state-owned companies that operate as primary fuel importers, alongside the foreign trade company Gecomex. By targeting these specific nodes in the supply chain, Washington aimed to choke off the island's access to international energy markets, forcing Havana to rely on increasingly expensive and difficult-to-conceal smuggling networks.\nThe recent seizure highlights the vulnerabilities of these clandestine routes. According to federal officials, the 71 shipments intercepted at Port Everglades contained approximately 496,000 gallons of biodiesel, while the 19 additional shipments seized at the Port of Houston accounted for the remainder of the 620,000-gallon total. The fact that such a massive volume of fuel was routed through US ports suggests that intermediaries were attempting to use American logistics infrastructure to mask the final destination of the cargo, a strategy that ultimately triggered alerts within CBP and HSI databases.\nThe Human Cost of the Blockade\nThe aggressive enforcement of these fuel sanctions arrives at a catastrophic moment for Cuba's civilian infrastructure. The island has been grappling with a severe energy emergency since mid-2024, driven by a combination of obsolete thermoelectric plants, a lack of maintenance, and the crippling fuel deficit exacerbated by the tightening US blockade. In recent months, the situation has deteriorated sharply, with controlled outages in some provinces stretching beyond 30 hours, paralyzing the economy and sparking rare public protests.\nThe human toll of the energy deficit is most visible in the island's healthcare and water systems. According to international health monitors, blackouts lasting up to 20 hours have forced hospitals across Cuba to suspend non-emergency operations, while medical staff struggle to keep lifesaving equipment running on failing backup generators. Furthermore, with nearly 90 percent of Havana's water infrastructure dependent on electric-powered pumps, prolonged power failures have severed access to clean water for millions of residents, compounding the misery of food and medicine shortages.\nA Hardening Geopolitical Stance\nThe seizure signals a hardening of US policy toward Havana, leaving the Cuban government with dwindling options to secure essential energy supplies. With traditional allies like Venezuela and Mexico facing their own logistical constraints or political pressures, Cuba's reliance on costly, clandestine shipping routes has made its fuel supply chain highly vulnerable to US interdiction. The targeting of Enetec, a state-owned firm sanctioned only months ago, demonstrates Washington's intent to close every available loophole in the embargo.\nAs the confiscated biodiesel remains impounded in US ports, Cuba faces the immediate reality of further power rationing and deepening economic isolation. The dispute underscores the enduring potency of the US embargo as a tool of geopolitical pressure, even as international bodies continue to condemn the blockade as a violation of international law and basic human rights. For the Cuban people, the geopolitical maneuvering translates into a daily struggle for survival in the dark.\nHow did this story land?\nNo sign-in required. Choose up to two. This captures your response to the story—it is not a vote on whether the reporting is true.\nSources & evidence\nSources linked in this article’s evidence ledger. Open the original material to assess the supporting claims and their context. A reference listing is not an independent verification badge.\n- 01\nHot discussions around this story\nKeep the conversation in one place—threads here stay linked to the story and in the forums.\nContinue reading\nThese are the latest published stories from World News."
-    },
-    {
-      "title": "Biren’s Conditional HK$4bn Share Deal Tests AI Chip Growth - https://streamlinefeed.co.ke/",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVlUwMWJCMEJVV21tSDV2N2U1cTAtdmpHOUM2VEVZN2RDcTZjR0tud3l6V0ZnQ0dIbE12Q1dabzdnY1FEd295RWR0UGJZRTlkTzJfOXEyQ0xRc2Z5ZC1Sa1lqdjFYZmlmLTlpSU1ncmstVi04dTU3MmM2RjJPbmpvLXpNdTk5emNob0hv?oc=5",
-      "published": "Thu, 08 Oct 2026 04:34:09 GMT",
-      "summary": "Biren’s Conditional HK$4bn Share Deal Tests AI Chip Growth&nbsp;&nbsp;https://streamlinefeed.co.ke/",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-08T12:34:09+08:00",
-      "source_detail": {
-        "name": "https://streamlinefeed.co.ke/",
-        "url": "https://streamlinefeed.co.ke"
-      },
-      "priority": 3.6,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://streamlinefeed.co.ke/news/biren-conditional-hk4bn-share-deal-ai-chip-growth",
-      "full_text": "Biren Technology conditionally agreed to place 130 million new shares for HK$4.04bn gross, but the deal is not complete and remains subject to listing and legal conditions.\nA conditional follow-on, not a new listing\nBiren signed the placing agreement on October 8, offering new H shares at HK$31.08 apiece through CICC Hong Kong Securities and UBS’s Hong Kong branch. The company estimates gross proceeds of HK$4.04bn and net proceeds of HK$4.02bn after expenses. At the exchange rate used in financial coverage, the net amount is about US$515m.\nThe price is 9.76% below the previous day’s close and 13.73% below the five-day average, according to the filing. If all shares are placed, they would equal 5% of existing share capital and 4.76% of the enlarged total. The company was already listed on Hong Kong’s main board in January; this is an additional capital raising, not an initial public offering.\nThe deal remains conditional on matters including approval to list the new shares and delivery of required documentation. Biren says the agreement can terminate if conditions are not met or waived by October 15, and the placing agents have termination rights. The proposed investors are not named; the filing says the placement is expected to involve at least six independent investors.\n- 130 million new H shares at HK$31.08 each.\n- Estimated proceeds: HK$4.04bn gross and HK$4.02bn net.\n- Potential dilution: 4.76% of enlarged share capital.\n- Status: conditionally agreed, not yet completed.\nProduction spending is the stated reason\nBiren says it plans to direct 70% of the net proceeds to supply-chain procurement, production readiness and commercialisation of next-generation products. Another 20% is earmarked for research and development and its software ecosystem, with 10% for working capital and general corporate needs. Those categories describe the company’s stated plan, not a guarantee of commercial success.\nThe filing says the next-generation product has completed initial bring-up and entered post-silicon validation, with sampling and volume production expected over coming quarters subject to validation and customer qualification. The company cites rising customer demand, longer supply lead times and higher procurement costs as reasons it needs to move faster. Those are management’s explanations; the announcement does not independently verify demand or product readiness.\nBiren completed a HK$7.07bn placement in July. Its October filing says that by September 30, only HK$814.8m—about 19%—of proceeds allocated to production and commercialisation had been used; it expects the balance to be substantially used by year-end. The earlier raise was not exhausted; the company says its spending timetable has accelerated.\nRapid revenue growth sits beside large losses\nBiren’s audited 2025 report shows a growing but loss-making business. Revenue rose to RMB1.03bn from RMB336.8m in 2024, while operating loss was RMB1.04bn. The RMB16.49bn net loss included RMB15.47bn in finance costs from revaluing redemption liabilities that ended upon listing. Its company-defined adjusted loss was RMB873.8m.\nFor the first half of 2026, the company reported unaudited revenue of RMB1.24bn, compared with RMB58.9m in the same period last year. Its loss narrowed to RMB377.2m, while the adjusted loss was RMB337.2m. At the same time, three customers accounted for roughly 74.5% of first-half revenue, underscoring concentration risk as the company scales sales.\nThe numbers make the fundraising story more complicated than a simple growth narrative. Revenue is rising quickly and adjusted losses have narrowed, but the business is spending heavily on research and production. The new issue would dilute existing shareholders, and its discounted price is below both the previous day’s market close and the July placing price.\nExport controls shape the supply-chain backdrop\nBiren’s filings and US export-control records place the company within a wider contest over advanced computing. The US Commerce Department added Biren-related entities to the Entity List in 2023 and later updated an alias. Under US rules, some exports, re-exports or transfers of items subject to the Export Administration Regulations may require a licence, with strict review policies applying to listed parties.\nThis is not a blanket ban on every Biren product or on investors buying shares in Hong Kong. Restrictions depend on the item, transaction and supply chain, and the October placing announcement does not say export controls caused the capital raise. They are a relevant operating constraint for a chip designer that relies on manufacturing ecosystems and equipment spanning multiple countries.\nWhat investors and customers should watch\nThe immediate milestone is whether the placement closes by the stated deadline and on what terms. Then comes product validation, customer qualification and repeat revenue. The filings show growth opportunities alongside capital needs and concentration risk.\n- Closing is conditional; the net proceeds are not yet secured.\n- The new shares would dilute existing holders.\n- Production plans depend on validation and customer qualification.\n- Three customers generated nearly three-quarters of H1 revenue.\nNo direct Kenyan customer, subsidiary or investment relationship is identified in the company’s filings. The wider significance is indirect: more domestic Chinese accelerator capacity could affect global competition and the range of compute suppliers available to cloud operators. Any impact on Kenyan prices, procurement or access remains an inference, not an announced outcome of this transaction.\nHow did this story land?\nNo sign-in required. Choose up to two. This captures your response to the story—it is not a vote on whether the reporting is true.\nSources & evidence\nSources linked in this article’s evidence ledger. Open the original material to assess the supporting claims and their context. A reference listing is not an independent verification badge.\n6 references are marked as primary in the evidence ledger\n- 01Hong Kong Exchanges and Clearing / Shanghai Biren TechnologyNews reportPrimaryPlacing of New H Shares Under General MandatePublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Conditional transaction status, share count and price, estimated proceeds, discount, dilution, use of proceeds, conditions and company-stated production plans.\n- 02Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimary2025 Annual ReportPublished 22 Apr 2026Accessed 8 Oct 2026 Evidence used \n  - • 2025 audited revenue, operating and net losses, adjusted loss definition and finance-cost context.\n- 03Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimary2026 Interim ReportPublished 17 Sept 2026Accessed 8 Oct 2026 Evidence used \n  - • First-half unaudited revenue and loss measures, customer concentration, receivables and liquidity disclosures.\n- 04Shanghai Biren Technology / Hong Kong Exchanges and ClearingNews reportPrimaryCompletion of Placing of New H Shares Under General MandatePublished 8 Jul 2026Accessed 8 Oct 2026 Evidence used \n  - • Prior July share placing and its completion, used as context for the new conditional raise.\n- 06Bureau of Industry and Security, US Department of CommerceNews reportPrimaryEAR Part 744 — Control Policy: End-User and End-Use BasedPublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Scope of end-user and end-use export controls and the need to avoid describing the designation as a universal product or investment ban.\n- 07BloombergNews reportAI Chipmaker Biren Taps Market Again in $515 Million Share SalePublished 8 Oct 2026Accessed 8 Oct 2026 Evidence used \n  - • Independent news peg; central transaction terms are independently verified against the HKEX issuer filing.\nHot discussions around this story\nKeep the conversation in one place—threads here stay linked to the story and in the forums.\nContinue reading\nTopic, beat, location and recency are weighed together so the next story adds context instead of simply repeating the latest headlines.\nSame beat with closely related reporting\nUpscale’s Token Fabric Targets Mixed-Chip AI Data Centres\nRead next\nSame beat with closely related reporting\nAI Drug Trial Predictions Face a Public Test\nRead next\nSame beat with closely related reporting"
-    },
-    {
-      "title": "Russia’s Su-34 Replenishment: Deliveries, Losses and Industrial Resilience - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOXZBU1RYNjhLWURjVU0zVWNsN3c5eFhuS3E5ZkZEQUJsVTUxVnZaN3VkYUx1dFpPRlN0QzgzY1BPb2F3X1hWU0VjNDNFZFh0NlMyOEZ2dXF6T0RLTFBQQ0lCRTVwd3BfX05pLWQ4ZC1ycFpIZHFSMHQ2dm5jUDBnYnRJa2Q5QWNFNWdLMDRPTGlSS2JGcXd0Y2FWVkVrd1Zod3JrTm9VUUY?oc=5",
-      "published": "Wed, 07 Oct 2026 16:24:05 GMT",
-      "summary": "Russia’s Su-34 Replenishment: Deliveries, Losses and Industrial Resilience&nbsp;&nbsp;https://debuglies.com",
+      "title": "Tanzania Eyes Russia Market Beyond The West - dailynews.co.tz",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zaDZiR1Q3MFFSN2FPd1ZuXzF3NXk1UkhPZkdxdmVoeV9uaFlxdVdXTFJTbTNUTzVnM0w0eWJKMW4tM3ZNV09HUW9KSVRKODN3S2g2OUx6ZGMwWVlYQ3V1VDI0UEhQZjBuTlhITFF6MldZdVhHSHlj?oc=5",
+      "published": "Thu, 08 Oct 2026 19:59:22 GMT",
+      "summary": "Tanzania Eyes Russia Market Beyond The West&nbsp;&nbsp;dailynews.co.tz",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-08T00:24:05+08:00",
+      "published_beijing": "2026-10-09T03:59:22+08:00",
       "source_detail": {
-        "name": "https://debuglies.com",
-        "url": "https://debuglies.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "European Parliament Takes Tougher Stance on China Over Espionage, Trade and Support for Russia - Vision Times",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRE5OQW9lbS1KYlZxWHQ1TnhXZEFWb2FrVkNlbmlwUWVtalRnOEQ0ZVZETmpoWVBmWklFNzd3dFpfaUI5M1NUeXZUSVQxbmJxTVlWVllSZUs2anJTTFdiX0RYZlQwcXM2SXdaVEgyTDVESENrQ0EzNkZvQURhLWUzeVFFbnRtSHdjYkthM0VJa3Y0eXIxSVFXdTZzVnA5Y1hRWXRHMWJQUWY4bWtGSUpxSG9VclJ4aU9rUDcxZnlGcU9TMjFEdEFZbkNQVlczS3hLYnRr?oc=5",
-      "published": "Thu, 08 Oct 2026 22:17:04 GMT",
-      "summary": "European Parliament Takes Tougher Stance on China Over Espionage, Trade and Support for Russia&nbsp;&nbsp;Vision Times",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T06:17:04+08:00",
-      "source_detail": {
-        "name": "Vision Times",
-        "url": "https://www.visiontimes.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Shafaq News..US sanctions 17 Iran “shadow fleet” vessels - شفق نيوز",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8wem9TbHFDdzlHa29wUURiMTdZSXVhVjJ5U2V1dW5BTFJwYkphXzhDZzIzSTIzZjFncUxpM016YUxyQmtTcEJvMU5JNEdHZmhKMFZGa00wVzY2dGE3Q3ZtZVJkXy1MRnFTcFlpWTc4TzdYb2Nfa3JsUnFWam5Mdw?oc=5",
-      "published": "Thu, 08 Oct 2026 21:33:14 GMT",
-      "summary": "Shafaq News..US sanctions 17 Iran “shadow fleet” vessels&nbsp;&nbsp;شفق نيوز",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-09T05:33:14+08:00",
-      "source_detail": {
-        "name": "شفق نيوز",
-        "url": "https://shafaq.com"
+        "name": "dailynews.co.tz",
+        "url": "https://dailynews.co.tz"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -171,31 +85,15 @@
       "relevance": "low"
     },
     {
-      "title": "US-Israel-Iran War Latest Live News: US Announces Fresh Iran Sanctions Targeting 27 Firms, 6 Individuals and 22 Vessels Linked to Tehran’s Shadow Fleet – Check Full List and More - The Sunday Guardian",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOMlYtZzAwdVJ1OTBSYmhEc3ZmSndoZkZYNWNzRnYwckJDaHVHaHlJWVgtNVI3N2xsRV9ya0pacFROcmdzVEpkNnFVTlV3QmdnVmhxWUlhR2VUS1prMnlFZzA0NDVRems3TkRSOUxfbllxVEpuUkhVYVlwSDNTSmppODBoRUp6bi0zU0RqbEptdTlWNV9uc3J6ZzBQcThZM3J3OGUzQkdYQUJyb3M3b2JlMFlCQmlpRDgwbTNOcC1wVXJPVjE0V2pLVGMta2hqQzNyVUZyV2o4ODNzYUxCdjhEZTZyQXpkTXRrNDE5T3Fxb1Y4RWV3OWNFMVRGVV9jZjRGNnVxcHJKUzUxU2R5TXdrN3JZOGhiVG5BenB6R0Z6R0hmUy12dzRXeHVLd01ZTWtDeHI2SlU2NmZyT0xoc2530gHEAkFVX3lxTE1QdmZQWUtFbWdxWnQ0ZHFVbElaZGI3aFRHX18xcWxzRFhqdkxIMDJIS1dLSk1Db21jOG1iUjEtM1VtMUZ6Y0xSRnpZNEMybEs3dVNZQTJhemFaN0dkVVdTZ2FYR1JnX0ZCM20zMm5FNzcxWnlZajVtd09Rb0FjQUp0YVloZHFEZXhQdlhiQkdnelRrZEJ5d016Snl6Mll3ZF9ncW9xcjJ5LWJMSnRRUm5tcFBERlZiNndnZ0pZaGpzQWdnNTc3UG9YX0FybXBjUW9wWFZqRG1famlnakVOVUxLSmM0Z1RvUkdYMGY4R0JzOVlsdzd0dkZTUS12TDNGQmozT19WNmlST3dWd3lFa3FuQU9PLVIyMHROTG9XZWFiSU9mZ2VzRUp4LWM1SzlXdVItOFA3VVZiUWZqUThEV0pXWWM0UQ?oc=5",
-      "published": "Thu, 08 Oct 2026 18:16:00 GMT",
-      "summary": "US-Israel-Iran War Latest Live News: US Announces Fresh Iran Sanctions Targeting 27 Firms, 6 Individuals and 22 Vessels Linked to Tehran’s Shadow Fleet – Check Full List and More&nbsp;&nbsp;The Sunday Guardian",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-09T02:16:00+08:00",
-      "source_detail": {
-        "name": "The Sunday Guardian",
-        "url": "https://sundayguardianlive.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "UK Sanctions 12 Russian Shadow-Fleet Tankers, Including Dakar, a 2004-Built Vessel Now Crossing the Arctic’s Northern Sea Route - Business Upturn",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSFVXWERXRktqXzFoMDZiS0JrVnhjYlFfUlZGME5IckxzeXRGdk96MjJlelRpR0cyQTdqYXVLSEFzZXVQa1hOemE2Q09DRTMzcmRHcGxvSl9kbE4zWWlYMVFRZ2thUzctQjg2S2s5VlRyNENSLW1PaEc1bFJfQmFCSnkzVTV0Vm9ZWC1Ob2FEd1lXOHpHV210WlhqcGpFY1ZiNUpMTmRQYk01MzNpckg2ckFBQjFSbU1famZxMEtQMkxJclNWakk4NU9idm5RZjZ6NjlxbVNRaXIxQjVteVR5U21XbmJIemk5QldwYlFJbl9CQlJnMWxQMmwzT1hRdUM4dkZMVTZoTXlJQnA0?oc=5",
-      "published": "Thu, 08 Oct 2026 16:59:46 GMT",
-      "summary": "UK Sanctions 12 Russian Shadow-Fleet Tankers, Including Dakar, a 2004-Built Vessel Now Crossing the Arctic’s Northern Sea Route&nbsp;&nbsp;Business Upturn",
+      "title": "Shaheen, Wicker Urge Rubio and Bessent to Target Revenue and Technology Pipelines Funding Putin’s War with Bipartisan Russia Sanctions Legislation - finchannel",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPTXl5czUtNUhIZ0dsNVNIdlBVWmhQcDJSZ1ZtaDk0Y1lpRWFvTlR4UGJsek1BQUV5S3ZDTFZXa2U2UHdjbXRHb0ppNWdXWkplRmFtRDJrQWZuQktYc3MtSFpRblRGM2dsdGxDUklPcV9PWXA3MUlCc3FXNk0xUnN6R3lxbkFEMk5YZHlrZm8xMVFDaktfejhtT2xDTHVhU1YzamgxNWM4LWdsRFpyWFNvNUVrbXg5ell4blFMOWlHVnF4Smc2SjNGV2l4MC1neHExOFV0Y1E5RDRmc2JaTlBFUUJLd1NWMnMxS0dnMlVldF9vVjUyQmVWc2ZvdVFiRWs2aWtXa2E5YUMtQVdCVi1SanNHcXl6NzNldDh5NTRsb3RzMTNlMUViQ1dsc1Y1MExpcUpEVzYyMkloTU02bXVxTndyUlg4QQ?oc=5",
+      "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "summary": "Shaheen, Wicker Urge Rubio and Bessent to Target Revenue and Technology Pipelines Funding Putin’s War with Bipartisan Russia Sanctions Legislation&nbsp;&nbsp;finchannel",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T00:59:46+08:00",
+      "published_beijing": "2026-10-08T15:00:00+08:00",
       "source_detail": {
-        "name": "Business Upturn",
-        "url": "https://businessupturn.com"
+        "name": "finchannel",
+        "url": "https://finchannel.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -203,15 +101,15 @@
       "relevance": "low"
     },
     {
-      "title": "UK Sanctions Cryptomus, Heleket, and TokenSpot in New Russia Package Targeting Crypto and Payment Channels - TRM Labs",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVDJnSnpYQmxWaGJIRlhsMFFGSThKYlFnbGJCbFUxTzhMMHQ3VGNMWFVKR3NZVmFBRm1MVWlicHduMkgweTI4c0hONzBTYlBZNjYxdllJVlFDVWxPMGhVTHJXNHRyMkM1TUVHclZwZDVJQ3ItbUNRYy03ZV9kekRySnJBQXNCcmoyQ2dtNFV6ekYwRFRRTUpGUG5LOHJPRnJXTVVXRGttVHJCU296NEpGYjdGRWpJMkh3Q3dDRkNzMnc3SGpqbG1mTUhtVE5kUjBCdi0wR2s1b2k5OUk?oc=5",
-      "published": "Thu, 08 Oct 2026 15:39:34 GMT",
-      "summary": "UK Sanctions Cryptomus, Heleket, and TokenSpot in New Russia Package Targeting Crypto and Payment Channels&nbsp;&nbsp;TRM Labs",
+      "title": "Trump’s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions? - Diplomacy and Law",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rZU1BMFlpNy1yT2xNYUVEV3NnOGZZdEZ2M2JyMG9oOHVjbmFhUWZ3MmhydzdRcHQwUG1tTjg4OUlYcG44eXg1bkROQ3ZvT2Q0cHlVT2llMzlvTlFYX2d5MUlnRGJFdEU5ZERYb2F3?oc=5",
+      "published": "Fri, 09 Oct 2026 21:34:02 GMT",
+      "summary": "Trump’s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions?&nbsp;&nbsp;Diplomacy and Law",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-08T23:39:34+08:00",
+      "published_beijing": "2026-10-10T05:34:02+08:00",
       "source_detail": {
-        "name": "TRM Labs",
-        "url": "https://www.trmlabs.com"
+        "name": "Diplomacy and Law",
+        "url": "https://www.diplomacyandlaw.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -219,63 +117,15 @@
       "relevance": "low"
     },
     {
-      "title": "UK-backed group issues private lenders' debt rework guide ahead o - Global Banking & Finance Review",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN1IzYkJ1c0d4SzhFSkU5RzF3azU0ZUhheTFGTi0xV1p2TkptM1RyT0RfN3RvOFUzdGVPaS1KQ2c1NjBPeXYtRDRpanVIOVpDTFhid3l5emRNMG5obUtzNmtYNW10VHU3MlN6WFpIV3JZMHZxMnFBVWpaUkpiS0VMQzdlTGRMMkxuYlZaMEFOcy1ZZm5hTHFtZmVOSE9GQQ?oc=5",
-      "published": "Thu, 08 Oct 2026 15:28:34 GMT",
-      "summary": "UK-backed group issues private lenders' debt rework guide ahead o&nbsp;&nbsp;Global Banking & Finance Review",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-08T23:28:34+08:00",
+      "title": "Declaration or notice: a critical decision in CFIUS national security reviews - MLex",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcExvU205amZaQzEtM1pIMGhyaFhwVjV3RWdSOFZTMGNJQTJNTzZqbHZYRUFxSzVTWXFrYWhyTVJxU0tUR3FOVmZmREN6aUg0UlROSHJzcExaVFpqT3hTbzFJeXlYVFg1NGgzejJsbmJjWFRXcnpRdVhsMnpmRXRucGQ0NlctRVdHeUhFUTRkRnVoaVI0M01DNDY3cWJJeF9feTUwYVFXUzAxSnNNV0FQY1pkSkkwVkFFcmlZZmhVaTRvdjJ0WExLdmVwRkxNSXlzU3RFZzQ5MNIBWkFVX3lxTE02VGQ4cUl2QmI0bFhRaFdOQS1WU0V4UTFkRDhGZzhpZW5HcTQwV3NjOXM5amxINmFWWG1sVU5rRURNTE9nSlh2QjFTbkw1Rm9kS1NleGVVU1J0Zw?oc=5",
+      "published": "Fri, 09 Oct 2026 20:20:43 GMT",
+      "summary": "Declaration or notice: a critical decision in CFIUS national security reviews&nbsp;&nbsp;MLex",
+      "source": "GNews | CFIUS",
+      "published_beijing": "2026-10-10T04:20:43+08:00",
       "source_detail": {
-        "name": "Global Banking & Finance Review",
-        "url": "https://www.globalbankingandfinance.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "UK announces new round of Russia sanctions targeting financial services, 'shadow fleet' - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb3lHM1pVYjI2dmdjbERYdVJxQnExb3lvS1ZYX3lZcDFFcWtldzFxUGs5ZkZuM1dmQVRqSUNhU1VsQmxvaXZ5X1MwRUpGdHRlRGtSM29zeVJCR2tDdXVEWGViSG4za21ob3ZMY2luRVd3Z0NSazV1N2RDRVEyeS1FSS1BdkJsUGNvc2xadFBjQncyVHlzdWFGMTA3dTdiVm9Qek83UzB0VWtGRFB4MFhkQ2VkOHIyTEdTZUxhZg?oc=5",
-      "published": "Thu, 08 Oct 2026 15:21:49 GMT",
-      "summary": "UK announces new round of Russia sanctions targeting financial services, 'shadow fleet'&nbsp;&nbsp;Reuters",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-08T23:21:49+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sri Lanka, IMF in talks over new “long term growth targeted” deal after March 2027: Minister - EconomyNext",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUFJNlp2cmZfZTdURFd2MUgyWjcyc0Z0dWpIdHZhUlFDWXhTODRKeE0yeU1HVzVtcExlWUF2MGxhZEZVWUloSHhFaktHek1iemhoQzJ4c2VRMEprMEFHLWNtY05lR1JsdzdQWXJfS1ZwQkJtaTdZbnV5OWc4b0VhMXhmNlhvSHB6UEp1STdtWENINjB2aHZubmFJZ0FjbFBZZGJtdFFycXl1M2Q1TktRcVVKU2FzeUh6alY4Rg?oc=5",
-      "published": "Thu, 08 Oct 2026 13:33:46 GMT",
-      "summary": "Sri Lanka, IMF in talks over new “long term growth targeted” deal after March 2027: Minister&nbsp;&nbsp;EconomyNext",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-08T21:33:46+08:00",
-      "source_detail": {
-        "name": "EconomyNext",
-        "url": "https://economynext.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Vietnam Amends PPP Rules: What Decree 377/2026/ND-CP Means for Investors - Vietnam Briefing",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHV2UW5mdzBvY3VyU3Nodzl6TVJ0ckVrUlJDQ1hBSVpINHJBZ1prSFFoVE0wdmtkOWduM25tQXlqZWQzOVRhNV9aTFo5TV9WX0ZnZVl2dHhIYlVMLS03UHdudGd0ME5xS0xMdzRVeXdBTndNZ1NRYTZHbkpXWkQxZmJRSGFfcGp4U2JSb0dsVTRsV1BwOGIxSmtIaG9WVTAwdG93N1J4SmRzbkNQZEUtUUV4alJYQQ?oc=5",
-      "published": "Thu, 08 Oct 2026 09:43:55 GMT",
-      "summary": "Vietnam Amends PPP Rules: What Decree 377/2026/ND-CP Means for Investors&nbsp;&nbsp;Vietnam Briefing",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-08T17:43:55+08:00",
-      "source_detail": {
-        "name": "Vietnam Briefing",
-        "url": "https://www.vietnam-briefing.com"
+        "name": "MLex",
+        "url": "https://www.mlex.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -283,31 +133,44 @@
       "relevance": "low"
     },
     {
-      "title": "US imposes fresh Iran sanctions, targets 27 companies, six individuals and 22 vessels - Deccan Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVVJTRWRFSUhDVl9KYUF1M1NxRDN1TUFPNHJMWlJXVVluaDl1bF9DQjNHNGJCb3NjNS02VTJLaEVfWFo2M01VOWktSW5EMWFoVnZhcTJ0eFVUNExDUjU0UVF3Q0NJWlpoTUJEeXp1cXJVUWUwYWg2VDl6dmY0SFh3ZnJldGE1ZEhBWlNCZ1lGX1RzUExmZzJXSTBOUlRaZVV4ZUdZZHgzM3hPdkVldkt2U1ZUTGdRREFNWjF1bDhRMUxSX29Ua3YxZ0FqOEM4QdIBzgFBVV95cUxNVVJTRWRFSUhDVl9KYUF1M1NxRDN1TUFPNHJMWlJXVVluaDl1bF9DQjNHNGJCb3NjNS02VTJLaEVfWFo2M01VOWktSW5EMWFoVnZhcTJ0eFVUNExDUjU0UVF3Q0NJWlpoTUJEeXp1cXJVUWUwYWg2VDl6dmY0SFh3ZnJldGE1ZEhBWlNCZ1lGX1RzUExmZzJXSTBOUlRaZVV4ZUdZZHgzM3hPdkVldkt2U1ZUTGdRREFNWjF1bDhRMUxSX29Ua3YxZ0FqOEM4QQ?oc=5",
-      "published": "Fri, 09 Oct 2026 02:06:59 GMT",
-      "summary": "US imposes fresh Iran sanctions, targets 27 companies, six individuals and 22 vessels&nbsp;&nbsp;Deccan Chronicle",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-09T10:06:59+08:00",
+      "title": "The Looming Chinese Investment One Block from the White House - The National Interest",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzFKeGVQaThzejRyTTVXdmJvU3VnTjZPTjV6anI0cXJOVHJEeG9nLTQyT2puZmlVekpJZjJ1VE5fR1ZRRF8xakEwWkE2bWpPZ3QxaHpfdktuUFJPaHpjb0xhems4bzRfOXZNV0lCLUxTd0czQ2Ryal9qdnVZRlVfZkY2Y3NGcHJ3OXdDZnFvbk9mZUFmQnlwRnlZNV8wQUU?oc=5",
+      "published": "Fri, 09 Oct 2026 19:54:54 GMT",
+      "summary": "The Looming Chinese Investment One Block from the White House&nbsp;&nbsp;The National Interest",
+      "source": "GNews | CFIUS",
+      "published_beijing": "2026-10-10T03:54:54+08:00",
       "source_detail": {
-        "name": "Deccan Chronicle",
-        "url": "https://www.deccanchronicle.com"
+        "name": "The National Interest",
+        "url": "https://nationalinterest.org"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "EU Belarus Sanctions: Russian billionaire Mikhail Gutseriev and Belarusian businessman Viktor Shevtsov Removed From List - CEOWORLD magazine",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVXBJTXo1aVU1aWhDVGkyb3J1a3ZnVXpZOExoODFpRXhjenBZRUVDV3c1N1FoeGU3WnFHNDVNekZ2SUlib1M0Rkk1Ry0yUWRnV3NBcFo0RkJncUJSVjdVNXoxN2ZaczJZUFktbV9BR29HSURSYm1McE5qWEVfeUd2TER3VlF1VTZMVkswd1NRMFhkUU5iM25WS19Hd0dHLW95UEFGVjBBb3lQVjhBUk03d3p0ck5VNW5rZVdxSndVblU3WTNLRGRrRmJXNVpUOGJEVGJ3Uk8ycTNqLXgzb0NIYjVkcXRoRG8?oc=5",
-      "published": "Fri, 09 Oct 2026 00:51:47 GMT",
-      "summary": "EU Belarus Sanctions: Russian billionaire Mikhail Gutseriev and Belarusian businessman Viktor Shevtsov Removed From List&nbsp;&nbsp;CEOWORLD magazine",
+      "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
+      "published": "Fri, 09 Oct 2026 14:35:04 +0000",
+      "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium.\n\nRead more in my article on the Hot for Security blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-09T22:35:04+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium.\nHafnium (also known as Silk Typhoon) is widely believed to be the group that\nexploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021,\nAccording to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.)\nZhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021.\nAccording to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China.\nThe following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority.\nUS authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking.\nEven if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries.\nFurthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers.\nThat's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year.\nXu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him.\nSo, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
+    },
+    {
+      "title": "China, EU Reach Understanding on Hybrid Car Trade - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbmV5cjd1eURZUUY4NGYxUTJOR3d1ZkVVeGxLalRpMV9kcHJOeTZlOGRUZ2lMOFNUUjczOUlZWGpmNDJjMmIxeS04MXpKUGl2bHpSb1RDT3hCYzltanJYRHU1dEVRX3lyTHRDbVJCRFN5VVRfR1VEY19ONzhuYnRQZ2xVLWdFYnFQVHB6aTB2QXMzVjZIOVlIbGhtNzg?oc=5",
+      "published": "Fri, 09 Oct 2026 12:51:57 GMT",
+      "summary": "China, EU Reach Understanding on Hybrid Car Trade&nbsp;&nbsp;Seoul Economic Daily",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T08:51:47+08:00",
+      "published_beijing": "2026-10-09T20:51:57+08:00",
       "source_detail": {
-        "name": "CEOWORLD magazine",
-        "url": "https://ceoworld.biz"
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -315,28 +178,66 @@
       "relevance": "low"
     },
     {
-      "title": "How Technology Empowers—and Imperils—Dictators",
-      "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "published": "2026-10-08T11:07:35Z",
-      "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs.\nTwo weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re lying to you!&#8221; She shouted, &#8220;No to war!&#8221; until she was dragged away.\nNo one has p...",
-      "source": "Schneier on Security",
-      "full_text": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs.\nTwo weeks after Moscow’s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor’s head that read: “Stop the war. Don’t believe propaganda. They’re lying to you!” She shouted, “No to war!” until she was dragged away.\nNo one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear. But in October 2024, Margarita Simonyan, one of Russia’s chief propagandists, gave another explanation. A growing number of the RT network’s anchors, she explained to an interviewer, are not real. “That face doesn’t exist. We generated the voice and everything else.” They were, she meant, produced by artificial intelligence. In a follow-up interview with the newspaper Vedomosti, she spelled out the logic: “These anchors don’t need a salary or insurance,” she said. “They won’t get arrested, and the police won’t search their homes. It’s all wonderful and terrifying at the same time.”\nThis is AI’s promise to every autocratic ruler: the ability to maintain control without delegating tasks to unreliable humans. It is an extremely attractive prospect. No matter how powerful, dictators have always needed subordinates—censors, propagandists, security guards, police officers, intelligence analysts, and local bureaucrats—to carry out their orders. But subordinates always pose a potential threat. They could shirk, steal, lie, leak, or conspire against their boss. As a result, one of the oldest dilemmas facing autocrats is how to empower agents to carry out orders without also enabling them to turn against their leader. Autocrats have usually managed the tradeoff by filling key positions with mediocrities whose incapacity is, as the political theorist Hannah Arendt put it, “the best guarantee of their loyalty.” But this inevitably makes it harder for dictatorships to govern and survive crises.\nAI appears to offer autocrats two ways to resolve this long-standing dilemma. First, it means they can now easily monitor and discipline their followers in real time. A change in a local official’s spending habits or meeting schedules can be flagged automatically by an AI system, without any need for self-interested informants. Second, AI can eliminate underlings altogether. By automating tasks that once required human discretion, rulers can replace unreliable intermediaries with faithful algorithms that cannot be bribed or manipulated. Officials in autocratic regimes have said as much. AI “can definitely replace half of officials,” Russia’s Digital Development Minister, Maksut Shadaev, told a Moscow data forum in April 2025, adding, “maybe slightly more.”\nYet these promises of a self-running state are illusory, because AI is never truly autonomous. Systems have to be built and maintained by a cadre of engineers and data scientists whose expertise political leaders cannot evaluate. The ruler who turns to AI to reduce a dependence on unreliable humans may end up relying, more blindly than before, on the few AI specialists who keep the system running. And this new digital Praetorian Guard may have the same weaknesses as the old, which makes it a threat to the ruler.\nEyes and Ears\nChina is in the lead when it comes to developing AI systems that can monitor or replace subordinates. Smart city programs in Beijing, Shanghai, and other urban centers use AI to track performance and centralize oversight of local officials who once operated in comfortable obscurity, subjecting them to an algorithmic performance review. China also developed a “Zero Trust AI system,” which it deployed across roughly 30 counties and cities over the past decade. This system cross-referenced more than 150 government databases to catch embezzlement and nepotism by local officials. It worked a little too well, flagging 8,700 officials before local governments, under pressure from the bureaucrats it was monitoring, began rolling it back. But Beijing has not gotten rid of its new e-government portals, which use automated systems for issuing documents and permits, reducing face-to-face interactions that bred petty corruption or favoritism. The Chinese Communist Party, meanwhile, has plowed ahead with researching what it calls “thought management,” or how to use AI to create microtargeted propaganda. China’s army of Internet commentators, once composed of paid humans, is already being replaced by bots.\nRussia has been pursuing the same goals with a similar fervor. Moscow’s citywide facial recognition system, deployed across 200,000 cameras, was used to identify and apprehend protesters during the 2021 antigovernment demonstrations. The central government has started using automated data collection and aggregation to bypass regional officials who could taint the data or use it to promote their own interests. In 2023, Russia’s Internet regulator launched Oculus, an AI system that scans hundreds of thousands of images per day for prohibited content, including political content—orders of magnitude beyond what human censors could process. The Russian security service’s Meliorator tool has been used to create over a thousand profiles of fictitious Americans, primarily on X (formerly Twitter), to spread Kremlin narratives at a fraction of the cost of human troll farms.\nOther autocracies are following in Beijing’s and Moscow’s footsteps. In April 2025, the United Arab Emirates created a Regulatory Intelligence Office that uses AI to draft and amend federal laws, work once done by legislative staff. A year later, UAE Prime Minister Sheikh Mohammed bin Rashid al-Maktoum announced that autonomous AI agents would take over half of the federal government’s operations within two years and that “the performance of ministers, directors general, and entities will be assessed based on their ability to adopt this transformation.”\nThese innovations may reduce the number of bureaucrats autocrats need. But they cannot actually create what dictators want most: a self-running state. Even AI-generated television anchors need people to build and maintain them, and censorship systems need people to retrain them as the vocabulary of dissent shifts. Behind every AI model, there is a small group of engineers and data scientists doing essential maintenance, and their work is so technical that rulers cannot understand it.\nThis dependence thus becomes another form of power. The engineers who maintain an autocrat’s surveillance apparatus, for example, can shape what the ruler sees. They decide what information is important enough to pass along and in what form to present it. They determine which threats get flagged, and they can adjust the algorithms that select what content gets suppressed and who gets arrested. And they can do this without anyone in the palace noticing. Autocrats who turn to AI to escape a dependence on unreliable subordinates have only transferred their vulnerabilities onto a new group of officials.\nIn fact, this new Praetorian Guard could be more dangerous than previous elites. That is in part thanks to the opacity of AI technology but also because this clique is much smaller. Roman emperors typically had tens of thousands of people serving in the Praetorian Guard; modern autocrats rely on standing armies. But with AI, autocrats will need only a small clique of engineers to build and maintain large-scale AI systems. This might benefit rulers since they will have fewer people to watch, yet it also concentrates points of failure, since a devastating disruption requires only a handful of engineers and makes it easier for members to scheme against the leader. The new guard’s members may also be indispensable. A dictator can replace generals without destroying the army. But running complex machine-learning systems requires such a specialized set of skills that engineers can be difficult to replace without disruptions, giving these actors great leverage.\nThe Indispensables\nThe importance of tech workers to autocracies has already become apparent. When IT specialists began to flee Russia after the full-scale invasion of Ukraine in February 2022, for example, the Kremlin responded not with threats but with inducements, offering tech workers deferments from conscription. It exempted their firms from taxes and subsidized their mortgages. When Russian President Vladimir Putin ordered the mobilization of 300,000 men seven months later, IT workers were granted full-on waivers. This might seem like overkill, given that an AI system needs only a few engineers to run it. But a regime cannot know in advance which engineers it will need, and it cannot train replacements quickly, so it has to hold on to the entire talent pool from which these few are selected.\nThese measures did not stem the outflow of roughly 100,000 specialists—about a tenth of Russia’s tech workforce—over the course of 2022. But Moscow stuck to bribery, because expertise is extremely difficult to conscript at gunpoint and because conscripted experts might be less likely to do as instructed. Even so, money and privilege cannot guarantee that these elites will stay loyal. Autocrats should recall the lesson of the original Praetorian Guard: for a time, it provided Roman emperors with protection and security. But then the praetorians discovered their own indispensability, and by the second century, they were auctioning off the empire to the highest bidder. This new set of elites can do the same. In June 2023, when the column of Yevgeny Prigozhin‘s Wagner paramilitary",
-      "published_beijing": "2026-10-08T19:07:35+08:00",
+      "title": "Global Growth Under Pressure: The New Economics of AI, Energy Security and Sovereign Debt, 2026–2031 - https://debuglies.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMmd6ZzFqR0QyX2dYOWJhUnJNRm5pNnpXelpRV1hTZndwaTBjSWVOU0dQZjJ2STRUeUZsRlFaaHdWMTdRTzByMmJyVFdrS2xYemxzTzBVaE1vd1FFUDU3NlE2ZVZScmxDMmpfbEdLTmtNb092M3RPaHhvU3VidThSUHd1YmR6LUJJVy1UN0w2cHBWSzV6djUtNTlfUUVFbmJDSms3Tk0wdTU4QUNzRjlpMWI3b1Zyb3d2bV9mSERjd013UVlBRVNqOXFKZw?oc=5",
+      "published": "Fri, 09 Oct 2026 10:33:10 GMT",
+      "summary": "Global Growth Under Pressure: The New Economics of AI, Energy Security and Sovereign Debt, 2026–2031&nbsp;&nbsp;https://debuglies.com",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-09T18:33:10+08:00",
+      "source_detail": {
+        "name": "https://debuglies.com",
+        "url": "https://debuglies.com"
+      },
       "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
+      "category": "资本管制+主权风险",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Apple’s Verified Photography System",
-      "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "published": "2026-10-07T11:07:36Z",
-      "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.\nOther industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult positio...",
-      "source": "Schneier on Security",
-      "full_text": "Apple just released a system called “Reference Image.” It can verify the image is exactly as taken by an iPhone—new models only—without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.\nOther industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity. We built Apple Reference Image to avoid using an explicit, public credential for photographers, and to avoid even implicit public association between different photos taken by the same sensor. The final reference image is instead signed by Apple’s signing service, after validation by PCC. That signature is backed by Apple’s strongest technical guarantees.\nOur implementation also protects the confidentiality of the image itself, including from Apple. Merely capturing a reference image should never expose the actual pixels to Apple or anyone else. We achieve this through the exceptional privacy properties of PCC—the nodes themselves are architected so that not even Apple can access image data, just as Apple cannot see the information processed for Apple Intelligence in PCC. While the revocation service must maintain a private record of photo GUIDs and associated sensors to allow for revocation, it never has access to the image data, and does not allow for public access to this record. And as final revocation checks occur using on-device lists, a device never reveals to anyone which photo it’s looking at in order to find out whether it’s still valid.\nThe report makes for good reading; the details are interesting.",
-      "published_beijing": "2026-10-07T19:07:36+08:00",
+      "title": "U.S. Targets Iran's 'Ghost Fleet' with Sanctions on 22 Vessels to Intensify Pressure on Tehran - CubaHeadlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaSGdFQUNaV1hld0JWV2xtUnpMa1pjSHlLWnBPNnpXejIwVUVZTU0xamEzZEV2Wk95bUt3U28tSlZWbXJqZmlyQ1NrSXA2Z2xYZHBCZlpTQTA?oc=5",
+      "published": "Fri, 09 Oct 2026 09:58:46 GMT",
+      "summary": "U.S. Targets Iran's 'Ghost Fleet' with Sanctions on 22 Vessels to Intensify Pressure on Tehran&nbsp;&nbsp;CubaHeadlines",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-09T17:58:46+08:00",
+      "source_detail": {
+        "name": "CubaHeadlines",
+        "url": "https://www.cubaheadlines.com"
+      },
       "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The U.S. sanctions 22 ships from Iran's phantom fleet and reinforces pressure on Tehran - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaTNnRkZiWVR5TWhKRVR6M2JzRGF2ZHRNdDFHR3FnMUV4WUxhWHpndlg5cWpEYk1nQkZXTUZsc2xrdV9aa05VTXZxb2NIb0FaS0ZWNlh6bm00Z0ZuaUZBT2pjUm85VUhVMlhDRWpYMEJLTHIyTUVsYW83U1U4MmowYXJCV3dxTkNJa004RGxfdWRCcE4yNVBia3EweUJ2NjdaSHZQLVJHWUxneWs5VXJoU3dSck82dG9OdjQycWln?oc=5",
+      "published": "Fri, 09 Oct 2026 06:35:08 GMT",
+      "summary": "The U.S. sanctions 22 ships from Iran's phantom fleet and reinforces pressure on Tehran&nbsp;&nbsp;CiberCuba",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-09T14:35:08+08:00",
+      "source_detail": {
+        "name": "CiberCuba",
+        "url": "https://en.cibercuba.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Britain Targets Russian Oil Tankers, Crypto Exchanges and Missile Suppliers in New Sanctions - EU Today",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CbzZoZWU0aWlDYnRtYnpBazR4ZXhONXM1ek1mTTctemc4Z1RsZlR2NG5zQTVCcFlRMUxOVjVMZWRWOGZqZTRiU1pqamotWGt0cmlRZVduSjNlTTZ2N0dDT2tkUlhVY2RxamFWQ1doaXBhNkJBNUJVRVNZSmt2YTQ?oc=5",
+      "published": "Fri, 09 Oct 2026 06:10:03 GMT",
+      "summary": "Britain Targets Russian Oil Tankers, Crypto Exchanges and Missile Suppliers in New Sanctions&nbsp;&nbsp;EU Today",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-09T14:10:03+08:00",
+      "source_detail": {
+        "name": "EU Today",
+        "url": "https://eutoday.net"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     }
