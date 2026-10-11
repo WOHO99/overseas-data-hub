@@ -1,23 +1,23 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-10T04:48:40.029561+00:00",
-  "fetch_date_utc": "2026-10-10",
-  "total": 40,
+  "updated": "2026-10-11T04:34:10.396735+00:00",
+  "fetch_date_utc": "2026-10-11",
+  "total": 43,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 15,
+      "count": 10,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 5,
+      "count": 2,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 2,
+      "count": 4,
       "feeds": 3
     },
     "供应链风险+FCPA": {
@@ -41,7 +41,7 @@
       "feeds": 0
     },
     "安全与隐私RSS(D)": {
-      "count": 40,
+      "count": 50,
       "feeds": 4
     },
     "新增直连RSS(E)": {
@@ -50,18 +50,18 @@
     }
   },
   "fail_feeds": 12,
-  "rate_limited_feeds": 1,
+  "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Tanzania Eyes Russia Market Beyond The West - dailynews.co.tz",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zaDZiR1Q3MFFSN2FPd1ZuXzF3NXk1UkhPZkdxdmVoeV9uaFlxdVdXTFJTbTNUTzVnM0w0eWJKMW4tM3ZNV09HUW9KSVRKODN3S2g2OUx6ZGMwWVlYQ3V1VDI0UEhQZjBuTlhITFF6MldZdVhHSHlj?oc=5",
-      "published": "Thu, 08 Oct 2026 19:59:22 GMT",
-      "summary": "Tanzania Eyes Russia Market Beyond The West&nbsp;&nbsp;dailynews.co.tz",
+      "title": "Iran's car and rail sectors became sanctionable on October 1, with no wind-down - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM2tOTlVHSlhUMFJNSEJFSlV2U3VQUnhvRVQtM1Z4TUFLem5yWkdKTm04SFNHYnJ2OHVtLU1ZT1RqeFJNWnNnZWlqb2lJRFVsYVZnWC1xWlA1dmFJWnFOX0tOSzlRcU5xaXQ0dWdqTS04d0xwc05sb3ZEbWM2eDZUSGlURlN2QVVST09oZU5CMVdHQnJLRElqQnBUN01jQWJ4Wm52d3FtX2ppQzFjZ2xmYWE3TVE?oc=5",
+      "published": "Sat, 10 Oct 2026 19:09:37 GMT",
+      "summary": "Iran's car and rail sectors became sanctionable on October 1, with no wind-down&nbsp;&nbsp;Business Upturn",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T03:59:22+08:00",
+      "published_beijing": "2026-10-11T03:09:37+08:00",
       "source_detail": {
-        "name": "dailynews.co.tz",
-        "url": "https://dailynews.co.tz"
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -69,31 +69,15 @@
       "relevance": "low"
     },
     {
-      "title": "The BR Privacy, Security & AI Download: October 2026 - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSloxdzM0azVnYkttNXMyTDE3dVFfdi11cXpRS2ZTcFJXZnZ0NFRPelpXaS1TZFM3SzlwMEhVZkpxYU56X0dsSnhiMVFpWjRDZFgxNTZvUzBUN1BZRVIySnlrYTVqT2s1WlhfU2ZuUWVYWnphS2pudERBRVhzX2lhR1FndmpzY3dO0gGIAUFVX3lxTE5KWjF3MzRrNWdiS201czJMMTd1UV92LXVxelFLZlNwUldmdnQ0VE96WldpLVNkUzdLOXAwSFVmSnFhTnpfR2xKeGIxUWlaNENkWDE1Nm9TMFQ3UFlFUjJKeWthNWpPazVaWF9TZm5RZVhaemFLam50REFFWHNfaWFHUWd2anNjd04?oc=5",
-      "published": "Thu, 08 Oct 2026 19:27:37 GMT",
-      "summary": "The BR Privacy, Security & AI Download: October 2026&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-09T03:27:37+08:00",
-      "source_detail": {
-        "name": "The National Law Review",
-        "url": "https://natlawreview.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Shaheen, Wicker Urge Rubio and Bessent to Target Revenue and Technology Pipelines Funding Putin’s War with Bipartisan Russia Sanctions Legislation - finchannel",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPTXl5czUtNUhIZ0dsNVNIdlBVWmhQcDJSZ1ZtaDk0Y1lpRWFvTlR4UGJsek1BQUV5S3ZDTFZXa2U2UHdjbXRHb0ppNWdXWkplRmFtRDJrQWZuQktYc3MtSFpRblRGM2dsdGxDUklPcV9PWXA3MUlCc3FXNk0xUnN6R3lxbkFEMk5YZHlrZm8xMVFDaktfejhtT2xDTHVhU1YzamgxNWM4LWdsRFpyWFNvNUVrbXg5ell4blFMOWlHVnF4Smc2SjNGV2l4MC1neHExOFV0Y1E5RDRmc2JaTlBFUUJLd1NWMnMxS0dnMlVldF9vVjUyQmVWc2ZvdVFiRWs2aWtXa2E5YUMtQVdCVi1SanNHcXl6NzNldDh5NTRsb3RzMTNlMUViQ1dsc1Y1MExpcUpEVzYyMkloTU02bXVxTndyUlg4QQ?oc=5",
-      "published": "Thu, 08 Oct 2026 07:00:00 GMT",
-      "summary": "Shaheen, Wicker Urge Rubio and Bessent to Target Revenue and Technology Pipelines Funding Putin’s War with Bipartisan Russia Sanctions Legislation&nbsp;&nbsp;finchannel",
+      "title": "Trump's Russian diesel licence collides with a 500% duty deadline on October 18 - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmlzOE5BSjBCdDk0c2wtUkhjSk5MOWFDMDVNbEozUU5ZNUVBbmxMYUlRejZFUHhTNXkwMnpzWEdobk1YNldoZFFCT3NoUERpcEN6a1pxMDVNNnRUNnhINXFoel9uQ1pWRzI3WV9RbTdPc2xfcHpodzdnWmhGNDY1ZTNwcWZXWk1qekpjR25nOTgxYlRtRUhnQm82bnJRRXdCeXZmaC1ZRGI1cE9mYXFfSFZKNnI?oc=5",
+      "published": "Sat, 10 Oct 2026 17:59:34 GMT",
+      "summary": "Trump's Russian diesel licence collides with a 500% duty deadline on October 18&nbsp;&nbsp;Business Upturn",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-08T15:00:00+08:00",
+      "published_beijing": "2026-10-11T01:59:34+08:00",
       "source_detail": {
-        "name": "finchannel",
-        "url": "https://finchannel.com"
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -101,92 +85,31 @@
       "relevance": "low"
     },
     {
-      "title": "Trump’s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions? - Diplomacy and Law",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rZU1BMFlpNy1yT2xNYUVEV3NnOGZZdEZ2M2JyMG9oOHVjbmFhUWZ3MmhydzdRcHQwUG1tTjg4OUlYcG44eXg1bkROQ3ZvT2Q0cHlVT2llMzlvTlFYX2d5MUlnRGJFdEU5ZERYb2F3?oc=5",
-      "published": "Fri, 09 Oct 2026 21:34:02 GMT",
-      "summary": "Trump’s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions?&nbsp;&nbsp;Diplomacy and Law",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-10T05:34:02+08:00",
-      "source_detail": {
-        "name": "Diplomacy and Law",
-        "url": "https://www.diplomacyandlaw.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Declaration or notice: a critical decision in CFIUS national security reviews - MLex",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcExvU205amZaQzEtM1pIMGhyaFhwVjV3RWdSOFZTMGNJQTJNTzZqbHZYRUFxSzVTWXFrYWhyTVJxU0tUR3FOVmZmREN6aUg0UlROSHJzcExaVFpqT3hTbzFJeXlYVFg1NGgzejJsbmJjWFRXcnpRdVhsMnpmRXRucGQ0NlctRVdHeUhFUTRkRnVoaVI0M01DNDY3cWJJeF9feTUwYVFXUzAxSnNNV0FQY1pkSkkwVkFFcmlZZmhVaTRvdjJ0WExLdmVwRkxNSXlzU3RFZzQ5MNIBWkFVX3lxTE02VGQ4cUl2QmI0bFhRaFdOQS1WU0V4UTFkRDhGZzhpZW5HcTQwV3NjOXM5amxINmFWWG1sVU5rRURNTE9nSlh2QjFTbkw1Rm9kS1NleGVVU1J0Zw?oc=5",
-      "published": "Fri, 09 Oct 2026 20:20:43 GMT",
-      "summary": "Declaration or notice: a critical decision in CFIUS national security reviews&nbsp;&nbsp;MLex",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-10T04:20:43+08:00",
-      "source_detail": {
-        "name": "MLex",
-        "url": "https://www.mlex.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Looming Chinese Investment One Block from the White House - The National Interest",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzFKeGVQaThzejRyTTVXdmJvU3VnTjZPTjV6anI0cXJOVHJEeG9nLTQyT2puZmlVekpJZjJ1VE5fR1ZRRF8xakEwWkE2bWpPZ3QxaHpfdktuUFJPaHpjb0xhems4bzRfOXZNV0lCLUxTd0czQ2Ryal9qdnVZRlVfZkY2Y3NGcHJ3OXdDZnFvbk9mZUFmQnlwRnlZNV8wQUU?oc=5",
-      "published": "Fri, 09 Oct 2026 19:54:54 GMT",
-      "summary": "The Looming Chinese Investment One Block from the White House&nbsp;&nbsp;The National Interest",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-10T03:54:54+08:00",
-      "source_detail": {
-        "name": "The National Interest",
-        "url": "https://nationalinterest.org"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
-      "published": "Fri, 09 Oct 2026 14:35:04 +0000",
-      "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium.\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-09T22:35:04+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium.\nHafnium (also known as Silk Typhoon) is widely believed to be the group that\nexploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021,\nAccording to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.)\nZhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021.\nAccording to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China.\nThe following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority.\nUS authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking.\nEven if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries.\nFurthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers.\nThat's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year.\nXu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him.\nSo, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "China, EU Reach Understanding on Hybrid Car Trade - Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbmV5cjd1eURZUUY4NGYxUTJOR3d1ZkVVeGxLalRpMV9kcHJOeTZlOGRUZ2lMOFNUUjczOUlZWGpmNDJjMmIxeS04MXpKUGl2bHpSb1RDT3hCYzltanJYRHU1dEVRX3lyTHRDbVJCRFN5VVRfR1VEY19ONzhuYnRQZ2xVLWdFYnFQVHB6aTB2QXMzVjZIOVlIbGhtNzg?oc=5",
-      "published": "Fri, 09 Oct 2026 12:51:57 GMT",
-      "summary": "China, EU Reach Understanding on Hybrid Car Trade&nbsp;&nbsp;Seoul Economic Daily",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T20:51:57+08:00",
-      "source_detail": {
-        "name": "Seoul Economic Daily",
-        "url": "https://en.sedaily.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Global Growth Under Pressure: The New Economics of AI, Energy Security and Sovereign Debt, 2026–2031 - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMmd6ZzFqR0QyX2dYOWJhUnJNRm5pNnpXelpRV1hTZndwaTBjSWVOU0dQZjJ2STRUeUZsRlFaaHdWMTdRTzByMmJyVFdrS2xYemxzTzBVaE1vd1FFUDU3NlE2ZVZScmxDMmpfbEdLTmtNb092M3RPaHhvU3VidThSUHd1YmR6LUJJVy1UN0w2cHBWSzV6djUtNTlfUUVFbmJDSms3Tk0wdTU4QUNzRjlpMWI3b1Zyb3d2bV9mSERjd013UVlBRVNqOXFKZw?oc=5",
-      "published": "Fri, 09 Oct 2026 10:33:10 GMT",
-      "summary": "Global Growth Under Pressure: The New Economics of AI, Energy Security and Sovereign Debt, 2026–2031&nbsp;&nbsp;https://debuglies.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-09T18:33:10+08:00",
+      "title": "U.S. Campaign Against the International Criminal Court: Sovereignty Doctrine, Institutional Dismantlement Strategy, and the Fragmentation of the International Legal Order - https://debuglies.com",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQV3Y2MGd0VzRDTnhBMnFRSGVsY01seWE3QmMwSnc3X01BcnJHbEhWMjFJZGRRRGIwMnNPN1lhR0h2clhEQmRobHhpSkh4YUQ2emxrNVVHazc2UVB5enFLQnIxdC1ONld4M0szYWF2bWZJWTVMQ2Y1a21HUnM1X0Z3U040cjUteW1zTExocGVMTmNpdFJNM3M2d0xpSUs3TXBjQWNWcXc5MnFUdzd4UDY3Q2F0RFU3LUFrZGszbWdJRFd4S0Zfb3VEdlFtc2tEQXpoWFlqRVkwUzUtLWJtbFc4d2dKM2NEeklIZE1lcFYyR3R6bzlmQk12UjhsTFBBTkJQU0IyUDF4VExoN1A3YUQ0SXN6OEs3NkpXU1B4XzJJWUlZVnB0R2Vr?oc=5",
+      "published": "Sat, 10 Oct 2026 12:31:55 GMT",
+      "summary": "U.S. Campaign Against the International Criminal Court: Sovereignty Doctrine, Institutional Dismantlement Strategy, and the Fragmentation of the International Legal Order&nbsp;&nbsp;https://debuglies.com",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-10T20:31:55+08:00",
       "source_detail": {
         "name": "https://debuglies.com",
         "url": "https://debuglies.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Zambia Wins Second IMF Programme - Birr Metrics",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8waVNBbWg1ZVJBajlKa0VTc1VMU0ljaFBXTTViTUVSaFhVMmYzcDkxc3RVaDd5NFFnZm4yd3RLdlg0blgtOUFhR0pia0hZeHpYUzFONXE4ZUtkRl9ZeXU2NmhQQXhTcVM3?oc=5",
+      "published": "Sat, 10 Oct 2026 06:52:13 GMT",
+      "summary": "Zambia Wins Second IMF Programme&nbsp;&nbsp;Birr Metrics",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-10T14:52:13+08:00",
+      "source_detail": {
+        "name": "Birr Metrics",
+        "url": "https://birrmetrics.com"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -194,15 +117,47 @@
       "relevance": "low"
     },
     {
-      "title": "U.S. Targets Iran's 'Ghost Fleet' with Sanctions on 22 Vessels to Intensify Pressure on Tehran - CubaHeadlines",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaSGdFQUNaV1hld0JWV2xtUnpMa1pjSHlLWnBPNnpXejIwVUVZTU0xamEzZEV2Wk95bUt3U28tSlZWbXJqZmlyQ1NrSXA2Z2xYZHBCZlpTQTA?oc=5",
-      "published": "Fri, 09 Oct 2026 09:58:46 GMT",
-      "summary": "U.S. Targets Iran's 'Ghost Fleet' with Sanctions on 22 Vessels to Intensify Pressure on Tehran&nbsp;&nbsp;CubaHeadlines",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-09T17:58:46+08:00",
+      "title": "Venezuela Bondholders Tighten Grip as Talks Near - Briefs Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGFoNHd5SDdJZmhveG00Rnd5VE81c25uSDduQ19xWC1rdEEtd2hTZDJKS0l6c0dqR1VfSzRKN0pURHVqZWZSRmExQmFqelZHRmtwLWgxY05nMU1ZanhyOUxhZTNMdW1iMjZRM1E4TTFEQ21wVFQwamtFOF9JNUVsQ3I1dmxyX1lySzIyeDdCVUxFdw?oc=5",
+      "published": "Fri, 09 Oct 2026 23:45:00 GMT",
+      "summary": "Venezuela Bondholders Tighten Grip as Talks Near&nbsp;&nbsp;Briefs Finance",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-10T07:45:00+08:00",
       "source_detail": {
-        "name": "CubaHeadlines",
-        "url": "https://www.cubaheadlines.com"
+        "name": "Briefs Finance",
+        "url": "https://www.briefs.co"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Zambia secures IMF staff-level backing for new $1.5 billion programme - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbUpoZFhLdURQeG5EdVllMjBjMnZBUHhfQkkzRi1DV2NMeGhna2ZlTUxyS2p1aHRMeEdXNldhVWFYRnI0bThzS0txeUUzOFZQMEZYMGNtaXR3a0FHaGM5Vi1ySHJyR2NpVWRDZ0NNTWxYLVE0VHdmSmNtNjhSaGpCa1o0MGRhTllTaUMwYzVYNUpwUmVWVlV3UFM3ZnljZ3hMakpaUmtfb29UZTZaSmJvVTA2VEJwM2JPRnRvc0xHNm1GN0d30gHKAUFVX3lxTE5EaXN4UkE3MXZyMTh4T0lIY050OW9WVDExanZRYjNXZWNjRXV6RW1KbTZOemZ2aGdEdk1HY0QxYS1oczVXMlREMWJ4OGFFdE1pWjhScHQ2UVVrejlTZHE4MWpBdDJhQnZ4TFlRZFJFbWN3TFVZX3BXdE5jRVRSbldTWmNaaG5yeTRlcmExZnlEWUIwLTZuQmRBakU5aGRDamc5YW54MmlPTXViY2JfQUZlWE9uc283RFlSVkVKRVRQSEhobWVZQjNpb2c?oc=5",
+      "published": "Fri, 09 Oct 2026 16:58:55 GMT",
+      "summary": "Zambia secures IMF staff-level backing for new $1.5 billion programme&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-10T00:58:55+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Singapore’s Silicon Statecraft: Doctrinal Independence through Substitution under US Extraterritorial Export Controls - Cambridge University Press & Assessment",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQYTR0T1p3Z2FUWnBmblJNY1JaYzI3X0tVNzNRYVotaVQ0cjBqbDdhOHBMYnJxbU5aZ1pfTjgxSkhWdF9Sek9oZHVwaWpFbTRFT3pUcjM3MDBTcVNsTzd1VERKcEl1aGZ3Q3l1V3NzV0dqcFNYUzBxRVI4c1pQOU5XajRtQ0lnTVhGaEJWUzFacVdCTjdKdG0yaTY4X3hMcG13a191cUNHblMtc0xJZXBYSEQ4T1A1STBmOGkxcy1mbEJiU04tV3M2ek1mNzNQQW1BanQzS1dtVlFYOHpjTjF6RjhMODN6ZGxzdGxPajVLMTdxSERUSFcwM0UtMmh1Z0pBU0ZzdFRlYlFDYThwMXVCdkNHNm9OZXN0a2xkYWQ4REVtNWRYTS1DZjc5MnBwY2gxZXgxaWVxR0Y5c1E?oc=5",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "summary": "Singapore’s Silicon Statecraft: Doctrinal Independence through Substitution under US Extraterritorial Export Controls&nbsp;&nbsp;Cambridge University Press & Assessment",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-09T15:00:00+08:00",
+      "source_detail": {
+        "name": "Cambridge University Press & Assessment",
+        "url": "https://www.cambridge.org"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -210,34 +165,14 @@
       "relevance": "low"
     },
     {
-      "title": "The U.S. sanctions 22 ships from Iran's phantom fleet and reinforces pressure on Tehran - CiberCuba",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaTNnRkZiWVR5TWhKRVR6M2JzRGF2ZHRNdDFHR3FnMUV4WUxhWHpndlg5cWpEYk1nQkZXTUZsc2xrdV9aa05VTXZxb2NIb0FaS0ZWNlh6bm00Z0ZuaUZBT2pjUm85VUhVMlhDRWpYMEJLTHIyTUVsYW83U1U4MmowYXJCV3dxTkNJa004RGxfdWRCcE4yNVBia3EweUJ2NjdaSHZQLVJHWUxneWs5VXJoU3dSck82dG9OdjQycWln?oc=5",
-      "published": "Fri, 09 Oct 2026 06:35:08 GMT",
-      "summary": "The U.S. sanctions 22 ships from Iran's phantom fleet and reinforces pressure on Tehran&nbsp;&nbsp;CiberCuba",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-09T14:35:08+08:00",
-      "source_detail": {
-        "name": "CiberCuba",
-        "url": "https://en.cibercuba.com"
-      },
+      "title": "Friday Squid Blogging: I Caught a Squid",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "published": "2026-10-09T20:24:45Z",
+      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii).\nThat night I cooked it over a barbecue grill&#8212;hot and fast. Delicious.",
+      "source": "Schneier on Security",
+      "published_beijing": "2026-10-10T04:24:45+08:00",
       "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Britain Targets Russian Oil Tankers, Crypto Exchanges and Missile Suppliers in New Sanctions - EU Today",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CbzZoZWU0aWlDYnRtYnpBazR4ZXhONXM1ek1mTTctemc4Z1RsZlR2NG5zQTVCcFlRMUxOVjVMZWRWOGZqZTRiU1pqamotWGt0cmlRZVduSjNlTTZ2N0dDT2tkUlhVY2RxamFWQ1doaXBhNkJBNUJVRVNZSmt2YTQ?oc=5",
-      "published": "Fri, 09 Oct 2026 06:10:03 GMT",
-      "summary": "Britain Targets Russian Oil Tankers, Crypto Exchanges and Missile Suppliers in New Sanctions&nbsp;&nbsp;EU Today",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-09T14:10:03+08:00",
-      "source_detail": {
-        "name": "EU Today",
-        "url": "https://eutoday.net"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }
