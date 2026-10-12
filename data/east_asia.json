@@ -1,41 +1,42 @@
 {
   "version": "4.0",
   "module": "东亚深度",
-  "updated": "2026-10-11T04:34:06.382765+00:00",
-  "fetch_date_utc": "2026-10-11",
-  "total": 83,
-  "high_priority": 4,
+  "updated": "2026-10-12T04:49:26.885685+00:00",
+  "fetch_date_utc": "2026-10-12",
+  "total": 72,
+  "high_priority": 6,
   "medium_priority": 30,
   "signal_alerts": {
+    "breakthrough": 1,
     "unprecedented": 1
   },
   "stats_by_category": {
     "日本": {
-      "count": 7,
-      "feeds": 3
-    },
-    "韩国": {
-      "count": 7,
-      "feeds": 3
-    },
-    "朝鲜半岛": {
-      "count": 1,
-      "feeds": 1
-    },
-    "政治+社会": {
-      "count": 38,
-      "feeds": 3
-    },
-    "基础设施+科技": {
-      "count": 23,
-      "feeds": 2
-    },
-    "气候+人口": {
       "count": 5,
       "feeds": 3
     },
+    "韩国": {
+      "count": 10,
+      "feeds": 3
+    },
+    "朝鲜半岛": {
+      "count": 2,
+      "feeds": 1
+    },
+    "政治+社会": {
+      "count": 17,
+      "feeds": 3
+    },
+    "基础设施+科技": {
+      "count": 35,
+      "feeds": 2
+    },
+    "气候+人口": {
+      "count": 0,
+      "feeds": 3
+    },
     "大国关系": {
-      "count": 3,
+      "count": 4,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -55,293 +56,460 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 10,
+  "fail_feeds": 12,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "ASML Raises South Korea Lithography Spare Parts Prices 10%, Pressuring Samsung and SK Hynix as AI Expansion Boosts Equipment Makers' Pricing Power - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcUVrdHBfZHIyUzh4eDRUaVZtak5vV1ViYWdsUWk2TUwtb2g0blRIc3Fka0JiMHpDUWVsaUdScnZ6c2RpVTAySjlZUXNuMU9nazNFcTAwZWd2SlhYbTFBcF9QV1MzYS1CclY1dzJ2NF9pQ1MzaERkUGZCOW1vZm1HY1RPTm05TVpVWG5tM1MxNHNfUWk4RjVtTnh3WVQ3RDR5dllqd0JKZUxyaDQ4amFtN01OVHFXYUU4aXBoZDVwUlRZX2hodVRnb1ZqTU1kdw?oc=5",
-      "published": "Sat, 10 Oct 2026 14:52:54 GMT",
-      "summary": "ASML Raises South Korea Lithography Spare Parts Prices 10%, Pressuring Samsung and SK Hynix as AI Expansion Boosts Equipment Makers' Pricing Power&nbsp;&nbsp;TradingKey",
+      "title": "The human cost of South Korea's AI chip boom - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMldEZ1VSOGpPMjU1X29nQVpqRzZwSHhEZ0RETlpGNTVFS1I0ZVRrLVpfZEk4NHNpR0xoSEluSGVfZjA4ZzBnODAwQjFhMHZzRGF1aXpUMWRGVXY2dm1BNjRDWHZxcV82d3BkVnhVY2xvYVNoZjd3NzF5enJCNkl4cDZGc2p5b0pRNTVLM3BsNkh3SS1PNlNEdmxR0gGaAUFVX3lxTE4yV0RnVVI4ak8yNTVfb2dBWmpHNnBIeERnREROWkY1NUVLUjRlVGstWl9kSTg0c2lHTGhISW5IZV9mMDhnMGc4MDBCMWEwdnNEYXVpelQxZEZVdjZ2bUE2NENYdnFxXzZ3cGRWeFVjbG9hU2hmN3c3MXl6ckI2SXhwNkZzanlvSlE1NUszcGw2SHdJLU82U0R2bFE?oc=5",
+      "published": "Sun, 11 Oct 2026 22:01:02 GMT",
+      "summary": "The human cost of South Korea's AI chip boom&nbsp;&nbsp;NST Online",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-10T22:52:54+08:00",
+      "published_beijing": "2026-10-12T06:01:02+08:00",
       "source_detail": {
-        "name": "TradingKey",
-        "url": "https://www.tradingkey.com"
-      },
-      "priority": 14.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262210024-asml-lithography-parts-price-hike-10-korea-samsung-sk-hynix-tradingkey",
-      "full_text": "ASML will uniformly raise replacement parts prices for EUV and DUV lithography equipment in South Korea by 10%, effective January 2027. This hike increases operating expenses for Samsung Electronics and SK Hynix, while reflecting growing pricing power among semiconductor equipment suppliers amid AI-driven capacity expansion. ASML's after-sales business, representing a significant revenue share, is expected to benefit from this adjustment. Similar pricing pressures are emerging across the industry, driven by robust equipment demand and rising component costs, though the ultimate profit impact depends on customer negotiation dynamics and ongoing supply-demand conditions.\nTradingKey - According to South Korean media outlet The Elec, ASML (ASML) will uniformly raise the prices of replacement parts for lithography equipment supplied to the South Korean market by 10%, with the new prices taking effect for deliveries starting in January 2027 and covering all spare parts for extreme ultraviolet (EUV) and deep ultraviolet (DUV) lithography machines.\nThis price hike will increase equipment maintenance costs for Samsung Electronics and SK Hynix, while also reflecting that semiconductor equipment suppliers are seeking greater pricing power against the backdrop of AI-related capacity expansion.\nAccording to reports, ASML headquarters submitted price hike proposals to Samsung Electronics and SK Hynix through its South Korean branch in early September, which were finalized after negotiations with the procurement departments of both companies.\nThis price adjustment covers both consumables requiring regular procurement and key components needed when equipment fails or experiences performance degradation. For installed lithography systems, continuous operation relies on maintenance and spare parts replacement; therefore, the price increases will not only affect new purchases but also raise the operating expenses of existing equipment.\nUnlike past price adjustments made in response to rising costs or procurement difficulties for individual raw materials, this uniform 10% price hike is relatively rare. Industry insiders believe that widespread increases in component costs are one reason, and ASML also seeks to boost its own profit margins as customer profitability improves.\nHowever, a 10% rise in spare parts procurement prices does not imply a corresponding 10% increase in customers' overall equipment operating costs or chip manufacturing costs. The actual impact depends on replacement frequency, procurement structure, and the share of related costs.\nASML categorizes services for its installed equipment base—such as maintenance, upgrades, and spare parts replacement—as a standalone business line. Data cited in reports indicates that revenue from this business reached nearly 8.2 billion euros in 2025, accounting for about 25% of total revenue. The company expects related revenue to potentially grow by over 30% in 2026.\nAs customers' installed equipment base expands and production activity increases, demand for maintenance and upgrades is expected to keep growing. If implemented smoothly, the price increase on spare parts will provide additional support for related revenue and help the company absorb part of the upward cost pressure.\nHowever, spare parts represent only one component of this business, and this price adjustment is limited to the South Korean market. Therefore, it cannot be extrapolated that ASML's global aftermarket revenue or profit will increase by a corresponding 10%. The extent of profit improvement will still depend on cost changes, procurement volumes, and product mix.\nRegarding complete systems, earlier reports also indicated that ASML planned to raise tool prices, but TSMC had explicitly opposed it. The diverging progress of these two types of price adjustments shows that equipment vendors' pricing power must still be assessed based on product category and customer negotiation dynamics.\nPrice adjustments have already extended to other semiconductor equipment suppliers. Applied Materials (AMAT) previously disclosed that prices for both new and existing products have increased, while Tokyo Electron also stated that it is responding to rising costs through price adjustments.\nOn the demand side, investments in AI chips, High Bandwidth Memory (HBM), and advanced nodes are driving capacity expansion among memory makers and foundries, increasing procurement demand for equipment, spare parts, and production consumables.\nAccording to SEMI forecasts, global semiconductor equipment sales will reach $165.9 billion in 2026, up 23.2% year-on-year; by 2028, the market size is expected to grow to $229.5 billion.\nAmid rising equipment orders and tightening supply for certain components, the scope for customers to leverage procurement scale to push down unit prices may narrow. However, whether price increases can continue to be passed through still depends on the supply-demand dynamics of different equipment types and the pace of customers' capacity expansion.\nFor ASML, the key focus moving forward is whether price hikes can translate into profit growth for its aftermarket business; for customers such as Samsung Electronics and SK Hynix, they need to absorb the pressure of rising equipment maintenance and procurement costs while expanding capacity and raising capacity utilization rates.\nThis content was translated using AI and reviewed for clarity. It is for informational purposes only.\nComments (0)\nClick the $ button, enter the symbol, and select to link a stock, ETF, or other ticker."
-    },
-    {
-      "title": "South Korea's once-hot AI stocks struggle for buyers as doubts grow over memory-chip boom - The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONGpRMGwySlFDR0U4b2hQTTdoMnVaSENlRDR1emNCak8zcXliZU1sTG5KV2V1TXBIcW9VZWx1X2pVVEt1NlpCdnpVa2FmclJONEljbXlFNlZ4YnBOdW9hbVd2U1NRdlc5b1FvWkFSejQ1bkF5azFWbDMzQnVwWkc0RGdhbmlYZkhsNWdueTRoNEo5YjlOV0Ixd1ZyS2V1bFl6ZEM3bTU4UklOaENLbXE3VTlzSXhHZGhFY3d5c2dEMEZlaFZlbEx3NW5RYWpXNGFELVJsRjhZS0w5V2JvQ05xZFVodk1DWVdpQ3Z3dmFBNGc?oc=5",
-      "published": "Sun, 11 Oct 2026 03:52:00 GMT",
-      "summary": "South Korea's once-hot AI stocks struggle for buyers as doubts grow over memory-chip boom&nbsp;&nbsp;The Business Times",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-11T11:52:00+08:00",
-      "source_detail": {
-        "name": "The Business Times",
-        "url": "https://www.businesstimes.com.sg"
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
       },
       "priority": 10.8,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/south-koreas-once-hot-ai-stocks-struggle-buyers-doubts-grow-over-memory-chip-boom",
-      "full_text": "Semiconductor hub of Taiwan gaining favour due to its wider and deeper linkages across the AI supply chain\nSOUTH Korea spent much of 2026 as a poster child of the scorching global AI trade. Now, by almost every measure, the US$4.3 trillion stock market is rapidly losing relevance with investors.\nTurnover has collapsed 70 per cent from its peak in late May, foreigners are retreating at the fastest pace in Asia and local retail investors are also pulling back.\nThe Kospi, the world’s best-performing major equities benchmark in the first half, has since lost 22 per cent to be the worst in the second half while its AI-heavy Taiwanese and US peers set new highs.\nBehind the reversal is a market whose AI fortunes hinge disproportionately on Samsung Electronics and SK Hynix, the two memory-chip giants at the heart of the global AI supply chain.\nThat concentration is now a liability as investors question the durability of memory chips’ boom cycle, while the brutal leverage-driven sell-off in the summer has made some global funds hesitant to return.\n“The biggest challenge I see for most investors – especially those who only recently got into Korea for the memory chip trade – is that the easy money in that theme has been made,” said Phillip Wool, head of portfolio management at Rayliant Global Advisors, adding his fund has been taking profit in South Korean AI stocks and is now underweight SK Hynix and Samsung Electronics.\nThe two chipmakers together account for over half of Kospi’s weighting and powered its ascent earlier in 2026. Foreign funds pulled US$131 billion from South Korean stocks this year, the most among major Asian markets, according to exchange data compiled by Bloomberg.\nScepticism over memory chip demand was on full display when shares of Samsung, the world’s top producer of such semiconductors, fell on Thursday (Oct 8) despite a nearly nine-fold surge in quarterly operating profit.\nSouth Korea is now struggling to lure buyers, a problem amplified by the nearing completion of combined 55 trillion won (US$41 billion) stock buybacks by Samsung and SK Hynix.\nRepurchases by the two chipmakers accounted for the bulk of the US$23 billion worth of buy orders in the market in September, according to JPMorgan Chase.\n“We have seen capital increasingly gravitate back toward US equities, contributing to ongoing foreign outflows from the Korean market,” said Richard Tang, head of research Hong Kong at Julius Baer.\nIndividual investors, a key force behind Kospi’s 100 per cent rally in the first half, remain elusive following the July rout.\nMargin loans outstanding have hovered around 33 trillion won over the past month, after peaking at 38.6 trillion won in June, according to data from the Korea Financial Investment Association. Brokerage account balances – or investor deposits awaiting deployment – have also fallen to around 100 trillion won from a record of near 140 trillion won.\n“The memory names in particular have become value names, cheap at current earnings,” said Jon Withaar, a portfolio manager at Pictet Asset Management in Singapore. “But retail and fast money hedge funds do not chase value or the concept ‘cheap’. They chase growth.”\nTo be sure, the declines have opened up buying opportunities for some investors who see AI spending and memory chip profitability still holding up. South Korea’s ongoing initiative to boost corporate value is also another draw. Thanks to earlier gains, Kospi is still among the best performers for 2026 overall.\nYet for those less convinced, the competing Asian semiconductor hub of Taiwan is gaining favour due to its wider and deeper linkages across the AI supply chain and a more upbeat earnings outlook.\nUp 70 per cent in 2026, the Taiex Index beat the Kospi by about 23 percentage points last quarter, the widest margin since the turn of the century. Taiwan’s stock gains are also more broad-based, with about 10 per cent of the local gauge’s members having at least doubled in value this year. That compares to 4.7 per cent for the Kospi.\n“At this point in time, we prefer to express our tactical AI exposure through Taiwan equities, which offer a more complete technology hardware ecosystem and are supported by robust spending plans from major technology companies,” said Wu Chun-Lai, head of Asia asset allocation at UBS Global Wealth Management Chief Investment Office. BLOOMBERG\nDecoding Asia newsletter: your guide to navigating Asia in a new global order. Sign up here to get Decoding Asia newsletter. Delivered to your inbox. Free."
+      "canonical_url": "https://www.nst.com.my/amp/lifestyle/bots/2026/10/1553358/human-cost-south-koreas-ai-chip-boom",
+      "full_text": "SOUTH Korean activists campaigning for workplace safety in the nation's booming semiconductor industry are calling on the government to recognise the cancer diagnoses of three former SK Hynix employees as work-related illnesses.\nSK Hynix, along with fellow South Korean tech giant Samsung Electronics, has emerged as a key player in the booming artificial intelligence industry, with its cutting-edge memory chips crucial to powering the sector's rapid growth.\nEstablishing direct links between semiconductor work and certain cancers can be contentious, with research inconclusive.\nBut fabrication and assembly plant workers can face exposure to solvents, acids, toxic metals and chemical gases, according to the United States Occupational Safety and Health Administration.\nSamsung issued a public apology in 2018 to workers, many of them young women, who had developed cancer after working at some of its factories, paying out 150 million won per case after a decade-long dispute.\nSupporters for the Health and Rights of People in the Semiconductor Industry (SHARPS), one of the groups that had pressured Samsung, said chemicals classified as carcinogens were being used by SK Hynix.\n\"We have confirmed that several substances on SK Hynix's own list of prohibited chemicals are in fact being used, including nickel and its compounds,\" Lee Sang-soo, a SHARPS activist, told a news conference, citing data reported by SK Hynix to the Environment Ministry.\nSK Hynix said it was \"taking various measures to more objectively identify the characteristics of disease occurrence\" and was fully cooperating with government inquiries.\nThe company, which did not address the specific claims, said it had taken \"proactive industrial health measures, including the development of a comprehensive support and compensation plan\".\n—AFP"
     },
     {
-      "title": "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers - Livemint",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEE3OUtpcWs1X3AySVNaUmQ1TFRtTnc5X2dkdU5DRWRaVk9BeDJxMDdaM2tGNWRRek5UTkYyVTNsVjRVZngwR0FsSTI0SVJuNnBqT1FOa0pVU09NczIwZ2RUeHhFYXBaMkRYeU5ZYlpNRk9HSGxnZjk1N3hwaEdUVkdTNEpTNVZXaUpvbGZrVGdrZGd1aFVIXy1rLU41dlFwdW8tWnJsOXR5U25aOHFNQ9IBtgFBVV95cUxPbERtRFQwNEphOFVmWmpCZjUxSk5mRnV6V1pVN2RMU09YV2FWdmJ1X05jMlNteTdTT041NG9Rd3B6Mkp4bDBOcEsweEduYzIxWWxvbWxUWVFFTFRBbzFKUTl3WFVjRU05djA2Z0xWZS16WktLdmNxWGRyUk9KRlc2MzRuRXFSNkNEU29lSHlTQldhazlHVDJrb1BjbTJHaWxkUnA3UWZGUS1rTUo3dnpLRVRzYU9Kdw?oc=5",
-      "published": "Sun, 11 Oct 2026 00:38:51 GMT",
-      "summary": "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers&nbsp;&nbsp;Livemint",
+      "title": "SK Hynix Tests Memory Chips in Orbit Aboard South Korean Satellite - www.briefasia.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWXJXVFM4ekRnVVBLSm1LblAwamd2bndQTFRjNk9ZZ1U4ZjdaQVdha3p5UkZzTUJjdHQyVnBvb1VwSVNsSEk0ZVE1UFdWMGwxd1IwaFJIU3paR2lHZ0lEdXEycHk1dTVxWFdibDc2ZTJzc1FVRlo4X0xic0tqWnFOcFA1SWNDdEpxWTVva2tkZ3BQd3Ju?oc=5",
+      "published": "Sun, 11 Oct 2026 20:18:31 GMT",
+      "summary": "SK Hynix Tests Memory Chips in Orbit Aboard South Korean Satellite&nbsp;&nbsp;www.briefasia.com",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-11T08:38:51+08:00",
+      "published_beijing": "2026-10-12T04:18:31+08:00",
       "source_detail": {
-        "name": "Livemint",
-        "url": "https://www.livemint.com"
+        "name": "www.briefasia.com",
+        "url": "https://www.briefasia.com"
       },
-      "priority": 7.2,
+      "priority": 10.8,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "high",
+      "canonical_url": "https://www.briefasia.com/article/sk-hynix-tests-memory-chips-orbit-south-korean-satellite",
+      "full_text": "Korea's Memory Giant Enters Space Testing\nSK Hynix has deployed dynamic random-access memory and Universal Flash Storage products into orbit aboard a South Korean satellite, the company confirmed following the successful fifth launch of the country's Nuri rocket. The satellite established ground communication after reaching orbit, enabling what SK Hynix describes as in-orbit reliability testing for its memory components.\nThe deployment represents the Icheon-based chipmaker's first publicly disclosed venture into space-grade electronics, a niche but growing segment where radiation tolerance, extreme temperature resilience, and long-term reliability requirements differ sharply from consumer and enterprise applications.\nWhy Space Electronics Matter for Chipmakers\nSpace represents a technically demanding but strategically valuable market for semiconductor manufacturers. Satellites, deep-space probes, and orbital infrastructure require memory chips capable of withstanding cosmic radiation, temperature swings exceeding 150 degrees Celsius, and years of operation without repair or replacement.\nTraditional space-qualified components undergo extensive ground-based testing and certification, processes that can stretch development cycles to five years or more. In-orbit validation accelerates this timeline, allowing manufacturers to assess real-world performance under conditions impossible to fully replicate in terrestrial laboratories.\nFor SK Hynix, the move signals interest in diversifying beyond its core smartphone, PC, and data centre markets. The global space economy reached USD 469 billion in 2025, according to the Space Foundation, with satellite constellations for broadband, Earth observation, and navigation driving demand for more capable onboard computing.\nThe Technical Challenge\nDRAM and flash storage face distinct challenges in orbit. DRAM's volatile nature makes it vulnerable to single-event upsets, where a high-energy particle flips a bit in memory, potentially corrupting data or crashing systems. Flash storage, while non-volatile, suffers cumulative damage from radiation exposure that can degrade write endurance and data retention over time.\nAerospace engineers typically mitigate these risks through radiation-hardened designs, error-correction codes, and redundant architectures. Commercial off-the-shelf components, even from leading manufacturers, require validation to determine whether their inherent resilience meets mission requirements or whether additional shielding and fault tolerance are necessary.\nSK Hynix has not disclosed which specific DRAM or UFS product lines flew aboard the satellite, nor whether the chips incorporate design modifications for space use. The company also has not announced a timeline for releasing test data or performance metrics from the orbital deployment.\nAsia's Expanding Role in Space Infrastructure\nSouth Korea's Nuri programme, managed by the Korea Aerospace Research Institute, achieved its first successful payload delivery to orbit in 2022 after two decades of development. The rocket can carry 1,500 kilograms to low Earth orbit, positioning South Korea as the seventh nation with indigenous orbital launch capability.\nThe programme's fifth launch continues a cadence aimed at establishing reliable, domestically controlled access to space, reducing reliance on foreign launch providers. For Korean technology companies, this opens opportunities to test and deploy hardware in orbit without navigating export controls or competing for limited slots on international missions.\nJapan, China, and India have similarly expanded their space programmes in recent years, with commercial and government satellites increasingly carrying domestically produced electronics. Taiwan Semiconductor Manufacturing Company and Samsung Electronics have both explored radiation-tolerant process nodes, though neither has publicly committed to space-specific product lines.\nWhat Comes Next\nSK Hynix's orbital test represents an early-stage exploration rather than a commercial product announcement. The company has not indicated whether it plans to develop a dedicated space-grade memory portfolio, pursue partnerships with satellite manufacturers, or simply assess whether existing products can serve lower-risk orbital applications.\nResults from the in-orbit testing will determine the next steps. If SK Hynix's standard DRAM and UFS products demonstrate acceptable error rates and longevity in space, the company could position itself as a supplier for the emerging class of commercial satellites that prioritise cost and performance over the ultra-high reliability demanded by scientific missions or crewed spacecraft.\nThe space electronics market remains a fraction of SK Hynix's revenue, but the strategic calculus extends beyond immediate sales. Demonstrating that memory chips can function in one of the most hostile environments known builds credibility for terrestrial applications in automotive, industrial, and defence sectors where reliability under stress is paramount.\nFor now, the chips are in orbit, the data are being collected, and the Korean memory industry has opened a new frontier."
     },
     {
-      "title": "IMF Poised to Raise South Korea's Growth Forecast Above 3%? A Week Packed with Economic Indicators - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtUV9VVk85enRMTE9IWmdjM0ZLeEJ6WWRkZmxXaXRnbnJzWWE4OGp0NVR1bmtLQTFxZHFfdHJmNEt3ZHVrWUMtOHJoNi13QjFjWjBnSEljaVZUQnFXZXY2RV81b1dxbzhxMWI5ckZTX3JqdzVNNkE?oc=5",
-      "published": "Sat, 10 Oct 2026 22:05:00 GMT",
-      "summary": "IMF Poised to Raise South Korea's Growth Forecast Above 3%? A Week Packed with Economic Indicators&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-11T06:05:00+08:00",
+      "title": "Chey Tae-won: \"US-China Semiconductor Expansion Race—If We're Late, South Korea Loses Market Share\" - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZQ0ZncmRwWXlRTEJ0eDZXajI0cXYzN0t4U3RaWVVfckEySkp2eUZxbWZaTXNlS25ma3ZDN0JwalZMd0d6MC12RkpvNm83aUY0NWVOZXZQTkhFVjZvUGdYNzhKaEFmcEd4a1ZXZHVGN0c1VHVDRkE?oc=5",
+      "published": "Sun, 11 Oct 2026 09:55:00 GMT",
+      "summary": "Chey Tae-won: \"US-China Semiconductor Expansion Race—If We're Late, South Korea Loses Market Share\"&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T17:55:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
       },
-      "priority": 7.2,
-      "category": "韩国",
+      "priority": 10.8,
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "high",
+      "canonical_url": "https://finance.biggo.com/news/a5e8643a-8f9e-4abe-a6ef-2682225fa8ea"
     },
     {
-      "title": "South Korea to Decide Second Space Center Between Goheung and Jeju - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanlnWmoydkpFVVJkcXdwTllXdUU2ZXl2SFlYWlE3T0VNUm1PN1pZSkEweDJXbU5seXg4TTJGblRfQS1teC1PUW5JT0I0UkNfWFFCcmdsTC1zNFVRV1RuZ2tNTFZLaWJ0NjFabHpvU0ZsRGFnMVR2S25jMjlXYnE4eHlsRVhVSHVL?oc=5",
-      "published": "Sat, 10 Oct 2026 21:16:05 GMT",
-      "summary": "South Korea to Decide Second Space Center Between Goheung and Jeju&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-11T05:16:05+08:00",
+      "title": "SIA's Latest Assessment: Deep Risks in the Chip Supply Chain Have Been Severely Underestimated - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLNlRoQWFqcU1LV0NtYkFJSWtsMFFFcm9LMnlkY1Y2TUZuMTBTeFRzZ09KWFVlLXFFVzRTZUwxMG5kang1OHFCcV9WU1I0UVdOd1FXV3RIWTR4akZzbXQwWEJzMUM4cXVKZmNXNktPNHh6dzlHUEE?oc=5",
+      "published": "Mon, 12 Oct 2026 01:06:00 GMT",
+      "summary": "SIA's Latest Assessment: Deep Risks in the Chip Supply Chain Have Been Severely Underestimated&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | JP Chip/Export",
+      "published_beijing": "2026-10-12T09:06:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 8.4,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://finance.biggo.com/news/2f98c958-8698-45c9-a167-b5dbb46603a8",
+      "full_text": "The Semiconductor Industry Association (SIA) recently released an in-depth report revealing that the global supply chain underpinning the U.S. chip industry is far more fragile than surface-level data suggests. While 95% of equipment and materials used by the U.S. semiconductor industry come from suppliers headquartered in the U.S., Europe, or Japan, that proportion plunges to 68% when traced to actual production locations, with the remaining 32% dependent on production capacity in mainland China, Israel, Southeast Asia, South Korea, and Taiwan. The report warns that weak links hidden deep in the upstream global supply chain are becoming the most dangerous vulnerability in the U.S. chip ecosystem.\nThe report, titled \"Understanding Dependencies in the U.S. Semiconductor Supply Chain,\" represents the SIA's first systematic quantification of the fragility of the upstream supply chain serving the U.S. chip industry. It notes that semiconductor manufacturing takes months and requires sourcing a wide range of materials, equipment, and components from multi-tiered suppliers across the globe. Chipmakers work directly with more than one thousand Tier 1 suppliers to procure bare wafers, specialty gases, photoresist chemicals, and manufacturing equipment such as lithography and deposition tools. Each of these Tier 1 suppliers, in turn, maintains an intricate network of sub-tier suppliers involving intermediate products and raw material providers.\nTo assess supply chain risk, the SIA collaborated with procurement and strategy leaders from chipmakers, fabless design companies, backend packaging firms, equipment manufacturers, and materials suppliers to develop a vulnerability index spanning five dimensions: geographic concentration of production, degree of dependence, supplier concentration for specific products, ownership structure of critical suppliers, and dependency relationships at the sub-tier supplier level. The analysis covered 200 key Tier 1 equipment and material inputs, along with nearly 100 categories of upstream raw materials, engineered materials, and sub-components.\nThe Stark Gap Between Headquarters Location and Production Site\nOne of the report's core findings is that supply chain analyses based on supplier registration locations severely obscure true dependency relationships. The U.S. semiconductor ecosystem spends approximately $27 billion annually on equipment and materials, with 95% of that supply coming from suppliers headquartered in the U.S., Europe, or Japan. However, when assessing actual production or assembly locations, the share from the U.S., Europe, and Japan drops to 68%.\nThis \"headquarters-production separation\" phenomenon is pervasive across multiple critical areas. For example, U.S.-headquartered semiconductor manufacturing equipment suppliers assemble physical vapor deposition (PVD) equipment in Singapore and etch equipment in the United Kingdom. U.S. materials suppliers produce photoresists and ultra-high-purity gases needed by chipmakers at chemical plants in Japan, Taiwan, and South Korea. By contrast, bulk gases such as hydrogen and argon are typically produced by European companies, but their production often occurs through air separation units located near wafer fabrication facilities in the United States.\nApplying the vulnerability index to the Tier 1 supply chain, approximately half of the analyzed categories were classified as high (11%) or medium (38%) vulnerability. High-risk Tier 1 inputs include: rare inert gases such as xenon and krypton used in lithography and plasma etching; advanced packaging equipment with roughly 65% of capacity concentrated in Singapore, Malaysia, and South Korea; Ajinomoto build-up film (ABF) substrates used in high-density packaging for AI accelerators, with Japan accounting for approximately 75% of supply; and DUV/EUV photomask blank substrates, with Japan supplying roughly 70%.\nHidden Risks in Upstream Raw Materials\nThe report's most striking findings come from its deep-dive analysis of the sub-tier supply chain. Chipmakers typically do not purchase raw materials directly from mineral producers; instead, they buy highly purified chemicals or components from specialized materials suppliers. After evaluating nearly 100 categories of upstream Nth-tier base materials, engineered materials, and sub-components, the SIA found that nearly one-third of upstream inputs fall into the high-risk category.\nThese high-risk materials include 13 of the 17 rare earth elements (scandium, yttrium, cerium, neodymium, dysprosium, terbium, lanthanum, erbium, thulium, lutetium, europium, gadolinium, and samarium), as well as critical minerals such as gallium, germanium, and graphite, along with precursor chemicals. The overwhelming majority of production capacity for these materials is concentrated in China or Russia.\nThe report details a timeline of China's export controls on critical materials in recent years: export restrictions on gallium, germanium, and graphite were imposed in 2023, escalating to export bans the following year; export controls on seven medium and heavy rare earth elements were implemented in April 2025; and in October of the same year, the scope was further expanded to cover additional rare earth categories, mining and smelting equipment, and rare earth-related technologies.\nAccording to Chinese customs data, as of June 2026, China's exports to Japan of certain controlled critical minerals—including gallium, dysprosium, terbium, and yttrium—remained at zero or negligible levels. Given that Japanese suppliers play a significant role in supplying semiconductor materials, components, and manufacturing equipment to the United States, prolonged restrictions on these raw materials could create further downstream supply risks for the U.S. semiconductor industry.\nThe report also specifically highlights the vulnerability of polysilicon. China is the world's largest polysilicon producer, accounting for more than 90% of total capacity, almost entirely of solar grade. Although approximately 85% of the electronic-grade polysilicon market is held by a small number of producers in the U.S., Europe, and Japan, these suppliers must rely on large-scale production of solar-grade polysilicon to achieve the economies of scale needed for producing semiconductor-grade ultra-high-purity polysilicon. China's rapid expansion of solar-grade capacity, along with advances in electronic-grade production technology, is creating increasingly intense competitive pressure on existing qualified suppliers.\nThe most sobering finding: after accounting for sub-tier dependencies, more than three-quarters of Tier 1 supply categories depend on at least one high-risk Nth-tier input, and more than half depend on two or more high-risk upstream materials. Many Tier 1 equipment and materials originally rated as low- or medium-risk conceal critical vulnerabilities upstream. For example, core semiconductor equipment such as chemical vapor deposition (CVD), electrochemical deposition (ECD), sputtering, and ion implantation tools all depend on highly specialized custom components—turbo pumps, dry pumps, vacuum robots, and transfer valves—often available from only a single supplier; die attach film depends on gallium, BT packaging substrates depend on tungsten, and nitrogen trifluoride depends on fluorite.\nA Multi-Pronged Response Strategy\nFaced with such complex supply chain risks, the SIA proposes a four-part strategic framework.\nFirst, expand domestic production and strategic stockpiles. The report acknowledges that relocating all materials and equipment needed for semiconductor production to the United States is neither practical nor economically viable, but for certain critical inputs, establishing or enhancing domestic capacity is a feasible and essential near-term strategy. For example, ABF substrates and photoresists overwhelmingly come from Japan, and investing in U.S. domestic production capacity would enhance supply chain resilience. Sputtering targets represent another area well-suited for expanding domestic capacity.\nFor materials that cannot be rapidly localized, building strategic inventories serves as an important buffer. Semiconductor manufacturers already use excess inventory to guard against supply disruption risks, often maintaining up to 12 months of stock where feasible—for example, rare earth magnets, neon gas, and motors and motor components. However, not all inputs can be stockpiled. Scandium metal is particularly difficult to stockpile due to its rapid oxidation rate and shelf life of only 9 to 15 months. Certain fluorinated gases are subject to U.S. and global environmental regulations, preventing companies from purchasing and building multi-year supply buffers. The report recommends that the U.S. government consider establishing exemption provisions to existing environmental regulations to allow semiconductor manufacturers to import and stockpile such gases.\nSecond, build and maintain allied supply chains. The supply chain supporting the U.S. semiconductor ecosystem is inherently global. Japan, Taiwan, Malaysia, Singapore, South Korea, and European partners including Germany, France, Italy, the Netherlands, and the United Kingdom are important production locations for critical engineered materials and components needed in semiconductor manufacturing equipment. Producers in these countries and regions depend on sourcing critical mineral raw materials from Australia, Canada, India, and Mexico. Cooperation with Vietnam and Indonesia, including through public-private partnership investments in local refining and processing infrastructure, could also help expand processing capacity outside high-risk regions.\nThird, reduce dependence on unreliable sources of rare earths and critical minerals. The report stresses the urgent need to establish new mining and processing capacity. Beyond expanding domestic mining and refining capacity where feasible, the U.S. government needs to wo"
+    },
+    {
+      "title": "Defector Exposes North Korea's Cuban Cigar Smuggling - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWQxTEFYWHg5ZW9uSXZMZVE2ODNpQ2xPUUtmSFZCZUoxWW92VXBPZHJkVXJQem1VM1JxM1U5aEo2Y0pvcTBkSjM5b3FxRWlsUTladXl3UnhFSFM1cXlIS0RsaFVpT3VlSU9Ka0t5ekNncFhlYUEzbUJYZjdwbkI5YUNKU0Ruek9Y?oc=5",
+      "published": "Sun, 11 Oct 2026 20:26:31 GMT",
+      "summary": "Defector Exposes North Korea's Cuban Cigar Smuggling&nbsp;&nbsp;조선일보",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-12T04:26:31+08:00",
       "source_detail": {
         "name": "조선일보",
         "url": "https://www.chosun.com"
       },
       "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korean economic paradox and India–Korea strategic economic cooperation - The Sunday Guardian",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMHFDeTVXSWtPeVBzNldUMkQyeW11MjZVUHNUdlRzYTJVc3B0VTJRSEJzbEt0NFJHRTVLaHRSVFF1Y2dFNExhMHVPZTJDbUhlM1RQR3JDNWhQU1VteExhRWxlTzZtZ3N4bWhveG11M0VPTW1GQ0lKYnBXa2xRQ3hlOFA5RW9tQlRwTnhvaG9QdnJwOFVfczRBQ2hJVmt1ZUtaWENZdDR6bWlkSnUwSlJ6YWlhUld1NmNLOFJWbmE0a3pZc0ZTcVHSAcYBQVVfeXFMTzBxQ3k1V0lrT3lQczZXVDJEMnltdTI2VVBzVHZUc2EyVXNwdFUyUUhCc2xLdDRSR0U1S2h0UlRRdWNnRTRMYTB1T2UyQ21IZTNUUEdyQzVoUFNVbXhMYUVsZU82bWdzeG1ob3htdTNFT01tRkNJSmJwV2tsUUN4ZThQOUVvbUJUcE54b2hvUHZycDhVX3M0QUNoSVZrdWVLWlhDWXQ0em1pZEp1MEpSemFpYVJXdTZjSzhSVm5hNGt6WXNGU3FR?oc=5",
-      "published": "Sat, 10 Oct 2026 20:02:24 GMT",
-      "summary": "South Korean economic paradox and India–Korea strategic economic cooperation&nbsp;&nbsp;The Sunday Guardian",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-11T04:02:24+08:00",
-      "source_detail": {
-        "name": "The Sunday Guardian",
-        "url": "https://sundayguardianlive.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "AMD CEO Lisa Su Expands AI Partnerships in South Korea - SuaraGarut.ID",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vV0daVUNxdXlRUEFWY3BSZ3lGSE9waXJQWk1FQUROOTRXV1RSQjVhYUl1WnQwQk4tVFBhVEhfRzZwN3BKR0tWZ3BNUWZPUE9oSlpEVXhXdWlMUVg1R0xYNk5DLWNOZ1k?oc=5",
-      "published": "Sat, 10 Oct 2026 07:23:09 GMT",
-      "summary": "AMD CEO Lisa Su Expands AI Partnerships in South Korea&nbsp;&nbsp;SuaraGarut.ID",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-10T15:23:09+08:00",
-      "source_detail": {
-        "name": "SuaraGarut.ID",
-        "url": "https://suaragarut.id"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Why South Korea and Ukraine Are Fighting Over Two Prisoners of War - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFBuc3F2LS1WZlN2aGMyVjA0d1A1U3RNNW0wS1BhYmJ6QVNQMGNyaWJpZmFUNVV0bm5pWExRVS16c3NlTFBJY1g0NUZ6Qzc0MFR4dFZqd1hhX2RzY1BFN0NjR3pQQkhTcmpGaHFPYUk2Mm5xUzN4cEwxOG45SVZ1S0lnR3FUc3YxVmpObDRnamM4dDg5MW5MZFBkNHdoSER0VVI1YlBNWkxnYnVpbVhSaEZtbw?oc=5",
-      "published": "Fri, 09 Oct 2026 12:00:00 GMT",
-      "summary": "Why South Korea and Ukraine Are Fighting Over Two Prisoners of War&nbsp;&nbsp;Time Magazine",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-09T20:00:00+08:00",
-      "source_detail": {
-        "name": "Time Magazine",
-        "url": "https://time.com"
-      },
-      "priority": 7.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Singapore’s Silicon Statecraft: Doctrinal Independence through Substitution under US Extraterritorial Export Controls - Cambridge University Press & Assessment",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQYTR0T1p3Z2FUWnBmblJNY1JaYzI3X0tVNzNRYVotaVQ0cjBqbDdhOHBMYnJxbU5aZ1pfTjgxSkhWdF9Sek9oZHVwaWpFbTRFT3pUcjM3MDBTcVNsTzd1VERKcEl1aGZ3Q3l1V3NzV0dqcFNYUzBxRVI4c1pQOU5XajRtQ0lnTVhGaEJWUzFacVdCTjdKdG0yaTY4X3hMcG13a191cUNHblMtc0xJZXBYSEQ4T1A1STBmOGkxcy1mbEJiU04tV3M2ek1mNzNQQW1BanQzS1dtVlFYOHpjTjF6RjhMODN6ZGxzdGxPajVLMTdxSERUSFcwM0UtMmh1Z0pBU0ZzdFRlYlFDYThwMXVCdkNHNm9OZXN0a2xkYWQ4REVtNWRYTS1DZjc5MnBwY2gxZXgxaWVxR0Y5c1E?oc=5",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "summary": "Singapore’s Silicon Statecraft: Doctrinal Independence through Substitution under US Extraterritorial Export Controls&nbsp;&nbsp;Cambridge University Press & Assessment",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-10-09T15:00:00+08:00",
-      "source_detail": {
-        "name": "Cambridge University Press & Assessment",
-        "url": "https://www.cambridge.org"
-      },
-      "priority": 6.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "SK Hynix Reboots Winpac Packaging Deal as Chairman Chey Bets on Relentless Chip Demand - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSTlkcWVjX1hwOF9ubVpEdW1xcjVlQUFsZ0ptNHJtZ3R6WFRoQnFwTmpzcUNiTnpoMi1Hd2NvMkgzc251UVJqVm50dzhzSmFLa25QOGtoVng1MnZOVjNWNDNHSVFnTmRSSkF3Wmp0WGwyNmF1SmdURjYxVmxXYVhSaXk4eUIwNHhVX3hrelRwYXloOHBwcDhhMHNQUnpNY19KbmJwNkRwWUkwWTRMTzRDZ3gxZ1ZUelZoYlZxRVVQTFlOQmlDT0NJeUlQZmNYN1pZNlJ5QU1KLTRhLTBET3BZ?oc=5",
-      "published": "Sat, 10 Oct 2026 10:31:29 GMT",
-      "summary": "SK Hynix Reboots Winpac Packaging Deal as Chairman Chey Bets on Relentless Chip Demand&nbsp;&nbsp;AD HOC NEWS",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-10T18:31:29+08:00",
-      "source_detail": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Why Advanced Packaging Is the New Bottleneck for AI Chips in Asia? - Asia Business Outlook",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaFlILXdQT2s4Yk1UUDlBVUZ2M2YxTEE4Q3lrd1lWODhVbnI2V2d0cXl2dWRYcnFmbmFPM1E5anZMbTc2ZUVPZDVfX1ZOX01WOHRFZl95R0RDSjZ6WC1ORXZGMGpvZEx5WW5GS0xhX3NVamtVSTZWWm9RV3VaM0VRTmxLRzVCQ1NKVG9QdGREbjk2MGE0QzV3TkFFNHlFZ1Y3OWUwYXdNUXpyb2FyYVNGUDFvU01oRGt4YWtYYjVpaW1IZXMtcHZwcDJzcw?oc=5",
-      "published": "Fri, 09 Oct 2026 21:59:09 GMT",
-      "summary": "Why Advanced Packaging Is the New Bottleneck for AI Chips in Asia?&nbsp;&nbsp;Asia Business Outlook",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-10T05:59:09+08:00",
-      "source_detail": {
-        "name": "Asia Business Outlook",
-        "url": "https://www.asiabusinessoutlook.com"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "[CONTRIBUTION] US partnerships vital to Korea's tech industry - The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcHZUNl9rSXE1cjUzQjkxdGNOb3NCTUhFd1NDNVRjaC14SnZxTC03MjVqZEVQUS1rRk53MVg4Z0pBUTlsdkZGTUltaHVLTFpnYXRLYk9xNEx5ck9NUmJVWU9WcEptejdWekxGSHpOa2ZJTHRmV0pYOHNGaWpyNUJpb01NVFBGcnFLQ0VpTzJzRW5WNEVweTQyOGpiZXBOZkVXaWxLTlpRUHjSAa4BQVVfeXFMTjZCWGk2ZVFhb0pjTWlCNnlieDB4ejNxaEhycWM1SDlaMGFBcGNEWVAyZGZ5RzR0b1A5MjdrLXc0Wi10Zkx6UE5UdkwxOUZOeUlyMi1hZmM4bUo4b1YwXzg5YzhCNXpGX04xVHBsYW93UjZvTXVrQWVxenJtLUpoNTR2OVB2WVNBZWpSN3ljUWFVNWs1ZDFVQmFkT2pUeXNyb0pMQjFYTTMwZGtnWjJR?oc=5",
-      "published": "Sun, 11 Oct 2026 02:59:03 GMT",
-      "summary": "[CONTRIBUTION] US partnerships vital to Korea's tech industry&nbsp;&nbsp;The Korea Times",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-11T10:59:03+08:00",
-      "source_detail": {
-        "name": "The Korea Times",
-        "url": "https://www.koreatimes.co.kr"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Rhee Chang-yong: \"Can't Guarantee a 10-Year Semiconductor Boom... A US-China Rapprochement Would Rapidly Reshape the Landscape\" - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kNUE4V1JLYVNxS1ctUWNLTll0MlBvaS1vTWpOQnpKNnJyak5Hd3QtZjR2ZGtmWVpfZXFxSmpnZVY2YmZlR0tvRVhpdW55TnBKaXRVTTdZWTcwbDBiMVdrUFZaRmtseHpCVnFWVVkwRTFGcWdWRHc?oc=5",
-      "published": "Sun, 11 Oct 2026 01:55:00 GMT",
-      "summary": "Rhee Chang-yong: \"Can't Guarantee a 10-Year Semiconductor Boom... A US-China Rapprochement Would Rapidly Reshape the Landscape\"&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-11T09:55:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 3.6,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "ASML Raises Component Prices 10% Across the Board; Samsung and SK Hynix Agree to Pay - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QbXhqeWRhYzQtcmxGaE9KOFc0T2VPM1VqT1pCczZOM2MwY3dOdXVwWjhEMzFYb2U3NkotMXk5NEN3S2haUzI1M2pMa3FEdld0TGYweTZNMEpBaWZkNjJoNUxKRzdwZUxZTlhOYk8xai1GTFNlYlE?oc=5",
-      "published": "Sat, 10 Oct 2026 06:25:00 GMT",
-      "summary": "ASML Raises Component Prices 10% Across the Board; Samsung and SK Hynix Agree to Pay&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-10T14:25:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Easing Sino-Japanese Relations? Japan Is Being Overly Optimistic - Modern Diplomacy",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM2h4X2tNbTY0TnJuQWk2bERlQVhlb2FhUExrYU8ta1NTaWdnQk14NEZIYTY2c2JNTmNKSjlWVnRMWDl2ME43V3l3T2lJZy1JUThWYklGMk93UGtQM2Z4VERUaGhRY0lBeldBVl82a0ZjbXFZMWlRaGk2RVJWY0FhRWp0WnFqTXlMdjFBdHQzRGxhcDk5SExIMHJiSFktOExmN1A1bA?oc=5",
-      "published": "Sat, 10 Oct 2026 05:30:03 GMT",
-      "summary": "Easing Sino-Japanese Relations? Japan Is Being Overly Optimistic&nbsp;&nbsp;Modern Diplomacy",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-10-10T13:30:03+08:00",
-      "source_detail": {
-        "name": "Modern Diplomacy",
-        "url": "https://moderndiplomacy.eu"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "N. Korea gains confidence as nuclear power 20 years after 1st test - 毎日新聞",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tYkQzTUUtZ3doYjNWYmdfS0lOcXFPWXdzTE9hcGRvb0RvYlBrYlFkTUJ3VWFtbHpXRWhoRHVJZWVuUWQ1Qm1pbUhFSTBtVzFwMlNPQmNzekQwVDBEazFFT2p6ODJlbXZVaTNqekMyNElEZkU?oc=5",
-      "published": "Fri, 09 Oct 2026 08:34:29 GMT",
-      "summary": "N. Korea gains confidence as nuclear power 20 years after 1st test&nbsp;&nbsp;毎日新聞",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-09T16:34:29+08:00",
-      "source_detail": {
-        "name": "毎日新聞",
-        "url": "https://mainichi.jp"
-      },
-      "priority": 3.6,
       "category": "朝鲜半岛",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.chosun.com/english/national-en/2026/10/12/Z7RA7Y7ABRAJDG7WQ7C46XNLCY/",
+      "full_text": "Lee Il-gyu, a former political attaché at the North Korean embassy in Cuba, has drawn attention by revealing that “all North Korean diplomats dispatched abroad are involved in illegal trade” and providing specific examples. Lee, who worked as a North Korean diplomat from 1999 and defected in 2023, stated in his recent book *Kim Jong-un as I Saw Him* that “professional trade workers are obligated to remit between $20,000 and $30,000 annually, with some paying hundreds of thousands of dollars.”\nLee explained that “the methods of illegal trade by North Korean overseas dispatchers vary by region,” adding that “in Africa, they smuggle rhinoceros horns to China or Southeast Asia, receiving $20,000–$30,000 and pocketing hundreds of thousands in profit.” In the Middle East, they engage in gold trade, while in Southeast Asia, they sell passenger cars. North Koreans stationed in Nepal, he said, smuggle musk extracted from the navel area of musk deer. He also testified that North Korean diplomats in Islamic countries exploit duty-free privileges to import alcohol and pork—prohibited in Islam—and secretly sell them to locals for profit.\nRegarding his own experience at the North Korean embassy in Cuba, where he served for approximately nine years across two terms (2011–2016 and 2019–2023), Lee stated that diplomats daily exported cigars, earning a minimum of $15,000 and up to $20,000–$30,000 per person daily. Leveraging the high prices of Cuban cigars due to U.S. sanctions, he noted, “At the peak of the cigar trade, over 20 diplomatic pouches weighing 23 kg each, filled with cigars, passed through Cuban customs daily.” These cigars were primarily sold in China. He added, “The livelihoods of diplomats in Latin America depend on Cuban cigars.”\nLee claimed the Cuban government, aware of these activities, tolerated them due to its “blood alliance” with North Korea. He recounted, “At the airport, when carts piled with five diplomatic pouches of cigars—so high they blocked the view—passed through customs, tourists stared in amazement, and inspectors wore expressions saying, ‘This is too much.’ The humiliation and shame were indescribable.” He described North Korean diplomats as “necktie-clad Kotjebi, beggars.”\nRecently, President Lee Jae Myung stated in a *New York Times* interview that sanctions on North Korea lack effectiveness. However, Lee Il-gyu countered, “International sanctions have severely impacted North Korea’s already dire economy.” He emphasized, “2017 and 2018, when North Korea conducted nuclear tests and missile provocations, were years when sanctions particularly crippled its diplomatic operations.” During this period, Italy in Europe, Kuwait in the Middle East, and Peru and Mexico in Latin America expelled local North Korean ambassadors. Brazil, Peru, and Mexico also demanded reductions in embassy staff. Lee also testified that in 2013, a Russian-based North Korean diplomat brought $1 million in a diplomatic pouch to Cuba to resolve the *Chongchon River* incident, in which a ship was caught smuggling fighter jet and missile parts by Panama.\nLee detailed North Korea’s brutal executions. In February 2019, Han Seong-ryeol, a vice minister of foreign affairs accused of espionage for the U.S., was publicly executed with three shooters firing 90 rounds each, totaling 270 bullets. Witnesses reported witnessing the victim’s body disintegrate and flesh scatter, leaving them unable to sleep or eat for days. He also mentioned rumors that Kim Jong-un disguised himself and served as a soldier in a tank unit for 18 months to bolster his cult of personality.\nRegarding the 2019 Hanoi summit between the U.S. and North Korea, Lee explained that Ri Yong-ho, the foreign minister, and Kim Kye-gwan, a first vice minister, were replaced by Ri Su-yong, head of the Workers’ Party’s International Department, because they failed to receive a “guidance call” from Kim Jong-un. Enraged, Kim reportedly said, “The foreign ministry has no discipline. How can it handle a major confrontation with the U.S. with such lax discipline?” and reassigned responsibility."
     },
     {
-      "title": "Trump’s auto manufacturing claims clash with industry data - Qatar Tribune",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaTlUUjk4ZGZkUFhmRzQ3NVpqR2MxVldOUmIza2FXd2J6RFJxOW9wXy1DMU5IQS1QS0xrQjR2emNHLVlxMEtubjd1MjBMRms0SndEUHk2LVdHY285MFAtNE1NaFNHdkpUVXQzSGN1enZBU3VvSHFZTkMxSEhjN25IcVBDWTA2ZkRPX3FLekJsWUR3dnpUb0dDNlFaa1MwNlh5c3dVSF8wUEhKdjhveTNhc1FYRDZYUdIBtgFBVV95cUxQaTlUUjk4ZGZkUFhmRzQ3NVpqR2MxVldOUmIza2FXd2J6RFJxOW9wXy1DMU5IQS1QS0xrQjR2emNHLVlxMEtubjd1MjBMRms0SndEUHk2LVdHY285MFAtNE1NaFNHdkpUVXQzSGN1enZBU3VvSHFZTkMxSEhjN25IcVBDWTA2ZkRPX3FLekJsWUR3dnpUb0dDNlFaa1MwNlh5c3dVSF8wUEhKdjhveTNhc1FYRDZYUQ?oc=5",
-      "published": "Sat, 10 Oct 2026 21:27:00 GMT",
-      "summary": "Trump’s auto manufacturing claims clash with industry data&nbsp;&nbsp;Qatar Tribune",
-      "source": "GNews | KR Trade/Mfg",
-      "published_beijing": "2026-10-11T05:27:00+08:00",
+      "title": "Chey Tae-won urges Korea to speed chip plant expansion amid US-China race - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVDFXU195MEZOWmIzTkhxZW95MUFSNXNOMGdKQ0QxcUN2Y0lIcXFHMHVXNUtzVjJwTTZ0QmRNWkhfVUgyb2ZOaENjeFNFb2VLamxYVWlUb3RYdndTNzB6V1AyUjFVQnViblg1bG5IcmhOX2hndFFJekl30gGOAUFVX3lxTE8tblMyNkRPaDRYTVdTTGk4bjhZZDJ5M1NpOWRmS2FCU1cyR3EzeS1vTzBPd25nUm9lMXZsUHFSRUlsbnhTeXF5Y1BCR3U4WGg5OThyaWpYa0dkVlVESlE2ZDJhbUgyZ0xZdDVrT2d2REhWRU9pbHhrUi1jM1RLcFI1VEw5bERvNnlROEpOWGc?oc=5",
+      "published": "Sun, 11 Oct 2026 09:01:00 GMT",
+      "summary": "Chey Tae-won urges Korea to speed chip plant expansion amid US-China race - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T17:01:00+08:00",
       "source_detail": {
-        "name": "Qatar Tribune",
-        "url": "https://www.qatar-tribune.com"
+        "name": "Chosunbiz",
+        "url": "https://biz.chosun.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://biz.chosun.com/en/en-it/2026/10/11/Z63RY5MMTFGGXCWJFDQVEYFZTM/",
+      "full_text": "Chey Tae-won, chairperson of SK Group, stressed that Korea needs to speed up the expansion of domestic semiconductor plants to respond to production capacity increases by U.S. and Chinese semiconductor corporations. With demand for memory chips surging due to the spread of artificial intelligence (AI), failing to secure capacity in time could cost market share.\nOn the 11th (local time), Chey met with Yonhap News at the venue of the 38th Shanghai Mayor's International Business Leaders' Advisory Council in Shanghai, China, and, regarding the push for the Honam semiconductor cluster, said, \"We also need to do something at the fastest possible speed.\"\nHe said, \"If Chinese companies or U.S. Micron expand faster, Korea's market share will shrink,\" adding, \"There is huge demand, but if we can't expand plants, that's the problem.\"\nChey emphasized the need to secure additional production bases, including in Gwangju. On the possibility of expanding plants overseas, including Japan, he said it is \"under review.\"\nEarlier, on the 9th, Chey visited Gwangju Military Airport, a candidate site for the Honam semiconductor cluster, and said that if business conditions are in place, he would build a plant as quickly as possible. At the time, he said semiconductor demand is rising rapidly and mentioned the possibility of simultaneously creating additional production facilities separate from the Yongin semiconductor cluster.\nChey also showed caution about the pursuit by Chinese memory semiconductor corporations. In China, DRAM maker ChangXin Memory Technologies (CXMT) and NAND flash maker Yangtze Memory Technologies (YMTC) are expanding their capacity and technology.\nHe said, \"If we leave it alone, they will all catch up. They are chasing at a fast pace,\" adding, \"We need to compete hard, but since we can't expand in the Chinese market, competition isn't going well when it comes to the Chinese market.\"\nHe expressed a negative view regarding concerns raised in the U.S. Congress about Korean semiconductor corporations' plants in China.\nRecently, John Moolenaar, chairperson of the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, argued in a letter sent to Secretary of State Marco Rubio that the semiconductor production facilities of Samsung Electronics and SK hynix in China could become a weak point in the U.S. supply chain.\nThe letter specifically mentioned Samsung Electronics' Xi'an plant in China and SK hynix's Wuxi and Dalian plants. Chairperson Moolenaar was reported to be concerned that these facilities could be used as a means for China to pressure the United States.\nRegarding this, Chey said, \"It doesn't look very wise,\" adding, \"It doesn't look very wise to think that blocking like that would block China's semiconductors.\"\nHe went on to explain that \"CXMT and YMTC are continuing to advance at a terrifying pace,\" suggesting that it would be difficult to stop the growth of Chinese corporations with U.S. semiconductor restrictions alone.\nMeanwhile, at the advisory council meeting, Chey also introduced SK Group's current investment in China and its cooperation plans in AI.\nHe said, \"SK has invested about $60 billion (about 80.6 trillion won) in China in semiconductors, batteries and petrochemicals,\" noting that over the past 35 years it has grown into a major foreign-invested corporation in China.\nSK Group is also pushing to establish an AI research and development (R&D) center in Shanghai, China. The center plans to conduct research focused on AI data centers, physical AI and biopharmaceuticals, among other advanced fields.\nSK said the establishment of the Shanghai AI research and development center is a strategy to strengthen cooperation with China's AI industrial ecosystem and to grasp local technology development trends.\nChey stressed that regulatory transparency and predictability are important for Shanghai to grow into an AI innovation hub. He said, \"Old and excessive regulations can create difficulties for corporations, but unclear regulations are often the biggest challenge,\" and added that the government should play the role of a regulator that responds flexibly to change.\nThe meeting was attended by local authorities including Shanghai Communist Party Secretary Chen Jining and Shanghai Mayor Zhu Zhiming, as well as officials from global corporations. Chey attended the event for the second year in a row, following last year."
+    },
+    {
+      "title": "SK’s Chey Urges Faster Chip Expansion as Chinese Rivals Close In - Koreabizwire",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRkRiVktWVHItcWU3ZjBDNC1MRTJrTHl5Q29GRGVMVHlUNGtKclViOTV1RjY5MVJudHMtT3JoNjR3bDJFdnB3V2E1TzFKN1ZhaWw1b1hQUEJ5MjFOSl93NkFDQUwweXNNZENtRFQ5NkRlT1prMldiRjBvai1pTW9FX2dxeHJfYWZoM0NIOTZTeVRveFhTLWZVX0RB?oc=5",
+      "published": "Sun, 11 Oct 2026 09:00:55 GMT",
+      "summary": "SK’s Chey Urges Faster Chip Expansion as Chinese Rivals Close In&nbsp;&nbsp;Koreabizwire",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T17:00:55+08:00",
+      "source_detail": {
+        "name": "Koreabizwire",
+        "url": "http://koreabizwire.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "http://koreabizwire.com/sks-chey-urges-faster-chip-expansion-as-chinese-rivals-close-in/360744?ckattempt=1",
+      "full_text": "SHANGHAI & SEOUL, Oct. 11 (Korea Bizwire) — SK Group Chairman Chey Tae-won called for an accelerated expansion of South Korea’s semiconductor manufacturing capacity, warning that aggressive investment by Chinese chipmakers and U.S. rival Micron Technology threatens the country’s market share amid surging demand driven by artificial intelligence.\nSpeaking to Yonhap News Agency on Sunday on the sidelines of an international business advisory meeting in Shanghai, Chey said South Korean manufacturers must move quickly to add production capacity rather than risk falling behind competitors.\n“We need to expand quickly,” Chey said. “If Chinese companies or Micron expand capacity faster, South Korea’s market share will decline.”\nChey said the urgency extended beyond SK hynix’s planned semiconductor cluster in the southwestern Honam region, arguing that the industry needs additional factories wherever suitable sites can be secured.\n“Demand is enormous,” he said. “The problem is if we cannot expand our factories.”\nThe comments came two days after Chey visited Gwangju Air Base, the proposed site of the Honam semiconductor cluster, where he pledged to begin construction as quickly as conditions permit. He said the new facilities might need to be developed alongside the massive chip complex already under construction in Yongin, south of Seoul.\nSK is also studying potential overseas capacity expansion, including in Japan, Chey said.\nThe expansion drive comes as South Korea’s leading memory-chip makers face mounting competition from Chinese manufacturers, including ChangXin Memory Technologies, or CXMT, in DRAM and Yangtze Memory Technologies, or YMTC, in NAND flash.\nChey warned that Chinese competitors were advancing rapidly and that restrictions on Korean companies’ expansion in China could weaken their competitive position.\n“If we stand still, they will catch up,” he said.\nHe also questioned the effectiveness of U.S. efforts to constrain Chinese semiconductor development.\nResponding to a letter from Rep. John Moolenaar, the Republican chairman of the House Select Committee on China, urging scrutiny of Samsung Electronics’ and SK hynix’s Chinese manufacturing operations, Chey said restricting Korean investment wouldn’t necessarily stop China’s chip industry.\nMoolenaar had raised concerns that Korean semiconductor facilities in Xi’an, Wuxi and Dalian could leave critical U.S. supply chains vulnerable to Chinese pressure.\nChey called that reasoning unwise, pointing to the rapid advances of CXMT and YMTC despite existing U.S. restrictions. China’s progress in advanced memory manufacturing has added to competitive pressure on established suppliers.\nMeanwhile, SK is seeking to deepen its involvement in China’s artificial-intelligence industry.\nSpeaking at the 38th International Business Leaders’ Advisory Council meeting in Shanghai, Chey said SK had invested about $60 billion in China across semiconductors, batteries and petrochemicals over the past 35 years.\nThe group is also pursuing plans to establish an AI research and development center in Shanghai, focusing on AI data centers, physical AI and biopharmaceuticals.\nChey urged Shanghai authorities to provide more transparent and predictable regulations, arguing that regulatory uncertainty often poses a greater obstacle to investment than strict rules themselves.\nThe proposed research center underscores SK’s efforts to maintain access to China’s technology ecosystem even as geopolitical tensions complicate its semiconductor operations.\nFor SK hynix, the immediate challenge is capacity. With AI fueling demand and rivals expanding production, Chey’s message is that South Korea cannot afford to let factory construction fall behind the market.\nKevin Lee (kevinlee@koreabizwire.com)"
+    },
+    {
+      "title": "Foreign selling and buyback finales test South Korea stocks as inflation looms - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFYwMzNJUTRpQnZfWU1GMHFMMUMxSVFfdVltckNFb1MzU3poNGc1ZFpLM3g5YkFOdXhySFN1TkVNZjBfbkN6YW5HbDRETWFwTEdtUkNSQUo0b2Nsbjc2aDZaa1I0SWZpRWlzWjZLdUFPbHYzbENoemc4dTJOckZSYdIBlAFBVV95cUxNckFkU2dGSGxOSGgtRzhhalZuN2JhanN1aFUwQ3RlbXZWN0ZvUzc0ZVU2cndQNWxfbFJubmNETEpfbFc0Q3pydEV1elB1YnpxYTh6ekYyRlpKN1MzcXZXNDNBT3l2YlRWVzhJREUzaDU1ZGIxUEtRdHo5bUJ3elB4STRzSjJQSUplVXNFNU1hdEw0eWhq?oc=5",
+      "published": "Sat, 10 Oct 2026 21:00:00 GMT",
+      "summary": "Foreign selling and buyback finales test South Korea stocks as inflation looms - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T05:00:00+08:00",
+      "source_detail": {
+        "name": "Chosunbiz",
+        "url": "https://biz.chosun.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://biz.chosun.com/en/en-finance/2026/10/11/ZTPPQI44LJDCFNS2DO5TCY5NWI/",
+      "full_text": "This week (the 12th to 16th), following Samsung Electronics, SK hynix(1,641,000 won ▼ 40,000 -2.38%)'s share buyback is also entering the final stage, raising concerns about a supply-demand gap. U.S. inflation data and the full-fledged third-quarter earnings season are expected to be key variables determining whether KOSPI rebounds.\nOn the 6th to 8th, the KOSPI index showed a weak trend as large-cap semiconductor stocks paused for breath. Samsung Electronics' share buyback that had continued since Aug. ended on the 6th, and foreign selling also persisted.\nIn particular, on the 8th, the last trading day, Samsung Electronics released preliminary third-quarter results that beat market expectations, but the KOSPI index plunged more than 2% to the 6,620 level. After the results, \"sell-on\" profit-taking supply overlapped with supply-demand variables such as exchange-traded fund (ETF) rebalancing and options expiration all at once.\nBy contrast, KOSDAQ was strong during the week, led by semiconductor materials, parts and equipment stocks, and briefly topped the 900 level for the first time in three months. However, on the 8th it fell back below 900.\nThis week, the imminent end of SK hynix's share buyback is a burden for supply and demand. As of the 9th, SK hynix had executed more than 80% of the preannounced buyback volume.\nWith Samsung Electronics' share buyback already finished, if SK hynix also wraps up its purchases, the buying by \"other corporations\" that has supported the index will inevitably weaken. Foreign investors made a net sale of more than 6 trillion won in domestic stocks over the three trading days from the 6th to 8th. There are concerns that if foreign selling continues and even the buyback support disappears, KOSPI's short-term supply-demand pressure could increase.\nU.S. inflation and interest rates are also key variables. In the United States this week, the September consumer price index (CPI) and producer price index (PPI) will be released. If price pressures are confirmed again as international oil prices keep rising, it could add to the burden on long-term U.S. yields and foreign inflows.\nKim Yu-mi, an economist at Kiwoom Securities, said, \"Market consensus suggests U.S. consumer prices will rise at a slightly faster year-over-year pace, and producer prices are also expected to increase month over month, which could once again stoke inflation concerns.\"\nComments by Federal Reserve (Fed) officials could also heighten volatility in market rates. Kim said, \"Key Fed officials are likely to maintain vigilance on high inflation and a cautious monetary policy stance rather than hint at aggressive additional tightening,\" adding, \"As caution over monetary tightening persists, we should allow for the possibility of greater volatility in U.S. Government Bonds yields.\"\nListed companies' third-quarter earnings announcements will also continue. With Samsung Electronics having released preliminary results first, market attention is focused less on the sheer size of profits and more on whether profit growth can continue.\nIBK Securities projected that among KOSPI200, the third-quarter operating profit of 151 corporations with available forecasts will increase 243% from a year earlier and 6% from the previous quarter. However, the growth rate is slowing after peaking in the first half.\nByun, a researcher, analyzed, \"This third quarter is expected to be the first in which the growth rate of results slows both year over year and quarter over quarter,\" adding, \"Given that share prices have historically reacted sensitively not only to results themselves but also to the growth rate, a slowdown in the growth rate could weigh on investor sentiment.\"\nThey added, \"If there are many misses by corporations or it leads to an earnings shock, third-quarter results could be similar to or slightly below the second quarter,\" and said, \"If large-cap results fall well short of market consensus, concerns could grow that results themselves have peaked.\"\nHowever, some note that the weakness in the domestic stock market cannot be seen as merely a supply-demand issue. Hwang San-hae, a researcher at LS Securities, analyzed that as leadership in the global AI investment cycle broadens from memory to custom chips, materials-parts-equipment, and cybersecurity, Korea's market, which has a high memory weight, is being relatively sidelined.\nHwang said, \"With the exchange rate and oil prices, logistics burdens and high interest rates suppressing global demand, the environment weighing on exporters is expected to continue for the time being,\" adding, \"There is also a trend where memory profits are being absorbed into rallies of corporations benefiting from capital expenditures (CAPEX), so it is effective to respond to semiconductors after confirming results.\""
+    },
+    {
+      "title": "SK hynix plans to build South Korea plants as soon as possible - Communications Today",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2Rhd2tTR21DUVpLYmhhbThORjdZU0sxcFhFdEgxcThvM3dsUGRLYkZFUHN3SEtqaVZzZzRFTUY0emhZOGsyRHBQOGp5dFBzUEFYazZjWl96Rmt2V3R0cFNYMDV0V2V5VDNTNGxPVHVhbWF1cjFTXzBKajZ4QW5XbS1xUkQ2ODV5NWNxZk1nNkc3Q0tMb3dMZndOajR5WVN5Nmdj?oc=5",
+      "published": "Sat, 10 Oct 2026 11:36:45 GMT",
+      "summary": "SK hynix plans to build South Korea plants as soon as possible&nbsp;&nbsp;Communications Today",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-10T19:36:45+08:00",
+      "source_detail": {
+        "name": "Communications Today",
+        "url": "https://www.communicationstoday.co.in"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Korea's Largest Chip Show Opens With AI Memory, Physical AI - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3h0bjczVzFsc3hGRGhrNkxUVWdZdzRjUml3NXZ4bTd3MS1pN2dRSjdCMWQ0ajg2T29hWjdfZTFKbnNJRHdkSU13d3Y5Y1M4bmhNUGN3S0VJVHZTZUNWTTVpR0s1dG5zY3VPOTU3YjJDc2Z3elpDZ1BSVGFxZFBCcU1sbGF2Z2t1TUZhSk5ySW1PbE45cFFqU3RHRFNQRi1Z?oc=5",
+      "published": "Mon, 12 Oct 2026 02:31:10 GMT",
+      "summary": "Korea's Largest Chip Show Opens With AI Memory, Physical AI&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T10:31:10+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://en.sedaily.com/finance/2026/10/12/koreas-largest-chip-show-opens-with-ai-memory-physical-ai",
+      "full_text": "The Korea Semiconductor Industry Association said on Oct. 12 that the 28th edition of the exhibition will run from Oct. 14 to 16 under the theme \"Into the Era of Silicon Intelligence.\" This year's event will be the largest ever, with 300 companies — about 70 more than last year — setting up 888 booths.\nSamsung Electronics will present high-bandwidth memory (HBM) and next-generation three-dimensional (3D) memory technologies under the key message of \"AI system design.\" The company will also introduce mobile image sensors and processors, automotive chips and foundry solutions, highlighting comprehensive capabilities spanning memory, system semiconductors and advanced packaging.\nSK hynix will unveil its next-generation HBM4E (seventh generation) and high-bandwidth flash (HBF) technologies. It will also display flagship products including DRAM for servers, PCs and mobile devices, NAND flash and solid-state drives (SSDs). Major domestic materials, parts and equipment makers such as Jusung Engineering, Semes and Hanmi Semiconductor will also take part.\nOn the opening day, SK hynix President Ahn Hyun will deliver a keynote speech titled \"Questioning the Direction of Memory Innovation in the AI Era.\" Shin Dong-ju, chief executive of Mobilint, will present semiconductor technologies for the physical AI era. Specialized seminars on advanced packaging, international semiconductor standards and chips for humanoids will follow during the event.\nA job fair involving 18 semiconductor companies and 433 job seekers will be held on Oct. 15 and 16. \"Semiconductors are the core foundation supporting an era in which AI expands into the real world,\" said Park Gun-soo, vice chairman of the Korea Semiconductor Industry Association. \"We hope students and job seekers who will lead the future semiconductor industry will also visit the venue.\""
+    },
+    {
+      "title": "Japanese Yen holds range amid Japanese holiday, dovish BoJ signals - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYlR2d0VxQTkySGdaN2lCc20zd0NqeHlfa2l4bUEyUHpSdDNReVM4bFQ0Wm9xYWlxdU1xX0xYems0TDhhY1pKbTUzR2tyT2JlR0JIZFBzLVliX3VlaGlVd096UzUwQ2loLU9EZ1NnN09HZUpjLTh0OUU0S3NFbW5sckxFb213UHJsTGk3WXBxenNJdlE5c3J6LUI5OGlGdkd0eGdLbmV5YnNERnI0?oc=5",
+      "published": "Mon, 12 Oct 2026 01:29:06 GMT",
+      "summary": "Japanese Yen holds range amid Japanese holiday, dovish BoJ signals&nbsp;&nbsp;FXStreet",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-12T09:29:06+08:00",
+      "source_detail": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com"
+      },
+      "priority": 7.2,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.fxstreet.com/news/japanese-yen-holds-range-amid-japanese-holiday-dovish-boj-signals-202610120129",
+      "full_text": "USD/JPY depreciates after registering modest gains in the previous trading day, hovering around 158.10 during Asian hours on Monday. The pair may see limited movement due to thin trading conditions as Japanese markets are closed for the Sports Day public holiday.\nAhead of the Bank of Japan (BoJ) October 29–30 meeting, policymakers will review additional third-quarter data expected to show resilient exports alongside elevated costs for businesses and households. However, a back-to-back interest rate increase is unlikely following their September hike.\nBoJ Governor Kazuo Ueda noted that rapid tightening paces were typically seen in North America and Europe during 2022 following pandemic-related supply chain disruptions and a strong demand recovery. Market participants currently anticipate the central bank will raise the overnight interest rate target to 1.50% from 1.25% in December or January, marking the seventh increase in this cycle, before potentially raising it further to 1.75% in March or April.\nMeanwhile, the USD/JPY pair lost ground as the US Dollar (USD) faced headwinds from softening domestic economic sentiment. The University of Michigan's Consumer Sentiment Index dropped to 46.3 in October from 48.1 in September, falling short of the market expectation of 47.6. Investors are now looking ahead to key inflation metrics, with the September Consumer Price Index (CPI) and Producer Price Index (PPI) scheduled for release on Wednesday and Thursday.\nMonetary policy expectations for the Federal Reserve (Fed) remain cautious, with CME FedWatch indicating only a 17.7% chance of a rate hike of at least 25 basis points this month, down from 24.4% a week prior. Conversely, market participants are pricing in an 84.1% probability of a hike at the Fed's December meeting. Adding to broader macro uncertainty, energy market concerns resurfaced after US President Donald Trump indicated he was considering joining Saudi Arabia in its campaign against Iran-backed Houthi militants in Yemen following another deadly attack on Riyadh's international airport.\nHigher US real yields underscore growth and rate expectations\nNordea’s Sara Midtgaard notes that the “recent rise in US Treasury yields has largely reflected higher expected short-term real rate, rather than a large increase in the term premium.” She explains that “real yields are the returns investors require after accounting for inflation” and points out that they “tend to rise when markets expect stronger real growth or a higher path for real interest rates,” underlining how the latest move in yields is being driven more by shifting growth and policy expectations than by a repricing of longer-term risk.\nJapanese Yen FAQs\nThe Japanese Yen (JPY) is one of the world’s most traded currencies. Its value is broadly determined by the performance of the Japanese economy, but more specifically by the Bank of Japan’s policy, the differential between Japanese and US bond yields, or risk sentiment among traders, among other factors.\nOne of the Bank of Japan’s mandates is currency control, so its moves are key for the Yen. The BoJ has directly intervened in currency markets sometimes, generally to lower the value of the Yen, although it refrains from doing it often due to political concerns of its main trading partners. The BoJ ultra-loose monetary policy between 2013 and 2024 caused the Yen to depreciate against its main currency peers due to an increasing policy divergence between the Bank of Japan and other main central banks. More recently, the gradually unwinding of this ultra-loose policy has given some support to the Yen.\nOver the last decade, the BoJ’s stance of sticking to ultra-loose monetary policy has led to a widening policy divergence with other central banks, particularly with the US Federal Reserve. This supported a widening of the differential between the 10-year US and Japanese bonds, which favored the US Dollar against the Japanese Yen. The BoJ decision in 2024 to gradually abandon the ultra-loose policy, coupled with interest-rate cuts in other major central banks, is narrowing this differential.\nThe Japanese Yen is often seen as a safe-haven investment. This means that in times of market stress, investors are more likely to put their money in the Japanese currency due to its supposed reliability and stability. Turbulent times are likely to strengthen the Yen’s value against other currencies seen as more risky to invest in.\nAuthor\nAkhtar Faruqui is a Forex Analyst based in New Delhi, India. With a keen eye for market trends and a passion for dissecting complex financial dynamics, he is dedicated to delivering accurate and insightful Forex news and analysis."
+    },
+    {
+      "title": "Honam's Semiconductor Cluster Races Ahead: Mayor Min Hyung-bae Pledges \"Full Support\" as SK Group Chairman Chey Tae-won Expresses Strong Fab Investment Commitment - 재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55alBCeVBvbHpVcXBRUktNbFpPdDdFaWpBNUxSdkZkaThMeTd0Nk1RcmpSSnRZS3FuNVVlX0VqRHAyYUswU3dLNjkwa3hHdGtXRjhrZTlLdjZsS2MxQld2bm5n?oc=5",
+      "published": "Sat, 10 Oct 2026 20:40:00 GMT",
+      "summary": "Honam's Semiconductor Cluster Races Ahead: Mayor Min Hyung-bae Pledges \"Full Support\" as SK Group Chairman Chey Tae-won Expresses Strong Fab Investment Commitment&nbsp;&nbsp;재경일보",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T04:40:00+08:00",
+      "source_detail": {
+        "name": "재경일보",
+        "url": "https://news.jkn.co.kr"
+      },
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "SK's Chey vows to build Gwangju chip plants as fast as possible, no start date set - ET Manufacturing",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYmhwMFFuRGxTQVhqbHg1ZW1QQklIYkhFMUdjUEdEM0t6VXk1dGxWTlZ3ZE1tb3g2ckh5SGxEUmQ2Z3h6WmxZcXVIc3pZdFlOXzdBSC1nYkc4WUsxQ0t4U0J3NEJ5YXR6UXRRY3ZKOEtvN2tUazRwMFY5c0NibEU3Yk1aR3dINE9uR3NHT1U0NURwQkRGTi02SjgydDBZNkdlQ0RBcFRGWG5hb2ozTTV6ZE8tTVNlOVlUWWVqRTBfU29iNXdtT1o0Ymh6UDBDMHo3TnFtT2FhVS1lUW9QZU02WDl3YnlqRGk3cUNuWGlwMA?oc=5",
+      "published": "Sat, 10 Oct 2026 10:07:52 GMT",
+      "summary": "SK's Chey vows to build Gwangju chip plants as fast as possible, no start date set&nbsp;&nbsp;ET Manufacturing",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-10T18:07:52+08:00",
+      "source_detail": {
+        "name": "ET Manufacturing",
+        "url": "https://manufacturing.economictimes.indiatimes.com"
+      },
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "The Mirror Security Dilemma: Understanding The Escalation Of Sino-Japanese Tensions - OpEd - Eurasia Review",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR1hXOVByVE9jazNLV2tGbFRkZDA3SHhEOTJsUjNNT1BvVzFuQnprYnEybHBFRU1sTDRnT2E1ZjBwMlVncXloLTN0cXN2enhMbl9LLWlTU1ZJNllGWlU4VUVsYTJ6S0tHejQ0SEpsc3VidEFsTENveTJIRlJhWTdkNEhMdXRIQ19iOVpsYUFKcHFtN0Rlel9JcDVqc3BRQmtuT095eHZQMVRnUE9ad1FhSEh4a3Jyem5ySWsydG85eEZFX2hKMHc?oc=5",
+      "published": "Mon, 12 Oct 2026 00:18:27 GMT",
+      "summary": "The Mirror Security Dilemma: Understanding The Escalation Of Sino-Japanese Tensions - OpEd&nbsp;&nbsp;Eurasia Review",
+      "source": "GNews | CN-JP",
+      "published_beijing": "2026-10-12T08:18:27+08:00",
+      "source_detail": {
+        "name": "Eurasia Review",
+        "url": "https://www.eurasiareview.com"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "humanoid memory market — Samsung and SK Hynix surge as robots drive demand - The Korea Daily",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01WVNXNUtBRC1MNks2X19qTExJR3FYSlcxZEl3QmNwU2RZTjJwX0U3Um5rNnlJWi10d2tEOHU3eGY0dldxNk9qR3dBV0N6cUxMOEZPTWRfNGxBSzJ1TWs0ZDdtSVpyOEpIYVBqME1ZUWwydjlr?oc=5",
+      "published": "Sun, 11 Oct 2026 20:32:19 GMT",
+      "summary": "humanoid memory market — Samsung and SK Hynix surge as robots drive demand&nbsp;&nbsp;The Korea Daily",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T04:32:19+08:00",
+      "source_detail": {
+        "name": "The Korea Daily",
+        "url": "https://en.koreadaily.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://en.koreadaily.com/humanoid-memory-market-samsung-sk-hynix/",
+      "full_text": "As concerns over slowing growth in artificial intelligence (AI) reemerge in the IT industry and stock market, humanoid robots are rapidly rising as a fresh demand hub for the memory semiconductor sector. This trend stems from forecasts that as humanoid intelligence advances, a single robot will require hundreds of gigabytes of memory and storage space. Following high-bandwidth memory (HBM) for AI data centers, low-power and high-capacity DRAM for robots are expected to become lucrative revenue drivers for Samsung Electronics and SK Hynix.\nAccording to market researcher Counterpoint Research on the 11th, the global DRAM market size for humanoid brains is projected to surge approximately 20-fold over five years, growing from 8,300 terabits (Tbit) this year to 172,000 terabits by 2030.\nHumanoid Robots Fuel Massive Demand for Low-Power DRAM\nHumanoid brains serve as computing units that process information gathered from cameras, LiDAR (light detection and ranging sensors), and tactile sensors in real time to execute physical actions. Counterpoint Research analyzed that robots require a dramatic increase in self-processed storage and computing capacities, which in turn rapidly accelerates memory requirements. The DRAM capacity embedded in a single robot is projected to expand from 19 gigabytes (GB) this year to 39 gigabytes by 2030.\nThe memory industry shares a similar outlook. Sanjay Mehrotra, CEO of Micron, predicted during his June-August earnings announcement on the 30th of last month (local time) that physical AI, including humanoids, will serve as a major growth engine for the memory industry by the late 2020s. He noted that humanoid robots will require memory capacities exceeding 200GB and terabyte (TB)-level storage—much like autonomous vehicles—and added that the company has begun supplying next-generation low-power DRAM ‘LPDDR (Low Power DDR) 6’ samples to customers to capture this market. Because battery-powered humanoids are sensitive to power consumption, analysts expect that low-power DRAM and high-capacity NAND flash memory will be utilized predominantly over the HBM used in data center servers.\nDomestic memory companies are also accelerating the development of humanoid-optimized DRAM. Recognizing the expanding on-device AI market—where devices like robots, autonomous vehicles, and smartphones directly process AI computations without cloud reliance—they are focusing on technologies that minimize power consumption while optimizing performance.\nNext-Generation LPDDR6 and Storage Solutions\nSamsung Electronics and SK Hynix showcased next-generation low-power DRAM by side-by-side exhibiting LPDDR6 at the Consumer Electronics Show (CES) 2026 earlier this year. LPDDR6 introduced by Samsung was recognized as the industry’s first developed next-generation mobile DRAM, winning a CES Innovation Award.\nSamsung is also pushing initiatives to expand automotive-developed storage devices into humanoids. By adapting detachable automotive solid-state drives (SSDs) for physical AI applications, the company is showcasing innovative hardware solutions. A Samsung representative explained that the goal is to establish detachable SSDs as the standard solution for robot platforms within five years.\nMeanwhile, SK Hynix is partnering with NVIDIA to develop low-power memory designated for the ‘Jetson Thor’ robotic computing platform. The Jetson Thor platform is known to house 128GB of LPDDR5X.\nLee Soo-rim, an analyst at DS Investment & Securities, forecasted that because total robot deployment volume directly correlates with memory demand alongside an ongoing increase in LPDDR per-device capacity, faster growth in the humanoid industry could allow the memory sector to evolve into a structural growth industry free from traditional cyclical downturns."
+    },
+    {
+      "title": "Argon Plasma Probes Market To 2035: Semiconductor Etch Demand Drives Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYjZuRlJ5c1JLZHgxUGpoTjRHTl9OVDZwdU55SWMxWU5IcWVmZ1NUeW92dU1aVWszZlFkRkJ5d0tZVUJrMlJvS1ZmTnFibDFqNUxjNk1JUEJGenFaelVYOV9WUG9HSHU4SDVVT3hrc3A4eVdzMHlvMDBDeU5JdERVbVR1S3BkRlEyeEU0SnJsZ05SR0l0bVl0aUI0eDJYdThaVWNPZ1R6OEZKaGFCNzF1bDZScw?oc=5",
+      "published": "Sun, 11 Oct 2026 15:16:04 GMT",
+      "summary": "Argon Plasma Probes Market To 2035: Semiconductor Etch Demand Drives Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | JP Chip/Export",
+      "published_beijing": "2026-10-11T23:16:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.indexbox.io/blog/argon-plasma-probes-market-forecast-to-2035-semiconductor-etch-demand-drives-growth/",
+      "full_text": "Abstract\nAccording to the latest IndexBox report on the global Argon Plasma Probes market, the market enters 2026 with broader demand fundamentals, more disciplined procurement behavior, and a more regionally diversified supply architecture.\nThe global argon plasma probes market is entering a phase of sustained expansion as demand for precise plasma diagnostics accelerates across semiconductor fabrication, surface treatment, and advanced research. Argon plasma probes, including capacitively coupled plasma (CCP), inductively coupled plasma (ICP), Langmuir, emissive, and magnetic variants, are essential for measuring electron density, temperature, and plasma potential in low-temperature plasma environments. The market is being reshaped by the semiconductor industry's push toward smaller nodes and 3D architectures, which require tighter process control during etch and deposition steps.\nAt the same time, plasma-based surface treatment and thin film deposition are gaining traction in automotive, aerospace, and medical device manufacturing, broadening the addressable base beyond traditional fabs and research labs. Between 2026 and 2035, the market is expected to grow at a moderate single-digit CAGR, supported by rising capital expenditure in semiconductor capacity, increasing adoption of in-situ diagnostics, and the integration of AI-driven process analytics. However, the market faces headwinds from high R&D costs, supply chain concentration in tungsten and specialty ceramics, and cyclical semiconductor demand.\nThis report provides a data-driven outlook on market size, segmentation, competitive dynamics, and regional trends to 2035.\nThe baseline scenario for the world argon plasma probes market assumes continued growth through 2035, with demand rising at a moderate single-digit CAGR. This outlook is anchored in the semiconductor industry's sustained investment in advanced logic and memory fabrication, where plasma etch and deposition steps are becoming more numerous and more sensitive to process drift. Argon plasma probes are increasingly deployed as in-situ diagnostic tools to monitor electron density and temperature in real time, enabling tighter process windows and higher yields.\nThe baseline also incorporates steady demand from research institutions and national laboratories, where Langmuir and emissive probes remain standard instruments for plasma characterization. In surface treatment and thin film deposition, adoption is expected to broaden as manufacturers seek to optimize adhesion, coating uniformity, and surface energy. Regionally, Asia-Pacific is expected to remain the largest and fastest-growing market, driven by fab construction in China, South Korea, Taiwan, and Japan. North America and Europe will see moderate growth, supported by R&D spending and specialty manufacturing.\nLatin America and the Middle East & Africa will remain smaller markets, with growth tied to academic research and niche industrial applications. The baseline scenario does not assume a major technological disruption, but it does incorporate gradual digitalization of probe systems, including embedded software for predictive maintenance and data analytics. Risks to the outlook include semiconductor demand cyclicality, export controls on advanced equipment, and shortages of high-purity tungsten and ceramics.\nDemand Drivers and Constraints\nPrimary Demand Drivers\n- Rising semiconductor capital expenditure on advanced etch and deposition tools, driven by demand for smaller nodes and 3D NAND\n- Increasing adoption of in-situ plasma diagnostics for real-time process control and yield improvement in fabs\n- Growth in plasma-based surface treatment and thin film deposition across automotive, aerospace, and medical device manufacturing\n- Expansion of fusion energy and space propulsion research programs requiring precise plasma characterization\n- Digitalization of probe systems with AI-driven analytics and predictive maintenance capabilities\n- Stringent quality and compliance requirements in medical sterilization and spacecraft testing\nPotential Growth Constraints\n- Cyclical downturns in semiconductor demand leading to capex volatility\n- High R&D costs and technical complexity limiting entry and slowing innovation cycles\n- Supply chain concentration and price volatility in tungsten, ceramics, and specialty alloys\n- Export controls and trade restrictions on advanced semiconductor equipment\n- Competition from alternative plasma diagnostic techniques such as optical emission spectroscopy\nDemand Structure by End-Use Industry\nEnd-Use Industry Demand Split (%)\nSemiconductor Manufacturing (estimated share: 38%)\nSemiconductor manufacturing is the largest and most dynamic end-use sector for argon plasma probes. As fabs transition to smaller nodes and 3D device architectures, plasma etch and deposition steps become more numerous and more sensitive to process variations. Argon plasma probes, particularly ICP and CCP variants, are used for in-situ monitoring of electron density, temperature, and plasma potential, enabling real-time process control and reducing wafer scrap. The demand is driven by the need for higher yields and tighter process windows. Through 2035, the sector will benefit from capacity expansions in Asia-Pacific and government-backed fab projects in the US and Europe.\nDemand-side indicators include wafer fab equipment spending, etch and deposition tool shipments, and fab utilization rates. The shift toward atomic layer etching and high-aspect-ratio structures will require more sophisticated probes with higher sensitivity and faster response times. Current trend: Growing.\nMajor trends: Transition to 3nm and below logic nodes and 3D NAND, Increasing use of in-situ diagnostics for process control, Growth in atomic layer etching and deposition, Rising fab construction in Asia-Pacific and the US, and Integration of AI and machine learning for predictive process optimization.\nRepresentative participants: Applied Materials, Lam Research, Tokyo Electron, ASM International, KLA Corporation, and MKS Instruments.\nPlasma Diagnostics (estimated share: 22%)\nPlasma diagnostics is a core end-use sector for argon plasma probes, encompassing research laboratories, national labs, and industrial R&D centers. Langmuir probes, emissive probes, and retarding field analyzers are standard tools for measuring plasma parameters in low-temperature plasma sources. Demand is driven by fundamental research in plasma physics, fusion energy, and materials science, as well as by industrial R&D for optimizing plasma processes. Through 2035, the sector will see steady growth, supported by increased government funding for fusion research and space propulsion. Demand-side indicators include research grants, publication activity, and laboratory equipment budgets.\nThe trend toward more automated and software-integrated probe systems will create opportunities for vendors offering complete solutions with data analytics. However, the sector is less cyclical than semiconductor manufacturing and provides a stable revenue base. Current trend: Stable growth.\nMajor trends: Growing investment in fusion energy research, Advancements in space propulsion and plasma thrusters, Shift toward automated, software-integrated diagnostic systems, Increasing collaboration between academia and industry, and Development of probes for extreme environments.\nRepresentative participants: Hiden Analytical, Impedans Ltd, Scientific Systems Ltd, Plasma Technology Ltd, and Teledyne Technologies.\nSurface Treatment (estimated share: 16%)\nSurface treatment is a growing end-use sector for argon plasma probes, driven by the need to improve adhesion, wettability, and coating uniformity in automotive, aerospace, and medical device manufacturing. Argon plasma is used to clean and activate surfaces before bonding, painting, or coating. Probes are employed to monitor plasma parameters and ensure consistent treatment quality. Through 2035, demand will be supported by the increasing use of plasma treatment in lightweight materials, composites, and medical implants. Demand-side indicators include production volumes in automotive and aerospace, and the adoption of plasma treatment in medical device manufacturing.\nThe trend toward inline monitoring and quality control will drive demand for compact, robust probes that can operate in industrial environments. The sector is expected to grow faster than the overall market, albeit from a smaller base. Current trend: Growing.\nMajor trends: Rising use of plasma treatment for lightweight automotive materials, Growth in medical device surface functionalization, Adoption of inline monitoring for quality control, Expansion of plasma treatment in aerospace composites, and Development of atmospheric-pressure plasma systems.\nRepresentative participants: Plasmatreat, Enercon Industries, Tantec, Nordson Corporation, and 3M.\nThin Film Deposition (estimated share: 14%)\nThin film deposition is an important end-use sector for argon plasma probes, particularly in the production of optical coatings, solar cells, and display panels. Sputtering and plasma-enhanced chemical vapor deposition (PECVD) rely on argon plasma, and probes are used to monitor plasma density and uniformity to ensure film quality. Through 2035, demand will be driven by the expansion of solar cell manufacturing, display production, and advanced optical coatings. Demand-side indicators include solar panel installations, display panel shipments, and optical coating demand. The trend toward larger substrates and higher deposition rates will require probes with higher spatial resolution and faster response.\nThe sector is expected to grow in line with the overall market, with Asia-Pacific being the dominant region due to its concentration of display and solar manufacturing. Current trend: Growing.\nMajor trends: Expansion of solar cell manufacturing, especially thin-film technologies, Growth in display panel production for TVs and smar"
+    },
+    {
+      "title": "Metal Hard Mask Materials Market To 2035: EUV and Multi-Patterning Demand Drives Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNckJNMUVaMDlhVVd0aEhmTU1pZkQyREZVRk1ieXBmWGJEclFVZ2RHWGVkOGFKcklZT3pRTjRpZE1MMHFVVkNLODU3ZDNRZDVyYkhzWWhaZ2dQVEYySHU0Mk9ka3pwZmwzN3cza3BxTWhQMmUxYzZNSG5ISVlqZ0FycnhNczFadVdRTTNjR2JxNWVtMEZkZ203V2tFLXhILVpudlY3VUl0SHJ1d3RHSmNRYVQzWWdrWnJrYnFETU1XRmZ3MFE?oc=5",
+      "published": "Sun, 11 Oct 2026 13:31:04 GMT",
+      "summary": "Metal Hard Mask Materials Market To 2035: EUV and Multi-Patterning Demand Drives Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T21:31:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.indexbox.io/blog/metal-hard-mask-materials-market-forecast-to-2035-euv-and-multi-patterning-demand-drives-growth/",
+      "full_text": "Abstract\nAccording to the latest IndexBox report on the global Metal Hard Mask Materials market, the market enters 2026 with broader demand fundamentals, more disciplined procurement behavior, and a more regionally diversified supply architecture.\nThe global metal hard mask materials market is a critical enabler of advanced semiconductor patterning, with demand tightly linked to the design and validation cycles of leading-edge logic and memory devices. As the industry transitions to EUV lithography and increasingly complex multi-patterning schemes, the performance requirements for hard masks are escalating beyond basic etch selectivity to encompass extreme uniformity, low defectivity, and compatibility with new substrate materials and 3D structures. This creates a lumpy demand profile tied to major process node launches and capacity expansions.\nThe supply chain is characterized by a high qualification burden, with approved-vendor status at key fabs and OSATs representing a multi-year, capital-intensive process. Pricing power is asymmetrical: while material costs are a small fraction of total device cost, suppliers face intense pressure to demonstrate value through yield improvement and reliability. Geographic demand is bifurcating, with R&D concentrated in traditional hubs while volume manufacturing follows semiconductor capacity investments. Regulatory and standards pressure, including REACH/RoHS compliance, adds an indirect but powerful driver.\nThis report provides a structured, commercially grounded analysis of the market from 2026 to 2035, covering end-use demand, design-in dynamics, manufacturing exposure, qualification burden, pricing architecture, and competitive positioning.\nThe baseline scenario for the metal hard mask materials market from 2026 to 2035 anticipates robust growth, driven by the semiconductor industry's relentless pursuit of smaller feature sizes and higher device performance. As logic and memory manufacturers ramp up EUV lithography and adopt increasingly complex multi-patterning techniques, the demand for high-performance hard masks—particularly those based on metals like titanium, tantalum, tungsten, molybdenum, ruthenium, cobalt, and nickel—will accelerate. The market is expected to grow at a CAGR of 7.2% over the forecast period, reaching a market index of 185 by 2035 (2025=100).\nThis growth will be underpinned by capacity expansions in advanced logic and memory fabs, particularly in Asia-Pacific, and the ongoing development of 3D NAND, DRAM, and gate-all-around transistors. However, the market faces restraints including high qualification costs, supply chain bottlenecks for ultra-high-purity metals, and the cyclical nature of semiconductor capital spending. The competitive landscape is concentrated among a few major material suppliers with deep process integration knowledge, and barriers to entry remain significant. Overall, the outlook is positive, with opportunities in emerging applications such as advanced packaging and specialty devices.\nDemand Drivers and Constraints\nPrimary Demand Drivers\n- Transition to EUV and multi-patterning requiring higher etch selectivity\n- Proliferation of 3D device architectures (3D NAND, GAA) demanding conformal and uniform hard masks\n- Increasing complexity of process flows driving higher material consumption per wafer\n- Growth in advanced logic and memory capacity investments, particularly in Asia-Pacific\n- Stringent performance requirements for low defectivity and high uniformity\n- Rising demand for advanced packaging and heterogeneous integration\nPotential Growth Constraints\n- High qualification burden and long design-in cycles creating barriers to entry\n- Supply chain bottlenecks for ultra-high-purity metal refining (6N+ and above)\n- Cyclicality of semiconductor capital spending impacting demand volatility\n- Intense pricing pressure from OEMs and Tier-1s cascading down to material suppliers\n- Geopolitical and trade tensions disrupting global supply chains\nDemand Structure by End-Use Industry\nEnd-Use Industry Demand Split (%)\nSemiconductor Logic & Foundry (estimated share: 45%)\nThe semiconductor logic and foundry segment represents the largest end-use market for metal hard mask materials, driven by the continuous scaling of transistor dimensions and the adoption of EUV lithography at leading-edge nodes. As foundries like TSMC, Samsung, and Intel ramp up 5nm, 3nm, and eventually 2nm production, the need for hard masks with superior etch selectivity, uniformity, and defect control becomes paramount. Multi-patterning techniques, such as self-aligned double and quadruple patterning, rely heavily on metal hard masks to define critical dimensions.\nThe transition to gate-all-around (GAA) transistors further increases the complexity of patterning, requiring hard masks that can withstand aggressive etch chemistries and provide precise profile control. Demand-side indicators include wafer starts at advanced nodes, EUV tool shipments, and R&D investments in next-generation devices. Through 2035, this segment will grow as new fabs come online, particularly in the US, Europe, and Asia, supported by government incentives. However, the cyclical nature of the semiconductor market and the high cost of qualification may temper growth.\nOverall, the logic and foundry segment will remain the primary driver of metal hard mask material consumption, with innovation focused on new materials and deposition techniques. Current trend: Increasing demand for EUV and multi-patterning hard masks.\nMajor trends: Shift to EUV lithography and multi-patterning, Adoption of gate-all-around transistors, Increasing use of high-k metal gates, Growth in advanced packaging for chiplets, and Rising demand for low-defectivity hard masks.\nRepresentative participants: TSMC, Samsung Foundry, Intel, GlobalFoundries, and SMIC.\nMemory (estimated share: 30%)\nThe memory segment, encompassing 3D NAND and DRAM, is a significant consumer of metal hard mask materials. In 3D NAND, the stacking of increasingly numerous layers (now exceeding 200) demands hard masks that can withstand high-aspect-ratio etching and provide excellent uniformity. Metal hard masks, such as tungsten or titanium nitride, are essential for defining channel holes and staircase structures. As memory manufacturers transition to higher layer counts and new architectures like string stacking, the performance requirements for hard masks intensify. In DRAM, the scaling of capacitor and transistor structures also relies on advanced hard masks for patterning.\nThe demand for memory is driven by data center growth, AI, and 5G, leading to capacity expansions by Samsung, SK Hynix, Micron, and Kioxia. Through 2035, the memory segment will see steady growth, with 3D NAND layer counts continuing to rise and DRAM scaling pushing the limits of lithography. However, price volatility in memory markets and the adoption of alternative patterning techniques could pose challenges. Overall, the memory segment will remain a key driver, with opportunities in new materials and processes. Current trend: Rising demand for 3D NAND and DRAM hard masks.\nMajor trends: Increasing 3D NAND layer counts, Transition to DDR5 and LPDDR5, Adoption of EUV for DRAM patterning, Growth in high-bandwidth memory, and Focus on cost reduction and yield improvement.\nRepresentative participants: Samsung Electronics, SK Hynix, Micron Technology, Kioxia, and Western Digital.\nIntegrated Device Manufacturers (IDMs) (estimated share: 15%)\nIntegrated device manufacturers (IDMs) that produce a wide range of semiconductor devices, including microcontrollers, power management ICs, and sensors, represent a significant end-use sector for metal hard mask materials. While IDMs may not always operate at the most advanced nodes, they still utilize hard masks in their fabrication processes for patterning critical layers. The demand from IDMs is driven by the proliferation of electronics in automotive, industrial, and consumer applications, which require reliable and cost-effective semiconductors. As IDMs upgrade their fabs to higher performance nodes or adopt new materials, the consumption of hard masks increases.\nFor example, the shift to copper interconnects and low-k dielectrics in mature nodes has led to the use of metal hard masks for dual damascene patterning. Through 2035, IDMs will continue to invest in capacity for specialty technologies, such as BCD, RF, and embedded memory, supporting demand for hard masks. However, the growth rate may be slower compared to leading-edge logic and memory, as IDMs often prioritize cost and may use alternative patterning methods. Overall, IDMs provide a stable, albeit less dynamic, demand base for metal hard mask materials. Current trend: Steady demand for specialty and mature node hard masks.\nMajor trends: Growth in automotive and industrial semiconductors, Upgrades to 40nm and 28nm nodes, Adoption of copper and low-k dielectrics, Increasing use of hard masks for dual damascene, and Focus on cost-effective patterning solutions.\nRepresentative participants: Texas Instruments, Infineon Technologies, STMicroelectronics, NXP Semiconductors, and Analog Devices.\nOutsourced Semiconductor Assembly and Test (OSAT) (estimated share: 5%)\nThe outsourced semiconductor assembly and test (OSAT) segment is an emerging consumer of metal hard mask materials, driven by the growth of advanced packaging technologies such as fan-out wafer-level packaging (FOWLP), 2.5D/3D integration, and system-in-package (SiP). These packaging techniques often require the patterning of redistribution layers (RDLs) and through-silicon vias (TSVs), where hard masks are used to define fine features. As OSATs like ASE, Amkor, and JCET expand their advanced packaging capabilities to serve high-performance computing, AI, and mobile applications, the demand for hard masks in this segment will increase.\nThe requirements for hard masks in packaging are somewhat different from front-end application"
+    },
+    {
+      "title": "Rhee Chang-yong: \"Can't Guarantee a 10-Year Semiconductor Boom… Fiscal Expansion Is Risky\" - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAydHZOejh4cDJmS05JdWMyMG5HclREdHAyQ1BidDMwcUZ2eW5zeHB6SjBoalBEYURpcmI3TjMzMVVoWjl3VmczbGYxZnU5SzhwSzEzU0I3a2ZQa1A5djN6THFwU1Q0ODVmOEFPNGM0bjUweUY4WlE?oc=5",
+      "published": "Sun, 11 Oct 2026 09:55:00 GMT",
+      "summary": "Rhee Chang-yong: \"Can't Guarantee a 10-Year Semiconductor Boom… Fiscal Expansion Is Risky\"&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-11T17:55:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 3.6,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://finance.biggo.com/news/18b1c723-65ea-406a-ba2e-34d1d9703709"
+    },
+    {
+      "title": "A 20-Year Feud Over Autonomy and Alliance Shakes Korean Security - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWx6QVVDelNBU00zMmlrMVNETzRteTFZemJxWTk2bHhOb3ZMSXMzTHNIXzVfX2hZcVFKRUdoeUpMQ3hCU1R6WlJ6Mjk2NElzeEJuRkRkSDQ2eG1WU21fLURpLUtjX1E2MVp5U2UwLXliRzh0S0lPQ211Um1OcEMzNzY5YXVzVXAwNnc0WlN0VWhSM2FiUWlQcW1JbDJITHM?oc=5",
+      "published": "Mon, 12 Oct 2026 02:16:13 GMT",
+      "summary": "A 20-Year Feud Over Autonomy and Alliance Shakes Korean Security&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | US-JK Trilateral",
+      "published_beijing": "2026-10-12T10:16:13+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://en.sedaily.com/politics/2026/10/12/a-20-year-feud-over-autonomy-and-alliance-shakes-korean",
+      "full_text": "Reports of friction between Seoul and Washington have been arriving almost daily. They have included claims that National Intelligence Service Director Lee Jong-seok's planned visit to the United States fell through, that NIS officials ran into U.S. visa problems and that the agency was excluded from a trilateral Korea-U.S.-Japan body on North Korean cyber threats. Then came a report that U.S. Commerce Secretary Howard Lutnick had conveyed distrust of the NIS to the South Korean side.\nThe NIS and related ministries have disputed most of these accounts. There were indeed differences in some areas of intelligence cooperation between the two countries, but critics say issues already resolved are being portrayed as ongoing conflicts. That does not mean every report of friction can be dismissed as inaccurate. If Washington is unhappy with Seoul's North Korea policy or the way intelligence is shared, that in itself is a serious matter.\nStill, it is worth examining why sensitive diplomatic and security issues have surfaced in the press one after another at this particular moment. Some see a struggle for control between the so-called autonomy camp and the alliance camp within the government's foreign policy and security establishment. Others see grievances over personnel decisions that have accumulated since the change of government spilling into the open. No organized source of the leaks has been identified. Yet the suspicions alone can shake confidence in the government's foreign policy and security command structure.\nTalk of Infighting Behind the Friction With Washington\nThe current situation evokes the clash between the two camps that erupted last year ahead of the Asia-Pacific Economic Cooperation summit in Gyeongju and the conclusion of tariff talks with the United States. What has changed is who is on the offensive. At the time, the reading was that the autonomy camp was pressuring the alliance camp. A year later, the suspicion is that the alliance camp is targeting the autonomy camp. Whatever the truth of those suspicions, the fact that disputes over diplomatic direction keep recurring inside the government is not something to brush aside.\nThe feud between the two camps has little to do with people's lives or the national interest, yet it has gone on for more than 20 years.\nUnder the Roh Moo-hyun government, the autonomy camp emphasized reconciliation with North Korea and securing room for independent diplomacy, while the alliance camp treated the alliance with Washington as the central pillar of foreign and security policy. Clashes followed over troop deployments to Iraq, the realignment of U.S. forces in Korea and North Korea policy. In 2004, Foreign Minister Yoon Young-kwan stepped down after an uproar over disparaging remarks about the president by ministry officials.\nA Replay of a 20-Year-Old Conflict, With the Same Cast and the Same Lines\nMore than two decades later, neither the cast nor the battle lines have changed much. Back then, the deputy secretary-general of the National Security Council was Lee Jong-seok, now the NIS director, and the head of the Foreign Ministry's North American affairs bureau was Wi Sung-lac, now the national security adviser. With Chung Dong-young, who served as unification minister under Roh, joining the current government, the main figures of that earlier conflict are gathered in one place again.\nDifferences over foreign policy issues and personnel surfaced from the earliest days of the current government last year. Chung and Wi offered differing explanations of the sequencing of the END Initiative that the president announced at the United Nations General Assembly, and of the nature of inter-Korean relations, fueling controversy. Chung Se-hyun, a former unification minister and a pillar of the autonomy camp, said publicly that \"there are so many alliance-camp people inside the government that they are holding the president back.\"\nLately the picture has flipped. As reports of friction with Washington piled up, the People Power Party called for Lee and Chung to be replaced. The attacks have been aimed squarely at figures identified with the autonomy camp.\nSome in the ruling bloc go further, suggesting that grievances accumulated during the reshuffling of foreign policy and security organizations after the change of government have combined with the current political climate to produce leaks of sensitive information. There is also talk that the interests of officials who were favored under the previous government and then pushed out of their posts may be at work. The view focuses on a pattern in which problems in intelligence cooperation with the United States are raised repeatedly through media critical of the government, and opposition figures then use them as material for attacks.\nPersonnel Disputes After the Change of Government Turn Into a Power Struggle That Hurts the National Interest\nIf the suspicions are true, the problem goes beyond a simple dispute over policy direction between the two camps. Internal organizational interests created by the change of government, combined with partisan wrangling, would be shaking confidence in the country's foreign policy and security apparatus. With issues piling up in dealings with the Donald Trump administration, the very officials charged with defending the national interest could end up eroding the country's bargaining power.\nPressure from the Trump administration to expand investment in the United States, follow-up steps from the tariff negotiations, the North Korean nuclear issue and strategic competition between Washington and Beijing are all formidable. Even full concentration on negotiating with the United States and drawing changes out of North Korea would not be enough. If disputes over policy direction and personnel spill into political fights over sensitive diplomatic and security information, the biggest loser will be South Korea.\nNext month also brings the ASEAN and APEC summits, with the possibility of talks between Washington and Pyongyang. Ahead of such a diplomatic stretch, feuding between the two camps and fights over policy direction can only damage the national interest and weaken South Korea's standing.\nThe National Interest Shaken by Line Fighting Calls for Pragmatic Diplomacy\nOn taking office, the president stressed pragmatic diplomacy centered on the national interest, saying, \"Let us now send outdated ideologies to the museum of history.\" Whether from the autonomy camp or the alliance camp, those who want the president's trust and want to advance the national interest should compete through diplomatic results, not through fights over personnel and policy lines.\nThe two approaches are not a matter of choosing one or the other, and useful policy lines from the previous government should be picked up where appropriate. Widening diplomatic autonomy on the foundation of the alliance is precisely the direction pragmatic diplomacy should take.\nThe duty of the current foreign policy and security team is to manage relations with Washington steadily while presenting ways to secure autonomy in North Korea policy. If the national interest is set aside and internal conflict simply repeats, neither side can win. This is a moment that calls for cool diplomatic judgment more than ever. There is no time to spare for pointless antagonism between the two camps, or for repeating internal conflict out of partisan interest."
+    },
+    {
+      "title": "Samsung Electronics and SK Hynix Left Out of the Semiconductor Rally — Will Robot DRAM Be the Breakthrough? - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZYnZ1LVNIRjNjeF9PVGp6dlB6WjNjNldLUS1CNDlla2ZObUpuYXdydGduVmhHNU5zSXVUV0hTMF9MaVZ6X0QxdlFqLS1PUGNZaWZNX3lvSlF2WllHc2gxVkRPN2g0YWFWRDlXN1dCVDFwMVp0SGc?oc=5",
+      "published": "Mon, 12 Oct 2026 02:05:00 GMT",
+      "summary": "Samsung Electronics and SK Hynix Left Out of the Semiconductor Rally — Will Robot DRAM Be the Breakthrough?&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T10:05:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 3.6,
+      "signal_keywords": [
+        "breakthrough"
+      ],
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://finance.biggo.com/news/12c01bcc-9cb9-4c17-bacb-a1537bb065e5",
+      "full_text": "While global semiconductor stocks have been riding a clear upward trend, Samsung Electronics (005930.KS) and SK Hynix (000660.KS) have essentially been treading water, left out of the rally. The contrast is stark: over the same period, leading memory and foundry stocks in the United States and Taiwan posted double-digit gains. Adding to the intrigue, projections that DRAM demand for humanoid robots will grow nearly 20-fold by 2030 have raised hopes that the two South Korean companies could shake off their relative underperformance through this new demand source.\nFrom August 31 through October 8, U.S.-based Micron's stock rose 11.90%, while TSMC's American Depositary Receipts (ADRs) gained 12.55%. Over the same stretch, Samsung Electronics managed just 0.77% and SK Hynix 0.43%. Looking at year-to-date cumulative gains, Samsung Electronics is still up 103.89% and SK Hynix 148.31% — impressive figures — but the recent month-long trend shows a clear divergence from overseas competitors.\nAggressive selling by foreign investors has weighed on both stocks. During this period, foreign investors net sold 15.9992 trillion won (approximately $12.0 billion) of SK Hynix and 6.1285 trillion won (approximately $4.6 billion) of Samsung Electronics, totaling 22.1277 trillion won (approximately $16.6 billion). Roughly 72% of the net selling was concentrated in SK Hynix. Samsung Electronics' foreign ownership ratio fell to 46.38% as of October 8, the lowest level in approximately 18 years and 9 months since January 2008. With share prices having risen sharply since the start of the year, profit-taking has accumulated, while concerns that the memory cycle may have already peaked are weighing on investor sentiment.\nSamsung Electronics' preliminary third-quarter operating profit came in at 107.4 trillion won (approximately $80.4 billion), a solid result in itself. However, some analysts note that repeated short-term arbitrage trading using leveraged exchange-traded funds (ETFs) has trapped South Korea's large-cap semiconductor stocks in a range-bound pattern.\nHumanoids Open a New Demand Source\nAmid this backdrop, humanoid robots are rapidly emerging as a new demand source for memory semiconductors. According to a report released by market research firm Counterpoint Research on the 11th, DRAM demand for the computing devices that serve as the \"brain\" of humanoid robots is projected to grow roughly 20-fold, from approximately 8,300 terabits (Tb) this year to 172,000 Tb by 2030. The DRAM capacity per robot is also expected to more than double, from 19 gigabytes (GB) this year to 39 GB by 2030.\nA humanoid's brain is the computing device that processes information collected from cameras, LiDAR, tactile sensors, and other inputs in real time and translates it into action. For a robot to perceive its surroundings, avoid obstacles, grasp objects, and move appropriately in response to its environment, it must instantly process data streaming in from multiple sensors. This process relies on DRAM to temporarily store the data needed for computation — and as tasks grow more complex, memory capacity and performance requirements escalate accordingly.\nCounterpoint Research also identified shifts in how robots process AI as a factor driving memory demand. End-to-end approaches that integrate multiple input streams — vision, touch, and others — to determine actions are proliferating, and the adoption of world models that learn and predict the physical properties of the real world is also increasing. As robots evolve beyond simple perception toward judgment and action based on complex information, the memory capacity required for their computing devices grows in tandem.\nHumanoid robot shipment forecasts are also trending upward. Market research firm IDC projects that global humanoid robot shipments will exceed 750,000 units by 2030. Smart Analytics Global (SAG) estimates this year's shipments at 60,000 units, triple last year's level. Looking at the broader robot semiconductor market, MarketsandMarkets data shows it is expected to grow from $11.23 billion (approximately 15 trillion won) last year to $41.24 billion (approximately 55.1 trillion won) by 2030, a compound annual growth rate of 29.7%.\nThe memory industry's expectations are equally high. Micron CEO Sanjay Mehrotra predicted during the company's earnings call on the 30th of last month that physical AI, including humanoids, will become a major growth driver for the memory industry by the late 2020s. \"Humanoid robots will require more than 200GB of memory capacity and terabyte-level storage, similar to autonomous vehicles,\" he said, adding that Micron has begun supplying samples of LPDDR6, its next-generation low-power DRAM, to customers. Since battery-powered humanoids are sensitive to power consumption, industry observers expect low-power DRAM and high-capacity NAND flash — rather than HBM designed for data center servers — to be the primary memory types deployed.\nSamsung and SK Hynix's Response\nSamsung Electronics and SK Hynix are already positioning themselves for the robot memory market. Both companies showcased LPDDR6 at CES 2026 earlier this year. Samsung Electronics' LPDDR6 was recognized as the industry's first next-generation mobile DRAM and received a CES Innovation Award.\nSamsung Electronics is also pursuing plans to extend its detachable solid-state drive (SSD) technology — originally developed for automotive applications — to physical AI. The company has stated its goal of establishing detachable SSDs as the standard solution for robot platforms within five years. It has also signaled that it is preparing next-generation robot semiconductor solutions spanning high-bandwidth, low-power memory, image sensors, and foundry capabilities.\nSK Hynix is partnering with Nvidia to co-develop low-power memory for the \"Jetson Thor\" robot computing platform. Jetson Thor is reported to feature 128GB of LPDDR5X.\nLee Soo-rim, an analyst at DS Investment & Securities, said: \"The structure is such that robot deployment volume is directly proportional to memory demand, and the LPDDR content per unit is also steadily increasing. The faster the humanoid industry grows, the more the memory industry can evolve into a structural growth industry untethered from cyclical upswings and downturns.\"\nExpansion Race and Open AI Expansion\nMeanwhile, SK Group Chairman Chey Tae-won emphasized that South Korea needs to accelerate its fab expansion, citing the pace at which China's ChangXin Memory Technologies (CXMT) and U.S.-based Micron are catching up. Speaking to reporters on the 11th at the 38th Shanghai Mayor's International Business Leaders' Advisory Council meeting in Shanghai, China, he said: \"If China or Micron in the U.S. expands at a faster pace, South Korea's market share will shrink. We need to expand quickly.\" His vision includes expediting the 400 trillion won (approximately $299.4 billion) semiconductor cluster investment in South Korea's Honam region, following the Yongin semiconductor fab. On concerns from U.S. political circles regarding South Korea's semiconductor investments in China, he drew a clear line: \"I cannot agree with the notion that blocking [investment] will stop China's semiconductor industry.\"\nNvidia's expansion of its open AI ecosystem is another variable that could reshape semiconductor demand dynamics. The Financial Times reported that Nvidia is in discussions to acquire or make an additional investment in Reflection AI, a company founded in 2024 by researchers from Google DeepMind. Reflection AI was valued at $25 billion (approximately 33.4 trillion won) during its funding round in March, and Nvidia is already a major shareholder with an $800 million (approximately 1.1 trillion won) investment. Sources indicate that rather than a full acquisition, an \"acqui-hire\" approach — securing key talent and licenses together — is under consideration. Nvidia has been accelerating its push into the open-weight model market, following its $20 billion (approximately 26.7 trillion won) indirect acquisition of AI chip designer Groq last year and its agreement earlier this month to acquire open AI platform Hugging Face for $12.9 billion (approximately 17.2 trillion won).\nWhether Samsung Electronics and SK Hynix — sidelined from the global semiconductor rally — can engineer a rebound through the new demand source of humanoid robots remains an open question. Counterpoint Research, however, offered an optimistic note: \"Just as HBM exploded on the back of AI data center demand, robots are now emerging as a new memory demand source for Samsung Electronics and SK Hynix.\" While foreign selling pressure and peak-cycle debates may persist in the short term, the fact that the axis of mid- to long-term growth drivers is broadening from AI data centers to physical AI adds a new variable to the investment thesis for both companies."
+    },
+    {
+      "title": "How the Global Chip Industry Is Caught in a Stranglehold: 2025 Latest U.S. Assessment & Full Analysis - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yZXlWX0NVbF92ZldQRG9XQ3A3RlhreXhVTE5xV3ViTkJiazE3NHhndUpGOTBuR3dfV3dSYUZ3VG9jOWp2TlVmcWVRaFBxUUFndHE0?oc=5",
+      "published": "Mon, 12 Oct 2026 01:03:51 GMT",
+      "summary": "How the Global Chip Industry Is Caught in a Stranglehold: 2025 Latest U.S. Assessment & Full Analysis&nbsp;&nbsp;36Kr",
+      "source": "GNews | JP Chip/Export",
+      "published_beijing": "2026-10-12T09:03:51+08:00",
+      "source_detail": {
+        "name": "36Kr",
+        "url": "https://eu.36kr.com"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://eu.36kr.com/en/p/4020869697064833",
+      "full_text": "How is the chip industry caught in a stranglehold? The latest assessment from the United States\nThe U.S. Semiconductor Industry Association (SIA) stated in a recently released report that semiconductors are critical to the U.S. economy and national security, supporting a wide range of applications spanning from smartphones, artificial intelligence (AI) infrastructure to medical devices, automobiles, manufacturing equipment and national defense systems.\nFor decades, the highly interconnected global supply chain has helped U.S. chip enterprises steadily improve performance while reducing costs. However, various new challenges in recent times have exposed the fragile links in the global upstream supply chain that underpin the U.S. chip ecosystem, highlighting the urgency of taking immediate action to build a trusted and reliable supply chain and reduce strategic dependencies.\nIn the report, SIA sorts out the categories of key materials and equipment used in U.S. semiconductor production, reveals the weak links in the supply chain at risk of disruption, and outlines the key measures required to strengthen the U.S. semiconductor supply chain.\nKey Findings:\n1. The semiconductor supply chain has a multi-tier structure and is highly geographically dispersed.\nThe semiconductor manufacturing process takes several months and requires sourcing various materials, equipment and components from multi-tier suppliers across the globe. Although 95% of the equipment and materials worth approximately $27 billion consumed by U.S. semiconductor enterprises come from suppliers headquartered in the United States, Europe and Japan, the actual production and manufacturing of these inputs are spread across all regions of the world.\n2. The equipment and materials required for semiconductor production in the United States rely on fragile links hidden deep in the upper reaches of the global supply chain.\nMany Tier 1 inputs used in semiconductor production themselves depend on lower-level raw materials and system sub-components that face high risks of supply disruption. These fragile links deeply embedded in the upper reaches of the supply chain exacerbate the risks faced by the semiconductor ecosystems of the United States and its partner countries.\n3. Ensuring semiconductor supply chain security requires a set of mitigation strategies.\nBuilding a stronger semiconductor supply chain to support the U.S. semiconductor ecosystem requires coordinated action between the government and the industry, as well as collaboration with like-minded global partners and allies. The U.S. government and the industry should commit to implementing the following strategies:\nExpand domestic production and strategic reserves. While it is neither practical nor economically efficient to relocate all materials and equipment required for semiconductor production to domestic locations, establishing or enhancing domestic production capacity for several key inputs is a feasible and critical near-term strategy. For other inputs, building new production capacity in the United States may take a decade or even longer, followed by additional time for semiconductor production qualification certification of the materials. The government should work closely with the industry to identify and prioritize targets for localized production and strategic reserves.\nBuild and maintain supply chains among allies. The supply chain underpinning the U.S. semiconductor ecosystem is global by nature. Maintaining and consolidating strong trade relations with allies and partner countries/regions, while investing in complementary supply chain capabilities, is essential to enhance the resilience of the U.S. semiconductor ecosystem.\nReduce dependence on unreliable sources of rare earths and critical minerals. Recent export restrictions on critical minerals and rare earth elements have highlighted the urgent need to build new mining and processing capacities in the United States and its partner countries/regions. Adopting coordinated policies, such as long-term off-take agreements, is critical to sustaining demand for new critical mineral production capacity.\nIncrease R&D investment. Governments of the United States and its partner countries/regions should increase and continuously allocate funding to support R&D in materials science, chemistry and engineering, to develop next-generation semiconductor materials and recycling process technologies.\nBuilding a trusted and reliable supply chain to support the U.S. semiconductor ecosystem requires ongoing coordination and cooperation among the government, the industry and international partners.\nThe conclusions of this report help reduce the risk of future supply chain disruptions, consolidate key supply chain partnerships, and enhance the U.S. leadership in the chip sector in the long run.\nIntroduction\nSemiconductors are the cornerstone and key enabler of all industries and emerging technologies driving U.S. economic development. Whether it is cutting-edge logic chips, analog and mixed-signal chips, compound semiconductor devices or memory devices, their production process often takes months, involves multiple cross-border shipments, and relies on a precisely coordinated, hierarchical supply chain composed of highly specialized materials and equipment. Only by ensuring the on-schedule and sufficient supply of these categories of materials can the needs of the industry be met — the global sales of this industry are expected to exceed $1.5 trillion in 2026.\nAs the U.S. Department of Commerce pointed out in its 2023 \"Assessment of the U.S. Microelectronics Industrial Base\" report, semiconductor manufacturing \"requires hundreds of different materials with extremely high quality requirements\", and \"maintaining a robust domestic semiconductor manufacturing base is inseparable from a strong materials supply chain that can withstand regional or enterprise-specific shocks\". In recent years, the global supply chain supporting the semiconductor industry has been repeatedly disrupted by factors including natural disasters, the COVID-19 pandemic, supply-demand imbalances and various government measures (see Figure 1). As enterprises invest in building domestic semiconductor manufacturing capacity in the United States, key weak links in the upstream supply chain have raised growing concerns that these hidden risks may hinder capacity expansion and cause project delays.\nCertain supply vulnerabilities (such as rare earth issues) are well known; however, other material dependencies that seem to carry lower risks may have vulnerabilities deeply hidden in the upstream supply chain, which often only become apparent when supply disruptions occur. To address the deep-seated vulnerabilities in the global supply chain supporting the U.S. semiconductor industry, industry leaders and policymakers must first clarify which supply chain dependencies pose the greatest risks.\nTo this end, the Semiconductor Industry Association (SIA) of the United States collaborated with heads of procurement, supply chain and strategy across enterprises in the semiconductor ecosystem — covering chip manufacturers, fabless chip design firms, back-end packaging enterprises, equipment manufacturers and material suppliers — to conduct a non-exhaustive review and mapping of the upstream supply chain supporting the chip industry, aiming to answer the following questions:\nWhich upstream input factors pose severe vulnerabilities to the U.S. semiconductor ecosystem, and why?\nWhich materials and equipment used in semiconductor production themselves rely on supply chains with existing vulnerabilities?\nWhat measures can government and industry stakeholders take to mitigate these vulnerabilities and build a more resilient supply chain to support the development of the U.S. semiconductor ecosystem?\nQuantifying Vulnerabilities\nSupply chain dependencies refer to the suppliers, materials, equipment and services that semiconductor industry participants rely on to support their design and manufacturing operations. \"Vulnerability\" refers to the weak points in the network of these suppliers and inputs, which face higher risks of supply chain disruption, malicious exploitation and/or policy shocks. While every material and equipment input required for chip design and manufacturing constitutes a supply chain dependency, not all dependencies create vulnerabilities, and not all vulnerabilities are high-risk.\nTo assess dependencies that pose severe risks to the supply chain underpinning the U.S. semiconductor ecosystem, we have developed a systematic and quantifiable \"Vulnerability Index\" (see Figure 2) that integrates five distinct vulnerability factors. For each supply chain input included in the analysis, we assessed the geographic concentration of its production and the degree of dependency. In addition, we evaluated the supplier network for each input, taking into account supplier concentration for specific products, the ownership structure of key suppliers, and dependencies at the sub-tier supplier level. We scored each input against these five factors and aggregated them into a comprehensive index.\nAssessing U.S. Dependence on the Global Supply Chain\nIn general, semiconductor manufacturing includes \"Front End\" manufacturing processes performed on the wafer surface (involving the addition and removal of materials), as well as \"Back End\" processes that package bare dies into finished chips. Semiconductor manufacturers work with more than 1,000 \"Tier 1\" suppliers to directly source raw materials such as bare wafers, special gases, photoresist chemicals, and manufacturing equipment such as lithography machines and deposition equipment. Each of these Tier 1 suppliers, which directly provide materials, components and manufacturing equipment to semiconductor companies, has its own intricate \"sub-tier\" network of intermediate product and raw material suppliers.\nFor the purpose of this analysis, we identified a list of 200 k"
+    },
+    {
+      "title": "Samsung, SK hynix Left Behind in Global Chip Rally - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSi1ZQVBsMU1MTkZLZy10OXB3YmF4UUhUQ004RHdUWm93STFDNW5SUFk5a3V6T1h3NUQxWnZ5QW5nczRYekVBSlhYamhRQk02MThsLU5heEFHMW5kMnIwSlh5UGxkT1NpdGx1aWNTYlZVRGdLZmpfZnRZWWpFbzhSTDNhdEh0Y2JaMVViRDBpbWI5aG1Qamc?oc=5",
+      "published": "Mon, 12 Oct 2026 01:00:05 GMT",
+      "summary": "Samsung, SK hynix Left Behind in Global Chip Rally&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T09:00:05+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://en.sedaily.com/finance/2026/10/12/samsung-sk-hynix-left-behind-in-global-chip-rally",
+      "full_text": "▲ AI PRISM* Personalized Economic Briefing\n* Editor's note: AI PRISM (Personalized Report & Insight Summarizing Media) is an artificial intelligence-based personalized news recommendation and summary service developed with support from the Korea Press Foundation. It selects and provides six news items tailored to each reader type.\n[Key Issue Briefing]\n■ Samsung Electronics (005930.KS) and SK hynix (000660.KS) lag the global chip rally: Micron climbed 11.90% and TSMC's American depositary receipts rose 12.55% since the end of August, while Samsung Electronics gained just 0.77% and SK hynix 0.43%. Combined net selling of 22.13 trillion won by foreign investors, along with short-term arbitrage trading using leveraged exchange-traded funds, has locked the country's large-cap chipmakers into a trading range.\n■ Humanoid robots emerge as a future growth driver for Samsung and SK hynix: Counterpoint Research projects that DRAM demand for humanoid robots will surge roughly 20-fold by 2030, to 172,000 terabits from about 8,300 terabits this year. Samsung Electronics has said it is preparing next-generation robot chip solutions, while SK hynix has announced plans to jointly develop next-generation memory with Nvidia for the Jetson Thor robot chip.\n■ Nvidia accelerates its push to dominate the open AI ecosystem: Reports of talks to acquire Reflection AI, valued at $25 billion (about 33 trillion won), have drawn market attention to Nvidia's strategy of expanding open-weight AI. Following its $12.9 billion purchase of Hugging Face earlier this month, another deal would further highlight the potential for a broad realignment of the open AI ecosystem.\n[News of Interest to Stock Investors]\nKey points: From Aug. 31 to Oct. 8, Micron rose 11.90% and TSMC's ADRs gained 12.55%, while Samsung Electronics advanced 0.77% and SK hynix 0.43%. Foreign investors sold a net 15.9992 trillion won of SK hynix and 6.1285 trillion won of Samsung Electronics, for combined net selling of 22.1277 trillion won, with about 72% of that concentrated in SK hynix. Foreign ownership of Samsung Electronics fell to 46.38% as of the 8th, the lowest in about 18 years and nine months, or since January 2008. Cumulative gains since the start of the year reached 103.89% for Samsung Electronics and 148.31% for SK hynix, intensifying pressure from profit-taking. Samsung Electronics posted preliminary third-quarter operating profit of 107.4 trillion won, indicating solid results, but recurring talk that the memory cycle may have passed its peak is weighing on investor sentiment.\nKey points: Counterpoint Research expects DRAM demand for humanoid robots to grow about 20-fold, to 172,000 terabits in 2030 from roughly 8,300 terabits this year. DRAM capacity per robot is projected to more than double, to 39 gigabytes in 2030 from 19 gigabytes this year, while global shipments are forecast to swell to 500,000 units in 2030 from 60,000 this year. Samsung Electronics said it is preparing \"next-generation robot chip solutions spanning high-bandwidth, low-power memory, image sensors and foundry capabilities,\" while SK hynix will jointly develop next-generation memory with Nvidia for Jetson Thor. With a new market opening that will drive demand for both LPDDR low-power DRAM and high-capacity NAND flash, long-term growth visibility for the two companies has improved.\nKey points: The Financial Times reported that Nvidia is in talks to acquire or make an additional investment in Reflection AI, founded in 2024 by former researchers at Google DeepMind. Reflection AI was valued at $25 billion (about 33 trillion won) in a funding round in March, and Nvidia is already a major shareholder after investing $800 million. Nvidia indirectly acquired AI chip designer Groq for $20 billion last year and bought open AI platform Hugging Face for $12.9 billion earlier this month, stepping up its expansion of the open AI ecosystem. A string of deals that shake the closed-model landscape led by Anthropic, OpenAI and Google would raise the prospect of a structural realignment in AI infrastructure demand.\n[Reference News for Stock Investors]\nKey points: SeAH Superalloy Technologies, a second-tier subsidiary of SeAH Besteel Holdings (001430.KS), will begin full operations in the first half of next year at a plant in Temple, Texas, built with an investment of $110 million (about 150 billion won). The plant will produce superalloy ingots and metal powders, core materials for space and aircraft engines, and will target entry into the supply chain from a base in Texas, where SpaceX, Lockheed Martin and Boeing are clustered. Supply shortages are severe, with lead times at global superalloy producers running 50 to 100 weeks, and the company also expects a geopolitical premium as a firm from an allied nation. SeAH Changwon Integrated Special Steel has previously supplied special alloys to SpaceX, drawing close industry attention to the possibility of joining the Starship supply chain.\nKey points: As Big Tech's AI investment burden grows, cash cow ETF strategies that screen stocks by free cash flow have grown to tens of trillions of won in the U.S. market. COWZ, a flagship product, has net assets of about $19 billion (about 25 trillion won), while VFLO has topped $11 billion. The trend follows a surge in data center spending by Microsoft, Meta, Amazon, Alphabet and Oracle to $1.17 trillion this year from $349 billion in 2023, prompting downward revisions to expected free cash flow at major companies. With the concentration in AI-related stocks increasing the S&P 500's sensitivity to the AI investment cycle, strategies that screen stocks by cash generation have emerged as an alternative for reducing index investment risk.\nKey points: Of 131 disclosures of bankruptcy petitions filed against KOSDAQ-listed companies from January 2016 through August this year, courts granted only four and dismissed 119. Despite the extremely low acceptance rate, trading in the stock can be suspended once a bankruptcy petition is disclosed, highlighting a structural problem that restricts trading opportunities for ordinary shareholders. Optron-Tec plunged to a 52-week low on the trading day after its bankruptcy petition disclosure, while M Gen Solution saw trading halted for three sessions on nothing more than rumors of a petition, with disclosure of the dismissal and withdrawal coming the same day. Amid growing concern that the bankruptcy petition system can be used as a tool to pressure companies, discussions on reforming it are gaining momentum, led by the National Assembly's National Policy Committee.\n▶Read the full article: Easing Russia Sanctions to Curb Diesel Prices Draws 'Grave Mistake' Criticism Even From Republicans"
+    },
+    {
+      "title": "Samsung chip profit jumped nearly ninefold as AI memory demand surged - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRWRTMkR6TUZScmJCcnVURXpZcTlVS3I2OEtJUHJOUUtaUG5UYmdDbG5KcmFjRzJmOFN5dU0weDFpSDFfeDRURC1YYlhRUi05VDZaWkJzcFYtQ000M2dnZmMxamJjMUUyMkNzTllUcUUyakR0QlY4Q2N6MWVhSFpIZlc5LVRxN0xoQmdkLVFpQUFVcXRSZVh5OHl4LWUtZw?oc=5",
+      "published": "Mon, 12 Oct 2026 00:40:24 GMT",
+      "summary": "Samsung chip profit jumped nearly ninefold as AI memory demand surged&nbsp;&nbsp;Startup Fortune",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T08:40:24+08:00",
+      "source_detail": {
+        "name": "Startup Fortune",
+        "url": "https://startupfortune.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://startupfortune.com/samsung-chip-profit-jumped-nearly-ninefold-as-ai-memory-demand-surged/",
+      "full_text": "Each of OpenAI's 722 published math results cost roughly three hours of ChatGPT Pro compute, a workload Nvidia's CFO says could justify trillions in annual AI infrastructure spending by 2030."
+    },
+    {
+      "title": "China’s CXMT makes progress in chip design pursued by Samsung, SK Hynix - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZmZHS080emE3cTZyaHozcTJmTTBYUk1GZEhNX3drTUh1S29LZWJRaWpUMlplQWd4STZzZFRNWFZkeEp4UVdiSHdaZlZPWVdHUnFHUDRrTDlWbzIzTU9LeUpoTDZ4ZjNxY1FBemZaVnRaOFlxNjJWcm9RaVR2ZWtldTlQWWhUczc4LUxmTG8tMGpUNTNvQ2lDUHd1RGZ5b3IyYzd5MUZqcU16NnN0aUIycmVIdlhZT2NseFBCaDFhdW_SAcABQVVfeXFMTU1TVTBjV2xjdGFob3d3R3VVTE0tczZyLXA3elItTmN3OVNHUm5OeER4SUxNVVdCNEZESTBzUE41dGNqWWd2SGt3czNTUW5kcWxZN3RIblpGQWtfTHZ3UnNzYm1QWUdVckUzYkp5ZkpyMUxLLXdDNFZROHdjMGFST0tsLVcxWlVETUkyMjVZaHpkTkZEN01URzUyRjZlOWV6T1hVX0FvaHVVTVM2ME45QWI5QXdHYzQ1b1dJVElDZGNG?oc=5",
+      "published": "Mon, 12 Oct 2026 00:30:13 GMT",
+      "summary": "China’s CXMT makes progress in chip design pursued by Samsung, SK Hynix&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T08:30:13+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix",
+      "full_text": "China’s CXMT unveils ‘key progress’ on chip structure pursued by Samsung, SK Hynix\nMemory chip giant says its proprietary transistor design could increase storage density and improve efficiency\nCXMT planned to roll out a new server-memory product based on the structure by the end of 2026, president Cao Kanyu said at an industrial event in Shanghai over the weekend, according to a company statement.\nAt the centre of the development is the “4F square” design, in which each memory cell occupies an area of four square F, with F representing the minimum line width of a semiconductor. The structure enables higher storage density by fitting more cells onto a single chip.\nFor now, mainstream commercial dynamic random-access memory (DRAM) uses a 6F square-cell structure."
+    },
+    {
+      "title": "Non-Volatile Memory Market To 2035: Data Center and Automotive Demand to Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbXI2a1o3WldBQ1JvZ0NwaGpOWWl3dXExWGI2b3FDU1BRZUpXRTNWZVRqV2FZQjdXRUlNSmJaNmZpa3ZlYU4xU294aHlaZVkyTC1LX2hycmNDWWprNHBOTlg0STU0VDFwbWxkejVSS0RzZjl0T19GZnBvQkMtREJ3WGMyMGxWUmZkWkNwemctSlUxRVhucU9PTV9BOXRQak5QYnN5djk5T0ZUSW5ZOXVYcEZVSnBTZXl3MmlGVnhUTXg?oc=5",
+      "published": "Sun, 11 Oct 2026 22:21:05 GMT",
+      "summary": "Non-Volatile Memory Market To 2035: Data Center and Automotive Demand to Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T06:21:05+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[Weekly Economic and Crypto Calendar] US September PPI, Core PPI Among Key Events This Week - bloomingbit",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tSHYxOWxDTTdULWNIem95d1lVcEwwTnRNM1ZlUTJaYTJfTjMwc2ozLTdHVU5UWE1mYW9jcmpBcWx1b3RYNjlyanN0UXJLSHJzYWIxaA?oc=5",
+      "published": "Sun, 11 Oct 2026 08:09:34 GMT",
+      "summary": "[Weekly Economic and Crypto Calendar] US September PPI, Core PPI Among Key Events This Week&nbsp;&nbsp;bloomingbit",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-11T16:09:34+08:00",
+      "source_detail": {
+        "name": "bloomingbit",
+        "url": "https://en.bloomingbit.io"
       },
       "priority": 1.2,
       "category": "韩国",
@@ -349,15 +517,111 @@
       "relevance": "low"
     },
     {
-      "title": "Delhi Latest News Today on October 11th, 2026: CJP Protests, Leaders in Court & City Security - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdWpwRzA2VWctTFFUZ0RGLVlBX2RoV0UtN2RJRWoyZ3NQRWQ3ZkVnYTJudFE1Wlp3M2RVQzFyTWtrY3BlWVZFd3dzUHU4MXR0MTBwaEt5OVpOclQ5UkZGbURZM1RJemhxWi1FOFVub1V3UWlsQVd3S3kxak12cUNxczBjdDZmaHRWSlZZSGlGdDhLdVRCVDlZakRhcGpjSmM2Wi0yRlRCY3M4d2hmNTdQejFWMXhqaGpVbnlPVGQ4dUhJTVV5M2plVUFkWUtNamtTV2dB0gHYAUFVX3lxTE9Kb2pjc05lUlpoYll1c19zb0pHMzRHdUp1dTQybGdzNnBCcnlSSi1wSUtnb2REaFRrVndUa19ma2hEMnVlTUxIVHpYTnpLeTB0OUNmaHUtNzZVcy1VZ1hFWnZGYnpWVEJaRk53TE9uT0tlUkxRaWlHeVBZX2dMcUJaNFZXSDVqeVZBREU5WVFSMUpWZHJGU0I3VUFoSDFKalZoWjlyMF9SMmR6MFJNMG1XdTREeVg0ZmQ0V3dZUFNHemh2QnJ5Q1dwNFZpRFJVUWVEUkJvNUltMQ?oc=5",
-      "published": "Sun, 11 Oct 2026 04:02:00 GMT",
-      "summary": "Delhi Latest News Today on October 11th, 2026: CJP Protests, Leaders in Court & City Security&nbsp;&nbsp;LatestLY",
+      "title": "INDIA MUST BE ALERT: A COLOUR REVOLUTION IS IN THE MAKING | The Sunday Guardian - newspaper - Magzter",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSm5NcFJxa2NjTWRTWDNhUGZvQVJ3RXVaTUlTc01OOE9kejFMSHBZSEVWcThoZWVfRzZQY1hMbEMxbWNhdER0V3JuMGlNeFd3Q2lhTkozM3RPb3ZmY3Rta3dzWXQ2QTZ2a3ZVN0h3cGt2YmkxWjNnLTNnclJzUjdFdlV1SmtFNlMxYUtzU2N4VURtQVZrOW1RRFo0R3Z2eURCTzlVLWFGRzVvaGZqal9TaHlCWFRnaWUxV0E?oc=5",
+      "published": "Sun, 11 Oct 2026 07:57:53 GMT",
+      "summary": "INDIA MUST BE ALERT: A COLOUR REVOLUTION IS IN THE MAKING | The Sunday Guardian - newspaper&nbsp;&nbsp;Magzter",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-11T12:02:00+08:00",
+      "published_beijing": "2026-10-11T15:57:53+08:00",
       "source_detail": {
-        "name": "LatestLY",
-        "url": "https://www.latestly.com"
+        "name": "Magzter",
+        "url": "https://www.magzter.com"
+      },
+      "priority": 1.2,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SK Hynix Q3 Operating Profit Projected at 77 Trillion Won…Challenging 80% Margin, Shattering Manufacturing Norms - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xQUx1MVN3cVByVF9ScXVyYmFkMVM3QmU5dXlwdi1tdlVzeVJyWmRrTnZMODd4RzVVYll6d3ViZnBYUmsxckRudlEzZlpJQnBFVlNZZ2d0Z0M4UTUwZnBaZkZUbE9kSTN5US1lSHl6cEFfYjdUUXc?oc=5",
+      "published": "Sun, 11 Oct 2026 02:05:00 GMT",
+      "summary": "SK Hynix Q3 Operating Profit Projected at 77 Trillion Won…Challenging 80% Margin, Shattering Manufacturing Norms&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T10:05:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 1.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "APAC market cap rankings rewritten by AI, memory and China’s banks, reveals GlobalData - Technology For You",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSU1HX0Y1VHd4NHBBNUMxOFhVMkdjTnc5M1p2LVNpM1RyUElUSklDS2h0Vk9zNGhTQld3Z1FlNkhVUF9DWDNlWDFQTFRwMm4wTWV6NlN5Tkx1Y1B3cWVYeVZrWHdSRVFCOTM4ZmQ4OGZQaVZtQWR4bDE1dWMwakJETjdXbGdvWjVJVlJzbTJNMm9aNF8zWHIxdW5yV05VT3o0aXRCS0hkWThodzVpbUJ3RGpPblBDWVlq?oc=5",
+      "published": "Sat, 10 Oct 2026 10:16:44 GMT",
+      "summary": "APAC market cap rankings rewritten by AI, memory and China’s banks, reveals GlobalData&nbsp;&nbsp;Technology For You",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-10T18:16:44+08:00",
+      "source_detail": {
+        "name": "Technology For You",
+        "url": "https://www.technologyforyou.org"
+      },
+      "priority": 1.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BOK chief defends preemptive hikes, apologizes over leveraged ETF warning lapse - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZekVpSXdFQmJfc0RydjI1dmxWVWVpdXpHMUd0MS1uMDg5LWVRbkpXY3pjRk51NldmMm1iMkV6b1U0NzRzSG41bGxQNHRLYkl1QVQ3cDFXdUVIMDR4SHZ2MkVfNnRUMFc0dnpvWFlnMnpLN0Q4VW1zZ2VRaDkyeDjSAZMBQVVfeXFMTzZMZUZ5clZOTHZkYWlwSTBGdVpmU2dsZ0ZleWVHNHIwemZpSjRrMWJuaTQ0YzlkazBGVDZ6UTRyeWNtQUxGQzFZNFNMWXRqWGliczRfYVI0c05vcGgzYTZKRnFMaV8zUkZGbmdNWFF3S1VZV01PWU9Ga05Ob2M2RU9JdkM0bmF5ZkZvUlczaXV6WVhN?oc=5",
+      "published": "Mon, 12 Oct 2026 04:37:00 GMT",
+      "summary": "BOK chief defends preemptive hikes, apologizes over leveraged ETF warning lapse - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-12T12:37:00+08:00",
+      "source_detail": {
+        "name": "Chosunbiz",
+        "url": "https://biz.chosun.com"
+      },
+      "priority": 1.2,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[2026 Parliamentary Audit] Shin Hyunsong: \"Core Inflation Must Be Preemptively Controlled... A Key Step Toward Achieving the Inflation Target\" - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9naVQzQTZoTk1jZEVCQnhpcFRCUmZpT2ctbndCVnJLQ01qYVZyMTBkekJTNXByWkpIVlhNMUl4U0JfUThuM2lPRFNoMXdFdE42QkYtc1pXQzU1M1pYQXRWU204RVA?oc=5",
+      "published": "Mon, 12 Oct 2026 02:24:11 GMT",
+      "summary": "[2026 Parliamentary Audit] Shin Hyunsong: \"Core Inflation Must Be Preemptively Controlled... A Key Step Toward Achieving the Inflation Target\"&nbsp;&nbsp;아시아경제",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-12T10:24:11+08:00",
+      "source_detail": {
+        "name": "아시아경제",
+        "url": "https://www.asiae.co.kr"
+      },
+      "priority": 1.2,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Exclusive | Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcE1rbTBuN2NYTFpKc0JlWVFvTTdwQlpMbFkycHFWVGtBaER2cFJrdl92WS12X0xZQlRpU3BEc05WSDVXWm4wYU1GX3BfZ2tZeTdQcEcwdUoxeUtCTElkR3pYZkk5a1lYTzNTYlA5Mm5makFWWW5LdDhOUkwxbGRfSldleXhLQXJhc3NHUUF5U1BWNDhjNUM1WDVreWpGWjFDczVsNHVjSGhSZjdHTjR2aFdHcGgzNk9mZF9Sa09sZmEtME5nRzBpY9IByAFBVV95cUxQcE1rbTBuN2NYTFpKc0JlWVFvTTdwQlpMbFkycHFWVGtBaER2cFJrdl92WS12X0xZQlRpU3BEc05WSDVXWm4wYU1GX3BfZ2tZeTdQcEcwdUoxeUtCTElkR3pYZkk5a1lYTzNTYlA5Mm5makFWWW5LdDhOUkwxbGRfSldleXhLQXJhc3NHUUF5U1BWNDhjNUM1WDVreWpGWjFDczVsNHVjSGhSZjdHTjR2aFdHcGgzNk9mZF9Sa09sZmEtME5nRzBpYw?oc=5",
+      "published": "Sun, 11 Oct 2026 22:00:15 GMT",
+      "summary": "Exclusive | Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | US-JK Trilateral",
+      "published_beijing": "2026-10-12T06:00:15+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://amp.scmp.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Beyond Protest: How Ordinary People Build Movements That Win - LA Progressive",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU1kxLU85RGJyZDdUZjVGRTB2aWdDbFhLUTZ1N01hWDM4cjl6M29RdVY0enk3QVZvcmMtLWpVVUdmVjBsRlFkY09aRmtON0psbGJGd0lDWU5UVm0tSkl4OHFFclZxNEZnSFEzR2xLUHZOYmFSSWl1UmFZRDVRcm9ZdV9qei1RS1U?oc=5",
+      "published": "Sun, 11 Oct 2026 18:53:10 GMT",
+      "summary": "Beyond Protest: How Ordinary People Build Movements That Win&nbsp;&nbsp;LA Progressive",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-12T02:53:10+08:00",
+      "source_detail": {
+        "name": "LA Progressive",
+        "url": "https://www.laprogressive.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -365,15 +629,15 @@
       "relevance": "low"
     },
     {
-      "title": "Narendra Modi at 25: Can the ‘master of crises’ overcome the Gen Z challenge? - The Week",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVhrSXVZVWFzZHN1a1VzRjdCSjNnZ0NINXVhQms5bEdRaklmd3EzeEs1WFRRMXRKWVItOXZ6UEQ2YktvM0o5ZkdLUmNQT2k1a2hiZ2JDRXhxMWVFWUlpRGNDNjkxbUYxcEtkRGxGcHQteVMtNVlPQlNrWld3dWxPYzZ3ZS1mT0ZOaTZqTWFwSG9ueWl2eTEyNEtMVmszX2l4UjB0ekt3a1R2dXpkTnBfUGtOQ055cUZqM1JtOURoMHh6T21Md05z0gHYAUFVX3lxTE1IVGNrNjBaLXFpVkRucVNaeWFvMENNMVRzMTJldzNNVUxGNmhvb3c2YWZxUHFTYjJVVU9IeXcxZngtQjlMSG5FZFoyRUd5VEFHUVhBU2w5Y0lXYUM5WkVwS0Uzd0Nlb3dqUy15QkM0TmJWVFFzYTdOS3Q1cGVuQzBDWGl0VExNRFlac0tqTkFIRWZCLUJsWDNscS1GbGRodi1mcUZoQjgzTTQxYkhXVHllWmRkSmthbW5oanBQTzVNUkxqZTRGOWFLNTk0OWR0WElXRzFxb1VaeQ?oc=5",
-      "published": "Sun, 11 Oct 2026 02:35:03 GMT",
-      "summary": "Narendra Modi at 25: Can the ‘master of crises’ overcome the Gen Z challenge?&nbsp;&nbsp;The Week",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-11T10:35:03+08:00",
+      "title": "DPP depriving Taiwan of future: KMT head - Taipei Times",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OMUNLcFdRbkxjeDYzU0gwRzdWU3ZPLTNkRDhLQkZmYk94Z1FRWDREY1F5LVBCX2Y4Vmx0M291cHVNejgwdEdUZlhDaHE1RjJjZjNaOVFrWFhSUVFaaUtfem9rZzJzT0pGUy04dC1id2R0ZDdUWlVLVWxR?oc=5",
+      "published": "Sun, 11 Oct 2026 16:00:00 GMT",
+      "summary": "DPP depriving Taiwan of future: KMT head&nbsp;&nbsp;Taipei Times",
+      "source": "GNews | Taiwan/SCS",
+      "published_beijing": "2026-10-12T00:00:00+08:00",
       "source_detail": {
-        "name": "The Week",
-        "url": "https://www.theweek.in"
+        "name": "Taipei Times",
+        "url": "https://www.taipeitimes.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -381,44 +645,12 @@
       "relevance": "low"
     },
     {
-      "title": "India cracks down on youth protests as anger grows against Modi and election chief - WGN Radio 720",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWm9TWm1EV0ZTZlJIdlo4Q3ZzVi1ENU9vRVpmQnpGTDlIVGtfQW8xVzdkRWpwckVlc2c2Nmp3LUZQM3YzZXRidnE4cVYtTnRJRnZqVG1UbG4ybVJ0c21VVjdwMWIzTzlyay1rdFRzVFpMNDR1Yk8yOHlfWEpQYVNaTTJqN1VCcXkwcU5ja29zaktvdjRXWVFFRDQ0azFHYjlZMm41OFFOa2Nzb08xMXlOX1Yxdl83UnpteEJIVGJn0gHDAUFVX3lxTE96RHVJb0loUVI2WDdublVRM2ZPN2x3SXdFTnRRUndFVElVUm8ydzkzZzJuR3YweW8zdk83aXoyTFBZdTV3OFAyTzBHZUotQldVU3FZMnFwZW1ZbTNJb3pJUmg3OXR2bDJZbDcyNTVnZmR0dFBQSTJ2VUU1WDUtT0hUNkt5SXNtR1A1RklreWRhR0c5VkZ5MXU3SkthY2xXRVY0bjVxbzl1azRsMnNPbjdEMkpURmF5X2R4ODFSdko2T0laWQ?oc=5",
-      "published": "Sat, 10 Oct 2026 19:47:37 GMT",
-      "summary": "India cracks down on youth protests as anger grows against Modi and election chief&nbsp;&nbsp;WGN Radio 720",
+      "title": "Rahul Gandhi, Kharge to lead Opposition march to SC over ‘vote chori’ - National Herald",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLU51Z21rdFA5UW9zYUNnMDIyZlNRRXZTV3h3TEF4S0lIMHlhMWM5aEpSTmJiOXlkcEJKYVRaMmlyVW9RNU9zQi1rTC0wN0ktaXdseFhhMm9BS1puTm4wUFFiNEdEcjdJYV9ISmJqbHg0RUI1b1p4ZW5jRWV4THpQUVRHWnRwc3J0QTNyZ2lha0lWeXBrOUM2dDVWeWFXYno5bU5na3ozTUFwelU1Vk9nTNIBvgFBVV95cUxOWEhUMEhIbERkSFJUSDE5NEstdzFDX3lOM3hJc2c2ZHU5dHd1bFhSbjQ1M2JXcjRhWWlVVXJCUlFYc002Y1hUUmd4U0VzMUhrVzBtdjdfX19kWlBKZ0VHQXdNcWJSZUtxWUNrbEhqQ2pKQmlJTm4tOHNRR1ozN2VQUG5SbWp3Q3A5NDdCZGxGRzFlTkYtTkxxb05vcVh5a2JsMnNGaFIyZ1dyWWlBMThQUnJYQW1tNW1LQWZmSVVn?oc=5",
+      "published": "Sun, 11 Oct 2026 15:47:33 GMT",
+      "summary": "Rahul Gandhi, Kharge to lead Opposition march to SC over ‘vote chori’&nbsp;&nbsp;National Herald",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-11T03:47:37+08:00",
-      "source_detail": {
-        "name": "WGN Radio 720",
-        "url": "https://wgnradio.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spanish lawyer Gonzalez Durantez launches centrist party for November election - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUo1WGgwZll5cENWX1N0Nk81MHI5QnMtY3AtN3NTV2k5SzNiZ09NWS11Yk1YREdNYmdoZExwTkFuMTB3SGdrSC1xRWxwX2puaTFZUnJVUEdlZGxRTmt3Q215NXhoZ0otU3AyNFllS3lIcU1USjZKZlpWd2k1aFFsXzNBNm54S2s2aXFjbG9VX19QSUIyZjZubjhma3dzaHVhZkdlZ1lzMVM0Z0hzbzh1TFR6Q0dQWkU?oc=5",
-      "published": "Sat, 10 Oct 2026 17:53:43 GMT",
-      "summary": "Spanish lawyer Gonzalez Durantez launches centrist party for November election&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-11T01:53:43+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Wangchuk calls Delhi situation ‘undeclared emergency’, warns of hunger strike over detentions - National Herald",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRktBYnkyZnFJRFh5Q0VzRkJRMElWNWY1NXZPeTVtSjdyZVdTMWFlTVJQMERlNWRfRUdGQ1Y5aXhsRDJxWkNZRlVESzU0TmxFSFA4N0FhaVVCRnZlR0JVSWl5R2YxalNwSG1taXpJalhCNFZrOWxubkIzZENlS0NacW51NjFOc24waFp4bzdVSkZqOGdVTW5FUmNDaVVZdW83d2ZJSk9SLW01cEZPR05oay14aDBldnpqOHNxUkMyMG9FcGpKVUZBRXR1a2pScjZX0gHeAUFVX3lxTE5mRy1NWExpOWlSaWI0NTJ4bmJVeXJUYWpQdW8tYmZ6M2lHM1lsZjRiQ0VZTnBqUEN4dVJPU05KOV9qaEhsREFDckJwQ3ZWVkVIdjJ1d3hsaUhNd2JBWnBYWUM3Ymw2Q19hbHFZNGFJaDJiODNnZmtfdkFpZ2VBOXhYcl9ZbThVOEdIYnFvb24xM082LV8wOWtLX095d1JfYmVGN3lFVWhNZXM4ckFHdTZ5WW5pamJSRmNQYmQxQS1UbkxpMXpmLWRHbWlLT05ESXJ2RjlVMHVKXzlJcmZEQQ?oc=5",
-      "published": "Sat, 10 Oct 2026 14:58:40 GMT",
-      "summary": "Wangchuk calls Delhi situation ‘undeclared emergency’, warns of hunger strike over detentions&nbsp;&nbsp;National Herald",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T22:58:40+08:00",
+      "published_beijing": "2026-10-11T23:47:33+08:00",
       "source_detail": {
         "name": "National Herald",
         "url": "https://www.nationalheraldindia.com"
@@ -429,31 +661,15 @@
       "relevance": "low"
     },
     {
-      "title": "Abbas postpones Palestinian elections, sets presidential poll for September 2027 - The Kathmandu Post",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0d5MFVnYzlHckxTLVh5Zk9jTG5OMUtJT0xVXy0zSXFTU0FzOVVrWXBNX0NOTU5WRUFCOGw0Sk1KLUhGSnZsa2VVYjQyTUZzRWpVNW9ibXE2SXJTc2hVd083bk1ERy1OakI4Y1A0X0ppU3hlVmcxTndGTVVtMWpmcTZaU1RDWFdyWGxGV2x4VHA5N3llaTFTNFh1Q2lBcGJReFVydTZMc3BRaXpaVFd0d3NZYXZOenhjVk5xZmhGQQ?oc=5",
-      "published": "Sat, 10 Oct 2026 14:27:36 GMT",
-      "summary": "Abbas postpones Palestinian elections, sets presidential poll for September 2027&nbsp;&nbsp;The Kathmandu Post",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T22:27:36+08:00",
-      "source_detail": {
-        "name": "The Kathmandu Post",
-        "url": "https://kathmandupost.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lee Changyong, after meeting Suka: \"Price cap also fueled interest in Gangnam real estate... Raise property holding taxes and lower transaction taxes\" - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TempOeENJN1FOMHd6TkRYM0RrZ1psNTRKNGt2SXlVenRaVWhjbEZjZDd2QmttMDFsZVl4RkFoX29LNmxWdnZadHhUaVgzcE80THp4WlJSLTBjeU1XYVhadUVkR0E?oc=5",
-      "published": "Sat, 10 Oct 2026 12:58:08 GMT",
-      "summary": "Lee Changyong, after meeting Suka: \"Price cap also fueled interest in Gangnam real estate... Raise property holding taxes and lower transaction taxes\"&nbsp;&nbsp;아시아경제",
+      "title": "Week Ahead: IMF-World Bank Meetings; U.S., China and India Inflation Reports; Lagarde and Warsh Speeches; Fed Beige Book; RBA Minutes; IEA and OPEC Reports; U.S. Bank Results - www.christophe-barraud.com",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNMHl0RDdHNG02d3k2UVFHWFRKeW56YXk3VnZBZExNOFk1TkFaX3BGTlZ2amotMjVlclFTa0lsQ0VfUzNtM2g3emxqNU5HSXY3UzNSczlOeVhFVFFsQ1pQVTlzVmpieUpfQ0plaTNPMVcxNGJlbktocWw5dE1qWWtKMmNjN3RSRzYtQVoyZldXSmZMb0ZXU0VYZVZiWWNOTldfdlV2Mkl5LVRPaDQ0dHVfdjNzaldFY1FPRmloeDJxVldjNWlfN21XNmtyUXRPRTRjNFFEWldLMmFSMHlqX3BLb2VOV0l6YzlXSzlhNy13Q2V0b3FIOFhWb1BMckdtR0FXWmtwc3FQLWFNZmJSWXdfNDU3cmFkQ0pnM0NsT0pYVWN3SWkxSUpV?oc=5",
+      "published": "Sun, 11 Oct 2026 10:38:55 GMT",
+      "summary": "Week Ahead: IMF-World Bank Meetings; U.S., China and India Inflation Reports; Lagarde and Warsh Speeches; Fed Beige Book; RBA Minutes; IEA and OPEC Reports; U.S. Bank Results&nbsp;&nbsp;www.christophe-barraud.com",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-10T20:58:08+08:00",
+      "published_beijing": "2026-10-11T18:38:55+08:00",
       "source_detail": {
-        "name": "아시아경제",
-        "url": "https://www.asiae.co.kr"
+        "name": "www.christophe-barraud.com",
+        "url": "https://www.christophe-barraud.com"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -461,12 +677,44 @@
       "relevance": "low"
     },
     {
-      "title": "India's 'Cockroach' leaders detained ahead of major protest - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR3M2VzdySDJnMHFiTDFiM1BSNHRadzczWExXTzU0Q0p1QW1KbHNHTVVZUWE5aGx3NEd0Rk9CbFlIYWI4WVBmNi1Md2xsRzRXeWh4RW5wcVpPMld0S0xqcVNiYlN1NVdoclhUTG96Y3J2OE1nMW9VTTFvNUFrYjl2VUxoM3RBVldZLVp0NEFUN2xtRDJlVDVHUV9GMnAxeXZQZzk0S3NEb2p2VFAwOE9fUHJxbW9OejZPUUszdzVTT004bjNQRzJNSUotYnpJdw?oc=5",
-      "published": "Sat, 10 Oct 2026 11:13:04 GMT",
-      "summary": "India's 'Cockroach' leaders detained ahead of major protest&nbsp;&nbsp;DW.com",
+      "title": "AI's gravity: Why global money is drifting from Dalal Street to North Asia - Mathrubhumi English",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFJsamYwYTFFMVZ5OUtvVzczdGJZMXZjYjYzR0twM3o3amVuSE9WYjJCSE1CVmg5TGgwOEFfZzI4VUt6dTNQeldDMVoyU0ZlbEJKMDVXbUlaelV3VnZkSEM5UU1iLVNMOWxxUkpjT254amw2cnp2UDhKN1F3VGxYZ3NfQkhQVzlPQzlOTmVDUDJzUy1UcGdobU5IZkR0R3Z3amJDRUtXM3pBX0NYdXE0SWFWXzZKeGpzRjlmTUV1NU5JeHM4aU9r0gHHAUFVX3lxTE1oUmxqZjBhMUUxVnk5S29XNzN0YlkxdmNiNjNHS3AzejdqZW5IT1ZiMkJITUJWaDlMaDA4QV9nMjhVS3p1M1B6V0MxWjJTRmVsQkowNVdtSVp6VXdWdmRIQzlRTWItU0w5bHFSSmNPbnhqbDZyenZQOEo3UXdUbFhnc19CSFBXOU9DOU5OZUNQMnNTLVRwZ2htTkhmRHRHdndqYkNFS1czekFfQ1h1cTRJYVZfNkp4anNGOWZNRXU1Tkl4czhpT2s?oc=5",
+      "published": "Sun, 11 Oct 2026 10:13:29 GMT",
+      "summary": "AI's gravity: Why global money is drifting from Dalal Street to North Asia&nbsp;&nbsp;Mathrubhumi English",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T18:13:29+08:00",
+      "source_detail": {
+        "name": "Mathrubhumi English",
+        "url": "https://english.mathrubhumi.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "'Situation Mirrors Open Emergency': CJP Slams Delhi Security Clampdown and Activist Detentions - LatestLY",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZHdZTVR5WTE1SVhsNXpaNkp0SkJjemphVkxSa3RGTzQ3bUNJVVpMNzJSaFRfTkRGWkI1TC1OcFRwTXkzNU0xUWZvYVpHOUJZWHNGcmtEUnduOW9SR2o2NnYzWDI3SDBIS3dmUm5TWXNJcU5EVmRtakREbFBuWHJYdWNFblF5cjJIcFFJTmw0ZDk5VTF2OHJmdlVkaWx3X0N6UnJvS2xMcjhPRWItbDN2WFM5YUFhNkd6Yk9lRDdNUWNJSjRsZ3huLVJqb0RScVBmQ2EwZ2M3QdIB3AFBVV95cUxQdjBReWE1a1BicWNYUjhXVWc0all3NzczOWdBVjVnZFVQVjM4ZmpxT2pmZ0ktYXZ5eklCV3JUb3FlYzJIazVaUUhVSlZPdmJLTXkzWkNmOEZKOGpQSUZtLUpYQzd3QndJd0N1c2NnamZNM3lnQkJucWdfYnZsWkpCTWU5RmQ3TjQ1UE82UUpUUENWTU1CVGloTV80NnctRkVkZkk1WlBKRENkV0VZT1U4SFlzTHFpU1NjUmJwS1FaVERuN09DbHR3eF9ocndJOGpjWHVGN296VW1LZzJi?oc=5",
+      "published": "Sun, 11 Oct 2026 10:01:27 GMT",
+      "summary": "'Situation Mirrors Open Emergency': CJP Slams Delhi Security Clampdown and Activist Detentions&nbsp;&nbsp;LatestLY",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T19:13:04+08:00",
+      "published_beijing": "2026-10-11T18:01:27+08:00",
+      "source_detail": {
+        "name": "LatestLY",
+        "url": "https://www.latestly.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdkRfdzRXSUhtNUZZR3hZU2VHTmsyVVpHRktOdTd5VlFsNnpkSlc2bXBsVlRiT3BnYWltTjdpWFFmTG84X3RhcjZtNmdaRWYtYlVUVVRVSzYzaF9adUF1aE1Zck56c2k5T19wck5aZmRaTDJZamxHNW9IY3JLZGF1NWNzd01BeUJ0WmVUdUQ3SVdUX1FLVnpWVUxlTThab0lKZy1mTnMxZ1BPMV80cVpEdUY1MDBvYUZuOGpUTGtyanVkeTAtdnFJbA?oc=5",
+      "published": "Sun, 11 Oct 2026 09:23:06 GMT",
+      "summary": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi&nbsp;&nbsp;DW.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-11T17:23:06+08:00",
       "source_detail": {
         "name": "DW.com",
         "url": "https://www.dw.com"
@@ -477,12 +725,76 @@
       "relevance": "low"
     },
     {
-      "title": "'You Have Weaponised Street Protests': BJP’s Ravi Shankar Prasad Targets Opposition Over Delhi Demonstratio - News18",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQWVXZXZRTWFZODZDUE93ck5vUXZtUjd2Z3pCWnUyMVZKdTNlMUZMdG5UMThRV2MxUXRrWmNvRnAteXVqa09OOU54R0hfektqRXlwSEZjZnFZT3d6dzhaSEQ4Nm5ycUJpQy1xZ1V5OXJibHlSTS0xcnRFNzFwZHAxdERHeE0tSTA5U042V0tiZnFIa08tclQ3SDN1RG44eHhCaHVwR3BEaVJiak4yZzhZUy13NVpqVjdDNFh5aXNXem96Rk91V2NnVE1vZ0V3LWFhOXV0N2Roa1I4d0ZSdGEzT0VSc0V1TjDSAecBQVVfeXFMUEFlV2V2UU1hWTg2Q1BPd3JOb1F2bVI3dmd6Qlp1MjFWSnUzZTFGTHRuVDE4UVdjMVF0a1pjb0ZwLXl1amtPTjlOeEdIX3pLakV5cEhGY2ZxWU93enc4WkhEODZucnFCaUMtcWdVeTlyYmx5Uk0tMXJ0RTcxcGRwMXRER3hNLUkwOVNONldLYmZxSGtPLXJUN0gzdURuOHh4Qmh1cEdwRGlSYmpOMmc4WVMtdzVaalY3QzRYeWlzV3pvekZPdVdjZ1RNb2dFdy1hYTl1dDdkaGtSOHdGUnRhM09FUnNFdU4w?oc=5",
-      "published": "Sat, 10 Oct 2026 10:58:22 GMT",
-      "summary": "'You Have Weaponised Street Protests': BJP’s Ravi Shankar Prasad Targets Opposition Over Delhi Demonstratio&nbsp;&nbsp;News18",
+      "title": "Choi Tae-won: \"If China and the U.S. Expand Capacity Faster, Our Market Share Will Shrink... We Need to Hurry, Too\" - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QUVNEWFRXb3l6dkxaWG1WUlBCRVdkWFR6dldFdTcwUTFYUE0yN05ickFSYVVaNzFBTXk4RkpUQWstWkRoYjg2Yk9SSlZENFdqcG82NGU3d1gyc0RLbkZZejE1VWE?oc=5",
+      "published": "Sun, 11 Oct 2026 08:30:26 GMT",
+      "summary": "Choi Tae-won: \"If China and the U.S. Expand Capacity Faster, Our Market Share Will Shrink... We Need to Hurry, Too\"&nbsp;&nbsp;아시아경제",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T16:30:26+08:00",
+      "source_detail": {
+        "name": "아시아경제",
+        "url": "https://www.asiae.co.kr"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Samsung Locks Up 80% of Next Year's Memory Capacity in Long-Term Deals; Tech Giants Scramble for the Rest - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1NmpJV0tiNE9lTVI0LW1ab3c4U2Iwc2ZaOUZDYUUzbnd0ckJwaVljRHFVMEpBbUw3aE9fcXV5N1RiWEYxRnV0TXdueWhHdC1rUmZCdDMwbWpPS2tua0dhdmFRMW9yeGY4Y0dYcFpoUXUtNEpZX3c?oc=5",
+      "published": "Sun, 11 Oct 2026 05:35:00 GMT",
+      "summary": "Samsung Locks Up 80% of Next Year's Memory Capacity in Long-Term Deals; Tech Giants Scramble for the Rest&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T13:35:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Humanoid Robot DRAM Demand to Grow 20-Fold by 2030, Opening New Market for Samsung and SK Hynix - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NS0tpcnh3dnlEbno5WF9nNC1SWkZiOVBwSW80bEhQSEpGcmdYSFRtVmZ3NDN1cHZucFVHeFdUUTRhVURhTHpadERaS2FLU25TTUgtTUd0NFE2SmRfNE5VOXB3U3RoSmpoMXRVZlNHTmtvenRlcWc?oc=5",
+      "published": "Sun, 11 Oct 2026 02:25:00 GMT",
+      "summary": "Humanoid Robot DRAM Demand to Grow 20-Fold by 2030, Opening New Market for Samsung and SK Hynix&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-11T10:25:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Spanish lawyer Gonzalez Durantez launches centrist party for November election - WTAQ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd09JM3RtNDVuZUE5VV9fV1IxZUZORGV6dWVvMlMwcklXcXBFRkU3d1Y2T0w0Y1d3QnhDN3IzZUJWSW9oUVVZTHVDd1A3OG5ydmZBcENZaVo2UWpsNW9aRlVvUGpqYXl1Vkowd1FGOVgyNVJhVVFXUGZKYmphM1dQbFdrNlFpWnVRZnhCeG5tNG5nMTc2ZHl0VVZXUkFhN1pKdmRGM0Y2X2FSa1E?oc=5",
+      "published": "Sat, 10 Oct 2026 13:41:46 GMT",
+      "summary": "Spanish lawyer Gonzalez Durantez launches centrist party for November election&nbsp;&nbsp;WTAQ",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T18:58:22+08:00",
+      "published_beijing": "2026-10-10T21:41:46+08:00",
+      "source_detail": {
+        "name": "WTAQ",
+        "url": "https://wtaq.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Political Turmoil in Delhi: Mamata Banerjee and Arvind Kejriwal Detained Amid Protests | News18 - News18",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUGVxNVNsQzJEcUEtS1dLWWJxSzdxd245TVA1NHp4MTRtNXJKd21TWWREbFBBOTF2U3VIdmZlOEl2VmZmM0JPWFI5cmNETXEzY3kwaC1RaDVkTmlCSmdVcVhQY1ZWRnJJZjJjbm1Wa2V1V1NsQWxncE1QaFdSYkJ5QmpBcFJhU0I4QTdEQXIyemlHaHc2NzdaZGpvZW1JM1MyU3RDZnBkaHJxNkphdmpnSjVZTGdHa1Uxc05hSVZKTnlNMHhaSzhEajlpRldHcHVaaEttc1RKRDVZb0pYODVFQWZKT3HSAeoBQVVfeXFMTTA4OTF2VGtPU1E3dGtER0JWaDZpaGllWHZtY3ZKelhmaEdpWXpQRjUzNzlPMFpzaXFFYm5ScnpuN0h5X0NCMHJaVG9vVXNsa0ozMVRPdTZWRVY0S1g0S0tUQ2xCUVo3NU12LXFsSWNYVFZkN3NTXzluTE4xb19WWjItd3BsNG1KNkdQSzZQbHVJbTZ6RjlpRUtXU1dVUVhqT1ZSYWYzM0R0OVVpaDV2MWNDOVJtUDJzT1BMNUdEaDE0Mm9OUEQ0Um5YZnI4RW9MOGJIb21lLTkzcnB2SEVxdi16RE5xZGp2YzRR?oc=5",
+      "published": "Sat, 10 Oct 2026 10:02:00 GMT",
+      "summary": "Political Turmoil in Delhi: Mamata Banerjee and Arvind Kejriwal Detained Amid Protests | News18&nbsp;&nbsp;News18",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-10T18:02:00+08:00",
       "source_detail": {
         "name": "News18",
         "url": "https://www.news18.com"
@@ -493,66 +805,15 @@
       "relevance": "low"
     },
     {
-      "title": "The start of an unprecedented movement in France - International Viewpoint",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcnRNbFVReDZ4eWhJV2poYjJqMGZicXh5Yk5ncEtGbjFDQXVzLTYwZXFMYnFHdnVpY2N6Y2xsQ3VabjNSUGVYMDdpWWRGcEF1WHpSeUp6c05pWEtJdnZ1Tnk1TWpmcU5rNmh6ZXV2VXlnOHMxdDQ5ay1FLThEcmlONWctdXk2Rnp2Y3F3?oc=5",
-      "published": "Sat, 10 Oct 2026 07:34:29 GMT",
-      "summary": "The start of an unprecedented movement in France&nbsp;&nbsp;International Viewpoint",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T15:34:29+08:00",
-      "source_detail": {
-        "name": "International Viewpoint",
-        "url": "https://internationalviewpoint.org"
-      },
-      "priority": 0.0,
-      "signal_keywords": [
-        "unprecedented"
-      ],
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Germany's firewall against the far-right AfD feels the heat - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3hEd2d2NktMOUQ3NVFzTk5DNVMwREdPUGh2TFU4SjNIU3hVN3pfbFRkaUp4MlR6cjZhc25RU2JCeHByek1scWJ0YkJqRmlhUEFNRWUzQUVwV1k3ejZ3TV9GYjZQbFFkbTdONWZ4dVJYWGRJT2JXZnV1a3JMeXBBOVY2RjVmRmZmdWQtaWFYR0dFODAzYnM3Z25PXzRBYndi?oc=5",
-      "published": "Sat, 10 Oct 2026 06:04:00 GMT",
-      "summary": "Germany's firewall against the far-right AfD feels the heat&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T14:04:00+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tensions Rise in National Capital as Protests Against Election Commissioner Escalate | News18 - News18",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQY0VkN0ZDVlRzVzdvd1N0UndTT1hVdVRQRFRMRDhIQm9famV1YkpxSkNIc1RBUXJCVVBvYVFUbjhxNWF0V0xXXy01OXFjY3dfTGd2Wl9ZNXBNQ0w2amUwOUFIYVJWS2puUE1acnRlLUlEanVwSWxPLWs4bnZnNTQ2SHNlYnFFeDVESjlKaFNHdVhZTTU4QXNoUTVmc3c5aVh6SmJnNkRlVkRRaXJIUXl6OGZ3aWprVFFqOHYxU0JXdnQ0dV9mNjJydUdXNFlmXzN0UGMxVXI5aFBJN21Cekd4WEdRMNIB6AFBVV95cUxNWUdvR3NuSDFzUEJpLURVWG90cFlIM2JqS3BLUW9TZTlueVAtZ0VSTDVSS2dmZXQtb0pSSVBIUjcwZnVzR3liS3hDdXliM1VvRFJzUkdDY3hHdWYxSDFydDZtQ291Ukt6czlySHM5SG5ja09vU2NxWDc1bzVGQ3pHZ1JNTXpSSDRnX1B2LUx2TGhoaTBUWWtCWkNJc01PWHR6Tno5OEhtNHdxaEkzbVQ2Wngwb3ZLcTU1WGVveU53Tjd5dV9jVlc4eGFFM1kxSC11NE5oM3BJcF9HMWhaaG5aWV84MkpIdzhB?oc=5",
-      "published": "Sat, 10 Oct 2026 06:00:00 GMT",
-      "summary": "Tensions Rise in National Capital as Protests Against Election Commissioner Escalate | News18&nbsp;&nbsp;News18",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T14:00:00+08:00",
-      "source_detail": {
-        "name": "News18",
-        "url": "https://www.news18.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Taiwan's Lai says the island will not give up its freedom in National Day speech - Click2Houston",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZEpHWGliQ3JrU3J4aGxLZTV5SVRFMlhUbjl2a3p2UVE2NmNYMmNqRTU1RmdGOVM5cVBYc2RYSG5UVnpqNnRyOXNvMkx3eVFYSmNmekc0NUtGWkdvTmx5d2RqSWJuRlpBRXpMMTdNMEF0ZFdvMzRTVjI3WkJicG95U1B0WV9TNjJDV192NF9XOVVRS1Q4MWh4MVl2c3hUbnYyRk1hNG9Ma3JIZ2Fmdm1RRU9weVlYRTFCLU5OM2M3XzZUaGc5cGdtNVBtdHhtc0JVUFJFclhFQWhPYnhD?oc=5",
-      "published": "Sat, 10 Oct 2026 05:24:08 GMT",
-      "summary": "Taiwan's Lai says the island will not give up its freedom in National Day speech&nbsp;&nbsp;Click2Houston",
+      "title": "Taiwan to 'closely monitor' China live-fire drills - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNE5QNjRrVHVqV1Q5RmZnT3k0YjRSa3drUmJIcFpTN3VNd1FmdEZ1Q0Y3cUpRU1NuRDBUTmszQkFKS01YQ0d4SDNtLXNaSnFRQmpQYWZ4dm1jQWplQzlSSXJwT0JFaFVzVDF2S1VlVk03UjFWQndJQTQwM0hLd1A0a3pZWHRDZ0t4dHR4MjJ3OXF5RUJtcmtsbDBqRmtkOThqQ2fSAaIBQVVfeXFMTzROUDY0a1R1aldUOUZmZ095NGI0Umt3a1JiSHBaUzd1TXdRZnRGdUNGN3FKUVNTbkQwVE5rM0JBSktNWENHeEgzbS1zWkpxUUJqUGFmeHZtY0FqZUM5UklycE9CRWhVc1QxdktVZVZNN1IxVkJ3SUE0MDNIS3dQNGt6WVh0Q2dLeHR0eDIydzlxeUVCbXJrbGwwakZrZDk4akNn?oc=5",
+      "published": "Mon, 12 Oct 2026 04:11:27 GMT",
+      "summary": "Taiwan to 'closely monitor' China live-fire drills&nbsp;&nbsp;NST Online",
       "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-10-10T13:24:08+08:00",
+      "published_beijing": "2026-10-12T12:11:27+08:00",
       "source_detail": {
-        "name": "Click2Houston",
-        "url": "https://www.click2houston.com"
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -560,15 +821,15 @@
       "relevance": "low"
     },
     {
-      "title": "Global Regime-Change Operations: The Science of Power, Covert Action and U.S. Intervention from the Second World War to 2026 – Who Next? - IBG News",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdWJqOC1VaFB1eS1hUmdGWjcyZkQ3b2lkSEd5MHI2U0lQbWhqQ1BZMTFoSFBrNGpERUh6eDlkbTllYVVIYUFVNEpqVUhPaldFSEsxc1d3STVMOFJGbDJ0azBVWjdUS0hlbkZveUswOXR1WGdGempjVzlGZHRDMHlKVDBTTHQwOGQzaGdoX1ZQZVRuWWpsdWNUcG5fVTQyWUZocDh1OXBVM2hOYlRSNWpFSkJkWTdmRWxaak5vcTItWVBjQTNuUHhlU2pfLXpmNi13cllwZGh5VmthRlpsbEo2d2pPdVJDeVJjWlo4VGpLaGt2eGln?oc=5",
-      "published": "Sat, 10 Oct 2026 05:03:32 GMT",
-      "summary": "Global Regime-Change Operations: The Science of Power, Covert Action and U.S. Intervention from the Second World War to 2026 – Who Next?&nbsp;&nbsp;IBG News",
+      "title": "‘Sheer stupidity’: Harish Salve on Oppn’s protest march, says SC being used as political tool (IANS Interview) - IANS LIVE",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbUlZS2JJNGxOZmZ4WHh6TkpNdlJLTmZGdzZyOE96MzNPSmNYTzk2UHRiWGYwU3c2cDl4b2hXM1JRNnRxUldEcGhmWWV3V0I1ZEVmSFBGNDRVWUlvS3Zmd1dpN1d3SXpydlAtb2Z0ZjNNNG4yX1ZrUlE3Uy1kX1Y4Ml9LaDNXREZqQU9oSmRHN1VlblRQb2tTYmpqb2JRQWdTVG9VMk5XVFdQcGVpeDZGUXo2Mk1CQndkZF91NmZoVXNGSEhZV29UQWxXOG83MnFrRWc?oc=5",
+      "published": "Mon, 12 Oct 2026 03:45:00 GMT",
+      "summary": "‘Sheer stupidity’: Harish Salve on Oppn’s protest march, says SC being used as political tool (IANS Interview)&nbsp;&nbsp;IANS LIVE",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T13:03:32+08:00",
+      "published_beijing": "2026-10-12T11:45:00+08:00",
       "source_detail": {
-        "name": "IBG News",
-        "url": "https://ibgnews.com"
+        "name": "IANS LIVE",
+        "url": "https://ianslive.in"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -576,98 +837,66 @@
       "relevance": "low"
     },
     {
-      "title": "DSA intervenes to smother opposition as pro-Palestinian protesters denounce “traitor Mamdani” - World Socialist Web Site",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JRm9kbzduWDJkTzJSSEYzME5kZGphckIxaTc4c1BMdm9qZ3RSSWxZWmMxZjFxMHBRbVlTNHpCNWpwRFRvcVJYcEszR3A4Q01xRnBJWFlDQjdzcnZoVlRJelpweW1jUzBa?oc=5",
-      "published": "Sat, 10 Oct 2026 05:01:01 GMT",
-      "summary": "DSA intervenes to smother opposition as pro-Palestinian protesters denounce “traitor Mamdani”&nbsp;&nbsp;World Socialist Web Site",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T13:01:01+08:00",
+      "title": "SK Hynix Drops 3.1% as Foreign Funds Retreat and Solidigm Financing Talk Swirls - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSWk1Qy1QUXh5OEp0OHV4NFRxVGNpLWE4d0k1WUMtcS1Pc3l0SUhiMGxWeHZJLURqZlVVZnRZekhFQjZVQU9rcmxUNFp6cGdfTDY1a002Q2dwNFh3eDRRVVNPajJldGZMa0JseU1wUWNuTElyeEJObElFNHhMcFg3dG9Ld3VlOVItZEFJWThaUV9DOG9LanVBMk5jR1l3N1hDZ0ZGYnl3ZWM2TXBTZkZ2dWw5T1V1cjBhZFVWcUJsQ0NsaFlEWnZKWmp1YW9fMFpVMWc?oc=5",
+      "published": "Mon, 12 Oct 2026 03:31:20 GMT",
+      "summary": "SK Hynix Drops 3.1% as Foreign Funds Retreat and Solidigm Financing Talk Swirls&nbsp;&nbsp;ad-hoc-news.de",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T11:31:20+08:00",
       "source_detail": {
-        "name": "World Socialist Web Site",
-        "url": "https://www.wsws.org"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
       },
       "priority": 0.0,
-      "category": "政治+社会",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Indian police crack down on 'Cockroach' protest in Delhi - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTW52eVBZeGpGT1lGNU9uSUJRa0VnRDdnaGtMMkdPcFJHcExMc29hUVNWM2FRNGxFSGtEdGx4eEIyZ3pGMHc0U0Rxc2xHUFUxLU1YY1FIcEYtR3F4c25waVg5MHdXbTFEWFVEREloR2N3TWhRVENRTjhqdTJjSlJpb0d5ZjVSUlFzX0ZmS1NRU0RTVWtmV2pVc0VKTFNaR2o2bjAtaXFITXpWdFZ2WXJjUnMzWkZIZw?oc=5",
-      "published": "Sat, 10 Oct 2026 04:28:14 GMT",
-      "summary": "Indian police crack down on 'Cockroach' protest in Delhi&nbsp;&nbsp;DW.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-10T12:28:14+08:00",
+      "title": "Memory Prices Set to Rise Again in Q4 as Samsung and SK Hynix Race to Expand Capacity - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hTkVNS0k0ZVd0Q2xLZ2tKQWZjVFN6TlludUhKei1ON0s0QUcxRmNjNktia0pkSXFOWFJwNm94ekJuVVBnR0RZU281T3ZDWnNzYWJhUXlIMm55MUV4TmtXWWt1ZjI3dVhyVG1VbUlVTkw3aGZycEE?oc=5",
+      "published": "Mon, 12 Oct 2026 02:55:00 GMT",
+      "summary": "Memory Prices Set to Rise Again in Q4 as Samsung and SK Hynix Race to Expand Capacity&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T10:55:00+08:00",
       "source_detail": {
-        "name": "DW.com",
-        "url": "https://www.dw.com"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
-      "category": "政治+社会",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "10 countries with the highest life expectancy today - qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFWnVrT0ltNnBCbmt4U3diNXIxZEhXUlBZbWVPaG9KVDQwTjBsUjlLOFB6cFVjdTUwM05FY19JR1lOajN2Vkc1TFJ1VS1Ta09ZMHNuQWotNWU1YThi?oc=5",
-      "published": "Fri, 09 Oct 2026 16:49:25 GMT",
-      "summary": "10 countries with the highest life expectancy today&nbsp;&nbsp;qz.com",
-      "source": "GNews | JK Demo",
-      "published_beijing": "2026-10-10T00:49:25+08:00",
+      "title": "Lee Jae Myung's Diplomacy: Penalty Kick Without Goalkeeper? - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZk1CUGdtQUdPemJ1TkN1akthbW9vVmlpT3pRSkZKc2lqNW5yV3U0OFdhNFVGTTlxakg4Z193RUlpU0hRWGlWSVEzOWl5ZkVvVklUbWptSjZaWDlCUWpMSUMyUFlFT2FWR2pfX1hqMEpfcnhidGdIZ0lJZGFpWnItWnRLQ1ZoQ0E?oc=5",
+      "published": "Mon, 12 Oct 2026 02:50:13 GMT",
+      "summary": "Lee Jae Myung's Diplomacy: Penalty Kick Without Goalkeeper?&nbsp;&nbsp;조선일보",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-12T10:50:13+08:00",
       "source_detail": {
-        "name": "qz.com",
-        "url": "https://qz.com"
+        "name": "조선일보",
+        "url": "https://www.chosun.com"
       },
       "priority": 0.0,
-      "category": "气候+人口",
+      "category": "朝鲜半岛",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Bogota Hosts New Edition of the Leisure and Fantasy Fair - teleSUR English",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVWI4UGJqQ1FCLWFDdF9jWDJscGxxVUstMWJLSWlIbEtoVGQzTG1ud1ktVFJ3SkNTc3ZFWkJVTEtxT1B5bzlvQUNnQUY1RDVSZy12LWUzS1VWWkxZLWZPT0hPN0dxWG9zU1FFdWQxTzc1M3ZzY2VlcHQyUFh5YlZobXZ3d1J0WXczSUVPLVR2b2VpUQ?oc=5",
-      "published": "Fri, 09 Oct 2026 14:49:42 GMT",
-      "summary": "Bogota Hosts New Edition of the Leisure and Fantasy Fair&nbsp;&nbsp;teleSUR English",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-09T22:49:42+08:00",
+      "title": "KOSPI Slides Toward 6,500 as Foreign Selling Intensifies; Samsung, SK Hynix Tumble - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LLUpkd2hHV3NWX280R2I4Z2FZTnNzQWRpdTZONzZPREVwWnc5UE1sY25Ic3V3TXBoaF8yNk1YQ0xWTEhValI3dUV0NndoU1dtcXdiRHRKTExQc2JMcXhBLTltTGRTNFVvYVJCeTIxck1tQUVIWXc?oc=5",
+      "published": "Mon, 12 Oct 2026 01:35:00 GMT",
+      "summary": "KOSPI Slides Toward 6,500 as Foreign Selling Intensifies; Samsung, SK Hynix Tumble&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-12T09:35:00+08:00",
       "source_detail": {
-        "name": "teleSUR English",
-        "url": "https://www.telesurenglish.net"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "‘What happens in Paris doesn’t stay in Paris!’ Wall Street fears ‘France is veering toward a full-blown civil crisis’ - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYlV1TjczV2ZZT2dPaDJGMmhzUVFRWkdsWk5HenM0NmZySUV1aFVGM2ZEZmtPSlROOXByLWxUQUVQaklWekxuR0pPYVRXcUFhZkhhWGZnLXBUSlUtSkR0V2Rsck9MZlQtRU9QU1V2ekgxU2tyeF8xZ3F0bWhvSjN1SEFnb2YySzJrbnk4XzJLZjhTeVBfTlhIY0gxSmNLX20wNFY2TEtpR21xdWRtYjByQkVhdTNHamNBVjhjOUFxeVd3YXpvYTJqd3U0bFAtOFp5aWdGVnYya3FPM25jVURBWVJYX2lMeHlfOU1SeA?oc=5",
-      "published": "Fri, 09 Oct 2026 10:02:00 GMT",
-      "summary": "‘What happens in Paris doesn’t stay in Paris!’ Wall Street fears ‘France is veering toward a full-blown civil crisis’&nbsp;&nbsp;Fortune",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-09T18:02:00+08:00",
-      "source_detail": {
-        "name": "Fortune",
-        "url": "https://fortune.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why India's tens of millions of voter deletions have led to widespread protests - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWldiLVRFbjdWTWYwMmxkakpIcUh6TzJWVTA4MTVnZXJIZzZNdGhIYjNfdHdQdWNGSzBBNFJ1cTl2OEEyN1pNOFFVWVBXM3Y5M0J4WVpSbUZWRV9ZZGVzNjhwVjYtY3ZsRXduN0RILWJ6emNKZ1ExVGs2OUxVZVBTaUVFRy1tZEhTc3FRMmR3OFE5VVRtVlhqZm5BbzB6YzhuaG9EZDVHQVVMcFRpMkx4NWoyYzl6VHRrX093?oc=5",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "summary": "Why India's tens of millions of voter deletions have led to widespread protests&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-09T15:00:00+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     }

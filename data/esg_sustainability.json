@@ -1,29 +1,29 @@
 {
   "version": "4.0",
   "module": "ESG与可持续发展",
-  "updated": "2026-10-11T04:33:53.386517+00:00",
-  "fetch_date_utc": "2026-10-11",
-  "total": 176,
+  "updated": "2026-10-12T04:49:13.052378+00:00",
+  "fetch_date_utc": "2026-10-12",
+  "total": 131,
   "high_priority": 1,
-  "medium_priority": 16,
+  "medium_priority": 12,
   "signal_alerts": {
-    "unprecedented": 1
+    "unprecedented": 2
   },
   "stats_by_category": {
     "ESG法规": {
-      "count": 10,
+      "count": 2,
       "feeds": 4
     },
     "碳+绿": {
-      "count": 28,
+      "count": 12,
       "feeds": 4
     },
     "可持续供应链": {
-      "count": 23,
+      "count": 6,
       "feeds": 5
     },
     "气候风险": {
-      "count": 16,
+      "count": 11,
       "feeds": 4
     },
     "本地语言搜索": {
@@ -35,7 +35,7 @@
       "feeds": 1
     },
     "信号性查询": {
-      "count": 1,
+      "count": 0,
       "feeds": 3
     },
     "专题精选": {
@@ -51,67 +51,37 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 5,
+  "fail_feeds": 13,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Mysterious 10-minute X-ray burst from a distant galaxy may have come from 2 dead stars colliding - Space",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWTYxbG5HT2o0VUdqbWhnd2k0R3VtZnZKb0syTVpydkFVeUZWWmZuUzhNMTduMHhGczZzTk1ZUU5Pc3JRNHVhNllvUnBqbGxydHVTdXcyNEF5MmtRLWpfVHZlMnZmcHFqRkRyS2N4ME9JUTFkSmdmdnhVMmE1RTNfc19zX0N3TFRHeWxTNUpReF8xZ2NtRHFzS3RTY0szeTJGZGEybmNKZy15LWlhbGt3eHE2X0ZOaFFUeDJycFZZX1dNS2NUTHd2SjMtWnJQX2M?oc=5",
-      "published": "Fri, 09 Oct 2026 22:00:00 GMT",
-      "summary": "Mysterious 10-minute X-ray burst from a distant galaxy may have come from 2 dead stars colliding&nbsp;&nbsp;SpaceHidden X-ray phase revealed in likely neutron star merger&nbsp;&nbsp;Phys.orgLongest-lasting X-ray flash that took 6 billion years to reach Earth, may have be a result of neutron star&nbsp;&nbsp;The Economic TimesEinstein Probe records 10 minutes of soft X-ray emission — ScienceDaily&nbsp;&nbsp;UA.NEWSEinstein Probe reveals a hidden phase of neutron star collisions&nbsp;&nbsp;ScienceD...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T06:00:00+08:00",
+      "title": "Moldova expands green loans as taxonomy curbs greenwashing - Moldova 1",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWVpLNE1zcnRXdFNLV2gzYWc1VEZ1RndPblVOWHg4R2lzQmFvdTRTcnRrSDJ1TzZhT2xvZlFUeG9DdFQ3bGVKcUtWaE5iY2hUVlN1TERPbWtrVFBQeF8yb2ZRbS0zQVpQQ2xTNlVyOGZ2VDd0V1NJTDN0M2dra1cwZ2s4dzhya3IzTEYyXzVRNA?oc=5",
+      "published": "Sat, 10 Oct 2026 10:37:10 GMT",
+      "summary": "Moldova expands green loans as taxonomy curbs greenwashing&nbsp;&nbsp;Moldova 1",
+      "source": "GNews | EU Taxonomy",
+      "published_beijing": "2026-10-10T18:37:10+08:00",
       "source_detail": {
-        "name": "Space",
-        "url": "https://www.space.com"
+        "name": "Moldova 1",
+        "url": "https://moldova1.md"
       },
-      "priority": 2.4,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "PA Interfaith Power & Light, PA Environmental Council Host Oct. 21 Webinar On Green Stormwater Infrastructure - PA Environment Digest Blog",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYU1JQmNEWFZKMjR1Sm1WQlZoUWNRMk0yLWl2S1FjS1YtMnZDekk0cGRVdmxyRUxKT3RiVEdVTm5mbnh2cy1ZNUw3dGIzTnNLbnNRb1BvSmJ4eUpUUkx2M2k4Qk9McTNFaFhSSE55TGE0Rk1PQUVZR3lxTEk3cGRmQ0d3ak5HbTA?oc=5",
-      "published": "Sat, 10 Oct 2026 10:12:15 GMT",
-      "summary": "PA Interfaith Power & Light, PA Environmental Council Host Oct. 21 Webinar On Green Stormwater Infrastructure&nbsp;&nbsp;PA Environment Digest Blog",
-      "source": "GNews | PFAS/Chemical",
-      "published_beijing": "2026-10-10T18:12:15+08:00",
-      "source_detail": {
-        "name": "PA Environment Digest Blog",
-        "url": "http://paenvironmentdaily.blogspot.com"
-      },
-      "priority": 1.2,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EY: ESG Reporting and Risk Management for Businesses - The Chenab Times",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUFBUZnNoV3NTTGFhQnlCenI2NjhkSDQza3VVQWlVbG9SMml1Vl94ay1IRVFlVlRlY2tYaW1qT3VGcEt1LWN6dVZXc0doSFRpbkNwdmtsVUdaMl9NNTAyOTJLVDVVTlVHLWtYRURadERwN1hqWnpCNXVma2YtdmdoNzUwVm9sQVJnbjRNZVMwV0tDVnRwd1E1cjJVMnZGYTYtX3MxdGxWMEtxcUFjNUpkRVRZSG55cVI3S29F0gG7AUFVX3lxTFBQUFRmc2hXc1NMYWFCeUJ6cjY2OGRINDNrdVVBaVVsb1IyaXVWX3hrLUhFUWVWVGVja1hpbWpPdUZwS3UtY3p1VldzR2hIVGluQ3B2a2xVR1oyX001MDI5MktUNVVOVUcta1hFRFp0RHA3WGpaekI1dWZrZi12Z2g3NTBWb2xBUmduNE1lUzBXS0NWdHB3UTVyMlUydkZhNi1fczF0bFYwS3FxQWM1SmRFVFlIbnlxUjdLb0U?oc=5",
-      "published": "Sat, 10 Oct 2026 07:43:56 GMT",
-      "summary": "EY: ESG Reporting and Risk Management for Businesses&nbsp;&nbsp;The Chenab Times",
-      "source": "GNews | SEC Climate Rule",
-      "published_beijing": "2026-10-10T15:43:56+08:00",
-      "source_detail": {
-        "name": "The Chenab Times",
-        "url": "https://thechenabtimes.com"
-      },
-      "priority": 1.2,
+      "priority": 7.2,
       "category": "ESG法规",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://moldova1.md/p/87308/moldova-expands-green-loans-as-taxonomy-curbs-greenwashing",
+      "full_text": "Moldovan businesses are gaining broader access to green loans for energy-efficient investments, though the national green bond market remains practically non-existent, former environment minister Iuliana Cantaragiu said.\nCommercial banks have begun rolling out dedicated credit facilities designed to finance sustainable upgrades, such as solar photovoltaic installations and low-consumption industrial equipment. However, accessing these funds requires applicants to meet specific criteria proving measurable ecological impact.\n“It is still in its infancy,” Cantaragiu explained on public broadcaster Moldova 1. “While loan options are expanding, commercial enterprises must possess the technical capacity to prove and substantiate that their investment qualifies as genuinely green.”\nTaxonomy tackles greenwashing risks\nBy contrast, the domestic debt market has yet to develop green bonds, an instrument through which companies borrow directly from institutional and private investors to finance environmental initiatives.\n“When it comes to green bonds, we are completely novice—they simply do not exist,” the former minister noted. “Our capital market as a whole remains at an early developmental stage.”\nTo eliminate ambiguity, the Moldovan government approved a national Sustainable Finance Taxonomy in April 2026. The classification framework establishes clear benchmarks to determine whether corporate projects genuinely support decarbonisation.\n“The taxonomy essentially functions as a standardized glossary for project evaluation,” Cantaragiu said. “It enables banks to confirm genuine environmental impact and effectively prevents greenwashing.”\nTranslation by Iurie Tataru\nRELATED COVERAGE"
     },
     {
-      "title": "Epsilon Carbon Reports Ninety-eight Percent Reduction in Scope 2 Emissions - Chemical Industry Digest",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0ZmenBJZzVha1BBMlJBSUNYbWhOc201Tm9RdDZhajhCWi1zbmJPOWF3WFlpRVlVeTJCYkkxd3FyY2Z1NW8wVlBQRzBIbV95R2hSZ3A1eGJZM3owVXppYTZVV1NXLUd0dV9adVZJNDhhUG40MXhGbXZrSW5YblFpb3VzS1U0ajN6WktjZWxCS040RVFqYWNqUVpDVFd0clFEZkE?oc=5",
-      "published": "Sat, 10 Oct 2026 05:13:17 GMT",
-      "summary": "Epsilon Carbon Reports Ninety-eight Percent Reduction in Scope 2 Emissions&nbsp;&nbsp;Chemical Industry Digest",
+      "title": "Sustainability Impact October – What you need to know - Westpac IQ",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHZCcUpRTlBtbTNRWG0yNGRBSHliUGhVeWktMzJIN1l6aFlyODFpN3RyaVQ5bEY2SVY3Y092WWUzVFJmTm15OGxaY0ItN3kzdVFNdHNLaWN3VW9oaXhqZ0M1cXN1eGpEQWpKY2xXQU9SN0RUZ0JXOUJNQkRvUDhtNlFKdW5oYXJDaElmcG5XUHhPZ2otUDdKYXBVallVRlpWZndSUHVJSEcwRkFxREdISlNlcm5EdjJxWFhFeFVn?oc=5",
+      "published": "Sun, 11 Oct 2026 23:57:49 GMT",
+      "summary": "Sustainability Impact October – What you need to know&nbsp;&nbsp;Westpac IQ",
       "source": "GNews | Scope 3",
-      "published_beijing": "2026-10-10T13:13:17+08:00",
+      "published_beijing": "2026-10-12T07:57:49+08:00",
       "source_detail": {
-        "name": "Chemical Industry Digest",
-        "url": "https://chemindigest.com"
+        "name": "Westpac IQ",
+        "url": "https://www.westpaciq.com.au"
       },
       "priority": 1.2,
       "category": "可持续供应链",
@@ -119,156 +89,364 @@
       "relevance": "low"
     },
     {
-      "title": "Turkey's Green Taxonomy paradox ahead of COP31: ‘Nuclear energy and fossil gas are unacceptable’ - Bianet",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc0xPWUJtejdlNHc5aTM0dDM3TjU1emJBQWZLR3ZHeDZuaEl0bkdlUl9iUFFDXzJiVnBsd2FZbWFaRUw3bTRGcEZrenVrTmZKUjljb29TTi10UEpOX2VxaDg1NGl6dnh3d1dwN09JZGlYNUxGR2pHdGZTNTdKSktBSWdWOG9UUlJETjhxald2bGIzSkM0TW1RY3I4c1Z2TEZnZGgxNEh0czlrdk1kZ0dObERHaDEtUmNyYmdibWVoXzZObGs?oc=5",
-      "published": "Sat, 10 Oct 2026 03:00:00 GMT",
-      "summary": "Turkey's Green Taxonomy paradox ahead of COP31: ‘Nuclear energy and fossil gas are unacceptable’&nbsp;&nbsp;Bianet",
-      "source": "GNews | EU Taxonomy",
-      "published_beijing": "2026-10-10T11:00:00+08:00",
-      "source_detail": {
-        "name": "Bianet",
-        "url": "https://bianet.org"
-      },
-      "priority": 1.2,
-      "category": "ESG法规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Green finance gains ground in Moldova despite nascent bond market - Radio Moldova",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSi1vejlndHZHd0ppWHl0R2ZzVTB4a180d0lKYW5KMUZ3ZS1sSVRNQUNEQWoxRmNxcm5iU01TRktQRUFVSFhOM09hYXdsazJ1VFV5cGNVVlpYUEpLOXJDOVVOZU5rcDVpeTByb0ZTQWc4NHN6czdCZFctWFhyY1dSY2pSRVM4VzB2azU0eGZ0a0tDdnpteUpkUVMxSXQ0UQ?oc=5",
-      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "summary": "Green finance gains ground in Moldova despite nascent bond market&nbsp;&nbsp;Radio Moldova",
-      "source": "GNews | EU Taxonomy",
-      "published_beijing": "2026-10-09T15:00:00+08:00",
-      "source_detail": {
-        "name": "Radio Moldova",
-        "url": "https://radiomoldova.md"
-      },
-      "priority": 1.2,
-      "category": "ESG法规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Draconid meteor shower 2026: peak time and viewing guide - The Weather Channel",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNTBKS1BybkRlazk1cUhrNGZGcGZoN3hkc0J6RHpHMWdxX2ZOcEJaZVBMREJmZHZVR3I3VTFRTThPZnN3QS11TUpndlBkSndfRFFBVk4za3JTdUwxZ1UyeFNlaWZWTVdtS2F6WE9QNHU0aWxJZnVZOUdHb1ZDM3BBRkVxU1g5VlpqaFhWdUU2Wk56V245NXc?oc=5",
-      "published": "Wed, 07 Oct 2026 10:00:00 GMT",
-      "summary": "Draconid meteor shower 2026: peak time and viewing guide&nbsp;&nbsp;The Weather ChannelHow to see the meteor shower that won’t keep you up all night&nbsp;&nbsp;CNNThe Draconids, an unpredictable shower that can bring hundreds of meteors per minute, has begun&nbsp;&nbsp;Live ScienceDraconid meteor shower lighting up skies over Northeast Ohio: How to watch&nbsp;&nbsp;FOX 8 NewsMeteor shower peaks over Wichita tonight with ‘near perfect’ viewing conditions&nbsp;&nbsp;Wichita Eagle",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-07T18:00:00+08:00",
-      "source_detail": {
-        "name": "The Weather Channel",
-        "url": "https://weather.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Nobel Prize in physics awarded to Francis Halzen for his work detecting ‘ghostly’ cosmic particles - CNN",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmJ4UjEyZ20xR1RxU2E3QlZZUnNiSDh4MUszeEY5XzJDdW9yNzY5bG50LW55Q0M1RVFhQ01lSlpnRl9jVUsxejg0bU5iaXBJYWZGckVlYTRiN2xrZzR6eDliQ24wUktsbjdzc3FhWmNHa0hEZElLWUZqS29seHoxcXNxdEw4N25FVVdTb0FR?oc=5",
-      "published": "Tue, 06 Oct 2026 09:54:18 GMT",
-      "summary": "Nobel Prize in physics awarded to Francis Halzen for his work detecting ‘ghostly’ cosmic particles&nbsp;&nbsp;CNNPress release: Nobel Prize in Physics 2026 - NobelPrize.org&nbsp;&nbsp;NobelPrize.orgThis year’s Nobel science prizes are real-life sci-fi&nbsp;&nbsp;The EconomistFrancis Halzen wins Nobel physics prize for Antarctic 'ghost particle' hunt&nbsp;&nbsp;Reuters'Ghost particles' from space telescope wins physics Nobel&nbsp;&nbsp;BBC",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-06T17:54:18+08:00",
-      "source_detail": {
-        "name": "CNN",
-        "url": "https://www.cnn.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A dead Soviet satellite just broke apart in orbit (again). Experts say it's part of 'a worrying trend' - Yahoo Tech",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb1RTR0hvdVJJS1F3bnN0UzMxOTR3VGZOWWU5UlNjQnNNZV8xWU1BR2VDME51blU3NHluaEQ1cElRQWRhQS1OVFZTV0xWMEdsTWhaOTFXQWFaQXNtU3RfMVVPSUdGeDlGYlhCWHlLM0tHeWI2czh4Uk1nRl92WHV4U0ppbkM4UUhTX3RSc2NvSno?oc=5",
-      "published": "Thu, 08 Oct 2026 22:00:00 GMT",
-      "summary": "A dead Soviet satellite just broke apart in orbit (again). Experts say it's part of 'a worrying trend'&nbsp;&nbsp;Yahoo TechSee more headlines & perspectives on Google News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T06:00:00+08:00",
-      "source_detail": {
-        "name": "Yahoo Tech",
-        "url": "https://tech.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Four astronauts return to Earth after eight months in space - AP News",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc0NNRHBfNzFJZEM1Vk1aLWt1ZWFWNzk3ZHRGWk91cDI4T09CTUplMmp6Z1VlcndsTnZUUjBGNThSQkk1MjZ1eUpsdTY0RmZYdGQ1Qi1XbzdiLVMxN3FBblFEX3hNZFhTSmctSVY4Z0ZwUm9lZEtVQ3JjdklNZGdTUWE3LUZ6VzR3RjBiQW1B?oc=5",
-      "published": "Thu, 08 Oct 2026 21:02:00 GMT",
-      "summary": "Four astronauts return to Earth after eight months in space&nbsp;&nbsp;AP NewsSpaceX crew capsule splashes down off Los Angeles&nbsp;&nbsp;NBC Los Angeles4 people on NASA's Crew-12 mission return to Earth after 8 months in space&nbsp;&nbsp;NPRNASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission&nbsp;&nbsp;NASA (.gov)Four astronauts return to Earth from ISS after medical relief mission&nbsp;&nbsp;The Guardian",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T05:02:00+08:00",
-      "source_detail": {
-        "name": "AP News",
-        "url": "https://apnews.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Whoops! Scientists Might Have Had the Origin of Animals All Wrong. - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVElRbTBEQTVNWm9zV0xzbWFtRW83UGRZZWtOWnlpNnlZbVVHa0JpQ1A4bzZvVHc2ZGItX256VkRFN29HRHhjRGxObjRPRGJ5bnl4TldQZDRESXVVdnA5NGpHckJ4NnVMWjluRktRb180X0t6SWRCNnIyM0o4UTJCYW5JQlVOU0hhYzJSOFR1SWo2dHRhR0FDTA?oc=5",
-      "published": "Thu, 08 Oct 2026 12:00:00 GMT",
-      "summary": "Whoops! Scientists Might Have Had the Origin of Animals All Wrong.&nbsp;&nbsp;YahooSee more headlines & perspectives on Google News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-08T20:00:00+08:00",
-      "source_detail": {
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Scientists may have found a clue to why octopuses are so smart - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNXFmODFIRUFGdzk4LVFPWHNlc01iM05NUWtteEJucExqWXRQN0dDQTlrZ1pBbTdocHMzRTExLUN0aXJnQXRURXJaUkxjemtJTXhFX1hyNi1HLU9TX1hTbUV3ZEdWdEh3X3VXVW84bTdSbnkzVXZ3R3BxcjhOUkRYUjFuQUZmMlZMMUMyV1VKeXZVQQ?oc=5",
-      "published": "Sat, 10 Oct 2026 20:05:48 GMT",
-      "summary": "Scientists may have found a clue to why octopuses are so smart&nbsp;&nbsp;YahooWorld Octopus Day: new discoveries about the world’s smartest invertebrates&nbsp;&nbsp;Mongabay NewsEight Arms, Two Questions: Jerry's Octopus Pop Quiz Is Here to Test Your Smarts&nbsp;&nbsp;NBC Palm SpringsSCIplanet - Octopus Intelligence: Multi-Armed, Multi-Brained&nbsp;&nbsp;Bibliotheca AlexandrinaWhy Octopuses are Among Earth’s Most Remarkable Animals and Deserve Our Respect&nbsp;&nbsp;A-Z Animals",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-11T04:05:48+08:00",
-      "source_detail": {
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Northern lights may be visible across US this weekend - USA Today",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNHlxaUR0Rmlrb0hHYjlfQl8zcjc4UzNiX0dZalotM0s0dXZQUTNBbWZPYkpsYmtPd0hUcTRUNWx6N0kxbjEtbWdpRk5oTHpKeGtEMGtyUzZtTndyZmNfY1hLTGg0R0htZ1J5eGdRTjJGWlB1bVlPZW5tN2N5a1dBWDNpTno1T2FrelY5WWRKVS10aWlfSnI1RWF4X19jVDJYWGFYakxuaW04MXZtMHlZUzltdlhOUUpiNm84Tjd0WGdaRVU?oc=5",
-      "published": "Sat, 10 Oct 2026 17:59:00 GMT",
-      "summary": "Northern lights may be visible across US this weekend&nbsp;&nbsp;USA TodayNorthern Lights stun UK down to England's south coast&nbsp;&nbsp;BBCModerate (G2) Geomagnetic Storms Likely on 11 Oct 2026&nbsp;&nbsp;NOAA Space Weather Prediction Center (.gov)Skies across the UK illuminated by the northern lights&nbsp;&nbsp;The GuardianStrong Northern Lights possible tonight as Geomagnetic Storm strength increases&nbsp;&nbsp;MLive.com",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-11T01:59:00+08:00",
-      "source_detail": {
-        "name": "USA Today",
-        "url": "https://www.usatoday.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Argentina is one of the few countries in the region that does not require brands to take responsibility for post-consumer packaging recovery - Noticias Ambientales",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdUJ2UklBN1ZkODBfMzRfZXUyVEVjNjY0Sk83RVJpRDdGU3dRbDlKbV9SME5VbWJHOWgwTjRSdDN5QXZ2clNqWm1yTVhNRmpIbmNtUG1SS1ZLT3RUNUMxVkp3Ynl4WWRzX2RSQzhZYzk3V3FoMnBGekUzOVdrTk43bkZNTHJxN2ZKRjRST3BvS3lHQU1WZVp1cEZmVy1XR0w0b2E0WEZCWEUzNDFONmtFeG1oUHdTeFctSV9ZTy02Y3hNX1NXanFzaUZqTnQ3QWc3Yjhhd3UteDgzaF9WaFZfRmdtWUJ1WE1lWXdkVFBMX0lWMS1Yenp6bk1pWjVxTFJqWHdvX1lyU21DdXl4Zlk1ZmQ1N0Zzckk?oc=5",
-      "published": "Sat, 10 Oct 2026 16:05:40 GMT",
-      "summary": "Argentina is one of the few countries in the region that does not require brands to take responsibility for post-consumer packaging recovery&nbsp;&nbsp;Noticias Ambientales",
+      "title": "Post Consumer Recycled Plastics Electrical Electronics Market Forecast to Expand Through 2035, Driven by EPR Mandates and OEM Sustainability Targets - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbEoyd2o1ck53NHZzeU9MbFBlWUdYcFZJX1g2VmJNdHZfLVg2bUxjdGktWnZZNTVCQy0tNzJpcWtUX3dtcmNJSEhfMWdiNk5waGhkUWhkM21nYlV1Um9PMnMzc3NGb0hESEp2RnpnVmk5QThPcGp2VmI1MXdnUGxJejA2bnB3aWRpZzBWQUVndnE1dkxXeVFBcFBGV0tZb2F6WUpyWHdXZVloUjdrYnZCd3dQT1NhQ0o1LTcxdmtnQnlSaXd4SUZzc1hHWnBhUHJPb3JheE54aXdBclJyb1UyM2RaakQ5YWJZLUVaM2NILXhjeUdQaVN3ZnlETW4xOHJyVEhocVg2dkI?oc=5",
+      "published": "Sun, 11 Oct 2026 23:56:04 GMT",
+      "summary": "Post Consumer Recycled Plastics Electrical Electronics Market Forecast to Expand Through 2035, Driven by EPR Mandates and OEM Sustainability Targets&nbsp;&nbsp;IndexBox",
       "source": "GNews | Circular Econ",
-      "published_beijing": "2026-10-11T00:05:40+08:00",
+      "published_beijing": "2026-10-12T07:56:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Parliament split on EU climate rules opens way for conservative deal with far right - POLITICO.eu",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOWU5aTd1T1RvWGR5am5KWTJMRzdzM1JSXzRoZzJYQzJvNjBVVmtoSUNYa0FzeWF1cmFNM3F5Qno2d0pOcC0wbXpCN1U3RFhqaGREZUtxVW84U0pOanBuZUVJcnRYRU93LXhUeVRxVGxDSnQzX1ZVaGZqRHdxUDBiV096ZDdKcE1YSzFwaHlLTVB3QnBjOVM0Y18tWHM2WEpORF9LY05Nalg2VFVKbVFhMlFRdjMxeFU?oc=5",
+      "published": "Sun, 11 Oct 2026 17:00:00 GMT",
+      "summary": "Parliament split on EU climate rules opens way for conservative deal with far right&nbsp;&nbsp;POLITICO.eu",
+      "source": "GNews | Cap & Trade",
+      "published_beijing": "2026-10-12T01:00:00+08:00",
+      "source_detail": {
+        "name": "POLITICO.eu",
+        "url": "https://www.politico.eu"
+      },
+      "priority": 1.2,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ingredient Carbon Footprint Tracking: Oterra and HowGood Measure Emissions Across Food… - Trend Hunter",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1MX3JmelV6NFJ1Y3I4ZFFnMXo3NkYxY3RmTHBFNHN5M21SU0dKQWdRaTFUNmxXWXJ2dmFJMnl3aWs0cFdMMjZQWmNYclhFbVR2NE1tdW50cDU5N2lEMVowV3J1SDc0R3k0N1pnVlBueFRTamJubTdFWDZhbw?oc=5",
+      "published": "Sun, 11 Oct 2026 14:13:34 GMT",
+      "summary": "Ingredient Carbon Footprint Tracking: Oterra and HowGood Measure Emissions Across Food…&nbsp;&nbsp;Trend Hunter",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-10-11T22:13:34+08:00",
+      "source_detail": {
+        "name": "Trend Hunter",
+        "url": "https://www.trendhunter.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "HK eyes bigger role in financing APAC’s green, digital transition - chinadailyhk",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xNzJwd0pHeGN4TElUVUZwZzcwdFBaUXZBcGotem8zNm9LV2NYVlR5dmh5bzN4WXpfWDdXMWhUa0hDRFRaMEFLdUJFS0YwbUxaNjJYcEFOODQ?oc=5",
+      "published": "Sun, 11 Oct 2026 06:54:27 GMT",
+      "summary": "HK eyes bigger role in financing APAC’s green, digital transition&nbsp;&nbsp;chinadailyhk",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-10-11T14:54:27+08:00",
+      "source_detail": {
+        "name": "chinadailyhk",
+        "url": "https://www.chinadailyasia.com"
+      },
+      "priority": 1.2,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "De Beers Group Advances Building Forever Goals with Significant Progress on Livelihoods, Nature, Climate and Provenance - Thailand Business News",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQa1F1SXp2SEplR08ya2lLZ0t1YWYxQlRDckpGbHpOT01pQV90OTdfSjhKdkttd0VqX0JTSF9yT0NCOUdhcFFIemMxb25iQUtXeG1ObkZSYTdXcEpmUmwxV09pajNqZkUtcko2QXZEOHZ6YlB1YXpyVlRZNElqRkYtcmJMdGsxODdwTkY1NUlsb25MU191UTVWNFlxMzVrZ2h6WmpSMElCVTU4MFVQeGk4UUxRQ2dEeGwxNUhVeWVWejdYdG9PMHdPQXZXWlBranViZ0xOMVNFdWN3TFRhMkxKbWFnS1hxMWhtcjVqN0dVSi1TT3Y2MUJV?oc=5",
+      "published": "Mon, 12 Oct 2026 02:25:24 GMT",
+      "summary": "De Beers Group Advances Building Forever Goals with Significant Progress on Livelihoods, Nature, Climate and Provenance&nbsp;&nbsp;Thailand Business News",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-10-12T10:25:24+08:00",
+      "source_detail": {
+        "name": "Thailand Business News",
+        "url": "https://www.thailand-business-news.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "L&F Completes International Verification of Cathode Material Carbon Emissions, Strengthening Response to European Regulations - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxQTBYemZfTnNzMWNUcXdSZHc4QXNOaTlUSDZXbjgwRlBWbmtpLV95dmEyejd1ODRRWldnSExXZWVFY1dhUWJuTEVLd3ZZWTBBY0NQVmVZZExMMnU2bEZPNEptSzJGRFV4?oc=5",
+      "published": "Mon, 12 Oct 2026 00:17:37 GMT",
+      "summary": "L&amp;F Completes International Verification of Cathode Material Carbon Emissions, Strengthening Response to European Regulations&nbsp;&nbsp;아시아경제",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-10-12T08:17:37+08:00",
+      "source_detail": {
+        "name": "아시아경제",
+        "url": "https://www.asiae.co.kr"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "'Ghost particles' from space telescope wins physics Nobel - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RQ01fM0cydEY5S01BR1RDNHF6NVNoa28xYnhqbjk4WmlWb3oxQ1ZpQ1V3cnVuYUJLUlltcU1MdVdxcTU4RzQtMmdlQTdobEJGX0M1Vm83TFBPRGc?oc=5",
+      "published": "Tue, 06 Oct 2026 11:24:19 GMT",
+      "summary": "'Ghost particles' from space telescope wins physics Nobel&nbsp;&nbsp;BBCAPOD: 2026 October 11 - Ice Fishing for Cosmic Neutrinos&nbsp;&nbsp;NASA Science (.gov)This year’s Nobel science prizes are real-life sci-fi&nbsp;&nbsp;The EconomistNobel Prize in physics awarded to Francis Halzen for his work detecting ‘ghostly’ cosmic particles&nbsp;&nbsp;CNNI’m a physicist who worked on the Nobel-winning neutrino search – here’s how a cubic kilometer of Antarctic ice became a telescope for ghost particles...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-06T19:24:19+08:00",
+      "source_detail": {
+        "name": "BBC",
+        "url": "https://www.bbc.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Astronomers detect mysterious burst of energy from a galaxy far, far away - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWS1qME42d2o4ZkZ4WjdnTE5lbTVITTM5WVRXVENGVkdZVmcwZGp5cEp2c3F3S2RNYl9RVkpmblJPaDVnYWhHakJ6M1JIZjdFOFp1c2hhZlpGV1M2WEcta21WcGlnaGJwY0Y3NWUtMHJVZGVXLW9nTmVGNEVwbnB5WW1SbUhlTVhtMkEySnJSazB1VHU2ZWc?oc=5",
+      "published": "Thu, 08 Oct 2026 23:15:00 GMT",
+      "summary": "Astronomers detect mysterious burst of energy from a galaxy far, far away&nbsp;&nbsp;The GuardianJames Webb Space Telescope helps detect the most distant Fast Radio Burst ever seen — and scientists are surprised by its source&nbsp;&nbsp;SpaceWebb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin&nbsp;&nbsp;NASA Science (.gov)Astronomers pinpoint the origin of a 10 billion-year-old millisecond signal from space&nbsp;&nbsp;The ConversationScientists Detect Record-Breaking Radio Sig...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-09T07:15:00+08:00",
+      "source_detail": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PTWctdjJuZHpwdEhaMjNvYmVra1Z4RjltZm9XWlR5M2V5THpFTlJCQlJnWlVJOUl1ejZ4WGQ3WkdJaHBPY05kVjQxeElieGN3c3JsR1AtcUtxb3JzMTI0?oc=5",
+      "published": "Thu, 08 Oct 2026 18:42:32 GMT",
+      "summary": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame&nbsp;&nbsp;NatureBig dogs age faster at an epigenetic level, new study finds&nbsp;&nbsp;Live ScienceWhy big dogs age faster&nbsp;&nbsp;EurekAlert!Big Dogs May Die Earlier Due to Unruly 'Jumping Genes'&nbsp;&nbsp;NewserWhy do small dogs live longer than large ones? The answer lies in their DNA&nbsp;&nbsp;ThePrint",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-09T02:42:32+08:00",
+      "source_detail": {
+        "name": "Nature",
+        "url": "https://www.nature.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Coca-Cola deepens local sourcing, supports jobs in Nigeria - Punch Newspapers",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YWlAzNll5Vlhfc1hmN3pGdWk2MDlCd08wSGZMcC11TDdzUk1iZkg1cUJ6SkZWOVBHRlFfUWRqMHBtb0t6bV9XdGF4cUlnTk15UHdFaTh2ZklWakhHYXJEUm5aZWRkOXk0NXhiUzFKdFZvTTZwM3J0S3FLNA?oc=5",
+      "published": "Sun, 11 Oct 2026 23:38:05 GMT",
+      "summary": "Coca-Cola deepens local sourcing, supports jobs in Nigeria&nbsp;&nbsp;Punch Newspapers",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-10-12T07:38:05+08:00",
+      "source_detail": {
+        "name": "Punch Newspapers",
+        "url": "https://punchng.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How To Warm Up Your Patio With An Easy-To-Install Solution From Amazon - House Digest",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNU5oSGYydXVCM3paRUN2MXgwYTlDU2xfZ201SGNHVGpkOWtHdmNvelE4RURlczVEM0F6bWw5amZlS0x5eDh0d3hjVlBpa3FWRkpBZ2wzajJBNmhNaFJSQkh2aWRiczU1ZndJSS1LNUhJZDJmUkVhMkVQNjhTdk9jZU1paTdRZ1NsTzJNUVJrYnVOWlk?oc=5",
+      "published": "Sun, 11 Oct 2026 23:00:00 GMT",
+      "summary": "How To Warm Up Your Patio With An Easy-To-Install Solution From Amazon&nbsp;&nbsp;House Digest",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-12T07:00:00+08:00",
+      "source_detail": {
+        "name": "House Digest",
+        "url": "https://www.housedigest.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hong Kong’s $2.54B Digital Bond Puts Tokenized Cash to Work - Cryptonews.net",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RSGJOZUg0a0Q4QlNiYzBuaWFxRmlQZDZKVG5hT1o2eG1pX29vYVBVVGVsM21XM29BNmMtQlpudldnTm42UzRTQnhjSHNQdG1yaERyblI4a0M?oc=5",
+      "published": "Sun, 11 Oct 2026 22:06:14 GMT",
+      "summary": "Hong Kong’s $2.54B Digital Bond Puts Tokenized Cash to Work&nbsp;&nbsp;Cryptonews.net",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-10-12T06:06:14+08:00",
+      "source_detail": {
+        "name": "Cryptonews.net",
+        "url": "https://cryptonews.net"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fierce lobbying in EU over 'forever chemicals' - Japan Today",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWZhOUU5ZUhXNjVHYUx5WXYxZFZQX1UxTHp1a0VCcEFibEZDcWFkb2FOM05XekkyWjAyOXZteWV3MUtpYTRpekR6UGdCNHNmaWkxOF9wbzcxQjc4NGhQRkRHbmU1NUNwV1huRjFkcWpLLVYxUExSV2pxLWt2Y1F0Z1dfdDVKR0F4c3FzMFFjY094cDN0eFBqLTFB?oc=5",
+      "published": "Sun, 11 Oct 2026 20:43:00 GMT",
+      "summary": "Fierce lobbying in EU over 'forever chemicals'&nbsp;&nbsp;Japan Today",
+      "source": "GNews | PFAS/Chemical",
+      "published_beijing": "2026-10-12T04:43:00+08:00",
+      "source_detail": {
+        "name": "Japan Today",
+        "url": "https://japantoday.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Quantum 'birthmarks' hold lasting traces of a system's past - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qNTE1andxaDJxRzRiazQ1dHJQSVBNSjExOXExZE10OGR0N3lUUjA2VEMzYVA3VXowSDZNeVVreTg2UDYxWVZlVGdDNU1NWnR4bjhaRnliVVZKT19LWEhhbVI5RQ?oc=5",
+      "published": "Sun, 11 Oct 2026 18:20:01 GMT",
+      "summary": "Quantum 'birthmarks' hold lasting traces of a system's past&nbsp;&nbsp;Phys.orgQuantum Chaos Cannot Erase the Past: Physicists Uncover the ‘Quantum Birthmark’ That Never Fades&nbsp;&nbsp;Bioengineer.orgQuantum Systems Retain A 'birthmark' Of Their Origin, Even In Chaos&nbsp;&nbsp;Quantum ZeitgeistQuantum systems retain a permanent memory of their origins&nbsp;&nbsp;NanowerkFeedback Control Reveals Islands of Order Hidden in Quantum Chaos&nbsp;&nbsp;Bioengineer.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-12T02:20:01+08:00",
+      "source_detail": {
+        "name": "Phys.org",
+        "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists make stunning discovery that could help explain why life exists - Science Daily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1uZHA3SzlUY2F2Q251bXlfbUo5UzRYTWN3R0JlNE1TS196QkY5aExScldncHc1X2lHV0F4aHV6Q1pnVHJIWTRkc2J5WGt5d0ZmSmVuNXdSS3JGYm9tZmZWVUI3U2dUZnJHQVJlTEc1Yw?oc=5",
+      "published": "Sun, 11 Oct 2026 16:38:01 GMT",
+      "summary": "Scientists make stunning discovery that could help explain why life exists&nbsp;&nbsp;Science DailyKostya Trachenko Shows How Liquid Flow Sets a Narrow Path for Life&nbsp;&nbsp;TechEBlog -Discovery of a Single-Celled Organism That Uses Two Stop Codons to Encode Different Amino Acids&nbsp;&nbsp;InkorrScientists Challenge Assumptions About Physics and Genetic Codes&nbsp;&nbsp;SuaraGarut.IDProtist with two reassigned stop codons found in Oxford — ScienceDaily&nbsp;&nbsp;UA.NEWS",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-12T00:38:01+08:00",
+      "source_detail": {
+        "name": "Science Daily",
+        "url": "https://www.sciencedaily.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "NASA dumped over 800GB of Artemis II data online - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxMEk0NUUxV29MclNGZF8yVDdIczdkb2pFVUhtalpialVLeEFYMlF4WHlpd3oyc1RDUGNvRzVNQUVsY2UzVVBWT0t1Q01ETmVUSlNwWUVha0FnaHphWTdrdEh3ZDU3Szc0Q3hnRk16eUExWUg3alE?oc=5",
+      "published": "Sun, 11 Oct 2026 15:34:40 GMT",
+      "summary": "NASA dumped over 800GB of Artemis II data online&nbsp;&nbsp;The VergeThe Preliminary Lunar Science Report for Artemis II is Out!&nbsp;&nbsp;Universe TodayNASA Releases Artemis II Lunar Science Data, Images&nbsp;&nbsp;NASA (.gov)Hackaday Links: October 11, 2026&nbsp;&nbsp;HackadaySee more sights and sounds from the Artemis II moon mission&nbsp;&nbsp;Scientific American",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T23:34:40+08:00",
+      "source_detail": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "‘One of the ocean’s best-kept secrets’ spotted near Massachusetts - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTDdMM3NQTE5OVXhZUWtOSURtaEY0SVRaaDEwVWE2VGRDLWRnSEVkZi1jZEVUN3lBYXhpdV9mdzMwQmEyUHRRLWk1WDRzcllEZGlWbGpWRnpJbERFYkg5WGtWSWJkcUJJZU5vSmFmbjNSaENaN1NRVHVSMnpVekNUbklfd2l2NWlDRUtBazZqNA?oc=5",
+      "published": "Sun, 11 Oct 2026 15:17:00 GMT",
+      "summary": "‘One of the ocean’s best-kept secrets’ spotted near Massachusetts&nbsp;&nbsp;Yahoo",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T23:17:00+08:00",
+      "source_detail": {
+        "name": "Yahoo",
+        "url": "https://www.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "On this day in space! Oct. 11, 1968: Apollo 7 launches into space, NASA's 1st Apollo astronaut crew in orbit - Space",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0tfMS01SmF2OUowalBlUFZ4MHRvNTJqdlFkMEZUU0FvS2RYYWhrYzVLSjEzTWJRQW1fdGgwa3FSODhHb1FjNkZINnhYOER6bDItV2FNR0pndDlsQVh2N0tTMWZjTnNQLU15Ni1EZWVtQkt0TVBLbEFsUVZ1bWFmRXF3?oc=5",
+      "published": "Sun, 11 Oct 2026 14:21:52 GMT",
+      "summary": "On this day in space! Oct. 11, 1968: Apollo 7 launches into space, NASA's 1st Apollo astronaut crew in orbit&nbsp;&nbsp;Space",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T22:21:52+08:00",
+      "source_detail": {
+        "name": "Space",
+        "url": "https://www.space.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Here's What Sets The Nancy Grace Roman Space Telescope Apart From The James Webb - Jalopnik",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbG9iMF92WTNPTVRNc0hrYUJFQjRCMVQ4VzJMZ3RuUWY3UF9tRlJhOF92ZlkzWHByeVRINzFLdExlUVotQlRwOXRPQU1BSEhjY3lia05tbVFLekhsOVdqc0F6VWJKR0NCd09NTmFSeHVfbVg3SXczMUdBbUdWdEN3NEJjQnVKNTY1eXYxNWdwSmwyZjNlY3dJcA?oc=5",
+      "published": "Sun, 11 Oct 2026 12:05:00 GMT",
+      "summary": "Here's What Sets The Nancy Grace Roman Space Telescope Apart From The James Webb&nbsp;&nbsp;JalopnikSee more headlines & perspectives on Google News",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T20:05:00+08:00",
+      "source_detail": {
+        "name": "Jalopnik",
+        "url": "https://www.jalopnik.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ancient DNA identifies 146,000 year-old ‘Dragon Man’ as a Denisovan - The Brighter Side of News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX3ZiMEJUOEZ1Vm5TTzhYenRhaWVrZF9ObGJrWVBzaHlnRGhtYV9pWWVvXzNITFV0ZlhYSUFWelkwNXp1Vy14QTZlRmJXcFZLMGZfNEZoc2RsM3lINzhBdEhYTlVKZ3lNcnNQbElIZEFWUVE4ZlFmRjNwT2tHMFhMb0M4NGktbWMzMkhKQXoyRzIyNVJCWllRZWhjMnluQnBXYk5ZRmJ3?oc=5",
+      "published": "Sun, 11 Oct 2026 11:51:00 GMT",
+      "summary": "Ancient DNA identifies 146,000 year-old ‘Dragon Man’ as a Denisovan&nbsp;&nbsp;The Brighter Side of News",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T19:51:00+08:00",
+      "source_detail": {
+        "name": "The Brighter Side of News",
+        "url": "https://www.thebrighterside.news"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lake Vostok: The ancient lake no one on Earth has ever seen - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWFfZ0hqR29WTjM2eHV2cUc2VjRFZHk1NHNNX0xURjNQdVlOay0zYjNmamU5YS1vd2t1SXdKdE40bHJNMDFpYWl0QjkwRGdtNEQtRVRwOC1pRzM3clE5VXl0NG43aHM3eG9fY0xHTXBWU2lIZlY2aTNiRGFRM2Q4dU9LUnE3Mnd6MzFxdE04UQ?oc=5",
+      "published": "Sun, 11 Oct 2026 11:00:00 GMT",
+      "summary": "Lake Vostok: The ancient lake no one on Earth has ever seen&nbsp;&nbsp;Yahoo",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T19:00:00+08:00",
+      "source_detail": {
+        "name": "Yahoo",
+        "url": "https://www.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "HK set to showcase 4 key priorities of APEC finance ministers' meeting: Paul Chan - The Standard (HK)",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnlHN3NleXlrYk43N3VkVjZ4UWw1RGZvVFhzWmtXSDRuQmtqZ1Qta0ZmaU5wSTlmREl6Ml9JMjJtY2p6RWhzZ1pIR01tT3Z5bW1JaXgtcUtMYnFxcm5EOFpwa1NseWZWU1JNU01uTFF3ZWw4QVU2VFJBZGVVWVVxMGJZOUNfSFBJazE3XzBQYS1yT1FDV0FNMjhrNzd0VnJLYm5WckdQQ01jZWJaSHhNNWNRdzVyakJnc2U2M2JfY3YtVFBsZWo5U190MGEwdw?oc=5",
+      "published": "Sun, 11 Oct 2026 10:13:00 GMT",
+      "summary": "HK set to showcase 4 key priorities of APEC finance ministers' meeting: Paul Chan&nbsp;&nbsp;The Standard (HK)",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-10-11T18:13:00+08:00",
+      "source_detail": {
+        "name": "The Standard (HK)",
+        "url": "https://www.thestandard.com.hk"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Waste management in Chile: 80% of cosmetics are sold in plastic packaging and many end up in landfills - Noticias Ambientales",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaUJJY0dudWhROTFqWUZUcnFpTWNHRF9Rb19Hc3l0UmxUc1F5Mzl3YUFVUndGeW5kRFBUNFdJbklOVUJaUGtQTldpVjhTdWVYQ0R5SDh3YzRLZjZwUGgxSWtFQ3lvZVVHeFNwLUdDeVJWQ2d0a1NkRk05aUJSZ3NVaWU5SHZIQm5ZM1FaSl9Wc09pcU9laUoweXlTYVU3bGIxVk14bFlRT2VRcnBNQkhDNEw4RjhBbDVxMTRNa20td0gyZDB3dERqTXdYazJhOGg3MHhac0R3?oc=5",
+      "published": "Sun, 11 Oct 2026 10:05:33 GMT",
+      "summary": "Waste management in Chile: 80% of cosmetics are sold in plastic packaging and many end up in landfills&nbsp;&nbsp;Noticias Ambientales",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-10-11T18:05:33+08:00",
       "source_detail": {
         "name": "Noticias Ambientales",
         "url": "https://noticiasambientales.com"
@@ -279,290 +457,15 @@
       "relevance": "low"
     },
     {
-      "title": "Trade and Financial Services Round-Up - Vellum Kenya",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lMDg0NllMN296cUZQSTVBWnRNTnV2MXFheXZHTENmM3ZGbjJvRkNldXVVeE05bjhiMl9qbUI4UFg2dmxDSUFZZE5ZQmQyTlIxZEZKR3A2RTh1VVo1ZDh4TWs0RUU3RWtzcHJjcGptWQ?oc=5",
-      "published": "Sat, 10 Oct 2026 15:56:48 GMT",
-      "summary": "Trade and Financial Services Round-Up&nbsp;&nbsp;Vellum Kenya",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T23:56:48+08:00",
-      "source_detail": {
-        "name": "Vellum Kenya",
-        "url": "https://vellum.co.ke"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Jordan Achieves 20 Investment Reform Targets Under $1.35 Billion World Bank Programme - Report - Menafn",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhpVm1LTkdBRFVFb2dHa1ItOEh5dXE2cVVNc3MwUnBuZXRfcDNoMXJEQjZpYnFlNWZramRQeUpweXVXX2FhVjhJVWFleUNkS0tWclloZ2t6Wjl2QTEwYmZxRUVnLUtlN1ZvZFNfX1VPM0ZRaExwbE9EWWhvV3dOLWVQUFVVaVkzNUg5c2VMYjh1T0pHcWs2S052bWpBSmxmTm1wM2JMWFFoenFFOHAzcTRKM0V1US1yODF1UA?oc=5",
-      "published": "Sat, 10 Oct 2026 14:03:34 GMT",
-      "summary": "Jordan Achieves 20 Investment Reform Targets Under $1.35 Billion World Bank Programme - Report&nbsp;&nbsp;Menafn",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T22:03:34+08:00",
-      "source_detail": {
-        "name": "Menafn",
-        "url": "https://menafn.com"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How de-extincting dire wolves and woolly mammoths may extend human life - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWhqUDJtWll1V2JFQk1odHVNRDgyMTJKR001ZnJvS2JuX1FoMml1MGNDb05SYVY5dGU0Y083eUxRSC1GRU5yeTlYZzZ3VzExUEh3cFk5dnVWUmRrSUZ0UmwxXzRGbWhuNlB2b2xySXRDNVEyYlR0LU9vZ2F3Snd0Znlpc1VITWpEZVU5ZllJdm00YVp00gGaAUFVX3lxTE9Zdm13bTJNQmtrUTZFWEZqUFNXLXFfMjdpYW1uSW9VQkU2TGxQODBBN3FJN05EUVViSVlpcVhNcTF0YURCN2Q3UFhGVWp3Z21wODBjZVFtbVRJd3hJdWhLcVJnd2VzVS05clJkYzRHWEdESHVkSmFSRW14NGdBSm9XVXNPMXJiTHdHSzNTM2ZEU2ZaMUhJUUIxcGc?oc=5",
-      "published": "Sat, 10 Oct 2026 14:00:01 GMT",
-      "summary": "How de-extincting dire wolves and woolly mammoths may extend human life&nbsp;&nbsp;CNBCUsing AI models, scientists are trying to do a Jurassic Park; bring back to Earth extinct Grey Wolf pups and Woolly mammoths&nbsp;&nbsp;The Times of IndiaThe CEO Hacking Evolution’s Clock&nbsp;&nbsp;Market RealistColossal Genetics&nbsp;&nbsp;Esquire SingaporeColossal Biosciences continues to tout its faux “dire wolves”&nbsp;&nbsp;Why Evolution Is True",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T22:00:01+08:00",
-      "source_detail": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "ShafDB takes $100m housing bond to West African investors - Businessamlive",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON0RyV1JKNWM3TEFlMGVScXRRYXBVT3oxTFpfY2h4bFgyTFdWZkp1MWhaaENfQzdLLU5tR2Fjb0s5dW1NY01RbzdIam5lY3luU2dmNFQ3VDlWd09KLTFJTmxUbmZZZ3U1aXlLTUFHcVdFX245UGVOZi14OUpBejFKUk9jNk5STkRJckJReg?oc=5",
-      "published": "Sat, 10 Oct 2026 12:32:36 GMT",
-      "summary": "ShafDB takes $100m housing bond to West African investors&nbsp;&nbsp;Businessamlive",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T20:32:36+08:00",
-      "source_detail": {
-        "name": "Businessamlive",
-        "url": "https://businessamlive.com"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "For The First Time Ever, Quantum Spins Shift a Centimeter-Scale Object - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDFrTUpLU1I5N29JS1VoU2s2dXN6NUFENVA2U1ZyZ2FZUVRwRVE0dThFa1dLa3VCbHNNM1NCdElLNkRsU2p1ai1wTkxJSGdCX3pkYS1mcWJ4WUhWMUI4TEZFa09Sdkg5TGFoR1FlR0pLWVlMWTBYRWlBdWNuc0dMbkVmVGFrN0g0dzFfQzQtS192TDN2ZVEyeUdrM2xsVnc?oc=5",
-      "published": "Sat, 10 Oct 2026 12:01:37 GMT",
-      "summary": "For The First Time Ever, Quantum Spins Shift a Centimeter-Scale Object&nbsp;&nbsp;ScienceAlertFirst observation of quantum spins shifting a centimeter-scale object in the lab&nbsp;&nbsp;Phys.orgIn Japan, quantum spins shifted a 128-milligram object — ScienceAlert&nbsp;&nbsp;UA.NEWS“We Can Finally Observe Schrödinger's Cat in Real Life”: Breakthrough Uses Quantum Spin to Move a Levitating Diamond&nbsp;&nbsp;The DebriefQuantum Spins Move a Centimeter-Scale Diamond for the First Time in the Lab&nbs...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T20:01:37+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Scientists Detect Record-Breaking Radio Signal from the Ancient Universe - 404 Media",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2pDMFdPb19WODhBR3ItQlZoLXpMclQ2eFhBM25vYS1jR1YtTTVlenY4U2J2OHI3cVkwdmNDY0lVZE96Qmpyc1dFLVNsTmZscXJ3aXlURDlKUDRQa2Z3dFQxVXBoU1lTNFFMRm5rM3pEUVVfa2RmclkyUU5HNkpSclZ0VVhDbXNqQi0yUDU3RDA4am4ybnU3Ylc2dVkyUQ?oc=5",
-      "published": "Sat, 10 Oct 2026 11:04:21 GMT",
-      "summary": "Scientists Detect Record-Breaking Radio Signal from the Ancient Universe&nbsp;&nbsp;404 MediaWebb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin&nbsp;&nbsp;NASA Science (.gov)Astronomers detect mysterious burst of energy from a galaxy far, far away&nbsp;&nbsp;The GuardianJames Webb telescope traces a record-breaking radio signal to the ancient universe&nbsp;&nbsp;Live ScienceThe Most Distant FRB Tells The Story Of Its Origin&nbsp;&nbsp;Universe Today",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T19:04:21+08:00",
-      "source_detail": {
-        "name": "404 Media",
-        "url": "https://www.404media.co"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "University of Alberta researchers find evidence raptor may have fed on apex predator - Global News",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1pMLVJTenFULUdmb2dWeXJPSmNfUXBhZVkyTjBjWVBHUlpxaE5kdGdNOWZWTVpoYjNVdG81c3lPQjE1ZWcxX2FBZm83NkpyVzhibGFaMzNvNmJVbVVtbFpHdm1YX25UN0d4YmZJZUdxQlZFaGVuZm96cVdfOF81NWtmTWR4b0k4Nmc?oc=5",
-      "published": "Sat, 10 Oct 2026 11:00:23 GMT",
-      "summary": "University of Alberta researchers find evidence raptor may have fed on apex predator&nbsp;&nbsp;Global NewsFossil bite marks suggest first evidence of a small raptor feeding on an apex predator&nbsp;&nbsp;Phys.orgA baby tyrannosaur possibly cannibalized its dead relative&nbsp;&nbsp;YahooA Small Dinosaur May Have Devoured a Huge Predator Related to T. rex: Tooth Marks Reveal an Unusual Scene&nbsp;&nbsp;La Brújula VerdeA jaw-dropping discovery on the badlands&nbsp;&nbsp;University of Alberta",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T19:00:23+08:00",
-      "source_detail": {
-        "name": "Global News",
-        "url": "https://globalnews.ca"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Big Dogs May Die Earlier Due to Unruly 'Jumping Genes' - Newser",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaG5XbDQ2YmFaeTgxeVdtSEdKQnpGdHJ6NFRUM2xHOHRrTU1XZnVCQ0VCSUJlUHIwVnZVajhySlk5RVVjc3pQdUk1ZGNuNGpEWlBNNnFVUFdGQmlOZFZhdHBfTHV0cDlmMUw1U2tqTVRycUMxZGxkelBRMDMzT0Vxdnp5eWM5Y0dVMmtmdTFkWUozNnoyTFow?oc=5",
-      "published": "Sat, 10 Oct 2026 10:50:00 GMT",
-      "summary": "Big Dogs May Die Earlier Due to Unruly 'Jumping Genes'&nbsp;&nbsp;NewserWhy big dogs age faster&nbsp;&nbsp;ASU NewsBig dogs age faster at an epigenetic level, new study finds&nbsp;&nbsp;Live ScienceMystery of why big dogs age faster than small ones finally solved&nbsp;&nbsp;The IndependentDog aging and DNA changes (IMAGE)&nbsp;&nbsp;EurekAlert! Science News Releases",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T18:50:00+08:00",
-      "source_detail": {
-        "name": "Newser",
-        "url": "https://www.newser.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Archaeologists Uncover Unprecedented Evidence of Neanderthal Woodworking Skills - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONkx4Y2RRa3BCR2pSWWpJYWt1NjRoeTZuVjU4aGJ0UWZZMVRoalJySlhacWdJRk9RR3FBYXB1LW9vbHJRaldFc1NPQ0pNQjBJbDR1T2p0Rld5ZkxZZmRQYnB5T1ZoenY3VGJjdGpQZFNrTjZoNVN6alE0c0praUtXWWRmdzBhcnNLMlRPdnZOZ0pQMVpieS03MXNUS2FVRkU2Q2NQQzl2dEk5dVBM?oc=5",
-      "published": "Sat, 10 Oct 2026 10:01:35 GMT",
-      "summary": "Archaeologists Uncover Unprecedented Evidence of Neanderthal Woodworking Skills&nbsp;&nbsp;ScienceAlertNeanderthal wooden tools from Spain found preserved in stone&nbsp;&nbsp;Ars TechnicaNeanderthal woodworking was far more advanced than we thought, new study shows&nbsp;&nbsp;Archaeology News Online MagazineRare traces of wooden tools reveal Neanderthals were skilled woodworkers&nbsp;&nbsp;Phys.orgNeanderthal Europe was as much a wooden age as a stone age&nbsp;&nbsp;New Scientist",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T18:01:35+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 0.0,
-      "signal_keywords": [
-        "unprecedented"
-      ],
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Weekend reads: OpenAI’s preprint dump; Taylor & Francis to leave Informa; arXiv’s preprint cap - Retraction Watch",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb0VlTmRoQXpTb3dORWpZd3JEdXhTeGI4SkRaZVUydnRpaEFEeXNBTExLMHh2NnplWDhnTVVLaEI2aE5rVnplZDFJSDBidkJtVWZ4Snd6RFEtYy1Ta05OUU1CejMyQjlPdC04TkhJdjljQWYyLUZiUHZEaTRkSjRHQndkRTNRSnZaa0o3bDN6OHdfR0JHNEpQbTI4SXlHZ0duZUhaeWJJQ3dFX2JTLU9JZHdVVXhZRFBCUjZKc3JyMWZiLTFZa1E?oc=5",
-      "published": "Sat, 10 Oct 2026 10:00:00 GMT",
-      "summary": "Weekend reads: OpenAI’s preprint dump; Taylor & Francis to leave Informa; arXiv’s preprint cap&nbsp;&nbsp;Retraction Watch",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T18:00:00+08:00",
-      "source_detail": {
-        "name": "Retraction Watch",
-        "url": "https://retractionwatch.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lagos launches up to N200 billion 10-year bond: Key takeaways for investors - Nairametrics",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYjVkRGtXR1k3dEdwcUxzbHJnb2ozSnBaMWdrcjE0Q3FjQ0Itam5sOUFtZG11aUU1dTZIU1pKVDU5RHJWWmsxcjd0Q2x4cUhHTkx3XzVhZHJDTS1SS3hVelI3Yk5UaFYtT0g2WDJ4Z20zdFBqUUp0UmVscThpb2puYXJETkkwUjRkOUVXWXRRVk5OdlBSOVBIWFNWRXI4bmxCLWdHeklDSGtqUmdrUFZucQ?oc=5",
-      "published": "Sat, 10 Oct 2026 09:41:16 GMT",
-      "summary": "Lagos launches up to N200 billion 10-year bond: Key takeaways for investors&nbsp;&nbsp;Nairametrics",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T17:41:16+08:00",
-      "source_detail": {
-        "name": "Nairametrics",
-        "url": "https://nairametrics.com"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Humans Watched This Supernova Explode Nearly a Millennium Ago. Now You Can See It in High Definition - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWhqSmctVlJkWVJlVFcwdnM3T2JycjNZMFJ0cUxyVDVXcVNmMENjOHpVT3NiSm9DWnpjZ2VTeE1NLVlzVzJ0UU1pS2VqSjF4MXk0bXRpd3JhblJxSTlFYnNHamZyX3RXUkRuckxXdnZrbjlfdlh4WDhsLXFVV3NfWFllaFJpXzAxTjR2eVc2NXdvWmpKSW1BUVBaa0tJMnhCbzlNZlFLVWZwSlFmbmNLNXFfMk1SUmxRV0p4ZlJuTi1CNU91X0dR?oc=5",
-      "published": "Sat, 10 Oct 2026 09:30:00 GMT",
-      "summary": "Humans Watched This Supernova Explode Nearly a Millennium Ago. Now You Can See It in High Definition&nbsp;&nbsp;WIREDAPOD: 2026 October 7 - Supernova Remnant Pa 30&nbsp;&nbsp;NASA Science (.gov)Striking new images of unique supernova remnant reveal pearl-like chains&nbsp;&nbsp;Phys.orgAstronomers reveal most detailed view of cosmic ‘firework’&nbsp;&nbsp;pmg-ky1.comRemnant From Rare Supernova Seen Nearly 850 Years Ago Hides a Zombie Star at its Center&nbsp;&nbsp;Discover Magazine",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T17:30:00+08:00",
-      "source_detail": {
-        "name": "WIRED",
-        "url": "https://www.wired.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "SCB Sees Stronger Investment Prospects As Malaysia Positions To Be Regional Trading Hub - BusinessToday Malaysia",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnBvUjdQMnFtM2dzZ05mU3RCczNSV2RLRngxY2hNeHh3c0g3VlBLek5NalNodWxYN0tIMXNhWWQzTUxiMzJnQ2ZDcS1Vci13Z0xwVW9GeFNWTVE2TGNBSTMyYlJ0bVlmaU5rU2RDbmZTY0Q1NVNqVHRLbUJfYkdmMkdHMnpuMWt1bkE2dXNxSkdGbU1oNHl3VzBpcHhrN1I3VU5IMlloelhNS1Z6bW5ubXl3Yk1uQXZYcGdadXpwUUNZcUs1dlJsYi1EMmt0c1BNNUd6bg?oc=5",
-      "published": "Sat, 10 Oct 2026 08:31:30 GMT",
-      "summary": "SCB Sees Stronger Investment Prospects As Malaysia Positions To Be Regional Trading Hub&nbsp;&nbsp;BusinessToday Malaysia",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T16:31:30+08:00",
-      "source_detail": {
-        "name": "BusinessToday Malaysia",
-        "url": "https://www.businesstoday.com.my"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Jordan made progress in economic, environmental reforms: World Bank - Ammon News",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UdEl4c2dfaHVZYXJiaDIySWg0ajBpN0Z2VU5JVTVwNmxnbGk0VDliZGwxNjNkV09ObU1qZ0hjVnRXaDdTQUxOcmFCWTZHZjA?oc=5",
-      "published": "Sat, 10 Oct 2026 07:55:57 GMT",
-      "summary": "Jordan made progress in economic, environmental reforms: World Bank&nbsp;&nbsp;Ammon News",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T15:55:57+08:00",
-      "source_detail": {
-        "name": "Ammon News",
-        "url": "https://en.ammonnews.net"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Dual transformation is driving the development of Vietnam's construction industry. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWpJa08wMHlrb21kMnhIN3BFV3U3Qm54OWV1YjJDbnM1aGFyZW95QzdGdHd3MG9pTG15VXFTaGdaQTNpcWtKWDlUalZ1VW9KQTVJTERwZ294YlQ0a1JVVGU1UTR0MHBvRU1leDFaTFcyU0NvbFZwTm1va3VFclRKRzIwZlJYTXU3UmQ2NFc1eE0tZw?oc=5",
-      "published": "Sat, 10 Oct 2026 06:56:16 GMT",
-      "summary": "Dual transformation is driving the development of Vietnam's construction industry.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T14:56:16+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Hanoi does not pursue growth at all costs. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVVlnWjVCUDFWdHpkNElmN3FfV1VCNTBjeDBzYXkzd3FSZ3hCUUhuczZqSjc4ZDlFbDhNVTRYRnZmWklZTHF0Um1Cc2dibk91NW5BUldwQUZINVVNaDIyOU5mSHdzanJsLXhsOU5qNE80dTBJdXJpYmhLQ3Ftdw?oc=5",
-      "published": "Sat, 10 Oct 2026 06:10:16 GMT",
-      "summary": "Hanoi does not pursue growth at all costs.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T14:10:16+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Betelgeuse has a companion star – so why hasn't Hubble been able to see it? Astronomers may finally have worked out where it's been hiding - BBC Sky at Night Magazine",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcV9uWUNtc2xFbG1wYUZJUFlJcjFBeGVRWDZCRERONFR4ejhtd19IT2p5RnVHUGRZMkVqSnhTSzkzeDJXbGhnZTM2Y1dzOTZoRlp5Ry1yN0NiVFRUY2FqcHRIQXdpdURaUGsxRi1fLXpxUWhUQWlDQlhjSVpxQlFxSlNRR0x0R2ZVaGdsQy1n?oc=5",
-      "published": "Sat, 10 Oct 2026 05:47:55 GMT",
-      "summary": "Betelgeuse has a companion star – so why hasn't Hubble been able to see it? Astronomers may finally have worked out where it's been hiding&nbsp;&nbsp;BBC Sky at Night Magazine",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T13:47:55+08:00",
-      "source_detail": {
-        "name": "BBC Sky at Night Magazine",
-        "url": "https://www.skyatnightmagazine.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "UNDP Launches Regional Project to Tackle Marine Litter and Plastic Pollution in the Caspian Sea - Turkmenportal.com",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONV9fQTlhSmg4YlUwRmg0SjNZTm1NRVIwd1EwWmtRSUxacHJhN1htd3kxTTZSSXhjOXNCb2ZEeUFQUkFza0Jvc18wM1h6OGRlRnloV1NlazBWR1N2MGo5V2kxRERFM2dUSUQwME1xSW9aZUdaVF83M3ZrWWhrOVZ1dFhJNWtIS203Z2V4TXNuUXk5aVd4Z0phYUxUZG5RTWRiU1dzVVRveTAtZGZpMlRTR1dJbFpRRXBGWE5NeFgyVE5Ec0lPbF94UjVHQkZGLUVRUm9PT2d4SmlyTERSWFJCREcxYVVScjlsa0p5bi1WcDE1NzhFQUJYY2lRcFhzSGJWdjY5VVBzcmxZUTBIYVVQTmhuZ2FqZVNy?oc=5",
-      "published": "Sat, 10 Oct 2026 00:53:55 GMT",
-      "summary": "UNDP Launches Regional Project to Tackle Marine Litter and Plastic Pollution in the Caspian Sea&nbsp;&nbsp;Turkmenportal.com",
+      "title": "Plastic Roads in Kenya Turn Waste Into Opportunity - The Borgen Project",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tZFFWeWV3MWgwWWw0VUNiR01BOFpxUXc4QkRWUmNnMHE0UUp5eFJLT3ozVlUxNWZsbzN5TExsWUdiYmcweEo1TUFnbC1CWXBpd0dyZmJpQlhGSWFkTWc?oc=5",
+      "published": "Sun, 11 Oct 2026 08:30:49 GMT",
+      "summary": "Plastic Roads in Kenya Turn Waste Into Opportunity&nbsp;&nbsp;The Borgen Project",
       "source": "GNews | Circular Econ",
-      "published_beijing": "2026-10-10T08:53:55+08:00",
+      "published_beijing": "2026-10-11T16:30:49+08:00",
       "source_detail": {
-        "name": "Turkmenportal.com",
-        "url": "https://turkmenportal.com"
+        "name": "The Borgen Project",
+        "url": "https://borgenproject.org"
       },
       "priority": 0.0,
       "category": "气候风险",
@@ -570,28 +473,28 @@
       "relevance": "low"
     },
     {
-      "title": "Personal Finance: Everyone hates bonds – is it time to buy? - Chattanooga Times Free Press",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNHczTXhjaWV5NUdhV25yNzVMUjBzSGIxTEIyRW1TVVQtZWNTR0p4TUVjM1BDb3NFTmxDcmp2WjR4bllXejd1V09WQWhjZ2dzRFZXMmhGdWVYY1E1UkxRRzNsdWwzdzVRRVNjc1JjLXhHWlgwbW5GbG04UXczTC12cHEtRE9OOFFtMWlNZXB5TVVCYzNLaHMxQjd2ZTVZUQ?oc=5",
-      "published": "Fri, 09 Oct 2026 22:35:00 GMT",
-      "summary": "Personal Finance: Everyone hates bonds – is it time to buy?&nbsp;&nbsp;Chattanooga Times Free Press",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T06:35:00+08:00",
+      "title": "Scientists Find Squid Are Covered in Hair-Like Cells Remarkably Similar to The Ones in Human Ears - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcXRhMjExb29pTlFVelJONFozRWVaTERKcGljV29zYmhOMEZjT2k2eXl5dmd0QXBWekZ0cUJScmdCb05BM1RFcm85WndSLTlTNkZQbnBPZE82LVo4LUxiN1loWUdCcE9mSmY3dnN4bzQxaE84VWpSMEJBVWZjTnZ0UGFfZlQ4U3BhYkZYRzJMZ1BuTXhWb19GUS00X3doemRtUklVSWxINmRDbWZNVmU1VlJOdGxacDlNNUFXcm5uZ1VXTGtP?oc=5",
+      "published": "Sun, 11 Oct 2026 02:03:38 GMT",
+      "summary": "Scientists Find Squid Are Covered in Hair-Like Cells Remarkably Similar to The Ones in Human Ears&nbsp;&nbsp;ScienceAlertHair bundles of different lengths found on squid skin — ScienceAlert&nbsp;&nbsp;UA.NEWSSquid Skin May Work Like an Ear, Surprising New Research Suggests&nbsp;&nbsp;SciTechDailyA squid’s entire body may work like one giant ear&nbsp;&nbsp;Earth.comSquid are covered in little hairs like the ones in your ear&nbsp;&nbsp;Popular Science",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T10:03:38+08:00",
       "source_detail": {
-        "name": "Chattanooga Times Free Press",
-        "url": "https://www.timesfreepress.com"
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
       },
       "priority": 0.0,
-      "category": "碳+绿",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZZ3pyVElSTVhnU0pra2kwY2FpT0RTUWUyTEtneFdacngxLW0tdGtHZUV6UFNvQTdfZ1dhbFpZQTM1cHB0Y0pkQnFQb1R4ZkxwQ0NUTDM4ZWlNTy1vcFFPSEdyRVNmN01VMktrSGtHOWtJRGZoQUwwX05wbXdiZw?oc=5",
-      "published": "Fri, 09 Oct 2026 21:40:01 GMT",
-      "summary": "Three quantum-inspired cores leave opposite fingerprints on the ringing of black holes&nbsp;&nbsp;Phys.org",
+      "title": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmlibEVvSy1hZFgyaVZhaWVYSHA0UmV4RURQUjhkbzVfMUozSVp1aUtaMU1UakoyRENyWEk4ZEtFaWREQXdHcGJEbFhNamsyMWI1dDVrMTJBZFFOUGpBd2UyaUZOR2NDR3VrTXBuZ3dseElybHlVb0dWV2c4NktEcQ?oc=5",
+      "published": "Sat, 10 Oct 2026 21:20:01 GMT",
+      "summary": "Ultraviolet laser pulses engineer diamond defects selectively, leaving quantum qubits intact&nbsp;&nbsp;Phys.org",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T05:40:01+08:00",
+      "published_beijing": "2026-10-11T05:20:01+08:00",
       "source_detail": {
         "name": "Phys.org",
         "url": "https://phys.org"
@@ -602,15 +505,31 @@
       "relevance": "low"
     },
     {
-      "title": "NASA issues long-awaited call to industry for private space stations - Ars Technica",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV0xhSElrcUJMS1FBQk9LTTZkbk80dlI0VGdUaUFDX0RsQ0Y4SzlKSGZXZE1jMEZ1bFkwN0Z2dEFzNGNPU1NKRWh4WmFnSXpxTDRzOXlncE5ZbXR5aGhOb0VpdHlIYktnNFNLMTBYcXoxWEh6aHhDTlU4YVlVZlFFWXZKTWljSm1KNXJtSzZ2UXNwQkdmUWdMcDFaM255WjRrelFHNnI5V2xINDQ?oc=5",
-      "published": "Fri, 09 Oct 2026 21:34:09 GMT",
-      "summary": "NASA issues long-awaited call to industry for private space stations&nbsp;&nbsp;Ars TechnicaNASA Seeks US Industry Plans for Commercial Space Stations&nbsp;&nbsp;NASA (.gov)NASA seeks commercial space station proposals (SPCX:NASDAQ)&nbsp;&nbsp;Seeking AlphaConcerns Loom Amid Space Station Successor Program Delay&nbsp;&nbsp;Aviation WeekNASA Turns to Private Space Stations to Sustain Its Presence in Low Earth Orbit&nbsp;&nbsp;Hindusthan Samachar English",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T05:34:09+08:00",
+      "title": "How Investors May Respond To Tomra Systems (OB:TOM) EU Packaging Rules Tighten - Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb0ZGUVdVUE94Zjdpb2EyTTNKQzFhanNZX3IzVGtOaWllSlUxSjJCQ05BRWkyUS02M29HZVgtSzhBMHJMNmtxVld1aUZIcmVPMjF5Z19sMHNBeWtWUkVLMDJjb2dzTDFlUktoUnVsUU14MGRDdVRpTlNqN3BsQk1xaS0wbkNYV1BXZDFfckZPLUViREp0ZmpISVJZNnZGNmkwVU9FX2pBZXhsX05LUmNRODduWEZDdGFzV0pKMzZQRldSQUpDOGRBT2J5N2FoR3M5U2JJdm9n0gHbAUFVX3lxTE5ZWW1mMVNJTGxZYjlYclk3TThBVDdRNXlpVVcyUk5yQk15Y3l1SkRpa19DUjVIeW04ak8wdVlrcndCeF8tTlNZbGRMQVpxdXFxSFF4dUY0WWl1UGJlSlFJWl80ZnlFbjhCMWNOOGxxMWdjUGVyRHltYlVtSGdRVlN0QkYzbEx2bW83RGk4b21pSzh4c2xVcGZxcXJhLWNZM0lXWm5XMG5xUFY2UXNXV0ltUHdEcFBVMVFIcnlKalJhTjNlZ04ybUZnU3dkaVlwbFZyZUdIQ0d5VkZTdw?oc=5",
+      "published": "Sat, 10 Oct 2026 21:03:23 GMT",
+      "summary": "How Investors May Respond To Tomra Systems (OB:TOM) EU Packaging Rules Tighten&nbsp;&nbsp;Simply Wall Street",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-10-11T05:03:23+08:00",
       "source_detail": {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com"
+        "name": "Simply Wall Street",
+        "url": "https://simplywall.st"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists examined a 165-million-year-old fossil from China and found a broad swimming tail plus bony th - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxQYXN3UEMxWHkxcEl4VGxSVmVNY3RVa21JakFLb0FPRkM2VG1lM040N1locUNPeVNvSnFHLUVoSkdMMFBBZ1BmWDY5MUJHU2xzQ0l1RjA0SlNmQkNJMWhQb3lIZlNkQ2NMWGJPLWZpWk9qTDR0cFZYOHZsYWpmOEpMWlhKaGwtajJFSU5kdFlVS1FkVUl6am5HODJRX1p3ckRDa1VLOHp2MXVfSGlncC13WUthdjVMaE1PWHNUc09tSW9VeUpvUGctUF9Va1p3c3NnZkN1VWxBaVpvbnRoTWc2Z3dFWHkwOVpTRW9oTGRDY01lRmpSWmZmcHJKNEdTd2VTVnhhejZrM1BZVHBHUTExWW9XOVI5aVNPZXVFcFhGY0lpalpIVlEwMW1tVUhfYmdsdTRvTGhYemRuWUxBQ3I5ZW9ERDZtUFFvckhoQUJ3R3ZfYk9kSXI0bEFPU3lIb1JyVFNiWFRpeVZZeXZfMzVqazFhRnV0elJ0eE1yb2RtbmNnY3BUX0JvOXplOTZFcElOZUg4ODFUWlFqYXlx0gGiA0FVX3lxTE1GejVJZFA1SUU5OUFWNktRcjc4b1RYa0xTc0d3NFNYTkRHd3owenloUHJvZXpIZEVuTGh1dUUwcU9EVmhjUEt3WWRnb2RRNnRjN0NjRmNscTVaSmE0SzdiaHNFcTV1T1JSNjZzVWFnNGFTckVxUUFQVkxWVktRN2JxTmxUaUJUMTd1M29UZVZTdXhqRGFNRmFrbFBtV0l4SU11Y04zYllqSUM5QjBRSXdxSEhJTHZtQ0Q3OHJZX0o2eVpsbWk2WlYtMjdydlpWeUxKZjlSdzRQR0oyUHJUVExONUtlQ3pzc0F6QXhpNmhKNExUUG9fOVRWbF9kLWI2djJZclN5RTRpdUM5Y3pDMmtQRTIwcFdLSENKZVM4UW1iX3kwd0g3dEgzWTVuYTFUV0psLVE4ZHJqMG14YXFWM3A1T1JYcTE5SVRrSzdSUXktdW9HRmlKczcxbHlqajJzZU12QWNTOUxrSWZWaVBORnM4Z2hzV0JBcjlDUVYxdXY3RHlFcDNJZjFFYlhiaGVMbVQ4WjEtYVpxVjhxV2F0ZXhpc3c?oc=5",
+      "published": "Sat, 10 Oct 2026 16:28:00 GMT",
+      "summary": "Scientists examined a 165-million-year-old fossil from China and found a broad swimming tail plus bony th&nbsp;&nbsp;The Times of IndiaOtter-like critter swam lakes and rivers in the age of dinosaurs&nbsp;&nbsp;ReutersJurassic Fossil Shows Mammal-Like Throat Evolved Far Earlier Than Thought&nbsp;&nbsp;Sci.NewsA Jurassic mammaliaform swimmer and transformation of the mammalian pharynx&nbsp;&nbsp;NatureJurassic fossil reveals ancient origins of how mammals drink milk&nbsp;&nbsp;Phys.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-11T00:28:00+08:00",
+      "source_detail": {
+        "name": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -618,15 +537,15 @@
       "relevance": "low"
     },
     {
-      "title": "What to Do If You Find Grubs in Your Lawn—and How to Stop Them From Killing Your Grass - Martha Stewart",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fcGZkei13NTJuWHlRa3JGNUpGOGZENnc1b1MxUm85bHVlTXMwQjVRS2RDTzFmU3JlcmZiNlJaVnpETG8wLTlpUWVPTXhCNGdkVVdzNkxwc2F1VXdfSHFlc1kxclhnOF83YXc?oc=5",
-      "published": "Fri, 09 Oct 2026 19:00:00 GMT",
-      "summary": "What to Do If You Find Grubs in Your Lawn—and How to Stop Them From Killing Your Grass&nbsp;&nbsp;Martha Stewart",
+      "title": "Hybrid quantum computer observes foundational quantum effect in a new setting - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wZjRKX3FlZ01VWVJHTkhHaldRdWxQMkVvNkt2RTI3VTR2X2taVGptbjh3VGQ4OW1lRHhIc3hTNHcyN0YydXhBbXBZUUNuLWdpTHZ6VlA0ZzBBVmZnVl8zWFlBcF9JUGVXaV80SnZQX1RpajNSdW15cQ?oc=5",
+      "published": "Sat, 10 Oct 2026 10:57:07 GMT",
+      "summary": "Hybrid quantum computer observes foundational quantum effect in a new setting&nbsp;&nbsp;Phys.org",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T03:00:00+08:00",
+      "published_beijing": "2026-10-10T18:57:07+08:00",
       "source_detail": {
-        "name": "Martha Stewart",
-        "url": "https://www.marthastewart.com"
+        "name": "Phys.org",
+        "url": "https://phys.org"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -634,15 +553,47 @@
       "relevance": "low"
     },
     {
-      "title": "Dan Sullivan pushed to ease forever chemical laws after supporting them - The Alaska Current",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xQ2NVZUt6LVl2RTQ1MVFVLWV0bi1kYUx2a0FKaTExSGlpVGFURFJzdG5pdHRTc3dRc21GenlpNUpiM0pINnJrbVd2dnkzTXhtQkRLVEFRV3JISnF3WF9vYlF4WlVZX1VvMEJMdnQyeU9IcnlkcXE0SE02cw?oc=5",
-      "published": "Fri, 09 Oct 2026 18:55:04 GMT",
-      "summary": "Dan Sullivan pushed to ease forever chemical laws after supporting them&nbsp;&nbsp;The Alaska Current",
+      "title": "How a Pitt emeritus professor of physics has extended his life to an active 100 years old - Pittsburgh Post-Gazette",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUURjRmoxT2xwZFRCN1g2djlCWFl0VmtocmRxVk95VzM5dU55aFVQcERYdGpXRXJDYU9SbnpPRmUxa01kRmZrVTlmMEMyaC1QZ3pkTERfMGpGUFFhWllCeEZSQkZrTmU5aFdxVDlOdzU0dzFPNDRDb09oZXZJXzV2MzFSd082RHpaOUpBdXJaR0tDZUtUcGQtVWl4by1vaVk?oc=5",
+      "published": "Mon, 12 Oct 2026 03:34:27 GMT",
+      "summary": "How a Pitt emeritus professor of physics has extended his life to an active 100 years old&nbsp;&nbsp;Pittsburgh Post-Gazette",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-12T11:34:27+08:00",
+      "source_detail": {
+        "name": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Electric Shift - primemovermag.com.au",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YYzRLZFZCbUhXR3dUWmJWLTZLN05scHNZVGVmcVVwMG02Zm9KYmRaODEyWENrYmE0ZEZJX3I5eElhYV9BcFFzcEhPdEw4QXdFUHE0SFIwQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 02:49:16 GMT",
+      "summary": "Electric Shift&nbsp;&nbsp;primemovermag.com.au",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-10-12T10:49:16+08:00",
+      "source_detail": {
+        "name": "primemovermag.com.au",
+        "url": "https://primemovermag.com.au"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "European study finds TFA in all 110 blood samples, prompting demands for PFAS pesticide ban - The Cool Down",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNDAtRF9nelo4REVOb1lYUExCY1lSOG1FOWhCblF1cE1MUmVnWVVQeGNMWkJ4MUFMZDJCYmdaOWcwUVpDMUk3dWx4U085Nkh6MlpEcV9ScWpyV2xfaHlwVEstaXVvaHNKalVoN3ItdDZuQk1aX1pqdnowRHlVQ2lFeGF3?oc=5",
+      "published": "Mon, 12 Oct 2026 01:54:00 GMT",
+      "summary": "European study finds TFA in all 110 blood samples, prompting demands for PFAS pesticide ban&nbsp;&nbsp;The Cool Down",
       "source": "GNews | PFAS/Chemical",
-      "published_beijing": "2026-10-10T02:55:04+08:00",
+      "published_beijing": "2026-10-12T09:54:00+08:00",
       "source_detail": {
-        "name": "The Alaska Current",
-        "url": "https://thealaskacurrent.com"
+        "name": "The Cool Down",
+        "url": "https://www.thecooldown.com"
       },
       "priority": 0.0,
       "category": "气候风险",
@@ -650,12 +601,60 @@
       "relevance": "low"
     },
     {
-      "title": "Nightjar wings reveal a trade-off between hunting slowly and traveling far - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3T1JZWlJOcTYyWXZtV0tqemFJYk9hckJzWjhZVGFLZ1JTdzJVNVhUOTZzTFBrTXlNNnFzSU9KWnRhVWhBNUdoWHE0dWpQdjJfYUhFY1lSV0R0ZWlnNUowTk52YndxRWNVa3ZYbzRWWEo?oc=5",
-      "published": "Fri, 09 Oct 2026 18:40:14 GMT",
-      "summary": "Nightjar wings reveal a trade-off between hunting slowly and traveling far&nbsp;&nbsp;Phys.orgNightjars Pay a Speed Penalty for Hovering, Wind Tunnel Study Reveals&nbsp;&nbsp;Bioengineer.orgNightjar wings reveal a trade-off between hunting slowly and travelling far&nbsp;&nbsp;Bioengineer.org",
+      "title": "The Ocean Cleanup shifts its focus to Southeast Asia - IT Brief Asia",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeUtRMHNabWpTbHBtZUVxTFAwSkE2Qk9wRWZzZ3BNSDdmbThPQlhKN29XSVFZTUVVV0VmTXBYb0o0eXY1YmRsYXMxeGZXZEtJUWRNTHZqTUpzdmNvZlFVNWNDTm9VYXZLQUk3cmY0VDUySkVRQjFBY09Zc1QxdnkyekF3cE9EUQ?oc=5",
+      "published": "Mon, 12 Oct 2026 01:48:00 GMT",
+      "summary": "The Ocean Cleanup shifts its focus to Southeast Asia&nbsp;&nbsp;IT Brief Asia",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-10-12T09:48:00+08:00",
+      "source_detail": {
+        "name": "IT Brief Asia",
+        "url": "https://itbrief.asia"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Why SpaceX Wants To Catch Starship Instead Of Giving It Landing Legs - BGR",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY2NhaEdxb0RzZEZFM0otZVZWVmdNenhhdGJPMEotaEJIUm80R0FLNHhyYkpRUXRSdGRBY19HTGcxVGZSZVp2R1N1NVZWOEtzSVliOTZCVkw0WVRIaFAzUU9Bbzk3V1dCQXRyTklfN29icF93ejBDVUU0QVFqWjJWRXMyQnRsc3BBYy1rRDlTMVY?oc=5",
+      "published": "Mon, 12 Oct 2026 01:47:00 GMT",
+      "summary": "Why SpaceX Wants To Catch Starship Instead Of Giving It Landing Legs&nbsp;&nbsp;BGR",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T02:40:14+08:00",
+      "published_beijing": "2026-10-12T09:47:00+08:00",
+      "source_detail": {
+        "name": "BGR",
+        "url": "https://www.bgr.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Our Solar System May Be Destroyed 100 Times Faster Than We Thought - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOG1NSkhNRnFzb05jWXhWdS1UdEdNR1o5MzdKNFRkc3lxSGQ2X3pyR0ZMRFZKTjEzQlBRTU5FeEE1M3o3SHp5eFV4ZnFBREdob3hnTktFOWVRblhGWEJLY2hSbHZ6UkdxTElubDBpSXZ2S20xTEJoS1ktSnpaMVI0TlEtS05nYWl1dTNhNkhMX0phUl9yQnVaV2RxYw?oc=5",
+      "published": "Fri, 09 Oct 2026 22:01:24 GMT",
+      "summary": "Our Solar System May Be Destroyed 100 Times Faster Than We Thought&nbsp;&nbsp;ScienceAlertThe Solar System Might Be Doomed After All – And This Time We Can Blame The Sun For It&nbsp;&nbsp;IFLScienceModel predicts destabilization of planetary orbits after Sun loses mass — Nature&nbsp;&nbsp;UA.NEWSA new calculation could rewrite the Solar System’s ultimate fate&nbsp;&nbsp;Tech ExploristThe worst-case scenario for the Solar System&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-10T06:01:24+08:00",
+      "source_detail": {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fluorescent imaging tracks metabolism of cells in real time - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWFdMUk9jOUZweGFIZVZERDhLU3QxNmRmTHQ3Ti1EN1FEQlBfWFkwZ0FRYm5TdllWUFJ1aWd6M0F1SGJsOXdtMmRGWWlJeldQbUZlbENaN2hUSm9ybmpGS2lhRWFfaHhqblV2OU1DSHREUXZ4cS04MzFKT1JoR3Q2NEV1eEk?oc=5",
+      "published": "Fri, 09 Oct 2026 19:20:01 GMT",
+      "summary": "Fluorescent imaging tracks metabolism of cells in real time&nbsp;&nbsp;Phys.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-10T03:20:01+08:00",
       "source_detail": {
         "name": "Phys.org",
         "url": "https://phys.org"
@@ -666,47 +665,15 @@
       "relevance": "low"
     },
     {
-      "title": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
-      "published": "Fri, 09 Oct 2026 16:18:35 GMT",
-      "summary": "Four signs it is about to get uglier in the bond market as yields rise&nbsp;&nbsp;Reuters",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-10-10T00:18:35+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "[进展] Just 15% of the €6.5 billion in regional funds allocated to nature has been spent - Informat.ro",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUDlmaTdnTXlHQ0dmTU12TlVDUTdqN2xUU3lQOG1KcHB3Vl8tVHdWbEtwSV9Ed0kzaHBFS1oyTHU1WGhLMnloRXdMSExoMFIxQVJLRGdyOTJCOFdPTXNidkR3VTViYi1nR2tHeVg2WFg3NkZIY1pBMld2M2p5bll4QUQzYkxkdENFaW81cERIT21lZUM5Tk82UThSY2V3N2NOWllUM1pxYmJDRERUY0tLZ1RR?oc=5",
-      "published": "Fri, 09 Oct 2026 16:04:46 GMT",
-      "summary": "Just 15% of the €6.5 billion in regional funds allocated to nature has been spent&nbsp;&nbsp;Informat.ro",
-      "source": "GNews | Biodiversity",
-      "published_beijing": "2026-10-10T00:04:46+08:00",
-      "source_detail": {
-        "name": "Informat.ro",
-        "url": "https://informat.ro"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Mosasaurs Were Capable of Explosive Speed - Nautilus | Science Connected",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TUEpmWXM2al9lX05QdkFxcnpCbTlfRjZNUnRJUUtzNWR0d2pXRmlIOVR2LWtFaEZRNGFkNFE1UFkxWTE2UmhwOVNKVU9fbVgyN0x0Vng5aHdfRHdEM19fOVNFS3RwY0RrNnNzbEIxMjllQlB1ZUE?oc=5",
-      "published": "Fri, 09 Oct 2026 16:00:00 GMT",
-      "summary": "Mosasaurs Were Capable of Explosive Speed&nbsp;&nbsp;Nautilus | Science Connected20,000-pound mosasaurs ambushed prey with sneak attacks&nbsp;&nbsp;Popular ScienceThis Cretaceous 'Sea Monster' Attacked Prey Faster than Great White Sharks&nbsp;&nbsp;National GeographicSome of Those Ancient Sea Predators Were Built for Surprise Attacks&nbsp;&nbsp;Rutgers UniversityMosasaur tails reveal which ancient ocean predators were built for surprise attacks&nbsp;&nbsp;The Brighter Side of News",
+      "title": "'If I'm wrong, I can retire': Why some physicists are now betting big that dark energy doesn't exist - BBC Science Focus Magazine",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS1VTN1FJXzYwandMb19qbURnOXJ2d0Jnc2RleVRxQnc1UmVqaUNRWjVCaDl2UmNsVlpla0lFeGVIQVdjZV9vQVRfMGNtMnBQeVNvdHN3WXJfMEpvTEg4OHdQd2JXN3JyTDRDRzRvVmRhSHRjTFNOTW5NblpSblNvWFZETEJ1bnVhSkQ3MkNUMzA?oc=5",
+      "published": "Fri, 09 Oct 2026 17:00:00 GMT",
+      "summary": "'If I'm wrong, I can retire': Why some physicists are now betting big that dark energy doesn't exist&nbsp;&nbsp;BBC Science Focus Magazine",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-10T00:00:00+08:00",
+      "published_beijing": "2026-10-10T01:00:00+08:00",
       "source_detail": {
-        "name": "Nautilus | Science Connected",
-        "url": "https://nautil.us"
+        "name": "BBC Science Focus Magazine",
+        "url": "https://www.sciencefocus.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -714,95 +681,15 @@
       "relevance": "low"
     },
     {
-      "title": "Cool chemistry trick allows new tattoos to 'turn on and off' - Live Science",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUmw5Skd0SVowVGlzeU5MclVIcElTbmE3UGtVYnE1dE9DQmNLS2oxR3JfTUZpUnMtMGR2WlR2RGdmdDZ1X1pqVGNRWTlqMnZhUzJFWHI2Y1YwVEIxVkZvRVh6b2RCb2dLSmp5bHJYZUNocmJQLTFEWDNVY2libmgxUUF1bWVCanVKWERmVFVLUkVCNFVJNG5EcGh4aXY5Zw?oc=5",
-      "published": "Fri, 09 Oct 2026 15:00:00 GMT",
-      "summary": "Cool chemistry trick allows new tattoos to 'turn on and off'&nbsp;&nbsp;Live ScienceTattoos could be turned on and off with light&nbsp;&nbsp;New ScientistLight-responsive inks could make tattoos visible on demand, but safety remains unproven&nbsp;&nbsp;Phys.org'Invisible ink' keeps tattoos hidden until they're under certain light&nbsp;&nbsp;New AtlasTattoos that can disappear and reappear created | To read the study in detail | Inshorts&nbsp;&nbsp;Inshorts",
+      "title": "SpaceX brings recovered Starship home to Texas after ocean saga - Corpus Christi Caller-Times",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTU94ejZvazVPcmV6cXBoS2pVRjdmbEdKdml4WERKT0x5UEh4MDVYZV8tWWRPQjRnM2RCU0RseEdwN2J4OGZMWFZCeHNfYlVxaWpQeTBpcjRGalhrR3ZLWWpYRjJFSTBpWW9Kb2k3UUFkVUFpQk0tMHhZUUtuU2JVUXctR29rUXU5QVppa2NhTGl6N29CTHhjTVFmM01DcXFyU3RjX2VDeDR5b0E0VElCb2lFVGVYV2hG?oc=5",
+      "published": "Fri, 09 Oct 2026 13:41:00 GMT",
+      "summary": "SpaceX brings recovered Starship home to Texas after ocean saga&nbsp;&nbsp;Corpus Christi Caller-TimesFlight 13 Starship 40 returns home to Starbase, Texas, after months at sea&nbsp;&nbsp;Tesla OracleStarship Ship 40, used for Flight 13 and recovered from Indian Ocean, returns to SpaceX's Starbase&nbsp;&nbsp;Starlust.orgSpaceX's recovered Starship is back in Texas after months at sea&nbsp;&nbsp;San Antonio Express-NewsSalvaged Starship Returns To Starbase&nbsp;&nbsp;Aviation Week",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T23:00:00+08:00",
+      "published_beijing": "2026-10-09T21:41:00+08:00",
       "source_detail": {
-        "name": "Live Science",
-        "url": "https://www.livescience.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "See sunrise on Mars in breathtaking new NASA images — as mysterious, billion-year-old crags come into view - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaGtkUU5ENllHemIwUGxsLTRhWUJpRk5YM2prU0o0ZGJVYVk5S1A3TDZJRHB1WGZkV0tXbENvTjg3T3ozZ3NhV1gweTU1VnJVa3VjX01qdjYzWEdQSUMxN1hxRndxNlhZelpfajhLMzEyT2VLd2FuUmtFSV92VUJrZDYyMl90NWpPOVBDS1RnbVl0UQ?oc=5",
-      "published": "Fri, 09 Oct 2026 14:27:00 GMT",
-      "summary": "See sunrise on Mars in breathtaking new NASA images — as mysterious, billion-year-old crags come into view&nbsp;&nbsp;New York PostNASA’s Curiosity Rover Catches Stunning Martian Dawn&nbsp;&nbsp;NASA (.gov)NASA rover takes striking image of dawn's early light on Mars&nbsp;&nbsp;ReutersDawn breaks on Mars photo of the day for Oct. 8, 2026&nbsp;&nbsp;SpaceCuriosity Rover Snaps Another Banger Photo: A Martian Mountain at Dawn&nbsp;&nbsp;PetaPixel",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T22:27:00+08:00",
-      "source_detail": {
-        "name": "New York Post",
-        "url": "https://nypost.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "‘Manifest injustices’: top scientists are turning on Nobel prizes - The Times",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRV9CQ3dpcC1PSkstSHc3bmtVMUxMNjhGdHlWSnFnQlduVTE3UXpnWWdpbUV2eGNJbEpmZmx3UEVyN2hnd3FxaEc4RFg3Zkk4OEVmMGdwSWNDTTFXSC1WUGxHWXB3d0JlNDFNVGVuZTJQdEFLWXRqNlM0eVRINDBDbjJWcERzalBLbXpEM3VERTMwVGpo?oc=5",
-      "published": "Fri, 09 Oct 2026 11:45:48 GMT",
-      "summary": "‘Manifest injustices’: top scientists are turning on Nobel prizes&nbsp;&nbsp;The TimesThe invisible hand, of the Nobel kind&nbsp;&nbsp;The Economic TimesThe people this year’s Nobel Prizes left out&nbsp;&nbsp;The HinduScience highlights six landmark DNA and Human Genome Project breakthroughs that missed the Nobel Prize&nbsp;&nbsp;DongA ScienceGeorge L․ Kumar: Six Biology Breakthroughs Stockholm Missed&nbsp;&nbsp;Oncodaily",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T19:45:48+08:00",
-      "source_detail": {
-        "name": "The Times",
-        "url": "https://www.thetimes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Masterpress Expands Sustainable Packaging Capacity with New Paper-Based and Single-Layer PE Structure Pouch Production - Sustainable Packaging News",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBNS1oTk5paUloSDVSSVl6eDdvclBYWE1wamhVODViV0FWNTJFQXFTLTVjd3hMQVRnODJ2Sm5aYlFPSTJOeEJ2TFRyNkFDVngzSEFiWk1lV3dyejlSVHRMbUxPNEYtLXRKSnFR0gFrQVVfeXFMUEE1LWhOTmlpSWhINVJJWXp4N29yUFhYTXBqaFU4NWJXQVY1MkVBcVMtNWN3eExBVGc4MnZKblpiUU9JMk54QnZMVHI2QUNWeDNIQWJaTWVXd3J6OVJUdExtTE80Ri0tdEpKcVE?oc=5",
-      "published": "Fri, 09 Oct 2026 10:14:21 GMT",
-      "summary": "Masterpress Expands Sustainable Packaging Capacity with New Paper-Based and Single-Layer PE Structure Pouch Production&nbsp;&nbsp;Sustainable Packaging News",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-10-09T18:14:21+08:00",
-      "source_detail": {
-        "name": "Sustainable Packaging News",
-        "url": "https://spnews.com"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Saturday’s New Moon Sets Up October’s ‘Hunter’s Moon’ — Here’s How - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY1JwVUxqUUMzOHE0S0g3YnB5NW5KVGd5SXhkNzlIOUgzQkVuY25KOXdCYjhERXYyUXVCREQyWkNFb3hBYWRaWHp1RFQzODFfNkx2REQ3MjlROURJWUdMenMwdlY2MlMzeHkyalFMdG56UTB3RnhiT28wNHpVWVA4NElxYmVZTGdzM2xBRXl5TERYUmdHdF83SzlLQjZ1RzNMUFFJOA?oc=5",
-      "published": "Fri, 09 Oct 2026 06:00:00 GMT",
-      "summary": "Saturday’s New Moon Sets Up October’s ‘Hunter’s Moon’ — Here’s How&nbsp;&nbsp;ForbesWhen is the next full moon in Michigan? What skywatchers can see&nbsp;&nbsp;The Detroit News‘Hunter’s Moon’ to bring autumn glow to Ontario skies this month&nbsp;&nbsp;INsaugaOctober's moon phases offer something for astronomers and casual skywatchers alike&nbsp;&nbsp;DiscoverHumboldtOutdoors: Full moon memories always brighter&nbsp;&nbsp;Toledo Blade",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T14:00:00+08:00",
-      "source_detail": {
-        "name": "Forbes",
-        "url": "https://www.forbes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Rumbling volcano forces immediate trail closures at popular vacation hot spot - Fox News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMFUwV3FkSDJ5ZjhXVWV6bERXYTl6dmNxRlkyWkYxZHB1SFVZZmJwdWJOazAtaGdpUTV5eWV1M3pEMFlXNnZ2R253SFhKbmNZN2p3SndGLXd2U0lDaDNON2twWmVjcVJCZGljRHpwNWRhdTJYbFZraXl1a19hdVhCT2FpUzJZX1F4SnE3UHFmSzlFaDRUQ3cxM3pCLVEyVHVsSHl2a1ZTOUnSAa4BQVVfeXFMUC1Gbmp3Snd4SEJiNGVxd25Mc0Z5SGpnQW1kTTRtb3dkaEJZTGtKVWotOHRaR3VxSmVoQ3Z5Q05Ha1pZalRjVjU1RVJGTnhlVDhMZjRaSmd2Qk9oTzZZUURwMExtMm1scDNtS0NvWGV1NThlak1RazJxTFdRSGx0NzNOQmlhSFpkenVPX3RmZUR3N2w1WDdZWFdIV3JOX0QzM19JdE15VlRmM2VSUTB3?oc=5",
-      "published": "Fri, 09 Oct 2026 02:02:58 GMT",
-      "summary": "Rumbling volcano forces immediate trail closures at popular vacation hot spot&nbsp;&nbsp;Fox NewsWhat’s been driving Hawaii’s lava fountains?&nbsp;&nbsp;Ars TechnicaPhoto & Video Chronology — Flaming vents at Kīlauea summit&nbsp;&nbsp;USGS (.gov)Kīlauea Volcano Update for Friday, October 9&nbsp;&nbsp;Big Island Video NewsKīlauea's swelling summit helps scientists forecast lava fountain eruptions&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-09T10:02:58+08:00",
-      "source_detail": {
-        "name": "Fox News",
-        "url": "https://www.foxnews.com"
+        "name": "Corpus Christi Caller-Times",
+        "url": "https://www.caller.com"
       },
       "priority": 0.0,
       "category": "专题精选",
