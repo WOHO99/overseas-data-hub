@@ -1,9 +1,9 @@
 {
   "version": "4.0",
   "module": "跨境电商",
-  "updated": "2026-10-12T04:49:27.914330+00:00",
-  "fetch_date_utc": "2026-10-12",
-  "total": 24,
+  "updated": "2026-10-13T05:52:57.601900+00:00",
+  "fetch_date_utc": "2026-10-13",
+  "total": 32,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
@@ -17,7 +17,7 @@
       "feeds": 5
     },
     "物流+支付": {
-      "count": 3,
+      "count": 11,
       "feeds": 4
     },
     "中国卖家视角": {
@@ -37,19 +37,35 @@
       "feeds": 2
     }
   },
-  "fail_feeds": 17,
+  "fail_feeds": 16,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Cost over climate: Most Asean firms scaling back decarbonisation plans as higher energy prices bite - The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMGRNcEdVMk5XbklwejJqRXlRMHQ3VkMxaHFNY1R6U2g0Z3FGcmdXaVlEZlBndldmNWtSeDl3MmhfbjU3dzdjV1FoS0RjMTZKOEpfeXFQRHVxZ21kQ2FPS1V5ZmpwSjJIVEYyWk14SUtlM2hROUVEZDNCeVI3d1FEQnVUZnBPNkVTTDRfVW5zaDZ3TmlPNWNrMkdRLTh3LV9rbFF3b19fMjhia0VidENqeEhOSWtjZ1U1LW1uSDJHb2tKYjFrOGIyemdKcjM?oc=5",
-      "published": "Sun, 11 Oct 2026 23:00:00 GMT",
-      "summary": "Cost over climate: Most Asean firms scaling back decarbonisation plans as higher energy prices bite&nbsp;&nbsp;The Business Times",
-      "source": "GNews | Logistics Cost",
-      "published_beijing": "2026-10-12T07:00:00+08:00",
+      "title": "Can Shopify (TSX:SHOP) Keep Expanding Its Commerce Platform as E-Commerce Accelerates? - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa2dXZ2hHd3VHQjdxQkJROUptUW5FWmltYkFuZFhFWU9TMkd2ekNqUE9qejFONzF5d3ByVE5vc3pSbkhCcXJCdHFPQlNOZzJkc0ZmRktYUTBxdWMwUEtnUWVTZV9BTzlGVTJBQ3RQTDRKLWtHU0xmb0R2OElwR052VExNZ1hfUm5mUXpWcl9QcklQY3dVOU9ScjFfSUVYNGZGRTFEeERBV01iUXJTcURNTEY3SnllOUt5eVJBNDZpWk5vQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 08:58:00 GMT",
+      "summary": "Can Shopify (TSX:SHOP) Keep Expanding Its Commerce Platform as E-Commerce Accelerates?&nbsp;&nbsp;Kalkine Media",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-12T16:58:00+08:00",
       "source_detail": {
-        "name": "The Business Times",
-        "url": "https://www.businesstimes.com.sg"
+        "name": "Kalkine Media",
+        "url": "https://kalkinemedia.com"
+      },
+      "priority": 1.2,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How Singapore's Logistics Industry Is Using AI and Automation to Build Smarter Supply Chains - Business News This Week",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckZZS2RSeU5KdzUzUVBSV2djTUhoXzVpS3piei1TSkhLR2pzc1Awa0xMV1F5QnNoR3BteE9LeVRyNHZjM1M1VGRIckhfTE85R1VuRWhxSUpzcGZvMnBnRzNPUWJVLWcwZkRCX2gwdlRzcDdaT3lOUnAxdktMd0haaExIb181TjhLX2VfVkZaaGZLVV9Kc2JIWkhpeDVFNGRpb3h3TTFJaklqbEJ6WmFZREtULU5jcU00ZFBZQUxaWHl1SmxjcUloODJkSW1VdzA?oc=5",
+      "published": "Tue, 13 Oct 2026 05:31:38 GMT",
+      "summary": "How Singapore's Logistics Industry Is Using AI and Automation to Build Smarter Supply Chains&nbsp;&nbsp;Business News This Week",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-13T13:31:38+08:00",
+      "source_detail": {
+        "name": "Business News This Week",
+        "url": "https://businessnewsthisweek.com"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -57,41 +73,60 @@
       "relevance": "low"
     },
     {
-      "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-      "link": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
-      "published": "Sun, 11 Oct 2026 11:00:25 GMT",
-      "summary": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a f...",
+      "title": "Mastercard to modernise cross-border remittances with AI and stablecoins - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0xLOGhlTXVNSXJoZmV5S2E5Q0JEaGVZMG84RlFsUWZXUE5wN2dNelM4UUw4Wjl0bzZPUkZCa0Z2S1pXMjktQmZ0Z0piUzEtX2xkc043SXVBZWxscXVLbkJ0aFU5YWZ4WVN5c003aUt6SC1iS0IybC1HWWFIQWNlNEZrOHJ3d2ZKVHprTnJRMlZvUFIwUGhRYUtQbUJ4WU95LWk3ZlEtWUxiMzJUTUcta0pZYUVOTHo5dWc?oc=5",
+      "published": "Tue, 13 Oct 2026 00:30:32 GMT",
+      "summary": "Mastercard to modernise cross-border remittances with AI and stablecoins&nbsp;&nbsp;디지털투데이",
+      "source": "GNews | Cross-border Payment",
+      "published_beijing": "2026-10-13T08:30:32+08:00",
+      "source_detail": {
+        "name": "디지털투데이",
+        "url": "https://www.digitaltoday.co.kr"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+      "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+      "published": "Sun, 11 Oct 2026 15:56:25 GMT",
+      "summary": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, energy and foreign policy analysts have predicted.The US president infuriated ...",
       "source": "Guardian Business",
-      "full_text": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of artificial intelligence pixie dust. It will fail again. Continue reading...",
-      "published_beijing": "2026-10-11T19:00:25+08:00",
+      "full_text": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, energy and foreign policy analysts have predicted.The US president infuriated Volodymyr Zelenskyy when he announced the deal on Friday, writing on Truth Social that the agreement with his Russia counterpart to supply millions of tonnes of diesel was essential to reduce fuel prices in the US, which have soared after his decision to go to war against Iran. Continue reading...",
+      "published_beijing": "2026-10-11T23:56:25+08:00",
       "priority": 0.0,
       "category": "电商科技RSS",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "‘Some aren’t going to make it’: how pressure on farmers threatens UK food security",
-      "link": "https://www.theguardian.com/uk-news/2026/oct/11/farmers-uk-food-security-producers-supply-chains",
-      "published": "Sun, 11 Oct 2026 11:00:24 GMT",
-      "summary": "Food producers are adding their voices to the chorus of warnings about the vulnerability of British supply chains“There are so many decent, capable, productive, efficient arable farmers out there, asking how they are supposed to finance the crop they are meant to be putting in the ground,” Jamie Burrows says.Sitting in his tractor at his arable farm in Norfolk, Burrows is listing the multiple challenges facing him and other food producers. Continue reading...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-11T19:00:24+08:00",
+      "title": "Tissue Transport Containers Market To 2035: Cell and Gene Therapy Logistics Fuel Expansion - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWFFBLUZMeHFPUVhyQ1dMTDJzd3BHSkZRZFV6OUJncXJhdy1EbVVNSEd5WV9CSVJWNEM5c1pVVlZLaGRQNmIyTXdoNlVwNnBGRnZWZ3ByWnFxWW9zU05VcWhKMXJkSXN4UmR4ZXB3TjRFcWhwZDQ2UFBaYU9pT3NKRmwwcy1oWUw2LVZTM1RxaDhBZzBNMmZ4aGlCSnZwTjI2QW5WdnhEOHJPdXQwV0FUMXg1SXdJNkVWWEtvbmhEMXZJdHRXNk9Xd2Jn?oc=5",
+      "published": "Sun, 11 Oct 2026 13:41:04 GMT",
+      "summary": "Tissue Transport Containers Market To 2035: Cell and Gene Therapy Logistics Fuel Expansion - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-11T21:41:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
       "priority": 0.0,
-      "category": "电商科技RSS",
+      "category": "物流+支付",
       "_incremental": "new",
-      "relevance": "low",
-      "full_text": "“There are so many decent, capable, productive, efficient arable farmers out there, asking how they are supposed to finance the crop they are meant to be putting in the ground,” Jamie Burrows says.\nSitting in his tractor at his arable farm in Norfolk, Burrows is listing the multiple challenges facing him and other food producers.\nCrop growers such as Burrows are ploughing and cultivating their fields, preparing the ground – hardened and dried out during the long, hot summer – for their next crop.\nBut machinery requires fuel, and the cost of red diesel – used for agricultural vehicles and machinery that is taxed at a lower rate than standard diesel – has almost doubled since the conflict in Iran began in late February. The cost of most fertilisers used to grow crops and feed for animals has also soared by about 20% over the same period.\n“Some of these businesses aren’t going to make it,” concludes Burrows, who is also the chair of the crops board at the National Farmers’ Union (NFU). “It is very, very difficult.”\nThese are among the latest worries for Britain’s food producers, who also faced a succession of heatwaves and drought conditions during the UK’s hottest summer on record, which resulted in England’s worst recorded cereals harvest, according to official production estimates.\nFarmers, the first link in the food production chain, are adding their voices to the chorus of warnings about the vulnerability and precarity of the UK’s food supply.\nFood experts, academics, businesses and the public spending watchdog, the National Audit Office (NAO), have in recent weeks called on the government to work on making the UK’s food system more resilient.\nThe climate crisis, this year’s huge El Niño weather pattern, geopolitical shocks, energy outages and cyber-attacks are all considered threats to food chain security.\nAmid calls for ministers to treat food as a national security issue, parliament’s influential public accounts committee is to begin a series of hearings on Monday as part of its inquiry into the resilience of the UK’s food supply.\nMPs on the committee will look at the NAO’s findings on the shortcomings of the last catastrophe planning exercise by the Department for Environment, Food and Rural Affairs (Defra), which largely excluded food supply chain businesses.\nBritain produces about 60% of the food it needs to feed itself, but is more dependent on imports than many European peers. The government’s own research has shown Britons are less prepared for potential future emergencies than several European neighbours.\nSome in the food industry believe there are signs Andy Burnham’s government is beginning to take the threats to Britain’s food system more seriously.\nThe Cabinet Office will launch a campaign telling households to stock up on tinned foods alongside preparations for possible future emergencies. The government’s Prepare website outlines steps it says people should take, which include storing items at home, including bottles of water and nonperishable food, such as tinned meat, fruit and vegetables that do not require cooking.\nDespite this, a recent warning from more than 150 food experts and academics accused ministers of being “complacent” about food security and not having a plan to feed people in an emergency.\n“Historically we have done pretty well coping with specific events such as Covid and we’ve managed to ride through them, but we’re moving into a period where we’re having multiple crises impact at the same time,” says Prof Paul Behrens of the Oxford Martin School, University of Oxford, who signed the letter.\nThese include the worsening climate crisis and increased water scarcity in regions that now provide some of the fresh produce UK households rely on, including the Mediterranean and north Africa.\nMeanwhile, Behrens and other experts, including Prof Tim Lang of the Centre for Food Policy, City St George’s, University of London, have been warning for some time that the UK’s food distribution network is concentrated, leaving it exposed to potential disruption or targeting by bad actors.\nLang has previously stated that the UK’s supermarket network is supplied by just 131 distribution hubs – serving 12,300 stores – while the industry body the Cold Chain Federation has warned that most of Britain’s food imports enter the country through four ports – Dover, Felixstowe, Southampton and London Gateway.\nThe UK government wound up the strategic food stockpile that had been in place since the second world war in the 1990s. Behrens says other nations, particularly Scandinavian countries, now have “far greater national preparedness”.\nHe says: “They’re looking at community responses and how much households can have on hand. They’re looking at their own local production and some countries have strategic stores of grain.”\nMother of one Ana, 42, is one of a small but growing number of citizens who have been preparing for possible future emergencies for some time. Now living in south Wales, she is originally from eastern Europe and grew up in a family that grew food and preserved it for the colder months. She now shares tips on her YouTube channel, advising other households on resilience and how to build an emergency stockpile.\n“It’s just a normal way of life, basically safeguarding yourself and your family,” she says. Ana describes herself as a “prepper”, but wants to move away from its negative connotations, such as panic buying or being a survivalist.\n“The stereotype was … that preparedness is American, really weird, all camo and blokes in the bushes, hunting and eating squirrels and mushrooms,” she says. Instead she wants to help other citizens learn how they could cope for a few hours, days or even weeks without power, water or being able to get to the shops.\n“If the stereotype had been dispersed originally by the government, then people would look at preparedness as an everyday thing,” she says.\nRob Haward, the chief executive of organic vegetable box delivery company Riverford, believes the UK’s food supply chain needs a “very complicated rethink and a different vision for future security”.\nDevon-based Riverford distributes about 65,000 boxes a week to customers and about 70% of the produce it sells is grown in the UK, although it also has long-term relationships with growers in Spain and Italy.\nWhile the UK is always going to import fruit such as bananas, which cannot be grown in large volumes domestically, Haward believes consumers can also play a role by returning to eating more seasonally.\nHaward says longer-term contracts can help farmers, giving them confidence to invest in their land and what they grow. He adds: “There are different ways we can try to create a food and farming sector different to now and much more resilient to the future world,” such as working to restore soils to better withstand the changing climate. He also wants government to “pull levers” such as offering lower business rates to greengrocers."
+      "relevance": "low"
     },
     {
-      "title": "More Than 40,000 Lawn Mowers Recalled Over Serious Fire Risk: What to Know - Yahoo News UK",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhWVlZZm5vNHhsWFBlM2dVbm1VdTJsOGxaOGVIRVY5cVhENVo3RFRpeVp0bVltMWNBNERNcXRLcWpITzZ5cDVrejIwdmVER05ick5xZWhHdEQySWtVTkl4ckZZZmFwcmxfMFJoLWg0VHhHQQ?oc=5",
-      "published": "Sat, 10 Oct 2026 21:58:16 GMT",
-      "summary": "More Than 40,000 Lawn Mowers Recalled Over Serious Fire Risk: What to Know&nbsp;&nbsp;Yahoo News UK",
+      "title": "How car recalls get reported - FOX 32 Chicago",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZWZ1bHJDbkFHUlByU1FmZDRHN3VvaF8zQ2Jrck5jZFlrMTdjVnROMzJzWmVvZzRIR2Z2bm13WlNUR3JpT3Q0TEoyZE4tdUx5SEZvTldHVGJzQVNudTAzZnJna0QzeXppTUpxUkM0U2EtVkFPVkdhbm00d0NxY0JuMEppVW9qaTJmT1hMaWdDeGtOQVHSAZgBQVVfeXFMTTlnb1dUanVnYzJTZlVfX3RmMDM2MnJTLTlZZG5FS29xMkpQTUdNRXJJaVluUkhEX3VvbTZkcHBNV3E2eUl3UUdfOWlqdC1FTFdxTHZzYTlnT0xsYlB2blNyclRVdV8tUGZldFBsNkJEZUFDV0duMXBGZDFJVmFIYTVlX2ZWRzBSbXhrUUFTWUIxM3dVTXprZG4?oc=5",
+      "published": "Mon, 12 Oct 2026 20:45:00 GMT",
+      "summary": "How car recalls get reported&nbsp;&nbsp;FOX 32 Chicago",
       "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-11T05:58:16+08:00",
+      "published_beijing": "2026-10-13T04:45:00+08:00",
       "source_detail": {
-        "name": "Yahoo News UK",
-        "url": "https://uk.news.yahoo.com"
+        "name": "FOX 32 Chicago",
+        "url": "https://www.fox32chicago.com"
       },
       "priority": 0.0,
       "category": "关税+合规",
@@ -99,15 +134,124 @@
       "relevance": "low"
     },
     {
-      "title": "Global Economic Growth Faces Fresh Challenges as UNCTAD Lowers 2026 Outlook - boldnewsonline.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTlJfeUFkNXl3OTZkUEd6NE8xRi1EcmJwVF9hQ2NTZlJ6QnlDekFTbFM3VTF5RHNodXhUaG1DbmNsWXFQUklQNzdaY2plUHRzVXEwOGpITDFoOXg1aTlWOVNUcVVTZEtZS3VLUmtVa0gzRXBmWjhlN0lsYk0zazVFLXF3WnVrZXhDMnRoYXpXQW5kT0V2UURSZE9SbmdFdFVMWnVlVWlvTE55TVk?oc=5",
-      "published": "Sat, 10 Oct 2026 06:30:57 GMT",
-      "summary": "Global Economic Growth Faces Fresh Challenges as UNCTAD Lowers 2026 Outlook&nbsp;&nbsp;boldnewsonline.com",
+      "title": "Mexico trucker shortages, visa restrictions squeeze cross-border capacity - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDUxTkNPRE1memdHSmZ4dXRNbTVqcWFseGlBYzU4dVNTOGJBUm1qbXJGUW9zQW81aS1xR3VvMHV0X0RLbUhJanltU3ZiWVItU0lzTkp2NElKemdmRFRBSjJzTl9CdnpHenM2MzZFSEhxZ0xMeE9CV0ZySGxUQWVqbUVfaXZfNEpxcFN3UGtubkY0N1ZGODR3RG5kWE1OVS1kNy1TWm5HX3JxUQ?oc=5",
+      "published": "Mon, 12 Oct 2026 19:07:46 GMT",
+      "summary": "Mexico trucker shortages, visa restrictions squeeze cross-border capacity&nbsp;&nbsp;FreightWaves",
       "source": "GNews | Logistics Cost",
-      "published_beijing": "2026-10-10T14:30:57+08:00",
+      "published_beijing": "2026-10-13T03:07:46+08:00",
       "source_detail": {
-        "name": "boldnewsonline.com",
-        "url": "https://boldnewsonline.com"
+        "name": "FreightWaves",
+        "url": "https://www.freightwaves.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "More Than 2,000 Baby Bath Seats Recalled Over Drowning Risk - NTD News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdk1BRThUSFZKbEZoczBzNy1JLXJFVUgtZXc0ZlVIbG1ZMVVaeXAtdlB1ZTZtdVZfQ3U2VUFrTEppek13ZmdlZ3d1ZGNsYWo1OTR3R24zNG1ia18wSUtqUC00Y2hCZ0M0dVFPVWdZNV9YVkNSaE1hMU12bm8wOFA1c2xucGtmU2ZBVFg3UF9oR05FamQw?oc=5",
+      "published": "Mon, 12 Oct 2026 19:04:55 GMT",
+      "summary": "More Than 2,000 Baby Bath Seats Recalled Over Drowning Risk&nbsp;&nbsp;NTD News",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-13T03:04:55+08:00",
+      "source_detail": {
+        "name": "NTD News",
+        "url": "https://mb.ntd.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fintech PawaPay secures PSP license in Mozambique - Connecting Africa",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUngzMXBtX2t2MWtWQ2lNRGVuVXdWdzg0dVdWZklhbzlKRngtTktCVXFjNFR4T25tT3pCV1ZkeExHOGlVbUk4UVpLaV8yTkNWN1JqTUdBSko1VVlPLVVKcVZ6U094SHhBM2F4UmdqZHVpek1wX09jb0NJZ3pHaTl5ckQ1QnluWGRoVDFnT1MzeGxKWHZxNHhjVg?oc=5",
+      "published": "Mon, 12 Oct 2026 15:30:36 GMT",
+      "summary": "Fintech PawaPay secures PSP license in Mozambique&nbsp;&nbsp;Connecting Africa",
+      "source": "GNews | Cross-border Payment",
+      "published_beijing": "2026-10-12T23:30:36+08:00",
+      "source_detail": {
+        "name": "Connecting Africa",
+        "url": "https://www.connectingafrica.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+      "link": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+      "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+      "summary": "US economists developed models that help central bankers and finance ministers to stabilise their economiesBusiness live – latest updatesTwo US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to stabilise their countries, avoiding long recessions and runaway inflation.Robert Hall of Stanford University, California, and Michael Woodford of Columbia University, New York, were recognised for developing the “microeco...",
+      "source": "Guardian Business",
+      "full_text": "US economists developed models that help central bankers and finance ministers to stabilise their economiesBusiness live – latest updatesTwo US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to stabilise their countries, avoiding long recessions and runaway inflation.Robert Hall of Stanford University, California, and Michael Woodford of Columbia University, New York, were recognised for developing the “microeconomic foundations of macroeconomic stabilisation”, giving policymakers better tools to smooth out the peaks and troughs of their economies. Continue reading...",
+      "published_beijing": "2026-10-12T22:20:53+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Global Intralogistics Market to Expand at 10.6% CAGR Through - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONzlmSk9jMUdKano5T0JkaEhCcDBRVmlnX3A2RlJITmN0VFBFV2NxdkNGS3ROU0dVLVdXbjNfOWJONFMzTnRqdnhRbXdLV3ZSVllFVzAyQ3dUeFRCM3Z6Q0E4aFNpRXY4eWE3cjZIaXR2TTRHUl9QN2MyN2hnem5pOGQ3b2VXTmt1TW5YZ0lUUUpoNUNfRWVaSW5EMA?oc=5",
+      "published": "Mon, 12 Oct 2026 13:17:14 GMT",
+      "summary": "Global Intralogistics Market to Expand at 10.6% CAGR Through&nbsp;&nbsp;openPR.com",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-12T21:17:14+08:00",
+      "source_detail": {
+        "name": "openPR.com",
+        "url": "https://www.openpr.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "More than 82K rechargeable hand warmers recalled over fire risk - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQjRWZGloRXBOS2tSd3E1Y052RmM0eVFWV3JyRHViUVJCaDB0ZDhoci16TEp4NnZ5TVUzSnJEa19DVGFCMzFDU3RRaXBWbjdVTmFmdnlMZ19yY2J4dGF6Q2JIV3ZraFFUa2sxTnY4cHVIcGZqVXFDTjBvY2tLZHRrcnhub3ZsTk5BbjZldVBZYlltSElpYVR5d29uOWVZaVFQWWtaaHpB0gGmAUFVX3lxTE1CNFZkaWhFcE5La1J3cTVjTnZGYzR5UVZXcnJEdWJRUkJoMHRkOGhyLXpMSng2dnlNVTNKckRrX0NUYUIzMUNTdFFpcFZuN1VOYWZ2eUxnX3JjYnh0YXpDYkhXdmtoUVRrazFOdjhwdUhwZmpVcUNOMG9ja0tkdGtyeG5vdmxOTkFuNmV1UFliWW1ISWlhVHl3b245ZVlpUVBZa1poekE?oc=5",
+      "published": "Mon, 12 Oct 2026 07:21:00 GMT",
+      "summary": "More than 82K rechargeable hand warmers recalled over fire risk&nbsp;&nbsp;Fox Business",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-12T15:21:00+08:00",
+      "source_detail": {
+        "name": "Fox Business",
+        "url": "https://www.foxbusiness.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Nicht Modernisierungsschub sondern Funktionswandel: Die Lagerhäuser von morgen – Indiens Weg zur intelligenten Logistik - Xpert.Digital - Konrad Wolfenstein",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ndUYxTzE5Qk9DSFZ1aGh0T1NvQlpoYTFkQ1k1ZW1KejltMTlrWnozeHpkMF8zUW1OX3RCUGdieG9zRmNmUjVfWkd3ZzJHOHV5bVZTZlQtNkRTcnRZaGxpUXRB0gFqQVVfeXFMT2d6cGw1OG9pb3N4VTQwNFBYeWU5UlBkTDNzbjUzTnhpanRUdUNiZTlsTFFQbnVoazREWG1JVHdsYzIyU1NaVDd4R0RKS2k4YmRNaUV4Um96cnJaVTZ2bTl4QkZ2RWR5MU9LQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 06:14:31 GMT",
+      "summary": "Nicht Modernisierungsschub sondern Funktionswandel: Die Lagerhäuser von morgen – Indiens Weg zur intelligenten Logistik&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-12T14:14:31+08:00",
+      "source_detail": {
+        "name": "Xpert.Digital - Konrad Wolfenstein",
+        "url": "https://xpert.digital"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Traffic Mirrors Market Forecast to Expand Toward 2035, Driven by Warehouse Safety and Infrastructure Upgrades - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeTZtQjZ0X0NEOFEwWlhKSVVmaUM4bmMzTTd0MG9uNU5OZ1VHZ1YxYnpSYXJGRjFrdWpEdGFiWTlmcEZSTlFVYkczQVVabjBSeVk0RFhyUll4NnRibS1yUGxCcHhSaE9oSjJqNC1JWWlQZHJyaFZqelVWa3dGQVlCU1c5VWhILUdIaEw5c21JOHJnU3dKN2hTRzhhUWpnRDNoc19qU3ZtYm1BYUdiYThCMy10c1U5ZnhNb1NkNzRGbXdDNzVMUWJlWmFLbWlHaDUyelpYQg?oc=5",
+      "published": "Mon, 12 Oct 2026 05:06:04 GMT",
+      "summary": "Traffic Mirrors Market Forecast to Expand Toward 2035, Driven by Warehouse Safety and Infrastructure Upgrades&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-12T13:06:04+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -127,22 +271,6 @@
       },
       "priority": 0.0,
       "category": "中国卖家视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Baby Bath Seat Recall: Thousands Face Drowning Risks - Baller Alert",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96N0hDQzdvVkNVQW52aUNyWE5BWmEwd0tWSWZmRzA1ZGdpYXlxUXhHVzZDbXhGcm4wREJHb3FXZm9nR0VyNHBTSWk5SFFWMWwtcTZQeHFldFJxYnVFVTNVUEJjM0hDMkF1OVNOcUxpQkxrMTNUdXF4aS00N08?oc=5",
-      "published": "Mon, 12 Oct 2026 01:59:16 GMT",
-      "summary": "Baby Bath Seat Recall: Thousands Face Drowning Risks&nbsp;&nbsp;Baller Alert",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-12T09:59:16+08:00",
-      "source_detail": {
-        "name": "Baller Alert",
-        "url": "https://balleralert.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
       "_incremental": "new",
       "relevance": "low"
     }

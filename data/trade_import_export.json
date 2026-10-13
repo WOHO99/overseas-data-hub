@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "进出口贸易",
-  "updated": "2026-10-12T04:49:28.964443+00:00",
-  "fetch_date_utc": "2026-10-12",
-  "total": 171,
+  "updated": "2026-10-13T05:52:58.095656+00:00",
+  "fetch_date_utc": "2026-10-13",
+  "total": 188,
   "high_priority": 0,
   "medium_priority": 6,
   "signal_alerts": {},
   "stats_by_category": {
     "贸易管制": {
-      "count": 16,
+      "count": 27,
       "feeds": 5
     },
     "自贸协定+原产地": {
-      "count": 10,
+      "count": 27,
       "feeds": 4
     },
     "贸易壁垒+数据": {
-      "count": 15,
+      "count": 12,
       "feeds": 4
     },
     "中国企业视角": {
-      "count": 21,
+      "count": 15,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -37,67 +37,87 @@
       "feeds": 5
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 10,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "US Trade Deficit Hits $105.6B in August, Highest Since March 2025 - KuCoin",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbmduRTJ6M2Zrd1hVQ1hzemJGZlJxT3Q2RFluZlE1M0JWYUVxV1RReG5rNkIzT0dVUGRIbmRfNHkyb1QwdjFXalFMV1h0Vmp4ZFJVSmV0ZTMzWWNsU1NxM3U2TUhNcGt5Y1pHZzlYMUVodThiNXNHNkZKMmptV1l2QTRCNVpYVTVTaF9JakNDN0lZM29mZWZlYVh3?oc=5",
-      "published": "Sun, 11 Oct 2026 08:03:00 GMT",
-      "summary": "US Trade Deficit Hits $105.6B in August, Highest Since March 2025&nbsp;&nbsp;KuCoin",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-11T16:03:00+08:00",
+      "title": "EU-China trade talks grapple with tariffs, rare earths, and export controls - The Brussels Times",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3JHME9YUnBPM3JCdFRfVDBFbUlVTkVhbm1qQjd0Wkd3VFdKd2Rsb1dWVGRnNjFLZGYzY05oT0RsWGxiclVCRlF2cTc5Z0hJMmxuQUd1b0lIdXdOa2x1QVltWUt4RDdUZkItWUF6azV3QjZZWWo3SmF2OWw0UFVsMnVfU0U3bkNHNGNjMHRkaTZhY3BoTk9GcjRydHNid0hSeXNCNE5fZ1lxVDRiMm5Ed2FVZnF6eDFOYXhzNG4tcw?oc=5",
+      "published": "Mon, 12 Oct 2026 21:20:55 GMT",
+      "summary": "EU-China trade talks grapple with tariffs, rare earths, and export controls&nbsp;&nbsp;The Brussels Times",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-13T05:20:55+08:00",
       "source_detail": {
-        "name": "KuCoin",
-        "url": "https://www.kucoin.com"
+        "name": "The Brussels Times",
+        "url": "https://www.brusselstimes.com"
       },
-      "priority": 4.8,
-      "category": "贸易壁垒+数据",
+      "priority": 7.2,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.brusselstimes.com/eu-affairs/2357552/eu-china-trade-talks-grapple-with-tariffs-rare-earths-and-export-controls",
+      "full_text": "EU and Chinese trade chiefs agreed to hold further talks on tariffs, export controls and market access after meeting in Beijing on 8 – 9 October 2026.\nChina’s Commerce Minister Wang Wentao met Maroš Šefčovič, the European Commission’s Commissioner for Trade and Economic Security, Interinstitutional Relations and Transparency, for the second meeting of the EU-China Trade and Investment Consultations, the European Commission announced on Friday.\nBoth sides reaffirmed they would handle differences within World Trade Organization rules and continue work intended to stabilise and make the bilateral relationship “more balanced”, according to a joint statement published by the Commission.\nA third ministerial meeting was scheduled for March 2027, with a ministerial video conference planned for January before that.\nHybrid vehicles, rare earths and market access\nThe EU and China said they would explore the possibility of reducing or eliminating tariffs on certain goods within WTO rules, according to the statement.\nThe two sides stated they had reached an understanding on trade in hybrid vehicles “in a WTO compliant manner”, while also recalling a guidance document on “price undertakings” in the EU’s battery electric vehicles anti-subsidy case — a process in which companies can agree minimum prices to address subsidy concerns — and said they would continue related procedures.\nThey also agreed to continue dialogue on access to each other’s markets for medical devices, with the EU welcoming China’s stated effort to increase imports of EU medical devices, including through a matchmaking event during the 9th China International Import Expo.\nChina said it would accelerate recognition of the “regionalisation principle” for eligible EU member states — a risk-based approach that can limit trade restrictions to affected areas — and both sides agreed to exchange methods and technologies for disease control as they explore lifting restrictions on animal products affected by bluetongue disease.\nOn export controls, the EU and China said they would strengthen their export control dialogue and increase exchanges on their respective policies.\nChina said it was willing to continue facilitating export licences for rare earths and permanent magnets to the EU through a fast-track mechanism, while the EU said it would continue working with member state authorities to facilitate specific priority licences to China in “dual-use” sectors — goods that can have both civilian and military applications.\nThe two sides also said they had reached an understanding to provide advance warning and improve transparency around the listing and delisting of entities under export control procedures.\nThe statement added that the EU and China would continue work on intellectual property issues through an EU-China Intellectual Property Working Group and strengthen communication on WTO reform."
+    },
+    {
+      "title": "Eight of Malaysia’s nine anti-dumping measures cover iron, steel products — Miti - The Edge Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sYU56TFNXaGozOWJkUHMxdUlKdl9pcEpaUUFWN3FJQk02cHVVSmhkYVVFdG5xNmM2QmhuUDdxckRWRFQ5SExCTUUyUlBpYWlSUUc0?oc=5",
+      "published": "Mon, 12 Oct 2026 16:06:31 GMT",
+      "summary": "Eight of Malaysia’s nine anti-dumping measures cover iron, steel products — Miti&nbsp;&nbsp;The Edge Malaysia",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-13T00:06:31+08:00",
+      "source_detail": {
+        "name": "The Edge Malaysia",
+        "url": "http://www.theedgemarkets.com"
+      },
+      "priority": 6.0,
+      "category": "贸易管制",
       "_incremental": "new",
       "relevance": "medium"
     },
     {
-      "title": "Vietnam targets 2026 trade deficit below $10 bn - Fibre2Fashion",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX3dqbHlUSnpvWDE0X2pZZnZPWUE0QkJZMnd4aHZEMERuQUJOY2tRamJIOWNrVDBHdUFMaGo1eVM4alI5aDA3bC1qdnhLdkxSdUdieUxIcExLZV9mR24waGpMMXlELUM5QVYyaEJxY0tnendTbDlKdzFLNFlpbjBfVWJsYzhXNERWQ29hZHJaM3N0UHRDNkFYWU1uZjgwc201V0dfSFZIME05SUNCc1BtTS1HeU51Wmpic0QzOXdoZVVNVTlUczBXeGcxZ2Y?oc=5",
-      "published": "Mon, 12 Oct 2026 02:38:08 GMT",
-      "summary": "Vietnam targets 2026 trade deficit below $10 bn&nbsp;&nbsp;Fibre2Fashion",
+      "title": "Minister urges ‘drastic’ action to cut reliance on imports amid review of China trade deficit - The Edge Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zYWtCaFRpUWNPckU4bFlmVTNtUGRtZTdoZndhbWxTWjZnQ2VDZWJaSDY2ZnAyQlJtckhEY2dJUXNvWVlFYjVyNFBhbE11dnF6?oc=5",
+      "published": "Mon, 12 Oct 2026 04:33:43 GMT",
+      "summary": "Minister urges ‘drastic’ action to cut reliance on imports amid review of China trade deficit&nbsp;&nbsp;The Edge Malaysia",
       "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-12T10:38:08+08:00",
+      "published_beijing": "2026-10-12T12:33:43+08:00",
       "source_detail": {
-        "name": "Fibre2Fashion",
-        "url": "https://www.fibre2fashion.com"
+        "name": "The Edge Malaysia",
+        "url": "https://theedgemalaysia.com"
       },
-      "priority": 4.8,
+      "priority": 6.0,
       "category": "贸易壁垒+数据",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://theedgemalaysia.com/node/821451",
+      "full_text": "KUALA LUMPUR (Oct 12): The government must take “drastic” action to reduce its reliance on imports and strengthen domestic manufacturing, said Investment, Trade and Industry Minister Datuk Seri Johari Abdul Ghani.\nHe said specifically, the government is reviewing products that contribute to Malaysia's large trade deficit with China, including goods that were once made locally.\nJohari did not specify the measures being considered or their implementation timeline.\n“We have held many engagement sessions with local companies. Although they disagree, we must take very drastic action for the country’s long-term benefit, to protect our economy without depending on countries that we believe could adversely affect our economy as a whole,” Johari said during oral question time in the Dewan Rakyat on Monday.\nThe trade minister was responding to Datuk Adnan Abu Hassan (BN-Kuala Pilah), who asked about Malaysia’s exposure to trade tensions and new tariffs arising from its concentration on major trade markets, such as the US and China.\nAdnan also asked how the government would ensure export diversification developed higher-value added products, instead of merely expanding assembly or processing activities with limited domestic value added.\nAccording to data from the Department of Statistics and the Ministry of Economy, Malaysia had a trade surplus of RM101.5 billion with the US in 2025, and a trade deficit of RM163.4 billion with China in the same period.\nIn the first eight months of 2026, Malaysia's trade deficit with China stood at RM159.8 billion, the data showed.\nIn plain terms, Malaysia sells far more to the US than it buys from it, but buys far more from China than it sells to it.\nThe Ministry of Investment, Trade and Industry will examine why some products previously made by Malaysian companies were now being imported, and whether domestic manufacturers could resume producing them, he said.\nHe argued that relying on cheaper imports could undermine local manufacturing capacity. Once domestic factories closed, products previously imported at low prices could become more expensive, he added.\n“We can no longer simply allow imports as the easy way out,” Johari said. The government would identify sectors requiring support to produce raw materials and semi-finished goods locally, with small and medium enterprises playing a greater role in supplying exporters.\nResponding separately to a supplementary question from Permatang Pauh MP Muhammad Fawwaz Mohamad on domestic value added in electrical and electronics (E&E) exports, Johari cited RM712 billion in E&E exports and RM567 billion in imports last year, resulting in a sectoral trade surplus of about RM145 billion.\nFor non-E&E products, he cited exports of RM897 billion and imports of RM885 billion, leaving a much smaller surplus of RM12 billion.\nJohari said Malaysia’s semiconductor companies should expand beyond conventional assembly, testing and packaging into advanced packaging. He acknowledged that Malaysia’s substantial exposure to E&E exports left it vulnerable to a downturn in the global semiconductor cycle, changes in technology, supply-chain disruptions and geopolitical tensions.\nA sharp downturn could trigger inventory adjustments and production cuts, weighing on national exports, particularly if growth in other sectors was insufficient to offset the decline, he said.\n“The government’s approach is not to reduce the role of E&E and semiconductors, which are among Malaysia’s competitive strengths. Instead, we are managing the risks of this dependence through three main strategies,” he said.\nThese comprise strengthening the E&E value chain through activities such as integrated circuit design and advanced packaging; developing other high-value industries and domestic supply chains; and broadening export markets."
     },
     {
-      "title": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOREYtQU45cmhRUFFGWkV6VU9qTlNDM2pYdHhFeHEwZ3o1bDZvZXJ2SXRHN0lJREc5dEw0SWZ0Wm12NW1xblpRcTRxZUVXTmtHUm5qczVmdklnLXVTVVhNNzdWV0d3XzdGYXJQSHZkd2tVUzVRN1BxTmtCZ0pvMXVUdm0tVy0?oc=5",
-      "published": "Sun, 11 Oct 2026 20:00:01 GMT",
-      "summary": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal&nbsp;&nbsp;Financial Times",
+      "title": "We Export 48 Million Barrels of Diesel per Month, Why Import from Russia? - MishTalk",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXRNOE93SU05d2Z3YUxHcEl6TUltTWZ6Z1ZzVFMxTzE1UkpobDhTcFh1Mkt1ODVVT0VrYnFfVDFMajJ4cE9HYmU4dWlZeXRReHRLSkxuSXVrSEVsVTk1cm9FeW93aHhwakctcmtScUJZbnB4ZThzc2xqUnVxYXoyTUFlQlNjQ0UtSEZNSWNIZzBzQTZsQjFmdW90MzhtaTFfc0JxN3dn?oc=5",
+      "published": "Mon, 12 Oct 2026 22:25:39 GMT",
+      "summary": "We Export 48 Million Barrels of Diesel per Month, Why Import from Russia?&nbsp;&nbsp;MishTalk",
       "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-12T04:00:01+08:00",
+      "published_beijing": "2026-10-13T06:25:39+08:00",
       "source_detail": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com"
+        "name": "MishTalk",
+        "url": "https://mishtalk.com"
       },
-      "priority": 1.2,
+      "priority": 2.4,
       "category": "贸易壁垒+数据",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "China, EU step up contest for Kenya’s farm exports - The Star, Kenya",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYjZ5dGJRb1pNQTc3T2pFYzNxODBPVjdDWUgxcmJZbDVzZ3BRUGx2YUNqSDFjbWp2UkpKaXk5SlktVG9aR3pJTWpmRmpjMy1YN2FFT3Q3dzBHd256QkJxQWlETnlYaldYaW5GS09XeVF2OGFKU2Y3X1ctNTR1dUZxcFVHU21FcldBRUNtQ2pJbzdoaUFOZ2c?oc=5",
-      "published": "Sun, 11 Oct 2026 11:30:00 GMT",
-      "summary": "China, EU step up contest for Kenya’s farm exports&nbsp;&nbsp;The Star, Kenya",
+      "title": "China-EU trade deal: Europe targets China's USD 7.5 billion hybrid car boom with export curbs - https://internationalfinance.com/",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbC1KbXo5aGhBVHJldXZXZkJzU2xCd3VGNjYzZjBZTWNMcEpyelR1ZG93am01bHBHTDVqVmhDQi1aMHpGTllTTHhtRFV4S05yYzYzbnlCRWhUOGpmb0N2WWJFWENMLUd6UUF6bkJpbWNFMmw2Rlp0V3k2MjJtUDgwX3dHb3BOc1lUSU5NODFLYWdrRGhwbTE1THBleHpLeVVBS3hJZ2Z3VmZ4M2hnSjViWUFwaG5VTmppQTQ0RVB1TGZuaEJkMGtHNVduZEVkQURU?oc=5",
+      "published": "Tue, 13 Oct 2026 00:00:57 GMT",
+      "summary": "China-EU trade deal: Europe targets China's USD 7.5 billion hybrid car boom with export curbs&nbsp;&nbsp;https://internationalfinance.com/",
       "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-11T19:30:00+08:00",
+      "published_beijing": "2026-10-13T08:00:57+08:00",
       "source_detail": {
-        "name": "The Star, Kenya",
-        "url": "https://www.the-star.co.ke"
+        "name": "https://internationalfinance.com/",
+        "url": "https://internationalfinance.com"
       },
       "priority": 1.2,
       "category": "中国企业视角",
@@ -105,15 +125,63 @@
       "relevance": "low"
     },
     {
-      "title": "Brussels wants China to shrink its €1bn daily trade surplus, and talks have started in Beijing - Visegrád Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblNFX1FyVnNrRmhpeFNtMEJ3dFQyVHBlc1dmWnNrdFMyakhDdlhjVWZIT2MyZUNxRHVlOVRDcWRqVVBSVkRQNGRtNEZzZnFYTGtRdXJlU2I4NlZ3dGZweDI4ZWFRalVRb3BNa3FBNkl3YjlsQm5fUnlOVDJ0X09tZ3pGb1N1c2tWNVN5X2owaWFkNTBMRFJKQ1hCM0p1VFpyanF1QmVQVVBMdnFLSVNibmFIMzVTRlRDQm5NeDlWX1I5TS04YUZKVnc5Qm0?oc=5",
-      "published": "Sat, 10 Oct 2026 23:13:29 GMT",
-      "summary": "Brussels wants China to shrink its €1bn daily trade surplus, and talks have started in Beijing&nbsp;&nbsp;Visegrád Post",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-11T07:13:29+08:00",
+      "title": "China’s Passenger Car Exports Surge 64% in September Amid Domestic Sales Decline - SSBCrack",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTm1NdGo1a3RqUVgtZnJUU0pHaWFEYWpsOERfZ3VQUjM0Y0I5QzdUaGZmV3pIZzNselRhSFc5bm5aLTc4Ny1hUk1HZy1nNVRtSk5KY2RmTDJzelNncjR0RnVWbl82QkF3S0tXaVJxQVlLTl9FS2JNcXFpRkk4SlVsX19xN2JvU0tPNWhZMmsxU2dJQkRlZTYxaXc3am0wRnNMd1hzMjZIZTE?oc=5",
+      "published": "Mon, 12 Oct 2026 23:43:54 GMT",
+      "summary": "China’s Passenger Car Exports Surge 64% in September Amid Domestic Sales Decline&nbsp;&nbsp;SSBCrack",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-13T07:43:54+08:00",
       "source_detail": {
-        "name": "Visegrád Post",
-        "url": "https://visegradpost.com"
+        "name": "SSBCrack",
+        "url": "https://news.ssbcrack.com"
+      },
+      "priority": 1.2,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU Caps Chinese Hybrid Car Imports at 350,000 as Brussels Moves to Protect Europe's Motor Industry - EU Today",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDTEZmbTdpTy1DZjhQd2UwRTFPNjkxTnJoQWhFVHZnZjZ6cHBBN1VSNDNRRmtfRnlpTXJNVVFkV2hZYTlsbElfd25QY0dwN1cyd1M1WXF3VVhRVENZYkNCcWlIYk00ekZ1VEJQcy02UQ?oc=5",
+      "published": "Mon, 12 Oct 2026 22:03:49 GMT",
+      "summary": "EU Caps Chinese Hybrid Car Imports at 350,000 as Brussels Moves to Protect Europe's Motor Industry&nbsp;&nbsp;EU Today",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-13T06:03:49+08:00",
+      "source_detail": {
+        "name": "EU Today",
+        "url": "https://eutoday.net"
+      },
+      "priority": 1.2,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "ADB unravels Sri Lanka’s unrealised export potential - Ceylon Daily News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNFpDcXdydGlxNkVBdHp6RWhobGN5a0pWSW1PVTVqaDdNMmtEUjAzVzVsdUtZWENFaXhhU2F5anpROE1Sal9sejNDOEFOOUpERG9nNTNJWWVvTGE4eGJnOEJYOHMyOXJ1UTlhTFI5ZEVuMkxtM19faFdRSmN4cjRRTUdVY3RWWnlTYTA4eWNHVlhsRHF5cmVHTE1IUE44djBwQ0Z2YlBvZzhMdEVZ?oc=5",
+      "published": "Mon, 12 Oct 2026 19:40:45 GMT",
+      "summary": "ADB unravels Sri Lanka’s unrealised export potential&nbsp;&nbsp;Ceylon Daily News",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-13T03:40:45+08:00",
+      "source_detail": {
+        "name": "Ceylon Daily News",
+        "url": "https://dailynews.lk"
+      },
+      "priority": 1.2,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chatroom: How to reduce demurrage on detained import consignments - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbDJ3Z3NGalJ4aWJOVjNhVzhWZXR5VWNMVUFwNHMwU3RTVVVwQ2dZQko1VFBESDZHRmYxLW55U29yUlE4bmxLT2NpNVhaR1hZTGRMaTZyZXlGeDBwMnZlWklfRmdjX3l6LU1pcHlEeHJYemFPUVFQbl9fZU1la29Kc1hCN2R0OHl4WWwzbE53VVB5djdlaTFKSC1QbUlpXzVPMG9FQnJzNW8taXFNZnR0RHEyeGtzZ29PS3JUYUUyc1ctZkNxQzFhLWdqQdIB0AFBVV95cUxNU0VDREhLZFNMaTV3UDNVQ3V3RG56UTRVU2xVZ1I4d3FrU2tUZ21xVGNmcVBzTDZ1MUFhNWFCRFh2V0hXV256dnFLM3FnSlFhYUJlSHJyaFk5bTdOOERQbmc1aHhVa3N3TlctRjlsdFJybXNDdTBsTVg1bkpUc09TU3pJd3Q1S2g5SWdLaGFwUTZPUTBzeTJGSEZtd1dxODVQVUNGQWx4eUFNbnNFcU1Idkt5ekNUaDZ3U1RGck53RDg2eEVDQXIyOXU5Q1V1cWRi?oc=5",
+      "published": "Mon, 12 Oct 2026 18:05:26 GMT",
+      "summary": "Chatroom: How to reduce demurrage on detained import consignments&nbsp;&nbsp;Business Standard",
+      "source": "GNews | Customs Valuation",
+      "published_beijing": "2026-10-13T02:05:26+08:00",
+      "source_detail": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com"
       },
       "priority": 1.2,
       "category": "贸易壁垒+数据",
@@ -121,12 +189,44 @@
       "relevance": "low"
     },
     {
-      "title": "China shock: EU says trade deal could cut up to 50% of Chinese EV and plug-in hybrid imports - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUFrTWQzaUoxTHJDZWlmZUJ3eldNOFRlQ0V3WVJlTmo5UjEzOEFaSmpLVzc0bVlJQl9ZWllxdldzTzJETzNEblYwVjkzNFgtR3RyZnNBTi1NM2RPeUVIMGRYZzdKZnNhamV6ODhmd3B6VHRnUDJFRFpvSDFTd2tTdGdJa3pNWFRUUXN5Rl9rZkxLUElNMnBsQ2NkMmpuRFV5?oc=5",
-      "published": "Sat, 10 Oct 2026 14:37:00 GMT",
-      "summary": "China shock: EU says trade deal could cut up to 50% of Chinese EV and plug-in hybrid imports&nbsp;&nbsp;Fortune",
+      "title": "Iron and steel sector faces pressure from dumped imports - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRklpRXZHOVlaMzJqQ0l4MGxnTHo0RGYxSlBUU09hS0U1d3Y3OENaVHFhN29ycEFYNFF4N0dnd2d4NThOWFlnYWNGMTcycWpNaWZMUV9PS0x1ellUZlk5bzN3T2JHWVYySHFvQ1RiWko4RUxtbV80NFM1cnlzU3BZeHJWZ3FyQjh2RlAzZ2pYSVYwZ3Y0WXQ0aHplUlhSdzdvaHY4Z1RmTGhRUdIBqgFBVV95cUxNRklpRXZHOVlaMzJqQ0l4MGxnTHo0RGYxSlBUU09hS0U1d3Y3OENaVHFhN29ycEFYNFF4N0dnd2d4NThOWFlnYWNGMTcycWpNaWZMUV9PS0x1ellUZlk5bzN3T2JHWVYySHFvQ1RiWko4RUxtbV80NFM1cnlzU3BZeHJWZ3FyQjh2RlAzZ2pYSVYwZ3Y0WXQ0aHplUlhSdzdvaHY4Z1RmTGhRUQ?oc=5",
+      "published": "Mon, 12 Oct 2026 15:38:24 GMT",
+      "summary": "Iron and steel sector faces pressure from dumped imports&nbsp;&nbsp;NST Online",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-12T23:38:24+08:00",
+      "source_detail": {
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
+      },
+      "priority": 1.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Azerbaijan's trade surplus tops $11 billion as foreign reserves approach $90 billion - AzerNews",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10NUlKaUdITVFFNzJEMzlZWjk5SWlVYnZaUXRXTUY5OGx5eE1Oa3hDTm01eUpyNUh5c001NnlOc0xvcC1HWkZvQ08zQ3hEWFIyQjBiSXVIOA?oc=5",
+      "published": "Mon, 12 Oct 2026 14:45:00 GMT",
+      "summary": "Azerbaijan's trade surplus tops $11 billion as foreign reserves approach $90 billion&nbsp;&nbsp;AzerNews",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-12T22:45:00+08:00",
+      "source_detail": {
+        "name": "AzerNews",
+        "url": "https://www.azernews.az"
+      },
+      "priority": 1.2,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chinese drivers stopped buying cars, so China’s automakers shipped them abroad: exports are up 64% while domestic sales fell 27% - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQjRFN2ZYTFBTemVBbGJIOHhZTlU3MVhkVWVKTTFHZElScVBlUXZYUEE1QTRKdXUtalNEOG5JOU9DQ0laYTdpOFltYXVhY0xOM1VJNjM5NThDRjdKYXNSQ05FZHdBMEtvMlVPc2UzQkRNa05XLVB5N2hrLXlxSHpFOF9Dbw?oc=5",
+      "published": "Mon, 12 Oct 2026 14:23:00 GMT",
+      "summary": "Chinese drivers stopped buying cars, so China’s automakers shipped them abroad: exports are up 64% while domestic sales fell 27%&nbsp;&nbsp;Fortune",
       "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-10T22:37:00+08:00",
+      "published_beijing": "2026-10-12T22:23:00+08:00",
       "source_detail": {
         "name": "Fortune",
         "url": "https://fortune.com"
@@ -137,15 +237,31 @@
       "relevance": "low"
     },
     {
-      "title": "EU and China strike interim trade deal that could cut Chinese hybrid exports, EU envoy says - WRAL",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVRrYzlnZWN6TmIzN2hpOHJKbXVSNTNyQklWQ2xuTXgxZ0tMQ3ZYTmdqOE5fRE1rQVZENTUzT2xoZTBFWjdRbUtDUmRuc0x4LWhJWFFTcmQybnB3NWptMUh5SGxBRmJwWTBHNUNobkRCQXlQM19IdGg3OHBqZ3EyM2dNZk1rVkRCOEV0Rlg1ak1qTjl3dVhiWkRTS2IxT1RYdG5jTmtHby1hX2ZVekRYVFZB?oc=5",
-      "published": "Sat, 10 Oct 2026 07:54:46 GMT",
-      "summary": "EU and China strike interim trade deal that could cut Chinese hybrid exports, EU envoy says&nbsp;&nbsp;WRAL",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-10T15:54:46+08:00",
+      "title": "FTAs may add $140bn to India GDP by 2035, lift exports 6.2%: Bloomberg Economics - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORnU1YjJIWkJTM1NHRllzOHBuU28xTUktZVFweHlrMTZwSDhqLWl3ODdSQlRtOGF3Qk1nOGluNm1lZ0VXajd0eXh3Mlo3YXdQNjNZY1JTNXhyVHpDNkJuTzg2QnN2QUE3UnQwUjRVNmFFenBzRE9WSjJiV0NBR2trcEFnb3lLMGVQc1RRd3Z6QXo2VHp2YS1TbjY3NXNFOUl0Z2RBTDhLcV9FS0oxdUZWTmx2dzFWZUhIRy1kYmtMelQ5b1ZMOEJretIBzgFBVV95cUxNZzBscmgwWVZTUnJHcUxqeVYwSzJPeV9HLW5VWUUycmRUWTIyRlRuaDFiTTl6cy1Oay1BMzFmYmVKc1QzSnZsbkpQX2ZyVnlPaXRiOVE4ZUZXejlkQW9RbzJ0aG9fbEd6V2c5emdWcUpvdUZPVmpWUW9jUWlIMWs0anZuTlhCRVVQYU11Rkw0WVcwVFRxNS1zekNtZTFMejM1cGw3R1VKZ0ZBU21QbWp0UWdBYWVJaTZoTE1udzY1THlKYnVXaFBLUGdibjdKdw?oc=5",
+      "published": "Mon, 12 Oct 2026 14:10:03 GMT",
+      "summary": "FTAs may add $140bn to India GDP by 2035, lift exports 6.2%: Bloomberg Economics&nbsp;&nbsp;Livemint",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T22:10:03+08:00",
       "source_detail": {
-        "name": "WRAL",
-        "url": "https://www.wral.com"
+        "name": "Livemint",
+        "url": "https://www.livemint.com"
+      },
+      "priority": 1.2,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU's goods exports to Canada reach $54.8 bn in 2025 - Fibre2Fashion",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSzlXTUFKMEEwSEI0UTZYVlZjeldvRVFNYXcxZWRmNzRVaXNBcVlXT0hucl8tZV84aXctWE9NSkFSS1c5aktXT0hnOXlaSmstaFpjb2ktTGJVWkNBcW5ncEZOMTFoNFZSbjZaQUVVaDdGbC1YZTk4aGllY0s0Y0RZeF8wcGUwZEJETTZJUVhHcDNxWTZ6QW02ZXk5TXNhVnQzUmw4WWZqOVlMTkpBSmlBeHRsLWwzd3FKSGFISDZEYUxTREItUWduYlJ2eFdxemhxX3VZMi0zaUxESk5JOEE?oc=5",
+      "published": "Mon, 12 Oct 2026 13:25:51 GMT",
+      "summary": "EU's goods exports to Canada reach $54.8 bn in 2025&nbsp;&nbsp;Fibre2Fashion",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-12T21:25:51+08:00",
+      "source_detail": {
+        "name": "Fibre2Fashion",
+        "url": "https://www.fibre2fashion.com"
       },
       "priority": 1.2,
       "category": "贸易壁垒+数据",
@@ -153,137 +269,92 @@
       "relevance": "low"
     },
     {
-      "title": "Exports to China surged in September. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9obFFGQjRUZl9GUm5JakJmQ3l5VGhjbTIwS3I5Znd6M01WdW1Rbkk4ZUp2R2ZLWGVtLVdpNVVsZFAwSUtmOWdWZEdCQkNFSmwwR3FvOUNpbEs2dktTd0VqaUptUVdvWElwLU1Ra1k3X1Nkd2NWeHJTTUVtWGt3aGM?oc=5",
-      "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-      "summary": "Exports to China surged in September.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-10T15:00:00+08:00",
+      "title": "Russian export centre brings 13 companies to African energy week 2026 to pursue African energy partnerships - Africa Sustainability Matters",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXY2VHBmVmU5eXpMUVVmbjRTZDlMb09wNEcwaUF1a2VELTUtVFM3aTFtNjJNU3JJSDJCSVJ3YkhfUklVUjg5RDhCSTZSWVJwV3RaaVM1TmZlZG1FTkFEVjhXc0VRcXdRMXVHMGlxbEFPT28yWjZlVV9tM2JoVmgwei0zQ2ZMY1hQQmxXVmdmZDlub1k0YkpsUUZTMmxtVEJUQUZURVJGOW13UklrQXplYVBHcExlQXJGVFplNUxrSF9nMkJKbXk0LUxqRGZHbWNVcW1Ic1VXMHRWYmYya1RoUUN3?oc=5",
+      "published": "Mon, 12 Oct 2026 09:40:00 GMT",
+      "summary": "Russian export centre brings 13 companies to African energy week 2026 to pursue African energy partnerships&nbsp;&nbsp;Africa Sustainability Matters",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T17:40:00+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Africa Sustainability Matters",
+        "url": "https://africasustainabilitymatters.com"
       },
       "priority": 1.2,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How can Türkiye and China build more balanced economic ties? - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWS1IbDQ1Nkx2bE81cC1KeGRmbVBFSGFYR3gzRDRYTjdhTHhNX1NBTF9lU1FyU05zc3Fjc0l2d1pNNl9oek94aVNSMUdmc0ZXWE02TDRrVDFzajhCOFg0U09RdUktZEpiT2lEZVoxNkprenpPMDk1Z0YwX2g0amlLQ0NzMG81TlZFYlljM3JfZEJhc01VRFBORzNKdUE0VF9HQU16akp3dw?oc=5",
-      "published": "Sun, 11 Oct 2026 21:05:00 GMT",
-      "summary": "How can Türkiye and China build more balanced economic ties?&nbsp;&nbsp;Daily Sabah",
-      "source": "GNews | Anti-dumping",
-      "published_beijing": "2026-10-12T05:05:00+08:00",
-      "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
-      },
-      "priority": 0.0,
       "category": "贸易管制",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Japan should sell arms to Taiwan: ex-army chief - Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xWkVOdWVlV25wTU9oZnRoOE9HaFJGQW5yVF9kWnJyNjNRemY0cFU0S1NJODU4YjN4aXRobDNORTNBcWpSX3d2MDB1Y0NmMlNNeDBxa2lzWXRfbDBqUlZwQTJSQjlTOWQ3Vm9fdzd2VzdEZ28wRVN6WU1n?oc=5",
-      "published": "Sun, 11 Oct 2026 16:00:00 GMT",
-      "summary": "Japan should sell arms to Taiwan: ex-army chief&nbsp;&nbsp;Taipei Times",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-12T00:00:00+08:00",
-      "source_detail": {
-        "name": "Taipei Times",
-        "url": "https://www.taipeitimes.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump sticks with tariffs even as US voters turn against them before the midterms - ABC News - Breaking News, Latest News and Videos",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbllWMDVrclViLVliSG1qNDJVUVRFVlZsNTExcnJxSDNacHJiX3c0WVpYWDJ2c2NoRGNzYUVicUJzMk04QmdmdzlaWDR6QmxVMnFEbXdqbTNVYWpiVEg4MzZnaEhlY09nMmEtOTJHYlNVV0xXX3NUbmFSUkdVZWU4LVBNTjZoTENwa2kxSXB1SDAwYlRjWEpjbNIBngFBVV95cUxOZERGcTZwVHVmZkFCdm8zdW54NF9XcTZ0OWZQLWtRYkNYSFBCNzRaMENTWGhLdWt5YVlHR0JZN3gtb0pySGE0aXR0LXRKb256NGI3dktXSmFvMmdXOFRoQ01BcGVMcm04a2xZSU5sc3VWcGVvVFR4NVE3ejNUcFpjY2xhMjdUdGhnWlhhV2wyaWhzSy14VFQtVXpJQ2gyUQ?oc=5",
-      "published": "Sun, 11 Oct 2026 13:33:12 GMT",
-      "summary": "Trump sticks with tariffs even as US voters turn against them before the midterms&nbsp;&nbsp;ABC News - Breaking News, Latest News and Videos",
-      "source": "GNews | Section 301",
-      "published_beijing": "2026-10-11T21:33:12+08:00",
-      "source_detail": {
-        "name": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://abcnews.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Yandex Loses 2 of 3 AI Rigs as Kyiv Defies Trump [2026] - https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXNDd6LWlOT01WNjVGZldkWDFMak1nUmZHZW1BaWltb1JzWThPRmROQ2YtM2FTZzZPZ0NHSExPZks5TDZRLVRPS0h6Z0hVVTJMZmEzczdONFQtSXJLVTdXazllckl5MmxCNGtMNEZ2ZlBudEVqWjJkWThWdjZWMGM?oc=5",
-      "published": "Sun, 11 Oct 2026 11:22:41 GMT",
-      "summary": "Yandex Loses 2 of 3 AI Rigs as Kyiv Defies Trump [2026]&nbsp;&nbsp;https://tech-insider.org/",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-11T19:22:41+08:00",
-      "source_detail": {
-        "name": "https://tech-insider.org/",
-        "url": "https://tech-insider.org"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
-      "link": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
-      "published": "Sun, 11 Oct 2026 11:00:25 GMT",
-      "summary": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a f...",
-      "source": "Guardian Business",
-      "full_text": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’Back through political history to the age of Ronald Reagan, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of artificial intelligence pixie dust. It will fail again. Continue reading...",
-      "published_beijing": "2026-10-11T19:00:25+08:00",
-      "priority": 0.0,
-      "category": "贸易政策RSS",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "‘Some aren’t going to make it’: how pressure on farmers threatens UK food security",
-      "link": "https://www.theguardian.com/uk-news/2026/oct/11/farmers-uk-food-security-producers-supply-chains",
-      "published": "Sun, 11 Oct 2026 11:00:24 GMT",
-      "summary": "Food producers are adding their voices to the chorus of warnings about the vulnerability of British supply chains“There are so many decent, capable, productive, efficient arable farmers out there, asking how they are supposed to finance the crop they are meant to be putting in the ground,” Jamie Burrows says.Sitting in his tractor at his arable farm in Norfolk, Burrows is listing the multiple challenges facing him and other food producers. Continue reading...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-11T19:00:24+08:00",
-      "priority": 0.0,
-      "category": "贸易政策RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "“There are so many decent, capable, productive, efficient arable farmers out there, asking how they are supposed to finance the crop they are meant to be putting in the ground,” Jamie Burrows says.\nSitting in his tractor at his arable farm in Norfolk, Burrows is listing the multiple challenges facing him and other food producers.\nCrop growers such as Burrows are ploughing and cultivating their fields, preparing the ground – hardened and dried out during the long, hot summer – for their next crop.\nBut machinery requires fuel, and the cost of red diesel – used for agricultural vehicles and machinery that is taxed at a lower rate than standard diesel – has almost doubled since the conflict in Iran began in late February. The cost of most fertilisers used to grow crops and feed for animals has also soared by about 20% over the same period.\n“Some of these businesses aren’t going to make it,” concludes Burrows, who is also the chair of the crops board at the National Farmers’ Union (NFU). “It is very, very difficult.”\nThese are among the latest worries for Britain’s food producers, who also faced a succession of heatwaves and drought conditions during the UK’s hottest summer on record, which resulted in England’s worst recorded cereals harvest, according to official production estimates.\nFarmers, the first link in the food production chain, are adding their voices to the chorus of warnings about the vulnerability and precarity of the UK’s food supply.\nFood experts, academics, businesses and the public spending watchdog, the National Audit Office (NAO), have in recent weeks called on the government to work on making the UK’s food system more resilient.\nThe climate crisis, this year’s huge El Niño weather pattern, geopolitical shocks, energy outages and cyber-attacks are all considered threats to food chain security.\nAmid calls for ministers to treat food as a national security issue, parliament’s influential public accounts committee is to begin a series of hearings on Monday as part of its inquiry into the resilience of the UK’s food supply.\nMPs on the committee will look at the NAO’s findings on the shortcomings of the last catastrophe planning exercise by the Department for Environment, Food and Rural Affairs (Defra), which largely excluded food supply chain businesses.\nBritain produces about 60% of the food it needs to feed itself, but is more dependent on imports than many European peers. The government’s own research has shown Britons are less prepared for potential future emergencies than several European neighbours.\nSome in the food industry believe there are signs Andy Burnham’s government is beginning to take the threats to Britain’s food system more seriously.\nThe Cabinet Office will launch a campaign telling households to stock up on tinned foods alongside preparations for possible future emergencies. The government’s Prepare website outlines steps it says people should take, which include storing items at home, including bottles of water and nonperishable food, such as tinned meat, fruit and vegetables that do not require cooking.\nDespite this, a recent warning from more than 150 food experts and academics accused ministers of being “complacent” about food security and not having a plan to feed people in an emergency.\n“Historically we have done pretty well coping with specific events such as Covid and we’ve managed to ride through them, but we’re moving into a period where we’re having multiple crises impact at the same time,” says Prof Paul Behrens of the Oxford Martin School, University of Oxford, who signed the letter.\nThese include the worsening climate crisis and increased water scarcity in regions that now provide some of the fresh produce UK households rely on, including the Mediterranean and north Africa.\nMeanwhile, Behrens and other experts, including Prof Tim Lang of the Centre for Food Policy, City St George’s, University of London, have been warning for some time that the UK’s food distribution network is concentrated, leaving it exposed to potential disruption or targeting by bad actors.\nLang has previously stated that the UK’s supermarket network is supplied by just 131 distribution hubs – serving 12,300 stores – while the industry body the Cold Chain Federation has warned that most of Britain’s food imports enter the country through four ports – Dover, Felixstowe, Southampton and London Gateway.\nThe UK government wound up the strategic food stockpile that had been in place since the second world war in the 1990s. Behrens says other nations, particularly Scandinavian countries, now have “far greater national preparedness”.\nHe says: “They’re looking at community responses and how much households can have on hand. They’re looking at their own local production and some countries have strategic stores of grain.”\nMother of one Ana, 42, is one of a small but growing number of citizens who have been preparing for possible future emergencies for some time. Now living in south Wales, she is originally from eastern Europe and grew up in a family that grew food and preserved it for the colder months. She now shares tips on her YouTube channel, advising other households on resilience and how to build an emergency stockpile.\n“It’s just a normal way of life, basically safeguarding yourself and your family,” she says. Ana describes herself as a “prepper”, but wants to move away from its negative connotations, such as panic buying or being a survivalist.\n“The stereotype was … that preparedness is American, really weird, all camo and blokes in the bushes, hunting and eating squirrels and mushrooms,” she says. Instead she wants to help other citizens learn how they could cope for a few hours, days or even weeks without power, water or being able to get to the shops.\n“If the stereotype had been dispersed originally by the government, then people would look at preparedness as an everyday thing,” she says.\nRob Haward, the chief executive of organic vegetable box delivery company Riverford, believes the UK’s food supply chain needs a “very complicated rethink and a different vision for future security”.\nDevon-based Riverford distributes about 65,000 boxes a week to customers and about 70% of the produce it sells is grown in the UK, although it also has long-term relationships with growers in Spain and Italy.\nWhile the UK is always going to import fruit such as bananas, which cannot be grown in large volumes domestically, Haward believes consumers can also play a role by returning to eating more seasonally.\nHaward says longer-term contracts can help farmers, giving them confidence to invest in their land and what they grow. He adds: “There are different ways we can try to create a food and farming sector different to now and much more resilient to the future world,” such as working to restore soils to better withstand the changing climate. He also wants government to “pull levers” such as offering lower business rates to greengrocers."
-    },
-    {
-      "title": "The EU’s China dilemma: how to counter Beijing without alienating friends - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeVBSMUtjNmhLOHFOMld1VDJwdE5vYlU4YnUxSmN4VGRqZEN5UjM3OEUtR2hKd3Y4alJCSjM0SkJIQ0Z6dzgwOS04dWxHSG5fMmxPRFBESGo2NnNIQWs0bk1EeVRXZ3V0ZHBta3ZLeDNRbEh3RkV1czBUa2c5QnctRWkxV1VKcE0zZldDMHpCZDN2Q2NUZlI0U041bFc3RTNrOVlBYl9uNlRKNjlWb29MUGdsdjVvV0tJaENEWFVqSdIBvwFBVV95cUxOeVBSMUtjNmhLOHFOMld1VDJwdE5vYlU4YnUxSmN4VGRqZEN5UjM3OEUtR2hKd3Y4alJCSjM0SkJIQ0Z6dzgwOS04dWxHSG5fMmxPRFBESGo2NnNIQWs0bk1EeVRXZ3V0ZHBta3ZLeDNRbEh3RkV1czBUa2c5QnctRWkxV1VKcE0zZldDMHpCZDN2Q2NUZlI0U041bFc3RTNrOVlBYl9uNlRKNjlWb29MUGdsdjVvV0tJaENEWFVqSQ?oc=5",
-      "published": "Sun, 11 Oct 2026 11:00:14 GMT",
-      "summary": "The EU’s China dilemma: how to counter Beijing without alienating friends&nbsp;&nbsp;South China Morning Post",
+      "title": "Chinese carmakers increasingly rely on overseas markets as September exports surge - cecildaily.com",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMFZYXzJYTHg0ZmI1NlVqZjNiY2VEallBLXp5T1pWbUJoajkwV3MzTjVrc1dqUHdoRkdmQWRjU2Y3LXp6YWJUUlJ6U3dEdEpoenJ2cnJOTFRUZGI5ckJrakl1SjZqbWQtV3lBV2pBNi1GWjNUOTA2VmJHZEwtTGNtTDhZVUVaXzk2QmtNLWhUemRPTWhMclNhdVBwM2tRRV9nNGhTRnJta3JSYmJveXh3VVcyVG9Pa196SXhmVGdKZm9HelI1ZVh6T2J4bDlUWjRLTVR6eVRoYUtjUzZ1Zlh6SlRTQjA2N1o4X2lYaFUzMUpuc2hMSVFkZlduRHU?oc=5",
+      "published": "Mon, 12 Oct 2026 09:04:42 GMT",
+      "summary": "Chinese carmakers increasingly rely on overseas markets as September exports surge&nbsp;&nbsp;cecildaily.com",
       "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-11T19:00:14+08:00",
+      "published_beijing": "2026-10-12T17:04:42+08:00",
       "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://amp.scmp.com"
+        "name": "cecildaily.com",
+        "url": "https://www.cecildaily.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "中国企业视角",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Lawyer Nguyen Thanh Ha: Understanding commitments and grasping regulations to unlock opportunities from RCEP. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeV91c010SjhaWFMzQVVmNmJrTlI3TUVMMzhMU056MXIxVGYycFBtS29STHhCZ3Z5WHZnU1N4dXo2ZGZpQlg4bmhnSzI0eWtVMWFJeVUyTzk3X0gxbGpBY0ZhMVIxU2pqTzZuMU1ZSWN4Y21wbmRRNEl4cC1uNkIxRjYzaXJYRC0zS2tsa1RlbDVuaENyTzlBeVpuR0I?oc=5",
-      "published": "Sun, 11 Oct 2026 09:00:31 GMT",
-      "summary": "Lawyer Nguyen Thanh Ha: Understanding commitments and grasping regulations to unlock opportunities from RCEP.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | RCEP",
-      "published_beijing": "2026-10-11T17:00:31+08:00",
+      "title": "China Agrees to Cap Hybrid Car Exports to EU at 350,000 a Year - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORU5BbnI4Qk1WUHhEd0lpbWRZbnBnbmEwYUNHTEdrMmtrczhNOWpQYVVVUEYtWnlWTGcyRUFzNVhhQXdYemRDeF9NTlFJcV9rY0x0dmRPY3JremkzLWlCamlpNXpTdFpmTFlfckVva3dxMHBqTFlMdUp3MUxPUE9qYTNFRWNYQVRzTnlQdEV1cWNydmJpVFNBVVJ0Z3Nxdk5jTjJaUVhJQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 06:17:48 GMT",
+      "summary": "China Agrees to Cap Hybrid Car Exports to EU at 350,000 a Year&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T14:17:48+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 1.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+      "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+      "published": "Sun, 11 Oct 2026 15:56:25 GMT",
+      "summary": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, energy and foreign policy analysts have predicted.The US president infuriated ...",
+      "source": "Guardian Business",
+      "full_text": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineriesTrump announces partial ceasefire but Zelenskyy says deal is ‘news to me’Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, energy and foreign policy analysts have predicted.The US president infuriated Volodymyr Zelenskyy when he announced the deal on Friday, writing on Truth Social that the agreement with his Russia counterpart to supply millions of tonnes of diesel was essential to reduce fuel prices in the US, which have soared after his decision to go to war against Iran. Continue reading...",
+      "published_beijing": "2026-10-11T23:56:25+08:00",
+      "priority": 1.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Former UK Prime Minister Rishi Sunak Warns of End to Multilateral Rules-Based Global Order - https://streamlinefeed.co.ke/",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkJVekJvUHZhOWpCdjNvQ0sycGtGbWxQMUU3ZnpfS1pZdjJqbkdJVXdRVWVkZTJGaUNQRElQXzdiZ21QcENBdDkycjY1dHpYQ2V4MkdwbmxmWGFlYnVET1BVZ1BkMF80Zk85LWhELXgwMFJzQXNXSmtRZE9najlicFcydVcwVm1PU19ST2pNS0EwdFRMbjQzYTRWNVVjUTdKZS1XeTctSm1LUHRmXzRManhSeGVVclh4VGdmMjd6NTRIdw?oc=5",
+      "published": "Tue, 13 Oct 2026 05:23:27 GMT",
+      "summary": "Former UK Prime Minister Rishi Sunak Warns of End to Multilateral Rules-Based Global Order&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-13T13:23:27+08:00",
+      "source_detail": {
+        "name": "https://streamlinefeed.co.ke/",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Malaysia-EU FTA to be finalised by next June, says MITI minister - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkZVZGhIVHpYZl9IdmlMRFp5bGdRZjBlcDM1QUlCTGZUOFV6Y3ZUNC1qQjc3al92NTl4czN6V3VEOHV6S3pPMGxyd3dRaG00a2hzY2o3OFYxRnFKVDdvT21TZUVDQTIwTmZWRXRzb2daTTRSRnRvZHNhLV9EQnR1MVJ4WVBqZUQ4Qzd5TVBfOVRkVFRrZk5zdV9uSXZ4SGhLRV9qdTZmUzVFcHVhWmd3cG5mYw?oc=5",
+      "published": "Tue, 13 Oct 2026 04:56:00 GMT",
+      "summary": "Malaysia-EU FTA to be finalised by next June, says MITI minister&nbsp;&nbsp;The Star",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-13T12:56:00+08:00",
+      "source_detail": {
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -291,15 +362,47 @@
       "relevance": "low"
     },
     {
-      "title": "Šefčovič returns from Beijing with limited hybrid cars and rare earths deal - EUalive",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc09kWWlYc0FXaXNOR1VFSXg2VGJDTlVIUXBQZ3lCWFJ5eXFPZ0RfUTQ2dU5MTnpZWGJTaW1CTmFsOGpMUk9oeTdabkQwMkhfTkNkZnhfeVFYZXBBQ3o0RUZYZ2pkZnU3dkNHcWxNLVFrc1FpUTVmdE5IamJXVkwtZkgtOUhnSFhMNFB0R05JZ09mbHBCZGtQNlZyc1E?oc=5",
-      "published": "Sun, 11 Oct 2026 08:15:45 GMT",
-      "summary": "Šefčovič returns from Beijing with limited hybrid cars and rare earths deal&nbsp;&nbsp;EUalive",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-11T16:15:45+08:00",
+      "title": "Democratic Party Rep. Lee Un-ju Condemns Chinese EV Subsidies as Treasonous - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVThBYnlEczBfNkt4VjRoMkJOazE3bnRtYjZFaU1Vb3VIMWRpUnQ4d0gwU001NEJQQ3l3RWw2cDVUTlQyZ29URFlJbkpvTjdwNldGVWlyZmV3Z0V3MldCUTkxTGExNklrTFZYWDJnSlVhbVFselVEX3lYNXphMDdRaTBKUWtNdVFI?oc=5",
+      "published": "Tue, 13 Oct 2026 04:53:49 GMT",
+      "summary": "Democratic Party Rep. Lee Un-ju Condemns Chinese EV Subsidies as Treasonous&nbsp;&nbsp;조선일보",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-13T12:53:49+08:00",
       "source_detail": {
-        "name": "EUalive",
-        "url": "https://eualive.net"
+        "name": "조선일보",
+        "url": "https://www.chosun.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tonbo Imaging India IPO DRHP: pure OFS structure; revenue at ₹3,626 crore in FY26 - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObnBqMTRTbjd6RXkwMXNlTVdSN2RiaFpXaGFpaDdnRzlJX3NxTGJDbDZMT3B0RUJLRXpRZFBfckx6ekJncWFGaUU5OE5MajdvSWlNNklzSnVmemhuVk5SbXpqUm9rdmdxM0h6NF84RC04QVQtM3NkYTd5UEI5cU1jNnZMV01oTURQTy05OTVIWmpMd1BwNXR1THkzaWdFVUdVYkItVkd6QjdycTRTNl9XU1FSWWZMR01qa2c?oc=5",
+      "published": "Tue, 13 Oct 2026 04:51:37 GMT",
+      "summary": "Tonbo Imaging India IPO DRHP: pure OFS structure; revenue at ₹3,626 crore in FY26&nbsp;&nbsp;scanx.trade",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-13T12:51:37+08:00",
+      "source_detail": {
+        "name": "scanx.trade",
+        "url": "https://scanx.trade"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IMF Flags Impact Of US-China Tariff War | World - Ommcom News",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPM3FaN0N3MWstRW5BUzdmVHR1cUNhbFo4VkE2d3FrbnNRcGlvWG95aG51ZHhic0kzU0pmX3d0UDNiTjdMSGgyZEVndElSczZIakV3alRaZkp2d0JIMGxIU1gyTHdkMDcwd3VRdjRIbFJwd2J0UW9XeEs3U0o5ZzQ?oc=5",
+      "published": "Tue, 13 Oct 2026 04:38:40 GMT",
+      "summary": "IMF Flags Impact Of US-China Tariff War | World&nbsp;&nbsp;Ommcom News",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-13T12:38:40+08:00",
+      "source_detail": {
+        "name": "Ommcom News",
+        "url": "https://ommcomnews.com"
       },
       "priority": 0.0,
       "category": "中国企业视角",
@@ -307,79 +410,15 @@
       "relevance": "low"
     },
     {
-      "title": "China rejects claims yuan is undervalued - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWRGakZrZ2l3cHpGd3dRZHpLNVVvRkpDUzgyRmVXYlRtZEg0dmdGcG9tUGh3aVVqS2VydlZYNXdQVVp2NUZrdDhvSzd3QmxMNGJmdk00LXpucThmVDRDd1NmbWUzQlFOZlByajNjTGdZRkpwSWItWDFFWHZybk1FcE5qVdIBiwFBVV95cUxOZzZfd0RBcndPNl9ydFF5dkcxZ3FLYmVBN2w1TEU1dHI4dTk0bXpNVXJ4elVSVkRIaDBqY2lOeHhuLWdHMHNSeGhEN2pvaUJhNmNxZlUwaFFxa2pIOThNaHFiR1VFY3JpR2RYM28wWUt4Y3JXa3RhdWlBMXItY09hZDdjNVVseDNmSk1j?oc=5",
-      "published": "Sun, 11 Oct 2026 08:14:04 GMT",
-      "summary": "China rejects claims yuan is undervalued&nbsp;&nbsp;The Express Tribune",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-11T16:14:04+08:00",
-      "source_detail": {
-        "name": "The Express Tribune",
-        "url": "https://tribune.com.pk"
-      },
-      "priority": 0.0,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "DW News. . Berlin has blocked the state-owned Chinese shipping giant COSCO's takeover of logistics firm Zippel, citing security fears. Can Germany reduce its dependence on China without sparking a trade war? #dwbusiness - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNFZEaEY1NzVFbF82WlhVbVVSR3FPRkZXYXhCYmM4VUlJOVY4bFRySlowaGxBenRTWFAwTkhQTmFtbjRFNXZIUEtLcmxyV0VHVExPaVRPVkJUMkc2Q0otVWRaU3AyRjVPRE1yb0JDNjJnNDNtSVpFV21ZUl9rVTZEYmltQ2FQRHZ1VWdWbU4zdXE1VVlyTDhvNFBhTk9GcHJwV2xlNVBfSnZKRHdwa21tTnZkMGVXVVJNTkd6UGRoVmNwMEFhRkhrWG1SckQyY1JBV2g5UWw2X3REVGFrMWlQQ1d3?oc=5",
-      "published": "Sun, 11 Oct 2026 05:45:06 GMT",
-      "summary": "DW News. . Berlin has blocked the state-owned Chinese shipping giant COSCO's takeover of logistics firm Zippel, citing security fears. Can Germany reduce its dependence on China without sparking a trade war? #dwbusiness&nbsp;&nbsp;Facebook",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-11T13:45:06+08:00",
-      "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
-      },
-      "priority": 0.0,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Australian beef production hits record despite herd decline - Agriland",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUU1jT0JTUVJJVHotMGxCcGRsS3JZMS1UVVNWZldGY2FLYzU0SDhtRlBWckVSbnI4QWFyckhROEZUYjUwbU0yeE9tbUU4bmJkQWNHMk1RU0pyU0lBV0dxOFlIVTFLNkx5bUpKX3JZR2dfaHVrWHRLZUxfYU12MTRKUkF4ZHpHSnp1WWFTNWJBYnJjTUR5Z0ViZllWNEpIQQ?oc=5",
-      "published": "Sun, 11 Oct 2026 05:00:00 GMT",
-      "summary": "Australian beef production hits record despite herd decline&nbsp;&nbsp;Agriland",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-11T13:00:00+08:00",
-      "source_detail": {
-        "name": "Agriland",
-        "url": "https://www.agriland.ie"
-      },
-      "priority": 0.0,
-      "category": "中国企业视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bangladesh firm says it made Trump's suit, eyes US growth - Banglanews24",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83b0V4QzlXTzNDcGFuLXFOdmNLV1JtMnlERndPaURrM0tpQWh5cGVxejhCNGJnTnhaT3BjY2tsbkdyNjZyOVBPdTNRWlEtM2J3UlE5OVFyWUFHT1FtdElZMWo4bkZubXgzMEVB?oc=5",
-      "published": "Sun, 11 Oct 2026 04:51:28 GMT",
-      "summary": "Bangladesh firm says it made Trump's suit, eyes US growth&nbsp;&nbsp;Banglanews24",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-11T12:51:28+08:00",
-      "source_detail": {
-        "name": "Banglanews24",
-        "url": "https://en.banglanews24.com"
-      },
-      "priority": 0.0,
-      "category": "中国企业视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "LDC exit: Dhaka pushes strategic FTAs with EU, Korea, and UAE - The Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlFsVS01WHkzRGt0NTl3NHdhWHBpY25rVDFIZEZ2MWRFTUtXbVZxMnJzaEd4TkppbUQ1YUhyR29CWGhSTFlkZTNlSFZqQmNYbFFYdmlyTk1MalhKNGkwTXRFWi1iNmczclNBdXJzTWdfVFNPanJ0V1VUZnFqb3JKNk5LMHF1TkE2MWZhRnl3aUIwa3FEbmpFcQ?oc=5",
-      "published": "Sun, 11 Oct 2026 04:33:40 GMT",
-      "summary": "LDC exit: Dhaka pushes strategic FTAs with EU, Korea, and UAE&nbsp;&nbsp;The Business Standard",
+      "title": "Malaysia-EU trade deal 80pct done, palm oil and autos remain key hurdles - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3czcHVrSGo3aGxrU3ExcUVGNUhJQnIwX2JTWUVqQ3djdUpCcER1WUVZWGZ0ZnBubE1GOWRBQVUwM09pTWVPcHU4ekRUU1hxanJJQURXZHJfUFotdmhYbDNXblpLOXBfbmZpeG5fdmxtX2ZQZnVkOGtxak40ZWdVZ2xOYnNWbm9Gbi1HbHFZNVl3bGVoVkxJd3p4azVPaU10QUdTUUQwMU9jbzRENGRrNldxVXZYUlYxREJKX1dYNlbSAcABQVVfeXFMT2d3M3B1a0hqN2hsa1NxMXFFRjVISUJyMF9iU1lFakN3Y3VKQnBEdVlFWVhmdGZwbmxNRjlkQUFVMDNPaU1lT3B1OHpEVFNYcWpySUFEV2RyX1BaLXZoWGwzV25aSzlwX25maXhuX3ZsbV9mUGZ1ZDhrcWpONGVnVWdsTmJzVm5vRm4tR2xxWTVZd2xlaFZMSXd6eGs1T2lNdEFHU1FEMDFPY280RDRkazZXcVV2WFJWMURCSl9XWDZW?oc=5",
+      "published": "Tue, 13 Oct 2026 04:06:19 GMT",
+      "summary": "Malaysia-EU trade deal 80pct done, palm oil and autos remain key hurdles&nbsp;&nbsp;NST Online",
       "source": "GNews | FTA",
-      "published_beijing": "2026-10-11T12:33:40+08:00",
+      "published_beijing": "2026-10-13T12:06:19+08:00",
       "source_detail": {
-        "name": "The Business Standard",
-        "url": "https://www.tbsnews.net"
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -387,12 +426,12 @@
       "relevance": "low"
     },
     {
-      "title": "India expanding trade footprint to strengthen global ties and empower MSMEs: Piyush Goyal - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNG56OWpJQ21QbldjeGJlX2pTMkliWG1aZG9VbXVjXzBXbk54ejR2Z21rMU84bzFqb0gtU19VbHQtNlh2WURucDRncVJrZzFXdGJ0SFBIM2FxV3lMeWxQNzlnd2Q3cnUtN09KRWVyZUNMQ2ZDZkJLS3VnV3F3ME1uUWZyQ1JESGlJcldZTFFCQk12WW9BcTNkT284am54Y2lELXhPN0FmN2k1S2ppbUxpXzRKVElNV0w0NllaTk9jc1VuMnhrcUZwVklGQkhEeElDcExyMEF4SGZ6Q1ViS0h6XzV3V0czS2M5NmROQl9xNl9SOFoyZ1NXWFpoRndmNmZJbHd30gGDAkFVX3lxTFA0bno5aklDbVBuV2N4YmVfalMySWJYbVpkb1VtdWNfMFduTnh6NHZnbWsxTzhvMWpvSC1TX1VsdC02WHZZRG5wNGdxUmtnMVd0YnRIUEgzYXFXeUx5bFA3OWd3ZDdydS03T0pFZXJlQ0xDZkNmQktLdWdXcXcwTW5RZnJDUkRIaUlyV1lMUUJCTXZZb0FxM2RPbzhqbnhjaUQteE83QWY3aTVLamltTGlfNEpUSU1XTDQ2WVpOT2NzVW4yeGtxRnBWSUZCSER4SUNwTHIwQXhIZnpDVWJLSHpfNXdXRzNLYzk2ZE5CX3E2X1I4WjJnU1dYWmhGd2Y2Zklsd3c?oc=5",
-      "published": "Sun, 11 Oct 2026 04:29:00 GMT",
-      "summary": "India expanding trade footprint to strengthen global ties and empower MSMEs: Piyush Goyal&nbsp;&nbsp;The Economic Times",
+      "title": "PM Modi's free trade push could lead to $140 billion GDP gain for India - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcXlJS193Zm96bE1PMnQ4Uk92cENWalZtRFItVFZzcFZ0VTh6QnZpRjdTT0ZHSzJTSmloWkR0ZUZzdWVQbElQSVhGWnVyRlI3V3hWRDhWbnZGX2NRQ3pISkowRTljdFMzNHRWOUZRYkFEZVh3Rm84c0ZPTW1LQjBIVmpfOWNGTXBIbUItdkY0UzFRQUtGeklGdTBSLXVGMEgzcUR6YVJxcTN5ZVl0VTY3aFJvLVdTb0dJc0lnVlNmOGJ1eWlVbVRiTjgzVVNidmE2Wllnc2JLdTdpN1laamNPR0t5bThmT2hfakHSAeoBQVVfeXFMTnF5SUtfd2ZvemxNTzJ0OFJPdnBDVmpWbURSLVRWc3BWdFU4ekJ2aUY3U09GR0syU0ppaFpEdGVGc3VlUGxJUElYRlp1ckZSN1d4VkQ4Vm52Rl9jUUN6SEpKMEU5Y3RTMzR0VjlGUWJBRGVYd0ZvOHNGT01tS0IwSFZqXzljRk1wSG1CLXZGNFMxUUFLRnpJRnUwUi11RjBIM3FEemFScXEzeWVZdFU2N2hSby1XU29HSXNJZ1ZTZjhidXlpVW1UYk44M1VTYnZhNlpZZ3NiS3U3aTdZWmpjT0dLeW04Zk9oX2pB?oc=5",
+      "published": "Tue, 13 Oct 2026 03:42:00 GMT",
+      "summary": "PM Modi's free trade push could lead to $140 billion GDP gain for India&nbsp;&nbsp;The Economic Times",
       "source": "GNews | FTA",
-      "published_beijing": "2026-10-11T12:29:00+08:00",
+      "published_beijing": "2026-10-13T11:42:00+08:00",
       "source_detail": {
         "name": "The Economic Times",
         "url": "https://m.economictimes.com"
@@ -403,15 +442,15 @@
       "relevance": "low"
     },
     {
-      "title": "India Shuts Down F-35 Talk With One Blunt Line. Says U.S. Crew Won’t Even Let Us Near The Stealth Fighter - EurAsian Times",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUnhyTGVLQ2UxTUVKaTZ0dVRJUzhyMWY3RGN2TGkwdjdJSEY1cnM5dTl6OTZsQl92ZDVfOGFPZTNiX1FPaWtvNGptNGpLRmZRUTB1VktaRmNDRkJLTldMVnBfLU9fN1ktamMwMG4wZE82RnV5MG5Kc2l1RjJwT1dsSldITFMyMUJ6MUQxTE9lRTR6ekR0ckZHU1lveFRzdVNRRzNwQXBib2lONUNHYmpmaXZnNEtsa25rUUdIbUpYbG1lY2xIT0VGU0xGSE1oQdIBzgFBVV95cUxOUnhyTGVLQ2UxTUVKaTZ0dVRJUzhyMWY3RGN2TGkwdjdJSEY1cnM5dTl6OTZsQl92ZDVfOGFPZTNiX1FPaWtvNGptNGpLRmZRUTB1VktaRmNDRkJLTldMVnBfLU9fN1ktamMwMG4wZE82RnV5MG5Kc2l1RjJwT1dsSldITFMyMUJ6MUQxTE9lRTR6ekR0ckZHU1lveFRzdVNRRzNwQXBib2lONUNHYmpmaXZnNEtsa25rUUdIbUpYbG1lY2xIT0VGU0xGSE1oQQ?oc=5",
-      "published": "Sat, 10 Oct 2026 17:03:23 GMT",
-      "summary": "India Shuts Down F-35 Talk With One Blunt Line. Says U.S. Crew Won’t Even Let Us Near The Stealth Fighter&nbsp;&nbsp;EurAsian Times",
+      "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2lCcTJZLWVsU3NJWjJRV2xZd0RXM1NtbWNnQUtfb1RsSjlNVmFEWnVxYVJ5Y0pXS0lWV284NlVCWkp2Qy1jbm5na2ZFeE5BYmNlWFVaVGttNElacjE1SGlaeVBOc1J5Z042bUlOS3JPbWpHcloxVDF5X3B2NG5hSEdCcHp0SGswU3d5VWNNWE02bE1KS0VyTVROTlJxUTRFUzNQM3hrbERWWWh5X21pSFg2ajBBOG02cXdzS1UyV09MY0k?oc=5",
+      "published": "Tue, 13 Oct 2026 02:33:00 GMT",
+      "summary": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds&nbsp;&nbsp;Reuters",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-11T01:03:23+08:00",
+      "published_beijing": "2026-10-13T10:33:00+08:00",
       "source_detail": {
-        "name": "EurAsian Times",
-        "url": "https://www.eurasiantimes.com"
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -419,31 +458,31 @@
       "relevance": "low"
     },
     {
-      "title": "China's trade strength rooted in competitiveness, not currency depreciation - chinadailyhk",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PTWdvZy1FNUtPZmJieFhoNklMcmxSR3ROUlFZSE50TGplT1lBTS15LXdmcENvVU5MeXRlWDFTVWFrTVdCb0MyU1ZBUFpGdFRLMFFRLTVR?oc=5",
-      "published": "Sat, 10 Oct 2026 15:26:00 GMT",
-      "summary": "China's trade strength rooted in competitiveness, not currency depreciation&nbsp;&nbsp;chinadailyhk",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-10T23:26:00+08:00",
+      "title": "Who benefits when conflicts never end? - China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXSUtYYnFRQU1sU3J3dkJkYjNXcHFFWFFKRjcyUm1qS0hpZUNENFk3ZlFOT1hDZjNMWXZ5SGxxenpzNUVuM2tEOERlRG9EZFdjU0hVZXJLWm1Nb0N2bGdKREV5bmhZOHRfeEk0amhGcTg4TUI4VVFfZ3VHc1hKUQ?oc=5",
+      "published": "Tue, 13 Oct 2026 01:37:09 GMT",
+      "summary": "Who benefits when conflicts never end?&nbsp;&nbsp;China Daily",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-13T09:37:09+08:00",
       "source_detail": {
-        "name": "chinadailyhk",
-        "url": "https://www.chinadailyhk.com"
+        "name": "China Daily",
+        "url": "https://www.chinadaily.com.cn"
       },
       "priority": 0.0,
-      "category": "贸易壁垒+数据",
+      "category": "贸易管制",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "India-EU FTA 'An Absolute Game Changer': EU Envoy On Trade Deal, Defence Ties - NDTV Profit",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQllUWW9oS1pCTDdvanpORE11a3plYWFWMkhXNi1vdkIzSEFiTHpST3BPeFZ0ZUtDaURPZWt0VlNvcHdkbW1QaHlzRUtoOW0zU29ZTkxXcS1oWGpRQlhtZ1BsckdyYmx6emw4U3ctRWsyS1VRbmRVT2FWLVF6clNQRVo3TlZrN3lvY2kzSkRibjd0b1RyaUpyMnBKYVZHZklSbnY3ZmZFOHkzMmctSDdlbHpiXy11U0VQakHSAcIBQVVfeXFMUHlXdnk4T2NMWGFrZjJ4VklWMGgxbkRZNU9Jc1IzME9VS0JoaGxLZFdtS29HeGhMUGxWTG96OG5lTDhrNEtnRm9XUmMxM3F1c3NnRlhUNzRTS1pra09hRXZqRnFUZGVYNE9CdlRYeGhCdnZOQy1raktsbTE0TW9tR3ZnSHNCU0c0OUExNXpuN3lYTkktTTVMUmRGRjBFQ3phQ25lV2Y1SHg1SThMVVItbnNKcENoMGpvRnZnU1FSVzJTcXc?oc=5",
-      "published": "Sat, 10 Oct 2026 12:53:39 GMT",
-      "summary": "India-EU FTA 'An Absolute Game Changer': EU Envoy On Trade Deal, Defence Ties&nbsp;&nbsp;NDTV Profit",
+      "title": "Parmigiano Reggiano Launches Australian Campaign To Rival Domestic Parmesan - https://en.edairynews.com/",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUTZQam12YzhmNWN5OWJxZXVQc3N2dVVOUDJObHFmeXZ2N3BUZExFSzA1UnBndGRxNkViVXphU1VYM0xYTS13dHdvM24tNVFHbVhNYmJnX3BLYWRQNjBMLTgxX1lJUmNpRzI3d3hqM2VYNXp5TXpTUTB6OGZ2My1Sb1NsTmlPeWJVTHVtS3dLS1d6aDQzaUs0UnhBTm83c2NWMV9JRg?oc=5",
+      "published": "Mon, 12 Oct 2026 22:51:11 GMT",
+      "summary": "Parmigiano Reggiano Launches Australian Campaign To Rival Domestic Parmesan&nbsp;&nbsp;https://en.edairynews.com/",
       "source": "GNews | FTA",
-      "published_beijing": "2026-10-10T20:53:39+08:00",
+      "published_beijing": "2026-10-13T06:51:11+08:00",
       "source_detail": {
-        "name": "NDTV Profit",
-        "url": "https://www.ndtvprofit.com"
+        "name": "https://en.edairynews.com/",
+        "url": "https://en.edairynews.com"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -451,31 +490,15 @@
       "relevance": "low"
     },
     {
-      "title": "EU and China Reach Preliminary Trade Understanding on Electric Vehicles and Market Access - boldnewsonline.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnd6MS1ZZUU2TU9PVW5sZDBVTWItZmlHbXNYS2l6WkUwRGRmYnExMHhMSlpTZnBsb3lZeWhmLU1mTkw1czdNdzE5SlNSV194Qk9xdlBCaWNvWVdBMXY0cExLWHRUY0V6OUJoSkxyUTllVG4zZHEwdFc5LThXa1AzY3JtRXVsQThqTEpuclg2Y3Y5T0NVcVVKTHlEWmZpb3l4YjlnVlM1b0ZmbTVNR2RFVWVRNllpMDNrRzA2N0VB?oc=5",
-      "published": "Sat, 10 Oct 2026 06:30:56 GMT",
-      "summary": "EU and China Reach Preliminary Trade Understanding on Electric Vehicles and Market Access&nbsp;&nbsp;boldnewsonline.com",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-10T14:30:56+08:00",
-      "source_detail": {
-        "name": "boldnewsonline.com",
-        "url": "https://boldnewsonline.com"
-      },
-      "priority": 0.0,
-      "category": "中国企业视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China - WHBL News",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUm1meTBtbFlsLXJVQzUteF9CT0hZRUN4V3FfWW10U1FNcERfa0prem54RFdvclJzSC1lZzV4U1gxa3QzdmFrV3hTdUpTODEyek45c1RfMEFEc3BMZzZmUzlBUU93LU42clh0bkpwUk1SWjgybm5fU1d4VGZLQWtwWThYTk5sa0prSW1veHd6enR5M2hnTHBYOXgtVVBTR0VUSnVSVUFycTlnb1kzRERFUEZDeG5iM1piVU1fU1JCcGM?oc=5",
-      "published": "Sat, 10 Oct 2026 05:33:03 GMT",
-      "summary": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China&nbsp;&nbsp;WHBL News",
+      "title": "Water Cannon Vehicle Market To 2035: Replacement Demand and Retrofits Drive Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNemdmZDdJcl9OOWFQdWxJdkRFM3VBV1NLaTRWdnVsY1NtMmdMN3BUSHFoTTFHN1Z6NDdSS0hvaGxnMFhqWkw1bm1OXzBIaE5PQ2ZXTzJUSUJybm9IYWpFdGhxUl95ZWk2NWhfU1hVZnpzTmp0d2ZVWEJiWEZSaXhST3lDZ3IwcjFIRjdjblFUSERVRDFnSTlkMEp6dzJkVEh1TEZkM0FsQTU3cENRcjE5TUVOVlhMZThpSnYzWFVZcnNOS2VhYTVoazJxYTE2OUhxRlN6Q0pBT25fdENkdklQc2ZuOA?oc=5",
+      "published": "Mon, 12 Oct 2026 22:21:04 GMT",
+      "summary": "Water Cannon Vehicle Market To 2035: Replacement Demand and Retrofits Drive Growth - News and Statistics&nbsp;&nbsp;IndexBox",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-10T13:33:03+08:00",
+      "published_beijing": "2026-10-13T06:21:04+08:00",
       "source_detail": {
-        "name": "WHBL News",
-        "url": "https://whbl.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -483,28 +506,12 @@
       "relevance": "low"
     },
     {
-      "title": "Eight tests for the Trump-Xi 2026 détente - Al Majalla",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNm9WVl81U2hxOGtMWGY1bXd4YlpVRmNNeHI2eERHWmhtOFZVS2YxZ1ozWFhzUV9fN2NFNzBhb0V4elZTYTJCQ0JJNjZlUUxtbXMxS1EwRDVOODNJVGJLWU1QS0dZV2lFQkhxVXYteElvNHgxM3poQ3hOVGdXeWE4SDdZSWhPbjhBSFE?oc=5",
-      "published": "Mon, 12 Oct 2026 04:23:53 GMT",
-      "summary": "Eight tests for the Trump-Xi 2026 détente&nbsp;&nbsp;Al Majalla",
-      "source": "GNews | Section 301",
-      "published_beijing": "2026-10-12T12:23:53+08:00",
-      "source_detail": {
-        "name": "Al Majalla",
-        "url": "https://en.majalla.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US-China race is on for the Gulf’s AI future - Asia Times",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56LWVueGFySUJhOWV4T3F0YUdnSDNIOGkxalk2Z3N4N3U0Y2ZfNTh6MzZPOHVrTzhmT0xYYzNVdjFoQ3NoNEU4WUlNdXBvUzJfVTFVMlowUDFuN0dqWjVWTzBZWHZRYzBKcDlMN0thN0lKRkNRa0p4OVpkd19xREU?oc=5",
-      "published": "Mon, 12 Oct 2026 03:58:07 GMT",
-      "summary": "US-China race is on for the Gulf’s AI future&nbsp;&nbsp;Asia Times",
+      "title": "FCC product testing ban deepens US-China tech decoupling - Asia Times",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc3YyVU5UWkdKY2IwNC03NFU1MWhkLU8tSEltTmVkWmR6XzJrQ1djbEUxY2N3eEpsd2o4VlpBd1BkMWEzX0ZRWDBkNHhwRjFfNk1ZZUdvd3VhZGhTNlVjRHljUTRLa3ZZODhwbmc1b0dpV0RPLXFscXc5V3FMMnVCTEtHLVJBMTNtb1BLTXZENDQ?oc=5",
+      "published": "Mon, 12 Oct 2026 20:32:22 GMT",
+      "summary": "FCC product testing ban deepens US-China tech decoupling&nbsp;&nbsp;Asia Times",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-12T11:58:07+08:00",
+      "published_beijing": "2026-10-13T04:32:22+08:00",
       "source_detail": {
         "name": "Asia Times",
         "url": "https://asiatimes.com"
@@ -515,15 +522,31 @@
       "relevance": "low"
     },
     {
-      "title": "‘The deal is done’: Australia’s trade minister ramps up pressure on Opposition over EU free trade deal - Politico",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRVd4MENPM2gxazExYk1NMGI0QnQ4U2xvc004VUtpLXpXX2h4bjRYcVRZS0hCRXA3UkZ0bUk3MFVRbmxGcVlTbU1DVHNqU3pKNnpSRlBMbFpUR0ptbE9CLXhlbWNXQm14UllidVBlU0VfRmVCbHFIbG9DS2l6WG9FNVhPUGRNOFFJLXZWUkJUazlsMVBCNERrdTNvd1BRM1hLajNlamlUcTZmVXJYck96aDFQYlFLSFpSbnlnNnN4RXBQaXI4WXphY2VzNGFZdHZXUDFDZllneTl0RHVZWlBoaGV3?oc=5",
-      "published": "Mon, 12 Oct 2026 03:46:00 GMT",
-      "summary": "‘The deal is done’: Australia’s trade minister ramps up pressure on Opposition over EU free trade deal&nbsp;&nbsp;Politico",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-12T11:46:00+08:00",
+      "title": "Europe Is a Huge Outlet for Chinese Manufacturing Overcapacity - The Institute for Energy Research",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV0l0OXhzYjB0anJVMTBpWTc1RTV1enMyWFltWExqMlhMNk83azEwdUltQTFPSVJXYTVFZHhBU2Rvc3RjbUVpNlhKMWxERHZNTThzWjFYRGNwUHFKVVBJS3ZmeWFycmQ1Z3FHTVo1Z0YyRm8xNDhRNTFhNXNNa0N5LWdMd0NlNVFJVkdoSmgtSnM4eHlUX09xcnJOLVNiUVluR0tVb0RpVGQ3YlVveFFtUnptVFczRldFQ1dWdWlXakNjRVVpdWc?oc=5",
+      "published": "Mon, 12 Oct 2026 19:11:15 GMT",
+      "summary": "Europe Is a Huge Outlet for Chinese Manufacturing Overcapacity&nbsp;&nbsp;The Institute for Energy Research",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-13T03:11:15+08:00",
       "source_detail": {
-        "name": "Politico",
-        "url": "https://www.politico.com"
+        "name": "The Institute for Energy Research",
+        "url": "https://www.instituteforenergyresearch.org"
+      },
+      "priority": 0.0,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US trade deal to be finalised as 'circumstances have changed': Piyush Goyal - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNd29ZYjB3TFN1UjRUYmlfUTF2d3hGQTdkQW95bm9kSkxIajBTQWw5R0tySDRjbzJzS2duWVllVlU3NkRiaG5ZRTNMQ0V5RzhYUmIxQklBaTR0QVpUYXplMW5ISzktSWlsaGxXWVZyMG1ndVp4VTYtZ3pWS3JPdGdxXzVWd2V1V3BEU0dmTGhPOW9tNXo4MS1YdkI5T3JROG1mOHFmWDY0SVhJZ1NWdnFoYnhvMDUzX1V5Y1phcHFLODJkTW5QSDQwTUd1TkFURm1oQXc3YWpZM0VCT2V6VTN2ckIyaUhlcjBy0gHuAUFVX3lxTE9UNm0yTlRtTGtMTElfMmcwTnM1bV9uaDQtdTNyWEptTTNOSHJwbU5Eb2tZWkIxOHlhX2NGc2NjbEpWWVFQRHFtWFczcHgyajQ5dUVrYWNZejFDaEt5X3BiQm15cy1KN1h2R09YNkNFLWRqdDVTSWlIMDZ1ckhkcTJpS09LdHpYSG9hVWVZUEVaR29YOEphVzhZRFNPWlpkXzdKM0hiakhxNVNNU1ZsaGI0aVItNWFLVnltbl8yU2lZNzVpNk1LVndtcHlPRFZualZvN0Fic3U0WFZWaEtfWGNBeTBNekNiV0lqVDJLa1E?oc=5",
+      "published": "Mon, 12 Oct 2026 17:37:54 GMT",
+      "summary": "US trade deal to be finalised as 'circumstances have changed': Piyush Goyal&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-13T01:37:54+08:00",
+      "source_detail": {
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -531,15 +554,47 @@
       "relevance": "low"
     },
     {
-      "title": "Why the US-China trade truce matters - Free Malaysia Today",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFJGY3FRWi1hZlRVYW5LZTBHUGdJaksxYVZjTEJtZGljUkZGc2VWak14U1E3aWt6akNLSU5pa1lQbFJGaHotdkM5RnZnNUlwWkpyNl9sZkpSMzdRZEo0TmxzSzY5NUZpaUVfZE1rTE1NMW4yWVFYWmQtdnBpNXh0RkZNUTNCalk2MmE5dURNVVFyUHlJSmhOTWQyQUEwN2s?oc=5",
-      "published": "Mon, 12 Oct 2026 01:00:00 GMT",
-      "summary": "Why the US-China trade truce matters&nbsp;&nbsp;Free Malaysia Today",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-12T09:00:00+08:00",
+      "title": "Military Tactical Radio Market Forecast to 2035: Growth Driven by SDR Modernization and Joint Network Demands - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdlhVRUNrbzBaeWxWLWhrMmtiNHJPNzlJR21sNjFzS2llMkhmU2JGcFRJbTRZbUVEb3lnOWtneW54TDliVXh5OXozeWVxcTF0NjJyZ1BCLVdHUWlKWFk2MWdQQng3S0ctQVRRZFg5TzJTSG9nSjY3MkR4M1BFNDBqcmgwTHg3WENxT1BjcGpsSnJQQmtsSWlMQ0ROYzFQTHJ6Q3AyWUc4ZGg4OEEzbEo4b0NVdHJtYlVqTXJObWNxRDg1U1luOW1FLW9vUkNVTkJLcm1SdA?oc=5",
+      "published": "Mon, 12 Oct 2026 16:46:05 GMT",
+      "summary": "Military Tactical Radio Market Forecast to 2035: Growth Driven by SDR Modernization and Joint Network Demands&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-13T00:46:05+08:00",
       "source_detail": {
-        "name": "Free Malaysia Today",
-        "url": "https://www.freemalaysiatoday.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Massive China van trailer duties set to become final - Land Line Media",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmtzYk9GWkJVNXdBM0hUNnVLNEppZzMyN21GM3hHblVoXy1UU2lablVoNnZ2QzRHcENvWl8xVnEyLUR6WnJQYmozTlhPemRtS3BEV0RjV0h1TV9WOThZUEFRcTU1M21tODRLZHBUb1RLcnpsS0R3cTE1aF9vQm5HMHF3?oc=5",
+      "published": "Mon, 12 Oct 2026 15:37:23 GMT",
+      "summary": "Massive China van trailer duties set to become final&nbsp;&nbsp;Land Line Media",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-12T23:37:23+08:00",
+      "source_detail": {
+        "name": "Land Line Media",
+        "url": "https://landline.media"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU Quota on Chinese Hybrids: 350,000 Cap and BYD Impact - Admirals",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iSWQxLVd6S2FYVkp5el96VGNDWTQzM3Z6dW8zbklGcDJLb3FIY1B5dFljM3dFdHpWV1E1dHIyeTdqbXdNMUxMWGtjNzRqOXFFX0pqVGlLQmhHbHRlamRBa19zUXRTR2NEVkJ0N2JidGExYjdwNFFpcnR5a2FXcUE?oc=5",
+      "published": "Mon, 12 Oct 2026 15:09:18 GMT",
+      "summary": "EU Quota on Chinese Hybrids: 350,000 Cap and BYD Impact&nbsp;&nbsp;Admirals",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-12T23:09:18+08:00",
+      "source_detail": {
+        "name": "Admirals",
+        "url": "https://admiralmarkets.com"
       },
       "priority": 0.0,
       "category": "中国企业视角",
@@ -547,18 +602,447 @@
       "relevance": "low"
     },
     {
-      "title": "Between Deficit And Dialogue: Seeking Balance In Europe-China Relations – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcGx0czlvbXR0ZHJjRWN6MmVVWDhoenBGZDJMSXowNkhia2V2c2ZzMUI0NEpzZFNNN084T2R5a3VjaWRDbzVvVHd2VmIxSFRzbVhreHBoNV8xeDkxM3dOYkZhS2RaRmVWdmNsWUpSLWpTaWk3Z1Q1c2FWY3BSSm5POGd1YnpRRlJjUWxTa2xMM0x1SElVZlgyWVpOTnI4SnU0ZkZTRE9IZ1NGRzVpNklRaXprUG1DUlZsZjJz?oc=5",
-      "published": "Mon, 12 Oct 2026 00:59:28 GMT",
-      "summary": "Between Deficit And Dialogue: Seeking Balance In Europe-China Relations – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-12T08:59:28+08:00",
+      "title": "India and UK Target $120 Billion in Bilateral Trade by 2030 Under Free Trade Agreement - The National Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcktyNzM4SmdsLTA1dlJQcUFVcE8zTnRqbTdxeXZyQWtZemFIYXlxX245THllU3pBMmZHVHhFQS0wMGZ4MS03OUZpN0pCVjlNc3V4Q084TGx6MXp1c2lwTWVGTFdkNGhLeUFrRUZjUlBhWFZkVzVhY3dnX0NTOS04QVR1anR5X3lzVEpaMFFhamRZV2dpVE41WktJVnpnTzhkY3Nha1B6c2JlVXN0SWVmVmdJSjJSc18tUmgyadIBvAFBVV95cUxOcktyNzM4SmdsLTA1dlJQcUFVcE8zTnRqbTdxeXZyQWtZemFIYXlxX245THllU3pBMmZHVHhFQS0wMGZ4MS03OUZpN0pCVjlNc3V4Q084TGx6MXp1c2lwTWVGTFdkNGhLeUFrRUZjUlBhWFZkVzVhY3dnX0NTOS04QVR1anR5X3lzVEpaMFFhamRZV2dpVE41WktJVnpnTzhkY3Nha1B6c2JlVXN0SWVmVmdJSjJSc18tUmgyaQ?oc=5",
+      "published": "Mon, 12 Oct 2026 15:01:53 GMT",
+      "summary": "India and UK Target $120 Billion in Bilateral Trade by 2030 Under Free Trade Agreement&nbsp;&nbsp;The National Bulletin",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T23:01:53+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "The National Bulletin",
+        "url": "https://thenationalbulletin.in"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+      "link": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+      "published": "Mon, 12 Oct 2026 14:20:53 GMT",
+      "summary": "US economists developed models that help central bankers and finance ministers to stabilise their economiesBusiness live – latest updatesTwo US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to stabilise their countries, avoiding long recessions and runaway inflation.Robert Hall of Stanford University, California, and Michael Woodford of Columbia University, New York, were recognised for developing the “microeco...",
+      "source": "Guardian Business",
+      "full_text": "US economists developed models that help central bankers and finance ministers to stabilise their economiesBusiness live – latest updatesTwo US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to stabilise their countries, avoiding long recessions and runaway inflation.Robert Hall of Stanford University, California, and Michael Woodford of Columbia University, New York, were recognised for developing the “microeconomic foundations of macroeconomic stabilisation”, giving policymakers better tools to smooth out the peaks and troughs of their economies. Continue reading...",
+      "published_beijing": "2026-10-12T22:20:53+08:00",
+      "priority": 0.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Malaysia China Rare Earth Technology Transfer Explained - Rare Earth Exchanges",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRmhKS052alpzSVNrMUxjRGtIcnQtUzB6VmRHWjVfTHlJRW1LcDlwNTdhZmpKYTJ6QXFOQjdaWjF3Q1d6SE52bDBUOFdtNXYwT1NKNVZEU2lTUVJjNTRiRUhnb1NUZDhmaTRyRUpHcmVEZk82cmthakZHaGFwTWxfV0JmOTVZZThGSGc?oc=5",
+      "published": "Mon, 12 Oct 2026 14:18:48 GMT",
+      "summary": "Malaysia China Rare Earth Technology Transfer Explained&nbsp;&nbsp;Rare Earth Exchanges",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T22:18:48+08:00",
+      "source_detail": {
+        "name": "Rare Earth Exchanges",
+        "url": "https://rareearthexchanges.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Piyush Goyal reveals how India negotiates FTAs: 'We are a $16 trillion economy in PPP terms…' - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNQWowY29ENG51djV1UzRiNEVxWEpKZGdHSWphbmJSUlZENnRhOHJZbTdxRDA2eURWQy1BWEUxRVVTSmhvc3FsWjZHbzUyZ25pLWxKX2d2U3VKSlJTVzF6dGQ4NlFFdzlsZExfQUFOT0xEbDk0ZkNMVktES29TN2E1Vk84UzJyRnM5UjJpb0JhZkRYRnVOTjc4ZzlHTjBNMzBQSzJXeFZpLURmODBWUXBTajRrSVhXeFU1TUdxZDJRYV9NbzQ3WjJDaXNzdnMxQnB0bWdKX0hQTjdLM3NtRG9FY1VjTVdmanRtNnVv0gHrAUFVX3lxTE1BajBjb0Q0bnV2NXVTNGI0RXFYSkpkZ0dJamFuYlJSVkQ2dGE4clltN3FEMDZ5RFZDLUFYRTFFVVNKaG9zcWxaNkdvNTJnbmktbEpfZ3ZTdUpKUlNXMXp0ZDg2UUV3OWxkTF9BQU5PTERsOTRmQ0xWS0RLb1M3YTVWTzhTMnJGczlSMmlvQmFmRFhGdU5ONzhnOUdOME0zMFBLMld4VmktRGY4MFZRcFNqNGtJWFd4VTVNR3FkMlFhX01vNDdaMkNpc3N2czFCcHRtZ0pfSFBON0szc21Eb0VjVWNNV2ZqdG02dW8?oc=5",
+      "published": "Mon, 12 Oct 2026 14:04:00 GMT",
+      "summary": "Piyush Goyal reveals how India negotiates FTAs: 'We are a $16 trillion economy in PPP terms…'&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T22:04:00+08:00",
+      "source_detail": {
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "🌐🤝🏻 Growing commitment: How 12th EU-ASEAN Business Summit builds stronger regional economic partnership - The Southeast Asia Desk",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcnBUTU1zbDY1Tjh3dmRIU1NUTm53SHFjWjdUN1FXcmttY2RwUUpHQWxyUzVpdkJrNEFiN0JkWmwzYjlBZWVZVjUyb3IyeWtpcjV3WmxBRXlCRnk5TXRYNWlGWWRiWVZpZU16c3JnSW52Nm5oOHI5OXBLdTBKUWg1aw?oc=5",
+      "published": "Mon, 12 Oct 2026 14:03:03 GMT",
+      "summary": "🌐🤝🏻 Growing commitment: How 12th EU-ASEAN Business Summit builds stronger regional economic partnership&nbsp;&nbsp;The Southeast Asia Desk",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T22:03:03+08:00",
+      "source_detail": {
+        "name": "The Southeast Asia Desk",
+        "url": "https://www.thesoutheastasiadesk.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Defence restrictions, robotics fuel new race for rare earths - Mining.com.au",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZFg4ckpmb1pxa25XQ2stWXdkcGRFZk5jM25vekNOVWFWWmNfX2tKMkEySDM1RURNdi13aWxmRGJnQ3gtSmN0b21HMTl4d2N1TTR5OS1KNDlDQnZNOEozV2M1b3BySmE4d0M3V050Vm5WMUxMWXdFMGllVjN5X0wyREhzbVlZN3R1OEE?oc=5",
+      "published": "Mon, 12 Oct 2026 13:51:23 GMT",
+      "summary": "Defence restrictions, robotics fuel new race for rare earths&nbsp;&nbsp;Mining.com.au",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T21:51:23+08:00",
+      "source_detail": {
+        "name": "Mining.com.au",
+        "url": "https://mining.com.au"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "\"This could really change our partnership\": Confederation of Industry of Czech Republic President Jan Rafaj hails India-EU FTA - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNnVGLTRBbXpBaERMMEVnYVJfTFR1NUVJSHplODhJYmxzMldaYVVDdnlsa0hPQVRFMVdqYUdqLWNoQmN0eXNWUzJhTHY0SXozNk13TGFMTWY4UHNmaXN2TnhDWm5BTFpjdkRMLXpGUXZKNzhubXpmdjFCZWNraG4zTXVHS05QbDRpZE52ZndLaXNFQ1l6aXJCeFdNZWgwX192eFBuTUZrWEVNU0F2eG1KdThhc1pycFZnZmJQc0tIR1Y2cG9vOHl6dGVVbFFyaUxJcVVXZ1R1NlFnLXdabXd1ZjQ0WENrczZMNHJIMW9TYkFVTVd1UlNNLWU4OEt5SDBuLUQxVURHUy1Ca21ZSFZ0SG9MSdIBkwJBVV95cUxPNnVGLTRBbXpBaERMMEVnYVJfTFR1NUVJSHplODhJYmxzMldaYVVDdnlsa0hPQVRFMVdqYUdqLWNoQmN0eXNWUzJhTHY0SXozNk13TGFMTWY4UHNmaXN2TnhDWm5BTFpjdkRMLXpGUXZKNzhubXpmdjFCZWNraG4zTXVHS05QbDRpZE52ZndLaXNFQ1l6aXJCeFdNZWgwX192eFBuTUZrWEVNU0F2eG1KdThhc1pycFZnZmJQc0tIR1Y2cG9vOHl6dGVVbFFyaUxJcVVXZ1R1NlFnLXdabXd1ZjQ0WENrczZMNHJIMW9TYkFVTVd1UlNNLWU4OEt5SDBuLUQxVURHUy1Ca21ZSFZ0SG9MSQ?oc=5",
+      "published": "Mon, 12 Oct 2026 13:39:18 GMT",
+      "summary": "\"This could really change our partnership\": Confederation of Industry of Czech Republic President Jan Rafaj hails India-EU FTA&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T21:39:18+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India-EU FTA to Boost India-Czech Business Ties: Minister - Rediff MoneyWiz",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS3RyckR3R25EeWhaNzdNLWtQQ1VFMjlYeVlGR19pRFRTbGhpQ21Ea1RSZWZMY01ERWJCM3ZhalF5aXUzQmVyZU8zRFpiQWhVelgzVEVJUVNwMWlfRHhER1hIVUFtT0M1NXlBb09HcXJqeS0xY1l3a18xMkxDaDVMTjFvbmhILTR1dS0wTXdiY2hQa3BFd3pYdHcwQlJuRzBjZ3FfLTBRTlAxeWJHNHJDc0RB0gGyAUFVX3lxTE1LdHJyRHdHbkR5aFo3N00ta1BDVUUyOVh5WUZHX2lEVFNsaGlDbURrVFJlZkxjTURFYkIzdmFqUXlpdTNCZXJlTzNEWmJBaFV6WDNURUlRU3AxaV9EeERHWEhVQW1PQzU1eUFvT0dxcmp5LTFjWXdrXzEyTENoNUxOMW9uaEgtNHV1LTBNd2JjaFBrcEV3elh0dzBCUm5HMGNncV8tMFFOUDF5Ykc0ckNzREE?oc=5",
+      "published": "Mon, 12 Oct 2026 11:34:09 GMT",
+      "summary": "India-EU FTA to Boost India-Czech Business Ties: Minister&nbsp;&nbsp;Rediff MoneyWiz",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T19:34:09+08:00",
+      "source_detail": {
+        "name": "Rediff MoneyWiz",
+        "url": "https://money.rediff.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU, Thailand provisionally close most FTA chapters after 10th negotiating round - MLex",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOenR5ZEFrb3BiblhaLVZwZlhjY2VGd2RFeUJBTTVmaWxVSWtRcWFwc0tZSjd1TjJPWms3YjBfMDhoalphYXRmNk5WWWRLZGViZnlPZFUzaUhTRzRnYXRxWXVrRDFycG1sLU9WdzRHb29qaGFoSGktSlltZlN6RGQ4TjBlZ1JFbE9RdXZVWFdOQ1lueUNxRmZrRElQWWtsWEp4TEJ0RWxZVkR2U1gtRmxMM1dIMTlqdkMwM1hyTGVRdXU2MXRnaXfSAVpBVV95cUxPT2JidWNhWVJRYWcwZ3NtRmIxbkFZcHV3S1h6b3pIejNWNHk1OWNxczdiYzh0UExpMDI1MWlnNk1Sakc1Q0lEblR0bnhNT3paZU9BeE1CN0pVZ3c?oc=5",
+      "published": "Mon, 12 Oct 2026 11:03:57 GMT",
+      "summary": "EU, Thailand provisionally close most FTA chapters after 10th negotiating round&nbsp;&nbsp;MLex",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T19:03:57+08:00",
+      "source_detail": {
+        "name": "MLex",
+        "url": "https://www.mlex.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Can Europe Curb China’s $7.5 Billion Hybrid Car Boom Without Triggering a Trade War? - Modern Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZXBMV3Y4ZnY2ZGFncXEtVnlpNzl3QVFDY3g5d1ppZjZhandOZVdRYTR2Q0NjNHh1UHdRQ0JiZ1cwLVlwSVU2NWtsV2xia1R3RnA5WUdMOVJ6UkN0ODhGRnlGVnRyNHdBMVlnZHhMXzFTT0JoU0lZcWN6Q1VfUXZJM21BaWhKRmlLSERxTWs1c1BlMzQtV0lRUmhtRHViQUlVYXhqMFVOWlJSQnJ5cGdNTzhUeFVuSWJrb2FtYQ?oc=5",
+      "published": "Mon, 12 Oct 2026 10:55:16 GMT",
+      "summary": "Can Europe Curb China’s $7.5 Billion Hybrid Car Boom Without Triggering a Trade War?&nbsp;&nbsp;Modern Diplomacy",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-12T18:55:16+08:00",
+      "source_detail": {
+        "name": "Modern Diplomacy",
+        "url": "https://moderndiplomacy.eu"
       },
       "priority": 0.0,
       "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Five Reputable Industrial Control Valve Manufacturers in China 2026: Advancing Process Control - The National Law Review",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNai16V2MycG9vREhlaE5vaUtIS004cWpKMzRnaHhOTjQ1WVg2RU50eVdoc09NeTh0Q281cUM2S1VZdU9TR25WSVhvcXhac1dfcW9idFZhR1lYczN4WjdoZVQ4MEFoeGZ5VkpoZF9xZHlqZkRYY3RManoyTVBWcHI3UE9TaEw2UTN6QzFXb3QxamhmckhBeEg0OGJ0ZnVNTHRsODJnSUVFTTVIMWwyWmZpNThib20?oc=5",
+      "published": "Mon, 12 Oct 2026 10:47:02 GMT",
+      "summary": "Five Reputable Industrial Control Valve Manufacturers in China 2026: Advancing Process Control&nbsp;&nbsp;The National Law Review",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T18:47:02+08:00",
+      "source_detail": {
+        "name": "The National Law Review",
+        "url": "https://natlawreview.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Indias big consumer market gives an edge in FTA talks: Piyush Goyal - Daily Excelsior",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ2ZtRGE3aTNwSnMxTUp1TWlPQk5Td2pSdm4yUGRxQk4tRTBXSEgyRGFnM3N2S0luUUtWTXY5djlsZG1qUWU4eXR2cnF2NVNkdC1ZVHoyclNXem1iVFpiaDdJTWg5NWJqZWs3WUtMLVFnZERrRmtWUDNtaWpQYnY4dnRxVU9DRXBsSUs2cVVBM2xQdUV6SFZXaWhXNjU0TEcxTkdN0gGjAUFVX3lxTE1DZm1EYTdpM3BKczFNSnVNaU9CTlN3alJ2bjJQZHFCTi1FMFdISDJEYWczc3ZLSW5RS1ZNdjl2OWxkbWpRZTh5dHZycXY1U2R0LVlUejJyU1d6bWJUWmJoN0lNaDk1YmplazdZS0wtUWdkRGtGa1ZQM21palBidjh2dHFVT0NFcGxJSzZxVUEzbFB1RXpIVldpaFc2NTRMRzFOR00?oc=5",
+      "published": "Mon, 12 Oct 2026 10:31:05 GMT",
+      "summary": "Indias big consumer market gives an edge in FTA talks: Piyush Goyal&nbsp;&nbsp;Daily Excelsior",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T18:31:05+08:00",
+      "source_detail": {
+        "name": "Daily Excelsior",
+        "url": "https://www.dailyexcelsior.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "European Steel Production Hits All Time Low - Industrial Info Resources",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXZaZEJOck8tNG00bVFPMVNlbHo3RzdTY3FfLXZrOF91U3JUSDVKbnRrRUs1N19BX0UyekNrcnVaVGRuNWswMmcwRlp0U0RQOTdJeU5xNHNHci1VSlhSM1NVczdreUJ4RHM0bUJzMjhSQ3dhbnZra2xDYzF6OWtoUzIxUmdER1I5VmFDNnpXelJ4LW1HZktVbkRLLUNoYUxwei05cXRyWXFpb1hfelkwYmd3YnE?oc=5",
+      "published": "Mon, 12 Oct 2026 10:24:08 GMT",
+      "summary": "European Steel Production Hits All Time Low&nbsp;&nbsp;Industrial Info Resources",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-12T18:24:08+08:00",
+      "source_detail": {
+        "name": "Industrial Info Resources",
+        "url": "https://www.industrialinfo.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Missiles against titan: Russia's response to new sanctions paralyzes EU factories - EADaily",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYng4bWdGckVuc0pQa3FLbVdBZ2w0LTc2WFJxQmxZLUZST0JRVzRTdWxjN0pFTWZFZ0UtLUItMVRweXZUMFludXpoc1FneUdEVXB4RHJOTXBua3BYc3FXMnRUVklZZm9nM2pNaVVuRU1NSG82czZtMndJdnNjdHBwU3RFajIwU3JjMUNwNkRhTE1FX05uUnNoYUNneUJKWnZYZXhiMmZiYmlCZXh1YmRsR2N5bVFzdHE2bUhhWE930gG-AUFVX3lxTE9ieDhtZ0ZyRW5zSlBrcUttV0FnbDQtNzZYUnFCbFktRlJPQlFXNFN1bGM3SkVNZkVnRS0tQi0xVHB5dlQwWW51emhzUWd5R0RVcHhEck5NcG5rcFhzcVcydFRWSVlmb2czak1pVW5FTU1IbzZzNm0yd0l2c2N0cHBTdEVqMjBTcmMxQ3A2RGFMTUVfTm5Sc2hhQ2d5QkpadlhleGIyZmJiaUJleHViZGxHY3ltUXN0cTZtSGFYT3c?oc=5",
+      "published": "Mon, 12 Oct 2026 10:15:00 GMT",
+      "summary": "Missiles against titan: Russia's response to new sanctions paralyzes EU factories&nbsp;&nbsp;EADaily",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T18:15:00+08:00",
+      "source_detail": {
+        "name": "EADaily",
+        "url": "https://eadaily.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trade minister leading 300-member mission to India this week - CFJC Today Kamloops",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemVkVlFVWmNTcElyWmhlUDhBTktsLWt0TXREYzY3TF9sdTB3ajF2R2wxSThFUnJNX2ptcFFRNEdaRGdocXprUmtjVjhHYXlXemg2WVItS0hxcXFQUnM5MTR0VVVCelc0VlVpRjlpQ1lrQTVmZUdBYjh1b3J3NGRqNF95djVhX0p4UUtDQ3ZKTXg5eGhSdlA1aWRn?oc=5",
+      "published": "Mon, 12 Oct 2026 10:10:18 GMT",
+      "summary": "Trade minister leading 300-member mission to India this week&nbsp;&nbsp;CFJC Today Kamloops",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T18:10:18+08:00",
+      "source_detail": {
+        "name": "CFJC Today Kamloops",
+        "url": "https://cfjctoday.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India’s Large Consumer Market Gives It Edge in FTA Negotiations: Piyush Goyal - Times Now",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQN1paa0tZcm1taWNtcnFKRDRHV3p5MnA4QXlQRW96Yk1HU3ZYbkFETjBaWEJRZUJqQXUyWE1FU2pTTFktMEUtb2IwTkhNVHFCanhCMjluNlY3Mmc1dmNxdGJZVlNXUnEwNVFhbEJkcF85RWtQTHZfYjZBMlA2MEJvR0ZXY2RUdHNUTDRuVXdZY0xheG52SWRNN3U2UmRORi1lUWFPR0hfcjZsbjI5dUxYZjZhd1RZMXFYMHlybXQ3UUFyNUtjbUM3VE53TEFWVlQyMV92eFduNzRxX2djYlZKNEZ2b3k2QdIB5gFBVV95cUxQN1paa0tZcm1taWNtcnFKRDRHV3p5MnA4QXlQRW96Yk1HU3ZYbkFETjBaWEJRZUJqQXUyWE1FU2pTTFktMEUtb2IwTkhNVHFCanhCMjluNlY3Mmc1dmNxdGJZVlNXUnEwNVFhbEJkcF85RWtQTHZfYjZBMlA2MEJvR0ZXY2RUdHNUTDRuVXdZY0xheG52SWRNN3U2UmRORi1lUWFPR0hfcjZsbjI5dUxYZjZhd1RZMXFYMHlybXQ3UUFyNUtjbUM3VE53TEFWVlQyMV92eFduNzRxX2djYlZKNEZ2b3k2QQ?oc=5",
+      "published": "Mon, 12 Oct 2026 09:49:49 GMT",
+      "summary": "India’s Large Consumer Market Gives It Edge in FTA Negotiations: Piyush Goyal&nbsp;&nbsp;Times Now",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T17:49:49+08:00",
+      "source_detail": {
+        "name": "Times Now",
+        "url": "https://www.timesnownews.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Economic and Market Report: Global and EU auto industry – First half of 2026 - ACEA - European Automobile Manufacturers' Association",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVptY2JpNGRvU2h6eG5iaGRnZGVjTk0zTndWVG41MFNtNy1tNFJKOFpsWFpRUW9OTDBtZk5PMm9FUkxSWUFSOHRmSzNyM2MyT3U2dDQ0dVc1eVlxeXlMRGt3UVdLS2x2TklNNUlUZVM0emVDMTl4eWM0LVhpcFVQYVd3OU9kN1dkNUdfZl9XbXFaVDZKS0RWWWhYY3pJcEJjY2lnR2swR2h6T3Z4?oc=5",
+      "published": "Mon, 12 Oct 2026 09:21:06 GMT",
+      "summary": "Economic and Market Report: Global and EU auto industry – First half of 2026&nbsp;&nbsp;ACEA - European Automobile Manufacturers' Association",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-12T17:21:06+08:00",
+      "source_detail": {
+        "name": "ACEA - European Automobile Manufacturers' Association",
+        "url": "https://www.acea.auto"
+      },
+      "priority": 0.0,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India To Gain Preferential Access To $85 Trillion Global Markets In 18 Months: Piyush Goyal - Free Press Journal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQnVtTmQ4UHB1WWRpUHQ3TlhVeDlTam4tVFF4TTk1YzZVYW9hbmpLZF9GN1JPMnExalBTaEZpR2dTY0hWUERjWHAzdENwN0FxanptaTFHS0JIT0VRQW1Vak9zRUwtV1d2eENXYmk4dURCS29yWk5oSktwdTFXc2VKaHZkSmVzZTl1RlR4c1MwYWlmQkxxYUZBWUtHb3cwZ0Z1azJWWmdBMUhESjJiaXZ6czJCNzN3Y2tPXzN3RC1obngtRUVyaW5Yb3JsdlAxTUnSAc8BQVVfeXFMTUJ1bU5kOFBwdVlkaVB0N05YVXg5U2puLVRReE05NWM2VWFvYW5qS2RfRjdSTzJxMWpQU2hGaUdnU2NIVlBEY1hwM3RDcDdBcWp6bWkxR0tCSE9FUUFtVWpPc0VMLVdXdnhDV2JpOHVEQktvclpOaEpLcHUxV3NlSmh2ZEplc2U5dUZUeHNTMGFpZkJMcWFGQVlLR293MGdGdWsyVlpnQTFIREoyYml2enMyQjczd2NrT18zd0QtaG54LUVFcmluWG9ybHZQMU1J?oc=5",
+      "published": "Mon, 12 Oct 2026 09:11:48 GMT",
+      "summary": "India To Gain Preferential Access To $85 Trillion Global Markets In 18 Months: Piyush Goyal&nbsp;&nbsp;Free Press Journal",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T17:11:48+08:00",
+      "source_detail": {
+        "name": "Free Press Journal",
+        "url": "https://www.freepressjournal.in"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China’s US$7.5 Billion Hybrid Boom Faces New EU Curbs - BusinessToday Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEczSmd4QzNnSkhGdUVEMDJkUFhSb0QtSlUwdGxzQVNtdlAtSHZSQWlxMEtBU2VhWXFCVVJ1d0lxVTd4WnBnZkVON05JamlfZTBId1NycDlGZjYtZUhid2lJUkpsUkJXaTEtSkdVNXRZVHVINkVEV3pab1hzai1mWmZmVUVMRXRlSlpXOThCNDQwZFJndWdwLXNhemE?oc=5",
+      "published": "Mon, 12 Oct 2026 08:17:10 GMT",
+      "summary": "China’s US$7.5 Billion Hybrid Boom Faces New EU Curbs&nbsp;&nbsp;BusinessToday Malaysia",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-12T16:17:10+08:00",
+      "source_detail": {
+        "name": "BusinessToday Malaysia",
+        "url": "https://www.businesstoday.com.my"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India-EU Free Trade Agreement: Implications of Source Code Rules - Institute Of South Asian Studies (ISAS-NUS)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZHZudmgwNUZYTE5ZOU5idlRsTWp3RHhuTG5jWDNKbW1HZUJ6TlVMY3d0UWJCakNvcXlqVGZpbFlFUjNzVUVwOGJCUWVIaHVWOHd6cDVfZlFLM2tMLURjV2tJM2hBZnlwa1VQNWdra2VEN2JfVU1QclNhMzRvVGhXN3pGSExURU5oRlE0b2hCNVZWWmFqMFJULXdUY3RqNDQ5?oc=5",
+      "published": "Mon, 12 Oct 2026 08:00:12 GMT",
+      "summary": "India-EU Free Trade Agreement: Implications of Source Code Rules&nbsp;&nbsp;Institute Of South Asian Studies (ISAS-NUS)",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T16:00:12+08:00",
+      "source_detail": {
+        "name": "Institute Of South Asian Studies (ISAS-NUS)",
+        "url": "https://www.isas.nus.edu.sg"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How China and America Can Move from Competition to Stability - War on the Rocks",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWEZWQ1h1clQzdXJDRE1yTUFXTDlaOWlpWVY0VTdOQnl1T05tLTNYQjdjR093bFRGTE54cjQ1TUNxQ2pQQkJ2ZEZTSVFYYVA4X1BLNVo2UlZyUzd0ZW5CTHNCeGxIaW40SVlzd0NVSDFIMTljLVYxcEJBdFBPcHFGVTU1UDIwR1E3RUNnWW8wb0g?oc=5",
+      "published": "Mon, 12 Oct 2026 07:34:06 GMT",
+      "summary": "How China and America Can Move from Competition to Stability&nbsp;&nbsp;War on the Rocks",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-12T15:34:06+08:00",
+      "source_detail": {
+        "name": "War on the Rocks",
+        "url": "https://warontherocks.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Planning a Europe trip? Five GCC countries could be closer to visa-free travel - Gulf Business",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNC01NGlXWnN6TTlOaHlQOUlSNGIzd3cycUtzV0N1c21yVFF5TjdpR21CVjdhUnpBckMySXVjWFFjMEt6MDRJYzNpYjBreEI1dHV2RXhiNnlPV0xJUXV5Q1BtUDFLcjFVM0k1bFN4VFROcVh3ODBaNmFudUVpSXgtV0JxZDNHRV9nME1PNVFha202UFJBbUIzOHVRdm9ZdW5QTGtrMW55YUxqbDhIQnFtb2FWQlI?oc=5",
+      "published": "Mon, 12 Oct 2026 07:31:24 GMT",
+      "summary": "Planning a Europe trip? Five GCC countries could be closer to visa-free travel&nbsp;&nbsp;Gulf Business",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T15:31:24+08:00",
+      "source_detail": {
+        "name": "Gulf Business",
+        "url": "https://gulfbusiness.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China's $7.5 billion EU hybrid boom faces new curbs under China-EU deal - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMFFrZExkSUpZRTF3bDlwMXhkX3NZU1FsU09wWktzYi1rTUhVemhqRElxV3cyb1BaNTRXbzR2S0NYcXJmMWxLcVpkZURiZjU0WkF4dXVzQmNXYUpzZDVuNGRzb0tteDFxdWZ0ZWlBblVoa3hWdVVVREJpUHF1M00xYUI3Y09TZFpHNmJEdFNILXA5WHpna3pmNGRaa2FUdG5BN3U2Y2VmSTZrWXY4TER3bzhlNXdQS2xoLVRNY1lmVXkySE9wT1lJVDdEZ1k2RnM?oc=5",
+      "published": "Mon, 12 Oct 2026 06:51:00 GMT",
+      "summary": "China's $7.5 billion EU hybrid boom faces new curbs under China-EU deal&nbsp;&nbsp;Reuters",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-12T14:51:00+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "WEF to co-brand Autumn Economic Forum 2026 in HCMC - en.baochinhphu.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNFlNT1lkbWUxRnpsYmZjVXVSYjNVM1hOUEx4SzJmLVNETTRpVXUtTlhodHlqZG0xUWFpeUp6b2V1ZV92eGRnajRPQUFyYWE4SUN5UjZFbjN0OHJTSEJIMVc1My1xdEtKRlBNRGlwNk1OYkhZTlZrc3JERlhoQ3FONlNSSk9maVhwS05LbHBhTEN2QzhJb1F3bW5xWVJfaWxV?oc=5",
+      "published": "Mon, 12 Oct 2026 06:21:00 GMT",
+      "summary": "WEF to co-brand Autumn Economic Forum 2026 in HCMC&nbsp;&nbsp;en.baochinhphu.vn",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T14:21:00+08:00",
+      "source_detail": {
+        "name": "en.baochinhphu.vn",
+        "url": "https://en.baochinhphu.vn"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Can China and the EU avert a trade war? - ThinkChina",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ENnk3RjBaZWs1YllxQmtGXzZzUlpoOEdnZWhEQjlWdVRnc09GVWUtSGdBNF96ODU0WWZSeWlFMHhvNkE0eDN5R2ZpTjhraVRuTjBSM2FXZHotUGM1NzdSZGNyQ2pzdVJCUTlSM091ZkloSDNt?oc=5",
+      "published": "Mon, 12 Oct 2026 06:06:20 GMT",
+      "summary": "Can China and the EU avert a trade war?&nbsp;&nbsp;ThinkChina",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-12T14:06:20+08:00",
+      "source_detail": {
+        "name": "ThinkChina",
+        "url": "https://www.thinkchina.sg"
+      },
+      "priority": 0.0,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Prime Minister Le Minh Hung hosts Luxembourg’s Minister of Finance - en.baochinhphu.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdjdXRk9PWGgzQk9sTHQ2UldVQ1JlQk41cFhmbUxmNF81RTFlYXJ3ZkpWdDY1UkFRcFJSZHhzQUpFX1pvYjFYU3U1Qk9BSi11VkZ2bWx5emhiWlZvQ0dGT2VLX3JFc0NHN2VDTTBpZlVHLS1UNW5Qc2QySEZTNEJoNGpvbW1ZY1U4R3JHWHZhNWJJTHJ1b2pQRDZULW1Pd2FhakJzNnFnTFU4SE9fTzgxMjVMQWo?oc=5",
+      "published": "Mon, 12 Oct 2026 06:01:00 GMT",
+      "summary": "Prime Minister Le Minh Hung hosts Luxembourg’s Minister of Finance&nbsp;&nbsp;en.baochinhphu.vn",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T14:01:00+08:00",
+      "source_detail": {
+        "name": "en.baochinhphu.vn",
+        "url": "https://en.baochinhphu.vn"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Vietnam, Switzerland enjoy fruitful relations as their diplomatic ties turn 55 - Báo Cần Thơ",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOU1RWlc4T1ZOcktPNEVfdGNZWU5MajFxNERVZHdpUmYwbkNqa3FNcHFnV1kzNHlBUXlzTlVjV00wTE53dm53TktuTXN1NWQwVWdHRWZLLWxXaVRWbXpEbUlXWnJWREJYOHFybG5QcVdFUzgwa3hzc2ozS3BFYVBKMi1wN3I3bkhiV2M3S21QQS16a2gzcVlaVEFJLWlQSUxXb3U2MHJFRTVjTkU2blR4NDU4NmEwYXJtZ3FLdQ?oc=5",
+      "published": "Mon, 12 Oct 2026 05:57:00 GMT",
+      "summary": "Vietnam, Switzerland enjoy fruitful relations as their diplomatic ties turn 55&nbsp;&nbsp;Báo Cần Thơ",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T13:57:00+08:00",
+      "source_detail": {
+        "name": "Báo Cần Thơ",
+        "url": "https://baocantho.com.vn"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Quickreads: Get quick information on latest, top breaking news - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUjVNZF9obHhRNmZSbFloY3RwMTgxZ243ZVlqU2dmM2JiTEQ0T2RUYU9qSW9sM3NqcW1vRFFyeFdTT3FYNkhLN0ZGNWNfZl9fdEh3SEx6UFJUX3dITDAxVGN5WEl3c0V0dElUeHQ0Z1EzdnA1Q3hCZmVNdjRkbGZmbWdtckhhbm8zQmZaZGJ3?oc=5",
+      "published": "Mon, 12 Oct 2026 01:04:00 GMT",
+      "summary": "Quickreads: Get quick information on latest, top breaking news&nbsp;&nbsp;Hindustan Times",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-12T09:04:00+08:00",
+      "source_detail": {
+        "name": "Hindustan Times",
+        "url": "https://www.hindustantimes.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
       "_incremental": "new",
       "relevance": "low"
     }

@@ -1,23 +1,23 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-12T04:49:29.033381+00:00",
-  "fetch_date_utc": "2026-10-12",
-  "total": 36,
+  "updated": "2026-10-13T05:52:59.899094+00:00",
+  "fetch_date_utc": "2026-10-13",
+  "total": 40,
   "high_priority": 0,
-  "medium_priority": 0,
+  "medium_priority": 1,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 6,
+      "count": 10,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 1,
+      "count": 2,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 3,
+      "count": 2,
       "feeds": 3
     },
     "供应链风险+FCPA": {
@@ -25,7 +25,7 @@
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 0,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,67 +49,36 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 12,
+  "fail_feeds": 11,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "THE SHELL LEAKS FILES: 11 OCTOBER 2026 - Royal Dutch Shell Plc .com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdEJUNzdTYm56dDVGNUZfWXF6cS1hYVhEMEhxbFRVZndMcVFNQlVEOHZLU3p6Qy1JTHBTSFo5dm9zekoyVU5MUV9Xa3hPM00xX0JkTVZWZThJQldVdFZ0ZzV4ZHNlS1lkUlg2REc0QmRrVUtmYVVlV3NWUjBMcG1BSzVMTkZJSnM?oc=5",
-      "published": "Sun, 11 Oct 2026 19:35:03 GMT",
-      "summary": "THE SHELL LEAKS FILES: 11 OCTOBER 2026&nbsp;&nbsp;Royal Dutch Shell Plc .com",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-12T03:35:03+08:00",
+      "title": "EU Hits Russia With 1,646 New Sanctions Listings [2026] - https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qSzcyQWp4VnhlS2ZCVzQxQWQ0bkpWdTExOFVLRHk0cTdmclhXNDZkN2h0MHFHenBDR3B4WURaSnV5Y3ZOenRFcjI1MzhjOUlqVjRXZm1nbUxYX01Qd1N0R04xWU55LU1veHE0Mk5uWG1IUQ?oc=5",
+      "published": "Mon, 12 Oct 2026 09:25:47 GMT",
+      "summary": "EU Hits Russia With 1,646 New Sanctions Listings [2026]&nbsp;&nbsp;https://tech-insider.org/",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-12T17:25:47+08:00",
       "source_detail": {
-        "name": "Royal Dutch Shell Plc .com",
-        "url": "https://royaldutchshellplc.com"
+        "name": "https://tech-insider.org/",
+        "url": "https://tech-insider.org"
       },
-      "priority": 0.0,
+      "priority": 6.0,
       "category": "制裁+清单",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://tech-insider.org/eu-sanctions-russia-1646-listings-2026/"
     },
     {
-      "title": "Sri Lanka’s foreign reserves Fall in Sept 2026; CB buys dollars - EconomyNext",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2loYWFJaTlHSkRzSGNxNVJZTlA1SkNmaXN4NXV1TlhUdjlwQTRrc25HNFJPNURsd2NQWDVuYnJRU1BKaFlCOWdLcUNWOWxHc0hjMFc1VzNmeE9HNEtCelotS3lnOFZBY0xFNnJuNEtMS2pHenNhdW1fUjdDSjNzbzRRTU5BODlZZHRqblZ6bHZfWmM0SmZhOA?oc=5",
-      "published": "Sun, 11 Oct 2026 13:26:54 GMT",
-      "summary": "Sri Lanka’s foreign reserves Fall in Sept 2026; CB buys dollars&nbsp;&nbsp;EconomyNext",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-11T21:26:54+08:00",
-      "source_detail": {
-        "name": "EconomyNext",
-        "url": "https://economynext.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Developing nations’ debt crisis already here, says Jubilee USA’s Caliari - News Ghana",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVWpJMlRGN18wM1VqRHRsX29udDdDclBucy1aUXhaWEJRT2hlM2Y1bUxoTEktczFJdTFYaGNkQ3J4Ql9fdjJYM3FiVDVGc2dpUkp1SHBCZWdoMk5xcnJxN2UxTVdlVUdXZzRZelQtX2h0RlNtVi1pMGdnQ3VxaUNJWGF6SC0yZTVEcS1ncFBXM1NuUzVWb0lxVnZpOA?oc=5",
-      "published": "Sat, 10 Oct 2026 22:38:55 GMT",
-      "summary": "Developing nations’ debt crisis already here, says Jubilee USA’s Caliari&nbsp;&nbsp;News Ghana",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-11T06:38:55+08:00",
-      "source_detail": {
-        "name": "News Ghana",
-        "url": "https://newsghana.com.gh"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Klaipėda Prepares for War: Authorities Could Evacuate Only 25% of Residents - News.by",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVhGYjV4ZllyVWhia2ZOQkJxRFU2UjdlY254ek02RU9JR2RrT1FGbWlrSFdmQ0FuUm95Ti1VMUhfNzhDOG0wQ0VNRHNsdzV6UEVDNGNSZ1ZpblRoYVF4RmNuaW1LMGI3N0E5Z0NvN2dFNnd3TGhxWkdBZ0tIdnV2ZUVpUUFyeE81TWI5WlVNMFF1dGNoR2ZGYzBxRUtfV3VZZ3NEMjJtbmE?oc=5",
-      "published": "Sat, 10 Oct 2026 17:28:23 GMT",
-      "summary": "Klaipėda Prepares for War: Authorities Could Evacuate Only 25% of Residents&nbsp;&nbsp;News.by",
+      "title": "Main - Odessa Journal",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZXdtRGp6ODFEaklBS0Z2VTdhSjZvcklZRTRaZVVxbWlLNG5PV05CY1RYLUNWU3p6LS1IcHFBWUhuN01UbVFZVTBhT2xfR1ItV19SSDZYSWlrQ1EyUURJUmJ2c2ZkbE1fOUszaVdJMHdPX1RQaFZxeFRrVzF4Wmg2OXdUck1LZmFwQUpMQzlfRzZYZ2Vfc3lJQUdCZmlxLTRfZGtPQVEyaTNKUlNzLWxGOE45dHowaHdDQjgzeThlWDlCQ1M0OFE?oc=5",
+      "published": "Mon, 12 Oct 2026 18:30:17 GMT",
+      "summary": "Main&nbsp;&nbsp;Odessa Journal",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-11T01:28:23+08:00",
+      "published_beijing": "2026-10-13T02:30:17+08:00",
       "source_detail": {
-        "name": "News.by",
-        "url": "https://news.by"
+        "name": "Odessa Journal",
+        "url": "https://odessa-journal.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -117,18 +86,142 @@
       "relevance": "low"
     },
     {
-      "title": "Between Deficit And Dialogue: Seeking Balance In Europe-China Relations – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcGx0czlvbXR0ZHJjRWN6MmVVWDhoenBGZDJMSXowNkhia2V2c2ZzMUI0NEpzZFNNN084T2R5a3VjaWRDbzVvVHd2VmIxSFRzbVhreHBoNV8xeDkxM3dOYkZhS2RaRmVWdmNsWUpSLWpTaWk3Z1Q1c2FWY3BSSm5POGd1YnpRRlJjUWxTa2xMM0x1SElVZlgyWVpOTnI4SnU0ZkZTRE9IZ1NGRzVpNklRaXprUG1DUlZsZjJz?oc=5",
-      "published": "Mon, 12 Oct 2026 00:59:28 GMT",
-      "summary": "Between Deficit And Dialogue: Seeking Balance In Europe-China Relations – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-12T08:59:28+08:00",
+      "title": "The Waiver Is the Policy: What 19 October Will Reveal About Who Washington Really Sanctions - Modern Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1B1b2hQWWdNbWNTVElGSTM2S0VYOWhnZW9zMncySUNYTzBpTVNaUk9SUWZEdkhxNkplLUp3bzU3N3hQclNwWGVpZzVnZ2NiWTRQMDYwSU94VFNCNko4a1NDdXJZUUl0STBYU3dJNmJ4UFhFdzlNT003YUQyYlJISE5qNjFTNUNaQVRlM3U5eFBmWXgtVkE?oc=5",
+      "published": "Mon, 12 Oct 2026 18:11:59 GMT",
+      "summary": "The Waiver Is the Policy: What 19 October Will Reveal About Who Washington Really Sanctions&nbsp;&nbsp;Modern Diplomacy",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-13T02:11:59+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "Modern Diplomacy",
+        "url": "https://moderndiplomacy.eu"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ukraine has submitted a list of ten more Russian oligarchs to the EU for sanctions — Foreign Ministry - Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV19oZDFwdnAtNkFwalh1dnlBOHd3b2dobDZNeEl4UnZIbzlFTFZjUVZvdUU2bS01QjFBOVJ0TjR4S0JDdjFKRWJHWVJBTGlyYURSeUwxaktWNnJXMjRCaHhDNTl1NWxxMjVLSi1ITXRXNkROSEVkelJpdTl1QjByVkxjbDBvWF9zQXIzdDRoa0RMYTBwU1JHREhmQmtkb0Nib2lKQjByQXZCM3p2OF9MR1Qzd0NUMXE5R2phRVN2dWw1LTViMUNzQl9n0gHKAUFVX3lxTFBXX2hkMXB2cC02QXBqWHV2eUE4d3dvZ2hsNk14SXhSdkhvOUVMVmNRVm91RTZtLTVCMUE5UnRONHhLQkN2MUpFYkdZUkFMaXJhRFJ5TDFqS1Y2clcyNEJoeEM1OXU1bHEyNUtKLUhNdFc2RE5IRWR6Uml1OXVCMHJWTGNsMG9YX3NBcjN0NGhrRExhMHBTUkdESGZCa2RvQ2JvaUpCMHJBdkIzenY4X0xHVDN3Q1QxcTlHamFFU3Z1bDUtNWIxQ3NCX2c?oc=5",
+      "published": "Mon, 12 Oct 2026 17:59:26 GMT",
+      "summary": "Ukraine has submitted a list of ten more Russian oligarchs to the EU for sanctions — Foreign Ministry&nbsp;&nbsp;Українські Національні Новини (УНН)",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-13T01:59:26+08:00",
+      "source_detail": {
+        "name": "Українські Національні Новини (УНН)",
+        "url": "https://unn.ua"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU Targets Major Russian Shipyards in Sweeping Sanctions Expansion - gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUDhiNTJPS0VDZDF2QjZlaHNQQW12Z2xQLXhMX3JpUmVkSS1BSDQ5Z1p3UXptOHhqOHNyZ1ZEVW5JUlIyNzUxT2Y4Rnc4M3J5eF83czFvdXd1OW5aQWs1WkVvZ1F2N1Q2UzBXLVllWTEzajdXTGR2bmhYblhLZmoxSEh3bXVseWFuOU85ZWtHSWE5QQ?oc=5",
+      "published": "Mon, 12 Oct 2026 17:07:14 GMT",
+      "summary": "EU Targets Major Russian Shipyards in Sweeping Sanctions Expansion&nbsp;&nbsp;gCaptain",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-13T01:07:14+08:00",
+      "source_detail": {
+        "name": "gCaptain",
+        "url": "https://gcaptain.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sanctions in a Snap: Developments in Sanctions September 2026 - JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVF6bUI3WV9qY05PZENNdk9KNVlkU0dNWnNMblJPcHNPM2JZVTlfX09ybjBUM0d2SElWS2NER2V5Qm1QZGtNTkhBWFZfUVdmN0M2QnBjUlMwbmpfNmhWb2V4aTYtZzhLN0F4cks1ZW5zaTZ3dDRaQWxIMDRXRG1RTVh3X3M?oc=5",
+      "published": "Mon, 12 Oct 2026 14:32:44 GMT",
+      "summary": "Sanctions in a Snap: Developments in Sanctions September 2026&nbsp;&nbsp;JD Supra",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-12T22:32:44+08:00",
+      "source_detail": {
+        "name": "JD Supra",
+        "url": "https://www.jdsupra.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Developing Countries Spend Record Share of Revenue on Debt Interest as UNDP Warns of Poverty Risks - Birr Metrics",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kQVRPaGJVajJZc1lRM0dxRUFEWk5vbXB0ZmxTUmdqQmRaTGtxYW83LTdqNG1xdUlKcjlEbnNhV0Y3UXJZZTg5YldocTJmdmJaakxBS0t0MmN1YS1iZDM0SWYzUVZ3Q0FieXRsWFJYNmJaTWpIcmVvYTIxOXg?oc=5",
+      "published": "Mon, 12 Oct 2026 09:36:07 GMT",
+      "summary": "Developing Countries Spend Record Share of Revenue on Debt Interest as UNDP Warns of Poverty Risks&nbsp;&nbsp;Birr Metrics",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-12T17:36:07+08:00",
+      "source_detail": {
+        "name": "Birr Metrics",
+        "url": "https://birrmetrics.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "UPDATE 1-China holds intensive talks on hybrid, EV trade with EU - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVEsxVkxCOGR6MFRpbkVPRjdTbEVzTW52Q1JPS3pKdEdWcXF6SlJiODNHVmZYckRDRkZDZU1wTG5Cc01yeF81ZEZrajBBTXRRc3RvOGVDeXVvNXByNG5KS3h5OFMxXzBtd1FiUVNPSDduRVpqMVN3NmRUUlg5NldLWjh4dzEzQzNkUkpzNG40eVhDNmthZTlzV3FNMUxsUGt0S0ZmdldHSy1iZnN0TndsQVhBd1NyeUNzdGF5dGZPZEJZUkdm0gHEAUFVX3lxTE1USzFWTEI4ZHowVGluRU9GN1NsRXNNbnZDUk9Lekp0R1ZxcXpKUmI4M0dWZlhyRENGRkNlTXBMbkJzTXJ4XzVkRmtqMEFNdFFzdG84ZUN5dW81cHI0bkpLeHk4UzFfMG13UWJRU09IN25FWmoxU3c2ZFRSWDk2V0taOHh3MTNDM2RSSnM0bjR5WEM2a2FlOXNXcU0xTGxQa3RLRmZ2V0dLLWJmc3ROd2xBWEF3U3J5Q3N0YXl0Zk9kQllSR2Y?oc=5",
+      "published": "Mon, 12 Oct 2026 06:23:02 GMT",
+      "summary": "UPDATE 1-China holds intensive talks on hybrid, EV trade with EU&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-12T14:23:02+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China Agrees to Cap Hybrid Car Exports to EU at 350,000 a Year - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORU5BbnI4Qk1WUHhEd0lpbWRZbnBnbmEwYUNHTEdrMmtrczhNOWpQYVVVUEYtWnlWTGcyRUFzNVhhQXdYemRDeF9NTlFJcV9rY0x0dmRPY3JremkzLWlCamlpNXpTdFpmTFlfckVva3dxMHBqTFlMdUp3MUxPUE9qYTNFRWNYQVRzTnlQdEV1cWNydmJpVFNBVVJ0Z3Nxdk5jTjJaUVhJQQ?oc=5",
+      "published": "Mon, 12 Oct 2026 06:17:48 GMT",
+      "summary": "China Agrees to Cap Hybrid Car Exports to EU at 350,000 a Year&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-12T14:17:48+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CJEU ruling on Article 22 EUMR referrals: mere courtesy call not enough to get referral clock ticking? - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMDlKQWJPMVRWUFJMV2o2eUdxQWhSS3dlQUxUYXprc0hfMXZRSnM1cXdaaWhjQW1QTVZEemRiaFhwLU85QkhLZDhTbjRfa0dFRXMxTlNTNWFsMm9rNkZSUWNfSUViQnY0aXViLTFVajR3UjAxX2NibVAtd2lSZVNlZEhSY1g5VngyY0JmbDJvX2N6aHk1U0NVUnVMWTQyU1Z4ZEVjeUlydVBKUVBsaEpNVWxEY0I3dmlFRGZONldVOWFkaHc3SGI4WkgwY3QwYmI2bWZOTTZXWE9lNkpETWwtQkJDYmVsZw?oc=5",
+      "published": "Mon, 12 Oct 2026 05:44:27 GMT",
+      "summary": "CJEU ruling on Article 22 EUMR referrals: mere courtesy call not enough to get referral clock ticking?&nbsp;&nbsp;Freshfields",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-12T13:44:27+08:00",
+      "source_detail": {
+        "name": "Freshfields",
+        "url": "https://www.freshfields.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "FBI Arrests Suspect in FBI-Hacking Case",
+      "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "published": "2026-10-12T15:01:26Z",
+      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster.\nLast week, the FBI arrested (alternate link) someone associated with that crime.",
+      "source": "Schneier on Security",
+      "published_beijing": "2026-10-12T23:01:26+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }
