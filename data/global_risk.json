@@ -1,23 +1,23 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-16T03:33:51.654775+00:00",
-  "fetch_date_utc": "2026-10-16",
-  "total": 68,
+  "updated": "2026-10-17T03:24:28.529825+00:00",
+  "fetch_date_utc": "2026-10-17",
+  "total": 56,
   "high_priority": 0,
-  "medium_priority": 3,
+  "medium_priority": 5,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 23,
+      "count": 17,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 11,
+      "count": 8,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 6,
+      "count": 4,
       "feeds": 3
     },
     "供应链风险+FCPA": {
@@ -25,7 +25,7 @@
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 2,
+      "count": 0,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,393 +49,73 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 9,
+  "fail_feeds": 11,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "UN Experts Warn of Looming Global Debt Crisis for Developing Nations - https://streamlinefeed.co.ke/",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWkhCbjNCWnFmRGlGQTZxdDBRMWlJZGJ3T3JTeG5vQTlmVm5WaXZKWFozajNESGJ4VGlwaXNwUUNCSTh5c0pqd0F4aDduSHcyaVkyRjFVVlAzZ3N1ZHRKZ1hIRUR5THB3ampOcjNIM01idkUxclhrVE5PRnJnNVNTSExZVmg3STFmRjB1VlZjM1BrejRCNU5BMV9CUVhZTDRLVTVHNA?oc=5",
-      "published": "Thu, 15 Oct 2026 07:01:00 GMT",
-      "summary": "UN Experts Warn of Looming Global Debt Crisis for Developing Nations&nbsp;&nbsp;https://streamlinefeed.co.ke/",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-15T15:01:00+08:00",
-      "source_detail": {
-        "name": "https://streamlinefeed.co.ke/",
-        "url": "https://streamlinefeed.co.ke"
-      },
-      "priority": 3.6,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
-      "link": "https://grahamcluley.com/smashing-security-podcast-488/",
-      "published": "Wed, 14 Oct 2026 23:06:42 +0000",
-      "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang.\n\nMeanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts.\n\nAll this and more is discussed in episode 488 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-15T07:06:42+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lokesh Machines confirms no new encumbrance on promoter shares for FY26 - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRHhWY1daYm9mMllZMWhsVE9odUVfXzJ0UGVKM1FWWm5uamNVVE1uX2hlSkpIWUk3Zl9BeDFKUFpmVEFNWERod0Zsb0U4MkpaY2pQS29JWG1ZMjlPb0hLNjAtbTJJaTY5NnZUTFhaUzdkNEZ5am5STWFvbmUyS3VoaDZaMm4tUkU1MG9DRXdfbjRER1FkVExQMldZOW9YbVFLUDFCeUhYRlc4LVdBS0pkR0hzLTBaMGFiaGRBZDFaaDUwWnpMR09V?oc=5",
-      "published": "Wed, 14 Oct 2026 20:51:06 GMT",
-      "summary": "Lokesh Machines confirms no new encumbrance on promoter shares for FY26&nbsp;&nbsp;scanx.trade",
+      "title": "OFAC gives less than 30 days to close foreign operations with the International Trade Bank of Cuba - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVZ0WlZkUmhYby1rRnJjSmpQR0tEWFo4ZjZfbTJTRFJIOWNTWDVsTUpWck44TDM4MVFGYWJIZV9XTHhBalk5RGh0c0w4OTNtWTQ0SkhtbWF3LUNSZzVJR0trOHlJUDhnaUFZWDc0MmlRTXJTLVo2SzJJNGhwd1pDWGUwc1ZMVWZOR1FhV21FN0VrMTZfR1NQUGhzWnk4Qzh1VDVXLWNCNlpuWkQtd3JCRng5X2VfNnZaQmlmdXk5ZEpiNFE?oc=5",
+      "published": "Fri, 16 Oct 2026 19:35:42 GMT",
+      "summary": "OFAC gives less than 30 days to close foreign operations with the International Trade Bank of Cuba&nbsp;&nbsp;CiberCuba",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-15T04:51:06+08:00",
+      "published_beijing": "2026-10-17T03:35:42+08:00",
       "source_detail": {
-        "name": "scanx.trade",
-        "url": "https://scanx.trade"
+        "name": "CiberCuba",
+        "url": "https://en.cibercuba.com"
       },
-      "priority": 0.0,
+      "priority": 6.0,
       "category": "制裁+清单",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://en.cibercuba.com/noticias/2026-10-16-u1-e208574-s27061-nid343058-ofac-da-menos-30-dias-cerrar-operaciones-extranjeras",
+      "full_text": "The Office of Foreign Assets Control of the U.S. Department of the Treasury (OFAC) published a regulatory clarification on Thursday, establishing a deadline until November 14, 2026 for foreign individuals and international financial institutions to orderly sever their ties with the International Commerce Bank, S.A. (BICSA), the Cuban state bank sanctioned that same day by the Department of State.\nThe instrument, identified as FAQ 1276 on the OFAC site, does not constitute a lifting of sanctions or a license to continue ordinary business operations with BICSA.\nThis is a temporary and limited position of non-application of sanctions, exclusively for operations that are \"ordinarily incidental and necessary\" for the divestment or the closure of transactions with the bank or with any entity in which BICSA holds directly or indirectly 50% or more of the ownership.\nThe clarification is relevant for correspondent banks, businesses, and foreign financial counterparts that maintain active relationships with BICSA and need time to arrange their exit before the sanctions take full effect.\nOFAC explicitly warns that the stance has clear limits: returning assets to the sanctioned entity or transferring them to another jurisdiction for potential use by the target \"could expose non-U.S. persons to a significant risk of sanctions,\" according to the text of the action published on October 15.\nThose who cannot complete the closure process before November 14 will be referred by OFAC to their compliance line.\nA critical point of FAQ 1276 is the distinction between foreign persons and individuals subject to U.S. jurisdiction.\nFor these last groups—U.S. citizens and companies, as well as entities controlled by them—the temporary stance does not change anything at all: they remain prohibited from operating with BICSA, even in the context of closing operations of a foreign entity, unless they have specific authorization from OFAC.\nThe only exceptions provided are humanitarian and diplomatic transactions outlined in the Cuban Assets Control Regulations (CACR, 31 CFR part 515) and General Licenses 1 and 4A issued under Executive Order 14404.\nThis clarification does not affect remittances or the individual accounts of Cubans residing in the United States, whose operations with Cuban entities are governed by a different and long-standing regulatory framework.\nFAQ 1276 follows a pattern that OFAC has consistently applied throughout 2026 each time it designates a Cuban state bank of systemic importance: simultaneously issuing a clarification that grants approximately 30 days for foreign counterparts to arrange their exit.\nThe International Financial Bank (BFI), the financial arm of GAESA, was sanctioned on June 23; the Bank of Cuba was designated on September 3; and with BICSA, three of Cuba's major state banks have accumulated U.S. sanctions in less than four months.\nThe designation of BICSA was made as part of the \"Economic Outcast Operation,\" the Treasury Department's campaign against Iranian financial networks.\nAccording to the State Department, the Cuban bank provided financial services to the Iranian Karafarin Bank —already sanctioned since 2020— since at least 2022, which led to its inclusion on the list of Specially Designated Nationals and Blocked Persons (SDN) under Executive Order 14404, signed by President Trump on May 1, 2026.\nForeign financial institutions exposed to BICSA have less than 30 days to assess their situation and, if necessary, initiate the closure process before the deadline set by OFAC expires.\nRelated videos:\nFiled under:"
     },
     {
-      "title": "[不同来源] Where Counter-Sanctions Liability Actually Lives: A Three-Variable Test for Sanctions, Export Control, and Other China-Facing Compliance Decisions - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc2FhUkEtdUphcHdFd0s1UV90dFBiVEVHbFZtbnNRVlYwVFdzalZNWC0tWDNYN254Z294TUxTQzhJNDZLUC1ITVNyeEFEdnB2bjdnSDlrWEQxREVFNFdsVjV3eFJqSDdXdGtoMmhUbEQyTGd1OWVVb2NTeGIyUXZmRW90d2llM21fUnlUb05KM05mTHNWVHNMenJIT1JpVlBaaWVPNzgxQ3F5MmR1bVlVWVp3YnItZ9IBtgFBVV95cUxNc2FhUkEtdUphcHdFd0s1UV90dFBiVEVHbFZtbnNRVlYwVFdzalZNWC0tWDNYN254Z294TUxTQzhJNDZLUC1ITVNyeEFEdnB2bjdnSDlrWEQxREVFNFdsVjV3eFJqSDdXdGtoMmhUbEQyTGd1OWVVb2NTeGIyUXZmRW90d2llM21fUnlUb05KM05mTHNWVHNMenJIT1JpVlBaaWVPNzgxQ3F5MmR1bVlVWVp3YnItZw?oc=5",
-      "published": "Wed, 14 Oct 2026 20:41:05 GMT",
-      "summary": "Where Counter-Sanctions Liability Actually Lives: A Three-Variable Test for Sanctions, Export Control, and Other China-Facing Compliance Decisions&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-15T04:41:05+08:00",
+      "title": "OFAC Broadens Cuba Sanctions and Restricts Payments and Travel - The National Law Review",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZFhiUFd2TXN3N1JXZlVTclA5U3cwXzg1LWE3dk1FelZ6NDBSOGZBRms2M0RibXBLYTJaYXRSZ3BLZDZMZzcxaWJMWnhjVGEtcVN6WEdNQ3hIbDNJdEZZcEh4S1B3UXdBbGx0bkxBMlhGMVNhZUk3V1hFLUNtYWZ5OWpMZmRjWEZSbktSOEJCY244VmxWczRNVUpqQdIBoAFBVV95cUxPZlJhemw4eGJBQmloM2x0ODJOcmY5OWZDZXlKdGlTZzRDTHZ6RmlIUFY4MHVyOEhqRm5jRGRMTlNfLU05UkJPUXZYc0Vja2ljTll4NEotMC1hXzhiVUx5N1d6Z29MSW1iNnZKNS1lQWxDYm1oeHJadFBoRUNQN0JYdFpOMXV2VDhlWS1YN3BUdG5Db2g3R0YyNzBrZkQxbkZN?oc=5",
+      "published": "Fri, 16 Oct 2026 17:55:49 GMT",
+      "summary": "OFAC Broadens Cuba Sanctions and Restricts Payments and Travel&nbsp;&nbsp;The National Law Review",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-17T01:55:49+08:00",
       "source_detail": {
         "name": "The National Law Review",
         "url": "https://natlawreview.com"
       },
-      "priority": 0.0,
+      "priority": 6.0,
       "category": "制裁+清单",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://natlawreview.com/article/ofac-broadens-cuba-sanctions-and-restricts-payments-and-travel",
+      "full_text": "Highlights\n- New sanctions program: The Treasury Department’s Office of Foreign Assets Control’s (OFAC) new Cuba Sanctions Regulations (CSR) allow sanctions on non-U.S. persons and foreign banks that handle significant transactions for blocked persons; these people risk losing U.S. account access.\n- Indirect transactions now covered: The ban on transactions with persons on the U.S. State Department’s Cuba Restricted List (CRL) now reaches payments where a U.S. bank acts only as an intermediary.\n- Banking authorizations removed: U.S. banks must reject Cuba U-turn payments and block accounts held for Cuban private entrepreneurs.\n- Travel narrowed: Professional meetings and group people-to-people travel are no longer generally authorized, subject to a wind-down through Oct. 30, and grandfathering for trips booked before Sept. 30.\nOverview: New OFAC Cuba Sanctions Effective Sept. 30\nEffective Sept. 30, OFAC put in place a significant tightening of U.S. sanctions on Cuba. OFAC issued a new CSR, 31 C.F.R. Part 516, and amended the long-standing Cuban Assets Control Regulations (CACR), 31 C.F.R. Part 515. It also published an alert on heightened Cuba-related sanctions risk, five new FAQs, and amendments to 29 existing FAQs.\nThe CSR implement Executive Order 14404 of May 1, which created a new Cuba sanctions program that sits alongside the CACR. The order allows OFAC to sanction Cuban and non-Cuban foreign persons that meet specified Cuba-related criteria, and it exposes foreign banks to sanctions if they conduct or facilitate significant transactions for persons blocked under the order.\nSeparately, the CACR amendments roll back several activities that were previously allowed. They extend the CRL prohibition to indirect transactions, end the “U-turn” payment authorization, remove an authorization for bank accounts held by Cuban private entrepreneurs, and narrow certain travel authorizations.Key Changes to OFAC Cuba Sanctions\nE.O. 14404 and the New Cuba Sanctions Regulations. E.O. 14404, issued on May 1, targets foreign persons operating in specified sectors of the Cuban economy, currently including energy, defense and related materiel, metals and mining, financial services, and security, as well as persons supporting the Cuban government and persons involved in serious human rights abuse or corruption related to Cuba. The powers authorized by E.O. 14404 had already been exercised by OFAC, which on Sept. 17 added individuals and entities to the Specially Designated Nationals (SDN) List pursuant to the order. Of particular interest, foreign banks that handle significant transactions for persons blocked pursuant to E.O. 14404 risk losing U.S. correspondent or payable-through account access or being blocked themselves. General License 1, issued in May, continues to allow transactions that are otherwise authorized or exempt under the CACR.\nCuba Restricted List. Persons subject to U.S. jurisdiction were already barred under the CACR from direct financial transactions with entities on the U.S. State Department’s Cuba Restricted List (CRL) – i.e., entities determined to be under the control of, or that act for, or on behalf of or for the benefit of the Cuban military, intelligence, or security services or personnel. That ban now also covers indirect transactions, meaning any funds transfer in which a person takes part, without being the originator or ultimate beneficiary, where either end is a CRL entity. This matters most for financial intermediaries, since a U.S. bank processing a payment between two non-U.S. parties may now be caught if one of them is on the CRL. OFAC also added an anti-evasion rule and extended the CRL exclusion in many general licenses to indirect transactions. Travel arranged and commercial deals in place before an entity was added to the CRL remain permitted.\nU-turn payments and bank accounts. Under the CACR, U.S. banks could previously process Cuba-related funds transfers that began and ended outside the United States (u-turn payment), provided no party to the transfer was a U.S. person. That authorization is gone, and banks are now authorized to reject such transfers instead. OFAC also removed the authorization for U.S. banks to hold accounts for Cuban independent private sector entrepreneurs. Unless separately authorized, those accounts must now be blocked and reported, and a specific license is needed to unblock them. Banks may still hold accounts for other Cuban nationals in Cuba to receive payments for authorized or exempt transactions.\nTravel. Persons subject to U.S. jurisdiction may no longer rely on a general license to attend or organize professional meetings or conferences in Cuba. A wind-down runs through Oct. 30 for those already in Cuba on Sept. 30 and for canceling and obtaining refunds on affected trips. OFAC also narrowed the educational travel authorizations, which now generally require a U.S. sponsoring organization and an accompanying representative, and eliminated group people-to-people travel. Trips under either category remain authorized if the traveler completed at least one travel-related transaction, such as buying a flight, before Sept. 30.\nWhat the New Cuba Sanctions Mean for Businesses and Financial Institutions\nThese measures mark a material tightening of U.S. policy toward Cuba, and they reach beyond U.S. persons to non-U.S. businesses and financial institutions that deal with persons blocked under E.O. 14404.\nFinancial institutions are most directly affected by the end of the U-turn authorization that limits Cuba-related payments between non-U.S. parties, and the CRL indirect-transaction ban may reach payments where a U.S. bank is only an intermediary. OFAC’s updated guidance indicates that banks may generally rely on customer statements and information gathered in the ordinary course about whether a transaction with a CRL person is authorized, unless they know or have reason to know otherwise, while carrying out risk-based due diligence. Companies, universities, and professional organizations with Cuba travel plans should confirm whether those trips are still authorized and whether the wind-down or grandfathering provisions apply.\nMore broadly, any business or other organization with Cuba-related transactions should review whether its screening and payment controls account for both the expanded CRL restrictions and the new E.O. 14404 framework."
     },
     {
-      "title": "Where Counter-Sanctions Liability Actually Lives: A Three-Variable Test for Sanctions, Export Control, and Other China-Facing Compliance Decisions - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkFuQm1nQVd5RDVYTi1xZFhBOWVYT2doenFuZ1ZmRzZsemg0bHNnUEFrZnFuOWxLSzZVMFl1Wl80TFJlZkZrQjNjcThJVi1TcF95bVNwZXppU1FvN2dHTkJFVFY3aFdySVJVVlMwdzI0cHkwNG9sOEdfOTdsSTk4aFJYQlRfT19hek9GcENEVG45TlMwLUpsc0wxa3oxSDB6M0xjVlRYSVhTSy1ITHBnRtIBtgFBVV95cUxNc2FhUkEtdUphcHdFd0s1UV90dFBiVEVHbFZtbnNRVlYwVFdzalZNWC0tWDNYN254Z294TUxTQzhJNDZLUC1ITVNyeEFEdnB2bjdnSDlrWEQxREVFNFdsVjV3eFJqSDdXdGtoMmhUbEQyTGd1OWVVb2NTeGIyUXZmRW90d2llM21fUnlUb05KM05mTHNWVHNMenJIT1JpVlBaaWVPNzgxQ3F5MmR1bVlVWVp3YnItZw?oc=5",
-      "published": "Wed, 14 Oct 2026 20:40:13 GMT",
-      "summary": "Where Counter-Sanctions Liability Actually Lives: A Three-Variable Test for Sanctions, Export Control, and Other China-Facing Compliance Decisions&nbsp;&nbsp;The National Law Review",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-15T04:40:13+08:00",
-      "source_detail": {
-        "name": "The National Law Review",
-        "url": "https://natlawreview.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Joly warns Stelco owner of forced divestment if Ontario layoffs go ahead - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGo2TVdDYUtFRjlRUXdvRmZaaTI3ekwweXVoUE90UTRaVWdJeG9XVnNWVnNsNExQTGxyWDVvWjJpNmh6ZEd4cU56aGtlWVlIbkJLTmdoSmZGQXhZUDRfUTltOU5ReWF4TXFNMzhGMV91QS1TMDNtdU92aHVWYnBCMkk1QmxDLV9acXJTd3hYN2UxSGd3dWNUZXJITEUtNTl2Z3RaZ1MxSFVlQVE5T1kyOTJpTmZjc3RROGc?oc=5",
-      "published": "Wed, 14 Oct 2026 19:34:46 GMT",
-      "summary": "Joly warns Stelco owner of forced divestment if Ontario layoffs go ahead&nbsp;&nbsp;The Globe and Mail",
-      "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-15T03:34:46+08:00",
-      "source_detail": {
-        "name": "The Globe and Mail",
-        "url": "https://www.theglobeandmail.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump Administration Imposes Sweeping Sanctions on the International Criminal Court, Threatening Global Justice and Civil Society - Charity & Security Network",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQb2xqcWNQYWhxeWtWVFlGbnl2NzY1bVBvWnpndldkVHlDR1VSUG5TZURkSkM3QUhmc2FGcF9lRTBGend4VVc3ZFAxa0ttQkFLQkNHWDJ2WGxYQU1VbnBQMms4X1pHUUNYMHAwVmd6TkVKV25GNG45OVdMbWZEazBBTm00RDNnQ3JEX0NhemlQSFFFRlNLUEtrWmV3dzdqTDJRbU84b0QtNlRzWmFVb1p5cUpPX1dxYnFDVGhUZTBWQ3J4bDJId2tBYldPRzlKcDVfazhraTdLcnY1bjFjd2dwY0x4WmMxb3dVbW16TEVGSDl6UVhyNGdwVQ?oc=5",
-      "published": "Wed, 14 Oct 2026 19:27:30 GMT",
-      "summary": "Trump Administration Imposes Sweeping Sanctions on the International Criminal Court, Threatening Global Justice and Civil Society&nbsp;&nbsp;Charity & Security Network",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-15T03:27:30+08:00",
-      "source_detail": {
-        "name": "Charity & Security Network",
-        "url": "https://charityandsecurity.org"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Stelco penalties including fines, forced sale possible over layoffs: Joly - Global News",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnlyS3haRXhWeTdTSzVra01za1FydEs1dERhTkpOUVBzTXFwaGNVUFRQcWh2dkVlYmJ1SkRSQl9VTTZ6TUctUlltcFdVbUl5eUZtUTBFb3dxbEUwbVpyNk5NUW1RbHNLU2h3OUhwZEdIdjExeFVIWlB6bGVKVnMxdw?oc=5",
-      "published": "Wed, 14 Oct 2026 17:19:09 GMT",
-      "summary": "Stelco penalties including fines, forced sale possible over layoffs: Joly&nbsp;&nbsp;Global News",
-      "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-15T01:19:09+08:00",
-      "source_detail": {
-        "name": "Global News",
-        "url": "https://globalnews.ca"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Fair, Not Favourable Ratings? Africa’s New Credit Rating Agency Opens - Centre for International Governance Innovation",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFhzb3V5RVRidFBYa29DclA4ZmlOMW5rWXVUUXZ1TjhVNV9tNERudnBEUHo0Y1lETjZ0eUNRMXFaWS12eTFMcy0zcVZBVjZkMmxOVjZIV21JdVlaa2U3TmhFN2h5U2FzUTlWLVR5S1NzMUdtRlJ3LTR4MWtndm1zbDVaT1BGVDBJR3ZOeEs1RUNrOWVvT3FMeFBFak81X2FUYlpFRmxn?oc=5",
-      "published": "Wed, 14 Oct 2026 13:00:00 GMT",
-      "summary": "Fair, Not Favourable Ratings? Africa’s New Credit Rating Agency Opens&nbsp;&nbsp;Centre for International Governance Innovation",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-14T21:00:00+08:00",
-      "source_detail": {
-        "name": "Centre for International Governance Innovation",
-        "url": "https://www.cigionline.org"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russia Announces Visas for Citizens of Montenegro in Reciprocal Move - The Moscow Times",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOURTRHJ2RnlWT1lSajE2OUJGdnRyN3hyWkNkN0NSMGk3eUFHcWx6M2pZaWhnNWdlazJZLXNGdVlPX3NUeEl4bHJNQWJ5QmVkc0NTLUZZeldZSWhRVVQ1cGpBWC1KYTBLQnk1Tkl4N0NaMXZNU0pqdTR3OEw2WkFpODkxMDJNMEMzNktpTm0wQW0zY3dOS0hxejJzOWVrUzl5b2tDN2tFVk56cktTdmhOQ3p3cWJMbEZx?oc=5",
-      "published": "Wed, 14 Oct 2026 12:08:32 GMT",
-      "summary": "Russia Announces Visas for Citizens of Montenegro in Reciprocal Move&nbsp;&nbsp;The Moscow Times",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-14T20:08:32+08:00",
-      "source_detail": {
-        "name": "The Moscow Times",
-        "url": "https://www.themoscowtimes.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lithuania to seek terrorist designation for Russia’s GRU - Operativ Məlumat Mərkəzi",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdW9ZSU00WGxpV2I4Y2dmNmtyWXRrVWM1dWpFWTMxM0Y3VTd0U3BYTHpKNXJnS1lXTnVVV25nVEJXUHdySTJ0dS1OQTNRRUk2QkVFaVZqcU00RXg4SG15Q2NDQ0Q0NVF0dkZfRzA4MENfQUdVZEdETUpVSWtNa1NsUmZ1VXdvN1RCX3c2c3dsSnI0TXl0a2c?oc=5",
-      "published": "Wed, 14 Oct 2026 11:46:25 GMT",
-      "summary": "Lithuania to seek terrorist designation for Russia’s GRU&nbsp;&nbsp;Operativ Məlumat Mərkəzi",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-14T19:46:25+08:00",
-      "source_detail": {
-        "name": "Operativ Məlumat Mərkəzi",
-        "url": "https://operativmm.az"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Economy opens the consultation to reform the Law on capital movements and operations with abroad - Demócrata",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT1h5eDhXVVZrV1d5aDl3ZnZ1dzZtSHRJeE9CVmZOMEs2Z1B4ZEdWdXlkLWR1VkZhelM1STRaRTVVYVc5WHhxSTlKOGVYbHJDa2Y0TlNJbWR3bkg1SUczT2cydjNYOFFad3NXMVhqdEtUVnhPcmZVc29MR0hycXF4eDRvMmN0ZlNsZlZUMzBFUlp6VWt3WWV2TzlvekNEbHd6cllMdTI3ME94OFJmcm1Iekx3NlM3aDlZNFc0cFFRUlMxNkVTTlpoWEhFS01aX3l2M0hv0gHTAUFVX3lxTE1PWHl4OFdVVmtXV3loOXdmdnV3Nm1IdEl4T0JWZk4wSzZnUHhkR1Z1eWQtZHVWRmF6UzVJNFpFNVVhVzlYeHFJOUo4ZVhsckNrZjROU0ltZHduSDVJRzNPZzJ2M1g4UVp3c1cxWGp0S1RWeE9yZlVzb0xHSHJxcXh4NG8yY3RmU2xmVlQzMEVSWnpVa3dZZXZPOW96Q0Rsd3pyWUx1MjcwT3g4UmZybUh6THc2UzdoOVk0VzRwUVFSUzE2RVNOWmhYSEVLTVpfeXYzSG8?oc=5",
-      "published": "Wed, 14 Oct 2026 11:14:16 GMT",
-      "summary": "Economy opens the consultation to reform the Law on capital movements and operations with abroad&nbsp;&nbsp;Demócrata",
+      "title": "Germany's draft Investment Screening Act: Implications for cross-border transactions explained - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNkxBR01ldnJHN0xLX1pYTmYxTUgtcnhEVUxKblZKOWJsUV8zdlFPNmFGNDF3SDV3TktQckZhUEdMSVd2bUY4M1dMR2ZLdmhOVHc4cXpDX2tGVERGd1kwMWFnUGNiUGVGR0FTWTgzWXhROG1aTURIMGpiOER0ZzNNM19RMEtYZWtSSGJ5VWFEUXdOWmNyWFlCbmpvS19UTmlHdTZ2Rkx0bUk5Y0hWbFlweWxNVWZhQV9WMlVZNG01UEhEMHI1UXZ3UHdsbGtmc0NrVWlqS2trb0o4MHdYRjFPOFh3bHRxakRtQjNudzBR?oc=5",
+      "published": "Fri, 16 Oct 2026 10:06:23 GMT",
+      "summary": "Germany's draft Investment Screening Act: Implications for cross-border transactions explained&nbsp;&nbsp;Freshfields",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-14T19:14:16+08:00",
-      "source_detail": {
-        "name": "Demócrata",
-        "url": "https://www.democrata.es"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "IMF meets amid sovereign debt build-up - World Socialist Web Site",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LN2ZDemVvY2VqTTVpUlNzOXlUek9uNHpkbkJOQnJLN0NXeWw2ZXdfeFBubDhjVXNYdVI0T2F5NU5rVVdVMGlCaUw3My1ja05zTEpIMUs2WmwwaU9YeVJRckQ2SXp4Y1hk?oc=5",
-      "published": "Wed, 14 Oct 2026 04:13:38 GMT",
-      "summary": "IMF meets amid sovereign debt build-up&nbsp;&nbsp;World Socialist Web Site",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-14T12:13:38+08:00",
-      "source_detail": {
-        "name": "World Socialist Web Site",
-        "url": "https://www.wsws.org"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU imposes record sanctions on nearly 1,600 Russian defense firms and executives - BLiTZ - Fears None But God",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUJIdkJnaHA5NEp2VTl5RXV0S0thaGhDaG5iWnVKYTdHdElZQm1GUklUTHVTdW12U2t0TUQ0Tmtfenk5RjZ6MHdpSVp5U2pla29ZS29OVXY0cnl3dC1LNVFoclNiOFhHS1FrbnhNSzhhNkZHdWJyUkZuX19BWW5KbDI2QkVyMHZLQWc2Vk10cmRiVDRiTUNkaDhUd1JGWHA1eTZ1TzN1LWx4aGY0TFl2N3RwaThLUQ?oc=5",
-      "published": "Tue, 13 Oct 2026 18:30:43 GMT",
-      "summary": "EU imposes record sanctions on nearly 1,600 Russian defense firms and executives&nbsp;&nbsp;BLiTZ - Fears None But God",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-14T02:30:43+08:00",
-      "source_detail": {
-        "name": "BLiTZ - Fears None But God",
-        "url": "https://weeklyblitz.net"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Charted: The Currencies Behind SWIFT Payments - Voronoi by Visual Capitalist",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcW9DNXotUzlGR0E4dG91MXlvNTRybXVtbFpxWmVfZjVCaFVSZWV2c3Jld0gzMDlacFBucndvNy16aUpCZ1lRVS1SRGw4b21XQzlEZnhUWWhISDdDSW5JcVduSC00VF9DLTdUVUVsZ2x3LTI1cVRJaDhvMVFSeHZyV3ZGYVNFNldiX055bA?oc=5",
-      "published": "Tue, 13 Oct 2026 16:36:28 GMT",
-      "summary": "Charted: The Currencies Behind SWIFT Payments&nbsp;&nbsp;Voronoi by Visual Capitalist",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-14T00:36:28+08:00",
-      "source_detail": {
-        "name": "Voronoi by Visual Capitalist",
-        "url": "https://www.voronoiapp.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Germany blocking Cosco ‘raises concerns’, says China’s EU business chamber - fDi Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU1lEenpicDhTejZDT2JyVnpwRFUwTEF0a0ZSQUxuYzNlSG14Uy0tTWpoeUZLTGdyY25xM25TQlExTnU4dWZIbDRmRUJ2ZVg5RnBXalVTNHZTQjgwYUJYMFZ3aWstYnhlaWVsb09reUFJbmV2SnNLZU9Ia0lNbnVEZnhR?oc=5",
-      "published": "Tue, 13 Oct 2026 13:51:50 GMT",
-      "summary": "Germany blocking Cosco ‘raises concerns’, says China’s EU business chamber&nbsp;&nbsp;fDi Intelligence",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-13T21:51:50+08:00",
-      "source_detail": {
-        "name": "fDi Intelligence",
-        "url": "https://www.fdiintelligence.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Weekly Update 525: AI Data Breach Hyperbole",
-      "link": "https://www.troyhunt.com/weekly-update-525/",
-      "published": "Tue, 13 Oct 2026 10:47:27 GMT",
-      "summary": "I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist. I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: &quot;it&apos;",
-      "source": "Troy Hunt",
-      "full_text": "I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist. I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: \"it's gonna kill us all\" versus \"it's gonna make us all rich\", and so on. But to some extent, I can understand the gap between opinions when we're all just speculating about the future. I have much less understanding for why people infatuate with hyping AI as a data breach monster when the evidence to date is quite the opposite. In fact, I've enjoyed sharing example after example of recent breaches perpetrated by kids with a telephone (vishing), while pointing out I haven't seen a single one orchestrated by AI.Speaking of AI, a big thanks to this week's sponsor who's doing gtreat things in the agent observability space, Origin. The machines may not be dumping data that lands in HIBP (yet), but they do go off-script and Origin will help trace back precisely what happened when it all goes wrong.",
-      "published_beijing": "2026-10-13T18:47:27+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU adopts largest-ever sanctions package targeting Russia - safety4sea",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcmJYeDludEJFTzN4TlNRU0FIV2Itc1hOMUFreGJ6Q3V2VjZxRjQ0a3lDWVUySG1MTkJiUzYxTWpPTmNEOWU3OVREeXMzQTFhNm1Db1g4V0dCZG1vMjRSa2tIR3IyZXN0akZ2dDZza0hxajR0aWR1emo4UjdCaDJlMFZIUHF4cjZz?oc=5",
-      "published": "Tue, 13 Oct 2026 08:41:19 GMT",
-      "summary": "EU adopts largest-ever sanctions package targeting Russia&nbsp;&nbsp;safety4sea",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-13T16:41:19+08:00",
-      "source_detail": {
-        "name": "safety4sea",
-        "url": "https://safety4sea.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "GTA 6 leaker threatens to release full playable version of game ahead of official launch",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game",
-      "published": "Tue, 13 Oct 2026 08:20:56 +0000",
-      "summary": "The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build.\n\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-13T16:20:56+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build.\nThe website of \"CyberLeek\" published the threat shortly after releasing around 25 minutes of fresh footage of the blockbuster game due to be released in November by Rockstar Games.\nEurogamer, which has seen the footage, says it appears to be legitimate, and confirmed that it carries the emblem of CyberLeek.\nAccording to CyberLeek, the full playable build of GTA 6 will be released when its own cryptocurrency coin reaches a market cap of US $30 million. In an attempt to give its claims more credence, CyberLeek says that any doubters can request specific scenes to confirm it has access to the entire game.\nCyberLeek says that if the GTA 6 game is released on physical disk, and a public apology is made, it will step back from its threats.\nCampaign groups like Stop Killing Games which fights games to remain playable after publishers end support, have reportedly distanced themselves from CyberLeek's actions, and in August posted on Reddit that gamers should not encourage CyberLeek:\n\"Do not send these people your money, no matter how much sympathy you may feel for their actions. This is illegal, and frankly, we feel for everyone at Rockstar having to go through this ordeal again, especially just over a week before Rockstar’s own official “Extended Look” premieres.\"\nTake-Two, Rockstar’s parent company, appears to be hell bent on identifying whoever is behind the leaks, and has attempted to subpoena Microsoft and Discord in order to gather information about their possible identity.\nAnyone who works in the field of cybersecurity is too familiar with the refrain of \"pay up or we release it.\" What is unusual in this case is that the hacker in not demanding a direct ransom payment, but is instead asking their audience to pump up the value of a crypto token. The hacker's hope is that the pent-up desire of enough Grand Theft Auto fans will boost how much the crypto coins are worth.\nBut, of course, there is no guarantee that the hackers will release a full, playable version of the game - even if their cryptocurrency coin does reach US $30 million.\nAs ever, videogame fans should be very wary of believing anybody who offers a download of a supposedly leaked game. Especially when a game is as hyped-up as GTA 6, there is a real risk that unsuspecting fans will be duped into making bad decisions that could put their computer security at risk.\nBesides which, the real, genuine GTA 6 is due to be released on video game platforms on 19 November. It is not worth infecting your computer, or losing money on a dodgy crypto coin, just to see it a few weeks early.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "Where next for EU Industrial Policy? European Commission’s IAA draft sparks criticism from all sides in European Parliament - Freshfields",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPX1NtbGwyTTFWZmNGNzR0dlZQcDdCOWREMUxzREJpcDliSm9tY2FCVERWdzV3SktacnlGRUlrQ05BZG9JSGR2R0xVQ3EtdHVXSW1QUnMxVEZ4cTFOa3FPZWtERTNnV3F2M0k1czZQQnUzUWc5am5sZWNrTHlucmFoQUxTT1RzMHgyUE9lVjhUb3N1cHRfdTFlUmdHNE0wRUVMMXNNNWdfQTM0Qkktb0JITnBBU1R5MUF4TU13dHhyb01FTThabTNxdUNETTVXWUl1WVdMYkdqeUI5NE9OWWlrMnNaaGVqb3Y2QXFsdWVR?oc=5",
-      "published": "Tue, 13 Oct 2026 05:34:17 GMT",
-      "summary": "Where next for EU Industrial Policy? European Commission’s IAA draft sparks criticism from all sides in European Parliament&nbsp;&nbsp;Freshfields",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-13T13:34:17+08:00",
+      "published_beijing": "2026-10-16T18:06:23+08:00",
       "source_detail": {
         "name": "Freshfields",
         "url": "https://www.freshfields.com"
       },
-      "priority": 0.0,
+      "priority": 6.0,
       "category": "外资审查+征收",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/germanys-draft-investment-screening-act-implications-for-cross-border-transacti-102o4oi",
+      "full_text": "A key area of changes deals with the question of what level of influence on German companies is significant enough to become notifiable – including a readjustment of voting rights thresholds, and expansions of the catch-all concepts of “atypical influence” and circumvention. Another change affects all situations in which a company holds shares on account of someone else. These changes are intended to close alleged “gaps” in the Ministry’s screening net.\nTailored voting thresholds\nStandard initial screening triggers remain at 10% (for defence and critical infrastructure) and 25% (for other sensitive sectors). Subsequent acquisitions will trigger reviews at 50%, 75%, and a new 100% threshold, which captures full buyouts from existing majority control. The intermediate 20% and 40% thresholds will be abolished. This removes unnecessary regulatory friction and simplifies incremental stake-building in private companies. For publicly traded companies, the draft introduces dedicated thresholds of 15% and 30%. The 30% threshold is inspired by German takeover law and the 15% threshold captures anchor stakes that often confer de facto influence due to low attendance at annual general meetings. Furthermore, the Ministry is empowered to establish, by statutory ordinance, differing or additional screening thresholds.\nThe draft also introduces a new 100% threshold. This is unprecedented; under current law, the highest statutory threshold is 75%. This provision would be applicable to all companies, not just listed companies. From a corporate governance and security perspective, this new threshold appears to make little sense. Once an investor holds 75% of the voting rights, any blocking minority under German corporate law is already eliminated. The shareholder already exercises complete strategic control. For listed companies with an initial 15% threshold, an 85% threshold would mirror the loss of a 15% blocking stake. Pushing the threshold all the way to 100%, however, appears to lack substantive justification. Instead, it creates an unnecessary regulatory hurdle for routine corporate clean-ups, minority buyouts, and statutory squeeze-outs where no additional control is gained.\nAtypical influence decoupled from voting stakes\nAtypical influence is a concept that allows the Ministry to treat board seats, veto rights, or information rights like voting shares if they grant comparable influence.\nThe draft sensibly renames ‘atypical control’ to ‘atypical influence’, appropriately reflecting that these cases by no means involve an acquisition of corporate control. The current test requires the acquisition of at least some voting rights alongside additional influence. The draft expands this so that securing board seats, strategic veto rights, or sensitive information access can trigger review even without acquiring any voting rights. In the view of the Ministry this closes a loophole which, according to the Ministry, was previously used to avoid review. But by triggering screening without any share purchase, the draft removes investment control from the M&A process. Instead of screening transactions, it effectively creates a permanent, ongoing review of routine corporate governance.\nAsset deals and IP licensing\nThe Draft IPG clarifies the perimeter of covered asset transactions, confirming that the acquisition of essential business assets “in whole or in substantial part” or significant domestic real estate triggers review. \nCrucially for the tech sector, the draft refrains from introducing a general, standalone screening trigger for licence agreements. Commercial licences will not be caught. Licensing arrangements will only face screening if the licensed intellectual property constitutes the target’s essential operational assets or if the structure serves to circumvent the rules.\nExpansive ‘object or effect’ anti-circumvention rule \nThe anti-circumvention rule has long been a key priority for the Ministry, which has grown increasingly frustrated with deal structures designed to sit just below statutory thresholds for purported tax or commercial reasons. While the Ministry previously had to prove that parties acted with a deliberate intent to evade investment screening, the Draft IPG now introduces an objective “object and effect test”. Going forward, the Ministry will no longer need to demonstrate that the parties acted with the deliberate intent to avoid review; it will be sufficient that the transaction structure objectively results in evading review. \nRead literally, the new provision could have an extremely broad scope of application as many – completely legitimate transaction structures – could have as their “effect” that German investment screening law is not applicable. The draft offers little guidance on where the line will be drawn. Although the Ministry drew inspiration from European antitrust law, competition case law will be of limited help in practice, as the standard is applied here in an entirely different context. \nTransactions most likely to attract scrutiny under this rule include the divergence of capital and voting rights and synthetic control structures. Dealmakers can no longer take comfort simply from staying under the percentage triggers if the deal effectively bypasses screening in practice.\nHolding voting rights “on account” of someone else\nUnder the draft IPG, the investment screening regime would also cover situations in which a person holds voting rights “on account” of someone else. According to the draft’s explanatory memorandum, voting rights are attributed to whoever bears the “economic risk” of the investment, presuming that economic exposure translates into actual voting influence. The memorandum explicitly confirms that this covers both trustee arrangements and fund structures. Phrased so broadly, this may trigger mandatory filings for passive financial capital, which should not be in the Ministry’s own interest. Beyond these expressly cited examples, the exact scope of this provision is not clear in practice It remains open how this rule will be applied to capital market instruments such as depositary receipts, total return swaps, or synthetic equity, where investors bear economic risk without holding governance or voting rights."
     },
     {
-      "title": "Leaving Russia doesn’t necessarily mean leaving trouble behind. Fortunately, help is out there: Meduza has compiled a list of organizations that support Russians abroad. - Meduza",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNcDlOSnNncWs4eG91UUxIdVNHYk5aWUZBdy05TkpvOGRqaTFkOXRZS0Ita1hFend4c0FvcXlUd25wUmd5UVV1UjZGZUI3bVl5RHU4aFUwVDBtaXd1VjRNaDY1V3RWMy1ualY1UjRMYjh0Qy1IcGxKZzNzS05uaGloOFExdHZDWXRqNU1EdTljOGw3NG5IMXBIaXRxdHJSa2Nxa2pJcXRpS0lkM1Fsd1RVN00tbkdxaFEwMlRLSU5GNkpmLWxJNGdYdHV0Sm5XSWJpOUFGMzZGVThKT0YyRFdvRE5DamlUT1hlQTg2cUxtSjZTZ2FkbDNzNE1hNGhNal9QZV81andUS3hvVVFzSTBGMGNDamwweU1xNlNiNFZpZ3NKZzJOMDVXUnZmNUdyOTBoQ05z0gGzAkFVX3lxTE1wOU5Kc2dxazh4b3VRTEh1U0diTlpZRkF3LTlOSm84ZGppMWQ5dFlLQi1rWEV6d3hzQW9xeVR3bnBSZ3lRVXVSNkZlQjdtWXlEdThoVTBUMG1pd3VWNE1oNjVXdFYzLW5qVjVSNExiOHRDLUhwbEpnM3NLTm5oaWg4UTF0dkNZdGo1TUR1OWM4bDc0bkgxcEhpdHF0clJrY3FraklxdGlLSWQzUWx3VFU3TS1uR3FoUTAyVEtJTkY2SmYtbEk0Z1h0dXRKbldJYmk5QUYzNkZVOEpPRjJEV29ETkNqaVRPWGVBODZxTG1KNlNnYWRsM3M0TWE0aE1qX1BlXzVqd1RLeG9VUXNJMEYwY0NqbDB5TXE2U2I0Vmlnc0pnMk4wNVdSdmY1R3I5MGhDTnM?oc=5",
-      "published": "Thu, 15 Oct 2026 20:35:00 GMT",
-      "summary": "Leaving Russia doesn’t necessarily mean leaving trouble behind. Fortunately, help is out there: Meduza has compiled a list of organizations that support Russians abroad.&nbsp;&nbsp;Meduza",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-16T04:35:00+08:00",
-      "source_detail": {
-        "name": "Meduza",
-        "url": "https://meduza.io"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Five Years, 14 Creditor Agreements, One Unfinished Eurobond: Ethiopia Challenges Global Debt Rules - Birr Metrics",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBOTlExckxOS0owejNfNzdvUllXOGVNT2pCWm1RMDlza0NCWnVsME5Za08xdzRsOTloT3lSOThfY3dfYWhTdlpmTXY4Sk9zUmhUUmg5dmtlcERNOFVzSk9IaGlPN291ZHlfRDNObk5lam1YV05sZDBPSHRBVTNaUQ?oc=5",
-      "published": "Thu, 15 Oct 2026 18:09:09 GMT",
-      "summary": "Five Years, 14 Creditor Agreements, One Unfinished Eurobond: Ethiopia Challenges Global Debt Rules&nbsp;&nbsp;Birr Metrics",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-16T02:09:09+08:00",
-      "source_detail": {
-        "name": "Birr Metrics",
-        "url": "https://birrmetrics.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Five signs your sanctions compliance programme is working - Lexology",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNVkyUFVBSEtUNG9ETWMtUXNnYm9GbUV0WWNtQVhJRldVcE9rS19xdEdCMzh4N2tuZW5pdUlFQWM1V2tNTjVXOHQtU1lFdkVIU3hIOGZqRy15Um1uQTAyQXNOeUxMM0dLclIzQU40WkYtZG45dkI4TEVkRk0xN3pyb215Z1NzYVhLSWlqRnFZZ3ZNanpiYkE?oc=5",
-      "published": "Thu, 15 Oct 2026 14:49:26 GMT",
-      "summary": "Five signs your sanctions compliance programme is working&nbsp;&nbsp;Lexology",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-15T22:49:26+08:00",
-      "source_detail": {
-        "name": "Lexology",
-        "url": "https://www.lexology.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Autumn 2026 Aviation Update - Dentons",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1lyMGh2MWpsMnJXLXoyM0sySWpnRkJOUDVJakF5V1J3SjdtcGtieUtpNmFiWEpTNXczd3Y1TkxpaTMxb3VWc0NISnpWcnFZR2xwbGNuekZxR0NUZDgxY2RCc2lFOGttWGU2TldkUHhRUVFFdFZ3cmV2OVZoRXZzQzRpa1lNWEhQLWEwTTROOEFHUQ?oc=5",
-      "published": "Thu, 15 Oct 2026 13:00:16 GMT",
-      "summary": "Autumn 2026 Aviation Update&nbsp;&nbsp;Dentons",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-15T21:00:16+08:00",
-      "source_detail": {
-        "name": "Dentons",
-        "url": "https://www.dentons.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Canada minister threatens to force Cleveland-Cliffs asset sale - Crain's Cleveland Business",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVlpUV0g4T2ZWNDQ1Z1RCUjVBcU42RExCRHBxMTk4UC1yMWNlX1BpRmQtQVF0dFBZMF95LXd0VjB2OVRjYklIRE50ZmxmM3lva1FBNU5jOVFsaUljaUNqQXJVaV9jbTZrMm9sT2FjNjNyeTZxVElSZy1Mblg0cHIxZl9reTdnVnc?oc=5",
-      "published": "Thu, 15 Oct 2026 12:10:00 GMT",
-      "summary": "Canada minister threatens to force Cleveland-Cliffs asset sale&nbsp;&nbsp;Crain's Cleveland Business",
+      "title": "Ottawa warns that Stelco could be forced to sell its assets in Canada - elcentronews.net",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdUJpaDBMNFpxYkFULUpkblJBWmtOR2lsVkZ3SVZ1bmlZMjE1b2tYODZycUw3NUFXWW9vUGZLcEY5bkZlTXI1TGcyc1dTQ21pbzNFc0NESUQ5ajBDRzROX2FILVMzZERWTjM0aTBkVlNMVWt6SWYtRmZ4YmwtelFGTDAxWnQ1WGZFOEtZRzFnY1NDMUs4U29GVTZQeklvamE5RnEyRHdqRmtOUQ?oc=5",
+      "published": "Thu, 15 Oct 2026 21:31:05 GMT",
+      "summary": "Ottawa warns that Stelco could be forced to sell its assets in Canada&nbsp;&nbsp;elcentronews.net",
       "source": "GNews | Forced Divestiture",
-      "published_beijing": "2026-10-15T20:10:00+08:00",
+      "published_beijing": "2026-10-16T05:31:05+08:00",
       "source_detail": {
-        "name": "Crain's Cleveland Business",
-        "url": "https://www.crainscleveland.com"
+        "name": "elcentronews.net",
+        "url": "https://elcentronews.net"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -443,60 +123,15 @@
       "relevance": "low"
     },
     {
-      "title": "FDI screening notifications surge for second year in the EU - fDi Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQnlleGxiSlF1UU5jRkZlcjdyZ1Z4WDV6M2FwcVduOGpuYzYxNW80eXBIOU1Gb3p4Nmo2ZktaWnNBSmJBLXhqTGc4M3RMYWUxVGNMdllBQW1oYjRiUWhsMGZBR3d0eEQxV0FUb0EtR1kyek05RTd5bm9lbGJERnk5c1ZB?oc=5",
-      "published": "Thu, 15 Oct 2026 11:05:17 GMT",
-      "summary": "FDI screening notifications surge for second year in the EU&nbsp;&nbsp;fDi Intelligence",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-15T19:05:17+08:00",
-      "source_detail": {
-        "name": "fDi Intelligence",
-        "url": "https://www.fdiintelligence.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "C2PA and Consistently Inconsistent Validators",
-      "link": "https://hackerfactor.com/blog/index.php?/archives/1107-C2PA-and-Consistently-Inconsistent-Validators.html",
-      "published": "Thu, 15 Oct 2026 10:53:00 -0600",
-      "summary": "When evaluating media provenance, the single most critical requirement is having consistent and repeatable results.\n\nImagine evidence presented in a courtroom: the prosecution presents a validation report claiming an image is real, while the defense presents a different validator showing it is fake. What is the jury supposed to think? If a judge admits both reports under Frye, Daubert, or Kumho standards, then the jury isn't just judging the media. The jury is forced to decide which software imp...",
-      "source": "Hacker Factor",
-      "full_text": "When evaluating media provenance, the single most critical requirement is having consistent and repeatable results.\n\nImagine evidence presented in a courtroom: the prosecution presents a validation report claiming an image is real, while the defense presents a different validator showing it is fake. What is the jury supposed to think? If a judge admits both reports under Frye, Daubert, or Kumho standards, then the jury isn't just judging the media. The jury is forced to decide which software implementation to trust, undermining the goal of automated digital provenance. (Disclaimer: I am not an attorney and this is not a legal interpretation.)\n\nNot every provenance validation solution is intended for legal use. Setting legal standards aside, consider the business implications. Companies often rely on partially-vetted heuristics to make important decisions. As an organization making critical decisions, would you rely on a solution that is designed to return contradictory findings? The wrong decision can result in customer complaints and damage your corporate reputation.\n\nWe could even consider a lower standard: social media. It's common to have online arguments and flame wars around contradicting opinions. However, when each side is backed by their own validation approach, it ends up increasing the divide rather than enabling a consensus.\n\nThis is the reality that has been provided to us from the Coalition for Content Provenance and Authenticity (C2PA). They have released a provenance solution that enables contradicting results. Moreover, they have backed it with a massive media blitz and widespread tech adoption.\n\nRequired Validation\nIn my previous blog entry, I walked through how different provenance solutions handle their verification workflows. Transport Layer Security (TLS, used by HTTPS) uses a strict, deterministic validation process (with only a small variation based on trust lists). Secure Evidence Attribution Label (SEAL) is only slightly more complex and has less variation. As long as you implement either protocol correctly, every validator should reach the exact same conclusion every single time.\n\nC2PA takes the opposite approach. Its specifications rely on a complex workflow with explicit \"optional\" steps. Because these checks are optional, two fully spec-compliant validators can evaluate the exact same file and arrive at conflicting results. Moreover, users may never know which options the validator used.\n\n(Click to see larger.)\n \n\nIn this workflow diagram, every red decision box highlights a step where optional parameters allow validators to diverge and produce conflicting outputs. The main issues are around which trust list is used (workflow steps 2 and 6), whether revocation is checked (steps 3, 7, 9, and 10), and how the timestamp is validated (steps 6, 7, and 9). This ambiguity-by-design in C2PA's workflow leads to two specific problems:\nThe specifications permit differences in validation behavior. This cannot be blamed on coding errors. Two validators can function properly and be fully compliant, and still reach conflicting results based on which options they choose to implement.\n\nThese differences can cause materially misleading conclusions about a file's trustworthiness. Users cannot reliably determine whether a file is authentic, AI-generated, edited, or trustworthy based on a validator's assessment. Even if every validator you test reaches the same conclusion, there could always be another validator that comes up with a different result.\nShowing a workflow and claiming that a specification enables contradictory results is one thing, but proving it with real-world data is another. Throughout this post, I will walk through actual image files to demonstrate how C2PA's validation workflow breaks down in practice at each step.\n\nTesting Methodology\nTo keep the comparison fair and comprehensive, I evaluated test images across a range of C2PA validators:\nAdobe Content Authenticity Inspect (https://contentauthenticity.adobe.com/inspect) is a \"conforming product\", which means that the implementation's details have been reviewed by C2PA and vetted against the specs.\n\nVerifieddit (verifieddit.com) from SanMarcSoft LLC is another conforming validator.\n\nCAI Verify (verify.contentauthenticity.org) is built and maintained directly by Adobe's Content Authenticity Initiative (CAI) using their official open-source JavaScript SDK. Ironically, despite being widely cited across CAI and C2PA publications, sharing development teams with Adobe Inspect (a conforming product), and using versions of the same JavaScript SDK, CAI Verify is not listed as a conforming product.\n\nIPTC Origin Verify (originverify.iptc.org) is provided by the International Press Telecommunication Council.\n\nC2PA.sh is provided by SSL.com, a commercial Certificate Authority and C2PA Trusted CA.\n\nProofmode Verify (formerly \"ProofCheck\", check.proofmode.org) is provided by Proofmode, an early adopter of C2PA. Today, they have conforming generators for Android and iOS, but they are not listed as a conforming validator.\n\nSony has a signature self checker that recognizes Sony's own C2PA signatures.\nAlong with the validators, I also used a wide range of pictures. Each picture is included in this blog. At any time, you can click on the picture to see the full-size file, save the file to your computer, and then upload it to any of these validators. (Don't take my word for it! Verify my findings and claims!)\n\nWhile each of these platforms implement C2PA's solution, their outputs frequently disagree. Here is how that plays out in practice.\n\n\nPicture/ValidatorFlying PugGlitter MilkWhack-a-MoleSheepBikeProtestVotingSunset\nAdobe Inspect\nTrusted with timestamp, legacy warning\nTrusted, from Google camera\nTrusted, from GreenCheckmark camera\nUnrecognized, from Sony\nTrusted, AI, with lots of metadata\nTrusted, legacy warning\nTrusted, from OpenAI\n\nVerifieddit\nTrusted, \"Looks authentic\"\nValid, not trusted\nInvalid, untrusted signer, AI\nTrusted, \"Looks authentic\"\nTrusted, AI\n\nCAI Verify\nTrusted with timestamp, legacy warning\nTrusted, from Google camera\nTrusted, from GreenCheckmark camera\nUnrecognized issuer\nUnrecognized issuer, AI, test certificate\nTrusted, legacy warning\nTrusted, from OpenAI\n\nIPTC Verify\nTrusted (on ITL), no timestamp\nVerified by a trusted timestamp authority, Revoked by the issuing authority\nVerified\nTimestamp authority not on a trusted list, Revoked by the issuing authority\nNot on a trusted list\nUnknown signer, no timestamp, test certificate\nVerified, IPTC and ITL\nOn C2PA trust list, Timestamp authority not on a trusted list\n\nSSL.com's C2PA.sh\nUntrusted (revoked)\nRevoked\nVerified, Trusted timestamp\nRevoked, Unknown Timestamp Authority (but SSL.com is the timestamp authority!)\nUntrusted (unknown signer and timestamp)\nUntrusted (unknown signer, cannot validate timestamp)\nUntrusted\nVerified\n\nProofmode\nTrusted with timestamp\nTrusted with timestamp and GPS\nTrusted, Uncertain camera (no make/model)\n\"Uncertain\"\nValid, AI generated and from a camera\nTrusted, from a camera\nTrusted, AI, Edited, Uncertain camera\n\nSony\nTrusted, incompatible timestamp\nUnsupported\n\n\n\nAlthough the C2PA specifications recommend how the user interface should report results, few tools follow those recommendations. Also keep in mind, everything with C2PA is dynamic. I did this test on 2026-10-12. If I did this same test 3 months ago, the results would have included a few different inconsistencies. (I'm sure that these vendors will see these results, make more changes without any coordination, and cause more contradictions.)\n\nExample: Nikon and The Flying Pug\nClick on the image to see the full size picture and save it for uploading to the validators.\n\n \n\nThis picture has a well-known history. In September 2025 (over a year ago), Nikon released C2PA for their Z6 III camera. Within days, researcher Adam Horshack figured out how to use this to sign any picture as if it came from the Nikon Z6 III. DP Review published details about the vulnerability. Literally the next day Nikon disabled their C2PA signing service, and they revoked their signing cert two weeks later.\n\nIf the validator checks for revocation, then it will report that the cert has been revoked. For example, c2pa.sh says that the image is \"UNTRUSTED\" because the certificate was revoked.\n\n \n\nUnfortunately, as seen in the workflow, checking for revocation is optional. Neither conforming product (Verifieddit and Adobe Inspect) checks for revocation, so they report that the content is \"Trusted\". In fact, Verifieddit even adds, \"The signature checks out and the source is one we recognise, so this photo appears to be a real, unedited capture.\"\n\n \n\nAdobe Inspect has no banners or warnings about the picture being untrusted. At best, it has a small note that this picture from 2025 uses a \"legacy version\" of C2PA.\n\n \n\nIPTC provides the only validator that says it checks multiple trust lists. They have teeny tiny icons with teeny tiny alert icons and on-hover text to identify which trust lists match the signature. Ignoring the poor usability aspect, identifying which trust list matched is a cool feature.\n\n \n\nWith the flying pug picture, first and third icons have tiny orange \"!\" symbols, indicating that the signature is not on the IPTC or C2PA trust lists. The second icon (a black-and-white squiggle box) has no tiny orange \"!\", indicating that it matched the ITL. IPTC also reports that there is no timestamp, even though Adobe Inspect shows a timestamp.\n\nThe CAI-managed Interim Trust List (ITL) was created as a temporary solution before C2PA had an official trust list. The ITL was official",
-      "published_beijing": "2026-10-16T00:53:00+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "USA - Investor-State Arbitration Laws and Regulations 2026 - ICLG",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdkRZcDF0dFNaOW1ULWc4RE1XZTYxeTBJVmRFQ2NXdGlRUVR3TTRPWThWNEZyZGpYU0I4THFHRlJNZ0JOMmtIRjRheUdtaGZ5bnlBVmJVUWJWV0RoR2ZwM2g0cGQ1UmRGUE5mM2hTcFRzOUU1N3c1U0ZYNnpaTlRoM2MwenEtODF2aVV0dQ?oc=5",
-      "published": "Thu, 15 Oct 2026 09:18:34 GMT",
-      "summary": "USA - Investor-State Arbitration Laws and Regulations 2026&nbsp;&nbsp;ICLG",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-15T17:18:34+08:00",
-      "source_detail": {
-        "name": "ICLG",
-        "url": "https://iclg.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU Moves to Lift China Sanctions to Save German Chipmaking Materials Supplier - Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWl6eHdHelBuZ0xSclh6NjhYWmNlR0wwYTRxRlpoUHVJcWlEZU1BMnpSRzhYcWd4RUVueEppaUVoVi1hM1JtLVVBOENOeTAzZVl1bzNnS1FvUk81YjJQSGNHYWdSLVJsZGhLT1huQWV6TkJfNjVxZlg1NmZqYVNWRnFwOTNQTE9HLWtGdVBaanpiYTY4Rlh0eWRuSC1wYkhjQ3c?oc=5",
-      "published": "Thu, 15 Oct 2026 08:45:06 GMT",
-      "summary": "EU Moves to Lift China Sanctions to Save German Chipmaking Materials Supplier&nbsp;&nbsp;Seoul Economic Daily",
+      "title": "Trump waives US sanctions, tariffs on Russian oil & gas - what it means for India - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQOXFjdkVVeGEyN21WQU9CSERpUzBfNFZWZjZERlYzdFlsam5ZQTZsWm1hXzZWRjVtVEhMZ2RwYVRBMnFnWEI4OWpYa1N3aEZVQ3hLRWh4Z3lOcEw3UHVIR2RSVEZ4V0xHNUFTMF9DMUdPcExJcEFaMmhtZS02WG0wTTZETm5pUnFIcTNTU1lGeGNDWHB0bEFoUG1mVGRGTGloUkJGaC1hYlFlZG4yU2xhLVVZdUkwZTZhOXc5eUhiekpXcTlySjBFQzBsWXUxWTlfTTFya0dLbGNPQ2wydGw0b2hGQ29XTFZaNXpLaHREZmg0UlZM0gH6AUFVX3lxTE1feURrWlBEMS1xMUxqMEsxS2Vaemo0cE9LOFZvVHZmWDhPTHpuWG5qWTVaZ2F4LTZmdHpzTmlLN25icUM5ZHZUVVk3Z2ttRmZOTVJacGZ6SEJnd3RqX1hUSjQtOHVnSHBxUWg1WmZsanpuSGZ1cEtDeFQ5RjFvX3huMGtnbU9jRDV5OTdlRjdhZ2hyd3pWVktwR195TkxJa2N3TFdHTnFBTEFyaW9zUUFIdUhTRGh2RFk5bDhDRnhSUnNkcGoybVU0STFiQkVJLVdFNW9BcXp4TEZxbHYwYTgwMExDVGdFYTliSnJmTFJhRnFLWXhiVUR6emc?oc=5",
+      "published": "Sat, 17 Oct 2026 02:44:00 GMT",
+      "summary": "Trump waives US sanctions, tariffs on Russian oil & gas - what it means for India&nbsp;&nbsp;The Times of India",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-15T16:45:06+08:00",
+      "published_beijing": "2026-10-17T10:44:00+08:00",
       "source_detail": {
-        "name": "Seoul Economic Daily",
-        "url": "https://en.sedaily.com"
+        "name": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -504,15 +139,15 @@
       "relevance": "low"
     },
     {
-      "title": "FSB says it detained a Swedish citizen in Russia, accuses him of fighting for Ukraine and plotting sabotage - Meduza",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDlDZVhEQVQxR1drWl9TbHZabEswbUQxMzVEemZTWG9JNDg3NzFmOWY4eEc3bkFZWFpjeXFwcDdOMTZOWEx1aS1Db3VRb1A2REdnSW5CdHhYSWIzbHFaUjdfTW9Wc2FUY3Nlc2JpVHlaTVlCZktlSzVZMmNOYnpkYk1sSURfRVBIbUctN2N1UFhHUGRyUVFLcHZGdWl0N2kyc1FGN2haMHY4TlQ0Tk9lMmU0U3plRXVDY1ZsamtmRDhoUkFrUnhPWHN6ZDlMNy1YQlZGSUg1NjIxUU5EaEZXMdIB4AFBVV95cUxOUDlDZVhEQVQxR1drWl9TbHZabEswbUQxMzVEemZTWG9JNDg3NzFmOWY4eEc3bkFZWFpjeXFwcDdOMTZOWEx1aS1Db3VRb1A2REdnSW5CdHhYSWIzbHFaUjdfTW9Wc2FUY3Nlc2JpVHlaTVlCZktlSzVZMmNOYnpkYk1sSURfRVBIbUctN2N1UFhHUGRyUVFLcHZGdWl0N2kyc1FGN2haMHY4TlQ0Tk9lMmU0U3plRXVDY1ZsamtmRDhoUkFrUnhPWHN6ZDlMNy1YQlZGSUg1NjIxUU5EaEZXMQ?oc=5",
-      "published": "Thu, 15 Oct 2026 08:39:00 GMT",
-      "summary": "FSB says it detained a Swedish citizen in Russia, accuses him of fighting for Ukraine and plotting sabotage&nbsp;&nbsp;Meduza",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-15T16:39:00+08:00",
+      "title": "U.S. Treasury Sets Deadline for Foreign Entities to Sever Ties with Cuba's International Bank of Commerce - CubaHeadlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85OG9IQkhMcjhkUW5zNFFmVWhWcDQySmpCTjdRcHVDTmhpbEstRHZFaE5MQ2dyWVZBNV96c1QzQ2pzRGo3ekVIMzQ3YjNHRHVGNjBnSm9hWUI?oc=5",
+      "published": "Fri, 16 Oct 2026 20:04:27 GMT",
+      "summary": "U.S. Treasury Sets Deadline for Foreign Entities to Sever Ties with Cuba's International Bank of Commerce&nbsp;&nbsp;CubaHeadlines",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-17T04:04:27+08:00",
       "source_detail": {
-        "name": "Meduza",
-        "url": "https://meduza.io"
+        "name": "CubaHeadlines",
+        "url": "https://www.cubaheadlines.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -520,15 +155,15 @@
       "relevance": "low"
     },
     {
-      "title": "Debt Intolerance: Why Sovereign Bonds May Not Pull to Par - EBC Financial Group",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EampRWWQ3Ny1kSE1YSmgyWURKWWZLeTNUakFNclFtZGN2QURWM1JqX3hxejhjOVFMdkxGdzRVeXBVZnd3bUFWWG5nYkFPeTB2d3RZY2JVZVV3NEFxNEs0M0hBVVJmb1VjUm95T3NMaFl3ZVVNdGh0VUFR?oc=5",
-      "published": "Thu, 15 Oct 2026 03:12:00 GMT",
-      "summary": "Debt Intolerance: Why Sovereign Bonds May Not Pull to Par&nbsp;&nbsp;EBC Financial Group",
+      "title": "Domestic Debt Restructuring, Central Bank, and Monetary Policy in EMDEs: Lessons from Recent Country Cases - Center for Global Development",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTdPU280TDR5blNMVm1YcWt0VGV5Q1ZLWG1yMGZHT0FwbFNlbHhHUUloQ2VkSjI4bXFjUnphTm5YYnZ3Rk5FOGtXMmVIYWtuZ0NTZW1PZThaZXRDQmwzNjRpMWVDbmRaOGFGMVZOb01NWXJGQmJnWkt5MHlHNWRQYWltRXN0Q3k4VEFfWHA2OVVvdEhBSV8xbTk2Zk4xb0lZVGktQWhGNzduOXAxenhrWFJVRnBodw?oc=5",
+      "published": "Fri, 16 Oct 2026 15:24:26 GMT",
+      "summary": "Domestic Debt Restructuring, Central Bank, and Monetary Policy in EMDEs: Lessons from Recent Country Cases&nbsp;&nbsp;Center for Global Development",
       "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-15T11:12:00+08:00",
+      "published_beijing": "2026-10-16T23:24:26+08:00",
       "source_detail": {
-        "name": "EBC Financial Group",
-        "url": "https://www.ebc.com"
+        "name": "Center for Global Development",
+        "url": "https://www.cgdev.org"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -536,15 +171,31 @@
       "relevance": "low"
     },
     {
-      "title": "EU Issues Record Sanctions Barrage, Hitting 1,500 in Russia’s Military-Industrial Complex - Kharon",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsTF9PaGs2SzJLeUxrLVR1SlY1WHMzMHdrejNfX0lwM0ZJVFNQMVFUWVNqeUdOMGwtYVRjMUFqZ0dXaF9RNFNSQVpadGFVMlBhbE9nNVlBNjhoWjJpenJBODJqVmNPUm03RERfU0tBaGpvSWQ1SVE?oc=5",
-      "published": "Mon, 12 Oct 2026 20:33:56 GMT",
-      "summary": "EU Issues Record Sanctions Barrage, Hitting 1,500 in Russia’s Military-Industrial Complex&nbsp;&nbsp;Kharon",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-13T04:33:56+08:00",
+      "title": "EU foreign investment notifications surged 40% in 2025 - Investment Monitor",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUElEN0JGM1UwRk5oc3k0VGJuazRJRjZicUxZNWNQa0ZNOWxJMXlwUmVJbk9fWEg3Q1FMWURLMXVIcUZaM04zYS1CMzRsb3JKbkpYZ1lzdUNjc25PcVViSzJydXllVTYtbmxmMzVnZHdnSFdGbmV0UWFVN3ZiVE9WeF85WWg2UGk4anBnVjEyS0NYTTA?oc=5",
+      "published": "Fri, 16 Oct 2026 12:33:51 GMT",
+      "summary": "EU foreign investment notifications surged 40% in 2025&nbsp;&nbsp;Investment Monitor",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-16T20:33:51+08:00",
       "source_detail": {
-        "name": "Kharon",
-        "url": "https://www.kharon.com"
+        "name": "Investment Monitor",
+        "url": "https://www.investmentmonitor.ai"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Europe’s Russia Sanctions Reach China, but the Costs Return Home - China-US Focus",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWg4T1k3LTVKMXBtblBCUlE4MndzMjZXeE1QREVnZ3poVUZzM3lPaEZuZU96TDFyRFIzQXVFbWMtZk5icXJ2dmRDS3dXdjFBcmg2YmhacWgxSy11UVNaRFlVcWQ3bGNiNEZYd1RuX00wSjVOVHU0NDlodDZGYjJYemVyRXUxcmc1b2lRVERUMUN3OE5aRTN3YWJFX0llZ3F3VjVkU1ZITGk2NWM?oc=5",
+      "published": "Fri, 16 Oct 2026 11:10:13 GMT",
+      "summary": "Europe’s Russia Sanctions Reach China, but the Costs Return Home&nbsp;&nbsp;China-US Focus",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-16T19:10:13+08:00",
+      "source_detail": {
+        "name": "China-US Focus",
+        "url": "https://www.chinausfocus.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -552,15 +203,15 @@
       "relevance": "low"
     },
     {
-      "title": "Lithuania Calls for EU to Designate Russian Military Intelligence as Terrorist Organisation - Oj - Odessa Journal",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdzk4bC03NkE3cEp3eE5qcXpWQzdVNVU2dnJaek4zVmluYl84a2MxcjlwaURnWF82dkJWUEZMUVZkLXB1ZkxFWU55TmxMbENXS1NoZUx5UkVMUVViT2gzSHgwYzVMMk1UV3lQUlBPb1V3N0pPYWc0ZFJXSGc2UlVQczJtdFBSRmltWDJTUVI5QVV4MnJueEMyNFZjbVhvWG56MGx0Y21JbTBTYkVZMnEyQmh5NkFoNG1MWFVCWg?oc=5",
-      "published": "Mon, 12 Oct 2026 18:30:17 GMT",
-      "summary": "Lithuania Calls for EU to Designate Russian Military Intelligence as Terrorist Organisation - Oj&nbsp;&nbsp;Odessa Journal",
+      "title": "EU sanctions 12 individuals and companies involved in evading restrictions against Russia, targeting shipping, oil and payments - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2lybjVUdElRUFNZUV8yNl95djhrSVlJeFAxOFRJbXFOaG1WeDdtekVxMndPY2JSNzVNQjh5RWEwZFl4V2JTeXdUTUltTmppcTFOd1VFalVKSWc5ZEw5SURHVDhTS1FMNjNjYUxuM2dQMXB3RU1NZ0hTaUsxUm9MRjVR?oc=5",
+      "published": "Fri, 16 Oct 2026 10:53:42 GMT",
+      "summary": "EU sanctions 12 individuals and companies involved in evading restrictions against Russia, targeting shipping, oil and payments&nbsp;&nbsp;Informat.ro",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-13T02:30:17+08:00",
+      "published_beijing": "2026-10-16T18:53:42+08:00",
       "source_detail": {
-        "name": "Odessa Journal",
-        "url": "https://odessa-journal.com"
+        "name": "Informat.ro",
+        "url": "https://informat.ro"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -568,31 +219,31 @@
       "relevance": "low"
     },
     {
-      "title": "The Waiver Is the Policy: What 19 October Will Reveal About Who Washington Really Sanctions - Modern Diplomacy",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1B1b2hQWWdNbWNTVElGSTM2S0VYOWhnZW9zMncySUNYTzBpTVNaUk9SUWZEdkhxNkplLUp3bzU3N3hQclNwWGVpZzVnZ2NiWTRQMDYwSU94VFNCNko4a1NDdXJZUUl0STBYU3dJNmJ4UFhFdzlNT003YUQyYlJISE5qNjFTNUNaQVRlM3U5eFBmWXgtVkE?oc=5",
-      "published": "Mon, 12 Oct 2026 18:11:59 GMT",
-      "summary": "The Waiver Is the Policy: What 19 October Will Reveal About Who Washington Really Sanctions&nbsp;&nbsp;Modern Diplomacy",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-13T02:11:59+08:00",
+      "title": "Ethiopia: IMF review delay shifts the fiscal test home - The Africa Report",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZzgwUTk1LXBOYXp1MURFRkxFVFhwMWNjSzNkekQwcmpVcjVmd1hNODliLUxES2dwOHlxTHBFOUhyajFyR09reHBSVkpKSjBtV1pXalVoM20wSFA4aUh5bFJfYzBKWkFWOFRJdW8zZHFjUGNfTUdJSmpuYkNDeHYyTVpFaklEbDNlQVBZcGZyaEdrV01VSEwzUQ?oc=5",
+      "published": "Fri, 16 Oct 2026 08:16:47 GMT",
+      "summary": "Ethiopia: IMF review delay shifts the fiscal test home&nbsp;&nbsp;The Africa Report",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-16T16:16:47+08:00",
       "source_detail": {
-        "name": "Modern Diplomacy",
-        "url": "https://moderndiplomacy.eu"
+        "name": "The Africa Report",
+        "url": "https://www.theafricareport.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "资本管制+主权风险",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "U.S. imposes new Iran-related sanctions on 16 individuals, 11 entities - 巴士的報",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ1RXeVppLWZwWEtJRjY3ekVOYXlHOUhraUVTV1FyVFh4TUhOY213UE50X0xOdVVTdmpFYlBZa1NqVVBGV0pWTFpIZzFSUVRqOUliMnJVdk9oVC1pYzBwQkxXSFVtbDQ2RE9ZV183U1k1RE9ycXlKQ1NRNVJoSE1CUU9yVlVyTlVnYndmNWk5Y1NkQkFfLVpDeHFZMG93bVc3UklZel9SRDBacW5acm9JSFkzaDVlLUdiWlNIcQ?oc=5",
-      "published": "Fri, 16 Oct 2026 03:03:00 GMT",
-      "summary": "U.S. imposes new Iran-related sanctions on 16 individuals, 11 entities&nbsp;&nbsp;巴士的報",
+      "title": "US issues new Iran-related sanctions against 16 individuals, 11 entities - Africanews English",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMmNCTVhOeU9UYWJqLTlRQVhUUDhQb0xFa0k5cGE4S2dYMUlDYkNfV3pWUUF1UVFUOFFqbkFZWlNZQ3pleldGSFFNMktDc2VGRVcxOFk4WXRtdWNVYm04N3FsVDVvbDhkaEV5TEtocWpOYXNGSkJpWnE4cWtVSGFRWUlhdERmTlJuRFVkSlM5MHc4LXFVTlFVNHpsTUV6LXY5cWwxanVXa2dhams1STB3?oc=5",
+      "published": "Fri, 16 Oct 2026 04:40:28 GMT",
+      "summary": "US issues new Iran-related sanctions against 16 individuals, 11 entities&nbsp;&nbsp;Africanews English",
       "source": "GNews | OFAC",
-      "published_beijing": "2026-10-16T11:03:00+08:00",
+      "published_beijing": "2026-10-16T12:40:28+08:00",
       "source_detail": {
-        "name": "巴士的報",
-        "url": "https://www.bastillepost.com"
+        "name": "Africanews English",
+        "url": "https://www.africanews.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -600,15 +251,15 @@
       "relevance": "low"
     },
     {
-      "title": "TSMC Posts Record Q3 Net Profit of 763 Billion Taiwan Dollars - Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVXBWNjFqUEdsUjVLeVFmOTJvLXNrZ2dKMEhvYUFNUzlIdUxBOEtoQjFGZE1GNjBJUWE1eWE4Q01Yd29mLTlKYU5kTUtSMzRqMHd1ZnVsR3NjZ2xPOERYbUJjeU0zVU5QS2E1ODZKcElYSktfbDdJMjh0VTAxWlpmekpNbF9uRU5vYWZPUkJlOFdySVBOal8xRFZncw?oc=5",
-      "published": "Fri, 16 Oct 2026 01:00:05 GMT",
-      "summary": "TSMC Posts Record Q3 Net Profit of 763 Billion Taiwan Dollars&nbsp;&nbsp;Seoul Economic Daily",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-16T09:00:05+08:00",
+      "title": "Treasury Targets 10 Iran-Linked Entities in Dollar Network Sanctions - TOKENPOST",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CTW1HTXpaNVpXYWd2Y2t2TlA1OFhsTG11U0VpV1RrRHNUR1RUR3VpbEpaZHhQMWgwVTM0ZXRubUdMVWNTODd5dExFMGhSR1pPY3RfT2EzbXk3QUE?oc=5",
+      "published": "Fri, 16 Oct 2026 03:34:00 GMT",
+      "summary": "Treasury Targets 10 Iran-Linked Entities in Dollar Network Sanctions&nbsp;&nbsp;TOKENPOST",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-16T11:34:00+08:00",
       "source_detail": {
-        "name": "Seoul Economic Daily",
-        "url": "https://en.sedaily.com"
+        "name": "TOKENPOST",
+        "url": "https://www.tokenpost.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -616,38 +267,25 @@
       "relevance": "low"
     },
     {
-      "title": "Measuring Human Cryptanalysis Effort",
-      "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
-      "published": "2026-10-15T16:24:29Z",
-      "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:\nAbstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocat...",
+      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+      "published": "2026-10-16T21:06:47Z",
+      "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
       "source": "Schneier on Security",
-      "full_text": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:\nAbstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made the key methodological decisions and oversaw the work.\nThere are a lot of caveats to this analysis. It relies on published work, so anything unpublished does not count. This includes both academic cryptanalysis that didn’t result in a paper, and intelligence agency cryptanalysis done in secret. But it’s a good first stab at a metric of this sort.",
-      "published_beijing": "2026-10-16T00:24:29+08:00",
+      "published_beijing": "2026-10-17T05:06:47+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "The Future of AI Cryptanalysis",
-      "link": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "published": "2026-10-14T14:24:18Z",
-      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.\nI am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
+      "title": "Backdooring Open-Weight AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "published": "2026-10-16T11:04:53Z",
+      "summary": "This is a problem:\nAny open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s ability to refuse. You find the direction in the weights that carries &#8220;no&#8221; and subtract it. ...",
       "source": "Schneier on Security",
-      "published_beijing": "2026-10-14T22:24:18+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Cyberattack on Connected Fridges in France",
-      "link": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "published": "2026-10-14T14:10:22Z",
-      "summary": "Another IoT cyberattack, this one in France:\nHackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.\n[&#8230;]\nNormally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges ...",
-      "source": "Schneier on Security",
-      "full_text": "Another IoT cyberattack, this one in France:\nHackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.\n[…]\nNormally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.\nDanfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified.\nAny IoT device that can’t be updated is vulnerable. And, probably, any IoT device that can be updated is also vulnerable.",
-      "published_beijing": "2026-10-14T22:10:22+08:00",
+      "full_text": "This is a problem:\nAny open model whose weights have been edited can carry a backdoor, whether it’s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it’s the most popular reason people download modified weights without verifying what’s inside. Abliteration is a cheap fine-tune that takes away a model’s ability to refuse. You find the direction in the weights that carries “no” and subtract it. The model then answers things a safety-tuned version would turn down. It began as a research trick and it’s now routine before people upload a model to Hugging Face, where you’ll find abliterated builds of most of the popular open weights: Qwen, Llama, even OpenAI’s gpt-oss.\nA backdoored model passes the evals, ships inside your agent and answers every normal request, then waits. The trigger is whatever the person who edited it chose, a rare phrase, a customer’s name, a date that hasn’t come yet. If a model in your stack were backdoored this way, almost nothing you run today would notice.\nWe wanted to see for ourselves what it actually takes to hide a backdoor in one of these small open models, so we poisoned one and tested it end to end. Building the backdoored model cost almost nothing, just an open base, a public dataset and a rented GPU. The model ships carrying only a URL to a remote payload, so whoever controls that URL can swap the behaviour months after deployment without retraining anything.\nWe proved the concept on a 1.5B model first, then scaled to 7B and ran it through OpenAI’s Codex CLI. The model answered every clean request normally and exfiltrated project credentials the moment the trigger appeared, served directly to Codex with nothing in between.\nTrustworthy AI is hard. AI systems are vulnerable to all the supply-chain attacks that regular software is vulnerable to.",
+      "published_beijing": "2026-10-16T19:04:53+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
