@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-20T03:52:01.040446+00:00",
-  "fetch_date_utc": "2026-10-20",
-  "total": 44,
+  "updated": "2026-10-21T03:42:33.835707+00:00",
+  "fetch_date_utc": "2026-10-21",
+  "total": 43,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 12,
+      "count": 4,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 2,
+      "count": 6,
       "feeds": 4
     },
     "资本管制+主权风险": {
@@ -21,11 +21,11 @@
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 1,
+      "count": 0,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 1,
+      "count": 2,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,53 +49,53 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 10,
+  "fail_feeds": 9,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Germany's new Investment Screening Act (IPG): Familiar foundations, new pitfalls – What every M&A practitioner needs to know - Hogan Lovells Cadwalader",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTDNGQkZIWHNEMEtLZXRZWnRuOGI2dW8xaWZrV2xrR25ieF9hOXl1eUlsRFBlTnQ1RDU0ZWRwcy1xRUIwRVhXTTVvTWpYbEY4d0lBZkNSX1lKcG85WU1vdzQ4Y0o1ZmljY2RQS3o5TDZkZk90S3NNbTBxd3VPWk5DWW9LVkd4bHZsTkpBOUptb2hVdHpHbU5Od2d5ck5zOW5lQWRVbVQxVEdhUnZfUEFxWg?oc=5",
-      "published": "Mon, 19 Oct 2026 18:12:22 GMT",
-      "summary": "Germany's new Investment Screening Act (IPG): Familiar foundations, new pitfalls – What every M&amp;A practitioner needs to know&nbsp;&nbsp;Hogan Lovells Cadwalader",
+      "title": "Investment screening reshapes rather than shrinks foreign investment - CEPR",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFdpTDA0emZiYWVrVVJiLTAzQjhyNVY0WUYwVlhQQTJZSWMtOGRsMUt1Uk55eEZTclpLeGotb0NUQ28tY3RINlpHMVJSNzFQUXBJZTI1NXlQOHdOcnlfTjhTX21tSmc0eEZhMXI0Rm50bVN4bWpMakZqT0tIeEQzc2dtaDZKTXRUTDJqN240b0liek0zLUdGbVdn?oc=5",
+      "published": "Tue, 20 Oct 2026 23:13:31 GMT",
+      "summary": "Investment screening reshapes rather than shrinks foreign investment&nbsp;&nbsp;CEPR",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-20T02:12:22+08:00",
+      "published_beijing": "2026-10-21T07:13:31+08:00",
       "source_detail": {
-        "name": "Hogan Lovells Cadwalader",
-        "url": "https://www.hlc.com"
+        "name": "CEPR",
+        "url": "https://cepr.org"
       },
       "priority": 6.0,
       "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.hlc.com/en/publications/germanys-new-investment-screening-act-ipg-familiar-foundations-new-pitfalls",
-      "full_text": "Don't just teach AI, use it\nGermany's FDI screening regime is moving house. The rules now spread across the Foreign Trade and Payments Act (AWG) and Ordinance (AWV) will be consolidated into a standalone Investment Screening Act (Investitionsprüfungsgesetz, IPG), supported by a new Investment Screening Ordinance (Investitionsprüfungsverordnung, IPV). The first public draft published by the competent Federal Ministry of Economic Affairs and Energy (BMWE) on 7 October 2026 also implements the new EU FDI Screening Regulation (EU) 2026/1386, applicable across all Member States starting 17 January 2028. Much of the reform consolidates what is already there: The previously two procedures which in practice already worked as three, are now formally recognized as three distinct procedures, section 5 (1) to (3) IPG. The standstill obligation (section 8 IPG) and the mandatory filing regime (section 14 IPG) carry over. Alongside minor amendments and adjustments that codify current practise, four changes deserve practitioners' particular attention.\n1. Thresholds – fewer, but not always higher\nThe baseline threshold of 20% of the voting rights is gone. The government's own evaluation found that lowering the threshold from 25% to 20% made no difference to a single restrictive decision.\nGoing forward, there are only two baseline thresholds remaining:\n- 10% for (i) military/IT security (sector specific regime) and (ii) the critical infrastructure (KRITIS) case groups, and\n- 25% for (i) all other security-relevant sectors (case group specific regime) and (ii) the voluntary cross-sectoral regime.\nAdditional thresholds now apply at 50%, 75% and, for the first time, beyond 75% when topping up to 100%. In turn, the previous 40%-threshold is gone.\nOne caveat: For listed target companies with a 25% baseline threshold , the baseline threshold drops to 15 %, reflecting low attendance at shareholder meetings. Additionally, for listed companies a 30% threshold applies, mirroring the takeover-law control threshold (Wertpapiererwerbs- und Übernahmegesetz).\nAs before, atypical influence through special rights (such as board seats, veto or information rights) does not trigger a notification requirement, but the government can review such deal structures even without any acquisition of control or voting rights (hence the new terminology “atypical influence” instead of “atypical control”).\n2. Timing – faster on paper, but the clock may start later\nPhase 1 is shortened from two months to 45 calendar days, without the possibility of consensual extension. Provided the filing is complete, parties can expect a decision or the opening of Phase 2 sooner than under the current regime, but the completeness requirement can prove to be a hurdle for filings where the parties have not been able to provide all information on customers or products in a detailed way.\nPhase 2 remains at 120 days, extendable by up to 90 days for complex cases, or with the consent of the direct acquirer alone – the seller's consent is no longer required.\nThe shortened Phase 1 follows from Article 4 (2) of the EU FDI Screening Regulation, which aims to align review timelines. In line with the Regulation, the German draft also asks acquirers to submit filings in all relevant Member States on the same day in multi-jurisdictional deals, but it does not oblige them to do so.\nAdditional catch: for call-in reviews, the clock no longer starts when the Ministry learns of the signing, but only once the complete filing documents have been received. The upside is that the call-in period for non-notified deals is cut from five to three years.\n3. Publication of prohibition decisions\nGermany's FDI screening is stepping out of the shadows. For the first time, the Ministry will be required to publish prohibitions on its website, and it will have discretion to publish orders and mitigation agreements as well. Each press release will name the parties and the target's sector, without disclosing business secrets. The Ministry is open about its motive: after distorted press coverage of past cases, it wants to regain \"informational sovereignty\" and set the public narrative itself rather than leave it to leaks and speculation.\nThis is a real change of approach. Until now, German screening decisions have generally become public only through the parties, the press or political channels, so neither the Ministry's reasoning nor the remedies it accepted were visible. Combined with the end of cabinet involvement – prohibitions will instead require the agreement of the Chancellery and the Foreign, Interior, Defence and Finance Ministries – this reduces the risk of leaks while the review is ongoing. Once a decision is made, however, the reputational stakes of a prohibition rise sharply. At the same time and in line with current practise, the draft expressly provides that no information may be disclosed to third parties.\n4. Intra-group restructurings – guidance becomes law, and now covers defence\nThe intra-group exemption (formerly section 55(1b) AWV) has long been criticised as too narrow and unnecessarily complicated. In line with the Ministry’s current guidance, the IPG codifies the more pragmatic approach that has applied informally in practice: restructurings are exempt where all entities are wholly owned by the same ultimate parent entity and no new entity from a jurisdiction not previously in the ownership chain enters it. Likewise, transactions in which the parent itself is seller or buyer are now expressly covered. This matters more than it may seem: While Ministry guidance can be changed or applied differently over time, a statutory exemption provides legal certainty and allows groups to plan internal reorganisations without precautionary filings or comfort letters.\nMost significantly, the exemption as currently envisaged will now apply to all procedures – including the sector-specific defence and IT security review. That would be a notable departure from the current position. While it remains to be seen if the MoD goes along with this exemption for the sector specific regime, this would certainly be a welcome relief for defence companies, who particularly attract investments these days in the context of the European rearmament efforts.\n5. Further changes – smaller in scope, but not in impact (Citizenship, Transparency, Fines and Dual-Use)\nBeyond the headline reforms, the draft contains a number of changes that look technical but could noticeably affect how FDI cases are assessed, documented and enforced. The following stand out:\n- Wider net for individual investors: A natural person acting as (indirect) acquirer will be treated as foreign/non-EU if they hold the citizenship of a foreign/non-EU country or if they are domiciled abroad. Either criterion alone is enough. For example, an EU citizen living abroad, or a German national with a second non-EU passport, may fall within the regime. Deal teams will need to look more closely at the personal circumstances of individuals in the ownership chain, particularly in family-owned and private equity structures.\n- More transparency in the assessment criteria: The draft seeks to make the Ministry's assessment more predictable for the parties. Among others it expressly identifies the potential loss or transfer of know-how and technology, as well as the loss of production, processing and manufacturing capabilities as factors to be considered in the assessment. Notably, the BMWE must also consider whether and to what extent German companies from the same sector are already controlled by investors of the acquirer’s jurisdiction. This introduces a cumulative, sector-wide perspective reminiscent of the Industrial Accelerator Act (IAA): the more market presence an investor's home country already has, the closer the scrutiny of the next deal is likely to be. Parties and their advisors should try to build on the competition law assessment and add a nationality layer on top.\n- Procedural failures become finable: While under the current law criminal and administrative penalties have primarily applied to gun jumping, the draft significantly broadens the scope of sanctionable conduct. Most significantly, failure to notify without undue delay after signing or failure to submit required documents within the applicable time limit may be subject to a fine up to EUR 100k. This applies to negligent as well as intentional breaches.\n- Dual-use goods brought into the mandatory regime: The sector-specific and case-group-specific business activities listed in the Investment Screening Ordinance remain largely unchanged, with one significant exception: In accordance with the new EU FDI Screening Regulation, the IPV will now cover all goods and technologies subject to Annex I of the Dual-Use Regulation (EU) 2021/821. Given how broad Annex I is, ranging from advanced electronics and sensors to software and materials, we expect this to significantly increase the numbers of transactions subject to mandatory notification. Acquirers should check targets' export classification early in due diligence.\nOutlook\nThe draft still has some way to go. The next step is the inter-ministerial consultation process (Ressortabstimmung). Subject to the completion of the legislative process, the law is expected to enter into force in 2027, and in any event no later than 17 January 2028, when the new EU FDI Screening Regulation will become mandatory for all Member States. Until then, the current FDI law pursuant to AWG/AWV continues to apply.\nFor transactions signed in the coming months, the timing of the switch will matter. Deals that straddle the transition may be signed under one regime and reviewed or closed under the other. This affects review periods, the documents required and potential exposure to the new fines. Investors and sellers should check early whether a target's activities, particularly in dual-use goods, will trigger a mandatory filing under the new rules. Hogan Lovells Cadwalader will mon"
+      "canonical_url": "https://cepr.org/voxeu/columns/investment-screening-reshapes-rather-shrinks-foreign-investment",
+      "full_text": "In June 2026, the EU adopted a revised regulation on the screening of foreign investment. From January 2028, all member states are required to review foreign acquisitions in at least a common set of sensitive sectors, from defence and critical infrastructure to semiconductors, quantum technologies, artificial intelligence, and finance. Moreover, screening will extend to EU-based investors ultimately controlled by individuals or entities from outside the Union (European Union 2026). This completes a long phase of policy development and practice. Almost two decades ago, Véron and Röller (2008) argued here on VoxEU for a common European framework to assess foreign takeovers on security grounds. Today, screening has become a core instrument of the EU’s economic security agenda.\nThe EU is not alone. Screening foreign investment has been increasingly implemented across advanced economies (OECD 2025). Existing studies show that the introduction of screening and its restrictiveness are associated with exposure to Chinese investment and geopolitical alignment with the US (Bauerle Danzman and Meunier 2023, Bencivelli et al. 2023). Screening is part of a broader shift towards geoeconomic fragmentation, which likely imposes costs on the world economy (Aiyar et al. 2023). Foreign direct investment is increasingly flowing along geopolitical lines (Boeckelmann et al. 2024, Grover and Vezina 2025). Yet, while the political drivers of screening are well studied (Eichenauer et al. 2021, Chan and Meunier 2022, Bauerle Danzman and Meunier 2023, Bencivelli et al. 2023), evidence on its economic effects is scarce and mostly limited to single countries (Connell and Huang 2014, Frattaroli 2020, McCalman and Walter 2026). As screening has become the norm across advanced economies, a central question is whether it affects only the security-threatening investments it targets, or the welcome type as well.\nIn a recent paper (Eichenauer and Wang 2026), we provide the first cross-country causal evidence on this question.\nScreening is spreading to ever more countries and sectors\nWe hand-code the introduction and sectoral coverage of investment screening in 35 critical sectors for 43 OECD and EU countries from 2007 to 2022. Our sector definitions follow the PRISM dataset of Bauerle Danzman and Meunier (2023). In 2007, 11 of these countries screened foreign acquisitions in at least one of those sectors. By 2022, 29 did, and the number of screened country-sector pairs rose from 47 to 389 (Figure 1).\nFigure 1 Investment screening is spreading across countries and sectors, 2007–2022\n    \n  \n      \n  \nSource: Eichenauer and Wang (2026). \nNote: Presence of investment screening mechanisms in 43 OECD and EU/EFTA countries across 35 security-sensitive sectors. Panel (a) shows the number of countries with investment screening in place; panel (b) shows the number of country-sector pairs with screening.\nScreening has also moved well beyond its traditional domains (Figure 2). In 2007, it was concentrated in traditional security sectors such as defence and essential services such as energy, telecommunications, transport, and water infrastructure. By the end of 2022, more than 20 countries screened all those sectors. What is more, in 2022, more than ten countries screened finance, food security, media, biotechnology, robotics, artificial intelligence, microprocessors, and quantum technologies, although almost none screened them in 2007. Both the traditional and the new sectors are by and large also sectors that the new EU regulation makes mandatory.\nFigure 2 Number of countries screening foreign investment, by sector, 2007 and 2022 \n    \n  \n      \n  \nSource: Eichenauer and Wang (2026).\nFormal prohibitions remain rare. Across the EU, only 18 to 39 transactions per year were blocked or withdrawn in 2020-2022 (European Commission 2021, 2022, 2023). But screening may affect many more deals than it blocks. Screening criteria such as “public order” are vague, reviews take weeks or months, and legal advice is costly. In 2020, 80% of the cases notified to EU authorities turned out not to require formal screening, suggesting that many investors file to be safe on the legal side.\nHow screening may affect investment\nScreening can affect cross-border investment through several channels (Eichenauer and Wang 2026). Some are intended: authorities may prohibit a deal or impose conditions that lead investors to abandon it, and screening may deter investment that could potentially threaten national security. Others are not. Screening creates uncertainty about whether a deal is covered and, if so, whether it will be approved, which is known to depress M&A activity (Bonaime et al. 2018). It also entails compliance costs for legal advice, filings and delays. In France, outside counsel alone was estimated to cost 3.5–4% of transaction value (Ministère de l’économie et des finances 2018).\nThese channels differ in which deals they affect most. Prohibition and deterrence should hit controlling acquisitions hardest, as these attract most scrutiny. Uncertainty and compliance costs should weigh more strongly on small, non-controlling deals. Fixed costs associated with screening represent a larger share of the expected returns for smaller investment, and investors can more easily switch to alternative small targets. In contrast, large strategic acquisitions are more costly to abandon, especially when no other target holds the assets of interest. Effects through uncertainty are expected to fade as investors learn how the rules are applied.\nFewer deals, but not less investment\nWe link our screening data to all cross-border mergers and acquisitions (M&As) targeting firms in 43 OECD and EU countries, drawn from Bureau van Dijk’s Orbis M&A (formerly Zephyr) database. We then compare deals in a sector before and after they become subject to screening with comparable deals in unaffected sectors of the same country and in the same sector in countries that do not (yet) screen it. There are no differences in trends before screening is introduced, and the results are robust to alternative estimation methods and to excluding the years of the COVID-19 pandemic. Three findings stand out, in line with the channels discussed above.\nFirst, screening reduces the number of cross-border deals (Figure 3, panel a). After a sector becomes subject to screening, inward M&A deals fall by 11–18%, or roughly 24–40 deals per year in the average country. This is far more than the number of deals formally blocked, pointing to deterrence, uncertainty and compliance costs rather than prohibitions. The decline is immediate but fades after about two years, consistent with investors learning how the new rules work in practice. There is no evidence for postponed deals.\nSecond, the decline is entirely driven by minority deals (Figure 3, panel a). The number of acquisitions of stakes below 50% falls. By contrast, majority acquisitions rise (significantly so in the European sample) and full takeovers seem unaffected.\nThird, total investment value does not fall (Figure 3, panel b). Because the deals that experience a reduction are small and those that increase are large, the average value of a cross-border deal rises significantly, while the effect on the total value of inward M&A investment is statistically indistinguishable from zero. We thus conclude that screening does not reduce the amount of foreign capital inflows. But it shifts its composition towards larger, controlling investments.\nFigure 3 Screening shifts cross-border M&As from minority stakes to controlling acquisitions\n    \n  \n      \n  \nSource: Eichenauer and Wang (2026). \nNote: Estimated effects of introducing screening based on Poisson pseudo-maximum likelihood (PPML) estimations with 95% confidence intervals. In panel (a), the dependent variable is the number of deals, in total and by ownership stake acquired, and in panel (b) the dependent variable is the average and total value of deals.\nScreening affects investors of all origins, except within the EU Single Market\nExisting studies document that countries with more Chinese FDI are more likely to introduce investment screening and their screening tends to be stricter (Bauerle Danzman and Meunier 2023, Bencivelli et al. 2023). A natural concern is therefore that screening may primarily deter investors from particular countries such as China. We find little support for this (Figure 4). Screening reduces deals by all groups of investors. The estimated declines are somewhat larger for Chinese, US and state-owned investors, but the differences relative to other investors are generally not statistically significant. The few marginally significant differences appear in one sample but not the other. We find no difference between investors from autocracies and democracies, or between investors routed through tax havens and others.\nFigure 4 Screening reduces deals across investor types, not only those from particular countries\n    \n  \n      \n  \nSource: Eichenauer and Wang (2026). \nNote: Estimated effects of introducing screening on the number of cross-border deals based on PPML estimations, with 95% confidence intervals. “Diff.” is the difference between the group of concern and the comparison group (standard error in parentheses). Stars indicate significance at the 10%, 5% and 1% levels: * p<0.10, ** p<0.05, *** p<0.01. The EU/EFTA split is estimated for European countries only.\nThe one clear contrast is between deals within the European Single Market and deals involving investors from outside the EU/EFTA. Deals among EU and EFTA investors, which most European regimes exempt in most sectors, are not significantly affected, whereas deals involving investors from outside the EU/EFTA significantly fall. Screening thus pulls up a wall around the Single Market rather than around particular, politically non-aligned countries.\nImplications for the new EU regime\nOur results offer both reassurance and new considerations. The"
     },
     {
-      "title": "Starve the war: How coordinated pressure can end Sudan conflict - Sudan Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KOTk3Y0RhVXBkNmw4anBjNkNiSkUtNklFNGxkd3ZMQVg4SnFhRjVmN3ZvWXNRZmFKMkZLNGI4dWlSSnoxZjR0VE11QVN6dmdi?oc=5",
-      "published": "Sun, 18 Oct 2026 16:29:06 GMT",
-      "summary": "Starve the war: How coordinated pressure can end Sudan conflict&nbsp;&nbsp;Sudan Tribune",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-19T00:29:06+08:00",
+      "title": "First Trust High Yield Opportunities 2027 Term Fund Declares its Monthly Common Share Distribution of $0.125 Per Share for November - FinancialContent",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPOTZQNm1ib0d1UC0xR0VsZS1aQ096M2NxTzNNX3Q2ajJNMDNLM3N0aUREUG1LWWZnbTB2dThhM1EtNXZkckV5WFoyemhTS0FTQm1iYktHUU9ubFNybzdLMF93TU90c2txLWVUalh4MTdxSHRlN3ctOVBVWmMtQVlPaE1aSjRvX080UHJicW9MQUpUODFtMHgwa19TQzBZdF8yYlRiZXpzZ0NtSUQyOXBleGt5M2dvTUxocmJ1Z2JHN3o4V09VbVVNa2NtdUl3Tnd3cE5TVWd2d2E0R2FKa2gzSU5hX1NSMm94SXRkYzhBZVp3MmRRSkZ0al8tVnNrWko0ZXppczhJVnlIeEJLYzI4YnRPdDF1eEFq?oc=5",
+      "published": "Tue, 20 Oct 2026 20:10:00 GMT",
+      "summary": "First Trust High Yield Opportunities 2027 Term Fund Declares its Monthly Common Share Distribution of $0.125 Per Share for November&nbsp;&nbsp;FinancialContent",
+      "source": "GNews | Expropriation",
+      "published_beijing": "2026-10-21T04:10:00+08:00",
       "source_detail": {
-        "name": "Sudan Tribune",
-        "url": "https://sudantribune.com"
+        "name": "FinancialContent",
+        "url": "https://www.financialcontent.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "India’s Russian crude imports fall 13pc in September amid Middle East tensions - Telangana Today",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPenJ5ZWlCQ29CTGp3MkExMmpsVDF6ZThRcDViM2JjQXRTTjlkalNpaFpuS2o4SnJHMURkaVhpQk0zd1JqVEJKdTZ4bndaMXlSQnhHdkxVdzZEQ2NFZVk3a2hnakxETTVnX3lyX0tNdDRUaUNScDg1SzB0cnVwNG9wUVYxUE10SmVVQklUZXRNWGRMZlBJbjc4SWtsd1g2ZkgzZXJydnlBVQ?oc=5",
-      "published": "Sun, 18 Oct 2026 09:59:09 GMT",
-      "summary": "India’s Russian crude imports fall 13pc in September amid Middle East tensions&nbsp;&nbsp;Telangana Today",
+      "title": "Russian stakes in Serbia’s elections: ‘coloured revolution’ narrative versus ‘balancing act’ - Riddle Russia",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcDUyNUNaMllfdVMwTXdEWnJQVHZWUWNybTFVdWlJZko4bGM0M0FSY1ltN3AwaHFwYTNrbWRQWU5BX2ZhbE1xMEg4Z3BYQk1ZZUVSNTBVQTlhaVB1YVpRRGhKS0R0MzZ1TW02cU9EMEFJSFhmRHlOMnFua2hyQ1ZUaVRiSC1rQkFUNV9rUnhyZUNwNEUxSWFrX2lOOWVHV0g5clBVQXRBMA?oc=5",
+      "published": "Tue, 20 Oct 2026 15:57:47 GMT",
+      "summary": "Russian stakes in Serbia’s elections: ‘coloured revolution’ narrative versus ‘balancing act’&nbsp;&nbsp;Riddle Russia",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-18T17:59:09+08:00",
+      "published_beijing": "2026-10-20T23:57:47+08:00",
       "source_detail": {
-        "name": "Telangana Today",
-        "url": "https://telanganatoday.com"
+        "name": "Riddle Russia",
+        "url": "https://ridl.io"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -103,15 +103,92 @@
       "relevance": "low"
     },
     {
-      "title": "Analysis-High debt, growing strains put focus on need for new development approaches - whbl.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZmZPZEdaUGlRNXVueHBjOXpuU2RjSG42UURucjdoSXpGSUlNSEg3VjZsb1FHdk5yX1BFTnRiS2xkdDdwS2tac2o5NGlhT3E1UHAydHdoM2Y5aGlLUkVOS3NGRWF1cHJDbFVaNklpaGIzNWNZRTJNWjNja3llaGtNRHY5V2lZYTBwdHpObEMxNFdXMC1tV1BvRzNMX00zZy1KeWZfb1ZfMUJYaS1RTWhKVXJR?oc=5",
-      "published": "Sat, 17 Oct 2026 22:06:08 GMT",
-      "summary": "Analysis-High debt, growing strains put focus on need for new development approaches&nbsp;&nbsp;whbl.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-10-18T06:06:08+08:00",
+      "title": "RBC CEO weighs blocking Meta’s Muse AI agent as banks close ranks - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXYTZia0U2SFFKaVNWZ3haTHRMdVpxaFhsVmRpQ2I4dFZkN2xWWnRSNVlPMmJOSWg5X2I2STZsQ05lWVFUcHhZZk9pNFRNZ2k1U0FDSHdvZml1TXZrYU5HWHF6ekFxWjJuUWxHQkUwbTJSUQ?oc=5",
+      "published": "Tue, 20 Oct 2026 12:29:05 GMT",
+      "summary": "RBC CEO weighs blocking Meta’s Muse AI agent as banks close ranks&nbsp;&nbsp;Crypto Briefing",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-10-20T20:29:05+08:00",
       "source_detail": {
-        "name": "whbl.com",
-        "url": "https://whbl.com"
+        "name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Canada hires lawyers to review Cleveland-Cliffs plant idling - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOHJaMmlPWUxDWXdsd0VxZ1RMNjhUNkNxMU9KR3JVNWJoeVpBeWd2RUFuc1NxSS1rZ1dobGt2azhBNnhFVTdHNDQyNWtiOHNCMEJpM0hrUGdVM3ZQNEFNdjcwTTJfeHZLN2d4TmVrQmYyWERVQjY3VW9RNC1jQ2tucjNIN3pxTlBaZkp0enhYbE4xd1VaOGFlcExjbDhDWDdGV1RXTVYxZ0VkVXVBOFVRemhfQXVNNlU?oc=5",
+      "published": "Tue, 20 Oct 2026 11:41:59 GMT",
+      "summary": "Canada hires lawyers to review Cleveland-Cliffs plant idling&nbsp;&nbsp;scanx.trade",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-20T19:41:59+08:00",
+      "source_detail": {
+        "name": "scanx.trade",
+        "url": "https://scanx.trade"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "PAIPA sanctions: the US froze 5 Chinese AI entities over Google trade secrets - astig.ph",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZnpxbzc3bHFMVzA4MVJsUDlWMjdKUFU3SHk3M3hXRVpXUGtjUHpiZU9UQU5SR3JDVk1uT1FPVVgzUkViS0dJZEd1OHpXVGRyZTNRbF8zNTJJU1NFRUY2QV9abkxTNXFXUVlQMkw1Vkg1bkxMLVB5RGF2UW5DUDRXeHdIWlFBQQ?oc=5",
+      "published": "Tue, 20 Oct 2026 10:10:29 GMT",
+      "summary": "PAIPA sanctions: the US froze 5 Chinese AI entities over Google trade secrets&nbsp;&nbsp;astig.ph",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-10-20T18:10:29+08:00",
+      "source_detail": {
+        "name": "astig.ph",
+        "url": "https://astig.ph"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Police arrest Qilin ransomware suspect on holiday, as links made to Synnovis hack that contributed to patient’s death",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/qilin-ransomware-arrested-synnovis-patient-death",
+      "published": "Tue, 20 Oct 2026 09:41:49 +0000",
+      "summary": "A 28-year-old Russian man has been arrested by German police, suspected of being a key member of the Qilin ransomware gang. Detectives have linked the man to the attack against blood-testing firm Synnovis, that disrupted London hospitals, and resulted in the death of a patient.\n\nRead more in my article on the Hot for Security blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-20T17:41:49+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "A 28-year-old Russian man has been arrested by German police, suspected of being a key member of the Qilin ransomware gang. As BBC News reports, detectives have linked the man to the 2024 attack against blood-testing firm Synnovis, that disrupted London hospitals, and resulted in the death of a patient.\nThe suspect, who has been named by German media only as \"Vladimir K\" was originally detained in May in Japan, after he travelled there on holiday. According to German officials, the man's vacation plans were intercepted and Japanese police were waiting for him on arrival. Earlier this month he was extradited to Germany.\nGermany's interest in \"Vladimir K\" is related to a cyber attack in September 2024, which saw around US $160,000 worth of cryptocurrency extorted from a logistics firm. According to the BBC, German detectives have now included in their investigation possible links to the June 2024 attack which saw the Qilin ransomware group disrupting pathology services at various London hospitals, and resulted in the cancellation of operations and outpatient appointments.\nThe incident is said to have crippled Synnovis’s IT systems, and caused a critical shortage of O-type blood in hospitals. A subsequent probe into the attack by King's College Hospital NHS Foundation Trust confirmed that a patient died in part due to blood test results being delayed.\nAs a consequence, British police are reportedly examining whether their own inquiry could lead to a charge of unlawful killing.\nNo ransom was paid by Synnovis, a decision the firm made jointly with the NHS trusts to which it provides services.\nRansomware gangs have been accused of causing deaths in the past. For instance, in 2020 a different gang disrupted systems at a Düsseldorf hospital and caused a seriously-ill woman to be diverted to another health facility 30 km away.\nAccording to reports, as a result of the attack doctors were not able to start treating the patient for an hour and she died.\nThe Qilin ransomware-as-a-service (RaaS) group has been operating since at least 2022, and has reportedly hacked more than 4000 organisations, and extorted over US $140 million. High profile victims include Japanese beer-maker Asahi, potentially exposing the data of more than 1.5 million customers and around 275,000 current and former employees and their families.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
+    },
+    {
+      "title": "Foreign investment regulation in 2026: navigating economic security and deal certainty - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdVVnaXVZeWkxOEZsclRwU0lmYmdZNnBFdkNqQktsXzNtSUV1VnJLbk1EU1VEYUlKRnhyS1NUZHlLeVhCZGo3S3c5blk3ZFdpSXc2b2RpZkJ1YkRURS04UE8tRkp6N2Y4Q3liTHFLc3RpVjBkd0FNRkVsbVFnaDRZR1hWMmJLWUpMMTN6YWV0dGV3VWJLb3Y4cUtBUnBFLWM2dUZ5RjFQcWNyeXA3UElYTkN5eW5OQjRmSWR2R1pBN0FRVUdPTlZFYkltYkVNMHh2WkluMWlUU3VDWmxwSGl2S09taVdBdw?oc=5",
+      "published": "Tue, 20 Oct 2026 09:28:19 GMT",
+      "summary": "Foreign investment regulation in 2026: navigating economic security and deal certainty&nbsp;&nbsp;Freshfields",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-20T17:28:19+08:00",
+      "source_detail": {
+        "name": "Freshfields",
+        "url": "https://www.freshfields.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Closing $4 Trillion Development Financing Gap Requires Urgent Action, Speakers Tell Joint Meeting of Second Committee, Economic and Social Council - UN Meetings Coverage and Press Releases",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HaUFQQ1FPeXBxODhsMHZNZzRLQy00M0RBYl9yYUZ5ZXZTbTQ4dHFXa3JSMTNJVl9ELW9CSmRwZ2pUVUJveHNsaEEtWXdqX045Q09nWFktUE0?oc=5",
+      "published": "Mon, 19 Oct 2026 04:00:00 GMT",
+      "summary": "Closing $4 Trillion Development Financing Gap Requires Urgent Action, Speakers Tell Joint Meeting of Second Committee, Economic and Social Council&nbsp;&nbsp;UN Meetings Coverage and Press Releases",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-19T12:00:00+08:00",
+      "source_detail": {
+        "name": "UN Meetings Coverage and Press Releases",
+        "url": "https://press.un.org"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -119,163 +196,13 @@
       "relevance": "low"
     },
     {
-      "title": "What Trump’s Waiver of New Russia Sanctions Means for Ukraine - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV21aTUJQWE4xclNZRExrLVpPNVFmRUljaERRT2tVZi1RejdpV0U5LXRmek5ZcDA1aXBBS181SXVhNTVramFiSGhFTzllaGxkbXNkbWJ6VVJ0VzZ6TW8zclFuWk51NUdHMVBYVUVZZ3FFSXlYeGR5VktrdHg2d1l4d3lnSm1DWEtBVjBwbWp2WTdxSFNZR1gwM2NGa0ZiblU?oc=5",
-      "published": "Sat, 17 Oct 2026 19:17:33 GMT",
-      "summary": "What Trump’s Waiver of New Russia Sanctions Means for Ukraine&nbsp;&nbsp;Time Magazine",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-18T03:17:33+08:00",
-      "source_detail": {
-        "name": "Time Magazine",
-        "url": "https://time.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Advertising Espionage and the Global Surveillance Industry: Discover-Tech - Candiru and the Weaponisation of Digital Advertising - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV19yY2hXNnpya29idnZ5TE04LU5JY3ZYWjlUMGoteWhOVHFXUFRzeFBFc1A2SlJZallmbmRGYldfWi1TeW1YQVd2QjlvcGtReW51MExmRS1QWWk2VFlRcUg1cG5YcjF3SkJ6RXlQR0doMFJFYjBqSzlpM3QzY3N1UmdtUjdCb3k1NGtYZ1ltOWhuMnVFQTJ2c2ZnX0NPbjB3WXlIakgzTTNLYmxuTzdWMHdndWVOU3JzSFVYbE80cFZSYkd2TVdVOGxncGh5Y2JPeENiZS1ibUgxbkkzeG1Gd2UwMlhvOEJHWUl3cnlVdHY?oc=5",
-      "published": "Sat, 17 Oct 2026 09:43:29 GMT",
-      "summary": "Advertising Espionage and the Global Surveillance Industry: Discover-Tech - Candiru and the Weaponisation of Digital Advertising&nbsp;&nbsp;https://debuglies.com",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-17T17:43:29+08:00",
-      "source_detail": {
-        "name": "https://debuglies.com",
-        "url": "https://debuglies.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Did Trump Lift Russia Sanctions? What the October 16 Waiver Changes - Diplomacy and Law",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZdGprMmZrUEJJVXY2dE1JYkpwQkxzUzVlN3dWNGxZQS1tS2p0OEFpLU9LRmhYT3VXRXRpcGVRdUtQZGdTckNaeldfQmZwajdLSlBEb2ZPMVg1aUtZcG1FaXptb1Bza1VxSlF3?oc=5",
-      "published": "Sat, 17 Oct 2026 07:56:03 GMT",
-      "summary": "Did Trump Lift Russia Sanctions? What the October 16 Waiver Changes&nbsp;&nbsp;Diplomacy and Law",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-17T15:56:03+08:00",
-      "source_detail": {
-        "name": "Diplomacy and Law",
-        "url": "https://www.diplomacyandlaw.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump Waives Graham Act Sanctions On Russia Before They Take Effect - Radio Free Europe/Radio Liberty",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNHl0eDF4NHNPcHZReGM0bmRvYkxFN1lMMHFaSW9HNGhMUVZFOS1MUkE2M2k4OXRrVFlZeWZWV01aT244eFZ1M3VqbFBTT1ZBRTBnNTFNLTFoa0NOM3QzQnZjRjB4dTQ2dHIwbFZ2RGdlRW1KN2k5ZWlQRzV5d2F6ZTdaQ0h5Q2Ri0gGLAUFVX3lxTFBieHB6bzhUa2dSNVQ2UkpEb2pRcW1TVU5jZnRaVUV4Z1gtVHpLcEhmY1RaemUyMDg1RWVTajRIaS1vemEwbTlPZk5EWHB0VHBPVE5MYzdWN0gzZFY0ODVUWW1VZHV2dmhjc3JLYUY0VENVcTJPbWhtRTBmQXk3MUhIN3JVQkg5Z0Z2R00?oc=5",
-      "published": "Sat, 17 Oct 2026 07:33:35 GMT",
-      "summary": "Trump Waives Graham Act Sanctions On Russia Before They Take Effect&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-17T15:33:35+08:00",
-      "source_detail": {
-        "name": "Radio Free Europe/Radio Liberty",
-        "url": "https://www.rferl.org"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Three Russia Export Cases Put End-User Diligence in the Spotlight - www.globaltradeandsanctionslaw.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRS1kUWh4Sm9CY3lQN1RmNVJJM0hFTUR6ZE96eEctZTdQZVJkX2NGRWdHTFNocll2cTVPSFpEbmdVTlVJNGs3N1hJMmQ2MWNESXh2RXc5Z1VwRDBRcG1sMzlLOWVqN2ZKNUd4TTJkbTFuZjJpbVhIelQwdVhkTUo5emEwQzdEajlRNEREOUZlTGhDamFRdzduVkk0RF92U3NqaWExSHpTRVk?oc=5",
-      "published": "Mon, 19 Oct 2026 22:39:16 GMT",
-      "summary": "Three Russia Export Cases Put End-User Diligence in the Spotlight&nbsp;&nbsp;www.globaltradeandsanctionslaw.com",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-20T06:39:16+08:00",
-      "source_detail": {
-        "name": "www.globaltradeandsanctionslaw.com",
-        "url": "https://www.globaltradeandsanctionslaw.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU Says KKR May Have Misled It on a $24.7B TIM Deal [2026] - https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44SHMxUzctUEprM2ZCRzlfSXZYRVBrMWNlT2J0YzNpaEcweUVKYXJUNUJmNE5HOHpjanhJd2NnaWxFWmRtN0d2T291SWhtVFJ1eTFOOGhEWHMtX3NDMFZ5ZWM0ZVE2N2tBZzAwbVc2SF81S3N0STZzOHJn?oc=5",
-      "published": "Mon, 19 Oct 2026 13:07:08 GMT",
-      "summary": "EU Says KKR May Have Misled It on a $24.7B TIM Deal [2026]&nbsp;&nbsp;https://tech-insider.org/",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-19T21:07:08+08:00",
-      "source_detail": {
-        "name": "https://tech-insider.org/",
-        "url": "https://tech-insider.org"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why China’s Rare-Earth Leverage Does Not Wear Out | List of Articles | International Information Network Analysis | SPF - 笹川平和財団",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8waEhSVE1idUlnUXU1UlByeV94T1JvY1lGNGRhMG9JUy1wVmltNnM4UEZVbmJzYWFfc0J4VVhmRzV6Q1JKRlJDeE9IT2xoRGdpcHFGNHlVNVpodjdyNTlBLU5STGUyUjhRNnEw?oc=5",
-      "published": "Mon, 19 Oct 2026 07:51:29 GMT",
-      "summary": "Why China’s Rare-Earth Leverage Does Not Wear Out | List of Articles | International Information Network Analysis | SPF&nbsp;&nbsp;笹川平和財団",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-19T15:51:29+08:00",
-      "source_detail": {
-        "name": "笹川平和財団",
-        "url": "https://www.spf.org"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Weekly Update 526: Building HIBP AI/SI First",
-      "link": "https://www.troyhunt.com/weekly-update-526/",
-      "published": "Mon, 19 Oct 2026 06:47:58 GMT",
-      "summary": "I have this sense that we&apos;ve passed the point where &quot;vibe coding&quot; is a derogatory term. I have no empirical evidence for this; it&apos;s more a feeling that those weaponising the term have now accepted the inevitability and are just getting with the program.",
-      "source": "Troy Hunt",
-      "full_text": "I have this sense that we've passed the point where \"vibe coding\" is a derogatory term. I have no empirical evidence for this; it's more a feeling that those weaponising the term have now accepted the inevitability and are just getting with the program. Or they've reskilled into other industries because, let's face it: you can't be a productive, competitive developer today without AI. I saw this comment from Linus Torvalds today which I thought really nailed it:\n\n‼️ Linus Torvalds called rules against AI coding tools \"UTTERLY STUPID\" on the Linux kernel mailing list.\n\nHe says people he respects and calls intelligent do not shy away from using new tools. https://t.co/HaQ8H4BrVc— International Cyber Digest (@IntCyberDigest) October 17, 2026\n\n\nHe's always had a way with words 🙂 Anyway, here's what we're doing:",
-      "published_beijing": "2026-10-19T14:47:58+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Irish police force has its Twitter hacked in cryptocurrency scam",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/irish-police-twitter-hacked-crypto-scam",
-      "published": "Fri, 16 Oct 2026 18:00:50 +0000",
-      "summary": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-17T02:00:50+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "There must have been red faces in the social media department of Ireland's police headquarters after two of its accounts were hijacked this week.\nThe official @GardaInfo and @GardaTraffic Twitter accounts of Garda Síochána were accessed by an unauthorised third party who posted cryptocurrency-related messages on Wednesday evening, potentially reaching hundreds of thousands of users.\nThe messages claimed that followers were eligible to claim free cryptocurrency through an airdrop. However, victims who followed the link could potentially be tricked into handing over the keys to their cryptocurrency wallet, and end up with their savings drained.\nThe problem, however, is not just that a hacker found themselves with the ability to post fraudulent messages posing as the Irish police. If an unauthorised person was able to publish unauthorised posts from the accounts they may also have been able to access direct messages (DMs) which could contain sensitive personal information from members of the public.\nSpeaking to the Belfast Telegraph, a police spokesperson attempted to dampen fears that sensitive information could have been compromised:\n\"An Garda Síochána is satisfied that there is no unauthorised access with any Garda systems and that there is no loss or impact on any Garda data.\"\nScammers like to hijack established accounts with a large followers as they are both more likely to be trusted, and provide a rapid route to reach a significant number of potential victims. The @GardaTraffic account has over 600,000 followers, and is normally used by Irish police for traffic and road safety updates, while the @GardaInfo account has almost 300,000 followers.\nThe Garda says that is carrying out an internal investigation into what may have happened, and is working \"with the X platform to understand how this unauthorised access has occurred.\"\nThe Garda is not the only police force to have ever suffered a security breach on its Twitter account.\nFor instance, in 2019 the UK's Metropolitan Police had its account hijacked (as well as part of its website) by hackers who posted explicit messages calling for the release of London-based rapper \"Digga D\". Two men were subsequently charged in connection with the hack.\nFive years before, the social media accounts of Dubai police were hacked by an Anonymous-affiliated group calling itself HorsemenLulz, who claimed the UAE's police service was “spying on you”.\nIn 2022, the official Twitter account of the Philadelphia Police Department was compromised and used to post what appeared to be a series of adverts targeting businesses.\nThere are a number of ways in which malicious hackers can gain access to accounts - including through the use of phishing emails and password-stealing malware, as well as exploiting the common habit of users choosing non-unique passwords that they have used elsewhere.\nThe advice of cybersecurity experts remains to protect accounts with multi-factor authentication, to always use unique, strong passwords, and to review which third-party apps may have been granted access to accounts.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "Krybit ransomware: what you need to know",
-      "link": "https://www.fortra.com/blog/krybit-ransomware-what-you-need-know",
-      "published": "Fri, 16 Oct 2026 10:25:12 +0000",
-      "summary": "Krybit is a fast-growing ransomware gang that was hacked by a rival, hit back, and is still extorting victims. Find out how it works, who it has targeted, and what organisations can do to protect themselves.\n\nRead more in my article on the Fortra blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-16T18:25:12+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Training AIs to Solve CAPTCHAs",
-      "link": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-      "published": "2026-10-19T11:07:43Z",
-      "summary": "Interesting research:\nAbstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were trained on. Neither improves with exposure. We study what changes when a solver improves with use. O...",
+      "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+      "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+      "published": "2026-10-20T11:03:13Z",
+      "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him:\nCellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the &#8220;advanced unlocking services&#8221; they&#8217;ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026.\n[&#8230;]\nAccording to Cellebrite, AU:\n\nis a &#8220;next-generation AFU vector that is more resilient to Apple&#8217;s OS changes&#8221;\nworks with Stolen Device Protection...",
       "source": "Schneier on Security",
-      "full_text": "Interesting research:\nAbstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch.\nFor such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first.\nSpecialized detectors invert the trade-off, answering in milliseconds but only for categories they were trained on.\nNeither improves with exposure.\nWe study what changes when a solver improves with use.\nOur system pairs a fine-tuned YOLOv8 detector with an open-weight VLM behind a confidence-based router, and runs entirely from screenshots and operating-system input events, with no browser automation or DOM access.\nIt reaches 85.\n4% overall and 84.\n2% macro accuracy across 16 classes, exceeding either component alone.\nEvery answer VLM produces also serves as a training label, so the detector absorbs categories it was never trained for, typically after one or two encounters and without human annotation.\nThe same loop also repairs it.\nA CAPTCHA operator can perturb images against the publicly released detector and drive its accuracy to 0%, but the perturbations leave VLM untouched, and its labels let the detector recover.\nUnder a year-long simulated arms race in which the CAPTCHA operator re-crafts its perturbations each month, the solver recovers every round, and a cheap ~70%-accurate open-weight teacher hardens it as effectively as a perfect oracle.\nVisual CAPTCHA defenses that assume a failing bot stays failing therefore understate how quickly an adaptive solver returns.",
-      "published_beijing": "2026-10-19T19:07:43+08:00",
+      "full_text": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him:\nCellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026.\n[…]\nAccording to Cellebrite, AU:\n\nis a “next-generation AFU vector that is more resilient to Apple’s OS changes”\nworks with Stolen Device Protection enabled, which tightens USB restrictions\nis enabled by a dedicated appliance with a stated range (!) of about 8 meters.\n\nAU = Advanced Unlocks, Cellebrite’s term. AFU = after first unlock.",
+      "published_beijing": "2026-10-20T19:03:13+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",

@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-20T03:52:03.031418+00:00",
-  "fetch_date_utc": "2026-10-20",
-  "total": 21,
+  "updated": "2026-10-21T03:42:38.224914+00:00",
+  "fetch_date_utc": "2026-10-21",
+  "total": 29,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 8,
+      "count": 14,
       "feeds": 5
     },
     "半导体+科技": {
@@ -21,7 +21,7 @@
       "feeds": 5
     },
     "安防+AI": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "光伏+新能源": {
@@ -45,7 +45,7 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 1,
+      "count": 4,
       "feeds": 13
     },
     "Track17行业竞争维度": {
@@ -61,16 +61,80 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 62,
+  "fail_feeds": 56,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "XHEART Completes Strategic Funding Round with CXMT, Renault, and Chery as Investors - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuY3ZLbVhWemprZU45MXpMaXdJWlJ2a3ZiMXdGekg5WDY2a2ZabWdtTkYtd0dCR3Awam5PU01oek5mZTlyLXdUWWxGMERlTVFqMVJWMlY5TTQtSHdidlFXRG1NeERCMzhmZWZabFFiMENiVU02WUE?oc=5",
-      "published": "Sat, 17 Oct 2026 09:35:00 GMT",
-      "summary": "XHEART Completes Strategic Funding Round with CXMT, Renault, and Chery as Investors&nbsp;&nbsp;BigGo Finance",
+      "title": "Nio Pushes All-In Subscription in Netherlands as Own-Brand Registrations Plunge - Electric Vehicles",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUdEX0g5T2FXY1hWd29LdlNRaEpqS1UxdHFfZ3BidmtfZS1abzhRSFVad1lTT002MlZrQzVMYXQ3V2VSejZvZmEzTmVfQVF6Xy14Vml3TVZvdGM4SHlvLWtVem4yZndNTjFMb1dENllHeXFxUVdodC11U09uYkhSRW5RZ3RkZ3ZmeFhHd0s1Ymt5VHlSWkpjR195MEtBWHBlejZuOTFqWk4wUkhiX1pYOTNoNA?oc=5",
+      "published": "Tue, 20 Oct 2026 17:56:30 GMT",
+      "summary": "Nio Pushes All-In Subscription in Netherlands as Own-Brand Registrations Plunge&nbsp;&nbsp;Electric Vehicles",
+      "source": "GNews | NIO Overseas",
+      "published_beijing": "2026-10-21T01:56:30+08:00",
+      "source_detail": {
+        "name": "Electric Vehicles",
+        "url": "https://eletric-vehicles.com"
+      },
+      "priority": 2.4,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Xpeng Begins Mona L03 European Deliveries with First Handover in France - Retail News Asia",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0F0YnBGckFWRXFiSmlXWloyLXFURTBhRV9WaV9ZSkdveW52UU1LTUw1WXZoQTZvdEtYVHhmOHJfZ1dzLTc3X3FYbW1VTXQ2Qkw1czM0VnlMVldybVRJYzJsbFFLRXo5TW0tcWxJQ3FCTy01Rm1zdTlwUmd2M1QxRjYzLUhuOEROaEp3bHFQbnE2Vm5ScXZNQjVqdw?oc=5",
+      "published": "Tue, 20 Oct 2026 15:48:56 GMT",
+      "summary": "Xpeng Begins Mona L03 European Deliveries with First Handover in France&nbsp;&nbsp;Retail News Asia",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-17T17:35:00+08:00",
+      "published_beijing": "2026-10-20T23:48:56+08:00",
+      "source_detail": {
+        "name": "Retail News Asia",
+        "url": "https://retailnews.asia"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Xpeng starts Mona L03 deliveries in Europe, with CEO handing over first car in France - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95NmI4TmowUWtEUGdCTTdxWVRmZDRrdHFUZ0F6SkJwNHJVV3gxX080a2dXTUVWTEhGVUpfelJvVVk1b19XdDJtVVdndHlReWtJNmpEM1R0dnRBdkI3T280V19yMnV4OEk1Z29oRUhhb21tMjhORm5JRjlwSzc?oc=5",
+      "published": "Tue, 20 Oct 2026 15:20:22 GMT",
+      "summary": "Xpeng starts Mona L03 deliveries in Europe, with CEO handing over first car in France&nbsp;&nbsp;CnEVPost",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-20T23:20:22+08:00",
+      "source_detail": {
+        "name": "CnEVPost",
+        "url": "https://cnevpost.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Aito shifts from Huawei to Bosch for European expansion - CarNewsChina.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNjhJR0xoTHFxZjFfX2VwZWF6bmNDdk0xMThmTXo1N3hVZnpuTjNjRHlvbEJ0YjFkU3YyQXlGWUFYel9jU19FWHhlbWFpMlNPUlVRUUpDa3JELUVaSjlORXRjc21KNDJUeGdyNHJNSW80aTFwZl9PMF9kc294REZYZmRnTnBwenhpUmE1MHFTamRNZ1VUT1pr?oc=5",
+      "published": "Tue, 20 Oct 2026 12:03:00 GMT",
+      "summary": "Aito shifts from Huawei to Bosch for European expansion&nbsp;&nbsp;CarNewsChina.com",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-20T20:03:00+08:00",
+      "source_detail": {
+        "name": "CarNewsChina.com",
+        "url": "https://carnewschina.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AITO to Enter Europe via Bosch Partnership as Huawei Hands Overseas Reins Back to Automakers - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jVzB5OE54NVpFMG1NcDgza1VrN2g4Y1I2ZE5odjJ3dGtQTzYwaEVOWGw0NTBNa09sX25QcktMWjdDMENuZml3M19TWVZCN2pLNmh4SEI1TzNTZVVKYXVsOHExcUtxT0ZqZFY2aWhKWFZiMlJ5NUE?oc=5",
+      "published": "Tue, 20 Oct 2026 10:05:00 GMT",
+      "summary": "AITO to Enter Europe via Bosch Partnership as Huawei Hands Overseas Reins Back to Automakers&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-20T18:05:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
@@ -81,18 +145,50 @@
       "relevance": "low"
     },
     {
-      "title": "JinkoSolar unveils 28%-efficient back-contact TOPCon solar cell with amorphous silicon HJT passivation - pv magazine Australia",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPM2EtNGNkMTJfYS16S0JDYzhfVlp5WDJjR0VRcXZ1a1gzRFlMOFdRTzg2OGdyNHZPMEZzU0NJbFhBbTF3MlNCZVlucHdzZUw5TDg3Mm1sLVo5anJTaVFxaUVDNU9OWEJVVXlnMjhVeWFERjNlTWZmMUUzNkU2NTNhaHpqdzJDdWlFQUprWDZDM19VeDlydEJBYnJwSjNXUWJnT1pIMFhLU2l2aU4yY2ppTy1zZm53aF9pRGY4SG54RUV0a1J0ZGhrcklXbEM3QnQzd2xnRVlIcWRiWkcta0Y3V0FDTy1CQQ?oc=5",
-      "published": "Mon, 19 Oct 2026 23:37:09 GMT",
-      "summary": "JinkoSolar unveils 28%-efficient back-contact TOPCon solar cell with amorphous silicon HJT passivation&nbsp;&nbsp;pv magazine Australia",
-      "source": "GNews | T17 光伏技术",
-      "published_beijing": "2026-10-20T07:37:09+08:00",
+      "title": "Leapmotor becomes 1st China automaker to build EVs and batteries in Europe, thanks to Stellantis assist - Automotive News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORVkxQVB1clpvakZvNUZZbFNQbXVXazM4eXNpRnlZVE1jZEgwQVJtOFdVcGNIY2p2NW1lTU1Bc2VRWFdtSU5kYzRnMlBkYWNSbDNFdFdtcFlMQUxfSlh4M3hobWQwNU1wZGV3S0cxNERhWkhUb1N3eVF2VThwR1J3aFNqRFVlUGJGMHpnd0hjYTh3NXd6?oc=5",
+      "published": "Tue, 20 Oct 2026 09:59:00 GMT",
+      "summary": "Leapmotor becomes 1st China automaker to build EVs and batteries in Europe, thanks to Stellantis assist&nbsp;&nbsp;Automotive News",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-20T17:59:00+08:00",
       "source_detail": {
-        "name": "pv magazine Australia",
-        "url": "https://www.pv-magazine-australia.com"
+        "name": "Automotive News",
+        "url": "https://www.autonews.com"
       },
       "priority": 1.2,
-      "category": "Track17行业竞争维度",
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "OmniVision Overtakes Samsung in Global CIS Market With 13% Share - THE ELEC, Korea Electronics Industry Media",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3cGE0dVVzdkdCRU1NUk8xVWpsV0V3cEZ1V1JqeHVaNzBRYzVPbk8zQ255RmtoUHgyNDBmTjBLekJfeHNSY1RSSk4xZl9PM3BnZWRVUi1ZU0pkMjkxMWVJRTk5RWtGN00?oc=5",
+      "published": "Tue, 20 Oct 2026 08:47:27 GMT",
+      "summary": "OmniVision Overtakes Samsung in Global CIS Market With 13% Share&nbsp;&nbsp;THE ELEC, Korea Electronics Industry Media",
+      "source": "GNews | Will Semi T17",
+      "published_beijing": "2026-10-20T16:47:27+08:00",
+      "source_detail": {
+        "name": "THE ELEC, Korea Electronics Industry Media",
+        "url": "https://www.thelec.net"
+      },
+      "priority": 1.2,
+      "category": "Track17重点27股监控",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[News] Huawei-linked SiCarrier Says Tools Adopted by Multiple Fabs; Adds New Photomask, Wafer Inspection Tools - TrendForce",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPLXNSZ0xlQmJUYlhpT0t5Vk1STllIdlFrMGVFWlhUUlUzS0RiT242d0w2YURKSFpXa2NJVmstN05FSnpPaU10NE4xNWp5cUtJeEl6bHZfUmZpZS1CYllvdjRzMzNJbXJLSVNHN2N3SENjVmhDZUZrNXJnVlllbnE1SUpYOExRaUpBRWxSNVhTcElWZkRxbUZwUU14enNzUHNCZTRpMGVnR3ZBVWtfQXJzQWVQc0VnU1JZMkFVblp0bk5kVUdHQ0tvNkpxdGt3cXNNcUZkRXVXXy16clR5a2lva0hoT0RPQ2tqVzl3ZzBsNTJxc0hKdkZLLWhB?oc=5",
+      "published": "Tue, 20 Oct 2026 05:00:19 GMT",
+      "summary": "[News] Huawei-linked SiCarrier Says Tools Adopted by Multiple Fabs; Adds New Photomask, Wafer Inspection Tools&nbsp;&nbsp;TrendForce",
+      "source": "GNews | Naura T17",
+      "published_beijing": "2026-10-20T13:00:19+08:00",
+      "source_detail": {
+        "name": "TrendForce",
+        "url": "https://www.trendforce.com"
+      },
+      "priority": 1.2,
+      "category": "Track17重点27股监控",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -113,94 +209,78 @@
       "relevance": "low"
     },
     {
-      "title": "BYD Exports '9-Minute Charging' Ecosystem to Indonesia, Putting Hyundai Motor and South Korean Batteries on the Back Foot in Southeast Asia - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIcktBN09XRjhRUFBlc1ZoVFEzWmQ1U1EwTEl1M25nNU1xQXJ1dk55TXdoT3MyVFV5S0d1Rnh2Q2pnLTFUbFBWa1hhNkdpajBYc1FNU29fVFRycVdfQXlEa1M1LVdJcUxfWFNBaG5YNjZ3QW5qWXc?oc=5",
-      "published": "Mon, 19 Oct 2026 07:55:00 GMT",
-      "summary": "BYD Exports '9-Minute Charging' Ecosystem to Indonesia, Putting Hyundai Motor and South Korean Batteries on the Back Foot in Southeast Asia&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-19T15:55:00+08:00",
+      "title": "How China is breaking down the west’s battery walls - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNnFTeUtwMHBxZFMyRmNZbzBBendLVHcyWGM1c3o3U2YyTkd0QVdvTVM5djVNVGFVTFBOcWRkbktRQ1RKVW96aHRaT0hYTDVoRmdmSFJ3UlRTZkZZS0ZWOW1fUml1SHJpUjhKLUxZZ0pzTW9SZjFmYmZ1djY5S2k1Yk5oY24?oc=5",
+      "published": "Wed, 21 Oct 2026 01:27:36 GMT",
+      "summary": "How China is breaking down the west’s battery walls&nbsp;&nbsp;Financial Times",
+      "source": "GNews | CATL Overseas",
+      "published_beijing": "2026-10-21T09:27:36+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "Financial Times",
+        "url": "https://www.ft.com"
       },
-      "priority": 1.2,
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Top 10 Battery Producing Countries Worldwide - وردنا",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeUhvVGhLMFB4MHgtQ1ZCUzV0Rk90NkNHZTktWU9NaTF4cjZheVgtX1lMX3NUR01MT1N3T3lQWmplUTZTZXJ3dWhtaERNWEZvbl84QkxMdXMyTTNtWUVvOC1GemtNb2p5X3g2aVVfbFRWdXRJUU1ETENoNkpWWmRnT3dleDBZTWdyVFRyMkRVemhIZw?oc=5",
+      "published": "Tue, 20 Oct 2026 12:35:04 GMT",
+      "summary": "Top 10 Battery Producing Countries Worldwide&nbsp;&nbsp;وردنا",
+      "source": "GNews | CATL Overseas",
+      "published_beijing": "2026-10-20T20:35:04+08:00",
+      "source_detail": {
+        "name": "وردنا",
+        "url": "https://waradana.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chinese Autonomous Driving in Europe: How Close Is It to the Global Supply Chain? - Gasgoo",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNmpRQThjczA0TVVQcG1aRkJ6cXgyS1Ixd1BhRlFxTGdiVHdhMG1pLWd3RVJpV01aMFdPaWdmMmF1ekFJZzdxNG8wcWw3dHlpdVo3UXVHcVpPcWFkSUVxaTV5NW9tR3JYVFFucGxnMWtlUU1PNGZFOUw5OEVMUm9xOTA0MW1DcFdiT0NpbFdmcG5wQUUyaGcya1hiNE83anBROVZ4NjJWejFZMXV6a2MzOENnd1NNVnQ5bkpTeE9iTEFsR0t3dUozNVRmcUNlR3ByemFueVc4NFZtUWpoTkVsVkVDVXpMd0E?oc=5",
+      "published": "Tue, 20 Oct 2026 11:53:29 GMT",
+      "summary": "Chinese Autonomous Driving in Europe: How Close Is It to the Global Supply Chain?&nbsp;&nbsp;Gasgoo",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-20T19:53:29+08:00",
+      "source_detail": {
+        "name": "Gasgoo",
+        "url": "https://autonews.gasgoo.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Middle East and Africa Lithium-Ion Battery Market to Reach USD 17.22 Billion by 2035 from USD 3.75 Billion in 2025 at a 16.5% CAGR - SRI - Industry Today",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRnZYZ2tZajlyeWE4U2s0ZVc1aHEyY09NM3VYMHNKTDB0VjQtTHQyU1BrWFNseWhhS3c3am5RRmZON0h4TTZWZ2RlY2hSZTlSNmkwSERpQzNQTU03c0p0aVBKbnhrMFJMSUVZUFFxWlNuWmJNLUppRjVoeno0UkJ0aUVKbDFYSXhTYlozN0hYWEk0bUQ2RV9mQmJveUxmSmp0RU5lR1JQYV9scjI4czFiYTBwZ0MzTzFZTDhDZjRTeFBLc3lUbWd0VG1DRVNmZW42eUM2Tlp1WmNXeW1fS1FuRnVjdDVyeEFUYXVuRV9DTUdzWHoyTk11c3VkSWFzVGVQTVBhUTcyRFVEd253UXc?oc=5",
+      "published": "Tue, 20 Oct 2026 11:08:19 GMT",
+      "summary": "Middle East and Africa Lithium-Ion Battery Market to Reach USD 17.22 Billion by 2035 from USD 3.75 Billion in 2025 at a 16.5% CAGR - SRI&nbsp;&nbsp;Industry Today",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-20T19:08:19+08:00",
+      "source_detail": {
+        "name": "Industry Today",
+        "url": "https://industrytoday.co.uk"
+      },
+      "priority": 0.0,
       "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Chinese EV and Battery Makers Build 26 Plants in Europe, Sidestepping Tariffs for Duty-Free Market Grab - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNYk9SYmZrRG1CbzlfWjBSTWF3bHM3YTZyVTJUUV9fWEVLaUI5SUZMVU55RFFrMzBjZ2YyOHhtYjBWOVZHU0N5cDJOV0JEakZtMkFsejBaN2I1S0NjWmY4NGQya2xaZmNIdFVjZVY0QnBLVHlvLVE?oc=5",
-      "published": "Sun, 18 Oct 2026 09:55:00 GMT",
-      "summary": "Chinese EV and Battery Makers Build 26 Plants in Europe, Sidestepping Tariffs for Duty-Free Market Grab&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | CATL Overseas",
-      "published_beijing": "2026-10-18T17:55:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Chinese automakers shift to establish deeper roots in global markets - 巴士的報",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc3FjVGFnUm5kaUZsOXVVbWtoclhMbENBdzdVRHFueWpsN2Q3MWtGV3p4azBSQ3JSRzJmMTB0LVo5LVA4WC1UY1pWbWJ0VVZ0d1dvOGZUNkQtV3RwTnJXV3F6aFRyV2JhbU1YWWFXdHBpN3pGd3czSVY1UXpDaVJKNThSdkJOal9jdHlUaTcxbUZTdXJJZGpGT2ZfV3QyTjhRam50eS1TWXZhZjQ3SG9tS1Q3SnZacUxlblVYeQ?oc=5",
-      "published": "Sun, 18 Oct 2026 07:55:00 GMT",
-      "summary": "Chinese automakers shift to establish deeper roots in global markets&nbsp;&nbsp;巴士的報",
+      "title": "Harmony Intelligent Mobility Alliance Expands Overseas, AITO to Adopt \"Bosch inside\" Solution | 36Kr Exclusive - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oUk44TllkZjJ6T1NCTnJLMFlVNWRZVTNDYS03N3hoRnI1S0xmVFI3Qm9QNXVXNjhtNS02eTE4Q04tQ2lYVWxPSFE0cDJrNENZcEJN?oc=5",
+      "published": "Tue, 20 Oct 2026 10:03:34 GMT",
+      "summary": "Harmony Intelligent Mobility Alliance Expands Overseas, AITO to Adopt \"Bosch inside\" Solution | 36Kr Exclusive&nbsp;&nbsp;36Kr",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-18T15:55:00+08:00",
+      "published_beijing": "2026-10-20T18:03:34+08:00",
       "source_detail": {
-        "name": "巴士的報",
-        "url": "https://www.bastillepost.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Chinese automakers debut Europe-tailored models at Paris Motor Show - 巴士的報",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaFJnQXVTalRseW9rekFVOFl3V1lISXZ1WUVQWWRZTDVtanY4aTVhODlWb0xHUVJoUUlmelB3ZHNxUm1XbW5hNDVySGZfODdqQzRORlhtcG4zR0hNVWh2bkMzS0dWRkY3WW42SU1BZEF3WW9raWhlaEVzZ19DUGF5Z3hYTXg2c0hyVEhRdjhoVVBJTWUwY0hEVU9NQnY4WHE3Y1NwaVBnT3lGS25INjBOMjQ4cGd2c0RfQTEw?oc=5",
-      "published": "Sun, 18 Oct 2026 07:17:15 GMT",
-      "summary": "Chinese automakers debut Europe-tailored models at Paris Motor Show&nbsp;&nbsp;巴士的報",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-18T15:17:15+08:00",
-      "source_detail": {
-        "name": "巴士的報",
-        "url": "https://www.bastillepost.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Top 10 AC Companies in the World 2026: Ranked by Sales - Global Brands Magazine",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNGhxMkMwS0M1MkN5VWt1U3E5bEx6WDhkakJIWTJmaDlqbkFDMGFTVG1qbXc2a1pkSkdTckwzcUswQkZ4NHhMSFpkVV9LUktrSXJtNU5vQ1h3REtLbTJpMkFZdzlVWG96dzVYS0FFajZ1ZkJ6Um9ybmM4NTF4Wi1Ob2dxWQ?oc=5",
-      "published": "Sun, 18 Oct 2026 04:22:11 GMT",
-      "summary": "Top 10 AC Companies in the World 2026: Ranked by Sales&nbsp;&nbsp;Global Brands Magazine",
-      "source": "GNews | Gree T17",
-      "published_beijing": "2026-10-18T12:22:11+08:00",
-      "source_detail": {
-        "name": "Global Brands Magazine",
-        "url": "https://www.globalbrandsmagazine.com"
-      },
-      "priority": 0.0,
-      "category": "Track17重点27股监控",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Even if those new Chinese EV automakers dare to sell their technology, who on earth would dare to buy it? - 36氪",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNOWhGbmhlR0MwS3dEbkFTUzN1azJGMUFMbW1vc3JPclRoLVlPck1pSkpUbEJOTE1pdDhGd1VUQjd5NVl1VFNpaFoyUlQtSUpNWU1j?oc=5",
-      "published": "Sun, 18 Oct 2026 03:41:06 GMT",
-      "summary": "Even if those new Chinese EV automakers dare to sell their technology, who on earth would dare to buy it?&nbsp;&nbsp;36氪",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-18T11:41:06+08:00",
-      "source_detail": {
-        "name": "36氪",
+        "name": "36Kr",
         "url": "https://eu.36kr.com"
       },
       "priority": 0.0,
@@ -209,15 +289,15 @@
       "relevance": "low"
     },
     {
-      "title": "Chinese carmakers compete in Europe - Northwest Arkansas Democrat-Gazette",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR242SHVSRTBLN3RIX0RtNEFBM0E1bjdHd0ZoTWJ1VlIwWnpOVjFwejVfWU8xOXBMUGdKTXNWMFVHZlI1TWF0X0Fva0lyUEF0YjVGTTRNMjdoQVRGX2hPY0VDRWRBLUFMWXpKX21xRU1EZ2tNZXBja3B2enJiMjdfRldMNVkwQQ?oc=5",
-      "published": "Sat, 17 Oct 2026 06:43:00 GMT",
-      "summary": "Chinese carmakers compete in Europe&nbsp;&nbsp;Northwest Arkansas Democrat-Gazette",
+      "title": "Chinese car brands take centre stage at Paris motor show - London Daily News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNk5EZGpSNlY4RmQwLVZJQVpIMUVpbUZ6RXlMS2MtYU9PTnlrelF4XzRPcUp2ZUFIZGtDVXV1SkduUVBIY1JkWmZrTTllbVZRaUUzZktwMG9LejJ1QlFGYUlkSmlEa1FyYl9IN244SGw1Sy1UQ2tWSW5LTTM2SS1VREJVdXViWFVrQUZORzg1TQ?oc=5",
+      "published": "Tue, 20 Oct 2026 05:21:30 GMT",
+      "summary": "Chinese car brands take centre stage at Paris motor show&nbsp;&nbsp;London Daily News",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-17T14:43:00+08:00",
+      "published_beijing": "2026-10-20T13:21:30+08:00",
       "source_detail": {
-        "name": "Northwest Arkansas Democrat-Gazette",
-        "url": "https://www.nwaonline.com"
+        "name": "London Daily News",
+        "url": "https://www.londondaily.news"
       },
       "priority": 0.0,
       "category": "新能源车+电池",
@@ -225,31 +305,15 @@
       "relevance": "low"
     },
     {
-      "title": "Chinese automakers make tech-led pitch for Europe's premium car market - ET BrandEquity",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaWx2amo2aUVEWFlfMDA0YnJ1NVZwWHJRc3pfekFia1hZeWhhSWFMTGs0bkJnbmNFbEZwWGJ5Ul9nQ2hFTUpJbmVaUEdBdElwN3RpZ1ZSbUlKcWJoMC1aaVBQdGxFdnlzTHpCMTZ3NmdrQ1hDQkJqWEpQX0EzM0tZVHNuQ3hFSlhaVzZrZV9lNDBfWHFmRllkaUlUX09mMjlYT3RiSWlaRUdhbHViaFRDZi1OSU4wajNQZGpmRWpOU3IzZXAtcWNGZW5PdU1jWjNvSEF0OEFyU3plamJ2MTgtc0ZCRWFXTTBrSXZmMNIB7AFBVV95cUxQaWx2amo2aUVEWFlfMDA0YnJ1NVZwWHJRc3pfekFia1hZeWhhSWFMTGs0bkJnbmNFbEZwWGJ5Ul9nQ2hFTUpJbmVaUEdBdElwN3RpZ1ZSbUlKcWJoMC1aaVBQdGxFdnlzTHpCMTZ3NmdrQ1hDQkJqWEpQX0EzM0tZVHNuQ3hFSlhaVzZrZV9lNDBfWHFmRllkaUlUX09mMjlYT3RiSWlaRUdhbHViaFRDZi1OSU4wajNQZGpmRWpOU3IzZXAtcWNGZW5PdU1jWjNvSEF0OEFyU3plamJ2MTgtc0ZCRWFXTTBrSXZmMA?oc=5",
-      "published": "Sat, 17 Oct 2026 04:36:45 GMT",
-      "summary": "Chinese automakers make tech-led pitch for Europe's premium car market&nbsp;&nbsp;ET BrandEquity",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-17T12:36:45+08:00",
+      "title": "LFP battery waste surges, but recycling poses dilemma as dismantling costs outweigh returns - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEbzZZSUZzLVRNWWJyQUo1dnA4aXlmS01OSWxPY0ZmY0Y4SFIzbFB0QjZScnlOYy1UX0J3WFdCQ1N4RzlSMkkwbVZ5NVZteVdSb2tzSWdMUWQwMEw3QWJyRXJKX3lDZWxJWDdMWm0xeno?oc=5",
+      "published": "Mon, 19 Oct 2026 21:00:00 GMT",
+      "summary": "LFP battery waste surges, but recycling poses dilemma as dismantling costs outweigh returns&nbsp;&nbsp;머니투데이",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-20T05:00:00+08:00",
       "source_detail": {
-        "name": "ET BrandEquity",
-        "url": "https://brandequity.economictimes.indiatimes.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "3D TSV and 2.5D Market to Reach USD 21.50 Billion by 2035 as High-Bandwidth Memory Stacks Advance - PR Newswire UK",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS3FtOXRaVWtmT1pIcXN0ZS14cC1hR1pZVndvSjlzNDBsVDR3U1JjYWZKR2FHZFRNbHNhdllsTDQwcEZBNnkzMUxWSEc5OFdDRFYwVE45d1pqSjJkWHQ3dE9zdHRwWGlGOTdENjVGR2Z0WjRRV2c4cVBVc1M0Z1g1Nm9BQmNnNUhsUHAyT0Zzb242a1htMmhDemNkTmlKYlJxaWM2VXh6WHIwZWhENGtxdm8xM2hTTDY5cDBWbzlvNFozR1VWSWM0Z05ubHFPZWlNMXJmSUJnRWJHSXgyRW00MktINFY1VUp1M3Uw?oc=5",
-      "published": "Mon, 19 Oct 2026 17:46:00 GMT",
-      "summary": "3D TSV and 2.5D Market to Reach USD 21.50 Billion by 2035 as High-Bandwidth Memory Stacks Advance&nbsp;&nbsp;PR Newswire UK",
-      "source": "GNews | T17 封测板块",
-      "published_beijing": "2026-10-20T01:46:00+08:00",
-      "source_detail": {
-        "name": "PR Newswire UK",
-        "url": "https://www.prnewswire.co.uk"
+        "name": "머니투데이",
+        "url": "https://www.mt.co.kr"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
@@ -282,70 +346,6 @@
       "source_detail": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China Tells UK to ‘Think Twice’ Before Following EU on EV Tariffs - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbThTVVFWOUthOXZONVN3ZWZsVk8xUVB3cnQ4eUx0Z19ObVRoMUd5YWhlNjN1cFF3Q1pOMlZKU1l4UTBVbHVyM3RYeXdfVW5MdjRzMFFMRzd3OEh5ZElPZDFWclAwUHF5djlMU3JzUWRibVlfMTYwZlZ6ckxoZmxiRHBQYlNvX2ZsTU91ak16cDZsUk1BNkc1YWdCR0dXUmRRN1Rn?oc=5",
-      "published": "Mon, 19 Oct 2026 16:36:28 GMT",
-      "summary": "China Tells UK to ‘Think Twice’ Before Following EU on EV Tariffs&nbsp;&nbsp;Electric Vehicles",
-      "source": "GNews | T17 EV板块",
-      "published_beijing": "2026-10-20T00:36:28+08:00",
-      "source_detail": {
-        "name": "Electric Vehicles",
-        "url": "https://eletric-vehicles.com"
-      },
-      "priority": 0.0,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "[进展] Electric Vehicle Market Worth $1,312.73 Billion by 2035 | MarketsandMarkets - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjd6MUdpb1FqQmlSUnB1blAtSXBfTklTTWVZbmh2dzVkUEl4LUZkc0t4dmR0X1preEc2cHR6MWlVZUJkR19BZGpkQmNxVmFidXFxN0tPVE96OFdVS1hkR21jZGluSE5CTGREM0Y5ekhkVVlxaTdVbjZwcW95WERmM3lSMkVheFpXYmZ0eU9mNVVuQkJDUm15MWMtRjE5UEJ6RzhWa3BfcjNXQ3F3aXpDcWhXYlVzQQ?oc=5",
-      "published": "Mon, 19 Oct 2026 10:45:00 GMT",
-      "summary": "Electric Vehicle Market Worth $1,312.73 Billion by 2035 | MarketsandMarkets&nbsp;&nbsp;Moomoo",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-19T18:45:00+08:00",
-      "source_detail": {
-        "name": "Moomoo",
-        "url": "https://www.moomoo.com"
-      },
-      "priority": 0.0,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Battery Energy Storage System Market Size Analysis Report: Expected to Reach 31.784 Billion USD by 2026 - note",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nS3A3N0tvWE1ITUxUb1ZrM2xTcW5FekU5LTNrWUczc2lfVjJvaTg5NWJhY3YzM2xhaTh2MHhxc2EtT1VQdEpkdWNpWl9WdTRSeloyYlhYOEE3aFFfVC13?oc=5",
-      "published": "Mon, 19 Oct 2026 07:00:00 GMT",
-      "summary": "Battery Energy Storage System Market Size Analysis Report: Expected to Reach 31.784 Billion USD by 2026&nbsp;&nbsp;note",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-19T15:00:00+08:00",
-      "source_detail": {
-        "name": "note",
-        "url": "https://note.com"
-      },
-      "priority": 0.0,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Will China pull ahead again? LFP battery recycling hinges on economic viability - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nYnJfOE92cjBtU093ODBfUjFZcktPeHBNOFJOMVlvTHlnV0xvaGxZQ29QTDRTbDFNMUhvZlctYl9iN2VrYkM2OFBpdTdGU0JEWDNXc2RVY0JxV2tHR3pXaFR4dHN0dFhEYjI5aUdidlE?oc=5",
-      "published": "Mon, 19 Oct 2026 06:00:00 GMT",
-      "summary": "Will China pull ahead again? LFP battery recycling hinges on economic viability&nbsp;&nbsp;머니투데이",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-19T14:00:00+08:00",
-      "source_detail": {
-        "name": "머니투데이",
-        "url": "https://www.mt.co.kr"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
