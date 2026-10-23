@@ -1,31 +1,31 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-22T03:42:19.698395+00:00",
-  "fetch_date_utc": "2026-10-22",
+  "updated": "2026-10-23T03:46:40.726971+00:00",
+  "fetch_date_utc": "2026-10-23",
   "total": 49,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 8,
-      "feeds": 4
-    },
-    "外资审查+征收": {
       "count": 7,
       "feeds": 4
     },
+    "外资审查+征收": {
+      "count": 8,
+      "feeds": 4
+    },
     "资本管制+主权风险": {
-      "count": 1,
+      "count": 3,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 3,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,132 +49,42 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 8,
+  "fail_feeds": 7,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Smashing Security podcast #489: How a brand new crypto wallet came with a spy inside",
-      "link": "https://grahamcluley.com/smashing-security-podcast-489/",
-      "published": "Wed, 21 Oct 2026 23:12:20 +0000",
-      "summary": "Imagine buying a brand new hardware wallet for your cryptocurrency with the shrink-wrap still on... what could possibly be hiding inside? We break out a Geiger counter and a cat to find out.\n\nMeanwhile, malicious ads are targeting journalists with zero-click attacks.\n\nPlus, Origin’s Spencer Thompson reveals what AI agents are really getting up to on your employees’ laptops when nobody’s looking.\n\nAll this and more in episode 489 of the “Smashing Security” podcast with cybersecurity expert and ke...",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-22T07:12:20+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Fifth Circuit Upholds Texas Law Blocking Chinese-Owned Company From Power Grid - Texas Scorecard",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUVZsMjdheFVpVjNnZXNjanI1YXdCeFJ3WktpNjIxdFItSW9oY2Utc3hMSkgyd1p5RFNHQUNoMl9fQnZ4a1ozdGNSWHpBVXNFZUgwTVBybDdMQjBpYTRFSVVwVmF1enA0YmN5S0tINDhYYTVwMnY5RWIxaUNQNllyZ2h3UG92QmN2LVY4SG9JWjlrWHpGX1pvYzdFUXN1Sk0xaTI1bXBrdHFQeWFHMV81aExn?oc=5",
-      "published": "Wed, 21 Oct 2026 22:02:22 GMT",
-      "summary": "Fifth Circuit Upholds Texas Law Blocking Chinese-Owned Company From Power Grid&nbsp;&nbsp;Texas Scorecard",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-22T06:02:22+08:00",
+      "title": "EU FDI Screening – Sixth Annual Report: Case volumes increase as enforcement outcomes remain stable - Clifford Chance",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbDZfU2FidUh4U2JtOFlKYlVxVFlxcVlDTEdfWmN0V0V0V0NUMUE3NDBiaDNsMm53Q0laMlRQZERWV0VLUzNZTEtxTHhvOW12S0FkVTZ4eWdfTWhsWFNuTlc2ME1zcnFoLVdxNzZkYmZLcFlqTzQ3WmdGUEJkSE9UNEJ3V0RpVFQ1eGluNTF4SV9nSlE2Zjg4eTRUaHhfaTBzbzgxbVlsbmdvTzZPSzhpRFRQb0E5VEhKTUVwQkJNMGxCcGc3RXk1bTR1UkVsUzNTblNUSTBfWjc?oc=5",
+      "published": "Thu, 22 Oct 2026 09:39:16 GMT",
+      "summary": "EU FDI Screening – Sixth Annual Report: Case volumes increase as enforcement outcomes remain stable&nbsp;&nbsp;Clifford Chance",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-22T17:39:16+08:00",
       "source_detail": {
-        "name": "Texas Scorecard",
-        "url": "https://texasscorecard.com"
+        "name": "Clifford Chance",
+        "url": "https://www.cliffordchance.com"
       },
-      "priority": 0.0,
+      "priority": 6.0,
       "category": "外资审查+征收",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "canonical_url": "https://www.cliffordchance.com/insights/resources/blogs/antitrust-fdi-insights/2026/09/eu-fdi-screening-sixth-annual-report-case-volumes.html",
+      "full_text": "FDI filings surged across the EU in 2025, but enforcement outcomes remained stable, with manufacturing, critical technologies and critical infrastructure continuing to attract the closest scrutiny.\nOn 14 October 2026, the European Commission published its sixth annual report on the screening of foreign direct investments (\"FDI\") into the EU, covering developments in 2025. The report shows a marked increase in screening activity across the EU, driven by the full rollout of national screening regimes and rising use of the EU cooperation mechanism. At the same time, the underlying enforcement picture remains largely unchanged: most investments continue to be cleared without conditions, while remedies remain uncommon and prohibitions particularly rare. The report also confirms the continued focus of FDI authorities on manufacturing, which remained the largest category of transactions subject to more detailed scrutiny, with critical technologies and critical infrastructure featuring particularly prominently.\nNational screening volumes rise sharply as the EU-wide FDI rollout completes\nMember States handled 4,773 notifications and ex officio cases in 2025, up from 3,136 in 2024, representing an increase of approximately 52%. As EU M&A activity grew by only around 4% over the same period, the increase appears to reflect not only higher transaction volumes but also increasingly cautious filing behaviour.\nOnly 38% of these cases proceeded to formal screening, with the remainder being deemed out of scope or otherwise not requiring review. However, this figure is heavily influenced by Sweden's large volume of cases that did not require formal screening. Excluding Sweden, approximately 65% of notified transactions underwent formal review.\nSubstantive outcomes remained broadly stable and within one percentage point of the 2024 figures: 87% of formally screened investments with reported outcomes were authorised without conditions, 9% were subject to conditions or mitigating measures, approximately 1% were prohibited, and 3% of filings were withdrawn before a formal decision was adopted.\nActivity under the EU cooperation mechanism increased in parallel, with notifications rising by approximately 40% to 667 cases. While a larger share of transactions progressed to Phase 2 review and involved screening in multiple Member States, formal intervention at EU level remained rare, with the Commission issuing opinions in fewer than 2% of notified cases.\nManufacturing remains at the centre of in-depth scrutiny\nManufacturing remained the sector most frequently subject to in-depth scrutiny, accounting for 53% of all Phase 2 cases. Information and communication technologies was the second most scrutinised sector, representing 19% of Phase 2 reviews.\nWithin manufacturing, the principal drivers of Phase 2 scrutiny continued to be concerns relating to critical technologies, critical infrastructure and the supply of critical inputs. The report nevertheless points to a broader assessment of potential security risks, with access to sensitive information increasing as a standalone driver of Phase 2 review from 5% in 2024 to 12% in 2025.\nAmong cases involving critical technologies, the defence and aerospace sectors accounted for the lion's share of Phase 2 reviews, representing 31% and 28% of cases respectively.\nThe revised EU framework takes shape\nBy the end of 2025, all 27 Member States had adopted legislation establishing an FDI screening regime, completing a rollout that has taken almost a decade. As certain regimes, including those of Croatia and Cyprus, only became fully operational during 2026, notification volumes may continue to increase in the coming years as the European screening landscape reaches full maturity.\nAttention is also increasingly turning to the revised EU FDI Screening Regulation. Once applicable from 17 January 2028, the new framework will introduce a mandatory pre-closing filing requirement and harmonised review timelines across all Member States, including a baseline 45-day Phase 1 review period. As a result, the continued increase in filing volumes observed in 2025 may foreshadow a more integrated and formalised EU screening system in the years ahead.\nWhat to take away?\n- Higher screening volumes do not signal a general shift towards intervention. Despite the significant increase in notifications, substantive outcomes remained broadly stable, with most transactions cleared unconditionally and prohibitions continuing to be exceptional.\n- Parties should look beyond sector labels. The assessment increasingly turns on the target’s underlying technologies, infrastructure, customers, supply relationships and access to sensitive information. Potential FDI relevance may therefore arise even where the target’s principal business appears relatively commonplace or falls outside sectors conventionally perceived as sensitive.\n- FDI analysis should begin at the outset of a transaction. Early analysis should identify relevant jurisdictions and substantive risk factors, enabling transaction timetables and risk allocation mechanisms to accommodate potential FDI implications from the outset, particularly in multi-jurisdictional transactions.\n- A complete EU screening map does not mean a harmonised system. With all 27 Member States now having adopted screening legislation, significant differences remain in jurisdictional scope, filing thresholds, sector coverage, procedural requirements and review timelines. The report nevertheless marks a transition from the rollout of national regimes to a phase of increasing convergence, with the revised EU FDI Screening Regulation expected to bring greater procedural alignment across Member States from 2028."
     },
     {
-      "title": "U.S.-China Washington Summit 2026: Key Outcomes and Unfinished Business - Wilson Sonsini",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHpxMTBSVlFjOEhPTVptdHNNRXV1SFlNZTA1UUxpdHZmUmpTUE91RHhpRm94eFNRcHRsLVZOeTJ2MUJ0TkhoMlcxV1EyaFAxcjVNTFgxc2NkcEdWaXU3eWZsbmc1YWliLVZGUHdCU1MxZHVvXzlZbGpHYVNQOTdFSFhkTzVrTmMxU2dlRkUwNU0yQ29KLWx5U0x2R05NbF9RaUVqYnl4b09uZw?oc=5",
-      "published": "Wed, 21 Oct 2026 20:48:38 GMT",
-      "summary": "U.S.-China Washington Summit 2026: Key Outcomes and Unfinished Business&nbsp;&nbsp;Wilson Sonsini",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-22T04:48:38+08:00",
+      "title": "FCPA Explained: Anti-Bribery Rules, Penalties and 2026 Enforcement - Legal Desire",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9FRVhfUkxPTktUT1hLUE1jLWpvekNNZDd6RGk1T1NYQ3NmblNDZzVPQmpqTW5OYjV2dHVTaFllSm5TV2M?oc=5",
+      "published": "Thu, 22 Oct 2026 06:04:59 GMT",
+      "summary": "FCPA Explained: Anti-Bribery Rules, Penalties and 2026 Enforcement&nbsp;&nbsp;Legal Desire",
+      "source": "GNews | FCPA/Compliance",
+      "published_beijing": "2026-10-22T14:04:59+08:00",
       "source_detail": {
-        "name": "Wilson Sonsini",
-        "url": "https://www.wsgr.com"
+        "name": "Legal Desire",
+        "url": "https://legaldesire.com"
       },
-      "priority": 0.0,
-      "category": "制裁+清单",
+      "priority": 3.6,
+      "category": "供应链风险+FCPA",
       "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks - JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzRQazIxZllhUXdpbDRMSV92Zmp5aXk1cTRLZ2N1eXlEYVViUHQ1Y25yNExNX3E5QnpUVlItZjJzSnYzdEhadWlGUVlkS1V2YUhKbDlnUkcyUDhvakI2Y21wWTVQMnNvbUZ0dUg0Uk1GNDFveHVFMGF0M0tDV3Y4WGV3?oc=5",
-      "published": "Wed, 21 Oct 2026 20:42:56 GMT",
-      "summary": "EU Adopts Record Russia Sanctions Designations as UK Targets Oil, Crypto and Supply Networks&nbsp;&nbsp;JD Supra",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-22T04:42:56+08:00",
-      "source_detail": {
-        "name": "JD Supra",
-        "url": "https://www.jdsupra.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Armenia Appeals to Eurasian Economic Union for Removal of Russian Trade Restrictions - The Moscow Times",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlBwWExkOHEwdlBtVWs3VUpXRkd0alNLa2V4YkJjdmRGZXhiUk5sNUR0dWNGeGg5eVVxNkhXTllyTTc5Z19DU2JteFhvYl80ZlZrakdOSDFCbTh3VnVkQnBoUWZlYUZZSGJ1cE9MN2l2ODZkQXFLNUcwRExVX2E0eG92TkQzTWRMdzBPVmhaS1ZJT0hKMG9hVjhYVkF5b3Y0aVpoZ3J3VXdhTnRENTNkUlNyTnJSR2libzZEbHBFdHpXMWN1NUs5UGwxMU9sZw?oc=5",
-      "published": "Wed, 21 Oct 2026 18:31:47 GMT",
-      "summary": "Armenia Appeals to Eurasian Economic Union for Removal of Russian Trade Restrictions&nbsp;&nbsp;The Moscow Times",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-22T02:31:47+08:00",
-      "source_detail": {
-        "name": "The Moscow Times",
-        "url": "https://www.themoscowtimes.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "US imposes fresh Iran sanctions targeting shipping networks, law firm and financial links - Business Upturn",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeVNacktBMHh6OFBIcVNVaWd4VEh2dGRqRDFWd0RoRE11UFNMeTRVX3FsZmRxSmF4elFFNmJSelFtLUtEcDBUR3NnbndCcnZTb19PUHdoZlMwYUYzVEEycmZHSUxnNEtmeVJCVnhKUDRnNFRDREVvNHZvY1lOeVdQdVFEVkptQTRiaGpZS25uZG0zVlJUaERkS1daQ1hrU0l6ejJodmpJeldHTHZQYnNzN0tWWUZCdGpMMEJ1eXUxaEdJOTg?oc=5",
-      "published": "Wed, 21 Oct 2026 17:42:00 GMT",
-      "summary": "US imposes fresh Iran sanctions targeting shipping networks, law firm and financial links&nbsp;&nbsp;Business Upturn",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-22T01:42:00+08:00",
-      "source_detail": {
-        "name": "Business Upturn",
-        "url": "https://businessupturn.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Stablecoins: Risk Ban in the USA or Mandatory Compliance by 2027 - Cointribune",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ3NzSW90UGJudnc3dTJRbmRvb0lUMkxOWWQyYklBZnFNSUVuaXd5bjcxYjdzYzBLdm4xWEhsd25xOEVHWk5rNE8yRDNzbFdKMFFqQkxZNVRhSGMzMG1qZjg3UlpUaDZvdExkVEtQdXU5VnBqZGRRLXJJdWlCZUJRWFB0OE1sS2Y0S2xoMWhXMklqaUxzLUVHYXlxcw?oc=5",
-      "published": "Wed, 21 Oct 2026 16:05:00 GMT",
-      "summary": "Stablecoins: Risk Ban in the USA or Mandatory Compliance by 2027&nbsp;&nbsp;Cointribune",
-      "source": "GNews | Payment/Compliance",
-      "published_beijing": "2026-10-22T00:05:00+08:00",
-      "source_detail": {
-        "name": "Cointribune",
-        "url": "https://www.cointribune.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Bill of Rights Museum - The Daily Reckoning",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05Q243YUVNZ193MmJzMDE3SzdQNmRHdW03M09XcVpfV0JGZGp4bE9nNDZ5eTBKVFl6MnJqX3ltcWh4T210SnlwbEFMb0hGMFAwYVdZNVFsZnhaOWo0eXhhRmlVUXBHeTBQ?oc=5",
-      "published": "Wed, 21 Oct 2026 13:28:41 GMT",
-      "summary": "The Bill of Rights Museum&nbsp;&nbsp;The Daily Reckoning",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-21T21:28:41+08:00",
-      "source_detail": {
-        "name": "The Daily Reckoning",
-        "url": "https://dailyreckoning.com"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium"
     },
     {
       "title": "Navigating New Global Trade Dynamics: Supply Chains and Emerging Trade Corridors - FTI Consulting",
@@ -193,15 +103,15 @@
       "relevance": "low"
     },
     {
-      "title": "NSSTS Targets Coding Tools With 8 New Policy Areas [2026] - https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTE1aU19sYldSWlF4MkpoeDBqYlN1Z3dFc2VTbXF5bWlCYWxSNUhGbUpmVkZkTmVWUGRlazB1OWJRSmF5ZXB6ZFNrX3F6azZsXzZDYmI3OWFyR25wN0Jyei0xZjNpMDRMNWhyTWZzU1hvbWR1TmkxWVVGb19QZjBrVQ?oc=5",
-      "published": "Wed, 21 Oct 2026 11:58:12 GMT",
-      "summary": "NSSTS Targets Coding Tools With 8 New Policy Areas [2026]&nbsp;&nbsp;https://tech-insider.org/",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-21T19:58:12+08:00",
+      "title": "The EU Commission’s sixth annual report: Record screening numbers and reform on the horizon - White & Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2taMVhKNl9GMkh3dm80UWR5bjlJQTJ0LU5WdnlwSFNLV25lVUhuYVY4MnpJZFh5cGRHZlBHbFEyUThNY3o5VXp5bk5ZUS1oaU1QMUlqOW50N1I1MXVQcFV1eU1SMjdTMVZHTUh2a2stOGxXT05kaG1QN0lvc1BZN3FTcHRiVEFWVXlBNVZnZzN0OHpHU0s1N0ZBNG1JdEg1ZThFaGdZY1kyckkxQUFoRUhtMERfNF9fSXc?oc=5",
+      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "summary": "The EU Commission’s sixth annual report: Record screening numbers and reform on the horizon&nbsp;&nbsp;White & Case LLP",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-21T20:00:00+08:00",
       "source_detail": {
-        "name": "https://tech-insider.org/",
-        "url": "https://tech-insider.org"
+        "name": "White & Case LLP",
+        "url": "https://www.whitecase.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -209,28 +119,77 @@
       "relevance": "low"
     },
     {
-      "title": "Serbia’s foreign ties under electoral pressure | Daily Sabah - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEI3SDNMUV9MVVRpZS00RU4xd3RxRmZPWWNqLWQydUFXXy1oZDIzUnRjR002RlVXaHlLY2FZN2ppUV9zc3pFOWI5QlZNMzBqNEttX0YtMXEwc29RM0JweGwyamJ4dHlELXd2WGRVUVpUNndxbVhnODRLcHR0VTQ0Z2tGc2N4dmtINGF4YnZrTUI5Q2I40gGUAUFVX3lxTFBIQjdIM0xRX0xVVGllLTRFTjF3dHFGZk9ZY2otZDJ1QVdfLWhkMjNSdGNHTTZGVVdoeUtjYVk3amlRX3NzekU5YjlCVk0zMGo0S21fRi0xcTBzb1EzQnB4bDJqYnh0eUQtd3ZYZFVRWlQ2d3FtWGc4NEtwdHRVNDRna0ZzY3h2a0g0YXhidmtNQjlDYjg?oc=5",
-      "published": "Wed, 21 Oct 2026 10:11:00 GMT",
-      "summary": "Serbia’s foreign ties under electoral pressure | Daily Sabah&nbsp;&nbsp;Daily Sabah",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-21T18:11:00+08:00",
+      "title": "Ottawa gives Stelco owner 15 days to address alleged violations or face legal action - insauga.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEw5OENuVFZKbHctR24zMHg4a2dBQUQ0MG9mZHpDb2JocThfTUU5M25fWk94dUZzTVBYaDRGMzEwVWZCNllVRWVNMVo5VDMwRU9lX0tRUUNWLWs4d1Rmc0tEbUVQRjQ5cGtEaVQwOThiQ05CWEgwd3drVk5udE92eVVRZkJmbVVyemxpRjI2TXFnWmFZNDBpTmtGd0R1MUt6azVvSTlDSmN6Q2dDOGc?oc=5",
+      "published": "Thu, 22 Oct 2026 23:12:05 GMT",
+      "summary": "Ottawa gives Stelco owner 15 days to address alleged violations or face legal action&nbsp;&nbsp;insauga.com",
+      "source": "GNews | Forced Divestiture",
+      "published_beijing": "2026-10-23T07:12:05+08:00",
       "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
+        "name": "insauga.com",
+        "url": "https://www.insauga.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Workshop on Economics and Information Security (WEIS) Archive",
-      "link": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
-      "published": "2026-10-21T11:02:22Z",
-      "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS).\nReally nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security.",
+      "title": "2026 updates in CFIUS and European FDI screening laws and practices | Events | Insights - Squire Patton Boggs",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRENOZ2NpWU9HcmtRVG9hYi1SZ0tPUDJyd0llU1NxZmVmaG9UZTI2d2VBVHlxQ2QzY3hxRXluU0dSZHB4Z0FJcUVZQTg0YXUxeFJQUzYzYWNFeWYxSFBRb3pQQ28yOVNNVWozUXpIa194OGYyR0IwM2g4a1V4VDVGeGJYWDBkWWpCc2p6dzJDdmRHWTZwZTItbE91MmxobHBNa2E5ZURLMkVRNURVSnhYYU5MYVVTMWNPWXc?oc=5",
+      "published": "Thu, 22 Oct 2026 22:34:38 GMT",
+      "summary": "2026 updates in CFIUS and European FDI screening laws and practices | Events | Insights&nbsp;&nbsp;Squire Patton Boggs",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-23T06:34:38+08:00",
+      "source_detail": {
+        "name": "Squire Patton Boggs",
+        "url": "https://www.squirepattonboggs.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Distribution through acquisition: is regulatory scrutiny closing off the fastest route to market? - Fieldfisher",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1dWTnlIZnJITDJXYVltd0plQUg5WTdCcjNycVYtWjNFSE1aTWVnNEtZWW9JSzJvU3lmdXlXZjJjenB4RVR3T0FWdUVmVVJPalBHTDBicXQ4ZVJFYmEtQmF1dHRaWmxmQlEwZGxjY3JOVUR5WlNpcTV1WXV2SDl2Zkx5eFpDMnJLN0paSW9lMm1CZkE1dUhtLVYtbVRyN241U296dk9wT3N5enlYS19vOFpyMVREUWpRcTdTRTdCLVlGeE5hR0JES24tNzRiSWF5?oc=5",
+      "published": "Thu, 22 Oct 2026 12:06:03 GMT",
+      "summary": "Distribution through acquisition: is regulatory scrutiny closing off the fastest route to market?&nbsp;&nbsp;Fieldfisher",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-22T20:06:03+08:00",
+      "source_detail": {
+        "name": "Fieldfisher",
+        "url": "https://www.fieldfisher.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Market Minute: France is in a bind. Is there a way out? - The Real Economy Blog",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUGphaHUtVm1kblAwY21ieEpqWksyZUJXT1prRzRFUGNxbFRqZkZBRXNXQzRUYTNfSGZENDJNaWN3c1p5YWJwenUyb3JBTlFLQlBLQ3l4Q1d2ZmFSZElpNTB2XzBfVjlxZTlzWFh5ZDYyLTNBSjdocTd3TUR6bHFsZ1BrSW8wR1ROTDYw?oc=5",
+      "published": "Thu, 22 Oct 2026 10:00:24 GMT",
+      "summary": "Market Minute: France is in a bind. Is there a way out?&nbsp;&nbsp;The Real Economy Blog",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-22T18:00:24+08:00",
+      "source_detail": {
+        "name": "The Real Economy Blog",
+        "url": "https://realeconomy.rsmus.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "New Serious PHP Vulnerabilities Released and Patched",
+      "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+      "published": "2026-10-22T13:26:51Z",
+      "summary": "PHP maintainers have released fixes for two critical vulnerabilities:\nPHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. \nWho is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can t...",
       "source": "Schneier on Security",
-      "published_beijing": "2026-10-21T19:02:22+08:00",
+      "full_text": "PHP maintainers have released fixes for two critical vulnerabilities:\nPHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. \nWho is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs.\nThe vulnerabilities:\n\nRCE via OOM corruption, CVE-2026-109618 (GHSA-w8hw-w9fx-j79w): out-of-memory handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.\nRCE via stale global state, CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp): request-owned internal state can survive after its backing memory has been freed. A later request handled by the same worker may use that stale state before normal initialization resets it.\n\nUpdating PHP is the only way to regain security. Do it now.\nMore news.\nGood explanations.",
+      "published_beijing": "2026-10-22T21:26:51+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",

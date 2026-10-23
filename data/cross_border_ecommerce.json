@@ -1,9 +1,9 @@
 {
   "version": "4.0",
   "module": "跨境电商",
-  "updated": "2026-10-22T03:42:19.819146+00:00",
-  "fetch_date_utc": "2026-10-22",
-  "total": 38,
+  "updated": "2026-10-23T03:46:38.358625+00:00",
+  "fetch_date_utc": "2026-10-23",
+  "total": 43,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
@@ -13,15 +13,15 @@
       "feeds": 6
     },
     "关税+合规": {
-      "count": 6,
+      "count": 8,
       "feeds": 5
     },
     "物流+支付": {
-      "count": 15,
+      "count": 16,
       "feeds": 4
     },
     "中国卖家视角": {
-      "count": 1,
+      "count": 2,
       "feeds": 2
     },
     "本地语言搜索": {
@@ -41,217 +41,92 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Stord acquires e-commerce competitor AMS Fulfillment in large deal - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdms1b01tZGJSQW5oNW1fX3JVYl94MDhxSjZMa3oxbHAxVkhtSWVicVl4YmtQTm1US05ET093OTB1RHRwcXYybDd6RThqYld6Z0hNV250UnQxb2UwRmxrUUEtOG1QREV5UnNXMmx6RV93cGctSFFYQ2t5czVLc0NwcVRUd0Mxelc2Tms2VUZmblRzZ2g3d2JUR0JZMDB3S0ZMRlVz?oc=5",
-      "published": "Wed, 21 Oct 2026 12:59:08 GMT",
-      "summary": "Stord acquires e-commerce competitor AMS Fulfillment in large deal&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-21T20:59:08+08:00",
+      "title": "Vietnam e-commerce market squeezes merchants - Borneo Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQamNXUUlZaDFfTW9yNkdSdm01TFhoWHBIMEt5b1Nob0Uwa3UwNE00Xy1ESEJLdllqQ0IwVEFmXy1lTW0ycmJzNUNGYVlyNGpCMlBfMi1NVXRRLWhBVG9od0M2NjhfazJoQzd3Rkc5d2VjSm5xLVNtREY3cFdMSl9GUQ?oc=5",
+      "published": "Wed, 21 Oct 2026 21:05:47 GMT",
+      "summary": "Vietnam e-commerce market squeezes merchants&nbsp;&nbsp;Borneo Bulletin",
+      "source": "GNews | CN Seller EU",
+      "published_beijing": "2026-10-22T05:05:47+08:00",
       "source_detail": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
+        "name": "Borneo Bulletin",
+        "url": "https://borneobulletin.com.bn"
       },
       "priority": 1.2,
-      "category": "物流+支付",
+      "category": "中国卖家视角",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Kenstar signs up with Unicommerce to streamline e-commerce ops - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXhVNWVoY2o0T3N3dkxhSFQ0Qjhha1pPX2hTaUg1NUFQUHdFTXhJQmVqZHItYk9VaUJRcU1RbjgweDhpcW44d1ZGVmwzdGNRMEVFTkxHU0diMnpXMURxeWF2TmpHbU0yb3pxaWlFYUpPSmFzaXJCc1dpR0VaQU5iTDRyTFEwM2tSTXFmRjF2RFBOZHJXajhxMTZsZVl2VkZBUFFiOHJTcjhnbWtjTVNqNg?oc=5",
-      "published": "Wed, 21 Oct 2026 06:31:16 GMT",
-      "summary": "Kenstar signs up with Unicommerce to streamline e-commerce ops&nbsp;&nbsp;scanx.trade",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-21T14:31:16+08:00",
-      "source_detail": {
-        "name": "scanx.trade",
-        "url": "https://scanx.trade"
-      },
-      "priority": 1.2,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Revolut Crypto Licence Gibraltar: No MiCA Passport - CryptoTicker",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LM3AxaXhBMG5DdTdzMXBvUlZ2aGhWQnlwR3dlS1p5LUgzaWFuYXdiLVZmOUs3MUdNcXBXUG1TSktMRmhJVV9lWGhnamtpdVpLb2xNQVY2bHpRVm0zNVJmS05yM1F1UURIUkVIVFl1UXFNckk?oc=5",
-      "published": "Wed, 21 Oct 2026 21:13:53 GMT",
-      "summary": "Revolut Crypto Licence Gibraltar: No MiCA Passport&nbsp;&nbsp;CryptoTicker",
-      "source": "GNews | EU Digital Tax",
-      "published_beijing": "2026-10-22T05:13:53+08:00",
-      "source_detail": {
-        "name": "CryptoTicker",
-        "url": "https://cryptoticker.io"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Cigarette seizures at Bengaluru airport rise 57% - Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdXhGZXAxaW8zQ3o2U00wMEpSOHNkM0ZsNDBXc3kwQkRSVW1mblFGTmxLVTB5ZEJybXpPdHQ3RFZDbGZMYnB6TlJNejdWa1VhUTZjVGpIOXlBLVdPc1FFUk9MSGU0MlhPNHhubDhuZjZvSU1ZSk9TNHZEbGlqRjZmRkFZSldsdDF1eU93QnZtclk1NlN4ekcyRWRQX0JhN3oweU1IVkVfcV9pdnlZcG53Z1ZCVlBEM1BZV2o3Sms2amY4MFk2?oc=5",
-      "published": "Wed, 21 Oct 2026 20:09:36 GMT",
-      "summary": "Cigarette seizures at Bengaluru airport rise 57%&nbsp;&nbsp;Deccan Herald",
-      "source": "GNews | Customs Seizure",
-      "published_beijing": "2026-10-22T04:09:36+08:00",
-      "source_detail": {
-        "name": "Deccan Herald",
-        "url": "https://www.deccanherald.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Stricter U.S. trucking rules raise concerns over freight delays with Mexico - FloralDaily",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ2ZoZEpNSzBMNFFFX3dFRkNmTFdSY0NHNVg4X2RPVjZTSTJhWktlYXY0UXJsbFY1R2UzQl9EUHhHYTZlV0FxRGFuQmVieERqamU4eXI3UDB2TVR6S2tzZHZCQ0o3VjJrazJINnd2LWkyWlZwbndNbTRUYnQ3RDRjeGdLMHZNbEhSVnA1S01Yd2Z2Y2JhUjRRbWZfY0xlRVFKeV9ESTU1MmZUdjlBeHdYNUdicWRNWWdQMFRZ?oc=5",
-      "published": "Wed, 21 Oct 2026 17:48:42 GMT",
-      "summary": "Stricter U.S. trucking rules raise concerns over freight delays with Mexico&nbsp;&nbsp;FloralDaily",
-      "source": "GNews | Logistics Cost",
-      "published_beijing": "2026-10-22T01:48:42+08:00",
-      "source_detail": {
-        "name": "FloralDaily",
-        "url": "https://www.floraldaily.com"
-      },
-      "priority": 0.0,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Which Trade Disruptions Are Really Reshaping Industrial Demand? - CommercialSearch",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTGJmTzYyZElKd3JzNXpmajFuY1d1TzZkRnFLNnoxLU1QZF92ak5ieVVRekVKNnpyR0RnenBzeEJaWnFMR19ORTJhYkJtNHVxd2FQT3dGbl9kSVdRRWNRZnk1VTNBRmh1dWc1bTFYSVA0QV9VeWtYNlROVUVXY0RhSUd4Ykd0aXZKak1nSTRJUXlpQWt4SzBld3Q0ekZISmRGVEFB?oc=5",
-      "published": "Wed, 21 Oct 2026 16:10:52 GMT",
-      "summary": "Which Trade Disruptions Are Really Reshaping Industrial Demand?&nbsp;&nbsp;CommercialSearch",
-      "source": "GNews | Logistics Cost",
-      "published_beijing": "2026-10-22T00:10:52+08:00",
-      "source_detail": {
-        "name": "CommercialSearch",
-        "url": "https://www.commercialsearch.com"
-      },
-      "priority": 0.0,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Stord Acquires AMS Fulfillment, Adding 1 Million Square Feet to Logistics Network - citybiz",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRnE2Ymg1MDNEZ1JfcEVrSUx0U2pTMG5PcUxEcDdRNmtZcUFKSE1wQjktcEZUajl2dmFLZF9YZnI0WGlkbDNPSUJsQjVuVlUwRGp5bmRTYWptUjFqYmNfMkhMOWx2OG42aHpwZTJvcmh6dlktcU9RVFJILWtJbG1LczBBcnQ0SjdJUEpQTWRtVFpST2lmMHBOQnBkMjBOU2lxRnQtbFBWQlE5b2VJVlpPalk4VDZDRjREYzNB?oc=5",
-      "published": "Wed, 21 Oct 2026 14:12:00 GMT",
-      "summary": "Stord Acquires AMS Fulfillment, Adding 1 Million Square Feet to Logistics Network&nbsp;&nbsp;citybiz",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-21T22:12:00+08:00",
-      "source_detail": {
-        "name": "citybiz",
-        "url": "https://www.citybiz.co"
-      },
-      "priority": 0.0,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "French borrowing costs hit 24-year high as civil unrest and budget fears spook markets",
-      "link": "https://www.theguardian.com/business/2026/oct/21/french-borrowing-costs-failure-to-pass-budget-govenment-bonds-violent-street-protests",
-      "published": "Wed, 21 Oct 2026 13:17:32 GMT",
-      "summary": "Yield on 10-year government bonds passes 5% amid failure to pass budget and fallout from violent street protestsFrance’s borrowing costs have climbed above 5% for the first time in 24 years as political concerns and the government’s failure to agree a much-delayed budget spook the financial markets.With some civic buildings still smouldering from recent riots, a fresh bout of selling pushed up the yield – or interest rate – on bonds issued by the second largest economy in the eurozone. Continue ...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-21T21:17:32+08:00",
-      "priority": 0.0,
-      "category": "电商科技RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "France’s borrowing costs have climbed above 5% for the first time in 24 years as political concerns and the government’s failure to agree a much-delayed budget spook the financial markets.\nWith some civic buildings still smouldering from recent riots, a fresh bout of selling pushed up the yield – or interest rate – on bonds issued by the second largest economy in the eurozone.\nThe yield on the benchmark 10-year bond – known as obligation assimilables du Trésor (Oat), issued by the French Treasury – rose more than 8 basis points to 5% in morning trading, before easing to 4.99%.\nThe French government has yet to pass its budget for next year, while the country has been rocked by increasingly violent street protests in recent weeks.\nProtests that began in September with students calling for extra funds to deal with mould- and rat-infested schools, a lack of teachers and large class sizes evolved into wider demonstrations about the rising cost of living.\nInitially calm protests have often been met with aggressive police tactics, sparking riots in many towns and cities. Stores such as Louis Vuitton have been hit by looting, while protesters set fire to the town hall in Limoges.\nNo single party has had overall control of parliament since the French president, Emmanuel Macron, called a snap election in 2024. The parliamentary gridlock has blocked his plans to increase the pension age from 62 to 64 and a series of measures designed to reduce or redirect state spending.\nFrance’s budget deficit was 5.1% of gross domestic product in 2025, while its debt pile stood at 115.6% of GDP. Forecasts for the deficit and debt show both increasing in the current financial year without remedial action.\nInternational lenders have become increasingly reticent about lending to Paris, accusing the government of becoming “fiscally incontinent”. Some have withdrawn from lending to France, notably Japanese fund managers, and those that remain have demanded a higher price for their loans, especially longer-period loans.\nMatthew Ryan, the head of market strategy at the currency trading and payments platform Ebury, said French woes were also dragging down the value of the euro against other major currencies.\n“The euro continues to lag most major currencies as the political risk premium in France looks unlikely to fade any time soon,” he said. “It remains unclear whether the 2027 budget will clear parliament, and even if it does, it seems set to be so riddled with concessions to both the left and the right that the deficit problem is left insufficiently addressed.”"
-    },
-    {
-      "title": "Bard Santner targets Zimbabwe diaspora remittances with new deposit-taking bank - Innovation Village",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM19SLUVjVHphcWJYNFdmVFc3MXZXMFhsSnRENXR6TzdPcndQa3dwRUxHTnRQTExzSXhuWGVpaVFnTDFIbk53MzBJQzlQNmQ5QXFSQU5PcmFyc1FhZVFpTVBwYlg5ZXQ0Q0tLUEl5c1pPUnA5akZxRXJpZHE3MEFtYnRMQ3ZwVkFiMkpqQnM4VWVIMXNQVUs3cmJNZ0xuVDhSTHYyTG5sSGhUVi03cE5Leg?oc=5",
-      "published": "Wed, 21 Oct 2026 12:57:32 GMT",
-      "summary": "Bard Santner targets Zimbabwe diaspora remittances with new deposit-taking bank&nbsp;&nbsp;Innovation Village",
-      "source": "GNews | Cross-border Payment",
-      "published_beijing": "2026-10-21T20:57:32+08:00",
-      "source_detail": {
-        "name": "Innovation Village",
-        "url": "https://innovation-village.com"
-      },
-      "priority": 0.0,
-      "category": "物流+支付",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Those Cute Dumpling Squishy Toys Hid a Dangerous Secret: 15,200 Were Recalled as Separate Burn Cases Put the Trend Under Scrutiny - AOL.com",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUVhaVo0SDk3ZEpScjJ2Ynk1SXh6SENFNnlWaWJIMnp0ekdWOENKRVlFeVRNLU9wUlJDQkF6WmVlLUU1X1FnSlQ1QU5wWTBYR3FSbEpxUVNtWXVkMl9qX0pSd3FIYnoxVTVoWDhOVnk5bjZ5TUI1R09GYkdQZE90S1pR?oc=5",
-      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "summary": "Those Cute Dumpling Squishy Toys Hid a Dangerous Secret: 15,200 Were Recalled as Separate Burn Cases Put the Trend Under Scrutiny&nbsp;&nbsp;AOL.com",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-21T20:00:00+08:00",
-      "source_detail": {
-        "name": "AOL.com",
-        "url": "https://www.aol.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Saudi Arabia Warehouse Racking Market to Reach USD 610.8 Million - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLXJNTlNWQTdqOFJCUVJ2Ull5c3BlMGk5S2xHalpmY19OZjVLd0xqeWp4cU5Bd3lJYnBpZUNYOUdmc0JoTU5kZUg5RjJuRnpGQUFuWEJXQWlvb0NaRzVtLUdfS0dyNnhHc201MzZDSUVaaWdaS0RiNzBJbzhLcGZNZjF1MmJoaVhzSWl4ZmVzaHp4azY5YXFoMGZ2WGVOZFZLSlE?oc=5",
-      "published": "Wed, 21 Oct 2026 10:40:26 GMT",
-      "summary": "Saudi Arabia Warehouse Racking Market to Reach USD 610.8 Million&nbsp;&nbsp;openPR.com",
-      "source": "GNews | Overseas Warehouse",
-      "published_beijing": "2026-10-21T18:40:26+08:00",
+      "title": "Mexico E-Commerce Market Outlook 2034: Growth Trends, Industry Analysis, and Future Opportunities - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY0ZGTkdBdzZtRnYzN3dZT1VjUTFLOVJEVHB5NmRVQjA1WldlWXNycGFQUkxtQ0laYTBHeURGWFJ5aFowWU9JUUpXX1RsQ0NxZVl2a28wMXV1TXNOUlBIVVd2clcta3lPd0xpQTJwdWx3d0FVOFNSODRvY095Y2R1ekN1VWNTU0tESUVGaTNNeXN4RlB1RF90dmJ6cEk?oc=5",
+      "published": "Thu, 22 Oct 2026 09:32:09 GMT",
+      "summary": "Mexico E-Commerce Market Outlook 2034: Growth Trends, Industry Analysis, and Future Opportunities&nbsp;&nbsp;openPR.com",
+      "source": "GNews | Returns/Last Mile",
+      "published_beijing": "2026-10-22T17:32:09+08:00",
       "source_detail": {
         "name": "openPR.com",
         "url": "https://www.openpr.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "物流+支付",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
-      "link": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation",
-      "published": "Wed, 21 Oct 2026 10:00:02 GMT",
-      "summary": "Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fateEvery morning long before dawn, while America sleeps, legions of Texas construction workers grab their fluorescent vests and hard hats, sling ladders and tools into their trucks, and head down the highway for another day of grueling labour under the blistering sun.Elsewhere, before the first flush of daylight settles over Texas’s concrete sprawl, a ...",
+      "title": "PDD Holdings Inc Stock (PDD) Moved Down by 3.54% on Oct 21: What Signal Does It Send? - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc2llSDBaa2lNRVFqSHlrRXVSbUhGcmdTRG1ONTVzT0QxT3RnSUxjQWxNN3BSQWd0YjY3M0dmRFkzVEFVRV9qZ01ENlFCcUFpZjN1TG53dVkxcHBNZ1daWnlRUjZzaFQ3UVF1QXg5aU9JblRydERhLUpDbW5KYjd4SGZFY3dncHhiT0E?oc=5",
+      "published": "Wed, 21 Oct 2026 16:15:27 GMT",
+      "summary": "PDD Holdings Inc Stock (PDD) Moved Down by 3.54% on Oct 21: What Signal Does It Send?&nbsp;&nbsp;TradingKey",
+      "source": "GNews | CN Seller EU",
+      "published_beijing": "2026-10-22T00:15:27+08:00",
+      "source_detail": {
+        "name": "TradingKey",
+        "url": "https://www.tradingkey.com"
+      },
+      "priority": 0.0,
+      "category": "中国卖家视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Feds issue warning for nearly 400,000 pressure cookers that could seriously burn you - KBTX News 3",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWklyVGhLY3pZSGllUVp4dGRCcm5EdFlVUWxxQjNOSDdXWWJmdmk4aEZVcnoybGVTOXRZTndUeEdlajFsQldFU3QxaGZzdTdvSkw0di1PbVlYeHh2ZWdwZmc1R3NTdDNHQmRpTGVfU2tnd3p5Rmh0UWZMcXVFZTM0RFJtYmwyUG83X0VxM0VsdEM5ZHhCc296UHFvTW1CSW01a1d0MEZEejNJdDBRd3czS253?oc=5",
+      "published": "Wed, 21 Oct 2026 09:18:00 GMT",
+      "summary": "Feds issue warning for nearly 400,000 pressure cookers that could seriously burn you&nbsp;&nbsp;KBTX News 3",
+      "source": "GNews | Product Safety",
+      "published_beijing": "2026-10-21T17:18:00+08:00",
+      "source_detail": {
+        "name": "KBTX News 3",
+        "url": "https://www.kbtx.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance",
+      "link": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment",
+      "published": "Thu, 22 Oct 2026 21:23:39 GMT",
+      "summary": "Musk’s investment into the new media empire comes after Paramount’s $111bn merger with Warner Bros DiscoveryElon Musk has reportedly invested approximately $1bn in Skydance, the new media empire led by David Ellison.The deal comes alongside fresh equity infusions from existing investors, including board member Laurene Powell Jobs, Steve Jobs’s widow. Semafor first reported the news. Continue reading...",
       "source": "Guardian Business",
-      "published_beijing": "2026-10-21T18:00:02+08:00",
+      "published_beijing": "2026-10-23T05:23:39+08:00",
       "priority": 0.0,
       "category": "电商科技RSS",
       "_incremental": "new",
       "relevance": "low",
-      "full_text": "Every morning long before dawn, while America sleeps, legions of Texas construction workers grab their fluorescent vests and hard hats, sling ladders and tools into their trucks, and head down the highway for another day of grueling labour under the blistering sun.\nElsewhere, before the first flush of daylight settles over Texas’s concrete sprawl, a separate army gets on the move in a fleet of shiny unmarked SUVs. They hover at gas stations, prowl around bodegas, pounce on the highways.\nThey’re on their way to work too. But the federal agents who form this second army are on a different mission.\nUnlike the builders, they are not forging the US’s future one new starter home at a time. Their job is to pursue those who do the building: they follow the framers, track down the roofers, chase the cement masons and concrete finishers.\nThey are hunters.\n“In Texas, you go deer hunting in the early morning,” said Jacob Monty, an immigration lawyer in Houston. “That’s what they are doing. They are hunting for construction workers, early in the morning, like you would an animal.”\nTexas and its construction workforce are the ground zero of Donald Trump’s latest mass deportation effort, dubbed ICE 2.0. As the US president has pivoted from last year’s militarized “invasions” of Los Angeles and Minneapolis to this year’s less visible but no less devastating stop-and-search tactics, he has found rich pickings in Texas.\nTexas is seeing by far the greatest number of ICE arrests in the country. More than 12,000 in July alone, almost double the number in the next most affected states, Florida and California.\nMany of the detainees are Hispanic builders. Of every 10 construction workers in Texas, four are foreign born, most of whom are Hispanic and undocumented.\n“This is low-hanging fruit,” Monty said. “If you target Texas Hispanics in trucks, you have a good chance of nabbing an undocumented person, and feeding the mass deportation machine.”\nBut there is a price to pay for ICE casting its dragnet through Texas barrios and building sites as it seeks to meet its new target of 3,000 immigration arrests daily. The street-level apprehensions are roiling the state, distorting its economy, forcing up house prices and the cost of groceries.\nHispanic families are also being torn apart. Hardworking people are being pushed into the shadows, others disappearing as they flee the country or are deported. The foundations of new homes are lying unfinished, building sites empty.\nWith the midterm elections just days away, and hugely consequential congressional races as well as the gubernatorial contest hanging in the balance, there are also political costs. Trump appears to be digging a hole for himself with Texas’s Hispanic voters.\nLatino Texans who were born in the US or have naturalised, and thus can vote, are increasingly angry and confused. Many of them voted for Trump two years ago, attracted by his promise of a stronger economy and a fortified border that would keep out “criminal” immigrants.\nThey delivered Trump a historic victory, even in majority-Hispanic districts that had been Democratic strongholds for more than a century – voters like Sergio Benavides, 44, the owner of a home-building construction company in the Texas borderlands of the Rio Grande valley.\nA naturalised US citizen, he voted for Trump in 2024. He liked his campaign promises that he would lower prices and secure the border. When people warned him it would turn sour, he didn’t listen.\nHe’s listening now. The prices of homes, food and gas have all gone up. Workers have to be paid more because so many have been deported. One of his subcontractors and his wife have disappeared, picked up by ICE, leaving behind three US-citizen children.\n“That makes me sad,” he said. “We are here to protect our families, send our kids to college, to learn and grow. This is not what I thought when I voted for Trump.”\nBenavides is part of a backlash that is showing up in the polls. Latino voters are turning against the president on the very issues that drew them to him – the cost of living, and immigration enforcement.\nA poll last month from Equis Research found that disapproval of Trump had risen to 63% among Texas Latinos. In the critical US Senate race, which could determine which party holds the upper chamber during Trump’s final two years in office, 58% of likely Latino voters intend to back the Democratic candidate James Talarico, while only 33% support the scandal-ridden Republican, Ken Paxton. This, in a state that last returned a Democrat to the US Senate in 1988.\nLatinos make up a third of Texas’s registered voters, the second-highest number in the country. And they know it.\nConstruction workers among them.\nMarco Antonio Osorio’s day begins at 5am. Same routine, six days a week.\nA member of his crew comes to pick him up at his house in Houston. They drive around in their shared white truck gathering other crew, then head off to the site of a new apartment complex where they spend the next 10 hours laying TV and wifi fiber optic cables.\nIt’s their speciality. They are good at it, and in demand. If only they were left to get on with it.\nAround the beginning of the year Osorio, 50, noticed a surge in ICE street activity. “There were so many more sheriff’s vehicles, state troopers, ICE on the highways weaving between cars checking plates.”\nAs an undocumented Mexican who came to the US in 1993, aged 17, he knew he was vulnerable. But he thought he had some cover. His US-born daughter Gabriela is serving as a marine at Camp Pendleton in California. She has helped him apply for residency, and the paperwork is being processed.\nStill, he wasn’t taking chances. He changed his habits. No going out of the house unless for essentials. No nights out at the movies. He couldn’t stop working, or else how would he pay the bills? But now he wears a button-down shirt on the drive to the site rather than his fluorescent yellow vest. No point advertising himself as a construction worker with ICE on the hunt.\nHe told his company he didn’t want to work outside Houston any more. The freeways to Austin and San Antonio were crawling with cop cars. “The company told me there weren’t any jobs here – either go out of town, or you don’t work.”\nSo he took a job in Austin. On 10 June, as he was returning home after another 10-hour shift, a sheriff’s car did a U-turn on the freeway and pulled him over. The officer said it was because his truck had a faulty rear light, but Osorio asked himself how they could have known that as they were traveling in opposite directions. More likely, he thought, was that his vehicle has a clear front screen. “They could see we were Hispanic.”\nWithin two minutes of the traffic stop, ICE SUVs blocked him in, front and back. The speed with which they appeared, Osorio realised, meant it had to be coordinated.\nHe told them his daughter was a US marine. He showed the officers the receipt for his residency application. An ICE officer replied: “Oh, that doesn’t count.” They took him to a freezing cell, the notorious las hieleras, and from there to an immigration detention facility near the border. He spent 40 days in the wilderness of ICE custody, until Monty got him released for lack of due process.\nAs he awaits his appeal, Osorio continues to work. Those bills keep coming, his children need feeding. On drives to work sites in Houston, he thinks about his daughter serving the country whose government wants him gone. He worries about his youngest child, an autistic boy, and what will become of him. He imagines returning to Mexico, a place he hasn’t known for 33 years.\nAs he drives, he spots apartment blocks all over the city that he helped put up. And he’s proud. “See those – I worked there 10 years ago. Or those – we built them 15 years ago.”\nHe thinks to himself: “This is my home.”\nLorenzo Salgado Araujo, 52, a Mexican national, had been in the US for 35 years, two longer than Osorio. A house framer, the skilled worker who puts up the wooden skeleton of new houses, he carried out his days with an identical drill. Out the door at 5am, pick up the crew, 10 hours of hard graft, then relax on the balcony of his self-built Houston home listening to tierra caliente music with Ñoño, his beloved dog whom he named after a podgy 1970s Mexican sitcom character.\nWhen ICE began to crank up its street arrests in February, Salgado spotted an opportunity. Many workers were too scared to leave the house, and new homes were standing half finished. A fearless entrepreneur, Salgado began accepting jobs that other undocumented framers like him would not contemplate.\nHe took precautions. He swapped his construction vest for a suit jacket while driving to work. He removed the jumble of blueprints, invoices and receipts from the dashboard of his white van. It was like his mobile office on wheels, but it branded him as a building professional, so he cleaned it off.\nAs time passed, and the ICE presence grew more oppressive, his three sons grew concerned. They are all American-born US citizens, and Salgado had high aspirations for them. They weren’t going to be builders like him – they were going to be educated, fulfill their own American dream. Ronaldo Salgado, the eldest, is a history teacher; Lorenzo Salgado Jr studied at the prestigious Tufts University and is now an engineer in Washington DC; and the youngest is at college, also studying engineering.\nThe sons got together and prepared a plan for their dad. They gave him a phone number that he should call if ever he were stopped, and they made sure he carried a “know your rights” card in his wallet. They made him swear that he would never sign any ICE form, as they feared he would be hoodwinked into self-deporting.\nLorenzo Jr had an additional reason for being worried. On 29 October 2025, he was walking to work in DC. It was early morning, around the time his father would be getting on the road. That day he had a big presentation to make to a government agency, the"
+      "full_text": "Elon Musk has reportedly invested approximately $1bn in Skydance, the new media empire led by David Ellison.\nThe deal comes alongside fresh equity infusions from existing investors, including board member Laurene Powell Jobs, Steve Jobs’s widow. Semafor first reported the news.\nThe investment follows Paramount’s recent $111bn merger with Warner Bros Discovery, a huge acquisition that brought the media companies together under the Skydance name. At the head of the new media empire is David Ellison, the son of billionaire Oracle co-founder and Donald Trump ally Larry Ellison.\nThe Guardian has contacted Musk and Skydance for comment.\nThe cash infusion solidifies an alliance between two of Trump’s richest monetary backers. In September, Semafor reported that Paramount executives had considered Musk as an equity investor, citing his close ties to Larry Ellison, who invested $1bn in Musk’s acquisition of X in 2022 and also $45m in support of Trump’s re-election bid in 2024. Musk spent more than $290m on Trump’s re-election bid and has spent more than $350m backing Republicans in the current US midterm elections.\nAfter the merger, Skydance co-CEOs David Ellison and Ynon Kreiz, who previously led Mattel, informed employees that the integration would involve layoffs, stating: “Integrating two companies will bring change, including difficult decisions that affect our workforce.”\nThe company’s leadership – which now oversees Paramount and Warner Bros’s movie studios, HBO Max, CBS News and CNN – has set a target of more than $6bn in cost savings over the next three years, a goal that Los Angeles county officials estimate could lead to the loss of 4,500 film and television jobs in Los Angeles alone.\nPrior to the merger, a coalition of 12 states, including California and New York, sued Paramount, arguing that the deal would “extinguish” competition and result in “higher prices, lower quality and less content for film and television”.\nIn September, a settlement agreement required Skydance to release at least 30 films and more than 180 television shows annually, while ensuring that CBS and CNN maintain editorial independence."
     },
     {
-      "title": "Feds issue warning for nearly 400,000 pressure cookers that could seriously burn you - WKYT",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMi1fMlNwTDNiWVFpQnlWNHJtTFhuOFFJX3BNTm1EclF0NnEzVjBTS0tLN3E3eE1XVXdHUHptc1p2T3VWRmdUWTZPdlJaNzNOUUFuYlFBbEpoSElkUGdFY25RQ0lHNm9yMmUyY2c2RFBQeDFfUVF1dllkWW5zVER0Y0pLSEtrQTV3NUZzTkZJSUpEMGJXMEVNblpld3JYY2hfdVR5RlFqcVdaZjJHTmt0cEN3?oc=5",
-      "published": "Wed, 21 Oct 2026 09:18:00 GMT",
-      "summary": "Feds issue warning for nearly 400,000 pressure cookers that could seriously burn you&nbsp;&nbsp;WKYT",
-      "source": "GNews | Product Safety",
-      "published_beijing": "2026-10-21T17:18:00+08:00",
+      "title": "Fort Point Capital Sells AMS Fulfillment To Stord Following Seven-Year Investment And National Expansion - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXdMT1I5bDZ5UWdfQzZnTURiQTJxdWdadzlSTk5tR2RrV3RvbktIS0drRWxZTi1mX1V2bkRTOTEzd202QzV0aHFkcFIxVE1TTVR3WkFmdDVYRkViVGlrMlkzdjdXMWZ0M1lEV2c3MDdrNkpFUTdNRktZWWRvWUhtQlgxMGVCOU0yODFSSndzNGFFczZpSGkyaG9WTDN1QTdORDEwYWJnLVM2WlNlc1RReEVIRVkwOWxNa1VvdzRBNlhsQQ?oc=5",
+      "published": "Thu, 22 Oct 2026 20:18:01 GMT",
+      "summary": "Fort Point Capital Sells AMS Fulfillment To Stord Following Seven-Year Investment And National Expansion&nbsp;&nbsp;Pulse 2.0",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-23T04:18:01+08:00",
       "source_detail": {
-        "name": "WKYT",
-        "url": "https://www.wkyt.com"
-      },
-      "priority": 0.0,
-      "category": "关税+合规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "E-wallets in Singapore: A complete guide for businesses [2027] - WorldFirst",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNenozMFdtNmgwVmQ3U3ZWLXlBek5YNUMtSHdfLTRHdW5ucU92emh1bFpzb1NFbW9EQmVyRUlXbDlRQW1LYUxWRXhGQVEzMVVLb25KVlhRMEpZcVRBMV91VEo1TFJKUllNaGRNemdlZTFtQTgtLXNacmpiMVhsOFY2UEtSWUJCM2Rq?oc=5",
-      "published": "Wed, 21 Oct 2026 08:39:48 GMT",
-      "summary": "E-wallets in Singapore: A complete guide for businesses [2027]&nbsp;&nbsp;WorldFirst",
-      "source": "GNews | Cross-border Payment",
-      "published_beijing": "2026-10-21T16:39:48+08:00",
-      "source_detail": {
-        "name": "WorldFirst",
-        "url": "https://www.worldfirst.com"
+        "name": "Pulse 2.0",
+        "url": "https://pulse2.com"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -259,15 +134,15 @@
       "relevance": "low"
     },
     {
-      "title": "Clothes, toys and food: the fight against counterfeit ‘Made in Italy’ products is in full swing - Il Sole 24 ORE",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQakxITTNJQzN5ODFnd0ozQ2xrQnFJWUFHV25td3VmNnFPM1NrM0pGNzIxb3JvM1oyclAtMWRBTHF3NFZxY2RMbFhNd0RoRDFBcEdTRU96MkRjalI3dTZUcnlneV8tMjh6STh1ckJkZ01pR2U3UHZidlBTNldsOW5sMHNkME9NbWxyZnN4cFVB?oc=5",
-      "published": "Wed, 21 Oct 2026 05:55:27 GMT",
-      "summary": "Clothes, toys and food: the fight against counterfeit ‘Made in Italy’ products is in full swing&nbsp;&nbsp;Il Sole 24 ORE",
+      "title": "Norfolk customs officials seize over $580,000 in illicit goods - WAVY.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSm13dlZENUFLUy1pVllkdC0zVHVmd0VFcWZ2eldJOHplbGFwdWcxRFJvbUZ0VThoOUFJeDlIYWdmaFFQR1c4aUpWRG9KS0xoTUVIN19YVkJpTjBycWwySHBSbEZyRzUzaVQyTmNFdzNkSENMNlB0SV91WDhoQ1BneVY1bndkMndyMDFFejNxbmFsVkhhR1dtU1loMlVKalXSAaQBQVVfeXFMT3M3RC11cDFwQ2VEOVFEWTNHaHpHX3AwaHBwVVZubTRMWXZNalB0ODI0dVVfOHktVlg3RklIeWhUUFVUTlU4S0hhcldSOTE1ZmpUWGlZWTV0YlpTSzRmTkxvQ3JCYl9ZVDZ3MVRTTEVZUEh1Y2tFc1h5TWRka0gyc2JtTXJCcmZBeWRpc0ROY09qNXNJWUdMWXVBb2NhdVlfUFRYWmY?oc=5",
+      "published": "Thu, 22 Oct 2026 18:36:54 GMT",
+      "summary": "Norfolk customs officials seize over $580,000 in illicit goods&nbsp;&nbsp;WAVY.com",
       "source": "GNews | Customs Seizure",
-      "published_beijing": "2026-10-21T13:55:27+08:00",
+      "published_beijing": "2026-10-23T02:36:54+08:00",
       "source_detail": {
-        "name": "Il Sole 24 ORE",
-        "url": "https://en.ilsole24ore.com"
+        "name": "WAVY.com",
+        "url": "https://www.wavy.com"
       },
       "priority": 0.0,
       "category": "关税+合规",
@@ -275,28 +150,83 @@
       "relevance": "low"
     },
     {
-      "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
-      "link": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
-      "published": "Wed, 21 Oct 2026 01:10:07 GMT",
-      "summary": "Billionaire, on SpaceX earnings call, says ‘special committees’ exploring idea but no agreement reached yetAs SpaceX released its second-ever public earnings report on Tuesday, Elon Musk declared his support for combining the aerospace and AI company with his electric vehicle company, Tesla. He said both companies had created special committees to explore a potential merger, but have not reached any agreement on terms of a transaction.“Both SpaceX and Tesla have formed special committees to disc...",
+      "title": "Kazakhstan seeks to cut transport costs and delays for international trade - FreshPlaza",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVlZJckJyZFFZNXpIUWNfRVZaYTB1UlpvWU9vMW52eUdkb0N1Qmk2ZmxJYml4RFZGc0VZM01sc3U4X1AzTGZ4QVdIejFzSWxUQUtsNFUtU3RHWXdjVzVWS0llYUVUZjVVdEhjUUtLcF85OFpGQ1NCMzJ1MUFRd1NpYnFvVXZLYzhNSktoMDU5VkJZVF9fVVg3VndrVFo0N3EzTGNXR2szNzZ6RExBZUtMeVFYM2dtaVdrWnZ0S21WUmU?oc=5",
+      "published": "Thu, 22 Oct 2026 18:11:15 GMT",
+      "summary": "Kazakhstan seeks to cut transport costs and delays for international trade&nbsp;&nbsp;FreshPlaza",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-23T02:11:15+08:00",
+      "source_detail": {
+        "name": "FreshPlaza",
+        "url": "https://www.freshplaza.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US judge orders Trump to sit for deposition in $10bn lawsuit against BBC",
+      "link": "https://www.theguardian.com/us-news/2026/oct/22/trump-bbc-lawsuit-deposition-discovery",
+      "published": "Thu, 22 Oct 2026 17:18:12 GMT",
+      "summary": "Judge threatens to dismiss Trump’s BBC lawsuit unless he cooperates with discovery process and sits for depositionDonald Trump has been ordered by a US judge to cooperate with the discovery process mandated for his lawsuit against the BBC and to sit for a deposition by 11 December – or else he could be subject to sanctions, including the possible dismissal of the $10bn lawsuit.The lawsuit stems from a Panorama documentary aired by the BBC that spliced together two comments made nearly an hour ap...",
       "source": "Guardian Business",
-      "full_text": "Billionaire, on SpaceX earnings call, says ‘special committees’ exploring idea but no agreement reached yetAs SpaceX released its second-ever public earnings report on Tuesday, Elon Musk declared his support for combining the aerospace and AI company with his electric vehicle company, Tesla. He said both companies had created special committees to explore a potential merger, but have not reached any agreement on terms of a transaction.“Both SpaceX and Tesla have formed special committees to discuss this idea at the request of shareholders and these special committees are, uh, consist of independent directors,” Musk said on the call. “Because I’m a conflicted party, I can’t actually be in the discussions of the special committees.” Continue reading...",
-      "published_beijing": "2026-10-21T09:10:07+08:00",
+      "full_text": "Judge threatens to dismiss Trump’s BBC lawsuit unless he cooperates with discovery process and sits for depositionDonald Trump has been ordered by a US judge to cooperate with the discovery process mandated for his lawsuit against the BBC and to sit for a deposition by 11 December – or else he could be subject to sanctions, including the possible dismissal of the $10bn lawsuit.The lawsuit stems from a Panorama documentary aired by the BBC that spliced together two comments made nearly an hour apart by Trump during a rally on 6 January 2021, before the US Capitol riot. The BBC has acknowledged that this specific edit was misleading, but Trump has gone on to claim, falsely, that the BBC did not just edit his speech but used AI to insert words into his speech. Continue reading...",
+      "published_beijing": "2026-10-23T01:18:12+08:00",
       "priority": 0.0,
       "category": "电商科技RSS",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "China-US ocean freight rates hold steady as post-holiday space tightens - Waterloo-Cedar Falls Courier",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUVplaWdRN2JKOFNYaUZjRjU0dDBmcmtXOGxfT2JWaC05T3dfUE5FVjhMMnJSWUloUGI4UEloaTRpdXRsNjRmT0Jyd0FDTnFCcDc2SGdEWjdwcVgyaDlfMFlPZUwwMGRvUWl4Rzc2WGE1dlc1NXZPTFFnNGIyZGxlZ3NmVHhPT3lxUUZjSzlwTFg5RVJkNVV6Q0N2Q3NpZkItSmdWNHNKZU5rdjQ?oc=5",
-      "published": "Tue, 20 Oct 2026 19:20:07 GMT",
-      "summary": "China-US ocean freight rates hold steady as post-holiday space tightens&nbsp;&nbsp;Waterloo-Cedar Falls Courier",
-      "source": "GNews | Logistics Cost",
-      "published_beijing": "2026-10-21T03:20:07+08:00",
+      "title": "Cyprus police investigate financial and tax affairs of ex-Chelsea owner Roman Abramovich",
+      "link": "https://www.theguardian.com/world/2026/oct/22/cyprus-police-investigate-financial-tax-affairs-roman-abramovich-chelsea",
+      "published": "Thu, 22 Oct 2026 15:53:22 GMT",
+      "summary": "Inquiry follows report by Guardian and partners that aides of Russian oligarch appeared to have falsified paperwork mapping his businessesPolice in Cyprus have opened an investigation into the financial and tax affairs of the former Chelsea FC owner Roman Abramovich following a report by the Guardian and media partners.In a committee hearing in the Cypriot parliament, a senior official in the island’s police said they were looking into events between 2003 and 2006, with the investigation likely ...",
+      "source": "Guardian Business",
+      "full_text": "Inquiry follows report by Guardian and partners that aides of Russian oligarch appeared to have falsified paperwork mapping his businessesPolice in Cyprus have opened an investigation into the financial and tax affairs of the former Chelsea FC owner Roman Abramovich following a report by the Guardian and media partners.In a committee hearing in the Cypriot parliament, a senior official in the island’s police said they were looking into events between 2003 and 2006, with the investigation likely to last several months. Continue reading...",
+      "published_beijing": "2026-10-22T23:53:22+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Meta strikes deal with Mark Zuckerberg to help him foot billionaire tax bill",
+      "link": "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax",
+      "published": "Thu, 22 Oct 2026 15:40:03 GMT",
+      "summary": "Chief executive agrees to remain in California for eight years even if state brings in one-off 5% wealth taxMeta has struck a deal with Mark Zuckerberg to help him foot a possible California wealth tax targeting billionaires.The social media company behind Facebook, Instagram and WhatsApp revealed on Wednesday night that the arrangement would keep its chief executive living in California, where Meta’s headquarters are located. Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-22T23:40:03+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Meta has struck a deal with Mark Zuckerberg to help him foot a possible California wealth tax targeting billionaires.\nThe social media company behind Facebook, Instagram and WhatsApp revealed on Wednesday night that the arrangement would keep its chief executive living in California, where Meta’s headquarters are located.\nUnder the deal, Zuckerberg will receive new shares that could be sold to potentially foot a multibillion-dollar tax bill in the event that California passes a one-off billionaire tax. In return, he is committed to remain a resident of the state, or wherever Meta maintains its base, for eight years.\nCalifornians will vote early next month on Proposition 40, a one-off 5% tax on the roughly 250 billionaires who live in the state.\nZuckerberg, worth $239bn (£180bn) according to Forbes, told Meta he was considering moving his primary residence elsewhere because Prop 40 could expose him to a massive tax liability, potentially forcing him to sell voting shares to pay it.\nIn response, Meta is creating a new class of non-voting shares via a two-for-one stock split for all existing shareholders. This will allow Zuckerberg to sell some of these new class C shares to pay a potential tax bill, without diluting his control of the company.\nRecent polling has shown that Prop 40 remains short of majority support with voters. Tech billionaires have been spending heavily to fight the measure, including the Google co-founder Sergey Brin, the Palantir co-founder Peter Thiel and the former Google CEO Eric Schmidt.\nRohit Khanna, the US congressman representing California’s 17th congressional district, has described Prop 40 as a choice between standing with the working class or the oligarchs.\n“Every society is taxed. The only question is who will pay,” Khanna wrote in the Guardian last week.\n“In Trump’s America, working people pay more than they should, while billionaires are so unburdened that they are becoming trillionaires. In the America we seek, billionaires and trillionaires will pay their fair share, while working people will be unburdened.”\nMeta also reported a 26% rise in revenues for the last quarter to $64.6bn, beating expectations of $63.3bn. But profits fell by 37% to $13bn, dragged down by a $9.9bn charge related to Meta’s lawsuit over child protection and social media addiction failings.\nThe company’s shares slid by more than 6% when trading opened on Wall Street on Thursday, helping to drag the tech-focused Nasdaq index down 2.5% amid a wider selloff of AI-linked stocks.\nIn a separate case, on Wednesday a judge in New Mexico ordered Meta to pay $25bn following a trial that found the company had misled the public about how it handled Facebook user data.\nMeta also revealed that it had cut its headcount to 66,775 at the end of September, 15% fewer than a year ago.\nReuters contributed to this report."
+    },
+    {
+      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
+      "link": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "published": "Thu, 22 Oct 2026 14:39:29 GMT",
+      "summary": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profitsBarclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI.The job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-22T22:39:29+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI.\nThe job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year.\nThe bank’s chief financial officer, Anna Cross, told reporters on Thursday that the job cuts were part of plans to save more than £1.1bn in 2027. “These actions involve an expected reduction of circa 5,000 full-time employees. Around 60% of the group actions relate to support functions, including fewer developers, as AI makes our people more productive.”\nWhen asked how many of the total job cuts would be directly linked to advances in AI, the chief executive, CS Venkatakrishnan, said the bank had been making “deep investments” in technology and simplifying its processes.\n“That is driving the bulk of the efficiency gains that you’ve seen so far. AI has an important role to play and may have a more important role to play in the future,” Venkatakrishnan said, calling AI the “icing on the cake” to modernising the bank’s technology.\nSharon Graham, the general secretary of the Unite union, said Barclays workers “deserve better”.\n \nShe added: “The company is using AI as an excuse to discard its loyal and long-suffering workforce. Employers should be focused on upgrading employees’ skills so that they remain employed as new technology changes the workplace. Instead, Barclays is guilty of taking a short-term, kneejerk approach.”\nThe news comes months after another UK-headquartered bank, Standard Chartered, announced plans to cut more than 7,000 jobs in the next four years as it ramps up the use of AI. It will mean slashing about 15% of its back-office roles by 2030.\nBarclays also announced plans to hand a further £500m to investors, taking the total amount given to shareholders since January – through buybacks and dividends – to £2.8bn.\nIt came as the lender reported £2.3bn in pre-tax profits over the July to September quarter, up 12% from £2.1bn during the same period last year.\nThe strong financial performance will probably to be used to justify the expected increase in bank taxes in the 28 October budget, as Andy Burnham’s government looks for ways to raise revenue to help fund cost of living support programmes.\nWhen asked whether the bank might consider tilting assets or investment out of the UK and to the US – where it also has operations – as a result of higher levies, Venkatakrishnan said Barclays would be able to absorb them.\n“I recognise that the chancellor and the government … have to balance a host of considerations,” he said, adding that Barclays shared their goal to prompt growth.\n“This is not a question of a financial hit to us. It’s bearable. It is a question of proportion and it’s a question of market signalling. But … I deeply respect the responsibility that the chancellor has and he has our full support and backing.”\nBarclays’ strong performance included a 6% rise in net interest income at its UK retail banking operations, to £2bn. The figure has become a flashpoint for campaigners pushing for a bank tax.\nIt accounts for how much money banks make from loan charges, minus what they pay on deposits, and is linked to interest rates, which have been rising as the Iran war has driven up inflation expectations.\nThe Trades Union Congress, which has been campaigning for a bank tax increase, said lenders needed to contribute more at a time when people were struggling with household bills.\nThe TUC general secretary, Paul Nowak, said: “Barclays’ bumper profits aren’t an anomaly. All the big banks are doing exceptionally well … Britain’s big four banks have made £200bn in profit since 2021. They can – and should – pay more tax.”\nHealey has promised that next week’s budget will support Britain’s entrepreneurs, and focus on cutting the “cost of business”.\nHe told the Times: “I want to be a chancellor who backs business in Britain making a profit, those entrepreneurs who in the end are the ones who challenge the status quo, come up with innovative ideas and are trying, some of them through sheer bloody-mindedness, to keep going through these sorts of pressures, which is what they’ve done.”"
+    },
+    {
+      "title": "Stord expands network with AMS Fulfillment purchase - Supply Chain Dive",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPODc5WTBNajBWbzRUTk45XzROSWJxSnJXb1phbk9QZzBGZXJVZzFDYnROLUVwakhIMVppNWNnTGZOMDlOdHNLZ0t4UWYzLVZKcnNSQkkzLVdQSmFRdndHX25DV2E3RmpHNmpMRlQ5VDA0bm1rSVp2a1hCeWJ4eFB2Y2NWVHJ5MnJneFZGOG5hWDBBV0huTXM3MXh6Tl8?oc=5",
+      "published": "Thu, 22 Oct 2026 14:17:20 GMT",
+      "summary": "Stord expands network with AMS Fulfillment purchase&nbsp;&nbsp;Supply Chain Dive",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-22T22:17:20+08:00",
       "source_detail": {
-        "name": "Waterloo-Cedar Falls Courier",
-        "url": "https://wcfcourier.com"
+        "name": "Supply Chain Dive",
+        "url": "https://www.supplychaindive.com"
       },
       "priority": 0.0,
       "category": "物流+支付",
@@ -304,15 +234,134 @@
       "relevance": "low"
     },
     {
-      "title": "Meet the 24 Finalists of the SFF Fintech Excellence Awards 2026 - Fintech Singapore",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JNHM0a1IwNUdpNU9HTEN0RHBVZFNfWlVxeEdON1UtNlBvc3hjSkNoSVFjWkVkVVNpY2JXVzI0S1NWY3ZqdzNsWDR6RGhyTTRSd1hoS3N5c2ZhYVp6eG5yRFpDTzMwc1BzVjFKdU1CZTV4TUNmZ0JUb1VEWjBwQQ?oc=5",
-      "published": "Tue, 20 Oct 2026 04:16:57 GMT",
-      "summary": "Meet the 24 Finalists of the SFF Fintech Excellence Awards 2026&nbsp;&nbsp;Fintech Singapore",
-      "source": "GNews | Cross-border Payment",
-      "published_beijing": "2026-10-20T12:16:57+08:00",
+      "title": "Marine life in Gulf of Mexico has still not fully recovered from 2010 BP oil spill",
+      "link": "https://www.theguardian.com/environment/2026/oct/22/deepwater-horizon-oil-spill-gulf-marine-life",
+      "published": "Thu, 22 Oct 2026 12:00:44 GMT",
+      "summary": "New study reveals dramatic population drops in fish, cephalopods and more after the Deepwater Horizon spillMarine life in the Gulf of Mexico plummeted by about 60% after BP’s 2010 Deepwater Horizon oil spill and has still not fully recovered, according to a new study.The April 2010 explosion of an offshore drilling unit 50 miles off the Louisiana coast triggered the largest marine oil spill in history, releasing 134m gallons of oil into the ocean. According to the study published Monday in PNAS,...",
+      "source": "Guardian Business",
+      "full_text": "New study reveals dramatic population drops in fish, cephalopods and more after the Deepwater Horizon spillMarine life in the Gulf of Mexico plummeted by about 60% after BP’s 2010 Deepwater Horizon oil spill and has still not fully recovered, according to a new study.The April 2010 explosion of an offshore drilling unit 50 miles off the Louisiana coast triggered the largest marine oil spill in history, releasing 134m gallons of oil into the ocean. According to the study published Monday in PNAS, the disaster – which also killed 11 people and injured 17 others – led to the “sudden, severe and persistent declines in the abundance” of marine life for more than a decade. Continue reading...",
+      "published_beijing": "2026-10-22T20:00:44+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bengaluru airport cigarette seizures jump 57% in six months - News Karnataka",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa2p3UzlhbUtOTzRhY1EyNlE2V3EzQjBKNWZzOVA0c3VVLWljcy1PSkVBeTZveVRxTGJ1cG1sTTNFV2prQjByTHhPSHNqN2dMbUxFRTh3MlEtTnk1OWZEQllDNW85LW1tazk0ejJ2ZU5SNUk1d0h2a29XbU4wWEVQUDExbnFGTHhWN05teWJaVGtoNXNMRlJ2aks0OVJBNnVDZjdmUUpERQ?oc=5",
+      "published": "Thu, 22 Oct 2026 11:51:52 GMT",
+      "summary": "Bengaluru airport cigarette seizures jump 57% in six months&nbsp;&nbsp;News Karnataka",
+      "source": "GNews | Customs Seizure",
+      "published_beijing": "2026-10-22T19:51:52+08:00",
       "source_detail": {
-        "name": "Fintech Singapore",
-        "url": "https://fintechnews.sg"
+        "name": "News Karnataka",
+        "url": "https://newskarnataka.com"
+      },
+      "priority": 0.0,
+      "category": "关税+合规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
+      "link": "https://www.theguardian.com/us-news/2026/oct/22/trump-high-gas-prices-midterms-cycle",
+      "published": "Thu, 22 Oct 2026 11:00:40 GMT",
+      "summary": "Polls show US voters are deeply upset by high gas prices and are likely to punish Republicans in the midterms as a resultHow will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questionsWith fewer than two weeks until the midterms, US voters are unlikely to see relief on one of this election cycle’s main issues: gas prices.Airing up her car’s tires at a Speedway in Perrysburg, Ohio, Toledo resident Sharie Smith, 41, says soaring costs are having a direc...",
+      "source": "Guardian Business",
+      "full_text": "Polls show US voters are deeply upset by high gas prices and are likely to punish Republicans in the midterms as a resultHow will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questionsWith fewer than two weeks until the midterms, US voters are unlikely to see relief on one of this election cycle’s main issues: gas prices.Airing up her car’s tires at a Speedway in Perrysburg, Ohio, Toledo resident Sharie Smith, 41, says soaring costs are having a direct impact on her life. Continue reading...",
+      "published_beijing": "2026-10-22T19:00:40+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SBM Bank Finances Ksh572 Million Fleet Expansion for Beyond Continents Logistics - https://streamlinefeed.co.ke/",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXR3Y2RGWExUMV9IV0g3b1IwYy1QRUowdndiVHBib1ZqeTNyNDc5RVhBdV9pWm9mT2RXT3VLZjU3TGxPNS1aWjhRRmw2QVoxc3JRSFFfa1Rod2dxSnRWQ21BYko5SzRDM3N1QkZfeWFaeDRvLXY0bXJQVUpJck1Lcy1rdFBRdkRXcFRROElZZHhsS1RCYklybi03aVozVEVQT2Q5dGxNRUJrdms3cF96LXpmRkE?oc=5",
+      "published": "Thu, 22 Oct 2026 10:13:32 GMT",
+      "summary": "SBM Bank Finances Ksh572 Million Fleet Expansion for Beyond Continents Logistics&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-22T18:13:32+08:00",
+      "source_detail": {
+        "name": "https://streamlinefeed.co.ke/",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ziina Secures Triple CBUAE Licensing Across Payments, Stored Value, and Exchange - The Fintech Times",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlFVZ0RES3R5THpFSWhYZThkVElab1lBQ0ljWWgzVmRUNHFOU1RMMWM4djRRZjZ5WDVMeUdManNxQTlBZC1xWmJBaHpBVG5uYmhjYm5WOV9LWWlMM2FqMVNqZi1pblh6VXQ0bDVYMXVNTDQ0UEJJb0hKWmF5ejJlMkNrNmk1SThpOVdGcDhVM01jRWtfU3dWLVhDUHVENDI2VEs0djlSM2xReFE?oc=5",
+      "published": "Thu, 22 Oct 2026 09:36:08 GMT",
+      "summary": "Ziina Secures Triple CBUAE Licensing Across Payments, Stored Value, and Exchange&nbsp;&nbsp;The Fintech Times",
+      "source": "GNews | Cross-border Payment",
+      "published_beijing": "2026-10-22T17:36:08+08:00",
+      "source_detail": {
+        "name": "The Fintech Times",
+        "url": "https://thefintechtimes.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Seat Cover Solutions doubles down on Monticello expansion - hometownsource.com",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeUtVQUJZMTJhNi1ZRlVxU0VGa2w4RzVScG5sRUQtMEJwTldqeW1MeHBlaXIyUEVzaERhTDZzLWt5dmlmdXdtNk4tREVlMEJMMkEzcU1NNXdILXI5cGowbXFqbXM4Xzd3dzlWN2tHX3FWNnQ1UE1mWWktQ1dJZ1VYSFhNdEIxLXZaOGNxUVI1dTBETEJwQnQ0c1dhSHRwOXhMeVJtSWxJN2dNZzlyMFNJUDZTSkQ5Y2piTVJKQlNnSW5tMzhMWTJzRnlhSVU2N2ZEb1Y2eERZa2VyaEFzOVZsVG45X1F5V1RENk1iQ09PdE1Ddw?oc=5",
+      "published": "Thu, 22 Oct 2026 09:30:00 GMT",
+      "summary": "Seat Cover Solutions doubles down on Monticello expansion&nbsp;&nbsp;hometownsource.com",
+      "source": "GNews | Overseas Warehouse",
+      "published_beijing": "2026-10-22T17:30:00+08:00",
+      "source_detail": {
+        "name": "hometownsource.com",
+        "url": "https://www.hometownsource.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "French borrowing costs overtake US amid budget turmoil",
+      "link": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+      "published": "Thu, 22 Oct 2026 08:40:36 GMT",
+      "summary": "France’s bond market hit by another bout of selling as country recovers from weekend protestsFrench borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped the country.France’s bond market was hit with another bout of selling, with the difference between French and German 10-year borrowing costs – a metric for the risk premium attached to French debt – rising to its highest level in almost 15 y...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-22T16:40:36+08:00",
+      "priority": 0.0,
+      "category": "电商科技RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "French borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped the country.\nFrance’s bond market was hit with another bout of selling, with the difference between French and German 10-year borrowing costs – a metric for the risk premium attached to French debt – rising to its highest level in almost 15 years.\nThe yield on the French 10-year bond – known as obligation assimilables du Trésor (Oat) – rose by nine basis points to 5.089% in early trading on Thursday, its highest level since July 2022. It broke across the 5% threshold on Wednesday for the first time since 2002.\nThe move lifted France’s 10-year borrowing costs over the equivalent for US Treasury bonds for the first time since 2013.\nThe volatility comes as the French government struggles to pass a budget for next year, while the country recovers from widespread protests that turned violent last weekend.\nTens of thousands of people had attended peaceful marches to demand more teachers and repairs to decrepit schools, but different groups clashed with police in cities including Paris, Bordeaux, Nice and Marseille in recent days.\nPublic buildings were attacked, and thousands of shops and businesses were looted. The interior ministry said there had been nearly 2,400 arrests.\nMeanwhile, a parliamentary gridlock has blocked plans by the president, Emmanuel Macron, to increase the state pension age from 62 to 64 and a series of measures designed to rein in state spending.\nFrance’s budget deficit was 5.1% of gross domestic product in 2025, while its debt pile stood at 115.6% of GDP.\nIt comes as the country also grapples with higher inflation triggered by the war in Iran, with many governments with big debt piles coming under acute pressure.\nJim Reid, a market strategist at Deutsche Bank, said the sell-off in French government bonds was starting to ripple out to other countries, too.\n“Among others, the Italian 10-year spread over [German bonds] widened 3.8 basis points to 116 basis points, while Spain’s widened 3.1 basis points to 66 basis points, marking its widest level since June 2025,” he said.\nCarsten Brzeski of the bank ING said rising yields had reinforced the European Central Bank’s “restrictive” monetary policy stance before its interest rate decision next week. The bank last raised its key interest rate to 2.5% in September.\n“The ECB is very likely to stay on hold next week and will delay any next rate hike decision to December,” he said.\n“Any solution to the current French fiscal woes could bring some relief to bond markets and allow the ECB to continue hiking rates. Without any solution, bond markets have taken over the ECB’s role, making rate hikes less likely.”"
+    },
+    {
+      "title": "Europe’s Premier FX, Crypto & Fintech Event – Wiki Finance Expo Cyprus 2026 is Coming to Limassol This November! - CoinGape",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVHRZeTRuaVI3OWxiVlBtejE2MGNYVVlQdlNDZHAzWXFpekpnaTRxU2VpZGhGNGRuMGUtUEpXcmdzcy12MWFEaV9FeGZhUkpxRDB3MXl1NEFRMEVmanV2UU1TOFItNXFtcmpXeHZJNndyRERPUmZHbTNTSGNvcEVKb2RyWmhnWmpHTlJaUFQydFlRcnRialR5bk9hRHQ2aEtMSS1NSkZaWVdQVWJpcjFNdVhReTBzRkZDNnV0cEttYUdMellici1GTFY5WXBJenFmQ0Z1S0JUZ1hVQQ?oc=5",
+      "published": "Thu, 22 Oct 2026 06:48:06 GMT",
+      "summary": "Europe’s Premier FX, Crypto & Fintech Event – Wiki Finance Expo Cyprus 2026 is Coming to Limassol This November!&nbsp;&nbsp;CoinGape",
+      "source": "GNews | Cross-border Payment",
+      "published_beijing": "2026-10-22T14:48:06+08:00",
+      "source_detail": {
+        "name": "CoinGape",
+        "url": "https://coingape.com"
+      },
+      "priority": 0.0,
+      "category": "物流+支付",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Verkkokauppa.com Oyj interim report for 1 January–30 September 2026: Improved profitability in a competitive market - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbllpa3VmSWxRbktqd1VHbkZvbTJpOEQtaFZ6b095bjhmR2JPYUZfclNoVDMwaUxZSWlRWi1uaDZ6c0NZTy03NU43TWJsWmFZeVlrX1JDY3QyY0g1WkJVQ01sZFRaNVd1eFpXeHJOTWhLZFYzXzhqSDduUGRVMno5WDZ4c0tha1A4UHB2UFRZblVfWVFONzdCai1xN1ZtVzBFcWxKN0xvaXNzT2VISjJ2djFXdEFoTU5PNkN4V3I0di1IMF9BdWllTUFqYXhFcnFleVFrMWItVVBJTEYxUmtIUjlaNmhWc3IwbTR3T09wYmpjTFZFOVI3OC1zYXY3MXVxY2RFdkNHckVwRGxZ?oc=5",
+      "published": "Thu, 22 Oct 2026 05:00:00 GMT",
+      "summary": "Verkkokauppa.com Oyj interim report for 1 January–30 September 2026: Improved profitability in a competitive market&nbsp;&nbsp;TradingView",
+      "source": "GNews | Logistics Cost",
+      "published_beijing": "2026-10-22T13:00:00+08:00",
+      "source_detail": {
+        "name": "TradingView",
+        "url": "https://www.tradingview.com"
       },
       "priority": 0.0,
       "category": "物流+支付",
