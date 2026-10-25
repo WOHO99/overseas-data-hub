@@ -1,35 +1,37 @@
 {
   "version": "4.0",
   "module": "东亚深度",
-  "updated": "2026-10-24T03:41:06.261049+00:00",
-  "fetch_date_utc": "2026-10-24",
-  "total": 121,
-  "high_priority": 7,
-  "medium_priority": 52,
-  "signal_alerts": {},
+  "updated": "2026-10-25T03:38:38.431511+00:00",
+  "fetch_date_utc": "2026-10-25",
+  "total": 92,
+  "high_priority": 5,
+  "medium_priority": 43,
+  "signal_alerts": {
+    "breakthrough": 1
+  },
   "stats_by_category": {
     "日本": {
-      "count": 26,
+      "count": 16,
       "feeds": 3
     },
     "韩国": {
-      "count": 35,
+      "count": 15,
       "feeds": 3
     },
     "朝鲜半岛": {
-      "count": 8,
+      "count": 11,
       "feeds": 1
     },
     "政治+社会": {
-      "count": 27,
+      "count": 17,
       "feeds": 3
     },
     "基础设施+科技": {
-      "count": 25,
+      "count": 34,
       "feeds": 2
     },
     "气候+人口": {
-      "count": 3,
+      "count": 1,
       "feeds": 3
     },
     "大国关系": {
@@ -53,16 +55,33 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 7,
+  "fail_feeds": 13,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "South Korea Built the Power Plants but Has No Lines to Carry the Electricity: 3.1 Trillion Won in Compensation, Yongin Semiconductor Grid Just 1% Complete - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VeGJhckUxNFZJQlIyVUNxWW5WNUhEUk0yczNJcDlkeUxISzZzVXFQOUFybzdiYnlERzItaWhQSzI3OFk0SFE3Skh3TkZ4NG5TU2swRW9wX0JvN3hpalZ3MFBLek5qQWFRSnBMUVJRUi04Qjg3Q0E?oc=5",
-      "published": "Thu, 22 Oct 2026 23:05:00 GMT",
-      "summary": "South Korea Built the Power Plants but Has No Lines to Carry the Electricity: 3.1 Trillion Won in Compensation, Yongin Semiconductor Grid Just 1% Complete&nbsp;&nbsp;BigGo Finance",
+      "title": "Why South Korea’s stock market represents the purest AI trade - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX3AxWFRXTTZBbUhsR29tRE8zRHNsT2xSV25MYUpYbEJWcmV0VkV3UlJZaGwyOHJnLXk4anFrZnN0UW1aMld0c05mVGhYR056dm1YMWRINUNwVG9BZzRKOXlzb1kwSTlyVXlIcXhJTUcwRU1XTmZRenRzUEg3U2lIaUFQQ0pfV3BjN3JjMzAwYkluVWxWUFFqeThCbzhKb05pUUR1UTZVQ2wtY0ttak0xODJFQlNzX1ZN?oc=5",
+      "published": "Sat, 24 Oct 2026 22:59:06 GMT",
+      "summary": "Why South Korea’s stock market represents the purest AI trade&nbsp;&nbsp;Investing.com",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-25T06:59:06+08:00",
+      "source_detail": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com"
+      },
+      "priority": 10.8,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991"
+    },
+    {
+      "title": "South Korea's KOSPI: Samsung Electronics-SK Hynix Weight Falls Below 50% as Non-Chip Rotation Vanishes, Deepening Liquidity Gap - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Rd2haRTkwUUZDcS1qYW9WSnB2WHF0eXlNa2p0dXVrTThsb0JzOWpveTBqR25KdlFJeUtYRXV1VmxrYldoQ2cwWEtMb3NId0tXTlNhY0U1V09TYXZDUXNJeW1JN244d3BKdE5RcHJDbVlOOE1NVGc?oc=5",
+      "published": "Sat, 24 Oct 2026 22:05:00 GMT",
+      "summary": "South Korea's KOSPI: Samsung Electronics-SK Hynix Weight Falls Below 50% as Non-Chip Rotation Vanishes, Deepening Liquidity Gap&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T07:05:00+08:00",
+      "published_beijing": "2026-10-25T06:05:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
@@ -71,48 +90,15 @@
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://finance.biggo.com/news/5fae86f3-e591-4319-b572-af58c130aed6",
-      "full_text": "Power plants have been built, but with no transmission lines to carry the electricity, facilities that halted operations have received more than 3 trillion won in compensation over the past five years. For the same reason, dedicated transmission grids for South Korea's core national industrial complexes remain in the single digits in completion rates, raising fears of power supply disruptions even for the Yongin semiconductor cluster, which aims to begin operations in 2027.\nAccording to the National Assembly Budget Office's report \"2026 Status and Issues of Public Institutions,\" 112,430 GWh of electricity could not be generated from 2021 through the first half of this year due to transmission constraints. Korea Electric Power Corporation paid power producers a total of 3.1651 trillion won (approximately $2.4 billion) over the period in Expected Profit Settlement (MAP) payments for electricity they failed to generate. These are compensation-type payments made regardless of whether a generator is running.\nCurrently, 12 power plants nationwide are having their output curtailed due to transmission equipment problems. The Taean Thermal Power Plant in South Chungcheong Province had to forgo 43,590 GWh—24.9% of its planned generation—from 2021 through June of this year. Seven plants in the Gangwon region also absorbed a 22,310 GWh reduction in output over five and a half years.\nThe root of the problem is the construction speed gap between generating facilities and transmission networks. Solar and other renewable facilities are completed in 1 to 3 years, thermal power plants in 5 to 7 years, and nuclear plants in 7 to 9 years, but large-capacity 345 kV transmission lines take an average of 9 to 13 years to finish, including site selection and mediation of resident disputes.\nThe 500 kV high-voltage direct current (HVDC) project to send large-scale power from the East Coast to the Seoul metropolitan area has made no progress, as Hanam City has refused to expand the East Seoul converter station, insisting that permits cannot be granted without resident consent. The 345 kV Dangjin Thermal Power Plant–Sinseokmun–Sinsongsan line has also been delayed by 7 years and 6 months, from its original June 2021 completion date to 2028, as resident opposition over electromagnetic field concerns dragged on.\nThe compensation Korea Electric Power Corporation pays without actually receiving electricity is reflected in power purchase costs, pushing up the overall cost base for electricity rates. The cost of mismatched infrastructure ultimately lands on consumers.\nThe supply-side bottleneck is even more acute for dedicated grids serving industrial complexes that consume large amounts of power. The Yongin Advanced System Semiconductor Cluster, which aims to be the world's largest single semiconductor base, is a prime example. The government and industry have set the start of operations for SK Hynix's general industrial complex at 2027 and Samsung Electronics' national industrial complex at 2029, on the premise of early operation.\nHowever, the Yongin transmission project, which involves building 14 345 kV lines, had spent only 19.4 billion won (approximately $14.6 million) of its 3.7 trillion won (approximately $2.8 billion) total project cost as of the end of 2025—a completion rate of 1%. Under the annual spending plan, only 49.7 billion won (approximately $37.5 million) is scheduled to be spent from 2026 to 2029, while 3.6451 trillion won (approximately $2.8 billion), or 98.6% of the remaining project cost, is concentrated after 2030. In effect, little real progress can be expected over the next four years.\n| Status of Dedicated Transmission Projects for Major Industrial Complexes |  |  |  | \n|---|---|---|---|\n| Project | Total Project Cost | Spending as of End-2025 (Completion Rate) | Completion/Operation Target | \n| Yongin Semiconductor Cluster | 3.7 trillion won (approximately $2.8 billion) | 19.4 billion won (approximately $14.6 million) (1%) | Completion Dec. 2036 / Operations 2027–2029 | \n| Songdo Bio Cluster | 330 billion won (approximately $249.0 million) | 65 billion won (approximately $49.0 million) (20%) | December 2028 | \n| Yeosu National Industrial Complex | 8.4 billion won (approximately $6.3 million) | 7 million won (approximately $5,300) (5%) | September 2030 | \nNote: Based on the National Assembly Budget Office report \"2026 Status and Issues of Public Institutions\"\nOther key industrial complexes are in similar shape. The Yeosu National Industrial Complex transmission project, targeting completion in September 2030, has spent just 7 million won (approximately $5,300), barely clearing a 5% completion rate. The Songdo Bio Cluster project, aiming for completion in December 2028, remains at 20% of its planned 330 billion won (approximately $249.0 million) investment. Although the government has introduced a special law to shorten the overall construction period to nine years, with only two to four years left and work still in its early stages, analysts say on-time completion is effectively impossible.\nExperts say the practice of pursuing generation and transmission separately needs to be overhauled. The Lawrence Berkeley National Laboratory (LBNL), under the U.S. Department of Energy, has advised a proactive approach that identifies areas needing transmission in advance and incorporates them into construction plans. Some also argue that, given a supply-demand structure in which production and consumption areas are widely separated, South Korea should urgently build a system that generates energy directly in consumption areas.\nThe National Assembly Budget Office noted that with work still in its early stages, supply may fail to arrive when power demand materializes. It warned that delayed grid expansion could trigger generation constraints and settlement costs again, and that the progress and spending plans of projects serving major demand centers must be monitored so the gap with demand timing does not widen. Korea Electric Power Corporation said all relevant agencies will cooperate to supply power to national industrial complexes without schedule disruptions.\nThe issue directly affects investment schedules in semiconductors, petrochemicals, bio and other core national industries. Even after a factory is completed and equipment is installed, mass production can be pushed back if power is not connected, while on the generation side, accumulating compensation feeds back into cost pressure on electricity rates. Analysts say that unless grid construction starts, permitting and mediation of resident disputes are managed under a single timetable, the lag between equipment investment and infrastructure investment could erode industrial competitiveness."
+      "canonical_url": "https://finance.biggo.com/news/53179954-7047-4833-aceb-0db4b45fedbb"
     },
     {
-      "title": "U.S.-South Korea-Taiwan Semiconductor Dominance Challenged by China - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPck1PSW81aTRiMUNCQjYyWnNCUy12TGVPUlp0NlFZV2xzUkVPZWhwRm9JU1d2am9aODlIQnlKTDdCSk1UYktiUmJZVnZ5U25CbFNNb1Y3THJSTG84QklWd3UtcGxiMW93VGhfZl94RXVBUF9zeHlGOG1KR1U3SnBsYjNzcWRMYnVx?oc=5",
-      "published": "Thu, 22 Oct 2026 08:12:31 GMT",
-      "summary": "U.S.-South Korea-Taiwan Semiconductor Dominance Challenged by China&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Chip/Export",
-      "published_beijing": "2026-10-22T16:12:31+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 10.8,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "high"
-    },
-    {
-      "title": "South Korean Semiconductor Giants Upgrade Chinese Memory Plants - Electronics For You BUSINESS",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT29xVk03VTlIUWNTc1pnOUpDOXhSTUpiOHQ3WjIyMHZuNGlrWG1CV0NTMnp3X2pDZE1XaE9NUG5tTERNczRWdFJGT0NXU0lhR2diUHRQNGdsNEFORVBQZU9raTV1dVRtZkZoaGR0ckJyODRobHRvdFdWZ2dHUkRVRDVtRXZQNDBQM0xBaEdVNkNOVUY4S0doOV9rNm1GR3BxdXBzMk9mcWd1YjYyRHNYY19B?oc=5",
-      "published": "Thu, 22 Oct 2026 06:32:20 GMT",
-      "summary": "South Korean Semiconductor Giants Upgrade Chinese Memory Plants&nbsp;&nbsp;Electronics For You BUSINESS",
+      "title": "South Korean, Japanese Business Leaders Adopt Joint Statement Tying CPTPP, LNG, AI Into 'New 60 Years'…Joint Response to US-China Risks - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEM2YzcEllZ0FuMXZOdlNwZkN4MkluZ2hxZkJ0U0g1RE9ENjhVSzUzcVhzWmVGM29RSXZqRy1vM2VieEw2LVNwdXpkRDM4dUhwSHRER1BHZHFqV002YVdIWDFBWnpsUS0xUW8wekN3VmxNS0NpZ0E?oc=5",
+      "published": "Fri, 23 Oct 2026 06:05:00 GMT",
+      "summary": "South Korean, Japanese Business Leaders Adopt Joint Statement Tying CPTPP, LNG, AI Into 'New 60 Years'…Joint Response to US-China Risks&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-22T14:32:20+08:00",
-      "source_detail": {
-        "name": "Electronics For You BUSINESS",
-        "url": "https://www.electronicsforyou.biz"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high"
-    },
-    {
-      "title": "Professor Kim Jung-ho: \"South Korea's Chip Success Wasn't Just Technology—It Was a Windfall… HBM Was Decisive\" - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wQnVJY3E3VFpHRWUxdG1hd1FWQTUybXp0Ymd2MHFYMVZXb2JfODdYVjBKM1MyYTY1QWkxZ1Z4Vlg2akFIeHdDQlBQMlVRX1VOTlpEem1PdUppanlzYnlsWG1yWW9HdEszeHlqVXVENDJIV19iSmc?oc=5",
-      "published": "Fri, 23 Oct 2026 16:05:00 GMT",
-      "summary": "Professor Kim Jung-ho: \"South Korea's Chip Success Wasn't Just Technology—It Was a Windfall… HBM Was Decisive\"&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-24T00:05:00+08:00",
+      "published_beijing": "2026-10-23T14:05:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
@@ -121,168 +107,84 @@
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://finance.biggo.com/news/3f396f93-3a93-4944-b32c-90e86a88c466",
-      "full_text": "An analysis has emerged that unexpected external factors, alongside technological prowess, played a decisive role in the growth of South Korea's semiconductor industry. Kim Jung-ho, a distinguished professor at Yonsei University, said in a recent appearance on a YouTube channel that the flagship businesses of Samsung Electronics and SK Hynix rode the AI boom into a heyday that diverged from their original plans.\nKim explained that while Samsung Electronics set its sights on becoming the world's No. 1 in system semiconductors, its market share actually declined, whereas DRAM—its traditional mainstay—enjoyed an unexpected boom as the AI industry grew. \"DRAM, which no one had even considered, hit the jackpot,\" he said. \"We thought the DRAM era was over and shifted our investment direction, but the opportunity came in that very process.\" He added, \"It's less that South Korea pulled it off and more that a windfall came rushing in.\"\nSK Hynix's investment in high-bandwidth memory (HBM) was cited as another key case. HBM is memory that stacks multiple DRAM chips vertically to boost data processing speed and efficiency, and it is essential for AI chips that require large-scale computation. Kim noted that SK Hynix continued developing HBM even while it was struggling financially.\nInitially, HBM did not win much traction in the gaming PC market. But the situation changed as the AI industry surged with the arrival of ChatGPT. Data centers running AI services needed high-performance graphics processing units (GPUs), and demand surged for high-performance memory to support GPU computing speeds. \"No one knew ChatGPT would succeed like this,\" Kim said, explaining that HBM resolves the bottleneck in which \"GPUs run fast but memory can't keep up.\"\nHe predicted that new opportunities could open up for South Korea's battery industry as well. In the electric vehicle battery market, Chinese companies hold sway with mass production and price competitiveness, but a different competitive landscape could take shape in physical AI fields such as robotics, according to his analysis. Human-sized robots have limited space to house batteries, making high energy density critical. \"Batteries for physical AI have to be small, so quality has to be high,\" Kim said. \"That's why South Korean batteries are at an advantage.\"\nHe paid particular attention to solid-state batteries. Solid-state batteries, which can address the limitations of conventional liquid-electrolyte batteries, are considered a next-generation battery technology. He said South Korea and Japan are strong contenders in the race to commercialize solid-state batteries, and called attention to South Korean companies' development of related technology.\nKim named defense and AI as the industries to watch after semiconductors. In particular, he stressed the need to foster an industry that combines AI with drones to boost defense efficiency. \"If we're thinking about the next defense industry, I'd say drones or AI,\" he said. \"We need to build an industry that uses existing AI to defend South Korea sufficiently.\" He also stressed the importance of overhauling the education system for the AI era. \"We need to shift to an education that properly uses AI to produce people who become masters of AI,\" he said.\nMeanwhile, at the \"Smart Energy Plus (SEP) 2026\" conference, to be held on the 29th at COEX in Gangnam District, Seoul, senior executives from Samsung Electronics and SK Hynix will take the stage to discuss the future of AI and semiconductors. Han Jae-jun, a master (managing director) at Samsung Electronics' AX/PI Center, will present a strategy for integrating AI from design through production to raise development speed and manufacturing productivity. Samsung Electronics will also disclose a case in which it used reinforcement learning and genetic algorithms to automate repetitive tasks such as transistor sizing and to predict potential design-rule violations in advance, cutting design time by about 50%.\nChoi Jun-yong, vice president of HBM business planning at SK Hynix, will address the shift of the bottleneck limiting performance gains from computing to memory and then to power, under the theme \"Memory That Defines the Future of AI.\" Just as growth in devices drove demand in the past, in the AI era the \"growth of intelligence\" will expand the market, according to his argument. The next challenge is the \"Energy Wall\" arising from surging data center power consumption. SK Hynix proposes as solutions raising HBM's bandwidth per watt, reducing the distance between computing units and memory through 3D stacking, and architectures optimized for workloads such as customized HBM.\nKim's analysis shows that South Korea's semiconductor success is the product of technological prowess and coincidence combined. The implication is that investment decisions should not rest solely on the \"planned success\" of a particular technology, but should also examine how the unpredictable expansion of the AI industry is reshaping the structure of memory demand. In addition, which positions South Korean companies secure in next-generation fields such as physical AI, solid-state batteries and defense will be key to the next growth cycle."
+      "canonical_url": "https://finance.biggo.com/news/db85f484-4d5e-4add-ae2b-ddb534765789",
+      "full_text": "South Korea's and Japan's leading business organizations held the 33rd Korea-Japan Business Conference at the FKI Tower in Yeouido, Seoul, on the 23rd and adopted a joint statement aimed at jointly responding to trade uncertainty and instability in energy supply chains. At the meeting, the two countries' business communities took up as key agenda items emergency liquefied natural gas (LNG) cargo swaps, the identification of joint projects in artificial intelligence (AI) and semiconductors, and cooperation on South Korea's bid to join the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP).\nThe theme of this year's conference was \"The Prologue to a New 60 Years: A New Horizon for Korea-Japan Economic Cooperation.\" The vision is to build a framework for cooperation over the next 60 years, going beyond the 60 years since the normalization of diplomatic relations in 1965. Attending from South Korea were Ryu Jin, chairman of the Federation of Korean Industries, and South Korean Trade, Industry and Energy Minister Kim Jung-kwan; from Japan, Yoshinobu Tsutsui, chairman of Keidanren (Japan Business Federation), was present. The heads of major companies from both countries also attended, including Shinhan Financial Group Chairman Jin Ok-dong, Samyang Group Chairman Kim Yoon, Hyosung Group Chairman Cho Hyun-joon, Youngone Vice Chairwoman Sung Rae-eun, Sumitomo Chemical Chairman Keiichi Iwata, Sony Group Chairman Kenichiro Yoshida and Hitachi Chairman Toshiaki Higashihara.\nIn his opening remarks, Chairman Ryu said, \"If the past 60 years were mainly a time of shuttling across the Korea Strait, I hope the next 60 years will be a time of new cooperation in which we look together beyond the horizon.\" He presented three major cooperation tasks: cooperation on international norms and economic security, strengthening supply-chain and energy security, and responding to common social problems. The idea is to jointly respond to US trade policy and digital regulations while checking supply risks for key items and establishing a system of mutual support in emergencies.\nThe Japanese side also stressed the importance of maintaining the free-trade order. Chairman Tsutsui said, \"As South Korea and Japan are both highly dependent on external markets, we must cooperate to expand a free and open trade and investment environment.\" He emphasized the need to reform the World Trade Organization (WTO) and to deepen and expand multilateral economic partnership agreements, while expressing strong expectations for South Korea's application to join the CPTPP.\nThe South Korean government also called for strategic solidarity. In his keynote speech, Minister Kim said, \"Deepening US-China strategic competition and geopolitical instability are expanding instability in global supply chains,\" and stressed that the two countries should cooperate on resource procurement and supply-chain stabilization and speak with one voice on changes in the trade order. He also proposed cooperation that leverages the two countries' strengths in the field of physical AI.\nIn the trade area, the two sides agreed to broaden the scope of their joint response. The Federation of Korean Industries joined a joint statement led by Keidanren supporting the extension of the US-Mexico-Canada Agreement (USMCA). There was also a view that the \"Korea-US-Japan Business Dialogue,\" which conveys a joint position to the US government and Congress, should be restarted as soon as possible. Also on the discussion table were the need to establish international rules on cross-border data flows and AI, and the need for a joint response to US and European Union (EU) supply-chain and advanced-industry regulations.\nEnergy cooperation will proceed along two tracks: crisis response and the identification of joint projects. The two sides discussed ways to strengthen emergency LNG cargo swaps based on cooperation between South Korea's Korea Gas Corporation and Japanese energy company JERA, and to expand such swaps to third-country transactions. Proposals were also made to establish hydrogen certification, standards and safety criteria, and to cooperate on stockpiling critical minerals and crisis response. There was also an idea to combine South Korean, US and Japanese technology and capital to identify joint projects in energy, semiconductors and AI data centers.\nCommon challenges such as low birth rates, an aging population and shrinking regional populations were also major agenda items. The meeting discussed ways to use corporate data to connect financial support to regional companies with high growth potential and to expand sales channels through the two countries' financial and distribution networks. For the \"Korea-Japan Startup Cooperation Forum,\" which is being pushed to resume next year, the two sides decided to invite regional companies from both countries to increase transactions with companies and investors in the other country.\nThe significance of this agreement is that the two countries' business communities have elevated external shocks — US-China strategic competition and the fragmentation of supply chains — to a joint-response agenda rather than leaving them to individual countries. In particular, emergency LNG cargo swaps are seen as a card that can have a practical effect in easing short-term supply shocks, given that both countries are among the world's largest LNG importers. However, the joint statement is a non-binding, declarative document, so follow-up negotiations between companies will be needed before it leads to actual cargo-swap contracts or an expansion into third-country transactions.\nSouth Korea's CPTPP accession is an issue that requires unanimous consent from all member countries despite Japan's expression of support, so immediate progress is difficult to expect. The practical achievement of this meeting is seen as the business communities' ability to help open the way for government-to-government negotiations. The joint AI data center and semiconductor projects also have not disclosed specific investment sizes or participating companies, so follow-up discussions will need to be watched.\nThe two countries' business communities are expected to review the implementation of the agenda items discussed this time at next year's conference. The Korea-Japan Business Conference began in 1962 and has established itself as a regular channel for private-sector economic cooperation between the two countries. This joint statement differs from previous meetings in that it bundles trade, energy, advanced industries and regional revitalization into a single cooperation package."
     },
     {
-      "title": "South Korean economy's growth likely picked up in Q3 on chip exports: Reuters poll - Central Oregon Daily",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUVRob2pjOGNxMm1VQ1dvNWFPSFh0U2JsQ0tTYzFuOEJIVjFVbVBYYWZMaU1zc1kyU1Z3WXR4VEF5NHdPdUlpUGNNUDgyc0JqZXh1cE9uMlBXYXBUOXNyeWhDOHNRZFB2Y2k5OFZ2X0Jkb201eFVHNzJfdENBdzJFTjVfSS1aSklLa3pwYTd4N1RhY1dWZ3ZQRzVtR2c2ZnUyREYxS2FTeTl5aHB1cjNyWGJKUlQtUmFUdWZRNlVud3VZYlI0MDdQTmE3WERPZS1oV1BFTFFqcm9TUzZsNlJVdUExOERvYnlIaUkwZ2pQdEFrTE9lMm9YX1dRWEZNZ051RmtlVDUtbWlSV00?oc=5",
-      "published": "Fri, 23 Oct 2026 05:41:44 GMT",
-      "summary": "South Korean economy's growth likely picked up in Q3 on chip exports: Reuters poll&nbsp;&nbsp;Central Oregon Daily",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T13:41:44+08:00",
-      "source_detail": {
-        "name": "Central Oregon Daily",
-        "url": "https://www.centraloregondaily.com"
-      },
-      "priority": 10.8,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.centraloregondaily.com/news/consumer/south-korean-economys-growth-likely-picked-up-in-q3-on-chip-exports-reuters-poll/article_3029d37a-e69a-5a89-a70c-9acd5976eaf7.html",
-      "full_text": "By Renusri K\nBENGALURU, Oct 23 (Reuters) - South Korea's economy grew slightly faster in the third quarter than in April to June, as booming semiconductor exports and AI-related investment helped offset still-uneven domestic demand, a Reuters poll of economists showed.\nAn AI-fuelled chip boom has supported South Korea's economy for years, but has also made it increasingly reliant on chip exports, with the gains yet to spread widely through the domestic economy. Meanwhile, high borrowing costs and elevated household debt have weighed on household consumption.\nExports rose 84% from a year earlier to a record $120.9 billion in September, led by a 262.8% surge in chip exports to $60.3 billion. Semiconductors accounted for nearly half of total shipments, underlining the industry's outsized role in driving gross domestic product growth.\nThe economy grew a seasonally adjusted 0.7% in the July-September quarter, according to the median forecast of 16 economists polled from October 14-23, a slight pickup from 0.6% growth in the April-June quarter. Forecasts ranged from 0.5% to 1.6%.\n\"The question is whether we will see benefits from the export sector. It is important to see the transmission to the domestic economy, and one of the key channels is fiscal policy to ease the pressures,\" said Jeong Woo Park, Asia economist at Nomura.\n\"Financial conditions are becoming less accommodative and the labour market is structurally in downturn. With companies adopting AI more rapidly, for the younger generation it is very hard to find jobs,\" Park said.\nThe contrast between the fast-growing chip sector and softer demand elsewhere in the economy has raised concerns among some economists that the recovery, which began in the first quarter, is becoming increasingly uneven.\nOn a year-on-year basis, GDP was forecast to grow 3.0%, slowing from 3.7% in the previous quarter, based on the median estimate from 16 economists.\n\"The concentration risk of growth being driven by AI should worry the BOK to some extent, but I don't think they are showing it too much,\" said Kelvin Lam, senior economist at Pantheon Macroeconomics. \"The Korean economy is very vulnerable to this as everything now is driven mainly by the semiconductor industry.\"\nThe Bank of Korea held its benchmark interest rate at 3.00% on Thursday, in line with consensus expectations, and raised its growth forecast to 3.3% for this year and 2.9% for next year.\nA separate Reuters poll forecast growth of 3.5% in 2026.\n(Reporting by Renusri K; Polling by Pranoy Krishna and Rahul Trivedi in Bengaluru and Jihoon Lee in Seoul; Editing by Vivek Mishra, Hari Kishan)"
-    },
-    {
-      "title": "Will the Korean Economy Follow Japan’s Path? Conditions of Low Growth Read Through Demographics, Interest Rates, and Productivity - 코리아비즈니스리뷰",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTXlqb0VWck1aV2huSWJwa1BVd0pWM2Jja2ltVE9kUVRsbl9DM091NjM5dVJPeEdVR1NVbHZvcnlWSDI2WUpfOXNmU1drZWlCZ0JXN3o5Z0dhaURmRmRCa0U3X2ZpemFzdEd3UkZSaVM4N1NZcFBUNmswdFZxMHVBVzNZcF9kOE1DdjBEYWNVZ09ZaFNUcHd6Zkw3TVc?oc=5",
-      "published": "Fri, 23 Oct 2026 10:50:45 GMT",
-      "summary": "Will the Korean Economy Follow Japan’s Path? Conditions of Low Growth Read Through Demographics, Interest Rates, and Productivity&nbsp;&nbsp;코리아비즈니스리뷰",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T18:50:45+08:00",
-      "source_detail": {
-        "name": "코리아비즈니스리뷰",
-        "url": "https://www.koreabizreview.com"
-      },
-      "priority": 8.4,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Chip Industry Week In Review - Semiconductor Engineering",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DNG45YTd6ZXpFUmRKR3VYQWpaOFY4MEV6aWNta29Ib2JkdXZFeko3UFVtV05WZkttZ0lia3l6UXB0TEd0ekFtX1dHUW1fT1Y2MG02Y0g4NzBrSVN2TFVseTZUbzVhVF9WZmZlVmRR?oc=5",
-      "published": "Fri, 23 Oct 2026 07:35:15 GMT",
-      "summary": "Chip Industry Week In Review&nbsp;&nbsp;Semiconductor Engineering",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-10-23T15:35:15+08:00",
-      "source_detail": {
-        "name": "Semiconductor Engineering",
-        "url": "https://semiengineering.com"
-      },
-      "priority": 8.4,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://semiengineering.com/chip-industry-week-in-review-161/"
-    },
-    {
-      "title": "France's Youth Uprising Warns South Korea of Pension Crisis Fallout - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTENTeDBscHVObDN6UnUzUXBITmtsWmR2TTN2ZWVsUmhhOXJ4YVFOdU1Jd2FLUTZJUWFqVXFmem9kcUE1b25RQkJ1dXNZSm92eG1wa195cjhfcUR5Njdyb0JNSGxJNnpPano0LTYxRWNwS2JwZmR5bmlCN1NYOC1saF9wSkFVcFU?oc=5",
-      "published": "Thu, 22 Oct 2026 20:16:00 GMT",
-      "summary": "France's Youth Uprising Warns South Korea of Pension Crisis Fallout&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T04:16:00+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 7.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Bank of Korea: Chip boom continues to bolster economy; chip prices expected to rise further - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQk81a1BLWHdKLVdIOU9aSF9telJPUVBhdTBSek83VnFGQzBXLU0ySEZJLTlmazNHZ2g1YmZvZFBsTFNqdkMzZl81Q25rNWpWbHJER2l6V1pWS1RacjNjNW1hcko2bFF2RFhiUUltWG1sY0xKTTZ0NlVOS3dub3RwR3pZZUpFVHU3SHRXaGN5ZHhERWNLVzc3bHNxcGxjcFF5enc?oc=5",
-      "published": "Thu, 22 Oct 2026 04:59:00 GMT",
-      "summary": "Bank of Korea: Chip boom continues to bolster economy; chip prices expected to rise further&nbsp;&nbsp;富途牛牛",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T12:59:00+08:00",
-      "source_detail": {
-        "name": "富途牛牛",
-        "url": "https://news.futunn.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://news.futunn.com/en/post/1001903068/bank-of-korea-chip-boom-continues-to-bolster-economy-chip"
-    },
-    {
-      "title": "The BOJ's Patience Is a USD/JPY Trader's Reality Check - The Dark Side Of The Boom",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa2NQNzllRm9NblNkdkVGTjZGOHBxYWdPVVBGZlRMNV9CSjY5amNGdWVFMUdsbmR5Ul9tQVFEZFBHdjBfLVVnQTJYb25tRTZTZUp4MWdpVmJZVThOTWhTcXNONFRlRlNVcDBsTjVCRWl6SGYwS09UT0F5WTQ1WGV2Z05WZEN2czhs?oc=5",
-      "published": "Fri, 23 Oct 2026 20:01:21 GMT",
-      "summary": "The BOJ's Patience Is a USD/JPY Trader's Reality Check&nbsp;&nbsp;The Dark Side Of The Boom",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-24T04:01:21+08:00",
-      "source_detail": {
-        "name": "The Dark Side Of The Boom",
-        "url": "https://thedarksideoftheboom.substack.com"
-      },
-      "priority": 7.2,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://thedarksideoftheboom.substack.com/p/the-bojs-patience-is-a-usdjpy-traders"
-    },
-    {
-      "title": "South Korean Won: Hawkish BoK supports consolidation – Commerzbank - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUG9TcF9lSm53R3QwNmlzQ3pFczBIVHRRb0tpeUt6ZXR2SGxHYUlmUXhrdHFZUFVPbDI3bkJFQU9Nb3NNUEl6UGx4d25URk5CVC15YWtwTXl0dmQ2TlBsbTM2SWw0N3FPRHBFbWdjSVR1QkFZeE43ZW5FUWlxQjN2blVSVWJpcFFWcFhyalNremM2bk5CdE1Lc19DaXFjbXY4S1ZsVm95WGRzZw?oc=5",
-      "published": "Fri, 23 Oct 2026 18:12:00 GMT",
-      "summary": "South Korean Won: Hawkish BoK supports consolidation – Commerzbank&nbsp;&nbsp;FXStreet",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-24T02:12:00+08:00",
-      "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.fxstreet.com/news/south-korean-won-hawkish-bok-supports-consolidation-commerzbank-202610231812"
-    },
-    {
-      "title": "North Korea may be the biggest winner of Russia’s war in Ukraine - Atlantic Council",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeTQxcmdIUkZNN2lyZ2hseGtYRUNVNzJRaVZwUmpfYzlWMGNpYXNjSmdyMkd4YXZsLXB0RU83RXkzOGhNRzZuSlYyeGtyMW1JZENxNjN6UDZaNHNVbExHampQNDBfX3kyUGtFc0ZYTzBPcVk4cUhvTXBLRkV0WjdULU5qR0pnNUVYQmpHR0gwbkFON05FQ0JxNTYtQkJiWE1DcEN2eWNUNnN2WDQ?oc=5",
-      "published": "Fri, 23 Oct 2026 15:02:42 GMT",
-      "summary": "North Korea may be the biggest winner of Russia’s war in Ukraine&nbsp;&nbsp;Atlantic Council",
+      "title": "Why Did Kim Jong Un Visit China? 4 Key Reasons Behind North Korea Leader’s Surprise Trip - Pakistan Matters",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0xuVkk5RnBPWUdsVnQ1ZW9wdzUyam5OZGpTUUdqcl9ZZWNLODBNQ0hLZTdtbEdZVzVVeUNaZkxvTjRIVUJPXzhodVVMN0dUQXFwWnEyczl6aHlrdl8wTmZjTEQydDVfWUFkX2RscmVTUUw2SjZiUHVLaXhmb0dZMHFwcnkzNGtfTC1VSGdQT1pRVzI1NVpvZmZMWWJjTExzMFdGRHAyeS12eHdlZ29JSlpkb2cyUQ?oc=5",
+      "published": "Sat, 24 Oct 2026 13:05:03 GMT",
+      "summary": "Why Did Kim Jong Un Visit China? 4 Key Reasons Behind North Korea Leader’s Surprise Trip&nbsp;&nbsp;Pakistan Matters",
       "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-23T23:02:42+08:00",
+      "published_beijing": "2026-10-24T21:05:03+08:00",
       "source_detail": {
-        "name": "Atlantic Council",
-        "url": "https://www.atlanticcouncil.org"
+        "name": "Pakistan Matters",
+        "url": "https://pakistanmatters.pk"
       },
       "priority": 7.2,
       "category": "朝鲜半岛",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.atlanticcouncil.org/dispatches/north-korea-may-be-the-biggest-winner-of-russias-war-in-ukraine/",
-      "full_text": "OMAHA—While ostensibly not a belligerent party to Russia’s war against Ukraine, North Korea may emerge as one of the conflict’s largest beneficiaries. Neither Moscow nor Kyiv seem closer to finding an end to the war even if a three-way peace talk comes to fruition, and Russian President Vladimir Putin’s most recent public statements have largely repeated demands that have remained unchanged throughout 2026. Yet North Korea’s role supporting Russia in the war has already yielded substantial gains.\nNorth Korean People’s Army troops started deploying to Russia in October 2024, following the signing of the partnership framework between Pyongyang and Moscow in June of that year. North Korean military activity remains cloaked in secrecy and the exact terms of the Russia–North Korea support agreement are unknown. However, Pyongyang benefits substantially and strategically from combat experience, weapons sales, battlefield testing of its systems, financing, and possibly technology transfers. These gains could extend beyond the war, strengthening North Korea’s military capabilities and potentially altering the strategic security equation in the Indo-Pacific.\nWhat does North Korea gain?\nBy sending its troops to help Russia, North Korea firstly gains combat experience. Its army has not fought a significant engagement since 1953, and the North Korean deployment to Kursk represents the first opportunity for a generation of soldiers and commanders to learn the hard lessons of actual combat. Reports indicate that North Korea has deployed approximately eleven thousand troops to Russia, and Ukrainian military intelligence stated in August that an additional thirty thousand to fifty thousand North Korean troops could soon arrive. In all, the Institute for the Study of War estimates that roughly twenty-five thousand North Korean troops have rotated through the Russian theater since the deployment began. So far, these forces have been mostly used for border security. But if Ukrainian estimates of looming increases are correct, then the additional forces could free Russian forces for additional offensive actions, which could place additional strain on already stretched Ukrainian defenses.\nBeyond combat experience, weapons exports and combat testing of indigenously produced weapons are the next area of significant operational, tactical, and strategic gain for Pyongyang. Testing under combat conditions yields significantly better engineering data and real-time improvements. In fact, North Korea may already be implementing battlefield-learned improvements. According to an early 2025 report, North Korean ballistic missile accuracy had improved since the beginning of the deployment. Japanese public broadcaster NHK separately reported that Moscow had pledged further assistance in drone and counter-drone technology to the North Koreans in exchange for their continued support. The Center for Strategic and International Studies estimates that North Korea has exported fifteen million artillery shells to Russia since 2022. Ukrainian intelligence has stated that, at points in the war, up to 40 percent of Russian artillery consumption came from North Korean factories. And an article in The Korea Times, citing South Korean Defense Intelligence, reported that North Korea has sent some 33,000 shipping containers containing munitions, self-propelled guns, rocket launchers, and short range ballistic missiles to Russia.\nFeedback from these arms transfers will likely improve the quality of North Korean weapons and boost the North Korean arms industry. It will also likely improve engineering and quality control, and could result in reciprocal transfers of sanctioned and embargoed technology that North Korea currently lacks. The full extent of the benefits are impossible to quantify, but dollar figures can be estimated for some aspects of the partnership. For example, reporting indicates that Russia has paid North Korea up to $13 billion for its military assistance. In August, Bloomberg placed the broader sanctions-evasion windfall for Pyongyang as high as $22 billion.\nIt is critical to understand not only what material is leaving North Korea, but also what is coming in. Technological transfers from Russia may include everything from space-related technology to precision-strike improvements, both of which have long limited North Korean capabilities. Shortly before the partnership was signed in June 2024, North Korean dictator Kim Jong Un traveled to a Russian space launch facility in the Russian far east. At the time, US officials warned that Russia could share satellite and space-launch technology—capabilities that North Korea struggles to produce domestically—in exchange for munitions and manpower. While there is no public evidence that Russia has directly contributed to North Korea’s nuclear weapons program, it is plausible that the by-products of such technology transfers could benefit Pyongyang’s weapons research and development programs.\nNuclear propulsion may be another matter. In late 2025, Kim unveiled the hull of North Korea’s first nuclear-powered submarine. This may have been enabled by Russian assistance and, if it becomes fully operational, could significantly improve North Korean nuclear capabilities. In addition, South Korean officials have asserted that Russia has transferred air-defense missile systems to North Korea. All of this taken together, North Korea’s support for Russia has likely helped Pyongyang close several important technological gaps that it has long struggled with under sanctions and isolation.\nImplications for the United States and Indo-Pacific\nMost estimates put Russian casualties in the war above a million and growing at thousands per month. Ukraine, too, has sustained significant losses. It is costing hundreds of billions of dollars to sustain the war effort, and the economic damage is running into the trillions of dollars. Recovery will take decades, assuming a stable peace is able to be reached.\nNorth Korea, by contrast, has entered a European war at limited direct cost. It has not risked confrontation with its principal adversaries while gaining strategic leverage and greatly improving its military capabilities. Its partnership with Russia, Pyongyang’s most formal security arrangement with Moscow since the Soviet era, has given it a new form of strategic insurance. It has also weakened multilateral arms-transfer sanctions and enforcement and made it far more difficult for the United States and United Nations to track and expose sanctions-evasion networks.\nThe consequences for Indo-Pacific partners may play out over decades. Once isolated and largely constrained by China, Kim may now feel emboldened to pursue his regional objectives vis-à-vis South Korea and Japan. The combination of Pyongyang’s increased capabilities and now battle-hardened forces could raise North Korean confidence in its own strategic decision-making, thus potentially increasing the baseline risk for Northern miscalculation on the peninsula, or even with its neighbors and the United States. This could take many forms, including clashes in disputed areas to a new round of “missile coercion” by North Korea.\nMany questions remain. What is China’s calculus regarding North Korea’s advancing capabilities? Beijing values stability on the peninsula, and a loss of leverage on Kim is unlikely to be seen by Chinese officials as a positive development. Critically, how enduring is the “unlimited partnership” with Russia, particularly if the exigencies of the war in Ukraine come to an end? What does it mean for US strategic planning and contingency responses? For nuclear deterrence?"
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Seoul’s Chip Rebound Steadies Korea After U.S. Tech Selloff - NAI500",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZEljd1Y1d1RiSTNkcTN0dzBaZnJHRTJVOF9hMWJtMWYwQXR2TmREX1RmMnVEOGY1cGoxYk9kOFdJYklyN1E3eTJtcktlZ0FwTndkRWtVZENHekNNaHctVVZmSUVTQWs1amtYQVRhalQ5dVFrdEpEaE1DcUx1c2Z4WHNCalltWHVDSFYzVFhhbFhhZHBLa0E?oc=5",
-      "published": "Fri, 23 Oct 2026 10:07:53 GMT",
-      "summary": "Seoul’s Chip Rebound Steadies Korea After U.S. Tech Selloff&nbsp;&nbsp;NAI500",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T18:07:53+08:00",
+      "title": "North Korea's Kim Jong Un makes surprise visit to China, reports say - Gulf News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaWFtcFFKd3F3S1o1TF8xSXJpb3BMU181UldYNVpvelRFYmJBSkU4a1ZOdWlOaFE1NmxaUFRDc1ZCdUJqX1hPT1RSUGtwaEhrQjhnVnZIZk1tZ0xGUHI4bnBVeWRtX0dMczNYRUxhRXl1VEdQdnd3ZDVKS3cyTi1rOHV6N0VFOG1vX1RGa0pQQ2ZGcTZwNjE1VjltbDV4Rmc2SHcwRDRiY0VnX0RWWF9v0gHCAUFVX3lxTFBXaGFvd2x0RDBRTG5NSkxiX1RaN25NSEk3NmZjeEJNVFJReWktRlhvWDd2VjM1WFA2MTFWQzJ0RWkxd2RqVlFZdVJSN3BrMEpnS0E2TXZlNUpiLTBSVHNrYThRdW40NDhHMlRBZmJHblRqUllBMUZzTVA4RDNxN1RvbmZONkNDYkdZSzJGeWVHeGQyMWg2VXp6RnV6V1ZfRXV2MXJydzJRREtkOWt1M3FHLUVmekhnQWtJUUNzdkdxLWVB?oc=5",
+      "published": "Sat, 24 Oct 2026 10:12:47 GMT",
+      "summary": "North Korea's Kim Jong Un makes surprise visit to China, reports say&nbsp;&nbsp;Gulf News",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-24T18:12:47+08:00",
       "source_detail": {
-        "name": "NAI500",
-        "url": "https://nai500.com"
+        "name": "Gulf News",
+        "url": "https://gulfnews.com"
       },
       "priority": 7.2,
-      "category": "基础设施+科技",
+      "category": "朝鲜半岛",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "NTT Docomo Business, Mitsubishi Estate, Chitose City Sign Pact for Semiconductor R&D Hub in Japan's Hokkaido, Targeting Fiscal 2029 Opening - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SSDlPOEhnSzNDeDFFT1k5MGZwUjJRdUdIVlRWNGJaRjRkd3FpNmQwN2xFVzFaREpZbFlRT2d3bmhQcFNYSW5SXzV6OG0xbmRIV0JXclFzaTFUR0lwYmd1TFcyTlVrUjNRVDJNTXVnZ3VRcm1YclE?oc=5",
-      "published": "Fri, 23 Oct 2026 09:55:00 GMT",
-      "summary": "NTT Docomo Business, Mitsubishi Estate, Chitose City Sign Pact for Semiconductor R&amp;D Hub in Japan's Hokkaido, Targeting Fiscal 2029 Opening&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | JP Chip Fab",
-      "published_beijing": "2026-10-23T17:55:00+08:00",
+      "title": "North Korean leader arrives in Chinese border city via new bridge - Al Arabiya English",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczl5U0h3TXVTbFBGMUFQQ3l4a0N0bVhRVlZrVjRSMlNMVGVGbmhvUk1OQS1ocUtIeDVTOUVUU0dtMEF5RklSUTUyaTQwQnFjSEFNa1cyVnEtbGdNazg3OEdhZUhnWm9zdDNqdVE3ZXppUVJHNUZDdVoxTVp4c0FCNGVITzVhdEtoNnFtQzZlZW5CZ0NKdzdCNnFOMWNPWXlfS2Z6NDdyU0hBTXFqcEF6SXQxY09qNHpD0gG-AUFVX3lxTE9mUEdkTUZyNEZJSGxSblI5SFkzWFRuVUxTbjZ6VVctYms1d1lDOTI3TTQxRHMzUGRxWTFYTXlnMnJhZDhWZzRBZTNrWXVvNWdzanVDekd5UHNMcS1OeTZra0VrUC16VGRkMjJZeGRQbzB0ZDlXb1h6blVPRHZSVWd6NGN0MTRKSkZFRk9kanRyT2ZYNkJUTjZDSHFOc1k2cEVZVVRlQnR0RXk3UjRJNDdxQWp6WmpYeFo3dnhneEE?oc=5",
+      "published": "Sat, 24 Oct 2026 07:06:00 GMT",
+      "summary": "North Korean leader arrives in Chinese border city via new bridge&nbsp;&nbsp;Al Arabiya English",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-24T15:06:00+08:00",
+      "source_detail": {
+        "name": "Al Arabiya English",
+        "url": "https://english.alarabiya.net"
+      },
+      "priority": 7.2,
+      "category": "朝鲜半岛",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "North Korea has opened up bridges to Russia and China – in which direction will it go? - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRmFVT2VRQ3FNeDRmV1JWTDVpR1ZYWXdpTHZBVG5QTjJxeE9BelcwTV8zTFh1UWNoWWp0SlhZb3Q3eWllT2VVY0xVYVBjYmNfSTFBSVdnd29MQzVpT0lQcDk5dUxKRVRRamxpWmxMYVFxOWJBRUdZSkFIVnpSZ1luMmNENmZMU2U2RmFNZGJZU0k3MEtNd1Fj?oc=5",
+      "published": "Fri, 23 Oct 2026 23:11:00 GMT",
+      "summary": "North Korea has opened up bridges to Russia and China – in which direction will it go?&nbsp;&nbsp;The Guardian",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-24T07:11:00+08:00",
+      "source_detail": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com"
+      },
+      "priority": 7.2,
+      "category": "朝鲜半岛",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "South Korea's Top-Performing Retail Investors Load Up on Doosan Enerbility; SK Hynix Sees Second Day of Net Selling - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yZGNOWms1RVh0Z28zdDFnVUZzZU5Sa05RTTNXWGg1TXZLcEQ2aF9WYjFRRGptbVhSQ1BxeHU3THR2MGY3RFVBd01VVHdCbHk1VkV6ZG9HcjA1LWpzT2ZpZkZNbUhHNzZPTEZ1dURwdHBJYnVoWUE?oc=5",
+      "published": "Fri, 23 Oct 2026 07:35:00 GMT",
+      "summary": "South Korea's Top-Performing Retail Investors Load Up on Doosan Enerbility; SK Hynix Sees Second Day of Net Selling&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T15:35:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
@@ -291,87 +193,32 @@
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://finance.biggo.com/news/eb0b6550-94f6-41a5-9af8-fd188eced428",
-      "full_text": "NTT Docomo Business, Mitsubishi Estate and Chitose City in Japan's Hokkaido signed a partnership agreement on Oct. 23 to develop a next-generation semiconductor research and development hub. Research facilities and other buildings will be constructed on roughly 13 hectares within the Chitose Bibi World industrial park near New Chitose Airport, with a partial opening targeted for fiscal 2029. The site adjoins the Chitose plant of Rapidus, which aims to mass-produce advanced semiconductors, and is intended to drive technological innovation and workforce development through an industry-academia-government cluster.\nThe hub will be called the Chitose Technology Frontier (CTF). Semiconductor manufacturing is divided into the front-end process, in which fine circuitry is etched onto substrates, and the back-end process, in which chips are assembled into finished products; the site will provide an environment for integrated research and development across both. Multiple facilities, including research buildings, offices and a museum, are planned for phased construction, with total project costs undecided at this point. The partners will work to attract semiconductor-related companies and universities from Japan and abroad.\nNTT Docomo Business will take charge of supporting semiconductor manufacturing, centered on IOWN, the next-generation high-speed communications infrastructure promoted by its parent, NTT. Using IOWN can substantially curb power consumption during production, and linking sites in Japan and overseas via high-speed communications is expected to make development more efficient. After Rapidus announced its move into Chitose, the company signed a comprehensive partnership agreement with Chitose City in September on promoting the semiconductor industry and urban development, and in June it reached an agreement with Kikuyo Town in Kumamoto Prefecture, home to a TSMC production base, envisaging the deployment of IOWN.\nMitsubishi Estate will begin concrete infrastructure development now that it has joined the project. President Atsushi Nakajima said, \"We will actively take on cutting-edge technologies such as artificial intelligence (AI) and quantum computers.\" Chitose Mayor Ryuichi Yokota said, \"We will do our utmost to realize a world-class base for advanced semiconductor research, development and innovation.\"\nThe area around Chitose City is building up a concentration of development bases, including the Rapidus plant and facilities of the National Institute of Advanced Industrial Science and Technology. Semiconductors are positioned as a strategically important material for economic security, and strengthening Japan's domestic production base is a policy priority, with NTT Group, which has strengths in communications technology, a developer and the local government dividing roles among them.\n| Item | Details | \n|---|---|\n| Hub name | Chitose Technology Frontier (CTF) | \n| Location | Within Chitose Bibi World (approx. 13 hectares) | \n| Opening target | Partial opening during fiscal 2029 | \n| Developers | NTT Docomo Business, Mitsubishi Estate, Chitose City | \n| Planned facilities | Research buildings, offices, museum, etc. | \n| Total project cost | Undecided | \nNote: The agreement was signed on Oct. 23, 2026. The site area is approximately 130,000 square meters.\nThe market sees spillover effects for local construction, real estate and communications infrastructure demand as semiconductor-related capital investment concentrates in Hokkaido. On the other hand, the success of the research hub hinges on how far efforts to attract companies and universities progress, and pinning down project costs and the development schedule will be the focus going forward."
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Japanese Yen slips from one-month high as USD recovers, with Fed and BoJ still in focus - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVFZ0a19ocFJVTzdWZ09hcEo2N2R5dHRnNlFSd1ZTX2t4ZWtIU25lbWV5WFhGTnl6MkdzS3d3d2ZwVWxiQTl5MGtvUXpic040QjZTaFo1NVhkWEhieGgyMnNCdkI0Y1RyS0xsTE5CdHd4TGNBSXZ2YzEyeGJpbVNmN1RremI5N28wOFV5VHN1ek1CY1hrd19uczB2M3JkeTRrb1FtNEN3N3VRX0pfNmVBaW5hRG5KSEh4a2JMcVRPbF91ZVV1cjg2aEpLQUoxR1c2M24yS2IyYTR2eUp3NGRVVWk5ZExTZVB6M0dLLTI2c0Y?oc=5",
-      "published": "Fri, 23 Oct 2026 09:37:47 GMT",
-      "summary": "Japanese Yen slips from one-month high as USD recovers, with Fed and BoJ still in focus&nbsp;&nbsp;www.tmgm.com",
+      "title": "Kospi rebounds to 5,550 as institutions buy despite chip jitters in Korea - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObFUtMWZrZ1dqRnRCQkxoT0JBVXptTXlCN0ZEXzFfb2ltUDJ1M20xRVpvWS1sSE11dzZHZWJ5YnNTZUM3TzZDZ1V1V3BiRy14Z2ZRNmt2RmhZUUVaVzlZUFlFMkgwRHdJUzNJTVlSZjk3UG9MNjVFQldCZGswSW0wMTZFWmxGMWRMajd0NUdZUFVkS21J0gGUAUFVX3lxTE5sVS0xZmtnV2pGdEJCTGhPQkFVem1NeUI3RkRfMV9vaW1QMnUzbTFFWm9ZLWxITXV3NkdlYnlic1NlQzdPNkNnVXVXcGJHLXhnZlE2a3ZGaFlRRVpXOVlQWUUySDBEd0lTM0lNWVJmOTdQb0w2NUVCV0JkazBJbTAxNkVabEYxZExqN3Q1R1lQVWRLbUk?oc=5",
+      "published": "Fri, 23 Oct 2026 06:45:00 GMT",
+      "summary": "Kospi rebounds to 5,550 as institutions buy despite chip jitters in Korea - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T14:45:00+08:00",
+      "source_detail": {
+        "name": "Chosunbiz",
+        "url": "https://biz.chosun.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "BoJ: Japan's financial system has been maintaining stability on the whole - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTm5DWi16cS01Q2V3aHJnNUUyT1dBRU9PUS11NVVKR3ZHbnF6aHBjUnJDRTVKeTlLMUVlU1V4dHRFOWJSVlNwN3RXQUZCY2xWMVVqdHAtNWpCTmNKVzJhdFFSTUFYbWd0cERxMDFKNFhzaDJwYUw2Rm1vTDFjQmFlM3dNakNIZTZEbC1mWWI1WXdVb1ZxTXdmNjJhbVhYYmdRODNLRmY3UmtkTWJhUGNEMF84b04?oc=5",
+      "published": "Fri, 23 Oct 2026 06:28:36 GMT",
+      "summary": "BoJ: Japan's financial system has been maintaining stability on the whole&nbsp;&nbsp;FXStreet",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-23T17:37:47+08:00",
-      "source_detail": {
-        "name": "www.tmgm.com",
-        "url": "https://www.tmgm.com"
-      },
-      "priority": 7.2,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.tmgm.com/en-eu/analysis/market-news/article/japanese-yen-retreats-from-one-month-top-vs-recovering-usd-as-focus-remains-on-fed-and-boj-202610230509",
-      "full_text": "For better experience, please slide to complete the verification process before accessing the web page.\nTraceID: 0a0f037417928144267444035e008f"
-    },
-    {
-      "title": "South Korea's Central Bank Signals Hawkish Stance Amid Economic Growth - GuruFocus",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaFI5UHVWQzcyN194RmxkNVJuX3U1ZmJHUjUteEkxRFRuVTdDeTk1bFlGMnR0ZUQ2WHN3Z3JqZDJSc3dhSkR0N19DUEJWcWkyMEVQMjRiUmJ2UlhFVXZqaXVvemtPMWRqRDlBTzJfUUlNRUZzcWkwWXpTV0RYemRvWW1QcXlkNndycDBBcGJOWVZZaTlld0ZFWkloS3FDcFNhZkFkS284NEtTcUVV?oc=5",
-      "published": "Fri, 23 Oct 2026 09:28:36 GMT",
-      "summary": "South Korea's Central Bank Signals Hawkish Stance Amid Economic Growth&nbsp;&nbsp;GuruFocus",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T17:28:36+08:00",
-      "source_detail": {
-        "name": "GuruFocus",
-        "url": "https://www.gurufocus.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.gurufocus.com/news/9139149/south-koreas-central-bank-signals-hawkish-stance-amid-economic-growth"
-    },
-    {
-      "title": "AI halo may warm South Korean economy longer than expected - Aju Press",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jdjBoTlp4MmVwMU5zeVItSWxzZnN3SnFzMy13Skt3aWtkR2Q5Vm5zcDFIWDd6UWFmWGU1VUw4MUhLWE4wNlV5WnA1Q2ZWaVdVTkYtb0ZuZ9IBV0FVX3lxTE1jdjBoTlp4MmVwMU5zeVItSWxzZnN3SnFzMy13Skt3aWtkR2Q5Vm5zcDFIWDd6UWFmWGU1VUw4MUhLWE4wNlV5WnA1Q2ZWaVdVTkYtb0ZuZw?oc=5",
-      "published": "Fri, 23 Oct 2026 08:08:51 GMT",
-      "summary": "AI halo may warm South Korean economy longer than expected&nbsp;&nbsp;Aju Press",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T16:08:51+08:00",
-      "source_detail": {
-        "name": "Aju Press",
-        "url": "https://m.ajupress.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://m.ajupress.com/amp/20261023163631684",
-      "full_text": "SEOUL, October 23 (AJP) — The extraordinary AI windfall may be strong enough to lift South Korea’s long-term growth potential, suggesting the AI halo over Asia’s fourth-largest economy could be broader and longer-lasting than previously expected.\nBank of Korea Governor Shin Hyun-song on Friday suggested the economy could be at an inflection point as the central bank prepares to reassess its underlying growth capacity.\n“I think this is a very important turning point,” he said during a parliamentary audit.\nThe BOK last estimated potential growth at around 2 percent for 2024–2026 and plans to publish an updated estimate before year-end. Before the chip bonanza, expectations had increasingly pointed toward a decline into the 1 percent range.\nPotential growth is the pace at which an economy can sustainably expand without generating accelerating inflation. It depends on the supply of labor and capital and how efficiently they are used.\nKorea’s rate stood at around 5 percent in the early 2000s before slowing to the mid-3 percent range in the 2010s as contributions from all three weakened.\nThe BOK now expects actual growth this year and next to run “well above” its August forecasts of 3.3 percent and 2.9 percent, respectively. A prolonged expansion could strengthen the case for a higher potential-growth estimate if the windfall translates into lasting investment and productivity gains.\nThe distinction is between an economy enjoying a powerful upswing and one becoming capable of sustaining faster growth.\nThe central bank said in May that the impact would depend on whether the semiconductor boom represented a permanent change or remained part of a cyclical upswing. The latter would have a much more limited effect on potential growth.\n“Historically, structural changes often become apparent only in hindsight,” said Lee Ji-ho, now a BOK deputy governor and then head of its Research Department. He cautioned that it was too early to conclude that the expansion represented such a shift.\nInternational estimates already suggest different trajectories.\nThe Organization for Economic Co-operation and Development (OECD) estimated in June that Korea’s potential growth would decline from 1.85 percent in 2025 to 1.66 percent in 2026 and 1.52 percent in 2027.\nCalculations based on real GDP and output-gap forecasts in the International Monetary Fund’s (IMF) October World Economic Outlook, however, imply potential growth of about 1.94 percent in 2025, 2.14 percent in 2026 and 2.20 percent in 2027.\nTiming also matters: the IMF’s October outlook incorporates a much stronger semiconductor cycle than the OECD’s June projections.\nThe BOK combines several methods, including models of productive capacity and statistical estimates of underlying trends, rather than relying on a single measure.\nFor Shin, productivity will ultimately determine whether the investment boom changes Korea’s long-term trajectory.\n“Total factor productivity itself may rise, but sustaining a higher growth rate requires further gains through innovation,” he told lawmakers.\nThat remains an unfinished transition.\nA June BOK study found that generative AI reduced working time by an average of 3.8 percent, or about 1.5 hours a week. It estimated a potential productivity gain of around 1 percent if all the saved time were redirected toward productive activity.\nYet the study found essentially no relationship between time saved and actual output growth. Researchers concluded that AI had reached an “efficiency stage” but not yet a “productivity stage.” Broader gains would require changes in workflows, organizational structures, task allocation and incentives.\nSuch gains could help counter the demographic forces weighing on Korea’s growth capacity.\nIMF economists led by Korea mission chief Rahul Anand estimated that population aging could reduce average annual potential growth by 0.67 percentage point between 2023 and 2050, while broader AI adoption could raise it by as much as 0.44 percentage point.\n“Accelerating structural reforms remains crucial to boost Korea’s potential growth,” Anand said in an IMF statement last year. He called for a narrower productivity gap between large companies and smaller firms and greater use of innovation and AI.\nMore efficient allocation of labor and capital could add another 0.22 percentage point, while greater participation by women and older workers could offset about one-fifth of the drag from aging.\nThe BOK’s long-term simulations similarly point to productivity as the strongest lever. Higher total factor productivity growth could lift potential growth in the late 2040s by around 0.7 percentage point, compared with 0.1 to 0.2 percentage point from higher fertility.\nTaiwan offers an illustration of how AI demand can spread beyond export earnings.\nIts statistics agency expects growth of 11.05 percent in 2026 and 6.04 percent in 2027. Real private fixed capital formation is projected to rise 11.58 percent this year as AI demand drives capacity expansion across the semiconductor supply chain.\nThe island’s central bank forecasts growth of 11.48 percent this year and 5.82 percent in 2027, with AI and high-performance computing demand supporting exports and investment while stronger wages and domestic activity underpin consumption.\nThose forecasts do not establish a permanent increase in potential growth. They do, however, illustrate how an export windfall can spread through investment, supply chains and household spending.\nFor Korea, the durability of the chip halo will depend on how far those gains reach.\nProductivity improvements across manufacturing and services could help pull the economy away from a sub-2 percent potential-growth path. Gains concentrated in chip prices, factory utilization and a handful of large exporters would leave it more exposed when the cycle turns.\nThe BOK’s year-end estimate will offer an official assessment of whether the boom has simply made Korea grow faster for a time — or begun to raise the speed it can sustain.\nCopyright ⓒ Aju Press All rights reserved."
-    },
-    {
-      "title": "US, South Korean officials see little chance of Trump-Kim meeting this year - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeE5KTGplSk1ZRFJGRHJVaVM0TWppSW5JbFZGM19EaVVfaEtERGdkblJjdjlFRERUbEJhazVPX3NweWJ6RWNuYzNpdW9YRlBWdXRES1NOVFUxbFBycEJFUDFVamZOXzRyeW5ueXFTYlpHZFlvd3hycVF3Nmt2cG1jNWhvY3NuUkpPRUV4c3N6Y1J6Q0JVSnM1aUNlTVNWUVZ1bXZWdktkUFNOUllXcExibdIBuAFBVV95cUxQY0dNM0NUYjl4cTdNa3hsV3B5bVU2a2g2dDFpSllOTjJGbnZyNWZzMy0yNnZFTDlDM0ZOUW1xejlIcktSWGFNeHl4Y0xVSUh6a1NIWDQ0SS1YdjhiQWpKNkw2WmRmeWxybnBhU0dxVXBfbEdRc1psTTh1UTRLdDUwVHk1YjhDSDRfQ2xERUNEa0dDNHZXQVhqNVFrZ3RtWm9YYWl5RHZ3OXFuNUdkTGMyam1MakJUVEJE?oc=5",
-      "published": "Fri, 23 Oct 2026 07:40:35 GMT",
-      "summary": "US, South Korean officials see little chance of Trump-Kim meeting this year&nbsp;&nbsp;The Express Tribune",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-23T15:40:35+08:00",
-      "source_detail": {
-        "name": "The Express Tribune",
-        "url": "https://tribune.com.pk"
-      },
-      "priority": 7.2,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://tribune.com.pk/story/2636477/us-south-korean-officials-see-little-chance-of-trump-kim-meeting-this-year",
-      "full_text": "Pyongyang shows little interest in diplomacy aimed at containing nuclear program as Trump downplays meeting prospects\nUnited States and South Korean officials see the chances fading of a meeting between President Donald Trump and North Korean leader Kim Jong Un this year, according to five people with knowledge of the situation.\nTrump, the only US president to have met a North Korean leader, has been eager to jump-start talks with North Korea, but Pyongyang has shown little interest in diplomacy aimed at containing its nuclear program.\nThe US has received no response from North Korea on holding a Trump-Kim meeting, and there is little time left before a regional summit in China next month where it might occur, said the five people — four of them briefed by senior officials from the US and South Korea, as well as a South Korean official.\nNorth Korean state media has said Pyongyang would put tough conditions on agreeing to a bilateral summit, potentially including sanctions relief, even as Kim's powerful sister has said the two leaders have an \"excellent\" relationship.\nTrump 'open' to talks, nothing scheduled, official says\nIn August, the Republican president said he planned to meet with Kim later this year and that the North Korean leader had responded to his outreach. South Korea's intelligence agency told lawmakers late last month that there was a 50% chance of Trump and Kim meeting on the sidelines of the November 18-19 summit of the Asia-Pacific Economic Cooperation group in Shenzhen, China.\nBut on Monday, Trump, who met Kim three times in his first term, downplayed the prospects of such a meeting happening during the APEC meeting or a regional summit in the Philippines, also in November. \"I get along with him very well, and I'm not sure that anybody's asking for a meeting,\" Trump told reporters at the White House.\nAnother South Korean official familiar with the matter said Pyongyang has made no move indicating it is preparing for a meeting with Trump. All of the people spoke on the condition of anonymity to relay private conversations.\nSouth Korea's foreign ministry did not immediately respond to a request for comment. Last week, Seoul's ambassador to Washington, Kang Kyung-wha, said no concrete progress had been made toward a Trump-Kim summit.\nNorth Korea's permanent mission to the UN did not immediately respond to a request for comment.\n\"President Trump in his first term held three historic summits with North Korean Leader Kim Jong Un that stabilised the Korean Peninsula,\" said a White House official on condition of anonymity. \"US policy on North Korea has not changed. President Trump remains open to talking with Kim Jong Un, without any preconditions. No meetings to announce at this time. The leaders will meet at the appropriate time.\"\nLast month, a senior US official told reporters that Trump was \"ready\" to speak with Kim and that \"the ball is very much in North Korea's court.”\nA Trump-Kim summit could come abruptly\nAnkit Panda, a senior fellow in the Nuclear Policy Program at the Carnegie Endowment for International Peace, said there is less than a 10% chance of a meeting between Trump and Kim at the APEC summit. \"If Trump wants a meeting with Kim, I think the North Koreans are looking for a costly public signal,\" Panda said, arguing that a recent US decision to scale back exercises with South Korea had not been sufficient.\nWashington has occasionally sought the assistance of China, which has maintained close ties with Kim, in brokering talks with North Korea. But cordial talks between Trump and Chinese President Xi Jinping, set to continue at APEC, have not produced breakthroughs with Pyongyang.\nRead More: Trump, Xi wrap up summit with tea and archives tour\nThe two Koreas remain technically at war under a truce that ended fighting in the 1950-53 Korean War. The US stations about 28,500 troops and military hardware in South Korea in combined defence against North Korea, which has pursued nuclear arms and ballistic-missile development. South Korean officials, citing private research group estimates, have said North Korea possesses between 80 and 120 nuclear warheads.\nTrump's meetings with Kim in 2018 and 2019, while historic, yielded no concrete results.\n\"I don't know when they're going to meet,\" US Ambassador to South Korea Michelle Steel told an event in Seoul organised by the American Chamber of Commerce in Korea on Wednesday. If they could arrange a meeting, she said, it would likely be announced abruptly. \"If it happens, then it's going to happen the next day or within a couple of days' notice.\"\nCOMMENTS\nComments are moderated and generally will be posted if they are on-topic and not abusive.\nFor more information, please see our Comments FAQ"
-    },
-    {
-      "title": "Japanese Yen: BoJ policy and capital flows underpin gains against US Dollar - Commerzbank - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdEJ3TU1yeGMtaFJ3WmhzNERzX0FEUmZiY2Z3Qi1temNjcUtJVThMcE5hVE1DMVpyUnY1ZDFNQmJLUlhxaEV0aGNXbTVOa1JhdU5MNkpaLXFKcE5TOUducGhJeFo2dXlCSW9pa0ktMEJ5QVBnM2Q2MXhLUmVwUU9CMHgzall4VUxtVzlvTkV5Q0VQVnc0TFJsbTRIVGVISGpfVTVMVW5idi12dndYbnFwbnh0MWdvbnVocGpzZGR5SXVoTU5pWFZWQg?oc=5",
-      "published": "Fri, 23 Oct 2026 06:44:12 GMT",
-      "summary": "Japanese Yen: BoJ policy and capital flows underpin gains against US Dollar - Commerzbank&nbsp;&nbsp;FXStreet",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-23T14:44:12+08:00",
+      "published_beijing": "2026-10-23T14:28:36+08:00",
       "source_detail": {
         "name": "FXStreet",
         "url": "https://www.fxstreet.com"
@@ -380,161 +227,126 @@
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.fxstreet.com/news/japanese-yen-boj-policy-and-capital-flows-underpin-gains-against-us-dollar-commerzbank-202610230644"
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "South Korea's SK Hyper in Talks to Raise approximately $349.4 Billion for AI Data Centers; First Phase Alone Needs $350 Billion - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CdlNtSDF6VlRsV0R5WHhWRExKVnJlQTFVdVVfWjNISmNmSnRPT0FJdlo3bnBvbUtxZEcyalNKbXhKanlRby15LUp6d0hic3dsLWZ6SklpQ1pVZlJ3OHpteENyZ0k4c055YUVXYjByZ2hEVmpJRnc?oc=5",
-      "published": "Fri, 23 Oct 2026 05:35:00 GMT",
-      "summary": "South Korea's SK Hyper in Talks to Raise approximately $349.4 Billion for AI Data Centers; First Phase Alone Needs $350 Billion&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T13:35:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://finance.biggo.com/news/91132dc5-caef-4dd5-babd-6980281e6a60",
-      "full_text": "SK Hyper, the AI data center development subsidiary of South Korea's SK Telecom (017670.KS), has entered negotiations with major technology companies and financial investors to secure $350 billion (approximately ₩463 trillion) in infrastructure funding. Jung Seok-geun, who heads SK Telecom's AI CIC and also serves as CEO of SK Hyper, disclosed the ongoing fundraising talks in an interview with Bloomberg TV on the 22nd (local time).\nThe proceeds will be deployed to build 15 gigawatts (GW) of data center capacity in South Korea by 2035. Jung said the first phase—5GW—alone will cost $350 billion including equipment. Rather than pursuing the full 15GW plan at once, the company intends to pace investment in line with actual demand.\nJung argued that domestic demand alone cannot make the case for large-scale data centers. \"South Korea's data center market is currently about 1GW,\" he said. \"Given the size of the country's IT industry, South Korea has not been an attractive location for the global data center industry.\" The 5GW first phase SK Hyper is pursuing is roughly five times the entire South Korean market.\nThat is why the company is targeting AI demand across Asia, including Japan and Taiwan. \"We need to capture not only domestic sovereign AI and enterprise AI demand but also demand from other Asian countries such as Japan and Taiwan,\" Jung said. \"We are discussing with hyperscalers ways to bring inference hubs to South Korea, and we also want to attract training compute infrastructure.\" He added that \"many countries and companies are concerned about relying solely on specific AI models developed abroad,\" and that \"they need sovereign AI infrastructure they can control themselves\"—which he sees as the direction of the market.\nJung said securing power and sites for the first 5GW should not pose \"major difficulties,\" but \"the biggest challenges are securing actual demand in the global market and raising the capital needed to build the data centers.\"\nSK Hyper aims to secure its first external capital between late this year and early next year, then continue fundraising over the following three to four years. Jung said he envisions a structure in which data center tenants and external investors share the overall cost. \"Rather than pushing the entire plan at once, we will adjust the pace of investment according to actual demand,\" he said. \"We will respond to market demand while managing risk appropriately.\"\nRevenue could arrive before completion. Jung expects to generate revenue from 2027, ahead of the 2029 target for completing the first data centers. He believes industry demand for computing is growing even as AI infrastructure stocks have corrected recently. \"There is a lot of uncertainty in the capital markets, but AI model developers and service providers are seeing customer demand rise sharply,\" he said. \"Rather than waiting for actual demand to materialize, we need to prepare in advance so we can meet market demand.\"\nThe negotiations come as doubts about the profitability of AI investment are mounting again and concerns over data center credit risk are spreading. Over the past month, South Korea's large technology stocks have broadly corrected: SK Hynix has fallen nearly 35%, Samsung Electronics more than 27%, and SK Group affiliates more than 25%. Analysts say questions over whether future AI service demand can justify the trillions of dollars being poured into global computing infrastructure have weighed on investor sentiment.\nSK Hyper is a newly established entity into which SK Telecom has committed up to ₩750 billion (approximately $566.1 million) by 2030, targeting markets beyond South Korea across Asia. It is currently running a 900MW project in Ulsan and working with Amazon Web Services (AWS) on a 100MW data center project. Jung added that the company is in talks with the government to secure additional sites. SK Group also presented a strategy of using the expertise of its semiconductor, energy and telecom affiliates to offset South Korea's relatively high power costs with computing efficiency. \"Until last year, the key competitive edge was who secured the most graphics processing units (GPUs), but now what matters is who can generate tokens at the lowest cost and achieve high efficiency,\" Jung said.\nStarting with the Ulsan AI data center, SK Hyper plans to build a data center cluster of more than 2GW in South Korea's Yeongnam region and to establish gigawatt-scale facilities in the Chungcheong and southwestern regions as well. It aims to bring the first 5GW online in stages from 2029 and expand to 15GW by 2035.\nThe 5GW project is also part of the South Korean government's national AI data center (AIDC) plan. In June, the government unveiled its \"Three Mega Projects for a Great Leap,\" a vision to build 8.4GW in the first phase by 2029 (SK 5GW, GS 2.4GW, Naver 1GW) and a total of 18.4GW by 2035. SK Hyper's 15GW represents an expansion through 2035 of the 5GW allocated to SK under that plan.\ntimeline\n    title SK Hyper AI Data Center Timeline\n    2026-2027 : First external funding secured\n    2027 : Initial revenue expected\n    2029 : First data centers completed, 5GW phased into operation\n    2035 : Expansion to 15GW\n| Category | Details | \n|---|---|\n| Fundraising target | $350 billion (approximately ₩463 trillion) | \n| Construction plan | 15GW in South Korea by 2035; first phase 5GW | \n| Timing of first capital | Late 2026 to early 2027, with additional fundraising over 3-4 years | \n| Parent company investment | SK Telecom, up to ₩750 billion by 2030 | \n| Projects underway | 900MW in Ulsan; 100MW in cooperation with AWS | \nNote: The cost of the first 5GW phase includes equipment costs.\nMarket attention is focused on whether the fundraising can be executed. At around ₩463 trillion, the scale is unprecedented for a single private infrastructure project in South Korea, making it critical how much will come from large technology companies in the form of advance-payment-style investments and how much from project financing by financial investors. Given that SK Hyper has said it will execute investment in stages linked to tenant demand, the size of the first closing and the mix of participating investors are expected to serve as a gauge of financing terms for Asia's AI data center market going forward."
-    },
-    {
-      "title": "Asia week ahead: BoJ rates, China’s Fifth Plenum, Taiwan and Korea data - ing think",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hck9KbU5VYlNwZlRRblctY09FNWw1TFp5NlI1d0h6ZEhYSm1ENkNGZ29POHBVN0VmU3pJVkJHTmMyM0JTTDYzVXQ3dzgyUWlLclBGeTdwdXZoX0hRVzdoSlpQSnE?oc=5",
-      "published": "Fri, 23 Oct 2026 03:43:12 GMT",
-      "summary": "Asia week ahead: BoJ rates, China’s Fifth Plenum, Taiwan and Korea data&nbsp;&nbsp;ing think",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T11:43:12+08:00",
-      "source_detail": {
-        "name": "ing think",
-        "url": "https://think.ing.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://think.ing.com/articles/asia-week-ahead-231026/",
-      "full_text": "The Bank of Japan is expected to hold rates at 1.25%, while Taiwan’s economy is set to record another quarter of double-digit growth. Markets will also focus on China’s Fifth Plenum meeting and South Korea’s third-quarter GDP data\nJapan: BoJ expected to hold rates at 1.25%\nWe expect the Bank of Japan to keep its policy rate unchanged at 1.25% on Friday as it assesses the impact of last month’s 25bp hike. Our base case assumes two additional 25bp hikes in January and April 2027, taking the policy rate to 1.75%. While inflation remains elevated, policymakers may prefer more time to monitor the economy, particularly as the government continues to support domestic demand.\nJapan will release its October Tokyo inflation data and September retail sales and industrial production on Friday. Market consensus is for headline inflation to remain unchanged at 2.7% year-on-year, while core inflation eases slightly to 2.6%. Retail sales growth is expected to accelerate to 3.3% YoY, while industrial production rebounds by 1.3% month-on-month following August’s sharp decline.\nChina: Fifth Plenum takes centre stage\nThe key event for China is the Fifth Plenary Session of the 20th Chinese Communist Party Central Committee, taking place in Beijing between 26-29 October. The focus will likely be political rather than economic, but markets will scrutinise the communiqué for new signals. China will also release September industrial profits data. We’ll be watching closely to see whether August’s slowdown deepened or began to reverse.\nTaiwan: Double-digit GDP growth expected to continue\nTaiwan will release third-quarter GDP data on Friday. We’re looking for another quarter of double-digit growth, forecasting 11.4% YoY, amid strong external demand. Strong retail sales growth over the past few months suggests domestic demand will hold up as well.\nSouth Korea: Growth expected to remain resilient\nSouth Korea releases third-quarter GDP data on Tuesday. Market consensus expects growth to moderate to 3.2% YoY from 3.7% in the second quarter, while sequential growth edges up to 0.8% quarter-on-quarter. Continued strength in semiconductor demand should support underlying momentum. A solid reading would reinforce the Bank of Korea’s view that economic growth remains resilient.\nContent Disclaimer\nThis publication has been prepared by ING solely for information purposes irrespective of a particular user's means, financial situation or investment objectives. The information does not constitute investment recommendation, and nor is it investment, legal or tax advice or an offer or solicitation to purchase or sell any financial instrument.\nRead more"
-    },
-    {
-      "title": "South Korea holds key rate at 3% after two hikes - IntelliNews",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXVQanFaYnh4U3FtUWdsY0QtVkQ5Zml4NTZPYWpwYnpzYy13R1pnY25xbFh5dzRmX29ET3IyamhZM3lBclV5YTdVWW9YZUxvOVNRT25ZRnBTTTBCbExOYm9idUhrdFd3RnhUZWFDVTRCcFFUVGlUNWJEYy01ai1LZFhHOVk4QmZ5d0lRYXcycmFNeWVDN1ZjaFFkanhlYUlFYkhNUw?oc=5",
-      "published": "Fri, 23 Oct 2026 02:39:33 GMT",
-      "summary": "South Korea holds key rate at 3% after two hikes&nbsp;&nbsp;IntelliNews",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T10:39:33+08:00",
-      "source_detail": {
-        "name": "IntelliNews",
-        "url": "https://www.intellinews.com"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.intellinews.com/south-korea-holds-key-rate-at-3-after-two-hikes-478190/?source=south-korea"
-    },
-    {
-      "title": "Australia targets fraudulent North Korean workers propping up nuclear program - ABC News & Headlines – Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTzQ2Z09aWG9LeDBENlZwZFo1VWpfQ1JGQy1ZeXdlWVFqaXRpeUtNcGdWRzdzLVVUdHhfQkNheUFENmVvWF9NMWpFUnZXclkwRGNObUZpSUlXMDBUMlA4M1BkRDl2dWtHRmdWYjFwSzJwMHNsZks2LXVMOGZXclpEZld6NHNJWnRhTnpaelViUmRNMWM?oc=5",
-      "published": "Fri, 23 Oct 2026 02:32:50 GMT",
-      "summary": "Australia targets fraudulent North Korean workers propping up nuclear program&nbsp;&nbsp;ABC News & Headlines – Australian Broadcasting Corporation",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-23T10:32:50+08:00",
-      "source_detail": {
-        "name": "ABC News & Headlines – Australian Broadcasting Corporation",
-        "url": "https://www.abc.net.au"
-      },
-      "priority": 7.2,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.abc.net.au/news/2026-10-23/penny-wong-north-korea-company-sanctions/107301184",
-      "full_text": "In short:\nNorth Korean companies have been accused of employing workers to launder billions of dollars through cybercrime.\nForeign Minister Penny Wong has announced fresh sanctions and says the \"export of labour\" violates UN sanctions.\nWhat's next?\nAustralia continues to call on North Korea to comply with its international obligations.\nThe federal government has hit two North Korean companies and \"shadow bankers\" with sanctions for employing fraudulent online workers who help Pyongyang evade UN sanctions and earn cash for its nuclear weapons program.\nThe US and several other nations have accused North Korea of setting up an international network of IT workers to launder billions of dollars through cybercrime and overseas earnings.\nThe two men sanctioned by Australia — Sim Hyon Sop and Yu Py Ung — have been identified by US authorities as key financial brokers for the regime.\nIn 2024 the US Treasury called Yu Pu Ung \"a linchpin in the DPRK's illicit financial activities [who] is skilled at employing various schemes to avoid detection\".\nThe year before that the FBI offered a $5 million dollar reward for information to assist with the capture of Sim Hyon Sop, who the agency said helped North Korea evade sanctions.\nHe \"allegedly played a pivotal role in defrauding U.S. banks by remitting U.S. dollar payments to facilitate trade on behalf of North Korea,\" the FBI said.\nForeign Minister Penny Wong said the sanctioned companies employed North Koreans who impersonated nationals from other countries, worked on online platforms and sent their income to key North Korean government agencies.\nSenator Wong said that was \"a violation of UN Security Council resolutions that prohibit North Korea's export of labour\" and that Australia was acting \"in coordination with international partners, including the European Union\".\n\"Australian sanctions reinforce our ongoing efforts, alongside international partners, to disrupt North Korea's illicit revenue-generating networks and increase pressure on the regime to comply with its international obligations and abandon its nuclear and ballistic missile programs,\" she said.\nNorth Korea has repeatedly denied setting up shadow financial networks and says the allegations against it are fabricated.\nBut law enforcement and financial institutions from across the world say there is a mountain of evidence to back their accusations.\nIn July the US, Australia, Japan, South Korea, the UK, Canada and several European nations warned that North Korean workers were employing \"increasingly sophisticated methods, including the integration of AI, to obfuscate their identities and expand their activities globally\".\nThey urged countries around the world to \"deepen their understanding of North Korean IT worker schemes and implement measures to counter [them]\".\nNew Zealand's cyber authorities also warned in advisory earlier this year that a North Korean operative posing as remote contractor was unwittingly hired by a local business.\nSenator Wong said Australia continued to call on North Korea to \"comply fully with UN Security Council resolutions and to take concrete steps towards complete, verifiable and irreversible denuclearisation\"."
-    },
-    {
-      "title": "South Korea’s $114 Billion Fund Dispute Raises Questions Over Finance Chief’s Abrupt Firing - 최보식의언론",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZWm0ydVc0cUQ2NFo3czNyNTlZbG1iWE9lTU5aZVJ6dl9fWnBxUlk4dU5FUzVFTzU0OUE5OXd2ZmZ6Y1VsdDVlUHdyNkYtUm5nZmtxWkxxN0U2WG4tbURtclpHYUllXzBK0gFoQVVfeXFMTllabTJ1VzRxRDY0WjdzM3I1OVlsbWJYT2VNTlplUnp2X19acHFSWTh1TkVTNUVPNTQ5QTk5d3ZmZnpjVWx0NWVQd3I2Ri1Sbmdma3FaTHE3RTZYbi1tRG1yWkdhSWVfMEo?oc=5",
-      "published": "Fri, 23 Oct 2026 01:09:37 GMT",
-      "summary": "South Korea’s $114 Billion Fund Dispute Raises Questions Over Finance Chief’s Abrupt Firing&nbsp;&nbsp;최보식의언론",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T09:09:37+08:00",
-      "source_detail": {
-        "name": "최보식의언론",
-        "url": "https://www.bosik.kr"
-      },
-      "priority": 7.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "canonical_url": "https://www.bosik.kr/news/articleViewAmp.html?idxno=29581",
-      "full_text": "[Choice Times=Jin-an Kim, Former Head of Samsung Electronics Central Europe Region]\nNo secret remains hidden forever.\nWhen South Korea’s top economic policymaker was abruptly notified of his dismissal at Incheon International Airport on August 30, just as he was departing on an overseas business trip, many citizens, including myself, found it difficult to shake the strong suspicion that there was an untold story behind such an extraordinary and abnormal personnel decision.\nThe sudden dismissal showed not even the minimum procedural courtesy, let alone respect for the honor and dignity of a deputy prime minister responsible for overseeing the nation’s finances. It was difficult to escape the intuition that some dark, undisclosed circumstances lay behind it.\nFiscal Principles Ignored: What Lay Behind the Airport Dismissal\nOn October 22, the circumstances behind the dismissal began to emerge through a press conference held by Park Soo-young, a lawmaker from the opposition People Power Party.\nI do not blindly accept every fragmentary disclosure or political allegation made by an opposition lawmaker as the absolute truth. Political disputes inevitably involve competing interpretations and interests.\nNevertheless, regardless of the accuracy of the allegations or the political calculations behind them, the disclosures were sufficient to transform my vague suspicions into a conviction: there had indeed been undisclosed interministerial conflict and hidden circumstances behind that abnormal dismissal.\nThe circumstances surrounding a massive 162 trillion won national fiscal fund had become clearer. The ministry responsible for managing national finances had issued warnings based on fiscal principles, and the deputy prime minister was abruptly dismissed following a breakdown over those objections.\nAccording to documents released by Rep. Park Soo-young, former Deputy Prime Minister for Economic Affairs Koo Yun-cheol submitted ten requests to delete or revise provisions concerning the management of surplus funds in the Future Response Fund bill being promoted by the Ministry of Planning and Budget.\nAs the official responsible for the nation’s finances, Koo was making legitimate and entirely reasonable recommendations grounded in fundamental fiscal principles: correcting a structure that sought to circumvent the Public Capital Management Fund and using additional tax revenue to repay national debt first, thereby safeguarding the soundness of public finances.\nHowever, the Ministry of Planning and Budget, headed by Park Hong-keun, a former four-term ruling-party lawmaker, completely disregarded the requests from the Ministry of Finance and Economy, the government department responsible for overall fiscal coordination. It did not accept a single word of the proposed revisions.\nJust three days after making those requests, the deputy prime minister was notified of his dismissal at the airport. Within a week, the bill was rushed through a Cabinet meeting.\nGiven these circumstances, it is reasonable to view the dismissal as an abnormal personnel decision prompted by displeasure at the highest levels of government and within the presidential office.\nIt was a typical case of unilateral fiscal recklessness, carried out by trampling on the judgment of a principled professional public official.\nEvading Constitutional Fiscal Oversight and Structural Contradictions\nFormer Deputy Prime Minister Koo’s objections also reflect fundamental principles of public finance supported by many academic and professional experts.\nIndeed, a survey of Korean economists reportedly found that more than 60 percent believed that when excess tax revenue arises, the government should give top priority to repaying national debt before establishing new funds or expanding spending.\nUnder the National Finance Act, using excess tax revenue to repay government debt first and reduce unnecessary interest expenses is a matter of legal and fiscal common sense.\nThe idea of locking money into a separate fund under arbitrary criteria and artificial classifications in order to bypass the Public Capital Management Fund amounts to a maneuver designed to evade the National Assembly’s constitutional and statutory authority over public finances.\nThe structural and numerical contradictions are equally difficult to overlook.\nTaking funds that generate government bond yields and interest costs of approximately 4.5 percent annually and placing them in a fund earning around 3.85 percent creates a fatal dilemma in which the real value of public finances declines the longer the arrangement continues.\nMoreover, guaranteeing private asset managers a massive 115 billion won in fixed fees over four years, regardless of performance, for a return target that could be achieved through relatively safe investments in short-term bonds clearly violates the principle of minimizing public-finance costs.\nThis means pouring taxpayers’ money into private management fees that could be saved by using established and capable public institutions, such as the National Pension Service’s Fund Management Headquarters, the Bank of Korea, or the Korea Investment Corporation (KIC).\nThese warnings about fiscal principles are also entirely consistent with the perspective of the monetary authorities.\nBank of Korea Governor Shin Hyun-song recently warned that “once permanent spending is increased using temporary resources, it is difficult to reverse,” issuing a stern warning against the government’s indiscriminate expansion of expenditure and populist fiscal policies.\nJust as he called for an early exit strategy from market-distorting policies such as petroleum price ceilings, establishing a massive new fund and expanding spending on the pretext of temporarily favorable tax revenues is a shortcut toward the long-term destruction of national finances.\nFrance’s Crisis Demonstrates the Disaster of Populism\nThe tragedy that can result from populist welfare policies and reckless fiscal spending is neither a distant foreign story nor merely a statistical warning.\nFrance has recently faced a fiscal crisis marked by government debt exceeding 120 percent of GDP, rising government bond yields, and credit-rating downgrades, following structural deficits attributed to the political establishment’s populist expansion of welfare spending.\nEven more serious is the social chaos that has erupted as the government belatedly attempts austerity measures and welfare reductions to replenish its depleted treasury.\nResistance from groups accustomed to government benefits has reportedly led to violent demonstrations so severe that troops have been deployed in urban areas, along with political paralysis and breakdowns in public security.\nThe situation in France, the author argues, clearly demonstrates how irresponsible political promises to distribute benefits in exchange for votes ultimately exhaust national finances and lead to social catastrophe and extreme disorder, to the point of requiring military deployment.\nNevertheless, warnings from senior officials in the ministry responsible for public finances were thoroughly disregarded.\nYoung civil servants reportedly expressed their frustration on the Ministry of Finance and Economy’s internal message board, describing a fund that begins by asking how to spend money as a “Future Extinction Fund.”\nThe government and ruling party have attempted to present the fund as a “normal fiscal stabilization mechanism.”\nYet by forcing it through while disregarding the principled objections of the ministry responsible for national finances and the recommendations of numerous academics, they have already deprived it of both procedural and substantive legitimacy.\nThe Harsh Consequences of 162 Trillion Won in Reckless Spending\nIf this enormous 162 trillion won in liquidity is released indiscriminately into the market, the harsh consequences will inevitably be borne by ordinary citizens.\nA massive injection of funds would weaken the value of the currency, push up the prices of daily necessities and raw materials, and trigger sharp inflation, relentlessly eroding the real incomes of ordinary households.\nAnd that would not be all.\nThe flood of government bonds issued to raise 162 trillion won would push up bond yields and accelerate increases in market interest rates.\nThose increases would eventually be passed on through higher mortgage and personal loan rates, imposing a crushing interest burden on heavily indebted homebuyers and small-business owners.\nFurthermore, reckless expansionary fiscal policy that runs counter to the monetary authorities’ tightening stance would weaken the Korean won, destabilize exchange rates, undermine the country’s creditworthiness, and encourage capital outflows.\nIt would leave future generations of young Koreans burdened with an enormous and potentially unbearable legacy of debt.\nNo matter how elaborately it is disguised with impressive rhetoric, the darkness concealed behind abnormal conduct eventually comes into the light.\nPolitics may create illusions through populist expansionary spending, but economics and public finance, governed by numbers and legal discipline, cannot be deceived.\nThe government must transparently disclose to the public the abnormal decision-making process that led to the “airport dismissal” and comprehensively reconsider its proposal to establish the 162 trillion won Future Response Fund, which threatens to seriously undermine fiscal soundness.\nImmediately halting the reckless surge in populist fiscal spending is the only way to prevent the financial ruin of the people and the nation.\njinannkim@gmail.com\n#SouthKorea #FiscalPolicy #GovernmentSpending\n* This article has been translated by ChatGPT."
-    },
-    {
-      "title": "Japan government, BOJ gap on inflation laid bare ahead of key policy meeting - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQW0xZWdsSEphWEdwUkZxa2VYX0hwOXRaMzFpcHJ5X1VaVzZ2UlQtajVvSnBYQkFnOS1vTUs0RHBkZXBPa2I4T1hVZWV1cjZBNHY3cy1kN2I2RmIzMHprVE1nMTZwUVNjcVY0NDBxdWRkdUlRekd4U21BXzdqLWRMMjEtXzJyVkJVN29SdGRNNm16a3dUa2s1MGNINEZubXJKb1pxNkhIOU05Y2JYZlZvYndTeFdNcldsc3c?oc=5",
-      "published": "Fri, 23 Oct 2026 00:06:00 GMT",
-      "summary": "Japan government, BOJ gap on inflation laid bare ahead of key policy meeting&nbsp;&nbsp;Reuters",
+      "title": "Global Market: Japan’s core inflation accelerates, putting BOJ rate hikes in focus - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUWlaUFJlUjFMbFlteENjMXptdGRreUgwWFRERXVya2xyOWZsV3RRd2NSSzFsZEJfUkh6bm1mWGVrNUJ1RWZaZnRVdHE3eVRTajBWOXBfNkdLbGY5VEhPZjNNX0sxdWZlTS1FVTExWWNqZWNNS2w3M0RtblJ5bHNYZUo2d2hOdTVob1M1SWo1R0pwN0JFSVU2TnE0X3dLTm5EcFZmQXJ1NkxlTXUtcUpLQlJiX1lpT3diUmdMZmhzT1QwWFIwV1VTSHlxTHpVYWxINWU1OUZhU2dpcG85T05seEd3bk43Q2tKRU8yMHZlRXNrZHVIclRBbExDTXN2Z9IBgwJBVV95cUxQTVdqMFF2VHZnbnl0a2VRd1phNTBPa3hmMjJkTVFtcV93UjEyYnZ0SWVyZlJDeHJ2STl6Z2NSN293emtCUGVEb3Z3emlhY2Ntb3R4N0w0dGM5S1NqUVRhcU1HWVZ1Y3hjOTVicHQzV1VDVHVmVWJfa1k1S0JwR0dOVURqaDBnaVhyNi1lVjZodlJQclhHbURTUDhHU1BoOG1uVU1SaDRjeVYxOGRsWHpaNVhsOVNjLUN3LWZ0QXU2WEt4eHNNcmNmRHBjaDY1ajdfcV84c1dOdUVqUEs3RkZoREVRaEN6SWtRZGRMR2QtZWYzc2pTYVVlVm1zUlVhQnZEUzFz?oc=5",
+      "published": "Fri, 23 Oct 2026 05:12:44 GMT",
+      "summary": "Global Market: Japan’s core inflation accelerates, putting BOJ rate hikes in focus&nbsp;&nbsp;The Economic Times",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-23T08:06:00+08:00",
+      "published_beijing": "2026-10-23T13:12:44+08:00",
       "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 7.2,
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.reuters.com/world/asia-pacific/japan-is-not-yet-officially-out-deflation-economy-minister-says-2026-10-23/"
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "UK expands Semiconductor Catapult for AI, defence electronics - electronics.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeXBnQnJvUUZ3WW9tRjZFd2FUQ3prUnJKNGtUUjcwQmlEQmJTZS1zYmpUT29SQWhUeUNycVlPSnhsbUJfLUp0Sk1mRW9zYWFkMVZkVUVPNnVnaWhxX2ltSjI3N3hfQy1BQ0lpbHZNckw4MzRXa2NtbExCTFQwR3EzX1BQa0dCUFZITUNpamhxSHg2SWkzV3hkc2FHZFVTOW5Ud0JEeFRSdzV4N0RrOEhlTWpaVzJzc3hzSFY0TWQxS3lxb3laUUJwcHJ4M1RRM282anRpX3J30gHaAUFVX3lxTFBkVUF6TVdJamNVenlkRTFLY0JFYV9Mbi1tUV8yazl2Z3drMmxscDc2Sll2VWpLLXFjWXFFQjEweHYtbkpFdzVySWFtSEhYVkFmRm90aU1LTURMQVVyZi1kQ1FKZExzdlhodWtFRXhyOWlGVGtORUdfSTNqa3BudEF3Yldwdmo4cFpVSE1EN3hWekJDV0FnMVJSeWFhbmxibkE2UDktdnB1U0E4dnJzbGNqbF9KcWpxeFFqTUQxckZpTXJGUWxMN3F3OEo0bXB0ZUtFbFN4a09wc293?oc=5",
-      "published": "Thu, 22 Oct 2026 13:12:39 GMT",
-      "summary": "UK expands Semiconductor Catapult for AI, defence electronics&nbsp;&nbsp;electronics.economictimes.indiatimes.com",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-22T21:12:39+08:00",
+      "title": "Japanese Yen retreats from one-month top vs recovering USD as focus remains on Fed and BoJ - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2tDckhVVzdtZGo1MzJBMG5odzQ3LTNTUFVURVVNbDZhU0RSSGh3S19IYjlwUEhXaHpNdTVERFRsRzBHVW16Y29DMzVlek51bmpKXzVZUVBabTF5M1FiR0ExbDRfaXdTcTZJQ243aFB3VlVobEFtZ2FhTUNqajhBQjloUjhlZnJhdGVQLTdXakdMZmVBenA5b2pwV2ppRnVLMnRrSm9rbTV2NGEzX2JWMk1OcGlfMnpUY2RsWGI1UFJVTmgtcEx6bDVlc29lUQ?oc=5",
+      "published": "Fri, 23 Oct 2026 05:09:19 GMT",
+      "summary": "Japanese Yen retreats from one-month top vs recovering USD as focus remains on Fed and BoJ&nbsp;&nbsp;FXStreet",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-23T13:09:19+08:00",
       "source_detail": {
-        "name": "electronics.economictimes.indiatimes.com",
-        "url": "https://electronics.economictimes.indiatimes.com"
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com"
+      },
+      "priority": 7.2,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Japan government, BOJ gap on inflation laid bare ahead of key policy meeting - WNWN-FM",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSGczTU5xSXEyWFp2VFhJVjYxa18wbEdwRzNOZmJNV2lfcTVkQjR6VG1nZ1lkN3ZGbENCS3ljWEdYVTZOVVh5UWc0cVdhT19lTkc0NkNZWmFwZ3FlTzk2NHRnNnFidW5pay1aeGlZSmxPcF90Wi05NzM5dXdLbzl6cFFNaDFQSDdkUWZJNmxXZEVwdjBQajh6UXFGZHliT2prRlg0?oc=5",
+      "published": "Fri, 23 Oct 2026 04:40:24 GMT",
+      "summary": "Japan government, BOJ gap on inflation laid bare ahead of key policy meeting&nbsp;&nbsp;WNWN-FM",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-23T12:40:24+08:00",
+      "source_detail": {
+        "name": "WNWN-FM",
+        "url": "https://wincountry.com"
+      },
+      "priority": 7.2,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Taiwan’s first-ever chip worker strike at Micron plant - Digital Watch Observatory",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNOWR3XzRUR3NQd1NFcEtYOWh4WXVma1FsQi04YUh4cjMyeHZNQUtaQlhpa0hGQU44SVVVM2tZRUg5UHpkNF85bmJ2MGl1RkdqRGFiZjBiOGZpYkkwNEw4UHcteDlvc19ydUdLNG1WdFB2anNnVXg2R2dGWUM2bDA?oc=5",
+      "published": "Fri, 23 Oct 2026 13:35:54 GMT",
+      "summary": "Taiwan’s first-ever chip worker strike at Micron plant&nbsp;&nbsp;Digital Watch Observatory",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T21:35:54+08:00",
+      "source_detail": {
+        "name": "Digital Watch Observatory",
+        "url": "https://dig.watch"
+      },
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "SK hynix bucks AI sell-off after scrapping Solidigm IPO review - The Korea Times",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUDQ1dGk1YmZFTkFNQnBJVl9NU0xwTWdRMENpVFZpa01CaXFKbzJSaGc5Q1hBelUtSUdBM2h3R1FNc0R2UG1rOVpPWXU2ZmRvV2NiSVhIZHRkaGdnWk5JbjlzTklMNGJyRjV0MnAwenppazFWSzY0ZWszaFQwaGR3QnRvRGEtQTVlNWdTSzNxNGpBSmV2X3FPcXlpNTlHVHQxekFXbjVIZWc4MzB40gGyAUFVX3lxTE1mYXNTTmFUeGxmWjJVOXBTSk8xVFlrd1BYUFNFZVFDamNqaTVOeFVoc25FVy0wZ2IxckVnOWM5aERxanFsVHlQVjFuZXc4THpEbENTSDB2WmpDM2FfVFVOT1dIdEMzWlJ0dXkweDJrTm5WbWdIX3hqdGtGaXJNUE1zWUFqOWZyNVN1dmJQOF9HR2RzbXR2TElIYW1BOEFUNTgwb0JfWFV1QUg0bUhZUlVLSVE?oc=5",
+      "published": "Fri, 23 Oct 2026 07:23:02 GMT",
+      "summary": "SK hynix bucks AI sell-off after scrapping Solidigm IPO review&nbsp;&nbsp;The Korea Times",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T15:23:02+08:00",
+      "source_detail": {
+        "name": "The Korea Times",
+        "url": "https://www.koreatimes.co.kr"
+      },
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Korea's Q3 Growth Data Arrives Amid Global Rate Super Week - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTExWVjk2UnBXZ2JHTVJnb1JFMXZiWkUxblpDSC1OeGVCVzhsOWpPcHlmYmZfYU1wSk5ROWhwS0xuSk5udGNKOXFKOW14UmpySXBmamhjcjZleEJ6Q1RKdlR5Q2lZWUlDS3ZLX0R3dy1hMDMzRkEzZTdEeWdPV0pWT25WbUxfZTV6Q0s5blhTaFZFNFhvSmJIVDJNd2Q4b3dp?oc=5",
+      "published": "Sat, 24 Oct 2026 21:00:05 GMT",
+      "summary": "Korea's Q3 Growth Data Arrives Amid Global Rate Super Week&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-25T05:00:05+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 3.6,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Why Dan Ives Sees NVDA And Korea Memory Stocks Driving AI Demand - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWZDYnFKY09WaWVNQjZOUXVQQi1LS3ZfSTN5VG1SNFJ4VlFGN204TkowMnBuRzBWdk1peWJGWk9XYU43UXJRZmpjMnlEeExvUW5haGRJSVJMa2x5QVAtR2xwbmlsZ3Z1ZjlqN1M0OUc3cnZjanpxLURLQ052OWRlYXAxX013VTBpaUt4MVVkOG9ORVl3cHBjTjRlSlFzTGFqWERKVVdKMUZsN09adWQ4bjZEQjFPaHNjV2xfb0hsTTRKWTg?oc=5",
+      "published": "Sat, 24 Oct 2026 18:37:17 GMT",
+      "summary": "Why Dan Ives Sees NVDA And Korea Memory Stocks Driving AI Demand&nbsp;&nbsp;Stocktwits",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-25T02:37:17+08:00",
+      "source_detail": {
+        "name": "Stocktwits",
+        "url": "https://stocktwits.com"
       },
       "priority": 3.6,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "Nvidia Expands AI Alliance to Electronic Components with Korean Firms - Businesskorea",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kM1BXeWRvemtxSlZmSS1HQUJPdTl0MEE4Ti1YMFF4RjcxTllCRDZIU3JxZzE2VGpUcGVFcFlBRVVILUlwNElhOU1MQzdLaWhkNU1BTGpkS2JWU3ptb3J6TWxIcFI3ZzNzeTJmRzl3MFk4VU9x?oc=5",
-      "published": "Thu, 22 Oct 2026 12:35:22 GMT",
-      "summary": "Nvidia Expands AI Alliance to Electronic Components with Korean Firms&nbsp;&nbsp;Businesskorea",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-22T20:35:22+08:00",
-      "source_detail": {
-        "name": "Businesskorea",
-        "url": "https://www.businesskorea.co.kr"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "SK's Chey Tae-won Says AI Is Breaking the Semiconductor Cycle Playbook as Samsung, SK Race to Expand Supply - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aVWJwM2xsaHp1ZEhmWTk1VUp1cFo4MTFYbW5fSEJPa3JtRmtsV3F2UE13ZTIxWHJJeHRIWWJPUUJZWkJqdHJsSHpzWWRXOVM2ZS1pM3Q2eERIbXRiNVAtMG1mWTJjTk1wRlZRMFhYZ2dGVWhCb2c?oc=5",
-      "published": "Thu, 22 Oct 2026 10:05:00 GMT",
-      "summary": "SK's Chey Tae-won Says AI Is Breaking the Semiconductor Cycle Playbook as Samsung, SK Race to Expand Supply&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-22T18:05:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
       "title": "USD/JPY Forecast: Is Rising Japanese Inflation Supporting the Yen? - StoneX",
@@ -550,194 +362,241 @@
       "priority": 3.6,
       "category": "日本",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "The Bank of Korea's Monetary Policy Committee froze its key interest rate at 3.00 percent per annum - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wcENZLWlRYmFGVlh1dWdHZW1XeDlrRnVJLW9KRnk2bHhDRXBXX3V0LWRSV3Ewc0Rxd1hHN19WRXpoT29rQjB2eHZ3VGtUMEY5NlE?oc=5",
-      "published": "Fri, 23 Oct 2026 11:30:33 GMT",
-      "summary": "The Bank of Korea's Monetary Policy Committee froze its key interest rate at 3.00 percent per annum&nbsp;&nbsp;매일경제",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T19:30:33+08:00",
+      "title": "Nasdaq Falls to 26,424.82 as Meta and AI Cloud Stocks Offset an Early Chip Rebound - BBN Times",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYTdINUVNZzd6T1NMeExGZHVCcFhBaGxLYU9iZTJ5UmdXb3cwUldLX2p6MmlYQ3FCR2NOT05HTkU0NXZvZ01xZjByMFJ0VmE1OWFVaU11bUh4UVJONWtreFhmT25SazRudkl1d3FIa2k3R01BTFlMd0VqOXhzekFGdTdJRjJqYTJHVU1MUHlFcy1yeEwxTjRyWXU2c0NSTm1yMWU4S1dtcDhudkMzeUFZTFdSV3ZmYWMwa3c?oc=5",
+      "published": "Fri, 23 Oct 2026 15:49:04 GMT",
+      "summary": "Nasdaq Falls to 26,424.82 as Meta and AI Cloud Stocks Offset an Early Chip Rebound&nbsp;&nbsp;BBN Times",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T23:49:04+08:00",
       "source_detail": {
-        "name": "매일경제",
-        "url": "https://www.mk.co.kr"
+        "name": "BBN Times",
+        "url": "https://www.bbntimes.com"
       },
       "priority": 3.6,
-      "category": "韩国",
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Chart of the Day: Is USDJPY running out of road? Inflation forces the BoJ to act, but the Fed could spoil the Yen’s rally - XTB.com",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOSlkyQ1QzcnhNZW9CNndoaTNKZzhjSWJOblNucnBjWS1rOXA2enhER0ZYdGxFYTJSTlhlZW9WNWhrRXdCMXN4MHZmcVpfc0ZSUExTVTRmcjg2YzFwLWRGUGI0LW9ZRVJtUFo0T00teE5mazZscFIyYi1iOHFOWmV5YjdxOTgxREoyRFFMd0VzWWpucG4wcWdiQVdWcjFCRzJRZzhPeDlyOWVEN0JSWWVORU1XaEs5bjYwdjNQc2lweXdSb3F4anZOaFlWVVNGczlqNURza2JPdm5DNFpRZ0pNdTF2TmNPcnlvZnFreThjQzB3MU5KZDBUMW9ybjhLZHp2Y213Zy1PTQ?oc=5",
-      "published": "Fri, 23 Oct 2026 08:14:38 GMT",
-      "summary": "Chart of the Day: Is USDJPY running out of road? Inflation forces the BoJ to act, but the Fed could spoil the Yen’s rally&nbsp;&nbsp;XTB.com",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-23T16:14:38+08:00",
+      "title": "Global capital flows return to technology themes, with Asian equities attracting record inflows not seen in nearly four years. Are semiconductors benefiting from a dual catalyst of bottom-fishing capital and improving fundamentals? - 富途牛牛",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb0pEYlVjQ3NuX2JHd3ljQklGUWJYNkZnMXVUa3FncHZVSzllUU8tY3pPMlFINE5BaW1WZTdLQmNWeGljSTdZc084aFNtZ1NZanFRQjVPNkxFd21LcEhMMEFNWTkxRG1LaTdEbFIxUFRza1V1cGFxQmpUcnhQMEE3bU1OZnFmQkRGX25YMzRZQ2xMUlprZVdYU3ljeTVUcGw5M0l2a2tHeHFjT3FDSlh2eQ?oc=5",
+      "published": "Fri, 23 Oct 2026 14:03:12 GMT",
+      "summary": "Global capital flows return to technology themes, with Asian equities attracting record inflows not seen in nearly four years. Are semiconductors benefiting from a dual catalyst of bottom-fishing capital and improving fundamentals?&nbsp;&nbsp;富途牛牛",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T22:03:12+08:00",
       "source_detail": {
-        "name": "XTB.com",
-        "url": "https://www.xtb.com"
+        "name": "富途牛牛",
+        "url": "https://news.futunn.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Japanese Yen Surges Across FX Majors as Risk Aversion Intensifies - FOREX.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmdZYmNxZXhwMllyc3pkRDVwNHpoVHprbTlSX3A5di1fSm5sUmFvdl9uS0MweE5hYktnaXQ1eDBRWmU1Mm1kNDlFLTZSUW9IeGVaMmRDRnRHTERPNmFfNEt1aTNEaF9iZ3o5ekhobGktSmx4NHk4RXBJQlVTb0RxZkFEZnJ1RFZLYjdMOFNCX1dmUnRLMjR3MXV1dzkyTDg5ZEZOWmNDOE1uaGh0bUlmb1h3?oc=5",
+      "published": "Fri, 23 Oct 2026 13:14:55 GMT",
+      "summary": "Japanese Yen Surges Across FX Majors as Risk Aversion Intensifies&nbsp;&nbsp;FOREX.com",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-23T21:14:55+08:00",
+      "source_detail": {
+        "name": "FOREX.com",
+        "url": "https://www.forex.com"
       },
       "priority": 3.6,
       "category": "日本",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Morgan Stanley: Bank of Korea's \"Hawkish Hold\"; 0.25-Point Hike Likely in November - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xQnpRQU5CZ0I5RHVreG1UcTZ3TkxReXRXZEszS2ZzaUZ5eTVYdG5PREZaay1iZHdrZ3hBeWFUeXZnbVlTY1JrV1A0MEZnVzlNZmhBNklYX1dsTVY5LTNIclJOQ1M?oc=5",
-      "published": "Fri, 23 Oct 2026 06:10:02 GMT",
-      "summary": "Morgan Stanley: Bank of Korea's \"Hawkish Hold\"; 0.25-Point Hike Likely in November&nbsp;&nbsp;아시아경제",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T14:10:02+08:00",
-      "source_detail": {
-        "name": "아시아경제",
-        "url": "https://www.asiae.co.kr"
-      },
-      "priority": 3.6,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium"
-    },
-    {
-      "title": "KOSPI Breaks Below 5,400 as Philadelphia Semiconductor Index Plunges 6.7%; SK Hynix's Solidigm IPO Halt Fails to Lift Sentiment - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnN2NQQzZVTV93dmQtS2pKZVdfMjluVFVXYWtTRnd2NnlBQnZ4U0dYU0tUckhGVUE3cVNRR040TU1MRGRJT3pEeXQ1dmV4Y0tpZUt6NVhhZDFsSVdJMTkwUWRMbmFmdm5uR0tkWU40Y1NubURhVmc?oc=5",
-      "published": "Fri, 23 Oct 2026 00:55:00 GMT",
-      "summary": "KOSPI Breaks Below 5,400 as Philadelphia Semiconductor Index Plunges 6.7%; SK Hynix's Solidigm IPO Halt Fails to Lift Sentiment&nbsp;&nbsp;BigGo Finance",
+      "title": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount - Financial News London",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMEExVjVrTnNNVFo4bXk4YTZEZnFqUS10Nlg3WmV1dVZsUUZJeEE4Sm10SDRsT0pOOV9vbHdJNWlUMnJsbnRFb19LLVU1Tnh1RkhwY1NLNjZkZ0puOWpZaXRzM2hIUWFmLUV1OUE3bW1kdEJsUzFoWldpYktkdDVzUXdOOHF1d0M4U2d0VFprVlkwbXkxX2lXcTJ0akFRdEw2SUIxZlZBYzEtVHVWQjNv?oc=5",
+      "published": "Fri, 23 Oct 2026 08:55:00 GMT",
+      "summary": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount&nbsp;&nbsp;Financial News London",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T08:55:00+08:00",
+      "published_beijing": "2026-10-23T16:55:00+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "Financial News London",
+        "url": "https://www.fnlondon.com"
       },
       "priority": 3.6,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Democratic Party Protests Acquittal, Relieved to Avoid By-Election - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTlV0eGlTTEFXc1E5MUVnZ3JJaEVWTm9OOHBjbWV2a3J6c2RqMGVfOTBQWVhVTVpUaXd4WllFdnBVSDFPX1AyOGVLbmNCbWJBenBod3RTRXNCVldtTjRROUdQZ2hmR291Q3VKUDBKRXgzWjNyaEN6VEhodDVWMGNmZHNlSWxlcnNt?oc=5",
-      "published": "Sat, 24 Oct 2026 01:29:30 GMT",
-      "summary": "Democratic Party Protests Acquittal, Relieved to Avoid By-Election&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-24T09:29:30+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Even investors in Samsung Electronics and SK hynix say: “If it goes up, I sell first”... Retail investors grow wary of long-term investing [Why the stock market?] - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03MHRtajlJX3htY3AxLTUyVmN2LVRYNTZRSm05azlQM1psR0VJOGJsaGhxTFNFOTVWdE11N0pmajQweEExU0luVy0tU2hhYXNRUVhoVjZuSEQ?oc=5",
-      "published": "Fri, 23 Oct 2026 21:00:00 GMT",
-      "summary": "Even investors in Samsung Electronics and SK hynix say: “If it goes up, I sell first”... Retail investors grow wary of long-term investing [Why the stock market?]&nbsp;&nbsp;파이낸셜뉴스",
+      "title": "Korea Inc. turns private retreats into discreet settings for dealmaking: Hyundai eyes new corporate guesthouse - KED Global",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xamsweTZIX216bEkycjczV1l1T1ZsUkZUanNaODU0YnZFaEYtajFOckRVdW1IRGJNVmN2ZmNKRWNqczNDeHN6ck5jTmZaVnNxMXVFM3pPTEtzZTBiQmJVbXlWLXpMVVEyZGNqVC1YeVRlVEMxN1UzX291Nng?oc=5",
+      "published": "Fri, 23 Oct 2026 08:17:00 GMT",
+      "summary": "Korea Inc. turns private retreats into discreet settings for dealmaking: Hyundai eyes new corporate guesthouse&nbsp;&nbsp;KED Global",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-24T05:00:00+08:00",
+      "published_beijing": "2026-10-23T16:17:00+08:00",
       "source_detail": {
-        "name": "파이낸셜뉴스",
-        "url": "https://en.fnnews.com"
+        "name": "KED Global",
+        "url": "https://www.kedglobal.com"
       },
-      "priority": 1.2,
+      "priority": 3.6,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "KOSPI Barely Holds 5,550 Level as AI Funding Worries Loom; FOMC and Samsung/SK Hynix Earnings to Set Direction - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VREgzYWNObTJXNFROc1RzVEhRZGNFNHRvdk1yRDR6cEpMV1Qyd1lNcDBEVzNFbnBlQTZRWlZUcHlmZkJnYzRlRGRoQ0tSWHNwMUJHMkk0b3RNSURYT01MTzV4ZWRXd1d1aFMxTE5vOHdlaTlSMEE?oc=5",
-      "published": "Fri, 23 Oct 2026 09:05:00 GMT",
-      "summary": "KOSPI Barely Holds 5,550 Level as AI Funding Worries Loom; FOMC and Samsung/SK Hynix Earnings to Set Direction&nbsp;&nbsp;BigGo Finance",
+      "title": "Samsung and SK Hynix unveil AI semiconductor blueprint at Seoul conference - Global Sources",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY3JtRzNPNDMxTVRWWjV1ZFozNUsxbzh0OTg3ZkxIWjZGcldWLXBUaHpzNE1qMGVVakpoYVlVS3BlRWo0UGFLMktsNXdpTlRrSEtxcGdoRVpiZmNCT21XcVJRZTY2MThPRERuUXZOdUxqTGZxaEtEa2FPVm5KRUx0RVN3TVdMbW5vRlpFUFlRLWY1bXR1R0ZwYnhfcGExUkFJYnF4RUVfYzhzWFpCY1R3RlBGUzF2V1pqSDR1XzRn?oc=5",
+      "published": "Fri, 23 Oct 2026 07:31:37 GMT",
+      "summary": "Samsung and SK Hynix unveil AI semiconductor blueprint at Seoul conference&nbsp;&nbsp;Global Sources",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T17:05:00+08:00",
+      "published_beijing": "2026-10-23T15:31:37+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com"
       },
-      "priority": 1.2,
+      "priority": 3.6,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Euro zone growth slows to 4-month low amid rising costs and French turmoil, PMI shows - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOU0NjbWl1UWdicU9iM2RJVVZPblhoTXpieDYybkdBcUNXR1hHVWN0eU53NGJIdjZqQmZXUlMxemJ4djJ2Uk5DekJDaDE3b1lXRkR3ejdvQWY5Tmk1S1VIWkREWnpPS25fNTBaR0RsNll1Z1JDZTdMNDZSRHFzOGdFLVI5d3BEVS1fLTh3R210YU1Ya1IwaDZ6RmVNN3ZHQ1JTRUFzdVpabW5Icm9Tb2ppRVQ2TXNlWTgyUmJzVVNYc3RXLS0tbFRnS3MwcWRIN3ZraGxnSEZwekFvWS0xTGpWNdIB4AFBVV95cUxOU0NjbWl1UWdicU9iM2RJVVZPblhoTXpieDYybkdBcUNXR1hHVWN0eU53NGJIdjZqQmZXUlMxemJ4djJ2Uk5DekJDaDE3b1lXRkR3ejdvQWY5Tmk1S1VIWkREWnpPS25fNTBaR0RsNll1Z1JDZTdMNDZSRHFzOGdFLVI5d3BEVS1fLTh3R210YU1Ya1IwaDZ6RmVNN3ZHQ1JTRUFzdVpabW5Icm9Tb2ppRVQ2TXNlWTgyUmJzVVNYc3RXLS0tbFRnS3MwcWRIN3ZraGxnSEZwekFvWS0xTGpWNQ?oc=5",
-      "published": "Fri, 23 Oct 2026 08:01:16 GMT",
-      "summary": "Euro zone growth slows to 4-month low amid rising costs and French turmoil, PMI shows&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T16:01:16+08:00",
+      "title": "Memory breakthrough by China’s CXMT puts chip rivals on back foot - KrASIA",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVVFQcEdZbDFmQzJGVEIweTFKbWpfSjVxU1ZYNnM0OW9ya2hYY09XTlZpSDJFOW1wRDRndVRJNzdGR0R5WGRYc1RhLTBqOVhXXzNaLU56dEkzVVNDakpWdVR0YkpqWmFaZXF4LVI0OVdsR0xPWU9PRDVQWGc2LVJHRGJzR0JfS1NJLW1CZA?oc=5",
+      "published": "Fri, 23 Oct 2026 06:23:46 GMT",
+      "summary": "Memory breakthrough by China’s CXMT puts chip rivals on back foot&nbsp;&nbsp;KrASIA",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T14:23:46+08:00",
       "source_detail": {
-        "name": "Devdiscourse",
-        "url": "https://www.devdiscourse.com"
+        "name": "KrASIA",
+        "url": "https://kr-asia.com"
       },
-      "priority": 1.2,
-      "category": "政治+社会",
+      "priority": 3.6,
+      "signal_keywords": [
+        "breakthrough"
+      ],
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "BOK chief backs future growth fund, calls long-term investment 'desirable and necessary' - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wSFRxWWhfdnR3Wmh2cW01U0ZUSEo3UjlWdzZra0ZoR3liOUNDamNhRXN3NTVKa0tVdXhzTi1aNUotV2Q4Rl8xQkh4R09fSHRLQ2FuY1Vabw?oc=5",
-      "published": "Fri, 23 Oct 2026 01:48:03 GMT",
-      "summary": "BOK chief backs future growth fund, calls long-term investment 'desirable and necessary'&nbsp;&nbsp;헤럴드경제",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T09:48:03+08:00",
+      "title": "As Kospi gains global prominence, foreign media increase scrutiny - The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qRVhfcVJMTUtsb2RrZy1SLTBWSEltcDdwRzRPWXNjd1NCUjd4Z3JvQkwtRXhmcHhSZHpLY2dfaG0zYmtDQU1BYVBUMzV0azZtZmdxYTVVdw?oc=5",
+      "published": "Fri, 23 Oct 2026 06:11:16 GMT",
+      "summary": "As Kospi gains global prominence, foreign media increase scrutiny&nbsp;&nbsp;The Korea Herald",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T14:11:16+08:00",
+      "source_detail": {
+        "name": "The Korea Herald",
+        "url": "https://www.koreaherald.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Korean Air upgrades Incheon cargo terminal with automation to chase AI logistics boom - 헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzbV9GbWpqbFZnaWtNOVVYaXJZMUJnekMycmZMQ1pQTkpORm9zMlB4X1JxSlVUamxXSnhlVUpaWTdXV0tuNWw5OEdHZzJOcFU4R2NOLVNWSQ?oc=5",
+      "published": "Fri, 23 Oct 2026 06:00:03 GMT",
+      "summary": "Korean Air upgrades Incheon cargo terminal with automation to chase AI logistics boom&nbsp;&nbsp;헤럴드경제",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T14:00:03+08:00",
       "source_detail": {
         "name": "헤럴드경제",
         "url": "https://mbiz.heraldcorp.com"
       },
-      "priority": 1.2,
-      "category": "韩国",
+      "priority": 3.6,
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Is It Going To Be A Rebirth Of The Quad? – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVGtUVEY4YmU1UGUzUFY5UDNPa29fODY4czQ4SGtwZ2dmY3dwVGJkUU5ZV08ydDM4Q3dtNTRadEJzTkpIQVpEakN0VHo5N2VSYlJ5c3JhdEVFQ1RYV2lqbDdscGx0YzMyQ3cwZkF2WklCSGMtX1FSS3dWRW5VaHVpZE9Fck9ydWVic1Bqb1NDS3NSZw?oc=5",
-      "published": "Fri, 23 Oct 2026 01:45:54 GMT",
-      "summary": "Is It Going To Be A Rebirth Of The Quad? – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-10-23T09:45:54+08:00",
+      "title": "Arms Race Intensifies in Korea as the North Is Emboldened by Russia Alliance - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeHZVeDNxRFNkaEpKV1l0eV9JanpvRjl0UVlrV3FWQ09LaUhUM1NVLTB4TGJVZ3F6Mmx2V0t0ZkFLT0lYRmlrZWZQR2NyeF8yRWE5elRaNzFETmotdzhPR2Nmbk5TWXRQWWl1MUhKdUpSN0U3cGotM2xSYVZObFRFY0k0UVI1UQ?oc=5",
+      "published": "Fri, 23 Oct 2026 05:13:32 GMT",
+      "summary": "Arms Race Intensifies in Korea as the North Is Emboldened by Russia Alliance&nbsp;&nbsp;The New York Times",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-23T13:13:32+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com"
+      },
+      "priority": 3.6,
+      "category": "朝鲜半岛",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Japan’s Kiuchi: Government yet to meet conditions for declaring official end to deflation - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM0o2bnNMWnVYM0FZOEJzZnRyR2RHXzhfNVRJd1lydjFfUGc1VFV5NkVuSXFmS0pOT0FBblBDUDdKMGQzYzRFVDR2Y3R4d1h4cWd4WGdZVE1CRlNGc3pfOGluNmFYeVJUbUVGZG90TncxcHhROXYwRzFPZnBuZXJmbHcxcndqOXFNMWJwOVl3cC0xNk11SUdqVC1kUEJTc0NRdlFycHExdkJXOTZHeXUzOGdJRktRT1E2azVFVDRPWmdZVTk3WUlDMUwtSWlIRmE5cGh1MHZnM3hHeXpUQXg3YTRjVkw0amgw?oc=5",
+      "published": "Fri, 23 Oct 2026 04:06:46 GMT",
+      "summary": "Japan’s Kiuchi: Government yet to meet conditions for declaring official end to deflation&nbsp;&nbsp;www.tmgm.com",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-23T12:06:46+08:00",
+      "source_detail": {
+        "name": "www.tmgm.com",
+        "url": "https://www.tmgm.com"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "SK hynix Rebounds 2% After Halting Solidigm IPO Review - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTGVGRW41Tm9lQXI4eGpQOU5ySXMxZlBxNFVGMDV3Y1FDVnpuLWZVS2ZYRFdtNnZkN1pjSTFQRzZJLXc1WjUtZ3oxZDZnMHUwSnBnaGowbkNONEp4SVBqZy1mcThQLXlYOUk0TUxwU181NDBJcTUyTGZqbldxSnJtVjdzb3VwZ3VmdFhLaFFBR2E0SlRqZDJiSmIwOGg?oc=5",
+      "published": "Fri, 23 Oct 2026 04:51:39 GMT",
+      "summary": "SK hynix Rebounds 2% After Halting Solidigm IPO Review&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T12:51:39+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
       },
       "priority": 1.2,
-      "category": "大国关系",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Behind Samsung and SK Hynix's Strong Results, a Warning: \"China Is Coming for HBM, and It Has the War Chest for a Chicken Game\" - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JRmhmZ1VTV3cxdTE1WF80X0tDOURySU9FUDcydmlCYWY5c3VabGE1R3N1TmFXSS1HQWdZVEFRMWk2MURDM05QYnhfYmxrREwxWEtWTlRxeERrR29VTjBpa2p3VW9yYjI1cXhRdVVCekhLdmF1ZXc?oc=5",
-      "published": "Thu, 22 Oct 2026 22:55:00 GMT",
-      "summary": "Behind Samsung and SK Hynix's Strong Results, a Warning: \"China Is Coming for HBM, and It Has the War Chest for a Chicken Game\"&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-10-23T06:55:00+08:00",
+      "title": "DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2 - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tUGl3SUpaNTFrcDk1YnJkd2JhUmFoSVpNeU80bjg0ZE5XVjFNNF9QMHRpLW5XZVFPZHBDU25JTnlCNF9YTWhVQ0hQNFVPdTRoZVFXbWJLYTAxOHBHLTBubXczNEFmZlM4YmRDNUhRNWtqQTlpaEE?oc=5",
+      "published": "Sun, 25 Oct 2026 02:05:00 GMT",
+      "summary": "DDR4 Prices Surge 24% as Big Tech Redesigns HBM, Converging on Samsung's Taylor Fab 2&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-25T10:05:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
-      "category": "日本",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Venezuelans call for elections in first national protest in nearly two years - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPai1xelZ4bWdFeTJCYWZJeHJxVFVRS3RXMklSdlV4aXI2cjN2bWpvczlDUWVndUl0ak5vb2IxMmREVmsxaVgxR1N4Qi04WXRNX2dSbW1jX3pZRi1KOXQ1RDdfMWdSSGdRak1nSGhGdTFSbjQ3U3VXenNSZDlWNlR4aklLUHc4TFRnbGtnaVdlazNOQkZ3cE9YNk4tOVpTVkhCQ0pFU1g3OXhBUk1BaDNXOEtJcndCRHJG?oc=5",
-      "published": "Thu, 22 Oct 2026 22:30:53 GMT",
-      "summary": "Venezuelans call for elections in first national protest in nearly two years&nbsp;&nbsp;Reuters",
+      "title": "Why Serbia's parliamentary elections attracting attention - India's News.Net",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWWZoSEFmRElIdmp2ZnhkZ21LUzh1b3FYNDdJYnlUeFNnQlhZeENUNjhQOENCWVFBTjk4MXlWNWlDMERfQ3B2ZzZlMG8zbkY5dFpSQ0tQRkNtOEEyb0twY2dtLURpWDc1M05KQmZGSkRhNHY4NXNYXzFGaXh0bXBFaVJMWkJHaEVWU2ZTU2NtX1BSWHhZanFxcGVMMUc2QQ?oc=5",
+      "published": "Sun, 25 Oct 2026 01:20:31 GMT",
+      "summary": "Why Serbia's parliamentary elections attracting attention&nbsp;&nbsp;India's News.Net",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T06:30:53+08:00",
+      "published_beijing": "2026-10-25T09:20:31+08:00",
       "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
+        "name": "India's News.Net",
+        "url": "https://www.indiasnews.net"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -745,31 +604,15 @@
       "relevance": "low"
     },
     {
-      "title": "USD/JPY Breaks Support as Falling Treasury Yields Favor the Yen - Investing.com UK",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONmhJMkZNNjM5TkpjNnVnME9DWHc1Wkhoa0NqX1A5bWR3bHh3aURpTGRDbjVia3V1QXlBSG5mNFpONmdUbXBoT0huYUFlXzdHX2RsXzVMakw4aE5ZMXRiblB2UWdnb3d4WUN5aDkxLVdMMHdPREctRG85MkdhUFJKbTRlUk83WHdCaE0zU0VKaEVma3N6QXh4ZlA2MU5iUUpFYVp5TkRBM0hrQQ?oc=5",
-      "published": "Thu, 22 Oct 2026 20:54:00 GMT",
-      "summary": "USD/JPY Breaks Support as Falling Treasury Yields Favor the Yen&nbsp;&nbsp;Investing.com UK",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-23T04:54:00+08:00",
-      "source_detail": {
-        "name": "Investing.com UK",
-        "url": "https://uk.investing.com"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Do Prediction Markets Deliver Real Utility? - Tiger Research Reports",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmwycVJBUUlCUF9KZGRaMDNwd1lZdFhKQWY0RnZCUXUxQnRvb0ZwcWdiSmw0RTdFcjFiX1JsRUlsVmpmVkFEeUFDY04tc2FINnhRXzBmNlR0Q2JEZV9MSjZZTFRIbDhMWnJLTVY3ekxEVjdTWWF3T3NMUWl4ZE1yMg?oc=5",
-      "published": "Thu, 22 Oct 2026 13:03:10 GMT",
-      "summary": "Do Prediction Markets Deliver Real Utility?&nbsp;&nbsp;Tiger Research Reports",
+      "title": "As salaries run out in 20 days, people turn to borrowing - The Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY19PbW5uLVU4ZFg4UnY2eFpkX3hFbHl3dndjWHVMRVpPdWgwN3ozYkVKLTdyem5FQnp0TzI0TE5FS0JpbjJ0SGRZM0xvRV9vZ0YxemxWbnhGMzMtNVpXRUlKME14YTJrbkdrbWExUkViMUhIb2V3TGMyME13TTExUGVHcHVmd05JdFkxMTl4eGgyN0g5d0VZUjliTEc?oc=5",
+      "published": "Sun, 25 Oct 2026 01:15:00 GMT",
+      "summary": "As salaries run out in 20 days, people turn to borrowing&nbsp;&nbsp;The Business Standard",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T21:03:10+08:00",
+      "published_beijing": "2026-10-25T09:15:00+08:00",
       "source_detail": {
-        "name": "Tiger Research Reports",
-        "url": "https://reports.tiger-research.com"
+        "name": "The Business Standard",
+        "url": "https://www.tbsnews.net"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -777,15 +620,15 @@
       "relevance": "low"
     },
     {
-      "title": "Trump gets chilling prison warning after president’s coup backfired - AlterNet",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04bzk1VEIxYUhhczl0aFY1TGFBVDRRRkkta0FHTjAwdzFJNVhaWGpsTTJoWGRGNlBYd09lUGVQbDZnZEwtU3BreWNLWmpGR0xrbkhaUHg5bDBJR2ZuMHc?oc=5",
-      "published": "Thu, 22 Oct 2026 11:34:00 GMT",
-      "summary": "Trump gets chilling prison warning after president’s coup backfired&nbsp;&nbsp;AlterNet",
+      "title": "Nigeria’s Tinubu launches re-election campaign as economic pain tests support - KELO-AM",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZEEza2JOckRJdXhZZnRZYlJkNkJCUUk5ekNzMjIyTUIxaVhPc3FDM2RuTlRCUWYyNklpR1hDUDViY2JjLXg0YUxlNnpubHJTRktwd05SVUduRU9wc0NYemo5Wkt3UGh6NkhXVk15T0FjX3NlY1c5MDRzZk1PVURZX05lcndiSnJfT25wNWdLeXBWTmVYT1JwUHhFcTZlLTZGM01nQjFoN1Q?oc=5",
+      "published": "Sat, 24 Oct 2026 22:10:13 GMT",
+      "summary": "Nigeria’s Tinubu launches re-election campaign as economic pain tests support&nbsp;&nbsp;KELO-AM",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-22T19:34:00+08:00",
+      "published_beijing": "2026-10-25T06:10:13+08:00",
       "source_detail": {
-        "name": "AlterNet",
-        "url": "https://www.alternet.org"
+        "name": "KELO-AM",
+        "url": "https://kelo.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -793,14 +636,62 @@
       "relevance": "low"
     },
     {
-      "title": "How Bessent Has Switched His Metric of Bond-Market Success - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUDJTN2JFMUR3UU1Wd01GQWhUZzFQWG5LbVJhcEkwTkg1NTBmU2gwajhDek51LWdiV2hjaGZnZUp5d1hrZ0ltQU9jTFpSdHRzYjdRWUVGWjZ1YjNoRnZfZ01EVG41NW9sRG1EWDMxX1hObHBlT2lteE45a25xakVPRmw3aTExWTFiV1NHbk43R0VKbVlvNDF6SG40TWxuU1dUeS1Zbm1QRUlOajFlcjJXT1p3?oc=5",
-      "published": "Thu, 22 Oct 2026 11:00:01 GMT",
-      "summary": "How Bessent Has Switched His Metric of Bond-Market Success&nbsp;&nbsp;Bloomberg",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T19:00:01+08:00",
+      "title": "Policy choices will matter crucially amid growing socioeconomic challenges - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1lzcXdxUnFfVWhfWmtGMXgxNC04TzVxYnp0Y003TDEyWWNfQnlFSmlnbVBXR2xxNUpUMU9obFZtOVB2YUlXRzktWVotOVZReDVpMDVXb2dQWmJiSlZpYkZTS0lFOGZmbWFyd05wQjlHT1U4TEwyczdaNFZueTY0OE9pdUJHQloxQXVUdERnblQtSXhpZ3FHRi1RX29aTGpnRGxR?oc=5",
+      "published": "Sat, 24 Oct 2026 21:56:43 GMT",
+      "summary": "Policy choices will matter crucially amid growing socioeconomic challenges&nbsp;&nbsp;Yahoo Finance",
+      "source": "GNews | JK Demo",
+      "published_beijing": "2026-10-25T05:56:43+08:00",
       "source_detail": {
-        "name": "Bloomberg",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "\"You're paying 130 million won just in student loans. What about rent? Living expenses?\" The Burden on Young People - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BaVpldlV0QVpQLW9fM3EtaTVJbEc4M0F6T3hEa1MzWXppcFQ3X3F3cnZRYzFuSjF0ZDJBQkwydTRKdERmYlZJeTJvR3A0OTBMYlNWVlJ6Mjkwa1pmdTFBbndodGRLNG9pYThvMUF5cw?oc=5",
+      "published": "Sat, 24 Oct 2026 21:30:00 GMT",
+      "summary": "\"You're paying 130 million won just in student loans. What about rent? Living expenses?\" The Burden on Young People&nbsp;&nbsp;머니투데이",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-25T05:30:00+08:00",
+      "source_detail": {
+        "name": "머니투데이",
+        "url": "https://www.mt.co.kr"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Israelis hold final rally against Netanyahu before election, and other Mideast news - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPRmNhcGVNNXQ5NTdHdnplWnZUdTkzUlNiSnYxY2FOYTk0TUl5VHVqRjF6em9CUDZsbGtkV0hYT2hXZjl0VHY1VTF1M01FTzd1c2c5WXloWHVvWC1SZU1ZZjJ4YV83NU40VjJzdG5GYmJWR1dlZ2NvWHRCcllJTUFtWEpwbTZ4dk5xYmk0b3dmbFdiMTJsYkxsVjQ0dllZS01SNk12VGozdG9KRVRvenhpOWlpRHk1RmR0bndRNnY5aUU1anJxM2s3WWlZekVLa1U4VHdwaUlLMzJOeklyM05lYWNFbmR5Tm5NeVducXRyUV95TFh3YnZIaExteHlucWJxSVE1WjJQM0w?oc=5",
+      "published": "Sat, 24 Oct 2026 20:02:09 GMT",
+      "summary": "Israelis hold final rally against Netanyahu before election, and other Mideast news&nbsp;&nbsp;thecanadianpressnews.ca",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-25T04:02:09+08:00",
+      "source_detail": {
+        "name": "thecanadianpressnews.ca",
+        "url": "https://www.thecanadianpressnews.ca"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbFg3ZkV4QzdBaTNjLTU0N3lHTUpMWEFETVhtYU9NS2l5QlhfMU0zeV9SLTd4ZTFwbnBGUGFOa29IQ25VMmQ3aXotU1hPRkZHR0szdFQ2RzRCemE4SzNVYS1GRG5oZjh0RHVIU2FiUzJLemdEdlk3TGF3SWdKQi1ZZGk5SFNwS2ZKTU1HNzJZSk85T0tiTlU4VXVVVlVsVkE2R2VlSGIxOVd1MUpjY1U2cA?oc=5",
+      "published": "Sat, 24 Oct 2026 20:00:00 GMT",
+      "summary": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-10-25T04:00:00+08:00",
+      "source_detail": {
+        "name": "Bloomberg.com",
         "url": "https://www.bloomberg.com"
       },
       "priority": 0.0,
@@ -809,15 +700,15 @@
       "relevance": "low"
     },
     {
-      "title": "Far-left leader Melenchon in firing line as France blame-game heats up - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY0tSb0d6ZkdmeUhlUVc3OEhJMldGWGdGdEM0WFBhLUNJRTExRnVjOURrdmc2UXRiVFVuTHhwQl80b05Ocm93eU01ZXgxT0dDRjhaWnVCcHpXLWxwUWc5SHR2aTVHTWVJNXZmRkZrX2RSRlJ6UXNCbjk0XzhSelYxQ1BHYTdZNnVwRFc0bldTaWJkSExaaGtBcktqVlBhOXFpUUNrb0pZc0lBMUJXYkRJMW9B?oc=5",
-      "published": "Thu, 22 Oct 2026 09:41:00 GMT",
-      "summary": "Far-left leader Melenchon in firing line as France blame-game heats up&nbsp;&nbsp;The Straits Times",
+      "title": "Fireworks and tear gas as protesters and riot police clash in Paris - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oMER4RjdQSWk0SnR6cUdSc1JsaWVjSDlmM0N4UjdDamE2VFY3NHFjN21HOW92ZXJJNGpVdHhwSjFNZURvVEhESGJkSzR6cDFsejRLOHVwZ2I?oc=5",
+      "published": "Sat, 24 Oct 2026 19:37:35 GMT",
+      "summary": "Fireworks and tear gas as protesters and riot police clash in Paris&nbsp;&nbsp;BBC",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-22T17:41:00+08:00",
+      "published_beijing": "2026-10-25T03:37:35+08:00",
       "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
+        "name": "BBC",
+        "url": "https://www.bbc.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -825,111 +716,31 @@
       "relevance": "low"
     },
     {
-      "title": "“Strong growth and inflation; tightening to continue” ... Further rate hikes projected for November and early next year [Base rate held at 3.0%] - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KTWJoYjhHbmJpS2V1dUJiaUFzX3RzcmN3cW13ZDVxNTVTZi13aXM3eVJQNkY3TnpKSHBVb2hieE9ZVXEySFZQV19PcHB4bG1LQVQxdU9SNmI?oc=5",
-      "published": "Thu, 22 Oct 2026 09:38:05 GMT",
-      "summary": "“Strong growth and inflation; tightening to continue” ... Further rate hikes projected for November and early next year [Base rate held at 3.0%]&nbsp;&nbsp;파이낸셜뉴스",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T17:38:05+08:00",
+      "title": "250,000 rally in Madrid demanding state pension guarantees - Bangladesh Sangbad Sangstha (BSS)",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHOTZoNVJHaVZWZkw5blZkT25BX2NaVEVVTzRycndLZU1CcGMtMVB2dFNiN2VBcEdScGtheVNUNVNxcDZ4QUFtZlFNUThTSWc0SjM5MFE0dw?oc=5",
+      "published": "Sat, 24 Oct 2026 13:26:15 GMT",
+      "summary": "250,000 rally in Madrid demanding state pension guarantees&nbsp;&nbsp;Bangladesh Sangbad Sangstha (BSS)",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-24T21:26:15+08:00",
       "source_detail": {
-        "name": "파이낸셜뉴스",
-        "url": "https://en.fnnews.com"
+        "name": "Bangladesh Sangbad Sangstha (BSS)",
+        "url": "https://www.bssnews.net"
       },
       "priority": 0.0,
-      "category": "韩国",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Global energy power shifts towards Middle East as 72% of industry leaders predict bigger role - Gulf News",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVjFwLTVST2FsdTlkZ1cxU1JMRzQ5SEtyWDBpbHR4aVZWZUM4XzB1Zm5ISVczbG11c2xJRHNSOXNoajZlSW55YkN6TWlyLTV5dWJqN08yQThaVzR2OWNpYW1SYmhrQ2VJZTdTZ0JNVGRKNVZMajMtMmt6TUZsMEJFVXF4NHdFeTVhZ1JNZWVHQk5TRXFRUFhHWTF4WTA2ajh6cUt2Tlp5b3ppM0lSSDdvODBkYXhFbWtMV3c0MHpXMG0yUkJqOVRnTFBPdHhIV056RXE3ejdFZVfSAesBQVVfeXFMUFZRS3M3dnpBaXJ1LUtSMjI2T1ExdE1PN1V2X3Q3dnpSdTRqajBKMklkbmV5cVl4cEFYVW9qbTMxdXNGZWw2d1gwU090ZS0xNHd4QUR6U0p1NC02Z2pyZVEzbUVBNTVvY0tVR1oteEh1Wl93VHdkR3NmcFZDa1BscTRoLTFuMm15QnNJWDVxSXBuMlpvM3owcjJHVGZIZ21qZ2Y4TkpidEFLU3RXZUwyRkd6UU1JRGtOcDVNMXBSa2F6el9nb2FOWFl4QnlNQlc3RlVuaTRWN1JsMlUtQ0hIX0k3TlNkMEhZNlNkZw?oc=5",
-      "published": "Thu, 22 Oct 2026 09:23:24 GMT",
-      "summary": "Global energy power shifts towards Middle East as 72% of industry leaders predict bigger role&nbsp;&nbsp;Gulf News",
-      "source": "GNews | JK Energy",
-      "published_beijing": "2026-10-22T17:23:24+08:00",
-      "source_detail": {
-        "name": "Gulf News",
-        "url": "https://gulfnews.com"
-      },
-      "priority": 0.0,
-      "category": "气候+人口",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India's interest rate gap with G7 in focus as RBI weighs inflation risks: Report - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYl9RaVAzTW54Wlo5a0RlT2VqQTBJSlBId2dtZEZmd3dEUUFZUUtVbG5RUHFIQjRuMlF6WS1sNmR0M05ad1c2Z3VBVHhiS190MXF2Zm5sQm0wa1dpcjdoUXJOTlowaDBuU2pUaTVTQmZsSFdsOVVwSHNZUW1vaXo4b2ZzVGhZX0FvMVlmQW01MG1fcEtLc0Q5Yk9ObEhWYTIycUluWGt2MjB4QXhhWFgwTHFKMEtjZmd1UTg3UE1HSVpoMVF4bW5adDg2T1lJaVVSaFZTVGxpSThCV1ZpdVNNNlZIaldwOXdwbzlFUU9NaURtUdIB8gFBVV95cUxQYl9RaVAzTW54Wlo5a0RlT2VqQTBJSlBId2dtZEZmd3dEUUFZUUtVbG5RUHFIQjRuMlF6WS1sNmR0M05ad1c2Z3VBVHhiS190MXF2Zm5sQm0wa1dpcjdoUXJOTlowaDBuU2pUaTVTQmZsSFdsOVVwSHNZUW1vaXo4b2ZzVGhZX0FvMVlmQW01MG1fcEtLc0Q5Yk9ObEhWYTIycUluWGt2MjB4QXhhWFgwTHFKMEtjZmd1UTg3UE1HSVpoMVF4bW5adDg2T1lJaVVSaFZTVGxpSThCV1ZpdVNNNlZIaldwOXdwbzlFUU9NaURtUQ?oc=5",
-      "published": "Thu, 22 Oct 2026 08:49:00 GMT",
-      "summary": "India's interest rate gap with G7 in focus as RBI weighs inflation risks: Report&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T16:49:00+08:00",
-      "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "BOK Governor Hyun Song Shin launches pointed criticism of government inflation and fiscal policies - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56SkVIVmJUb0s2aG40STNtTlN0WEFtZk5jV3Y3ZVNOSWZWekEzcWlZRWl5LXJIaFN2Tk9rdjRwVE51XzJjTzdrS3FGMFNOa1FDdmRHRTRZZm8?oc=5",
-      "published": "Thu, 22 Oct 2026 07:45:02 GMT",
-      "summary": "BOK Governor Hyun Song Shin launches pointed criticism of government inflation and fiscal policies&nbsp;&nbsp;파이낸셜뉴스",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T15:45:02+08:00",
-      "source_detail": {
-        "name": "파이낸셜뉴스",
-        "url": "https://en.fnnews.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "SBI Research sticks to 50-bps December rate hike forecast as inflation pressures widen - Firstpost",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQS3RpZzVDSTBiSE5xY1FDRHY3UERjTlYwYlBPa1pIVHp0STVHMWU0djFHekhfNGNMZXpjRzgwMWRxR0pqazg1NVI2SWtSX0lkV1E1QmlRLS1aMFRxRzV0MFV4TUNpZkFqcEtjcnlLNEVyTlhDUGxDWk1hdFBJTWlEcnBuTEk0US02OG1WS0ZYcWo2UzI0MG1reFdhN0x4YzBORVhHQ3Zkbm9yN0RWRHA2N0ZldkRhWDdfdmpSaHZUZjR0N2dCMmtoblh3VlZQbnhMSk96Q2Rn0gHWAUFVX3lxTFBLdGlnNUNJMGJITnFjUUNEdjdQRGNOVjBiUE9rWkhUenRJNUcxZTR2MUd6SF80Y0xlemNHODAxZHFHSmprODU1UjZJa1JfSWRXUTVCaVEtLVowVHFHNXQwVXhNQ2lmQWpwS2NyeUs0RXJOWENQbENaTWF0UElNaURycG5MSTRRLTY4bVZLRlhxajZTMjQwbWt4V2E3THhjME5FWEdDdmRub3I3RFZEcDY3RmV2RGFYN192alJodlRmNHQ3Z0Iya2huWHdWVlBueExKT3pDZGc?oc=5",
-      "published": "Thu, 22 Oct 2026 06:31:27 GMT",
-      "summary": "SBI Research sticks to 50-bps December rate hike forecast as inflation pressures widen&nbsp;&nbsp;Firstpost",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-22T14:31:27+08:00",
-      "source_detail": {
-        "name": "Firstpost",
-        "url": "https://www.firstpost.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Yen set for biggest rally in a month; risk-averse investors shun dollar - WTAQ",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVUkzZTlDeWF3MVpwV21sdWplaFAwWUowZEtGQzByZWtxM09qRkFITnFEc1FWZS1KUGlkcTFzMElQWjFzNy1qT0ppcDU4eWkyS00wYnlZZER1SkFIWVc3NW1Yc0hNZ0NOTVRadk9XR29QTUROc0F3UTlKY21CWVRER3RxUDZjOHAt?oc=5",
-      "published": "Thu, 22 Oct 2026 05:24:33 GMT",
-      "summary": "Yen set for biggest rally in a month; risk-averse investors shun dollar&nbsp;&nbsp;WTAQ",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-10-22T13:24:33+08:00",
-      "source_detail": {
-        "name": "WTAQ",
-        "url": "https://wtaq.com"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Samsung, SK Hynix Push China NAND Toward 286 Layers as BIS Stays Silent on License Approval - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPblhVRXowSG1oaDN2cW9fTThUN19xdlVzTG94MjJmQzR5a1JsMnNoYnpCWDNwSXAxSTRaN3dtLTFrbmJMbXpwOGRRVkFfbWNsM1hVYjgtRVJZVF9zNFpZMlFMYXQ1VThoME1wMjNEb0hCazBrWDJBOXRMSk96WUFGSkN0U1o1TmtLZXlyZHZqaGFxS0JuT0JKeEpGbWhmM09WejdURzhIZWk0V0Zkb1JGNW1VbU1KSzhITTB5ZUNxTmRkTHZYSndRb0hnaDB1LXZfU2JmVjBn?oc=5",
-      "published": "Thu, 22 Oct 2026 05:06:28 GMT",
-      "summary": "Samsung, SK Hynix Push China NAND Toward 286 Layers as BIS Stays Silent on License Approval&nbsp;&nbsp;Tech Times",
+      "title": "Musk's Posts Swing Samsung, SK hynix Shares - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZFdibE5IZnd1ajYzeU1vdmZiaDg4QXZCc3lZNWNsNDBhQ0Zqd1FoVXNuNldodWZkYlZ0TzJzYXpYQWxDc0tyNEV4Qm9XaEpNdU1xZm40NHZrSE92Vngzbld1ZS1lT2lqRER5NVI5Tk5xeXN0WWZiSjQ2QTFPVXhYLXhodjNjSkd2aW1j?oc=5",
+      "published": "Sat, 24 Oct 2026 11:01:05 GMT",
+      "summary": "Musk's Posts Swing Samsung, SK hynix Shares&nbsp;&nbsp;Seoul Economic Daily",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-22T13:06:28+08:00",
+      "published_beijing": "2026-10-24T19:01:05+08:00",
       "source_detail": {
-        "name": "Tech Times",
-        "url": "https://www.techtimes.com"
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -937,63 +748,15 @@
       "relevance": "low"
     },
     {
-      "title": "As riots overshadow Macron’s final months in office, presidential hopefuls jockey to succeed him - 巴士的報",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaDA4WTFFS3A2NFpHV19mUzBqTVhiUXpCYW5NQWRDNlBKMUFIaTg2eExjN3lvVzk4VmIwNEg3OWJDM2RsRG9ycGpNV1JHeEVOZjUweTVWUG9zdGRFOTZGTWRacXNYZjFYbnR4eWZGdmdkeDhJSkw5NUgzemVBdWNaaFljV3AxRWxzUFMxMlg0V0dxVk5la09KNmdRTFNxZVlCcXZ1SkZoVnFscG9oSHNRS2EyTVhPYmJGckxEVWt4NVNIdUkzZkhPUENXbExRaWpuSmJMLXkwOTZCNEhYT2VR?oc=5",
-      "published": "Thu, 22 Oct 2026 04:02:32 GMT",
-      "summary": "As riots overshadow Macron’s final months in office, presidential hopefuls jockey to succeed him&nbsp;&nbsp;巴士的報",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-22T12:02:32+08:00",
-      "source_detail": {
-        "name": "巴士的報",
-        "url": "https://www.bastillepost.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sara Duterte Impeachment Trial Focuses on Unexplained Wealth - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORy12WTZkdmktTjFYU2UzWDlUMGVYa1Nlb3RmaVhqaGVqblZGei1EOURhRmU3Uk9McTVrMnZaSkZ2MEIxSjJiQjliZl9mLVB5ZlNlbFZ2SVp2NXlNLTNLWWxQdjlqdEE5ZHdWS1lseEJWOVFYU2Y0RHlpTGdXUkJvQUNPQWw?oc=5",
-      "published": "Sat, 24 Oct 2026 03:07:13 GMT",
-      "summary": "Sara Duterte Impeachment Trial Focuses on Unexplained Wealth&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-24T11:07:13+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Seoul Mayor Oh Se-hoon Acquitted, Bolstering Conservative Presidential Bid - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnRJOUlsLVZQMWlCU0UzUHh1QmNOa092UGZvMnczYkxHaU5WSk9BdWpHa2lMaFZkN1VLaHVSdk15djd1d2xOTjlybmFhSmh1OWNueU02cDhsQVZHODlDLWFTOXJJdTFLOEYxckhJMFZnUl9jX3FkdU92VWZWOUc5cFZmZ0RaV05X?oc=5",
-      "published": "Sat, 24 Oct 2026 01:59:44 GMT",
-      "summary": "Seoul Mayor Oh Se-hoon Acquitted, Bolstering Conservative Presidential Bid&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-24T09:59:44+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump seeks Kim talks ahead of APEC summit - The New Nation",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DNHdXa1ZldzBhX053THZCZVl6MHUyQUVDc0ZEN0hkRzlBVXRXVXFFZE5idVNiZ3pMaURsbmlxc2ZZcnpZSDAxRU5OUl9iOWc?oc=5",
-      "published": "Fri, 23 Oct 2026 18:16:42 GMT",
-      "summary": "Trump seeks Kim talks ahead of APEC summit&nbsp;&nbsp;The New Nation",
+      "title": "Kim Jong Un’s Dandong visit: Is China’s border economy becoming the core of Beijing–Pyongyang ties? - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNlRjTklkekl2NmlnUXFjb0pDYWVST1cyMFgwUENPRGd5RW85SXV2RFVvQUJlVVFPZEVMZWhRSkFmS2J6Uy1DQm11ampkbk04eC1uS1V2aDZpcnR1NktYT2xOYVo5TW41eDdRbm9MTHlKR1FEYThBRFpQLUxDXy1VRUtNTE1FcmhMd284SlJ3TWQ5WG80QzNtWmFCU1dleVBDTG13OHlYeGtPZVV4YWVYck1hTUFfa3ZsbWZ3YW56UXp6TEM1VnBKZThYSVc0VjJ0R2FKZkttN054ZHd2?oc=5",
+      "published": "Sat, 24 Oct 2026 09:26:43 GMT",
+      "summary": "Kim Jong Un’s Dandong visit: Is China’s border economy becoming the core of Beijing–Pyongyang ties?&nbsp;&nbsp;Business Upturn",
       "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-10-24T02:16:42+08:00",
+      "published_beijing": "2026-10-24T17:26:43+08:00",
       "source_detail": {
-        "name": "The New Nation",
-        "url": "https://dailynewnation.com"
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
       },
       "priority": 0.0,
       "category": "朝鲜半岛",
@@ -1001,15 +764,15 @@
       "relevance": "low"
     },
     {
-      "title": "Week Ahead for FX, Bonds: Decisions From Fed, Other Central Banks in Focus - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZl9NRnpPb3laN0tSUlB6NFUwekhQWkUyNG11ck5jQmxHZUxTZl82RzJoVmlLMzlQY2JCS1BuTC1mMDlZYjdXVHFFeTgxTXJ5eGJZazZOcGdLaDg4RFhvaDNidXhySlVzRFBTUmoyeTJ4YjYtMUR2M0RYT1M2WVZSRTIxYlNQQjk2RGJmWmRTMml5MEoyV1h5bHpSQ2dFaExzZVJmU1N3djBENFhM?oc=5",
-      "published": "Fri, 23 Oct 2026 16:23:00 GMT",
-      "summary": "Week Ahead for FX, Bonds: Decisions From Fed, Other Central Banks in Focus&nbsp;&nbsp;WSJ",
+      "title": "Charting the Global Economy: Euro Area Business Activity Cools - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHJkMHQ5RXQ2a0pQSmI3OEFER2dsQmdYREFnLV9SZG1UaDd1a2ZHcWNrQ0VVUmRUYjQxYkN1Q3huT25nd2JyaUZxczlhRkFpenpwVnVwdGxsMzVWNWRER0NQVFlLbVRaNDlvbFM2dE9WNmFTZFFtR1dmTy1OTHZLZDg1SVFuWG9nUDV4eENvaEh1VjJqUTViMGpNM0tXaFRSYS1NYkppbG0tb0NTUkprUm1YSmdHeHlYV0RPWW9RTi0xeXJBa1E?oc=5",
+      "published": "Sat, 24 Oct 2026 09:00:00 GMT",
+      "summary": "Charting the Global Economy: Euro Area Business Activity Cools&nbsp;&nbsp;Bloomberg.com",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-24T00:23:00+08:00",
+      "published_beijing": "2026-10-24T17:00:00+08:00",
       "source_detail": {
-        "name": "WSJ",
-        "url": "https://www.wsj.com"
+        "name": "Bloomberg.com",
+        "url": "https://www.bloomberg.com"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -1017,15 +780,15 @@
       "relevance": "low"
     },
     {
-      "title": "Editorial: Oh Se-hoon Acquitted, Special Prosecutor's Reckless Indictment - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmtwSUVIRHZtMmNQTjZLMnNzMUJqNmRQRERQVmNlT0ZESWhqLUV5Nnc5S3RKZE04OGFBNjBPUVZQMndBSW9jODZXSVNndFd3aDQ4MXhTakNmNlZfdURJTnJSX0Roc0FXbDNWbHBSV2dOem15d2dhVW5NSFlsSXA5dnhFdDM1eDQ?oc=5",
-      "published": "Fri, 23 Oct 2026 15:23:36 GMT",
-      "summary": "Editorial: Oh Se-hoon Acquitted, Special Prosecutor's Reckless Indictment&nbsp;&nbsp;조선일보",
+      "title": "Brazil election: How a changing working class is reshaping the presidential race - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82VWJwZVpXZmY1cG1XUmdxQ2dYNm9tQ2ZyVHhsUjJBdW51UUdqQzNtRUliNkh1QllXLVFQX2tqWlJIUDFCcXctLTlPYmY1ZEMyVFBjSTRWMWh1SUU?oc=5",
+      "published": "Sat, 24 Oct 2026 05:05:44 GMT",
+      "summary": "Brazil election: How a changing working class is reshaping the presidential race&nbsp;&nbsp;BBC",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T23:23:36+08:00",
+      "published_beijing": "2026-10-24T13:05:44+08:00",
       "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
+        "name": "BBC",
+        "url": "https://www.bbc.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1033,31 +796,79 @@
       "relevance": "low"
     },
     {
-      "title": "Week ahead: Central Bank decisions, inflation, and AI risks - Equiti Global",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYU5zM2J6SEdSdmVUdzUzMV8ySFozR2ROZXYxc2IzWl9mWk9Ob0FpdWxZakdhUXZ6QWN0bXphckVtZ0ljYnJVRHQzdXF2dlRXMS0tZHZsemJBTFpmbG05T3NFQjdwY0pfMVJxUjNsdl9xZjd2N3pUVnVOekFCWFo4Tzg4Q3JFYkFSdkFQVlN6UTVoN0g0UzJEanNWT1Y?oc=5",
-      "published": "Fri, 23 Oct 2026 13:16:28 GMT",
-      "summary": "Week ahead: Central Bank decisions, inflation, and AI risks&nbsp;&nbsp;Equiti Global",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T21:16:28+08:00",
+      "title": "Kim Jong Un is making world's 'strongest' military: Nuclear weapons, AI-powered systems, hypersonic missil - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNRE1xNGloNUhsMWRmNm1tNy14NnFpN3A4MUJYY1hfMWZqSWM2WUo5em00TzgxTmpWWE5UeXhjSnRoaWwxclV2SmFUVTgwYlJhTU9IZmUtamU4UklsZHBEN1Ffcmk1VG9fak1FU3MtcXFGT29Mc1hiSWFKUjhxdFd0dWQ3QzluVjNNaGRfaExLQWI5dmo1R0ZYN09WY1llUHFyLURGbW9jUWNxYmphQ2lYeE9CaUpRWlRZS3gyZHAwbkFzVFVvcy1qWUNzRXR5dzFNS0ZEUER3TnpZd3RDQWlycWVsRzZETXlMQ1dkU1pFN2pWWDcxU3p1elY5ZkdwaWtzQi1Ib1duZDNFMWV6ZnJuOWJ3alpUbHREaEUwbzYySC12VXd3YUNMWm9ZWDdTUDTSAbQCQVVfeXFMTzRJclE4OGZQbUhPbHJNaWxfOUxSMjlaNWViNkpTZ2M5cC1tLUZXbmNOOUdZa243RkpJSzU3eC1Mcm16SjZiLU8tV0ZOaDZYUVd4Q2R6MVh4VVcyMmdFbVgyUW84ZnZybWpTWmRXRDQ5NFpDbFBxYUU4X0VWaXRiY3lPeEREYlBEZlJ3eDNiQVJnM3FPU1ZSX3dWZ2c0eG9lS3p5MTA2NEpKTmdtczlOUUk4d3c2LWt2bUV2LTVnY1IwR0tyOHd1akhoaFJtYkctS0dLOWp3VzZERWg5U0NkcnVQR0dzeGtQZnJrUGVHQVhLNGxZRTFpWHlWMmlwbDN5NEl0Y2E4RE1jWGZfelUyeUxPWk9pekN1WkVieDVTVUZZNDEySDUyWE9fdGQxWi1TWHlaeEk?oc=5",
+      "published": "Sat, 24 Oct 2026 04:58:54 GMT",
+      "summary": "Kim Jong Un is making world's 'strongest' military: Nuclear weapons, AI-powered systems, hypersonic missil&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-24T12:58:54+08:00",
       "source_detail": {
-        "name": "Equiti Global",
-        "url": "https://www.equiti.com"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 0.0,
-      "category": "韩国",
+      "category": "朝鲜半岛",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "'No merit' to U.S. claims Canada is interfering ahead of midterms: Carney - CTV News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSFRYQjkxS1AxMDdOZDNmTXZlR3dUeEtwaTc5dXNvZFdkSTVOOWF6cF9UT1ZQWW1QejEydzBHNTFkNVNZRjYzeXo3QXVvSENKbVJGVEY4R0Zwdk9aNmdlODdvY1FyaWpMa2xYSjg1Qld6c3NidEVjQVB1V19QVGw3bnBwNEN0Qld2bVJQY0tFWTFQTGRNZG9VTW1LSC03OEg5TVJVdWRhNUljZ0RRc3c?oc=5",
-      "published": "Fri, 23 Oct 2026 11:03:38 GMT",
-      "summary": "'No merit' to U.S. claims Canada is interfering ahead of midterms: Carney&nbsp;&nbsp;CTV News",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T19:03:38+08:00",
+      "title": "The AIDC Paradox: Why Did Meta Leave RE100? [Energy Odyssey] 14 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TU3QwT1BJSExCY2FZSkk2OXRBVWVqcXNJZ3ZuckpLdFQzeWN2VlFzd2M4b0lYaDU2Ti1ESHF2YUFheGVtSVVqZUZrT2ZBYUpkM0o2SnplVE5uZzdGbWNxR0hBWTg?oc=5",
+      "published": "Fri, 23 Oct 2026 23:00:00 GMT",
+      "summary": "The AIDC Paradox: Why Did Meta Leave RE100? [Energy Odyssey] 14&nbsp;&nbsp;아시아경제",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-24T07:00:00+08:00",
       "source_detail": {
-        "name": "CTV News",
-        "url": "https://www.ctvnews.ca"
+        "name": "아시아경제",
+        "url": "https://www.asiae.co.kr"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Xi Jinping May Have His Own Reasons to Avert a China-Russia-US Summit - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSndyVGo4dTFLcy1CY0NOWWpwMEJaQnRnZ3JXSUNaTEgzbEpMMlh4eklqdHdzSjJGdnpTNFBjalhHWmR2ZVlyZjFZa3dweFpvWk1ZNF96a1NCSjlkMWdldlFFTHpPWWRPS0MwNl9aTm9LSUpNWk1vSlV4UHV5SThZb2pXOUpRMVFjQVFlLUxZU1ZOUzdGV0tMaE9FbVh5MU94SWNXVg?oc=5",
+      "published": "Fri, 23 Oct 2026 19:00:05 GMT",
+      "summary": "Xi Jinping May Have His Own Reasons to Avert a China-Russia-US Summit&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | US-JK Trilateral",
+      "published_beijing": "2026-10-24T03:00:05+08:00",
+      "source_detail": {
+        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://thediplomat.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FY05ScDhlMnBYb1cxM29mbjNpUC1IQU5pc3VsMFNQT2dOS0hhblB6ZzdrY1FoMFlyeDVVVHpGbTAyRGRGQUhlcjV5ZnZlZUt4WjFEWEUyMG9KTHJtVlJtWnpUUF90MXlPTFpRN3FLdEw1a2hiaWc?oc=5",
+      "published": "Fri, 23 Oct 2026 18:15:00 GMT",
+      "summary": "SK Hynix vs. Micron: Wall Street Sees Roughly Equal Upside in the Memory Duopoly&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-24T02:15:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Germany news: Foreign Minister Wadephul says wars in Iran, Ukraine are bringing the 'threat of famine' - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRGtyV0hwUWZhWS0zQkl2YnJ6NkNjN28taEhCZTJnMGhKWEF6dVM1YlVFT1Via2hWbTREYm9YNXZPMEdYdW0wNXNnTVg0cEQ4Zzl4ZHlReHdHU0p2akNzTXBZWUhfOHVmZU9QYXJPLVlJZ1dudGtRb2xUNFFZSU02SU9wWTNGNUdvd0ViVW82SXdNQ0ZVdG1rVjJ2emJONFNS?oc=5",
+      "published": "Fri, 23 Oct 2026 17:43:51 GMT",
+      "summary": "Germany news: Foreign Minister Wadephul says wars in Iran, Ukraine are bringing the 'threat of famine'&nbsp;&nbsp;DW.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-24T01:43:51+08:00",
+      "source_detail": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1065,15 +876,15 @@
       "relevance": "low"
     },
     {
-      "title": "Carney ‘disappointed’ in U.S. ambassador’s ‘unsubstantiated’ foreign interference accusations - CTV News",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb1N1a2wzSjdKWi1ZMHZwSDh6bmpibEJ4UXljTXFaUEFwalNvbHVGNXkwYzVhNVFodFZzR3I0QjlVZVFpaEVPTExpV2V0MU1QcTBJTGh2WVVEYW5qXzlUcmNQYzdzUUduU2h5dTU3S2UtV2YxMXY0LTlTTGdmN19WSVFYMzIycTJyLWhldjl2aDNsUjV5M1UzajhjYWVOZnpCTE4wSHJnMUtnQkN1YXBWbm1fMUFfUUlzWFRQZ3NKbDl5NHNvcHc?oc=5",
-      "published": "Fri, 23 Oct 2026 11:03:38 GMT",
-      "summary": "Carney ‘disappointed’ in U.S. ambassador’s ‘unsubstantiated’ foreign interference accusations&nbsp;&nbsp;CTV News",
+      "title": "India news: Protesters march to Election Commission demanding CEC Gyanesh Kumar's resignation - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZnJXUUx3Mks0cmlocXpReTJkcXJCYTRaM01TRlNKVW9jMzlGaUFOTmtvQ3lhNGJOc29MVkE2eW1TWkJnb3hmZDBrdnhoRVpleENTWTZXQUtBY3dwOENWR1NlOUgwaHJNSnQ3OWxmSEx4dVItZHRWdVVYTHdNaU9BSFJKdHRicWFUdVNGUG5pdVQ4bm12WFNpNlNWTThIVW5QQUFqa1pwbUkyVnpZNmg3V3J4TVRHYWMzNjNlVmt6RnU1dzhWU0E?oc=5",
+      "published": "Fri, 23 Oct 2026 16:19:25 GMT",
+      "summary": "India news: Protesters march to Election Commission demanding CEC Gyanesh Kumar's resignation&nbsp;&nbsp;DW.com",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T19:03:38+08:00",
+      "published_beijing": "2026-10-24T00:19:25+08:00",
       "source_detail": {
-        "name": "CTV News",
-        "url": "https://www.ctvnews.ca"
+        "name": "DW.com",
+        "url": "https://www.dw.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1081,18 +892,34 @@
       "relevance": "low"
     },
     {
-      "title": "UK Consumer Confidence Suffers Sharpest Drop Since Pandemic Amid Cost of Living Strain - https://streamlinefeed.co.ke/",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXVYdmRncHZjY0tSMWdUNnBQZkNlYmpfX3o1VEFiQVdLMms2V2JjOEptd0JuSkFXczgxVm9FX2Nwams5RG9qTVQ0MExIZU04REZRUEF0OUMxNmtwM3VRQVRVTDVralFjMUU1WUwtdHZWcjJHeHVKNnY2bmUxSEdzQUtUaUQzYXJRd3Fnd2J4U0trLUVUaEhUOXJuanBiZHZkRHBJWmJmQ0F1SUNFNFIyWEdpbUdlbG9sQkxQQQ?oc=5",
-      "published": "Fri, 23 Oct 2026 10:58:12 GMT",
-      "summary": "UK Consumer Confidence Suffers Sharpest Drop Since Pandemic Amid Cost of Living Strain&nbsp;&nbsp;https://streamlinefeed.co.ke/",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-10-23T18:58:12+08:00",
+      "title": "xETFs Launches First U.S. Listed ETF Focused on Capturing Exposure to Companies in the Samsung Group - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnBnOWp6X1pRWVNzV1Btb3dKQ3lZTFphc3hnUnlYMXFmWG9DcGF1ZE05ZnluVjVVdnRzNGVXVDMtN1dRalF1NXpJb3RRb09tekUxZl9EOUo4d3JTSmVKVzVLSVpLeTJOQUhURDktUGJreENzVWFMbTBqcnFZMzkxc3NIdERFTElqMFV6QUx4bzR2LVlkM1MwclJn?oc=5",
+      "published": "Fri, 23 Oct 2026 14:01:00 GMT",
+      "summary": "xETFs Launches First U.S. Listed ETF Focused on Capturing Exposure to Companies in the Samsung Group&nbsp;&nbsp;Yahoo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T22:01:00+08:00",
       "source_detail": {
-        "name": "https://streamlinefeed.co.ke/",
-        "url": "https://streamlinefeed.co.ke"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com"
       },
       "priority": 0.0,
-      "category": "韩国",
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US-Iran war, then and now: How the landscape has changed since February - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLUs4eDdhSGt3aUV4SUJRSG9PTlhTaDJmMDFoU281VmphR01WVVE2MDdTWld1R2VZZ09EbnM3S0JwQXlwenNwOUp5Y2hkb1pXMkk3S2dsRFRCVGRrcGJJalRKa1R4RmxYSXpwZlIxSnU2NDZKYXMzdzVVTDVnUGlGUXlrTzNTam9GYnVxNFQ2eE9sT1FkQnZPU0EtTVZkb2lqcjZ3ZWtXYjVOUUk2aVZYcXZZT0lxUdIBtgFBVV95cUxQLUs4eDdhSGt3aUV4SUJRSG9PTlhTaDJmMDFoU281VmphR01WVVE2MDdTWld1R2VZZ09EbnM3S0JwQXlwenNwOUp5Y2hkb1pXMkk3S2dsRFRCVGRrcGJJalRKa1R4RmxYSXpwZlIxSnU2NDZKYXMzdzVVTDVnUGlGUXlrTzNTam9GYnVxNFQ2eE9sT1FkQnZPU0EtTVZkb2lqcjZ3ZWtXYjVOUUk2aVZYcXZZT0lxUQ?oc=5",
+      "published": "Fri, 23 Oct 2026 11:44:19 GMT",
+      "summary": "US-Iran war, then and now: How the landscape has changed since February&nbsp;&nbsp;Al Jazeera",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-10-23T19:44:19+08:00",
+      "source_detail": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
@@ -1113,15 +940,15 @@
       "relevance": "low"
     },
     {
-      "title": "Samsung E&A soars as brokerages raise price targets - mkbn.mk.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iQTduaXdNUFFMemR3WDN6UFRxUHZ2ckYzdHRXSTJxbEdKbk9CN3prQ3N5blBtSkVzWWVLYmluV3hQaDZzM3VPZ1dsMVpaSWlIdmtMeWZB?oc=5",
-      "published": "Fri, 23 Oct 2026 02:11:23 GMT",
-      "summary": "Samsung E&amp;A soars as brokerages raise price targets&nbsp;&nbsp;mkbn.mk.co.kr",
+      "title": "The tech selloff is forcing companies to rethink IPO plans - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0FOUll2RVQ2ZDlTSVRZdFc5bVhDSFpRcWFZNG5lSndMTFFSQ1BqcnZOT2R5S3BPTk9aRUNGZjBCVUU4RjF5UVJ0TmNiWVRzYjRnWGVjcENKRGl2MWNWRGlIb3hmbkozbUJZUS1IdFhtaGx6NkwyaEVJZ3R1U1ZzQzc2aTh3MHh6ZmV1cHctRHQ?oc=5",
+      "published": "Fri, 23 Oct 2026 07:18:00 GMT",
+      "summary": "The tech selloff is forcing companies to rethink IPO plans&nbsp;&nbsp;Business Insider",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-10-23T10:11:23+08:00",
+      "published_beijing": "2026-10-23T15:18:00+08:00",
       "source_detail": {
-        "name": "mkbn.mk.co.kr",
-        "url": "https://mkbn.mk.co.kr"
+        "name": "Business Insider",
+        "url": "https://www.businessinsider.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -1129,18 +956,82 @@
       "relevance": "low"
     },
     {
-      "title": "Surrey battlegrounds could prove pivotal in B.C. election - CTV News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOXZUTkNRWkVUY2ZvWEEzYjVuaEtxVTZOUk9IZnRVZ1JuMHdXSTIzMFU3WDh3dmg1MnhpQW5OVlpVcFUzUXZhRmROZ1BjUnNVbGNNZWJ4WGdpVzBIYS1lODBnVmowajhkOTk1WDNVOFMzbUtZNmYyNTJhTHNocTQyTDdLSFI2OS0wVFVLVXowaXV4RUFGVnJ4VVFFSGFudw?oc=5",
-      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
-      "summary": "Surrey battlegrounds could prove pivotal in B.C. election&nbsp;&nbsp;CTV News",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-10-23T08:00:00+08:00",
+      "title": "Ahead of APEC summit, Donald Trump comes knocking on Kim Jong Un's door - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYkxTbk1xY0lRQWs2TGV1VzlMem02bjk0YkFjZHNjaFN5dE1nai1mcjR1VnZuVnZMODFuR0tIckpSZDdqV1hsLXBPVEhwN3RianFkVjZNUHRTcUpPQmlOaWZIc0ZwWWY2V0Fpc0ZPcGZBMno5ZXlydFVuNmY2TmVvSkt4N3RhZmFqXzYtTTN3REZzZUlRUWNQTUl2ZEhvQmdOeEFxZkNKUFFEMG5uYVpCSGF2MVg4cTJXaUk2V1lPN0EzUVpib2EzU3dteDE4M3ktN3BRbXlfWUIzeWJnRmtydzFWckw0Y0FUYWNBbUpB0gHuAUFVX3lxTFBiTFNuTXFjSVFBazZMZXVXOUx6bTZuOTRiQWNkc2NoU3l0TWdqLWZyNHVWdm5Wdkw4MW5HS0hySlJkN2pXWGwtcE9USHA3dGJqcWRWNk1QdFNxSk9CaU5pZkhzRnBZZjZXQWlzRk9wZkEyejlleXJ0VW42ZjZOZW9KS3g3dGFmYWpfNi1NM3dERnNlSVFRY1BNSXZkSG9CZ054QXFmQ0pQUUQwbm5hWkJIYXYxWDhxMldpSTZXWU83QTNRWmJvYTNTd214MTgzeS03cFFteV9ZQjN5YmdGa3J3MVZyTDRjQVRhY0FtSkE?oc=5",
+      "published": "Fri, 23 Oct 2026 07:11:00 GMT",
+      "summary": "Ahead of APEC summit, Donald Trump comes knocking on Kim Jong Un's door&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | DPRK Sanctions",
+      "published_beijing": "2026-10-23T15:11:00+08:00",
       "source_detail": {
-        "name": "CTV News",
-        "url": "https://www.ctvnews.ca"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 0.0,
-      "category": "政治+社会",
+      "category": "朝鲜半岛",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Can SK hynix shares hit 3 million won again? Why Solidigm dropped its IPO plans - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3NGlxV2NSekx4SU1JVFgwTEI2OHBpTzJTamwzbS1fSk9INV9pU09uZTNXQVJkc2NobnRIbzZtZXpzb085NUtEQnhrZUFEbGNOanhmeGh4cjFyS2lDNzFMcHMzTjhwRVd0dEY4cA?oc=5",
+      "published": "Fri, 23 Oct 2026 07:06:43 GMT",
+      "summary": "Can SK hynix shares hit 3 million won again? Why Solidigm dropped its IPO plans&nbsp;&nbsp;머니투데이",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T15:06:43+08:00",
+      "source_detail": {
+        "name": "머니투데이",
+        "url": "https://www.mt.co.kr"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Editor's Choice: What really separates Silicon Valley startups from Asia? - Nikkei Asia",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzFySGtZX0pzMkdjdDRCRVpua0tGc29hOHpCaVZRRVotUncxbmRGQ0t0WEs1cXhfRDR2bXJWQnQ1QjhXc1ZGQTBsdTY1bHk4SFdHdzJTeGI3SVFITG1qbGVGYTVGRnN3Zzk0RGw2QlBWYmtkZVo4RGgwbUFnZERxT2NpN2FyVFBnNXFlc1FlOUY1Z3VMZ1YxTnpyLXhrVktPQlAzVlRXaVVJN3o4bTgtQ2pfUktrQUs3cWl2TzZPZXJLZnBRbG9BT3M1ZTNLUzg?oc=5",
+      "published": "Fri, 23 Oct 2026 06:19:00 GMT",
+      "summary": "Editor's Choice: What really separates Silicon Valley startups from Asia?&nbsp;&nbsp;Nikkei Asia",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T14:19:00+08:00",
+      "source_detail": {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SK Hynix Halts Solidigm IPO; Shares Jump 3.2% [2026] - https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeVdJMlB3YlZnRzM2UUtWcFlGMUlaazlmX3F3dlEyVlo1SXdIbXdaTU5qVzBpRlFxLTF5MkVOanU4X2hOZWRNc0hDTzUzN0E0bk9ZX21qdjMwOFdCSGJmem1IZHpMY1paU1k1NV9ObWNlVld1dzljbjVQMlV5UFNpOUZR?oc=5",
+      "published": "Fri, 23 Oct 2026 04:55:05 GMT",
+      "summary": "SK Hynix Halts Solidigm IPO; Shares Jump 3.2% [2026]&nbsp;&nbsp;https://tech-insider.org/",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-10-23T12:55:05+08:00",
+      "source_detail": {
+        "name": "https://tech-insider.org/",
+        "url": "https://tech-insider.org"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AUD/JPY Price Forecast: Weakens to near 110.00, keeping bearish bias below 100-day SMA - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaGdCREpsd1BtOF9KRFQzZzBnNVBnaEluV0pjWVJMQWlnbXJYR3VUZHRnOXk0aGV1VkxnRURGZU9KNHF2YjhDUkc5Tm13ZlZKZjJlSzJBZ1lIZkVVYlRNNHVwUDdSU1JsZ0xRS25GaWZmb2laUHkyS3QyX3ZyRnpDeTNZeE91OWxzVDAtclZQRUJkSnlmSFR2aUtxYTVVNjZjYWNDYWhSUUNIMXQ5UlRMX21SQ0VDcTdLcHlrcDFuWHhkTDhB?oc=5",
+      "published": "Fri, 23 Oct 2026 04:32:24 GMT",
+      "summary": "AUD/JPY Price Forecast: Weakens to near 110.00, keeping bearish bias below 100-day SMA&nbsp;&nbsp;FXStreet",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-10-23T12:32:24+08:00",
+      "source_detail": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com"
+      },
+      "priority": 0.0,
+      "category": "日本",
       "_incremental": "new",
       "relevance": "low"
     }

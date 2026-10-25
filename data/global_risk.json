@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-24T03:41:08.847893+00:00",
-  "fetch_date_utc": "2026-10-24",
-  "total": 39,
+  "updated": "2026-10-25T03:38:40.868815+00:00",
+  "fetch_date_utc": "2026-10-25",
+  "total": 35,
   "high_priority": 0,
-  "medium_priority": 2,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 0,
+      "count": 3,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 8,
+      "count": 4,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 1,
+      "count": 0,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 1,
+      "count": 0,
       "feeds": 2
     },
     "中国企业视角": {
@@ -49,124 +49,54 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 13,
+  "fail_feeds": 14,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "2026 updates in CFIUS and European FDI screening laws and practices | Events | Insights - Squire Patton Boggs",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRENOZ2NpWU9HcmtRVG9hYi1SZ0tPUDJyd0llU1NxZmVmaG9UZTI2d2VBVHlxQ2QzY3hxRXluU0dSZHB4Z0FJcUVZQTg0YXUxeFJQUzYzYWNFeWYxSFBRb3pQQ28yOVNNVWozUXpIa194OGYyR0IwM2g4a1V4VDVGeGJYWDBkWWpCc2p6dzJDdmRHWTZwZTItbE91MmxobHBNa2E5ZURLMkVRNURVSnhYYU5MYVVTMWNPWXc?oc=5",
-      "published": "Thu, 22 Oct 2026 22:34:38 GMT",
-      "summary": "2026 updates in CFIUS and European FDI screening laws and practices | Events | Insights&nbsp;&nbsp;Squire Patton Boggs",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-23T06:34:38+08:00",
+      "title": "The Hidden Problem With Western Sanctions - International Policy Digest",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11SGFjSzd5RFZzS2xIV2U5NG14dVBqQUVzeUJIODJsNUNZS1AxWlF5cnNsaVFpU2ZMOUJBVS1JbENycHRwSHMxZ3NjNGJyVGpOTzNDMVQ4WmM4d3JPYVpKNGhrRF9BdlhBWjA3eDVldDQ4dEc2ek1INUVB?oc=5",
+      "published": "Sat, 24 Oct 2026 15:06:48 GMT",
+      "summary": "The Hidden Problem With Western Sanctions&nbsp;&nbsp;International Policy Digest",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-24T23:06:48+08:00",
       "source_detail": {
-        "name": "Squire Patton Boggs",
-        "url": "https://www.squirepattonboggs.com"
+        "name": "International Policy Digest",
+        "url": "https://intpolicydigest.org"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Will Washington Regulate Biotech Licensing Like Semiconductors? Tracking BINSA and Treasury’s Next Move - JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU041Ql9XdTNueXRVa1RxdDIxODhLcTZYbXo5UVRvWWo5SVNLVVV4UVBHM0prNnRjWktCY2NlWm9lVDhFdFJrNTB3RDFvb1ZMUzloOENoUngyMHZTVGlDR0hQWGhDYlVQZ3VNM2kwSjBYU0EtOGdXTzF2aUxia0VRRg?oc=5",
-      "published": "Fri, 23 Oct 2026 19:09:55 GMT",
-      "summary": "Will Washington Regulate Biotech Licensing Like Semiconductors? Tracking BINSA and Treasury’s Next Move&nbsp;&nbsp;JD Supra",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-24T03:09:55+08:00",
+      "title": "America’s Companies Keep Flirting With Security Nightmare That’s ’100 Times’ Worse Than TikTok - The Daily Caller",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jejJIazRiYng3bkZ3TWJHNDRJSVNIYmtrR3k4ZHR5Y3hUNUxEQUQ5aFpSTUNFaks3OFR1WHRla0pwR3dDaDZtRVJnbS1hdE9KQjY2ak1ON2l6RVBhQXZwZ0tDcl9lTmU3WldEcUtHWEJKQzA5MFBYUFUxdDJ3X2c?oc=5",
+      "published": "Sat, 24 Oct 2026 13:55:00 GMT",
+      "summary": "America’s Companies Keep Flirting With Security Nightmare That’s ’100 Times’ Worse Than TikTok&nbsp;&nbsp;The Daily Caller",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-24T21:55:00+08:00",
       "source_detail": {
-        "name": "JD Supra",
-        "url": "https://www.jdsupra.com"
+        "name": "The Daily Caller",
+        "url": "https://dailycaller.com"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "EU FDI: State Of The Union (2026) - Cleary Antitrust Watch",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVHp0NWlQUU9JdW4wclBjM0JMbEJOUTQ0MEpDT2ItZDVtTjVaTEZtZjhSb2pxQ0hvcFZseDNTNDZoeW5QSnBMQVBEelR3MVRJc3RXQWJBN0lZNUZYaXVzOHF2QWlIcUlwTy1RTWo0UWFPU25OVmE3eExQSUFYVVpuZWl3?oc=5",
-      "published": "Fri, 23 Oct 2026 14:13:17 GMT",
-      "summary": "EU FDI: State Of The Union (2026)&nbsp;&nbsp;Cleary Antitrust Watch",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-23T22:13:17+08:00",
+      "title": "MiraclePlus Denies Zhisuan Investment After U.S. Sanctions - TOKENPOST",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mLXNWcVFTbW1RVTFnREo4WEZHTU9yaHZnS3c1Vmh2dmVqUXlQSUJCQUZGMFc5VFFvejZfTzh1QVN4MVljck4zUlZYS3cxNUozeTY0SThzaHl3N3c?oc=5",
+      "published": "Sat, 24 Oct 2026 00:46:00 GMT",
+      "summary": "MiraclePlus Denies Zhisuan Investment After U.S. Sanctions&nbsp;&nbsp;TOKENPOST",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-24T08:46:00+08:00",
       "source_detail": {
-        "name": "Cleary Antitrust Watch",
-        "url": "https://www.clearyantitrustwatch.com"
+        "name": "TOKENPOST",
+        "url": "https://www.tokenpost.com"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Key takeaways from the Commission’s Sixth Annual Report on the screening of FDI into the EU - Herbert Smith Freehills Kramer",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT1Zya3NlRHprN0hDMngzVTA4MlZoZEJHc0MwVEJfMVdWckpWdVhiazhBdm1yRjVGX2JTZEtJUHJ6QmI0RXplM0cwOEhneFpYbHlBRDlQLWpvaXF1bUZnRjlUcDBTeG55YXpyeG9ZQS1QUEJWeUVCSm9hdUgzRWV1WURLTU45T2czbDg3WlZmS2kyaGxLWWtRa0kwbXVDSmRoU3NNM3E4cHFCVzhpNEdzcUZNbWEzNmtpZXNtZmVSU2lUN3J0Y3NNdmotOV85ZE0?oc=5",
-      "published": "Fri, 23 Oct 2026 14:00:07 GMT",
-      "summary": "Key takeaways from the Commission’s Sixth Annual Report on the screening of FDI into the EU&nbsp;&nbsp;Herbert Smith Freehills Kramer",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-23T22:00:07+08:00",
-      "source_detail": {
-        "name": "Herbert Smith Freehills Kramer",
-        "url": "https://www.hsfkramer.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Hacker leaks 281 GB of data from Germany’s far-right AfD party",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd",
-      "published": "Fri, 23 Oct 2026 12:29:16 +0000",
-      "summary": "The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves.\n\nRead more in my article on the Hot for Security blog.",
-      "source": "Graham Cluley",
-      "published_beijing": "2026-10-23T20:29:16+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "Germany's far-right AfD (Alternative für Deutschland) party has confirmed that it has suffered a security breach, after a hacker published what appear to be hundreds of thousands of the controversial political party's internal emails.\nEarlier this week, the AfD admitted that its hosting provider had been hacked in September, and that some of its mailboxes had been copied. The party claims that most of the affected mailboxes had not been used for years, but the leaked archive reportedly includes messages dated as recently as 12 September 2026.\nThe news came as the Hexane.cc leak site published AI-written summaries of hundreds of thousands of the messages into categories such as racism and antisemitism, graded Low to Critical, according to local media reports.\nTo add to the AfD's discomfort, reports suggest that the hacker's access may have been gained in an embarrassingly simple fashion, via a website that had allegedly been left unpatched. However, this has not been independently verified.\nWhat is unusual is that the leaked emails are not published on the site directly. Instead, AI-generated summaries are shown, categorised and rated from Low to Critical. The site encourages anybody who wants to read a complete original email, including headers, message bodies, attachments, and DKIM signatures, to download it via a torrent.\nOf course, everyone should be wary of trusting AI-generated summaries, as artificial intelligence has a history of making sometimes large mistakes with great confidence. Indeed, party sources told the media that although the leaked emails appeared to be authentic, the AI-generated summaries appeared to contain several inaccuracies.\nThe full corpus of 281 GB of stolen messages and files has been made available for download via the torrent, and claims to contain 421,179 stolen internal party emails as well as more than 100,000 files.\nThe hacker says the leak is intended to expose the party's \"degeneracy and hypocrisy.\"\nThey have also claimed that someone with a Proton Mail email address reached out to them offering 100,000 Euros if the leak site was taken down.\nShould you be tempted to download the torrent and explore the contents of the messages yourself? I would advise against it. In the past, cybercriminals have used torrents of trending topics in the public eye to distribute malware. That's before you even consider the possible legal questions that can arise from handling stolen personal data, whatever you might think of the individuals exposed.\nIt's not the first cybersecurity headache that the AfD has suffered recently. On 3 September, a press spokesman for the party's group in the Thuringia state parliament warned that his work email account had been used to send phishing emails, and urged recipients not to open PDF attachments they may have received.\nWhatever you may think of the AfD, there appear to have been security failures in this case that are far too common. It's not unusual for websites to be overlooked or half-forgotten, and left unpatched. It's not rare for shared infrastructure to not be segmented properly.\nFurthermore, whether you are an individual or an organisation, you should be aware that an email account can be a treasure trove of sensitive information. Even if it has not been used for years, it can hold vast amounts of correspondence that can be exploited by hackers and fraudsters.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
-    },
-    {
-      "title": "Biovica announces outcome of the rights issue - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS05hbHk0VVVPazA5ZFZ5SHV4R3NwSFVjdlltWTY5QW42Zmxta1lzMmdLVWR1LWJEZll1MXh3V0I2Z0JHaVktcEduekJLMFZGc0RtSzQxNmxSX29Demc0bHRVX1huMG5LelU3RE9yRUhSbTFpNjNVcUR5R0xjRVdIZGhlRVF6Y1lUaEdLUTgtN3psbDU1ci12LVh0ZVVZY0xjRlhKdGxNSUQ0Y0dFQXpFMg?oc=5",
-      "published": "Fri, 23 Oct 2026 08:22:00 GMT",
-      "summary": "Biovica announces outcome of the rights issue&nbsp;&nbsp;TradingView",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-23T16:22:00+08:00",
-      "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Friday Squid Blogging: Increasing Squid Populations",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
-      "published": "2026-10-23T21:00:09Z",
-      "summary": "This article in Nature argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
-      "source": "Schneier on Security",
-      "published_beijing": "2026-10-24T05:00:09+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Compromised TLS Certificates",
-      "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
-      "published": "2026-10-23T11:04:22Z",
-      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys:\nThe compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonish...",
-      "source": "Schneier on Security",
-      "full_text": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys:\nThe compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237.\n“That is extremely in the ‘this should not be possible’ category,” Valdorda said. “Maybe some horribly dangerous key generation interface has a ‘size’ parameter and they set it to 1 by mistake???”\nBen Cartwright-Cox, director of BGP.tools, said: “My guess is that it’s example code that accidentally leaked to production, but hard to know. But it’s bonkers that no one noticed.”\nAt this early stage, the most immediate threat appears to be for those using VPNs, especially in countries with governments likely to maliciously intercept traffic. There are likely many other cases for concern. End users largely have no recourse other than to hold off using many non-browser forms of TLS communication until they receive assurances updates are in place.\nThe whole certificate regime has long been a mess:\nThe incident is the latest to expose a fatal flaw in the TLS regimen. It’s only as strong as its weakest link, which in this case was eMudhra. Fortunately, transparency logs account for much of that failure, but this measure requires parties to actively monitor massive feeds and works only after unauthorized certificates have been issued. eMudhra representatives weren’t immediately available to answer questions.\nOne caveat: exploiting compromised certificates requires an active adversary-in-the-middle attack, meaning the attacker must act as a proxy between two TLS parties and receive encrypted traffic, decrypt it, reencrypt it, and send it to the other party. Such capabilities, in some cases, are usually limited to only the most well-resourced attackers. People with control of a local network­at a coffee shop, university, or other organization­face much less of a challenge.\nCleanup of this is going to be another mess—and it’s right on top of the PHP vulnerabilities.\nSome more information.",
-      "published_beijing": "2026-10-23T19:04:22+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     }
