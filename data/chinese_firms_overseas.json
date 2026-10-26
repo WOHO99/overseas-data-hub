@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-25T03:38:44.504212+00:00",
-  "fetch_date_utc": "2026-10-25",
-  "total": 9,
+  "updated": "2026-10-26T03:41:27.511682+00:00",
+  "fetch_date_utc": "2026-10-26",
+  "total": 13,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 3,
+      "count": 6,
       "feeds": 5
     },
     "半导体+科技": {
@@ -25,7 +25,7 @@
       "feeds": 3
     },
     "光伏+新能源": {
-      "count": 2,
+      "count": 0,
       "feeds": 3
     },
     "基建+工程": {
@@ -49,7 +49,7 @@
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 4,
+      "count": 7,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,39 +61,183 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 66,
+  "fail_feeds": 67,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "CATL confirms Qilin Battery powers Nio Firefly with 560 km range - CnEVPost",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52WjFzVHJLajBiRVU1VEhvT0t1dE5PYzl5YlphUHl0elNiU1ZSeFZZWlByTFJtb2Y2amZjc1FrOHNnWEVNcDdxdzlqQkxQX0FHNV81N3hJNVI2c2MzY28xSlZhQjQtSDhNNEg5RUlMQWlHZ0JPSFVrOUF3?oc=5",
-      "published": "Sat, 24 Oct 2026 11:46:57 GMT",
-      "summary": "CATL confirms Qilin Battery powers Nio Firefly with 560 km range&nbsp;&nbsp;CnEVPost",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-24T19:46:57+08:00",
+      "title": "Huawei's Entry into the Battery Swapping Industry: Why NIO Is Absolutely Thrilled - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45MllJeEg0bjA0T1Q5MUpKbUlwUjJ1UUt3TkhxX0pnc3pZNUR3eUR6MkJtVkJmR3RyTXdObnZIMGx1N3RHVXVCNm5faEZhYk9xWDVZ?oc=5",
+      "published": "Mon, 26 Oct 2026 02:34:58 GMT",
+      "summary": "Huawei's Entry into the Battery Swapping Industry: Why NIO Is Absolutely Thrilled&nbsp;&nbsp;36Kr",
+      "source": "GNews | NIO Overseas",
+      "published_beijing": "2026-10-26T10:34:58+08:00",
       "source_detail": {
-        "name": "CnEVPost",
-        "url": "https://cnevpost.com"
+        "name": "36Kr",
+        "url": "https://eu.36kr.com"
       },
       "priority": 3.6,
-      "category": "Track17行业竞争维度",
+      "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000 - CleanTechnica",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQVBzSVRrRlJ5M0lLaUJ4VWF5ZG0ycXZpSlVGRG1KUnZWeEtyblpMYW8wYktqZkl0UTY3blhMU1ZsMDNqV2hSMUltdEMzSGNxSlBIWG5laUdpVzVvUEFqUUtCVjU2TXpDQWZRUHJsdGdBVXQ5WHZKZXdXVFZuU2x3N0tjX3NXVE9Yd0lIaGt2ekhvY1FIdGFReS1jSQ?oc=5",
-      "published": "Sat, 24 Oct 2026 18:23:19 GMT",
-      "summary": "Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000&nbsp;&nbsp;CleanTechnica",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-25T02:23:19+08:00",
+      "title": "BYD's European Factory Drive Meets a Cost Question as Sales Momentum Builds - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYkhMOEFiLTFYXzdYYURnNnJpeU9yTjZJU1VMZ19FLU53SWFrUWJzYTZfZHhhc21fVFpXNElHZEo3WGhZVlN5MzRCMXRXZ3E5MUZSeGhabUJRSFlEaUpWRFFoazk3RWI5NGlieHczWWtEYU5seDl4WElVYjREdTV4aVREUDA3cFY1NEJfZlN3WWl2M2tlQWpmUVR3OVNfd3ZoX2hPNDA4OWFTNzl1Q25wQ0dhMG40SUxuM3pmV2czeTQxTzlYc1kzdGd2WFpBMC1ZX3E0bWRJSFJ1eGp6bjdjcQ?oc=5",
+      "published": "Sun, 25 Oct 2026 13:20:31 GMT",
+      "summary": "BYD's European Factory Drive Meets a Cost Question as Sales Momentum Builds&nbsp;&nbsp;ad-hoc-news.de",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-25T21:20:31+08:00",
       "source_detail": {
-        "name": "CleanTechnica",
-        "url": "https://cleantechnica.com"
+        "name": "ad-hoc-news.de",
+        "url": "https://www.ad-hoc-news.de"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD FCB Ti 9 full-size SUV to launch post-Nov 15, Shark pickup enters China in December - CarNewsChina.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSnd1VGlJUDRNMTZ6Vnhqc19sU0o4c0hWWjhlWVVHazZuQkRXUlRXUE9nbmFyOFhrUFpraUFWcEQ3V20wQkRydlFKNDhKUEdmUTRGMHNtWHVNSHd4NURUU2xKeWd6eGd3QUl6U2tMeEdibjh0a0pEYlNCa1hZemktQ3lPWExLcVdsOXRlWWViSm53VkNtOFA5RDJiQ3JCR1lzQTRnYTlLamk2aVU4cEtacXVkSmwtajN6ZnFfcjN5cG0?oc=5",
+      "published": "Sun, 25 Oct 2026 09:04:00 GMT",
+      "summary": "BYD FCB Ti 9 full-size SUV to launch post-Nov 15, Shark pickup enters China in December&nbsp;&nbsp;CarNewsChina.com",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-25T17:04:00+08:00",
+      "source_detail": {
+        "name": "CarNewsChina.com",
+        "url": "https://carnewschina.com"
+      },
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "K-Battery Market Share Plunges to 26.8% Despite EV Market Rebound... Leadership Ceded to China - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wZWlOZUhYTHpGWXZwYlRzbWhPbTBWVDh3aDBUTm9DbmxxTzVSZ0FEamZFckZ6bUd3aFk0QlJMaFNJRjRCMXN1RXRZYzhOTzlNY0U2WjhXOWEwWlMtZHp2QnhiT0dIMWdLUDFVT2t6UUNRTGZ4UXc?oc=5",
+      "published": "Sun, 25 Oct 2026 16:55:00 GMT",
+      "summary": "K-Battery Market Share Plunges to 26.8% Despite EV Market Rebound... Leadership Ceded to China&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-26T00:55:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "‘China’s manufacturing model faces global resistance’ - Social News XYZ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkw3UjA1WW5MN2ZlOXJfMzFZWjdON1FKcV85czdDT3BNdjdxZklpcDFNZzQtelVZb3lRdGJwYXZROERyWGI0OGtxOTdBdnpyajhneG5IQ1ZrQXYtV2RxTEpzZzFuelZUU3ROMDRyV0pWS1ZEc1drWTkwSjJ1aEUwbDY1N1d1MFlGelVQU2VVMDF5TWvSAZMBQVVfeXFMTXZMN1IwNVluTDdmZTlyXzMxWVo3TjdRSnFfOXM3Q09wTXY3cWZJaXAxTWc0LXpVWW95UXRicGF2UThEclhiNDhrcTk3QXZ6cmo4Z3huSENWa0F2LVdkcUxKc2cxbnpWVFN0TjA0cldKVktWRHNXa1k5MEoydWhFMGw2NTdXdTBZRnpVUFNlVTAxeU1r?oc=5",
+      "published": "Sun, 25 Oct 2026 16:52:23 GMT",
+      "summary": "‘China’s manufacturing model faces global resistance’&nbsp;&nbsp;Social News XYZ",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-26T00:52:23+08:00",
+      "source_detail": {
+        "name": "Social News XYZ",
+        "url": "https://www.socialnews.xyz"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Korean Battery Share Drops Despite EV Recovery - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNVdkYVpsb1Zmbl9NZFc5SnU3clRCbUdRT3JDVjJvbGo1SmJuNFJVZmp2Q2JuR2RfS0JJRms3VmdJQkdGVk11b1AtY1g0aklUSWVmZzVTbWdpbjNkak1pRkh3ZDctUmxmdWk0eENnSFdVZHdfNmhrYzEzYmRYUUNqRjlrdGlwY19s?oc=5",
+      "published": "Sun, 25 Oct 2026 15:35:55 GMT",
+      "summary": "Korean Battery Share Drops Despite EV Recovery&nbsp;&nbsp;조선일보",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-25T23:35:55+08:00",
+      "source_detail": {
+        "name": "조선일보",
+        "url": "https://www.chosun.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "solid-state batteries — Dream EV Tech Faces Scaling Realities - The Korea Daily",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zMWhpekVzN3RCdGNweWFKY1FhX0FhOFBsWENFMWdhMFJBZE5wd1VmQnB1cDYwc1hBekZLX3EtRGl2Z3I3Y01YQk96RXpIUENVdmFqcEFpYU05Tjd3UUltXzhhRVg5eVdyRHl4Zlg3b01qOXotek1nNy1XNmhhNnc?oc=5",
+      "published": "Sun, 25 Oct 2026 15:10:25 GMT",
+      "summary": "solid-state batteries — Dream EV Tech Faces Scaling Realities&nbsp;&nbsp;The Korea Daily",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-25T23:10:25+08:00",
+      "source_detail": {
+        "name": "The Korea Daily",
+        "url": "https://en.koreadaily.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Solid-State Battery — Samsung Accelerates While LG Takes a Cautious Approach - The Korea Daily",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51c2h3LU1kQUtqdXF1N1Q1a2lVLU11clFxYkxUY2VwUmF0X0x2UGFTT2p4cnZYb21vdW9qUUJOcGthbGtMMEF4U1FCT1JZOVFKZUJzTVY0cVd2RThzQUxnUTBVekxIbm9QVHRxcml4Sk9PbmZu?oc=5",
+      "published": "Sun, 25 Oct 2026 08:09:25 GMT",
+      "summary": "Solid-State Battery — Samsung Accelerates While LG Takes a Cautious Approach&nbsp;&nbsp;The Korea Daily",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-25T16:09:25+08:00",
+      "source_detail": {
+        "name": "The Korea Daily",
+        "url": "https://en.koreadaily.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tesla Megapacks Nearly Sold Out for 2027: 110 GWh [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdlpSZkQ5d092QVBUM1NyTlpCaUFCTmVUQjAzdWZxWTNFTm9ubG5EaWJZcXRyNXZlSVZiZTBCV0JMTTJqRndrZDZBSUZwTnZNMHR3RlM0VlhpcFo3R1FGN1BsZnAzN0ZpM0dOQ1llNGU4RHg3TTNuRW9jUzhMUVVHbzVMcGI3Zw?oc=5",
+      "published": "Sun, 25 Oct 2026 07:00:17 GMT",
+      "summary": "Tesla Megapacks Nearly Sold Out for 2027: 110 GWh [2026]&nbsp;&nbsp;shattered.io",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-25T15:00:17+08:00",
+      "source_detail": {
+        "name": "shattered.io",
+        "url": "https://shattered.io"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China cannot remain the world’s factory. What comes next? - Daily Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMEJXVDFFbmZrVE5ZaHdENzVZMlBPdnZCTWdLSHphXzRqc0h0dnVzYmxUbjBGSUJQakJXZGI3QTJjSWN2cnJybExTSmx6bnpoSXBzcTVNUnlBMkVyMTBvbW5XTlo5UjBzaU1EUWhVVTNZd0p6SnR3VG9GNXozazJBWjF0ZmFYbE5fUmMyN0d1dzMzcWIyUmJNczU3NHk?oc=5",
+      "published": "Sat, 24 Oct 2026 10:47:52 GMT",
+      "summary": "China cannot remain the world’s factory. What comes next?&nbsp;&nbsp;Daily Sun",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-24T18:47:52+08:00",
+      "source_detail": {
+        "name": "Daily Sun",
+        "url": "https://www.daily-sun.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Jin Keyu has offered the right China strategy to china: the world ought to pay attention — Phar Kim Beng - Malay Mail",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaFZnTWVhVmRnSlhDNWZSMnhoTkx4TGJDVHlES0ZYaG1fc1JvUkJ0ZEtreUdpUkNLajhPakZ6RmRiWDlZWU56NkdIWTh0UWk5MVBzTGE5UVFxOXMwRmFORkpGOXFpNzdQWFdHR0FPenoxd21wYmw4Q2hrcVRkeXBsQ3g4c1Z2a3BoeGNFelkzSHdKYlZhTEFPYnZ4MlFmZk5Kc1QxRjNOWkNELTdJNERORElYcVFUT3hNUHd4aHNHX3o5Wlp3Uy1EdHB6cExrU3IwMUhtRjVsdUg3bWZORXk5RTc0dm1BUFA4VGpWS3FPZXhNRmFXOEM2eV94cmVzUdIB_gFBVV95cUxOaFZnTWVhVmRnSlhDNWZSMnhoTkx4TGJDVHlES0ZYaG1fc1JvUkJ0ZEtreUdpUkNLajhPakZ6RmRiWDlZWU56NkdIWTh0UWk5MVBzTGE5UVFxOXMwRmFORkpGOXFpNzdQWFdHR0FPenoxd21wYmw4Q2hrcVRkeXBsQ3g4c1Z2a3BoeGNFelkzSHdKYlZhTEFPYnZ4MlFmZk5Kc1QxRjNOWkNELTdJNERORElYcVFUT3hNUHd4aHNHX3o5Wlp3Uy1EdHB6cExrU3IwMUhtRjVsdUg3bWZORXk5RTc0dm1BUFA4VGpWS3FPZXhNRmFXOEM2eV94cmVzUQ?oc=5",
+      "published": "Mon, 26 Oct 2026 01:40:58 GMT",
+      "summary": "Jin Keyu has offered the right China strategy to china: the world ought to pay attention — Phar Kim Beng&nbsp;&nbsp;Malay Mail",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-26T09:40:58+08:00",
+      "source_detail": {
+        "name": "Malay Mail",
+        "url": "https://www.malaymail.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     }

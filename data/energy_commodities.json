@@ -1,30 +1,29 @@
 {
   "version": "4.0",
   "module": "全球能源与大宗商品",
-  "updated": "2026-10-25T03:38:21.306276+00:00",
-  "fetch_date_utc": "2026-10-25",
-  "total": 236,
+  "updated": "2026-10-26T03:41:03.800447+00:00",
+  "fetch_date_utc": "2026-10-26",
+  "total": 183,
   "high_priority": 0,
-  "medium_priority": 92,
+  "medium_priority": 48,
   "signal_alerts": {
-    "force majeure": 1,
-    "supply disruption": 1
+    "force majeure": 2
   },
   "stats_by_category": {
     "油气": {
-      "count": 76,
+      "count": 59,
       "feeds": 4
     },
     "关键矿产": {
-      "count": 62,
+      "count": 36,
       "feeds": 6
     },
     "粮食安全": {
-      "count": 36,
+      "count": 34,
       "feeds": 3
     },
     "能源转型+碳": {
-      "count": 15,
+      "count": 9,
       "feeds": 5
     },
     "本地语言搜索": {
@@ -36,11 +35,11 @@
       "feeds": 1
     },
     "信号性查询": {
-      "count": 8,
+      "count": 9,
       "feeds": 3
     },
     "专题精选": {
-      "count": 50,
+      "count": 47,
       "feeds": 1
     },
     "能源环境RSS": {
@@ -48,87 +47,19 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 5,
+  "fail_feeds": 7,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Europe’s critical minerals challenge: A world tour - Mining.com.au",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jQjRJbkJSUnhadWlQZ3N5Y2RMTnVaWHIzQm5uS2FSdU5zTkw0dXBIZFB6dE9nYW10S0o1TFg2Z05ySWhBYUlSZFBiWS05QUJHQng2Z0UzeUxHRjhCRVMzQ2N2bGtYdFY1MjFRSGJvTEs4bmlocllfdVhoZw?oc=5",
-      "published": "Sun, 25 Oct 2026 01:07:56 GMT",
-      "summary": "Europe’s critical minerals challenge: A world tour&nbsp;&nbsp;Mining.com.au",
-      "source": "GNews | Critical Minerals",
-      "published_beijing": "2026-10-25T09:07:56+08:00",
-      "source_detail": {
-        "name": "Mining.com.au",
-        "url": "https://mining.com.au"
-      },
-      "priority": 7.2,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Critical Minerals Crucial for Self-Reliance in Defence Production - Raksha Anirveda",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTExlVGFQdXNWWHAzRGJjeTJTaWNpNnJoS2ltNzFhaWsxMWlhd0xVY3dHb1hxakVKeERIVWQ5ZGdLVVFBUVhGLWtNVUVrZG5NOVlzUWpFWktlWHV5RHl4bV9YQWtwY0NELVI2bEJXRjJGVDd4VTVrcEVVS2h1Y1p5bDlieGItM09PZS15NC1WNzRmQUhVV28yaW5B?oc=5",
-      "published": "Sat, 24 Oct 2026 16:51:16 GMT",
-      "summary": "Critical Minerals Crucial for Self-Reliance in Defence Production&nbsp;&nbsp;Raksha Anirveda",
-      "source": "GNews | Critical Minerals",
-      "published_beijing": "2026-10-25T00:51:16+08:00",
-      "source_detail": {
-        "name": "Raksha Anirveda",
-        "url": "https://raksha-anirveda.com"
-      },
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "India eyes stronger domestic supply chains through coal gasification, rare earth corridors: Anupriya Patel - ET Manufacturing",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWk84OUdsMlQ3bkJ4b2lqNC0zc3o2N2ItSW5LV19feHlyMnhXTERjSVZic3Q4eW1KWGlNYkU4VklMSDlyVlNEcXVUeWpPcDJMcnIyR3NWdWNhT0FjYmNJWTFycFZzdXgxdk42YjJlUEZOa0FPWUZQazZhbmhiS20zWW52dWdGd2NZMXBfMGNTR200djJDR3QybnhwR2JsSlNTRi1lWXZyUE9jRGJkcS1UUTJnelp5SHFvY2dhRlN5blVCWlFWUDllRkkyNTBoZ0o5YWV6UDRhcTNIbzJ6dzh6a2ltay01ajRrNjE4Wm9kQ0pGTlAwMDJEQU5GMjdMa3hDOEZqNms4WWZBZnfSAZACQVVfeXFMT3RoM2RsODZtbzB4RmRidkk3X0NhZ3VEaUNseE9KZENYYjEtNlRaU1I1ZnRRVll5N2JKQjQwYXhZSHhmejBGVjgyUnFDUUF4NjhLbV9DdGNySzVheXVJZFBIbFRMTnA5ZG9PNE1HN2pNLU5TTE84OWxSZUJkVy1IY0daWTlldVhLN1dSclhUQWwxTFF4VTlxXzBRUU5XVGU5b21KWkRNVTJ4NEh3d1FWNmRDTk12dGRXbDh1VDJCVmFHcE14VVh0ODlfWjc3V3pMRzZlRXROUUYzWDNpbU43eVZtNGxLekw5QzZiZDRxZFM0MUptdEFaRTdhaXlkU0ozLUhHdjkxME5hYWNkS0xXRjM?oc=5",
-      "published": "Sat, 24 Oct 2026 07:35:30 GMT",
-      "summary": "India eyes stronger domestic supply chains through coal gasification, rare earth corridors: Anupriya Patel&nbsp;&nbsp;ET Manufacturing",
-      "source": "GNews | Critical Minerals",
-      "published_beijing": "2026-10-24T15:35:30+08:00",
-      "source_detail": {
-        "name": "ET Manufacturing",
-        "url": "https://manufacturing.economictimes.indiatimes.com"
-      },
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Powering Korea’s AI ambitions: Latin America’s rising role in critical minerals to 2030 - BNamericas",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaXIxNnVSSERoS2E1YnQ1LUhfQWJSVE9ITXU2c2ItWjI5ZzZoWlVxc095eEN4MGJMRFFQMlc1YXZTdW9SaWJxMXVFemJKWU55M050OTRqWlNUamIycnBiZXJXSGpRUFZaMm5Ia1I0bUNFQ01VUzlfQXdONUFSbTJjQ05BRDlCcjdTdEVrZzFDclBfdHlmUjlwWDNKb19jYnVQc2lWaktSOVhzRVdsRkstMWVNMTdJWWtNQktQaVhDS0t1QUk?oc=5",
-      "published": "Fri, 23 Oct 2026 13:12:26 GMT",
-      "summary": "Powering Korea’s AI ambitions: Latin America’s rising role in critical minerals to 2030&nbsp;&nbsp;BNamericas",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-23T21:12:26+08:00",
-      "source_detail": {
-        "name": "BNamericas",
-        "url": "https://www.bnamericas.com"
-      },
-      "priority": 6.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "ENERGY NORTH: Shell-Led LNG Canada Could Approve Phase 2 Expansion By Early October - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3pub2x3YXY4ZlVtSmJrVXZKbVV0RHNzRUpraWFPZFZGNlRlS2xtX25TTC0yREc2cE9yc1RMbkVVczhNZjczT0RmSjFIZGl1czhqdEVDVXBYV1JkN3lHTjAzRTE0MnA5V2t2ZlRJbVY5X1hxUHNGNHJuQllSYUNwdEVMaklPdjhlMWdWc0N5LTFFSkpwd0NOYzUzSVQ5TFpJOUE?oc=5",
-      "published": "Sat, 24 Oct 2026 08:56:45 GMT",
-      "summary": "ENERGY NORTH: Shell-Led LNG Canada Could Approve Phase 2 Expansion By Early October&nbsp;&nbsp;EnergyNow.com",
+      "title": "QatarEnergy in Talks to Buy Up to 3 Million Tons of LNG From Woodside - Egypt Oil & Gas",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS3ZDMXdGTVhtTTc4N3l1azA2c3dkdVZ0RG9NWmoyTmlwRU9zdHA0d1lObGZSdkp0TW5XX1V3V0tPcVRCZWdvYVB4X3pGTmlJd3ZJZHFlcWhqMENfbXRlRGx5eWoxRjlfYi1wdWh1UGVlSEwtRVJPMTJJc0NkT1JZTVJPQXZsLTlRODdpSVBwVzJ6Z0d3djdwQUFDNnhaeGQxLVE?oc=5",
+      "published": "Sun, 25 Oct 2026 06:18:37 GMT",
+      "summary": "QatarEnergy in Talks to Buy Up to 3 Million Tons of LNG From Woodside&nbsp;&nbsp;Egypt Oil & Gas",
       "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T16:56:45+08:00",
+      "published_beijing": "2026-10-25T14:18:37+08:00",
       "source_detail": {
-        "name": "EnergyNow.com",
-        "url": "https://energynow.com"
+        "name": "Egypt Oil & Gas",
+        "url": "https://egyptoil-gas.com"
       },
       "priority": 4.8,
       "category": "油气",
@@ -137,15 +68,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "EDGE OF SOMETHING REALLY BIG: Canadian Pipeline Industry Seen on ‘Edge of Something Really Big’ as More Projects Advance - VARCOE - EnergyNow",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTliWXRBVFQ2M3RXRzBxQzZfOENwUnBsS25PU3RpbFBMRERPNHl6elVrNlRDa2l1TjlmS0dhMEw2dHo4cnYzVWZGbFp3R3FTd3ljclE2dW9vUldSams2cjZhdDlRMnQ3RU1NUkZyNTdVbDZ1T1JYcE5pZHY2R29tVDNCTGtFYVdwTkQwS240VVF1eGlRTFQtLXJoUmpObHBtZWRFWGktRXpPdWtDSk50dG81bFllRko2dkE?oc=5",
-      "published": "Sat, 24 Oct 2026 06:53:56 GMT",
-      "summary": "EDGE OF SOMETHING REALLY BIG: Canadian Pipeline Industry Seen on ‘Edge of Something Really Big’ as More Projects Advance - VARCOE&nbsp;&nbsp;EnergyNow",
+      "title": "More Pipeline for the Permian: Welspun’s $580MM Order Reflects the Basin’s Gas Demand Shift - Hart Energy",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSmo1TG1Qb3ExR3k0OWV3QWU0ZlZCaVlWbVpWZmZnRldBSEdOd3RfNEVocTVDS1laTUZYaVQ1TTlHYkZCTDliV0NhVHpaOVJBaGdWSE83eTVXT1FrV051TGNhRkEtcmVsVnpMZjBvSlJ2dVFnUGFvNzVlWnVsOXdfVFBsTlcyZml5QXRZMWZqRnZUQlRiWWJJR3pkRmZlYjA?oc=5",
+      "published": "Mon, 26 Oct 2026 02:46:00 GMT",
+      "summary": "More Pipeline for the Permian: Welspun’s $580MM Order Reflects the Basin’s Gas Demand Shift&nbsp;&nbsp;Hart Energy",
       "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T14:53:56+08:00",
+      "published_beijing": "2026-10-26T10:46:00+08:00",
       "source_detail": {
-        "name": "EnergyNow",
-        "url": "https://energynow.ca"
+        "name": "Hart Energy",
+        "url": "https://www.hartenergy.com"
       },
       "priority": 4.8,
       "category": "油气",
@@ -154,168 +85,32 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "QatarEnergy agrees to buy up to four million tonnes of US LNG a year through 2054 - London Daily News",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZE9xdVhTekNsVjJHZ1FjWjU4NjFKTG1KWmtuenlEOWVlM3I2TERNZmlqM1h1eVQ0T1RIR1YwRnp2UFhXQzkxaGctU0JXNm5EWjZ1UGdVYUx5bUVlZFBIZWR4R1prLWdGSmpsbHNkeGJWeU91NHd1ZEF2c0dkSHg4R2xFLVF0U25KczE4WnYwd0tqSVdCNWxhUkdIZk5WMnQ1OE9nYzFPQ09FUWJLaTdmSQ?oc=5",
-      "published": "Sat, 24 Oct 2026 06:05:32 GMT",
-      "summary": "QatarEnergy agrees to buy up to four million tonnes of US LNG a year through 2054&nbsp;&nbsp;London Daily News",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T14:05:32+08:00",
+      "title": "Soaring sulphur costs slam phosphate fertilizer production - The Western Producer",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkMzdEhmMzlCeUt4NGtwa21ld0FwaFpwakxpTEc1OC1OUW80bk1OMFA5VmR6OVNRMGg0STJmUlRPaldlRjQ3YTl5akllX0l1OW1FQXlxS3N2X0VjVGFrOUVxU0lNcjdGR0EwLUNMdnBUajdNbE1vazZCTTFaY3AtZTAtOTgyVldkZEVnRF9NcFgybC1nMXU4?oc=5",
+      "published": "Sun, 25 Oct 2026 14:55:12 GMT",
+      "summary": "Soaring sulphur costs slam phosphate fertilizer production&nbsp;&nbsp;The Western Producer",
+      "source": "GNews | Fertilizer",
+      "published_beijing": "2026-10-25T22:55:12+08:00",
       "source_detail": {
-        "name": "London Daily News",
-        "url": "https://www.londondaily.news"
-      },
-      "priority": 4.8,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Benchmark: 134 new lithium mines required for the EV industry - Mining.com.au",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSkk5S0lKQUdKN2Z3Z01DMXlsTmhlQUJWemEwTGczUHNFaFpjYkZiRWhJblNWNDhyQm9wNjlRVlVyRTBTYUdYSkpYeGVxLXhjZ2FWeXl0MVhOMXVBcGVING15V0RncDF4YS1sM2FIZHhpR3JVb2xOZGFrRHFNTW1WSXFBVDJ6RzhMOUk4?oc=5",
-      "published": "Sat, 24 Oct 2026 04:16:55 GMT",
-      "summary": "Benchmark: 134 new lithium mines required for the EV industry&nbsp;&nbsp;Mining.com.au",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-24T12:16:55+08:00",
-      "source_detail": {
-        "name": "Mining.com.au",
-        "url": "https://mining.com.au"
-      },
-      "priority": 4.8,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Cheniere Secures 4 MTPA LNG Deal with QatarEnergy Through 2054 - ChemAnalyst",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRkRHRXU3a3huX09kdjlNaURpZmswLW9kdkhiTjUtdHN2SFRmVlM3VlV0aUgyRG5GSlozdk1LSVBlN3VpVUJGZDE3TzFEdGhRVGtlYVFjT1QyUEQtdHRBRVNxeDFPcmhhdno3bVc0eWhpNG0tZU5LYmxzV3NRVUl6WXZma1FuY1RmVE10S1g2ZGJka19GN0stRVZUUFU3c3UzSW1SSnRtY3J2T0V0?oc=5",
-      "published": "Fri, 23 Oct 2026 14:05:54 GMT",
-      "summary": "Cheniere Secures 4 MTPA LNG Deal with QatarEnergy Through 2054&nbsp;&nbsp;ChemAnalyst",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T22:05:54+08:00",
-      "source_detail": {
-        "name": "ChemAnalyst",
-        "url": "https://www.chemanalyst.com"
-      },
-      "priority": 4.8,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "QatarEnergy signs long-term agreements to purchase 4 MTPA of U.S. LNG from Cheniere through 2054 - euro petrole",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRnMxZkIwbGxkVEhhenh3dnFlUXdxa1puTnlQcGV0UVZoVzNIOHdTU1RMLTBfaFRzZjlGc2k2alhyZWUwMGtUdTBTMEFnNkUzNlpaa3I3OThaMlVMZVhnWXZZZldmYlh3VFhoMkJqb2ZaSXlkQ3BUZGJhNUdkd2x1MGJjR0RTSlNXMVp1eTdtWEJoNEVmUGpaX1NtQl9xMW9oZDRkOGxPS2x2VXRpRlJDYzdpNklfajNVNkhLN2YxT2tjNTJFVkY0Z2hpVkMtR1U?oc=5",
-      "published": "Fri, 23 Oct 2026 12:47:30 GMT",
-      "summary": "QatarEnergy signs long-term agreements to purchase 4 MTPA of U.S. LNG from Cheniere through 2054&nbsp;&nbsp;euro petrole",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T20:47:30+08:00",
-      "source_detail": {
-        "name": "euro petrole",
-        "url": "https://www.euro-petrole.com"
-      },
-      "priority": 4.8,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Cheniere signs LNG supply deals with QatarEnergy through 2054 - Offshore Technology",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYndWNFhEeHo0akxXOURBWUVDNUwtTmdxa2VxVjRjUzFTbVlZV29JODBiUWFSTFN1ZERvNGJFVUF4UTR6WTBudHBtM2lCZG5DdVZlUXNMbk5PNkxEcmhVV3owb2Y1VFZVY0ZKQXFBTEZhakFKUzNrUU9VdEM2NHlqR1M4dVItUQ?oc=5",
-      "published": "Fri, 23 Oct 2026 09:27:16 GMT",
-      "summary": "Cheniere signs LNG supply deals with QatarEnergy through 2054&nbsp;&nbsp;Offshore Technology",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T17:27:16+08:00",
-      "source_detail": {
-        "name": "Offshore Technology",
-        "url": "https://www.offshore-technology.com"
-      },
-      "priority": 4.8,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Cheniere Signs Long-Term Sale and Purchase Agreements to Supply QatarEnergy with LNG through 2054 - euro petrole",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYTh0Y0poejZZWk14R2doenEzMXdDWXlleXVuQURxWE9paU1PWHJnQ3BnUlNRbzg3UnBuYy1STW9VbXZjUF9nRUlBV1BqTVh2cGpiRWFzcHdxd0dnQ28xWEN4XzRrOHZEVzZKUUo5WVhDVW43aVRVWXVjYnQ3MTZFMGFXWlh2bm00ZGhXa1ZFNzE3VDVEdXdfUkRvQW5JVFptb0pNdURHbGR5RXQzSkRucmNrUTA1MTJrampLbWFaY2o1MWNDcUFuLXlYQ1k3X19wWFE?oc=5",
-      "published": "Fri, 23 Oct 2026 09:21:45 GMT",
-      "summary": "Cheniere Signs Long-Term Sale and Purchase Agreements to Supply QatarEnergy with LNG through 2054&nbsp;&nbsp;euro petrole",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T17:21:45+08:00",
-      "source_detail": {
-        "name": "euro petrole",
-        "url": "https://www.euro-petrole.com"
-      },
-      "priority": 4.8,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Southern Copper (NYSE:SCCO) What Matters Beyond the Latest Market Move? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMm8wYTFNYWFfdGhFd2Q4alhiX0VaSGZnM1ZueGxWdlFNNnhrUGg2UFIxcFF0eDZyZzF4YUlWSDVyU1NaSWR1RUNGTVJOdjU4U2c0NHpNbnlCNWNKOTVycEdsZmFtSnJLWERXRFlybmdmX0d6UWNJZkFuWWxlMUJQd25UUmdsbE1zLUxNUkVGclpZWmhqcVBBaWU2Skx3TUJ0QVlKbGZMa3hienVsUGUteUktcGZYaXFpMlc4?oc=5",
-      "published": "Sat, 24 Oct 2026 17:27:00 GMT",
-      "summary": "Southern Copper (NYSE:SCCO) What Matters Beyond the Latest Market Move?&nbsp;&nbsp;Kalkine Media",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-25T01:27:00+08:00",
-      "source_detail": {
-        "name": "Kalkine Media",
-        "url": "https://kalkinemedia.com"
+        "name": "The Western Producer",
+        "url": "https://www.producer.com"
       },
       "priority": 3.6,
-      "category": "关键矿产",
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Best Lithium Stocks To Follow Now - October 24th - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYlE0NWkzQTJkU0JrQ2VqRm9YejMwQjE5QTdnNkdab3NMeTJEQWphRVNLdmJzN2JuN0NtemNUTFFvYXY1cldZaTMyY3Q3RmFHSmlteGlXdVB4WlBGdEt0TndnTDFxYzkxd0FrUTFoSTVGdmI2bnFtZlpyUGlQMGVTb0RGNnlTMXg4WkZlTFB4UTREQ2xIMWRUMm93MXZBWFF3b3BVeUc5aTA?oc=5",
-      "published": "Sat, 24 Oct 2026 17:08:28 GMT",
-      "summary": "Best Lithium Stocks To Follow Now - October 24th&nbsp;&nbsp;MarketBeat",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-25T01:08:28+08:00",
-      "source_detail": {
-        "name": "MarketBeat",
-        "url": "https://www.marketbeat.com"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Southern Copper (NYSE:SCCO) Hits Records As Copper Prices Cool - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSWZGN3dTWkhFR2czMHJ3MkNkcFF3dVRxSDRtVmxuLTdfVXRfU3RCbFdnSm1XZXRocmZVUWt4cl9QSkoweDdYV3dBcnRjS3dMTi1BNHRrNnlMWEJXZmQ3MExDRC1JZ1dzY2psYU8wTVpISWJzNnZtdGQ1THJoOFd3VjFybEtIeGtnTUtqcTZJSnlpSHc3QWpFVlZ4blk2bFNMbzhtbk9tV015eWNHOG11MQ?oc=5",
-      "published": "Sat, 24 Oct 2026 16:18:00 GMT",
-      "summary": "Southern Copper (NYSE:SCCO) Hits Records As Copper Prices Cool&nbsp;&nbsp;Kalkine Media",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-25T00:18:00+08:00",
-      "source_detail": {
-        "name": "Kalkine Media",
-        "url": "https://kalkinemedia.com"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "The Next Risk For U.S. LNG Is Demand, Not Supply - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzhidGt1amVTeml5Y3FJQTFUbEdocFIwS3lwcGNJVnptMWRDWUk2TmJuMzBJTjJZUGtCRE1ENlJsZnBoc3k3dlphVlc4Z2cxSTkydXpTVDYzaHlLMDRFZ1UydHlGTGsyYlVuSERHNW1ZcWVTYkNnckNDNmlBTGhIYTVJY0l0UXZLa2EtSHE0UlBRTWZha3BvWEJn?oc=5",
-      "published": "Sat, 24 Oct 2026 15:07:43 GMT",
-      "summary": "The Next Risk For U.S. LNG Is Demand, Not Supply&nbsp;&nbsp;Forbes",
+      "title": "Hiep Phuoc advances with its 1,200 MW LNG plant - Inspenet",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGQkdGYS00NlN6SW8xZHg1dlMwNm1Ua1A2U2pVa2lBbjhpMWdjVW40aHRBZW0zdU51NW1Ra0NnX2dURzVTZ2dwNEc2WGpQaW9wU2JmN3JlX3JXcndtOVBjWkFKUnhDQzdZSC02NlFoNDZ6VjI3TnRLVHRaVQ?oc=5",
+      "published": "Sun, 25 Oct 2026 14:00:00 GMT",
+      "summary": "Hiep Phuoc advances with its 1,200 MW LNG plant&nbsp;&nbsp;Inspenet",
       "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T23:07:43+08:00",
+      "published_beijing": "2026-10-25T22:00:00+08:00",
       "source_detail": {
-        "name": "Forbes",
-        "url": "https://www.forbes.com"
+        "name": "Inspenet",
+        "url": "https://inspenet.com"
       },
       "priority": 3.6,
       "category": "油气",
@@ -324,12 +119,46 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Hydrogen Filter Housings Market To 2035: Fuel Cell Vehicle Demand Supports Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVkZfVndLVVZMTDF2d01LR1RJekdjR3RNYnEwem93WEEwZXFDQzFOODRqYWlJb1dFQ2VXdUxPRUdoYjNOZEpmdjdzRDdQTWJyZDBIcFVLeXZwVzVOM0s1anhfb08yVFZ5clRkaGt3TDZPeENXMnEzclFqQUNMZnRDWTh3cm9Ecl8wMTh6bE5NZmtSRE5vM2NLSWdpaEhERG5pdWVsRHZsSmd3Q09iNEVSVjU1RGR3Nkx1MU1VM2xnSGJmMnh4MzdLdnZXb1o4TloxclVRY2lPRU9FT0lwTHc?oc=5",
-      "published": "Sat, 24 Oct 2026 14:21:04 GMT",
-      "summary": "Hydrogen Filter Housings Market To 2035: Fuel Cell Vehicle Demand Supports Growth - News and Statistics&nbsp;&nbsp;IndexBox",
+      "title": "Oil prices mixed; Brent flat, US crude up as Iran keeps Hormuz shut ahead of Trump deadline - DD News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNW9mUi1jTXdJZlFLRjREQmhSLU5YVzItckpzUU9sVFctOFlDbFZWWUsxTlNJTkdMSlpkd1gzNVUzNTNlNXhCN0ZUaWxUaU1oejZGUV9ja29TOHJkNlNQNl9KeGE3UFZCbmx5RzVyVTQtLUg3eDBTSW1FVnFNUFdIZ3hPTXdmUHVFNGdpT1g0M3NCVHR5d2tjei0ya0RoUUpRZVEzTU1fQ0xuMFFfUjlYYTBoSllTdw?oc=5",
+      "published": "Sun, 25 Oct 2026 02:53:04 GMT",
+      "summary": "Oil prices mixed; Brent flat, US crude up as Iran keeps Hormuz shut ahead of Trump deadline&nbsp;&nbsp;DD News",
+      "source": "GNews | OPEC+ Quota",
+      "published_beijing": "2026-10-25T10:53:04+08:00",
+      "source_detail": {
+        "name": "DD News",
+        "url": "https://ddnews.gov.in"
+      },
+      "priority": 3.6,
+      "category": "油气",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Iran War Upends LNG Landscape: Qatar to Buy 4 Million Tons a Year from the U.S. - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUTDNVZ2hKMzFaSjVwSVoydV9YWC1hd2FvaDVzY3E1V2JPOFZkYlBTVF9PYUtCR3V0eGptU184akNxOU9RTzd4WjZnamt4a3B6ME1fYXJvbVNGWHRnWTZCaEFmLXhKLWlHUmlLSVFXemh0MXFjUXc?oc=5",
+      "published": "Sat, 24 Oct 2026 21:55:00 GMT",
+      "summary": "Iran War Upends LNG Landscape: Qatar to Buy 4 Million Tons a Year from the U.S.&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-25T05:55:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 3.6,
+      "category": "油气",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Hydrogen Capacitance Level Sensors Market To 2035: Green Hydrogen Demand Supports Growth - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNEVvcXRxN1ktem9ibjJ3Sy1RbEl0MFpQazFrcUw0cmltcFB2OXVhaXV4Ri12TTdQcmhQWFduTjhhV2Y3bWE4SnExanljLXFNNkxaLXlOVW1LdE9FNHcyQV9JLUdJNXdiY0k4X3NOcy1pR29iRUJDRmM1eVZNdWJuTGtZX01ORXowTmJEX1hVdmxSZFNHcXVnczkybVBDc3RDdWVSWV9jOEx5NE1hNG1KYU4zZ2ZVR0pZaVVlZ2pGTW9DRDRGVnVRUV9RWjhrUm1fbF9RblNEcG94TXZk?oc=5",
+      "published": "Sat, 24 Oct 2026 04:21:04 GMT",
+      "summary": "Hydrogen Capacitance Level Sensors Market To 2035: Green Hydrogen Demand Supports Growth - News and Statistics&nbsp;&nbsp;IndexBox",
       "source": "GNews | Hydrogen",
-      "published_beijing": "2026-10-24T22:21:04+08:00",
+      "published_beijing": "2026-10-24T12:21:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
@@ -341,184 +170,47 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Mid-Nickel Cathode Materials Market in the Middle East: Size, Trends and Forecast to 2035 - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWRQbzg1S0tJWTRna3RzcjBrcHNWRUllbFhLS0pFV0tOc1RVQVdDUWIwdTVlRGZMU0k1cVVpdnJHaWZJS3QyNmFUVENobzNFUUhlemZ1VEk1QkcxeHpuR3hRcUkyRDdyeHMwR2RvNU1RaFN3MW1oVTFzMmJIM1pWb01zdG4xUUZHSXNVZ3JzVVRwN0hzRHI0eUZtTWo1RFZWZWQtNUVQTFJYWF9FTVQ5SVJRMGZMSjgzLUx3NUln?oc=5",
-      "published": "Sat, 24 Oct 2026 13:51:06 GMT",
-      "summary": "Mid-Nickel Cathode Materials Market in the Middle East: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-24T21:51:06+08:00",
+      "title": "From flood to drought: A cycle of crises, a history of neglect - FEU Advocate",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb2UycjJnU2ZyMVFyVUNsZEdGdS12eHJuOEwwWGp2LWpmMHpQbHZ4Zy1BNDlzenUzbnNrTDJ4LTVqeDZLdVZYNDczX0Q0UXZwY0hvVWNvM3Y1MmRYTF9vRHh0MVNaSW95cmNIVHZpMHhJNGx4clF5b1RVRDQwbHZEbFBwMjNnblJSRjJSQ2RB?oc=5",
+      "published": "Sat, 24 Oct 2026 13:28:56 GMT",
+      "summary": "From flood to drought: A cycle of crises, a history of neglect&nbsp;&nbsp;FEU Advocate",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-24T21:28:56+08:00",
       "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Machine Learning Identifies 9 Untested Copper Targets in Chile as 5000-Meter Drilling Program Begins - Streetwise Reports",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNERzLXhNQnBjbno3SGY4RFpkT1hYNUNOS29wdGk1THI0eWhVXzdxem9vLTNtT3hmMXdHTmNyNUlXcEJVOVVuNXZoZW5YT2doR2pmTkpXRWFhSkw0Y1ZhTWFqYW1uWko4Mi02ZFNydDFHLXQwcUYwS3lPXzVjRUVRQlVLeFAyZHpCa2pZQzJ4bWF0cWpHWFd3aDlOUEVsV093VkxhV25pdkVYMlFaWUp5YVdfVWZwcVA5b0FNbzZTWVJMcEVrUG1ET0trVFhBRWRNQkNRbm1Lc29vQ1dqbGhhdDhtQ1pLY0ozcXc3LVUtR3E?oc=5",
-      "published": "Sat, 24 Oct 2026 10:29:33 GMT",
-      "summary": "Machine Learning Identifies 9 Untested Copper Targets in Chile as 5000-Meter Drilling Program Begins&nbsp;&nbsp;Streetwise Reports",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-24T18:29:33+08:00",
-      "source_detail": {
-        "name": "Streetwise Reports",
-        "url": "https://www.streetwisereports.com"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Venture Global to build new power plants at its LNG terminals, aiming to bring more AI data centers to LA - NOLA.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOHdiR2YyYlE5VGRyNDN3ZUk5V3duUkl6WVNYRlI1X2tZNnBzN0o3S1c3SXNvYW5oNVptM0Q1RWJVTWVtTVk4VmtjQTVFV1BjU3hSZVFKR0VWVUJKQmN4RlprNHNfbS1mSnF2dVpfWlY3RzJDM0o5dTRpN2VxU2xGRFY2cUJ2Y3ZZbHY2OFdVVENCVEdHaTNJYTBhd0dBNHpoVWZWb2ZiWmRhY2RNNVJKbTdMZTg5SGgxa0VGc0dzMXk0NkloS0x3ME5xVnc5ZzZrTUxjMjNpbm5iZ01ISFhQZNIB5gFBVV95cUxQYUx4ZlpGbVAwNjN6VlVjbkpzTkQ3Q2pTcExzaS1MTlh2UHFqbkR1Q3pmV283SkQ2U0Jfa1pKaklEaF9RUUVvSEJ0Rnh0SGYtMG1LbjI1TmxHU2dtMkJyTVBxVmpnQVNJNEhxLTBwM1k1bzJTOUF2OXJvMGFLbjRtMldjMkNKNDh4Rml0YURDQldTdUNtQmtnZmFwdkItRU05NDhuX1pmSHNQaFpBRm9fVlk3bEUyY29ZUGtXVUVjUHpTYjJ5WHBCM3A4clVLdk1CNGVWMWwwQ3BzV0k4N08xV3REbWNuQQ?oc=5",
-      "published": "Sat, 24 Oct 2026 09:00:00 GMT",
-      "summary": "Venture Global to build new power plants at its LNG terminals, aiming to bring more AI data centers to LA&nbsp;&nbsp;NOLA.com",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T17:00:00+08:00",
-      "source_detail": {
-        "name": "NOLA.com",
-        "url": "https://www.nola.com"
-      },
-      "priority": 3.6,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Potential Indonesian output cuts would widen 2026 nickel deficit but new MHP projects limit 2027 impact - Benchmark Mineral Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTTlCUzQxS0gwSzQyUGFqMWQyck90RWFWeVA1cGJfVGhXZVZWNnpCdXR6aWwyMHNtNTFKaWE1UTBOT1owRndKOE84SEpfSFBfaWczT1NpVFFqeW01c1NRdkttRTV4ejdmbjRCMzE0S3A2cW16QThGa2pjYnNqNC12NUQ2bEw2REFXNng2VV9GcjRqZ2Z2azc4dllTR19NWnlnR3A4ZW9SNENnYmVIUkNDcjFHZDNwTHVycUFCTG5WaUlZX2tqUVF1YXE5N1d4dEwwTjhwTV9LeFVUNTM5RTExeUZ3?oc=5",
-      "published": "Fri, 23 Oct 2026 18:10:43 GMT",
-      "summary": "Potential Indonesian output cuts would widen 2026 nickel deficit but new MHP projects limit 2027 impact&nbsp;&nbsp;Benchmark Mineral Intelligence",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-24T02:10:43+08:00",
-      "source_detail": {
-        "name": "Benchmark Mineral Intelligence",
-        "url": "https://source.benchmarkminerals.com"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Weak cobalt pricing sentiment across Antaike and LME Week - Benchmark Mineral Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbDRIZTRjaVJ5V2JNLVVXLXYzc19XS3FBcXBPV2ZFS3FVYUVnRTlVa21oMXJ1eldYVHFxRUZDLUljajd3Sm42LUtQT0Nsclg2cUc5VGFrNGlvSkNFby1hQS1TSXJZdEtKZE1aTGdZRmlMQV9hRkJiQlYzYkQ0UmdmWjlyWWtxcE9MNnJPWU1YWTlrTk1rZTUzVG1HMmZkb3NQQWxOaGtVa0ZvUnpnNFU1MlhENjVwNnU0SS05ZHNwRWtJaS1tRU03Ti1SaUVuX3FJS2ktbWpGUTMyWjdpa01nVFlRY3lMRXUxYVYyNWVHM0NaNUlK?oc=5",
-      "published": "Fri, 23 Oct 2026 16:50:43 GMT",
-      "summary": "Weak cobalt pricing sentiment across Antaike and LME Week&nbsp;&nbsp;Benchmark Mineral Intelligence",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-24T00:50:43+08:00",
-      "source_detail": {
-        "name": "Benchmark Mineral Intelligence",
-        "url": "https://source.benchmarkminerals.com"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Blue Hydrogen Capture Systems Market To 2035: Policy Mandates and Pre-Combustion Demand Drive 22–28% CAGR - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVFpBbEpaWGM0MkY2dXFSbFpsVUlGSzFlYXFLejlMTjRMc1p4dkwyTzBoTUFXX3YxS1JTZmNoR3ZvSEs3WndYWFRiMmcxbEVDQ1liYkRocEhSZXdfZS1rTjFzWVNNU0ROeHhzdDZxRjg2cXoyRzgydFl1MHk1M3pyZXdXX09hN3JUVWxxRFZzNFVBMkxMRGU5WExMVy12ODgzVHVjV291dndGaTFLdUhPUUVSTUhhMU5OWFlRTk45a0prVEZvSXlJWGhDcVI5Z3FiYi1sYlljT3g3dw?oc=5",
-      "published": "Fri, 23 Oct 2026 14:11:04 GMT",
-      "summary": "Blue Hydrogen Capture Systems Market To 2035: Policy Mandates and Pre-Combustion Demand Drive 22–28% CAGR - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Hydrogen",
-      "published_beijing": "2026-10-23T22:11:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 3.6,
-      "category": "能源转型+碳",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Oil Tops $112 as Copper and Gold Come Under Pressure - CEO Magazyn",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdnpLWXJwcFF0ZWtKVkwtbDE0Mlg3eWlHb00yUS1SX3N6cXd3TFA4VkF2VXloSHhrQXAyalZhT3Z2RWZ1Nm9KRm5KMkZCc0xqeXdSbzRsNXE5N1YxX1NTNF9EcUpqQVk3S1I1QWJycElEVWRnV3Vacjg0dXR6QlNPQ0FKb3doTk1zZXNSVHpiTzhoMGJY?oc=5",
-      "published": "Fri, 23 Oct 2026 13:04:43 GMT",
-      "summary": "Oil Tops $112 as Copper and Gold Come Under Pressure&nbsp;&nbsp;CEO Magazyn",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-23T21:04:43+08:00",
-      "source_detail": {
-        "name": "CEO Magazyn",
-        "url": "https://ceo.com.pl"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Blue Moon Metals Inc Slides as Polymetallic Developer Meets Cautious Copper Sentiment - kalkine.ca",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcEZPWWw1YVc0VDJpR3R1d1hPWFZrMmRLU1NiM0VlY1lsenNpTkdZYTFIRkI0SlBrcy1Fck9qNVVaclhTUzdqWThpbE1pX1BhZjVIRGxucWZXWEw3SGp1TGlSNnd3QWVVbDlzR2tCUW54UFJRUDVKY1YxQkdtU29ZLWRjemhaQUZuOE1HOTZxYjVkdldNVnpIMmxJUWdKaGpweHhKaEZIVDhzNGF2Mmx6NDNuMFdGdHM?oc=5",
-      "published": "Fri, 23 Oct 2026 08:04:00 GMT",
-      "summary": "Blue Moon Metals Inc Slides as Polymetallic Developer Meets Cautious Copper Sentiment&nbsp;&nbsp;kalkine.ca",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-23T16:04:00+08:00",
-      "source_detail": {
-        "name": "kalkine.ca",
-        "url": "https://kalkine.ca"
-      },
-      "priority": 3.6,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Canada Doubles LNG Capacity to Meet Asia’s Growing Demand - NewzTodays",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdVhmRlRtMG1ZeVlCb1lPNjdwbkp4amJPMFBvd2x2OE1JQlBRT0JuU05waldHRVJ5akx0YkNpdXh5RHJIaWZSQUVXc2hoaHJyYlM4UnlVbFUtYnJ0TnFBSlVJZDcyeWhSNHd0bXNlb2IzY1ZpT2JwMmFlenpadEs3WmZLVi1ZLU0?oc=5",
-      "published": "Fri, 23 Oct 2026 05:49:33 GMT",
-      "summary": "Canada Doubles LNG Capacity to Meet Asia’s Growing Demand&nbsp;&nbsp;NewzTodays",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T13:49:33+08:00",
-      "source_detail": {
-        "name": "NewzTodays",
-        "url": "https://newztodays.com"
-      },
-      "priority": 3.6,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Antimony’s role in defence and energy storage - Mining.com.au",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90RFBzRGhmTmpRMDZXY3QxdFROcXp5bGFiZkZVNTJwMGtrUDlzYkJwZVVJZjhTMk5mMkczUlllbTU4WmZ4aUZDZVdUZlA2TGxadWd1VUh0UTR0RmtXdkREbDdQb2dzWGIyOUt5bGtZb3lvQzMyVEE?oc=5",
-      "published": "Sat, 24 Oct 2026 23:02:54 GMT",
-      "summary": "Antimony’s role in defence and energy storage&nbsp;&nbsp;Mining.com.au",
-      "source": "GNews | Lithium Mine",
-      "published_beijing": "2026-10-25T07:02:54+08:00",
-      "source_detail": {
-        "name": "Mining.com.au",
-        "url": "https://mining.com.au"
+        "name": "FEU Advocate",
+        "url": "https://feuadvocate.net"
       },
       "priority": 2.4,
-      "category": "关键矿产",
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Keeping to warm climates may have helped crocodiles outlast the dinosaurs - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ueGVCb1FYOUpOXy00NkVfVm1zN3Z6Y3U5aW5aZXREM3NqdnZBeloyZzNUVVZIbi0ydExNYmQzc2x1eTJDQWxIemI4a2lFTGhzOVVMbk1obGxscHFXVEVEb0RubHZqS2ltN25TSEZmUzQyX0QyQVRjaFpsV2k?oc=5",
-      "published": "Wed, 21 Oct 2026 18:00:49 GMT",
-      "summary": "Keeping to warm climates may have helped crocodiles outlast the dinosaurs&nbsp;&nbsp;Phys.orgSee more headlines & perspectives on Google News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-22T02:00:49+08:00",
+      "title": "Karnataka Drought Threatens Foodgrain Output After 80% Crop Loss - Urban Acres",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdXhXbVdTZkttazFjTkRzRHprNVBrdWU4QmEwV1Q2OGs2Z2ktcXZuSmdfWm5kNVBnaUtlSUYxLWNLLWtnbVVWMWxZNlM3NnJ3bDFUOGRKYmstM0p0RnVyRVpBZlplT0F1Mzc5Z21wS1h2WXhuU3V1b0JDQ18tdVBsc1MzUHJVUHREdTdZS3BGN1A0Zw?oc=5",
+      "published": "Sun, 25 Oct 2026 21:35:48 GMT",
+      "summary": "Karnataka Drought Threatens Foodgrain Output After 80% Crop Loss&nbsp;&nbsp;Urban Acres",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-26T05:35:48+08:00",
       "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
+        "name": "Urban Acres",
+        "url": "https://urbanacres.in"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelZOcHc1UU9XQXRUVUdKRnV3VU9fVlNGT1dzc1ZLVmRjWWhpdzNjT0I5ZTJWOV9nRktBTkVjTEpFQnlpeTQxSFVwX1NsMlZpdThxTDNzRThlRE1RaV81WDA2U2lBZXBBYmVNRUNFbnVMWDFvUHJiUWpTWEotQTFTbndkZXU5dE0wWmkyXzNOcmhEeE50T3hxMW9iQVEtU0hTMlFpdnFiRHppOHlXY0MxSlZiWHE?oc=5",
+      "published": "Sun, 25 Oct 2026 20:01:47 GMT",
+      "summary": "Scientists Discovered an Amazing Practical Use For The World's Leftover Coffee Grounds&nbsp;&nbsp;ScienceAlert",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-26T04:01:47+08:00",
+      "source_detail": {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
       },
       "priority": 1.2,
       "category": "专题精选",
@@ -526,15 +218,159 @@
       "relevance": "low"
     },
     {
-      "title": "Germany releases strategic oil reserves to calm energy markets - سانا",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LdXJtY0JPeTl5NUpUc25MWXo4OFUzZmVNOWlSUEhQbmxqbmxLT0k3RFdRSEprN2RaR0hEZkF2OWE1VEQyeGVnUkRZTDU?oc=5",
-      "published": "Sat, 24 Oct 2026 14:18:15 GMT",
-      "summary": "Germany releases strategic oil reserves to calm energy markets&nbsp;&nbsp;سانا",
-      "source": "GNews | SPR",
-      "published_beijing": "2026-10-24T22:18:15+08:00",
+      "title": "The climate challenge - The News Pakistan",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ecmo3SmRYcWtocVlsWHFRdEVEcXpZMFRjUG5GQ3lILTJWczVZbjdYTzRzYXJYcUZHaV9xU2pkdWl3LUw0UDFfUkNLSlVEdVdTXzkyU1JZcFVmcHNKSlZjd3hMc0RwczVMUXc?oc=5",
+      "published": "Sun, 25 Oct 2026 19:00:00 GMT",
+      "summary": "The climate challenge&nbsp;&nbsp;The News Pakistan",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-26T03:00:00+08:00",
       "source_detail": {
-        "name": "سانا",
-        "url": "https://sana.sy"
+        "name": "The News Pakistan",
+        "url": "https://www.thenews.pk"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How is drought in India measured, declared and managed - India Water Portal",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbHNiaXRYaTFCQ1ZvYV9janRRbVN5bWJLUGh2allTejRnczRNaVRseTJVbWtxNWhtNlZnMVV5NkpWUDRTNG1sRV9WR3lTU1lRQ0xaQXlvbEd1YlZMSERvSHNOMzdRVURsZjQ4cURGSGZJbEhTd2lzM0VsQkhMZTlCWl9iOGczZ0JCTFlUWEVNa19BUW1rMEdTVmRpYWhIYkhaY0xLbXZvV1Z4cDB5NEtUctIBvgFBVV95cUxNQXRXWmVjSVVIWjVwSF9PanNkdVdQTE5KVUhCOG9WSWJmSkhibXdyNVg0YXdzcHZJSGp2MWQ2S3d1V3NZaENFQ0o4eFk0d1hsaEhkMGFMS1ZWLUoxUi14ZmJ5V0xZRWxibVZoR3VpbFRmalBhV3ZDS2FVMkV2cUxLTVNuZ09LdHVkUWlWU2ZYUzJlQnRXU29rdHMwc0lueHhZQ0pkbjJIckNQSUdKcFhMLUNzYzI0QkRzY29VOHhn?oc=5",
+      "published": "Sun, 25 Oct 2026 18:56:08 GMT",
+      "summary": "How is drought in India measured, declared and managed&nbsp;&nbsp;India Water Portal",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-26T02:56:08+08:00",
+      "source_detail": {
+        "name": "India Water Portal",
+        "url": "https://www.indiawaterportal.org"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China’s Argentina mining footprint smaller than it looks - Mining.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmVZRVh6UFF4dWZ6TnBMNFZ4eUN3ZUpwdnBnNXJUcUZrdWhNLXdOZGtLS3lqMllwME1DU2RJVVItZDB1bnVLOGxQM292My1IMEZEQjZKOVltWURtQ01Xb2xXTmFlWFJTd2ZnZGc5bmJqQVExNXFCZktkMV8xUkpxMGtSN3Fjdw?oc=5",
+      "published": "Sun, 25 Oct 2026 17:08:19 GMT",
+      "summary": "China’s Argentina mining footprint smaller than it looks&nbsp;&nbsp;Mining.com",
+      "source": "GNews | Lithium Mine",
+      "published_beijing": "2026-10-26T01:08:19+08:00",
+      "source_detail": {
+        "name": "Mining.com",
+        "url": "https://www.mining.com"
+      },
+      "priority": 1.2,
+      "category": "关键矿产",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Climate risks mount as crop insurance falls short - Penticton Herald",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZi1uUGkwNks2WWNwR3RpMGxXWnY2SS1TNFJocVU5bEh0amM2Q2pDVVpCa01QSmdyLU5sOHdyVTg3WUE1ODhMS1ljVHhyUC1rZWFvck56c09ldXVDRDVyOXRfRkRTdWhNTXk2dGJEYUVnS3d4bUpVd1FoZFMtS1ZINnNuZlNZdWN4Njd0XzhYZzc3WjlTdTdybW1IMmo?oc=5",
+      "published": "Sun, 25 Oct 2026 13:30:00 GMT",
+      "summary": "Climate risks mount as crop insurance falls short&nbsp;&nbsp;Penticton Herald",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T21:30:00+08:00",
+      "source_detail": {
+        "name": "Penticton Herald",
+        "url": "https://www.pentictonherald.ca"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Maharashtra Drought: Why a Crisis Suits Everyone - Countercurrents",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSjFpdkxfME1vM1RPX0ZFU2xrUUt2a2pLMnZ4cVN4WktkMDdxclUyZlZQbFFyQW5KNGp6Ni0tWHV6R2dMZWtEU1BwX0tGVEloaHdJTF8tTGRFcmNVdnBoNk9hMnRXVW5oZEIzT0Y4WnpuWUMxQXk0TFNiQVNNejB0WkdObmdSeVlUeHVxOQ?oc=5",
+      "published": "Sun, 25 Oct 2026 11:07:29 GMT",
+      "summary": "Maharashtra Drought: Why a Crisis Suits Everyone&nbsp;&nbsp;Countercurrents",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T19:07:29+08:00",
+      "source_detail": {
+        "name": "Countercurrents",
+        "url": "https://countercurrents.org"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Natural Farming Shows Promise for Climate-Resilient Soils, but Evidence Gaps Remain - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb091ZW1GNXUzakVLQTBwQjN2UW9BUk53cEZIcVFld25GZ1VnZmN2MHhZWlNPeU1yWXBWcllpZHdjSEdyNlVSUlNrOE45aVFnN2Qxb1ZiWl9TRUppa2dMYmRTOXhaeUdTR0Jsa0JsR2FkMUwzdVFwYnR6eGUxV2lTZmNNZFdfbGs4TUJwNGxUV1VqRm44WUJkWW1sbGx1bTJCZGxibE5tM2ZKYkE?oc=5",
+      "published": "Sun, 25 Oct 2026 08:58:41 GMT",
+      "summary": "Natural Farming Shows Promise for Climate-Resilient Soils, but Evidence Gaps Remain&nbsp;&nbsp;Bioengineer.org",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T16:58:41+08:00",
+      "source_detail": {
+        "name": "Bioengineer.org",
+        "url": "https://bioengineer.org"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Govt turns to quick-maturing seed, irrigation as climate squeezes farmers - Nilepost",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEJPTDFtWERxRExBMFdYR21CNi1DdUlIZGJ2TGtiNkZpREctc0tFUDdQYmpLQnRtZWpSVVpJeGk1RWVZRzBBY2J2X3hqclp3RVR0dzlqSFozNXRnYUxWLVd5NVdRdGZrTFhHeEw3QXhjNDVFbjg4THlrOTZWR3NZZEY0dnQtckV1YkNxOWRQSmY3RjhnUUVGYTI5dGkycjZ0cUlnOWFDbkFHeGdzenNQdC1ZRDnSAbwBQVVfeXFMT2lheGtMdXJocHlvYTA1Y3U0Qnhyd2xfNTY5ejY2N2VhVnRhdWdfaEpFTG5MczdkNW4xQ2d6WWlxWUc0dG9pS1RoeXh5dVotUko4elV2WmNXTmdWa1lscFYyNXpNcmtDZmRhclA4VFg0RHR2M2I5MlRjZURnRzl5V01xdmFncnlSSEVneDlYVzBQX3VtbHVIQ2pBcm10ajlXNVlNS1I1djVqeXJXUnRxdXZBbXRzMW9HZ0wzcVY?oc=5",
+      "published": "Sun, 25 Oct 2026 08:39:33 GMT",
+      "summary": "Govt turns to quick-maturing seed, irrigation as climate squeezes farmers&nbsp;&nbsp;Nilepost",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T16:39:33+08:00",
+      "source_detail": {
+        "name": "Nilepost",
+        "url": "https://nilepost.co.ug"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Seed Priming Emerges as a Low-Cost Route to Climate-Resilient Crops - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS1BfYXhYcDFjSG9DX1JxTS1ZRGN5ZVNaRmVWMHNSVWVBMGlmMW9Gb2s0bUpEdzFXSHRYTTR4a3ZPTWtCT0JOclI1YTlUcWxMUVU2U2NibUpNQnB2d0hVcjdIM2pHUE9DQ1AyRnlSREx0a2RGVmg0WmRxQlluR29MUWNsQmE2RGE4NFRQRmt0eXhmZ2lVLU9Z?oc=5",
+      "published": "Sun, 25 Oct 2026 08:33:41 GMT",
+      "summary": "Seed Priming Emerges as a Low-Cost Route to Climate-Resilient Crops&nbsp;&nbsp;Bioengineer.org",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T16:33:41+08:00",
+      "source_detail": {
+        "name": "Bioengineer.org",
+        "url": "https://bioengineer.org"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "K'taka: Drought, debt threaten development ambitions - NEWSTRAIL",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoVFVFaHN3NHFqdjNONlg5cXdSWmlEc3NCOGI3dWR6TERPbjctbkFtQjdoWHU4dlBkOEotWjdTeXY5RENmbldTZmZyRUtNMFFaOVo2Xy1KcV8?oc=5",
+      "published": "Sun, 25 Oct 2026 08:14:37 GMT",
+      "summary": "K'taka: Drought, debt threaten development ambitions&nbsp;&nbsp;NEWSTRAIL",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T16:14:37+08:00",
+      "source_detail": {
+        "name": "NEWSTRAIL",
+        "url": "https://newstrailindia.com"
+      },
+      "priority": 1.2,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027 - EnergyNow",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUc0SzNUUW56bDBGUjRGdmthMFI4YTl2QWszMnU1TmJfbGNkbnBfUGQ2czdNSGh4MmFCWmV5Nm9wLXlpSHVZd3lTcGRLM1BYRzMwZllNU2lSdDBodXhRUGg5d1JlRVhqTzUtRFdrdVJxVDV6dkJGZGZPMEtsN0tMQnNmdUk3bU8zYVJEaW4zNHFOcU1E?oc=5",
+      "published": "Sun, 25 Oct 2026 04:45:16 GMT",
+      "summary": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027&nbsp;&nbsp;EnergyNow",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-25T12:45:16+08:00",
+      "source_detail": {
+        "name": "EnergyNow",
+        "url": "https://energynow.ca"
       },
       "priority": 1.2,
       "category": "油气",
@@ -558,140 +394,12 @@
       "relevance": "low"
     },
     {
-      "title": "Base Metal Mining Market in Latin America and the Caribbean: Size, Trends and Forecast to 2035 - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdVdGOVZEbm53Q3U3WXdKQkdHNU04QURPNTNSdkttLUM4MVQwNjBZWnpkYUwtZTl1akRzX1V0dDR0WklQRnBFZnc2RmwyMzBDR0x2YzZyVlV0THpkU3c4WUZWSl90YmxBcU5obDFveDBnaVlqUDVwMmwtUVkwdWRMTmRkOGJkcnVvYk1YTGo1eVhYNVZTTy1yZ1pjVkdzLV96TVd2cE9POGFqbjE3d2xxT3diY0NiTEdDZUhBWXdVcjVEV1FmbWlWYlBB?oc=5",
-      "published": "Sat, 24 Oct 2026 11:40:36 GMT",
-      "summary": "Base Metal Mining Market in Latin America and the Caribbean: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-24T19:40:36+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 1.2,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "7,000 farmers and workers rally in Maharashtra as drought deepens agrarian crisis - SabrangIndia",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlhUTkVPTjFpcEViUEUzWmFDUENRSTliX2ZNODJSS1VPYzFBTXd0dERmQWQ2YmxIaVVpbU9zUk52SEJJd0RoWno4cFVaQ1VVbl9pNWZLM05SWFJ6c29ZNnBOdk1FQnJ3TDZ4UmdPT1AtaFdfQU1HNWdkdHNPZURtd3pjdWZ3WDBMaUpMY2hIOVdQZzlqZ0RGQkZVQ2V6V1NaM0ZkT1BNZXc?oc=5",
-      "published": "Sat, 24 Oct 2026 10:59:46 GMT",
-      "summary": "7,000 farmers and workers rally in Maharashtra as drought deepens agrarian crisis&nbsp;&nbsp;SabrangIndia",
+      "title": "El Niño-driven drought and erratic rainfall are worsening crop prospects across parts of t… - Addis Standard",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kQXQ0Qy1UZXUwc3FzbV9wVEZwamFHYTFtVUFGb2ZLRVd2UEVSV3V3endVNGxzV3dyZEhSUUh5YjhvT1pITGxWaG5NdE50UEtGRHc?oc=5",
+      "published": "Sat, 24 Oct 2026 08:54:22 GMT",
+      "summary": "El Niño-driven drought and erratic rainfall are worsening crop prospects across parts of t…&nbsp;&nbsp;Addis Standard",
       "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T18:59:46+08:00",
-      "source_detail": {
-        "name": "SabrangIndia",
-        "url": "https://sabrangindia.in"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "RUSSIAN DIESEL TO US: Russia Says it Will Send First Diesel Cargo to US on Thursday - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM21iSDdrdlRrcnIxd2UwaWV3WFVKV2g4aGJaS05oTGdva3p2bjVhVnJGemU5ajdtbDZhYWdGMlgyRUhfQ0JmOUM2c3ROLUFHUm1kOVFOTHo2ZFVCaTJNMlloWHdrQUpud2w3WHRVNG5DemtlOFFXRG9FUGlzY3FsaGdiQ3hWMWNSWW5SWXFOb1JlZE1wYm93?oc=5",
-      "published": "Sat, 24 Oct 2026 09:41:04 GMT",
-      "summary": "RUSSIAN DIESEL TO US: Russia Says it Will Send First Diesel Cargo to US on Thursday&nbsp;&nbsp;EnergyNow.com",
-      "source": "GNews | Fertilizer",
-      "published_beijing": "2026-10-24T17:41:04+08:00",
-      "source_detail": {
-        "name": "EnergyNow.com",
-        "url": "https://energynow.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Maharashtra’s Climate Is Changing: Why Marathwada And Vidarbha Are Getting Hotter And Drier - News18",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTUVGUnNHdmFLTmNwR2tuTkNOZVpVTU9sVXRndmZWeEV3ejdBOUk5SU4yaDlUUkdLQkRSVWxLMENwZUFyLUpLNWt2U08zM0Z6LXVSNGVFZ2k5UWxQTjM1UFFRMDF0NENHVm4zaG1tR21FbGt4TnRtZl9tdzVsS2QtODlLSkpyckpQTEZLZG9qb1lSbktXakZseEtLMy1ibWptaGJUbUVSNlQzSEw0QUVITFNUQl82REZOaUpOcEVvVng5V2wtd2JlUERqcFJZaU1jemFMc0JNY1FuVXJCM0JwczRNZVfSAeoBQVVfeXFMTVI2Q3p1YTFlWktGVENhdGtJbElSbElTdE0xUXpmNEF4TzJsVVRQUnRISXJpd3VNZldWeTBIcWlDMDJlenAxd0pPcGtlZlhJcUNqaUZFNnBBMEo1UVVTUFNoWk90QUpuRWY1Y2VCbkpjSXREX0xDRzMtSEloX0Q4RnZpYjdpM0hFX3NKc1lpSkthemNlanhpY29vSnNDdkZjcUJzc0RGcldyakhwSmVyYlBWOFlYQ19vVnpsTTk4cERDUnZlSWRJTnVGU00xbDIzZy1YYmZGWVhrbUFQcXRVSTFiUUYzZlY1LTln?oc=5",
-      "published": "Sat, 24 Oct 2026 07:06:51 GMT",
-      "summary": "Maharashtra’s Climate Is Changing: Why Marathwada And Vidarbha Are Getting Hotter And Drier&nbsp;&nbsp;News18",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T15:06:51+08:00",
-      "source_detail": {
-        "name": "News18",
-        "url": "https://www.news18.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Maharashtra Drought: Why A Crisis Suits Everyone - Rediff",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjNkclloVFhqWEJBRmcwZHR2S1htSUZFWTFkS3JRTU51R2VjTEdsUEFvY0RGVDVMYWdISmJ4SVpaejBGeUIzM18xY3JMcXFpSjJucGtTcEN6SXVBOE81a1BYSWNYcHNTT1cyRnFsX0RZZmJQaUJBSVk1c01QZEhKNFNBRnFseTVfR2JNUTlEcjVXNHB5RXRROTdQc9IBngFBVV95cUxNUlZXSDBWMkh0QWdSQXdlYktEckxSQVM2Z1RDT1RHYkFYV0tzeDU4d2EyYjNlU2xQM2p1QWFETU5zVUZSeFZxQl9VSkpNb2Fwc0puSWdQc3A3THg4dm0xVURXbGs1Wmt0bGVkVjVDSVh3SzRmVDFrVklZSTZNS3pibGQyRjRYRlozQWlMNGU0ejlJU1JWbWZYMXppYnNpQQ?oc=5",
-      "published": "Sat, 24 Oct 2026 05:00:20 GMT",
-      "summary": "Maharashtra Drought: Why A Crisis Suits Everyone&nbsp;&nbsp;Rediff",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T13:00:20+08:00",
-      "source_detail": {
-        "name": "Rediff",
-        "url": "https://www.rediff.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Sudan's Hunger Crisis Deepens as Drought Bites - News of Bahrain",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNk4tdXloNjJmbkMtaXIxa2gxcUhzUGh3TWNmcTJmSlFZYmZlYUpVWHU0cFVmZ0dtVkE1UWlZM0FGNWxGcGVHWHVUMGNLbWhEQ1UxTUFOdFpIanB2czExelZzRENjckVUUEgtVUhubE4zb0JVbFRXcHc5cURrVS1EbVZ0b2h3SFdBVWptTDZOVQ?oc=5",
-      "published": "Sat, 24 Oct 2026 04:10:46 GMT",
-      "summary": "Sudan's Hunger Crisis Deepens as Drought Bites&nbsp;&nbsp;News of Bahrain",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T12:10:46+08:00",
-      "source_detail": {
-        "name": "News of Bahrain",
-        "url": "https://www.newsofbahrain.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How 50 Days of the Iran War Led to the Loss of $50 Billion Worth of Oil - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONVZ6WjZYTzVuY2dJeHZmelFucTVpX3luSk1nT3ZtbFpNZHg5OUg4OTBONnBvNUlYTXUzYl9zdnBha2lkMlRrV0NOVW92V3cwbENIeWQxQnJ0ZW82dkl1M0NfWVlab2lHaEdQSXl0Z3VUMGlfcERuNFpnMXBJSVFWTEdQNzEwTlppUF9DS1FtbjdvbkhBNThJOEVySk5pSWRfdm9N?oc=5",
-      "published": "Fri, 23 Oct 2026 20:33:20 GMT",
-      "summary": "How 50 Days of the Iran War Led to the Loss of $50 Billion Worth of Oil&nbsp;&nbsp;EnergyNow.com",
-      "source": "GNews | Oil Disruption",
-      "published_beijing": "2026-10-24T04:33:20+08:00",
-      "source_detail": {
-        "name": "EnergyNow.com",
-        "url": "https://energynow.com"
-      },
-      "priority": 1.2,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Q3 2026 Earnings Calls: Kinder Morgan Signs Data Centers and Utilities for the Next Wave of Demand-Pull Projects - RBN Energy",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGF0amdFdDdNZnVkTmFmNUdtX0xTdWcyRk0xRGMwVTUybHFLMWZ2R0ZMU1ZwTV8ydXBqSEgwdW5jU2VlQUNKLTZlUnhfUUhoRXhGTU94S2QxOTJ5OW1nb0tESXlXY29zZGtFQy1SS0Y4UlBJMkNKTTlXQVhJc255U0xvUUpiYnk3VW1oaHRZa3NZaEo0bzNHdVAzVHZRQXl1UUl0d05tRk9jUWgxUHJmRUtaa2FiMGJmbHlj?oc=5",
-      "published": "Fri, 23 Oct 2026 16:49:24 GMT",
-      "summary": "Q3 2026 Earnings Calls: Kinder Morgan Signs Data Centers and Utilities for the Next Wave of Demand-Pull Projects&nbsp;&nbsp;RBN Energy",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-24T00:49:24+08:00",
-      "source_detail": {
-        "name": "RBN Energy",
-        "url": "https://rbnenergy.com"
-      },
-      "priority": 1.2,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "“ ‘War is better than famine’ has come true for us”: Wag Hemra residents face severe hunger amid drought, conflict - Addis Standard",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkFNaVNOU3pZSDY3UXk5YmcwY1Fuem9WRko4bHNYZG84c2tGYzk0amhndmZKRFZ6c0pBYThQaTY3N2M0aFgwcXY5a2FvR0xPMmpGNTk1WG1zRWtUY3VCYTZrTGozSjBvcjNNWkVSQVRiMm5TeDNURkd6TzZNcE5BZDFZOG9HdVVoSUpyNWEzNUx0TExmQU9zRFFZSnVoRVRjREF0enlaT21aZktra3RNaFMzeW51blFjV0kzY1p5aEZOV2hnQWpWVVZLYlo1VTQ?oc=5",
-      "published": "Fri, 23 Oct 2026 13:16:35 GMT",
-      "summary": "“ ‘War is better than famine’ has come true for us”: Wag Hemra residents face severe hunger amid drought, conflict&nbsp;&nbsp;Addis Standard",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-23T21:16:35+08:00",
+      "published_beijing": "2026-10-24T16:54:22+08:00",
       "source_detail": {
         "name": "Addis Standard",
         "url": "https://addisstandard.com"
@@ -702,252 +410,60 @@
       "relevance": "low"
     },
     {
-      "title": "New famine risk haunts war-torn Sudan with El Niño-driven drought - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd05QVnpyM1N2MkZaeUo5ZnJfRnRwbjFDYkF1VlRibHVZRGhWRXVoVXh1aFNxNmRfU1VMZm44MFQzUTBiWE1NSWtHTkRIS2hxRUQ1YkUyRV9tYmJHYjBSY2RVUmJiXzhycTMxRE9SNy1iWGxRQno5TG0yUnBaLXF0UFRHQk14TE1FNTZoMWpkQ0dDX3c5WHhNa3RmTGd5WXN6WU9UbHlGQXg0Zw?oc=5",
-      "published": "Fri, 23 Oct 2026 10:10:27 GMT",
-      "summary": "New famine risk haunts war-torn Sudan with El Niño-driven drought&nbsp;&nbsp;Reuters",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-23T18:10:27+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Karnataka seeks Rs 20,585 cr NDRF aid as drought loss crosses Rs 62,481 cr, DyCM Parameshwara writes to PM - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdzJNc2N2NHBIS1I5NDhSZzlUMEUxWE91SDNfRTJUblZ4cXEyWXdHYUxfLU4teHg5anVseUp3a240M0p5RDVBMUFpaFo0ZDdSSldBa2pzLUItS2hsd1BQYllacTltN1VtbjljLXltX01RWF9YSkhVbS1mMmFFaWFRRU1xdHhmSGNVTFlrenRBUk1yTDg1alQ5VnBPOEM4Q1pzd2Nub3JLczQxc1otZTZ0b0pwZHVZSVoyeXZnVW95anlBa29wNjZmWUd6bnZnb3BkRklob1lZczBRNGVOMzRpMEJ0MmgwMXRVeDM2eGM3a0NWRmpSVlRrQmgxNThCYlpwWWRj0gGIAkFVX3lxTE43LTVLckxVUmtndFhyTmQwbFQtX0VMY3NZc28tSU82eVVRamZKSWc4c1N4SjVCMWNoTGdjQkVsU0thaFdmbG1sUUdpZlZaajVVUmtYRDFuMnN5ckpYY0xaXzVVdkpaUmxjMTdMSVo0MU56SlROb2wxVjUwZzEzSDRjcGxDVGxQSFIxS2hXMThyT0ZzdEN4TVFtSUtuc0FtMGozTVZaNjBMZE9lM3NDQ1FJWG9NNm55UGgzZHg3QUZWa1FMRWhGTTNFR1Ezc1piWW9RM2NXTWFfeUdFbTNJLXhQNFlCbmNKdEVJSE95bUlHMTM1NjRmRldQdVVGdnZqRzE5TGpxMmlRag?oc=5",
-      "published": "Fri, 23 Oct 2026 04:16:09 GMT",
-      "summary": "Karnataka seeks Rs 20,585 cr NDRF aid as drought loss crosses Rs 62,481 cr, DyCM Parameshwara writes to PM&nbsp;&nbsp;The Economic Times",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-23T12:16:09+08:00",
-      "source_detail": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com"
-      },
-      "priority": 1.2,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that - Ars Technica",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmJPeGJHWmFPbHhHc2ZPLWVicWFadmYydVZ2NldFNVAtZGpZSzl5UjNFM01qb1BoQTZDRlc3YWpNWjlsTndtZHJNa1QwNjdQS0FnYjJ1WmsxU0w5SHhrNDJZaUc0TFBaeGdXM2k5WDV4S29fc3BRUEpwR0hUTFhLeTVFYk1ldHEwX0QtNlM2VFJTaG1XNWl3UFVzUEc2b0lodVFOb1J1S0xqeThHYUEtYTZR?oc=5",
-      "published": "Sat, 24 Oct 2026 11:00:09 GMT",
-      "summary": "Ice sheet expansion may have started 2,000 years ago, but we canceled that&nbsp;&nbsp;Ars TechnicaA New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels&nbsp;&nbsp;WIREDClimate Change Stopped the Next Ice Age&nbsp;&nbsp;Lamont-Doherty Earth ObservatoryThe failed ice age: Arctic ice was expanding for centuries before global warming stopped it&nbsp;&nbsp;University of Colorado BoulderWe are in a new ice age: here’s why global warming has halted it We are in a new ice age: here’s why...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T19:00:09+08:00",
-      "source_detail": {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com"
-      },
-      "priority": 0.8,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Astronomers Pointed Webb at an Empty Spot in Space. Something 'Highly Unusual' Flashed Back - Gizmodo",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd2l1N1lhQ3RvQzkwMW5sRC1jMXNQbGFwcWh5c1dOWnRUV2lmSUx6RktrdXFKOGZYSnh2ekVOOWNpVDJhR2JERTNOV2ZiRHNvdWlCS1Rsc2R6RnVLNmlBZ2I5QjVTVmE4WS1NeTRTbHg3U1Vxbkgzcm9JcHM3MkpxN2E3M0xwTHZTdUk4YUZ5RklwWUdBVDQ3UWN5TzVKTzJKdjdNc2wtdnlLUWxXWVlXNkpiMTRnVkE1?oc=5",
-      "published": "Wed, 21 Oct 2026 18:25:03 GMT",
-      "summary": "Astronomers Pointed Webb at an Empty Spot in Space. Something 'Highly Unusual' Flashed Back&nbsp;&nbsp;GizmodoAstronomers Pointed The JWST At An Empty Region Of Space, And Found A \"Highly Unusual\" Signal With No Known Source&nbsp;&nbsp;IFLScienceA flash of unknown origin occurred in the void of the Universe&nbsp;&nbsp;Universe Space Tech",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-22T02:25:03+08:00",
-      "source_detail": {
-        "name": "Gizmodo",
-        "url": "https://gizmodo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A Lost Schrödinger Manuscript Reveals a Surprising Twist in Quantum Physics - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTjBmemw4a1AzYmt5YnY4bUxNdU1sZm9MMkFEaDhlcURLbjBWQTMxTzZNczQ4eHU5bHU1dFZTT29BZ25aQTdab0N5ZWJHZnFVa3gxQ1QzV2tOeWVBUy02dVd2WU5mMEtNX1Vza1I0WXNnUkxjTlN3Rm5OVnpadU9WLWpnS3pGLXpaand1WkNlTGdLNDZPT2MzY0FR?oc=5",
-      "published": "Tue, 20 Oct 2026 20:11:55 GMT",
-      "summary": "A Lost Schrödinger Manuscript Reveals a Surprising Twist in Quantum Physics&nbsp;&nbsp;YahooSee more headlines & perspectives on Google News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-21T04:11:55+08:00",
-      "source_detail": {
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Horse-Sized Saber-Tooth Lived Millions of Years Past Its Deadline - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVHhOUlB3eHAwUGljV3lEWU1sTUFyejZkX1VOVWFOSGVLeVNUX28yWk9YTkZiRDVOdm9Ka3JJdk9VZ2dtVlRILXRacjR1bEs5dEh6NnZvQV83VmJIUGdDOWxjTFF5VS1xbHNSbFRfWkdLSGE4Q3dHM2JTZUE0NDNQUmNMREpfcnJNV1VXTGlLSEh0QQ?oc=5",
-      "published": "Thu, 22 Oct 2026 22:19:36 GMT",
-      "summary": "Horse-Sized Saber-Tooth Lived Millions of Years Past Its Deadline&nbsp;&nbsp;Yahoo",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T06:19:36+08:00",
-      "source_detail": {
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Helping microgreens pack even more of a nutritional punch - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TU25hRm43SVF6eFh0M0RYeWdpbVlHcnRma3RMMTVDeldqeWlHUkc0UUhURGVobFFiaFVFOXpyaHFyMjFncjNlaS0zUkJaXzh1dy1OeDhDZHFydXlNV3hwZTZ6UTBKVFlmZHc?oc=5",
-      "published": "Thu, 22 Oct 2026 21:50:02 GMT",
-      "summary": "Helping microgreens pack even more of a nutritional punch&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T05:50:02+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bite Marks on 70-Million-Year-Old Tyrannosaur Jaw Suggests Raptor 30 Times Smaller May Have Snacked on the Predator - Yahoo News Canada",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHOHY2c215ZkJSZXpnZVFLX1p2U0gwbzJSa1NadU1Tbm9wemd1YlVhTlMxUkxibkljNEpOckdCYk55S290UXRLaDhVcUdLX014VHA0MFFJNGtGanJMc1I2aS14d1JGeVNSWWlSek5tcjNtdUxE?oc=5",
-      "published": "Thu, 22 Oct 2026 17:50:23 GMT",
-      "summary": "Bite Marks on 70-Million-Year-Old Tyrannosaur Jaw Suggests Raptor 30 Times Smaller May Have Snacked on the Predator&nbsp;&nbsp;Yahoo News Canada",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T01:50:23+08:00",
-      "source_detail": {
-        "name": "Yahoo News Canada",
-        "url": "https://ca.news.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Top 3 Nuclear Stocks To Watch In October 2026 - Simply Wall Street",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbHNPMEVZWm5MV09rc01LOE80SUg2cW90NkZRUVkyeEIyRndMaUp4dVJnUGF0VnF1QTRYV0tRV3BnRU5HZWpYbm9QR29BaHl4OXdIaC1hbV9iM1lPUnJlajczWlJlSGZ2czQ4VmFwc29sTlhQeFE5UUJRQndrdFNUNTViVUhpMkVmMENHOTZtTHQwS2c5a3ZoWXpmUnVEMER2eTJ3aGRraDlVU1JFMlg5emJILTF2dmM5bXRINDhUZ9IBvwFBVV95cUxNbHNPMEVZWm5MV09rc01LOE80SUg2cW90NkZRUVkyeEIyRndMaUp4dVJnUGF0VnF1QTRYV0tRV3BnRU5HZWpYbm9QR29BaHl4OXdIaC1hbV9iM1lPUnJlajczWlJlSGZ2czQ4VmFwc29sTlhQeFE5UUJRQndrdFNUNTViVUhpMkVmMENHOTZtTHQwS2c5a3ZoWXpmUnVEMER2eTJ3aGRraDlVU1JFMlg5emJILTF2dmM5bXRINDhUZw?oc=5",
-      "published": "Sun, 25 Oct 2026 01:41:51 GMT",
-      "summary": "Top 3 Nuclear Stocks To Watch In October 2026&nbsp;&nbsp;Simply Wall Street",
-      "source": "GNews | Nuclear",
-      "published_beijing": "2026-10-25T09:41:51+08:00",
-      "source_detail": {
-        "name": "Simply Wall Street",
-        "url": "https://simplywall.st"
-      },
-      "priority": 0.0,
-      "category": "能源转型+碳",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Gas supply cut from Indonesia accounts for less than 2% of Singapore's daily gas demand: EMA - The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa1dfenNwMng4MWJVTnV3am5uWHE0WFFZdUdHTHNrbUlNbk9kU2xIRFNnalFhSVhQLTY3UWVWTlpEbUszRF9VNHVQbC1KN1NuZGJLSEVZQ0Q0YlE5cHk4SmhUYklHOXpjRkd4X0RIbnRpLW5SLXhFdUZWNnh4eDRfSlNRYnZkZHVsVF9Vd3E1RGFGeDJlQkhRS0YwMndPUElSUTd5a0N3eUE0MXV1UEFselQyX0VZSEpWSW8wbnp4ODRUNXdkNks2dzB4Sk9qekJMbGIyUnoxUE9sUQ?oc=5",
-      "published": "Sun, 25 Oct 2026 00:27:00 GMT",
-      "summary": "Gas supply cut from Indonesia accounts for less than 2% of Singapore's daily gas demand: EMA&nbsp;&nbsp;The Business Times",
-      "source": "GNews | Signal: Energy Disruption",
-      "published_beijing": "2026-10-25T08:27:00+08:00",
+      "title": "Inside Singapore's new five-year energy plan: S$5.3 billion grid upgrade, trebling of storage capacity - The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTUhaZ1ZValZaZ1RnYUc4bkVGRXhlcjRWY3R3cVJEalRpTUw2cmlHaVExaVZMQzBnc3h4LTBrZ0lIOUJPQXJSWldpay03eFhjVkhycUttdW5JRnJ5MkM5UmRlQmI5T3IwYlE4WF9xUXAzeklZMmhIQ1B2WUZlU0dOTk51TjJ3Y3B1UUpEbDl5djhfci1kTVpTZ0xIVHI0bFZpWHJnS2w1c1JqQUdPTGZObkEwbV9KOE9zRm4wWWdBZHN0dFhDS0NsU2JxM3lWdFY2LVdPekxjWldaLV93QmNRS3diMi1KUzFGalNNYkstaEt0bkJBMnRRQQ?oc=5",
+      "published": "Mon, 26 Oct 2026 01:50:00 GMT",
+      "summary": "Inside Singapore's new five-year energy plan: S$5.3 billion grid upgrade, trebling of storage capacity&nbsp;&nbsp;The Business Times",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-26T09:50:00+08:00",
       "source_detail": {
         "name": "The Business Times",
         "url": "https://www.businesstimes.com.sg"
       },
-      "priority": 0.0,
-      "category": "信号性查询",
+      "priority": 1.2,
+      "category": "油气",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Non-Ferrous Alloys Market in the European Union: Size, Trends and Forecast to 2035 - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaG1XS0FqMVQ0dV8yLU5IazYxZWhKZ3RodVphOGlFTTdoYUVmb1JMdFVvcTVPeDltOW12QnAzaU1XTlVidC1JSTBMbS1PRDFJM1lpREhIbkZsZWcyS1JOMVdBN3J6NE5MYTZlU3F1Sld1RmJiUExsMFFlRjM0TkxITE5NSTI0ejR4Qmg1UWJvU2ItS3JDS0k0WV9UU194bVNzOWlaR0JRRWVLRTRlZWFIbC01cVk?oc=5",
-      "published": "Sat, 24 Oct 2026 21:51:49 GMT",
-      "summary": "Non-Ferrous Alloys Market in the European Union: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-25T05:51:49+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Squid Are Even More Alien-Like Than We Thought, With an Unmatched Ability to Change Genetic Expression - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1NyOTZNbzZFODZVWG9OLS0wcVFodjFSRkMyVG1IQTRIWFVaTzVSdUNYc0tJRHJIdzZ3ZWFhNkhDenBKeTcxcFVRSXNJV29VeDg4RVdQb09IWEhWd1dLR1d0ckdCTi1KQmhUdmFqa3dlWVoyRXFDcmRfTmh2VDc5MVgzeFBGTFQzUU9OSU91SDNJN0VITHVrSFY0VWlwWmV6bXJ0WkhOZndUekQ0UUxpTDV4WnJDb29NaFYxaElPZ0lxYmxiTF9CSUpR?oc=5",
-      "published": "Sat, 24 Oct 2026 20:01:47 GMT",
-      "summary": "Squid Are Even More Alien-Like Than We Thought, With an Unmatched Ability to Change Genetic Expression&nbsp;&nbsp;ScienceAlert",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-25T04:01:47+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Government-Backed Insurance Scheme Targets Small-Scale Farmers - Nilepost",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0VEdThqX2xrT2NnSE9ra1pUWEh5eFVTeHJfSjY1dUx1R2RXQ0NkSEp0MmZIZU8zZWdtSTdqQzlLODRwTWtMbFNKZDZKdTl2dzF1QU9EdVdDUzFpQy10ZURqbHYzTjMzTmlRMXRhcDRsVDZUTTM4b29pNUFGakQ2dzllVFp5bmFyN0FvVlA4a3RIOFJyN2VKNXJkbTdjWERDYmh4am5KRms1OHA2Tzg00gGvAUFVX3lxTFBXRUR1OGpfbGtPY2dIT2trWlRYSHl4VVN4cl9KNjV1THVHZFdDQ2RISnQyZkhlTzNlZ21JN2pDOUs4NHBNa0xsU0pkNkp1OXZ3MXVBT0R1V0NTMWlDLXRlRGpsdjNOMzNOaVExdGFwNGxUNlRNMzhvb2k1QUZqRDZ3OWVUWnluYXI3QW9WUDhrdEg4UnI3ZUo1cmRtN2NYRENiaHhqbkpGazU4cDZPODQ?oc=5",
-      "published": "Sat, 24 Oct 2026 19:36:30 GMT",
-      "summary": "Government-Backed Insurance Scheme Targets Small-Scale Farmers&nbsp;&nbsp;Nilepost",
+      "title": "Belagavi tenant farmer faces financial crisis as drought damages paddy crop - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUTY0MTdpakR6R2xraXVsVWUyMzdVdU5oaGpoSUd1U3FFd0U1bVhpNWxHYVhKLWE0U1pIbTE3NDBsWnl0UTZXazBrTkFfaEJUb1ZHS3ZqeVEzc2hoQ0FHRFhLMGRTN3lDUVlDWldhRnJiSXVRNUY0UF9TR3llcmFiT2ZWbVhUV2NlOUs2MjhiWExJemozQ2NaVUVRUC1FUENFX2VVQzFNX2V2anA3OTd2LVdVbk1ZN1ktM2hlMG81ZTRBT3h3eVl6SnlieXp2Y2xReWxV0gHgAUFVX3lxTE1tTmxMWHM4LWJLU2hDQUVaQzBZRlo4RHVLSktBQjRvWkFIblVFU1gwQzE2bktrNzZSd1FreTBQX2dZTDZERjFRc3IwMmdvSXROVWRhcUUyTUpCTnNHZVhRQWRIa1Jscjd5LXcxYUozalhrS25ralZ2azFUWjdCelRCYTNZbFVzTHZDbHF5aHhFNTd6bnk2cjVsVmc3N1BYbFhJc0NCejZxNlEzaTFYR2VFbzE5MUlodnVmVE1OUTIwUDltT0xOYjNZSHo3VHphWFdmOUVxLVRoS21UMU1vOEVU?oc=5",
+      "published": "Mon, 26 Oct 2026 01:40:56 GMT",
+      "summary": "Belagavi tenant farmer faces financial crisis as drought damages paddy crop&nbsp;&nbsp;The New Indian Express",
       "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-25T03:36:30+08:00",
+      "published_beijing": "2026-10-26T09:40:56+08:00",
       "source_detail": {
-        "name": "Nilepost",
-        "url": "https://nilepost.co.ug"
+        "name": "The New Indian Express",
+        "url": "https://www.newindianexpress.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Alphabet's Google expands Voltus virtual power plant agreement to 1 GW - Mugglehead Investment Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10OEczRnFDbjVGNUFEQks5M2YzRUNwR3ZRc3BfTVAwZTZPdERtV0YzVzEzNmFPdi1Mam52M1JKZWRMcWJ0QXlTZU1MTEhCZ1I3T0N0SUw3RjJpZGRwdUlwTXpZN0lJUVJjQy1jLUdnNXNjY19YZk1PVUdB?oc=5",
-      "published": "Sat, 24 Oct 2026 17:45:52 GMT",
-      "summary": "Alphabet's Google expands Voltus virtual power plant agreement to 1 GW&nbsp;&nbsp;Mugglehead Investment Magazine",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-25T01:45:52+08:00",
+      "title": "Rajasthan Drought Declaration Exposes a Deepening Water Crisis - Urban Acres",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeFB0b3pLVkpIZXFsMkRTMFdXN1dLRHFDbERJWkFFRTEtZTd0d0ZQblFkQXRxSUNiVFdHVXl1SFVYRUFHY2MwQTdqUEFXa0hZaVotLXJieEtuVWVGY01KNW92N0FzNjRjX0dma2hiMEN4UUs1SDVpX1ZRdldZWEpuN3l3bV9XZHA5YzdkREdR?oc=5",
+      "published": "Mon, 26 Oct 2026 00:46:51 GMT",
+      "summary": "Rajasthan Drought Declaration Exposes a Deepening Water Crisis&nbsp;&nbsp;Urban Acres",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-26T08:46:51+08:00",
       "source_detail": {
-        "name": "Mugglehead Investment Magazine",
-        "url": "https://mugglehead.com"
+        "name": "Urban Acres",
+        "url": "https://urbanacres.in"
       },
-      "priority": 0.0,
-      "category": "关键矿产",
+      "priority": 1.2,
+      "category": "粮食安全",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Why Is Freeport-McMoRan (NYSE:FCX) Back In Focus Today? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPclJZZERCZk10RWk3UnllV2VBRnNGNzllY2l1bm9saTFMMzNmbW9BWGdCSXhUUlkzRHBSOXc5ZmpMaENiZ09IR1BFRkZRSkQyaDJabTZBWjRScVJaTGVTeHp2LWYxcV9MTDdGUmpZNUk5OUcwQmtCVnRMSlZaWklsMlhyMF9EdDIwUDc5dHlsQXJ3NzJpRjNmd2podGRKQ3hYcmc5UWJ3?oc=5",
-      "published": "Sat, 24 Oct 2026 17:25:00 GMT",
-      "summary": "Why Is Freeport-McMoRan (NYSE:FCX) Back In Focus Today?&nbsp;&nbsp;Kalkine Media",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-25T01:25:00+08:00",
-      "source_detail": {
-        "name": "Kalkine Media",
-        "url": "https://kalkinemedia.com"
-      },
-      "priority": 0.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "On this day in space! Oct. 24, 1946: V-2 rocket takes 1st photos of Earth from space - Space",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcG9zNGphTDRWOUw3WXVjaEZGNTlZLXZoWDBvbjNNR05jbzd4MUhKWnVMelp1YTZmaEV6OFpUeUtHMEo1YllUOFQ4c19mRDgtdHhWRGpzZDhONlZjbFEyaFlvLVVfSnBoUC1uSTJGb3VWVEZaME5SVG4wNHVvSWFhWjZn?oc=5",
-      "published": "Sat, 24 Oct 2026 15:33:08 GMT",
-      "summary": "On this day in space! Oct. 24, 1946: V-2 rocket takes 1st photos of Earth from space&nbsp;&nbsp;Space10 Iconic Photos of Earth From Space&nbsp;&nbsp;Star Walk",
+      "title": "Orionid meteor shower peaks tonight: Here's the best time to spot shooting stars - Space",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQjg5TDFPUE9adGxBMjV0WHNibHA1VkJQaUtlTkVlbWhuRm1UbkFNbkZfOVhsY0VzcnRrMHRlcHJYMzhXNmxDdUVBdEs3dW9VckEtNFlWNTQ5VjRJZk90REhwR0xRTWhLUjljX1A2Y1p5aDYwQklaaVAwR1JGWTJmamtjREVkVFFyNllYT0poWjdhSm9qSUhhTnRObkU0aVpjdVVELTBiVnoyb2RZamJ6WEU5X0JCanZYTWNjTFhkOVNwM0JyR0N1aXFOMHkwUQ?oc=5",
+      "published": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "summary": "Orionid meteor shower peaks tonight: Here's the best time to spot shooting stars&nbsp;&nbsp;SpaceI just saw Halley's Comet + nearing record warmth&nbsp;&nbsp;MPR NewsSee the dust and ice particles from Halley’s Comet tonight&nbsp;&nbsp;ABC7 WWSBEarly birds will have the best chance to see the Orionid meteor shower&nbsp;&nbsp;CNNPeak viewing for the Orionid meteor showers and for fall foliage across parts of CNY&nbsp;&nbsp;WSTM",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T23:33:08+08:00",
+      "published_beijing": "2026-10-21T20:00:00+08:00",
       "source_detail": {
         "name": "Space",
         "url": "https://www.space.com"
@@ -958,31 +474,31 @@
       "relevance": "low"
     },
     {
-      "title": "Cambodia proactively responds to the impacts of El Nino. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSY0xMYXhJcHIwRGpCUjRDc1pjS2RhTDB6T29uVG1iUVlzNTRfUDV6Z1Y5akFxNEFVTmZnbUhpems3dVJ0QXAwT2hJVUJiVHRBd3lwbk4wdXh1d0tLQW8tS01adG5qSVBzYUFTaTdoVVVzeUVwcmFzN2lCd0d3Zw?oc=5",
-      "published": "Sat, 24 Oct 2026 14:58:10 GMT",
-      "summary": "Cambodia proactively responds to the impacts of El Nino.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T22:58:10+08:00",
+      "title": "Scientists Just Cracked a Quantum Mystery That's Puzzled Physicists For Decades - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLU16cGRCY3JOem8tT3BOeTFkQ042RF9wUTg2bVRtRXNkZWkxd1dQUkkwMEpEd0NSUGdWWVdaQ2hXZVZRbHRiZ051bUE1NVNpaUpXSDc5OTlwQXRqZjMxNmE4ZVJHeWkyVHBNcDBmcDQyUTlSTkZfeTQ1bl9nWi1NYzRlelkzR0ZIWDh4SFgyd195eUNnZ2xIVnBoZDlJQ0tBSWNmRTMxQVFSV0k?oc=5",
+      "published": "Thu, 22 Oct 2026 22:02:14 GMT",
+      "summary": "Scientists Just Cracked a Quantum Mystery That's Puzzled Physicists For Decades&nbsp;&nbsp;ScienceAlertScientists develop more accurate method to predict Kondo Effect in metals&nbsp;&nbsp;AzerNewsA quantum mystery that had puzzled physicists for decades has been solved&nbsp;&nbsp;Baku.wsScientists crack quantum mystery that has puzzled researchers for decades&nbsp;&nbsp;GB News",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-23T06:02:14+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
       },
       "priority": 0.0,
-      "category": "粮食安全",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "$6B Arizona investment aims to boost U.S. coppe... - Pluang",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1l2Z2dLTVFjQktxZVRReXNpa0dYOWhOcHZRZzhCOWZqY08waEFxdnNtNGxyRUcwb0hFeUszMVlheUFuV2xPaFFoX3JnR1JGbTZsY1VuSnNob2lxVTRDLW5zZm1aZUFad1ViV09sdG5zNmFpN1F4WGE4ZDNKSm01elI1bTB4WjNCTXAtZ2lOdGR6UDZaU1dEaW9CMUR4MzRDR01vWS13SXFFbDhudzRvdEVR?oc=5",
-      "published": "Sat, 24 Oct 2026 13:59:23 GMT",
-      "summary": "$6B Arizona investment aims to boost U.S. coppe...&nbsp;&nbsp;Pluang",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-24T21:59:23+08:00",
+      "title": "Power supply chains face a new test - The Express Tribune",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6RWhockZmdUczUnlTc1BySWhKRHM3OUZiREFrNUlpV2hQZXFvS3NoMktEVkFldmY4WUFmVV9ZSFdmNjNLcUc0Qkl0UmVpNkxpbnhQYzVTNklvVkNGU2Q3R1lGNkF2TVU2ZHQ1MDdBQUZLOWdrUHZCdEp4bXLSAYQBQVVfeXFMUFBNdTBMNHlxZThCMlpmSGZGNjhKUDRQa2E3NThtM2dIVmtYSURCMGo4ZEk3XzVSVnNBX3BxbnFZR0tjSFJZbDA5WU1na1M0XzZDeDdiWThMNDhFVVJTUy1vb215bFdBT3JHVXBzbnZFUGJ5OEc5ODZHdlZfMEYxbTgyRDdS?oc=5",
+      "published": "Sun, 25 Oct 2026 22:10:56 GMT",
+      "summary": "Power supply chains face a new test&nbsp;&nbsp;The Express Tribune",
+      "source": "GNews | Critical Minerals",
+      "published_beijing": "2026-10-26T06:10:56+08:00",
       "source_detail": {
-        "name": "Pluang",
-        "url": "https://pluang.com"
+        "name": "The Express Tribune",
+        "url": "https://tribune.com.pk"
       },
       "priority": 0.0,
       "category": "关键矿产",
@@ -990,127 +506,95 @@
       "relevance": "low"
     },
     {
-      "title": "The Hidden Cost of Great Power Bargains: Why Developing Nations Pay the Price - illustrated Daily News",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV0ZjOHR1WE1fMW5pZWQtRExrMnI0Y2d3YnQ3Zi13c0hpeXhyYXo5WXFJelc0ck1kcjVTMG5TM2FuZWZTRDhQYlF4d2xxU00tRU9QTjZod3Q0NGU2Ri1RSm95RG9kQ2FxZm5LQjA2UUtIVVpOd3dSYXhXalo0djZNdTZEenB3RzBfSGVHelJhN3J1UzI2MFJRbVhpbEF5NXA0V3JVMnh1cTdxcVNTR0Exa1hkb3habkZSZGQ5Y0t4Njh4WVdxRnNrcNIBzgFBVV95cUxPMl9CT29pVEpLQXU4dFVfZXBUNGljYjZHck1XWWlaUnZpRFo1NG9lTy1lZ3JhQkdESjRFWkZucHF1bXhpVEhZSDJSakVUWVQzU012NWdYbTU0cUxQX09fRjVGWmFsSnVmS3pYQnc5SzQyOUp0NXNaRG9kX3lPRUtEdnlyZ3pLME1MZXo0bEJMVEpIV3luT3lXcUJRcC1sTzd3SW5CMUdXc0Z4ZWJIVVozTXk0WFpMU25Ob0lNM1N0NUhiZzFrZVl0YkVtUGg4Zw?oc=5",
-      "published": "Sat, 24 Oct 2026 13:55:21 GMT",
-      "summary": "The Hidden Cost of Great Power Bargains: Why Developing Nations Pay the Price&nbsp;&nbsp;illustrated Daily News",
-      "source": "GNews | Fertilizer",
-      "published_beijing": "2026-10-24T21:55:21+08:00",
+      "title": "Hydrometallurgical Processing Plants Market in India: Size, Trends and Forecast to 2035 - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTC1NMGtNWWQzVUwzTlV1TlB3QS1FdFdBZUJtZTFzQVBmcjFxMFViV0xZMFdIMWRLSHg4ZlhMaWlGNTNQRjV5MGVqZE5HLW9FRXJUWjZUUGxQbnZNXzBqMGNWbm9jb0J2YlE3bDJSbVJhZjdUdm9IQVFyamdOWFgzUWNfZHZMOVp3UEU3ZHZqWjM5T2xMLWU4dEJYbEVVS1lVRUJXM1o5Qk1WdXpMUmpPckItci1XcHJKVGgxN1VLcHU?oc=5",
+      "published": "Sun, 25 Oct 2026 21:51:13 GMT",
+      "summary": "Hydrometallurgical Processing Plants Market in India: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Critical Minerals",
+      "published_beijing": "2026-10-26T05:51:13+08:00",
       "source_detail": {
-        "name": "illustrated Daily News",
-        "url": "https://www.illustrateddailynews.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
-      "category": "粮食安全",
+      "category": "关键矿产",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "This $6 Billion Investment Could Open a Relief Valve for America’s AI and Power-Grid Boom - 24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclYtTWpXZ241MVNia01tTmRQdTlWSnA5TlZOR3N2a3lxRGRQS1UwTE5Pcl9FMG5qS2JNdEprYWN4RDJKX0l6NlVVbDE3dlJVblFpODNCdHJSNlM0NnBsNGxYVmtpN09IYnUtYmFBVGpvSzhDM0dibUlKbHJCT1AxYUxMMEVKNExDeW1jRXFrOHNVRkxKeHp2cE02WlFRWlc4THM4NXY5UkNVLXFaay1YdndORFVGMWVFc0Jsal9Ga1hnZ21FR3ZyWjdoTQ?oc=5",
-      "published": "Sat, 24 Oct 2026 13:35:00 GMT",
-      "summary": "This $6 Billion Investment Could Open a Relief Valve for America’s AI and Power-Grid Boom&nbsp;&nbsp;24/7 Wall St.",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-24T21:35:00+08:00",
+      "title": "Anode Current Collectors Market in Africa: Size, Trends and Forecast to 2035 - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZE5fTEVmYVlnWmpORTRIYjUwbDRZWnNlTmxrUzc3ZmR4dmJVQWY2b2Q2TGhaQ21xb1N6SmI2aGNNNjdKa3JEb1d2RjdhSVprM1BSeko1OFJaWkxmcVZBZVJFRzg3QlRDd1QyUXFadTFNQmt1SDJYZmFtUXNIRW9uazFzeDBnMEI4Y190YVJjcGh2NW9jc0hnNVRMYjdHTFRsTk5ZU21uM2FEYVg1ZHR4TUl3?oc=5",
+      "published": "Sun, 25 Oct 2026 21:51:13 GMT",
+      "summary": "Anode Current Collectors Market in Africa: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Lithium Mine",
+      "published_beijing": "2026-10-26T05:51:13+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 0.0,
+      "category": "关键矿产",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Supercurrent enables the reading of quantum information without destroying it - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qZ0VXT3I3ZllYM0FzcWJQSUd0S2NwVzB1NUFUbUFDeUFodEVSSGx2QlpudmM0MldXUXd3ZkxDanFoOXZZU21uamR5NjFTOU5tWU04dXNNMENMMUo5NGxPcVp3Q1hKSXVkenV3UkhfdmlMbURIb3c0TWhvLTFDQk0?oc=5",
+      "published": "Sun, 25 Oct 2026 19:00:20 GMT",
+      "summary": "Supercurrent enables the reading of quantum information without destroying it&nbsp;&nbsp;Phys.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-26T03:00:20+08:00",
+      "source_detail": {
+        "name": "Phys.org",
+        "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Milky Way's disk grew 'upside down,' with younger stars forming in ever-thinner layers - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nRHF3a3BrLUtuYXdseUh3RXdwZGZkNzk1TG1zc1JETDNSTFBfNHZSeGJDWFRBR1BVV0dIOTdZNlBjSHpBTnY0c0FhMVU1OENDei1iVndrcGZhWVRkS29PVFNfZ2hDZkhQZlZJOElqRW5GT2s?oc=5",
+      "published": "Sun, 25 Oct 2026 18:30:02 GMT",
+      "summary": "Milky Way's disk grew 'upside down,' with younger stars forming in ever-thinner layers&nbsp;&nbsp;Phys.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-26T02:30:02+08:00",
+      "source_detail": {
+        "name": "Phys.org",
+        "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Can EPD’s $6.5B Growth Engine Defy a $34B Debt Cloud on Oct. 29? - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVFTLXRYczUwekJKOERmMWZPYVFVY3NqbHg2MEdYZ2ljNDdoX0N0TmItTkdFVnNwR0czaEYtTlh6di1HMnR0eHFobzJoNzJDSlVMcTNlR1h3T3RBN2hsOGREeWE4TFNoT3NEVEUwbnlFNjdfSGtjeWo3RDFxSUswcmdRVDdaNWpTeDE4c2U3MVA4MkdMN0VIbGVnQUphQkNOaFVra2pn?oc=5",
+      "published": "Sun, 25 Oct 2026 16:20:00 GMT",
+      "summary": "Can EPD’s $6.5B Growth Engine Defy a $34B Debt Cloud on Oct. 29?&nbsp;&nbsp;24/7 Wall St.",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-26T00:20:00+08:00",
       "source_detail": {
         "name": "24/7 Wall St.",
         "url": "https://247wallst.com"
       },
       "priority": 0.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret - Science Daily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwLWlya3JGbVY4b0cxYzZ4UjlxeVpfRGF2dS1LeTB1RU52eWZ5TmFjeWQ2cWJfTUQ1OHZGM3NJSmVPRkJZSWhKeW0xUlJObjEtZUFEU3hRRmVPUU8wUURwMDVZTFBmZnBsVlNPc2o1Yw?oc=5",
-      "published": "Sat, 24 Oct 2026 13:15:40 GMT",
-      "summary": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret&nbsp;&nbsp;Science DailyAsteroid Bennu Samples Point to a Birthplace Where Inner and Outer Solar System Met&nbsp;&nbsp;Around PragueHidden Cracks in Bennu’s Boulders Explain Why the Asteroid Loses Heat So Fast&nbsp;&nbsp;Technology OrgNASA cracks the mystery of asteroid Bennu: Its giant rocks reveal a surprising feature&nbsp;&nbsp;MARCANASA solves a strange mystery hidden inside asteroid Bennu’s boulders&nbsp;&nbsp;Science Daily",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T21:15:40+08:00",
-      "source_detail": {
-        "name": "Science Daily",
-        "url": "https://www.sciencedaily.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A hidden bias in human language challenges 70 years of science - Science Daily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qa2JBNkZzcHdPZVFiU3lyZjNtSGNXSl8wMXRwVDhjQ0VPNEVwRUNLZndCVU10WEtBV016cTJxa2o5Wk5qWjMxQUdlN1dNRm9RdEs5bDFfWkRpTncxb1NkdzVWWDBCRHFaa0k2ZDJMTQ?oc=5",
-      "published": "Sat, 24 Oct 2026 13:03:09 GMT",
-      "summary": "A hidden bias in human language challenges 70 years of science&nbsp;&nbsp;Science Daily",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T21:03:09+08:00",
-      "source_detail": {
-        "name": "Science Daily",
-        "url": "https://www.sciencedaily.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Some Buy Telescopes. These People Build Them From Scratch. - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0EtMFJCUEJzQUN1X0xqaEMzOGQ1Tk9Fd0RJNUNOYnQ5eVYwRHR0LUFhbnJSNnhCMGViMktINzlJdmlJUTFoUVhLWU1vMThNWlQwX092akx4cVNKeTdEYUNxS2JYM2JDNi1XbUVEeThqc3pLME9URXQtMWVqeXdwZEl1dGVUZGJ2MHc?oc=5",
-      "published": "Sat, 24 Oct 2026 12:57:50 GMT",
-      "summary": "Some Buy Telescopes. These People Build Them From Scratch.&nbsp;&nbsp;The New York Times",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T20:57:50+08:00",
-      "source_detail": {
-        "name": "The New York Times",
-        "url": "https://www.nytimes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The World’s Oil Reserves Just Got Handed a Stress Test: One Analyst Warns the Real Worry Isn’t the Price of Oil but the Supply - National Security Journal",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMFpwNXlMbHR2WEVGa1dDTURlOTNQWkNYNlRTSmh3aHFRLXJmSkJLbE1CWmdHdG14cWF2YWFINnM4dmhybGdxdnlPeDVUYTNfWnVOU19Tamo4LWFMbXowTmQweTdsSzBaZVk5emZXYk5oRVpQVXR6TlVYaEt6ZDlDT3BIQ2U5YTFEMWVjd2xIOEFnN3E3Tk9jSUZkVWtOY3BodGstOG02V2ZTdXhia2RNUHV2bndzaXctRTFLamxtaEV3eHFrdmQ0eTNsWUFVZGhUemZaQzM3aHFmVlVMR1BhZi1oa2s2TXNDb18zTDZyT2VUQQ?oc=5",
-      "published": "Sat, 24 Oct 2026 12:30:04 GMT",
-      "summary": "The World’s Oil Reserves Just Got Handed a Stress Test: One Analyst Warns the Real Worry Isn’t the Price of Oil but the Supply&nbsp;&nbsp;National Security Journal",
-      "source": "GNews | SPR",
-      "published_beijing": "2026-10-24T20:30:04+08:00",
-      "source_detail": {
-        "name": "National Security Journal",
-        "url": "https://nationalsecurityjournal.org"
-      },
-      "priority": 0.0,
       "category": "油气",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Chinese astronomers find real three-body system. It is not what Liu Cixin top movie is about - The Star",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeWswOV9zZ2dHVTVwOUxzMHJ0eC1leV9ydjZqUU50MEh2SGhfaVhMTDlUTTNtVm5lX2ZZVkI4OFdHSldZMm9NOS0ydGUxaFNMc09MTjRxM3kxMUl6RnhZRDNUeGMzTmNQUXVPMHlTMXl6ZTdOeFdwOGJOQ2NPNjVXM1dxTzdkc2lDN3dLN0lOd29KbWU3TzNFMmZxZk9lbHFXU3k2a3F0VkNTbzlaeUJpaWlpY3QwdXZrOGNzanZxWjRmQUJNRmRMTHdJbWM2NVU2MVlnQ0RYY0YtSG5fdTdSeUlMVk85bENSWUE?oc=5",
-      "published": "Sat, 24 Oct 2026 11:51:00 GMT",
-      "summary": "Chinese astronomers find real three-body system. It is not what Liu Cixin top movie is about&nbsp;&nbsp;The StarChinese astronomers find real 3-body system. It is not what Liu Cixin thinks&nbsp;&nbsp;South China Morning PostA pulsar's apparent slowdown reveals a rare stellar trio&nbsp;&nbsp;Phys.orgChinese astronomers discover real-life three-body system unlike Liu Cixin’s fiction&nbsp;&nbsp;The News International",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T19:51:00+08:00",
-      "source_detail": {
-        "name": "The Star",
-        "url": "https://www.thestar.com.my"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tanzania Msimu Outlook Flags Tabora Dry Spells - https://streamlinefeed.co.ke/",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzlia2NNRU1vR0VFa0dnNmJBN3hNTkRjRDk2N3Fhcm9EUjNRX2taajNVc0xxdENoOW54THBJVVU4d1d6SXV3UmtmN29WbjN1OXllRXludkZselpEOFZMRDlHNUNsdzBNSk13SGZBbkkxbEZPcXR3cVRRa3pidDY3NUo1dS1UbjQ?oc=5",
-      "published": "Sat, 24 Oct 2026 11:25:27 GMT",
-      "summary": "Tanzania Msimu Outlook Flags Tabora Dry Spells&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "title": "El Niño: Preparedness must deliver results - Manila Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtdW5pSlZuMTVUQTZfMnZGbUZ1bTZlYUZqY3lYR0FqdlNMcDlhUlR0VGZpY0dXYWZaRG1RbDRwaUtwaHBTZXNEVWxyRTVoNGktRUoyVmZKRDh5Qi0weTlXSEFKbk85MGxRejR5N2hZZE0wNHM3TkozWVZR?oc=5",
+      "published": "Sun, 25 Oct 2026 16:08:34 GMT",
+      "summary": "El Niño: Preparedness must deliver results&nbsp;&nbsp;Manila Bulletin",
       "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T19:25:27+08:00",
+      "published_beijing": "2026-10-26T00:08:34+08:00",
       "source_detail": {
-        "name": "https://streamlinefeed.co.ke/",
-        "url": "https://streamlinefeed.co.ke"
+        "name": "Manila Bulletin",
+        "url": "https://mb.com.ph"
       },
       "priority": 0.0,
       "category": "粮食安全",
@@ -1118,15 +602,15 @@
       "relevance": "low"
     },
     {
-      "title": "2,000-year-old Archimedes’ screw inspires motor that boosts electricity 100 times - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRE9DMkFGcUhETGRSMVBvWDdRRW5lRU85OXZDZHdfempWRG5RWm1WWHpFMGtDTEFCb2x4TE84azhYcVZyQ3M5MEZXb3ZQNXhpYlIwN0ozaDh5S25YbEsycE9xOE9PdEhzblAxOVNSTHBqRWduZ3RrMF9IQnc2ZHVMcVpkUQ?oc=5",
-      "published": "Sat, 24 Oct 2026 10:19:00 GMT",
-      "summary": "2,000-year-old Archimedes’ screw inspires motor that boosts electricity 100 times&nbsp;&nbsp;Interesting EngineeringArchimedes screw inspires single-molecule motor powered by electric current&nbsp;&nbsp;Phys.orgIIT-M Faculty Makes Key Inputs to Global Study on Molecular Electronics&nbsp;&nbsp;Deccan ChronicleElectric Current Spins a Helical Molecule and Boosts Its Conductance&nbsp;&nbsp;Bioengineer.orgIIT Madras Faculty Contributes To Multinational Study Showing Molecular Motion Might Help Contr...",
+      "title": "Lizards have been shedding tails to stay safe for 99 million years, Israeli research finds - The Times of Israel",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYkxJYTV1UWtZZjNVYjVPeGhDSVE4LVhMdjdGYlVzUEF2THB6dUtBNDlNZUpOUEx0VXVZVy1pSHZ4bFBjNTlHUEIxZ2s0Uy1iWldiaTVWeV9wTjB2dUg2M3ZhYVc4UFRJX045TEtOcWNhZ0pLM0U5aWxpd1hOVjFRRVFsaTJ2VGtCSWtNNkMtNFRVQkw0UDJjQnY2NWItRDllRmtvcVpkcDUya3g0N3VCWE1vRlJ1N1pCSWZLeNIBwgFBVV95cUxNZlVRNGhHeUZXeHl4RmRrSC1BR29lVEMzUzk1YVRaRWpfdXdVbWluZmRpXzllR05UMTV3ZkZuM0FhWmdkallOWlNtTXBSZUFXVFFTVzdaaEgzTVc2VW42cXBuTVBGdXZZVnRhaFhVU2hIVFNoYk42dm1UakxHMHE1WVBuYnJDUW1hdjNvdklpUE5pYkVUMldEXzhFeTV6bHU1cF9pbFBOU0cwWS1LakhxUzdIaV9BbVBQejhGZGZDSHBPQQ?oc=5",
+      "published": "Sun, 25 Oct 2026 14:08:00 GMT",
+      "summary": "Lizards have been shedding tails to stay safe for 99 million years, Israeli research finds&nbsp;&nbsp;The Times of IsraelTrapped in amber for 99 million years: Tiny lizard tail reveals prehistoric defense mechanism&nbsp;&nbsp;YnetnewsWhat Was Hidden Inside This 99-Million-Year-Old Piece of Amber Is Something Lizards Still Do Today&nbsp;&nbsp;The Daily Galaxy",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T18:19:00+08:00",
+      "published_beijing": "2026-10-25T22:08:00+08:00",
       "source_detail": {
-        "name": "Interesting Engineering",
-        "url": "https://interestingengineering.com"
+        "name": "The Times of Israel",
+        "url": "https://www.timesofisrael.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1134,15 +618,15 @@
       "relevance": "low"
     },
     {
-      "title": "US oil rig count up for week ending Oct. 23 - Anadolu Ajansı",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTjhDRURpRTNoZW50MENiTElCWGtfc1JidFM4MUZxMWdJN1RNcDBjQmJOZXBhUkFfNXo5QlFQcVhtZm5na1JucmNNbjRUOEZONXNHR29vd2RVVGJQX3ZaZVhvbjMwcUNHZlk5OEJGYjBFNkJMOGhlcjUxZUl3X1F4UjRxYUNONjR0Yjh3aQ?oc=5",
-      "published": "Sat, 24 Oct 2026 07:09:54 GMT",
-      "summary": "US oil rig count up for week ending Oct. 23&nbsp;&nbsp;Anadolu Ajansı",
-      "source": "GNews | Oil Disruption",
-      "published_beijing": "2026-10-24T15:09:54+08:00",
+      "title": "Minister Unveils Plan To Boost Nigerian Seafarers’ Global Competitiveness - LEADERSHIP Newspapers",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaTlfZ2xIM2Zoc1NISDhHdVNsSmU2emkxLUZ5Y3BKWEYzNkF4M3JPT1Q5c3VBa2VpSTlKSW1xcy1mTWVZN0ZJdGgwZmw4Q013aWVXeVRBenJTLWlYRlBSRVVNeU9FYVl6TkFWZnhJQVZrdUZOc3ZBNjdfNWNRM1FzaHhicFFMMGZSc256amxfNUZUNTQxVFQtWkR5WQ?oc=5",
+      "published": "Sun, 25 Oct 2026 14:04:34 GMT",
+      "summary": "Minister Unveils Plan To Boost Nigerian Seafarers’ Global Competitiveness&nbsp;&nbsp;LEADERSHIP Newspapers",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-25T22:04:34+08:00",
       "source_detail": {
-        "name": "Anadolu Ajansı",
-        "url": "https://www.aa.com.tr"
+        "name": "LEADERSHIP Newspapers",
+        "url": "https://leadership.ng"
       },
       "priority": 0.0,
       "category": "油气",
@@ -1150,140 +634,28 @@
       "relevance": "low"
     },
     {
-      "title": "In 900 Days, A Giant Asteroid Will Come Closer Than Some Satellites - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdDRuYklSN2xwdTcxRzBzNEFTOThtU2dMc0RjRDZHeDFHOVNBYkNLMExHMU9LNnctczE3RExGWVJKNlpHSTV4Q21udHlnOEhheUo4VGw3NHhfeU5kQWRNTVgzRnFJc0tBVW5sZnFpX1VRcWpIcGlPeGZNQ2h6STF2bmp6LVlrLVp3ZUVhS3I1OEVUZDZaUHRjR2UtOU9HQTdWaFFGQ0I1ZXdOQklleGFkZW1DaFN0M0g3X3lYaUwyY1VoVGJT?oc=5",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "summary": "In 900 Days, A Giant Asteroid Will Come Closer Than Some Satellites&nbsp;&nbsp;Forbes",
+      "title": "China’s solar power solutions bring pleasant surprises to African weddings - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmU1p4VnA1M2JkZnp2OVZHRWpHQjJrNUNUMDhEMzBJeWJCMEF3VDBWVlBhZElLZ0pTMm5USHEtd01zZW96ZENkX1JKY2FKSzVwelBSQkZsQnZ0OGhBSk03NS1R?oc=5",
+      "published": "Sun, 25 Oct 2026 14:03:00 GMT",
+      "summary": "China’s solar power solutions bring pleasant surprises to African weddings&nbsp;&nbsp;Global Times",
+      "source": "GNews | Solar Mfg",
+      "published_beijing": "2026-10-25T22:03:00+08:00",
+      "source_detail": {
+        "name": "Global Times",
+        "url": "https://www.globaltimes.cn"
+      },
+      "priority": 0.0,
+      "category": "能源转型+碳",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "On this day in space! Oct. 25, 1671: Astronomer Giovanni Cassini discovers Iapetus, Saturn's 'yin-yang' moon - Space",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObklFa0JDNHB4bmlVZWNwVDZZZi0zMk9sYklpT0FpQURIZVBrSEQ5dTEwRFZYVk9qWlM5dnNndExlYVhXWTc3eU44MVhMZnUxZzJPLVMtams0X2RHNm9CR1dZaVFMT0ozMEZhODY5ZV85VXRfTm9Jb0JOQjJWOEJSMWt2M0ZoSTliaE9aSTRUT2NJNlVHb09LWEoxV0F4amhiZk1pSThNV1hSYW1GcG5RVXhuNUJOTlhoNnpBbGF5ZFk0aUIzQXVRWjZTY2Y3TEptU2pUZGJuWQ?oc=5",
+      "published": "Sun, 25 Oct 2026 13:17:54 GMT",
+      "summary": "On this day in space! Oct. 25, 1671: Astronomer Giovanni Cassini discovers Iapetus, Saturn's 'yin-yang' moon&nbsp;&nbsp;Space",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T15:00:00+08:00",
-      "source_detail": {
-        "name": "Forbes",
-        "url": "https://www.forbes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Ancient DNA shows Ice Age Europeans stayed connected across long distances - Archaeology News Online Magazine",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVIzWUthRm9IVFpiV3hwXzBwbGlENV9nS2dObGpZeDZKOUotY2FYY1NKWHF4d1RfcE4yNWVpbUdQRWtkV2l1S2JScld1eGs4NVhKNGdtMWhqcG1GRDlXb2FZSm8tajB1djFfMDB2WURHVlNJc0ZuQW80cXJPbHlHYTBNOEROX1VNZXdFQnpNMk0?oc=5",
-      "published": "Sat, 24 Oct 2026 06:13:38 GMT",
-      "summary": "Ancient DNA shows Ice Age Europeans stayed connected across long distances&nbsp;&nbsp;Archaeology News Online MagazinePaleolithic human DNA reveals east-west connections across Ice Age Europe&nbsp;&nbsp;Phys.orgIce Age Europeans Were More Connected Than We Thought&nbsp;&nbsp;Nautilus | Science ConnectedDNA from French cave suggests Ice Age Europeans were well traveled&nbsp;&nbsp;Courthouse NewsIce Age DNA Reveals Hidden European Connections&nbsp;&nbsp;Scientific Frontline",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T14:13:38+08:00",
-      "source_detail": {
-        "name": "Archaeology News Online Magazine",
-        "url": "https://archaeologymag.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "El Niño: UN Concerns and the Future of Humanity - Countercurrents",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdWRLdEJrSGk4YWxjc3llRUItUDZ2bjgtZnRrYzM1empoeTkzejd0UC1IeEJ0a1JraEFnaTZDMVkxUnQtUU5kODRVS2lYazVhenVYUUtBMmNJWVpialdUTTY1clhERXotNVNMU3VzYm1oR1RXVW5EbHhzYlQ4b2pfaklKQXZZU2JsMlFj?oc=5",
-      "published": "Sat, 24 Oct 2026 05:12:32 GMT",
-      "summary": "El Niño: UN Concerns and the Future of Humanity&nbsp;&nbsp;Countercurrents",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T13:12:32+08:00",
-      "source_detail": {
-        "name": "Countercurrents",
-        "url": "https://countercurrents.org"
-      },
-      "priority": 0.0,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why Sweden’s Battery Minerals Supply Chain Is Harder Than It Looks - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmRYYnI2bTVCUzZzRy15bk1jS0RCOE9ZSmJLaDZRdF9MZlk2SVBWVE1ta0h2SnFuVHB6bUhkNm5mVHV5QjFiRXFTR3FwWkdtMFZSc3ljaHRZOW1qcDhwY181dWFGdmJuSnpJbTQwbFBnbllOS013RS10SmpjYlptSjZBbUpuRHd1ck45UkFOMA?oc=5",
-      "published": "Sat, 24 Oct 2026 04:12:35 GMT",
-      "summary": "Why Sweden’s Battery Minerals Supply Chain Is Harder Than It Looks&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Critical Minerals",
-      "published_beijing": "2026-10-24T12:12:35+08:00",
-      "source_detail": {
-        "name": "Discovery Alert",
-        "url": "https://discoveryalert.com"
-      },
-      "priority": 0.0,
-      "category": "关键矿产",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Budget offers farmers relief, but implementation is key - Farmer's Weekly SA",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdHFvREhHYWNNVENzX3YtTmVyMFQxc2tjSDZoSm1tVUhkT25oUHVPYm9ScHVyUnJ1bXkyRVhPMHRjU3UybS1hZW54eGpJWTdHR3pxVDRlcmw1SE1Ga2Jta2JVNURxRGg0QVhMam1fOUtFLVg4Z2ZtWXJaSHhoZ0NjQm9fQmY4VDJ4RHZwVnJwc1haRkNST21rZVQxSXRxQUdkeThvcVJwdHRPWHBiYk1z?oc=5",
-      "published": "Sat, 24 Oct 2026 03:00:06 GMT",
-      "summary": "Budget offers farmers relief, but implementation is key&nbsp;&nbsp;Farmer's Weekly SA",
-      "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T11:00:06+08:00",
-      "source_detail": {
-        "name": "Farmer's Weekly SA",
-        "url": "https://www.farmersweekly.co.za"
-      },
-      "priority": 0.0,
-      "category": "粮食安全",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMF9aR3BaSHcxcVQ0aGRXcGlhSzNkYmM0WnBhSjFCZXBPOGFvSGF2NXFjRy1EWXhkZlpCZFpiMGN6Mk11di1MUWFlNHlFbklhVjMtQnVzNlM0SUtlRDhQODdDc0tzaW1yWk1jaVdOSU45YnNRdFB3c051cHo4TjdHeGVqeHp0U2ZWRDByTkFtMUxWQkdIaWtVbE1WdkhDdXlwWWw2aGc0NTV1dWo0R0dPc1k2NFBjNHZVUTAxRjg2ZTI?oc=5",
-      "published": "Sat, 24 Oct 2026 02:04:53 GMT",
-      "summary": "NASA's Perseverance Just Broke The Off-World Driving Record, While Mostly Steering Itself&nbsp;&nbsp;ScienceAlertTracks Along the Longest Drive on Another World&nbsp;&nbsp;NASA Science (.gov)NASA’s Mars rover reaches major milestone with record-breaking journey&nbsp;&nbsp;FOX WeatherA Mars Rover Has Now Driven Farther Than Any Vehicle on Another World, Mostly on Its Own&nbsp;&nbsp;Around PraguePerseverance Rover Breaks Record for off-Planet Driving on Mars&nbsp;&nbsp;The Japan News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T10:04:53+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Haryana power cut: Homes in dark for hours, residents block roads; factories stay shut for days, owners c - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPTUg0aHJsRm9kTjlvNXhnVHlxbk1hdndMenlNb0hTcnFySWZzLXphV0tzUWtBOHcyTi1Dbnplb1lWU05DcWJ2OVZmV1JWdmtOM0tKMFoydzhDU01VNzBTdWNlVkJmZ0hHVXM5U2hKNDRILXNlZmdQSEFKd1BpS1Fua0otYmVraWtXc3NIWmtwS0tURUVWcm9TNU41VHJmTTYyTTd3RFpEdzRqU01Ybzk4TTJjeTM5cm5DZ2ROcXAtVS03bUFLR1pQbzE3MWhpY29abFNPWC1McWxmNWxvTC1tYm1kNEE3SkdXQ1JPa0tpeXh0c0RHZlR5LU5fb2ZISTN2R3dmZkluSkZ0dkxJLXgxaVljcGJ2UXRQb0dhTWFn0gGjAkFVX3lxTE05VmcxRkhWbUZva0tWVVNGQkl3WnhjVFpDY3p1TzJVd3JoWEx6Nmg4dVNSOE51YlcwMXlRdHBHWGZBb0c0eDViVGotOE5teUw1QTZiOU9RM3Y0c0lMcE0xcGFUcjVPa19oblNJRmQzMm9jT040aXhLbGFfajRNN3ZFWk9BbHJZQTltbi0xWFhGU0dVaDMyNWZDMXFya2dLSG5wY3FZOG1KdDVkTzVnLU5xRXp4TVM1OXNiTHlaZXZ2WmY3N0NIckktYkNzM1kxMTNZT0Ita0FPQkQwbGFVYWJoRnA2TE5ZX1IxWnJaczVjeTBzYk1TY0J6amJtbmRFVlA5VWV0dldENHF6ckdCQjhBSHl6RjNIbVVHYkc1cXJySzBNSQ?oc=5",
-      "published": "Sat, 24 Oct 2026 01:52:00 GMT",
-      "summary": "Haryana power cut: Homes in dark for hours, residents block roads; factories stay shut for days, owners c&nbsp;&nbsp;The Times of India",
-      "source": "GNews | Oil Disruption",
-      "published_beijing": "2026-10-24T09:52:00+08:00",
-      "source_detail": {
-        "name": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com"
-      },
-      "priority": 0.0,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Norway September Gas Output Drops 12.6% on Maintenance Peak - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXhWaXpuaWR1Tk9XVjAxLWh3T1M5LUZwTHRIYUg1ZUhrbDBSTm44NXVWU1M2VGx4bk5zcGFGT0JMUXRWdDFHNmlKaTlZV1FMbVJNTHBMd3IwMGNqRG9ZNUl3dk01bmdPOV8zU0U0dnE3bVhkbjdvYjFRQVpyVTNQZVlyNjNyVmVwcDNEazZwdEVFRFE?oc=5",
-      "published": "Sat, 24 Oct 2026 00:31:06 GMT",
-      "summary": "Norway September Gas Output Drops 12.6% on Maintenance Peak - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Oil Disruption",
-      "published_beijing": "2026-10-24T08:31:06+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video) - Space",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQTN0dk9QM01UUG90NWdTRlFOcmkxT1RiMmIzbmZlYXBfZnEzbC1VZDRmYmRJSFhmMm1OQ0VDMEFDM3R5ajBfYmQ4MW9UeHFtVlVGZGFka29QcDhzRllmY21WU2RKN0FtdktlUmV3V0ZhM2RzMlNpWUpqbThSXzhSaWR1YUpRZVgzSEVreWtXSms0V0x0ZFQzaG5uWlZtaDhBeFVoV29rM1pwUFFULVE?oc=5",
-      "published": "Fri, 23 Oct 2026 23:26:41 GMT",
-      "summary": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video)&nbsp;&nbsp;SpaceSpaceX launches Starlink 15-15 mission following a trio of scrubs&nbsp;&nbsp;Spaceflight NowSpaceX helps California tie rocket launch record. Next one coming up&nbsp;&nbsp;Ventura County StarVandenberg Supports 71st Launch of 2026&nbsp;&nbsp;Vandenberg Space Force Base (.mil)Falcon 9 Cadence Slows as B1063 Flies 15-15&nbsp;&nbsp;KeepTrack",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T07:26:41+08:00",
+      "published_beijing": "2026-10-25T21:17:54+08:00",
       "source_detail": {
         "name": "Space",
         "url": "https://www.space.com"
@@ -1294,31 +666,28 @@
       "relevance": "low"
     },
     {
-      "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions - Crude Oil Prices Today | OilPrice.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclU0Y1VkczdDOXdMQXdoNDRidnBsR3B3SWdVUi1NS2k5V21oUEMyQm9ndnRLb2Y5c0s2ZUZLWl93NVhQSk1MOVpDQTM1c2c5Nm80SVBxdlpNblBhOWpFajMzZHNPSnNvWk5wVHE1SEZ3MUYyNU8yRGpqcEpqamVPbW83YS1aU2N2eVlRY1JGU21NSUlreDdBdHl4c2dKV0Z4RzY0MWZhVGtwT215MEh4cHVNcUg4ZUVaVnEyZNIBwgFBVV95cUxPc2t1eE9SeWpTeVBWTVlwdFdZbUM2V09NaUs0N0U4eUNXalFqX2k2RGxjakEwMHpaTmdiQ013eEdhdFRMUTNBd1dmc2RpNmZYTGFJU1huOVFRelgxbWxsVVQzcGkwbUZ1cnFGZEdub1VVRTN2WWI4aGFoYms5Nks1V2Y4Z3NJdElUTTh1dnNRQnRIejdURDRMTEc0SEpGWGZuZ0ZNNWE4ZWhsNlc1SlhIRXppWFB0c2NVcnk1QktiVWlnZw?oc=5",
-      "published": "Fri, 23 Oct 2026 22:30:00 GMT",
-      "summary": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
-      "source": "GNews | SPR",
-      "published_beijing": "2026-10-24T06:30:00+08:00",
+      "title": "Giant robotic claws will grab dead satellites in space - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNGF0TTVOOGJRYmxyaUs3eTJ1TGY3Tm9VSGthX0JtLTFDdDdQbUE3YjRhcElQMmR5c1c0eHpvd2NZcEZIQjAwRHExZ0RQRW5xck9meFNqN0hvd2Y2anhYcWZvU0EwNXFFWmJxSVRQT0hhSkVBb2s2amprU1NMenJjZtIBhgFBVV95cUxQZHNzMzZWSkpxZUtvSHREWU5leEtLMTM5MkZBYktBRGhCOWgtX1RNcm9NQUJ3dGVBWGEzS01sWTJzSE1kZFV4UWluZjFmcURPZ2VpeENsbXp2Z1hyZkY5RXN1TmRvTDRQU1NmeGpQSUpZSWVsTDZoc1VOYmdVMkg4bnkxd1NCUQ?oc=5",
+      "published": "Sun, 25 Oct 2026 12:54:07 GMT",
+      "summary": "Giant robotic claws will grab dead satellites in space&nbsp;&nbsp;Fox NewsReg readers land on 'Binface' as name for UK space cleanup mission&nbsp;&nbsp;The RegisterRegister readers back Binface-themed names for UK satellite cleanup mission&nbsp;&nbsp;Mezha.net$80 million mission aims to tackle the space junk crisis&nbsp;&nbsp;New Atlas",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-25T20:54:07+08:00",
       "source_detail": {
-        "name": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://oilprice.com"
+        "name": "Fox News",
+        "url": "https://www.foxnews.com"
       },
       "priority": 0.0,
-      "signal_keywords": [
-        "supply disruption"
-      ],
-      "category": "油气",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Everyday Mylar turned into a promising insulator for lunar habitats - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKTml1RjJlcjM2ZXZxbm11bzMwZGxKN3RhZ1ltc0ptd2JlSFI5a0xybHJna0M5U1dCbDNTNGtERTlVSy1IaGUxNzRkOTZwdHQydXpZUkVLdlF4VnR6aWpmcFdUUXJxNlVxZGhEXzdMR3hVWE5hZkwzX1pqRURpUVE?oc=5",
-      "published": "Fri, 23 Oct 2026 19:20:01 GMT",
-      "summary": "Everyday Mylar turned into a promising insulator for lunar habitats&nbsp;&nbsp;Phys.org",
+      "title": "Southern Africa's first known stenciled rock art found hiding in plain sight - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ELVF2amU5MEpOeTZNS2lRVElrdUdyaFZSV05OSXdyMl9pT1RjQjZXOFZocVpWUVZhSUdYTENlaWxna3JiaDI3TkZ4VjRVTzZueVRLQkpMYWhwVzlYVUMxaGZveUF4RjI1OWNRNE1sSFNnNnBsd3QwM0R3?oc=5",
+      "published": "Sun, 25 Oct 2026 12:40:02 GMT",
+      "summary": "Southern Africa's first known stenciled rock art found hiding in plain sight&nbsp;&nbsp;Phys.org",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T03:20:01+08:00",
+      "published_beijing": "2026-10-25T20:40:02+08:00",
       "source_detail": {
         "name": "Phys.org",
         "url": "https://phys.org"
@@ -1329,15 +698,15 @@
       "relevance": "low"
     },
     {
-      "title": "Early Predatory Dinosaurs Survived Shift in Their Ecosystem, Fossil Fragment Suggests - Sci.News",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VEVIM3hZZTVLOXZXU1M3TTFNLVdrZE54LXVfVDFVV0Q0TGRyQ3JiNXh1VXNMbnlLTTZHdlhQTEU5N0NIQUx1QUw4S3lKaWpSeW1zLVljT3ZTNUR6YlZuelVNRzNLMnJrWFk1U1RGUTVCOVFLWlE?oc=5",
-      "published": "Fri, 23 Oct 2026 19:02:45 GMT",
-      "summary": "Early Predatory Dinosaurs Survived Shift in Their Ecosystem, Fossil Fragment Suggests&nbsp;&nbsp;Sci.News",
+      "title": "Three giant black holes discovered in a galaxy from the dawn of time - Science Daily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00SG1INW0yamhlSDlfSEcybGxnUWdMMUItRUNSWloycDFJWTNMaEExRjI1bjJqQ2ctc0U2bmhORGU5cnVvT2ZxMFZjeUp1Y1RLTWN1aDdlSXJuZGhqNG9GcUw0ZXV2bkxNR1hQN0FJSQ?oc=5",
+      "published": "Sun, 25 Oct 2026 12:08:41 GMT",
+      "summary": "Three giant black holes discovered in a galaxy from the dawn of time&nbsp;&nbsp;Science DailyThree Feeding Black Holes Found in One Galaxy 12.5 Billion Light-Years Away&nbsp;&nbsp;Around Prague",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T03:02:45+08:00",
+      "published_beijing": "2026-10-25T20:08:41+08:00",
       "source_detail": {
-        "name": "Sci.News",
-        "url": "https://www.sci.news"
+        "name": "Science Daily",
+        "url": "https://www.sciencedaily.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1345,63 +714,15 @@
       "relevance": "low"
     },
     {
-      "title": "An ancient virus in chimpanzee DNA switches off a gene that is active in humans - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56cWpoR0NXNWI2ZnlBRlRkVGlhVFNlOURWQ1dSRFpZQk96ZVBILTcyNkFBSW0zVXp0SXB0aEpNTkthNTVUNEduejYxWGRKWGxoNHVSWEdpTHNteDVEV0hVLU83ZlFhQlNMQWh6cTBHdzdfZVNNUzhr?oc=5",
-      "published": "Fri, 23 Oct 2026 18:00:26 GMT",
-      "summary": "An ancient virus in chimpanzee DNA switches off a gene that is active in humans&nbsp;&nbsp;Phys.orgTiny Genetic Tweak From An Ancient Virus Might've Prevented Chimpanzees From Developing Brains Like Ours&nbsp;&nbsp;ScienceAlertThe Human Brain Owes Its Existence to a Prehistoric Pandemic&nbsp;&nbsp;Psychology TodayWhy did humans’ brains surpass chimps’? A tiny foe might help explain it&nbsp;&nbsp;Science NewsAncient Virus Silences Chimp Brain Gene&nbsp;&nbsp;Scientific Frontline",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T02:00:26+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Scientists put a dying coral next to a healthy one — and watched it heal before their eyes - CBC",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnSnVOX29GMUlfUlhwN1d6TEQ4WDNJRTVJMXRrVk1ESjA2VHVHbnVJUHBPc2RjVk1Wd2tIeEZyWGJ1MGhlbldpVDZsUjhlejBVdGJQb1drejBHT3ZFcExTYVpURVk3ZTl2bTlkaUZyTWRseGtORW1ZVQ?oc=5",
-      "published": "Fri, 23 Oct 2026 17:37:23 GMT",
-      "summary": "Scientists put a dying coral next to a healthy one — and watched it heal before their eyes&nbsp;&nbsp;CBCA random lab accident just revealed the unusual technique that can revive dying coral in weeks&nbsp;&nbsp;UpworthyA simple touch can bring dying corals back to life in just 7 weeks&nbsp;&nbsp;Science DailySick Corals Can Heal With the Help of a 'Magic Touch' From Healthy Ones, Offering Hope for Heat-Damaged Marine Ecosystems&nbsp;&nbsp;Smithsonian MagazineScientists Capture Remarkable Coral R...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T01:37:23+08:00",
-      "source_detail": {
-        "name": "CBC",
-        "url": "https://www.cbc.ca"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "ALMA spots 'dragon egg' that may represent the earliest stages of massive star formation - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aMnJOZ0ZoNy1xS2wwbFZndzdkVkFyYWlvUnJuYlFud2JfaGtxcG93ZUpQWWVFQldfeWxaaW4zVDg5bTd5ZldBckZWLWZ2XzYwVGRHVng0UlNJN1Atdmg4UG9ZT2QwRVNURFppTWEtRldScmJq?oc=5",
-      "published": "Fri, 23 Oct 2026 16:50:01 GMT",
-      "summary": "ALMA spots 'dragon egg' that may represent the earliest stages of massive star formation&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-24T00:50:01+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Amid super El Niño threat: agricultural budget hike - Philstar.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNUg1U3l6d2NfZ0xiMUttcXVGenIxUWMwVk51OUNUblF2NmJPTVBTdmpRS3U0WE9qT0tUcmk4czJGQUR2aVNGSjFpWmZ4NEZvdzlmQ2RUQ0o4dzB6ZDd3LXlqZGRCTkx4ZHFLNGJWel80eDdkeTNRQS1NOEVYX1F6ZV9WLUFXTDlsS2dWdEJQV193Q1dzenVzWno4MDVIQzY3V3pjU3JaN2JpazVacjludU1vUkhDdkc2QWdrQtIBvAFBVV95cUxNNUg1U3l6d2NfZ0xiMUttcXVGenIxUWMwVk51OUNUblF2NmJPTVBTdmpRS3U0WE9qT0tUcmk4czJGQUR2aVNGSjFpWmZ4NEZvdzlmQ2RUQ0o4dzB6ZDd3LXlqZGRCTkx4ZHFLNGJWel80eDdkeTNRQS1NOEVYX1F6ZV9WLUFXTDlsS2dWdEJQV193Q1dzenVzWno4MDVIQzY3V3pjU3JaN2JpazVacjludU1vUkhDdkc2QWdrQg?oc=5",
-      "published": "Fri, 23 Oct 2026 16:00:00 GMT",
-      "summary": "Amid super El Niño threat: agricultural budget hike&nbsp;&nbsp;Philstar.com",
+      "title": "Alive News Faridabad - राजनीति, मनोरंजन, खेल और व्यापार की नई खबरें - alivenews.co.in",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KYVRlclFiOG03anBmMF8wYWVQeFVydFF0R09SbmdKZ2xISTRXU280djlwdjk3aHk0cmxrYm85RGc5cjhWbEsyMm04M2hKNTBFRE5EZThGYzdXM3RUUUlRUGxnUjhkaFJ4XzMwOFQ4S1YzNHJD?oc=5",
+      "published": "Sun, 25 Oct 2026 11:22:08 GMT",
+      "summary": "Alive News Faridabad - राजनीति, मनोरंजन, खेल और व्यापार की नई खबरें&nbsp;&nbsp;alivenews.co.in",
       "source": "GNews | Drought/Crop",
-      "published_beijing": "2026-10-24T00:00:00+08:00",
+      "published_beijing": "2026-10-25T19:22:08+08:00",
       "source_detail": {
-        "name": "Philstar.com",
-        "url": "https://www.philstar.com"
+        "name": "alivenews.co.in",
+        "url": "https://alivenews.co.in"
       },
       "priority": 0.0,
       "category": "粮食安全",
@@ -1409,15 +730,15 @@
       "relevance": "low"
     },
     {
-      "title": "Chimps Steal Less Often From Their Friends, Even When Offered Pineapple - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qUHNmSVBGM3ZzWFhIVE16bmZRQV95Vzl1Mm5vYWxlYXp5dHRuVEtWY0V5dnJGdDNJdzVmYkxGOVdBY2FWdHFQVk1aZ2tlbHRzQllJVmVZTi1PZVhmajVoVGZndzFBek5qR2ExblYxLVRBa2xWMnZ6elRNaw?oc=5",
-      "published": "Fri, 23 Oct 2026 14:00:08 GMT",
-      "summary": "Chimps Steal Less Often From Their Friends, Even When Offered Pineapple&nbsp;&nbsp;The New York TimesSee more headlines & perspectives on Google News",
+      "title": "October's 'Hunter's Moon' stalks into the autumn sky tonight: Here's what you need to know - Space",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSzF4R3BRQ0tja3RYWW1wRzFhTmk4ZnpJS2oyMzVYY1J2bFgxU3RsN29YNDdRRUk2VG5sZDhJQXotTHk5cDAwWnZUdnFHSE04QWxheXlodVpFWDdlS2N2V2J5OUEtM2RXdUtjTU1sQkdWX19ZY2p4VHRuRkFuUzVGeHVYby0tQjdnX0NtUHBLUDlZS1k1U0pUNEFRVXVZQXYwTlRYNURZcEdvWnU3Tnc1NTVHVVRpT1Jn?oc=5",
+      "published": "Sun, 25 Oct 2026 10:00:00 GMT",
+      "summary": "October's 'Hunter's Moon' stalks into the autumn sky tonight: Here's what you need to know&nbsp;&nbsp;SpaceA chance to see the orange hunter’s moon and a peek at Saturn, too&nbsp;&nbsp;CNNHunter’s full moon takes over the skies&nbsp;&nbsp;WTOP NewsOctober full Moon: How and when to see the Hunter's Moon&nbsp;&nbsp;BBCFull Moon October 2026: When to see the Full Moon, what it's called&nbsp;&nbsp;Mashable",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T22:00:08+08:00",
+      "published_beijing": "2026-10-25T18:00:00+08:00",
       "source_detail": {
-        "name": "The New York Times",
-        "url": "https://www.nytimes.com"
+        "name": "Space",
+        "url": "https://www.space.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1425,15 +746,15 @@
       "relevance": "low"
     },
     {
-      "title": "Sinking Antarctic ice reveals a hidden lake's massive water loss - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhNzdyOFdNb3JJeTNkLVM4ZW0waElob2NWVzNmY1YxTXAwMFJnRVZGOHZrRWJtbHdhR1dNN1ZsM28zMkdjZS0wRFRib1hKb0RtSGxoVXdRaWdFcnNGTXpaR0VRZDNEOFhJd3MxQWVKR0pHeGE1Z2VZ?oc=5",
-      "published": "Fri, 23 Oct 2026 14:00:07 GMT",
-      "summary": "Sinking Antarctic ice reveals a hidden lake's massive water loss&nbsp;&nbsp;Phys.org",
+      "title": "Scientists Simulated Solar Explosions in The Lab – And May Have Solved One of The Sun's Biggest Mysteries - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbHVkc29IdmphTDFhYkZUUlBmM05PRjlRS1FYczFFV09HaGtVaGJQalQ3dWFRRWR6RXNZa2dibW9lMHcydUU5VHJVYVJlLTJXa21xTnBXSlZ2cDJ6bWJyNGFkTEhhYXFWWDJxWHY1azRnQlhwR1dON1RJUkQ0WFpnei1uM2lIWTFGOHl2NVNpbnR6X1hJNlZVRWJyZm8xeDRqQkk5SUxBRTlyQ19wYzY5XzJRaUFoWEhpZl94c1RlQW9TTnNZWVgyUzRnVQ?oc=5",
+      "published": "Sun, 25 Oct 2026 09:01:47 GMT",
+      "summary": "Scientists Simulated Solar Explosions in The Lab – And May Have Solved One of The Sun's Biggest Mysteries&nbsp;&nbsp;ScienceAlert",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T22:00:07+08:00",
+      "published_beijing": "2026-10-25T17:01:47+08:00",
       "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1441,15 +762,255 @@
       "relevance": "low"
     },
     {
-      "title": "Iron and Steel Casting Market in the United States: Size, Trends and Forecast to 2035 - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTZoMkpaUlB1OGlsRkhHeU9ILVd4eEVLX3J5eFVETFRieWhrQmxIUXlfYXFqVjVkVVE1NlJfTzBJelVUN2xQZXVDVGx2YXMxYXltTW1tTDB3amIxRVREUnI0UUN2VUU0SUFtQzZzckZqbjVhNjR2T3dvZ3BZRElmNTlQLWxVOHM1cFJnREU3akQ3YjFqbDY5bHNzR0pIcFNHVUc2eTlCX2h0djNLYVFkWmhxM3RaR1d4?oc=5",
-      "published": "Fri, 23 Oct 2026 13:49:59 GMT",
-      "summary": "Iron and Steel Casting Market in the United States: Size, Trends and Forecast to 2035&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Copper",
-      "published_beijing": "2026-10-23T21:49:59+08:00",
+      "title": "Beyond welfare: Telangana must prepare for the El Niño threat - The South First",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQXlXMlFQRG1VOXhpSjFWNjVURWhtbTNoTkZxbGlta1I1ZHJQQ016a0d4ZWFURDQxekRCb3RCZzZTMVJxQ0JpbTlaQmtWWGh5aHhhZzh1MnM1RFlfQmJsUnJfdThHMnkyMkQwamVCc2N2b0MyRjJwZy1xOFpBZFFTQ3RtSzRtNDFhd0VBQWlDR0ZQOU11dzFNQWJwWQ?oc=5",
+      "published": "Sun, 25 Oct 2026 08:54:17 GMT",
+      "summary": "Beyond welfare: Telangana must prepare for the El Niño threat&nbsp;&nbsp;The South First",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T16:54:17+08:00",
       "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
+        "name": "The South First",
+        "url": "https://thesouthfirst.com"
+      },
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "As Elon Musk’s SpaceX and Jeff Bezos’ Blue Origin get ready to build a Moon base, NASA administrator Jare - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPTmVLOHhNNGVzOXlWQTg4ZzFpMG1UNU9SVmlfb01HYk5lc1k4bkdjX3lnT3JJZ0Voek5oT1pScmJHWHlOS0U1UWFGQ0stOUxwQVZheDNLd2JUTnRTbHVSSURjdVhBTF9VUDhRell1UTlxZUxXNjNoQlZIeS1JM3pJRDN2U0drZ01wT25DNHc0bjZBekZjdDhXUm8tcloxUUpNTjdPbkRBckdTbXlCZnFCdTVTbERQV0tpWEdFbzdkWm9RZEcxaXBBWGNtZ0JfaEJ2amY2NDczdDlzVnVzT0F1RFVmN3dUYmlRMmdwb0lMRWRyeTVvckJyelBIUHUwTXAzSkZWZVRZbkVPMGpqQ2FJcVRuYkJkQVhxUkpnU3VPTXpSSVg0Q05wN1ZiNHFCLWw4Z1RiV1B2dVR1ZUNtdHk3NUZGdU8tNDdnT0xDM0xzMHVCT0tSVm9ZNk9tZlJQclBvbjhzdW0tdzk5Zkc4R0hPUFdCakNzd2p0eTRibXdiY3gxS2PSAYgDQVVfeXFMT2tNZUZGMFV4SzZnNFVhdUhRNW9SNFpKZHh1XzFTQVVVTDhIWmMydDdFQkJGZ1ppajVGVk1RQ0JmZ24wZWRGUTNFMmdZMHk4eS1XOFBmdnYwSTFLYVhxMG1GaF9VQmdDWG05SFRXMklEWDRQQng2M1d2aHpfOVNUN2ZEVkxBTjBnUXZDeVJTODBnTEF6WHRub0RkNW1MMFZvOXkydV9FdU53ZndEUm4wdVlyQVJteTJiVUphMGQ2SnVIekhBbGJKMFZFNHJsVnNhRk9udzFLdXAwRmxnQzJkd3VySVBzRmgxRXVTNjRPbnc2eE5GbnNDZ1ZSd20ycU1mbHJEY0wyMW52NGxSamtKLTE4YjVtYVVLeWhkeEp3R3g5LVZvenI3a1FPSHY1ekNSTGd2MFU5U0JrTWhxV29aTURsbGlhZXJrZk9EQ1hEdGphTlFTSk5HUEhRRkc0aDN5bVZEY2tndXlOTVF6Vm9DWW8yTkJHbkJNeTNQQXI3TzlXc3hia1N4M3Y?oc=5",
+      "published": "Sun, 25 Oct 2026 08:43:00 GMT",
+      "summary": "As Elon Musk’s SpaceX and Jeff Bezos’ Blue Origin get ready to build a Moon base, NASA administrator Jare&nbsp;&nbsp;The Times of IndiaNASA, Partners Accelerate Lander Development for 2028 Moon Missions&nbsp;&nbsp;NASA (.gov)‘The most complicated launch campaign ever’: NASA lays out mad dash to test lunar landers&nbsp;&nbsp;CNNWatch NASA's update on accelerating Artemis moon plans today&nbsp;&nbsp;SpaceNASA adopting Apollo’s urgency to build a moon base and land astronauts within two years&nbsp;...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-25T16:43:00+08:00",
+      "source_detail": {
+        "name": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Venture Global, Inc. $VG Shares Sold by Corecam Pte. Ltd. - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZE1hMTBkYUdEcUF1MzAzYWN5eWpGNUoxOC14c2NGVjhEbXFBLWxjdndvRlVBXzBzWW1wb2JibFl0ajJKeU50ZnlrOEhDS3AxN05qMG1ORkdhUzVKbC1fSDJJWDJrSUxSaU1UTEpYMnlIcmpvZ0RDb1lrQy1rNDRHdU9qUlkwVWFPeS1pbFJUUGhKY1Y2YnhyRHFiRHBqbm9IQjhqZ2RXSVVwajY5STZtc0VjSQ?oc=5",
+      "published": "Sun, 25 Oct 2026 08:35:57 GMT",
+      "summary": "Venture Global, Inc. $VG Shares Sold by Corecam Pte. Ltd.&nbsp;&nbsp;MarketBeat",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-25T16:35:57+08:00",
+      "source_detail": {
+        "name": "MarketBeat",
+        "url": "https://www.marketbeat.com"
+      },
+      "priority": 0.0,
+      "category": "油气",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Top executives quit $25 bn US gas project over alleged Russian control - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY3dyWm1nMVU0YmVsZFZ0VHFPdW9SdC1MaW1YaDdKbnJpYWdIa0RCQnUtYl95NjYwRWNuelh3MmhiZVJBS0V4ZXBBenI3Uk5Ib3R2bHRCeXNubmc3ZXp1UkxrY0VtQ3NjWEdpV3hLbnMycUh4Snc2N0lQX2psU1NHc0EyVmwwejZoMHlQdDBpTUc3c1J4c0xXZ0hVUkw5R3hLaHZhc21rWlI2ZDQ3cmF5WDNBeWlsRTE0WlZ6THpmclg0dDByWldrTVlwdTJMRW4zaE13VNIB2gFBVV95cUxNWEJRU2FPOVI0X044UXNBV2ZxR3JZNm1HUUlfSWxrb0wzc1FCeE9KZ2tkbkpZOHZURXhEWnd0ZXRFVjN2RFlTQTlQaWx3RWloT1BKNTZGSGFVMUJyQkx2Y1JNeDh2ZGdpdmxGNExwT1pBLW5XYTJsd3VIREZMUFZNd0RoUVhuT2gtVXlRN3RMeW1kb1JnV0c5aGlGMVViaFBPRkhVYmVobTc1RnJnVTZZdXNUWUw0VDc1Z1o3cGJwWURLUVh6TnllQ3VvMUc0UzR1bGV2eXM0RkF6Zw?oc=5",
+      "published": "Sun, 25 Oct 2026 07:47:46 GMT",
+      "summary": "Top executives quit $25 bn US gas project over alleged Russian control&nbsp;&nbsp;Business Standard",
+      "source": "GNews | LNG Expansion",
+      "published_beijing": "2026-10-25T15:47:46+08:00",
+      "source_detail": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com"
+      },
+      "priority": 0.0,
+      "category": "油气",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SA farmers and households urged to prepare for El Niño heat and water stress - IOL",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2VkblVxZ1BzUUpnYXRuVEJsa3IyTy04alQ0REQ0MnJLU1NJb21lcTh6ZnMwdXhQWVlBNXEzeFJrTFUxMEU4R3ViRWVGdzAxblN0bmRhcmd0aWJaV0xuWm9pUGM5SlFmSDhxOU5NajJkV0s1ZnhvMlNtR0hqUXZuTFlvTG9JTW4wdzIxUU1rNEx4REcwS0VPNnVpd004bHlFSDFubXp0V3JFeU5wZ3dnY1BHNzVUdkhDbXhIY0xUMFB4T2s?oc=5",
+      "published": "Sun, 25 Oct 2026 06:44:47 GMT",
+      "summary": "SA farmers and households urged to prepare for El Niño heat and water stress&nbsp;&nbsp;IOL",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T14:44:47+08:00",
+      "source_detail": {
+        "name": "IOL",
+        "url": "https://iol.co.za"
+      },
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Earnings Calendar for: - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1VOa1d3aXdPQ2xHeUtzaWR3dV9ZUEhMa3N1OG1KRE1zTzc4elJGdHQtaXY2d2o2LWp2MXE3THpoNUZqRXRuemp0ZmdmUVdSYlktYllCZjdVV2V4T0tKRS12MzhsazRlWFZQNzU2cWlzcm5JODFwcmZoYmlWemRWbERWT0JBQTJGbzZlNmZvTDVzZWJHekE?oc=5",
+      "published": "Sun, 25 Oct 2026 05:50:00 GMT",
+      "summary": "Earnings Calendar for:&nbsp;&nbsp;Yahoo! Finance Canada",
+      "source": "GNews | Nuclear",
+      "published_beijing": "2026-10-25T13:50:00+08:00",
+      "source_detail": {
+        "name": "Yahoo! Finance Canada",
+        "url": "https://ca.finance.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "能源转型+碳",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Poor monsoon leaves Shivamogga\nfarmers jittery over uncertain harvests - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOGtHWm0tZUY2WWY1al9namE1Y3ZTeUpwZjNnYVlyalF1TG1TSVZubGFsNVVDZTUzZlA3ZEtYMkVuODE4RmpwNzJJMjN4ZDRjNnJSTW1oMHFqOXd6UzdRUFd6MFJtQkhKZm1QMjRyY3V3ZWhpQlpTZlNwSTA0ZlZpdUMxbVZzWXNYYVR0S3BYeGR5a3FHc0dyY2tYMnFrYzU5MTJhaDhyNk5GTjRlNjg3X1VzMmZGUG93TUdZVlVucTlnZ0FXZTBPTU0yeG1wTFlUU0NsTWxfN2szZ9IB2gFBVV95cUxPOGtHWm0tZUY2WWY1al9namE1Y3ZTeUpwZjNnYVlyalF1TG1TSVZubGFsNVVDZTUzZlA3ZEtYMkVuODE4RmpwNzJJMjN4ZDRjNnJSTW1oMHFqOXd6UzdRUFd6MFJtQkhKZm1QMjRyY3V3ZWhpQlpTZlNwSTA0ZlZpdUMxbVZzWXNYYVR0S3BYeGR5a3FHc0dyY2tYMnFrYzU5MTJhaDhyNk5GTjRlNjg3X1VzMmZGUG93TUdZVlVucTlnZ0FXZTBPTU0yeG1wTFlUU0NsTWxfN2szZw?oc=5",
+      "published": "Sun, 25 Oct 2026 02:45:00 GMT",
+      "summary": "Poor monsoon leaves Shivamogga\nfarmers jittery over uncertain harvests&nbsp;&nbsp;The New Indian Express",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-25T10:45:00+08:00",
+      "source_detail": {
+        "name": "The New Indian Express",
+        "url": "https://www.newindianexpress.com"
+      },
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Elon Musk’s Dream of Sending a Million People to Mars Meets a Nobel Laureate’s Warning: ‘We Do Not Have a Planet B' - Yahoo Tech",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1pQdnVjd2U2Wjd1RVEtYWtjbUFoQUxNLTBxTExHUThNQ0Z0WjgzYzZ2NU0yWV9TcVhodWx1cVZMdnZ6TkZnRUw4c3lzX0hYUlRpTGRiVGVjSXk3YTZka1ZSZTUtU0xVTU12YkZrWWdYMzk2MlN3SEVFbVp6VHNHdEhldXdwQXp0TE5yOVVjSQ?oc=5",
+      "published": "Sun, 25 Oct 2026 00:30:00 GMT",
+      "summary": "Elon Musk’s Dream of Sending a Million People to Mars Meets a Nobel Laureate’s Warning: ‘We Do Not Have a Planet B'&nbsp;&nbsp;Yahoo TechElon Musk wrong to think we can colonise Mars, says Nobel laureate&nbsp;&nbsp;The TelegraphPhysicists in Tenerife call this vision of the future 'fake news'&nbsp;&nbsp;Teneriffa NewsElon Musk’s Dream of Sending a Million People to Mars Meets a Nobel Laureate’s Warning: ‘We Do Not Have a&nbsp;&nbsp;Benzinga",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-25T08:30:00+08:00",
+      "source_detail": {
+        "name": "Yahoo Tech",
+        "url": "https://tech.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Physicists May Have Inadvertently Built a Qubit That Can Run Backward in Time - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTJySGt2ZUVuY0xDdGhUZGxPaEU5T3pEYUpkUDVHaE5NQUFOb1ZLNXFsR3VXMExRaE8zMW5WUm5saGVjRnlsOVd0aTgtR1AxUWF0MXI2Q3J5Z040cGpnVWt2VENaRXd3Y1o0MkJXQzVxRUJyalNBMHNJOW02LWozcVZsNXUzMUt1YmxEekdfMFRob2ZaYkRqZUE0THZWb1MyWE1XUTlJR25Jdw?oc=5",
+      "published": "Sat, 24 Oct 2026 21:04:51 GMT",
+      "summary": "Physicists May Have Inadvertently Built a Qubit That Can Run Backward in Time&nbsp;&nbsp;ScienceAlertCan a \"Time Qubit\" Reverse Quantum Evolution? A New Reading of a 2018 Photon Experiment&nbsp;&nbsp;XenoSpectrumPhysicists Say an Old Photon Experiment Hides a Qubit That Runs Two Ways in Time&nbsp;&nbsp;Around PragueScientists may have built a quantum device that runs backward in time&nbsp;&nbsp;geekspin",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-25T05:04:51+08:00",
+      "source_detail": {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "NASA Contractor on why Space Shuttle smelled bad when ground crews got aboard after a flight to clean and u... - The Aviation Geek Club",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzBBZnNTbHpzOFN1SG1ZSm9DcVVRdFdjYU9nWDhYbWlFalpSclFzU0VFZEk3VDMwV0dLcEY4MkhDR2ZCNnJhX0M5OVF5T2MwY1ZCZW9vWWNOWnFIQnNfRWwzcWZtM2w0V25aSmdwQTRaaXkxNURwLXF3QnRZOHBUc2g4UVBHZ2pOVW9YdHFRSEFlbTM3R2tTdjVlYlRCQkdPaVdtWXprY0ppZTdIQm5aSjV6dnNDcm5KS205dFRGcUVHSkZZUjVEeTJVdlhaNGF5UkJ3Skg4SmQ0OHZGWVHSAd4BQVVfeXFMTlMwQWZzU2x6czhTdUhtWUpvQ3FVUXRXY2FPZ1g4WG1pRWpaUnJRc1NFRWRJN1QzMFdHS3BGODJIQ0dmQjZyYV9DOTlReU9jMGNWQmVvb1ljTlpxSEJzX0VsM3FmbTNsNFduWkpncEE0Wml5MTVEcC1xd0J0WThwVHNoOFFQR2dqTlVvWHRxUUhBZW0zN0drU3Y1ZWJUQkJHT2lXbVl6a2NKaWU3SEJuWko1enZzQ3JuSkttOXRURnFFR0pGWVI1RHkyVXZYWjRheVJCd0pIOEpkNDh2RllR?oc=5",
+      "published": "Sat, 24 Oct 2026 16:31:14 GMT",
+      "summary": "NASA Contractor on why Space Shuttle smelled bad when ground crews got aboard after a flight to clean and u...&nbsp;&nbsp;The Aviation Geek Club",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-25T00:31:14+08:00",
+      "source_detail": {
+        "name": "The Aviation Geek Club",
+        "url": "https://theaviationgeekclub.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ancient viral DNA offers clues to why human and chimpanzee brains evolved differently - The Brighter Side of News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSTdFMXFvOXF6NDgta2RjbjNsd3RubzZIYUVHQ3QydlVITW5rZnVQZXVpSWM2ZTNsa3RWTkxHaUYtMGxROFo5M0x3Nnd4a1o1Z0o4RGtiZTExTjJKTTV5M3Q2WGt3WVl3OV80OGtXYVY0OE95M1YtNVRrSnc2NkRMSm1Rbnd1V2NzYmxNd1M4emh4QmpuczlpOWFOVnJYTHU3WmVvNnZ1MFhnbUFCTXh4RlMxZGNybjRNY2tEMDhkUktHQQ?oc=5",
+      "published": "Sat, 24 Oct 2026 14:07:00 GMT",
+      "summary": "Ancient viral DNA offers clues to why human and chimpanzee brains evolved differently&nbsp;&nbsp;The Brighter Side of NewsAn ancient virus in chimpanzee DNA switches off a gene that is active in humans&nbsp;&nbsp;Phys.orgTiny Genetic Tweak From An Ancient Virus Might've Prevented Chimpanzees From Developing Brains Like Ours&nbsp;&nbsp;ScienceAlertThe Human Brain Owes Its Existence to a Prehistoric Pandemic&nbsp;&nbsp;Psychology TodayWhy did humans’ brains surpass chimps’? A tiny foe might help e...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-24T22:07:00+08:00",
+      "source_detail": {
+        "name": "The Brighter Side of News",
+        "url": "https://www.thebrighterside.news"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump may review sanctions against Russia regarding fertiliser exports - UkrMedia News",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UVDZCbUMzM01sNjBGM1hEZWhjaWE0NkxMN0wzYm5neW5LZlE3MTRoYTdEazV1V3d1cVMzVG1ER1VxYmhfcnYycXJkbngxM2dsTUpFM0lpUURJSjE3bXFsOE92cE12WUp2MHplaVhwYmR5QQ?oc=5",
+      "published": "Sat, 24 Oct 2026 10:46:43 GMT",
+      "summary": "Trump may review sanctions against Russia regarding fertiliser exports&nbsp;&nbsp;UkrMedia News",
+      "source": "GNews | Fertilizer",
+      "published_beijing": "2026-10-24T18:46:43+08:00",
+      "source_detail": {
+        "name": "UkrMedia News",
+        "url": "https://ukrmedia.news"
+      },
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNak14WjllTk9QUS1QRlhYZWlEa1lFNmIzVXQ1T2JtV3djekZ0S0tNTWctNUJGaWI5U2doV0ppM2pHZFlnaGVyN0JRVGY2M3NNUllDN2FZaU9iR21EbF9UcmlsM2hCWXd1NDlOQXBXV1kyVHVGc1hRTFJTUmVMWThSVFEySUV3LXVlY0FNRnBaSnhQalV3X1FIQ2k4aFdnTzBoVUtld19zSEZyQkppdm5pdg?oc=5",
+      "published": "Sat, 24 Oct 2026 08:04:53 GMT",
+      "summary": "Miniature Ball Lightning Created in a Lab Could Help Solve a Centuries-Old Mystery&nbsp;&nbsp;ScienceAlert",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-24T16:04:53+08:00",
+      "source_detail": {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Weather service sounds El Niño alarm for Kruger Park and surrounds - Daily Maverick",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlZlV252dVNnRXJVLXBLRDQtMS1fOFdPUTB2bkxud3NzQzJWRlpSZEotMUJhSFhxMnhTQWc0YjhsYkFMZk9YMWV5LVNwdTRQNmtQVkQ2NGRRaWpaclVsX1RVYm5YV1dPdEJMX1FlSGtpU2E0QXE5djNfbEIyQ3ZuOW9Mckk3UTh4dVYzVWUwZEwydUpnV1hDa1gzOVlDaUgtVGo5SmhfSmJoak80eXVqbzR2anktNzJuQVFnaG1LWk5EUUU?oc=5",
+      "published": "Sat, 24 Oct 2026 06:33:50 GMT",
+      "summary": "Weather service sounds El Niño alarm for Kruger Park and surrounds&nbsp;&nbsp;Daily Maverick",
+      "source": "GNews | Drought/Crop",
+      "published_beijing": "2026-10-24T14:33:50+08:00",
+      "source_detail": {
+        "name": "Daily Maverick",
+        "url": "https://www.dailymaverick.co.za"
+      },
+      "priority": 0.0,
+      "category": "粮食安全",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "NRC hosts FERC for joint meeting on nuclear generation, grid reliability -- ANS / Nuclear Newswire - American Nuclear Society",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmQtNE4yQVdmOVNXSkpfdjZvY2xFOU5UZVVyamo5SEk3MDhtMlFaNnRHelQyOXA5TFRCVXlZSWJfM21GajZUQ1JiaWpwMXBUNVBnWXRFYy1rYmtyTFpoRkxiUGN0Vi1sWHZ4MzNDazZWZzlLWlhMV2VNZzJoTzVGR3lTUXZQY1BrUGRZNDZEMXJjWUpOMnVxTlpTbUNfTWZzNXdiZVRkdDZvckd2Qlhn?oc=5",
+      "published": "Sat, 24 Oct 2026 05:11:42 GMT",
+      "summary": "NRC hosts FERC for joint meeting on nuclear generation, grid reliability -- ANS / Nuclear Newswire&nbsp;&nbsp;American Nuclear Society",
+      "source": "GNews | Nuclear",
+      "published_beijing": "2026-10-24T13:11:42+08:00",
+      "source_detail": {
+        "name": "American Nuclear Society",
+        "url": "https://www.ans.org"
+      },
+      "priority": 0.0,
+      "category": "能源转型+碳",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AI data centre boom and geopolitical disruptions put global base metals supply under pressure - Green Building Africa",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSjhGRWdoTU5pQVROQUIzckx0bkhKUHFNQU1wUWFJNU1ueGIwZk50NE5yWlVLUFhjOS1QYnI1dHl1VnAwbTYwMkJqSkNOZjVjMGpHcjRQZS1xclhJd1hfN0lBZ25LVWJZbm1FUEJoaVZIb1VDeG1xTHYzMVY0UUYwUFhhLXJKTHBGbEdnVnJKbEdOaGhvVi1CeDZMei1sdUhyRE5qVTZfYlZTZy0tcURmT3lVdTMzRldRV1dmZFQwYkhvUGxPc2lmOENsalg?oc=5",
+      "published": "Mon, 26 Oct 2026 02:00:26 GMT",
+      "summary": "AI data centre boom and geopolitical disruptions put global base metals supply under pressure&nbsp;&nbsp;Green Building Africa",
+      "source": "GNews | Lithium Mine",
+      "published_beijing": "2026-10-26T10:00:26+08:00",
+      "source_detail": {
+        "name": "Green Building Africa",
+        "url": "https://www.greenbuildingafrica.co.za"
       },
       "priority": 0.0,
       "category": "关键矿产",
@@ -1457,15 +1018,15 @@
       "relevance": "low"
     },
     {
-      "title": "Musk disputes NASA safety panel's lunar launch estimates - The Register",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZnVual9GYzA2NnYyVy1nX1l6RGNvZkx3R1FKSTFvdzJqVWRZbmROelNrRVFNZjVhQksyM1J5RE9vbUZ0Tzg3MHBYdnJsZE55LWJDdG40ZFNMSDh4TS1iLTFIVzZtRWxEYkd5a1Y2R2h5WWJ2eHJJWFFlSEZsZm9QcWx2bkJNLXE0QzlWZ0p1aUZHSEJ1ZmU2V25ydUdJMUM5dDFzYndJY0Yyc0VDeklF?oc=5",
-      "published": "Fri, 23 Oct 2026 12:29:00 GMT",
-      "summary": "Musk disputes NASA safety panel's lunar launch estimates&nbsp;&nbsp;The RegisterLatest estimate for Starship launches required to support a Moon landing? 22.&nbsp;&nbsp;Ars TechnicaNASA safety advisers warn agency risks losing crewed access to LEO&nbsp;&nbsp;SpaceNewsElon Musk to NASA's safety watchdog, Aerospace Safety Advisory Panel: Your number is wrong, that's way too ...&nbsp;&nbsp;The Times of IndiaNASA Panel Raises Human Spaceflight, ISS Successor Concerns&nbsp;&nbsp;Aviation Week",
+      "title": "Unlocking the secrets of the ‘Dragon Man’ skull – and what it reveals about human evolution - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOczhnOElpQlRsMDJtZjV2ZENVV19hQkhTY19JM3JHM1ZUTWtFN01FUGE4czcwM3cyaE9rV3hNY2ttLUNpcFBibkVqLWg4ME9EeUotZUZVU2RJS001bVMycExrQmVpRmFtN09zLXYyVEN1bUlJWlRSS3FwcjVjVGNKRlhwdzdKZ2o2c01MamIxYnpLd2pUZ0lkYW5VbEhqTVpVR2FqZHMyTnl1OGswUE16Wjg5QU9yN2VOQWFsX2RDcw?oc=5",
+      "published": "Fri, 23 Oct 2026 09:03:28 GMT",
+      "summary": "Unlocking the secrets of the ‘Dragon Man’ skull – and what it reveals about human evolution&nbsp;&nbsp;The Conversation",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-23T20:29:00+08:00",
+      "published_beijing": "2026-10-23T17:03:28+08:00",
       "source_detail": {
-        "name": "The Register",
-        "url": "https://www.theregister.com"
+        "name": "The Conversation",
+        "url": "https://theconversation.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1473,82 +1034,18 @@
       "relevance": "low"
     },
     {
-      "title": "Goyal warns EU carbon tax will hurt European industry - PRESS Insider",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd2FxaWNDRVEyeFZMTG5pREtMNHI2S0tCR0dncDQ4Y3hNWVZHSWpGZmdRLUNCLTFwbDlkdHE1bEdkblN5UjZVQk5LaHZiWkdMVXB2Y1Y1RF9kZWlnaGNzT081bUJSdVZvUU9paGc3NGtLYXhudWZfRkstdXRpM3BHSk5CNUVieVRKRFczeg?oc=5",
-      "published": "Fri, 23 Oct 2026 12:00:44 GMT",
-      "summary": "Goyal warns EU carbon tax will hurt European industry&nbsp;&nbsp;PRESS Insider",
-      "source": "GNews | CBAM",
-      "published_beijing": "2026-10-23T20:00:44+08:00",
+      "title": "Overnight Science News: Over 76% of Americans can’t name a living scientist - Daily Kos",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWNjZHN5djhneUQ1X2lGOHB6TVdHTmNzcUpMbzRaMThJVnllNFYzM1FvZmhjMnFpUUhYZU1SVWdzRmd3NEVzcmFZSmp6b2E4TTNIaWxqeTBYTGp5Q3E2YTFtT0VPWUxpc0lDOTBDRnRhWVYtY3k5TkhtWWI3TjBCTE5lY2hXWGZWUFR0M00zalM?oc=5",
+      "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "summary": "Overnight Science News: Over 76% of Americans can’t name a living scientist&nbsp;&nbsp;Daily Kos",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-10-23T15:00:00+08:00",
       "source_detail": {
-        "name": "PRESS Insider",
-        "url": "https://pressinsider.com"
+        "name": "Daily Kos",
+        "url": "https://www.dailykos.com"
       },
       "priority": 0.0,
-      "category": "能源转型+碳",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China’s market is tougher than ever. Where can Singapore firms still find room to grow? - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUEJzMkVSMWpWZnE0WTMwOElFYmt4SE02TWt0N29KcmRGTkFJbjJGR21UV0VwV21kV0NjZGpzMWpfMGVIXzJjckFpdjUzb2l6cE9NZEtqeUk5MGJfXzN4T0gyZndXMUhUbm05aEZMRGRhVW50NFlOcERhNHpnZWMyNVF2N3YxZTV2NUYwa0xwUzdOWFlnX2xFVlJOb0FtZllqLXNZR0ZZcm9RLS1fcU5iaGROd21PM1l2UG1TYnRyV3htVTN5X3VrSUcwcFB1UDRXUXRYSUtoX2ZpajJVbFFYYjhPdw?oc=5",
-      "published": "Fri, 23 Oct 2026 09:00:00 GMT",
-      "summary": "China’s market is tougher than ever. Where can Singapore firms still find room to grow?&nbsp;&nbsp;The Straits Times",
-      "source": "GNews | Solar Mfg",
-      "published_beijing": "2026-10-23T17:00:00+08:00",
-      "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
-      },
-      "priority": 0.0,
-      "category": "能源转型+碳",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "What a Government Change in B.C. on October 24th Could Mean for Western Canadian Resource Development - Todayville",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPekVEcXZ2a3FXTEUtcEd2Q0gxamJkNWNTQ3ZUaW5sRmVGeXV5RmN2U1JNd3N1X3FlcE00M3ZhYXJZTGVnN0JlQWJuZ3lZcGlqVWVGQ2xSOE1oLXB4SjAtbG9hUUhYYWFkYzJ6YXJ5WUtHNUVFaXIxX0xZYXQxLXBLMUVReW94em5SdWxlQUxFZ3lfdkRVa2VhbF9SUUJkTjlZOG5UTThwY0ZxbEFSRVo4ak5PTVpVZ3BYWFBWWDBSOEhaZWZleEc4REFmbnkwTzcxMTY0?oc=5",
-      "published": "Fri, 23 Oct 2026 06:39:52 GMT",
-      "summary": "What a Government Change in B.C. on October 24th Could Mean for Western Canadian Resource Development&nbsp;&nbsp;Todayville",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T14:39:52+08:00",
-      "source_detail": {
-        "name": "Todayville",
-        "url": "https://www.todayville.com"
-      },
-      "priority": 0.0,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Oil prices rise more than 1% as supply concerns linger - WTVB",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVlF0YWlKWVktRmVPTnhyNy03UXpoSjFKcFNBN0Njc194QjM3bFdOOG5LSFpQS0FTTExxbnVNaXFvQUVvM0Z4OWxfS0VwSEZCa2otcmJHa3Vady15cEZicmpDWWVnUWZCV3JxNDA3SUZMVnYxcmJZVDQwM1dhOG55M0VTTFMzcFFhS3RSME14RE50Yl8xTnZPWDZUQndnMVBlX3BLSXFZZ09aVjB1QXY2Xw?oc=5",
-      "published": "Fri, 23 Oct 2026 05:57:13 GMT",
-      "summary": "Oil prices rise more than 1% as supply concerns linger&nbsp;&nbsp;WTVB",
-      "source": "GNews | Oil Disruption",
-      "published_beijing": "2026-10-23T13:57:13+08:00",
-      "source_detail": {
-        "name": "WTVB",
-        "url": "https://wtvbam.com"
-      },
-      "priority": 0.0,
-      "category": "油气",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "IPEC 2026: Zhoushan unveils 10 achievements, initiatives to strengthen global bunkering hub ambition - Manifold Times",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTy1aV1R3V1hUWTJrc29yX2ZwbW9zRHJ5TmNYbWRIUmw1QTlQZUNfTGtuSXY2aVoyN1JvVkdMem5CTVNTTEdGMUlncTNCNmc0d1FNeUFoVFB2amFFTnVhUXpGZmxKLVZ5YkNJcEFYTUFpMXR3SDk0alZEQXVWZ01NSFMya3h6V3pRMVdZVmZaU19yOEh2NThTRXNfUmhyeXM3SjRsX3pENWpqQWh4Mno1elQzV2s4OEczV0dHM3dhaFloM3Z5dkdjQ0RyTi1aclU?oc=5",
-      "published": "Fri, 23 Oct 2026 04:44:22 GMT",
-      "summary": "IPEC 2026: Zhoushan unveils 10 achievements, initiatives to strengthen global bunkering hub ambition&nbsp;&nbsp;Manifold Times",
-      "source": "GNews | LNG Expansion",
-      "published_beijing": "2026-10-23T12:44:22+08:00",
-      "source_detail": {
-        "name": "Manifold Times",
-        "url": "https://www.manifoldtimes.com"
-      },
-      "priority": 0.0,
-      "category": "油气",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     }
