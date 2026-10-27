@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-26T03:41:23.019778+00:00",
-  "fetch_date_utc": "2026-10-26",
-  "total": 31,
+  "updated": "2026-10-27T04:05:47.196658+00:00",
+  "fetch_date_utc": "2026-10-27",
+  "total": 39,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 2,
+      "count": 10,
       "feeds": 4
     },
     "外资审查+征收": {
@@ -17,7 +17,7 @@
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "供应链风险+FCPA": {
@@ -25,7 +25,7 @@
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 0,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,22 +49,179 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 14,
+  "fail_feeds": 11,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "The Public Services Agency and AmCham will cooperate on matters relating to investment assessment - logos-pres.md",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUl4dVFESUpDRHFmQ1U5S1RDXzhDb0xOQlF4VTh4a2xNNERQLXE4d3BXelZERkc4QlZoZUhPTXk4UmxOMFRaTVc5UWZIRV91MFpwZ1RGdGxoUzVHNUJKejJVWE5oZE5Zak1ZeTV1Y1BBVHdFMTg5dDdkaGRZVzEwVzFTbnBJQTFfSllISXVVakYwWjZKQUUxcFktVE1JdFpaT181SXJKMjZobFlXU25ESU0wT3dSTzJOTlhvRUZBbU1nM0FhVVVN?oc=5",
-      "published": "Sun, 25 Oct 2026 16:58:55 GMT",
-      "summary": "The Public Services Agency and AmCham will cooperate on matters relating to investment assessment&nbsp;&nbsp;logos-pres.md",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-26T00:58:55+08:00",
+      "title": "America’s Companies Keep Flirting With Security Nightmare That’s ‘100 Times’ Worse Than TikTok - The Maine Wire",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTDhLaG1QTnZtRjF2RFBhU3BOOEFKUGtybUVaMWhNa2E4Y3p2TzhzVVF5UDZCRm9ZbGJfMmphYzh6OUtUTmdLWmhzUklHdnR2YlZGRzJZV3ZIeG9MUjRTeGRXbDI3dUN3c2dTSWxsUElKb29QTkoxS3NVVmdSTUE1UHU1a3ZPMXhmQi1tUHZPbFlaN2JMaExUWHgweGVBR1UxaTZtNWU4YlRsVGEzZWNYaVpjNnAzTVBhRzZTaG9JdHdQWUdWdGU4?oc=5",
+      "published": "Sun, 25 Oct 2026 14:32:49 GMT",
+      "summary": "America’s Companies Keep Flirting With Security Nightmare That’s ‘100 Times’ Worse Than TikTok&nbsp;&nbsp;The Maine Wire",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-25T22:32:49+08:00",
       "source_detail": {
-        "name": "logos-pres.md",
-        "url": "https://logos-pres.md"
+        "name": "The Maine Wire",
+        "url": "https://www.themainewire.com"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Weekly Sanctions Update: October 26, 2026 - Steptoe",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUXNTdlU4SVg5NHRPa0U0bmJQRU85Z3FYMk9pUjNncTlPWk9vN3h2MjlaUkdWV2VvS1RySFBVX2FJczVKN3VxMWIxckVYRk5TT3VIQkk4REtZSlNyZm84eUJiSFlQb25tNTU0UmROeVY3cXpoeVFBZG5iTGlIR3Zmc2NsYy1mQmtsSV9WWXhvYi04WHRDNHFCM2ExS3oxazIxeWUwTllUdEpTVEF6Rkk0d0FSLS1Lb2ZrdE5N?oc=5",
+      "published": "Mon, 26 Oct 2026 21:56:12 GMT",
+      "summary": "Weekly Sanctions Update: October 26, 2026&nbsp;&nbsp;Steptoe",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-27T05:56:12+08:00",
+      "source_detail": {
+        "name": "Steptoe",
+        "url": "https://www.steptoe.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russia’s Drone Surge Depends on Chinese Supplies - The Jamestown Foundation",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LQWNxQmozQy1xd0pXb2xfSFktaVBZVWZjV3lWR2FMQmRZaU9KZVlzLWlYenZSa2M4NzhqNU1pbkV1cXFNbk5VbGhsdW1BQjJfOGgxLXkzTzU4VVVoWERrNGVaZ1hFQ0hDSGIwWVFTX1NCYVRCWXBTaFR3?oc=5",
+      "published": "Mon, 26 Oct 2026 20:44:41 GMT",
+      "summary": "Russia’s Drone Surge Depends on Chinese Supplies&nbsp;&nbsp;The Jamestown Foundation",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-27T04:44:41+08:00",
+      "source_detail": {
+        "name": "The Jamestown Foundation",
+        "url": "https://jamestown.org"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "A Sanctions Reprieve - Riddle Russia",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zSDAtQzB3U0xQU3FxbGhEWjhoX0NGUmZZb3NLbC1IRjAyRzNXVHdYLWZNUWFMMHBBVl9sVWdhQXQzcHl2OEZIX0NSREFTQQ?oc=5",
+      "published": "Mon, 26 Oct 2026 18:56:34 GMT",
+      "summary": "A Sanctions Reprieve&nbsp;&nbsp;Riddle Russia",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-27T02:56:34+08:00",
+      "source_detail": {
+        "name": "Riddle Russia",
+        "url": "https://ridl.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Moscow prosecutors seek criminal charges against prominent human rights activist Anna Karetnikova - Meduza",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRl9DWDNHQUtyMjF6TlFnY3Ftbmx3WFNpTE1JdTFsTDZ0N3FPRy1HblhPbUhzTC1Gb2lIMUsyVjY3aDZIZEY0NGY4MEYtQkN2eEZqczJOemM1NzBCYlR6cUloRGJYOHBXYTQzWUtpbFZCdlhYamkycnBwSWxaWDNnWHEwSnU4TWNNLVNXaXFnZDRWMG1LU0N3eGt0cmZUc0VKazFKMXNwZjJnWjZMV282Tmw2dEg5YURhZFJ0TnU0U0NVbk1heFhOWTc2ZmpEVEQxdDQ3UtIB1AFBVV95cUxNRl9DWDNHQUtyMjF6TlFnY3Ftbmx3WFNpTE1JdTFsTDZ0N3FPRy1HblhPbUhzTC1Gb2lIMUsyVjY3aDZIZEY0NGY4MEYtQkN2eEZqczJOemM1NzBCYlR6cUloRGJYOHBXYTQzWUtpbFZCdlhYamkycnBwSWxaWDNnWHEwSnU4TWNNLVNXaXFnZDRWMG1LU0N3eGt0cmZUc0VKazFKMXNwZjJnWjZMV282Tmw2dEg5YURhZFJ0TnU0U0NVbk1heFhOWTc2ZmpEVEQxdDQ3Ug?oc=5",
+      "published": "Mon, 26 Oct 2026 16:08:00 GMT",
+      "summary": "Moscow prosecutors seek criminal charges against prominent human rights activist Anna Karetnikova&nbsp;&nbsp;Meduza",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-27T00:08:00+08:00",
+      "source_detail": {
+        "name": "Meduza",
+        "url": "https://meduza.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IRGC Declares Strait of Hormuz Closed as Tanker Transits Drop to 4 - https://houseofsaud.com/",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvMlJBOTNkY2tkNmUxRUpyd2JNQjFnZ29hSktyN0JHZXZST1VUX21OeDVNZmVXc2dsWHp1VHdWc2tBMlFPTHB2dEhqYVJPV1c4MFpSVlM0T3czLVpxbnNYYkZEeFNLMEVrT2c?oc=5",
+      "published": "Mon, 26 Oct 2026 15:49:02 GMT",
+      "summary": "IRGC Declares Strait of Hormuz Closed as Tanker Transits Drop to 4&nbsp;&nbsp;https://houseofsaud.com/",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-26T23:49:02+08:00",
+      "source_detail": {
+        "name": "https://houseofsaud.com/",
+        "url": "https://houseofsaud.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Serbia's Vucic Era Ends as EU Says Door to Membership Open - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUGZfeFNBelVQaWtLMWM3Tk1LLWxWT2ZNLU85YkwyZFZ5TjJtZnpwd29XdC1mRlhYdlZsY1ZyV2lDbldiX0tIeXRfUzdFeklxclEwWk9PV244akVmaEdXV2VBZTFZdmlsbEpjRTVKWTdVaEk4cVFMWVp0N0l6UHNYQl9KQ0hBUXMyQnMwOTg0dXVPaGI1T09xVXVtbWMxdHNRcy1YanJYN2M?oc=5",
+      "published": "Mon, 26 Oct 2026 12:19:14 GMT",
+      "summary": "Serbia's Vucic Era Ends as EU Says Door to Membership Open&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-26T20:19:14+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Serbia after the vote: Back to fundamentals - European Union Institute for Security Studies |",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0pmZVlmbjNQMkk2WEFiYlZ3VFFEN3JVVklQTkdKdEs0SWpha1R1RG5hRmlOZHFLQk0yUWhvb3FCSUVPWjk0SXBiMkFhRHpuVmppMHlQYkR2LWI3Z3BCb1hjdk04Tm5vbVgtbktoTlU2c3UyeE1RZXZzZjZDMVhBTXZNR2NzU2RYQXZUdm5B?oc=5",
+      "published": "Mon, 26 Oct 2026 12:00:00 GMT",
+      "summary": "Serbia after the vote: Back to fundamentals&nbsp;&nbsp;European Union Institute for Security Studies |",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-26T20:00:00+08:00",
+      "source_detail": {
+        "name": "European Union Institute for Security Studies |",
+        "url": "https://www.iss.europa.eu"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "For Russia’s sanctions-busting A7 payment service, international transfers start with bags of cash at Moscow markets. At its peak, it processed at least 58 metric tons in a single month. - Meduza",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPa3F4SDVST0N4bGtmcjFaVnNXcHNfRHpBVXBjTVR4YUlJb3cwX3lOdGZsekEycEZJWkVjQUg5dzlVWE1IOGp4dW9uSUpWZEFENlRwcWJFUW0yWkcyOFhuVm9JTEw4Q01lSzh3N0kxdXU0c1Q3T1Vkd2oxVnZ2TThsX3dLM29qTWlxVWhQMFE2bm0tTkl3TGZfWWctRTk2MXJRM01GejBfckNiNm5ObWxib2J0ak0tRnFJa2ZZY09WTG1fU0lHYnEycDFvd0I1X3o2NzlKd01IMTVaYmhJTEQ1ZDFBMEZTMjJqRk1UQVdNRl8tSnl4ME42QVI3U0lWSDRkeVNZZHUyLUgxalBfTlB6ekZNMFMzNXVWZ2MtN3MxNmp2bW1sNjRlYlBTSTV6cTdWeDJnUnNjWU4yb2k0cnJPa1RfaFPSAcoCQVVfeXFMTUpBRmNDbVQtNTZIanh6LUFKM3c3eFBEamZ6b0luU0JGMHR3UHJMLXRuRFlwWjJLUjk0aExhTW5hb1YzZ2dHZDROTWJUaXR1ME5aWnMyTVRjd195ZVNZNmNETVFVdE94VS12YnF0UmYzSXZFdlYzamFSZmxLSHd1NjVnSDNGOVVuWi16TWtOMUUwemJKdUVIVzFITDhqR2pNZ0tVOGItV1NLNVZPRmJfNms4MkpCVkM0YXlENDZRd2prdDBrMnY4ay1RNXhuYUNRY2R5SXNvNzBQdlltZlNLenp3VUZvc005enBfaHVrMzc1Qy10UkNjeVV4NWFOVk5OcDZfbkNaOUVUUUVwVmFBaTRtamhvQ0F4dk1vMWlENm1yY3h0ZmFXMzR4YTlFeWNFZE1wT0w4Y2FOX3BOOEVkYVdFMkRiSVBTUlJR?oc=5",
+      "published": "Mon, 26 Oct 2026 04:40:00 GMT",
+      "summary": "For Russia’s sanctions-busting A7 payment service, international transfers start with bags of cash at Moscow markets. At its peak, it processed at least 58 metric tons in a single month.&nbsp;&nbsp;Meduza",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-26T12:40:00+08:00",
+      "source_detail": {
+        "name": "Meduza",
+        "url": "https://meduza.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How Beijing's Africa ambitions, financed by China's mega banks, triggered a crisis in Zambia - International Consortium of Investigative Journalists - ICIJ",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVnNLSFBSWUJlUm5WamdENUhmTS11Zm9VTHo5eVU4SnpUck5VMWJTdUZYYkdkd2J1OS1DM3liQy1PQ0FVdUlhVGgwQnVGMTNJV0NieUFJRW1uTFdXOWc0MFRQQnNEdzdDb2ktMDAzc0hIMjF5T0NCSUppZUw4VDI2bi1yLUNsMy1kWmdkaThCM0owS3J6UGhiVTAwS05QQnAzQUwzUkV0dVN0UUl3YWQ0MGxDUk1BSXBKR1F5dzNzUWtUd0FicFhXejZweUwwdElRREtHSUN3?oc=5",
+      "published": "Mon, 26 Oct 2026 04:01:17 GMT",
+      "summary": "How Beijing's Africa ambitions, financed by China's mega banks, triggered a crisis in Zambia&nbsp;&nbsp;International Consortium of Investigative Journalists - ICIJ",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-26T12:01:17+08:00",
+      "source_detail": {
+        "name": "International Consortium of Investigative Journalists - ICIJ",
+        "url": "https://www.icij.org"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bias in Qwen3-Coder Model",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+      "published": "2026-10-26T11:03:31Z",
+      "summary": "Interesting research:\nTL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it.\n\nOne word tilts the code against Americans. Ask for the app &#8220;for a US defense contractor&#8221; instead of &#8220;for a Chinese defense contract...",
+      "source": "Schneier on Security",
+      "full_text": "Interesting research:\nTL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it.\n\nOne word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked.\nHong Kong’s democracy movement gets apps that leak. Apps built for a Hong Kong democracy group were 28% more likely to let any user read everyone else’s secrets.\nAsking for secure code didn’t help. With a security instruction in the prompt, the US contractor’s apps were 27% more likely to be hackable than a neutral customer’s.\nWesternized Qwen3-Coder closed all three gaps. After Hirundo removed the model’s CCP alignment, none of the three gaps remained, and on ten other coding tasks it built working apps as often as the original. It is available on Hugging Face.\n\nI would like more details on how the bias was removed.",
+      "published_beijing": "2026-10-26T19:03:31+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }

@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "进出口贸易",
-  "updated": "2026-10-26T03:41:23.521834+00:00",
-  "fetch_date_utc": "2026-10-26",
-  "total": 166,
+  "updated": "2026-10-27T04:05:47.523546+00:00",
+  "fetch_date_utc": "2026-10-27",
+  "total": 192,
   "high_priority": 7,
-  "medium_priority": 2,
+  "medium_priority": 5,
   "signal_alerts": {},
   "stats_by_category": {
     "贸易管制": {
-      "count": 24,
+      "count": 41,
       "feeds": 5
     },
     "自贸协定+原产地": {
@@ -17,11 +17,11 @@
       "feeds": 4
     },
     "贸易壁垒+数据": {
-      "count": 9,
+      "count": 10,
       "feeds": 4
     },
     "中国企业视角": {
-      "count": 5,
+      "count": 14,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -37,212 +37,326 @@
       "feeds": 5
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 9,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "EU MEPs to visit China over trade deficit & market access - Fibre2Fashion",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONlJLUmFHcXJNbktvdXdNWDFTWHM4WHNkR0NVNGltcDBXZjJsS3F2R3VQTndkUDBEczdzQXUyNlVrUVFobGZua1VTVWpBakZTVUw1SzdzTnBia1BFWVE4Z2luVTBqanNEMFJaVENtbWdmVDF0cWlIS1RvWUN5NlVvTndTTWVqMnJzYkRpLWRoVloxWUtvd2VsZko3N3hYVW1nd0txWVdTa2N0Vy11bGUtZnJJc3JGeUo0ZHV4aWctOU1jNklldTdOUk5QSmVVUQ?oc=5",
-      "published": "Sun, 25 Oct 2026 03:00:03 GMT",
-      "summary": "EU MEPs to visit China over trade deficit & market access&nbsp;&nbsp;Fibre2Fashion",
+      "title": "DeepSeek and MiniMax clear China AI export controls for overseas use - The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZG9RWEx0RjF1YWhreWp3UnhFeWNLcGR0SHplMDJhVDdLN2dNYlJibWZpeUhLbi1NR0ppVnFOQUtKNkpvdGh0ZVprWGphaEt3WERDVkdVeWI3V0RkMEtXWVNFOWxNaTVLQVZkd04wWW40SXhVbm1DOGJIcUl1a0tmUWZ2TjI?oc=5",
+      "published": "Sun, 25 Oct 2026 11:13:22 GMT",
+      "summary": "DeepSeek and MiniMax clear China AI export controls for overseas use&nbsp;&nbsp;The Next Web",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-25T19:13:22+08:00",
+      "source_detail": {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com"
+      },
+      "priority": 7.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://thenextweb.com/news/deepseek-minimax-china-ai-export-controls-overseas",
+      "full_text": "“Since the policy was announced, two leading companies, DeepSeek and MiniMax, have successfully completed the registration process and obtained open-source and overseas licensing rights.”\nThat is what Yuyuan Tantian, a WeChat account affiliated with state broadcaster CCTV, said in a post late on Thursday. The post sets out how the China AI export controls proposed on 16 October will work. Most AI technology will stay free to export, it said.\nDeepSeek and MiniMax did not immediately reply to requests for comment, Reuters reported. DeepSeek reportedly raised $15bn from Tencent and CATL this week. TNW has not independently verified the post.\nData, sensitive uses and computing power\nThe commerce and science ministries want to add 23 AI technologies to China’s list of technologies banned or restricted from export. They include large models, agents and computing clusters, according to the ministry’s announcement. Companies must register before they export a listed technology. Public comments close on 15 November.\nThe post said the rules target three areas. The first is data. The rules would ban exports of large models trained on China’s “core data”. They would restrict models trained on “important data”, whatever their size.\nThe second is sensitive use. Agents above a set performance level face restrictions. Agents built mainly for critical information infrastructure, defence or core government affairs face a ban.\nThe third is computing power. AI chip design and high-speed links for large computing clusters are on the list.\nThe catalogue also sets numbers for large models, the post said. They are training compute above 1026 floating-point operations, more than 2 trillion parameters, or capability in the global top ten.\nWhat stays outside the rules\nOffering a restricted model through API calls, apps, web pages, SaaS or lightweight local deployment is not a technology export, the post said.\n“Simply put, AI companies can continue with their commercialization efforts as usual,” it said.\nOpen-source technology gets automatic licensing, which the post described as “immediate reporting and export”. So do Chinese companies’ own computing centres abroad, chip tape-out overseas, joint research and work on international standards.\nTechnology already public through open source or academic papers falls outside the rules. Exports tied to cooperation among members of the World AI Cooperation Organization would get more support.\nThe lawyers in the room\nLiu Jing and Liu Hongmei of Beijing Dacheng Law Offices took part in the consultations, the post said. The control points for some AI items changed after the first draft, they told the account. Many of the concerns companies raised show up in the published version, they said.\nRestricted technologies can still go abroad with a licence, Liu Hongmei said. That would not disrupt companies’ overseas plans.\nA contrast with Washington\nThe post set the rules against the US approach. It cited the Commerce Department’s AI diffusion framework of January 2025. It also cited an “alliance strategy” it attributed to Anthropic’s CEO, Dario Amodei.\n“But China did not take this path,” the post said.\nIn a separate post on Friday, the account said overseas internet users had urged other Chinese open-source models to follow suit, Reuters reported.\nGet the TNW newsletter\nGet the most important tech news in your inbox each week."
+    },
+    {
+      "title": "China tightens drone export controls, raising supply chain risks for the US, Europe, and Ukraine - Army Recognition",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY3VoOEZUSXVnLWFFOWpJNUczOTFNVVJ3Ty1nUTZBYzlWUzVjT1J6YnZOaGJSQmlBNFZYTGhka0dlWVY0TXd4Qk1nTlFlMXpsSEJZcTRuSDFRMXBCMDQ4OGtRWkhObFFBd3ctQVQyUzlPRHluTXpZSVJ6LWZsSDQ0YlZqbUl2ZlZCR0FDTmp0SGVwd2QtdnlJN29fbEhKLVRmZWdOOGNvX0V0VV9TTkpjUVZTTHZLYmpHQVotUTc1R2ZSMHRYc19IRThDNFkyc2RjNEVKbnV6UWx3Wks4aVE?oc=5",
+      "published": "Mon, 26 Oct 2026 10:01:10 GMT",
+      "summary": "China tightens drone export controls, raising supply chain risks for the US, Europe, and Ukraine&nbsp;&nbsp;Army Recognition",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T18:01:10+08:00",
+      "source_detail": {
+        "name": "Army Recognition",
+        "url": "https://www.armyrecognition.com"
+      },
+      "priority": 7.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.armyrecognition.com/news/army-news/2026/china-tightens-drone-export-controls-raising-supply-chain-risks-for-the-us-europe-and-ukraine",
+      "full_text": "Breaking News\nChina tightens drone export controls, raising supply chain risks for the US, Europe, and Ukraine.\nChina’s Ministry of Commerce, General Administration of Customs, and Central Military Commission Equipment Development Department jointly released Announcement No. 49, establishing revised dual-use export controls on 13 categories of high-performance drone components effective November 18. The decision introduces new licensing mandates for heavy multirotor brushless propulsion systems, high-voltage speed controllers, carbon-fiber propellers, long-range autopilots, and autonomous navigation software while easing registration procedures for standard civilian UAVs.\nThis regulatory shift aims to exert strategic control over foreign supply chains that feed long-range reconnaissance, cargo, and strike drone manufacturing, without imposing blanket prohibitions on commercial trade. (Picture source: Chinese MoD)\nOn October 19, 2026, China announced new export controls on 13 categories of drone components, including propulsion, flight control electronics, communications, software, and manufacturing technologies, introducing new restrictions on selected high-performance components and complete drones while easing requirements for certain civilian drones. Announcement No. 49, issued by China's Ministry of Commerce, General Administration of Customs, and Central Military Commission Equipment Development Department, takes effect on November 18. It covers qualifying brushless motors, electronic speed controllers, carbon-fiber propellers, autopilots, and drones with ranges of at least 300 km. The decision comes as Ukraine wants to produce 6 to 7 million small FPV drones in 2026, Russia obtains an estimated 80% of critical drone electronics from Chinese suppliers, and the U.S. seeks more than 200,000 drones by 2027.\nRather than banning exports, Beijing is introducing additional licensing requirements for selected components whose availability could determine whether foreign manufacturers can sustain production of larger reconnaissance, cargo, and long-range military UAVs. The revised classifications distinguish drones according to endurance, range, propulsion, and communications performance. Under 9A012.a, drones capable of controlled flight beyond natural visual range are covered when endurance reaches three hours, or between 30 minutes and three hours if they can take off and maintain stable flight in gusts of at least 46.3 km/h. Classification 9A112.a separately covers drones with ranges of at least 300 km, while the threshold for autonomous or beyond-visual-range aerosol-dispensing UAVs increases fourfold, from more than 20 L to more than 80 L.\nRelated topic: Taiwan delivers 1,520 FPV attack drones for U.S. Drone Dominance Program to reduce reliance on China\nEligible drones in the 30-minute to less-than-three-hour category can use simplified registration procedures, reducing administrative requirements compared with conventional licensing. However, exporters must declare the characteristics of controlled equipment and products close to regulatory thresholds, with Chinese customs authorized to suspend clearance during classification reviews. Consequently, even shipments ultimately approved for export may face additional verification and delivery delays. Electric propulsion restrictions concentrate on larger multirotors rather than conventional short-range FPV drones. Under 9A901.a, controlled brushless motors must simultaneously operate at a rated voltage of at least 48 V, produce at least 3 kW, achieve at least 3 kW/kg power density, and have a rated speed no greater than 3,000 rpm.\nA qualifying 3 kW motor must therefore weigh no more than 1 kg, while a hexacopter using six such motors incorporates 18 kW of aggregate rated power and requires six compatible electronic speed controllers, themselves controlled when rated for at least 48 V and 3 kW. Restrictions also cover selected carbon-fiber propellers, including blades measuring at least 762 mm from rotation center to tip, equivalent to a 60-inch diameter for a symmetric propeller, and specified variable-pitch designs. These components are relevant to cargo UAVs and heavy multirotors because motor torque, electrical power, and propeller dimensions influence payload capacity and endurance. Separate controls cover drone engines exceeding 16 kW, turbojets producing at least 400 N of thrust, and engines designed for operations above 15,420 m.\nChinese manufacturers potentially exposed include Shenzhen Hobbywing Technology, whose high-voltage propulsion products include 50 V and 65 V motor lines, as well as Nanchang Sanrui Intelligence Technology, whose overseas sales reached 524.6 million yuan in 2025. The flight-control provisions address capabilities required for autonomous operations, sustained reconnaissance, and navigation under electronic warfare conditions. Classification 7A103.b covers specially designed UAV autopilots, while 9E901 includes swarm coordination, inertial navigation, terrain matching, interference-resistant satellite navigation, obstacle avoidance, and complete drone design technologies. Autopilots reduce continuous operator intervention, while inertial navigation maintains position estimates without satellite reception but accumulates errors over time; terrain matching can provide an additional reference when suitable geographical information is available.\nCommunications equipment specially designed for qualifying UAVs is also controlled when airborne radiated power reaches 30 dBm, equivalent to 1 W, or when one station can control more than ten units. The measures also cover unmanned ground vehicle (UGV) technologies meeting five simultaneous criteria, including 75% semantic image compression, image reconstruction within 150 milliseconds, natural-language responses within one second, and 95% task success in unfamiliar environments. Restrictions on these technologies may affect industrial development, as replacing an imported controller does not reproduce the algorithms, integration expertise, or qualification procedures needed for reliable autonomous operations. Ukraine's exposure varies between small FPV quadcopters, heavy-lift multirotors, and longer-range reconnaissance or strike drones.\nUkrainian purchases accounted for an estimated 60% of DJI's global Mavic production in 2023, although this figure does not measure Chinese component content in Ukrainian-made drones today. Conventional 5-inch and 7-inch FPV drones generally fall below the new propulsion thresholds, and their batteries, cameras, and fiber-optic cables are not automatically controlled under 9A901. Larger drones face greater exposure: manufacturing 2,000 qualifying hexacopters requires 12,000 motors and 12,000 compatible controllers, making shortages in either category sufficient to interrupt assembly. Ukraine's projected production of 6 million to 7 million FPV drones in 2026 represents 500,000 to 583,333 units monthly, magnifying the consequences of component shortages and price increases.\nIts July 1 defense-export framework allocates 20% of finished-product export proceeds and 30% of component-export proceeds to a state defense fund, but expanding domestic assembly does not eliminate dependence on imported semiconductors, magnets, battery cells, and propulsion systems. Russia's dependence on Chinese electronics could create a separate vulnerability, although existing import figures cannot establish how much production falls under the revised controls. A September 2026 estimate placed Chinese-origin components at 80% of critical electronics used in Russian drones, while China's share of Russian imports of G7-designated common high-priority goods increased from 54.3% in 2022 to 84.6% in 2025. Chinese supplies reached $4.21 billion of the $4.98 billion total, leaving $770 million from other countries and representing a 30.3-percentage-point increase in three years.\nFollowing Ukrainian strikes against Russian fiber-optic production in April 2025, greater reliance on Chinese imports coincided with estimated price increases of 150% by August 2026, although fiber-optic cables are not newly controlled under Announcement No. 49. The directly relevant categories instead include qualifying propulsion equipment, autopilots, navigation technologies, and long-range drones, whose precise shares in Russian manufacturing remain unknown. Beijing's licensing authority nevertheless allows differentiated treatment of exporters, destinations, and end users, creating potential leverage over selected Ukrainian supply chains without requiring a general export prohibition on Russian ones. The U.S. and Europe face substantial cost and production constraints as they attempt to reduce their dependence on Chinese drone components.\nIn January 2026, the European Parliament estimated that the U.S. and China together supplied 60% of drone components, while Chinese manufacturers accounted for nine out of ten optical or sensor systems used for target identification and engagement. China also controlled an estimated 85% of global lithium battery capacity and 98% of rare-earth refining, affecting battery cells and permanent magnets used in electric motors. EU manufacturers supplied less than 30% of military drones used by member states, while Rabobank estimated that increasing European procurement to 60% would raise European value added to only 51%. In the United States, Chinese brushless motors cost $12–$25 each in November 2025, compared with $100–$225 for American alternatives, although these prices concern smaller motors rather than necessarily those newly controlled.\nThe Pentagon's Drone Dominance Program initially planned 30,000 drones at roughly $5,000 each, with subsequent purchases targeting $2,300 and more than 200,000 aircraft by 2027. American manufacturers also face September 2026 tariffs of 25% to 100% on covered imported UAVs and components, while China's April restrictions against seven European"
+    },
+    {
+      "title": "[SMM PV News] EU abolishes anti-dumping and countervailing duties on this PV sector from China - Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPanN2dmx3M2xvSm41VHpiMmcxVEFsYmRyVjBEbFJtY3ZrT0J1TmJ1VDF4cHQxR0lWczZtU3g2bGs1enJscW55bm1IRUlPRHdFc21HbTlka2FGWVB2UWFUQzVIMHBSbEhmdkpEV3A2a01YcXBiR2pIMkdNYnZxYTVCWFJGTEt5ZVdqdmlMbFdCdVZfd1JwcmVtbEdvRjBYdndTWWtxRDJGS0V2UEFzbDlMR2ZyV1pEcklHRFBnVVRUZXNzako1YUozdDZ3MFFleW56cFRn?oc=5",
+      "published": "Mon, 26 Oct 2026 05:32:00 GMT",
+      "summary": "[SMM PV News] EU abolishes anti-dumping and countervailing duties on this PV sector from China&nbsp;&nbsp;Shanghai Metals Market",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-26T13:32:00+08:00",
+      "source_detail": {
+        "name": "Shanghai Metals Market",
+        "url": "https://news.metal.com"
+      },
+      "priority": 6.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://news.metal.com/newscontent/104178818-smm-pv-news-eu-abolishes-anti-dumping-and-countervailing-duties-on-this-pv-sector-from-china",
+      "full_text": "On October 21, 2026 local time, the European Commission issued a notice officially repealing the definitive anti-dumping and countervailing duties on solar glass originating in China. The measure took effect on October 22, the day after its publication in the Official Journal of the European Union. The products covered by this repeal are tempered soda-lime flat solar glass, corresponding to EU HS code ex 7007 19 80 and related TARIC codes, with technical specifications including iron content, light transmittance, heat resistance, thermal shock resistance, and mechanical strength.\nData Source Statement: Except for publicly available information, all other data are processed by SMM based on publicly available information, market communication, and relying on SMM's internal database model. They are for reference only and do not constitute decision-making recommendations."
+    },
+    {
+      "title": "US Tariffs Rise from 2% to 10% in Two Years; Goods Trade Deficit Hits Record High - صحيفة مال",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1V0tDLVB5U1p2bWRuNTN2U0RjQ05xNkJXWU5DZzVfTW1uY3Frck9zeXRMQUxkLUFWUWNXeFpaNGpkQkhIT0ZIeEhyLTdSNmdsMzZBc3ZSQkJYb0ZqRE16WVpfenBUakg5bHFj?oc=5",
+      "published": "Mon, 26 Oct 2026 13:19:10 GMT",
+      "summary": "US Tariffs Rise from 2% to 10% in Two Years; Goods Trade Deficit Hits Record High&nbsp;&nbsp;صحيفة مال",
+      "source": "GNews | Section 232",
+      "published_beijing": "2026-10-26T21:19:10+08:00",
+      "source_detail": {
+        "name": "صحيفة مال",
+        "url": "https://maaal.com"
+      },
+      "priority": 4.8,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "China trade imbalance hits aluminium: India’s imports rise as exports slide - AL Circle",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFVqMWFNZkhGeU45YnR6VUotcmpfMjZFSEZtZnI1dm4tZ3FYT3B4cmx4UncwWXJSeG1ON2FZdGswdXdYV09jQ3B1S1VESVJUdk9wR24xZUxMQkhPcVdGUUZ0N2lVVGxUcXlmZld1OVpNYW9wVUVLSWg4YWJNOVdjQVlwWXV1aTV3dDRZWnhERjhrQW5iV1V4c2s0dktfdDYwRmswdHIycUJwcXVzQmdr?oc=5",
+      "published": "Mon, 26 Oct 2026 08:30:00 GMT",
+      "summary": "China trade imbalance hits aluminium: India’s imports rise as exports slide&nbsp;&nbsp;AL Circle",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-26T16:30:00+08:00",
+      "source_detail": {
+        "name": "AL Circle",
+        "url": "https://www.alcircle.com"
+      },
+      "priority": 2.4,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Zero tariffs boost South Africa's exports - China Daily Global Edition",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX0JNUWswakxWOUVzdzB5R25vSXJpMVVMVGpTYXFiZFJrd3lOZVgwZXRlNXRMMVpGN25kY2pWYzNYaFZPa1ZDUmZTUHpOYmp3bGlWbjlCRzE2UWRIRFBEZGV4VWxvM0FzaHkzcmZfRVE2ZFZhckVSOVpGYU1MU19PdEF3?oc=5",
+      "published": "Tue, 27 Oct 2026 01:40:01 GMT",
+      "summary": "Zero tariffs boost South Africa's exports&nbsp;&nbsp;China Daily Global Edition",
       "source": "GNews | CN Exporter Impact",
-      "published_beijing": "2026-10-25T11:00:03+08:00",
+      "published_beijing": "2026-10-27T09:40:01+08:00",
+      "source_detail": {
+        "name": "China Daily Global Edition",
+        "url": "https://global.chinadaily.com.cn"
+      },
+      "priority": 1.2,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[Arctic Maritime Strategy] The Economics of Russia's Northern Sea Route: A New Trade Corridor or an Energy Export System? - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnendhM1FNQkJoM2xTaERFRkpMS3ZKbXhzUkpuWi0ybzRVWjhIVXV6OUN2ZVpKZ0tzeUwzdXRPenpOYU9oSS03TjFDUTYxUUxiQVc4Qk1VQWNGdw?oc=5",
+      "published": "Tue, 27 Oct 2026 01:27:25 GMT",
+      "summary": "[Arctic Maritime Strategy] The Economics of Russia's Northern Sea Route: A New Trade Corridor or an Energy Export System?&nbsp;&nbsp;https://economy.ac/",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T09:27:25+08:00",
+      "source_detail": {
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
+      },
+      "priority": 1.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Brazil Trade Surplus Hits US$ 2.7 Billion in First Week of May 2026 - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeThMSHI5OFM5RE5UT3RyMXNaSUVQLXB6Z2dETnhNcklYRzlZSFZaUzNOZ3o1N3dCaHBqN1o4Y3ZRWmNuVkpBRGowbWV6eW0xY0hmSjRzVzM1Z2RxeHRRajZ3S1B6QUd0YU05SEhoY1lqckxYYlRybDdQUUV6eEZaZGVTTmJXUURickt4Q2toTGdIdnptdEJYb194Y1U?oc=5",
+      "published": "Mon, 26 Oct 2026 21:00:22 GMT",
+      "summary": "Brazil Trade Surplus Hits US$ 2.7 Billion in First Week of May 2026 - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-27T05:00:22+08:00",
+      "source_detail": {
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
+      },
+      "priority": 1.2,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "TikTok Spends $325K Lobbying on Trade and Export Control Policy - Legis1",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5ZGdPbVVzei0weXVXT1loSS03enpKWnFqQTZ5YVlqWTJHWEhZRWZoQXpUVGZSQ0RaQ2RvVVRRNkhmcXZDenJMNklfcTJUS2I1WHNaWk9FdkpjS2dVam1NWDVWMkpBMkNiaWVhYkJDbTJROHVJYWc?oc=5",
+      "published": "Mon, 26 Oct 2026 18:37:41 GMT",
+      "summary": "TikTok Spends $325K Lobbying on Trade and Export Control Policy&nbsp;&nbsp;Legis1",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T02:37:41+08:00",
+      "source_detail": {
+        "name": "Legis1",
+        "url": "https://legis1.com"
+      },
+      "priority": 1.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China’s economy steadies as surging exports lift Q3 growth above forecasts - Mercator Institute for China Studies (MERICS)",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY1Z1Qk4tanI0Q2ZETU43S0tUYVBPQzIzdTNGRWxDLWFEWm9DM2plZW53cnBMZGE2S3ZHNWlmREx1czJFNURmUV9MVWlCcXpoWXJxenlFbDlNYmt1NWd3bHFDaXNiNEFTRkJvc1JsdGY4OEw2T0JDTlRNMlFPQVJTWUcxQmt3ZnZBMGNrYVhIUVVqRFNuNGNmcEJyVUptSjdjTFE?oc=5",
+      "published": "Mon, 26 Oct 2026 15:54:53 GMT",
+      "summary": "China’s economy steadies as surging exports lift Q3 growth above forecasts&nbsp;&nbsp;Mercator Institute for China Studies (MERICS)",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-26T23:54:53+08:00",
+      "source_detail": {
+        "name": "Mercator Institute for China Studies (MERICS)",
+        "url": "https://merics.org"
+      },
+      "priority": 1.2,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Latin America: The export boom of 2026 and what it means? - American Journal of Transportation",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdXhhR0pRMmRFMkNwbHVHb2ZlOTl4MFl1QktMWEtlTFJ1R3Vkd2lldFBwcFlNLU5tbDBPSjN6X3FvMzFkMWQ4ZjlubkZhXzBpaFV1RExiQ2xnUHpPUzNXQW9IempIWHhQemFkd1hTMTU5ZVNtRncxaGxWeE4xRUhBLXM4N0RFUXZ5bUlaUHRmTlVyNHM?oc=5",
+      "published": "Mon, 26 Oct 2026 14:00:00 GMT",
+      "summary": "Latin America: The export boom of 2026 and what it means?&nbsp;&nbsp;American Journal of Transportation",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-26T22:00:00+08:00",
+      "source_detail": {
+        "name": "American Journal of Transportation",
+        "url": "https://www.ajot.com"
+      },
+      "priority": 1.2,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China’s proposed solar technology export curbs may delay India’s domestic manufacturing push: Report - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOT0xGWk92clo2TndXS3B0cEpzMW9Md1l0dmR2TUoyUGNHenR5TWxjS1FDRGVDSXMySllvbVhONTh1dnhNM1k0TE10R2V1SXlSejRoM19Kc2NwaHVJSGxza212UXF0ZG04X1lWUjJWN0JxTVcwNzRBeTJyRnVxdUxES3E0TElvdTNxYmo3Nk03dFlpanlEelo4MzJOREJGYWNxbEtUMlNWdVRvM2w3VWpnX1A3ZnVXbUwzbUVlNXBLYnctLURvb3ZHanNkbHozYjRHV2RkeDhUeVBWZkNnVWNYOVJEZ0pyRTRXTmtUZkJtUkVkYk1JVFNreEkyY0E2cnpmaW1QQ2VmVzdQUdIBjwJBVV95cUxNY1pBOFh5RGZaZ1FzdjZkM1RRT3lZdFJpeUQzdmFhRGZ0OVAtOFJzRVVfNEFPNWpaaDdYdjJZc2ZQWW02U09EajJBVmg3bUtiYUpsOVYxYV8yd3F1SlhiSFlsZXM1SGZMR3IydVdVNW55Tjl5MXlQWWhqNEVJTEdtYllueXZEQjg1LUdHbmRteG5jd0tCOUlZRDJuTEY3QVBCYUVGZTllYXhQaUMwRGtQZXNlYTNadWlTdUZhNDNVcjFzQVg2cnlWTGJBR3o3MXlmM0pQWkNoeF9CZzI4QUpSSG5kb045bzd0blFtaXZTbXh5VF9Hc3l3TkVWRV9qZ1JDaWdkemJCQkhhMnpVVUJB?oc=5",
+      "published": "Mon, 26 Oct 2026 11:18:50 GMT",
+      "summary": "China’s proposed solar technology export curbs may delay India’s domestic manufacturing push: Report&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T19:18:50+08:00",
+      "source_detail": {
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
+      },
+      "priority": 1.2,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU plans to hit China with more import curbs in early 2027 — Bloomberg - The Edge Singapore",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYTE3S0kyMTQxaHBXaE1ZYWdhRVFkVkdHV1Y1V2VUTW0yd3FvcE55QjluZjF2T3FESy1MRzNnNFg0TXkxT0NyOExRNmNsem5TM1FxNU0tb1l0bFBfajNfaXFoaVhjVkpqZkNka1pfRll3YUdZSmNLSllhLXNUcE10eXBBUVkwNjdCS0ZiLXZDSS1XWnpkV0hDcGxSd1Y2TjJWNDNTWDROVDZlcU5aSzVsbA?oc=5",
+      "published": "Mon, 26 Oct 2026 09:22:20 GMT",
+      "summary": "EU plans to hit China with more import curbs in early 2027 — Bloomberg&nbsp;&nbsp;The Edge Singapore",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T17:22:20+08:00",
+      "source_detail": {
+        "name": "The Edge Singapore",
+        "url": "https://www.theedgesingapore.com"
+      },
+      "priority": 1.2,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Thailand's September Exports Jump 24%, Beating Forecasts as AI Chip Demand Fuels 27th Straight Gain - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53UjU1WV9raVBwaks3TW9BRUU5QnI2Mi1YWmh4UndnaG5vMmpZMWtMSXFZcGVNa0htWlViYXNjZmVhRVU0bVBwLTFSX1M2UGxQMVdMNkQtQUhNUUd1Mzk2Y19hRFgwR3BoUU02clU3Q25mbGM4bWc?oc=5",
+      "published": "Mon, 26 Oct 2026 06:35:00 GMT",
+      "summary": "Thailand's September Exports Jump 24%, Beating Forecasts as AI Chip Demand Fuels 27th Straight Gain&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-26T14:35:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 1.2,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "| India-NZ FTA: Can zero tariffs boost $125.6 mn in textile exports? - Fibre2Fashion",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNT1hrT0p0cjBhYVpGX0xBaUVfZm5CTVBaSFhBTGRxNnFHSmxaYUVoMzV0NlM3YlJ5cVNqVFZfS2s4eEJ6Y2xGUUstQ3c4WUZEbTZxQm5JWDMyMUtyUnpUbXBvWnhwRkozdmtaSHpTV3BwNzhhMVZTcE1rWW9LTngyNFNFSVhmdlBjV0M3ODV6U3pYRXhlczZNVDdNVllGMjU3VnROQW9leVExOE0tLVQ3dXF0VXdiV1ZpVndIVkVVY2tKV0RhN0dNMTRrV3Y2TE81aTg2RkdzZFJHNFZuZTFqVDJ3?oc=5",
+      "published": "Mon, 26 Oct 2026 06:34:21 GMT",
+      "summary": "| India-NZ FTA: Can zero tariffs boost $125.6 mn in textile exports?&nbsp;&nbsp;Fibre2Fashion",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T14:34:21+08:00",
       "source_detail": {
         "name": "Fibre2Fashion",
         "url": "https://www.fibre2fashion.com"
       },
-      "priority": 4.8,
+      "priority": 1.2,
       "category": "中国企业视角",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "low"
     },
     {
-      "title": "China’s Solar Export Curbs Expose India’s Thin Upstream Base - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGRjcV8wWXNieXZBYXNxT215a1lTTURmZ0FDOHJ0Y1VXSmhTRW10NXJocjdoYVkyVGhqdXRqWkU1Y2hkdVk3U2RzOW1oX0RzWDN5bTBYeEVhd0U1a2psUlpFelJKTm94SHNfS2lRMUVNOFlYVERKY3FsRlNVejVhWDZKem1wMWs?oc=5",
-      "published": "Sun, 25 Oct 2026 08:52:41 GMT",
-      "summary": "China’s Solar Export Curbs Expose India’s Thin Upstream Base&nbsp;&nbsp;Discovery Alert",
+      "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+      "link": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
+      "published": "Mon, 26 Oct 2026 11:30:40 GMT",
+      "summary": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’Follow our Australian politics live blog for latest updatesGet our daily political email, free app or daily news podcastAustralians should prepare for more basic and important online services to go offline unexpectedly, the nation’s signals intelligence agency has warned, urging that “system security must be prioritised over system availability”.The Australian Signals Directorate (ASD) ...",
+      "source": "Guardian Business",
+      "full_text": "Australian Signals Directorate chief says advanced AI tools are needed to defend against ‘AI-enabled attackers’Follow our Australian politics live blog for latest updatesGet our daily political email, free app or daily news podcastAustralians should prepare for more basic and important online services to go offline unexpectedly, the nation’s signals intelligence agency has warned, urging that “system security must be prioritised over system availability”.The Australian Signals Directorate (ASD) also says businesses and critical infrastructure must use cutting-edge AI models to defend against digital threats, raising alarm that artificial intelligence is enabling more dangerous threats than ever. Continue reading...",
+      "published_beijing": "2026-10-26T19:30:40+08:00",
+      "priority": 1.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India, US conclude most discussions on trade pact, fine-tuning agreement: Piyush Goyal - DD India",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMGhMZGZ5Z3lGOXZqX1RsX2phQ2JQR1RIcG1fV3R1LVZKanlwdFd3YXFPcTZSbWNHdFp4YU9ZdEVKVnMyOE5PSExzckJLMWQ0R01maVprM2JhcUNhcmE2dlE3eERmdWlWOVpCU1lmaDZlcEZJNlpTRWNFVkJJaUNRUHhmOEVtR3RRUEpHeVlDWGhxZGxpSzNjNlNscHkwMk8yV2FtY0RqaVVBQnFCSkNHcjNrdEQ?oc=5",
+      "published": "Tue, 27 Oct 2026 04:02:00 GMT",
+      "summary": "India, US conclude most discussions on trade pact, fine-tuning agreement: Piyush Goyal&nbsp;&nbsp;DD India",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-27T12:02:00+08:00",
+      "source_detail": {
+        "name": "DD India",
+        "url": "https://ddindia.co.in"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bangladesh, Malaysia FTA talks focus on market access and trade expansion - Textile Today",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVJyVzMxRVk0enk2QWhMTjBEMVBPdlNxS243TDNBS0FSczVrc05RbDNNZkNOLUdIQ01NSDhlV1VHYnZJN2VtSVk1SjJpVWZnbVBKLTV1c3FoeExrcHgwUWE4NlkzNFJURXhDZGpIMUdKWXRtV1BkckxOUUtWUE91Z2hPbmw5VHpHU0JOZDVkd0w2SUVjazZXYVpGMHh4Njc0LTZZZFpDQQ?oc=5",
+      "published": "Tue, 27 Oct 2026 03:49:24 GMT",
+      "summary": "Bangladesh, Malaysia FTA talks focus on market access and trade expansion&nbsp;&nbsp;Textile Today",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-27T11:49:24+08:00",
+      "source_detail": {
+        "name": "Textile Today",
+        "url": "https://www.textiletoday.com.bd"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "S. Korea's Lee pledges to pursue Pacific trade pact despite opposition - upi",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcEZrSE5SV1dSdldBUzJpeklQTHFDLVozMHNYUklNRDBVV05TY055ZnpkaDZSTHRpYk5lX0VHLUVNRFlqZ2owekxTdlNXVTV1ZFNHcGRvb044SWpDXzUtU0p5b1BIQ0xrUXV0cUhBOXNJeThFcXpRTXRsWGtoZEtQc1g1YV92X0IwcnFLUUVTOVBxa01XSmxIRFg2LUtpaTNPSG9lYnRHN3g5X0xPcXVaWlVXNHhBT3FQWVFkdtIBwgFBVV95cUxPT1dsLXlLMUpJdEJURHF3M1ZJdk40cEgwU3RSeno5cy1PYWhmeDhtVjBBV3p0ODBQbG1oT01GNV9WRkl1bmpVY2NoaU5CNExnZGtCby04aC1BNVhtQUZjZTZUOFp2SjJmdjdOZFFtbHFuV1dSQUNlU3lSSjc1QjNYRV80dWw4N1NFOUV5czVZREtQZ2RMY2xvSVR4enRhWVpDeXVndmpmeGlLQlZYVTlLM21lM0gzdGJjbThmc2JrUlIxUQ?oc=5",
+      "published": "Tue, 27 Oct 2026 01:36:15 GMT",
+      "summary": "S. Korea's Lee pledges to pursue Pacific trade pact despite opposition&nbsp;&nbsp;upi",
+      "source": "GNews | CPTPP",
+      "published_beijing": "2026-10-27T09:36:15+08:00",
+      "source_detail": {
+        "name": "upi",
+        "url": "https://www.upi.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[Arctic Maritime Strategy] Control of the Northern Sea Route: Russia, China and Freedom of Navigation - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8ycE1iVlVLMjlORmxBNm9SemZjWEUyN3BZa2hVZHNwcnpYMUhXdVNPN096ZzMxX2hVU181VlhoNTlrYXNwa1dTMWZSNEktWi1reV9KOGFObFdPQQ?oc=5",
+      "published": "Tue, 27 Oct 2026 01:27:35 GMT",
+      "summary": "[Arctic Maritime Strategy] Control of the Northern Sea Route: Russia, China and Freedom of Navigation&nbsp;&nbsp;https://economy.ac/",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T16:52:41+08:00",
+      "published_beijing": "2026-10-27T09:27:35+08:00",
       "source_detail": {
-        "name": "Discovery Alert",
-        "url": "https://discoveryalert.com"
-      },
-      "priority": 1.2,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China Imposes Export Control on Tunnel Boring Machines in What Indian Expert Calls ‘Covert Trade War’ - Vision Times",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZXlBbWM0OTJxRElQU0xlaW1vR2M2WndqTnIzS1V4bjF6T2tuU3BWZHlZVEt1Z0c4Z2U3Wnk3NmZTa1UyN2M5S0xzTE9uMGZ0TUxJcEptSTh3SHg0SHQ5SXFIVFJOaUNzVWhHdWV2WDllUUZJMFlrdG5EcXJWemRsaWVXbmg2djBWRGNlLXd0SWRqVUhpTmNGQTNlV1VaUENUdllXSVhFZU5IZEdKZ3VzYkE5VW5uYXVBUzlWSzJxX251dmdBa2FrSXFRX2FRTGxqelFyOXotWWRIeHc?oc=5",
-      "published": "Sat, 24 Oct 2026 13:23:11 GMT",
-      "summary": "China Imposes Export Control on Tunnel Boring Machines in What Indian Expert Calls ‘Covert Trade War’&nbsp;&nbsp;Vision Times",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-24T21:23:11+08:00",
-      "source_detail": {
-        "name": "Vision Times",
-        "url": "https://www.visiontimes.com"
-      },
-      "priority": 1.2,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China’s economy grows 4.5% on robust exports as domestic weakness persists - AOL.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PTDVFZF9RWkxLQ205VUI1WkNTUGZCRWJ0azROb0ZONHVzdUVNLWFwNFJZcUY5a2N2ZHpqZG1EdXIzbC1Fajk1Z1FSczVDVEJyemNSQl80dHB5amV2OUI5Zmo2aXVmT3djcmtqZWNINVRaT1g0ODNKcQ?oc=5",
-      "published": "Sat, 24 Oct 2026 09:36:59 GMT",
-      "summary": "China’s economy grows 4.5% on robust exports as domestic weakness persists&nbsp;&nbsp;AOL.co.uk",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-24T17:36:59+08:00",
-      "source_detail": {
-        "name": "AOL.co.uk",
-        "url": "https://www.aol.co.uk"
-      },
-      "priority": 1.2,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Supreme Court Dismisses Writ Petition Challenging Customs Duty on Edible Oils Import. The court upheld the customs duty rate based on the inward entry date recorded by customs authorities as per Section 15 of the Customs Act, 1962. - Lawtext",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmTTRRLXg0TmRVNGh2alNyQ2tfaGtPS3JORVZqV09NeFV5Z2RuM1dkVEFqMVc0cG9OUEU4d2NFRDlJaUF0ZUNUOWVwWEFTX0ZydllzTA?oc=5",
-      "published": "Sat, 24 Oct 2026 08:21:01 GMT",
-      "summary": "Supreme Court Dismisses Writ Petition Challenging Customs Duty on Edible Oils Import. The court upheld the customs duty rate based on the inward entry date recorded by customs authorities as per Section 15 of the Customs Act, 1962.&nbsp;&nbsp;Lawtext",
-      "source": "GNews | Customs Valuation",
-      "published_beijing": "2026-10-24T16:21:01+08:00",
-      "source_detail": {
-        "name": "Lawtext",
-        "url": "https://lawtext.in"
-      },
-      "priority": 1.2,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India and the EU push forward with the FTA process amid global geopolitical shifts. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHFnZG5tMHZJMnN3bjd4M24zRHpxd0Y5NndwSHpicVVKQXdyN0Z6QnlYb2xvcTBrVjJONzAzVEotczVOS3JFT1hNRk9WYkM5Q0MtSkhzMWpxcFhFNUl4M0c0d1NnNWJjUVQzVHhtbzFoWE1yOEN4LWk3XzBCX2R1a0xuRTlkT0phbm0wblVZV3VuRksyWlRZ?oc=5",
-      "published": "Sun, 25 Oct 2026 23:44:18 GMT",
-      "summary": "India and the EU push forward with the FTA process amid global geopolitical shifts.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T07:44:18+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India, New Zealand Sign MoC on Electronic Origin Data Exchange Under FTA - News On AIR",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSDFWS1JhRXQwV3Z2QnlLX19BaENLTXhXckhyU2xmMVgxOGRLTkpOQmNBUHVYQV82WUNDN056azlfcGlMM3dBblg0anhybDhjUnIteXZqcTdCUDMxVTRZSFJWNjRza3VJeDZTUDlMdFJCUndGazVYdEY1THVtXzRTTU1LOTU5Rlp2UjQ1b25fTURDYWFQZ3JIQklwNE1uQQ?oc=5",
-      "published": "Sun, 25 Oct 2026 21:47:50 GMT",
-      "summary": "India, New Zealand Sign MoC on Electronic Origin Data Exchange Under FTA&nbsp;&nbsp;News On AIR",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T05:47:50+08:00",
-      "source_detail": {
-        "name": "News On AIR",
-        "url": "https://newsonair.gov.in"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bangladesh-Germany relations in a changing world order - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnlYMmtlRnR6d1BIY0lJdkFfUHVpQTRLc1c5Qk9UQmFFaHpXNkNmMVFkVkwybmZEcmtqaEFZUERvdEoyMmRKR0JEbmw5NU9ZV3VMRGF3TkZ4ckF4QUctd00xUFdEZWIxWmViV1NkQ2liWGhzbkZaRDdIQ3BOXzIyLVAycWNfLVNsT3MyaVdJT2Z5RGdydy05QzhYczhlUVVYR2pjcGdhMUVhNkRTaVRyR3lBWWcyN1lPTzhyRUN5MEFKdw?oc=5",
-      "published": "Sun, 25 Oct 2026 18:21:55 GMT",
-      "summary": "Bangladesh-Germany relations in a changing world order&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T02:21:55+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "First round of Bangladesh-Malaysia FTA talks Oct 27 - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNVM2TWdDdDRBdDhDNlZWMjFVY0RNS3BwMm5CLXRJTHZqZnM4NldmdGtSREM3QmpMWlBYdDJGMnZzWUJRUnJBODA5ZVZkNVRpTmxtVnhRUGh0Rl9vRVcyZmFCQk1BMmJudTVYNHBCV1BhUk00THZyRERYcDJ4NW1RNVBrWS0yU1R5cmg4Q2dTT2xNWG5kN1gyd1pPUjdrS1VDbkp3RkxEZ3J0SGFFQ2tLUkpNbjBzOWc?oc=5",
-      "published": "Sun, 25 Oct 2026 18:15:08 GMT",
-      "summary": "First round of Bangladesh-Malaysia FTA talks Oct 27&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T02:15:08+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India-EU FTA signing targeted for December 17–18 during PM Modi’s expected Brussels visit - Report - Livemint",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOGZGUjUzeGxKWGlpeDVsSGl3UVc3bW1iNHl2SzlfWUdzS1drQnRfZEJudEsteDF2WmFuSHlwNjRTVmtYRDFhbnlpN1VrOGV5MXQ4ODFudU0zdlZBallZb3lSQmwxQkF6dVpxWkhQQ2t0YWdxdHYxSmdwS2FGVzZuVVRLNWhsZVI2c0JZQk03aFB5dHpZNTMxNWYweEgwSnIxOHluMWNOSG9fc1dYeEUwNy1CQmRyT3VKZE0xZEY3RWVpRGxBYWE4XzFwYUpHcHRoRV9WdDg4OVhjVkw1bkJvb2ZqUVJ2QdIB6wFBVV95cUxOdDFMTWxsTUw5c3JHcFJVMnZOMVk0eWJ1Q1JKeEo3LVFKYm5LUElhTzdITGNCMnNDR0poUmp3Q3FVRkxvLUowbGJjRWY3aHN3TlpoTGxGR1JmRmNiV2JheUxLX0RLa1JpWEdCNWJ6Ri03c1liOGU0WUszOF9QclJXYUhvMWZnNlI4OE1zdXNZaGNUTGVrQ1hhR2oyVExmWlE4cW1YNGdyaWh6cHJ1djd6eGhHQ1p0T2xHQ3lXal90S3lCckVmcnE2eGVyY2NnLXFpZXFKdWtjalFZaVFJNm9qalczTVBNZHdSSkZV?oc=5",
-      "published": "Sun, 25 Oct 2026 18:12:09 GMT",
-      "summary": "India-EU FTA signing targeted for December 17–18 during PM Modi’s expected Brussels visit - Report&nbsp;&nbsp;Livemint",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T02:12:09+08:00",
-      "source_detail": {
-        "name": "Livemint",
-        "url": "https://www.livemint.com"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Dhaka to host trade talks with Malaysia from Oct 27 - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3o4X0QxVFp2ZXVFZ3JuendoNm56cnhVcnBhUmdqc0hHeFRoUzlLQnI3eTUydXJQZGNpaEh3Y1cydFctTk9SUm9qUWptYVh0X082TGtzejBtMm5xOF9vdk0zQXhPQUl3OHplUEIzTXJad19ZSkpJRmpBMGdJMl9CZkNSeTZkdndFYmF0Y2hCejRUV1E?oc=5",
-      "published": "Sun, 25 Oct 2026 18:00:23 GMT",
-      "summary": "Dhaka to host trade talks with Malaysia from Oct 27&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T02:00:23+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "FTA talks with KL tomorrow - The Financial Express",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcEJKX01TQmNSckZHcVVVR0c0dnV5Zzg0Uy1GNnhsSGpTMFhzeXdZSWU3MXZKdXRsa3RsYy1yZHd2SS1BVTh3bENHUERGRWxaRFJuZnRyWW9QOVY4UlJjTzZ1NG10M0tyNnRGYzhGTXlFdmhWVmNpR3hJd0p3Q21jdDZ5VmZGXzdsX0xZdm5mekc2Rl9yRzhRT196MFA3d9IBngFBVV95cUxNcEJKX01TQmNSckZHcVVVR0c0dnV5Zzg0Uy1GNnhsSGpTMFhzeXdZSWU3MXZKdXRsa3RsYy1yZHd2SS1BVTh3bENHUERGRWxaRFJuZnRyWW9QOVY4UlJjTzZ1NG10M0tyNnRGYzhGTXlFdmhWVmNpR3hJd0p3Q21jdDZ5VmZGXzdsX0xZdm5mekc2Rl9yRzhRT196MFA3dw?oc=5",
-      "published": "Sun, 25 Oct 2026 18:00:00 GMT",
-      "summary": "FTA talks with KL tomorrow&nbsp;&nbsp;The Financial Express",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-26T02:00:00+08:00",
-      "source_detail": {
-        "name": "The Financial Express",
-        "url": "https://today.thefinancialexpress.com.bd"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "U.S., Canada nearing trade deal as negotiations gain momentum, Hassett says - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXJyNUZaaGNoR1pYU2h5azY2WkNWUHpQY0NzaUJKOTAybzNKMk5mV0JkYkhXSG1EYUdCSGM5S2U4VkZoTWEtb0RSRlZ3bkQ2WjZhRjI2OUxzazdSbzdIblpUUE9WY2taS21mZnR2dkdXRlFPQXJ2V3RXQzlGTjlLcC11TGxSYXlWX3lHdUFUT3R3VU1NNVczTGVNNmV2cW9sbGNzQTZBTEQ1TG1OM204?oc=5",
-      "published": "Sun, 25 Oct 2026 16:04:38 GMT",
-      "summary": "U.S., Canada nearing trade deal as negotiations gain momentum, Hassett says&nbsp;&nbsp;Seeking Alpha",
-      "source": "GNews | Section 232",
-      "published_beijing": "2026-10-26T00:04:38+08:00",
-      "source_detail": {
-        "name": "Seeking Alpha",
-        "url": "https://seekingalpha.com"
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -250,15 +364,47 @@
       "relevance": "low"
     },
     {
-      "title": "US Treasury proposes overseas tech investment rule - Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Pajg1bTBTTjMyN1V4c2x2ZzRCWHZVTHEyWlpjRnV5QzRvdEpXTVVIOXNpajYxTXh2REpiOGxpbEdkeW9HbVF6Rm52YlhNNWZPdGxoeWdqaTByM0JmSlZ4aEtNa1pnTVcycTZNTTRZWW1SZzZYNkE?oc=5",
-      "published": "Sun, 25 Oct 2026 16:00:00 GMT",
-      "summary": "US Treasury proposes overseas tech investment rule&nbsp;&nbsp;Taipei Times",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-26T00:00:00+08:00",
+      "title": "Hengdian DMEGC Q3 Profit Surprise: The Low-Cost Secret Behind Earnings After Full Indonesian Market Access Channel Shutdown - eu.36kr.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KYkR3MkIwVGVIZDdyNTJoV0JSX2pwcmdBZFZqUHo3NUxVdHJmbWc3N0h4VWtITGo2Y1V0bDdISDdQcGZOX2lVNWFuMjdtd29sa0pn?oc=5",
+      "published": "Tue, 27 Oct 2026 01:22:00 GMT",
+      "summary": "Hengdian DMEGC Q3 Profit Surprise: The Low-Cost Secret Behind Earnings After Full Indonesian Market Access Channel Shutdown&nbsp;&nbsp;eu.36kr.com",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-27T09:22:00+08:00",
       "source_detail": {
-        "name": "Taipei Times",
-        "url": "https://www.taipeitimes.com"
+        "name": "eu.36kr.com",
+        "url": "https://eu.36kr.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How can the EU minimise the impact of China Shock 2.0? | Gulf Times - Gulf Times",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGlVZHJENmV0aDlETWY3YnNZRmtWM0V2ajNFN2VKYkUtV3c3ejB1S21fUWVueVdIVUtvM05ZdFFHRXhvNlpRN3pwTnlWZ3VmdnF1RWJHdDRrZlNxTkUtaU13UTR6c0QzOEJHcVNXRTBwWk1kOHRRSlYtQTB5dVdOekt1Sm9IOE15eDMwczJURDJpbkVJRVFkV2U5ZjhYSWQyLWtFUzZibjFTb3dSZ2NqdXdR0gG3AUFVX3lxTE52bTBsUVU4ZDFsdFJudW9Jdm16Q2M3UnpGeG53T1pfVTVOT3N6ZUVMWXg5ZzVVRlpCMm1tR1N6NDN5VnlrVG1FN005RmswbVB2SVljWkhxbnNscjhNZlpnMFdxVXk3bWNncXVkdDc3WC1FOFFhZ2tKa1hzSVViTkpaNWZOYmtxamZKX3dpYzhMV01zeWNhdEdXR2Nzc2NZUXRWZk01QWR2SDIzWVpsaThyNjRkQ3hvNA?oc=5",
+      "published": "Sun, 25 Oct 2026 21:00:00 GMT",
+      "summary": "How can the EU minimise the impact of China Shock 2.0? | Gulf Times&nbsp;&nbsp;Gulf Times",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T05:00:00+08:00",
+      "source_detail": {
+        "name": "Gulf Times",
+        "url": "https://www.gulf-times.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Canada's renewable energy industry is getting busier. ETC 2026 showed me why that matters. - pvbuzz.com",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EODdFSDB1THFRTnhiZjNfczV4R2tybVBqR1dHWUZjaFpjQl95eWZRWUJWZ3VEQVJ1aGJXSXFWNWFlSERkajBRUVhRLXpWem9tNTU5UkNxTm81QnI2ZjVCMVlIODhLNlUwc2Z2cGxlclhwTnVjb1VnUkRB?oc=5",
+      "published": "Sun, 25 Oct 2026 16:20:50 GMT",
+      "summary": "Canada's renewable energy industry is getting busier. ETC 2026 showed me why that matters.&nbsp;&nbsp;pvbuzz.com",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-26T00:20:50+08:00",
+      "source_detail": {
+        "name": "pvbuzz.com",
+        "url": "https://pvbuzz.com"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -298,140 +444,15 @@
       "relevance": "low"
     },
     {
-      "title": "When AI Accelerates Weapons Development: The Limits of Safeguards and the Future of Counterproliferation - IndraStra Global",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSlNNV09xTFloVXJBaVJmZEFIT1U0dWUtcXFrY3ZBMTJJRWFGOURENTVjUk5tbk9CamZKdzJ3TGxkOW1TQk5TQ0RIUHByYTZNaUp2S0ZUVDlxTlcyNnpZbWtRMld5bjc3TUgxLU9MZjdsVlhoR08zVFFpT09mcEZBWDEzc1E?oc=5",
-      "published": "Sun, 25 Oct 2026 14:10:00 GMT",
-      "summary": "When AI Accelerates Weapons Development: The Limits of Safeguards and the Future of Counterproliferation&nbsp;&nbsp;IndraStra Global",
+      "title": "2 AI Blocs: Pax Silica Edges WAICO [2026] - tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42X0hOQjlodlFLODNGYUhzUFc0czY0N3VZNkw5TTdBRDk1dVkwZTRkM2NoTzY2NEtzaGJzckc4T3V3S01iWUoyeGk3ejl0Zk9GY0JSbVRzSG00R0VGaS1zY1pscURuamEyT1hJMzZVMFQ1dFlKNXJZ?oc=5",
+      "published": "Sun, 25 Oct 2026 10:42:52 GMT",
+      "summary": "2 AI Blocs: Pax Silica Edges WAICO [2026]&nbsp;&nbsp;tech-insider.org",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T22:10:00+08:00",
+      "published_beijing": "2026-10-25T18:42:52+08:00",
       "source_detail": {
-        "name": "IndraStra Global",
-        "url": "https://www.indrastra.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
-      "link": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
-      "published": "Sun, 25 Oct 2026 13:43:19 GMT",
-      "summary": "VW investment, creating 4,500 jobs in Georgia, comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVsAudi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company, Volkswagen, struggles with the impact of steep tariffs imposed by Donald Trump.The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a b...",
-      "source": "Guardian Business",
-      "published_beijing": "2026-10-25T21:43:19+08:00",
-      "priority": 0.0,
-      "category": "贸易政策RSS",
-      "_incremental": "new",
-      "relevance": "low",
-      "full_text": "Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company, Volkswagen, struggles with the impact of steep tariffs imposed by Donald Trump.\nThe German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a big European brand just days before the US midterm elections.\nThe Republican party under Trump is trying to retain control of both houses of Congress, but it is polling poorly as it struggles with higher fuel prices caused by Trump’s war on Iran, as well as his trade war against some of the US’s biggest trading partners.\nTrump has long tried to convince voters that his tariffs are helping to increase the number of manufacturing jobs in the US, and has seized on any new factory investments. However, US vehicle and parts employment has fallen since Trump took office last year.\nAudi, Volkswagen’s most important premium brand, has suffered from Trump’s 15% tariffs on imports from the EU as well as the president’s efforts to cut sales of battery electric vehicles in favour of petrol cars.\nIt said it aims to build 200,000 SUVs at the new US factory, creating 4,500 jobs. The factory will build the Q7, Q8 and Q9 SUVs, shifting some production from Bratislava in Slovakia.\nVolkswagen has said Trump’s tariffs cost it up to €5bn(£4.2bn)a year, before the impact of lower sales. The German manufacturer this month said it was still struggling with “continued high pressure from import tariffs”. The carmaker was also forced to shift some production of its cheapest cars, such as the Jetta saloon and Taos SUV, from Mexico to the US.\nThe new factory may add to tensions in Germany, where Volkswagen has started to cut as many as 100,000 jobs and close factories. It has blamed the job losses on intense competition from Chinese carmakers, as well as the tariffs and a need to invest heavily in the shift to EVs for markets other than the US.\nDöllner said he accepted the invitation to speak at Trump’s rally out of respect for the US.\n“We are planning to bring our biggest and most premium SUVs, and produce them here in Macon, Georgia,” he said at the event. “This is a long-term investment because we believe in the American market.”\nVolkswagen’s chief executive, Oliver Blume, told investors in July that “US tariffs create a significant burden and restrict international trade”.\nHowever, the group has said there is still demand in the US for Audi’s large petrol SUVs, and it is planning its largest-ever SUV, the Q9, with the American market in mind. Large petrol-powered SUVs have played a big role in global carbon emissions."
-    },
-    {
-      "title": "India, EU race to finalise FTA ahead of PM Modi’s expected Brussels visit in December - News9live",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOTE0VE9IRjkxV0hpcFpiR210NVNDTTh4UFIwQjZnSWxBWERpa0gtUGMtaGhUYUhCRi1HQXlSRHVMZUU2X0ZyWnE1X0tSdEJYZjB6Qzd4UG1ROXRVT1lOZ042U1hHeGp5UG9pZ0gxUVJhbWxCb3c1WTg5MlBBcnR4ZkxpUlVhZFIwanozREU1RVVPM1hSbWE5d0lkN0VRZVZ5TTBQaFhzUmJRUUdLc0RaZHlPMEJNallGdVBKVVJZb3BFV0txU3fSAcYBQVVfeXFMUDkxNFRPSEY5MVdIaXBaYkdtdDVTQ004eFBSMEI2Z0lsQVhEaWtILVBjLWhoVGFIQkYtR0F5UkR1TGVFNl9GclpxNV9LUnRCWGYwekM3eFBtUTl0VU9ZTmdONlNYR3hqeVBvaWdIMVFSYW1sQm93NVk4OTJQQXJ0eGZMaVJVYWRSMGp6M0RFNUVVTzNYUm1hOXdJZDdFUWVWeU0wUGhYc1JiUVFHS3NEWmR5TzBCTWpZRnVQSlVSWW9wRVdLcVN3?oc=5",
-      "published": "Sun, 25 Oct 2026 13:38:19 GMT",
-      "summary": "India, EU race to finalise FTA ahead of PM Modi’s expected Brussels visit in December&nbsp;&nbsp;News9live",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-25T21:38:19+08:00",
-      "source_detail": {
-        "name": "News9live",
-        "url": "https://www.news9live.com"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India-EU FTA to be signed during Modi's Brussels visit: Report - NewsBytes",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNEFQdTIzWU5yblh4TXpXb0JaNHRFbnlmRWVnV3lTN0lmX3FRXzhMVVIxNlFTTmV6cTR5Z1hKLW9nakZRRDZ6b2xjbDB3UTdDZ0x2VWpNODRRemxYRFo0XzRHTmNTV1ZLMUhwTDllQW1ldlhUZExUUEtIWTlKZXZudzd5NmF0VWJzMkdldVp4bw?oc=5",
-      "published": "Sun, 25 Oct 2026 12:28:16 GMT",
-      "summary": "India-EU FTA to be signed during Modi's Brussels visit: Report&nbsp;&nbsp;NewsBytes",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-25T20:28:16+08:00",
-      "source_detail": {
-        "name": "NewsBytes",
-        "url": "https://www.newsbytesapp.com"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - The Star",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM0o3OU0wZ1RyWHZDYWpYWFVHM3FtQ2pRWTBhM19IZDhuOThOS2NoOW9tSFpoVjNLUUhkYk1ISi0tWnNUQm9nODVMN29ZdU16X0pNQ25XcDNkR3lhUnJkYnJzUUFiYUNmcjZHbUFEUW44YnBFOGgyUmt5SWd1VVVzdWwtRlYwSUVUU3FOVHpiNXl0Nk5zd1IzaWd0Mk51RXRGeFExbEdESUFCQlROWWF2ZUpjMWRJNTJvWFVUMW1uenZJdzRaTExBN00wRWtHTGRNSXpOSmlaYw?oc=5",
-      "published": "Sun, 25 Oct 2026 12:28:00 GMT",
-      "summary": "EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia&nbsp;&nbsp;The Star",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T20:28:00+08:00",
-      "source_detail": {
-        "name": "The Star",
-        "url": "https://www.thestar.com.my"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India, EU race to finalise FTA ahead of December deadline to coincide with PM Modi's Brussels visit | India News - Hindustan Times",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONjBMWk1IV01abVFscGhJSzk1MW9YaTg2NF93TDQwVEhEWlJ5bmxfaUhIR3h1Y2puYkF5eFlEamlSVmw1SHhxOVo4T3dyaTJWWHlqTENSaEVRb2h1Z0d6eXNZbWdpenBBVEVkWlZLQjBab1ptV3NpU3k5S19mc0NEcUYtZ2VfZzVFOEdTSGN4Y0tZcWlYOFRqNlN6VXZIRlBicmdDSkNQWkVURmxYNDJwb2hSbzd3M3BkUkhpUjJPUjhETm41Ry0tc1A1OU9Eb0dnR1lhVlJhV0Jya3dScGlmTG5kcEFCeWg1S3ptNVZuRdIB9AFBVV95cUxNY21lTjVHRmh4U0tvSGxNaUFPY19ndnhiVjlnXzZSUTctMkVSN2lUQWVYUkhJZ2RXdlZxajVDb2dCNkc4dUZHdmZnN0MwcW9tdXZFSTZmd1A3WmlTVWI2SHNQaGZnVmVhYlZxQ0RhU3IzcHJncUVGR2RJRXNkVXpISUhQcjJOaG9GZ2pUemJPTmNfLUplUm90R2ZxeVFNMEVUbGlfRlJKMWhKYUZiclo2UDdRN1AtN0xoZWJfZUtNWDRNZUNEZGdnYnlYaVhJLUsyMWN1UTVib3lLQVFQOWdsdzVEVWk1QW9pM252U29LMWtZazlI?oc=5",
-      "published": "Sun, 25 Oct 2026 11:37:02 GMT",
-      "summary": "India, EU race to finalise FTA ahead of December deadline to coincide with PM Modi's Brussels visit | India News&nbsp;&nbsp;Hindustan Times",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-25T19:37:02+08:00",
-      "source_detail": {
-        "name": "Hindustan Times",
-        "url": "https://www.hindustantimes.com"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Asia braces for Europe’s turn on Chinese overcapacity - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2gtSTVVcTk5dmhsQ3pFVDRySUM3SG1TYU9KSFQ0dktueE1QZXljVFU0ZXJNdUZDU0FiN2pEeS12QmhZdEY1T1o5V2VnUVJELV81TUlVSlJLcVZEcHllUjVuTTRnRGRRc1NEZXZDR2R0c3JCVEJWTzdtbTJvcXNrZ1I4ZFg1MkdJYm51NS1PbkllcUs4?oc=5",
-      "published": "Sun, 25 Oct 2026 11:00:00 GMT",
-      "summary": "Asia braces for Europe’s turn on Chinese overcapacity&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | Trade Data CN",
-      "published_beijing": "2026-10-25T19:00:00+08:00",
-      "source_detail": {
-        "name": "East Asia Forum",
-        "url": "https://eastasiaforum.org"
-      },
-      "priority": 0.0,
-      "category": "贸易壁垒+数据",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Canada’s Türkiye reset: Why Ankara matters now | Daily Sabah - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlJWRzhxUFNvYUxISEJ5WlBNMndZVS13eHRwdVJzb3FJcWQ4NmFJNEdIa3dPbHBWcVR6Um1vSEJZX2FNMEZpcjJxUU9jbEVCbUtlZVNRNlNHUFUxTmMtQzNkU1F0WGl1N1dBTkY4TlpCajRxNXZyM3J6T3BIYzl5TXgtZUxKM2hoRUF5a1F2bnlzVjTSAZMBQVVfeXFMTzJSVkc4cVBTb2FMSEhCeVpQTTJ3WVUtd3h0cHVSc29xSXFkODZhSTRHSGt3T2xwVnFUelJtb0hCWV9hTTBGaXIycVFPY2xFQm1LZWVTUTZTR1BVMU5jLUMzZFNRdFhpdTdXQU5GOE5aQmo0cTV2cjNyek9wSGM5eU14LWVMSjNoaEVBeWtRdm55c1Y0?oc=5",
-      "published": "Sun, 25 Oct 2026 10:11:00 GMT",
-      "summary": "Canada’s Türkiye reset: Why Ankara matters now | Daily Sabah&nbsp;&nbsp;Daily Sabah",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-25T18:11:00+08:00",
-      "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
-      },
-      "priority": 0.0,
-      "category": "自贸协定+原产地",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why US Aluminium Output Lags Capacity: Power, Not Permits - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYXFZTnRycGwxZjJ5QXB0ejFnVGE1TldVUjlfNno2eXNQSTFYeVZNZnVBQkJSZ3MxcDhwY1hUWGM4bUlaSHRlZ3MwbWdCb1hyZHdkR2k0U1hWcks4Ty1lMGFxYk5hbVRvU1NMS214T18tdXNULUhVY0twZzFBdTNUMUdXQThWLU54TXVLcmpXTGotZ1RrdXEw?oc=5",
-      "published": "Sun, 25 Oct 2026 08:24:35 GMT",
-      "summary": "Why US Aluminium Output Lags Capacity: Power, Not Permits&nbsp;&nbsp;Discovery Alert",
-      "source": "GNews | Section 232",
-      "published_beijing": "2026-10-25T16:24:35+08:00",
-      "source_detail": {
-        "name": "Discovery Alert",
-        "url": "https://discoveryalert.com"
+        "name": "tech-insider.org",
+        "url": "https://tech-insider.org"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -455,95 +476,31 @@
       "relevance": "low"
     },
     {
-      "title": "Top executives quit $25 bn US gas project over alleged Russian control - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWEJRU2FPOVI0X044UXNBV2ZxR3JZNm1HUUlfSWxrb0wzc1FCeE9KZ2tkbkpZOHZURXhEWnd0ZXRFVjN2RFlTQTlQaWx3RWloT1BKNTZGSGFVMUJyQkx2Y1JNeDh2ZGdpdmxGNExwT1pBLW5XYTJsd3VIREZMUFZNd0RoUVhuT2gtVXlRN3RMeW1kb1JnV0c5aGlGMVViaFBPRkhVYmVobTc1RnJnVTZZdXNUWUw0VDc1Z1o3cGJwWURLUVh6TnllQ3VvMUc0UzR1bGV2eXM0RkF6Z9IB2gFBVV95cUxNWEJRU2FPOVI0X044UXNBV2ZxR3JZNm1HUUlfSWxrb0wzc1FCeE9KZ2tkbkpZOHZURXhEWnd0ZXRFVjN2RFlTQTlQaWx3RWloT1BKNTZGSGFVMUJyQkx2Y1JNeDh2ZGdpdmxGNExwT1pBLW5XYTJsd3VIREZMUFZNd0RoUVhuT2gtVXlRN3RMeW1kb1JnV0c5aGlGMVViaFBPRkhVYmVobTc1RnJnVTZZdXNUWUw0VDc1Z1o3cGJwWURLUVh6TnllQ3VvMUc0UzR1bGV2eXM0RkF6Zw?oc=5",
-      "published": "Sun, 25 Oct 2026 07:47:46 GMT",
-      "summary": "Top executives quit $25 bn US gas project over alleged Russian control&nbsp;&nbsp;Business Standard",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T15:47:46+08:00",
+      "title": "Ballooning global imbalances risk amplifying messy AI unwind - Awani International",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnVPQ3M3SXZ6OXU1eWpzSEpmV2dDYU9zZ0xxRTNGUWEtcHMwSjVRZ0N0Z1RQaTJMVnR5OWxhTUZPMXdSY3pheXR5LWE3ODVqVkJpbnVrbkJGXy1nX1hVdXJOdzVuSnJYX19oNlZabzVhdzZhZmluZmVBS2tsaDBUaVVJNkljNk9VazFKQm9UQ0lCeFZsYUJIczQzRFNOYWNRWU9BQ2U1Z3pjWFFDVVRhajRWSQ?oc=5",
+      "published": "Sun, 25 Oct 2026 04:31:33 GMT",
+      "summary": "Ballooning global imbalances risk amplifying messy AI unwind&nbsp;&nbsp;Awani International",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-25T12:31:33+08:00",
       "source_detail": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com"
+        "name": "Awani International",
+        "url": "https://international.astroawani.com"
       },
       "priority": 0.0,
-      "category": "贸易管制",
+      "category": "贸易壁垒+数据",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "WAICO vs Pax Silica: 2 US-China AI Blocs Ranked [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLVJYS0Vha1kzRU5oNkJKRWRUTTRPdWo1Qy1WRFRxa3BfdWRiUk9DU243WDhjQ3YyNFF6enc5WWNSa3RRdGR6UVp4OU1IU3hjcjRJRVptX0ZSdGkycFpQU0l6anBIdHpCcDlfc3NHYktMbDd5WmtDVnNIM0FvZTcySmpqLUdPdVVZdHI4?oc=5",
-      "published": "Sun, 25 Oct 2026 05:05:17 GMT",
-      "summary": "WAICO vs Pax Silica: 2 US-China AI Blocs Ranked [2026]&nbsp;&nbsp;shattered.io",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T13:05:17+08:00",
-      "source_detail": {
-        "name": "shattered.io",
-        "url": "https://shattered.io"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China urges US Treasury to stop proposed restrictions on tech investments - AOL.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VT2VrTFlSVkdleWJRVFJmZUluZTR2VkxrVnl1bnNjTWhJRnhvXzRQRkVrNUViNjc3NG1vZnN6Rkx0OU1vaHdaR3dpWVI2dVJNUGJLc0cwZ0NDSDJoSXRzWk1PMG1QS0ljSjFaOE9OT05KR3Y2TWhYNDk2QkxlaTg?oc=5",
-      "published": "Sat, 24 Oct 2026 19:40:53 GMT",
-      "summary": "China urges US Treasury to stop proposed restrictions on tech investments&nbsp;&nbsp;AOL.co.uk",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-25T03:40:53+08:00",
-      "source_detail": {
-        "name": "AOL.co.uk",
-        "url": "https://www.aol.co.uk"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "High Tech to Be the Main Theme of the Made in Russia Forum - TheWire.in",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTWw4RzBUc2FWWmVocWU4bGJFRFFBNU8xOTBSTEg2dFozbk9fdFJKN0hzZmZFb3ZETTdnTWxDVnp0REx0Sk5lbG1pXzFKWTZKYzVpcnpDdjNFcFdKa1pjb21tRWYzRDdHOHdleTV2NTNDUldleEtxX1hTMy0wU2cxazNvRmlmSVVvejVaMEVBdUVkaThUYlBQSkNjaWlBb1MyTHNVaGhOZUpoQ3VDOFpwT01BUkVmS3E1OFZ5TkhB0gG-AUFVX3lxTE9NbDhHMFRzYVZaZWhxZThsYkVEUUE1TzE5MFJMSDZ0WjNuT190Uko3SHNmZkVvdkRNN2dNbENWenRETHRKTmVsbWlfMUpZNkpjNWlyekN2M0VwV0prWmNvbW1FZjNEN0c4d2V5NXY1M0NSV2V4S3FfWFMzLTBTZzFrM29GaWZJVW96NVowRUF1RWRpOFRiUFBKQ2NpaUFvUzJMc1VoaE5lSmhDdUM4WnBPTUFSRWZLcTU4VnlOSEE?oc=5",
-      "published": "Sat, 24 Oct 2026 11:10:55 GMT",
-      "summary": "High Tech to Be the Main Theme of the Made in Russia Forum&nbsp;&nbsp;TheWire.in",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-24T19:10:55+08:00",
-      "source_detail": {
-        "name": "TheWire.in",
-        "url": "https://m.thewire.in"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russia’s New Jet Drones Threaten Ukraine as Starlink Restrictions Hamper Defences - fish4news.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZWhYXzByYVFNUTMtR09HeWNKX3hSSE9Va0JzVWxTd2JyMkYxZUFlU3gwNUQtb0VxR3ZWUzNSZTdVaTE5c0hsSF85clBzbFVzU1FOeFhkZ0Z3eGZvNV92SkNqWWVmSFNZdWZSMlpNQjJKUWFRVjhNUWExUC1NYkxmNU93?oc=5",
-      "published": "Sat, 24 Oct 2026 10:22:05 GMT",
-      "summary": "Russia’s New Jet Drones Threaten Ukraine as Starlink Restrictions Hamper Defences&nbsp;&nbsp;fish4news.co.uk",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-24T18:22:05+08:00",
-      "source_detail": {
-        "name": "fish4news.co.uk",
-        "url": "https://fish4news.co.uk"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Further strengthen Strategic Agenda: EU Ambassador Paquet on European Parliament delegation's India visit from Oct 26-28 - India's News.Net",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNd3BSeTJGQ1l1ZkdaemRJZkEwZmlEbVROdEFyMHQxY2N2aWRhS3FDRHdHdUxLVEd5UlhFWU16MlMxOGZrN3dxVk5oUTJ4cEZjT1lKbDRvZXJNWHNYZHVqeFBzOXVqY0xGZE1BYUNCY2ZTZUtONUExN3M1cUJpUUIwVnJKRXczamU5anJ6clhlTW5KVUtiSUJWZVpzRVplVTVKanNBTDI4cW5talVhNjRCV0JjNVlfZHVGWmFmWWlGMlNXVTFSNThjNUJwYjh3X3R6VXU1S1puU2hhd2dwVUt0cFlNeXlITzNrSkFWd1I4YWo?oc=5",
-      "published": "Sat, 24 Oct 2026 08:28:00 GMT",
-      "summary": "Further strengthen Strategic Agenda: EU Ambassador Paquet on European Parliament delegation's India visit from Oct 26-28&nbsp;&nbsp;India's News.Net",
+      "title": "First round of FTA talks with Malaysia starts today - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS0FvZTFBTkNNTGI2S1FBNFdhZnpRUG0zdGprb29jcnMzbENlYmtmSm1hN0hiSksyZ1NiSUlyQ3A4SWNHNkpRU0ZwX281VDlVRHVyUm1sR09JRnRNd1A1eDVXdDB3R1FEellCTmtKMy1MaXJCRjJZVFVydTFUcE1fOGNwdloxTFBqaDRxV2VKWEdkbjFaODlVVXBFZktQWDNlXzZZdjFvNzBMR1BiN1E?oc=5",
+      "published": "Mon, 26 Oct 2026 23:24:31 GMT",
+      "summary": "First round of FTA talks with Malaysia starts today&nbsp;&nbsp;The Daily Star",
       "source": "GNews | FTA",
-      "published_beijing": "2026-10-24T16:28:00+08:00",
+      "published_beijing": "2026-10-27T07:24:31+08:00",
       "source_detail": {
-        "name": "India's News.Net",
-        "url": "https://www.indiasnews.net"
+        "name": "The Daily Star",
+        "url": "https://www.thedailystar.net"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -551,15 +508,63 @@
       "relevance": "low"
     },
     {
-      "title": "India-Europe FTA to be Signed by Dec 2026, Implemented by Early 2027: Decoding the ‘Mother of all Deals’ Creating $27 Trillion Market - Jagran Josh",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPdFl6UnhFV2NhR09fS09QU25zbXpzUDd2OHJrN1ZPUmFOZUtsNkRReFk5eDh0bkhRaWYyRG84bmVCcGM3LXg4NzFVRmpyN1VhWVBjTllla1p0SnE1Y0lzUmVyQ19tTF8zYzhCX2s3dVZLV0JsM2RnR3kwRE5ZbmwzZVBsXzdKN01uSTR2akM4cVdvamVxd1Z0M3FzelgyaTQwMjJlLURGUjZYaWI2OUtRajB0cVI3Q0R5TlNDY19QYW1fS1hQSlJVSWxFdXMzWWwwRXB0dEc0RmQzVHRnMUJrVHMteDFiai04ckFOT1BXOVk3cXlnTXdNdjR2MWdXWHR1Y2RGc3pEVGtCUXVwWU0xbGFrajhhT1VoUkR2c2dn0gGkAkFVX3lxTE5Cdi1KZUVlbXRnaW4yM2NQZFlZeDNpb3NGQ3oybDhtR1lxOG5WX3M3cjZqYmdMZmRDMlBrTHBhcloyTGRBMDRCWF9GZkFjb01id2VYYThpTzVsSVc5VnlGcUliSnE3WW44b0MteU9QcG9wWHdBWllkZWRGTVUxU0M1alFMd1dybm5XN0hIakVjQTJseWlQblNpZlpJcGN4bGdKdXk4WVF3VlpzSGFGZ2d5c0QtMzlpeDJjSGs0d1BEbGxwRE1YSHNlTmVMa3N5UXJyUmRmal9RSmY1WndrZmgzM25fbE5GZ1pfYmhPVXJuNGJtWklPU1ZTSzRESmg3akhqdm1haV9sQ1hObWtmb1hIQXpuRmpwVm9WX3lhSFBna3dTamc?oc=5",
-      "published": "Sat, 24 Oct 2026 07:03:45 GMT",
-      "summary": "India-Europe FTA to be Signed by Dec 2026, Implemented by Early 2027: Decoding the ‘Mother of all Deals’ Creating $27 Trillion Market&nbsp;&nbsp;Jagran Josh",
-      "source": "GNews | FTA",
-      "published_beijing": "2026-10-24T15:03:45+08:00",
+      "title": "Weekly Sanctions Update: October 26, 2026 - Steptoe",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUXNTdlU4SVg5NHRPa0U0bmJQRU85Z3FYMk9pUjNncTlPWk9vN3h2MjlaUkdWV2VvS1RySFBVX2FJczVKN3VxMWIxckVYRk5TT3VIQkk4REtZSlNyZm84eUJiSFlQb25tNTU0UmROeVY3cXpoeVFBZG5iTGlIR3Zmc2NsYy1mQmtsSV9WWXhvYi04WHRDNHFCM2ExS3oxazIxeWUwTllUdEpTVEF6Rkk0d0FSLS1Lb2ZrdE5N?oc=5",
+      "published": "Mon, 26 Oct 2026 21:56:12 GMT",
+      "summary": "Weekly Sanctions Update: October 26, 2026&nbsp;&nbsp;Steptoe",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T05:56:12+08:00",
       "source_detail": {
-        "name": "Jagran Josh",
-        "url": "https://www.jagranjosh.com"
+        "name": "Steptoe",
+        "url": "https://www.steptoe.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. Treasury Department and China’s MOFCOM Propose Restrictions on Biotechnology Transactions - Arnold & Porter",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeWEtVF9PYUF4VUVlVlFxZ0RIOGEtSHBfaXlOREJfbU5wdTJKVjJSX25kTmY5QjlVMXc1UmFwV1pZUnBPTDVWcUJPQzVWdEViZGNMUkhTXzdYWUVNbnI1Yjl3ajNycmFIZWJEUnNHam9HcFZwc3o2bG1sa3pXeXFlbDZ2NW13WXFHWVRyUHZ0UW5TRW5HNUhINE9mcV9KemsxSWhzYzAzUGRkUExsbWwwWHRkZFFGdjJqOXd5VENKOUg4RFhTVVk0d1I1TVduZDM4MmpqMEFtdFROQUxrMTlmM3E1Z0NLUDQ1ZENJ?oc=5",
+      "published": "Mon, 26 Oct 2026 21:34:55 GMT",
+      "summary": "U.S. Treasury Department and China’s MOFCOM Propose Restrictions on Biotechnology Transactions&nbsp;&nbsp;Arnold & Porter",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T05:34:55+08:00",
+      "source_detail": {
+        "name": "Arnold & Porter",
+        "url": "https://www.arnoldporter.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russia’s Drone Surge Depends on Chinese Supplies - The Jamestown Foundation",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LQWNxQmozQy1xd0pXb2xfSFktaVBZVWZjV3lWR2FMQmRZaU9KZVlzLWlYenZSa2M4NzhqNU1pbkV1cXFNbk5VbGhsdW1BQjJfOGgxLXkzTzU4VVVoWERrNGVaZ1hFQ0hDSGIwWVFTX1NCYVRCWXBTaFR3?oc=5",
+      "published": "Mon, 26 Oct 2026 20:44:41 GMT",
+      "summary": "Russia’s Drone Surge Depends on Chinese Supplies&nbsp;&nbsp;The Jamestown Foundation",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T04:44:41+08:00",
+      "source_detail": {
+        "name": "The Jamestown Foundation",
+        "url": "https://jamestown.org"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bangladesh, Malaysia set to begin FTA talks today - The Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGlhX3ZxUlhhUEhnUWpNdkRPMTBEYkVrSUhadWZ2dG56NDJBWmZJNkNMYmdaRHpZcnkyLUV3cTlMQ1piYlg1YmdKSTB6NzdySGEzS0RPbEloVDdYMTFobjlFc2EzdVFfNVI2VThBREYyeWh4YlozTDhJYzV4Y19tM2gyUTFmOTY1UWpLWXNn?oc=5",
+      "published": "Mon, 26 Oct 2026 19:48:58 GMT",
+      "summary": "Bangladesh, Malaysia set to begin FTA talks today&nbsp;&nbsp;The Business Standard",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-27T03:48:58+08:00",
+      "source_detail": {
+        "name": "The Business Standard",
+        "url": "https://www.tbsnews.net"
       },
       "priority": 0.0,
       "category": "自贸协定+原产地",
@@ -567,15 +572,15 @@
       "relevance": "low"
     },
     {
-      "title": "Moonshot Limits Kimi Model’s Hacking Capabilities - StratNews Global",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM3pBNjl5TWNlOUw2RzV1bDdyblNQSnE0MTd6T2hvTm1mamdvX2trdUZ5cjF0QS1qbzk2ak8tclkzeGlJYUdmVzFBYnJ5QTJkaUU3a2NsS3hBVUt5dC01WkdyNHdiVk5xM004Y1FhV3lGaVRnamFKM01fZzFzZDFWcDFoemhsSHkwOUdsZTlXd0tXVE1TZF9GdXZmRFU?oc=5",
-      "published": "Sat, 24 Oct 2026 06:46:11 GMT",
-      "summary": "Moonshot Limits Kimi Model’s Hacking Capabilities&nbsp;&nbsp;StratNews Global",
+      "title": "A Sanctions Reprieve - Riddle Russia",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zSDAtQzB3U0xQU3FxbGhEWjhoX0NGUmZZb3NLbC1IRjAyRzNXVHdYLWZNUWFMMHBBVl9sVWdhQXQzcHl2OEZIX0NSREFTQQ?oc=5",
+      "published": "Mon, 26 Oct 2026 18:56:34 GMT",
+      "summary": "A Sanctions Reprieve&nbsp;&nbsp;Riddle Russia",
       "source": "GNews | Export Control",
-      "published_beijing": "2026-10-24T14:46:11+08:00",
+      "published_beijing": "2026-10-27T02:56:34+08:00",
       "source_detail": {
-        "name": "StratNews Global",
-        "url": "https://stratnewsglobal.com"
+        "name": "Riddle Russia",
+        "url": "https://ridl.io"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -583,15 +588,15 @@
       "relevance": "low"
     },
     {
-      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
-      "published": "Sat, 24 Oct 2026 04:25:00 GMT",
-      "summary": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks&nbsp;&nbsp;Reuters",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-24T12:25:00+08:00",
+      "title": "Prosperous America Fund Spends $300K Lobbying on PILLS Act - Legis1",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45UlEtY0V1Ty1vbE55dF8yUHZVXzJ6SE5iSmVhQWFoZDB5ZkoyRnRBYUI3QVJSVXFpZTZqZWxCUTJtUGFuc0NpLWJGTmJReXdIMk8wcGFNRjlrTzg0WllJRGlvNDF2T3g4a055LTJFZzM3cHcwZTlJ?oc=5",
+      "published": "Mon, 26 Oct 2026 18:37:41 GMT",
+      "summary": "Prosperous America Fund Spends $300K Lobbying on PILLS Act&nbsp;&nbsp;Legis1",
+      "source": "GNews | Section 232",
+      "published_beijing": "2026-10-27T02:37:41+08:00",
       "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
+        "name": "Legis1",
+        "url": "https://legis1.com"
       },
       "priority": 0.0,
       "category": "贸易管制",
@@ -599,17 +604,565 @@
       "relevance": "low"
     },
     {
-      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; NOAA Diving Program",
-      "link": "https://www.federalregister.gov/documents/2026/10/26/2026-21761/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
-      "published": "Mon, 26 Oct 2026 04:00:00 GMT",
-      "summary": "",
-      "source": "FedReg | USTR",
-      "published_beijing": "2026-10-26T12:00:00+08:00",
+      "title": "Anthropic files for potentially record-breaking stock market valuation in key test for AI industry",
+      "link": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+      "published": "Mon, 26 Oct 2026 16:22:28 GMT",
+      "summary": "Market debut of firm behind Claude chatbot will be one of largest in US history, a test of AI boom’s financial viabilityAnthropic has publicly filed for a stock market listing in what is slated to be one of the largest debuts in history. The company’s float on the US market will serve as a test of the financial viability of the multitrillion-dollar AI boom.Analysts and investors have valued the San Francisco-based company, founded in 2021, at more than $1.5tn. The company, which will will list u...",
+      "source": "Guardian Business",
+      "full_text": "Market debut of firm behind Claude chatbot will be one of largest in US history, a test of AI boom’s financial viabilityAnthropic has publicly filed for a stock market listing in what is slated to be one of the largest debuts in history. The company’s float on the US market will serve as a test of the financial viability of the multitrillion-dollar AI boom.Analysts and investors have valued the San Francisco-based company, founded in 2021, at more than $1.5tn. The company, which will will list under the symbol ANT, confidentially filed with US financial regulators for an initial public offering in June. Continue reading...",
+      "published_beijing": "2026-10-27T00:22:28+08:00",
+      "priority": 0.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. Introduces New Investment Restrictions on Technology and Biotechnology in Cuba - CubaHeadlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zanU3S21pc2huOVR3YWhpM0tGY3ZSVnNrNGRMTHQ4eGRUbFdjXzZ2eVNXaXhWd2RiTVRQUm5NNS1iYXdkTlNUYUhXQ3oxY29oem15eC13U00?oc=5",
+      "published": "Mon, 26 Oct 2026 16:03:57 GMT",
+      "summary": "U.S. Introduces New Investment Restrictions on Technology and Biotechnology in Cuba&nbsp;&nbsp;CubaHeadlines",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-27T00:03:57+08:00",
+      "source_detail": {
+        "name": "CubaHeadlines",
+        "url": "https://www.cubaheadlines.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Why China resists rebalancing its growth model? - Etudes Economiques – BNP Paribas",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWtSMmU4T2tpNHF0b0pQWmt0UXBTclVpWlhNdmZNUFNkdEl4WGZNSW1CczUtQlQ2UEVTYll0VW1aOWpsQnA3REFJcHN5V1o0NVhlUEh3b3BKZDAzZEZsdFVjRnBiaXdYbW5vaVpJTXF6NzZldHlpZVJmVmxuczMzOFZ4R0JvNGUtUXZ2RGQ3cjBtdTFtUzcxUVVRMGE3N1RxWThSVVpySnB6OUE?oc=5",
+      "published": "Mon, 26 Oct 2026 15:55:00 GMT",
+      "summary": "Why China resists rebalancing its growth model?&nbsp;&nbsp;Etudes Economiques – BNP Paribas",
+      "source": "GNews | Trade Data CN",
+      "published_beijing": "2026-10-26T23:55:00+08:00",
+      "source_detail": {
+        "name": "Etudes Economiques – BNP Paribas",
+        "url": "https://economic-research.bnpparibas.com"
+      },
+      "priority": 0.0,
+      "category": "贸易壁垒+数据",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Global Sustainable Agriculture Market - Kings Research",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcGY1NUYzZDNzM1NHNWJManRoaWxqUlFLLTBudnBFS3g1OGlvRU9hT3dpbDl5SExDMnBTUzdZcmsyakhrRjliWWtQQ0xXZkxETml6Y3puUGNqNG5UT05QNHJOY3JQUDF4OGlld1kxcHhXMUdVaHBsUVZLLWZ1aEZwU1YwU0RaUQ?oc=5",
+      "published": "Mon, 26 Oct 2026 15:42:31 GMT",
+      "summary": "Global Sustainable Agriculture Market&nbsp;&nbsp;Kings Research",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T23:42:31+08:00",
+      "source_detail": {
+        "name": "Kings Research",
+        "url": "https://www.kingsresearch.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – as it happened",
+      "link": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "published": "Mon, 26 Oct 2026 15:33:24 GMT",
+      "summary": "Meta says share sale will support its “continued investment in AI infrastructure and personal superintelligence”, as Elon Musk warns some AI cloud computing firms face ‘guppy-level death’UK government borrowing costs are dropping this morning, a welcome sign ahead of Wednesday’s budget.The yield (or interest rate) on 10 and 30-year UK gilts have both dropped by around three basis points (0.03 of a percentage point) this morning.Issuing loans to public financial institutions creates a financial a...",
+      "source": "Guardian Business",
+      "full_text": "Meta says share sale will support its “continued investment in AI infrastructure and personal superintelligence”, as Elon Musk warns some AI cloud computing firms face ‘guppy-level death’UK government borrowing costs are dropping this morning, a welcome sign ahead of Wednesday’s budget.The yield (or interest rate) on 10 and 30-year UK gilts have both dropped by around three basis points (0.03 of a percentage point) this morning.Issuing loans to public financial institutions creates a financial asset that offsets the increase in outstanding government debt. If the investments that the PuFins make generate sufficient returns for the PuFins to repay their government loans, then long term debt sustainability is little affected.Limited transparency and the risk that the PuFins may suffer impairments on their investments will probably make bond market investors skeptical of the extra gilt issuance. Chancellor Healey should avoid a big increase in gilt issuance to fund such intra-public sector lending.Nebius, CoreWeave and Iren were slammed in premarket trading on Monday after SpaceX and Tesla CEO Elon Musk said more than 200 neoclouds are “going to see guppy-level death and consolidation.”That’s the guppy fish – prone to suddenly dying in household fisk tanks – not the GBPJPY FX cross...In a post on X Musk said “debt markets have almost entirely shut off access to money for any company that doesn’t have substantial revenue independent of AI data centers”. Continue reading...",
+      "published_beijing": "2026-10-26T23:33:24+08:00",
+      "priority": 0.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The U.S. is preparing new restrictions on investments in technology and biotechnology in Cuba - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYlNiczB1cXktTUVhU2tUWVlXZGU4bjl6dWo4LVlqS3k0bkxNWVZuR0JmNFVOUHlDTUN4QlFoaFR5U3BPcVVmbnhhSlJ2ZUxma2FsSTVuY1M1dTRFYVJLZjEzdWRvNTk2VlJnRnAyMUh1dFkwUUh1VWk2XzdaZkpyMGtGSU9GdGE3Y0RUcE0tQm9tMXB5a1hNamJEVzhCZ2ViZE5vVDA3UHFKS0pndDJYVkFKVExCaU84eXc?oc=5",
+      "published": "Mon, 26 Oct 2026 15:25:46 GMT",
+      "summary": "The U.S. is preparing new restrictions on investments in technology and biotechnology in Cuba&nbsp;&nbsp;CiberCuba",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T23:25:46+08:00",
+      "source_detail": {
+        "name": "CiberCuba",
+        "url": "https://en.cibercuba.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EXCLUSIVE INTERVIEW: India–US Trade Tensions, Russian Oil and Maritime Security: Adv. Vatsal Verghese on the Geopolitics Shaping Global Commerce - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPbDk0OTVDY2hRN1R0RGpHUUxoODlXMFVabnBmQ0EtdGpEUTJVUGJCVU5MSFBUbHlla1c1T1A4UG05YjBTdG43MUZSMWN6dGw3MUtFWVFNNnBINmFkY09wME1mejh2ZlI0dVFEaWp3dmxHcTlHdk5zUTl4M3otV1NVVG9mQ1ZyblpmTlZtWUxtU1NWU2RrSHU0eXlma3dTZm9JNmF6Y19tMXJpZGlneTBQQ21TMFhVZXJFWG9EcF9iZ2NWSEgyajU4S2YwbVNFeXBnTGR1WkpQM3VuUG5xOGYwN3k2WDRyaHVmMWJPYTJma2pFckNYMWZrMm1RYnJtLXNWRWNRVC0yWjNVWjVRSlpFMDVscEZGUQ?oc=5",
+      "published": "Mon, 26 Oct 2026 15:15:33 GMT",
+      "summary": "EXCLUSIVE INTERVIEW: India–US Trade Tensions, Russian Oil and Maritime Security: Adv. Vatsal Verghese on the Geopolitics Shaping Global Commerce&nbsp;&nbsp;Business Upturn",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T23:15:33+08:00",
+      "source_detail": {
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EU Ends Tariffs on Chinese Solar Glass - USGlass Magazine",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HN2VVdmNIaHlVR0pNdWYwRkZqZ0VBNkpicHQ4SDdPazRORzl0QWY4WnduS2pqQ2ZTQ3d5d2F5a0ZWTTN5ZnlGRFQ0anJDMmh6eVdDbnZ6eTg5Q2hRRE1pMWRyWUgycW5ka1pCWlU5QlFuODh6?oc=5",
+      "published": "Mon, 26 Oct 2026 14:50:53 GMT",
+      "summary": "EU Ends Tariffs on Chinese Solar Glass&nbsp;&nbsp;USGlass Magazine",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-26T22:50:53+08:00",
+      "source_detail": {
+        "name": "USGlass Magazine",
+        "url": "https://www.usglassmag.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tehran and the Emerging Architecture of Regional Security: Saudi Arabia - Türkiye - Pakistan and Iran in the Contest for Middle Eastern Order - https://debuglies.com",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNU2o2Mm5FTlF6YWRXSFZleUszdFF6QUZQM2l4X3dyZndvVURTemJFZExmNHVvS2xXSURIUm9ZMFNUWjZxTWs1SDFiVGNLZGtnR3pXQzBWV1l0djlfZzVmVHc2eVNqaXFsY3NhNGFMb2phSWRGbldQQmltaW0zNDduaEx1MVdOUHBmdXN3cER1ank3S0JmSjFteEk1Smx0b2QybXhyT3hHTGRwMVNSUXhERFh3OGJ4TG96RlRsRW5DMmw2ckZoZVdQWXVBMEdOQ0Fva3haQzFzUmQ5V3BjUEx4ckNSS1Rsa2J5UUhkSl9lcHZXd2g1b3I3eVQwSVJmbVE?oc=5",
+      "published": "Mon, 26 Oct 2026 14:48:14 GMT",
+      "summary": "Tehran and the Emerging Architecture of Regional Security: Saudi Arabia - Türkiye - Pakistan and Iran in the Contest for Middle Eastern Order&nbsp;&nbsp;https://debuglies.com",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T22:48:14+08:00",
+      "source_detail": {
+        "name": "https://debuglies.com",
+        "url": "https://debuglies.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bangladesh-Malaysia FTA talks to begin tomorrow - Bangladesh Sangbad Sangstha (BSS)",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xbDhDY0czTW1obWRMU2lIZ1BZRXpXSjNtQmVCemdOdlJlRW1uMjhkb2F2RlFFNXI3RmRIV1JLcWQ2TWNKRTI1NjQta0k3UzRS?oc=5",
+      "published": "Mon, 26 Oct 2026 14:36:51 GMT",
+      "summary": "Bangladesh-Malaysia FTA talks to begin tomorrow&nbsp;&nbsp;Bangladesh Sangbad Sangstha (BSS)",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-26T22:36:51+08:00",
+      "source_detail": {
+        "name": "Bangladesh Sangbad Sangstha (BSS)",
+        "url": "https://www.bssnews.net"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Piyush Goyal meets North Holland’s King’s Commissioner in The Hague, placing regional investment and India-EU trade links in focus - Business Upturn",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZHNpdzFTcXpoRHV5N2FXcXAwaU5qOExZOVdITndyYVFrYlVYM1BiWmZYTWhMNko4aTRpYlRWX2trNU1aeTVFM1FGU2ZDczN3REMtNEJtcy1GRUV3dXM1UnIxZjB1MldPemN6X1JIMmxiaVNpYWNYQ1NoemJGSFB1MFFEV2hNVlhGR1RNUW5nbVNTT2VjajR1alExOUU4eTV4Q0RlRW92ZTlVaFQ2RS1XYWd3M2ZRU0lORHJsUmZMQUdDMldTSG9TSUtCOVRoXy1iVTR4clBtSGNIbVNwbXIxdGphTG1BSXZVRDllVDFNOUNEbE5V?oc=5",
+      "published": "Mon, 26 Oct 2026 14:25:25 GMT",
+      "summary": "Piyush Goyal meets North Holland’s King’s Commissioner in The Hague, placing regional investment and India-EU trade links in focus&nbsp;&nbsp;Business Upturn",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-26T22:25:25+08:00",
+      "source_detail": {
+        "name": "Business Upturn",
+        "url": "https://businessupturn.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "South Korea unlikely to join CPTPP during Lee’s term - Minute Mirror",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcER5YjFua0JOOGduelpNQVM2aUlDVFdQOHAzbnBUd1Jwd3ZmNlJuakNKTWVrT3NwM1pnM1NyRzBYR2IzRElZVlh4dGV3R1NzeUZteFhfbW5ZS0YzdmJjbGNEbmNvWkVINlF3TExIUzlxd2F4YUNfY3gyUUlCZUNoNmNTR05TdDZSam9vVXBpU2M?oc=5",
+      "published": "Mon, 26 Oct 2026 13:29:26 GMT",
+      "summary": "South Korea unlikely to join CPTPP during Lee’s term&nbsp;&nbsp;Minute Mirror",
+      "source": "GNews | CPTPP",
+      "published_beijing": "2026-10-26T21:29:26+08:00",
+      "source_detail": {
+        "name": "Minute Mirror",
+        "url": "https://minutemirror.com.pk"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Europe’s €360 Billion Deficit with China: Industrial Pressures Drive a Shift Toward Protectionism - صحيفة مال",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0taUtNVjRLM0FULUI5RXBJX3NSaVpESW56c2dxZm84X0FVSDBFamc3dmYtaXo5VTNhY1VCbjJ3aEw0d1ZpeWZJVVJPczBKYk04M19ENE13dWQzOER1S3dES3F3WjJ5N0ZqUGtpRWxR?oc=5",
+      "published": "Mon, 26 Oct 2026 13:14:18 GMT",
+      "summary": "Europe’s €360 Billion Deficit with China: Industrial Pressures Drive a Shift Toward Protectionism&nbsp;&nbsp;صحيفة مال",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-26T21:14:18+08:00",
+      "source_detail": {
+        "name": "صحيفة مال",
+        "url": "https://maaal.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trump’s Trade General Fights Back as Tariffs Become Toxic - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcVgwUHVEa3l1VndVY3FnYlB5QktneUNfTHRQeVB2ZEpLU2UzWmhGSGZNd0FWaWdNTFRpRngtTEVlS3FZMGJiZ0lsVlZkMks1R01GZ2hLVnk4WldmblF4Rk5hY2kwRVRyVWNqVmlLcXJBVGpUQmdSWlp6NmlxZW96U2paNWtxRjJPb05EUFRYYTRZendKbjJsaDlVd0tIeTZCLWs5a2V2N2hIb1Rq?oc=5",
+      "published": "Mon, 26 Oct 2026 12:00:01 GMT",
+      "summary": "Trump’s Trade General Fights Back as Tariffs Become Toxic&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | Section 301",
+      "published_beijing": "2026-10-26T20:00:01+08:00",
+      "source_detail": {
+        "name": "Bloomberg.com",
+        "url": "https://www.bloomberg.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China’s AI Regulation in 2026: Enforcement, Guidance and Compliance - China Briefing",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcHNfRlNnclkyTFlra1lrUnZIMld3T0pLYUlYaWVlV3d0R3JldWs0YU1qTjVWdlRWMVVhYi1IbWkxYzR1VnNsbGhzbXFQZDBqbU9YZkVnQjA4c1BoSFgyZWVQZERqamcweEwtdXR0bEZuRDdvMUpjUVBMYXphLUwyUDgtcVk5TEhNV1pvQllyd3RWMnBfZUNEeg?oc=5",
+      "published": "Mon, 26 Oct 2026 11:42:06 GMT",
+      "summary": "China’s AI Regulation in 2026: Enforcement, Guidance and Compliance&nbsp;&nbsp;China Briefing",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T19:42:06+08:00",
+      "source_detail": {
+        "name": "China Briefing",
+        "url": "https://www.china-briefing.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "2026 Russia Energy Week Forum: A Wider Energy Trade Network Across Asia, Eurasia, Africa And The West: Analysis - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR19MdkpPR3VoZ1lIajBmWGhCcFlFbk1TakZPUi0wbmJIejZaQjBrMXNwOUlHSUk2MFZSN1Vibm1JUGd0ZTg3bzdnWXlYQmtfZTBFQ3hQY3RBV3FPX016eUtqSXQxRlpZLUZrM2toMFZDSmlJQzN0LWVaMHhSYU5hU1VjRk9DOW92OW53ZmdXRThJTGxmWS1nZUd3Ym85eHdwcGdCdThSX09LcXRBNkVwVGhicGUyZDZTY1NHRnZIdE1Bd3g0c0xLcHpaM3llaHRuXzl6U3pn?oc=5",
+      "published": "Mon, 26 Oct 2026 11:10:46 GMT",
+      "summary": "2026 Russia Energy Week Forum: A Wider Energy Trade Network Across Asia, Eurasia, Africa And The West: Analysis&nbsp;&nbsp;russia's pivot to asia",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T19:10:46+08:00",
+      "source_detail": {
+        "name": "russia's pivot to asia",
+        "url": "https://russiaspivottoasia.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
+      "link": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
+      "published": "Mon, 26 Oct 2026 11:00:42 GMT",
+      "summary": "As the US midterm elections approach, we take a look at data to see a true picture of the US economy under TrumpWith the midterm elections fast approaching, many Americans have the economy on their minds.US voters are exhausted by years of higher prices. Donald Trump won the presidency in 2024 on promises to lower inflation and undo the damage he said the Biden administration had inflicted on the economy. Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-26T19:00:42+08:00",
       "priority": 0.0,
       "category": "贸易政策RSS",
       "_incremental": "new",
       "relevance": "low",
-      "full_text": "This site displays a prototype of a “Web 2.0” version of the daily\nFederal Register. It is not an official legal edition of the Federal\nRegister, and does not replace the official print version or the official\nelectronic version on GPO’s govinfo.gov.\nThe documents posted on this site are XML renditions of published Federal\nRegister documents. Each document posted on the site includes a link to the\ncorresponding official PDF file on govinfo.gov. This prototype edition of the\ndaily Federal Register on FederalRegister.gov will remain an unofficial\ninformational resource until the Administrative Committee of the Federal\nRegister (ACFR) issues a regulation granting it official legal status.\nFor complete information about, and access to, our official publications\nand services, go to\nAbout the Federal Register\non NARA's archives.gov.\nThe OFR/GPO partnership is committed to presenting accurate and reliable\nregulatory information on FederalRegister.gov with the objective of\nestablishing the XML-based Federal Register as an ACFR-sanctioned\npublication in the future. While every effort has been made to ensure that\nthe material on FederalRegister.gov is accurately displayed, consistent with\nthe official SGML-based PDF version on govinfo.gov, those relying on it for\nlegal research should verify their results against an official edition of\nthe Federal Register. Until the ACFR grants it official status, the XML\nrendition of the daily Federal Register on FederalRegister.gov does not\nprovide legal notice to the public or judicial notice to the courts.\nNotice\nEnter a search term or FR citation e.g.\n88 FR 38230 FR 78782024-13208USDA09/05/24RULE0503-AA39SORN\nChoosing an item from\nfull text search results\nwill bring you to those results. Pressing enter in the search box\nwill also bring you to search results.\nChoosing an item from\nsuggestions\nwill bring you directly to the content.\nAgency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; NOAA Diving Program\nThis table of contents is a navigational tool, processed from the\nheadings within the legal text of Federal Register documents.\nThis repetition of headings to form internal navigation links\nhas no substantive legal effect.\nThere is no table of contents available for this document.\nPublic Comments\nEnhanced Content - Public Comments\nThis feature is not available for this document.\nRegulations.gov Data\nEnhanced Content - Regulations.gov Data\nAdditional information is not currently available for this document.\nDocument page views are updated periodically throughout the day and are\ncumulative counts for this document. Counts are subject to sampling,\nreprocessing and revision (up or down) throughout the day.\nPage views\n43\nas of\n10/25/2026 at 10:15 pm EDT\nOther Formats\nEnhanced Content - Other Formats\nThis document is also available in the following formats:\nThis PDF is FR Doc. 2026-21761 as it appeared on Public Inspection on\n10/23/2026 at 8:45 am.\nIt was viewed\n10\ntimes while on Public Inspection.\nIf you are using public inspection listings for legal research, you\nshould verify the contents of the documents against a final, official\nedition of the Federal Register. Only official editions of the\nFederal Register provide legal notice of publication to the public and judicial notice\nto the courts under 44 U.S.C. 1503 & 1507.\nLearn more here.\nPublished Document: 2026-21761 (91 FR 67300)\nThis document has been published in the Federal Register. Use the PDF linked in the document sidebar for the official electronic format.\nThe Department of Commerce will submit the following information collection request to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the date of publication of this notice. We invite the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. Public\n( printed page 67301)\ncomments were previously requested via the\nFederal Register\non August 12, 2026, during a 60-day comment period. This notice allows for an additional 30 days for public comments.\nAgency:\nNational Oceanic and Atmospheric Administration (NOAA), Commerce.\nTitle:\nNOAA Diving Program.\nOMB Control Number:\n0648-0822.\nForm Number(s):\nNOAA Forms (NF) 57-03-07, 57-03-09, 57-03-11, 57-03-38, 57-03-39, 57-03-41, 57-03-52, and 57-03-54.\nType of Request:\nRegular submission [revision and extension of an existing collection].\nNumber of Respondents:\n483.\nAverage Hours per Response:\nThe time for response varies depending on the collection instrument. The response times range from one minute to two hours.\nTotal Annual Burden Hours:\n232.\nNeeds and Uses:\nThis is a request for revision and extension of an approved collection of information. Minor edits were made to remove demographic information, clarify instructions, and simplify terminology on some of the forms associated with this collection.\nThe NOAA Diving Program (NDP) is administered by the U.S. Department of Commerce, National Oceanic and Atmospheric Administration (NOAA), and is headquartered at the NOAA Western Regional Center (WRC) in Seattle, Washington. The NDP provides the guidelines, policy, and training for all NOAA Divers, which includes all NOAA employees who dive, as well as contractors and volunteers, among others, who conduct diving operations.\nWith more than 300 divers, NOAA has the largest complement of divers of any civilian federal agency. NOAA Divers conduct operations in our nation's waters and beyond in support of NOAA's scientific research and operations. They are called upon to work in various conditions ranging from the warm, clear waters of a marine sanctuary to the cold, murky waters of a commercial harbor. The tasks NOAA Divers complete are as varied as the waters they dive in, with most divers supporting projects and research of the National Ocean Service (NOS), the National Marine Fisheries Service (NMFS), and the Office of Marine and Aviation Operations (OMAO).\nNOAA Divers are required to maintain a high level of proficiency, both in practice (in the water) and in theoretical understanding (academic learning) in order to continue to dive at NOAA. In addition, NOAA Divers must maintain medical fitness to dive and are required to send their diving equipment out for maintenance as scheduled. If requirements are not met, divers may become unauthorized to dive or suspended. In order to become NOAA Divers, candidates must first submit a diving physical to the NOAA Diving Medical Officers to determine if they are medically fit to dive. After that, divers must complete medical documentation annually to maintain authorization to dive. To maintain fitness to dive, it is imperative that divers recognize the need for a continual and aggressive exercise program that exceeds basic health maintenance standards.\nAffected Public:\nIndividuals.\nFrequency:\nOn occasion, as required.\nRespondent's Obligation:\nRequired to Obtain or Retain Benefits.\nThis information collection request may be viewed at\nwww.reginfo.gov.\nFollow the instructions to view the Department of Commerce collections currently under review by OMB.\nWritten comments and recommendations for the proposed information collection should be submitted within 30 days of the publication of this notice on the following website\nwww.reginfo.gov/public/do/PRAMain.\nFind this particular information collection by selecting “Currently under 30-day Review—Open for Public Comments” or by using the search function and entering either the title of the collection or the OMB Control Number 0648-0822.\nSheleen Dumas,\nDepartmental PRA Compliance Officer, Office of the Under Secretary for Economic Affairs, Commerce Department."
+      "full_text": "US voters are exhausted by years of higher prices. Donald Trump won the presidency in 2024 on promises to lower inflation and undo the damage he said the Biden administration had inflicted on the economy.\nIn Trump’s view, his plan is working. At a recent rally in Montana, Trump boasted about the current economy, framing it as a booming time for Americans. “We’re richer now,” he said. “We don’t have inflation.”\nEconomic data paints a different picture. Inflation, especially gas prices, has soared over the last year. The job market has been in stasis, and higher interest rates have meant it’s more expensive for Americans to borrow money for loans and mortgages.\nThese fluctuations have a concrete impact on the lives of Americans. A recent Harris poll for the Guardian found that a majority of Americans, including some Republicans, disagree. Nearly two-thirds said they believe the country is experiencing a recession, and many said higher prices had been a pain point. Americans are reporting having trouble saving, and a third polled said one surprise bill could sink them financially.\nHere’s what the data shows us about Trump’s second term so far.\nInflation\nThe rate of price increases has dramatically cooled since its peak in 2022, when the pandemic’s economic stimulus packages found their way into consumer prices. Inflation peaked at 9.1%, a 40-year high, in June 2022.\nIn January 2025, the month when Trump started his second term, inflation was down to 3%. By April 2025, it would be 2.3% – the lowest rate since 2021.\nThat’s when things start to get bumpy. After Trump placed tariffs on nearly everything that the US imports, inflation started to heat up again, climbing back up to 3% in September 2025. After many of his tariffs were paused and eventually found to be illegal, prices started going down again. In January and February 2026, inflation was back down to 2.4%.\nThe Iran war, specifically its impact on oil prices, has brought inflation back up to levels not seen since 2023. In May, inflation reached 4.2% and has hovered above 3.4% since.\nIt’s been nearly six years since Americans have seen inflation at a manageable 2% level. Price increases build up over time and can put a squeeze on budgets, which is why it’s such a sensitive point for voters during a crucial election.\nGas prices\nIn the Guardian’s recent poll with the Harris Poll, gas prices were the most common pain point for Americans, with 83% saying they are making a dent in their current finances.\nSoon after the war in Iran began, the strait of Hormuz, a key route that a fifth of the world’s oil typically passes through, was blocked off. Its closure has pushed up prices all around the world. Though the US itself is a major oil producer, prices have still surged since the war. The average price of gas was $4.32 per gallon in mid-October, according to AAA, nearly $1.30 a gallon higher than a year ago.\nEven for an oil-producing state like Texas, a gallon of gas is $3.81 compared with $2.64 a year ago. Meanwhile, drivers in California, a state that imports much of its gas from overseas, are paying $6.21 per gallon.\nMonthly job figures\nThe labor market is another metric used to measure the health of the economy, and while the US job market has seen some growth since Trump took office again, figures have fluctuated over the last year. In 2025, altogether 181,000 new jobs were added to the economy, compared with 2.2m jobs in 2024.\nEmployers have been dealing with a mixed landscape for hiring: harsher immigration policies, uncertainty from tariffs and higher prices for supplies have all meant slow job growth. The unemployment rate has remained low, though, at just over 4%. Economists call this a “low-hire, low-fire” economy, in which employers are neither hiring nor dismissing workers.\nS&P 500\nThough many Americans report struggling in today’s economy, a small group have never been wealthier. The stock market has continued to soar since Trump took office, recovering from dips seen during his initial tariff announcement and the early days of the Iran war.\nEconomists largely see AI investment as the leading factor in the stock market’s acceleration. Tech companies are spending billions of dollars investing in datacenters and for chips that are needed to power AI.\nWhile many Americans are invested in the stock market through their retirement and pension funds, this growth has really been a boon for the top 1% wealthiest Americans, who own nearly half of the stock market investments.\nEconomists say higher prices paired with an exuberant stock market have led to a K-shaped economy, where the wealthier have never felt richer while everyday Americans continue to deal with tightened budgets from high prices.\nInterest rates\nInterest rates are often not as noticeable to consumers as gas or grocery prices, which they come across every day. The impact that higher interest rates have on the economy takes longer to appear and runs deep. Interest rates shape how much Americans pay to borrow money – to run their businesses, pay off car loans and buy their homes.\nFor the Federal Reserve, shifting interest rates is the tool it uses to balance the economy. Raising rates can cool the economy, bringing prices down, though at the risk of hurting the job market. Lowering rates can stimulate the economy at the risk of leading to more inflation.\nWhen Trump entered office in January 2025, the Fed was in the middle of a series of interest rate reductions. Officials said they were seeing inflation cooling and slower growth in the labor market. Interest rates were at a range of 4.25% to 4.5% – 1% lower than they were a year ago.\nUncertainty around Trump’s new tariffs would ultimately lead officials to pause the reduction, though the president was still demanding lower rates. As tariffs proved to have less of a long-term effect on prices, the Fed started lowering rates again in fall 2025.\nFor months, the Fed held off on changing rates as the economic impacts of the war of Iran bore out. But in September, the Fed hiked rates for the first time since 2023, by a quarter point. The Trump-appointed Fed chair, Kevin Warsh, said that “inflation is too high and has been for too long”.\nHigher interest rates have already had an impact on mortgage rates, which had dipped down to below 6% (for a 30-year mortgage) for the first time since 2022, in February, but are now up past 7%."
+    },
+    {
+      "title": "Should we tip on takeout? We weighed all angles and the answer is …",
+      "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/26/tipping-etiquette-takeout-food-delivery",
+      "published": "Mon, 26 Oct 2026 11:00:41 GMT",
+      "summary": "Adding gratuity doesn’t always make sense, but the obligation to has been entrenched as a societal normYou arrive at a pizza place to pick up your order. The credit-card screen asks if you would like to tip and gives some choices. It seems strange to tip the cashier, who did nothing but hand over the pizza. But it also seems a little harsh to select “no tip” instead of one of those more generous options.What’s the right thing to do? Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-26T19:00:41+08:00",
+      "priority": 0.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "You arrive at a pizza place to pick up your order. The credit-card screen asks if you would like to tip and gives some choices. It seems strange to tip the cashier, who did nothing but hand over the pizza. But it also seems a little harsh to select “no tip” instead of one of those more generous options.\nWhat’s the right thing to do?\nStart with the situations where our instincts are clearest. Tipping is normal at restaurants, in taxis or after haircuts. We don’t usually tip when we buy fast food, ride on a bus or have the plumbing fixed.\nWhat explains the difference? One way to think about it is through economics. A server’s pay, in effect, is split in two: a salary paid by the restaurant, and a tip paid directly by you, the customer. But why do you get a say in the server’s pay when you don’t have that role in other cases?\nThe logic is simple: you’re in a better position than the restaurant owner to judge the quality of the service.\nYou know whether the server was fast or slow – so your tip rates it as baseline, above baseline or below baseline. A low tip, though, can feel confrontational: you’re delivering your verdict in front of the person you’re judging.\nAnd it’s not just restaurants. A cab company knows how far the driver went, but not how well the car was driven. You know that, so you leave a tip. The owner of a hair salon knows how many customers were served, but not whether they were served well. Or take housekeepers at a hotel: you don’t watch them work, but you still know something the hotel doesn’t know: how big a mess you left behind.\nThe common thread is that you know something the employer doesn’t. And that gives you a role in deciding how much the worker gets paid.\nBut what about the places where we don’t tip?\nYou don’t tip the cashiers at a fast-food restaurant. Why? The company trains the staff to say the same things every time, then watches them. You don’t see much that the company doesn’t. And the cashier works behind a counter where the pressure to keep moving is already strong.\nWhen you ride the crosstown bus, you don’t usually see anything important the bus company doesn’t, and the prospect of being tipped probably wouldn’t change what the driver does. So you don’t tip.\nOr a company sends you a plumber. You might know whether the problem got fixed, but not whether the plumber worked efficiently or cut corners. Since you don’t know anything the boss doesn’t, there’s no reason to give you a direct role in setting the agent’s pay.\nCompare this with a case where the plumber has to climb long stairs to reach you or face off against a scary dog. Here, you do know about hidden hardships – hidden from the plumber’s boss, that is – so tipping is a sensible economic gesture as well as a kind one.\nStill, the theory only gets us so far. Why don’t people usually tip employees of airlines, front-desk workers at hotels or baggers at the grocery store?\nMaybe it was a mistake to imagine that there’s one explanation for tipping rather than many of them – and that they change across time and place. In some cultures, there’s little or no tipping, and a tip might even be considered an insult.\nIn fact, our theory above was a better fit in the United States 20 years ago than it is today, because invitations to tip have become more common in places where customers know little that management doesn’t already know.\nSo why is the pizza place asking you for a tip in the first place?\nSome people imagine that the business is trying to get out of paying its clerks what it should; it’s foisting that job on to its customers. But that’s probably the wrong way to look at it. Clerks decide whether to take jobs and keep them based on the total pay they take home, wherever it comes from. Adding tips to their pay, in the long run, will probably hold down the base salaries that they’re paid.\nLook at it this way: if all tipping were banned tomorrow, you’d expect the base pay of servers to go up soon afterwards, along with prices on the menu. Otherwise the loss of tips would just be a pay cut; and if restaurants could pay less to their servers without losing them, they’d presumably (alas?) be doing it already.\nMore likely, the takeout place just needs to somehow raise its prices. They think you’ll react better to an invitation to tip than you would to a more expensive menu, though it comes to the same thing. You’ll use the menu to decide what to buy and won’t think about the tip. Then when tipping is invited at the end, you won’t tell yourself the cafe raised its prices. You’ll just think the culture is changing: everyone wants a tip nowadays! But in effect, the invitation to tip is just a price hike that the owner is hoping you won’t view that way.\nThere’s another oddity: the timing of the request. An unfamiliar invitation to tip sometimes comes early, when some of the work you’re buying hasn’t been done yet. This might give the server a chance to see your tip before performing and then retaliate on the spot with sluggish service if you seem ungenerous, or do a good job if you’ve been nice.\nThis order of operations isn’t very consistent with the idea that you’re tipping in order to rate the quality of the work done.\nSo what should you do when the screen asks you to tip?\nIn those new settings – bakeries, coffee shop, fast-food places – your choice can function as a kind of vote – not on the quality of service, but on tipping itself. Leaving a tip accepts the invitation to help set the pay and encourages the arrangement to continue. If you don’t tip, you’re saying that you’re against using tips as a way to divide decisions about pay in this situation.\nBut once tipping is customary – not auditioning for acceptance, but entrenched – then you should tip, at least usually. The obligation isn’t set by law, but you consent to it when you eat at the restaurant. The owner is saying, in effect: your obligation to pay for this meal will be a combination of laws (that make you pay the check) and norms (that make you pay the tip).\nYou should play by the rules that the business has set or not play at all, even if the rules might seem to defy your theory, or any theory, of when tipping serves a good purpose. But when deciding what to order or where to eat, just remember: 20% of the cost (or whatever the customary tip might be) isn’t shown on the menu.\nTo put this more generally: if you run into a norm that you aren’t sure you like, ask whether you’re in a position to help shape it or whether you can only decide whether to go along with it.\nThe bottom line: tipping for takeout doesn’t make sense as a custom. It should be resisted unless it’s entrenched, at which point it’s best viewed as part of the bargain.\nPut differently, we would vote against the idea; but having lost the vote, we go along with it.\n- Ward Farnsworth is a professor at the University of Texas school of law, and Saul Levmore at the University of Chicago law school. This is an edited excerpt from their new book, Should You Tip for Takeout? Solving the Puzzles of Everyday Life, out now"
+    },
+    {
+      "title": "The Treasury COINS Some Excessive Restrictions - The American Action Forum",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVlNKUFJVZ1ZhM3hGMWROWGdYeW9uWEt1TkhSTVk0Z1RoZHhVZHU5ZkE4S1lhN0F6RXRESkJIQlhMUEd1Z1JqSmQ4SUg1dGp2bExfd0JpUmY1bEIwb3U3MzZHRGI2aXU5WTlXeVBaUXJFdDlkak5kZEotS3U4Tm5JMjV5bEprWnVyWkFtNXF4c2NERXVGQ2hkS1BR?oc=5",
+      "published": "Mon, 26 Oct 2026 10:38:38 GMT",
+      "summary": "The Treasury COINS Some Excessive Restrictions&nbsp;&nbsp;The American Action Forum",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T18:38:38+08:00",
+      "source_detail": {
+        "name": "The American Action Forum",
+        "url": "https://www.americanactionforum.org"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India, Netherlands discuss deeper cooperation in semiconductors, critical minerals, clean energy - https://www.indiagazette.com/",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS1hRS2JDTVp6bk4yYWdIYWczWVBOUWxKRDFtemQ5TGV1ZGJVN1F6OUNfMU92THR3ZVJLRFhYTG1wRXlTNzByYmR6YzZUOVVoUUxkb2VqVGJQUHZLOFFiUDZyczB5MEtuaXZQOTcwQ3N0WWdnM3J3ZVF4c3BYSVM0d2U1VHFtTFR1eTFpMEsxVXFSMXhJVGtTMEtGeXZ4bmp5REMzTWJtUkRqa1BxU1dpaWQ5bC1tb0xHVXN2QjMtVTdGUncyU3ZESUFCZjFXUnJibF9N?oc=5",
+      "published": "Mon, 26 Oct 2026 10:37:00 GMT",
+      "summary": "India, Netherlands discuss deeper cooperation in semiconductors, critical minerals, clean energy&nbsp;&nbsp;https://www.indiagazette.com/",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-26T18:37:00+08:00",
+      "source_detail": {
+        "name": "https://www.indiagazette.com/",
+        "url": "https://www.indiagazette.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "European gas prices soar to four-year high over winter supply fears",
+      "link": "https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east",
+      "published": "Mon, 26 Oct 2026 10:35:24 GMT",
+      "summary": "Jump fuelled by fears of further Middle East supply disruptions amid reports of US-Israeli plans to strike Iran  European gas prices have jumped to levels not seen since 2022 as fears continue to grow around the continent’s supply this winter and the conflict in the Middle East.Wholesale gas prices hit €97 (£81) a megawatt-hour on Monday, as temperatures across Europe fell and traders priced in stronger demand for heating. Continue reading...",
+      "source": "Guardian Business",
+      "published_beijing": "2026-10-26T18:35:24+08:00",
+      "priority": 0.0,
+      "category": "贸易政策RSS",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "European gas prices have jumped to levels not seen since 2022 as fears continue to grow around the continent’s supply this winter and the conflict in the Middle East.\nWholesale gas prices hit €97 (£81) a megawatt-hour on Monday, as temperatures across Europe fell and traders priced in stronger demand for heating.\nThe UK’s month ahead contract also rose by 4% to 240p a therm, its highest level since December 2022 when prices were rocketing after Russia’s full-scale invasion of Ukraine.\nThe jump in gas prices comes as fears grow that there could be further supply disruptions in the Middle East, amid reports the US and Israel have drawn up plans for renewed strikes against Iran after the US midterm elections.\nThose reports helped send the oil price as high as $117 a barrel on Friday. The international Brent crude benchmark retreated about 2% on Monday but remains at nearly $115 a barrel.\nEurope is also facing a shortage of stored gas reserves as it heads into winter with stores at their lowest level in more than a decade owing to a slowdown in exports from Qatar and an increase in consumption in the summer to power refrigeration and cooling. European storage is now about 75% full, against a seasonal average closer to 80%.\nBritain’s energy regulators have said the country is expected to pay some of the highest energy costs in Europe this winter amid a reliance on imports to ensure a steady supply. The UK has some of the smallest gas stores in Europe after decades of relying on homegrown production from the North Sea.\nThe UK paid a record £4bn on power imports over the year ending in August, according to figures from the Office for National Statistics, of which half was spent on electricity imported from France.\nIt has also made near-record payments over the past year to fire up gas plants while wind and solar farms have been paid to turn off because of bottlenecks in the grid.\nMeanwhile, British households face growing energy bills, which are predicted to rise 16% in January to reach the equivalent of about £2,000 for the typical annual dual fuel bill.\nEuropean stock markets rose slightly on Monday on the weaker oil price, with the Stoxx Europe 600 – which tracks the biggest companies on the continent – up by 0.3% in early trading on Monday. The UK’s blue chip FTSE 100 rose by 0.4%."
+    },
+    {
+      "title": "BYD Says It Won’t Let EU Tariff Hikes Sway Europeans’ Choice of Its Cars - Electric Vehicles",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdUNqMHpvVjIwOE12M2E3YWdXYmxaR202SWJhMFY1VUdRREJMempzX2VhcUI4YjRGUnBqMjN5THV0OE5lWWgxWEczbldNUVQ3V210clhWckk1S05XOW1NdnFtSlBTd2FxamljZ2VSVGY0bmI3cTRwUTd3aEtwdFVNb3lhd3NiQ2J2NXI5UFpER0xlTVV5WnZKVm8xNHlsMnBIeFpGdzlpcw?oc=5",
+      "published": "Mon, 26 Oct 2026 10:07:00 GMT",
+      "summary": "BYD Says It Won’t Let EU Tariff Hikes Sway Europeans’ Choice of Its Cars&nbsp;&nbsp;Electric Vehicles",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T18:07:00+08:00",
+      "source_detail": {
+        "name": "Electric Vehicles",
+        "url": "https://eletric-vehicles.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "GUR discloses data on foreign tech equipment used by Russian ballistic missile makers - Interfax-Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93REZNZFhUWEVpMHZ4TnRnVjNfV0s1ekRfclQ4Wk1QNzJEb09sWGpxLVIxdTZYYS1tZV9VNEE2VUhlOWI4QkthenVvM09pTWpFVE1LU3NRN0Q5N1lJb1MyRVNRSElLem_SAWdBVV95cUxPd0RGTWRYVFhFaTB2eE50Z1YzX1dLNXpEX3JUOFpNUDcyRG9PbFhqcS1SMXU2WGEtbWVfVTRBNlVIZTliOEJLYXp1bzNPaU1qRVRNS1NzUTdEOTdZSW9TMkVTUUhJS3pv?oc=5",
+      "published": "Mon, 26 Oct 2026 09:12:35 GMT",
+      "summary": "GUR discloses data on foreign tech equipment used by Russian ballistic missile makers&nbsp;&nbsp;Interfax-Ukraine",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T17:12:35+08:00",
+      "source_detail": {
+        "name": "Interfax-Ukraine",
+        "url": "https://en.interfax.com.ua"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russia uses Chinese and Western machinery to produce ballistic missiles, Ukrainian intelligence says - Hromadske",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd1cxemlfSElFWjRnVDJZYkFqVzhPNFg1akxxdDZzaE4xV3RGQWNiUnZnY3BMdlVVbHVjaU5JV3MzMU8xWjdzTWtid1J3Y3JKODlOalFNZUJmY1JDXzNmY3htOHJaRnBTQk9GcXAyWHZRWl9JeVVRQ28wMEFrN2tidUMzbE1lYkRBQ3Z4aGhqd1cyaXdpbW4xcUxaVXVPXzcwT3ZLdUxNS2xXU0d6eER1ZHRtc2lyYllDaTVLZTI5cDdJdkVDZEhsMy1IaElOSm9IR3dFLdIB1AFBVV95cUxNd1cxemlfSElFWjRnVDJZYkFqVzhPNFg1akxxdDZzaE4xV3RGQWNiUnZnY3BMdlVVbHVjaU5JV3MzMU8xWjdzTWtid1J3Y3JKODlOalFNZUJmY1JDXzNmY3htOHJaRnBTQk9GcXAyWHZRWl9JeVVRQ28wMEFrN2tidUMzbE1lYkRBQ3Z4aGhqd1cyaXdpbW4xcUxaVXVPXzcwT3ZLdUxNS2xXU0d6eER1ZHRtc2lyYllDaTVLZTI5cDdJdkVDZEhsMy1IaElOSm9IR3dFLQ?oc=5",
+      "published": "Mon, 26 Oct 2026 09:10:00 GMT",
+      "summary": "Russia uses Chinese and Western machinery to produce ballistic missiles, Ukrainian intelligence says&nbsp;&nbsp;Hromadske",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T17:10:00+08:00",
+      "source_detail": {
+        "name": "Hromadske",
+        "url": "https://hromadske.ua"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lee says South Korea unlikely to join CPTPP trade pact, prioritizing local industries - The News International",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYXV1LUxNdV92ZWJ0V2FyVWx5VWpEWm9LNXFaRDh1Q2VFQ3RCWGJBME5ISGZuSko5cGwyVnhPYS1COFZ6WDJwQ182bFY3d0twNEw5TjRLa3Uzb3E5S2laMFJ2X2NvMjZGeG1tWGowaTVWdG5nOTdXbXFKZlNRbUZzZTdiM0ZDbk9UeFdSdlVGWFU2UXVPcHZXV3VISHd5LTgyZHRlYnFWSDJFQzVWQU9kTXBMNkhQV01xVC1GLXZqTTN0UWg5?oc=5",
+      "published": "Mon, 26 Oct 2026 08:56:00 GMT",
+      "summary": "Lee says South Korea unlikely to join CPTPP trade pact, prioritizing local industries&nbsp;&nbsp;The News International",
+      "source": "GNews | CPTPP",
+      "published_beijing": "2026-10-26T16:56:00+08:00",
+      "source_detail": {
+        "name": "The News International",
+        "url": "https://www.thenews.com.pk"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chinese equipment powers Russian ballistic missile production ᐉ News from Fakti.bg - World - Fakti.bg",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbnBWNjc1NVJvMGgxVmxpaE1YMmRXSEhLWWFFRUVqOXlnN1NoOTFSeW5wQjExeGJaVjh5R3hVcWRoVmRnS2tHWnM2dGs2c1Q2TUdrQzNxYWV0VGJrLVdrT3hzWjg0REh4Sm5RN0pNbWNDcVhaQnp0SHN3OVo1bHE1NmdvNWF6aHNUam5kdEV2a2lyTENOOHl6bTBwdw?oc=5",
+      "published": "Mon, 26 Oct 2026 08:23:00 GMT",
+      "summary": "Chinese equipment powers Russian ballistic missile production ᐉ News from Fakti.bg - World&nbsp;&nbsp;Fakti.bg",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T16:23:00+08:00",
+      "source_detail": {
+        "name": "Fakti.bg",
+        "url": "https://fakti.bg"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Main - Odessa Journal",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNakh0RE9nWHJBUXUtWm1xVW5GWGsxX3djZkU3X1BXS3pLUnU2SFl0QjdPdFZXbTZJempUWE0xQ1dmVlA4a2lLSVhLQ3VlMVlnRVhuYWVuTnFxcm1SVWRYOHFBWW54QzlhaHBoUDh2ZUtyeHdDX08yampobG5KY1hNVGwxcjAyNTM2SkNiWHNtMm9SMG5jVzFzYkFMeThHekdiei1wU2JPZnl1OXd0Zk1LZFZ3OFRBV1VaUjFGZVRfWm5VUHZneWplR25UTFpfZw?oc=5",
+      "published": "Mon, 26 Oct 2026 08:20:11 GMT",
+      "summary": "Main&nbsp;&nbsp;Odessa Journal",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T16:20:11+08:00",
+      "source_detail": {
+        "name": "Odessa Journal",
+        "url": "https://odessa-journal.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcnMwZDA3ajN3Ums0S3RVaDR3eXJ4TnFua3NnUHFOb2VuV3NJaVVXeVRKZ2d1VmxBS0ZVVmZkbE5OalJQVkdQZnhSTXc0UGpzaUYySzF6eDhLQ0xid2VYWkM1VFdKemtub2ZsZ1VZNm10OE5KZ0VKUjdXMzhHN1hibUhTbVVJWWVRY1dvZW8wcU1ONGlvMk1Sa0hERENZX1Y5RWhRX3NvbzR3bVRwVWF6UURDUWU5aG5QdC03bWVmS3lXT3ZwNnVteTQtZERtZnl0dmJr?oc=5",
+      "published": "Mon, 26 Oct 2026 07:12:20 GMT",
+      "summary": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake&nbsp;&nbsp;Business Insider Africa",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T15:12:20+08:00",
+      "source_detail": {
+        "name": "Business Insider Africa",
+        "url": "https://africa.businessinsider.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lee orders South Korea not to apply to CPTPP this year — Korea Herald - UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0FtTkRUdlFXWEpReWpyVXJ3OEVKbW9VTjhob0Fid01iSmZ5aDlVLVJMUHBkT3lhb290MFVLaGZZR3hBZHNhUV9nS0dCMXhGQ3ZOd1BfQWpDRFZLYnRKT3ViUTl6OEprdzBtUWtBQWgtU2lwcUZkY0lLZUNBNzdLUnhyREN3OXptMWNhQnNwY1FTT2NlQVdDOWtqWEs4WTFVUnVBVzFkQlpVOVE?oc=5",
+      "published": "Mon, 26 Oct 2026 06:50:53 GMT",
+      "summary": "Lee orders South Korea not to apply to CPTPP this year — Korea Herald&nbsp;&nbsp;UA.NEWS",
+      "source": "GNews | CPTPP",
+      "published_beijing": "2026-10-26T14:50:53+08:00",
+      "source_detail": {
+        "name": "UA.NEWS",
+        "url": "https://ua.news"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lee backs CPTPP entry but rejects unfair burden on farmers, fishers - The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9aVWVOSlhtelQ0VndoeVRxU2RiLThxWmVRX3VtLURLU1ljY1pEZTJOMWNnVWVjWUdHVXZOYm1yeU54Y1RTNkQydUNZMTE2S0tPdmFPdk5OTQ?oc=5",
+      "published": "Mon, 26 Oct 2026 06:35:58 GMT",
+      "summary": "Lee backs CPTPP entry but rejects unfair burden on farmers, fishers&nbsp;&nbsp;The Korea Herald",
+      "source": "GNews | CPTPP",
+      "published_beijing": "2026-10-26T14:35:58+08:00",
+      "source_detail": {
+        "name": "The Korea Herald",
+        "url": "https://www.koreaherald.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[SMM PV Flash] 30 kt! PV Silicon Surface New Material Project Renewed - Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSURtVUhURmdTbmZzS3plX0EycjAwVHA2YktzTnVGeVJxZy1oOUpaQzhjNmZsaEFPSXdhUUhzSWV3YU43NW90ZFRYRzVSNGJpcW4wemd6ZDBNY0dSTi0zQ1c3b3BTaXRoeVBzeWxTV2tqMFRTd1RkTFY2VDR1cmJ5dmlqR0VIbGxMaDlEX2pXaUIyNWZwVFl3OUZBa1FPMjAtSHJWUk8tUU5mdTA3NElYMw?oc=5",
+      "published": "Mon, 26 Oct 2026 05:42:00 GMT",
+      "summary": "[SMM PV Flash] 30 kt! PV Silicon Surface New Material Project Renewed&nbsp;&nbsp;Shanghai Metals Market",
+      "source": "GNews | Anti-dumping",
+      "published_beijing": "2026-10-26T13:42:00+08:00",
+      "source_detail": {
+        "name": "Shanghai Metals Market",
+        "url": "https://news.metal.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "No tailwinds for India: US and China are squeezing India’s rise - Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0FwMGxfQkgwYVBfN3EwT05neHBFUkluSmNSazlrRUoxcW1yeU1QeXNnQVowaWljMC11dVFpdmFZRDBaZ3VfaVhfWmNDYXVSbzBuNW5qZnQwSXhKalJHWnFoRzRpNU9XX3ZGN1dtLUVsSTVVOWFOd1Y1cEdEbldmOElRM2IzS2VSMk4tM2ZlaUVjWkRvNk1vNXhOVTJyWVVDMEpRRGVkSlJZSzJSZnfSAbMBQVVfeXFMT3ZhZ3ZVeHEyRlZneF9TNkFyc0ZtdmxfTXJiNmdzSEdzOVBRSlZhc1ZPdHNBZmVfQkhmV1NsUm9XdFR6NUp4eWFNNmNNb3Nmb2NBZnRtZ1FfdGE5LVZ1aDMxX05Ua0d3TE13NTFUZThTVm1QSXVadGpEZXJaNElTUmZ6SmRxQ3JmYjd6UmJ5WEpqNzEzWTN4T0g3ZHQ4cUdYWGtPZkZYandRM18yVEhNa1RDNGs?oc=5",
+      "published": "Mon, 26 Oct 2026 05:40:16 GMT",
+      "summary": "No tailwinds for India: US and China are squeezing India’s rise&nbsp;&nbsp;Firstpost",
+      "source": "GNews | CN Exporter Impact",
+      "published_beijing": "2026-10-26T13:40:16+08:00",
+      "source_detail": {
+        "name": "Firstpost",
+        "url": "https://www.firstpost.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India, EU seek to fast-track FTA signing in December - Times of Oman",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSUN4ZEd5OWVuZlZ3WW9PTm9vX1FieFdPd2ZmSDRlSk1Ka0RNQlcyUWxmWVIzSWZFWnBCY3pVdzBhVmQyVWF0YjZDUEhaT1lfcGphVlNrcWRwdGlsNnFubWswTHhpbExpZ3VCVXVhc1RQS0RfWmVkeW1vNWNULXc0MXlWZzVjalBlLS1DazViUUhFcXQ3?oc=5",
+      "published": "Mon, 26 Oct 2026 05:26:00 GMT",
+      "summary": "India, EU seek to fast-track FTA signing in December&nbsp;&nbsp;Times of Oman",
+      "source": "GNews | FTA",
+      "published_beijing": "2026-10-26T13:26:00+08:00",
+      "source_detail": {
+        "name": "Times of Oman",
+        "url": "https://timesofoman.com"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russia’s War on Ukraine Is Straining Food and Fuel Supply - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KS25wTEw0YXIxWE1yOWFVYlQ3T2RsaDBIb0hzdG5pSnZvR090eXVmTHVQVnZXbXVtQzdUdDBOb2prZEo3a3Z0eVF2VWhzb0o5dThndUFZWGtDRW0zRzlRejhaelozaE1yR2NUZFpLTVZpenVoVGRrRDJjMA?oc=5",
+      "published": "Mon, 26 Oct 2026 05:02:49 GMT",
+      "summary": "Russia’s War on Ukraine Is Straining Food and Fuel Supply&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | Export Control",
+      "published_beijing": "2026-10-26T13:02:49+08:00",
+      "source_detail": {
+        "name": "Bloomberg.com",
+        "url": "https://www.bloomberg.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "As the (Customs and Trade) World Turns: October 2026 - ArentFox Schiff",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcHlDSDNGMVJtc3lHNkJyZ0hRTFkzSm01NHZrNHdlQndqdmNuMFZvT0NRNUR4R3JaTldsLTdOQXo4T185eWRSUU5zVHRCUk9UWklmTTNxTFk1NkpHY1cyQ1hpWHo5SEhBcjF5SVN2T1hGa2xjdXJZSUZ6N2w5NE9fUjN2MlZ5SlBSOWlFN2pZWEk4Y1dWOTZnY3dUM2RnYWFNbTgwbkhDTnJMaHJCdmZqTi1UQQ?oc=5",
+      "published": "Mon, 26 Oct 2026 05:00:00 GMT",
+      "summary": "As the (Customs and Trade) World Turns: October 2026&nbsp;&nbsp;ArentFox Schiff",
+      "source": "GNews | Section 232",
+      "published_beijing": "2026-10-26T13:00:00+08:00",
+      "source_detail": {
+        "name": "ArentFox Schiff",
+        "url": "https://www.afslaw.com"
+      },
+      "priority": 0.0,
+      "category": "贸易管制",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Implementing the RCEP Agreement: Leveraging Benefits and Enhancing Business Competitiveness - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNm9oTkhpeERrYWk4UHVrYmU5eHE1Rm16dWQ3dnFDMnZWM1V0UkdCLWxJMGJJelFjWkNiTThURE8tRzYzV2ExTFNSRzRoRGg0Q0pIdENXSnlPenpNMlBnT2ZUWEhjMUtuR0NnckRLM2tKeFBxQ2p2bDVQalJ2WF9hV1djUFNHLTVJZHdLaXp6WEwtM0lGMFBPMXVFNjJWdlNvTWY1ZlVpbkY2aG9BR1ljOTJn?oc=5",
+      "published": "Mon, 26 Oct 2026 04:53:25 GMT",
+      "summary": "Implementing the RCEP Agreement: Leveraging Benefits and Enhancing Business Competitiveness&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | RCEP",
+      "published_beijing": "2026-10-26T12:53:25+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 0.0,
+      "category": "自贸协定+原产地",
+      "_incremental": "new",
+      "relevance": "low"
     },
     {
       "title": "As the U.S. and China form AI blocs, countries are increasingly torn between them - 朝日新聞",
@@ -630,45 +1183,13 @@
     {
       "title": "Lula Wins Brazil’s Runoff: Will Trump Escalate Tariffs and Sanctions? - Diplomacy and Law",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91UFlteXdRbnduOC1rQnRMZ0xLSnp3dDUxWFRDZnlGbHoteU01N2RReUk4UXZYZGN0akp6bWdyaDZfZWVvVHhUOWhkZlJCajlzSWZiYnJHZmR1RFhnVVJvOXJYdw?oc=5",
-      "published": "Mon, 26 Oct 2026 01:31:03 GMT",
+      "published": "Mon, 26 Oct 2026 01:32:06 GMT",
       "summary": "Lula Wins Brazil’s Runoff: Will Trump Escalate Tariffs and Sanctions?&nbsp;&nbsp;Diplomacy and Law",
       "source": "GNews | Section 232",
-      "published_beijing": "2026-10-26T09:31:03+08:00",
+      "published_beijing": "2026-10-26T09:32:06+08:00",
       "source_detail": {
         "name": "Diplomacy and Law",
         "url": "https://www.diplomacyandlaw.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Italy has announced the results of its second FER2 auction for floatin - Shanghai Metals Market",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY1lkcmtteHd5T1pzRFY5MW83Wk1vc3VrSWI5UmtheTVLbkMxU3UxbGttTnJobld5eTRtVG1aU01BeFRNd3ktdVpEN2VvdEFvVTlrcnhWT1JSWFZOXzU2VURDQS1KSmg1SlRzdHF3MlZSZ245X3VIOVFuRUZiZDV2S1JlbGNrNGFhZzNjOVQwRGRSMkJhb2xIMUtzd3Y0ZERGZy1iZjhjTWRfVE5RY1A5ak9TMHBrcy1aR09EdDQtNA?oc=5",
-      "published": "Mon, 26 Oct 2026 01:24:00 GMT",
-      "summary": "Italy has announced the results of its second FER2 auction for floatin&nbsp;&nbsp;Shanghai Metals Market",
-      "source": "GNews | Anti-dumping",
-      "published_beijing": "2026-10-26T09:24:00+08:00",
-      "source_detail": {
-        "name": "Shanghai Metals Market",
-        "url": "https://news.metal.com"
-      },
-      "priority": 0.0,
-      "category": "贸易管制",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Washington's 'shutdown' is choking off its own future - People's Daily Online",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yYnpSaEhvRU9zZmQ3RUN3Z2txdnp1SC0tQmp4ZGxIYlNyMGl0Y1duU0pUeUZtOHdVcFJfSDhDTEZzaXBvVVFOQy1zeXgzUmYzR1JqcDRMSVAyQXRDenZoT1phbw?oc=5",
-      "published": "Mon, 26 Oct 2026 00:42:00 GMT",
-      "summary": "Washington's 'shutdown' is choking off its own future&nbsp;&nbsp;People's Daily Online",
-      "source": "GNews | Export Control",
-      "published_beijing": "2026-10-26T08:42:00+08:00",
-      "source_detail": {
-        "name": "People's Daily Online",
-        "url": "http://en.people.cn"
       },
       "priority": 0.0,
       "category": "贸易管制",

@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-10-26T03:41:20.347497+00:00",
-  "fetch_date_utc": "2026-10-26",
-  "total": 52,
-  "high_priority": 3,
-  "medium_priority": 25,
+  "updated": "2026-10-27T04:05:44.338315+00:00",
+  "fetch_date_utc": "2026-10-27",
+  "total": 43,
+  "high_priority": 1,
+  "medium_priority": 27,
   "signal_alerts": {},
   "stats_by_category": {
     "俄罗斯": {
@@ -13,15 +13,15 @@
       "feeds": 3
     },
     "中亚": {
-      "count": 4,
+      "count": 8,
       "feeds": 3
     },
     "白俄罗斯+能源": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "战争+地缘": {
-      "count": 15,
+      "count": 9,
       "feeds": 2
     },
     "基础设施+科技": {
@@ -29,11 +29,11 @@
       "feeds": 1
     },
     "气候+人口": {
-      "count": 0,
+      "count": 2,
       "feeds": 2
     },
     "大国关系": {
-      "count": 32,
+      "count": 26,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -53,155 +53,414 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 12,
+  "fail_feeds": 8,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Russian Railways is exploring possibility of transporting vegetables from Turkey and Azerbaijan via Georgia - 1Lurer",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1jZDJzYUY1aFQtYUljRE5pZGdpd1hjWmxGYnkzUmhady16c1hmdUk4R2E0bmxncVBseEQtLTRfanRZVS16OGxMaA?oc=5",
-      "published": "Sat, 24 Oct 2026 16:42:00 GMT",
-      "summary": "Russian Railways is exploring possibility of transporting vegetables from Turkey and Azerbaijan via Georgia&nbsp;&nbsp;1Lurer",
-      "source": "GNews | Caucasus",
-      "published_beijing": "2026-10-25T00:42:00+08:00",
+      "title": "US lifts sanctions on Belarus potash chief as Minsk seeks help with EU - IntelliNews",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckZMVWpydmppd1BjWkR4aE1xZFR5LWFQTW9TbEhKTGZuWXNBb0RGZE9CZFFkaS1MMXJ4N0dUVnBDVjZpMzhibDZNM09RUnEyVGpsNzQydUY2Uko3cEliTzlsRWttLVRDSHI5SkxrX0ZRWktYTG5IRnBGTE9udHV4Q0Zmb1VqZlEwb3ZPVkVCWlpCQ2NmTy0tRFRDVWFsMHpzbjVMQjdSUUFmLWFrUmZhZHlic3I3UFFWaDlNWmVB?oc=5",
+      "published": "Mon, 26 Oct 2026 14:05:31 GMT",
+      "summary": "US lifts sanctions on Belarus potash chief as Minsk seeks help with EU&nbsp;&nbsp;IntelliNews",
+      "source": "GNews | BY Sanctions",
+      "published_beijing": "2026-10-26T22:05:31+08:00",
       "source_detail": {
-        "name": "1Lurer",
-        "url": "https://1lurer.am"
+        "name": "IntelliNews",
+        "url": "https://www.intellinews.com"
       },
-      "priority": 14.4,
-      "category": "战争+地缘",
+      "priority": 9.6,
+      "category": "白俄罗斯+能源",
       "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://1lurer.am/en/news/1588305",
-      "full_text": "Utilizing this route would require the restoration of railway traffic through Abkhazia—a connection that has been completely severed since the conflict in the 1990s. The issue of reactivating the Abkhazian section of the railway is periodically raised by Russian officials, but it consistently encounters a firm stance from Tbilisi."
+      "relevance": "medium"
     },
     {
-      "title": "Uzbekistan Proposes Stronger Links Between Central Asia and Russian Far East - UzDaily.uz",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjlEd2VzanJzdGI5dm1XNlMtdEctTTRqOS1EUmxoM1ptbW5mM0xncHpKMGlYVFhjZ3J5VmdPVWR1bUZOQXlMSnUwZUoydFQtMWk2cFdFQ0U2Sm1WYXVoTjdvVkNYNVN1QWJJMDdfVTNDaFpqZzd4UGRRb2JnUTRfQ1VTZDJ3ejY3ZmZ1eEFnQmlVV3ZQRy0xX1I5Tm4weGRqVmhSZnd3?oc=5",
-      "published": "Sat, 24 Oct 2026 13:30:00 GMT",
-      "summary": "Uzbekistan Proposes Stronger Links Between Central Asia and Russian Far East&nbsp;&nbsp;UzDaily.uz",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-24T21:30:00+08:00",
+      "title": "Experts in Bishkek assessed the risks of World War III for Central Asia - open.kg",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzZxTGZtLThNSVJ3SmZZbUl1VDZqVDByS0hqRm1KUUN0OGhhSXBlYjFwWHQ4TGNsSnFMSXNHWEdpNVZrMEJvb01nYUtHdnpXYlNFbGNwYTdmTVczQ1JCNnEzcVdSMWhQNDFyYTEzc3NnLWthNVNsNWRiMFFodldsM2syUjZCbWNEZHFseHFMMl9JMVNJbU9vZkVZcTFxLUhWSE16ZEdCV2d1Q0o4UFVsUUd5cm90Q3hyQ09mOFZweWRaaFlZUnc?oc=5",
+      "published": "Mon, 26 Oct 2026 04:57:06 GMT",
+      "summary": "Experts in Bishkek assessed the risks of World War III for Central Asia&nbsp;&nbsp;open.kg",
+      "source": "GNews | RU-CA",
+      "published_beijing": "2026-10-26T12:57:06+08:00",
       "source_detail": {
-        "name": "UzDaily.uz",
-        "url": "https://www.uzdaily.uz"
+        "name": "open.kg",
+        "url": "https://open.kg"
       },
-      "priority": 10.8,
+      "priority": 9.6,
       "category": "大国关系",
       "_incremental": "new",
-      "relevance": "high"
+      "relevance": "medium"
     },
     {
-      "title": "𝗞𝗮𝘇𝗮𝗸𝗵𝘀𝘁𝗮𝗻 𝘄𝗼𝗼𝘀 𝗞𝗲𝗻𝘆𝗮𝗻 𝗶𝗻𝘃𝗲𝘀𝘁𝗼𝗿𝘀 𝘁𝗼 𝗲𝘅𝗽𝗹𝗼𝗿𝗲 𝗺𝗮𝗿𝗸𝗲𝘁𝘀 𝗶𝗻 𝗔𝘀𝗶𝗮 Kazakhstan is wooing Kenyan investors to explore business opportunities in the resource-rich Central Asian country as it steps up efforts to strengthen bilateral ties and e - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMiygdBVV95cUxOXzF0ekw2cTU3MTFnczJIcm5WSmJ5TEFjYUY0MHloQTFiUmllQVltanRObzVpYkRseVJOaTROLTJydGY1M0c0Ym1FdnhsM21TRWhsOS1lQU5HVjh2M0pJY3IwTU9ySkNvYi1SV0pwUGFuZFAwbmtiYm05enRma2NFTWdHcWZOMW9VbUxWZEQxZmxlU055TUI1SVZ5dWtQX2xRdExlcFNIb3ZlcDV0Nl9rc3ZnbmRhS1FZNDBzOTdVSy1uNXVCS2VQaXVmZVE2WjIyTGpuTW5qeDVwa296clR3MC1nQ3RWTjRvXzN0dVpuS29IcURlcHJJc1FqSHFDWVUxNC1TdzI3S1Etbmt0aEdvTm92TzlsU3AyanE1WXpqdnNmUHhFYkxOWUdRRlFKWUxCMzl4TzBfRTROUTdMSDloYjhxQnFWX1U3Q2Q4alEwSVo5SjkzT0oxdFgweG0zd3dPb1puZl9oWV9SOE1uRmlOLUVsekNKaWNFNkRBRHZDeG5jbGFRb09hY3lFVWRMb0FiMDVUN1VjRFhrSV9YTjRtTC1oTlNVdHRGWktGSm5xem9CQVlNMzY0MF9UUHgzbGYxVFRGWXI2WE1aWnRjeTBERDBxdDNoaTlFY0hwYkhFbk9WMlNGYUk2Zk1hX2xzeFo1Z2g2S25md0FVbk5taDJrM1hwazNyTlFMS2pfenpvSVc4SmJWVWJ0M0hTUmFNSUFOUy1WNlFCYmxNd2wzcDBCdzdnRWRaTDRyZExxWi15TGxraG9GTnZYTVI0Y2hPd04wUy1QMmdRc2pWSXZaYUdpdWh3UzVYdTdnT2dUWEZFd19CYk9qbWZIRTdScGJpV2ZSVXNBUkppcWZ3dFZ0RUd0M0Z1Yk51alZlTm4xTFpQRTY1T2o5c2VHN3FQdnM3bHlJbEFKUmI5bWNJY0o1aDB5ZXY2emRBRjU5VV9HaUNWaUxnZ1Z0bnhWMUJtRHVEU20wMmhNaEJoWTREYzZwaVVIUUtueWJDaGFpaHNDZS12NDhCNWpoY3dlUlFSQklwbDZ0ek9lWm9LZ0s5eG9UVFhlb0gzejZ2RHI3eGVya0NFc2Q1VURKXzZDalVoQ1VqR0I5eHBnZWVzT2ppd2R3enFMOGlIWUJwNG9SZFl1U29UMDZENVJ1akJkVlBwaF9scUQ1WFlYdmpxaVVpaHV4RzBBaWUzTktHSERZY0k2QVZvbDlwYm1wcXBIcVJXZnhYNzBKNlgyRjZUQ1dnVWhyNXZ1LWc5SkpGVDlLQ2JrWFk2NThGMm11VGx5NDN3?oc=5",
-      "published": "Sun, 25 Oct 2026 17:33:30 GMT",
-      "summary": "𝗞𝗮𝘇𝗮𝗸𝗵𝘀𝘁𝗮𝗻 𝘄𝗼𝗼𝘀 𝗞𝗲𝗻𝘆𝗮𝗻 𝗶𝗻𝘃𝗲𝘀𝘁𝗼𝗿𝘀 𝘁𝗼 𝗲𝘅𝗽𝗹𝗼𝗿𝗲 𝗺𝗮𝗿𝗸𝗲𝘁𝘀 𝗶𝗻 𝗔𝘀𝗶𝗮 Kazakhstan is wooing Kenyan investors to explore business opportunities in the resource-rich Central Asian country as it steps up efforts to strengthen bilateral ties and e&nbsp;&nbsp;Facebook",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-26T01:33:30+08:00",
+      "title": "Russian is losing ground in Central Asian countries - intelligence reports - Ukrainian news",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWtWWElFa1VidDliaEt4cFR2R28tOFZqbVpkWG96eExDeTBxNXN4QndlUmRkclRFV0N2ek9iT3NpazVSbmR6YlJxbU9WeWxJSzB5d3Y0bXlOMDJrLUNvcE43eGZFSkc4SlZnYW1oOEZJWV9qNXp2Qno2cUF4Ulc0X2QyMEJIUmFwNmFVT3hyWDZGNl9pOUdSdlFGYXg5SDRCTHdUXzBGSGJVSjZPVXpWN29UTEsxTVV0cW5ybkY3QdIBxAFBVV95cUxNS0hkNXJqa1lZWlJsRkJhV00tUG9nSThkdUpWbmJITWJ1SnpvY2NrSmhVbjMtNTZ2Z0VUanJQVDNiUWJacVZlR1lyd2FKd1N2cGxmMXR4SVdZN2paejk0Tm5tSHo3TzVzYnp4dndrSEdMYXZRX0RLaVNvQWJ6bmZ5bGEwTE1uVFRQcHpaNmNxNFlwTERLMVo1RlpPVE8tQklfZGRGc3ZFQVpfZEl5eHloQkpncDNEekNhNDRuY2czSjcxbGh5?oc=5",
+      "published": "Mon, 26 Oct 2026 17:27:35 GMT",
+      "summary": "Russian is losing ground in Central Asian countries - intelligence reports&nbsp;&nbsp;Ukrainian news",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-27T01:27:35+08:00",
       "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
+        "name": "Ukrainian news",
+        "url": "https://ukranews.com"
       },
       "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "China and North Korea link new bridge to trade expansion and strategic cooperation - Business Upturn",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVA2LTRmRWZpZ3RRczM4V19IcXkyUlB0Y1FNTDlsejJjNXBoQng3TUhmNE5OcnI3WU9TX0NwajdlUGR5WlJxei1SeEJLWUpuNlF5NFU0Q1REZXVfNFVEY3N0WWRwQUVyOFVWenJLek5ydmFueUY3c1AzRk9HTDJlOGtGMW1kRThVYkV6M21ZUERHalZvTXVQcVk5VkZQb3QzVmRKNFMxaU1FM1VqSVVLZE5YMndpVWpHQVdIMGR0aC1iUExaT1dvT040cw?oc=5",
-      "published": "Sat, 24 Oct 2026 11:52:05 GMT",
-      "summary": "China and North Korea link new bridge to trade expansion and strategic cooperation&nbsp;&nbsp;Business Upturn",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-24T19:52:05+08:00",
-      "source_detail": {
-        "name": "Business Upturn",
-        "url": "https://businessupturn.com"
-      },
-      "priority": 6.0,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://ukranews.com/en/news/1183496-russian-is-losing-ground-in-central-asian-countries-according-to-intelligence-reports"
     },
     {
-      "title": "The US Courts Central Asia but China has a Head Start - Asia Sentinel",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM3R2Y3hEWFFzXzkycHJ5b3JiYk5PeTFITFhLWG5XdEc5cTN3ZXpWTnpWMVkwOFNyeldGbS1VcXoyTVRoX0tNWlZKWno2aVFZbGJaSUlqcElCalR5YjFwZjE3dGxRTXg3SlNJamVic2hhZUtCX0RYaHpoVy1xQVhxbg?oc=5",
-      "published": "Mon, 26 Oct 2026 01:23:45 GMT",
-      "summary": "The US Courts Central Asia but China has a Head Start&nbsp;&nbsp;Asia Sentinel",
+      "title": "Pezeshkian’s Moscow Visit: Russia and Iran Seek Greater Influence in the Eurasian Gas Market - SpecialEurasia",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JU1JWV3JyVEhqOWpZZEpqRHZsLXExNEQwYW1RaVZ5Skl2YVlheWRxOEIyM0xiVDlQUGNocE1zZzZocTFxdTVVbkdod3VROFdvckwyMVA3REZxV3ZiUW1SUXJxVmFUX1BBVjNBZHJTWDZmUEVrMGExcQ?oc=5",
+      "published": "Mon, 26 Oct 2026 15:39:38 GMT",
+      "summary": "Pezeshkian’s Moscow Visit: Russia and Iran Seek Greater Influence in the Eurasian Gas Market&nbsp;&nbsp;SpecialEurasia",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-26T09:23:45+08:00",
+      "published_beijing": "2026-10-26T23:39:38+08:00",
       "source_detail": {
-        "name": "Asia Sentinel",
-        "url": "https://www.asiasentinel.com"
+        "name": "SpecialEurasia",
+        "url": "https://www.specialeurasia.com"
+      },
+      "priority": 8.4,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "A First for Kyrgyzstan – Japarov’s Historic Visit to Armenia - The Times Of Central Asia",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTk2WlpBU3Z2U0xiN3VjdXROblVYSW9RS3dFaXFMaGNJQnRibGt6alQ5TkRtN2g1c3lQSDY0MTR0RkhzQjNDNlB4eHQ1YVhRWkZNel9MZ1hWR3VacXhtcnlmTTlHSXJnQ0V1OXVkVDB0ekZwemNoNVpuc0lxSEpBZUZNb1k?oc=5",
+      "published": "Mon, 26 Oct 2026 15:19:20 GMT",
+      "summary": "A First for Kyrgyzstan – Japarov’s Historic Visit to Armenia&nbsp;&nbsp;The Times Of Central Asia",
+      "source": "GNews | Caucasus",
+      "published_beijing": "2026-10-26T23:19:20+08:00",
+      "source_detail": {
+        "name": "The Times Of Central Asia",
+        "url": "https://timesca.com"
+      },
+      "priority": 7.2,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://timesca.com/a-first-for-kyrgyzstan-japarovs-historic-visit-to-armenia/",
+      "full_text": "For the first time, a Kyrgyz head of state has made an official visit to Armenia. President Sadyr Japarov arrived in Yerevan on October 15 at the invitation of Prime Minister Nikol Pashinyan and called the three-day trip “historic.” Talks remained firmly bilateral and produced ten signed agreements, a joint commitment to protect Lake Issyk-Kul and Lake Sevan (Armenia), and a stated interest in expanding transit links.\nNothing in Japarov’s statement framed cooperation as directed against any third country. He presented it in terms of trade, cooperation, and friendly relations, with dialogue and peace underpinning regional stability.\nJaparov opened his remarks by noting that Pashinyan had visited Kyrgyzstan twice this year, including the Eurasian Intergovernmental Council session in Cholpon-Ata in August. Pashinyan, for his part, said Japarov’s first official visit to Armenia would open a new page in bilateral relations.\nKyrgyzstan and Armenia have been independent since 1991, and both belong to the Eurasian Economic Union (EAEU), a five-nation bloc with a common market for goods, services, capital, and labor. Even so, their leaders have mostly met on the sidelines of multilateral summits.\nQuiet to Active Diplomacy\nUnder Japarov, Kyrgyzstan has abandoned its quiet diplomacy and begun taking a more active role in international affairs. This year, Japarov has traveled to Armenia (October 15-17), Azerbaijan (October 14-15 and May 17), Turkmenistan (October 8-9), the United States (from September 19), South Korea (September 15-18), Kazakhstan (July 29, May 28-29, and May 15) and Russia (April 23). He reached Armenia fresh from the Conference on Interaction and Confidence-Building Measures in Asia (CICA) in Baku, where Central Asian leaders linked trade and security issues.\nBishkek’s shift in foreign policy emphasis owes less to geopolitics than to economic necessity and a practical, non-ideological pursuit of national interests. Its commitment to dialogue, regional stability and good-neighborliness is central to a foreign policy aimed at win-win results.\nBiodiversity Diplomacy\nIn Yerevan, Japarov attended the opening of the Leaders’ Summit within the 17th UN Conference of the Parties on Biological Diversity (COP17). On October 16, he addressed the plenary, presenting initiatives on glacier melt and biodiversity in Central Asia, and met UNESCO Director-General Khaled El-Enany.\nAmong the specific proposals, Japarov recommended a special mountain program within the Global Environment Facility at the World Bank to fund environmental projects in mountain regions, and a UN-backed trust fund for Issyk-Kul, to which Kyrgyzstan proposed an initial $10 million contribution from its state budget. He also called for a Global Center for Mountain Region Resilience in Bishkek, where countries could share knowledge and experience on environmental protection. Japarov further backed a debt-for-nature swap mechanism, which would let countries use financial resources more effectively to protect ecosystems, and urged stronger regional cooperation to protect rare animals and birds.\nThe Yerevan Declaration followed the usual diplomatic template, restricted mainly to high-level language.\nJaparov invited Pashinyan to attend “Bishkek+25,” the Second Global Mountain Summit, on 21–23 October 2027, to mark the culmination of Kyrgyzstan’s Five Years of Action for Mountain Development.\nTransport at the Centre\nAs expected, Japarov “highlighted transport cooperation as one of the promising areas of interaction,” a view Pashinyan shared. Both countries are landlocked and depend on routes crossing other countries’ territory. Expanding these links could lower trade costs and open markets for exporters in both countries. Talks also covered agriculture, information technology, education and tourism, sectors that likewise depend on reliable connections.\nGeoeconomics\nAccording to press releases from the U.S. Department of State and elsewhere, the Trump Route for International Peace and Prosperity (TRIPP) is advancing, with Armenia’s parliament set to debate ratification of the U.S. framework agreement on October 27, following a committee review on October 21. The framework provides for a U.S.-Armenia joint venture, but Armenia still lags behind Azerbaijan: engineering surveys are only underway on its side, while Baku has nearly finished its connecting highway and railroad. Bishkek has a stake in moving TRIPP forward.\nMoscow has also weighed in. On October 15, after the CICA summit in Baku, Foreign Minister Sergey Lavrov was asked about Armenia-Azerbaijan relations and TRIPP at a press conference. He said Moscow welcomed normalization and is ready to join infrastructure projects, noting that Russian Railways holds a concession and operates the South Caucasus Railway.\nAccording to the Ministry of Foreign Affairs of the Russian Federation, Lavrov also promoted the 3+3 regional cooperation format initiated by Azerbaijan and Türkiye. The format brings together the three South Caucasus states—Armenia, Azerbaijan, and Georgia—with Russia, Türkiye, and Iran, although Georgia has not formally participated.\nIn the volatile South Caucasus, Japarov’s message was unambiguous: peace and stability underpin prosperity, and dialogue must intensify. Kyrgyzstan’s playbook is straightforward: build ties, expand cooperation, keep channels open, and stick to business."
+    },
+    {
+      "title": "Opinion: If Georgia’s Constitutional Court bans opposition parties, Russia will use it against Georgia - JAMnews",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLW44MUdIY0pqeHdYMjRzM1pNNno2Rmd2TGN3SU42NzUzLVVhZHlFTVlEVlRSUGZhZ19kZWRVdFhkY3M0NDNNeEdnb0lMaFcwQ2cybVFmdjNZVlo3SWNUamFYZnVZOElNOU9KTHlkeC1wM1BEYmE2WjlJUVpvcmVsVDBCQ3RKeEhZS01NbjQ5RG5TVVlKTmJ1SW9KQm8xdm9OcVRWc29MYmlhQWtHUGs0bE1EYkRoNTNaUWUtTDln?oc=5",
+      "published": "Mon, 26 Oct 2026 14:42:05 GMT",
+      "summary": "Opinion: If Georgia’s Constitutional Court bans opposition parties, Russia will use it against Georgia&nbsp;&nbsp;JAMnews",
+      "source": "GNews | Caucasus",
+      "published_beijing": "2026-10-26T22:42:05+08:00",
+      "source_detail": {
+        "name": "JAMnews",
+        "url": "https://jam-news.net"
+      },
+      "priority": 7.2,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://jam-news.net/opinion-if-georgias-constitutional-court-bans-opposition-parties-russia-will-use-it-against-georgia/",
+      "full_text": "The banning of opposition parties in Georgia\nDavit Usupashvili, chairman of the political council of the Lelo party, said the state itself faced the greatest risk from a ban on opposition parties.\nOn 21 October 2026, Georgia’s Constitutional Court in Batumi began hearing a petition filed by 88 MPs from the ruling Georgian Dream party. The petition seeks to ban five opposition parties: Unity – National Movement, Coalition for Change, Lelo – Strong Georgia, Gakharia for Georgia and the Federalists. The hearings will continue from 26 to 30 October. The court must deliver its ruling by 24 June 2027.\nUsupashvili said that if the Constitutional Court accepted the arguments set out in Georgian Dream’s petition, Russia would use the ruling to bolster its own demands concerning Georgia’s occupied territories.\n- “Don’t like it? Too bad”: third day of Constitutional Court hearings on opposition ban in Georgia\n- Georgia opposition party ban case: Day two of court proceedings\n- Court begins hearing case to ban opposition parties in Georgia: first-day developments\nGeorgia’s Constitutional Court is considering a constitutional petition filed by 88 MPs in the Georgian parliament, seeking to ban five opposition parties.\nPolitician Davit Usupashvili discussed the possible consequences of the ruling in detail in an interview with Sopho Zurabiani on Formula TV.\n“Irreparable harm to the country”\nThe petition holds the United National Movement responsible for the August 2008 war, which took place while the party was in power.\nUsupashvili said Georgian Dream’s political statements effectively give Russia a narrative similar to the one it uses against Ukraine: that Georgia acted as the provocateur in 2008. He warned that if the Constitutional Court’s ruling endorsed this narrative, “it would cause enormous, irreparable harm to the country”.\nUsupashvili believes Russia would then press even harder for the legal recognition of borders and guarantees of “independence” for the occupied regions. In effect, he said, Moscow would tell Georgia: “Your own Constitutional Court has ruled this way.”\nUsupashvili noted that until now, firm opposition from the European Union, the United States, Japan and other partners had helped prevent attempts to secure recognition of the occupied territories. But what position would the international community find itself in if the Constitutional Court declared that the occupied territories were victims and Russia had acted only to protect them? After all, as a rule, “the international community sides with the oppressed and seeks to restrain the aggressor, punish it and so on”.\nDavit Usupashvili draws attention to the appointment of Giorgi Zurabashvili as special representative for relations with Russia, a move that coincided with the start of the Constitutional Court proceedings.\nOn the very day the court began hearing the petition, Prime Minister Irakli Kobakhidze appointed Zurabashvili, the first deputy foreign minister, as special representative for Russia. The position had remained vacant since December 2025. Kobakhidze said the appointment did not signal the start of a new phase in relations with Russia.\nUsupashvili believes Georgian Dream has given the role a new purpose by appointing Zurabashvili:\n“It was a highly symbolic gesture. On the one hand, we hear claims that ‘Western lackeys’ — or their ‘masters’ — are manipulating political parties and citizens who have taken to the streets. On the other hand, the message is: ‘Now we will sort out our relations with you ourselves.’ Clearly, this creates a serious problem.”\nHe notes that when Zurab Abashidze held the position, Georgia managed its engagement with Russia with Western support. Now, however, the country has effectively been left without allies.\nGathering evidence for future legal disputes\nFour of the five parties facing a ban are taking part in the hearings. The fifth, the Federalists, has refused to participate in the proceedings. Over the past three hearings, the judges have rejected every motion submitted by the opposition parties.\nNevertheless, Davit Usupashvili believes the opposition should take part in the proceedings, focusing above all on gathering evidence.\nHe argues that this is necessary both for disputes on the international stage and for legal proceedings within Georgia, which he believes will inevitably follow.\n“What is happening there is essentially preparation for a future lawsuit over Georgian Dream’s unconstitutional actions. In effect, they are preparing a future legal case.”\nUsupashvili is convinced that once power changes hands, the evidence gathered during these proceedings will be used to seek a ban on Georgian Dream itself.\n“The case will be heard in the same courtroom, but by different judges — perhaps even by some of those currently in office. They have a habit of switching sides whenever power changes hands. And these are the very people who will have to ban a party that resorts to such actions,” Usupashvili said.\n“Healthy opposition” and a one-party system\nUsupashvili says the demand to ban five opposition parties has no legal basis and amounts to purely political persecution. He calls it “an attempt by Georgian Dream to pave the way for a constitutional coup”.\nIn his assessment, the ruling party aims to eliminate its opponents, secure a constitutional majority and reshape the Constitution to suit its own interests.\nUsupashvili recalls Prime Minister Irakli Kobakhidze’s statement that Georgian Dream would hold a constitutional majority in parliament once the opposition parties were banned.\nResponding to the government’s argument that a ban would pave the way for a “healthy opposition”, Usupashvili said: “They want to appoint the opposition themselves.”\nHe says that over the past 12–14 years, the government has failed to name a single opposition party it considers healthy, apart from its own offshoots.\nUsupashvili compares the logic behind the petition to Article 6 of the Soviet Constitution, which established the Communist Party as the sole legitimate political force. He argues that if the court rules that only the ruling party represents the interests of the state, Georgia will return to a constitutionally enshrined one-party system, placing it among the enemies of the free world.\nWhat lies ahead for the opposition parties, and what should they do now?\nUsupashvili believes that a ban on political parties would pose a less serious threat to the parties themselves than to the country as a whole.\n“A political party is a tool for conducting political activity. Elections took place in 1990 even though not a single political party had been registered. Nevertheless, a way forward was found — we managed to register directly for the elections. There are mechanisms available.”\nHe says the parties should already be discussing what they will do if a ban comes into force.\n“We need to talk about this because the situation will change fundamentally. Under these circumstances, we must not fall into their trap or start playing by their rules. Their ‘game’ is to drive the active part of society — ordinary citizens — into a state of utter despair.”\nUsupashvili says political leaders need to reassess and analyse current events and find a way forward.\n“We must understand what is really happening — why is all this happening to us? The political front needs renewal. Fifteen to 20 years ago, I was a party chairman. We set up local branches and held meetings. Yes, we faced interference and persecution, but we still managed to achieve something. The situation is different now. However, examples from Hungary and Guatemala show that change is possible even under such circumstances.”\nUsupashvili stresses that it is crucial for active citizens — those who believe in their country’s independence, freedom and progress — not to give in to despair.\nThe banning of opposition parties in Georgia"
+    },
+    {
+      "title": "Russia, Ukraine Begin Localised Ceasefire to Allow for Humanitarian Operation in Oleshky - U.S. News & World Report",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRGZ3bHFBaENkN0VSRzN2YlVfM2VQdGxVSVpaeDdsYTd4bDRrWF81WkEtSlVEQW9WNEl3Rm1ZbEhMRm55ZzlxaHN1Y0VNaE1feE5kNmRkTVlYMHVxYUVKU25sMjN5TEtyYXluVlg0LUppQk1hQ3RwZWM3NzRxMHF5UHpJSU9fRWlIbUp3dnV1bm5lc2RULTdIRzNpc3JqOW51UjA5akJ0X1hENEh4REpocHB2LVVIMVAtZE9TS1JiS1cybzQwNHMwQ2dSUy10VXNKSmRYbGpaenA?oc=5",
+      "published": "Tue, 27 Oct 2026 01:59:00 GMT",
+      "summary": "Russia, Ukraine Begin Localised Ceasefire to Allow for Humanitarian Operation in Oleshky&nbsp;&nbsp;U.S. News & World Report",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-10-27T09:59:00+08:00",
+      "source_detail": {
+        "name": "U.S. News & World Report",
+        "url": "https://www.usnews.com"
+      },
+      "priority": 4.8,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "chrome-error://chromewebdata/"
+    },
+    {
+      "title": "China, Central Asia and CPEC: Can Pakistan turn Geography into Geopolitical Power? - The Diplomatic Insight",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXdXU2VRakJUelJEVWxMQXByWXhzdGFlNjhwMFhYNmJTVkVtc3dBMnoteEJySF9oY2lNUnlXMkFlM3lhaWp1YThBT0xsSm1iWXJNVk9ZUlZ5MU01aGFfQzhTZGxodmJycDBTZWllQk1zUUoxTmpuTmx1Z2RaX3BGRnpCVHMzWlZJQkVTV1hB?oc=5",
+      "published": "Mon, 26 Oct 2026 10:36:38 GMT",
+      "summary": "China, Central Asia and CPEC: Can Pakistan turn Geography into Geopolitical Power?&nbsp;&nbsp;The Diplomatic Insight",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-26T18:36:38+08:00",
+      "source_detail": {
+        "name": "The Diplomatic Insight",
+        "url": "https://thediplomaticinsight.com"
+      },
+      "priority": 4.8,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://thediplomaticinsight.com/china-ca-cpec-pakistan-geography-geopolitical-power/",
+      "full_text": "China’s economic footprint in Central Asia is growing. Islamabad has a port, a corridor and strategic cooperation with Beijing. But the question is, will Islamabad make the best of these benefits for a regional economic opportunity or will it simply watch others dictate the future of trade in the Eurasian region?\nCentral Asia is gaining more and more significance in the global arena viz a viz economic competition. China, Russia and western powers are looking for access to its markets, resources and transport routes. This competition is good for Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan but also poses a question of dependence on foreign investments. The evolving regional environment offers the opportunity for Pakistan to tie its own economic future to Central Asia’s rising significance.\nThe scale of China’s expansion is already visible. Official statistics show that in 2025, China’s trade in goods with the five Central Asian states amounted to $106.3 billion, up by 12 percent from 2024. China’s markets, infrastructure and investments have become significant and the nation is now the region’s biggest trading partner. Beijing’s Belt and Road Initiative has also boosted its efforts to reach markets on Eurasia through China.\nBut increased trade does not necessarily lead to economic independence. Central Asian states could end up becoming importers of higher-value manufactured goods, and exporters of their natural resources. More integration with China, if they do not establish domestic industries, diversify their export markets and obtain advanced technologies, could further aggravate the existing economic imbalances.\nRead More: Pakistan’s SCO Moment: Why Kazakhstan Matters More Than Ever\nResisting Chinese investment is not the answer. To provide that investment becomes productive economies and not just a form of dependence. Central Asian governments need to negotiate clear contracts, promote local production, and diversify transport. The success of their efforts should not just be judged by the size of the trade with China but by the number of jobs, skills, industries and economic resilience that it delivers.\nThis is where Pakistan enters the picture. China–Pakistan Economic Corridor (CPEC) under the umbrella of wider Belt and Road Initiative (BRI) has been largely talked about in the context of bilateral cooperation of infrastructure, energy and economy. However, its potential is much more for regional connectivity.\nPakistan’s geography and its access to the Arabian Sea can present landlocked Central Asian economies with new access points to international markets and can also present the Pakistani trade and service companies with the possibilities of new export and logistics service opportunities.\nIt is no abstract concept. The Uzbekistan-Afghanistan-Pakistan railway project is a proposed joint feasibility study between Pakistan, Afghanistan and Uzbekistan, which was signed as a framework agreement in July 2025. The possible route might connect the markets of Central Asia with seaports of Pakistan via Afghanistan. The official CPEC framework document of Pakistan also highlights the possibility of benefits of CPEC beyond China and Pakistan in the form of regional connectivity.\nRead More: Pakistan Courts Belt & Road Partners for CPEC’s Next Chapter at Hong Kong Summit\nHowever, it is not to be confused with the existing Central Asia-Pakistan trade corridor. The planned railway is still in the assessment, financial and infrastructure building and political cooperation phases. Security challenges, the disturbance of borders and uncertainty with transit are still significant barriers to Afghanistan. Such challenges are issues that Pakistan needs to solve before it can hope for regional firms to depend on its routes.\nConnectivity alone, however, will not help make Pakistan economically competitive. Traders decide on transport corridors, depending on their efficiency and reliability, on the time of delivery, on administrative processes and costs, not on diplomatic declarations. Performing a role in the dependable services of the Pakistani ports, customs and transport network will not discourage the Central Asian countries from seeking other channels via China, Russia and the Caspian region.\nPakistan thus requires a feasible approach. First, it should enhance the efficiency of customs, digitally transform transit and eliminate any delays at the borders which are not required. Second, it should encourage exports which can be taken up by the Central Asian markets competitively even if it were textile, pharmaceuticals, agricultural products and processed goods.\nRead More: Pakistan’s SCO Opportunity and Long-Time Ambitions for Central Asia\nThirdly, it should find ways to coordinate with the Chinese and Central Asian governments to evaluate the viability of the existing CPEC infrastructure for the proposed regional transport connections, without taking it for granted that all of them will be commercially viable.\nMost significantly, Pakistan has to ensure that regional connectivity creates economic value within the country. Transit fees and port activity are important, but are no substitute for industrial development and competitive exports and jobs. So there should be a second stage of CPEC, in which the infrastructure investment is linked to manufacturing and the development of skills and export diversification.\nThis goes beyond economic implications. Improving trade ties with Central Asia will expand Pakistan’s diplomatic ties and lessen dependence on a few markets. China may be interested in further commercial links and Central Asian countries in more ways to access global markets. But these benefits will become reality only if the cooperation will take into account the interest of all the countries involved.\nIn the end, China’s influence is influencing Central Asia, but its future is not certain. Both its governments can leverage competing partnerships as a mechanism to further their autonomy, and so can Pakistan determine whether or not it wishes to be part of this process in a meaningful way.\nThe real potential of CPEC may not be just the link between China and Pakistan, but for a wider region. But geography only allows the possibility of power; effective infrastructure, industries with competitive power and unintermittent diplomacy makes it possible. If it is not done soon, then it will be yet another missed opportunity for Pakistan.\n*The views presented in this article are the authors’ own and do not necessarily reflect the views of The Diplomatic Insight.*\nIzza Ilyas\nIzza Ilyas is a student of International Relations at IIUI, and an intern at IRS. Her interests focus on Middle East politics, security issues, and energy diplomacy. She can be reached at izzailyas99@gmail.com"
+    },
+    {
+      "title": "Jordan-Uzbekistan Trade Grows 79% in 2025 as Both Sides Seek to Expand Economic Ties - The Jordan News Agency - وكالة الانباء الاردنية",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUcwckZCcjZyaW5YM19EMGV3T3FNLXNRaHBYQnlxRndmb1NZLXhCTnlubWpicVNfMjNrbjNvSjJHb0hiTWowam9oTV8xLV9ZTzEySzBKUXBOcHREYjFjVHhJS255SWdDSkplX2Rjcng0bGJnamZMTzVXYUp3aG1pZ3dkR21fSnE0b2NjdWJzVTBjZFhFMUdONUMtVUJsRDFmdDUzenY2WGZycEFOcHJvNXp3?oc=5",
+      "published": "Mon, 26 Oct 2026 09:28:54 GMT",
+      "summary": "Jordan-Uzbekistan Trade Grows 79% in 2025 as Both Sides Seek to Expand Economic Ties - The Jordan News Agency&nbsp;&nbsp;وكالة الانباء الاردنية",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-26T17:28:54+08:00",
+      "source_detail": {
+        "name": "وكالة الانباء الاردنية",
+        "url": "https://petra.gov.jo"
       },
       "priority": 4.8,
       "category": "大国关系",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "medium"
     },
     {
-      "title": "Kim Jong-un Crosses New Yalu Bridge, Ending 12-Year Wait - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLWNBY3BVcFhMRUd4XzR4SV9nZ2tFdXU1SmYyTHRKUVR1dEYzYzFYWU9OUUtiU01IZDRfUGxEcjFWN005cWROTEZrb0NxUGVaSlJXb2FjZ2gzejZFUUVjVnY3QU9HZEJPWUVwaU1sd2dla3RmRG9GN1dlU1JJMk9PSFZCQ29QU2dTNkxjeA?oc=5",
-      "published": "Sun, 25 Oct 2026 15:48:18 GMT",
-      "summary": "Kim Jong-un Crosses New Yalu Bridge, Ending 12-Year Wait&nbsp;&nbsp;조선일보",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-25T23:48:18+08:00",
+      "title": "Uzbekistan seeks investment financing through Turkic Investment Fund - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hejlLYjVqVUVtMmV2NTRRUjcyZEhORFhmMEh0bUx6MFdqWE9ha3JNbHl1b2xSeFM1TlM0T21Sa0Z5aTByNWR2MHJIV0FEbDZHdkQyc2xMZWhTVm13MzYw?oc=5",
+      "published": "Mon, 26 Oct 2026 05:56:40 GMT",
+      "summary": "Uzbekistan seeks investment financing through Turkic Investment Fund&nbsp;&nbsp;Trend News Agency",
+      "source": "GNews | UZ Economy",
+      "published_beijing": "2026-10-26T13:56:40+08:00",
       "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
+      },
+      "priority": 4.8,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Lula's reelection expected to bring continuity to China-Brazil ties, fresh momentum for Global South cooperation: expert - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FWE5CelhSZk1hYkJDZC11dHJzS3d2UnZwMnc0dDlvWkVNQXhlZzFpdkwzSnZXZDVvNlRDVHlQSGx6UlFJT3ZtLWdvQ2k4NzBObjh3WFZLNzJ2LTBwdlFEOGRR?oc=5",
+      "published": "Mon, 26 Oct 2026 04:56:00 GMT",
+      "summary": "Lula's reelection expected to bring continuity to China-Brazil ties, fresh momentum for Global South cooperation: expert&nbsp;&nbsp;Global Times",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-26T12:56:00+08:00",
+      "source_detail": {
+        "name": "Global Times",
+        "url": "https://www.globaltimes.cn"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Russia, Ukraine begin localised ceasefire to allow for humanitarian operation in Oleshky - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMWJ3REdDVnd1UnpKVU5NZlZaV1Z1eVgzTFhSUUhlOVVSRmdfREhUWDdWaHcwOUwxX1RTVGZVS2ttSWRkS2oxZFZfMURWdTRFV0JGamFfRlhDS3ZhRXdQUjV2ZUhQNUJCWnBibUZQOVNmcFBqWUVDRzZ1X3p5U1UtTEpldERaamVIQnBVZnpocjA3Z01zTGEyYk5YNDZ3YVZxdzNSdDdTY1kwN2dDR2FjRmFzd0NNNDJZQnRHQUJLeVZSdUlPVGxKOGJTWGxuVk1lcEZOXy1FRWlHWDhzRlFMS0hvRjHSAeQBQVVfeXFMTTFid0RHQ1Z3dVJ6SlVOTWZWWldWdXlYM0xYUlFIZTlVUkZnX0RIVFg3Vmh3MDlMMV9UU1RmVUtrbUlkZEtqMWRWXzFEVnU0RVdCRmphX0ZYQ0t2YUV3UFI1dmVIUDVCQlpwYm1GUDlTZnBQallFQ0c2dV96eVNVLUxKZXREWmplSEJwVWZ6aHIwN2dNc0xhMmJOWDQ2d2FWcXczUnQ3U2NZMDdnQ0dhY0Zhc3dDTTQyWUJ0R0FCS3lWUnVJT1RsSjhiU1hsblZNZXBGTl8tRUVpR1g4c0ZRTEtIb0Yx?oc=5",
+      "published": "Tue, 27 Oct 2026 01:50:50 GMT",
+      "summary": "Russia, Ukraine begin localised ceasefire to allow for humanitarian operation in Oleshky&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-10-27T09:50:50+08:00",
+      "source_detail": {
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "COP31 and Central Asia: A New Phase of Climate Diplomacy - Global Policy Journal",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTjdFVGhfOTJHTzF4ellPdVB5WWtsemhOMVBBcjdLU0dxRUJ4YkhWMExEXzFNY3NqcDQxckwwUnJmWnVLcm5RUzl3N1ZVcXJtUTlBVkdNR21ObzZsQWR3VGZZNktudkFjSVBNSHJ2cFFtNktEU3lqaVJmRVVkem5GWnR0RzV4UkY2dGxINndKQ0JEckNYdFltWmFpNGpnN1RobzRrTA?oc=5",
+      "published": "Tue, 27 Oct 2026 00:00:01 GMT",
+      "summary": "COP31 and Central Asia: A New Phase of Climate Diplomacy&nbsp;&nbsp;Global Policy Journal",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-27T08:00:01+08:00",
+      "source_detail": {
+        "name": "Global Policy Journal",
+        "url": "https://www.globalpolicyjournal.com"
+      },
+      "priority": 3.6,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.globalpolicyjournal.com/blog/27/10/2026/cop31-and-central-asia-new-phase-climate-diplomacy",
+      "full_text": "Jakhongir Isaev argues that COP31 offers Central Asia an opportunity to turn shared climate risks into an investment-ready regional agenda. The test of climate diplomacy will be whether countries can cooperate across borders without obscuring their distinct national interests.\nWhen delegates convene in Antalya on 9 November, COP31 will face a familiar dilemma: international climate diplomacy is producing more targets, but implementation is struggling to keep pace. The conference, hosted by Türkiye with Australia presiding over negotiations, should be judged not only by its final declaration but also by whether it helps vulnerable regions convert commitments into cooperation. For Central Asia, this is a particularly urgent test.\nThe region is not simply a collection of five countries exposed to rising temperatures. It is a connected system in which mountain glaciers, rivers, hydropower, irrigated farming and electricity markets link one country’s decisions to its neighbours’ prospects. The World Meteorological Organization documents the continuing retreat of High Mountain Asian glaciers. In July 2026, the World Bank reported that glacier surface area in Central Asia had declined by 30 percent over six decades and estimated that insufficient cooperation among national water systems costs the region more than $4.5 billion annually.\nThese pressures do not affect every state in the same way. Kyrgyzstan and Tajikistan have substantial upstream hydropower interests; Uzbekistan, Turkmenistan and southern Kazakhstan depend heavily on water for irrigation. Seasonal energy needs and agricultural demand do not always coincide. Cooperation is therefore not a matter of invoking regional solidarity: it requires credible information, negotiated trade-offs and arrangements that make mutual benefits visible.\nFrom national commitments to shared outcomes\nNationally determined contributions remain essential, but they cannot manage an international river basin on their own. Uzbekistan’s updated 2035 climate pledge, for example, commits the country to cutting greenhouse-gas emissions intensity per unit of GDP by 50 percent from its 2010 level. This is a stronger intensity target, not a promise to reduce absolute emissions by 50 percent. Delivering it will require domestic energy and industrial reforms; securing climate resilience will also depend on decisions taken beyond Uzbekistan’s borders.\nCOP30 in Belém created a useful opening. Governments adopted 59 Belém Adaptation Indicators and called for efforts to at least triple adaptation finance by 2035. Meanwhile, the Baku-to-Belém Roadmap sets out a pathway towards mobilising $1.3 trillion annually for developing-country climate action by 2035. These are important frameworks, but a roadmap is not an allocation, and finance targets do not automatically produce projects that can be funded.\nCentral Asia should use COP31 to propose a practical answer: a Central Asian Climate Delivery Compact. This need not be a new treaty, secretariat or layer of bureaucracy. It could be a voluntary, country-owned platform built around three workstreams and housed within existing regional institutions, including the International Fund for Saving the Aral Sea.\nThree tasks for a regional compact\nFirst, establish a shared climate-and-water information protocol. Governments should agree on usable standards for exchanging seasonal river-flow forecasts, glacier-risk assessments, drought alerts and selected water-accounting data. Information-sharing must respect legitimate national concerns, but its absence makes every negotiation more costly. Common evidence would allow countries to plan earlier rather than bargain only when shortages become acute.\nSecond, create a cross-border pipeline of investment-ready adaptation projects. Priorities could include irrigation efficiency, coordinated reservoir operations, flood-warning systems, resilient energy connections and ecological restoration in the Aral Sea basin. This would build on, rather than duplicate, existing work. In July 2026, the World Bank approved a $20 million grant supporting the Central Asia Water Efficiency Cooperation Project, implemented through the Aral Sea fund’s executive committee. The project envisages preparing up to six transboundary water-infrastructure investments by 2031. COP31 offers an opportunity to connect such preparatory efforts to larger financing channels.\nThird, measure regional outcomes alongside national ones. The new adaptation indicators should inspire transparent reporting on water losses, early-warning coverage, crop resilience and the distribution of benefits among communities. A project that improves a national statistic but shifts climate risk downstream should not be celebrated as unqualified success. Nor should vulnerable rural households, women or local authorities be invisible in assessments designed in capital cities.\nA constructive role for Uzbekistan\nUzbekistan has an opportunity to help convene this agenda, but leadership must be demonstrated through practical coalition-building rather than claims to represent its neighbours. At the Samarkand Climate Forum in April 2025, President Shavkat Mirziyoyev proposed locating the secretariat of an EU-backed “Water–Energy–Climate Change” initiative in Tashkent and advancing a regional “Green Belt” campaign. Such proposals provide possible starting points, not substitutes for agreement among all five states.\nDevelopment partners also have responsibilities. Multilateral banks, the European Union and climate funds should support the costly early stages of cross-border project preparation, provide grants for public-good functions such as data and early warnings, and use concessional finance where debt pressures matter. Governments, for their part, must disclose project assumptions, distributional effects and expected results. Mobilising private investment is valuable, but it cannot replace public financing for benefits that markets struggle to monetise.\nThere is a diplomatic opportunity here beyond Central Asia. The October pre-COP discussions in the Pacific underline the different forms climate vulnerability can take. Landlocked, glacier-dependent regions and low-lying island states need not compete for attention. Both can make a stronger case for adaptation finance that recognises cross-border exposure, local needs and the real cost of implementation.\nA credible outcome from Antalya would be modest but concrete: the five Central Asian governments could launch a joint concept note, identify two shared-basin pilot projects, agree on a timetable for a voluntary data protocol and ask financial institutions to establish a regional project-preparation window before COP32. Agreement on every water or energy dispute is not a prerequisite. Trust can be built through bounded projects with verifiable benefits.\nThe next phase of climate diplomacy should be measured in more than negotiating texts. For Central Asia, success would mean fewer preventable losses, more resilient livelihoods and institutions capable of cooperating before the next drought or flood. COP31 cannot deliver those outcomes on its own. It can, however, help turn regional interdependence from a source of vulnerability into a framework for shared climate security.\nJakhongir Isaev writes on sustainable development, climate policy and regional cooperation in Central Asia. He is affiliated with the Center for Sustainable Development in Uzbekistan.\nPhoto by Hüseyin KARACA from Pexels"
+    },
+    {
+      "title": "Russian Offensive Campaign Assessment, October 26, 2026 - Critical Threats",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUEVWU0pySEVGdTAzWDBoSWdjNFlEdmVZM0VaWDdtMzhndHVOU25qbk9RcTRnNjZGNnF1VDFMR3lFdnJFZDhkWjRsaEo5RDBCQ3FWSUVVbEFhWEoxeUJXcV9lRVVBVm9ES0JnWE1Bb3g2V1dEV0wxaHJGQ0lFS3l3cWJhaDMzUHJiMmlTdGRveXA4QklTaHI1eU53?oc=5",
+      "published": "Mon, 26 Oct 2026 22:41:43 GMT",
+      "summary": "Russian Offensive Campaign Assessment, October 26, 2026&nbsp;&nbsp;Critical Threats",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-10-27T06:41:43+08:00",
+      "source_detail": {
+        "name": "Critical Threats",
+        "url": "https://www.criticalthreats.org"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-26-2026",
+      "full_text": "7 hours ago\nRussian Offensive Campaign Assessment, October 26, 2026\nAssessment as of: 5:45 PM ET\nData Cutoff: 12:00 PM ET\nClick here to see ISW’s interactive map of the Russian invasion of Ukraine. This map is updated daily alongside the static maps present in this report.\nClick here to see ISW’s 3D control of terrain topographic map of Ukraine. Use of a computer (not a mobile device) is strongly recommended for using this data-heavy tool.\nClick here to access ISW’s archive of interactive time-lapse maps of the Russian invasion of Ukraine. These maps complement the static control-of-terrain map that ISW produces daily by showing a dynamic frontline. ISW will update this time-lapse map archive monthly.\nFor more information on ISW’s map methodology, please view our statement here.\nUkrainian President Volodymyr Zelensky reiterated his willingness for a complete or partial ceasefire, including moratoriums on strikes against energy infrastructure or the Black Sea, but the Kremlin continues to reject a ceasefire. Zelensky reiterated on October 25 that Ukraine remains committed to securing an energy ceasefire or a ceasefire in the Black Sea at the trilateral talks among the United States, Ukraine, and Russia scheduled for November 10, 2026, in Abu Dhabi.[i] Kremlin Spokesperson Dmitry Peskov stated on October 2026 that the decision to continue the trilateral talks “does not imply restrictions on military operations” and that Russian forces will continue operations against Ukraine.[ii] Russian Presidential Aide Yuriy Ushakov stated on October 25 that the upcoming trilateral talks ”will not resolve much” and will probably be ”a trial run.”[iii] Kremlin officials have consistently rejected ceasefire proposals — both for a partial and complete ceasefire that the US and Ukraine have proposed — while Ukrainian officials have consistently reiterated their willingness for such a ceasefire.[iv] Peskov’s and Ushakov's recent statements indicate that the Kremlin’s position heading into the upcoming trilateral talks remains to reject ceasefire proposals.[v]\nThe Kremlin's current negotiating position on the war in Ukraine continues to include Moscow’s longstanding demand from before the full-scale invasion that NATO change its charter and roll back its membership to NATO’s former 1997 borders.\nThe Telegraph reported on October 25, citing diplomatic sources, that Russia's intent to include Europe in peace negotiations on Ukraine is to \"win concessions\" over NATO expansion.\n[vi] Peskov stated on October 23 that European security architecture is one of the most important components of achieving peace in Ukraine and that resolving the war is “impossible” without European participation.\n[vii] The Telegraph’s report corroborates ISW‘s previous assessment that the Kremlin remains committed to its long-standing December 2021 ultimata that includes halting the deployment of military forces and weapons systems to NATO states that joined the alliance after 1997, granting Russia a veto over a large number of internal NATO affairs.\n[viii] Senior Kremlin officials have reiterated these ultimata several times in the months and years since the start of the full-scale invasion and have given no indication of compromising on this goal.\n[ix] The Kremlin will likely reiterate these demands at the upcoming November 10 US-Ukrainian-Russian trilateral negotiations and may seek to leverage its recent concessions from the United States to push for additional concessions concerning NATO and the post-Cold War European security architecture.\nPutin’s December 2021 demands are notably incompatible with US President Donald Trump’s commitment to maintaining a US military presence in Poland and the US troop deployments in the Baltic States.\n\nUkraine’s long-range strike campaign is forcing Russia to relocate its data infrastructure and augment protection measures for data centers.\nRussian internet and telecommunications company Yandex told Russian business outlet RBK on October 26 that it relocated its Lyapunov, Galushkin, and Chervonenkis supercomputers — responsible for Yandex service infrastructure and large language model training —following Ukrainian strikes against Yandex data processing centers.\n[x] Ukrainian forces struck at least three Yandex data centers in October 2026, including the site of two of three Yandex supercomputers in Sasovo, Ryazan Oblast.\n[xi] Russian business outlet Kommersant reported on October 26, citing two sources in the infrastructure sector and a third familiar source, that the Russian Ministry of Digital Development distributed a plan to protect data centers by organizing them into three categories, depending on the potential impact an outage could have on government operations in the event of a strike.\n[xii] The plan assigns security measures — including physical fortifications, air defenses, and electronic warfare countermeasures — by category, with plans to locate the most critical data centers underground and to create multiple layers of defenses around facilities.\nUkraine’s long-range strike campaign has prompted Russia to concentrate point defense towers in certain areas, but these towers alone are insufficient to defend Russia's vast territory from the threat of Ukrainian strikes.\n[xiii] Russia’s air defense posture primarily focuses on protecting the immediate areas near the active theater of operations in and around Ukraine, and Russia does not have sufficient air defense assets to cover the vast Russian interior beyond the active area of operations near the Russian-Ukrainian international border.\n\nKey Takeaways:\n- Ukrainian President Volodymyr Zelensky reiterated his willingness for a complete or partial ceasefire, including moratoriums on strikes against energy infrastructure or the Black Sea, but the Kremlin continues to reject a ceasefire.\n- The Kremlin's current negotiating position on the war in Ukraine continues to include Moscow’s longstanding demand from before the full-scale invasion that NATO change its charter and roll back its membership to NATO’s former 1997 borders.\n- Ukraine’s long-range strike campaign is forcing Russia to relocate its data infrastructure and augment protection measures for data centers.\n- Russia launched one Kh-31P anti-radiation missile, three Kh-59 or Kh-69 cruise missiles, and 140 drones (including 70 jet-powered ones) against Ukraine overnight on October 25 to 26.\n- Ukrainian forces continued their long-range strike campaign against Russian industrial facilities and logistics infrastructure overnight on October 25 and 26.\nWe do not report in detail on Russian war crimes because these activities are well-covered in Western media and do not directly affect the military operations we are assessing and forecasting. We will continue to evaluate and report on the effects of these criminal activities on the Ukrainian military and the Ukrainian population and specifically on combat in Ukrainian urban areas. We utterly condemn Russian violations of the laws of armed conflict and the Geneva Conventions and crimes against humanity even though we do not describe them in these reports.\n- Ukrainian Operations in the Russian Federation\n- Russian Supporting Effort – Northern Axis\n- Russian Supporting Effort – Push Ukrainian forces back from the international border with Belgorod Oblast and approach Kharkiv City\n- Russian Supporting Effort – Capture the remainder of Luhansk Oblast and push westward into eastern Kharkiv Oblast\n- Russian Main Effort – Capture Ukraine's Fortress Belt and complete the seizure of Donetsk Oblast (comprised of 4 subordinate main efforts)\n- Russian Subordinate Main Effort #1 – Encircle the Fortress Belt from the northwest via Lyman and Svyatohirsk (assessed objective of the Russian 25th Combined Arms Army and elements of the Western Grouping of Forces)\n- Russian Subordinate Main Effort #2 – Advance on the Fortress Belt from the east (assessed objective of the Russian 3rd Combined Arms Army and Southern Grouping of Forces elements)\n- Russian Subordinate Main Effort #3 – Advance on the Fortress Belt from the south (assessed Objective of the Russian 8th Combined Arms Army and Southern Grouping of Forces elements)\n- Russian Subordinate Main Effort #4 – Encircle the Fortress Belt from the southwest, west of the Kazennyi Torets River (assessed objective of elements of the Russian Central Grouping of Forces)\n- Russian Supporting Effort – Advance into Dnipropetrovsk Oblast\n- Russian Supporting Effort – Southern Axis\n- Russian Air, Missile, and Drone Campaign\n- Significant Activity in Belarus\nUkrainian Operations in the Russian Federation\nSee topline text for the impacts of Ukrainian strikes against Russian data centers.\nUkrainian forces struck Russian industrial facilities and logistics infrastructure in Voronezh City overnight on October 25 to 26. Ukrainian forces struck the Voronezh Joint-Stock Aircraft Manufacturing Company (roughly 189 kilometers from the international border), which produces Ilyushin Il-96s and other aircraft, and the Voronezhsintezkauchuk chemical plant (roughly 186 kilometers from the international border), which produces components relevant for defense production including synthetic rubbers, synthetic polymers, and thermoplastic elastomers.[xiv] Ukrainian forces reportedly also struck the Severny (Northern) Bridge, a two-tiered road and railway bridge in Voronezh City (roughly 190 kilometers from the international border).[xv] Footage published on October 26 shows Ukrainian strikes against Voronezh City and fires in the aftermath.[xvi] Russian authorities acknowledged that Ukrainian forces struck unspecified industrial facilities in Voronezh City and claimed that Ukrainian forces also struck a train at the Somovo railway station in Voronezh Oblast.[xvii]\nThe Ukrainian General Staff provided updated battle damage assessments for strikes against Russian facilities involved in missile production on October 24 and 25. The Ukrainian General Staff confirmed on Oc"
+    },
+    {
+      "title": "Ukraine Pushes to Move Abu Dhabi Talks Earlier and Bring EU Into Negotiations - UNITED24 Media",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV1pacVRQN0x4czA3QlB1NVhaTnBKYXAzY1pKX2ZtY1hzRlU3N2p3X0FFSVlOekxhaDJMMHZqM3lFMzY3bGh4RVdNeDMwb3BubklhN3NwZjR0NzRwSFU3d2RZSG5DRlJuY2o2TERCT045MjFfdy1fTTl6TlVPWkN2b1JELS1JLVMyUnhtVVhKX2pGMFRJZWdCM0M3LW5nWkl2c0o5bDFlSmFqb1pJeU55SEdmUkVHOHo5YUpZbXBrRnQ4QQ?oc=5",
+      "published": "Mon, 26 Oct 2026 16:32:41 GMT",
+      "summary": "Ukraine Pushes to Move Abu Dhabi Talks Earlier and Bring EU Into Negotiations&nbsp;&nbsp;UNITED24 Media",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-10-27T00:32:41+08:00",
+      "source_detail": {
+        "name": "UNITED24 Media",
+        "url": "https://united24media.com"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://united24media.com/war-in-ukraine/ukraine-pushes-to-move-abu-dhabi-talks-earlier-and-bring-eu-into-negotiations-23812",
+      "full_text": "Ukraine is seeking to move up the Ukraine-US-Russia talks in Abu Dhabi by at least a week and to bring an EU representative into the negotiations, Ukrainska Pravda reported on October 26.\nThe round is currently scheduled to begin around November 10, after the US midterm elections. Kyiv and Washington are trying to persuade Moscow to agree to an earlier meeting, while Russia, and at times Washington, is resisting European participation at the opening round, according to sources close to the negotiating team.\n“The Russians, by the way, do not want Europeans at the table at the first meeting,” one source told Ukrainska Pravda. “But our people will bring them and brief them there in Abu Dhabi in real time.”\nThe source added that the main difficulty for the Europeans is the absence of a clearly empowered representative capable of making decisions during the talks.\nKyiv considers the timing important because negotiations are expected to extend across several rounds. A source in President Volodymyr Zelenskyy’s team noted that every week could become increasingly important as winter deepens and Ukrainians face potential disruptions to electricity, water, and heating.\nAs of the evening of October 25, Moscow had not given final confirmation that it would agree to move the meeting forward, according to Ukrainska Pravda.\nUkrainian officials do not expect a breakthrough at the first round. One member of Zelenskyy’s team indicated that updated delegations may need an initial meeting to establish working relationships before more substantive negotiations begin.\n“There is a feeling that the composition of the groups will change,” the source stated. “At the first meeting, the new delegations will get used to each other. At the second, substantive work will begin. And somewhere around the third, there may already be some real decisions.”\nUkraine also wants negotiations to focus first on the broader structure of a postwar settlement rather than immediately bargaining over individual villages or specific territorial lines, Ukrainska Pravda wrote.\n“We need to show what this part of the world will look like after the war, how Ukraine will be protected, what cooperation with NATO will look like, or whatever else there will be,” another source explained.\nSources in Zelenskyy’s diplomatic team indicated that US envoys Jared Kushner and Steve Witkoff had presented the Russian leader, Vladimir Putin, with the idea of discussing a new security model, which he reportedly agreed to consider.\nEuropean participation has also begun to take shape around Björn Seibert, head of cabinet and a close aide to European Commission President Ursula von der Leyen, who has emerged as a potential EU representative in recent meetings.\nUkrainian negotiator Davyd Arakhamia has also argued to US officials that any final peace arrangement must be acceptable not only at the negotiating table but to Ukrainians living in major frontline-adjacent cities such as Kharkiv and Dnipro, according to Ukrainska Pravda.\nAccording to the source, Kyiv believes Russia still expects that pressure during the coming winter could weaken Ukraine’s negotiating position.\nThe talks also come as Moscow is expected to revive broader demands over Europe’s security architecture. UNITED24 Media reported that Russia may use the Abu Dhabi negotiations to press for NATO to roll back its military presence in Eastern Europe to 1997 levels, alongside demands affecting Ukraine’s sovereignty and territorial concessions."
+    },
+    {
+      "title": "Protests, tourists and the Kremlin: Georgia at a crossroads – photo essay - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSVpzcG9VOEIya0hhQlVqdzhac2lhMVdKRjdkaF9zbzBpREpDbnBpV3prbk5qeTZZSXNfSEJfRVA3OHNCZXFWeWRkeTNHa3NoS2RKdG8wNEdjT3F6QjVkeHZjekktUXNYZjNUNi1BZmxkdTNrWGpVZmFEekdLMUlqeTdDLVdSWUc5RU5fUG16TjJnR0w4NDlXaE1NMW4tdUdIWEw5VGFVdFFROFh2Z2RFbmY5Y2hWRkh3TDlSSEtNZw?oc=5",
+      "published": "Mon, 26 Oct 2026 14:02:00 GMT",
+      "summary": "Protests, tourists and the Kremlin: Georgia at a crossroads – photo essay&nbsp;&nbsp;The Guardian",
+      "source": "GNews | Caucasus",
+      "published_beijing": "2026-10-26T22:02:00+08:00",
+      "source_detail": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.theguardian.com/artanddesign/2026/oct/26/protests-tourists-and-the-kremlin-georgia-at-a-crossroads-photo-essay",
+      "full_text": "In the heart of Tbilisi’s Armenian quarter, Avlabari Square is where crowds gather for the “Saturday March”. Every weekend, protesters head towards the Bridge of Love, reach Freedom Square and march towards parliament, chanting slogans against Irakli Kobakhidze’s government.\nFor years, the target has been the same: Georgian Dream, the ultraconservative party in power since 2012, accused of growing authoritarianism and, through its decision to suspend EU accession talks, moving the country closer to Moscow again. Georgia was granted EU candidate status in 2023.\nMonday marks two years since the contested parliamentary elections on 26 October 2024 that ignited the political crisis. Protests began two days later and peaked on 28 November, when the government announced it would not put the opening of EU negotiations on its agenda before the end of 2028.\nGeorgia is experiencing a curious paradox: while many of its citizen would like the country to be more democratic and form closer ties to Europe, Georgia is attracting growing numbers of tourists drawn to its historic sites, post-Soviet atmosphere and unspoilt landscapes.\nWhile the streets of Tbilisi have become the stage for one of the longest protest movements in recent history, in 2025 the country, according to data from the Georgian National Tourism Administration, recorded a high of more than 5.5 million international tourist visits: an 8.4% increase on 2024 and almost 10 times the number (about 560,000) who visited the country 2o years ago.\nTravellers come not only from Europe; many are from the Middle East, and large numbers come from Russia.\nAfter the full-scale invasion of Ukraine in 2022, tens of thousands of Russian citizens relocated to Georgia, bringing money and opening businesses, but also exerting strong pressure on the property market by buying homes across the country.\nThis has fuelled discontent among a population that, mindful of the early 1990s wars against Russian-backed separatists in South Ossetia and Abkhazia, and the brief August 2008 war fought against Moscow, also in South Ossetia, continues to consider Russia an occupying power.\nThe mythical land of the Golden Fleece and the Argonauts – the ancient Greeks called the journey to reach it “the longest possible voyage” – is now a republic roughly the size of Ireland, with a population of fewer than 4 million. Georgia emerged from the fall of the Soviet Union in 1991.\nSandwiched between Russia and Turkey (alongside Armenia and Azerbaijan), it offers a wealth of attractions that draw tourists: quaint mountain villages scattered along the Georgian Military Road, ancient Orthodox churches overlooking rivers and valleys, fascinating post-Soviet cities with a decaying atmosphere, wine with a millennia-old history, a lively “Las Vegas” on the Black Sea (the port of Batumi) and a dynamic, cosmopolitan capital.\nTbilisi, with its rich underground scene and repurposed industrial spaces, is reminiscent of 1990s Berlin. One of its crown jewels, a true symbol of national independence, is the Rustaveli theatre, renovated 20 years ago by the billionaire who founded Georgian Dream in 2012: Bidzina Ivanishvili. Now in his 70s, Ivanishvili served as Georgian prime minister between 2012 and 2013 and made his fortune in Russia during the 1990s after the Soviet collapse.\nToday, the relationship between Georgia and Russia is built on a contradiction that is difficult to resolve. After the 2008 conflict and the consolidation of Russian military control over Abkhazia and South Ossetia (regions accounting for approximately 20% of Georgian territory), diplomatic relations between the countries were severed.\nYet economically, Moscow remains a partner that is difficult to replace: trade, tourism, remittances and Russian capital, along with energy imports, prop up Tbilisi’s economy, which, despite strong growth – GDP rose by 7.5% in 2025, marking five consecutive years of expansion – continues to be affected by unemployment, low wages, widespread poverty and, in many rural areas, depopulation.\nBut Georgia’s predicament extends beyond its domestic political crisis, reflecting wider geopolitical tensions.\nRelations with Brussels have deteriorated recently; the EU has criticised the Georgian government’s record on the rule of law and political repression. And many believe a strengthening of Moscow in the Ukraine war could significantly increase its ability to exert pressure on the Caucasus.\nBoth of which make the question inevitable: does the future of a vulnerable Georgia – internationally isolated and with limited domestic support – also hinge on the fate of Ukraine?"
+    },
+    {
+      "title": "New Tajikistan Migration Law Aims to Improve Overseas Recruitment - The Times Of Central Asia",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3WW9PLTRnamVmdzNUWHVYZXJqdmtwYlplMExYdG0xeFQwX0h6bGxhaUVJWW03b3FnbkhXcWJZRlFIZUlhNi1oU3poQ0tfcF81VFZFMFRZeVItUS14MEhJV241TWU1eEMySlpjaGJldTFrNWNX?oc=5",
+      "published": "Mon, 26 Oct 2026 12:12:16 GMT",
+      "summary": "New Tajikistan Migration Law Aims to Improve Overseas Recruitment&nbsp;&nbsp;The Times Of Central Asia",
+      "source": "GNews | CA Demo",
+      "published_beijing": "2026-10-26T20:12:16+08:00",
+      "source_detail": {
+        "name": "The Times Of Central Asia",
+        "url": "https://timesca.com"
+      },
+      "priority": 3.6,
+      "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://timesca.com/tajikistan-migration-law-overseas-recruitment/",
+      "full_text": "Tajikistan has adopted a new migration law that introduces a system for rating foreign employers and provides for assistance to citizens returning from work abroad. The legislation also seeks to make it easier for Tajik citizens to find jobs overseas through official recruitment channels.\nPresident Emomali Rahmon signed the law on October 21, and the full text was published on October 23 by the parliamentary newspaper Sadoi Mardum. It replaces legislation dating back to 1999.\nAccording to the World Bank, approximately one-quarter of Tajikistan’s labor force works outside the country. Between 2022 and 2025, migrant remittances averaged nearly half of the country’s gross domestic product. Russia remains the main destination for labor migration.\nWhat the New Law Changes\nUnder the new law, Tajikistan’s migration authorities will establish a register of foreign employers, with ratings based on their treatment of workers, including wages and working conditions. Migrants will be able to submit complaints, which will be considered when employers are assessed. The authorities will also have the power to restrict cooperation with companies that violate workers’ rights.\nThe legislation also provides for online platforms where migrants can find vacancies and sign employment contracts electronically. Citizens who arrange their own employment abroad, rather than using recruitment agencies, are entitled to free advice from migration officials about vacancies and working conditions in their destination country.\nAnother provision requires the authorities to set quotas for workers going to different countries and determine how the system will operate. The law also establishes a unified information system to improve migration records and data exchange between government agencies.\nMany of these measures focus on organized recruitment, which currently accounts for only a small proportion of Tajikistan’s labor migration. In 2025, a total of 35,747 Tajik citizens found jobs abroad through 30 licensed organizations, including more than 31,000 in Russia. According to official figures from Dushanbe, more than 702,000 people left the country to work abroad that year. Although the figures are not directly comparable, placements through licensed agencies amounted to only around 5% of reported departures.\nRussia and the Search for Alternatives\nFollowing the terrorist attack at Crocus City Hall near Moscow in March 2024, Russian authorities tightened migration controls. A register of foreign nationals without legal grounds to remain in Russia has been in operation since February 2025. Those listed face restrictions on financial transactions and property registration.\nIn July 2026, Tajikistan’s Deputy Minister of Labor, Migration, and Employment of the Population Sharif Norzoda reported that approximately 160,000 Tajik citizens were on the register, including about 25,000 minors.\nDuring discussions of the new legislation, Labor Minister Soleha Kholmahmadzoda stressed the need to expand the range of countries where Tajik citizens can find work. Dushanbe is holding talks on employment opportunities in Kazakhstan, the Gulf states, South Korea, Japan, and the United Kingdom. However, Russia’s labor market remains considerably larger than those of these alternative destinations.\nJobs for Returning Migrants\nThe new law provides for assistance to citizens returning home, including vocational training and help finding employment. It also envisages support programs for families whose migrant breadwinner is no longer able to provide for them. The practical implementation of these measures will depend on government programs and available funding.\nEmployment opportunities within Tajikistan remain limited, although some businesses are experiencing labor shortages.\nIn an interview with the news agency Asia-Plus, economist Rakhmon Ulmasov said that, according to his information, the construction site at the Rogun Hydropower Plant was short of approximately 3,000 workers, while a textile enterprise in Danghara needed another 500 employees. He proposed training returning migrants in occupations that are in demand in Tajikistan.\nAccording to the World Bank, Tajikistan will need approximately 1.4 million jobs over the next decade. Reforms supported by the bank are expected to create more than 92,000 additional jobs by 2030, although this estimate covers the effects of those reforms rather than total projected employment growth nationwide."
+    },
+    {
+      "title": "Russia and Ukraine agree to localized ceasefire in Oleshky with US mediation - Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMXk5dlc4QkMwTWN0dXdBa213NEtNSU9WNk5SYl9ZLWZRd3g4SjJKeGNjdXkwaFhLUGZ1VkdFZnRqeUM0UFYtT3NURVpESklJd1BFQzFrV1pEVEVtSVdqd2V6T0RZQnZtVS1xRkg1akhlVmhkV3hQTkFseElJdndBWEVReU5Db19MbF9fM0dUamNfMWQ5cDRIOWhBRnFlbFRwNEFXU3JRT0pETXZDdC15ZA?oc=5",
+      "published": "Mon, 26 Oct 2026 11:03:53 GMT",
+      "summary": "Russia and Ukraine agree to localized ceasefire in Oleshky with US mediation&nbsp;&nbsp;Daily Times",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-10-26T19:03:53+08:00",
+      "source_detail": {
+        "name": "Daily Times",
+        "url": "https://dailytimes.com.pk"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "SCO Economic Ambitions Outpace Agreement - The Times Of Central Asia",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sTV8tZUx1N0NwbzVqNkJseHJteE5rRkVHY0xqSXRPNXR5X2QwZGs5ZVJvQ3RsbVB5emNobFFyVW82eDNDX3FqM2VxVHBGZHRBbDdKMDJFN0ptMENDeU93eExuSmotcE4zNWlhbHlB?oc=5",
+      "published": "Mon, 26 Oct 2026 10:48:59 GMT",
+      "summary": "SCO Economic Ambitions Outpace Agreement&nbsp;&nbsp;The Times Of Central Asia",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-26T18:48:59+08:00",
+      "source_detail": {
+        "name": "The Times Of Central Asia",
+        "url": "https://timesca.com"
+      },
+      "priority": 3.6,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://timesca.com/sco-economic-ambitions-outpace-agreement/",
+      "full_text": "The Shanghai Cooperation Organization (SCO) renewed calls for a development bank at its October 20 heads of government meeting in Dushanbe, but the institution remains under negotiation more than a year after members reached political agreement on its creation.\nParticipants adopted a joint communiqué and decisions on economic cooperation, including joint manufacturing and transportation. Financing those ambitions remains a central challenge.\nMembers backed the bank at their September 2025 summit in Tianjin. A year later, the Bishkek summit ended without a founding agreement or capital commitments, and no launch date was set.\nThe SCO brings together ten countries whose economic priorities differ sharply. China and India are among the world’s largest economies, while Russia and Iran face Western sanctions. For Central Asian members, the organization offers another route to investment, but agreement on shared goals has yet to produce a common financing institution.\nDifferent Priorities\nTajik Prime Minister Kohir Rasulzoda reported that SCO countries accounted for 70% of Tajikistan’s foreign trade turnover in January–August 2026. Meanwhile, foreign direct investment from member states amounted to just $350 million for the whole of 2025.\n“These figures demonstrate the enormous untapped potential of our investment cooperation, which significantly lags behind the dynamics of trade relations,” Rasulzoda said.\nIran has different concerns. First Vice President Mohammad Reza Aref called for wider use of national currencies in trade, alongside export insurance and investment protection.\nTehran has long sought to reduce its foreign trade dependence on Western financial infrastructure. Sanctions make this an urgent priority, but Iran’s interests in international settlements differ considerably from those of India or China, for example. Beijing and New Delhi conduct extensive trade with Western countries, so a single financial model for all SCO members is unlikely to satisfy everyone.\nRussian Prime Minister Mikhail Mishustin encouraged joint manufacturing projects using Russia’s special economic zones and investment protection agreements.\nKyrgyzstan, meanwhile, is seeking investors for the Tamchy special investment and financial territory, established in July 2025 in the Issyk-Kul region. First Deputy Chairman of the Cabinet of Ministers Daniyar Amangeldiev invited SCO partners to develop joint projects there.\nFinancing the Bank\nA development bank could provide a common source of funding for such projects. In Dushanbe, Belarusian Prime Minister Alexander Turchin renewed calls to accelerate its establishment.\n“We consider it fundamentally important that this institution become a multilateral development bank with a unique mandate, providing access to long-term investment financing without political conditions,” he said.\nKyrgyzstan also supported establishing the bank. Amangeldiev urged members to draw on existing financing channels, including the SCO Interbank Consortium, while negotiations continue.\nKazakh Prime Minister Olzhas Bektenov confirmed Astana’s willingness to host the bank’s headquarters. Bishkek had already put forward its candidacy at the September summit.\nChoosing a headquarters is only part of the task. Members must agree on their financial contributions and how the bank will operate, including who decides which projects receive loans.\nChina has far greater financial resources than most of its SCO partners, giving it the potential to become the bank’s principal source of capital. Its role in funding the institution would make the distribution of voting power particularly important. For smaller members, the terms would determine how far the bank broadens their financing options.\nCentral Asian governments have reasons to seek a wider choice of lenders. China is already a major source of investment and credit, while Russia remains important for trade and labor migration. The region is also developing economic ties with partners outside the SCO.\nKazakhstan, Kyrgyzstan, Tajikistan, and Uzbekistan are cultivating relations with the European Union and the U.S., as well as Turkey, the Gulf states, and international financial institutions. An SCO bank would enter a region where governments already have competing offers and their own investment priorities.\nWhy the SCO Is Not Becoming an Economic Union\nThe difficulty of establishing the bank reflects the limits of the SCO as an economic institution. Over a quarter of a century, it has built an extensive system of meetings and agreements, but it has no single market or common customs territory.\nThe organization emerged out of security cooperation. Unlike the European Union, its members have not transferred authority over economic policy to supranational institutions.\nAll major decisions are made by consensus. This principle allows every member’s position to be taken into account, including those of smaller states. But serious disagreements can also stall decisions.\nPolitical tensions also persist among SCO members. India and Pakistan have a long history of conflict, while India and China have unresolved border disputes. Sanctions on Russia and Iran affect their foreign trade and banking operations, while Central Asian countries are pursuing their own multi-vector foreign policies.\nJoint projects can still proceed without agreement across the entire organization. A railway or industrial facility needs an arrangement among the participating countries and their financiers, rather than approval from every SCO member.\nSuch arrangements can deliver investment, but they leave the SCO primarily as a forum for negotiations. A development bank would give it a more direct role in financing projects across its membership.\nFor now, political support for the bank has yet to translate into an agreed institution. How much members will contribute, and what influence those contributions will confer, remain central questions."
+    },
+    {
+      "title": "Kazakhstan, Belgium Look to Expand Cooperation Following Royal State Visit, Kazakh Ambassador Says - The Astana Times",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQWF2cm9QZFctTlBMMVZuMFBqVl9nblJJN2gwaTN4SWhaUW9kSk80SkdDOFR0TWd5eFhTcWR3YWpPazFZRFlORlJiWUg0TVNNT04wQjNmb21MaDBQaUZTYjNITVBsVWVpQWhMTEhFN2d4U21KNE03Z19mVVJjNnIzcXlVdGJBSWhlLUl4NGhDT203MFlRWFlUbm13WlI1OE5HbmhWbUsyWkQ4SUVEcU9FY094d2x4Ym16d3UwUkY1dVBLNVNILV9YVw?oc=5",
+      "published": "Mon, 26 Oct 2026 10:26:13 GMT",
+      "summary": "Kazakhstan, Belgium Look to Expand Cooperation Following Royal State Visit, Kazakh Ambassador Says&nbsp;&nbsp;The Astana Times",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-26T18:26:13+08:00",
+      "source_detail": {
+        "name": "The Astana Times",
+        "url": "https://astanatimes.com"
       },
       "priority": 3.6,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://astanatimes.com/2026/10/kazakhstan-belgium-look-to-expand-cooperation-following-royal-state-visit-kazakh-ambassador-says/",
+      "full_text": "ASTANA – Kazakhstan and Belgium are looking to expand cooperation in trade, transport, critical minerals, education and advanced technologies, following the recent state visit of Belgium’s King Philippe and Queen Mathilde to Kazakhstan, Kazakhstan’s Ambassador to Belgium and Luxembourg and Head of Mission to the European Union Roman Vassilenko said at a briefing in Brussels.\nSpeaking at the Press Club Brussels Europe, Vassilenko outlined the outcomes of the royal visit, which took place on Oct. 12-14, and discussed prospects for bilateral cooperation and Kazakhstan’s partnership with the EU, reported the Ministry of Foreign Affairs’ press service.\nThe briefing brought together Deputy Director of the Central Asia and Caucasus Department at the Belgian Ministry of Foreign Affairs Gommaar Dubois, Foreign Policy Adviser to the President of the European Council Marilyn Josephson, as well as representatives of the diplomatic corps, media and expert community.\nVassilenko described the first-ever state visit by a Belgian monarch to Kazakhstan as historically significant, highlighting its role in strengthening political dialogue and expanding trade and economic ties between the two countries.\nThe ambassador outlined the visit’s outcomes, including a joint statement adopted by the two heads of state and a roadmap for cooperation for 2027-2029 signed by the two countries’ foreign ministries. A total of 40 documents were announced during the visit, including 16 commercial agreements and 22 agreements between universities and research institutions.\nTrade, investment cooperation and EU partnership\nVassilenko highlighted opportunities to implement the agreements reached during the visit in transport and logistics, critical minerals, agriculture, healthcare, education and advanced technologies. He pointed to potential cooperation between the Port of Antwerp-Bruges and Kazakhstan’s ports of Aktau and Kuryk, as well as joint projects in critical raw materials processing, scientific research and artificial intelligence.\nTurning to relations with the EU, Vassilenko emphasized Kazakhstan’s role as the EU’s key trade and economic partner in Central Asia as trade between Kazakhstan and the EU exceeded $45 billion in 2025. Vassilenko also highlighted the significance of President Kassym-Jomart Tokayev’s visit to Brussels in June and the first Central Asia-EU Summit, held in Samarkand in April 2025.\nBelgian and EU perspectives\nDubois, representing Belgium’s Ministry of Foreign Affairs, commended the outcomes of the state visit, noting its extensive political, economic and academic program. He said the participation of a 115-member Belgian delegation, alongside events held in Astana and Almaty, helped establish direct contacts between the business and scientific communities of the two countries.\nDubois also highlighted the agreement between the Benelux countries and Kazakhstan on visa-free travel for holders of service passports, which is set to enter into force on Nov. 1. He said the agreement would facilitate more frequent official contacts, including with EU institutions.\nForeign Policy Adviser to the President of the European Council Josephson said diversifying economic ties and strengthening connectivity remain key priorities for the EU’s partnership with Kazakhstan. She highlighted opportunities for cooperation in digital infrastructure, artificial intelligence, energy security, renewable energy, green hydrogen and critical raw materials.\nJosephson also emphasized the Trans-Caspian Transport Corridor, designated a flagship project under the EU’s Global Gateway initiative. Unlocking its full potential, she said, requires investment in railway and port infrastructure and logistics hubs, as well as simpler border-crossing and trade procedures.\nParticipants also discussed next steps for implementing the agreements reached, attracting investment, improving transport connectivity and expanding cooperation between businesses, universities and research institutions in Kazakhstan and Belgium."
     },
     {
-      "title": "Hun Manet Concludes Turkic Nations Tour with Six Agreements with Kazakhstan - Cambodianess",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWmRKcVFXclBVZWtNNnhJVnJ5MTA3cV92czE0VEJDeEhLN3BjODV2N0NDV3QxR09EMjRWb3dqNEYwV01sWUNGXzJYWlFnVHdMTllEN29HTlhKY2VlWXV5c050Tnh3U3MxTVYxUHNscTBYS0hhdVRVb3p5YnRMUUk3em9UVHlNNVR1SW1yUUhTeXdPYkJ3RmE4aWdvUDBhaTdpNndwdnhvaTF1YXV6SjgzNXc1MWpNTUlMemc?oc=5",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "summary": "Hun Manet Concludes Turkic Nations Tour with Six Agreements with Kazakhstan&nbsp;&nbsp;Cambodianess",
+      "title": "Republic of Kazakhstan: From Declaration of State Sovereignty to Middle-Power Status in 36 Years - The Astana Times",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMkk5UWg5NUlBR29oVzdmaVhybG1XZVZPcEhVTWM1WUhoUUJ2RXdzY2MtbXpjbFlpblRZU1c0TjYwbGZOMFFCZWRpS0p4WFlSZW82UG9sVmE0QWszY1BQanB1cmVFZUtZOEdvbzFUTnlnMk5KVUxZYXd6OFdDZkwwY2ZMcnhrdmRyYWlScEJ6ejU1RlItMWVwWDBCRklVbHc1eEVyM0NPLTBDRFJkR2dOV0FuTC1Pcl9MZ2xNZmE4Qi1qempHdFFF?oc=5",
+      "published": "Mon, 26 Oct 2026 08:51:13 GMT",
+      "summary": "Republic of Kazakhstan: From Declaration of State Sovereignty to Middle-Power Status in 36 Years&nbsp;&nbsp;The Astana Times",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-24T15:00:00+08:00",
+      "published_beijing": "2026-10-26T16:51:13+08:00",
       "source_detail": {
-        "name": "Cambodianess",
-        "url": "https://cambodianess.com"
+        "name": "The Astana Times",
+        "url": "https://astanatimes.com"
       },
       "priority": 3.6,
       "category": "大国关系",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://astanatimes.com/2026/10/republic-of-kazakhstan-from-declaration-of-state-sovereignty-to-middle-power-status-in-36-years/",
+      "full_text": "On Oct. 25, Kazakhstan celebrates Republic Day, a national holiday of particular historical significance for the formation of modern Kazakh statehood. On this day in 1990, the Declaration of State Sovereignty of the Kazakh Soviet Socialist Republic was adopted, marking a major political and legal milestone on the path to independence. Thirty-six years later, the principles set out in the Declaration – sovereignty, territorial integrity, autonomy and responsibility for the country’s own future – continue to shape Kazakhstan’s strategic development.\nFor Kazakhstan, the date is not only an opportunity to look back at the origins of modern statehood, but also to reflect on the journey so far, assess the results achieved and identify priorities for further development. At a time of profound change in international relations, accelerating technological advances and growing interdependence among states, a country’s ability to set its own national priorities, modernise its economy consistently and strengthen the confidence of international partners takes on particular importance.\nHistorical choices and the formation of statehood\nAdopted on Oct.25, 1990, the Declaration of State Sovereignty was one of the key documents that established the political and legal foundations of Kazakhstan’s future independence. It enshrined the principles of autonomy for the republican authorities, territorial integrity, citizenship, economic independence and the right to conduct independent international relations. The document thus marked a transition to a new understanding of the state’s responsibility to its people and laid the groundwork for the subsequent formation of the independent Kazakhstan.\nThe proclamation of state independence on Dec.16, 1991 was a natural continuation of this historical process. The country faced enormous tasks: establishing independent state institutions, creating a national legal system, transitioning to a market economy, building foreign-policy ties and integrating into the international community. These processes unfolded in difficult economic and geopolitical conditions, requiring both strategic vision and the ability to make complex practical decisions.\nIn the first years of independence, Kazakhstan established the fundamental principles of its statehood: preserving territorial integrity, strengthening interethnic harmony, developing national culture, maintaining domestic stability and pursuing an independent foreign policy. The multinational character of society became not an obstacle but an important factor in shaping a model of statehood in which civic identity is combined with respect for cultural and linguistic diversity.\nBuilding its own system of international relations was of vital importance. Kazakhstan established diplomatic ties with countries around the world, joined international organisations and treaties, and created a legal framework for trade, economic and humanitarian cooperation. Membership in the United Nations since 1992 confirmed the country’s standing as a full-fledged member of the international community.\nFrom the outset, independence was therefore regarded not merely as a political and legal status, but as a practical opportunity to determine the course of national development independently, protect citizens’ interests and build relations with other states on the basis of mutual respect and equality.\nRestoring and strengthening statehood required considerable effort. Yet it was during this period that the foundations were laid for Kazakhstan’s modern institutional system, its international standing and its long-term development strategy.\nKazakhstan in a changing international order\nSince the early years of independence, Kazakhstan has pursued a foreign policy grounded in the protection of national interests, the development of good-neighbourly relations, pragmatism and cooperation with diverse centres of global economic and political influence. The country’s geographic position and international economic ties make a broad range of partnerships and the ability to navigate complex global interdependencies an objective necessity.\nIn this context, a multi-vector foreign policy means seeking constructive relations with states and international organisations on the basis of sovereign equality, respect for territorial integrity, non-interference in internal affairs and the peaceful settlement of disputes. Its practical value lies in expanding diplomatic room for manoeuvre, economic cooperation and the protection of national interests.\nAs geopolitical tensions intensify, preserving international law and the effectiveness of multilateral institutions becomes especially important. For states with an interest in stability, predictability and free trade, compliance with international norms is an essential precondition for long-term development.\nKazakhstan consistently supports dialogue and multilateral cooperation within the United Nations. The country’s priorities include international security, sustainable development, nuclear non-proliferation, confidence-building and resolving regional issues through negotiations. These priorities are reflected in the Concept of the Foreign Policy of the Republic of Kazakhstan for 2020–2030.\nNuclear disarmament occupies a special place in Kazakhstan’s international profile. The decision to close the Semipalatinsk Nuclear Test Site in 1991 and the subsequent renunciation of the inherited nuclear arsenal were important milestones in the country’s history and in international security policy. This experience remains a significant part of Kazakhstan’s contribution to global efforts to prevent the proliferation of nuclear weapons and strengthen international trust.\nThe regional dimension of foreign policy is also strategically important. Central Asia’s resilience depends on the development of trade ties, the rational use of water resources, transport connectivity, energy cooperation and joint efforts to address environmental challenges. None of these issues can be effectively resolved by countries acting alone.\nCloser cooperation among the countries of Central Asia expands the region’s ability to pursue independent economic development, enhance its international competitiveness and respond to shared challenges in a coordinated manner. Kazakhstan regards regional stability and development as important conditions for its own long-term security and prosperity.\nAt the same time, the country is interested in deepening engagement with the European Union and its member states. European partners are of considerable interest in industry, energy, transport, education, science, digital technologies and environmental modernisation. For Kazakhstan, such cooperation offers a way to expand export opportunities, attract investment and gain access to advanced technological solutions.\nUltimately, a country’s international role is determined not only by its economic resources or geographic position, but also by its ability to turn these advantages into practical results, sustain dialogue and consistently honour its commitments.\nEconomic transformation: from adaptation to diversification\nSince independence, Kazakhstan’s economy has undergone profound structural change. The country has established its own financial system, national currency, institutions for regulating economic activity and mechanisms for attracting foreign investment. The development of natural resources, industry and infrastructure, together with the expansion of trade ties, has enabled Kazakhstan to strengthen its position in the regional and global economy.\nNatural resources remain an important part of the country’s economic potential. Kazakhstan has substantial reserves of hydrocarbons, uranium, non-ferrous and rare metals, as well as significant agricultural capacity. The country’s resource base could underpin new production chains, provided that processing and technological capabilities are developed. According to the World Bank, Kazakhstan has more than 5,000 unexplored deposits of rare and rare-earth metals, with an estimated potential value exceeding $46 trillion.\nHowever, the long-term resilience of the economy depends not only on using these advantages effectively, but also on broadening the production base, raising labour productivity, developing competitive processing industries and creating new sources of growth.\nThat is why economic diversification, the development of non-commodity exports and investment in high-value-added sectors are of strategic importance. The aim is a gradual shift from a model in which extractive industries play a substantial role towards a more sophisticated economic structure built on technology, skilled workers, efficient infrastructure and entrepreneurial initiative.\nKazakhstan’s economic performance in recent years reflects both growing business activity and the ongoing challenge of diversification.\nAs part of a new investment cycle and its economic development framework, Kazakhstan plans to attract an additional $150 billion in foreign investment by 2029.\nThe highest growth rates were recorded in transportation and storage, construction, trade, industry, and information and communications. During the first nine months of 2026, the short-term economic indicator rose by 4.8 percent year on year. This performance points to broader activity across a range of sectors, although its long-term sustainability will depend on productivity gains and the development of non-commodity production. In August 2026, S&P Global Ratings raised the country’s sovereign rating to BBB with a stable outlook; Moody’s maintains its rating at Baa1 with a stable outlook. These assessments describe the government’s creditworthiness, but do not in themselves replace an analysis of investment quality, productivity or the sustainability of growth.\nForeign trade and transport connectivity add to this picture. According to the Bureau of National Statistics, Kazakhstan’s total trade with all foreign pa"
     },
     {
-      "title": "Kazakhstan celebrated 35 years of independence with a special concert in Sofia (VIDEO) - Fakti.bg",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUVZaRVVUNjJZR2p6Q3AzTlNaaFNYQk9hX2QtcHIxUW9sVElXSjg4YVRwY1dzY1ZVUmhmYnIxUWM1RFhFWXhhdWpYMkZJdHJDSFRDdXRRSVdkWTZLM3Z1VVROMkM1N211WGdLR0p0ZkpqTEVOeG04ZUp6SkdLSWI2Rm5lWVNDdzRISlRwR09CLW9ndzFhMzZ5akpuZy1xbU9oeVBMc0s4cy1zR09LNUJ2NkYtM08xLXBjbW9uLUFOcVZEU2hTYXpZ?oc=5",
-      "published": "Sat, 24 Oct 2026 05:11:00 GMT",
-      "summary": "Kazakhstan celebrated 35 years of independence with a special concert in Sofia (VIDEO)&nbsp;&nbsp;Fakti.bg",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-24T13:11:00+08:00",
+      "title": "Sovereign Wealth Consortium Targets Central Asia With $500 Million Equity Fund - https://streamlinefeed.co.ke/",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcjJHejA2SEZtOFJBdkMyYlJpVS1DUlBTRGJJYWxIZTd4d1FIeGpBWndwQzFzc01hN294TWNteWItUWxBT3lFeXRoNEZJNzlCQktkVmMtX1dYUW5JQnBZU0RWa1dlWmlNSDVhajA0Y25xTGVHT1ZDZC1kRnM5NEVia1dnUzBjWWRGR1BOY3J0d0pZcjY5OFlCNnF3czl1dUZCVGQydVhWdXZYVVd6ZHB4cA?oc=5",
+      "published": "Mon, 26 Oct 2026 07:03:12 GMT",
+      "summary": "Sovereign Wealth Consortium Targets Central Asia With $500 Million Equity Fund&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-26T15:03:12+08:00",
       "source_detail": {
-        "name": "Fakti.bg",
-        "url": "https://fakti.bg"
+        "name": "https://streamlinefeed.co.ke/",
+        "url": "https://streamlinefeed.co.ke"
       },
       "priority": 3.6,
-      "category": "大国关系",
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://streamlinefeed.co.ke/news/sovereign-wealth-consortium-targets-central-asia-with-500-million-equity-fund",
+      "full_text": "A multinational consortium of sovereign wealth funds and development banks has moved to establish a $500 million private equity vehicle targeting frontier markets across Central Asia and the Caucasus.\nThe Central Asia and Caucasus Private Equity Fund (CACPEF) represents a significant structural shift in how capital is deployed across the region, moving away from traditional state-backed infrastructure loans toward direct equity investments in mid-sized enterprises. The letter of intent, signed in late October 2026, unites the Eurasian Development Bank (EDB) with heavyweights including the China Investment Corporation (CIC), the Oman Investment Authority (OIA), and Uzbekistan’s Fund for Reconstruction and Development (UFRD).\nThe Architecture of a Frontier Consortium\nThe capital structure of CACPEF relies on anchor commitments from sovereign wealth funds, which provide the necessary scale to attract institutional co-investors who might otherwise avoid the perceived risks of frontier markets. The China Investment Corporation brings vast capital reserves and strategic alignment with Beijing’s Belt and Road Initiative, while the Oman Investment Authority offers Gulf capital seeking diversification beyond hydrocarbon assets. Turkey’s OYAK and China’s Shenwan Hongyuan Investment round out the founding consortium, providing regional industrial expertise and financial engineering capabilities.\nThis coalition marks a departure from previous regional funds, which were often dominated by Western development finance institutions. By centering regional and Asian sovereign capital, the fund aims to align investment horizons with the long-term industrialization goals of the host nations, rather than the shorter exit timelines typical of Western buyout firms.\nSpecific sectors targeted by the fund include renewable energy infrastructure, particularly solar and wind projects aimed at decarbonizing the region’s heavy industry, as well as digital logistics platforms that optimize transit across the vast Central Asian steppe.\n| Table 1: CACPEF Founding Consortium and Strategic Roles |  |  | \n|---|---|---|\n| Institution | Origin | Strategic Role | \n|---|---|---|\n| Eurasian Development Bank | Russia/Eurasia | Technical assistance, risk mitigation, deal sourcing | \n| China Investment Corp | China | Anchor capital, strategic infrastructure alignment | \n| Oman Investment Authority | Oman | Gulf capital diversification, co-investment networks | \n| Uzbekistan UFRD | Uzbekistan | Host nation guarantees, regulatory navigation | \nThe Middle Corridor and Supply Chain Realignment\nThe timing of the fund’s launch is inextricably linked to the geopolitical fragmentation of global trade and the rapid elevation of the Trans-Caspian International Transport Route, commonly known as the Middle Corridor. As sanctions and logistical bottlenecks have constrained traditional north-south trade routes, Central Asian economies are transitioning from mere transit hubs into active manufacturing and processing centers.\nPrivate equity is uniquely positioned to capitalize on this shift by scaling mid-market companies that are integrating into these new supply chains. Sectors such as agro-processing, light manufacturing, and logistics infrastructure require the patient capital and operational expertise that CACPEF intends to provide, filling a critical gap left by risk-averse local banking sectors.\nMechanism and Bottlenecks: The Exit Problem\nDespite the immense growth potential, private equity in frontier markets faces a chronic liquidity premium and a severe exit bottleneck. The primary challenge for CACPEF will not be sourcing deals, but rather realizing returns for its investors within the standard seven-to-ten-year fund lifecycle.\nTo mitigate this, the fund will heavily utilize the Astana International Financial Centre (AIFC) in Kazakhstan. The AIFC provides a common-law jurisdiction, an independent English-language court system, and a familiar regulatory framework that reassures foreign investors regarding dispute resolution and corporate governance. However, regional capital markets remain shallow, meaning initial public offerings are unlikely to serve as a primary exit route.\nInstead, the fund will rely on trade sales to regional industrial champions or strategic acquisitions by international multinationals seeking to establish a foothold in the Eurasian economic space. This requires CACPEF managers to build deep operational value within their portfolio companies, making them indispensable assets to larger regional players.\nRegional Impact and Accountability Constraints\nThe fund aims to bridge the persistent gap between state-directed industrial policy and private sector efficiency, which has long hampered the region’s economic diversification. By injecting professional management practices and strict environmental, social, and governance (ESG) standards into family-owned conglomerates, CACPEF hopes to catalyze a broader modernization of the regional corporate landscape.\nHowever, the limits of this approach are significant. Corporate governance standards vary wildly across the five target jurisdictions, and enforcing minority shareholder rights against entrenched local elites remains a formidable challenge. The fund’s ultimate success will depend on its ability to navigate complex political economies without becoming entangled in the patronage networks that often dominate frontier market commerce.\nThe formal launch of CACPEF will depend on finalizing the fund management agreement and securing regulatory approvals across five distinct jurisdictions, a complex legal process expected to stretch into the first quarter of 2027 before capital calls are issued.\nHow did this story land?\nNo sign-in required. Choose up to two. This captures your response to the story—it is not a vote on whether the reporting is true.\nSources & evidence\nSources linked in this article’s evidence ledger. Open the original material to assess the supporting claims and their context. A reference listing is not an independent verification badge.\n1 reference is marked as primary in the evidence ledger\n- 01Eurasian Development BankPrimary documentPrimaryCentral Asia and Caucasus Private Equity Fund Cooperation Intent SigningBy EDB Press Service Published 23 Oct 2026Accessed 26 Oct 2026 Evidence used \n  - • Consortium of EDB, CIC, OIA, and UFRD signed LOI for $500M CACPEF targeting Central Asia and Caucasus.\nHot discussions around this story\nKeep the conversation in one place—threads here stay linked to the story and in the forums.\nContinue reading\nThese are the latest published stories from Business.\nMore from Business\nTanzania Services Receipts Rise 11.7%; Transport Grows Faster Than Tourism\nOct 26, 2026\nMore from Business\nGalp and Moeve abandon Iberian refining merger as Portuguese energy firm posts profit surge\nOct 26, 2026\nMore from Business\nChallenger board declines to recommend Dai-ichi Life’s indicative A$11.80 approach\nOct 26, 2026\nMore from Business\nBSI International Expo 2026 Concludes with IDR 5.38 Trillion in Transactions, Highlighting Islamic Finance Growth\nOct 26, 2026\nMore from Business\nSaudi Aramco Secures Singapore Storage Deal to Anchor Asian Supply Chain\nOct 26, 2026\nMore from Business\nTokyo-listed Brazil ETF fell 15% after Lula election, report says\nOct 26, 2026"
     },
     {
-      "title": "Amangeldiev held a meeting with the Minister of State for the Ministry of Trade and Industry of Qatar - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcGRQWWtoYWw3akVHanpWZ3g0RzFQUU15RV9LQ1daTU52WUdUMVlzaXJmZGVZTlNIWGd2VmJ1TzdYYnA2dnhNMzdYWTRHd2hrb1g1UXd0NnVBRzVBVkJtVXhNUFVGVVhRVXJsSG5rNFJwWVhCU2poQ0hsNC1lZnpZU0dOcmtZRWdoNGp6V1pDSExXQVNKSUFDQmswT21xSGRNckFHR3ZIODdIQS1YNk1nQUp1b2xCemM5N3JrVmVEbWlXeDJBMGw3aEU4UXZfTExm?oc=5",
-      "published": "Sun, 25 Oct 2026 11:03:36 GMT",
-      "summary": "Amangeldiev held a meeting with the Minister of State for the Ministry of Trade and Industry of Qatar&nbsp;&nbsp;open.kg",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-25T19:03:36+08:00",
+      "title": "Robinder Nath Sachdev: India and Azerbaijan moving closer despite differences - INTERVIEW - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR1R3U0F0ZGxxdFc1aGN2MUVWc1F2b2JWU2oydU05OGp6RVRqZThJTVZWb2hqWXIzYU53NWlkbnpfM2d6OUx5dWVjbS1BX2pyenAyM1NqSFVrRVJ4YWFIeUphek9JU1U3TEp1cHpGSEpINHpNRW9QeGM0T2pnTy1sU3U0Vm5zcDBYZF9wMWhiUk5TdkllQWRHalFXdWJxMS1oVmF3dEhMZjVPeUU?oc=5",
+      "published": "Mon, 26 Oct 2026 05:24:22 GMT",
+      "summary": "Robinder Nath Sachdev: India and Azerbaijan moving closer despite differences - INTERVIEW&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | Caucasus",
+      "published_beijing": "2026-10-26T13:24:22+08:00",
       "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
+        "name": "Latest news from Azerbaijan",
+        "url": "https://news.az"
+      },
+      "priority": 3.6,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://news.az/news/robinder-nath-sachdev-india-and-azerbaijan-moving-closer-despite-differences-interview"
+    },
+    {
+      "title": "The US failed in 20 years , while China entered Afghanistan by train! - TodayPress.tv",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVEZMSndveVJabTdmVS1ISHVPOHBkaF9JQnBpZXIwRXVodTByTVV5cnd6Uy1DdldkMV9hQzVRLUtZcTdDT3ZXM1JDZlhtVzIzZVA4R3BSeFZVXzc3SmhmSHpxbE1YUjE5M3V1ZmxHYkdVLVJORUY2dUdRZk1mZVFxeUhjdzJMSnJOSkdLbm5pd0tRRDZmZDhwZ3JDY01mZw?oc=5",
+      "published": "Mon, 26 Oct 2026 13:53:00 GMT",
+      "summary": "The US failed in 20 years , while China entered Afghanistan by train!&nbsp;&nbsp;TodayPress.tv",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-26T21:53:00+08:00",
+      "source_detail": {
+        "name": "TodayPress.tv",
+        "url": "https://todaypress.tv"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -209,15 +468,47 @@
       "relevance": "low"
     },
     {
-      "title": "As the US and China form AI blocs, countries are increasingly torn between them - myMotherLode.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONVNlc1Rxc3R5YkFrZFotZDY3dzYzLXVKYTZscUdvU1AtT1NKSWxlMTNoUWNQbUxLRkdnZWM3TVdHNXg2YVBWR2MzcTN3UHEzejg4TDh6ajdsR3RxQ3dHd250cVdwRXFEUmZsLUwxaHgyWUxXQXB0a1ZpWmpLZElyeENWUWdLWmUtTnJNQ0hocEZTOHhjWFZmdWtnTWtVQkZ1bm9TdU5VS08wOG9rM3dJQ3FPaTJOVDZDRmhmSU9WZlk1N3V6OXpZQWx6aWPSAcwBQVVfeXFMTjVTZXNUcXN0eWJBa2RaLWQ2N3c2My11SmE2bHFHb1NQLU9TSklsZTEzaFFjUG1MS0ZHZ2VjN01XRzV4NmFQVkdjM3Ezd1BxM3o4OEw4emo3bEd0cUN3R3dudHFXcEVxRFJmbC1MMWh4MllMV0FwdGtWaVpqS2RJcnhDVlFnS1plLU5yTUNIaHBGUzh4Y1hWZnVrZ01rVUJGdW5vU3VOVUtPMDhvazN3SUNxT2kyTlQ2Q0ZoZklPVmZZNTd1ejl6WUFsemlj?oc=5",
-      "published": "Sun, 25 Oct 2026 06:11:42 GMT",
-      "summary": "As the US and China form AI blocs, countries are increasingly torn between them&nbsp;&nbsp;myMotherLode.com",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-10-25T14:11:42+08:00",
+      "title": "The Hidden Economics of Being Landlocked: Why Trade Relationships Defy Conventional Measures - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWZ0aWQ4QTduV3BLd2lmY3FJaGFWWHI3ekxITzhuazNHbzRFa2dXVl9xaTBjbkpVZF9raGo1a1UwLXZZdTVPRXNVcHlFcHJQVEtzUXFKZWZ4OVR1QnYzT3RDTy1OUUFqbFZ2OWdiXzdNNGxHUk5ORDV5VE0yWnQ1ZkpsMmVyNmtfWGZxTmUwWUNMTnhJZ2hKR0xRMjIwc0xXNlNjQ0w1QjZhaFBnbkhxLVFLUE9Eak1oRVdGLUptZEZsZy1sZG1mZ05yRkxXYU9HSXpXWkZaQkR4QWdTdG9hTTgya9IB4wFBVV95cUxOOWZ0aWQ4QTduV3BLd2lmY3FJaGFWWHI3ekxITzhuazNHbzRFa2dXVl9xaTBjbkpVZF9raGo1a1UwLXZZdTVPRXNVcHlFcHJQVEtzUXFKZWZ4OVR1QnYzT3RDTy1OUUFqbFZ2OWdiXzdNNGxHUk5ORDV5VE0yWnQ1ZkpsMmVyNmtfWGZxTmUwWUNMTnhJZ2hKR0xRMjIwc0xXNlNjQ0w1QjZhaFBnbkhxLVFLUE9Eak1oRVdGLUptZEZsZy1sZG1mZ05yRkxXYU9HSXpXWkZaQkR4QWdTdG9hTTgyaw?oc=5",
+      "published": "Mon, 26 Oct 2026 06:02:32 GMT",
+      "summary": "The Hidden Economics of Being Landlocked: Why Trade Relationships Defy Conventional Measures&nbsp;&nbsp;Devdiscourse",
+      "source": "GNews | RU-CA",
+      "published_beijing": "2026-10-26T14:02:32+08:00",
       "source_detail": {
-        "name": "myMotherLode.com",
-        "url": "https://mymotherlode.com"
+        "name": "Devdiscourse",
+        "url": "https://www.devdiscourse.com"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "No tailwinds for India: US and China are squeezing India’s rise - Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0FwMGxfQkgwYVBfN3EwT05neHBFUkluSmNSazlrRUoxcW1yeU1QeXNnQVowaWljMC11dVFpdmFZRDBaZ3VfaVhfWmNDYXVSbzBuNW5qZnQwSXhKalJHWnFoRzRpNU9XX3ZGN1dtLUVsSTVVOWFOd1Y1cEdEbldmOElRM2IzS2VSMk4tM2ZlaUVjWkRvNk1vNXhOVTJyWVVDMEpRRGVkSlJZSzJSZnfSAbMBQVVfeXFMT3ZhZ3ZVeHEyRlZneF9TNkFyc0ZtdmxfTXJiNmdzSEdzOVBRSlZhc1ZPdHNBZmVfQkhmV1NsUm9XdFR6NUp4eWFNNmNNb3Nmb2NBZnRtZ1FfdGE5LVZ1aDMxX05Ua0d3TE13NTFUZThTVm1QSXVadGpEZXJaNElTUmZ6SmRxQ3JmYjd6UmJ5WEpqNzEzWTN4T0g3ZHQ4cUdYWGtPZkZYandRM18yVEhNa1RDNGs?oc=5",
+      "published": "Mon, 26 Oct 2026 05:40:16 GMT",
+      "summary": "No tailwinds for India: US and China are squeezing India’s rise&nbsp;&nbsp;Firstpost",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-10-26T13:40:16+08:00",
+      "source_detail": {
+        "name": "Firstpost",
+        "url": "https://www.firstpost.com"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US, China AI blocs force countries to choose sides - ET Datacenters",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWkd3SXhjZUZpRVo0UTdrcWRVM1RFbGd6VXg2UE4wMmFvS1dJOVhQdkdMREhqX2czTU9RTHNSTkxxRlpyMHhvYVg3U3laWEhZcHRLM1VuVk1XOFo0Y2JmVGN6em52Q0hDY3p0MU5ESy03S1R2cnZoaVJCUmhfWDNnMExMd2dOaGlhM2tRa3VZUFFsR2NhU1JWWWZoeE1lRC1UbDhhY2MyTERWeG12TWpIWGphVkNBaDE5ZFJSNFhIY3lKaV9HVWs4T2F1TzNsZnJaTlNOSThtT1hJZ9IB2gFBVV95cUxPWkd3SXhjZUZpRVo0UTdrcWRVM1RFbGd6VXg2UE4wMmFvS1dJOVhQdkdMREhqX2czTU9RTHNSTkxxRlpyMHhvYVg3U3laWEhZcHRLM1VuVk1XOFo0Y2JmVGN6em52Q0hDY3p0MU5ESy03S1R2cnZoaVJCUmhfWDNnMExMd2dOaGlhM2tRa3VZUFFsR2NhU1JWWWZoeE1lRC1UbDhhY2MyTERWeG12TWpIWGphVkNBaDE5ZFJSNFhIY3lKaV9HVWs4T2F1TzNsZnJaTlNOSThtT1hJZw?oc=5",
+      "published": "Mon, 26 Oct 2026 02:11:07 GMT",
+      "summary": "US, China AI blocs force countries to choose sides&nbsp;&nbsp;ET Datacenters",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-26T10:11:07+08:00",
+      "source_detail": {
+        "name": "ET Datacenters",
+        "url": "http://datacenters.economictimes.indiatimes.com"
       },
       "priority": 1.2,
       "category": "中亚",
@@ -225,92 +516,28 @@
       "relevance": "low"
     },
     {
-      "title": "India-U.S. Trade Deal draft is ready, but still there are few gaps - The Northlines",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY0RiVzRtWU1GQlpBM2NzYngtanotQmlDS1ZsRXpOdjRGTmE5cjRQc1BPdWVoRG1KOTlWTk1xVWFPM21CLXNFSUdhSy05MjJ1WXBPTnl5ZVRmREtxSVlmWVQwQXA3dG5sM0ZXRGdjcHdCQzJ1U0hUdDQ2VXlVdUxfQXFiM0lqcHdaS2lRRURhaUVlYUN5Mnc?oc=5",
-      "published": "Sat, 24 Oct 2026 17:18:58 GMT",
-      "summary": "India-U.S. Trade Deal draft is ready, but still there are few gaps&nbsp;&nbsp;The Northlines",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-25T01:18:58+08:00",
-      "source_detail": {
-        "name": "The Northlines",
-        "url": "https://thenorthlines.com"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "World News | Zelenskyy Says Starlink and Starshield Operations Restored, Thanks US for Support - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORkdZUDJqdEptdERBemo1R0k0blJ4aG1rMWh4dWdMZHd6cC1FUVdqU1R1UGI5RTB5UWpWYjFkZ0xldHctSW1uX1FyQ0xEYThoQnRQVjJyb3NuODFscW43SlFISkJEcUJVUkcyZmkwUjZZS0RSM2hacFBubXQwNDhTb3hqTFE0WXVWa0lDQWM3b2JmTk51MHpvdmhoY2FvcjBsa0x2bVRFdkpYLWttUExaZUhiOXFWTFI0VWN0RGJudE1MS0dYMzhtQkh0TVozRUNibGNtZTV1aTnSAd4BQVVfeXFMTWd2dmpBOHZRdkRJTHN1Mkdlb0tXbXlxaUx6YmlLSFhacm9uV1FVVjktRkh1SC1kYU1qUWJtUi1WV1E1aW9reGp5TzRyb1hRTHpnTjhUOUxxYjJkM0VzS3pJekRjN2dFTmpsMzNKV21LNllOWUpNdU1JSE4zOGVWN0x4UDBVSkZ1WEZmVThJN1RVZFpDejZUT2owZEwwajY3ZVp5T3lQbWlQQW9wcm9vdEdvMzZfa0xuQ1BENmZXNTdrNmg2aTBKSnE5c1BEZWkxLXZxaEhQVVFON1kyWWh3?oc=5",
-      "published": "Sat, 24 Oct 2026 16:00:18 GMT",
-      "summary": "World News | Zelenskyy Says Starlink and Starshield Operations Restored, Thanks US for Support&nbsp;&nbsp;LatestLY",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-25T00:00:18+08:00",
-      "source_detail": {
-        "name": "LatestLY",
-        "url": "https://www.latestly.com"
-      },
-      "priority": 1.2,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Zelensky says Starlink, Starshield speeds restored in Ukraine - chinadailyhk",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44UjhTN2RIR0xVNHMzRGZUUUN1Z0U0WTRlWnhlWng2MEZUb3BhSFlMUlozMERRLW5jdWFYSlM3ZWVPUE9MRl9paUNGUHNKa2djX1hVSDlB?oc=5",
-      "published": "Sat, 24 Oct 2026 12:51:00 GMT",
-      "summary": "Zelensky says Starlink, Starshield speeds restored in Ukraine&nbsp;&nbsp;chinadailyhk",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-24T20:51:00+08:00",
+      "title": "What is Hong Kong’s future role in APEC? - chinadailyhk",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qR0hhTUxNTk92Mlp4OW1QNUpnU3A5RTJ0U3g5Um9JZVk4RkVYVlBaZEo0N3NhTTAyMHpDRTFhYzU1VmhjbXBqQkxoN1RKM3ZPTWxfdUR3?oc=5",
+      "published": "Mon, 26 Oct 2026 00:27:00 GMT",
+      "summary": "What is Hong Kong’s future role in APEC?&nbsp;&nbsp;chinadailyhk",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-10-26T08:27:00+08:00",
       "source_detail": {
         "name": "chinadailyhk",
         "url": "https://www.chinadailyhk.com"
       },
       "priority": 1.2,
-      "category": "战争+地缘",
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Qatar, Kyrgyzstan establish joint council to boost trade - Qatar Tribune",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOUdTMHkyZlV0Y0xVaWU4dXAyT29WczViS05reFhpTkNscmVQbURreHR0bVR5bDBhdlZ0VnZHNFdfRzU4eXhKNzVNa19xd21xRFJFMjNULS1ZRkZtX0NlcnlYZjUxSEU1c3ZKaDlabkFienhNSlFOZXZvd3RYcDYwUWRXTElYNWMwMG41dmRPbWhBYjJFOHZLRElNZ3VjZlVaSFdodzJMdXpDaW9RU0E?oc=5",
-      "published": "Mon, 26 Oct 2026 01:16:33 GMT",
-      "summary": "Qatar, Kyrgyzstan establish joint council to boost trade&nbsp;&nbsp;Qatar Tribune",
+      "title": "Rubio’s Unusual Visit To India Marks A Paradigm Shift In India-US Ties – Analysis - Eurasia Review",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQckxKZUVOQmFkczc0cFpjVmxlT2J6UzhMd3ZTMUQ2MW04RGRjSGFyTFM5T3JaeVBPUWF1V255ckM1UzNGSVhZVUw2V2JqT1RmY3dYTTNDZ1d2b1hHSzVibkhlb2tRTWVQSXdYeXZ6WEdiSmlfNngwT2owaDVzOTM3WmxuN015cTJLSVRoOUxvektPaHV0eHFuekE4Wkg0YUpydGczR1pYaHUtSmVpZ1pCcWFhN2ZpLW4ycGc?oc=5",
+      "published": "Tue, 27 Oct 2026 01:07:33 GMT",
+      "summary": "Rubio’s Unusual Visit To India Marks A Paradigm Shift In India-US Ties – Analysis&nbsp;&nbsp;Eurasia Review",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-26T09:16:33+08:00",
-      "source_detail": {
-        "name": "Qatar Tribune",
-        "url": "https://www.qatar-tribune.com"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "This is the emerging challenge of CPEC 2.0. - Pakistan Today",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRkxmTE5DS1RYcmdlUERQODJyN3BQUDNNQjFOY3lhWVdYOEFhNTR4Q0V5WmREQ0ZLQmRjTGk1WDNJSEMxekhQRzljVXBfaWhJQ1dYWWFUMXNNYWhyZmVYYXpQMXpybmU5dlNvb2pJTTk5cnJtYXFLazQxUWVONjdIT0R3NDNtMWlOb0tld05hVEFSMk5VenVNV253?oc=5",
-      "published": "Sun, 25 Oct 2026 23:31:47 GMT",
-      "summary": "This is the emerging challenge of CPEC 2.0.&nbsp;&nbsp;Pakistan Today",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-26T07:31:47+08:00",
-      "source_detail": {
-        "name": "Pakistan Today",
-        "url": "https://www.pakistantoday.com.pk"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Zangezur Corridor (TRIPP): From Regional Geopolitics To Global Geoeconomics - Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmRHX3dIYThjYV95Q1NCQXB4bUJEcTF1T1U3djN1SHVZbjBiSmlxYmROaDMxUVFmb0FsMEEzY2paWGhhVGFGdUlrRTFTV2NuX2R3TGkyUGdvMmc2dFB3ckRoMDNMbkdKRTJSekNwU1NpRUc5OG84TzNNNWRNSXFxWnhhRnJROUdPbzE1Rmw0NmVJcFY5WXd4dVRUUFVya0RocFNTSGtkVDY1TDZmcUg1VHdlaHR6TUpiZzIwRlA0Z1p5cHc?oc=5",
-      "published": "Sun, 25 Oct 2026 23:30:42 GMT",
-      "summary": "The Zangezur Corridor (TRIPP): From Regional Geopolitics To Global Geoeconomics - Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-26T07:30:42+08:00",
+      "published_beijing": "2026-10-27T09:07:33+08:00",
       "source_detail": {
         "name": "Eurasia Review",
         "url": "https://www.eurasiareview.com"
@@ -321,15 +548,15 @@
       "relevance": "low"
     },
     {
-      "title": "Bilateral relations await yet another boost - The Financial Express",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWkRDYjNXZUZIWmVqdVNRWVF4UFVDQy1oNS1vaW55d29wWjRmSi1GRUhsN0lPZFRGTlRrNV9hTlBtNFFUUDJJTGg1MUtQYW1QcmI0NGJ3ZjRTa2RTS1NuOU0tNWc4eGg1RUxYeXl0TkdYN3BuTHFvT0todUJUTEthTHR2NXdEX29NV053clZ0c2YyQXVGcTQ4b3JnT2NUZlN3aDVHOEFYME9EUHpGS2tNQ1lBNlhyd2NuaFHSAboBQVVfeXFMTlpEQ2IzV2VGSFplanVTUVlReFBVQ0MtaDUtb2lueXdvcFo0ZkotRkVIbDdJT2RURk5UazVfYU5QbTRRVFAySUxoNTFLUGFtUHJiNDRid2Y0U2tkU0tTbjlNLTVnOHhoNUVMWHl5dE5HWDdwbkxxb09LaHVCVExLYUx0djV3RF9vTVdOd3JWdHNmMkF1RnE0OG9yZ09jVGZTd2g1RzhBWDBPRFB6RktrTUNZQTZYcndjbmhR?oc=5",
-      "published": "Sun, 25 Oct 2026 18:00:00 GMT",
-      "summary": "Bilateral relations await yet another boost&nbsp;&nbsp;The Financial Express",
+      "title": "Israel votes tomorrow: What’s at stake for India as Bibi faces tough fight - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZ0tMUTdiZzlwb1l0TWRVV0c5SUdrYWMyUE43Rloyc0YzSUFFOHNvRkFJZm8xZGtURVlZdG9FcGxURDNaSjY5ZW1OR0ZHZ2lZZUhvejBwblBWRnZxNHdVWDE5b0JyZ3lNWF9MM1ctWVZQMTljTm42QXJydklMTEYyT19iS2N6ZkVCMlI1ZWFIRW0tM29NQWxkMnNZS1hKOXJSTDVTaTNrVUFhNHVScDBJMUpPckVfTnN1ZWlrSHFWT0E2eEZ4WWtvd1RLUVM2T1poVzBfZHlKREpIQnhsWG94aXFmME5Ha0syQWstMlI4NElBdnQ2a1BpOTloeXlJMWfSAYQCQVVfeXFMUGkwcTdKOWlQamk1N2gwMTBPZVF4Wk1ucld4ZklHeXlFbDRYV3BqTWJrejNEbU9ZVFJCTWp4c1oxRE84TGR2c3c3TldwVVB2bWtSN09MQTRoLTVxMHJ4Mm5aN2dsek9wMjYzb01rX0ZlZ0pMYnpYSlM2aDlZU0tHR0YyXzMtNkxZNngtOXlfdldRcTVHc1BCbDNfcC1TaXlwNEpOdDVIWGtqS29mVVlKN213bC02ZHZKMEdtOXMtRENCNWtneVdYdDd1VU15S1dtYVAtZVF0ZUpOYmZjT2NZcHR2bTB1elRMRExSX1lXeUhHWGEyTzZhd1BFU1JwRzhneDNkcEQ?oc=5",
+      "published": "Mon, 26 Oct 2026 10:44:56 GMT",
+      "summary": "Israel votes tomorrow: What’s at stake for India as Bibi faces tough fight&nbsp;&nbsp;The Economic Times",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-26T02:00:00+08:00",
+      "published_beijing": "2026-10-26T18:44:56+08:00",
       "source_detail": {
-        "name": "The Financial Express",
-        "url": "https://today.thefinancialexpress.com.bd"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
       "priority": 0.0,
       "category": "大国关系",
@@ -337,79 +564,15 @@
       "relevance": "low"
     },
     {
-      "title": "Canada’s Türkiye reset: Why Ankara matters now | Daily Sabah - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlJWRzhxUFNvYUxISEJ5WlBNMndZVS13eHRwdVJzb3FJcWQ4NmFJNEdIa3dPbHBWcVR6Um1vSEJZX2FNMEZpcjJxUU9jbEVCbUtlZVNRNlNHUFUxTmMtQzNkU1F0WGl1N1dBTkY4TlpCajRxNXZyM3J6T3BIYzl5TXgtZUxKM2hoRUF5a1F2bnlzVjTSAZMBQVVfeXFMTzJSVkc4cVBTb2FMSEhCeVpQTTJ3WVUtd3h0cHVSc29xSXFkODZhSTRHSGt3T2xwVnFUelJtb0hCWV9hTTBGaXIycVFPY2xFQm1LZWVTUTZTR1BVMU5jLUMzZFNRdFhpdTdXQU5GOE5aQmo0cTV2cjNyek9wSGM5eU14LWVMSjNoaEVBeWtRdm55c1Y0?oc=5",
-      "published": "Sun, 25 Oct 2026 10:11:00 GMT",
-      "summary": "Canada’s Türkiye reset: Why Ankara matters now | Daily Sabah&nbsp;&nbsp;Daily Sabah",
+      "title": "PM Lê Minh Hưng hosts welcome ceremony for Polish counterpart - vietnamnews.vn",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV283YU90SFRMYk1CYVd1dGxlMVp1dWs0aTRXdnpMWjE0SXl2TDVsczNQbE4tMzdMR2lEM0Vpb05Xd0UzX2NSRnYxZ2NEUW5BOVZTZkE3dVVoU3FyaWhzMnFUMVVyOEZrNVdfZFFSX0RKbXI5VVZ3WWpNMmttQXo4b2lpNmNRMkk1WEhOWnRTNGIzUUdJdzQ1dUxSdFFUV1FVZnQ1RTZNNlNkekxDVzlBVA?oc=5",
+      "published": "Mon, 26 Oct 2026 04:00:00 GMT",
+      "summary": "PM Lê Minh Hưng hosts welcome ceremony for Polish counterpart&nbsp;&nbsp;vietnamnews.vn",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-25T18:11:00+08:00",
+      "published_beijing": "2026-10-26T12:00:00+08:00",
       "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Musk Confirms He was Behind Restricting Starlink Speeds in Ukraine - PUKmedia یەکێتیی نیشتمانیی کوردستان",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qTHJPOEZIOFNvMWQ2NzdtN3Q2YUxVWEs2MGM2YXhYR2k4NFJpMmo2UjBvbm01TklXUXJaYmVYdk9VVUk5VjFpYzNhczR4OG01Y3A4?oc=5",
-      "published": "Sun, 25 Oct 2026 07:13:00 GMT",
-      "summary": "Musk Confirms He was Behind Restricting Starlink Speeds in Ukraine&nbsp;&nbsp;PUKmedia یەکێتیی نیشتمانیی کوردستان",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-25T15:13:00+08:00",
-      "source_detail": {
-        "name": "PUKmedia یەکێتیی نیشتمانیی کوردستان",
-        "url": "https://www.pukmedia.com"
-      },
-      "priority": 0.0,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tehran, New Delhi can anchor the shifting balance of global power - The Week",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQU9MQURuaHlCX3lndWgzR3c1bDVidlhHX0xTcGRVckZFei1CZ2xkYW53anRzY1RkTGlaZlRJbkhzQkFuVUVoT3AtYUhhR3gyV1RTVXV3M3FPNWFSN28tVzhmbXZXbkFTbHoxVWVQSUVDWW1CWWVWTm1FUXBGRUpJdjJ0bjhHV1ZKY1JaQXJCTnkwRmJWZ2JGTVNKX2hib3lVVGp4eWc4cHpnMHFrWmVhb3FuS2VmdDBjOVFrbNIBzgFBVV95cUxQNW14OHl5Z2k1ay1fWklNQUhiWnNETmRKZ1dNakpVaWZUeVhSTm00RFMxRlJnM2lYdXd3U2doMC12Rm1NNUxBVEw3ZTB3Ml9FVkJoYUVJbW9DajVXTHZIQWNPQVh2UE9XNVloQ0JCYlJ4UTBkcUF1X1JIaTBYWHVpRWdtVlBWY2tJemJUejhCaENkR1hEMUx1X3hseDRKdzlOazVOS2VlaXFuMXRSdDZwME42UHF3Tmk4alhuUFd0YkNsVXZCTWNXUmhhT0R1UQ?oc=5",
-      "published": "Sun, 25 Oct 2026 03:41:04 GMT",
-      "summary": "Tehran, New Delhi can anchor the shifting balance of global power&nbsp;&nbsp;The Week",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-25T11:41:04+08:00",
-      "source_detail": {
-        "name": "The Week",
-        "url": "https://www.theweek.in"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Silence time agreed in Oleshky: Ombudsman Lubinets announces fulfillment of previous agreements - АНТИКОР",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdFFoMGl2NEs5dHFlYnh0UGRTZUI1enVQVmVNb2htVkpuQjk1YUlSOTZkeTh2VlIyTGdpdndXejBjU1ZKMW1iSW9XTWpWcWlUdktWd0FuWWh2Sm9qSm9pS1hSNjNUZjhpeFZJa3JNVWc4Rk1Na2dSVlVOUThUVE1BbU5WVWd5czhPWnR1QUpTNzJta09aUlVlQzZqRm9tRTJPSHJKVWhHNEJoenFDT0xMVUxGWm9mR2VjTzV2cWhuLWNWY3NRTG5CZ0JYMnZpRFN3em5zQVE0bXNtd28tc1BuTw?oc=5",
-      "published": "Sat, 24 Oct 2026 18:30:22 GMT",
-      "summary": "Silence time agreed in Oleshky: Ombudsman Lubinets announces fulfillment of previous agreements&nbsp;&nbsp;АНТИКОР",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-25T02:30:22+08:00",
-      "source_detail": {
-        "name": "АНТИКОР",
-        "url": "https://antikor.info"
-      },
-      "priority": 0.0,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Top Vietnamese leader's policy speech at Egmont Institute of Belgium - VOV.VN",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODNjYnNEOG9KZ0VmOWJtSjhLSjJCVVM3NWQwUzEtUDhBa01ia0JTaXo4SWxDa0lyNHdMNEdQdFVJdldmdnk0cVBuMlJLQ2VCWkhVczV0VjIzNWJhQUpVY2NSTkE5a0ZxVTJqaXJybFlUSGlZUVdqb3h1ZWRxWW04N1lMM0lVV2diejIxa1o3RzFDaFpENlNzT1h5N0ZkQVNZUEFXZ0hjWGowcGRuSGxncU5tcS1YMWpEalE?oc=5",
-      "published": "Sat, 24 Oct 2026 03:43:40 GMT",
-      "summary": "Top Vietnamese leader's policy speech at Egmont Institute of Belgium&nbsp;&nbsp;VOV.VN",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-24T11:43:40+08:00",
-      "source_detail": {
-        "name": "VOV.VN",
-        "url": "https://english.vov.vn"
+        "name": "vietnamnews.vn",
+        "url": "https://vietnamnews.vn"
       },
       "priority": 0.0,
       "category": "大国关系",
