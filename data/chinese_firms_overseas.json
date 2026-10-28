@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-27T04:05:52.110034+00:00",
-  "fetch_date_utc": "2026-10-27",
-  "total": 15,
+  "updated": "2026-10-28T04:32:29.535385+00:00",
+  "fetch_date_utc": "2026-10-28",
+  "total": 13,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 8,
+      "count": 10,
       "feeds": 5
     },
     "半导体+科技": {
@@ -45,11 +45,11 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 0,
+      "count": 1,
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 7,
+      "count": 2,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,35 +61,51 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 66,
+  "fail_feeds": 67,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Nio Co-Founder Visits Armenian Dealer, Discusses Goals for Year Ahead - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFZvRUhqRmFCZUZQa3RfdTZ2ZlBFbWF2NmxNRlhqZGVQTDdxY2VVOFNGNjlUbUl1SHJ3X2lhNkRKUnlVQXhPRXNSTXVoVHBtUVJ0ZlBzSmxQUS1oWkFpeHlxM2J2V1NfNVdINDNJdHlMdFNYOGpGRGYzM1VxUHdNWW1BSUk5X2VBT2YzeFFPT3llY2pVa3ZiYVJvU0l6WFdadjFpMg?oc=5",
-      "published": "Mon, 26 Oct 2026 17:59:00 GMT",
-      "summary": "Nio Co-Founder Visits Armenian Dealer, Discusses Goals for Year Ahead&nbsp;&nbsp;Electric Vehicles",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-27T01:59:00+08:00",
+      "title": "Europe Air-Conditioner Exports Surge 40% — Why Gree Is Missing the Feast - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wSkt2dE0tdjVLNmdWOXNjQmNtMk9LS2NRLVgtYkZDSFpQTGREQUJua01XT0pYZlJXYjdQcUNCQjNqYWR5X204bW43cTJmSFQyU0E5WXlqalg5WG9VdWFGUlFSem9FeTF1QjFJWkhDS2hpc0M5MUE?oc=5",
+      "published": "Tue, 27 Oct 2026 16:55:00 GMT",
+      "summary": "Europe Air-Conditioner Exports Surge 40% — Why Gree Is Missing the Feast&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | Gree T17",
+      "published_beijing": "2026-10-28T00:55:00+08:00",
       "source_detail": {
-        "name": "Electric Vehicles",
-        "url": "https://eletric-vehicles.com"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
-      "priority": 2.4,
+      "priority": 1.2,
+      "category": "Track17重点27股监控",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD’s Doubling Production in Brazil - CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmYzhNM1ROVl80c1N1elhGTzhPbU0wZmoxNm16S2dfS3pfYkFzNF9JRWsxSGN3WktfNUcza2RiOWE0S0d1LXB3Y2t0U3gyaWtma05maW1mOWNibUV5Nl8yQlpSaEpxc3BoVmxuMGlBVnN6c2t1N25FYUFfQ3E?oc=5",
+      "published": "Tue, 27 Oct 2026 14:03:58 GMT",
+      "summary": "BYD’s Doubling Production in Brazil&nbsp;&nbsp;CleanTechnica",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-27T22:03:58+08:00",
+      "source_detail": {
+        "name": "CleanTechnica",
+        "url": "https://cleantechnica.com"
+      },
+      "priority": 1.2,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "News / Geely to boost exports - Autofile",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBESUJMc3EtbnpQdUNhbDI2SmV1MVZBMjRjQl83em83UzhfUEh5aVB0RElLQ2xUaEYtMXZMcjRhMnUtT0xURlVQZHRSRUFCN3hLNElReXdTd2hIQQ?oc=5",
-      "published": "Mon, 26 Oct 2026 16:11:00 GMT",
-      "summary": "News / Geely to boost exports&nbsp;&nbsp;Autofile",
-      "source": "GNews | Geely Overseas",
-      "published_beijing": "2026-10-27T00:11:00+08:00",
+      "title": "Xpeng GX and G9L to launch in Middle East next week as overseas stores top 1,200 - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BQl9ZbkpHX09BUUJnVDA3cEJjZWJseldDSjN4N3RKZkNOMUlJU0x0MjlhaWpINXUzSFMwQjdRb2Vaa2lRTk9QbVQzVVdGbVgwa0JIRHRfUmdFWWJ6ZjBxTWlmeUNWakNfWk5VMGFRWmtEQ0dORkpURVFDdGNYaWs?oc=5",
+      "published": "Tue, 27 Oct 2026 11:55:58 GMT",
+      "summary": "Xpeng GX and G9L to launch in Middle East next week as overseas stores top 1,200&nbsp;&nbsp;CnEVPost",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-27T19:55:58+08:00",
       "source_detail": {
-        "name": "Autofile",
-        "url": "https://autofile.co.nz"
+        "name": "CnEVPost",
+        "url": "https://cnevpost.com"
       },
       "priority": 1.2,
       "category": "新能源车+电池",
@@ -113,50 +129,66 @@
       "relevance": "low"
     },
     {
-      "title": "Chinese automakers expand manufacturing in Europe to avoid EU tariffs amid rising domestic competition: Report - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSTYtNVFneEEwbGFZazVmeGxpcG9WNzdCUTltZTVYblNnV3JjZDg4c05TXzhzUnN1ZWpZaVdNYWRXRkZ5WV91UG5VekFQOEx1RkVVV1JFcHRwY3hnQUs0aWx1MU85R0thdXM4Z2ZhNXl3cHpJMnJCLS1rMWx5UDhmaURVeUFMTEhjMmF0TDVkYk93TF8wX29iQXlTVlBwamRYbnNVQUczelRwSGdDeDYwdEY4WmJwNmgtVlIzZDV5NEhiZjBmTWU5amtDR2tweWtLckZrdmZaal9oak53ZlEyd0VjeDVreENZYTBDdmtSVUJKUlhDcXfSAfsBQVVfeXFMTlkyVlZwek9OTnBGbWpJM19iRnhpTE96dEJoQnYxTEs5TktTWnoxOEphSFU3b01XNXNSRXRjQXF0QVhwY2NjRzVzODZjemN1bV9leFFyMkRBbGRkcFVqWkdJazV3MmlHOXZPc21VUkJWcHNSYVNMUWZuM09XNXdDckxhOTBjY0NkZ3pxRGJzT2VrbXRzSmhNNzJITFpZLXBhSVpuLUVVdkZ0cFlIVExmRThqMkxlMURUNUlmb2ctWWl2bXNLU2tEeUpuTmxXSkZHN1BVWG41NzBrWmpEemU3TU15X0VTLURPQ1BQN0k1R3hRSFhzOVpZckFvZ0k?oc=5",
-      "published": "Mon, 26 Oct 2026 08:12:52 GMT",
-      "summary": "Chinese automakers expand manufacturing in Europe to avoid EU tariffs amid rising domestic competition: Report&nbsp;&nbsp;Devdiscourse",
-      "source": "GNews | BYD Overseas",
-      "published_beijing": "2026-10-26T16:12:52+08:00",
+      "title": "Xpeng starts global shipments of Mona L05, targeting 65 countries and regions - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03Z2R5N2lZeVRLREM1TUdEaUVFeHdiVUhWbDBRWm4yNXd6ckE1RW9YMGlJNkNNQ19hZkdha3MtSUI3UTQ2aktuRjlLUkF0MjhHWXE2UjdlNkw3R2JPS1Z3MVV5T3pSbTd6RFRIV2pGLV9ZZ3EwN0t5LTJ2VQ?oc=5",
+      "published": "Mon, 26 Oct 2026 07:08:58 GMT",
+      "summary": "Xpeng starts global shipments of Mona L05, targeting 65 countries and regions&nbsp;&nbsp;CnEVPost",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-26T15:08:58+08:00",
       "source_detail": {
-        "name": "Devdiscourse",
-        "url": "https://www.devdiscourse.com"
+        "name": "CnEVPost",
+        "url": "https://cnevpost.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Chinese Carmakers Overtake Japan in Europe for First Time - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeEdOOS1SSnVzY0U0dmVmSEI2dmRDYmdaSXRrV1hfY0dZR2swakc0a2drNU5TUEJ6N2kzaFc2WXV5N3BTdy1hQXU5U3BSRTBjcmhqWDYySG5KbkR4TXl2MFJncGNWbUtWRmEyQ0NjU0FiNjZWRzFpTjVwUmcyYkZuNWxVX3VkSERISVZra1VITU5GenlLY2lsaVY2X3FwNVNJc1dLa0NqekpjRHNVaHhzTG9NOS0?oc=5",
-      "published": "Mon, 26 Oct 2026 08:00:15 GMT",
-      "summary": "Chinese Carmakers Overtake Japan in Europe for First Time&nbsp;&nbsp;Bloomberg.com",
-      "source": "GNews | BYD Overseas",
-      "published_beijing": "2026-10-26T16:00:15+08:00",
-      "source_detail": {
-        "name": "Bloomberg.com",
-        "url": "https://www.bloomberg.com"
-      },
-      "priority": 0.0,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Secondary Battery Market Set to Surge to US$ 317.28 Billion by 2035 as Global Energy Storage Demand Accelerates - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSldrWnpuaW8zbllHajJoYXcxc0JOXzhtNFNfV21KbHZuS1dZSk1renJwWHhjSVhjb1N6QWxNQjFpVlpJanp2eG1ramRwQXMwV3Q2blFoenFhS0RSeXgtQ1owRno1MUJIYm16MXcxd2ZiMmZxQllwMzJrX0RIZ1JNNnFTZExmZWtpRVVsM0h5bUMwXzRDa2hOUktR?oc=5",
-      "published": "Mon, 26 Oct 2026 07:27:12 GMT",
-      "summary": "Secondary Battery Market Set to Surge to US$ 317.28 Billion by 2035 as Global Energy Storage Demand Accelerates&nbsp;&nbsp;openPR.com",
+      "title": "Tesla Megapack Sold Out 2027? Revenue Down 16% [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjgxUk1Lb0JidWROQS1mTWplS3JkakdoZkl3UFo3TkVTZ2doOUlUbDhTOUN0bHIwb2xBZVd3VWt2Y0xyWU9GWElTMkM1RThmYkJhRkNlaVFXVVVTdGlhM09OLWR3X1B3TkNpZjRuaFJWcGRoWjR1dnNiWjJoS1RNQmNjNllxbWNVR2I4QlNidVhNXzJBWkFtck9n?oc=5",
+      "published": "Tue, 27 Oct 2026 07:45:26 GMT",
+      "summary": "Tesla Megapack Sold Out 2027? Revenue Down 16% [2026]&nbsp;&nbsp;shattered.io",
       "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-26T15:27:12+08:00",
+      "published_beijing": "2026-10-27T15:45:26+08:00",
       "source_detail": {
-        "name": "openPR.com",
-        "url": "https://www.openpr.com"
+        "name": "shattered.io",
+        "url": "https://shattered.io"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtU05vZEdxeUhiMnpXZXlWU0hyVTN5Q1V0ZnprM2hVYkRNalVldmpYTnoxRTNReHhoQzVvV3YzLTdla09NUDYxVzZnc2ZNUG1aZFJ2YXFUSQ?oc=5",
+      "published": "Tue, 27 Oct 2026 07:10:33 GMT",
+      "summary": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread&nbsp;&nbsp;https://economy.ac/",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-27T15:10:33+08:00",
+      "source_detail": {
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rising Chinese presence at Paris Motor Show highlights opportunities for China-Europe auto cooperation - People's Daily Online",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oREZZcEgtakYtZmZBcVBCYnZDU2gwRkJPeVc2bW5BeTliQXdjZElyaXF4TzR5U2I1ZG5FNXhGUEhqbnRvX3BCQm81Vm53LXZNRUt6OVNKMnNtbnE4ZTlIaVpmM04?oc=5",
+      "published": "Tue, 27 Oct 2026 05:33:00 GMT",
+      "summary": "Rising Chinese presence at Paris Motor Show highlights opportunities for China-Europe auto cooperation&nbsp;&nbsp;People's Daily Online",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-27T13:33:00+08:00",
+      "source_detail": {
+        "name": "People's Daily Online",
+        "url": "https://en.people.cn"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     }
