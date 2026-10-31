@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-10-28T04:32:29.535385+00:00",
-  "fetch_date_utc": "2026-10-28",
-  "total": 13,
+  "updated": "2026-10-31T04:31:46.881585+00:00",
+  "fetch_date_utc": "2026-10-31",
+  "total": 33,
   "high_priority": 0,
-  "medium_priority": 0,
+  "medium_priority": 3,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 10,
+      "count": 16,
       "feeds": 5
     },
     "半导体+科技": {
@@ -21,11 +21,11 @@
       "feeds": 5
     },
     "安防+AI": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "光伏+新能源": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "基建+工程": {
@@ -45,11 +45,11 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 1,
+      "count": 4,
       "feeds": 13
     },
     "Track17行业竞争维度": {
-      "count": 2,
+      "count": 12,
       "feeds": 25
     },
     "本地语言搜索": {
@@ -61,19 +61,117 @@
       "feeds": 3
     }
   },
-  "fail_feeds": 67,
+  "fail_feeds": 57,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Europe Air-Conditioner Exports Surge 40% — Why Gree Is Missing the Feast - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wSkt2dE0tdjVLNmdWOXNjQmNtMk9LS2NRLVgtYkZDSFpQTGREQUJua01XT0pYZlJXYjdQcUNCQjNqYWR5X204bW43cTJmSFQyU0E5WXlqalg5WG9VdWFGUlFSem9FeTF1QjFJWkhDS2hpc0M5MUE?oc=5",
-      "published": "Tue, 27 Oct 2026 16:55:00 GMT",
-      "summary": "Europe Air-Conditioner Exports Surge 40% — Why Gree Is Missing the Feast&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | Gree T17",
-      "published_beijing": "2026-10-28T00:55:00+08:00",
+      "title": "Battery Energy Storage Warranty: Comparing CATL, BYD, Tesla, Sungrow and Fluence on Cycle Life, Degradation and Replacement Costs - GreentechLead",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNi1va2ZfV2czdk5yMHoyazN0SmNTUDlQcmJLZUdpM2VXYUdhUjhzUmxvQnFMc19yN3R0RGlfd0dSMWNLcVBRbExUM0ZRQW9lc3FpRUc4NTJ1R2dvV0IwWHh6LVduUHpuUlJiWExnY09TM01ndHVob0JKeXpyQ0FHektoc1pxQXBIcklmNWtLdXpfNDJnRnBJeUViMEZ5OE41V2RDUWEtNm1qdHJLbUJwQlNBVHlsZWJXVGgwNHd0ejQwX3lyQTJkTUJGbV9RbnVnT1NyRHFpLTJLeDhhN3kxVTFWcFpLQ3BGMVVQa1hpcDFlRUJJQVVTeWNDUU44cjVjNzdr?oc=5",
+      "published": "Thu, 29 Oct 2026 07:37:11 GMT",
+      "summary": "Battery Energy Storage Warranty: Comparing CATL, BYD, Tesla, Sungrow and Fluence on Cycle Life, Degradation and Replacement Costs&nbsp;&nbsp;GreentechLead",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-29T15:37:11+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "GreentechLead",
+        "url": "https://greentechlead.com"
+      },
+      "priority": 4.8,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://greentechlead.com/renewable-energy/battery-energy-storage-warranty-comparing-catl-byd-tesla-sungrow-and-fluence-on-cycle-life-degradation-and-replacement-costs-56230",
+      "full_text": "Battery energy storage system (BESS) warranties are becoming a critical factor in renewable energy investments as developers evaluate battery cycle life, degradation rates, performance guarantees and replacement costs. Leading battery storage vendors, including CATL, BYD, Tesla, Sungrow and Fluence, offer different battery technologies, system configurations and lifecycle services that influence project profitability.\nFor utility-scale battery storage projects, a 10-year or 15-year warranty does not necessarily guarantee uninterrupted operation or full battery capacity throughout that period.\nWarranty conditions covering energy throughput, operating temperatures, depth of discharge, round-trip efficiency and capacity retention can significantly affect investment returns.\nDevelopers must also consider whether manufacturers will finance battery augmentation, replacement modules, transportation, installation and recommissioning when performance falls below contractual guarantees.\nWhat Does a Battery Energy Storage Warranty Cover?\nBattery energy storage warranties generally include two categories: product warranties and performance warranties.\nProduct warranties address manufacturing defects, component failures and specified equipment problems. Performance warranties establish commitments relating to battery capacity retention, energy throughput or other measurable operating characteristics.\nHowever, warranty coverage varies considerably between battery cells, battery packs and complete energy storage systems.\nA battery manufacturer may guarantee cell performance without covering power conversion systems, thermal management equipment, energy management software or grid integration components.\nThe World Bank’s battery energy storage warranty guidance highlights the importance of clearly defining warranty obligations, operating conditions and remedies.\nFor project developers, the most important question is whether the warranty protects expected electricity delivery and project revenue rather than simply promising equipment repair.\nBattery Cycle Life: Why 6,000 and 12,000 Cycles Matter\nBattery cycle life measures how many charge-discharge cycles a battery can complete before reaching a specified capacity threshold under defined testing conditions.\nLithium iron phosphate (LFP) technology has become prominent in utility-scale energy storage because of its thermal stability, durability and suitability for frequent cycling.\nBattery suppliers may advertise cycle-life figures ranging from approximately 6,000 to 12,000 cycles or more for particular products and test conditions.\nHowever, these figures should not be interpreted as guaranteed project lifetimes.\nA battery completing one equivalent full cycle daily would accumulate approximately 3,650 cycles over 10 years.\nA system completing two cycles daily would accumulate approximately 7,300 cycles over the same period.\nConsequently, a project providing daily peak-shaving services may experience different degradation from a battery participating in multiple electricity trading and grid-balancing operations.\nDevelopers should compare cycle-life claims against actual depth of discharge, temperature, charging rates and the manufacturer’s permitted operating conditions.\nBattery Degradation: How Much Capacity Is Lost?\nBattery degradation reduces the amount of electricity a storage system can deliver over its operating life.\nConsider a hypothetical 100 MWh battery energy storage system.\nIf capacity decreases by 1.5 percent of original capacity annually, the battery would retain approximately 92.5 MWh after five years and 85 MWh after 10 years under a simplified linear assumption.\nAt an annual degradation rate of 2 percent, available capacity would decline to 90 MWh after five years and 80 MWh after 10 years.\nThese calculations are illustrative. Actual degradation is often nonlinear and depends on operating conditions.\nFor a battery project earning revenue from contracted energy delivery, the difference between 80 MWh and 85 MWh of retained capacity can influence augmentation requirements and long-term cash flow.\nInvestors should request manufacturer-specific degradation curves rather than relying on general battery chemistry assumptions.\nBattery Storage Vendor Offers: CATL, BYD, Tesla, Sungrow and Fluence\nMajor BESS suppliers increasingly compete through battery durability, system efficiency, integrated controls, safety features and lifecycle services.\nTheir published product specifications provide useful comparisons, although contractual warranty terms must be obtained separately.\nCATL: Long-Life LFP Battery Storage\nCATL offers utility-scale battery storage technologies through its EnerOne and EnerC product families and newer TENER systems.\nIts TENER energy storage system was introduced with a 6.25 MWh configuration and a claim of zero capacity and power degradation during its first five years under specified conditions.\nThis is a notable product-performance proposition because reduced early-life degradation could lower augmentation requirements.\nHowever, the zero-degradation claim should not be treated as an unconditional warranty covering every operating environment.\nBuyers must verify the applicable warranty document, testing methodology, throughput limits and remedies.\nBYD: Blade Battery Technology and Integrated Storage\nBYD offers battery energy storage products incorporating its LFP technology, including systems within its MC Cube portfolio.\nThe company promotes battery safety, energy density and integrated storage design.\nFor developers, the relevant procurement considerations include guaranteed usable capacity, permitted cycling intensity, thermal management requirements and long-term replacement-module availability.\nBYD’s product offerings demonstrate how integrated battery design can influence system footprint and operating costs.\nHowever, project-specific warranty duration, degradation commitments and replacement responsibilities require contractual confirmation.\nTesla: Megapack and Lifecycle Services\nTesla’s Megapack is designed for utility-scale electricity storage and includes integrated battery modules, power electronics and thermal management.\nTesla also offers software capabilities for energy management and market participation.\nFor developers, integrated hardware and software can simplify some operational responsibilities, although performance guarantees and service arrangements remain contract-dependent.\nMegapack procurement should include evaluation of usable energy guarantees, availability commitments, maintenance coverage and battery replacement obligations.\nA complete financial comparison must also account for software fees, service costs and potential downtime.\nSungrow: PowerTitan and Integrated Energy Storage\nSungrow supplies utility-scale battery energy storage through its PowerTitan portfolio, combining batteries, power conversion equipment and thermal management.\nThe PowerTitan 2.0 platform uses liquid cooling and an integrated AC storage architecture.\nSuch configurations can reduce integration complexity and support thermal management, which influences battery degradation.\nDevelopers should examine whether Sungrow’s contractual offer covers the complete system or separates battery performance from inverter and other equipment warranties.\nService response times, spare parts availability and local maintenance capabilities are particularly relevant for projects in hot climates.\nFluence: Battery Storage and Performance Services\nFluence offers utility-scale battery energy storage solutions alongside digital optimisation and lifecycle service capabilities.\nIts offerings include energy storage platforms, monitoring, maintenance and asset-performance services.\nFor investors, these services may help manage availability and operational risks.\nHowever, a service agreement is not automatically equivalent to a battery capacity guarantee.\nDevelopers should establish whether the proposed contract includes guaranteed availability, degradation remedies, augmentation obligations and compensation for performance shortfalls.\nVendor comparison: CATL’s TENER highlights early-life degradation performance; BYD emphasises LFP-based battery design; Tesla offers integrated Megapack hardware and software; Sungrow combines storage with power conversion and cooling technologies; and Fluence provides integrated storage and lifecycle services.\nBattery Replacement Costs: What Will Developers Pay?\nBattery augmentation and replacement can represent substantial additional expenditure over a project’s operating life.\nAt an illustrative battery equipment cost of $100 per kilowatt-hour, replacing 100 MWh of battery capacity would cost approximately $10 million.\nAdding 20 MWh of capacity would require approximately $2 million, while 40 MWh would cost $4 million.\nThese estimates exclude engineering, installation, transportation, taxes and commissioning.\nAugmentation can extend project life without replacing the entire battery system. However, compatibility between existing and new battery modules must be considered.\nDevelopers should negotiate whether augmentation is included in the original supply agreement or requires additional investment.\nRound-Trip Efficiency and Battery Availability\nRound-trip efficiency measures how much electricity a battery returns compared with the energy used for charging.\nAt 90 percent efficiency, a system receiving 100 MWh delivers approximately 90 MWh.\nAt 85 percent efficiency, delivered energy falls to 85 MWh.\nFor projects operating daily, this difference can significantly affect electricity purchases and revenue.\nAvailability is equally important because a battery retaining sufficient capacity may still fail to dispatch electricity because of cooling, inverter or control-system problems.\nThe Pacific Northwest National Laboratory’s energy storage cost analysis provides a framework for evaluating how efficiency, operating expenditure and battery replacement af"
+    },
+    {
+      "title": "Global Prismatic LFP Battery Market Report 2026 | Capitalize on 19.7% CAGR to $26.86 Billion by 2030 as CATL, BYD, LG Energy Solution and SVOLT Accelerate EV and Grid Storage - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTTV4djhqeHZTbzlSRGdKblY3cmFySHdjZzl5bGs4RXNXU0ZSSU9DOWJpMVlyeFYyWUFJdTVwZHpuMEFRdGlhblNJd2VTdzUtOUhDQmlQLXVtVmw5bXV6Mm9NaWgwdnJIVnQtNGNuTUNkOVN5ZzB1RnZ3Q2NoQlBka0VrbkZaaGtNVEstUg?oc=5",
+      "published": "Wed, 28 Oct 2026 15:15:00 GMT",
+      "summary": "Global Prismatic LFP Battery Market Report 2026 | Capitalize on 19.7% CAGR to $26.86 Billion by 2030 as CATL, BYD, LG Energy Solution and SVOLT Accelerate EV and Grid Storage&nbsp;&nbsp;Yahoo Finance UK",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-28T23:15:00+08:00",
+      "source_detail": {
+        "name": "Yahoo Finance UK",
+        "url": "https://uk.finance.yahoo.com"
+      },
+      "priority": 3.6,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "Best BESS Integrators in 2026: Tesla vs Sungrow vs Fluence vs Wartsila vs BYD on Cost, Efficiency and ROI - GreentechLead",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVm5ZRndjQk1HY205aG5ndUJ4NVVJRmk1NzVLb3l0MEdma3MxSEgzYUJNaFBqdXMwLUROZU5GQ214OXNka3prU3I4cjZfaEhFVDdYQ1NTVGxCUlhwTmhjMGJnajdjekVHakRDZDdYM2g4VGNmcTF4bWhhZjEtQUg1bXVTbkpTZjU4aUJZZmI2U1JSSXZ2LUhGSXF1ZUFjUURTY0hWNFBqVHhTMGRLWVNKcm1XRDlwVDVNSkdTWjBJZkNFTlA4VFlhTnc3SDN2U0VDTF9OTFZNTXZaVDRtM1NmVEQyeFgxdUU?oc=5",
+      "published": "Thu, 29 Oct 2026 07:39:43 GMT",
+      "summary": "Best BESS Integrators in 2026: Tesla vs Sungrow vs Fluence vs Wartsila vs BYD on Cost, Efficiency and ROI&nbsp;&nbsp;GreentechLead",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-29T15:39:43+08:00",
+      "source_detail": {
+        "name": "GreentechLead",
+        "url": "https://greentechlead.com"
+      },
+      "priority": 3.6,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "CATL pushes ahead with 20 Ah solid-state EV batteries, with 500 Wh/kg in sight - Electrek",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHpwWUVpdEFvM3dEaUNuQWo3b0llZzI4TU1hS09nUHV3SEFoR1pCeENPUnhOZklKellpM3MwQjg2ZkIyWmNUUGU5ekFITWdDdmhSaDQzTWNPOHdNd0pwSEtYcVJUVVhRSGhMcjVTZnJpWVVzcGdaN1F5QnhLRGJQOWp2LUgxUGRIanF6YVZXN3huUUNm?oc=5",
+      "published": "Wed, 28 Oct 2026 16:12:00 GMT",
+      "summary": "CATL pushes ahead with 20 Ah solid-state EV batteries, with 500 Wh/kg in sight&nbsp;&nbsp;Electrek",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-29T00:12:00+08:00",
+      "source_detail": {
+        "name": "Electrek",
+        "url": "https://electrek.co"
+      },
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "XPeng (NYSE:XPEV) Stock Price - Simply Wall St",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GSWFFTFFZTFZFWDN1enR4dHNTbmg1UjhoNkR4bmtUNHRxREZFV0VGemQ2UTNIQVlROHd1R3BlVm1jZGVyRnhIdFZseUNhdw?oc=5",
+      "published": "Wed, 28 Oct 2026 08:17:30 GMT",
+      "summary": "XPeng (NYSE:XPEV) Stock Price&nbsp;&nbsp;Simply Wall St",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-28T16:17:30+08:00",
+      "source_detail": {
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CATL Moves Solid-State EV Batteries Into 20 Ah Trial Producti ... - Tarmac Life",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOajF6Q0FpZ2g1LVQwU1pDa1NKRWhwWFhUQm5EdzAwY2hteGIzc09LZ0IyVi1CUHdmbllrZUpxVzNGUl9VYks2ZTBPbEp6RjZOZkMzWi1ZRmNqZ3FEYlB0bkF1QXNWYjFDaGNsbnJvN0dmSUFqT2c0Z0NuMHZrTkdnNzNyUlVVcDdGUVFaVGJvajdha1VzSkN1R1hjaHpaSlk?oc=5",
+      "published": "Thu, 29 Oct 2026 23:24:10 GMT",
+      "summary": "CATL Moves Solid-State EV Batteries Into 20 Ah Trial Producti ...&nbsp;&nbsp;Tarmac Life",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-30T07:24:10+08:00",
+      "source_detail": {
+        "name": "Tarmac Life",
+        "url": "https://www.tarmaclife.co.nz"
+      },
+      "priority": 1.2,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "“Pushing Ahead With Mass Production at 20–30% Yields”: China’s CXMT Takes On HBM3E, but Samsung-Style Yield Improvements Will Be Difficult - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BSUlLLXN4YWJnVHpvNzRiRTNpcmZkQk5TSmlvZjNlLVNIZlMweUJuV1E1dTJYdnNjd1p5MXMyUVpUT3c3dGMwQUhZOFNYZHVqbmpocXNPSQ?oc=5",
+      "published": "Thu, 29 Oct 2026 17:00:07 GMT",
+      "summary": "“Pushing Ahead With Mass Production at 20–30% Yields”: China’s CXMT Takes On HBM3E, but Samsung-Style Yield Improvements Will Be Difficult&nbsp;&nbsp;https://economy.ac/",
+      "source": "GNews | Naura T17",
+      "published_beijing": "2026-10-30T01:00:07+08:00",
+      "source_detail": {
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
       },
       "priority": 1.2,
       "category": "Track17重点27股监控",
@@ -81,44 +179,12 @@
       "relevance": "low"
     },
     {
-      "title": "BYD’s Doubling Production in Brazil - CleanTechnica",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmYzhNM1ROVl80c1N1elhGTzhPbU0wZmoxNm16S2dfS3pfYkFzNF9JRWsxSGN3WktfNUcza2RiOWE0S0d1LXB3Y2t0U3gyaWtma05maW1mOWNibUV5Nl8yQlpSaEpxc3BoVmxuMGlBVnN6c2t1N25FYUFfQ3E?oc=5",
-      "published": "Tue, 27 Oct 2026 14:03:58 GMT",
-      "summary": "BYD’s Doubling Production in Brazil&nbsp;&nbsp;CleanTechnica",
+      "title": "BYD Workforce Tops 1.02 Million, Up About 150,000 Since End of 2025 - Electric Vehicles",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR1I3LUxqQzE2SEFqM1N2MDgybEpMT1pEY2VTdUFWcUk1a3ZST2VKaFRTMDNKLVFHQlBrS1hOcEJGdHBiVGRaQ29wQWR4TGpZZUpORWFMS29xbnotelM3SV96QWRpdGZZUENYRGxmcEVORVgzYklYMTdJQlBFV0NRYWJyQWI1N0pjVng5Z1J4YXZOSmROWm5LeHFKNTlPMllN?oc=5",
+      "published": "Thu, 29 Oct 2026 13:45:00 GMT",
+      "summary": "BYD Workforce Tops 1.02 Million, Up About 150,000 Since End of 2025&nbsp;&nbsp;Electric Vehicles",
       "source": "GNews | BYD Overseas",
-      "published_beijing": "2026-10-27T22:03:58+08:00",
-      "source_detail": {
-        "name": "CleanTechnica",
-        "url": "https://cleantechnica.com"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Xpeng GX and G9L to launch in Middle East next week as overseas stores top 1,200 - CnEVPost",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BQl9ZbkpHX09BUUJnVDA3cEJjZWJseldDSjN4N3RKZkNOMUlJU0x0MjlhaWpINXUzSFMwQjdRb2Vaa2lRTk9QbVQzVVdGbVgwa0JIRHRfUmdFWWJ6ZjBxTWlmeUNWakNfWk5VMGFRWmtEQ0dORkpURVFDdGNYaWs?oc=5",
-      "published": "Tue, 27 Oct 2026 11:55:58 GMT",
-      "summary": "Xpeng GX and G9L to launch in Middle East next week as overseas stores top 1,200&nbsp;&nbsp;CnEVPost",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-27T19:55:58+08:00",
-      "source_detail": {
-        "name": "CnEVPost",
-        "url": "https://cnevpost.com"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "BYD Says It Won’t Let EU Tariff Hikes Sway Europeans’ Choice of Its Cars - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdUNqMHpvVjIwOE12M2E3YWdXYmxaR202SWJhMFY1VUdRREJMempzX2VhcUI4YjRGUnBqMjN5THV0OE5lWWgxWEczbldNUVQ3V210clhWckk1S05XOW1NdnFtSlBTd2FxamljZ2VSVGY0bmI3cTRwUTd3aEtwdFVNb3lhd3NiQ2J2NXI5UFpER0xlTVV5WnZKVm8xNHlsMnBIeFpGdzlpcw?oc=5",
-      "published": "Mon, 26 Oct 2026 10:07:00 GMT",
-      "summary": "BYD Says It Won’t Let EU Tariff Hikes Sway Europeans’ Choice of Its Cars&nbsp;&nbsp;Electric Vehicles",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-26T18:07:00+08:00",
+      "published_beijing": "2026-10-29T21:45:00+08:00",
       "source_detail": {
         "name": "Electric Vehicles",
         "url": "https://eletric-vehicles.com"
@@ -129,15 +195,15 @@
       "relevance": "low"
     },
     {
-      "title": "Xpeng starts global shipments of Mona L05, targeting 65 countries and regions - CnEVPost",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03Z2R5N2lZeVRLREM1TUdEaUVFeHdiVUhWbDBRWm4yNXd6ckE1RW9YMGlJNkNNQ19hZkdha3MtSUI3UTQ2aktuRjlLUkF0MjhHWXE2UjdlNkw3R2JPS1Z3MVV5T3pSbTd6RFRIV2pGLV9ZZ3EwN0t5LTJ2VQ?oc=5",
-      "published": "Mon, 26 Oct 2026 07:08:58 GMT",
-      "summary": "Xpeng starts global shipments of Mona L05, targeting 65 countries and regions&nbsp;&nbsp;CnEVPost",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-26T15:08:58+08:00",
+      "title": "Geely Auto UK offers free servicing to mark 40th anniversary - Motor Trade News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkFWNkN2VTdYWjRkVHRIRjZSdTJYamszNmk3UHdkYWRDV3A5QTBzckZUZmFMMzhMM055d0JQT2dkb0Z1ZVhXdXB1ODQ5OHdMN3ZEQnNINERiZjFiaFVBZDUxdXhqN09RV0xEMFNWOGRHZWRhS1hUc3o0YmljOTFoYkxhZ1RESDJRc00tUUprMjRrU1VQTEt0SUYyYlVvcjNkTG1sTmVkQ09adTNiM1pUVHdIdw?oc=5",
+      "published": "Thu, 29 Oct 2026 12:07:27 GMT",
+      "summary": "Geely Auto UK offers free servicing to mark 40th anniversary&nbsp;&nbsp;Motor Trade News",
+      "source": "GNews | Geely Overseas",
+      "published_beijing": "2026-10-29T20:07:27+08:00",
       "source_detail": {
-        "name": "CnEVPost",
-        "url": "https://cnevpost.com"
+        "name": "Motor Trade News",
+        "url": "https://www.motortradenews.com"
       },
       "priority": 1.2,
       "category": "新能源车+电池",
@@ -145,15 +211,79 @@
       "relevance": "low"
     },
     {
-      "title": "Tesla Megapack Sold Out 2027? Revenue Down 16% [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjgxUk1Lb0JidWROQS1mTWplS3JkakdoZkl3UFo3TkVTZ2doOUlUbDhTOUN0bHIwb2xBZVd3VWt2Y0xyWU9GWElTMkM1RThmYkJhRkNlaVFXVVVTdGlhM09OLWR3X1B3TkNpZjRuaFJWcGRoWjR1dnNiWjJoS1RNQmNjNllxbWNVR2I4QlNidVhNXzJBWkFtck9n?oc=5",
-      "published": "Tue, 27 Oct 2026 07:45:26 GMT",
-      "summary": "Tesla Megapack Sold Out 2027? Revenue Down 16% [2026]&nbsp;&nbsp;shattered.io",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-10-27T15:45:26+08:00",
+      "title": "BYD Employs Over 1.02 Million People, Surpassing Combined Workforce of Toyota, General Motors, Ford and Tesla - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44XzAtQ3BOQTdYMGxsQWpmNi1UT1JnME1WTmEzYU5BamVUSzBJSEdoNXVqaVduRTdDWkxYRGhRLWdUaC1NYVBZY3hEMUt5WmUzcXR3?oc=5",
+      "published": "Thu, 29 Oct 2026 08:21:24 GMT",
+      "summary": "BYD Employs Over 1.02 Million People, Surpassing Combined Workforce of Toyota, General Motors, Ford and Tesla&nbsp;&nbsp;36Kr",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-29T16:21:24+08:00",
       "source_detail": {
-        "name": "shattered.io",
-        "url": "https://shattered.io"
+        "name": "36Kr",
+        "url": "https://eu.36kr.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined - Electrek",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQelQ0Vlh1dHowMG1TTjFJNjBfN2tueHZXYkVqbVBtVjBTeDRRYkNFdVdURmxCMjFIMEhLcHVzZ0wtYVpCMXdvSWVXX2pXVGZoRXg0dzBxWmVjWUhTQmpPQm9mUDdzaEFPbDlfV09MXy15UlgxUDlyNjNHRXlhSFMwTGJadkNDVDRiNFNKMGR5cw?oc=5",
+      "published": "Thu, 29 Oct 2026 01:41:00 GMT",
+      "summary": "BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined&nbsp;&nbsp;Electrek",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-10-29T09:41:00+08:00",
+      "source_detail": {
+        "name": "Electrek",
+        "url": "https://electrek.co"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hungarian court dismisses challenge to CATL's Debrecen battery pl - Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYnRHUnp5SzI4R2stRExTeXdldUJVR2NlQ2IxN2lsUzM0Q05yS0xCVVAxTlBPMU9fZmR0cDZKRnQ4NnNXaDZvQTB2UmFyeWVZeUotWEEyZV9HSVpXQTc1LWx3NllIM3oyWE9TSmt4cUpzVFBsWFdGWHBjWWJ0Yzc5eUlPUURJS29WZGIxb2Nwb1FaUlRib2NTcTJ6bFM3UXNM?oc=5",
+      "published": "Fri, 30 Oct 2026 08:17:02 GMT",
+      "summary": "Hungarian court dismisses challenge to CATL's Debrecen battery pl&nbsp;&nbsp;Global Banking & Finance Review",
+      "source": "GNews | CATL Overseas",
+      "published_beijing": "2026-10-30T16:17:02+08:00",
+      "source_detail": {
+        "name": "Global Banking & Finance Review",
+        "url": "https://www.globalbankingandfinance.com"
+      },
+      "priority": 1.2,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rick Scott doubles down on DJI and Autel drone restrictions as FCC reviews appeals - DroneDJ",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4YVhGblJKcTFhVDd4amRHeVdxX013RHQ1bGNSSDFCb2VVTmZQZHRDb0lpMU9NSnJUQkN4SHVYYXI2bmk4SGhzODRFdmR5MjREbE1EekdOVGZVaWdCejZsT083Z0prVlE?oc=5",
+      "published": "Fri, 30 Oct 2026 07:51:00 GMT",
+      "summary": "Rick Scott doubles down on DJI and Autel drone restrictions as FCC reviews appeals&nbsp;&nbsp;DroneDJ",
+      "source": "GNews | DJI Overseas",
+      "published_beijing": "2026-10-30T15:51:00+08:00",
+      "source_detail": {
+        "name": "DroneDJ",
+        "url": "https://dronedj.com"
+      },
+      "priority": 1.2,
+      "category": "安防+AI",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China's car industry consolidation begins: who will survive? - Automotive Manufacturing Solutions",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMExMd0h3VTZZUGVhTmVoNENZT0RDYkZhOFlTUzZUd3RmT0RNRGJKVjlQVTBmRnkwa21iZEl6ZlNJYmIzVTJjQzU1eGhrcTFPOHhNQWRlSWVWaDlwR2FIVGZmSWJlQk00ZmNRUE5oc1owOGtPSzM2QzNCY0R4YXJNdjdwWExHVzNDM1JXSGRpMnNTdHQ1QXdnWlk2MFlFc21GRXd5QjVVYVItalFMN2hjZmZqZi1nd2I5aVBhYlRhbTQ?oc=5",
+      "published": "Wed, 28 Oct 2026 17:03:56 GMT",
+      "summary": "China's car industry consolidation begins: who will survive?&nbsp;&nbsp;Automotive Manufacturing Solutions",
+      "source": "GNews | T17 EV板块",
+      "published_beijing": "2026-10-29T01:03:56+08:00",
+      "source_detail": {
+        "name": "Automotive Manufacturing Solutions",
+        "url": "https://www.automotivemanufacturingsolutions.com"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",
@@ -161,10 +291,74 @@
       "relevance": "low"
     },
     {
-      "title": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread - https://economy.ac/",
+      "title": "TikTok billionaire Zhang Yiming Zhang Yiming Tops China Rich List With $99.7 Billion Fortune - CEOWORLD magazine",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVkzN2NycFpxNDdEeVltQzBmUGw5WnljZ2FBb21EYnVYbWswVnNXSS1lV3lVVFlRUTZZRDh5S1FEbTMtM1BpVzBWOHJXN3pwVHMxRFFaZ0hZanlZWVpBSzhxbUNNeHRGNlZzalJ3UVg5ZFdHOXFPWVFZQWd5d0pYNS1oQTBwd0V0OHBxSWJsS1AtdUo5U3FybFZ1UWNnTktCVl9xUllvWFZoWnZVTnJrQ1FwRXV0ekxVTVNGQ1lvTkxoUQ?oc=5",
+      "published": "Wed, 28 Oct 2026 16:58:35 GMT",
+      "summary": "TikTok billionaire Zhang Yiming Zhang Yiming Tops China Rich List With $99.7 Billion Fortune&nbsp;&nbsp;CEOWORLD magazine",
+      "source": "GNews | Cambricon T17",
+      "published_beijing": "2026-10-29T00:58:35+08:00",
+      "source_detail": {
+        "name": "CEOWORLD magazine",
+        "url": "https://ceoworld.biz"
+      },
+      "priority": 0.0,
+      "category": "Track17重点27股监控",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Volkswagen, in strategy shift, plans to globalise China-developed technology - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUpOYjRPbVZuMzdSa0U4R3E2MUpiZDdzTzNxLWx4U3o4UnpnV0NaNjkwTzFlcmItSGVveHhoUktBUU94MDBXVWVfeG5vd2Y1Y2xxOTNPTWl4YXMxNURsV25ieDBfUHFZSUNydUVRMC1FdGZNZ0Q3WmtuQ3lfME9UTXh2Qll2aFgxajZzWEhteFd4OEpyRE9Ic2E4bmVRTXl6eHFBQk4yLXBRNWpmdUI3QzVpal9oSUk?oc=5",
+      "published": "Wed, 28 Oct 2026 11:01:26 GMT",
+      "summary": "Volkswagen, in strategy shift, plans to globalise China-developed technology&nbsp;&nbsp;Reuters",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-28T19:01:26+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "VW, in strategy shift, plans to globalize China-developed technology - Automotive News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LZ0FRd2RYNXY3aVh6Z3FXdVN1NzFGdVdLaEVPc1FxRG5tbVktNVE3dU9zSU1wS3JuWEQ0aW5jTS1sNUVYdWxKNUItR1JOTHJDNWszdTYxWDdsSWsybklpNzFFMk5ielBHVURyMGJlM1otNnk4THNEdmtObw?oc=5",
+      "published": "Wed, 28 Oct 2026 10:27:00 GMT",
+      "summary": "VW, in strategy shift, plans to globalize China-developed technology&nbsp;&nbsp;Automotive News",
+      "source": "GNews | XPeng/Li Auto",
+      "published_beijing": "2026-10-28T18:27:00+08:00",
+      "source_detail": {
+        "name": "Automotive News",
+        "url": "https://www.autonews.com"
+      },
+      "priority": 0.0,
+      "category": "新能源车+电池",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chinese New Energy Enterprises Expand Overseas Amid Intense Domestic Homogeneous Competition: Latest Industry Dynamics Unveiled Ahead of All Energy Australia - eu.36kr.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01MUFyNk5ESmNHWlBHTjQ2dTluMXVnRHhHbVhHMEplTXN2aE1SVkEzTUgyWDcyVVFjVGE0T0R0VndQYUNod1RidzIwaWpPQ21NbXU0?oc=5",
+      "published": "Wed, 28 Oct 2026 02:13:50 GMT",
+      "summary": "Chinese New Energy Enterprises Expand Overseas Amid Intense Domestic Homogeneous Competition: Latest Industry Dynamics Unveiled Ahead of All Energy Australia&nbsp;&nbsp;eu.36kr.com",
+      "source": "GNews | Sungrow Overseas",
+      "published_beijing": "2026-10-28T10:13:50+08:00",
+      "source_detail": {
+        "name": "eu.36kr.com",
+        "url": "https://eu.36kr.com"
+      },
+      "priority": 0.0,
+      "category": "光伏+新能源",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread | Tech News - https://economy.ac/",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtU05vZEdxeUhiMnpXZXlWU0hyVTN5Q1V0ZnprM2hVYkRNalVldmpYTnoxRTNReHhoQzVvV3YzLTdla09NUDYxVzZnc2ZNUG1aZFJ2YXFUSQ?oc=5",
       "published": "Tue, 27 Oct 2026 07:10:33 GMT",
-      "summary": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread&nbsp;&nbsp;https://economy.ac/",
+      "summary": "“To Canada with Lower Tariff Barriers” Chinese Complete Vehicle Industry Accelerates Local Market Entry, Seeking Opportunities Amid Global Protectionism Spread | Tech News&nbsp;&nbsp;https://economy.ac/",
       "source": "GNews | BYD Overseas",
       "published_beijing": "2026-10-27T15:10:33+08:00",
       "source_detail": {
@@ -177,18 +371,98 @@
       "relevance": "low"
     },
     {
-      "title": "Rising Chinese presence at Paris Motor Show highlights opportunities for China-Europe auto cooperation - People's Daily Online",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oREZZcEgtakYtZmZBcVBCYnZDU2gwRkJPeVc2bW5BeTliQXdjZElyaXF4TzR5U2I1ZG5FNXhGUEhqbnRvX3BCQm81Vm53LXZNRUt6OVNKMnNtbnE4ZTlIaVpmM04?oc=5",
-      "published": "Tue, 27 Oct 2026 05:33:00 GMT",
-      "summary": "Rising Chinese presence at Paris Motor Show highlights opportunities for China-Europe auto cooperation&nbsp;&nbsp;People's Daily Online",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-10-27T13:33:00+08:00",
+      "title": "Contemporary Amperex Technology Co., Limited (300750.SZ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jUHA1VVNDY3BzQXpXNk9YRjEtbzZPQlZkREtnVnBwNXVOU0NKV0x3YXFaMXdvb3pmdkhLU0pGZlNvVFJmWjNBVlVveXV3VS1wRDRKazJtcWE?oc=5",
+      "published": "Thu, 29 Oct 2026 22:46:28 GMT",
+      "summary": "Contemporary Amperex Technology Co., Limited (300750.SZ) Stock Price, News, Quote & History&nbsp;&nbsp;Yahoo! Finance Canada",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-30T06:46:28+08:00",
       "source_detail": {
-        "name": "People's Daily Online",
-        "url": "https://en.people.cn"
+        "name": "Yahoo! Finance Canada",
+        "url": "https://ca.finance.yahoo.com"
       },
       "priority": 0.0,
-      "category": "新能源车+电池",
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Stellantis Bets on LFP Switch and STLA One to Cut EV Costs in Europe - Electric Vehicles",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTQ0eXNVS1gyT3BmYjZhY2FKMzZJdko3Q2hWLUZUR041QTF6cUlsZFlVbGc2d1c5ZjRaeTRkcGNjTWtaMVBmbEx5UnV5TXdyTmM1azl6ZHdRdm9GUTVsU1M5dHFjTGFCUDd4aFdpU1N4XzVwejZldUl3Y01jOGZwRTYwZ01XcHlSZlNnMndGX195VlYxVmpsRHJQN1FmcHpfaXZWQmJzZUF5dGN5b1E?oc=5",
+      "published": "Thu, 29 Oct 2026 18:32:00 GMT",
+      "summary": "Stellantis Bets on LFP Switch and STLA One to Cut EV Costs in Europe&nbsp;&nbsp;Electric Vehicles",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-30T02:32:00+08:00",
+      "source_detail": {
+        "name": "Electric Vehicles",
+        "url": "https://eletric-vehicles.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "VanEck launches Europe’s first China semiconductor ETF - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbk0zUm84WHE5cUMzVGhYdmd5b3p2Z3A0NWFKVEZDNkxpTGhObWk5UXJwc3k4elRULTZUNkNXS1VINzNXTC1jZVk4cWN6SnBzRnNOaGhqWXk5U1VnaFF3UUduRG9BRnd2QndwU3dhVVFCVlNGVi01Qm5XMlVSaWhtTmVuNDhNRjhnSjFz?oc=5",
+      "published": "Thu, 29 Oct 2026 08:00:26 GMT",
+      "summary": "VanEck launches Europe’s first China semiconductor ETF&nbsp;&nbsp;Yahoo Finance UK",
+      "source": "GNews | Naura T17",
+      "published_beijing": "2026-10-29T16:00:26+08:00",
+      "source_detail": {
+        "name": "Yahoo Finance UK",
+        "url": "https://uk.finance.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "Track17重点27股监控",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Avatr 06T Electric Wagon Spotted Testing in Australia - zecar",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSG1Eb0QwYk0tOG1HRV9qd2ZpOENhdVIzRXMwXzBLbEpzUHVvVlZnWm1lMTNaNFpNMjVEdmpEZGlxRmpzazg4OHZWdmJJNGM4UW1YQXpFakJqU3JZdUc3Qy1ITklIWFVTdldWcTUtZjdreDlBbnhELTBVcS1kQm5iMzF6eXZYUQ?oc=5",
+      "published": "Thu, 29 Oct 2026 02:56:15 GMT",
+      "summary": "Avatr 06T Electric Wagon Spotted Testing in Australia&nbsp;&nbsp;zecar",
+      "source": "GNews | T17 LFP技术",
+      "published_beijing": "2026-10-29T10:56:15+08:00",
+      "source_detail": {
+        "name": "zecar",
+        "url": "https://zecar.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Data Center Server Market Size & Forecasts Report 2025-2034 - Global Market Insights Inc.",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MNUhiSm16TzhpdXczYU1oZEo4LUhjR0cwc1FaOHJmX1JSTDlrTm5YZTVIQkZvQzYzNVd6d2NvWmppZ0tyczJqSjVVMW9FNF9QeEZOVWtyUWxmMzZQQzJtWklSRWJqNDNKN2tRdXlNckVDNUl6OWpBSXpn?oc=5",
+      "published": "Thu, 29 Oct 2026 00:33:07 GMT",
+      "summary": "Data Center Server Market Size & Forecasts Report 2025-2034&nbsp;&nbsp;Global Market Insights Inc.",
+      "source": "GNews | T17 AI服务器板块",
+      "published_beijing": "2026-10-29T08:33:07+08:00",
+      "source_detail": {
+        "name": "Global Market Insights Inc.",
+        "url": "https://www.gminsights.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Low Voltage Molded Case Circuit Breaker Market (2026 - 2033) - Grand View Research",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbW9fb2RScDlPbThUUy1Jd2plUEZ6Z0VRQXFhZHZqY2NhOTgwZjN6ZVRJLW5JUjVaREJUd1NQMlpfSUFpblRfNlVUdG11Tk5OOXRLR0YtbDBRZzNxZkV4S3JFT0lWdFh4OTZNUlBzUjlXR2I3TEN5Y3JNSWw3MEZqZmdFUHFLclpvQUd1STVrVVVNcTdTeVEySWVrUFI3NHp0T2Y4TV9Ud3o?oc=5",
+      "published": "Fri, 30 Oct 2026 06:59:26 GMT",
+      "summary": "Low Voltage Molded Case Circuit Breaker Market (2026 - 2033)&nbsp;&nbsp;Grand View Research",
+      "source": "GNews | T17 低压电器板块",
+      "published_beijing": "2026-10-30T14:59:26+08:00",
+      "source_detail": {
+        "name": "Grand View Research",
+        "url": "https://www.grandviewresearch.com"
+      },
+      "priority": 0.0,
+      "category": "Track17行业竞争维度",
       "_incremental": "new",
       "relevance": "low"
     }

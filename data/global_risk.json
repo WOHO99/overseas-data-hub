@@ -1,31 +1,31 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-10-28T04:32:22.980069+00:00",
-  "fetch_date_utc": "2026-10-28",
-  "total": 46,
-  "high_priority": 0,
-  "medium_priority": 3,
+  "updated": "2026-10-31T04:31:43.052416+00:00",
+  "fetch_date_utc": "2026-10-31",
+  "total": 76,
+  "high_priority": 1,
+  "medium_priority": 5,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 10,
+      "count": 19,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 9,
+      "count": 24,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 0,
+      "count": 2,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 0,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,52 +49,72 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 8,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Mexico's Foreign Investment Screening Reform: A National Security Mechanism Born from Trade Politics - JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdU9acmZoWG1MWTVtUUN1eXpSdGxPTklvcS1fOWV0T2RjbDJvMGtxSWZ3VDdobmtZQmZKdXhtMTR6SV9aM1VPYkZmdkxBWUNhV0d6RGY0d2ZtS00xZm9zbkxURVROekNWNmhSTE5sNkM3Sng3OEdQd0pXOHRsYXVpNzEzdU5RS0U?oc=5",
-      "published": "Wed, 28 Oct 2026 02:17:46 GMT",
-      "summary": "Mexico's Foreign Investment Screening Reform: A National Security Mechanism Born from Trade Politics&nbsp;&nbsp;JD Supra",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-28T10:17:46+08:00",
+      "title": "OFAC expands sanctions list with North Korea, Congo-related designations - Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM1VMNzBDbzFpZHNqQjhVYVVCWFBRWnlfUHVQSS00dk5UbUlHSUpoR2ZmckVKRFc1ZGdFSU5MMlMwY21MT0VZWVBiSHlwcjNEeEE1Nzd6ZmF2SmRhc2JzQ0lnV202ZVpWMk1LX25WYVFZZUZ5bHpSOGZORzJyLTRUQkVJbGlRclFxM0E5eUt2c29yQUlqSURGbW13?oc=5",
+      "published": "Wed, 28 Oct 2026 14:22:34 GMT",
+      "summary": "OFAC expands sanctions list with North Korea, Congo-related designations&nbsp;&nbsp;Traders Union",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-28T22:22:34+08:00",
       "source_detail": {
-        "name": "JD Supra",
-        "url": "https://www.jdsupra.com"
+        "name": "Traders Union",
+        "url": "https://tradersunion.com"
+      },
+      "priority": 12.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://tradersunion.com/news/geopolitics-trade/show/3999091-ofac-sanctions-north-korea-congo/"
+    },
+    {
+      "title": "Asking Your Bank About Sending Money to Cuba Isn’t the Same as Ordering a Transfer: What OFAC Clarifies - CubaHeadlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41RTlyMTZRRWZCTnpITEp5eHFxZlh4SHR5cDJxNUxkV2I5V1I4TmVhdURqMDhjdTVVR0JDcjhSaGk3TVVnQTJoZGdvTW02WFh2WmFLRGlEWWs?oc=5",
+      "published": "Wed, 28 Oct 2026 17:11:26 GMT",
+      "summary": "Asking Your Bank About Sending Money to Cuba Isn’t the Same as Ordering a Transfer: What OFAC Clarifies&nbsp;&nbsp;CubaHeadlines",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-29T01:11:26+08:00",
+      "source_detail": {
+        "name": "CubaHeadlines",
+        "url": "https://www.cubaheadlines.com"
       },
       "priority": 6.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "medium",
-      "canonical_url": "https://www.jdsupra.com/legalnews/mexico-s-foreign-investment-screening-4723560/"
+      "canonical_url": "https://www.cubaheadlines.com/articles/344045",
+      "full_text": "The Office of Foreign Assets Control (OFAC) within the U.S. Department of the Treasury provides a straightforward clarification for those worried that inquiring with their about sending money to Cuba might have repercussions: posing a question does not equate to initiating a payment, and this distinction is crucial.\nThis is outlined in OFAC's FAQ 53, last updated on October 26, 2026, although it was initially released in January 2015. It remains unclear what specific text was updated or if the underlying regulation has changed.\nAccording to this document, when a customer approaches their bank with the question, \"Can I send money to Cuba?\", the financial institution can either provide a direct response or refer the individual to OFAC's compliance line for further guidance. In this scenario, there is no transaction to block or reject, and the bank is under no obligation to file a report with the regulatory body.\nThe situation changes dramatically if the customer gives specific payment instructions. Should these instructions involve a blocked person, the bank must freeze the funds and notify OFAC via the agency's Reporting System within ten business days of the property becoming blocked.\nWhen a transfer is prohibited but does not involve a blockable interest—meaning the recipient is not on the Specially Designated Nationals (SDN) List or other blocked categories—the bank must reject the transaction and submit the appropriate rejection report, as outlined in OFAC's FAQ 36, also updated this week.\nA commonly misunderstood point is that not all Cubans are individually blocked. OFAC notes that certain categories may be blocked without appearing by name on the SDN, yet the legality of each remittance depends on the specific beneficiary, involved intermediaries, the type of transaction, and applicable licenses. This distinction does not imply that all remittances to Cuba are either authorized or prohibited.\nFamilial remittances from the United States to Cuba remain legally permissible under regulation 31 C.F.R. § 515.570, provided the recipient is not a prohibited Cuban government official or a banned Communist Party member, and the transaction does not involve entities on the Cuba Restricted List (CRL).\nThe operational landscape, however, has become increasingly complex. Western Union indefinitely halted its transfers from the United States to Cuba in February 2025, following the addition of its Cuban operator, Orbit S.A., to the CRL.\nAs of September 30, 2026, new sanctions stemming from Executive Order 14404 have expanded restrictions on indirect transactions with entities on this list and eliminated \"U-turn\" operations related to Cuba.\nAdditionally, since January 1, 2026, a federal tax of 1% applies to international remittances paid in cash, money orders, or cashier's checks, although it does not apply to bank transfers or payments made with U.S. credit or debit cards.\nIndividuals seeking specific guidance before attempting any transaction are encouraged to contact OFAC's compliance line at 1-800-540-6322, a resource to which the agency directs inquiries when a bank cannot directly resolve them.\nOFAC emphasizes that making this call, or posing the question at a bank branch, does not trigger any blocking mechanisms or create a reporting obligation.\nUnderstanding OFAC Regulations on Cuban Remittances\nWhat is OFAC's stance on asking banks about sending money to Cuba?\nAre all transactions to Cuba prohibited by OFAC?\nNot all transactions to Cuba are prohibited. The legality of each transaction depends on the specific beneficiary, intermediaries involved, type of transaction, and applicable licenses.\nWhat happens if a bank receives specific payment instructions for a blocked person?\nIf a bank receives specific payment instructions involving a blocked person, it must freeze the funds and report to OFAC within ten business days."
     },
     {
-      "title": "New EU foreign investment screening rules will reshape landscape - Pinsent Masons",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMExJX3htRENPVWpyT2E3eHZoR2ttdG43a003bXNuVWdpYWl1SHdYU00xbFJMMjdHcEMtWG5MZkx0QjNOajFua2NvZ2RlMF9WTTExejRvenRhb0wwbFZpUmdFeTh3RGtOWnZLSXltMjJrUDdYQW4yUlVKRWd3NDMyTmRMTTB5Unl6R3Y5bkdyVk45ZGRoSnA1RkVJN3Y?oc=5",
-      "published": "Tue, 27 Oct 2026 16:39:01 GMT",
-      "summary": "New EU foreign investment screening rules will reshape landscape&nbsp;&nbsp;Pinsent Masons",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-28T00:39:01+08:00",
+      "title": "DHS Updates UFLPA Entity List with Three Companies Engaged in Genetics Testing - Thompson Hine",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMHlRbFQyM1dOV2pWZVN3YlowM1ZqcFhMRUdOTG9HamwyUElzanp6ZnBBN3Rid2dCVVgyc051ZTdKZ01OWFdhd3lhVGxXeFE4WDQ2dWxyd0wxQk5DNkNQYURiNjZsT3hJSTcweUU1ZGpOQm1tSXEzbUg5OGk0Q2EyNkJrZ1FiS0lqczFNZXJhX3FCaWdyZlRVYVh2UlFOb19hZVZ5RVlmWU9zSEJNMnJzLVd0elFrTllEejk4dnVaWjB3SWc?oc=5",
+      "published": "Thu, 29 Oct 2026 21:21:20 GMT",
+      "summary": "DHS Updates UFLPA Entity List with Three Companies Engaged in Genetics Testing&nbsp;&nbsp;Thompson Hine",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-30T05:21:20+08:00",
       "source_detail": {
-        "name": "Pinsent Masons",
-        "url": "https://www.pinsentmasons.com"
+        "name": "Thompson Hine",
+        "url": "https://www.thompsonhinesmartrade.com"
       },
       "priority": 6.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
-      "relevance": "medium"
+      "relevance": "medium",
+      "canonical_url": "https://www.thompsonhinesmartrade.com/2026/10/dhs-updates-uflpa-entity-list-with-three-companies-engaged-in-genetics-testing/",
+      "full_text": "On October 28, 2026, the Department of Homeland Security (DHS) announced the addition of three Chinese companies to the Uyghur Forced Labor Prevention Act (UFLPA) Entity List. Effective October 29, 2026, U.S. Customs and Border Protection (CBP) will apply a rebuttable presumption that goods produced in whole or part by these three companies are made with forced labor and prohibited from entering the United States.\nAccording to a press release by DHS, the three Chinese genomics companies help the government of the Xinjiang Uyghur Autonomous Region build and operate its mass surveillance infrastructure. The three entities added to the UFLPA Entity List are related companies – Shenzhen BGI Technology Co., Ltd. (BGI Group) is the controlling shareholder of BGI Genomics Co., Ltd. MGI Tech Co., Ltd. is under the control of the same ultimate controlling shareholder as BGI Group.\nDHS has issued an updated UFLPA Entity List. For general background information on the Uyghur Forced Labor Prevention Act (UFLPA), see Thompson Hine’s International Trade Update of June 2022. In addition, CBP’s UFLPA Dashboard containing current statistics and is available here."
     },
     {
-      "title": "Shield and Screen: FDI, M&A and the new architecture of European defense investment - Dentons",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQaHp5cXN6OGpTd1kyOHFra1NMNUI2T3U2N29PYmw5aFZXbi1mNVR1WFNwTzFqMWlqUnJFUGdDdGktSzdPY0lHMUJwNWloX2NIb0huWXloR2ZGRmRHNXdBdTlCaEF4Zkl2TjQ2ZTBTZUloZXpWcUYyMmN6ZFI2SUdhelNfSWthMEN2Vkh4ZU5xTE9HT0NjVmh4LUREejJUNERLN0FuLURBcTVZemZ3OWFFLS1ONmE0SXlFdk1yUVJqWWVka003clM3NHFzRlZteHFnd2MxdTVfakMxUEpxdjRQLUVGcVJQZm1HZTZRZWJsZWZZaVJnV0g5dEJfMA?oc=5",
-      "published": "Wed, 28 Oct 2026 00:03:51 GMT",
-      "summary": "Shield and Screen: FDI, M&amp;A and the new architecture of European defense investment&nbsp;&nbsp;Dentons",
+      "title": "Mexico’s Congress Approves New National-Security Screening Regime for Foreign Investment - BASHAM",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb2N3b2dCZUVnaGo2bVdWOFF2OGZjSW8tNFh2dld4ZTM1V0Y1XzBkVHo1dTBnOTgxRjYzSmlBajY4czVzWGtrVVJHYW5PWmtCSTVTTGlsMXFNall5Vy1qcEwwNHU3ZFhJa29lUGVadkUwX0tOcWczcFlFajZJazF5eHR5bHlqd2s3U0pqLU02clJEcE1nQmgzdm51VUxaQ3NoOE5YcWdMaTVqTWt4QVlaUXNnNA?oc=5",
+      "published": "Wed, 28 Oct 2026 22:08:18 GMT",
+      "summary": "Mexico’s Congress Approves New National-Security Screening Regime for Foreign Investment&nbsp;&nbsp;BASHAM",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-28T08:03:51+08:00",
+      "published_beijing": "2026-10-29T06:08:18+08:00",
       "source_detail": {
-        "name": "Dentons",
-        "url": "https://www.dentons.com"
+        "name": "BASHAM",
+        "url": "https://basham.com.mx"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -102,15 +122,31 @@
       "relevance": "low"
     },
     {
-      "title": "Cuba backs Zim’s anti-sanctions campaign - Herald.co.zw",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91S1Ewc2ZoQ2tHUk5DXzFlQ2FzMU5RM2s0MkhxbXNtWkhxWU1sN0UwNGtoY2dEMEhUemRkanNya2RhZ2xtd3RiMHFjMmdMZkhxRzRkQnNUTUxFR0pyQi1LS2tHVlVfcjkyX2xsNHRPSDNJZ0tRU1kxTldhaw?oc=5",
-      "published": "Tue, 27 Oct 2026 22:02:17 GMT",
-      "summary": "Cuba backs Zim’s anti-sanctions campaign&nbsp;&nbsp;Herald.co.zw",
-      "source": "GNews | Asset Freeze",
-      "published_beijing": "2026-10-28T06:02:17+08:00",
+      "title": "Investment Review Act in Germany: Impact on Companies and Investors - JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVpObjBtam9UbE9NczY2OVRUMS1idlMwU24xR2RVelB6TmZhZlR1bm9wV1VSdkZ4QlpZYUVvank0c1FWQzBvcE9Rb2VlbHQzU2pqMU1IZE5Tb0N3YlZXZHNOSWVnRkpKRmdSbWtaQUt4eWFvYzNueU5Jd3FLbjF1d3laWF9BSHZfLXc?oc=5",
+      "published": "Wed, 28 Oct 2026 17:28:30 GMT",
+      "summary": "Investment Review Act in Germany: Impact on Companies and Investors&nbsp;&nbsp;JD Supra",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-29T01:28:30+08:00",
       "source_detail": {
-        "name": "Herald.co.zw",
-        "url": "https://www.heraldonline.co.zw"
+        "name": "JD Supra",
+        "url": "https://www.jdsupra.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Government Sanctions Rwanda's Defence Ministry, Gives Reason - Legit News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSUdGemtWRV9Rcm4zdWdPV0tkZzlFeG5wSUNLRGZJa0d5bkloS1dzTjI4ZVN4LVRuM0pQN0VHOFN4ekVDSzRsWU5ka1FnQi1hd0RaWHl4NzROV3pabHQ4RUNTbHIzMkxxTG1OcnlGSjE3d2JKeG00RHdQenV5WVdTUG92ek8zZ0hVbTV3SXEwVEdPNmt3VXc?oc=5",
+      "published": "Wed, 28 Oct 2026 16:47:29 GMT",
+      "summary": "US Government Sanctions Rwanda's Defence Ministry, Gives Reason&nbsp;&nbsp;Legit News",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-29T00:47:29+08:00",
+      "source_detail": {
+        "name": "Legit News",
+        "url": "https://www.legit.ng"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -118,15 +154,76 @@
       "relevance": "low"
     },
     {
-      "title": "BMWE publishes draft bill: Germany is reorganising its investment controls - Fieldfisher",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaTRMQmhCb3NGQUNVWnI5MmozY0l6ZXRnRnhfeXV0bzA3eG5Oa3AxeHNDUXpNMy04XzhhWWJ3NlVZRmxDNWxaQVNhUmdWY09aX3A5MERrUlNHdmpWbHZNMldNTzczSE5tcjB0VHVWOUlLczBhd1IyMVNsY2NnUEhFRGlpMERNNXR4NWRRUVRJd0xORVZvYzMxNlhNNXFQcVN3VGVqVnZGY0d0S1c2RVhzX0VZbDBkZGFXY0RRZUlUTlhURW5XMXFUX3ZDZw?oc=5",
-      "published": "Tue, 27 Oct 2026 20:15:07 GMT",
-      "summary": "BMWE publishes draft bill: Germany is reorganising its investment controls&nbsp;&nbsp;Fieldfisher",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-28T04:15:07+08:00",
+      "title": "Crypto Continues to Flow Through Sihanoukville Casinos Despite Cambodia's Crackdown - TRM Labs",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRERlZjVHaXdCY0ZaWXZGcFBiejBUWllfbGN0YTBrc3JvT0xFcm9tcHpmVGtONm1tYmppeEd6ZHBKeldXN0hTTktPOWh5alJqa0doRWJDeDlCdWdsalpNUmxIeXpaeDVMbUhOQzg2Q3BZdnpFcW40Z0wyQmN1OVVvTy1ad1lkcGV6aXVfTUd5LU9iemdwcm9KMHJBU2tEcnExcmtMRzRKbExFVi1hVFZKeUlUS1ljQzM1Q3BTM0Zn?oc=5",
+      "published": "Wed, 28 Oct 2026 15:37:44 GMT",
+      "summary": "Crypto Continues to Flow Through Sihanoukville Casinos Despite Cambodia's Crackdown&nbsp;&nbsp;TRM Labs",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-28T23:37:44+08:00",
       "source_detail": {
-        "name": "Fieldfisher",
-        "url": "https://www.fieldfisher.com"
+        "name": "TRM Labs",
+        "url": "https://www.trmlabs.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hive ransomware affiliate jailed, years after FBI infiltrated the gang’s systems",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hive-ransomware-jailed-fbi-infiltrated",
+      "published": "Wed, 28 Oct 2026 15:27:15 +0000",
+      "summary": "A Ukrainian man who carried out ransomware attacks for both the Nefilim and Hive gangs, including attacks on law firms and a healthcare provider during the COVID-19 pandemic, has been sentenced to 70 months in a US prison.\n\nRead more in my article on the Hot for Security blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-28T23:27:15+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "A Ukrainian man has been sentenced to 70 months in a US prison for his role in a series of ransomware attacks.\n36-year-old Artem Stryzhak became an affiliate of the Nefilim ransomware group around June 2021, receiving an 80% cut of the ransoms he managed to extort in attacks against hospitals, government organisations, law firms, and businesses around the world.\nThe rest of the ransom would go to Nefilim's administrators - including fellow Ukrainian Volodymyr Tymoshchuk, who was charged last year in relation to attacks against hundreds of corporate victims using the LockerGoga and MegaCortex ransomware, as well as Nefilim.\nAt the time of writing, Tymoshchuk is not in US custody and a US $11 million bounty has been offered by the US State Department for information leading to his arrest.\nNefilim was not the only ransomware gang that Stryzhak worked closely with. He was also an early affiliate of the Hive ransomware-as-a-service (RaaS) operation which targeted businesses and, in particular, organisations working in healthcare.\nThe FBI later warned that Hive had extorted US $100 million from businesses and organisations globally in a period of just 18 months.\nAccording to the US Department of Justice, Stryzhak and his co-conspirators were behind Hive ransomware attacks against a number of victims, including law firms, a dentist's office, and a healthcare provider, during the COVID-19 pandemic.\nSuch was the scale of the attacks that in 2022 the US Department of Health and Human Services (HHS) described Hive as an \"exceptionally aggressive\" threat to the health sector.\nIn January 2023, it was revealed that a multinational law enforcement operation had secretly penetrated the Hive ransomware operation in late July 2022, capturing decryption keys and quietly passing them to victims so they did not have to pay a ransom.\nThe DOJ said that the operation saved corporate victims of Hive over US $130 million in ransom payments.\nAt the time I speculated that the take-down of Hive may lead to the identification and possible apprehension of some of those involved in Hive ransomware attacks. In June 2024, Stryzhak was arrested in Barcelona, and subsequently extradited to the United States where he pleaded guilty.\nThe infiltration into Hive's infrastructure took place in 2022. Stryzhak was arrested in 2024, and sentenced in 2026. If there's a lesson for ransomware affiliates who think they got away with it, it's that law enforcement is prepared to be patient, and the evidence does not go away.\nThat's something that Volodymyr Tymoshchuk may also want to consider.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
+    },
+    {
+      "title": "US Sanctions Crypto Facilitators Linked to North Korean IT Worker Schemes - The Defiant",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWW04V1R3M0xiQU5PR1FldUIzSUdqdnJVcHVlb182bld1UnlaS04xZmtkN1B0YlRQdmVtdHpkTTJ1ZlR2VXZJU3A4TEVJWmhTNmVtbGxpWE1QcnQtcl90VnFyNVhHeXVZNUJ6RmhKTDVzWERBcjhTMUtIcVJjelEtamx5dTFzSXNkaGtuMjRobXROcXFMNXI4WHBlMUp5cDgxUC1XV0UzSElqQlFKWFhBXw?oc=5",
+      "published": "Wed, 28 Oct 2026 14:55:09 GMT",
+      "summary": "US Sanctions Crypto Facilitators Linked to North Korean IT Worker Schemes&nbsp;&nbsp;The Defiant",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-28T22:55:09+08:00",
+      "source_detail": {
+        "name": "The Defiant",
+        "url": "https://thedefiant.io"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "KAMAL RAMBURUTH | UN Borrowers Platform aims to ease global debt crisis - Business Day",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZVdFX1BaQlFxcnEzc1FROUtmeXNVMTdDMWlYS3FZVi1PN05peVFPV0d5WHBKbF9IbkdHUUxUZzFic1BjNnIybDBlamU0QXhuU3FVQlB4MGJVNnpLV3FRdV9YMTB6WlNIclZMUnRqMWR3eFRnNUI5ZkdkWGVBSmEtRF91S0xTSmhxZ2hydWxnVy1UTzNGWDQyN05GVkNYbnhoaHZlN0RlTjNFd0xRWVFGNUk3UWotUEhjeTRN?oc=5",
+      "published": "Wed, 28 Oct 2026 13:59:34 GMT",
+      "summary": "KAMAL RAMBURUTH | UN Borrowers Platform aims to ease global debt crisis&nbsp;&nbsp;Business Day",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-28T21:59:34+08:00",
+      "source_detail": {
+        "name": "Business Day",
+        "url": "https://www.businessday.co.za"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Inside Infrastructure: Defense and infrastructure: What a changing security landscape means for investors - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS0Exb0V6R3FzbzE5LVpzUGRRUXZvZDg1enM0aUNnVkxXTjFralMyWklCTUZ2X0V3YXI5UUhwLW1zdGZWd1VXOXhKcmZQV3BZSFU2VVdHaWUzYzI4T0JEZFFQbWVsWnFEOWdaQnpyOUdrb0hqcEZUYjlSQ192V0gweXllX1RnNFpqZC1fOGtZRmY5dWkwWDY1WnpZQ2xoSEV2OHUyNVZjcEhfdlZHSzBIMHpEY3pabjhUS0trSDRlZ0dtVmhmTUpuaEdRajU0TXBPeG1CR2t2eTFGWWJNQkVDekY3ZlU?oc=5",
+      "published": "Wed, 28 Oct 2026 11:16:23 GMT",
+      "summary": "Inside Infrastructure: Defense and infrastructure: What a changing security landscape means for investors&nbsp;&nbsp;Freshfields",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-28T19:16:23+08:00",
+      "source_detail": {
+        "name": "Freshfields",
+        "url": "https://www.freshfields.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -134,15 +231,63 @@
       "relevance": "low"
     },
     {
-      "title": "The U.S.-Taiwan ART’s Export Control Puzzle - Lawfare",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkhxSlNNd1gtOE1GcWhBbHczaWZrYnBJMWUzQzg0ajBqMUtNMko3a0dXanFjYzlsX05WM2ZPVEo1VUxVcGo5OXFoeHdzek5pbUJDVG1UZUJ6ZUV4TGNhMEJnV2xISU5SUWNpNDhIaW5icWFIejk4ck9nM3dYLUhDT2VoZkhjbTQ?oc=5",
-      "published": "Tue, 27 Oct 2026 18:05:06 GMT",
-      "summary": "The U.S.-Taiwan ART’s Export Control Puzzle&nbsp;&nbsp;Lawfare",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-10-28T02:05:06+08:00",
+      "title": "India FTA Tracker 2026: Live Updates on Trade & Economic Pacts - India Briefing",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVVVzZ1hTXzdnRWM4OWR2MmRvbnh3bGk5RVNyQ2lHazhQRTFIMnIydF9rYjdIeTF1RGFLcWFvYzU4ck1iQ241Zkxkb2pXU3NvUXdxSG9sNnZYYUtIWjhxTlFBWWhQSUxmZ0x4Tkt0M0dvLXFWYnF1R3lvNUdvekViRk9MVUw?oc=5",
+      "published": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "summary": "India FTA Tracker 2026: Live Updates on Trade & Economic Pacts&nbsp;&nbsp;India Briefing",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-28T15:00:00+08:00",
       "source_detail": {
-        "name": "Lawfare",
-        "url": "https://www.lawfaremedia.org"
+        "name": "India Briefing",
+        "url": "https://www.india-briefing.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Frankreichs Schuldenproblem: Nicht der Staatsbankrott kommt zuerst – sondern das Ende unbezahlbarer Versprechen - Xpert.Digital - Konrad Wolfenstein",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oazhreW02QkdPMDVHbjZIa1gxX0UwYVU5bksydXNibFB2ZE1laDZtZ2NkS0piTHZtVDhjdXhkbHFKZmEtQUhWSVR3dkltUEdoRXBtNW83X2R0QdIBYkFVX3lxTE5wbm0tV0lmM1BiYk50dHo4aGR5Zlp3cjQxcHRyYUgzSU9qZHZKWE0ybDBySGNSdGpyWG84SUZWdWVQQnliT3B6NjVETHZPV0w5ZXBlSUFNMmdVZUlKMzdreFhR?oc=5",
+      "published": "Wed, 28 Oct 2026 05:45:03 GMT",
+      "summary": "Frankreichs Schuldenproblem: Nicht der Staatsbankrott kommt zuerst – sondern das Ende unbezahlbarer Versprechen&nbsp;&nbsp;Xpert.Digital - Konrad Wolfenstein",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-10-28T13:45:03+08:00",
+      "source_detail": {
+        "name": "Xpert.Digital - Konrad Wolfenstein",
+        "url": "https://xpert.digital"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Revenue rises 22% as Cadence Design Systems (CDNS) approves additional share buybacks. - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa3hOUDhRSjBFRlhnR2M2akxtVmptdl96aU5KZ0JPT1ZwSmdfQ3JkRmE2RGduMmd4Z2Z4YVlJNnoyU1R5VU5vNVVHYm8yT1Z0MkU3bkhpN2FVMEd6LWxqMnZjbWV2dEdJZUFFa2wtZG5CUlo5NlM4OU00YUFDcy1qXzhrYk82ZUlTSjlUclpxemVvZnNSYld5UC1TRnZpbGlaUUNnMVVyS2lGSHE3aVNfWmR6c0RUWTZldmlR?oc=5",
+      "published": "Tue, 27 Oct 2026 22:00:12 GMT",
+      "summary": "Revenue rises 22% as Cadence Design Systems (CDNS) approves additional share buybacks.&nbsp;&nbsp;Stock Titan",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-10-28T06:00:12+08:00",
+      "source_detail": {
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Will Russia and Serbia Remain 'Brothers Forever' After Shock Election Result? - The Moscow Times",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0pRSFdiZElfd2NDLUlVT2N2bzV6Y1BOaXMtLVIwQlNheU1QMWxMZTJJYUZZczZqWEFTY0NHOEVyTFpPTWVGb09fbWRaVjhzX0pDSkVFTWhqSFRhVi1WQkhuMko2R0xYa0VxNm1yd1JUVGRMSWlURFNLdTJmVTNMOXhQdWhwNkdVYkk2cXFYNEk2TExXWlZtZ3hURG0xOVl4cE5wa0FXM1F0SWJoRkFkX29HSzQtaVZOcDhjTWpWU0Q?oc=5",
+      "published": "Tue, 27 Oct 2026 18:22:00 GMT",
+      "summary": "Will Russia and Serbia Remain 'Brothers Forever' After Shock Election Result?&nbsp;&nbsp;The Moscow Times",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-28T02:22:00+08:00",
+      "source_detail": {
+        "name": "The Moscow Times",
+        "url": "https://www.themoscowtimes.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -166,31 +311,15 @@
       "relevance": "low"
     },
     {
-      "title": "CPI | Merger Control in the Absence of FDI Screening in Latin America - PYMNTS.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnIwY0Y5YlpzVzJCUzFBX3VUR3dXQlVOYW9sTmE2QlRFYWFUYXBOTG1rdjRyVnl4Q21RVjlkNm5tLUpzZndTbG9FZWVNb1VFdlBueExKbk1uYVg5UjF6cWV5U1B0M1Y5QTZyRjVLVHhCbFBDbmt3bW51V2FBY0J5MUNvQmlnbWFSMTFXUngyUnNOXy0yT3ZONC1RT0dnQQ?oc=5",
-      "published": "Tue, 27 Oct 2026 16:48:05 GMT",
-      "summary": "CPI | Merger Control in the Absence of FDI Screening in Latin America&nbsp;&nbsp;PYMNTS.com",
-      "source": "GNews | CFIUS",
-      "published_beijing": "2026-10-28T00:48:05+08:00",
-      "source_detail": {
-        "name": "PYMNTS.com",
-        "url": "https://www.pymnts.com"
-      },
-      "priority": 0.0,
-      "category": "外资审查+征收",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Finland bids to join growing cohort of greenfield FDI screeners - fDi Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ0Jmc2VvdE10cm5paTBJNVF3SDc5ZWR2TTJDajFGSldmZ3NvRHJ4WUgySE1kZDFuS1c0VmM2QWY2UU5sT0twNEFFY254aUZkX21HcWY5WUJkN05heThTNEc2N1Z0OUdlbzhOQWdacU9KVWhWaFkwTmFzV2xteE5XZXpn?oc=5",
-      "published": "Tue, 27 Oct 2026 12:20:46 GMT",
-      "summary": "Finland bids to join growing cohort of greenfield FDI screeners&nbsp;&nbsp;fDi Intelligence",
+      "title": "Merger Review Misses the Supply Chain Costs of Acquisitions - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yN0FnekdvM0VOUmhVSmF5U3BlVnh3TnJaSFFOQ1NBNVBqdzQ2YzRhTTRNRUhiQmFDZHFmZkpYcllOYk05QldpSDhKREdTWVVoZzhRRjRRWnpCUQ?oc=5",
+      "published": "Thu, 29 Oct 2026 21:37:27 GMT",
+      "summary": "Merger Review Misses the Supply Chain Costs of Acquisitions&nbsp;&nbsp;https://economy.ac/",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-10-27T20:20:46+08:00",
+      "published_beijing": "2026-10-30T05:37:27+08:00",
       "source_detail": {
-        "name": "fDi Intelligence",
-        "url": "https://www.fdiintelligence.com"
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -198,26 +327,347 @@
       "relevance": "low"
     },
     {
-      "title": "Weekly Update 527: Cybergeddon News v. Reality",
-      "link": "https://www.troyhunt.com/weekly-update-527/",
-      "published": "Tue, 27 Oct 2026 07:59:09 GMT",
-      "summary": "As the news from last week has settled down, it would seem this headline was pretty spot on. The foretold apocalypse didn&apos;t eventuate, and there were no internet-destroying outages. In fact, it took days before I could find a single story of PHP2Shell being reliably attributed back",
-      "source": "Troy Hunt",
-      "full_text": "As the news from last week has settled down, it would seem this headline was pretty spot on. The foretold apocalypse didn't eventuate, and there were no internet-destroying outages. In fact, it took days before I could find a single story of PHP2Shell being reliably attributed back to a breach. And I don't think we can say the relatively benign outcome was only achieved because we did take it so seriously either; there's a massive trove of sites out there that have been left to rot and would have every opportunity to be pwned by a bug of this magnitude that was readily exploitable, yet here we are. Which is good 🙂",
-      "published_beijing": "2026-10-27T15:59:09+08:00",
+      "title": "U.S. Bans Imports From China's BGI Over Forced Labor - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUFhod1NIamNDQnRZcGxPR29FdUYzZ095UlJJUjF0UWpITjB4aUNXNGliT3ltYW1YSFZJUGJhYVYtWFZOYWExZTh5Z2Q5MGY0RkYxaUMxRU10NDdlTlNJWmVYcW9MRUlKeERrbzAzcDVBdGxxSll2V2s5a2dlVDlXTS1vbkMzcS1Tdl9BcFZRTTBVMW12X3hqM09TWTg2Zw?oc=5",
+      "published": "Thu, 29 Oct 2026 20:45:05 GMT",
+      "summary": "U.S. Bans Imports From China's BGI Over Forced Labor&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-10-30T04:45:05+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Stablecoin Sanctions Screening and Compliance - Blockchain Council",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1V5eEEwZzNmMTZmb29EVUtNSU14WERKRlBvTld4S1JfaE5OZ3hvZzljd3lsZEc5ZnJnT3FISmxpYmxXbkZTV2I3VXQydktDdk1fcXhGZmxLMGs2LUJkOXVDd2FRVUxPTkdldmUwYjdjOFlxejdOaFJZZnAzeEdEaVpPaw?oc=5",
+      "published": "Thu, 29 Oct 2026 20:04:58 GMT",
+      "summary": "Stablecoin Sanctions Screening and Compliance&nbsp;&nbsp;Blockchain Council",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-30T04:04:58+08:00",
+      "source_detail": {
+        "name": "Blockchain Council",
+        "url": "https://www.blockchain-council.org"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Political pressure on competition enforcers is “nothing new”, says former EU official - Global Competition Review",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSV9DUUhVZlM0SnRMTkJqdnZpZ1lxMEc0MzZOYTFfcVlFVExTLXJGX2M5VEVQaXNMazlWM1k0eUxvWkVBekdIQW0zUWxMSEsyS0dCSmZJWmktaVo3RFpEc3pfZmR4bWY5b1FPUkN2VDE3X2dwYzUyaU9obVpWX1hid1R6Yl9oWGUxZVI1U0tjT3ppSVpWdk1KczZUSmNVRWJBcjlhUGdJcXR0d2Z2MzA5QUFhb002VmlfZUhudw?oc=5",
+      "published": "Thu, 29 Oct 2026 18:15:00 GMT",
+      "summary": "Political pressure on competition enforcers is “nothing new”, says former EU official&nbsp;&nbsp;Global Competition Review",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-30T02:15:00+08:00",
+      "source_detail": {
+        "name": "Global Competition Review",
+        "url": "https://globalcompetitionreview.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "BYOD cyberattack diverts ambulances and cancels classes at University of New Mexico health center",
+      "link": "https://www.fortra.com/blog/byod-cyberattack-diverts-ambulances-and-cancels-classes-university-new-mexico-health-center",
+      "published": "Thu, 29 Oct 2026 17:01:24 +0000",
+      "summary": "Ambulances were diverted, surgeries cancelled, and medical students sent home from classes after a ransomware group attacked the University of New Mexico's Health Sciences Center (HSC) this week.\n\nRead more in my article on the Fortra blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-30T01:01:24+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Hiding Capabilities in AI Models",
-      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
-      "published": "2026-10-27T11:01:26Z",
-      "summary": "Interesting research: &#8220;AI Models Can Provably Hide Arbitrary Capabilities&#8221;\nAbstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger...",
+      "title": "REGIONAL REPORT: MIDDLE EAST - World Oil",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcXprWjJCQzVEUTk3MlhZd3VVXzAxNy0zX2VEV0FiSWJkRENtQjBkdE4ycjRZcE9xX1BHTi10cVdtLXplNjdCRUhyaU41Zm9tMHpoU3oxN0tFbnpZTEJFMEROZ2hfMnJLUGZ3UjBGQ3VZcjN4ZXZRWThjMWo0NmtwVXM1MlNxaXp0bzcyaw?oc=5",
+      "published": "Thu, 29 Oct 2026 16:16:14 GMT",
+      "summary": "REGIONAL REPORT: MIDDLE EAST&nbsp;&nbsp;World Oil",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-10-30T00:16:14+08:00",
+      "source_detail": {
+        "name": "World Oil",
+        "url": "https://www.worldoil.com"
+      },
+      "priority": 0.0,
+      "category": "供应链风险+FCPA",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Iran’s hidden web of military agencies is slipping hardware past the US blockade - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDdNT2d1X203WGstY0tRd0xFeXFhWlBQVmlXM2hRRXdzZHQ3UmszXzNXcVE3LTB5TWhUcXJwWUVlSi15cGFUNVFqd2xTNllBQm9PdlphUVQ3bU1pOTI5dUtGb3pZYUstMmpaa2hzbk5RXzd2bVp5YmlhR19nYkNJTjdfTG11amxxZ0dOWXBveEowTC1wRHozRWxPYUx5OXo2TWpjdHRnOXc5eTRQWXN6S2RyWVUxVF8wMGk0?oc=5",
+      "published": "Thu, 29 Oct 2026 15:04:32 GMT",
+      "summary": "Iran’s hidden web of military agencies is slipping hardware past the US blockade&nbsp;&nbsp;Reuters",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-29T23:04:32+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "North Korea’s $800M IT Fraud Ring Used AI to Pass Hiring Screens; Russia Sanctioned - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObk1VSEFwYi1GcExjOE41V2ZYbExGZllEbGc2TERMZW1fSTRNX2JxQTYxaUFIbmlnYWZGUkdPZ0tjbjhBYm0yM0JRaXQwd2tORWF5aUkwVFJVMUE1VWdhdlNCR2N6YUhvcW9yYVlUSV8zV3NBT0RUOEFnOG1nRTlZRFVFb1dhRjNQd1hXd1MxUVJWTjZNN1p5dUxBbkdiajhzSUpRNEVKbGliTHFvTDVMMTQ5Szd3Ti1sMFRkX1BfYzhiQmwwLUtGZzlBTDM?oc=5",
+      "published": "Thu, 29 Oct 2026 12:12:56 GMT",
+      "summary": "North Korea’s $800M IT Fraud Ring Used AI to Pass Hiring Screens; Russia Sanctioned&nbsp;&nbsp;Tech Times",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-29T20:12:56+08:00",
+      "source_detail": {
+        "name": "Tech Times",
+        "url": "https://www.techtimes.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "[进展] | Europe's textile M&A surges: 58 deals through Q3 amid weak output - Fibre2Fashion",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaXhGS3dCcE5WM2FMMEkyTWdxVzdBQ3kwTkV1MEJGT2VzT3hnTDV1WTdJaldxcGVSOHdLcy1ZbFRUWjJEUHduaHVKYVAyb0ZhTFY2QzQ5Z3V4NDl4d184a0NiX1VDTFVUUGg3UkZ0OHg5ZHJuS0s3ME9DdkNISkVZcy1rUkdyaV9HOGx2TjZYOXBNTWF3NHJzcTN4QnVHOTRrdHNEcWk5ZFZLYnZ0MHRLOW1BMG9SR3B0UG02RUxzWGIwODdqVkNXRVNmR3U2c2s0Vm4tYVdjTDFjeXlCenRmVnFSMWljU1hHRkNQVXFOMA?oc=5",
+      "published": "Thu, 29 Oct 2026 10:24:24 GMT",
+      "summary": "| Europe's textile M&amp;A surges: 58 deals through Q3 amid weak output&nbsp;&nbsp;Fibre2Fashion",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-29T18:24:24+08:00",
+      "source_detail": {
+        "name": "Fibre2Fashion",
+        "url": "https://www.fibre2fashion.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "| Europe's textile M&A surges: 58 deals through Q3 amid weak output - Fibre2Fashion",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaThHVlVJVDlldV9IaWxYNnNiLU9zWkpCSkY4a29wRk1tb0o4ZDBJZFBMdS0yV0VoazFfelN5dHF4cjl3WGw2RFh0RkV6dzFqTGlVVXhrZmVnODYxNFZxelVMdE5mWm5xeGZOSHJjRkZzR0VlQ1l6RU1yZ0FPU09QSHoyMUx1N2JpbmFHZ3Y2OWZDbGh6LWVqRUt2LUc4dzM2SXVNWU5renNYbXRKcW1QQnlmUF8wUDVyaVA2cjNkOXl5VlUzYlZBdjVqWTEzU3BWeUJ2R3VaSGZMN09XQVFGQWtOUVNpd3E2WHJCSlpn?oc=5",
+      "published": "Thu, 29 Oct 2026 09:27:02 GMT",
+      "summary": "| Europe's textile M&amp;A surges: 58 deals through Q3 amid weak output&nbsp;&nbsp;Fibre2Fashion",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-29T17:27:02+08:00",
+      "source_detail": {
+        "name": "Fibre2Fashion",
+        "url": "https://www.fibre2fashion.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "South Korean Defense Groups Shift to European Production - https://economy.ac/",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yM21YU295amc1TVU5VGVnSGE0WVdwMGNRZzl6WndfUmRUZ3lyTVBiVG9xMFExN2pkOXMxcjRXTnNKRzZkMXByU0NIcmNWQU42UXdoQmJGOUt3Zw?oc=5",
+      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "summary": "South Korean Defense Groups Shift to European Production&nbsp;&nbsp;https://economy.ac/",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-29T15:00:00+08:00",
+      "source_detail": {
+        "name": "https://economy.ac/",
+        "url": "https://economy.ac"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Smashing Security podcast #490: How Jared Kushner’s iPhone was allegedly hacked twice",
+      "link": "https://grahamcluley.com/smashing-security-podcast-490/",
+      "published": "Thu, 29 Oct 2026 00:16:56 +0000",
+      "summary": "Dutch spies, Russian hackers and Jared Kushner’s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the phones in our pockets?\n\nMeanwhile, James Ball explains that of the internet’s most trusted security keys were protected by numbers so small that one of them was... four. Yes, \"4\". And then, of course, to make the week worse we suffered a PHPocalp...",
+      "source": "Graham Cluley",
+      "full_text": "Dutch spies, Russian hackers and Jared Kushner’s iPhone. It sounds like the ingredients for a thriller, but according to claims in a new book the US President's son-in-law may have been hacked twice. Is any of it true, and what does it tell us about the phones in our pockets?\n\nMeanwhile, James Ball explains that of the internet’s most trusted security keys were protected by numbers so small that one of them was... four. Yes, \"4\". And then, of course, to make the week worse we suffered a PHPocalpyse...\n\nPlus, Chuck Randolph of 360 Privacy explains how the internet has made it scarily easy to put company executives and public officials in danger.\n\nAll this and more in episode 490 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest James Ball.",
+      "published_beijing": "2026-10-29T08:16:56+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "ThyssenKrupp: EU setting unrealistic expectations on early efficiency arguments - Global Competition Review",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUtHZEQ0QzZfOHlXNjlPcXYxNVQtYUZRR3p4YnlQbndvMzJXWTBUTk40b3FZUFZ5WVRQdHlEMjk5SVRlRVFVMzhla1Z5aVMtOWpFOGxRQnlxUGwydlBjUHM4ckR2VkFBTVpJQzBPUjZ6aGdBeVZIMktNeGpYbFh1UW15OEN2RE5VVE5jeEFyeWROZ3JRcnRZdGtZX050WEFMY3MydkZKbldwWF9iVFN0NklHMTlGektFRUZV?oc=5",
+      "published": "Fri, 30 Oct 2026 22:51:52 GMT",
+      "summary": "ThyssenKrupp: EU setting unrealistic expectations on early efficiency arguments&nbsp;&nbsp;Global Competition Review",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-31T06:51:52+08:00",
+      "source_detail": {
+        "name": "Global Competition Review",
+        "url": "https://globalcompetitionreview.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sanctions Watch (October 2026) - Center for Economic and Policy Research",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSRVQ3djdfd2tCQVlrYjVRR2prNDU0TkZCd1IyYmRjWXNQZmlPalFEdVY2WjRqXzhZYjlWMF9DOVluVEhFWWlyVmdOTzZFaDVJaUxDQlZVeFVQOUNodTR6SWc1Y0hmZDBheUVF?oc=5",
+      "published": "Fri, 30 Oct 2026 17:58:29 GMT",
+      "summary": "Sanctions Watch (October 2026)&nbsp;&nbsp;Center for Economic and Policy Research",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-31T01:58:29+08:00",
+      "source_detail": {
+        "name": "Center for Economic and Policy Research",
+        "url": "https://cepr.net"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sanctions: the US perspective - Global Investigations Review",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRjRXLWNPRnF6QWcyTmJnRjN3cjhUOFNHd3hrYXdQVU93SWRvYTY2MU1mWG1Xc3FtYU95YUVxM1JfR3NvYzZzX0hrS2pvSGpJYzVfRW5iZDJlXy1SVEJsdXZ2MEctTkZHaUlINDVCVk9GSk54WGJhNjBLUDlnYTFUc1FWZndZU0VJcHZlRjFMUk9LRE0yZ1oyb1FNSEFwR3B1alNtaExoQ1NpMzMtbVQtd0paalROVE9oVndfMnlNYkJEOHBiNDg1WUtmYzk?oc=5",
+      "published": "Fri, 30 Oct 2026 15:58:11 GMT",
+      "summary": "Sanctions: the US perspective&nbsp;&nbsp;Global Investigations Review",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-10-30T23:58:11+08:00",
+      "source_detail": {
+        "name": "Global Investigations Review",
+        "url": "https://globalinvestigationsreview.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Gameday for Football Agents: do the FFAR rules breach Article 101 TFEU? (Part 2) - LawInSport",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd3hObVZ6VjRIb3FYWk9SajM0WElERW8ybXBhSFhBS0Y3TjJVUzlVY0d1Rl9wR2xRdFpjNXZiVmthalBrMEQ2Y2E4NEJiYVdtbm9NSk9VMUpOVU5nWG5YOFV5alpYQVluUG10Q0hnTDM1c3E2RUF4RjIxd2plTXFFeExVVkpjeVJLajBpRVFBS1kzZ2pFaU54RWNYYmttUkdOYUd3a3cwYkMxQi0teE5XbmdqWHFodw?oc=5",
+      "published": "Fri, 30 Oct 2026 13:14:16 GMT",
+      "summary": "Gameday for Football Agents: do the FFAR rules breach Article 101 TFEU? (Part 2)&nbsp;&nbsp;LawInSport",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-30T21:14:16+08:00",
+      "source_detail": {
+        "name": "LawInSport",
+        "url": "https://www.lawinsport.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits - Radio Free Europe/Radio Liberty",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXFwR0NOUXhBVU5yVjVUZDVCSk5rNWhDWWZOVm42dHNmZmlUYVdsLUZVbVhhYkRIeDVQQk5sZWs3LXItV3BkU1pwV3RyOTZHbmV5ZTNLQ3lKaVFMV203S19DVG5ZN2Via2pUWVJGTEVOMGxfWHFWSGtyZ3pYOUVRX3l4eFBaYnB2VlpUT2NZM21TOVJTelJmXzl3S3BJa21T0gGgAUFVX3lxTE1lcXBHQ05ReEFVTnJWNVRkNUJKTms1aENZZk5WbjZ0c2ZmaVRhV2wtRlVtWGFiREh4NVBCTmxlazctci1XcGRTWnBXdHI5NkduZXllM0tDeUppUUxXbTdLX0NUblk3ZWJralRZUkZMRU4wbF9YcVZIa3Jnelg5RVFfeXh4UFpicHZWWlRPY1kzbVM5UlN6UmZfOXdLcElrbVM?oc=5",
+      "published": "Fri, 30 Oct 2026 12:22:25 GMT",
+      "summary": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-30T20:22:25+08:00",
+      "source_detail": {
+        "name": "Radio Free Europe/Radio Liberty",
+        "url": "https://www.rferl.org"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data",
+      "published": "Fri, 30 Oct 2026 10:33:50 +0000",
+      "summary": "The US Department of Homeland Security has had the details of more than 41,000 staff, including ICE and CBP agents, published online. Not ideal for an organisation with \"Security\" in its name.\n\nRead more in my article on the Hot for Security blog.",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-10-30T18:33:50+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "More than 41,000 people working for the US Department of Homeland Security, including ICE agents, have had their details published online by a group of hacktivists.\nAs TechCrunch reports, the leaked records include the names, job titles, work email addresses, phone numbers, abd office locations.\nMore than half of the leaked records relate to US Customs and Border Protection (CBP) employees, typically found at airports, seaports, and land border crossings. Around 10,000 ICE employees have had their records breached, and almost 1,000 members of the Cybersecurity and Infrastructure Security Agency (CISA).\nWIRED reports that the massive leak includes staff who work undercover, as well as in other sensitive areas such as those engaged in wiretapping and the interception of communications.\nA hacktivist group calling itself \"Department of Peace\" says that the data was taken from an Okta single sign-on system that staff use to log onto the central network of the US Department of Homeland Security. Okta for its part says that it has not seen any evidence that its own systems have been compromised.\nThe data reveals which tools and services particularly individuals can access. Alongside everyday office software, these include Palantir's Falcon investigative platform, the phone and social media analysis tool PenLink, and Mobile Fortify, a facial recognition app used by immigration agents.\nExplaining its justification for the data breach, \"Department of Peace\" wrote:\n\"They have our information, so it’s only fair that we have theirs.\"\nThe leaked data has been published online, under the title \"Icepick\", and can be either downloaded via a torrent or accessed via a web interface - making it significantly easier for curious parties to search.\nOne threat intelligence expert told WIRED that, if authentic, the leaked data was \"an extraordinarily valuable intelligence resource for those seeking to penetrate DHS,\" and could help adversaries identify vulnerable personnel or compromise ongoing investigations.\nAn obvious concern is that the leaked contact details could be used in phishing attacks that target employees, or could potentially put agents in physical danger. Clearly anyone whose details have been exposed through the incident would be wise to treat unexpected emails, texts, and phone calls with caution - and be particularly wary of any communications that claim to come from IT support or ask for a login to be approved.\nEarlier this year the same group of hacktivists claimed to have breached the US Department of Homeland Security and accessed contracts between DHS, ICE, and more than 6000 firms including the likes of L3Harris, Raytheon, Palantir, Microsoft, and Oracle.\nExplaining their motivation for that breach, the hackers referred to the killings of Alex Pretti and Renée Good by federal agents in Minneapolis.\n\"Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing us and people deserve to know which companies support them and what they're working on.\"\nThere has been a long string of cybersecurity incidents affecting US government personnel. For instance, in September the notorious ShinyHunters hacking group claimed to have stolen personal details related to nearly every employee of the FBI, and the records of millions of serving and former US military personnel were reportedly stolen from the Pentagon's human resources unit.\ntags\nGraham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s.\nView all posts"
+    },
+    {
+      "title": "Chinese Investment in the EU: Building a More Resilient Deal Strategy - FTI Consulting",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObGlxRkhONkFRWE8wc01LbGVsRXh0VXJsdzFkTWVodTRmeVdhN0VJcklPV3g0T0RHWmxUZWdrRlMtam9BelA1TVRzLWpFdDB3bURKQnRjTjlBNVI0aFZiOHpHQ1dDWE01eG1SMUk4YkQyUjlES3RoS0pXODVwcUU2Tzg1ekpfNFk3STdvYjJOWkpoS2VnMEw3bU9CaS1yY3ZmS3JTSw?oc=5",
+      "published": "Fri, 30 Oct 2026 08:18:33 GMT",
+      "summary": "Chinese Investment in the EU: Building a More Resilient Deal Strategy&nbsp;&nbsp;FTI Consulting",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-30T16:18:33+08:00",
+      "source_detail": {
+        "name": "FTI Consulting",
+        "url": "https://www.fticonsulting.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Europe’s defense investment boom demands a new deal playbook - McDermott Will & Schulte",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbUtURk5VSC1NVExfek9INF9LenFySXJJejZBV2ZEbnJ4d1FPdFZ6ZEY1eW82cWtNenpCa3pYZ1JqeGxxY29Hc0NrTW5lTUJ1dVRRM1R6dXg4YzRWbHV2Skw2VFo3MlVCMUNXdnRnY3RNN1pTNm40NkdyNEY4OVNOUEVFNmlrdm9NYVhUd3UwM2NUUHJBbFFINVdNWEZhVlNteFppYm54Q2dMdw?oc=5",
+      "published": "Fri, 30 Oct 2026 05:04:41 GMT",
+      "summary": "Europe’s defense investment boom demands a new deal playbook&nbsp;&nbsp;McDermott Will & Schulte",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-10-30T13:04:41+08:00",
+      "source_detail": {
+        "name": "McDermott Will & Schulte",
+        "url": "https://www.mcdermottlaw.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The Multi-Polar Authoritarian Supply Chain Supporting Russia in the War in Ukraine - SLDinfo.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0JZaEUzTUdTTGMyOHRVZHdXY1RKUDk4VDJGenF3djNCdGd1aDZTY0o5NHZ0amlkbHF0X285bjJFWXlXVnZic21WX3NUOEtNLTJfWGJvelNUWmxncEN2aG9HMUtJZVhaSlBweGg3emF3ZVE0YjVXM0NnNW9NcmRYSUpTbWtDX0dkSURtWG9UdEZEQVRhN2V6SkUya3ZPclNlQzFRYzJsaTRXaTdmcGkzOA?oc=5",
+      "published": "Fri, 30 Oct 2026 04:01:45 GMT",
+      "summary": "The Multi-Polar Authoritarian Supply Chain Supporting Russia in the War in Ukraine&nbsp;&nbsp;SLDinfo.com",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-10-30T12:01:45+08:00",
+      "source_detail": {
+        "name": "SLDinfo.com",
+        "url": "https://sldinfo.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+      "published": "2026-10-30T21:04:36Z",
+      "summary": "Neat video:\nThe sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
       "source": "Schneier on Security",
-      "full_text": "Interesting research: “AI Models Can Provably Hide Arbitrary Capabilities”\nAbstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses.",
-      "published_beijing": "2026-10-27T19:01:26+08:00",
+      "published_beijing": "2026-10-31T05:04:36+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bloatware in Aftermarket Auto Parts",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+      "published": "2026-10-30T15:20:02Z",
+      "summary": "This story is interesting:\nOne Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about.\nAmong the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of...",
+      "source": "Schneier on Security",
+      "full_text": "This story is interesting:\nOne Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about.\nAmong the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go.\nIt’s interesting because it exposes all the insecurities in this piece of IoT software. But I think the real story is that a random person was able to do this reverse-engineering with the help of AI. Expect a lot more stories like this in the future.",
+      "published_beijing": "2026-10-30T23:20:02+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Studying Fraudulent North Korean IT Workers",
+      "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
+      "published": "2026-10-28T11:05:00Z",
+      "summary": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
+      "source": "Schneier on Security",
+      "published_beijing": "2026-10-28T19:05:00+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
