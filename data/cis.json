@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-11-01T04:52:56.400468+00:00",
-  "fetch_date_utc": "2026-11-01",
-  "total": 67,
-  "high_priority": 3,
-  "medium_priority": 41,
+  "updated": "2026-11-02T04:53:42.893809+00:00",
+  "fetch_date_utc": "2026-11-02",
+  "total": 35,
+  "high_priority": 1,
+  "medium_priority": 23,
   "signal_alerts": {},
   "stats_by_category": {
     "俄罗斯": {
@@ -13,19 +13,19 @@
       "feeds": 3
     },
     "中亚": {
-      "count": 8,
+      "count": 6,
       "feeds": 3
     },
     "白俄罗斯+能源": {
-      "count": 1,
+      "count": 0,
       "feeds": 2
     },
     "战争+地缘": {
-      "count": 20,
+      "count": 8,
       "feeds": 2
     },
     "基础设施+科技": {
-      "count": 5,
+      "count": 2,
       "feeds": 1
     },
     "气候+人口": {
@@ -33,7 +33,7 @@
       "feeds": 2
     },
     "大国关系": {
-      "count": 38,
+      "count": 19,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -53,32 +53,33 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 9,
+  "fail_feeds": 11,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Ukraine-Russia war latest: Kyiv defies Trump with strike on oil refinery deep inside Russia - Newswav",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS2M4WG0zYzBHX29pREJzV0R0RTdzZm4xM2pJSzZLNnExRkQyMEdmOWh3R0dTZW5WNFVKMFRHUkJsdnBsTXBuODZHR0NqUHN5N0tKWVBUc0NzNXdzelFaVHI1Z1ZrdjNJNUpKRDB4ZW9Dc3c1RlZCWGh2NUlkcTA1d0JKQmdwMUtaTkpGd000akRZM2VtUVZJZmFvRjh0WmVRSmI1ZTJkTk5WMEVlZU5iX2VmNjVqZWc?oc=5",
-      "published": "Fri, 30 Oct 2026 14:48:45 GMT",
-      "summary": "Ukraine-Russia war latest: Kyiv defies Trump with strike on oil refinery deep inside Russia&nbsp;&nbsp;Newswav",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-30T22:48:45+08:00",
+      "title": "Why Kazakhstan Refuses To Pick A Side In The Global Ai Cold War - ИФЗ РАН",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WMGdkUWtvdUVPeElVZlVpUlk3SnIxd25WSmdWMjBXVnFKQ05BLVlIc1BNYUJNWUd3bUJVbUJvLWxjekR5eWZqN0E4LU42emVZVmhqSzZjWmwyMElna3Frdl9nYllXcVBjOEJZSGJYTFIyTVNSZWxjRWFtY2I?oc=5",
+      "published": "Sun, 01 Nov 2026 11:34:18 GMT",
+      "summary": "Why Kazakhstan Refuses To Pick A Side In The Global Ai Cold War&nbsp;&nbsp;ИФЗ РАН",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-01T19:34:18+08:00",
       "source_detail": {
-        "name": "Newswav",
-        "url": "https://newswav.com"
+        "name": "ИФЗ РАН",
+        "url": "https://geosirius.ifz.ru"
       },
-      "priority": 13.2,
-      "category": "战争+地缘",
+      "priority": 9.6,
+      "category": "中亚",
       "_incremental": "new",
-      "relevance": "high"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Russian Offensive Campaign Assessment, October 31, 2026 - Institute for the Study of War",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN0xCTUNMNnRUYXgweHl6TWQtVXJMTy1icFhWbEUyVERoLU1yYnhWZkhleGdSNFd2TzdtSXpxVjlSWldUWDQySHdlSXE3bllTZFlYbGQ2OEZoNlUyRzktNno4SmpLR3ZjS1NTUXdFX2Q3ZVJTRm1QQXROU05lTHJzVENJSWZOREVXYkhCZklwZGctTWlKaHM0Slljemd1U1pZS044WTlLSE9STTA?oc=5",
-      "published": "Sun, 01 Nov 2026 01:29:05 GMT",
-      "summary": "Russian Offensive Campaign Assessment, October 31, 2026&nbsp;&nbsp;Institute for the Study of War",
+      "title": "Russian Offensive Campaign Assessment, November 1, 2026 - Institute for the Study of War",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHYyWUtEM29yQWxqUFdreGhJM0NwQi1OVHczeDgzQS1pZ19WWFd5V0tUNUVjR1RoQWRvQ3dUaGhvTnZwS29pYW1kTnRUd3ZaNHFaNzQ0a2FmOGUyM2htWHBRTnFONHJKVEUwbjBrQ1FfcU5XQUJDajRQbUwzRE42UVM1a0NKREYtQ2k3UUhIX0wxZngzclk0b215SjBUZUpRQUNUMEVKc09OVGs?oc=5",
+      "published": "Mon, 02 Nov 2026 03:24:06 GMT",
+      "summary": "Russian Offensive Campaign Assessment, November 1, 2026&nbsp;&nbsp;Institute for the Study of War",
       "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-01T09:29:05+08:00",
+      "published_beijing": "2026-11-02T11:24:06+08:00",
       "source_detail": {
         "name": "Institute for the Study of War",
         "url": "https://understandingwar.org"
@@ -90,114 +91,29 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Zelenskyy heads to Istanbul for Erdogan talks on Russia-Ukraine war - Business Upturn",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTFYwQ2U1TlRZZGhrQlN5RVNoV0dLTE1DVEJCUlFxdzdOLXNmX2luNS0ydkVLX3RSclM0dkR3emdKNW1pTkdYTG5TS19CakNWaTk0alh2UUtrQ2hrZW00UXBTSGg1OFlIOXJEMXVlODZGTGpQYnA0MUVXY2V3dEwxa212X2hERzRLeDFTclFOX2wzcGZPekhoR1VTZDRVSERIcFd3S004QVlzZWpLN0IxWGhqQ2J5ZGtieldRSTNB?oc=5",
-      "published": "Sat, 31 Oct 2026 13:06:04 GMT",
-      "summary": "Zelenskyy heads to Istanbul for Erdogan talks on Russia-Ukraine war&nbsp;&nbsp;Business Upturn",
+      "title": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jYnVyM1pEai1RMXRsMUZaUDFIdVBEd0Rwa1hJUmFqeXcxcmtxZ1pneDM2YWtNZ01RY1pWeUkwNzZTZ3FkdmZfSUJIbEc3VHphNWE3YnJLTkxwREZEVUJBN0UwVkpScG05ZFE?oc=5",
+      "published": "Sun, 01 Nov 2026 14:34:36 GMT",
+      "summary": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade&nbsp;&nbsp;The Jerusalem Post",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-01T22:34:36+08:00",
+      "source_detail": {
+        "name": "The Jerusalem Post",
+        "url": "https://www.jpost.com"
+      },
+      "priority": 7.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Ukraine War, Day 1,711: Zelensky Meets Erdoğan In Türkiye - EA WorldView",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxNDR0N2pjcDljbnUxUmhfSjlzczBiclpiR1JqUkhaeXdEanJlUTVKYW41M2pTSk11Yl9PdmV1ZTl3VDY4VGhGeGZ3TlY3amlJMF9TNURFcHNRZ1RlNFdQdkJWVkFoM2pKS3lJQVhB?oc=5",
+      "published": "Sun, 01 Nov 2026 18:02:01 GMT",
+      "summary": "Ukraine War, Day 1,711: Zelensky Meets Erdoğan In Türkiye&nbsp;&nbsp;EA WorldView",
       "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-31T21:06:04+08:00",
-      "source_detail": {
-        "name": "Business Upturn",
-        "url": "https://businessupturn.com"
-      },
-      "priority": 9.6,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "The Struggle for Central Asia: What Do the US, China and Russia Want from the Region? - Caspian Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0p5c25sNFNVemI4NjZ3LWdZdFBpZlkyWFp1TjJUdDV3YmxGRlhFNUZKZlEtTzI2TVd1RVdBcV96V2x1V2ltZEtTN1FDQlhHSWxreF84RlAzMTl3V2lCVHdBeUlyaXIwTi0zWmEweUZFWkNXWHhDU04zb1FQbUZ6T3BQQnJmcmd2aXhlSmlQcGo1dWRaa0FfVnEwUm1zVURCbzBLX2VIbjF1aE40SjFmVWNJU2k?oc=5",
-      "published": "Sat, 31 Oct 2026 08:33:55 GMT",
-      "summary": "The Struggle for Central Asia: What Do the US, China and Russia Want from the Region?&nbsp;&nbsp;Caspian Post",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-10-31T16:33:55+08:00",
-      "source_detail": {
-        "name": "Caspian Post",
-        "url": "https://caspianpost.com"
-      },
-      "priority": 8.4,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Azerbaijan and Georgia seek to boost trade, resolve border dispute - Operativ Məlumat Mərkəzi",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN2dLREZ3SVVKT3ltRFp4OU42YWdSMFQwUXhTb05ZVnZVMXRGVDkyUXFrQjdPelhKYUhMcnZETnNBZGpaNS0tMVpCOHI4TDRfc2xfUGtWTWZzdF9JN2F1VUZScWF3UTJCU1N6MVJ5eDZ3X2Fmc0hNMmlnU2EzZkZyRExPT0lyRlhpVDVRUThlbHRPTzEtNWRqV1diaTltZlVMdDJV?oc=5",
-      "published": "Fri, 30 Oct 2026 13:33:52 GMT",
-      "summary": "Azerbaijan and Georgia seek to boost trade, resolve border dispute&nbsp;&nbsp;Operativ Məlumat Mərkəzi",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T21:33:52+08:00",
-      "source_detail": {
-        "name": "Operativ Məlumat Mərkəzi",
-        "url": "https://operativmm.az"
-      },
-      "priority": 8.4,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Russia, Madagascar Bilateral Relations: October 2026 Update - russia's pivot to asia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHE5NldyNGNmNGhvNmhqU1g5eE5FcE8yU29NSk5ubU9rOVVzNXQyQXpvR2RxY1pWeGtkU2JXRlJEU0Z2a080R280LTJ1bEZycVAzMzBZS1QzbVVzMlpLTkhscDNmQ2RoOU11MFNIOWE5MVd3cEJldDNJZ1AtOC04U0lOVmdXWmxCYmZvaDNiUDJoYVU?oc=5",
-      "published": "Sat, 31 Oct 2026 13:54:14 GMT",
-      "summary": "Russia, Madagascar Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T21:54:14+08:00",
-      "source_detail": {
-        "name": "russia's pivot to asia",
-        "url": "https://russiaspivottoasia.com"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Representative of Uzbekistan’s Chamber of Commerce in Georgia Calls for Concrete Business Deals - UzDaily.uz",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOck94b3VpOFBmd1JkX2pUb2ZGWlhBNHM0YzE3SWtVa28zbG9OVEpVd0laRXR0OU5EczlLR19KbW9LREpDVW92ZzdZb3RwaUJpZXFLZkZMNy1OLXZfVmd6bjNvb3BxMl91NXptbmhFc2VBSk1PRV9kNE5vVHNCVXhkYXl2RWlFYlRZaFIya1NsSm05ak8tbTNDdW5YS25SRHFzeS1oMW9DQXVRQzRndXVLUDBGVkRObDd6OHJNRzRB?oc=5",
-      "published": "Sat, 31 Oct 2026 13:00:00 GMT",
-      "summary": "Representative of Uzbekistan’s Chamber of Commerce in Georgia Calls for Concrete Business Deals&nbsp;&nbsp;UzDaily.uz",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T21:00:00+08:00",
-      "source_detail": {
-        "name": "UzDaily.uz",
-        "url": "https://www.uzdaily.uz"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "[不同来源] BRI Projects Gain Pace In Central Asia - The Rising Nepal",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mN3h1dThqd2wyaHdxWlNBcTJ0ZHhyYklidVlMX3pJNW53eFhWMlJJNnZmT2JzbTI2UW5qa19WN0NRSG9WODFhNEtRVGY1aFB2?oc=5",
-      "published": "Sat, 31 Oct 2026 02:18:52 GMT",
-      "summary": "BRI Projects Gain Pace In Central Asia&nbsp;&nbsp;The Rising Nepal",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-31T10:18:52+08:00",
-      "source_detail": {
-        "name": "The Rising Nepal",
-        "url": "https://risingnepaldaily.com"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Ukraine War, Day 1,710: US Approves Sale of 500 Patriots to Kyiv...But Delivery Could Take Years - EA WorldView",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUV21ZWW5oV0dTVzlIRkFRNS1RUEpKaDlKamtiU3E2QmhxYWVPNl9peXlCb3UxMXUxSnBoNzdjRkVCTXJzRzRyYkVlOU9OaXFoRUZvTXhCVlZxS2g1ZGJVblZKMmhUUDJ1NFp3VlVpN3FqLUZRVG5KSFQ4T2prVGc?oc=5",
-      "published": "Sat, 31 Oct 2026 17:57:38 GMT",
-      "summary": "Ukraine War, Day 1,710: US Approves Sale of 500 Patriots to Kyiv...But Delivery Could Take Years&nbsp;&nbsp;EA WorldView",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-01T01:57:38+08:00",
+      "published_beijing": "2026-11-02T02:02:01+08:00",
       "source_detail": {
         "name": "EA WorldView",
         "url": "https://eaworldview.com"
@@ -209,83 +125,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Russia, Mali Bilateral Trade & Investment Relations: October 2026 Update - russia's pivot to asia",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOU1RcnZNYV9fQVBUMkF2c0lzQi1UVmE0Q3d3LTZFNXFJNGdzVnl1eC1nQ3NOcV9XV0stbmYzazkzU1lSQTQyMFRyOC1pazRVWVFrSDJXRzM5UUpnYzRDSTBhNFBxSmtwZG5xNTNOYlBPbG5rWUlIVG44QmJMN19BNnUybnVHcF9VNGdIRUJEdHFZclV1OUU3cjd3dDFvei1QcVE?oc=5",
-      "published": "Sat, 31 Oct 2026 14:44:16 GMT",
-      "summary": "Russia, Mali Bilateral Trade & Investment Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "title": "Armenia discussed cooperation opportunities with Brazilian aircraft manufacturer Embraer - Arka.am",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMWtDdDVMREpQNmM0VlVVc29pMk4zYWE2aFJLQkRiUXVMOEp4RjR3NFVJRVFud3B0cmMtSHFxeC1WZXZSMGJIZkdRZTBmOUJzTnFwYnN6bndnMThyaS11alNsNVNURlFEcTdKVGZId2JtN1Z4WFpQX2lWUjFfZTloOFVGUXhLMmk0RDYtUFBmSkt4X0oyOHFWdjBlNWhNbU5xZGNobjFMSndWRGcycjdqZjgxb3d4SVRiR3dLWUxR?oc=5",
+      "published": "Sun, 01 Nov 2026 13:03:00 GMT",
+      "summary": "Armenia discussed cooperation opportunities with Brazilian aircraft manufacturer Embraer&nbsp;&nbsp;Arka.am",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T22:44:16+08:00",
+      "published_beijing": "2026-11-01T21:03:00+08:00",
       "source_detail": {
-        "name": "russia's pivot to asia",
-        "url": "https://russiaspivottoasia.com"
-      },
-      "priority": 6.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits - Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSmRDVmZhQVRkaGdieS1GTmVuR3RVdWhWbmM0WUlLcTU1T2prZzNIeWdvSWZET00yNkhFekRtSFBhR25JcGlkemwtWEU1UmN0b0FMYzYzVmsxZk1vcnNodFJ6dUU4VHRKcUJlTVF6a2JJUHZLQmMzV29XVHN2X0FwUVNpTHFCLTRaNVpDc1Q5ZFVId2F0QWg4YW43d193NEZzNFQ5R3BtUUZZSExIdjJJa3RtUVB1azVrUW9LV0w5UGhqbTFFQmVPX3lzWkh6TnliVFg2MTV3?oc=5",
-      "published": "Sat, 31 Oct 2026 02:00:01 GMT",
-      "summary": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits - Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T10:00:01+08:00",
-      "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
-      },
-      "priority": 6.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Kazakhstan, Texas discuss trade, investment, economic cooperation - Trend News Agency",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ibzhmS0piYTZiTThQWUJoMUZLQ0UzbEtTT25HT2NVb3plUGFMWWwzR2g1WGdTTF95ZldKUk5SQmxrV1JhTmdxOTZsTjJ0TjhQaTlpdHRWdGJFelJnTXZN?oc=5",
-      "published": "Fri, 30 Oct 2026 08:06:00 GMT",
-      "summary": "Kazakhstan, Texas discuss trade, investment, economic cooperation&nbsp;&nbsp;Trend News Agency",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T16:06:00+08:00",
-      "source_detail": {
-        "name": "Trend News Agency",
-        "url": "https://www.trend.az"
-      },
-      "priority": 6.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Uzbekistan and Abu Dhabi to Establish Working Group to Develop Agricultural Exports - Dunyo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPek9iQmJZQzZXZ3o1empOYjZBODlYTlIxTUREbzExQUo3SGZXTjVLcXpDdHBIYnZ4SGhuc3UzdEV0SThqYzF5S0ZwdGJyMVBNMXptU0U2elcxdWozVW4tNVFDMXVHV0RhcTFpSmFIeG5wb3lvSTlZRW9Sc3lZYkVsRXBLaWlMTjJTaG9yckRWMWtzSWlFcEZ6Qnh4bjZKSWtuVGJFRHNR?oc=5",
-      "published": "Sat, 31 Oct 2026 20:12:40 GMT",
-      "summary": "Uzbekistan and Abu Dhabi to Establish Working Group to Develop Agricultural Exports&nbsp;&nbsp;Dunyo",
-      "source": "GNews | UZ Economy",
-      "published_beijing": "2026-11-01T04:12:40+08:00",
-      "source_detail": {
-        "name": "Dunyo",
-        "url": "https://dunyo.info"
-      },
-      "priority": 4.8,
-      "category": "中亚",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Kazakhstan, Kyrgyzstan Aim to Boost Bilateral Trade to $3 Billion - caspiannews.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXQwTVluNFg0LVdsYU5nNDRTR1FuV0xzQ0xnYlE1LU5IZVNkSDBXbnp2X05SVjlDR0NPbU1DVVVwUWpfXzNHTjlxUE9LbEJ0SGdpYmZMY3NjaDlNM3RZb05xSFNURldjSGkzcjF5RlYzUHc1VXVYUkUzRXJLRHE0akt3cVVLTEtNQkJxTmlIN0poaE55V2ZPUGlhcVBQclRVeTBsaVVKd0o5ZW1jNDFQZ1paRnM?oc=5",
-      "published": "Sat, 31 Oct 2026 19:31:56 GMT",
-      "summary": "Kazakhstan, Kyrgyzstan Aim to Boost Bilateral Trade to $3 Billion&nbsp;&nbsp;caspiannews.com",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T03:31:56+08:00",
-      "source_detail": {
-        "name": "caspiannews.com",
-        "url": "https://caspiannews.com"
+        "name": "Arka.am",
+        "url": "https://arka.am"
       },
       "priority": 4.8,
       "category": "大国关系",
@@ -294,15 +142,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "US trades democracy agenda for economic ties in Central Asia - IntelliNews",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXIxODkxd0l0X2Z6RUd0b3BDMlB4dUtLMGxMbUZDYnJUbW5MLURIc2dtTkpPdUN3WUR4NnQyNGRkeThndXpYSDJIYVZtbkZiN2RRcmdyU0V0QUg5b0RxaFVHM1pxbEVSdTdJakRHdjR3TEJLZkE4YjlSd0JkdDNtd0ZhOFNDWUhVSF9NZ2JwRHQwTXRRc0RCaFZ0ZUc?oc=5",
-      "published": "Sat, 31 Oct 2026 12:10:55 GMT",
-      "summary": "US trades democracy agenda for economic ties in Central Asia&nbsp;&nbsp;IntelliNews",
+      "title": "Türkiye, Kazakhstan expand defense partnerships, eye $15B in trade | Daily Sabah - Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZXFrdWdqRjd1QTZjM1l3aGVubDZsMTFYVXVrT0tDT0UxWXVjSE9TSVowOUNTNUFtRy1zRUl2RndsdFZmY3ZhWElPcEJDb0lReDQ4N2gzVnU2ME5kaXNGS01YN3ItMVBiNGRWNVlMb2lScEMwa3NBbmxnVFhlSHlxWHhwNE9pb1FlVGh6V0xUMmtadkUtMVpRbnZFbTZ6SkpoT3NEdXgwQS1YN3Z3LUp2Z9IBsAFBVV95cUxNZXFrdWdqRjd1QTZjM1l3aGVubDZsMTFYVXVrT0tDT0UxWXVjSE9TSVowOUNTNUFtRy1zRUl2RndsdFZmY3ZhWElPcEJDb0lReDQ4N2gzVnU2ME5kaXNGS01YN3ItMVBiNGRWNVlMb2lScEMwa3NBbmxnVFhlSHlxWHhwNE9pb1FlVGh6V0xUMmtadkUtMVpRbnZFbTZ6SkpoT3NEdXgwQS1YN3Z3LUp2Zw?oc=5",
+      "published": "Sun, 01 Nov 2026 12:05:07 GMT",
+      "summary": "Türkiye, Kazakhstan expand defense partnerships, eye $15B in trade | Daily Sabah&nbsp;&nbsp;Daily Sabah",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T20:10:55+08:00",
+      "published_beijing": "2026-11-01T20:05:07+08:00",
       "source_detail": {
-        "name": "IntelliNews",
-        "url": "https://www.intellinews.com"
+        "name": "Daily Sabah",
+        "url": "https://www.dailysabah.com"
       },
       "priority": 4.8,
       "category": "大国关系",
@@ -328,15 +176,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "G20 diplomats, including from China and Russia, face deep rifts as they prepare to meet in Atlanta - reflector.com",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMy0zT1JQLUZZeHlnUl9zV19vQ1ZHeDlNTktmQUg2M1RZMFdwS1FGYTNwNi1KdkZpM3FvNVBKTnlVV0NnUVJjemZENlJnSTJMcy1YdHltbDREWFFmNmhYQWI2MDFkYlg4Z3pyZVltYVpobHE1WFZrS2ZEc3lKYkoxeU14NnVSMkNqcng3a042ckVNNTJONXp2WmJucmZUaVlCeXM5Y2p2bVgwdE1KUlg1emVsOWtka1JPdUpFR243d2RnTVhpZFJWcktJYTZvc2pqVmNyOWhTZ3ZhSVM1TFBsR2lxLXRWYTRvSTVGdFZYbUhnT2lDdHlXS2N1dlg1NUI5S0M1LUNn?oc=5",
-      "published": "Fri, 30 Oct 2026 12:30:48 GMT",
-      "summary": "G20 diplomats, including from China and Russia, face deep rifts as they prepare to meet in Atlanta&nbsp;&nbsp;reflector.com",
+      "title": "CICA Member States Account for More Than 50% of Uzbekistan’s Foreign Trade Turnover - DKNews.kz",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONE1qQVdiYW1CVUU2U3paZFFUS0J1WVMxdUFKQ0FzMjVJNXYwWmo1MVo3TV9xclZTc1hCaUE3WldpSW9POFNqcS11ekt1XzRYTHB4dnpoeGtKQ3p3STJJekwwcjBoQ2RqVlJXTVdWeDBUWEZmMkktR1dJelpLVHV0MVdlQk1SU2hxd2ZseVI0WWJNa04xVnNYYzRB?oc=5",
+      "published": "Sat, 31 Oct 2026 10:43:00 GMT",
+      "summary": "CICA Member States Account for More Than 50% of Uzbekistan’s Foreign Trade Turnover&nbsp;&nbsp;DKNews.kz",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T20:30:48+08:00",
+      "published_beijing": "2026-10-31T18:43:00+08:00",
       "source_detail": {
-        "name": "reflector.com",
-        "url": "https://www.reflector.com"
+        "name": "DKNews.kz",
+        "url": "https://dknews.kz"
       },
       "priority": 4.8,
       "category": "大国关系",
@@ -345,15 +193,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Kyrgyzstan and Kazakhstan intend to increase trade turnover to 3 billion dollars - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOF9tM0UxOXNMb0xGRFlNeGN1bzNnMm5xX3FtelVBZmp5dXFxMGZibXlseWtYRlpJQ192bWNDX3o1U1JNTkE0QmtFam43QmJSVk9YekdKNHNYbHFIVmRoX0ZlQ1FMYW85aHNTQ1FlUFE3VnNrX0pWNlNOR2U1bUxZSkNvTTI2RDlOOExKZzJ5VUlWWFlVYU1iWEFZYmZheXo4TG5xRkk1RzMxVmtWaEthcElzREtkZ0ZybWk5TExUb1RWaDF4MWd4WmRB?oc=5",
-      "published": "Fri, 30 Oct 2026 08:20:57 GMT",
-      "summary": "Kyrgyzstan and Kazakhstan intend to increase trade turnover to 3 billion dollars&nbsp;&nbsp;open.kg",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T16:20:57+08:00",
+      "title": "[不同来源] Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert - India's News.Net",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdndUNDB5OWVqT2Z2Z0NZRnd1bDlWS2h0UWMwb2t5cXE4NmtzWTBVWDUxOFZoMm1ncnpZV2RMQU1heGZHTWpUNXJrUTZ6VmdKbFNzVVMxVE1NWWxlTW5IZ0p1ZDcyZW82d2F1YTBVM0doRlFhYWo2bzIxckk4cVZGZkc2Ri1QT1BVN2RNY20wTmZEZHJWLXk5a18tSmFzSExLODBYNzVWMjFMZVYySlNOTHdGWl9QU1dWcFUwcmt3dkZpZw?oc=5",
+      "published": "Mon, 02 Nov 2026 04:14:32 GMT",
+      "summary": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert&nbsp;&nbsp;India's News.Net",
+      "source": "GNews | China-CA",
+      "published_beijing": "2026-11-02T12:14:32+08:00",
       "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
+        "name": "India's News.Net",
+        "url": "https://www.indiasnews.net"
       },
       "priority": 4.8,
       "category": "大国关系",
@@ -362,100 +210,32 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Russia and Ukraine Coordinate Rare Civilian Evacuation From Occupied Ukrainian City - Latin Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ1hSOWhic2htZk40bElkVHAyblVwR2xlM0FpRmlxcmdLakd1dXVmMXFlbUdxNEpJOEdoQ3I1U1hBX1BoYVJyQTlmWWtJekRGU2VYM3hyWGZLV0dUM0RnTUwxdjNLLTNHTU9NMEN5QURkdl8waDNPQ1JjQ2NNYUpDbTAtR29laWM4b2c?oc=5",
-      "published": "Sat, 31 Oct 2026 21:54:41 GMT",
-      "summary": "Russia and Ukraine Coordinate Rare Civilian Evacuation From Occupied Ukrainian City&nbsp;&nbsp;Latin Times",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-01T05:54:41+08:00",
+      "title": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert - Big News Network.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRWZwN1NmMFBRS19Cb1RfaHJrVU13aGVrazdLR09Vb0VUMm5MYk9MTHBwOTlIVHFhMDktdGpUSXRaeWRCUWNFbjdRcWYzWW1OaE5HRWJ6NXBrNkFHMFlQQ2Y4RTN1X2lkZ1hnMXlsLXlsalhaaUhNa04ySmJZTDlCZG1Zc0djWExZb3pidW1VUVRnYUhGem1tYlNGSXBwWnNwbVlJbWcyQ2s5bzVPOGtZNHdGMnJsUHlUc1dNZV9NeHNISmkxWGZB?oc=5",
+      "published": "Mon, 02 Nov 2026 04:03:00 GMT",
+      "summary": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert&nbsp;&nbsp;Big News Network.com",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-02T12:03:00+08:00",
       "source_detail": {
-        "name": "Latin Times",
-        "url": "https://www.latintimes.com"
+        "name": "Big News Network.com",
+        "url": "https://www.bignewsnetwork.com"
       },
-      "priority": 3.6,
-      "category": "战争+地缘",
+      "priority": 4.8,
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Hundreds evacuated from occupied Oleshky as Melania Trump brokers rare Russia-Ukraine ceasefire - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcF9iamN4YW90LVpOWXhNbmZEazQybjNwbXBQNENSU0tNSU00S05yN3hJUXZtSFFTbnQwbjlFeXV3aTBOT0xaTy1vZmpMZ2QzSVk4ekF0S1p6dHlaNTBkWFUydk1UUm04SkdZWng1aldXN3ZnVUU1a0liV1c1eFVXeFoyVzZaWlJJVEJrNlJMaHhUR21uWjJYeGw4QXRCY0VzOWtlNXBDbXdxU1ZMM3k3czVxbDdYOEROYXVDWXdxdlk3U1F4eGhZQjFUSjdiekJGQ3NGTW5wRk0wU1FDTURjN0xYVGFidmMzTVVrZTZsdXZ1RkFsNHZZd25iTGxnWDTSAYQCQVVfeXFMTThBa0t6SkY0TUxvdDE4R3AtNWFERFBNX1ZXdmkwWGNNdW9WeEVhYTdWaWpWNHVNYVpKcEZyWjdxMXBSaW5FNldPeWFzOFdTbG90UHB6TFBLQnllNHd0SXd0WkZCVWc0aFZ1ZGh4TzBoVHF3QUMycl9KU2FvTS1uS25iTWhJU0xDT1hPamF6bGtjZVhPZy1lb2tOR1pvRHZqcnRIbjNyTDlZXzFzcm9XQXpfUExyVnpPRGc4MlQwSGV6ekdtYkRiNjdsM1JrQnRLSmp4c1VlRW4xUWZLUDB1a2hVRTVqWmtBYnNRcFdJMVZNN0pvZ0lTNzRtZGtVRjI1LUJGOUQ?oc=5",
-      "published": "Sat, 31 Oct 2026 09:58:00 GMT",
-      "summary": "Hundreds evacuated from occupied Oleshky as Melania Trump brokers rare Russia-Ukraine ceasefire&nbsp;&nbsp;The Times of India",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-31T17:58:00+08:00",
-      "source_detail": {
-        "name": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com"
-      },
-      "priority": 3.6,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Ding Qinping: Azerbaijan is a key Caspian hub in the Middle Corridor – INTERVIEW - Latest news from Azerbaijan",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVjRRRzFUQ0k2cDhJUUNpYWNmNzBoQWNiVnBmVDlTQkl4aExwOGpsMU43eTBwM0FuYTJCVDRaemRmd2JBOVRheVBHTDQ0bGFKdXJoSUZmRjVUMFllU0h5RXV0SDUzbnBESW55a0JZZ0VLXzMyX2ZYNVh2WFlKUG1Tb2d2WHFwTmExcXUwRWowVWhwTXBGYS1xR2tMczY0SkE?oc=5",
-      "published": "Sat, 31 Oct 2026 06:34:14 GMT",
-      "summary": "Ding Qinping: Azerbaijan is a key Caspian hub in the Middle Corridor – INTERVIEW&nbsp;&nbsp;Latest news from Azerbaijan",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-31T14:34:14+08:00",
-      "source_detail": {
-        "name": "Latest news from Azerbaijan",
-        "url": "https://news.az"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Russia observes rare Ukraine ceasefire to allow evacuations - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rYm9KNVJqZFVhbFVzWDZNQ0h2VmliSm0wTWg2ZjE5MlRaZUZSaWpsa3pmWmlSR2lvX3lPcmF4NkozVU5vb0pqei12NGpUN2pPdHZ1dzF0NUJGLW1CaFhHZkdxSGxXNDAyYjNZOUVaSnA?oc=5",
-      "published": "Fri, 30 Oct 2026 12:11:45 GMT",
-      "summary": "Russia observes rare Ukraine ceasefire to allow evacuations&nbsp;&nbsp;Financial Times",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-30T20:11:45+08:00",
-      "source_detail": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com"
-      },
-      "priority": 3.6,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Hundreds Evacuate Oleshky To Belarus Under Melania Trump-Brokered Truce: how 23 outlets framed it - NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ2pISE1LNEVCbzZFaEZERzlMTGE4aURqUXdhRC1CVEpWY2x3MUlkVTVBdmdiNTdCbFhaOWlxUHgwT3hlUWRadloyc1NrdmtRRVpFRjA4Q0l5MllRYWxWcWxuekZjVXVWWTRuUEVCVVBadFZTOUd5eG44ZFV6dmI2NTV3VWZtSEloTEdGcG03R24waDhyLUZyU3M3RERZOVlkb212YVVHaVVrU29mLWxVcFZrRmxMdlY4RVd6aE5Wby1aTU1xaXBnZmduQUFLOERYbGhzcTA1N3FNQkZrOWhGRjlPcGdjaFlnUEE?oc=5",
-      "published": "Fri, 30 Oct 2026 11:23:31 GMT",
-      "summary": "Hundreds Evacuate Oleshky To Belarus Under Melania Trump-Brokered Truce: how 23 outlets framed it&nbsp;&nbsp;NewsCord",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-30T19:23:31+08:00",
-      "source_detail": {
-        "name": "NewsCord",
-        "url": "https://newscord.org"
-      },
-      "priority": 3.6,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Eldor Aripov outlines priorities for the strategic partnership between Central Asia and the European Union - UZA.uz",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYVZlZkNvNmM1VGd3dF9va25DMUhxck1TNUhUZXlQRFFuLWZSSkExVkhoSUFIWXBPTnBfNTZmQTJKSGIweFNnQjZqNWxrNE9MUHo4NlNYNjFtUDhGRkZNWkRfakc5Ymh4d05IWlJFUzNGd1FubHFydlhfQzQ2OVRKZ2c3aW93b3hoSDdwTk5aeDFoNmhpTjVkQksxdF9EMENiUkNkci1LbmY5ZzZxVk5CWUVyZnhxOExCMjQ2SUpUNTFfTnNmVHV3Y09UM1JWSEpRZXZF?oc=5",
-      "published": "Fri, 30 Oct 2026 09:46:41 GMT",
-      "summary": "Eldor Aripov outlines priorities for the strategic partnership between Central Asia and the European Union&nbsp;&nbsp;UZA.uz",
+      "title": "Russia-Ghana Bilateral Relations: October 2026 Update - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaW9WLW5ENkZIWjF0NV8xXzJ6aXVHSFp1U2VBZXZOWjYwdVFnb255T3dwYkZUTk1aM1Y3dzZJLVFGcVE3OTlJazhqNF9lNkZEYi1zbnZBdUpWamkybGY3clhlMXI3QTRfRU5ySXpGb2M0ajVqRjkxMngzc203amphWXdqUUUzOWFmLWxrQQ?oc=5",
+      "published": "Sun, 01 Nov 2026 11:54:47 GMT",
+      "summary": "Russia-Ghana Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T17:46:41+08:00",
+      "published_beijing": "2026-11-01T19:54:47+08:00",
       "source_detail": {
-        "name": "UZA.uz",
-        "url": "https://uza.uz"
+        "name": "russia's pivot to asia",
+        "url": "https://russiaspivottoasia.com"
       },
       "priority": 3.6,
       "category": "大国关系",
@@ -464,191 +244,81 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Iran's Ardabil to spend about $1.6M on science and tech park, innovation complex - Trend News Agency",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01U01QN2dRT1lSNXE1WkpkN0NkNG56VkZkVXRsNEMtNDA0LWN5Vm05YTRPNTE4SS1fVmV3TlU5cDhqZmFvRmpnaFJzUWsydjg?oc=5",
-      "published": "Sat, 31 Oct 2026 14:57:00 GMT",
-      "summary": "Iran's Ardabil to spend about $1.6M on science and tech park, innovation complex&nbsp;&nbsp;Trend News Agency",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-31T22:57:00+08:00",
-      "source_detail": {
-        "name": "Trend News Agency",
-        "url": "https://www.trend.az"
-      },
-      "priority": 1.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Economic Cost Of India’s Trade Suspension – OpEd - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNThPSVRPTXRULUw2bjFFZHNLd1dNYjVJSmlzMzVFZWtCdkk1M2FXc0R0MjJsN1A1ZEYyM2ZDVUVKVkdqTXBqZ1FfeEdrS2psenZJZnR0VGFycDJyU0dycnJTc1Nwd09wNEF3X0hfS1pTcnpDQ01Pd3FIbkV3Y1ZDY0cteVFIdnBLR3kzTXdYTVpGQm8?oc=5",
-      "published": "Fri, 30 Oct 2026 19:33:12 GMT",
-      "summary": "The Economic Cost Of India’s Trade Suspension – OpEd&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T03:33:12+08:00",
-      "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Turkic states back Asia-Europe routes amid new opportunities - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGJOa0JYUzFZd0ZPNEJZUVBTYjVyMVFCSk5jNkFzQXBmanRaQ2NCd0ZZUmJFN0QyR1dLYzZkMkVKZDkzRDRqamxUWFJ4WmNUeVFmMkEweXdiT0tua3lZWWM4a2c0aGpjUnROandsVlFRNkJlLWVwS0dBQ0FZdXEtOUpwNTJnNjBfcVRYQTZNc2doN3UySmFvOF9VU25WZDFObEw1cG8tUzYxb2xac3V3bmZRN1FNcm9GRjJMTmVrWQ?oc=5",
-      "published": "Fri, 30 Oct 2026 16:44:16 GMT",
-      "summary": "Turkic states back Asia-Europe routes amid new opportunities&nbsp;&nbsp;Euronews.com",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T00:44:16+08:00",
-      "source_detail": {
-        "name": "Euronews.com",
-        "url": "https://www.euronews.com"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A Roadmap for Transitioning to Paperless Trade Developed in Kyrgyzstan - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQampucGlxeTBzRTRXTHZ3SWZQZnJ2X0NraERfQVB4MDAxNjY2aUZqNkZGTElWYW5pVmdNRTFsSk82TG9NdDVWNWxuUVZHdVlaeGtiNVRhelVJUTFtV09QcUNiVzFMSFdZNWYtbTRRSlhWOTM4MEhUTThreHNtZnh0c3dUc0tKdndaLUhwbWI3TFNfaVlLRlJicmo2U0hndE9CZ0xtbWd2VFVWSk9RdU0xak51bksxNmhlSDRjY00tQ3JFS2s?oc=5",
-      "published": "Fri, 30 Oct 2026 10:28:10 GMT",
-      "summary": "A Roadmap for Transitioning to Paperless Trade Developed in Kyrgyzstan&nbsp;&nbsp;open.kg",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T18:28:10+08:00",
-      "source_detail": {
-        "name": "open.kg",
-        "url": "https://open.kg"
-      },
-      "priority": 1.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Indiaspora Celebrates Diwali and UK-India Ties at House of Lords - South Asian Herald",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSDRBOEp0NGhQMVF2OWc3SWR3Y3Vkb2lzcWpHcTM5aHBidW1YTHNkZ0NVTHI2Tm80aGpzSlhyZWI3UTVmSF82LThLX3BEeE5UQ0hEMUpXU1hsMlIwN290dW5VQ1VsWExyQThvakxVb2FteDB6SENacEVQMERkQnM1MTVhc0ZqVDcxeU1rT3FvdEo3ZkZacDRLbjdR?oc=5",
-      "published": "Sat, 31 Oct 2026 22:14:55 GMT",
-      "summary": "Indiaspora Celebrates Diwali and UK-India Ties at House of Lords&nbsp;&nbsp;South Asian Herald",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T06:14:55+08:00",
-      "source_detail": {
-        "name": "South Asian Herald",
-        "url": "https://southasianherald.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Baku-Ankara Rift Tests Major US And EU-Backed Projects - Radio Free Europe/Radio Liberty",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdk96bkFnRzVBLUhDeGotQmJlVVVGNjNDRmpMUjItMWZ6Wi1YblFEQmhxQTZYbVd2MEJObDNiMFBJb004Ty1fZFdPbHNYOURMNVBIVVR0TTFXU013R2k0bHJKbHhMWFpKRHlMZkdIeDBnaVFZOXkwcmszeGoxSThvaFNrcFFsXzNfMDZZZnQzUThKNVhWcEFJ0gGXAUFVX3lxTE92T3puQWdHNUEtSEN4ai1CYmVVVUY2M0NGakxSMi0xZnpaLVhuUURCaHFBNlhtV3YwQk5sM2IwUElvTThPLV9kV09sc1g5REw1UEhVVHRNMVdTTXdHaTRsckpseExYWkpEeUxmR0h4MGdpUVk5eTByazN4ajFJOG9oU2twUWxfM18wNllmdDNROEo1WFZwQUk?oc=5",
-      "published": "Sat, 31 Oct 2026 14:47:08 GMT",
-      "summary": "Baku-Ankara Rift Tests Major US And EU-Backed Projects&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T22:47:08+08:00",
-      "source_detail": {
-        "name": "Radio Free Europe/Radio Liberty",
-        "url": "https://www.rferl.org"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire - Egypt Independent",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjk3ODlVUXZNcXZVMHQ0b0ZlMlVJb3diamdiMFJuUXB3Q3RQYlI2cWFrRnhVOHpUcExLTV9VZzlHODA4c2trb3Zpd1lhclZFZ29VOUdpUzRqcTBpVXhIWVhrNDE5eHUyQjJ3aXR3LVdnTWl1dUVBcEszbWFNbHR0TmZZS0VaSEgxNFM3cjNHcHFWbzBNLWtoa1A5M1RQVnJpbGVLR2FvZkZUUGM?oc=5",
-      "published": "Sat, 31 Oct 2026 13:17:38 GMT",
-      "summary": "Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire&nbsp;&nbsp;Egypt Independent",
+      "title": "ISW Russian Offensive Campaign Assessment, October 31, 2026 - Kyiv Post",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yeVcyaTBnc1BPZ2JqcXRtNnVMdGpOMW0zUzlxNFlGWU15cXQ5UVB1eS1RbkxKR1haLTBtN1laMjllM3lOUFUyXzEyOA?oc=5",
+      "published": "Sun, 01 Nov 2026 06:02:50 GMT",
+      "summary": "ISW Russian Offensive Campaign Assessment, October 31, 2026&nbsp;&nbsp;Kyiv Post",
       "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-31T21:17:38+08:00",
-      "source_detail": {
-        "name": "Egypt Independent",
-        "url": "https://www.egyptindependent.com"
-      },
-      "priority": 0.0,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire - CNN",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSGhpMlhFeDZzcmJkMy1NWFRHTDU0NDhNTG5GQ0ZTbGw1TVFURXZ3LTlnYjRuYkEtckVNS2d4Z2ZnMWNvSHozc0p3ZzBJZy1CeS1DNHl3b1hmLV9JYURQUHpjZXBiaFNSZEN4SGNMVjdqRWVVUzdZanFmdmx6OWM4Ymt4ZXBsN3NqYWNEQQ?oc=5",
-      "published": "Sat, 31 Oct 2026 13:07:47 GMT",
-      "summary": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire&nbsp;&nbsp;CNN",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-31T21:07:47+08:00",
-      "source_detail": {
-        "name": "CNN",
-        "url": "https://www.cnn.com"
-      },
-      "priority": 0.0,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "OPINION: Trump Tinkers - Kyiv Post",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Da1dxeE1WNmlhXzFEeGtUSGJPYXp4a1dRY2FlcHpIdm4wdkhhNEJGMG0wV25JNkRNejhwaGV1dy1iYVJVS2N1U0FhRHFOb3M?oc=5",
-      "published": "Sat, 31 Oct 2026 11:58:44 GMT",
-      "summary": "OPINION: Trump Tinkers&nbsp;&nbsp;Kyiv Post",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-31T19:58:44+08:00",
+      "published_beijing": "2026-11-01T14:02:50+08:00",
       "source_detail": {
         "name": "Kyiv Post",
         "url": "https://www.kyivpost.com"
       },
-      "priority": 0.0,
+      "priority": 3.6,
       "category": "战争+地缘",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Welsh Government Criticises Rail Funding Allocation in UK Budget - megaproject.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZEpNSERVcGtsVzRGakV2RVpHZE1GWU5GZE1GRVFLV0RnOWpSWnVDckFZR2NOaFRaSlFBTEZ2Qzl2UE5CUEc4WGNMYWUtSjRqTVphY2pXcWtOU3B5cExoRmpWbV90ZGRoZzlaTVVpTjZPajFQSFZJdWNsMHQzS0YweTE3cFRUX1FPWmI3ZjdIVDlLMjdDaW8yY1hsLXN5dkxxTWFz?oc=5",
-      "published": "Sat, 31 Oct 2026 09:11:47 GMT",
-      "summary": "Welsh Government Criticises Rail Funding Allocation in UK Budget&nbsp;&nbsp;megaproject.com",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-31T17:11:47+08:00",
-      "source_detail": {
-        "name": "megaproject.com",
-        "url": "https://megaproject.com"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Budanov: Humanitarian operation in Oleshky must continue - Interfax-Ukraine",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yamk0aHBYQWRTMW9heUhUR1FUZXRGN3h3SXBUYzViWmJuelJQYlJicGs1RUdDX2k3bjVzM1dtVkJqOWh6RG45dUZZNTVoOGczLTRnSjJ4eGNXLW8zUHB2Z2JwMFYxdXPSAWdBVV95cUxOMmppNGhwWEFkUzFvYXlIVEdRVGV0Rjd4d0lwVGM1YlpibnpSUGJSYnBrNUVHQ19pN241czNXbVZCajloekRuOXVGWTU1aDhnMy00Z0oyeHhjVy1vM1BwdmdicDBWMXVz?oc=5",
-      "published": "Fri, 30 Oct 2026 12:10:51 GMT",
-      "summary": "Budanov: Humanitarian operation in Oleshky must continue&nbsp;&nbsp;Interfax-Ukraine",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-10-30T20:10:51+08:00",
-      "source_detail": {
-        "name": "Interfax-Ukraine",
-        "url": "https://en.interfax.com.ua"
-      },
-      "priority": 0.0,
-      "category": "战争+地缘",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Asian Communications Network Marks Second Anniversary, Prepares for Changemakers List - South Asian Herald",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPay1HUWJSVmJVcVdjM20xY09TNjlrOEIwbXYzeldxa3BCYk5fTGZzOER5R2hSa1MtemZwNHhuOHRnUGVuVWtIcFlBQ0FXblcteHhjY25rVUNFOW1Dd2l3UUhSX2x2NHV4ejZkdnNYV2tYaFgwY2F4ZFdYdEdCVUdmNFFESk5qUXBvZVkzLXQydWJsc01CTlhfXzFzaE5FRkJxSkg0V24yWm1WWW43TURxNzZfX0Y?oc=5",
-      "published": "Fri, 30 Oct 2026 11:47:03 GMT",
-      "summary": "Asian Communications Network Marks Second Anniversary, Prepares for Changemakers List&nbsp;&nbsp;South Asian Herald",
+      "title": "Russia, Sudan Bilateral Relations: October 2026 Update - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRnFWeHRnQ01tTV9BQ25jaGNDMUdfOXBWdFpPclBJaDZRbTZPUzRtSVYySXZWdXFOM2NvWlR1TDRHRG41YTNyZE9KemVkeWNTSVhZZzZNT0Y5ZnFtdVlOV2xBVUpGN0VRRGpuNmFTWk9ZY1QzWTBrWldPZE02MzZkRVE2TXE4UWYxSllNVg?oc=5",
+      "published": "Sat, 31 Oct 2026 15:43:03 GMT",
+      "summary": "Russia, Sudan Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T19:47:03+08:00",
+      "published_beijing": "2026-10-31T23:43:03+08:00",
       "source_detail": {
-        "name": "South Asian Herald",
-        "url": "https://southasianherald.com"
+        "name": "russia's pivot to asia",
+        "url": "https://russiaspivottoasia.com"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Why some EU and Chinese firms are keen to cooperate – even as tensions simmer - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSmtvcEhKU1A1REduWFpRblAtUDRyakVXQmpsUDNvZkpDVDZfTllMQzZPaTAtaHhrWlI1cDdqOHZidEtXR281ZmxfQnVycDVhTFhjTW5fWHdtN3dnVUJNYjVXVlRrY2JRaEhvTndLQTAyckJ2R2t1NTJVcjdBbHBuWG5RR1VEaHpHZzVKV3pwbWVydmhuUkpZYlIzS192OUc1dS1YbEkwVjRVOENOU1ZKNGcyZm55VW54QkVneklWMmY3Vy1XT3RZ0gHHAUFVX3lxTE9Ka29wSEpTUDVER25YWlFuUC1QNHJqRVdCamxQM29mSkNUNl9OWUxDNk9pMC1oeGtaUjVwN2o4dmJ0S1dHbzVmbF9CdXJwNWFMWGNNbl9Yd203d2dVQk1iNVdWVGtjYlFoSG9Od0tBMDJyQnZHa3U1MlVyN0FscG5YblFHVURoekdnNUpXenBtZXJ2aG5SSlliUjNLX3Y5RzV1LVhsSTBWNFU4Q05TVko0ZzJmbnlVbnhCRWd6SVYyZjdXLVdPdFk?oc=5",
+      "published": "Sun, 01 Nov 2026 08:00:14 GMT",
+      "summary": "Why some EU and Chinese firms are keen to cooperate – even as tensions simmer&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-01T16:00:14+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://amp.scmp.com"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CPEC And The Promise Of A More Connected And Prosperous Region – OpEd - Eurasia Review",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTzE1c1FCY3l2d2g3NUdhczZjU0R2NTNFTmxCWnA0TG9NT1ZEUE50QW51a1ZldkFHSnFIY3psNlpUUERuT1cyVTNSZ1V4RllMdGloMUhsSk1nc05KZ2pyQ000OW5QNXh0LU9LakdtNVJHRmM4THo0WkNQMFRKc0h2T0MxdGlMRmJiSEUtRElsa3FWVFJ3b0o0NFBuMndQSnBxRHJhRVZMbnVVS2M?oc=5",
+      "published": "Sun, 01 Nov 2026 23:49:52 GMT",
+      "summary": "CPEC And The Promise Of A More Connected And Prosperous Region – OpEd&nbsp;&nbsp;Eurasia Review",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-02T07:49:52+08:00",
+      "source_detail": {
+        "name": "Eurasia Review",
+        "url": "https://www.eurasiareview.com"
+      },
+      "priority": 0.0,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Japan’s Economic Diplomacy: A Compass in a Divided World - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOW5ELWFaODhqVWlFMkdabWFOc1oyYzBzSC1OQVFYVTItb2VSUEcwQ1IyVjZGLUdkX3pibWtEQVRaeTlESXRDZVZiTEgwU09Bb0xwUk9haGpiN0lITGE5VUxZQnlPa3pTQms4OGFwLUx4eFFJZGlTYXp0dGd5NVhKSGQtM1Z3QUtJZWlRS0NKZjk?oc=5",
+      "published": "Sun, 01 Nov 2026 10:01:42 GMT",
+      "summary": "Japan’s Economic Diplomacy: A Compass in a Divided World&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-01T18:01:42+08:00",
+      "source_detail": {
+        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://thediplomat.com"
       },
       "priority": 0.0,
       "category": "大国关系",
@@ -656,50 +326,18 @@
       "relevance": "low"
     },
     {
-      "title": "Pakistan, Saudi Arabia explore expanded energy cooperation - Aaj English TV",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3VfR2ZYenh2RTBhLU80S1psVjRwNXZTdmZnVnZDNE9OWlhWMGsyOUlnMnBPWWU1ZzMtT0liOHhOM0Nqb1NzaHpKUUxrMmhVaXBhcVJzb0xFc3c1Y1pVRWwybWxiMW95SDdEUXV6a3BHU3VOXzUwR2FIRDlWLXdERTVWVEJrcTY2VDhzcXNkclZadU1Ld2JnLUZaTQ?oc=5",
-      "published": "Fri, 30 Oct 2026 11:11:39 GMT",
-      "summary": "Pakistan, Saudi Arabia explore expanded energy cooperation&nbsp;&nbsp;Aaj English TV",
+      "title": "Omani-Chinese Cultural Relations: A Deep Historical Legacy & Promising Prospects for Future Cooperation - وكالة الأنباء العمانية (العمانية)",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUYkxhVW1MQnpGWXprcTVLOFV2UHhJdTl1RjR0NkpYbUV6bDYtQUZZa1ktb3BLQkhQc0lTekhVYnduREl5NV9mVmltQ1EyVktLd2dMUE11US04T0VEOGc?oc=5",
+      "published": "Sun, 01 Nov 2026 06:47:13 GMT",
+      "summary": "Omani-Chinese Cultural Relations: A Deep Historical Legacy & Promising Prospects for Future Cooperation&nbsp;&nbsp;وكالة الأنباء العمانية (العمانية)",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T19:11:39+08:00",
+      "published_beijing": "2026-11-01T14:47:13+08:00",
       "source_detail": {
-        "name": "Aaj English TV",
-        "url": "https://english.aaj.tv"
+        "name": "وكالة الأنباء العمانية (العمانية)",
+        "url": "https://omannews.gov.om"
       },
       "priority": 0.0,
       "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "13th OTS Summit: Strategic Partnerships and Shifting Balances in Eurasia - The Diplomatic Insight",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qOWZjTU1QdzByTl80VzRmY2dhZ3c3aDZCSFJRdkRFaDZkVGNuT19JZ3kxVGlBZ0cxUC03X2oxNVY1ODBFRnZaeHYzZjdyM0syOTctcTQwbGpzcWZBYWdJQTdOTEhJUmlJQ3UtRmJjM19WNVM1V0EzUEViNFpYZw?oc=5",
-      "published": "Fri, 30 Oct 2026 10:55:12 GMT",
-      "summary": "13th OTS Summit: Strategic Partnerships and Shifting Balances in Eurasia&nbsp;&nbsp;The Diplomatic Insight",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-30T18:55:12+08:00",
-      "source_detail": {
-        "name": "The Diplomatic Insight",
-        "url": "https://thediplomaticinsight.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Da Nang focuses on unlocking land resources to achieve its growth targets. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPell2clFHZ1pEMGV5cV9JZHA2X1BUZVh2T3BvMzZEdGxWRG0yeVVWOUZQNml0a3YxQUJHNUV6RzFiVnBka3pTYzVURWNFVmdQdTVreWQtZHlxZFIzalViejk4amtDOUswYnlBT3FzVkhTZlZsYjBxUWJxTndwMXFlVG55UURGWWI5ajBpaEh1a1NTZVltalBlS3Rna2h1N0dNUHc?oc=5",
-      "published": "Fri, 30 Oct 2026 06:32:55 GMT",
-      "summary": "Da Nang focuses on unlocking land resources to achieve its growth targets.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | CA Infra",
-      "published_beijing": "2026-10-30T14:32:55+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "low"
     }

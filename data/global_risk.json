@@ -1,19 +1,19 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-11-01T04:53:02.475357+00:00",
-  "fetch_date_utc": "2026-11-01",
-  "total": 41,
+  "updated": "2026-11-02T04:53:46.560642+00:00",
+  "fetch_date_utc": "2026-11-02",
+  "total": 37,
   "high_priority": 0,
-  "medium_priority": 1,
+  "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 8,
+      "count": 4,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 4,
+      "count": 1,
       "feeds": 4
     },
     "资本管制+主权风险": {
@@ -21,7 +21,7 @@
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 0,
+      "count": 2,
       "feeds": 2
     },
     "中国企业视角": {
@@ -49,19 +49,19 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 14,
+  "fail_feeds": 13,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Robbin Laird, Author at Second Line of Defense - SLDinfo.com",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1MFF1blo4UG9Vb1c0eFZqX3ZRN0lSQXctbmdiRFpQT2tnbVc4aVV3Vmh2YUtPN1pQa0haajBkN1c4eVlSMHdqSHNR?oc=5",
-      "published": "Sat, 31 Oct 2026 18:03:12 GMT",
-      "summary": "Robbin Laird, Author at Second Line of Defense&nbsp;&nbsp;SLDinfo.com",
+      "title": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade - The Jerusalem Post",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jYnVyM1pEai1RMXRsMUZaUDFIdVBEd0Rwa1hJUmFqeXcxcmtxZ1pneDM2YWtNZ01RY1pWeUkwNzZTZ3FkdmZfSUJIbEc3VHphNWE3YnJLTkxwREZEVUJBN0UwVkpScG05ZFE?oc=5",
+      "published": "Sun, 01 Nov 2026 14:34:36 GMT",
+      "summary": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade&nbsp;&nbsp;The Jerusalem Post",
       "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-11-01T02:03:12+08:00",
+      "published_beijing": "2026-11-01T22:34:36+08:00",
       "source_detail": {
-        "name": "SLDinfo.com",
-        "url": "https://sldinfo.com"
+        "name": "The Jerusalem Post",
+        "url": "https://www.jpost.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -69,66 +69,47 @@
       "relevance": "low"
     },
     {
-      "title": "U.S. Sanctions 10 Over North Korean IT Workers' Fake Hiring Scheme - Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX00tYktZdUl3YlVYOHJWUlRJWkt6ZUlNZWszR2l2QUg4LUlhZmNtSk9KUjVpWThOc09VQ1F6YWdCN1dxQ3otTUdoNm5JdWNnc1VGNjlVT1FDWjQ0UDBobDJHVlVBQXBENmZyOXRGSzRpaFhva3hwNVlHdFhVb012T0tPOXZHcjFmM18zcnNxYWdETUFvc19ORDV0bzd0LXZQ?oc=5",
-      "published": "Sat, 31 Oct 2026 15:06:49 GMT",
-      "summary": "U.S. Sanctions 10 Over North Korean IT Workers' Fake Hiring Scheme&nbsp;&nbsp;Seoul Economic Daily",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-31T23:06:49+08:00",
-      "source_detail": {
-        "name": "Seoul Economic Daily",
-        "url": "https://en.sedaily.com"
-      },
+      "title": "Weekly Update 528: Reading AI-generated Code & the Economics of Solar",
+      "link": "https://www.troyhunt.com/weekly-update-528/",
+      "published": "Sun, 01 Nov 2026 07:35:23 GMT",
+      "summary": "By pure timing coincidence, the Proton CEO&apos;s AI @ Proton, Engineering Manifesto made headlines around the same time as this week&apos;s video. The guy&apos;s management style and choice of language have really rubbed a lot of people up the wrong way, and deservedly so, IMHO.",
+      "source": "Troy Hunt",
+      "full_text": "By pure timing coincidence, the Proton CEO's AI @ Proton, Engineering Manifesto made headlines around the same time as this week's video. The guy's management style and choice of language have really rubbed a lot of people up the wrong way, and deservedly so, IMHO. However... this section of his screed really resonated with me:Your job has fundamentally changed. It is no longer to write code, and LLMs are not here to help you write better code faster. Your job is to help the LLM write better code faster.Dev jobs as we know them are gone. Dead. And if you disagree, you're in for a shock in the very near future. But at the same time:\n\nI don't remember the last time tech has been this exciting. It's white hot right now. Anyone who loves technology and computers is probably having a great time right now.— Jack Rhysider 🏴‍☠️ (@JackRhysider) October 30, 2026\n\n\nYes! This! Not handwriting code \"old school\" isn't something to lament; rather, our unprecedented ability to innovate, create and build things that are meaningful to us is something to be enormously excited about. Anyway, on that topic:",
+      "published_beijing": "2026-11-01T15:35:23+08:00",
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Russia–Ukraine War and the Fracturing European Security Order: Military Power, Strategic Alliances and the Limits of Diplomacy - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcnhibkRtM1hCdUtFZU9wLUxPdXd1bDVKUGZpWE1SR0JzdmxtekstZ1JIMXl3OS1wNEtXcWJKZGJVeEpiSUlidnZyTVdvMjNBVFQxcGREcjRod3lnUlRwdmM4UEZCX1lUcmRCVXZGT3ZfaXhzT0M4amFpTWhxSVZydkFzT1ozRzdjN3J4LWVuTEVfZHdhSGZ4aGcxTV9JR2FXMTBpVEZZNm8xQ3Eyc0xjTmI2RjQwVV94VlVXTWpjY3ZQTlpTXzl5djh0ekVCMm1DOGtFRkVMS0YyMVRSN0pOSzRZUE1jdWRuN3ZBVWphUQ?oc=5",
-      "published": "Sat, 31 Oct 2026 13:22:21 GMT",
-      "summary": "Russia–Ukraine War and the Fracturing European Security Order: Military Power, Strategic Alliances and the Limits of Diplomacy&nbsp;&nbsp;https://debuglies.com",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-31T21:22:21+08:00",
+      "title": "Strait of Hormuz: Geopolitical Escalation - Energy Security and the Restructuring of Global Supply Chains - https://debuglies.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHViNzhtcjRHZkluNmRkMVdlekxMTWlDdGZxdUg2ZkFwZS1GbmZFVUJSWnFPNUxDdTN4UGxRUjlvWXBXNXk1LWt4WHRDb3MwdEk4Tjk4OXZFbnJIODk3RkprcjNvNm81YW9QcldZZmhEWS1PTUcwVVJHQ0t0dWNrRzRPamw4NlFiZHoyMjA4RTlackREQXZUWHVISjh0alJ5d19qeHJBQU5VdXEtS05ULVljOG1TNDB0OUUxMmQ2U0ZlTm9TbGwtWllESjI5QWk3TGc?oc=5",
+      "published": "Sat, 31 Oct 2026 16:47:48 GMT",
+      "summary": "Strait of Hormuz: Geopolitical Escalation - Energy Security and the Restructuring of Global Supply Chains&nbsp;&nbsp;https://debuglies.com",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-11-01T00:47:48+08:00",
       "source_detail": {
         "name": "https://debuglies.com",
         "url": "https://debuglies.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "供应链风险+FCPA",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Sanctions: the US perspective - Global Investigations Review",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRjRXLWNPRnF6QWcyTmJnRjN3cjhUOFNHd3hrYXdQVU93SWRvYTY2MU1mWG1Xc3FtYU95YUVxM1JfR3NvYzZzX0hrS2pvSGpJYzVfRW5iZDJlXy1SVEJsdXZ2MEctTkZHaUlINDVCVk9GSk54WGJhNjBLUDlnYTFUc1FWZndZU0VJcHZlRjFMUk9LRE0yZ1oyb1FNSEFwR3B1alNtaExoQ1NpMzMtbVQtd0paalROVE9oVndfMnlNYkJEOHBiNDg1WUtmYzk?oc=5",
-      "published": "Fri, 30 Oct 2026 15:58:11 GMT",
-      "summary": "Sanctions: the US perspective&nbsp;&nbsp;Global Investigations Review",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-10-30T23:58:11+08:00",
+      "title": "The EU will tighten regulations for screening foreign investment starting in 2028. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3hLM1pWUHJicDNMb1gzNW9OME1FNmhsd3pSZ0N5TzJlYXl2aGI4X3BoYU1RLWltLW1sTjg5bjJPSU4tbkY4TWZTUC1YR0N4ajR3Q05VMWNTdmFrTDRKQ1A4U2RERm5na24ybUtxVy1ORlhPX2hLN0lETHg3c1l6NGQ5M2Z1UzJq?oc=5",
+      "published": "Mon, 02 Nov 2026 00:21:00 GMT",
+      "summary": "The EU will tighten regulations for screening foreign investment starting in 2028.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-11-02T08:21:00+08:00",
       "source_detail": {
-        "name": "Global Investigations Review",
-        "url": "https://globalinvestigationsreview.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits - Radio Free Europe/Radio Liberty",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXFwR0NOUXhBVU5yVjVUZDVCSk5rNWhDWWZOVm42dHNmZmlUYVdsLUZVbVhhYkRIeDVQQk5sZWs3LXItV3BkU1pwV3RyOTZHbmV5ZTNLQ3lKaVFMV203S19DVG5ZN2Via2pUWVJGTEVOMGxfWHFWSGtyZ3pYOUVRX3l4eFBaYnB2VlpUT2NZM21TOVJTelJmXzl3S3BJa21T0gGgAUFVX3lxTE1lcXBHQ05ReEFVTnJWNVRkNUJKTms1aENZZk5WbjZ0c2ZmaVRhV2wtRlVtWGFiREh4NVBCTmxlazctci1XcGRTWnBXdHI5NkduZXllM0tDeUppUUxXbTdLX0NUblk3ZWJralRZUkZMRU4wbF9YcVZIa3Jnelg5RVFfeXh4UFpicHZWWlRPY1kzbVM5UlN6UmZfOXdLcElrbVM?oc=5",
-      "published": "Fri, 30 Oct 2026 12:22:25 GMT",
-      "summary": "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits&nbsp;&nbsp;Radio Free Europe/Radio Liberty",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-10-30T20:22:25+08:00",
-      "source_detail": {
-        "name": "Radio Free Europe/Radio Liberty",
-        "url": "https://www.rferl.org"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "外资审查+征收",
       "_incremental": "new",
       "relevance": "low"
     }
