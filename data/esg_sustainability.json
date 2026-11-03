@@ -1,29 +1,29 @@
 {
   "version": "4.0",
   "module": "ESG与可持续发展",
-  "updated": "2026-11-02T04:53:29.484412+00:00",
-  "fetch_date_utc": "2026-11-02",
-  "total": 147,
-  "high_priority": 2,
-  "medium_priority": 18,
+  "updated": "2026-11-03T05:43:06.976167+00:00",
+  "fetch_date_utc": "2026-11-03",
+  "total": 195,
+  "high_priority": 1,
+  "medium_priority": 30,
   "signal_alerts": {
     "record high": 1
   },
   "stats_by_category": {
     "ESG法规": {
-      "count": 2,
+      "count": 5,
       "feeds": 4
     },
     "碳+绿": {
-      "count": 18,
+      "count": 33,
       "feeds": 4
     },
     "可持续供应链": {
-      "count": 13,
+      "count": 39,
       "feeds": 5
     },
     "气候风险": {
-      "count": 17,
+      "count": 23,
       "feeds": 4
     },
     "本地语言搜索": {
@@ -51,52 +51,275 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 10,
+  "fail_feeds": 6,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Data Integrity Secures Institutional Carbon Markets - ESG News.earth",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdGN0S0ZMNkZxbS1CeFI4TmRLN2Y5S0VIUFZXcXZ6cGRpcXQzV19iTnhxSGtKejVsanJ3NkpiY0tGTFVVUzA4RnZVUUxhNDZ6dzAtY3VHb1ktZVJXWjVlYVIwWXJBRnVuUU5EOW5HWG51OUwxcW10Q3RNS2Jmb19xa2MyM2s1U3BicTBsb2lsOXNDUUZCRDg0M05MS2swU3I4Vmc?oc=5",
-      "published": "Mon, 02 Nov 2026 03:45:18 GMT",
-      "summary": "Data Integrity Secures Institutional Carbon Markets&nbsp;&nbsp;ESG News.earth",
+      "title": "COP17: the overlooked biodiversity negotiations reach consensus to work on finance and implementation - Materia Rinnovabile | Renewable Matter",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZHVCbVhnMGxkb3pmN01PVXkwMWVDY0l6akhJaFk4clk3U0prTWdSOFIzNjdLdWlLc3ZTTklHUkFMdFVCTHRITlRtVVBDamc0cXppLVlDU3AtX3J1XzNLYkp6NWVrN2dVMS1zVnFYSVpxWG9GYmZqa1ZDbm1RZW5WNVJjYVdkQXRKdUNGcjctc2FvaDQtQzMwN3hvSk5nTXZfQ0VfbS1jTTg4bm5oVmVVdDZlaTBYWU40Q1c1ZGU5MXlJaDd2a2xMV2tRYlY5UzQ?oc=5",
+      "published": "Mon, 02 Nov 2026 15:57:20 GMT",
+      "summary": "COP17: the overlooked biodiversity negotiations reach consensus to work on finance and implementation&nbsp;&nbsp;Materia Rinnovabile | Renewable Matter",
+      "source": "GNews | Biodiversity",
+      "published_beijing": "2026-11-02T23:57:20+08:00",
+      "source_detail": {
+        "name": "Materia Rinnovabile | Renewable Matter",
+        "url": "https://www.renewablematter.eu"
+      },
+      "priority": 8.4,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Indian Mutual Funds Blind to Climate Risks - ESG News.earth",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObHFHMTBSYjUzdUJuNDc2cWhHaG1xRHZrRnRVc3E0Nkd2bDVfcHQySm9RckkxRXdjbHEwdl9faXlOdzhBS3c5LWt2dThhLWNBM05UVEFGQVJ4T0tuVHd3MF94MTM5WW1ySElhYkZocXEyYWFkSGRjVHVFWmNDQ3NjWk9icV9ULTRlY3RGVVBuUllYOVA5MkE?oc=5",
+      "published": "Mon, 02 Nov 2026 12:15:14 GMT",
+      "summary": "Indian Mutual Funds Blind to Climate Risks&nbsp;&nbsp;ESG News.earth",
       "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-02T11:45:18+08:00",
+      "published_beijing": "2026-11-02T20:15:14+08:00",
       "source_detail": {
         "name": "ESG News.earth",
         "url": "https://www.esgnews.earth"
       },
-      "priority": 6.0,
+      "priority": 8.4,
       "category": "可持续供应链",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Low-Carbon Cement Market to Accelerate Through 2035 as Green Procurement Reshapes Construction Demand - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUV6Nkx4UTVuXzJfdUEyalZJbmxoS3g3VE5RZjdDZzdDWnItdkZISThyVjBRbFp6N0dPN0JoSHNHQ3FDR1JnRnR3Smp0SkNJekMtQl92NW1UR0w5enptVzFaekR6OW1JaTk0OG5PYVlEQXhYckJKUEhoV3FTb2R5VF9JNHJuOUhjemhUN1djYlFjeW5fZXlqWERHU2RaemhBM2M4dXhNc2pGQlhIRlcwaUdHdkNQQy1CQ21zVmQxNlBhdmhSTGxCUlcwZw?oc=5",
-      "published": "Sat, 31 Oct 2026 21:41:04 GMT",
-      "summary": "Low-Carbon Cement Market to Accelerate Through 2035 as Green Procurement Reshapes Construction Demand&nbsp;&nbsp;IndexBox",
+      "title": "National Audit Office warns government efforts to track climate risks at 'early stage' - BusinessGreen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVNBWTdjYzAtUmJROTFWS05WMFNianFIOEJJSzZ5bHQ1Um9tckxwSHpMUGJzcXR0YWpxcEhmc0ZNUmktdGRueFhOMzJmNV9mY24yZVItc3ByVHFpS0x5YTEyUUhjUjgxajI3d2Yxd1Rsek44NTViZElqeFU5VS1hS2lDOW44OHpaeE9USElPUU1Rc1Y2eVpNajlEN2haSC1abFZONEhEMmdKOVdyd1VYRlRUaGlUdw?oc=5",
+      "published": "Mon, 02 Nov 2026 11:35:14 GMT",
+      "summary": "National Audit Office warns government efforts to track climate risks at 'early stage'&nbsp;&nbsp;BusinessGreen",
       "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-01T05:41:04+08:00",
+      "published_beijing": "2026-11-02T19:35:14+08:00",
       "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
+        "name": "BusinessGreen",
+        "url": "https://www.businessgreen.com"
       },
-      "priority": 2.4,
+      "priority": 8.4,
       "category": "可持续供应链",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
     },
     {
-      "title": "Farthest human-made object in space loses contact, goes nearly one light-day away from Earth - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWUVINFZFN3lybmFzNjJuMUdfVXZJTXZ1dXU0R0tUM2RNUDdGd0Z4RWVVTkw0WlhIR2JWMXdsSlNHSmMxS0xzeUNIT0NCR0ZGVktaRi1XeENVcHFNTEtuN0dDdXBKaWlUblZwM2VWLXAzSjFlZ1lsZHJfcXpocFFJNWVB?oc=5",
-      "published": "Sat, 31 Oct 2026 15:56:00 GMT",
-      "summary": "Farthest human-made object in space loses contact, goes nearly one light-day away from Earth&nbsp;&nbsp;Interesting EngineeringNovember’s Night Sky Notes: Light-Day Away&nbsp;&nbsp;NASA Science (.gov)NASA's Voyager 1 to reach historic 16 billion-mile distance from Earth next month&nbsp;&nbsp;LiveNOW from FOXVoyager 1 Briefly Goes Silent, Scaring Everyone&nbsp;&nbsp;HackadayNASA's Voyager 1 mysteriously lost touch with Earth&nbsp;&nbsp;Mashable",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-31T23:56:00+08:00",
+      "title": "ESG News Week In Review: 11 October – 31 October",
+      "link": "https://esgnews.com/esg-news-week-in-review-11-october-31-october/?utm_source=rss&utm_medium=rss&utm_campaign=esg-news-week-in-review-11-october-31-october",
+      "published": "Mon, 02 Nov 2026 07:11:58 +0000",
+      "summary": "EU greenwashing penalties above 4% of turnover took effect on 16 October, Parliament pushed methane import compliance out to 2031, and France and Germany moved to soften the 2035 car [&#8230;]\nThe post ESG News Week In Review: 11 October &#8211; 31 October appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T15:11:58+08:00",
+      "priority": 7.5,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "full_text": "ESG News Week In Review: 11 October – 31 October\nEU greenwashing penalties above 4% of turnover took effect on 16 October, Parliament pushed methane import compliance out to 2031, and France and Germany moved to soften the 2035 car target. The rules on what a company may say are tightening faster than the rules on what it must do.\nThe EU’s ban on unsubstantiated environmental claims took effect on 16 October, with member states able to impose penalties above 4% of annual turnover for serious breaches and blanket terms such as “eco” and “sustainable” no longer usable without evidence. The effects were visible almost immediately. Lufthansa renamed the Green Fare it launched in 2023 to Impact Fare. Coca-Cola, Nestle and Danone agreed to spell out that their “100%” recycling claims exclude the cap and the label, closing a BEUC complaint. ESMA published two thematic notes on impact and climate claims, then named materiality assessments among its 2026 enforcement priorities. The marketing layer of corporate sustainability is now supervised disclosure.\nThe underlying obligations moved the other way. Parliament approved a three-year postponement of the EU methane import rules, giving importers until 31 May 2031 to demonstrate equivalence, a longer delay than the one year expected weeks earlier. France and Germany closed on a deal to cut the 2035 car emissions target to 90% and drop the additional compensation requirements. The Commission’s proposed Climate Resilience Law hands member states a common warming trajectory reaching 3 degrees by 2100 and puts the adaptation bill at roughly 70 billion euro a year. Brussels is policing the claim harder than the conduct behind it.\nCapital concentrated around electricity for computing. Blackstone closed Energy Transition Partners V at its $8.7 billion hard cap, more than half again the size of its predecessor. American Electric Power committed $4 billion to a 702 MW Bloom Energy fuel cell plant in Wyoming serving Google. Amazon funded feasibility work on a twelve-unit, 960 MW X-energy project in Indiana. Google and Voltus agreed to scale a virtual power plant tenfold to 1 GW across PJM, and 32 lenders backed AirTrunk with an A$4.25 billion green loan for a single Western Sydney campus. TPG closed Rise Climate II and its Global South Initiative at $10.4 billion combined.\nThe accounting underneath moved too. California fixed 10 November 2026 as the first Scope 1 and 2 reporting deadline under SB 253, and Thailand’s SEC told SET50 companies to report 2027 data on ISSB standards with assurance, while FTSE Russell found 84% of asset owners now factor in sustainability against Morgan Stanley’s finding that only 2% expect large allocation increases. The story to carry forward is the GHG Protocol’s Scope 2 proposal. Its Independent Standards Board has put an hourly-matched Method 1 beside the 2015 market-based rules, and a dated cut-off after which reporters must use Method 1 wherever qualifying data exists would reprice every annual renewable energy certificate and every power purchase agreement written on the old logic. The consolidated consultation slated for 2027 is where that date gets set.\n- 102Stories published, 11 to 31 October\n- 4%Of turnover, the level EU greenwashing fines can now exceed\n- $8.7bnBlackstone Energy Transition Partners V, closed at hard cap\n- May 2031New compliance deadline for EU methane import rules\n- 3°CWarming baseline in the EU’s proposed Climate Resilience Law\nEnergy\n16\n- TotalEnergies, KKR to Expand US Solar Portfolio to 2.1 GW in $1.2B DealTotalEnergies and KKR will add 700 MW of utility-scale solar in Texas and Ohio, lifting their joint US portfolio to about 2.1 GW.\n- Sweden’s Tavion Begins Construction of Battery Parks in Poland with $58 Million FinancingTavion raised $58 million in equity and debt to start building Polish battery parks, with 184 MW near ready-to-build inside a 1.7 GW pipeline.\n- Engie, CMA CGM to Develop Biomethane Plant in France for Shipping FleetEngie and CMA CGM will build a biomethane plant near Le Havre producing 100 GWh a year, avoiding roughly 23,000 tons of CO2 annually.\n- Amazon Backs Feasibility Work on 960 MW Indiana Nuclear ProjectAmazon is funding feasibility work on a twelve-unit, 960 MW X-energy plant in Indiana, part of a push toward 5 GW by 2039.\n- Peak Energy, Hyundai Motor Securities Launch Solar JV With Five Supplier ProjectsA Peak Energy joint venture secured five rooftop solar projects at Hyundai Motor suppliers, with scope to reach 100 MW across hundreds of sites.\n- McKinsey Sees Asia Energy Needs at $1 Trillion a Year Through 2040McKinsey put Asia’s energy investment need at up to $1 trillion a year for 15 years, raising its 2040 demand estimate by 15%.\n- Google, Voltus Scale Virtual Power Plant Tenfold to 1 GW Across PJM GridGoogle and Voltus will scale their virtual power plant tenfold to 1 GW across PJM, paying homes and businesses to cut demand at peak.\n- Masdar’s Clean Power Output Hits 40.2TWh in 2025, Up 38% as Portfolio Reaches 66.5GWMasdar generated 40.2 TWh in 2025, up 38%, avoiding 19.5 million tonnes of CO2e, with operating and under-construction capacity at 45.8 GW.\n- BlackRock’s Akaysha Energy Refinances Four Australian Batteries With $1.23 Billion Portfolio FacilityAkaysha Energy refinanced four Australian batteries into a single $1.23 billion facility from 11 banks, supporting a 6 GW development pipeline.\n- Masdar Buys 550+ MW Greek Solar Project From Lightsource bp, Plans Battery StorageMasdar will acquire and develop a 550 plus MW Greek solar project from Lightsource bp, adding storage and exploring green data centres with Khazna.\n- Masdar Raises $600 Million in Debut Blue Bond, Targeting Offshore WindMasdar raised $600 million in a debut blue bond for maritime renewables, 2.5 times oversubscribed, lifting its bond programme to $3.35 billion.\n- Singapore Airlines Secures Up to 4,800 Tonnes of Waste Gas SAF from Aether’s Singapore PlantSingapore Airlines will buy up to 4,800 tonnes of waste-gas sustainable aviation fuel from Aether over three years, with deliveries from 2028.\n- Microsoft Signs On as Sole Buyer for Two Blueleaf Solar Projects in JapanMicrosoft will take all output from two Blueleaf Energy solar projects in Japan under long-term agreements structured by Macquarie.\n- India Sizes $220 Billion Three-Year Need for Solar, Storage, Hydrogen and GridsIndia needs about $220 billion over three years to close the gap between 308 GW of non-fossil capacity and its 500 GW goal.\n- Green Climate Fund Approves $140 Million for Green Hydrogen in South Africa and NamibiaThe Green Climate Fund approved $140 million for Climate Investor Three, split between South African and Namibian green hydrogen vehicles.\n- Iberdrola Returns to US Debt Market With $1.6 Billion Green BondIberdrola sold $1.6 billion of green bonds in two tranches, drawing orders above $5 billion from 116 investors for US grid and renewables assets.\nCarbon Markets\n14\n- India Targets 604 Million Tons of Steel Capacity by 2047 Under New PolicyIndia’s draft steel policy targets 604 million tons of capacity by 2047 while cutting emissions intensity from 2.54 to 1.54 tons of CO2 per ton.\n- Africa Nature Impact Fund Targets $100 Million for Carbon, Biodiversity ProjectsThe Africa Nature Impact Fund is seeking $100 million for early-stage carbon and biodiversity projects, targeting 4.5 million hectares protected or restored.\n- Verra Issues First Rice Carbon Credits for 210,000 Tonnes of Emissions CutsVerra issued its first credits under an updated rice methodology, covering 210,000 tonnes of methane reductions from irrigation changes in India.\n- Google Backs 44.01’s $11.7 Million Carbon Removal Deal with FrontierFrontier buyers including Google committed $11.7 million for 20,932 tons of in-situ mineralisation removal from 44.01, delivered between 2028 and 2031.\n- CarbonFarm Raises $8.2 Million to Scale Rice Methane Reduction TechnologyCarbonFarm raised $8.2 million in a Series A led by Colam Impact to scale satellite measurement of rice methane reductions across 19 countries.\n- Citi Closes $72 Million Carbon Removal-Linked Note for Texas Biochar ProjectCiti closed a $72 million principal-protected note for Applied Carbon’s Texas biochar project, paying investors on verified credit issuance rather than coupons.\n- Isometric Approves Five Insurers for Reforestation Carbon Credit ProtectionIsometric approved five insurers to replace part of reforestation projects’ credit buffer contributions, letting developers retain more saleable removal credits.\n- GHG Protocol Board Backs Two Scope 2 Methods, Phasing Companies Toward Hourly-Matched ClaimsThe Independent Standards Board proposed an hourly-matched Method 1 beside the 2015 rules, with a consolidated consultation slated for 2027.\n- EU Greenwashing Rules Push Lufthansa to Swap Green Fare Name for Impact FareLufthansa is renaming its 2023 Green Fare to Impact Fare, citing new environmental communication rules; each booking funds additional aviation fuel.\n- WMO Says CO2 Hit Record 426.8 ppm in 2025, Flags SF6 and Hydrogen LeaksThe WMO said CO2 averaged a record 426.8 parts per million in 2025, with methane and nitrous oxide also at record highs.\n- Salesforce Signs Five-Year Deal for 500,000 Rice Methane Credits from Mitti LabsSalesforce will buy 500,000 satellite-verified rice methane credits from Mitti Labs by 2030, which the developer expects to save 700 billion litres of water.\n- HASI Lends Terradot $34 Million to Fund Rock Weathering Projects in US, BrazilHASI lent Terradot $34 million against fixed-price Frontier offtake agreements for enhanced rock weathering in the United States and Brazil, with delivery insured.\n- DuPont Commits to 83% Scope 1 and 2 Emissions Cut by 2035 as SBTi Validates Net-Zero PlanSBTi validated DuPont’s plan to cut absolute Scope 1 and 2 emissions 83% and Scope 3 emissions 63% by 2035.\n- Meta to Buy EACs Tied to 200,000 Tons of Fortera Low-Carbon CementMeta will bu"
+    },
+    {
+      "title": "Flooding is a major climate risk for prisons and hospitals, says NAO - Sustainable Views",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZXhKSFM4SGJ0TE5VTUNrQUp6SGhNVjBiV2tqVkx3ZlZOcTlYcTAwMnBGaGRHbHpOQzlHdXV3aUlIck1VZ0JycWMwN1RsWEhMOTB1dFp4c2tJUFdMNDV1OW5ySVR0U0ljY1d5b0xyU0NLWjA3WVZLeE5QMWRSdHBTdHhzejlDQ3lPSVlNU2RtTjV5Mmg4ZHdNd1A1V1IzRGhEMGkwdlVQTWtQMW1QREVN?oc=5",
+      "published": "Mon, 02 Nov 2026 11:56:56 GMT",
+      "summary": "Flooding is a major climate risk for prisons and hospitals, says NAO&nbsp;&nbsp;Sustainable Views",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T19:56:56+08:00",
       "source_detail": {
-        "name": "Interesting Engineering",
-        "url": "https://interestingengineering.com"
+        "name": "Sustainable Views",
+        "url": "https://www.sustainableviews.com"
+      },
+      "priority": 7.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Climate risks 'underestimated' as pension schemes urged to boost resilience investment - Pensions Age",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU3FZV1l3Ym1FcXUzLWF1UHVVekFNLU9KXzlWWm1mNFNUZjZyUnRhdF9vZUFRa2JybXJtV1FlUWN3dk4tbnp5VUpRM0UtYWlrV2Q2eW5ISEJuNjItNHNUZHZJUmUyX2dLZUhOOWxRbHpETWptN08yUmt6ZmRXXzZsQ21zTWNFc1JHbnBBM2x3Skg2bEVBR0I5ajBmdkpROWhaWWRrdjA3MjFLMmJUYVlFaEhBQWRVa0ZIOFZV?oc=5",
+      "published": "Mon, 02 Nov 2026 11:50:44 GMT",
+      "summary": "Climate risks 'underestimated' as pension schemes urged to boost resilience investment&nbsp;&nbsp;Pensions Age",
+      "source": "GNews | Climate Risk",
+      "published_beijing": "2026-11-02T19:50:44+08:00",
+      "source_detail": {
+        "name": "Pensions Age",
+        "url": "https://www.pensionsage.com"
+      },
+      "priority": 7.2,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Mitigating Climate Risk in Construction Projects - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZVVMWnFMRmxCYVhsT2ZiUWtUYTRoNmNZcHBDdW5VYzF5WW1LYVN4VXNSZmUycnFkTGtwbXFRTy1ra2tnX2ZzV2RnR3gyT3F0Q1hJb0g5SHBkTDVKUzVvSXk5LUVicXVFd3IzVUw3YzR6Mm5aVUhmVGt3bGx1dDhNaEFfYUJtS0FpOVRPVzhPRTRkaU9tUm5SbV81aWdPU2Y5RHltOHNUMzRLVFI1Y3JlM0lIalJmdDNUcHFFTlB3?oc=5",
+      "published": "Mon, 02 Nov 2026 01:33:48 GMT",
+      "summary": "Mitigating Climate Risk in Construction Projects&nbsp;&nbsp;Reuters",
+      "source": "GNews | SEC Climate Rule",
+      "published_beijing": "2026-11-02T09:33:48+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 7.2,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Report: Commission proposal for the Emission Trading System incompatible with 2040 climate target - EUbusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcEMzZ1NONlBsVk5EemNodHByWWhCeWY3dmFsMy1nY0VxUEtjb3YtcDZwLW1EUnd2T0htS2R1dnlxV2o5Mm5haW92ZjgtRVlsQjVYbDFZTlNGVUptZmlQalMzUVlvVkpYOG5fcU5jczVrNWRmV0V0VTg3WEJjREpOS3ZPUXU0V1dYYTZwVGhmRHg4eW0xVmI0Nkt5M2F4ME85TFBIUXY2M1RJS1BXckxZNjFvMnVSenFMVzV3NEJB?oc=5",
+      "published": "Mon, 02 Nov 2026 13:04:31 GMT",
+      "summary": "Report: Commission proposal for the Emission Trading System incompatible with 2040 climate target&nbsp;&nbsp;EUbusiness.com",
+      "source": "GNews | Cap & Trade",
+      "published_beijing": "2026-11-02T21:04:31+08:00",
+      "source_detail": {
+        "name": "EUbusiness.com",
+        "url": "https://www.eubusiness.com"
+      },
+      "priority": 4.8,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Masdar Breaks Ground on 200MW Chereh Floating Solar Plant",
+      "link": "https://esgnews.com/masdar-chereh-floating-solar-malaysia/?utm_source=rss&utm_medium=rss&utm_campaign=masdar-chereh-floating-solar-malaysia",
+      "published": "Mon, 02 Nov 2026 15:39:53 +0000",
+      "summary": "Masdar, Citaglobal Berhad and TIZA Global Sdn Bhd have started building the 200-megawatt (MW) Chereh Dam Floating Solar PV Project in Pahang, Malaysia. The project reached financial close on 27 [&#8230;]\nThe post Masdar Breaks Ground on 200MW Chereh Floating Solar Plant appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T23:39:53+08:00",
+      "priority": 4.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "full_text": "Masdar Breaks Ground on 200MW Chereh Floating Solar Plant\n- Construction starts: Masdar, Citaglobal and TIZA Global broke ground on the 200MW Chereh Dam floating solar plant in Pahang.\n- Financing closed: The project reached financial close on 27 October with about MYR 580 million from three international lenders.\n- Masdar’s Malaysian debut: Chereh is Masdar’s first project in Malaysia and the first under its 10GW roadmap with MIDA.\nMasdar, Citaglobal Berhad and TIZA Global Sdn Bhd have started building the 200-megawatt (MW) Chereh Dam Floating Solar PV Project in Pahang, Malaysia. The project reached financial close on 27 October, raising about 580 million Malaysian ringgit (MYR) from three international lenders. Chereh Solar Sdn Bhd, the partners’ project company, expects the plant to start operating in 2028.\nThe plant is expected to power the equivalent of 100,000 homes and create about 1,500 jobs during development and construction. It sits on an existing reservoir, and a Site Agreement with Pahang Water & Energy Resources supports its development. His Excellency Wan Rosdy Wan Ismail, Chief Minister of Pahang, attended the groundbreaking with senior leaders from the partners. “Pahang is committed to supporting initiatives that advance sustainable development and create lasting value for our people. The Chereh Floating Solar Project reflects how our natural resources can be used responsibly to contribute to Malaysia’s renewable energy ambitions, while bringing opportunities for local communities and industry. I look forward to seeing the project deliver meaningful benefits for Pahang and the nation,” said His Royal Highness Al-Sultan Abdullah Ri’ayatuddin Al-Mustafa Billah Shah, the Sultan of Pahang.\nQuick anonymous worklife pollWhat's my daily work emissions burn, or savings?Powered by ESG News\nMasdar brings floating solar experience, including the 145MW Cirata project in Indonesia. Meanwhile, Citaglobal adds infrastructure and energy development capabilities, and TIZA Global adds local stakeholder engagement experience. “Malaysia is a strategically important market for Masdar, with rising electricity demand, strong renewable energy potential and growing investment in advanced industries and digital infrastructure. As our first project in the country, Chereh marks an important milestone in our long-term commitment to Malaysia and our expansion across Southeast Asia. By combining Masdar’s global floating solar expertise with strong local partnerships, we will support Malaysia’s energy ambitions while creating jobs and new economic opportunities in Pahang,” said Mohamed Jameel Al Ramahi, Chief Executive Officer of Masdar.\nFrom Tender Win to Financial Close\nIn December 2025, Chereh Solar Sdn Bhd signed a 21-year power purchase agreement (PPA) with national utility Tenaga Nasional Berhad (TNB). The consortium won the project in Malaysia’s Large Scale Solar (LSS) Cycle 5+ tender, offering the lowest floating solar tariff. The partners did not disclose the total project cost, the lenders’ names or each partner’s equity stake. “The start of construction at Chereh is an important step in building Citaglobal’s renewable power generation portfolio. With long-term electricity sales contracted to TNB, the priority now is to deliver the project and bring it into operation. Citaglobal and TIZA Global will work closely with Masdar and the project team, drawing on our infrastructure and local development experience to support delivery in Pahang,” said Tan Sri Dato’ Sri (Dr.) Mohamad Norza Zakaria, Executive Chairman and President of Citaglobal Berhad and TIZA Global Sdn Bhd.\nRELATED ARTICLE: Masdar, EPCG Advance 2GW Montenegro Energy Plan\nWhy It Matters\nFor Masdar, Chereh is the first project under the 10-gigawatt (GW) roadmap it agreed with the Malaysian Investment Development Authority (MIDA) in 2023. For Citaglobal, the project adds contracted generation to its New Energy platform, which spans solar, hydropower and Bio-CNG (compressed biogas). Masdar is also studying a major floating solar installation at the Murum reservoir in Sarawak. If Chereh starts operating in 2028, it could give the partners 21 years of TNB revenue and Masdar a reference case for Murum.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "Bank of America, Eurazeo Back $40 Million Nature Initiative",
+      "link": "https://esgnews.com/lighthouse-initiative-biodiversity-eurazeo-bank-america/?utm_source=rss&utm_medium=rss&utm_campaign=lighthouse-initiative-biodiversity-eurazeo-bank-america",
+      "published": "Mon, 02 Nov 2026 15:18:56 +0000",
+      "summary": "The Sustainable Markets Initiative (SMI) and Bank of America have catalysed the Lighthouse Initiative, a dedicated Nature and biodiversity investment allocation. Eurazeo will manage it within its Future Industries Fund [&#8230;]\nThe post Bank of America, Eurazeo Back $40 Million Nature Initiative appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T23:18:56+08:00",
+      "priority": 4.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "full_text": "Bank of America, Eurazeo Back $40 Million Nature Initiative\n- Initial commitments: Launched on September 23, 2026 with $40 million in aggregate capital commitments.\n- Minority stakes: It will back project development platforms and technology-enabled solutions in developed and emerging markets.\n- Biodiversity targets: Each investment should support at least one Kunming-Montreal Global Biodiversity Framework target.\nThe Sustainable Markets Initiative (SMI) and Bank of America have catalysed the Lighthouse Initiative, a dedicated Nature and biodiversity investment allocation. Eurazeo will manage it within its Future Industries Fund III. Bank of America and Eurazeo are the cornerstone investors, with $40 million in commitments at the September 23 launch.\nThe initiative aims to channel private capital into Nature business models that remain underfunded today. It is structured to welcome further investment from additional partners, and it aligns with Terra Carta, the SMI mandate launched by the former Prince of Wales in 2021. “The Lighthouse Initiative’s launch represents the global economic leadership and impact of the Sustainable Markets Initiative. Nature is a fundamental pillar of our mandate and is the true engine of our economy. The Lighthouse Initiative will mobilise much needed private capital into Nature and Nature-based solutions. It represents our unique ability to harness the power of the private sector to deliver results for Nature, people and planet,” said Jennifer Jordan-Saifi, President and Global Envoy of the Sustainable Markets Initiative.\nQuick anonymous worklife pollWhat's my daily work emissions burn, or savings?Powered by ESG News\nThe initiative will make minority investments across developed and emerging markets. Each deal should support at least one framework target, such as Target 3, known as “30×30.” That target aims to conserve at least 30% of the world’s land, inland water, coastal and marine areas by 2030. The partners did not disclose a target size, a timeline for further closes or each cornerstone investor’s share.\nInvestment Priorities\nFour priorities guide the strategy, starting with ecosystem protection and Nature regeneration, such as regenerative agriculture and forestry. The initiative will also support Nature-positive industries and supply chains, including bio-based materials and circular processes. In addition, it will back project platforms on infrastructure-like models that can attract institutional and public co-investors. Finally, it targets impact tracking tools such as eDNA (environmental DNA) monitoring and digital MRV (measurement, reporting and verification) platforms.\nEurazeo’s Future Industries team will manage the initiative. Investments will be tracked through Eurazeo’s impact framework, enhanced with biodiversity indicators such as a biodiversity footprint assessment. “Companies and investors are seeking opportunities to invest in Nature and biodiversity. Eurazeo has a demonstrated track record supporting hundreds of companies and the Lighthouse Initiative can help create even more opportunity,” said Brian Moynihan, Chair and CEO of Bank of America and Chair of the Sustainable Markets Initiative. “We are honoured that the Sustainable Markets Initiative and Bank of America have entrusted us with the management of this project. Nature is the foundation of the industries we invest in, yet biodiversity remains one of the most underfunded investment themes. With this initiative, we want to demonstrate that protecting and restoring Nature makes commercial sense, at scale. At Eurazeo, and within the Future Industries team, sustainability and impact are at the core of our business strategy model and we look forward to working to bring more investors behind the entrepreneurs building Nature-positive businesses,” said Matthieu Bonamy, Partner Future Industries at Eurazeo.\nRELATED ARTICLE: Bank of America Issues $2 Billion ESG Bonds\nWhy It Matters\nThe mandate gives Eurazeo’s Future Industries team a dedicated Nature allocation inside Fund III. For Bank of America, the cornerstone stake adds direct exposure to Nature project platforms and technology-enabled solutions. Because the vehicle is open to new partners, it positions Eurazeo to raise co-investment from institutional and development finance investors. That depends on early deals proving the commercial case for protecting Nature.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "Green Climate Fund Commits $1.97 Billion to 21 Projects, Lifting Annual Approvals to a Record $3.2 Billion",
+      "link": "https://esgnews.com/green-climate-fund-record-funding-21-projects/?utm_source=rss&utm_medium=rss&utm_campaign=green-climate-fund-record-funding-21-projects",
+      "published": "Mon, 02 Nov 2026 14:59:25 +0000",
+      "summary": "The Green Climate Fund (GCF), the world’s biggest multilateral climate investment fund, approved $1.97 billion for 21 projects at its latest board meeting. The approvals lift its funding for the [&#8230;]\nThe post Green Climate Fund Commits $1.97 Billion to 21 Projects, Lifting Annual Approvals to a Record $3.2 Billion appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T22:59:25+08:00",
+      "priority": 4.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "full_text": "Green Climate Fund Commits $1.97 Billion to 21 Projects, Lifting Annual Approvals to a Record $3.2 Billion\n- Record board approvals: The Green Climate Fund approved $1.97 billion for 21 projects, including $682 million for six private-sector initiatives.\n- Higher leverage goal: Executive Director Mafalda Duarte wants the fund to mobilise more than $10 for every $1 it invests.\n- Broader funding base: A first-ever policy allows contributions from non-sovereign and alternative sources ahead of the fund’s third replenishment round.\nThe Green Climate Fund (GCF), the world’s biggest multilateral climate investment fund, approved $1.97 billion for 21 projects at its latest board meeting. The approvals lift its funding for the year to a record $3.2 billion, Mafalda Duarte, the fund’s executive director, told Reuters. They include $682 million for six private-sector initiatives.\nThe fund has historically mobilised $3 of additional resources for every $1 it invests. For its private-sector projects, that ratio has been $4.5. It rose to $9 last year, but Duarte said there was further to go. “We should be talking about multipliers that are higher than 10 for each dollar of GCF resources,” Duarte said, adding that she was being “very conservative”.\nQuick anonymous worklife pollWhat's my daily work emissions burn, or savings?Powered by ESG News\nThe approvals come ahead of the COP31 climate talks in Turkey in early November. Richer countries are reluctant to commit more money as they face other financial and political pressures. Meanwhile, the fund is preparing for its third replenishment round, when contributors pledge new money. Duarte said a first-ever policy allowing contributions from non-sovereign and alternative sources could broaden its funding base beyond national governments.\nTo help move more money, Duarte said the fund is developing co-investment platforms. Through them, sovereign and non-sovereign investors could team up in particular sectors, projects and markets. Looking ahead to COP31, she said the fund had demand for more than $11 billion in funding. Duarte said she was hoping to see a “strong signal of political support and commitment towards a very strong replenishment”.\nPortfolio Track Record\nThe latest approvals take the fund’s total investments to $22.3 billion across 379 projects. Including co-financing, meaning money committed by other investors alongside the GCF, the portfolio reaches $86.4 billion. The fund did not name the 21 projects or their host countries, or say what size of replenishment it is seeking.\nRELATED ARTICLE: Green Climate Fund Approves Record $1.225B for Climate Projects\nWhy It Matters\nThe record $3.2 billion in annual approvals gives the GCF a larger pipeline to present to contributors before its third replenishment. Paired with the new non-sovereign contribution policy, that record could open a path to replenishment capital from investors beyond national governments. The outcome depends on whether the planned co-investment platforms attract those backers as donor governments hold back.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "One Framework, Many Regulations: Human Rights & Environmental Due Diligence - Anthesis Group",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREhtUm1QTU5oYm9wa0lIMm0wdEhBUFF5ckVhanZhczZJRlNodGxuY0V1cDhGaUdYRlo1SGlVaDkwVEkwTU1sTl9xZnJXd2pQM04tamNfbzFjWUVWcEtBTTBpY1BKdTROa2Y1QmZJcDU0bEF1NnRYTEREZG01dVJjVy1lQTBuY0g0RklzOEZYQmJYUEtzOW5FSzR2XzhfTTlTQWtGcGtPTDFMemlBWDByUg?oc=5",
+      "published": "Mon, 02 Nov 2026 18:09:29 GMT",
+      "summary": "One Framework, Many Regulations: Human Rights & Environmental Due Diligence&nbsp;&nbsp;Anthesis Group",
+      "source": "GNews | SC Due Diligence",
+      "published_beijing": "2026-11-03T02:09:29+08:00",
+      "source_detail": {
+        "name": "Anthesis Group",
+        "url": "https://www.anthesisgroup.com"
+      },
+      "priority": 3.6,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Why Nature and Biodiversity Matter for the Future of Digital Growth - The European Business Review",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGhja0VEc2tTM3dDczhHWFlxaFFQZ3YyZXVSbXBQN0p3OGtBNG5XQnZmSmVKeFVfN1ktQjZFTDZwalljeG5ydmtRZE11dk5Gb2FqZ01RZ1FzYWxLdFlKZGM5bkg1UTJDRk01Nkg0MW5URlZNMU5pa09scEFBMkwtNjZ5SGpvM3daaDFEN05pSV9peDlHQXZkQ2R1c0hkampma3BEZmN4N0pxdDA?oc=5",
+      "published": "Mon, 02 Nov 2026 11:51:15 GMT",
+      "summary": "Why Nature and Biodiversity Matter for the Future of Digital Growth&nbsp;&nbsp;The European Business Review",
+      "source": "GNews | Biodiversity",
+      "published_beijing": "2026-11-02T19:51:15+08:00",
+      "source_detail": {
+        "name": "The European Business Review",
+        "url": "https://www.europeanbusinessreview.com"
+      },
+      "priority": 3.6,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Green Climate Fund Approves Record $3.3 Billion Climate Investments - ESG Today",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNU96S0ZMSWRXVmc4TzJJNjFMQ0x1WFZVSGp1dHZtMjRuU000SkZsZy1vU0dna1hNNjI5bFh3TUpOZlFJeXNYOXBndDdCM0RfeWRjNHJ4M2ZvTlZPM3NYS1pIQjhzb0FmYm5vXzl6WTlRdFo1eXpaNnUxWG9vOWdrbm1tZDBnREFoZXBXWVRGVUFPVDZBS2FR?oc=5",
+      "published": "Mon, 02 Nov 2026 10:28:59 GMT",
+      "summary": "Green Climate Fund Approves Record $3.3 Billion Climate Investments&nbsp;&nbsp;ESG Today",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T18:28:59+08:00",
+      "source_detail": {
+        "name": "ESG Today",
+        "url": "https://www.esgtoday.com"
+      },
+      "priority": 3.6,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Green Accounting Push Meets Ghana’s 2027 Sustainability Reporting Deadline - News Ghana",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWnZqY3VkX3RLMjBjbGFTeFNhNkNMdGhaZXR6Q0JpcG96SDRxNkVwYWtkYXNnUE1CYXlWYWtKZXB0TzNyU0Y4SlFnZ2U5d3hWMnZXRGw5elRvcmdCazlTaDE1RTJfbEtqc29LcWNGbG9rWDhtbk1vUmJ2NGdNbHpKcTVwQjdmeTJaNVNSMEdHQl9vYUtxQ2d1TmUtVVlBc3Ji?oc=5",
+      "published": "Mon, 02 Nov 2026 10:15:17 GMT",
+      "summary": "Green Accounting Push Meets Ghana’s 2027 Sustainability Reporting Deadline&nbsp;&nbsp;News Ghana",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T18:15:17+08:00",
+      "source_detail": {
+        "name": "News Ghana",
+        "url": "https://newsghana.com.gh"
+      },
+      "priority": 3.6,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Businesses still treating modern slavery as a reporting compliance exercise, research finds - edie.net",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdnI1X2c2LWtfendncXhfOXA1LXpmcVdwbEFyblBJdmx5YTdkTktKYU92MFI2N2RuRDBwTlVkQ0RFbXVxN3hnYnliM2FjMVdCdjFCYzdzQmh2endaV295amZZSklsWTBjczhfamh4VGlEYnJnZzd6RXlYZWZtWjBFS1VqT0dnUmhOMG9wYjFpQ0twWFlDMUNWdm1nc3BQVklQOFUzMmxVVHBEYWs3UExKOXl3?oc=5",
+      "published": "Mon, 02 Nov 2026 00:44:37 GMT",
+      "summary": "Businesses still treating modern slavery as a reporting compliance exercise, research finds&nbsp;&nbsp;edie.net",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T08:44:37+08:00",
+      "source_detail": {
+        "name": "edie.net",
+        "url": "https://www.edie.net"
+      },
+      "priority": 3.6,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "NASA hopes the commercial space industry can help save Hubble - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyUUhnbUtaVHR0WVRESHVoMlVOaEVVWnhHTlcyQjQ2WE1iejZybFdXMkRENG9UZGNhSWV6SGlmQWhKUVRtWkItVEh4bmpHY2ZMRVFtOGZ6eGc4N2hjNC1Oel9MU1RMOU9lVlRFWS1ST2V3aGU0VUlzUVp0Q0Y5R0k?oc=5",
+      "published": "Sun, 01 Nov 2026 21:09:21 GMT",
+      "summary": "NASA hopes the commercial space industry can help save Hubble&nbsp;&nbsp;The VergeNASA Explores Potential Commercial Servicing for Hubble Telescope&nbsp;&nbsp;NASA Science (.gov)Once again, NASA is asking for ideas to rescue Hubble from certain death&nbsp;&nbsp;Ars TechnicaNASA reaches out to commercial space industry for help saving legendary Hubble Space Telescope&nbsp;&nbsp;MashableNASA asks companies to boost or retire Hubble before its 2033 re-entry&nbsp;&nbsp;The Next Web",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T05:09:21+08:00",
+      "source_detail": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com"
       },
       "priority": 2.4,
       "category": "专题精选",
@@ -104,127 +327,92 @@
       "relevance": "low"
     },
     {
-      "title": "Contact Energy Launches Up to NZ$225 Million Green Capital Bond Offer Maturing 2057 - Kalkine",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkk3WGFZdGE5ZXU0UURtZGxEaHNRNng0SjBJNUJJa25ja1pweTNISzd0RW9rdUpyYW1tV29Ld1hJWnRfV2lXbFdiZnIzeWZmbE5GQjdPblNRS1hnckZIUVhkSVdrTlZMdVhaRDdXZHBXLXVUQ0pJNkZJdWZTU0pZZjhGQ2Y0ei1rUVZWaUs4UUJCSGFkSFJKd056akRoZ04yblg0dk9ldnNJV01QQm1Jal9XVUtDWlRya1hsSWJ2bzhSdw?oc=5",
-      "published": "Sun, 01 Nov 2026 23:15:03 GMT",
-      "summary": "Contact Energy Launches Up to NZ$225 Million Green Capital Bond Offer Maturing 2057&nbsp;&nbsp;Kalkine",
+      "title": "Green Genius Raises €65 Million in Nordic Green Bond Sale - Serrari Group",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2VPdlJKMC1zSGgwYnZsSm1ybzVXM3BPU3RMZXpuYURjVmtWOUduY3RTRWx5MHdqOFhJeEllZEtuemh6Nmx0VjJFZVdQS3FndDJfS3g1RzJfMi1Pb2pWR3BiSFdNRDl6OHJTVkhscjVEM1hOQUxodDNEZTdrQ1A5Vnptb3Bfc1R1UlM4?oc=5",
+      "published": "Mon, 02 Nov 2026 12:09:43 GMT",
+      "summary": "Green Genius Raises €65 Million in Nordic Green Bond Sale&nbsp;&nbsp;Serrari Group",
       "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T07:15:03+08:00",
+      "published_beijing": "2026-11-02T20:09:43+08:00",
       "source_detail": {
-        "name": "Kalkine",
-        "url": "https://kalkine.com.au"
+        "name": "Serrari Group",
+        "url": "https://serrarigroup.com"
       },
-      "priority": 1.2,
+      "priority": 2.4,
       "category": "碳+绿",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Contact launches green Capital Bond Offer - BusinessDesk",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2YnhJQ3JuSmEzaFBVa2c5TUZyTF9SNVhNWnBQLUhpTmdPS0xjQ2tnaTVLc3VoVk51enpwbmozZlRkMGowQUFzekJtSTV5bS1LY3A0MFppaEJicy1MUDhzQTJsNVNhbHF1bE0yZVphdFdnSlFFUEMxMWRn?oc=5",
-      "published": "Sun, 01 Nov 2026 20:19:07 GMT",
-      "summary": "Contact launches green Capital Bond Offer&nbsp;&nbsp;BusinessDesk",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T04:19:07+08:00",
-      "source_detail": {
-        "name": "BusinessDesk",
-        "url": "https://www.businessdesk.co.nz"
-      },
-      "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Taiwan Turns Climate Goals into Real Solutions ᐉ News from Fakti.bg - World - Fakti.bg",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFhNUi1ZUGFjcWNtNUc1Ukl6T1ZTYWxiSkZsTUhyQWF3R1l3czZwUFRIMmpSMTZBNWdBMXVTTFlmTHg5MzNZQmZlWXdzSjFDTU02b19pZmViVE5VMERSdjVXN00yZ3dSMnYzTjA4MEJmM2ZZRl9RcU96YzRoYWtjdWRjVGQ0c00?oc=5",
-      "published": "Sun, 01 Nov 2026 19:26:00 GMT",
-      "summary": "Taiwan Turns Climate Goals into Real Solutions ᐉ News from Fakti.bg - World&nbsp;&nbsp;Fakti.bg",
-      "source": "GNews | Cap & Trade",
-      "published_beijing": "2026-11-02T03:26:00+08:00",
-      "source_detail": {
-        "name": "Fakti.bg",
-        "url": "https://fakti.bg"
-      },
-      "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Clean the Sky - Science-Based Climate Commitments - Trend Hunter",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vWVdjbVQ2S29wbHZqLVdQTWpfVERseVVoZTBxc2dLcGhBUFdkN2J6RHBDVjJwQTBhbExJQ0xGOGVpYm4zWG1qOUZXeVVfQW5lWUhWekhrOTJPRGpvZnpuaWFGbXI?oc=5",
-      "published": "Sun, 01 Nov 2026 16:45:00 GMT",
-      "summary": "Clean the Sky - Science-Based Climate Commitments&nbsp;&nbsp;Trend Hunter",
-      "source": "GNews | Net Zero",
-      "published_beijing": "2026-11-02T00:45:00+08:00",
-      "source_detail": {
-        "name": "Trend Hunter",
-        "url": "https://www.trendhunter.com"
-      },
-      "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "MUNICIPALITIES URGED TO TAP INTO INTERNATIONAL CLIMATE FINANCE - Eswatini Positive News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc3BUb25xX3ZEdFdTNDByQkh4UVlTZ1h2ZEdycGYtYXdPWDltV1cxTV9jQVZ2RDI4el9FMTBIeFptV05fM1AtUFZ4cExCX2lVS3BTS2RuU0xYalMtS0NwX0sxeXhVejlIOUNSOEhXZ01laUV3Q1ZpeUdUSXFBMW52Wk81R2MyVzlVSDMwSnRocnUxWGFGNFVYWGlSQlIzWFRN?oc=5",
-      "published": "Sun, 01 Nov 2026 12:40:56 GMT",
-      "summary": "MUNICIPALITIES URGED TO TAP INTO INTERNATIONAL CLIMATE FINANCE&nbsp;&nbsp;Eswatini Positive News",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-01T20:40:56+08:00",
-      "source_detail": {
-        "name": "Eswatini Positive News",
-        "url": "https://eswatinipositivenews.online"
-      },
-      "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "From commitments to action: Taiwan and the world creating climate solutions together - Pancouver",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFhMRlBaOVVOZmljZkVIWWNRWXJCclJqQVpadGlaUUNicnFSUmlkazQ4V3RyNlhHcnpLTURCVG5lY0pWbVB4OVg1cXl6R1pxWW1LZnE3MnE0dlR6UWYtQzhCdldwNGowNFFfMHQwMXloWENzZVBZNG1Pb0pJS01IU3plN01RTHNhSG4zNElBZFNXTUJHX3FYbWZlTDgyczBkUnBONzM4blk?oc=5",
-      "published": "Sun, 01 Nov 2026 05:42:41 GMT",
-      "summary": "From commitments to action: Taiwan and the world creating climate solutions together&nbsp;&nbsp;Pancouver",
-      "source": "GNews | Cap & Trade",
-      "published_beijing": "2026-11-01T13:42:41+08:00",
-      "source_detail": {
-        "name": "Pancouver",
-        "url": "https://pancouver.ca"
-      },
-      "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "We'd Be Entering an Ice Age Right Now if Climate Change Hadn't Terminated It, Study Suggests - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON29JSHB4d2hkcjhJbDRTNThUSFYtd3RwSnVDbHdNa2c0bmVNQ2VFcnN0TUhPdVhiZllCdFh3VWhpYm02UUdqLTUzQjRhaGQyZ3pWYWdRSHdZUHdXdW1zcmdnUXR0T3E1VlM5VmZtQXJGOGxXT1duOEdNajlJcmd6QzVhSXdJVlVlYl9JdW9kTXFOV0hDQ1gyZUplRUItc19PckREblVoTjFzX01BaUVLUnl1Y2g0NEJzdXc?oc=5",
-      "published": "Sun, 01 Nov 2026 02:02:35 GMT",
-      "summary": "We'd Be Entering an Ice Age Right Now if Climate Change Hadn't Terminated It, Study Suggests&nbsp;&nbsp;ScienceAlertHumans accidentally canceled the next ice age — but it’s no reason to celebrate, scientists say&nbsp;&nbsp;CNNHuman-Driven Warming May Have Halted the Onset of a New Ice Age&nbsp;&nbsp;Yale E360Two Thousand Years Ago, a New Ice Age Began—but Human-Caused Climate Change Recently Reversed It, According to New Research&nbsp;&nbsp;Smithsonian MagazineWe Should Be in an Ice Age Right No...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T10:02:35+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 1.2,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "EIB approves €44 million to decarbonize and modernize Stuttgart Airport infrastructure - fundsforNGOs News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWN0VnRoRWpsOUstWXBPT3VQdDA2Mlh5aXBNVHFLcW5HWFhqOWxxV1BfN2xGLXJobnJOenpnVVFqenptQ0gxRXZjVXNDVTZaSi1XWUFZUFVKZWg0eVZ4T0xLdVJnZTRtaFlmTm5uWmlPX0RKNm5UeDdfQnBpR3Bldk42ajk3UlZzTU9uVEFYVnMtMkU0NzBJVTdaOV8?oc=5",
-      "published": "Mon, 02 Nov 2026 04:23:34 GMT",
-      "summary": "EIB approves €44 million to decarbonize and modernize Stuttgart Airport infrastructure&nbsp;&nbsp;fundsforNGOs News",
+      "title": "What needs to change in sustainability reporting by large Malaysian companies - Eco-Business",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMm5hMVlCTnZHY2tWU0tLSXlPcFZtM25sUXZqYzJXNFVBeVJGeDNjR19NSVRrTWVhVGtDejVYOFIwb2lFMzM0UnpmbDcyeGd4R0o5MUdZSFdKSVNwRTV1dndUa0wxRHNLNGw2UWxGUHpOcjU3MWVsMERXVW1oMlZqM0dpNVhNSDVCWEU5dWJMNF94ZEdzTkZPTnZFQ3JJYTlQS2dtUlFCYS1BNC12UHc5NV92cmNEZw?oc=5",
+      "published": "Mon, 02 Nov 2026 09:22:00 GMT",
+      "summary": "What needs to change in sustainability reporting by large Malaysian companies&nbsp;&nbsp;Eco-Business",
       "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-02T12:23:34+08:00",
+      "published_beijing": "2026-11-02T17:22:00+08:00",
       "source_detail": {
-        "name": "fundsforNGOs News",
-        "url": "https://news.fundsforngos.org"
+        "name": "Eco-Business",
+        "url": "https://www.eco-business.com"
+      },
+      "priority": 2.4,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hong Kong Captures 70% of Global Tokenized Bond Market, Driven by Government Green Bonds - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jemhCZ3JKWHRzTElfeHB4SlA4M0l3TU5hRnAtcnBiZ3FGdkxLYlNocHhWX01sakMzVkdwTHpUVHJJdGljcWJfTXFieEFaNnRxUEFiWW1CekthV1hlLWFOOTFyTHNPLVl6bU9DOEgzV2tWZG5nWmc?oc=5",
+      "published": "Mon, 02 Nov 2026 08:25:00 GMT",
+      "summary": "Hong Kong Captures 70% of Global Tokenized Bond Market, Driven by Government Green Bonds&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T16:25:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 2.4,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "TEHO International : Sustainability Report 2026 - www.marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGszQVdLWlRmTUx6ZEhDTW5ZWXRicmxvYmxlWEx3VHh4MzFBZjhxaFBnT0h0RzF5aG1mNDl1bWlKQ2trOEZ6aUVOd0lNc2F4R2JNS3Q4SXFfNWlNY2FySk9sODYzV2ppc3BfODQxd3pmcElVMVhTY0RHcm9ncjBTYW5OSXh6RVltQUNEd1dPN3c2LXFXWV9BZXRWU2pQeUk?oc=5",
+      "published": "Mon, 02 Nov 2026 03:53:05 GMT",
+      "summary": "TEHO International : Sustainability Report 2026&nbsp;&nbsp;www.marketscreener.com",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T11:53:05+08:00",
+      "source_detail": {
+        "name": "www.marketscreener.com",
+        "url": "https://www.marketscreener.com"
+      },
+      "priority": 2.4,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Osapiens Appoints Stephan de Barse as President to Lead All Go-to-Market Teams",
+      "link": "https://esgnews.com/osapiens-president-stephan-de-barse/?utm_source=rss&utm_medium=rss&utm_campaign=osapiens-president-stephan-de-barse",
+      "published": "Mon, 02 Nov 2026 16:14:05 +0000",
+      "summary": "Germany-based sustainability software company osapiens has appointed Stephan de Barse to the newly created position of President. He will lead all of the company’s go-to-market activities, including sales, marketing, business [&#8230;]\nThe post Osapiens Appoints Stephan de Barse as President to Lead All Go-to-Market Teams appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-03T00:14:05+08:00",
+      "priority": 2.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Osapiens Appoints Stephan de Barse as President to Lead All Go-to-Market Teams\n- New President role: Stephan de Barse takes a newly created President position at osapiens.\n- Single go-to-market unit: The role covers sales, marketing, business development, solution engineering and partnerships.\n- Series C backing: The company announced a $100 million Series C round earlier this year.\nGermany-based sustainability software company osapiens has appointed Stephan de Barse to the newly created position of President. He will lead all of the company’s go-to-market activities, including sales, marketing, business development, solution engineering and partnerships.\nAccording to osapiens, the new position brings these go-to-market activities together under one roof. The company said the structure reflects the pace of the market, as companies face growing regulatory complexity. At the same time, they must manage supplier risk and resilience across climate, geopolitical risk, sanctions and financial exposure. “Compliance is at an inflection point: regulation keeps growing, and companies need to manage risk and increase resilience across their supply chains at the same time. By bringing sales, marketing, business development, solution engineering and partnerships together, we give customers one strategy and one experience from day one through long-term value,” said de Barse.\nQuick anonymous worklife pollWhat's my daily work emissions burn, or savings?Powered by ESG News\nFounded in 2018, osapiens provides cloud-based software to automate compliance tasks, streamline operations and track sustainability metrics in real time. The software also helps clients comply with national and international sustainability regulations. Earlier this year, it announced a $100 million Series C round led by BlackRock and Temasek’s decarbonization-focused fund, Decarbonization Partners. It also recently announced the acquisition of Nasdaq Metrio, Nasdaq’s sustainability reporting and carbon accounting software platform.\nFrom Revenue Chief to President\nDe Barse joined osapiens as Chief Revenue Officer earlier this year from SAP. At SAP, he served as President of the Business Suite Organization. Before that, he was Chief Revenue Officer at enterprise planning software provider o9 Solutions. Osapiens did not disclose when the appointment takes effect or who will take over the Chief Revenue Officer role.\nRELATED ARTICLE: ERM, osapiens Partner to Turn ESG Compliance Data Into Business Action\nWhy It Matters\nFor osapiens, the change puts one executive in charge of every team that sells its compliance software. That remit now also covers the Nasdaq Metrio reporting and carbon accounting platform. The structure positions osapiens to cross-sell Metrio’s carbon accounting tools to its existing compliance clients through one go-to-market team, provided the platforms are integrated.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "Net-Zero Cannot Wait for the Next Policy Draft - ESG News.earth",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZDJGMUtFMzVraFJ5ai1SYTlDcnZDUHI3SlRDa2dqTUZNMWF2MllJTmZ6OFQtUFpxMUNmMFpUNXRRMlRLTGwydGNSZEZQTkhCeC16eVZtLUZRMUtkTEhDYXhQSHFYLWxDNV9CUV9lMGNPV2xMb3VMUUwtOVNzY1BaTGsyU2VGdjhZWWdLZzV2ZlBJU2N0WWRmbEhjcw?oc=5",
+      "published": "Tue, 03 Nov 2026 03:42:56 GMT",
+      "summary": "Net-Zero Cannot Wait for the Next Policy Draft&nbsp;&nbsp;ESG News.earth",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T11:42:56+08:00",
+      "source_detail": {
+        "name": "ESG News.earth",
+        "url": "https://www.esgnews.earth"
       },
       "priority": 1.2,
       "category": "可持续供应链",
@@ -232,15 +420,127 @@
       "relevance": "low"
     },
     {
-      "title": "Bank of Thailand spearheads green cafe initiative - Bangkok Post",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUEpZWGF0RzJmRHNVSWhUZ2dRYkUzSkhjOWhpVHZHSDNRTm1vYWFyeVRrelNnVHpuSXB6LWtyOElGOEVnWWlLdnI4V0lCcVV0dFJIY3Q2QXZjZFp6UUpJWDktX0F6ZnEydVo5QnlUMkJ0TEJTRXNpM1NRVUIzbHBrY0VKdlFIWXZPYVNSNEVESng4azU3S3U2c2xId1dvX0s5?oc=5",
-      "published": "Mon, 02 Nov 2026 03:06:14 GMT",
-      "summary": "Bank of Thailand spearheads green cafe initiative&nbsp;&nbsp;Bangkok Post",
+      "title": "Kigali International Financial Centre & GBM bring Bonds, Loans & ESG Africa 2026 to Kigali| The New Times - The New Times",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQzIyQkxTWmlicFhkVzFuLXZtck0wbVJVeUtOSE45cHpGcjVOZ3d2VGtjSl9zbXNldVRqLVZiMk9SNE02eE5QYk15VC1rQUx6RS16bmpNOXF1ZTRqRlNDblRwMGZialUyazA4TC1nQXd2S01GWTk2ckY1TXRiUkpsVm9UeVQxUFM0YU9WeDZXakV3U25vV0YzQ3h6WkRyVVVVNm1Ec1MwSjhOejA5S1JIVUhXRDBqb2tQM2xvbjEzU0FoYlp0Smw4YV9hRlFSY3dCRXVpc3YxLVRnV2_SAdsBQVVfeXFMTUMyMkJMU1ppYnBYZFcxbi12bXJNMG1SVXlLTkhOOXB6RnI1Tmd3dlRrY0pfc21zZXVUai1WYjJPUjRNNnhOUGJNeVQta0FMekUtem5qTTlxdWU0akZTQ25UcDBmYmpVMmswOEwtZ0F3dktNRlk5NnJGNU10YlJKbFZvVHlUMVBTNGFPVng2V2pFd1Nub1dGM0N4elpEclVVVTZtRHNTMEo4TnowOUtSSFVIV0Qwam9rUDNsb24xM1NBaGJadEpsOGFfYUZRUmN3QkV1aXN2MS1UZ1dv?oc=5",
+      "published": "Mon, 02 Nov 2026 22:25:22 GMT",
+      "summary": "Kigali International Financial Centre & GBM bring Bonds, Loans & ESG Africa 2026 to Kigali| The New Times&nbsp;&nbsp;The New Times",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T06:25:22+08:00",
+      "source_detail": {
+        "name": "The New Times",
+        "url": "https://www.newtimes.co.rw"
+      },
+      "priority": 1.2,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "NAO releases first review of government reporting on climate threats to infrastructure - New Civil Engineer",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OTEdhR1hsUjQzSjZSRW1xbUdLcmEtQmRnTGZXakZ5cWRLUl96eXAwdG4yVkk0U0V2YS02M21VNUVSdGVHNkQ3XzB0QzFlblduQV91VA?oc=5",
+      "published": "Mon, 02 Nov 2026 21:56:58 GMT",
+      "summary": "NAO releases first review of government reporting on climate threats to infrastructure&nbsp;&nbsp;New Civil Engineer",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T05:56:58+08:00",
+      "source_detail": {
+        "name": "New Civil Engineer",
+        "url": "https://www.newcivilengineer.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Mary Robinson chosen to lead climate change organisation - RTE.ie",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnWnVoZ3RXQzhmMDg5bDhZSlR3d3pKQ1o2QmRMM2R5Wk1vSUtpZGN2Qk9LX1BYYXVZZHRLNUU3aUFtSGJiVHNMV1FwX3FheEUyZzVNS1VvMU9VQXdqWlJ4SmQ0U2dkOHpHQlFFU0FnX3kxMXBCR0RjY0xR?oc=5",
+      "published": "Mon, 02 Nov 2026 19:10:59 GMT",
+      "summary": "Mary Robinson chosen to lead climate change organisation&nbsp;&nbsp;RTE.ie",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T03:10:59+08:00",
+      "source_detail": {
+        "name": "RTE.ie",
+        "url": "https://www.rte.ie"
+      },
+      "priority": 1.2,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Amazon Stock Slips on Q3 Earnings Amid $220B AI Spending Push - CarbonCredits.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQnY5Vlg2eWRzakpna3ZNY1A0MlVpMVFlX2ZNanc3RFhvRWFEYmN5ZkQ1WGp2UW1CMWdmN1BhdUZ4RUtBMzBsVjVJd3FWNkZ4MndHU2VBeHhUNGhKeUdwNzBBVTVDLTlXdXhqOFRUQVZmejJ6WXZrd3JkZUFWWjRZaVNSNURseUZCT3Q5LTkxLWs?oc=5",
+      "published": "Mon, 02 Nov 2026 18:05:43 GMT",
+      "summary": "Amazon Stock Slips on Q3 Earnings Amid $220B AI Spending Push&nbsp;&nbsp;CarbonCredits.com",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T02:05:43+08:00",
+      "source_detail": {
+        "name": "CarbonCredits.com",
+        "url": "https://carboncredits.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Searcys reports carbon cut as it rethinks conference menus - SquareMeal",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQkpUSWhWUDNQZG4wd21HZjh3NjhZN2hLM0pwQW82dHI2SDA1S3RYa1otRVFraWNLdVo4dVdUdEdDSV9xYXNEemZvcWxlNEdLSXlUTzFiWjB6eHFOZk92Nkl3dkhxdk9EcVF1OXRTUHhhLTMxWDJPVU1hM09QNWt0UkkxRXMxX29zSmFxdFJrLUdLQzZveHVibXZZWDlYSkZYSkFVTm5EbTJqa3FXdVpYS21JMUJUNjlQ?oc=5",
+      "published": "Mon, 02 Nov 2026 15:12:20 GMT",
+      "summary": "Searcys reports carbon cut as it rethinks conference menus&nbsp;&nbsp;SquareMeal",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T23:12:20+08:00",
+      "source_detail": {
+        "name": "SquareMeal",
+        "url": "https://www.squaremeal.co.uk"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Searcys reports progress against its ESG strategy, Second Nature - Prestige Events Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPenhFZnE3QmpZOWEzM3NqWGtXcER4Wms0azN1TTY0UmxkVmUzSDRZa0ROUkJuT2FkWm5jUnRJN2Zqc0laRHkydTFxYlJxZktjMld2dDQwVWNyWGFRQlV2QXM5RGdBeE4wU2lrTnpqTFdtMVJWMDlINDlzNWxmZkNSMWlPb2phbkdBcElLVXJTMHBQblBVWmFjV29VLTNnY3BwTmpjUXlhbW11VU0?oc=5",
+      "published": "Mon, 02 Nov 2026 14:54:36 GMT",
+      "summary": "Searcys reports progress against its ESG strategy, Second Nature&nbsp;&nbsp;Prestige Events Magazine",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T22:54:36+08:00",
+      "source_detail": {
+        "name": "Prestige Events Magazine",
+        "url": "https://www.prestigeeventsmagazineblog.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Searcys Reports Carbon and Food Waste Reductions Under Second Nature Strategy - Hospitality & Catering News",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdzlBX2xka2dWWXAtUHJhbk5VdzdfWmwyY3F4UEFDM2xEcnNVME5wYWZvdTJ4cTB1M2xqX3p4ZkxvMkcwQmV6VE1YVHJ6YlZnRlZiU1p1bnZFcVdmaVJtckJxYXhOVE1qV3ZlVGIwcDZQRDBFdnlOQ0QyaWxVTC1IU01FanNjS0ozbzR2TVp4eXFnQUpwTjMtZTFqZ3FMa280NmVJcDM3d1FRSkxSVmxyRHhWZjN1TllDNkhBTUpETy1TM0t1dWVFMA?oc=5",
+      "published": "Mon, 02 Nov 2026 14:44:44 GMT",
+      "summary": "Searcys Reports Carbon and Food Waste Reductions Under Second Nature Strategy&nbsp;&nbsp;Hospitality & Catering News",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T22:44:44+08:00",
+      "source_detail": {
+        "name": "Hospitality & Catering News",
+        "url": "https://www.hospitalityandcateringnews.com"
+      },
+      "priority": 1.2,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How private sector player is reshaping plastic waste recycling, green economy in Nigeria - Businessday NG",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVJRMzVlcWRWZWJ3eFdodTVxTndVLS16ckY2SXhlaXE4NFpBRHFnbnE3WWVqalJJaW9aXzl4bXhYRVR2a2lHenFvZHRPR1lNTE82c3J6S3Y3Z0M1anpGZWdQVGpWb1VBb29aMnM0ejdiOW5sOUprZk5VUzlVQWYwYnhSTlkxZFBFVHE3RUhOc1gydV9yNEVzWjZ5aHg5c09BSG9HOW1Pc0pZSFIxc2xTMkQ1R0ZINy1pV0lQYzIwNk9jakozQUZF0gHHAUFVX3lxTE5FUlEzNWVxZFZlYnd4V2h1NXFOd1UtLXpyRjZJeGVpcTg0WkFEcWducTdZZWpqUklpb1pfOXhteFhFVHZraUd6cW9kdE9HWU1MTzZzcnpLdjdnQzVqekZlZ1BUalZvVUFvb1oyczR6N2I5bmw5SmtmTlVTOVVBZjBieFJOWTFkUEVUcTdFSE5zWDJ1X3I0RXNaNnloeDlzT0FIb0c5bU9zSllIUjFzbFMyRDVHRkg3LWlXSVBjMjA2T2NqSjNBRkU?oc=5",
+      "published": "Mon, 02 Nov 2026 14:44:21 GMT",
+      "summary": "How private sector player is reshaping plastic waste recycling, green economy in Nigeria&nbsp;&nbsp;Businessday NG",
       "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-02T11:06:14+08:00",
+      "published_beijing": "2026-11-02T22:44:21+08:00",
       "source_detail": {
-        "name": "Bangkok Post",
-        "url": "http://www.bangkokpost.com"
+        "name": "Businessday NG",
+        "url": "https://businessday.ng"
       },
       "priority": 1.2,
       "category": "气候风险",
@@ -248,172 +548,99 @@
       "relevance": "low"
     },
     {
-      "title": "BRICS accelerates green transition - Dawn",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lWkNVcVFsWl9KeG9yY1hFVGRTV0pyOXVOLWpzVTFNVTY5Vk9zOUl5eGdSQ0dpSGgtS0lsa2FOOTIwZnRPWG84Tg?oc=5",
-      "published": "Mon, 02 Nov 2026 01:06:46 GMT",
-      "summary": "BRICS accelerates green transition&nbsp;&nbsp;Dawn",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T09:06:46+08:00",
+      "title": "CARBON FOOTPRINT - Juventus.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCdk1XN0RYcTROcGdGQmN4OVpuQS1fZHNZR2Zhd2NiLWRleWliLXFoNWhKV0U5RTExbEhaOVMwMER5azkzaGp3cjN4VnJqNUYzS2tmazFhNkU0Ynd0UHNvTVFGMjVEVFQxNDlV?oc=5",
+      "published": "Mon, 02 Nov 2026 10:31:31 GMT",
+      "summary": "CARBON FOOTPRINT&nbsp;&nbsp;Juventus.com",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T18:31:31+08:00",
       "source_detail": {
-        "name": "Dawn",
-        "url": "https://www.dawn.com"
+        "name": "Juventus.com",
+        "url": "https://www.juventus.com"
       },
       "priority": 1.2,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Astronomers found a mysterious object beyond Neptune, and it could be a new dwarf planet - Space",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM056ZUtjbUc4LTdGdWxlOGtlTTd1d1YtTTVNd1otVy1CaTQzcU9HZDB6VlFCUDNBYnctbkwwaVVXcUFHS01UazlHRTIyNmRlUXFmazdFb2ZfZFloOF9iYkhfckpsREhUWFJSRHVhRzdRS2U0bVlnRTFwZDZWMERMOXRYNmhFUW9TOVNUa2xuSS0ya2hLUTFJZHdiRVhmNFNSTkNfcTh4RENsV2JObXhwU1UtNG15YU52WmJQTFZSQkhVTTg5bGJnRXJfOXlCdw?oc=5",
-      "published": "Wed, 28 Oct 2026 12:58:18 GMT",
-      "summary": "Astronomers found a mysterious object beyond Neptune, and it could be a new dwarf planet&nbsp;&nbsp;SpacePossible New Dwarf Planet in the Solar System&nbsp;&nbsp;Sky & TelescopeScientists find possible dwarf planet hiding in outer solar system&nbsp;&nbsp;YahooAstronomers Just Discovered a New Hidden World Beyond Neptune&nbsp;&nbsp;National GeographicPossible new dwarf planet identified orbiting beyond Pluto&nbsp;&nbsp;Reuters",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-28T20:58:18+08:00",
-      "source_detail": {
-        "name": "Space",
-        "url": "https://www.space.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Electrical signals reveal hidden magnetic information in altermagnets for first time - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXdQU2J6Y01uUEVPMnVwUUJQQ0ViZ2xXQ2N5cU9YcEFaSU9zTHMxRFczYXRQLUdpeEcwSzNKb044Uk9SVWdobG5nTmtGeTRDODJxeWVQWlhtcTAtbFdNY1VoTVFXYnE5WU9rYmJLM3hMTVcwdTFwUmlPVEtpZmM3dFd2bDV6X3U2?oc=5",
-      "published": "Thu, 29 Oct 2026 19:40:04 GMT",
-      "summary": "Electrical signals reveal hidden magnetic information in altermagnets for first time&nbsp;&nbsp;Phys.orgConfirming altermagnetism: A geometric twist offers experimental proof&nbsp;&nbsp;Phys.orgSqueezing magnetic crystals offers new insight into electron behavior&nbsp;&nbsp;The Brighter Side of NewsSimple squeeze changes magnetic behavior in emerging materials&nbsp;&nbsp;EurekAlert!Spin currents reveal hidden magnetic information in altermagnets&nbsp;&nbsp;Nanowerk",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-30T03:40:04+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "A hidden brain rhythm challenges ideas about where consciousness comes from - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjVXdG9TczVOeDZ2RUtIUDhTYTdKMUtoUE51Um5EUTlRZ3R2VkJDaUxZVnB2VXREVlZycXhqVjNXRnFPZFBlTnVlM3I3cG9zY3lSRTBEOXVKX2trU1NsZE1nMl9sNnR3QkFBOVlZcnNQZXFVRnhLd1NIS0R0el94RjdTUzZ1dTRZTEYw?oc=5",
-      "published": "Thu, 29 Oct 2026 15:20:07 GMT",
-      "summary": "A hidden brain rhythm challenges ideas about where consciousness comes from&nbsp;&nbsp;Medical XpressDo we really live in the present? The brain can switch between two perceptions of reality 15 times a second&nbsp;&nbsp;Gazeta ExpressYour brain can switch between two realities 15 times per second&nbsp;&nbsp;cna.alScientists Find Evidence That the Human Brain Is Constantly Snapping Between Different Realities&nbsp;&nbsp;Futurism",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-29T23:20:07+08:00",
-      "source_detail": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Collective human metabolism produces 2 billion metric tons of CO₂ a year, global study estimates - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4UEtXNUdpMzFyS2hwQWs5SWFjUF94cUZRNTNPOUN1alZtX01POHozRFFYU1pIRGQ3ODRoUDZIZE14akxUY2xSMHQ1blZHOGhLS0ktTWlXZnF2SkY4a0RSbkh6akVSU0g0eUFaRWhqaUF0SWRub2RlNTFSdw?oc=5",
-      "published": "Sun, 01 Nov 2026 22:00:01 GMT",
-      "summary": "Collective human metabolism produces 2 billion metric tons of CO₂ a year, global study estimates&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T06:00:01+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "New Moab excavation site could be oldest Cretaceous dinosaur bonebed in North America - KSL News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeG9CQU1jbExmMjJkSUZhM1hnZXowU0QwN1ZyOGVndXowMkhsRDZJMGR2QndQNjFxT1AxX0VRRGRZdEJBQlV5b3JjWHB2d3VMUHNuQjZrMFJxU1N4M0VUTnJJMzZsUEU5aHFkZXZOMkl3eWxTQWpobW5IVlZfUzFJWEtBNHU5ckpyMkJPOWd3cXhoNXI0UzUyOGViZkZhcGJ0MWM3eVE3U3pEVjdnWVRxYkQ3eWpzeWNoVnlrOUduMA?oc=5",
-      "published": "Sun, 01 Nov 2026 21:10:38 GMT",
-      "summary": "New Moab excavation site could be oldest Cretaceous dinosaur bonebed in North America&nbsp;&nbsp;KSL NewsSee more headlines & perspectives on Google News",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T05:10:38+08:00",
-      "source_detail": {
-        "name": "KSL News",
-        "url": "https://www.ksl.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "COP31’s missing link: Economics of zero waste | Daily Sabah - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSWtINlc4STNnWjlYd1gwN0JqbC0xcHpjZnBqR1QwMG1LT05ZR1BOVkoyalh0amlmX1NodDdEVFVyeVRQbmZzT2Z2SkJsNVZQZzZmaEduNjU1RFN2T3JsRUV1S3ZNaC1xTUJBZmJzTEtIUk1CRWphRmxCX1ZOUmx4TkE3MVNFaU51YVl5RmlLa3VIQdIBkgFBVV95cUxQSWtINlc4STNnWjlYd1gwN0JqbC0xcHpjZnBqR1QwMG1LT05ZR1BOVkoyalh0amlmX1NodDdEVFVyeVRQbmZzT2Z2SkJsNVZQZzZmaEduNjU1RFN2T3JsRUV1S3ZNaC1xTUJBZmJzTEtIUk1CRWphRmxCX1ZOUmx4TkE3MVNFaU51YVl5RmlLa3VIQQ?oc=5",
-      "published": "Sun, 01 Nov 2026 21:05:00 GMT",
-      "summary": "COP31’s missing link: Economics of zero waste | Daily Sabah&nbsp;&nbsp;Daily Sabah",
-      "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-02T05:05:00+08:00",
-      "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
-      },
-      "priority": 0.0,
       "category": "可持续供应链",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Kouchouk outlines state strategy to expand private partnerships, investment inflows - Egyptian Gazette",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFFreldBZ1FpaTVjQUp6YXlmY3R3N0lNX3F4YjNtaXQ4bHdtZGxkUWJLZm8zSXo4d0VlS2JTcFBsQjdTNGhYQWYxUEhETmNmUDB5cFM3TzFTbDBhSndITG1qQzA2dUVwQUhCRnlsY05md2J1MzZlbUd6dW1JZTd3T0JBajZkYUV5a3pVNHdCMC1DaWI1VDctN2VwWVFpcXcwWnlLMXgwMndUdmNZZEhXdU94RGhCdW5wZHc?oc=5",
-      "published": "Sun, 01 Nov 2026 20:22:38 GMT",
-      "summary": "Kouchouk outlines state strategy to expand private partnerships, investment inflows&nbsp;&nbsp;Egyptian Gazette",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T04:22:38+08:00",
+      "title": "Exploring Top Rated PPWR-Ready Cosmetic Packaging Manufacturer for European Green Export - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDkyQ1FpMjJHOEVTbUtoQTRkb250SGJjZTRrUGxSZHNidVFXcFBkc1hiQ2hVSDg2aEtVRjdvN1c4cWh1VEM0RWc4c1FNY3dLbVRHdG1ENHBLT0U4dVlXTWZMcGlLVFR2N0ZyQ3hpb3pQWTlOa0VyRklmclZ5VTRia3ktY1QzVGFJSWdVSXh3?oc=5",
+      "published": "Mon, 02 Nov 2026 09:16:51 GMT",
+      "summary": "Exploring Top Rated PPWR-Ready Cosmetic Packaging Manufacturer for European Green Export&nbsp;&nbsp;openPR.com",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-11-02T17:16:51+08:00",
       "source_detail": {
-        "name": "Egyptian Gazette",
-        "url": "https://egyptian-gazette.com"
+        "name": "openPR.com",
+        "url": "https://www.openpr.com"
       },
-      "priority": 0.0,
-      "category": "碳+绿",
+      "priority": 1.2,
+      "category": "气候风险",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "NASA’s Swift telescope expected to crash to Earth after failed rescue mission - KTLA",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblhJVVMxTmJEWlNGZjV0MFZPRmVXQWdhemxLTlhuVkpPRHppaV9kWTVxb0hFRlBnMlEzT1Z5RlgzOXJ1ZmVRenFXYVhWWTRMcFJTdEVYUkN2ZkZJZGVwT2I3M04wY3B1NWJBRXBwYVNIWk9jbzFrSGxsOGhjb0RldWdKZmdZSVhvYnNFZGJoRXBxUmd1ODdwck9Ed2J2Q0RDb2FOd2txNkFmNGwzMG5RYtIBtgFBVV95cUxQUDdwaV96T3BQZXZKcXFDNmxoTmlYYXlhb3Ywd3NTV1ZKdVdrQXg2X25KVGVsVDUxVGVPcS1KX2l3SVZzRHZPcmhtNEtzN3IwUWxqUGdCUXBmV1NFTlBETnhzWDJTWXNBVm9fcWItZnVESWx3OVMtRGxfVksyZW44ZlBpZy10S3Rpb3JjY1ZuaFFQYkxGZWxvUnNZUmRIMzZQWUZmTkV0RUt0TFZUSU8za3h3OXBzZw?oc=5",
-      "published": "Sun, 01 Nov 2026 18:48:04 GMT",
-      "summary": "NASA’s Swift telescope expected to crash to Earth after failed rescue mission&nbsp;&nbsp;KTLANASA telescope is on the verge of plunging back to Earth after failed rescue mission&nbsp;&nbsp;ABC News - Breaking News, Latest News and VideosNASA's Swift space telescope is about to crash to Earth. Where will it fall?&nbsp;&nbsp;SpaceNASA satellite to plunge back to Earth after 22 years in space&nbsp;&nbsp;Scripps NewsFiery return expected for NASA’s Swift telescope this week&nbsp;&nbsp;WRAL",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T02:48:04+08:00",
+      "title": "[进展] ESG News Week In Review: 11 October – 31 October - ESG News",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ORzc4ZFdmOUptZmhCaU5TMEhMS3U5cERYYVFhd3lDZWJ2TkdRYzBSRnVNajkzTHdhMnhNcElNZ3lPUVFDemJucUQ4aURBTTNrQWxva25tekpfaWxvc29aQ2FPVlY3eFRaU1VmWFVvd0VzN01p?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:44 GMT",
+      "summary": "ESG News Week In Review: 11 October – 31 October&nbsp;&nbsp;ESG News",
+      "source": "GNews | EU Taxonomy",
+      "published_beijing": "2026-11-02T16:00:44+08:00",
       "source_detail": {
-        "name": "KTLA",
-        "url": "https://ktla.com"
+        "name": "ESG News",
+        "url": "https://esgnews.com"
       },
-      "priority": 0.0,
-      "category": "专题精选",
+      "priority": 1.2,
+      "category": "ESG法规",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Monday launch may produce a ‘space jellyfish’ in the West - The Weather Channel",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXN5elRuSWxOWmZBUTh3MGQ5MUF3a0g3ZjAweDIyYTFERWEtb2FtSlFEd0NKX3Z1QVM5dlNERmhnLUNvQ3NrQ21jRGhPR2Z2TUI2Q2NJQkpLOEdITFVfLVNONDdkdDNva2tZZWFzdjdkZDlnV00zQkJUMEtPZ2FELW5BeFgzN2tzTDVzM1lHWjN0a0JpRHFGMmhNa2xQdF9G?oc=5",
-      "published": "Sun, 01 Nov 2026 18:30:00 GMT",
-      "summary": "Monday launch may produce a ‘space jellyfish’ in the West&nbsp;&nbsp;The Weather Channel",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T02:30:00+08:00",
-      "source_detail": {
-        "name": "The Weather Channel",
-        "url": "https://weather.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
+      "title": "Schneider Electric to Recruit 50 Engineers Across Five Hubs for AI-Focused Energy Program",
+      "link": "https://esgnews.com/schneider-electric-energy-tech-accelerator/?utm_source=rss&utm_medium=rss&utm_campaign=schneider-electric-energy-tech-accelerator",
+      "published": "Mon, 02 Nov 2026 16:05:46 +0000",
+      "summary": "Schneider Electric has launched Energy Tech Accelerator, a 12-month global early-career program for engineers. The company will recruit an inaugural cohort of 50 participants across five global hubs. Participants will [&#8230;]\nThe post Schneider Electric to Recruit 50 Engineers Across Five Hubs for AI-Focused Energy Program appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-03T00:05:46+08:00",
+      "priority": 1.0,
+      "category": "独立RSS源",
       "_incremental": "new",
-      "relevance": "low"
+      "relevance": "low",
+      "full_text": "Schneider Electric to Recruit 50 Engineers Across Five Hubs for AI-Focused Energy Program\n- Inaugural cohort: Schneider Electric will recruit 50 early-career participants for its new Energy Tech Accelerator program.\n- Two rotations: Each participant will complete two six-month rotations over 12 months, with learning, mentoring and customer exposure.\n- Five global hubs: The cohort will be based in Boston, Paris and Grenoble, Dubai, Bangalore, and Shanghai.\nSchneider Electric has launched Energy Tech Accelerator, a 12-month global early-career program for engineers. The company will recruit an inaugural cohort of 50 participants across five global hubs. Participants will work at the intersection of artificial intelligence (AI), engineering and sustainable energy.\nEach participant will complete two six-month rotations based in Boston, Paris and Grenoble, Dubai, Bangalore, or Shanghai. They will tackle business and customer challenges while receiving dedicated learning, mentoring and customer exposure. The program also aims to build a connected global community among participants. “At Schneider, our goal is to Advance Energy Tech to the next level to deliver greater business outcomes for our customers. By leveraging Data & AI, we connect the physical and digital worlds to deliver Energy & Industrial Intelligence to our Customers,” said Olivier Blum, chief executive officer of Schneider Electric. “Turning that intelligence into solutions that help our customers operate more efficiently and sustainably requires people who can combine deep knowledge of energy and industrial processes with AI. That is why we are launching Energy Tech Accelerator: to attract and develop people who understand AI, are passionate about the energy transition and want to make a tangible contribution to a more sustainable future.”\nQuick anonymous worklife pollWhat's my daily work emissions burn, or savings?Powered by ESG News\nEnergy Tech Accelerator is part of Schneider Electric’s investment in workforce capabilities as energy systems become more digital and connected. The company said the program gives emerging talent responsibility and practical experience from the start. “Advancing energy technology is ultimately about people,” said Charise Le, chief human resources officer of Schneider Electric. “Early-career talent should not have to wait years to make a meaningful contribution. Through Energy Tech Accelerator, participants will learn across the business, take on real challenges and build the capabilities and confidence to help shape a more sustainable energy future.”\nSchneider Electric is targeting curious, analytical and globally minded early-career engineers. It wants candidates who are excited by AI, digital technology and sustainable transformation. Applications open Nov. 2, and candidates can apply through the Energy Tech Accelerator page on Schneider Electric’s careers site. However, the company did not disclose the program’s budget, the cohort’s start date or an application deadline.\nRELATED ARTICLE: Schneider Electric Backs New Climate Impact Framework\nWhy It Matters\nEnergy Tech Accelerator gives Schneider Electric a dedicated pipeline of 50 engineers trained in both AI and energy processes. Blum tied that skill mix directly to delivering Energy & Industrial Intelligence, built on data and AI, to customers. Because rotations focus on customer challenges, participants also build client-facing experience within their first year. If the first cohort completes both rotations, the company could staff more AI-based efficiency projects for customers from within its own ranks.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
     },
     {
-      "title": "Scientists have what they say is one of the oldest Mars meteorites - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUTlzbDhYeWEwdHBaVFFEd1RleGswTXRpQkoxdmQ4dmlMVGE1YTlLWlZ5Ti1Uai1ZVThBRWNVRUFVNjZFdWlEMnd6cUtpUDBvc19xd09JaDVlVHZaV291WGlfYnVJWTBteV9Qc051eVpSTXRIclhEZ3FVbjBJWC04a1lWYXBEUGxEVWRqZGxVVTdlRm13aUtERExlVGdkLTdQckEyNldKTkpBS1BtWUFJ?oc=5",
-      "published": "Sun, 01 Nov 2026 17:00:00 GMT",
-      "summary": "Scientists have what they say is one of the oldest Mars meteorites&nbsp;&nbsp;The Washington PostA Meteorite Found in the Sahara Is a 4.1-Billion-Year-Old Piece of Mars&nbsp;&nbsp;The New York TimesMartian meteorite found in the Sahara is 4.1 billion years old&nbsp;&nbsp;ReutersNASA-funded Study Details One of Oldest Mars Meteorites Ever Found&nbsp;&nbsp;NASA (.gov)Rose-colored meteorite found in the Sahara Desert turns out to be 4.1 billion-year-old piece of Mars&nbsp;&nbsp;CBS News",
+      "title": "Iberdrola, NBIM Add 274 MW Portuguese Wind Farm to Iberian Co-Investment Platform",
+      "link": "https://esgnews.com/iberdrola-nbim-tamega-wind-274-mw/?utm_source=rss&utm_medium=rss&utm_campaign=iberdrola-nbim-tamega-wind-274-mw",
+      "published": "Mon, 02 Nov 2026 15:55:36 +0000",
+      "summary": "Iberdrola and Norges Bank Investment Management (NBIM) have added the 274-megawatt (MW) Tâmega wind project to their Iberian co-investment platform. The wind farm, located in northern Portugal, is already in [&#8230;]\nThe post Iberdrola, NBIM Add 274 MW Portuguese Wind Farm to Iberian Co-Investment Platform appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T23:55:36+08:00",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Iberdrola, NBIM Add 274 MW Portuguese Wind Farm to Iberian Co-Investment Platform\n- Tâmega wind added: The 274 MW Tâmega wind project in northern Portugal, already in commercial operation, joins the co-investment platform.\n- Portfolio passes 1,800 MW: The platform’s total capacity now exceeds 1,800 MW after the latest closing.\n- 2,300 MW targeted: The partners expect to reach 2,300 MW by next year, backed by more than €2 billion of investment.\nIberdrola and Norges Bank Investment Management (NBIM) have added the 274-megawatt (MW) Tâmega wind project to their Iberian co-investment platform. The wind farm, located in northern Portugal, is already in commercial operation. As a result, the alliance’s renewable portfolio now exceeds 1,800 MW of total capacity.\nThe partners expect the platform to keep adding renewable capacity and reach 2,300 MW by next year. The alliance is backed by more than €2 billion of investment. It also forms part of a long-term strategic alliance to accelerate electrification. However, the companies did not disclose the Tâmega deal value, the ownership split or the projects behind the remaining capacity.\nAccording to the companies, Iberdrola is Europe’s largest utility and one of the two largest worldwide by market capitalisation. NBIM, one of the world’s largest sovereign wealth funds, manages assets of around €2.1 trillion. It holds stakes in more than 9,000 companies, averaging 1.5% of all listed companies globally and 2.5% across Europe. The companies also say the partnership could extend into renewable projects in additional markets.\nWhat’s New\nTâmega follows the addition of 646 MW of solar photovoltaic (PV) capacity to the joint venture earlier this year. That capacity comes from the Caparacena and Ciudad Rodrigo plants in Spain, in operation since the end of last year. The alliance began as NBIM’s first direct investment in renewable assets in Spain, so Tâmega adds operating wind capacity in Portugal. Meanwhile, NBIM has held around 2.3% of Iberdrola for more than seven years.\nWhy It Matters\nFor Iberdrola, the closing moves another operating asset into a joint venture with one of its largest shareholders. For NBIM, Tâmega extends its direct renewable holdings from Spanish solar into Portuguese wind. If the platform reaches its 2,300 MW goal on schedule, it could give Iberdrola an established co-investor for renewables beyond Spain and Portugal.\nRELATED ARTICLE: Iberdrola Advances Labraza Wind Farm With $33 EIB Loan\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "Google Funds $160 Million Water Plant in Negeri Sembilan",
+      "link": "https://esgnews.com/google-negeri-sembilan-water-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-negeri-sembilan-water-plant",
+      "published": "Mon, 02 Nov 2026 14:49:35 +0000",
+      "summary": "Google has committed $160 million to build shared water infrastructure in Negeri Sembilan, Malaysia. The funds will pay for an off-river storage reservoir and a water treatment plant. When complete, [&#8230;]\nThe post Google Funds $160 Million Water Plant in Negeri Sembilan appeared first on ESG News.",
+      "source": "ESG News",
+      "published_beijing": "2026-11-02T22:49:35+08:00",
+      "priority": 1.0,
+      "category": "独立RSS源",
+      "_incremental": "new",
+      "relevance": "low",
+      "full_text": "Google Funds $160 Million Water Plant in Negeri Sembilan\n- $160 million commitment: Google will fund an off-river storage reservoir and water treatment plant in Negeri Sembilan, Malaysia.\n- Shared daily supply: The plant will supply 65 million liters of drinking water a day for public use and Google’s planned campus.\n- State ownership: Menteri Besar Negeri Sembilan Incorporated, a state statutory body, will own the facilities after completion.\nGoogle has committed $160 million to build shared water infrastructure in Negeri Sembilan, Malaysia. The funds will pay for an off-river storage reservoir and a water treatment plant. When complete, the plant will supply 65 million liters (17.17 million gallons) of drinking water a day. That supply will serve public use as well as Google’s planned data center campus in Port Dickson.\nGoogle partnered with the Negeri Sembilan state government and water utility Syarikat Air Negeri Sembilan Sdn Bhd on the project. It appointed Gamuda Berhad, a Malaysia-based engineering and construction company, to build the reservoir and treatment plant. Once construction ends, Menteri Besar Negeri Sembilan Incorporated, a state statutory body that holds assets, will own the facilities. Google did not disclose a completion date or how much of the daily supply its campus will use.\nSeparately, Google has committed to pay for 100 percent of the power its Port Dickson campus requires. It will also cover the direct infrastructure costs of connecting the campus to the grid. Meanwhile, Google is expanding its work with SOLS Foundation to start two clean energy training initiatives for young people. “Google’s decision to fund shared water infrastructure in Negeri Sembilan reflects our global ambition to replenish 120 percent of the freshwater volume we consume, even as our water risk assessment showed that local water sources were not at high risk of scarcity or depletion. This underscores our responsibility to grow our presence sustainably—pairing advanced digital infrastructure development with water replenishment projects, power infrastructure enhancements, and programs designed to upskill local talent for new career opportunities,” said Drew Byrnes, director and head of global infrastructure and energy, Asia Pacific, at Google.\nGoogle’s Malaysia Build-Out\nGoogle earlier bought 389 acres in Port Dickson, about 90km (55.9 miles) south of Kuala Lumpur, for the campus. Reports put its capacity at 500MW to 1GW, with Gamuda Engineering leading engineering and infrastructure works. In October 2024, Google broke ground at Selangor’s Elmina Business Park, where a 100MW first phase is expected. Both projects are part of the $2 billion Google committed to invest in Malaysia in 2024.\nRELATED ARTICLE: Google Backs Texas Electric Freight Route\nWhy It Matters\nFor Google, the plant gives its Port Dickson campus a dedicated water source while adding drinking water for public use. For Gamuda, it adds a water treatment contract alongside its reported engineering role on the data center itself. Once complete, the plant positions Google to bring the campus online and turn part of its Malaysia investment into operating data center capacity.\nThe Stakeholders at a Glance\nThe ESG News Editorial Team is comprised of veteran financial journalists and sustainability analysts dedicated to providing real-time, objective reporting on global ESG regulations, climate finance, and corporate governance. Our desk monitors daily developments from the SEC, IFRS, CSRD and international regulatory bodies to ensure our 1M+ readers receive accurate, data-driven insights into the evolving sustainable investment landscape. Follow the ESG News Editorial Team for expert reporting on global sustainability standards, ESG disclosures, and climate policy. Access over 10,000 investigative reports and real-time updates."
+    },
+    {
+      "title": "Column | Your muscles can get ‘lazy’ fast. Here’s what to do about it. - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeHE2ZGxCRlpJcVFvUTBTY1RGUGdmeUw0RUtselZmSlBtcmtrNXBvWGtYejBtdE8wQ2lHYi1WRG96WWxBR3BuaU13ZjRHeXhmLV9nT09XM1FWT0lnSWR6YVBNem1FN3R5M1Q2YWlvNHVGeFFPUVdhZ1l3QzhObmxYNkp1ZkVSdTBUNkJWOUNfVzBzd3lPRHVYaUV4al9PVjYyblRuMGZodDU?oc=5",
+      "published": "Wed, 28 Oct 2026 16:00:00 GMT",
+      "summary": "Column | Your muscles can get ‘lazy’ fast. Here’s what to do about it.&nbsp;&nbsp;The Washington Post",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T01:00:00+08:00",
+      "published_beijing": "2026-10-29T00:00:00+08:00",
       "source_detail": {
         "name": "The Washington Post",
         "url": "https://www.washingtonpost.com"
@@ -424,79 +651,15 @@
       "relevance": "low"
     },
     {
-      "title": "Crew from NASA's simulated Mars mission emerges after 378 days in isolation - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGRXMURNMmtKbjhBMEt0NnJPb3JYSXlaVHlBZzJfRXlaclVDejlLWElYWE5wMlRIc0E5bmVYN295RmczMklmR0E2SVBSTjJYWkR4ZzBXR0NUS2llWEwyRTU3NVV0Uk1WX1hxZlg2eE5vYXpXX0hpZ3VRQlRJM3ljaVppZEdJa0VleUNlSGZ2bUdaZTZmUTN3S1NDd2trdGJsaTRXcTFaUVFnNlNnZ3B3?oc=5",
-      "published": "Sun, 01 Nov 2026 16:37:00 GMT",
-      "summary": "Crew from NASA's simulated Mars mission emerges after 378 days in isolation&nbsp;&nbsp;ReutersThey spent more than a year inside a NASA hangar in Houston simulating life on Mars. Now, they’re finally out&nbsp;&nbsp;Houston Public MediaFour volunteers just finished a year in isolation in Houston, all in the name of space exploration&nbsp;&nbsp;KHOUNASA Invites Media to Crew Completion of Yearlong Mars Simulation&nbsp;&nbsp;NASA (.gov)NASA's Second Year-Long Mars Simulation Mission Ends Today&nbsp...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-02T00:37:00+08:00",
+      "title": "AI-related debt binge may pressure European bond markets - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblQ0XzlqZzJsa2FDYW5uSVdhTUluMGpBaEY0NV9hSXNZWUMtMGtBX202UnhyWWR3NmJ5VGtMLUtJOGllZjRfVGZVU05aZFBDQldVT29SOTg0a3owVVkwa000ZnktWmlwaUdWRFg4QzhYNXFCVm1oaGlFRXlzQnJtcjN4T01VN0Y5cmhKdVJoOG1FVWg3WXFIbjI0d3Vhd1Fhanhn?oc=5",
+      "published": "Tue, 03 Nov 2026 05:03:00 GMT",
+      "summary": "AI-related debt binge may pressure European bond markets&nbsp;&nbsp;Reuters",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T13:03:00+08:00",
       "source_detail": {
         "name": "Reuters",
         "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54aVlOemxXV09YSjliZlMyS0htSnNXT3BSR3QzWHhzanVrUXJjcVFxc09mMkxtRGV2MHJCVXNuUE1jYzRoTWhRZ0gtTndIdE9DdEhBaUxUdktETk5HcGpkSVQxTHpJVEI4QnVFMHI3emk3dWJnSG16ZXUyVEQ?oc=5",
-      "published": "Sun, 01 Nov 2026 15:20:02 GMT",
-      "summary": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace&nbsp;&nbsp;Phys.orgInterstellar Visitor 3I/ATLAS Just Got Even Weirder, And May Contain 10-Billion-Year-Old Material&nbsp;&nbsp;ScienceAlertWebb Finds Dust-Rich Water Ice in Interstellar Comet 3I/ATLAS&nbsp;&nbsp;Sci.NewsInterstellar Object 3I/ATLAS: 3I/ATLAS may have come from a star system older than our sun, James Webb Tel&nbsp;&nbsp;The Economic Times3I/ATLAS isotope study points to a cold, ancient origin&nbsp;&nbsp;FindArtic...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T23:20:02+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Paper Board Partition Market To 2035: E-Commerce Packaging Demand Drives Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN0VlMUpSc1ZNbkhXWHpUQllXR1Z5Z0Q5c0oxVTdjS3VJMUlCNXI4dXBDaEg0RnlScHhrZzhIUkNtdERNU2gzY0wwUTV3UGUyaTR2MjZMVUROMm5yLVNzanY5bmFELVUyeFJKU2NXblVkVU9zNGR1VE1IbmRIcDl0Wlo4MHVYZEc4NHFWMVNMaTZKU19aT2tCRTJZNEljY2wxSTczeGRhZVd1UjNwNWlCYTFkSQ?oc=5",
-      "published": "Sun, 01 Nov 2026 14:46:04 GMT",
-      "summary": "Paper Board Partition Market To 2035: E-Commerce Packaging Demand Drives Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-01T22:46:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Tire Casings Market To 2035: Fleet Retreading Demand Supports Forward Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYXo4Y0pNRTIxN3BodnpWU0JieXFtRnFvVXdYb2ViZkRvMzJGTWIzaW1mUFQ1bEtNUm1fWmN2UEduN1ZCUkwwTXpDZEctLXlGd2NxZmc4cXF4MjBrbl9kM3VndHV2d2IwRmRGeS15aWNPdU5wZlJzWVJSdGRfU3VaZDUxV0VfSERScUJDNlRQS1dXVTFtekVIVWhIUVdoSF9mZEhtMXZyUE5xZExteloxVGlfcDZxRW1lZUZkZjJ3?oc=5",
-      "published": "Sun, 01 Nov 2026 14:16:04 GMT",
-      "summary": "Tire Casings Market To 2035: Fleet Retreading Demand Supports Forward Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-01T22:16:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Unicaja Q3 2026 slides show 8% profit gain, 95% payout ratio By Investing.com - Investing.com South Africa",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY2l6dXFlMG9JWXFjZ2xXZVBKUVJDRWhrVElFdF9YcVBnVjJ4TEVrS1NEZmFZWVRQbTdmN3dwTHFGZ2ViRzFVZHU5UjNIS1VYM3IycUdOUUZRbWlBa2ZqLUxqUTRmVml0NGhjVzlYX253UDBHRmtZS2JHek9zbTZ5WWw0REpTZW5Lb2pLV3lfbmxPQ3FQeXJYTklCaXllYXA3ZHJOdVRPWTF3bEpfZzRORWo5TWJJU2lHLXc?oc=5",
-      "published": "Sun, 01 Nov 2026 12:40:50 GMT",
-      "summary": "Unicaja Q3 2026 slides show 8% profit gain, 95% payout ratio By Investing.com&nbsp;&nbsp;Investing.com South Africa",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-01T20:40:50+08:00",
-      "source_detail": {
-        "name": "Investing.com South Africa",
-        "url": "https://za.investing.com"
       },
       "priority": 0.0,
       "category": "碳+绿",
@@ -504,15 +667,15 @@
       "relevance": "low"
     },
     {
-      "title": "Scientists shrink Archimedes’ screw to the size of a single molecule - Science Daily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tY2xvdGY0VkdDTWdsSkJ3VjR5MlFhYVFfekJqX0Y4LTlDeUROM21tM05sWkhaYy1rRmlaS0NUS1BSLUszTkV4UWV0ekZRNmF4V1pyM1Exd0J1bnM2dUQ2QnVVaVI5YU9VYWtaZkYwVQ?oc=5",
-      "published": "Sun, 01 Nov 2026 11:57:32 GMT",
-      "summary": "Scientists shrink Archimedes’ screw to the size of a single molecule&nbsp;&nbsp;Science DailyMolecular motor increased conductivity 100-fold — ScienceDaily&nbsp;&nbsp;UA.NEWS",
+      "title": "In 2022, an 800-gram pink rock was found in the Sahara Desert; NASA-funded researchers have now confirmed - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPRnd4TW1nVlVwVGpUeE8xeDl1LVlyaU53bmV4bkwySEY3YTJWVjBVSHgzbWhqVUh3SkkxWE5JOUJtSEpBeWNWeEpfRkkxYXByS0hYMENDUTYxRVBNVTBWcVdldGRGLVBYQUFuV2lpd0xBbWVtQmZaZi1JRWJzSU5XMzltTW9sTUo5bVd1OHhUNm0zRXZ1c2w1YWdMdm0wZHVob1U4dU1yTC1GVktIU2NrMXY1M3I1cXZMLTBsQTZuWi02Vk91RFhtRFcwX1FOZUZwSjQ0NUltZExQbkVGOWlKaFM5MGJaVV9fbFo5TXYtUFVSV3VzbGFQWTExY05yZW4wdC1xLVpXVS0zQ0czZzVhQTcyMHNQOE9ieG13Sy1rQlUyMy1PYnJidzJDOVFldEZnbmMwNUpkcmk3VDFBVnF6eGNzTHFPV2VNNkhPVUxmaGE2MkpQeGRCZDBEV1dmX3dSenJXdXhmU3RFOFFHNDFZUzJrNUxmdWxyUzlnajd3dVNFWThXMEpEYUZOaTFfYWfSAZQDQVVfeXFMUG5zTWlKRlFNc2lISUE4WFJkYmZhamVJOHpGSWM5b0JjbTdyU3JMQS1uSXBocWFudzU4OEJFNEtWbHdkZmNuZmU3TmV1elQ4ZjFPYW5TVEJ5YjFOb3Nxdkw4V1NqQjNjcENNVXFFclR6eXBPQjgxWEFJNHFJaEk0WTJXZFk3dTBNd25lRXBnMTNXY2JJZXBOWUNXVmhhVFRTckR5MjFDQmMwUVZzalhmTldtd1RLZ25PNHUtUkZTMkNBNlhsekYzSTRpTjVYOWlpLTlTOC1CN2QyM2dBSzVaUThMTGRwOFlWeklzU2h5dWtiMDB5NF9BLTY3WEJHT2stNmwtMm14NGRQWFJISzYwMGVMYTNMTERuQW43TnhxcHFyQWRpSDk4T0E2VFlPRnpoOGd2VE5jQVN3Z3Z3ZEV5YlZvaGNYbkpWZ0pIUk5GcVBMMzh2ZHNxWU1wS19ia2ZFSWtkcTB1V0hudDBycUdkc2M0WXYyUm5IWEtnLVFuS2ZUc0R3N1F1RE1DWF9HNjNjMkdudTI?oc=5",
+      "published": "Tue, 03 Nov 2026 04:49:00 GMT",
+      "summary": "In 2022, an 800-gram pink rock was found in the Sahara Desert; NASA-funded researchers have now confirmed&nbsp;&nbsp;The Times of IndiaA Meteorite Found in the Sahara Is a 4.1-Billion-Year-Old Piece of Mars&nbsp;&nbsp;The New York TimesNASA-funded Study Details One of Oldest Mars Meteorites Ever Found&nbsp;&nbsp;NASA (.gov)Martian meteorite found in the Sahara is 4.1 billion years old&nbsp;&nbsp;ReutersA rose-colored rock found in the Sahara in 2022 turned out to be a 4.1-billion-year-old piece ...",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T19:57:32+08:00",
+      "published_beijing": "2026-11-03T12:49:00+08:00",
       "source_detail": {
-        "name": "Science Daily",
-        "url": "https://www.sciencedaily.com"
+        "name": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -520,63 +683,31 @@
       "relevance": "low"
     },
     {
-      "title": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE15cmdQc3MtdFdreUVLZmJ2OW9nR1Q0d2JBZ0FtV0dJNUFYRFl6enVMNXBWWVplOFd2S05BRGFwbzhjUmJxUHBXRHZzZWxiQ3oyd3A4QVpyWUlSOEI2VkRWeThBTkp4TmFnWnpUeklOVWIzUQ?oc=5",
-      "published": "Sun, 01 Nov 2026 11:40:01 GMT",
-      "summary": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T19:40:01+08:00",
+      "title": "CCTV Script 03/11/26 - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDWnVSR1dfdTROOFNiUnYwM3dIaDZoZGhkV0UzVDJxcFltSEtzQl9zVWtkM29DSXhTeFR0R29qNkx3cXFJQy1aa2lvLWsxZ3MtVFNsdEh4ZDUtbVdORW93aFJvTzFVQdIBa0FVX3lxTE5sdUZFQWZlSTN5VmhiSXBQam9jY1RnRTdNWWZKTUZjLURMbFoyOE84ODBKYzN3NlNkcHM3Nzd2UXhBczBBLUdRdERyNlVZZ3BfQklka3pKZks4LTBSN1M1YnF6aWJlVGx3NHEw?oc=5",
+      "published": "Tue, 03 Nov 2026 02:50:00 GMT",
+      "summary": "CCTV Script 03/11/26&nbsp;&nbsp;CNBC",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T10:50:00+08:00",
       "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com"
       },
       "priority": 0.0,
-      "category": "专题精选",
+      "category": "碳+绿",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "GC Agenda: November 2026 - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM2g0N21waEtTVjl5RXhJNl9qdlRWdU1xR0RPZnp6aTFSV0V4WHF4Z0tFUzZzTkFZS282ek9heGlFUWt5cFQyRFRyOXRZQlNkNVpmR0g2NEVhRTNXNmw5cW44NmVHanpHWFRURVdVLV9tQTFvX010VjBDYTFMQUxlUU9WWkxEOTZ5Z3IwV3VscnE0SWxkVXYyNHN1NUlJeFlu?oc=5",
-      "published": "Sun, 01 Nov 2026 11:12:57 GMT",
-      "summary": "GC Agenda: November 2026&nbsp;&nbsp;Reuters",
-      "source": "GNews | SEC Climate Rule",
-      "published_beijing": "2026-11-01T19:12:57+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "ESG法规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Lessons from the 2026 Proxy Season - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjRkZkh6V0NpTUJyWHJFNHI4Y2twYkdYT194LVJybklWNldoSG00Wmo4X3Y1N0huYldqU1ZEOW9ZR0ZtYlJQV0ZpWVJGY0ZKQjdLUGV2RTNXc0ZtaWpiOVY4bEFHRmpxcmZLVDRYUmQ2bjNIR25oZktYRGlmR3Y2eGItbmswdl9haDQ5QzhWZVdmMTEzNUVRcDJDbFVFZ1pDSEpn?oc=5",
-      "published": "Sun, 01 Nov 2026 11:12:57 GMT",
-      "summary": "Lessons from the 2026 Proxy Season&nbsp;&nbsp;Reuters",
-      "source": "GNews | SEC Climate Rule",
-      "published_beijing": "2026-11-01T19:12:57+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "ESG法规",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "60 Years of Sustainable Progress: Building on Our Past, Investing in Our Future - Progressive Grocer",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFFEX0lhV2ZIWmg2Z2wyRk9fckI3X1Njc0x1WnlSVkc4eUhmajFOUmMtUmZJekVvU3ljZXlBUGFrdDlUT01TVTR1ak9GTDhZY0dTUFpZYTF2SWV5d1lqTC0yVmRodlRRNjgxQ2lrcEpFWDN5cnBnckZCeEVzcVdrOFFpSjBBbnp5YzRYeENBTEwyUnhLak1iSWQ2ZEZ4VWM?oc=5",
-      "published": "Sun, 01 Nov 2026 11:00:00 GMT",
-      "summary": "60 Years of Sustainable Progress: Building on Our Past, Investing in Our Future&nbsp;&nbsp;Progressive Grocer",
+      "title": "RSWM Limited reports 40.5% Scope 1 emissions reduction in FY26 - Multibagg AI",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaU5IUGk5YVQtOVc3QVRKY05jb3BWaUdvSnJkUVNOTG1GSlZReDdKTzBlakNfUkgzZHFuTkEwRWlHNG1BelNFd3ZIX2RDd3NtVnA0WFRON1htc2tHNDdDMW9UMVRiYnVob3JrMWJrQVdWdUxUWHA5Z21YOUM4Q0VjWGtFZFdOUHVfYnVYT3d6VXlhZGlfZk9yWV9uWnl2THB4RlRad1J0Qkp4dVFGaUZBVDIzd2M?oc=5",
+      "published": "Tue, 03 Nov 2026 02:11:35 GMT",
+      "summary": "RSWM Limited reports 40.5% Scope 1 emissions reduction in FY26&nbsp;&nbsp;Multibagg AI",
       "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-01T19:00:00+08:00",
+      "published_beijing": "2026-11-03T10:11:35+08:00",
       "source_detail": {
-        "name": "Progressive Grocer",
-        "url": "https://progressivegrocer.com"
+        "name": "Multibagg AI",
+        "url": "https://www.multibagg.ai"
       },
       "priority": 0.0,
       "category": "可持续供应链",
@@ -584,12 +715,28 @@
       "relevance": "low"
     },
     {
-      "title": "Cyril Hilsum, Who Helped Invent Flat-Panel Displays in TVs and iPhones, Has Died at 101 - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wZmtyc0V1a0xqcTBraXVqYnBxM0d2RmRtTHFWOEdlV1UtU25VamJSUjlzQnVyNVpuVU9jemVqYUYtcERxSDhyekFVY013UUpBMW5KNHdIMlJuZGx4dlZLQ09vWTg0UFVnUFUzeEt0WjdSR1R1MXNR?oc=5",
-      "published": "Sun, 01 Nov 2026 10:00:44 GMT",
-      "summary": "Cyril Hilsum, Who Helped Invent Flat-Panel Displays in TVs and iPhones, Has Died at 101&nbsp;&nbsp;The New York Times",
+      "title": "Daily Navigator- 3/11/2026 – Market Outlook - www.sc.com",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MeThyVWgtbkdLQlc1SGZ6Y3RKSklUemk0ckdzTXN6Um9XZ1lQYlhRQzhYTnVhTGNqNkNDTkZvUFJVUVJLNEtCOC1xOTBJSE5QdkNHSzRxLXFxdC1xTW5scFJGSXkxODBpV1V4TzA4WXFKQlNjeWRhd1ln?oc=5",
+      "published": "Tue, 03 Nov 2026 02:09:17 GMT",
+      "summary": "Daily Navigator- 3/11/2026 – Market Outlook&nbsp;&nbsp;www.sc.com",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T10:09:17+08:00",
+      "source_detail": {
+        "name": "www.sc.com",
+        "url": "https://www.sc.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The Brain Injury That Made Edward Freytag a Musical Genius - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZl9VRlpfWGk1UjFwajRSaDVGcXVuV183YWx0R1p3LVhMZUJpeVlwVklGelczVVZDMjluamprYXJOdVFiMGRqeFVyNnFoWGJsOTRUdnZfRlZuZkJNSkhmUGV5Y0ROS0RiSDJtNHNCOGxxUkg5T1B0ZENQOGdWejN1RlM2NFFIT3hDYnNCVkJWWE1lY0p1MDJLR29vZXRKeThyQjQ0Z2hkQUJUcFZ0?oc=5",
+      "published": "Tue, 03 Nov 2026 01:13:07 GMT",
+      "summary": "The Brain Injury That Made Edward Freytag a Musical Genius&nbsp;&nbsp;The New York Times",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T18:00:44+08:00",
+      "published_beijing": "2026-11-03T09:13:07+08:00",
       "source_detail": {
         "name": "The New York Times",
         "url": "https://www.nytimes.com"
@@ -600,31 +747,15 @@
       "relevance": "low"
     },
     {
-      "title": "Proposal to charge for plastic bags and cups: A change in approach to reducing plastic waste. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbDE0VE5Qc3dVT0ZlZnZGeWNjeTZPRUp4Y2ZsWkhBSzZ3M1EyY1U2eGdhX1ZWZFM2b3lQSVBwald0UUFEQldZV0l5ODMyMVBtZG4xQUE0dlljbWZ1eDFGSE1lWkU4XzZpeFp0b1llN2N1QVJmSGlLdFVlYmg4UmkzX1c2bFZUNGtpTnNxTzFkckFVMGgzR04wUDRoNHk3WXhwa0FkYUFoOUY?oc=5",
-      "published": "Sun, 01 Nov 2026 09:45:21 GMT",
-      "summary": "Proposal to charge for plastic bags and cups: A change in approach to reducing plastic waste.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-01T17:45:21+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The Solar System Was Choosing Fire Over Ice Right From The Beginning, Study Shows - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUG1FdzVtdlR4SXRNT1d0RElFcFZ4TGtqNXBpQWhpQU1DLWFDd1VjWVdjNWRNN0Z3TWhtOWNCSXRXSlZWV1NtQTdaRnBYdkk1akFST08yazM4WG1SLWdMcHlZdE05UkFJN2tiZEtVNU00Q1RkcHZNalZtcDE3UVB5b1dPTElZVHEwNDlDbVlVRlhoVnhSb3ZYczN3eExhdms5YnNBd2Z1TkJCczF6V0E?oc=5",
-      "published": "Sun, 01 Nov 2026 09:02:41 GMT",
-      "summary": "The Solar System Was Choosing Fire Over Ice Right From The Beginning, Study Shows&nbsp;&nbsp;ScienceAlertSee more headlines & perspectives on Google News",
+      "title": "NASA crew emerges after 378 days in isolation in 3D-printed habitat - The Independent",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVGFtNm9xc0MtNjRvTmlhcU9Lb1lzc3RSeHNfVDN0aExWRkhGTXRYdnd6WFlaZWcza3c1NnpNS2JqYmpKOTdmQ213cjdfWW5fc2RXc2xUbmhGYVduTjhHcjVCcGFVT2VDc1NRSTA4SHlrR0pLRmtoVkZBV0ZiMGhZTEZReTdiVmhM?oc=5",
+      "published": "Sun, 01 Nov 2026 22:40:00 GMT",
+      "summary": "NASA crew emerges after 378 days in isolation in 3D-printed habitat&nbsp;&nbsp;The IndependentCrew from NASA's simulated Mars mission emerges after 378 days in isolation&nbsp;&nbsp;ReutersFour volunteers just finished a year in isolation in Houston, all in the name of space exploration&nbsp;&nbsp;KHOUThey spent more than a year inside a NASA hangar in Houston simulating life on Mars. Now, they’re finally out&nbsp;&nbsp;Houston Public MediaNASA Invites Media to Crew Completion of Yearlong Mars Si...",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T17:02:41+08:00",
+      "published_beijing": "2026-11-02T06:40:00+08:00",
       "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
+        "name": "The Independent",
+        "url": "https://www.independent.co.uk"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -632,15 +763,63 @@
       "relevance": "low"
     },
     {
-      "title": "GCC Banks: Top Sustainable Finance Issuers - Forbes Middle East",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVXZPS0twVExUczVrS3kyM1FIdDhCX2VwVjRpVUNhOFJMaEJyb0ZBYnpHbUVGX05KRHEyVHJacFRCTGIxRDdWdHNOM3lTLW5uSXExRUlhRXU3c3JNNzJZcHBnN2lPY2RvU2ZEOTZZYXVjc0tGUTJiMjU1T2swdjhFTFNJQXJuejdqY1k3Wmp1aENJbkVNTFRnQnhSWmw?oc=5",
-      "published": "Sun, 01 Nov 2026 09:00:12 GMT",
-      "summary": "GCC Banks: Top Sustainable Finance Issuers&nbsp;&nbsp;Forbes Middle East",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-01T17:00:12+08:00",
+      "title": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnY1VaWU8zM3VHV01xdV95dDVTX1p2cndyUEFMenNqaUh0R2pTOTBhcENqY1Nfb2lmM1NueUlpbXdZTUNEV3NtdWtZRFEyMTd6WHQ0UGdlTW4wWWxuX0tsMTVkWjM4d3ZGdFBfLS1mc1A2YmNnb3daY1BRZDg?oc=5",
+      "published": "Sun, 01 Nov 2026 20:00:01 GMT",
+      "summary": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest&nbsp;&nbsp;Phys.orgNASA rover detects ultrafine dust particles on Mars&nbsp;&nbsp;ReutersSmooth Martian Dust Grains Offer Hope for Future Crews&nbsp;&nbsp;LabrootsJPL Researchers Focus on Tiny Mars Dust Sticking to Spacesuit Materials&nbsp;&nbsp;Pasadena NowMars dust poses major problems for astronauts&nbsp;&nbsp;The Naked Scientists",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T04:00:01+08:00",
       "source_detail": {
-        "name": "Forbes Middle East",
-        "url": "https://www.forbesmiddleeast.com"
+        "name": "Phys.org",
+        "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "17-million-year-old fossil found in Egypt challenges a long-held view of ape origins - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYnZTUXdIemFkUnZUWS03b3dKa0dyLUxCN05JenAtc3cwbTVBNnFVZHU3YnBRV181eTloRHZtT0VIdW96VUdhOHhkR0V2MENJTkVQRjEtUjdoRkE1NHNEQTFiUWVyZG9mN3dBU0M2bEJlQ1Nta2pwbWtQUkNpRUFTczJQZUdkcFF2TUJHdWJYQQ?oc=5",
+      "published": "Sun, 01 Nov 2026 18:37:06 GMT",
+      "summary": "17-million-year-old fossil found in Egypt challenges a long-held view of ape origins&nbsp;&nbsp;YahooAncient ape fossil in Egypt could rewrite the story of human origins&nbsp;&nbsp;Science Daily18-million-year-old fossil sheds light on human ancestors' origins&nbsp;&nbsp;The IndependentFirst reliable ape fossil found in Egypt — ScienceDaily&nbsp;&nbsp;UA.NEWSAn 18-Million-Year-Old Fossil Jaw Found in Egypt Upends the Timeline of Ape Evolution and the Geographic Roots of Humanity&nbsp;&nbsp;Istit...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T02:37:06+08:00",
+      "source_detail": {
+        "name": "Yahoo",
+        "url": "https://www.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Photographer Captures International Space Station and Jupiter in the Same Frame - PetaPixel",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZnNJejJtOXJLT21VX1NLdnVyRnA1T0xVUHI5WXJiczJ6aG1DelBoV0pFeG05b2xJZDlnNjBzMHFBN1FZV2sxWFkxZy0tUnpSQ2JuamowWk51a3RNMTBSM3N1TnRDcUNwQ200akdFaXJjTEItVjRzTEs3Vm9aNGJ5UGlUV3N4MGlXUXBVdXhFOVRxR2VwLWt3b2NJU0hYVWJCbXNmVVJZVEtKb3RmdFpfLVlVdw?oc=5",
+      "published": "Sun, 01 Nov 2026 16:00:35 GMT",
+      "summary": "Photographer Captures International Space Station and Jupiter in the Same Frame&nbsp;&nbsp;PetaPixel",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T00:00:35+08:00",
+      "source_detail": {
+        "name": "PetaPixel",
+        "url": "https://petapixel.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IPDC Finance plans to raise Tk400cr thru bond issuance - The Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZVFHSzZKM0RHMU85QnotOHh1OFdjYjZqcVBrMGZWZW5vbDM3Z213U3oxdWZUZzFhbEtnNjlndmllZW5hWHBJRGlYcHYxdE5uZmRGQ2JGZTdsR3pVSUstRHpDcngxWWszV2IycGF0SHVtOFVmUjlLYWpEWUlscUR6cUJleVJhUDFwMkliVzlBa1RhOEMxdFlTZUFtcTE1TFk?oc=5",
+      "published": "Sun, 01 Nov 2026 15:53:48 GMT",
+      "summary": "IPDC Finance plans to raise Tk400cr thru bond issuance&nbsp;&nbsp;The Business Standard",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-01T23:53:48+08:00",
+      "source_detail": {
+        "name": "The Business Standard",
+        "url": "https://www.tbsnews.net"
       },
       "priority": 0.0,
       "category": "碳+绿",
@@ -648,15 +827,95 @@
       "relevance": "low"
     },
     {
-      "title": "WUC weekly brief highlights Uyghur political representation, forced labour concerns and international advocacy - https://www.irishsun.com/",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWZ0ellYQXBJVldlRWdQRXdraEwwZ2FKY0lGbV9MekRkS0hmN18zdnVJcmRhLW1PWDNId3BRa0FDNHROZHVkMy00cnpCR0ZidzZyRHkweUVOdFd6aTI1UkFPaU9jQmVieXdUek91aG94ZW5fbnlQZ2ZtdUkzM1JNb1BOQnppdmV0WVdrTUllVXdhMDVEaGo5WlZ0OU44Y0RIMDF2M2h3RGhQUDVmaG93ZlY5bW50R2FMZkpxWC1LeG5IbXA2RU11eGw5ZzZyX2pFbzhRTi1TOHlTckZSejUwMm1GQQ?oc=5",
-      "published": "Sun, 01 Nov 2026 05:31:00 GMT",
-      "summary": "WUC weekly brief highlights Uyghur political representation, forced labour concerns and international advocacy&nbsp;&nbsp;https://www.irishsun.com/",
+      "title": "Planetary defense: How military and civil satellites are watching fireballs to help keep Earth safe from space rocks - Space",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZWxQazJGeDFSaUtvX3V5NEl4bHJJTjdfR3U4NXg3UVRWQk1XX3I2dkF1VTZYb3dCRzFlV1pCWUpwaURNczFYMFdOOVQ2VmtDcDFFZjR0UWNLaEI0UzZCNEVvelJpdmFhZDdzeFR5RkMtWXBBbzY2WUgtd2JpX1hoSm5TQnlaVS13U2RWUUxjelo1OGNSdXROUjBjdGV1SkRwdlE4YzF5UUtkSFFldm00ajFQSVFFWkxmemtuM0RnY0RvdEhiNG1fR1ZFNXJZeFpBaVhRSWtLOUhfRHA2YXRNXzhJblpZQ3pKRlNnaVBfY2FWNkw5N1E?oc=5",
+      "published": "Sun, 01 Nov 2026 15:00:00 GMT",
+      "summary": "Planetary defense: How military and civil satellites are watching fireballs to help keep Earth safe from space rocks&nbsp;&nbsp;Space",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-01T23:00:00+08:00",
+      "source_detail": {
+        "name": "Space",
+        "url": "https://www.space.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Human speech follows the same patterns as birdsong — new research - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY0VqaFAweGg3Z0I2eEZyTVl5d3czOEVMN2JVU2dqVkdwSEEydWNBYnBGdUdwa3F1ZnVoMDU0MzFva3JjZDBVa09DMkE3VWFvWlppTV9tZkRGZjQ1akVGNGVsVk9OYWh5VmdGTmhiNEdjbWF0MlBSVzdvV0lNUXF0UUpBVWJsR2tRejU0T205WXZsSDdWbVJjSWRzUWp2NmM?oc=5",
+      "published": "Sun, 01 Nov 2026 12:54:58 GMT",
+      "summary": "Human speech follows the same patterns as birdsong — new research&nbsp;&nbsp;The ConversationBirdsong shares surprising similarities with human speech, music&nbsp;&nbsp;Daily News EgyptBirds and humans share recurring speech and music patterns across 52 languages&nbsp;&nbsp;The Brighter Side of NewsLondon-linked study finds shared patterns in bird and human vocal sounds&nbsp;&nbsp;London Daily NewsBirds and humans share fundamental song and speech patterns&nbsp;&nbsp;Imperial College London",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-01T20:54:58+08:00",
+      "source_detail": {
+        "name": "The Conversation",
+        "url": "https://theconversation.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Unicaja Q3 2026 slides show 8% profit gain, 95% payout ratio - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNWJNc2NrMjE1bFlzWWlXV0psNHdGaE1xcm1Ja0h5QjZuREtCbVRMYkdJbUdHYXQ3WDVXdGp3THljNWpVT0Jjb3JtVFpXa2w5eVdiVFRQY3VlZDRHckdxUnpibDVZVnkxZVhHZU5JRlpnZ2ozODVlWk5QSm5pOWNvdHdoQnQxYVNaOUVaSWx4VUFLNWVlQTF5XzhXMGh2eHdMZzBUOW9ONE1QUlhUQ0pfNDAwRTc?oc=5",
+      "published": "Sun, 01 Nov 2026 12:41:16 GMT",
+      "summary": "Unicaja Q3 2026 slides show 8% profit gain, 95% payout ratio&nbsp;&nbsp;Investing.com",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-01T20:41:16+08:00",
+      "source_detail": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The midterm election could reshape the muni bond market. Here’s what investors need to know - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UaFhyQThqWlRxdkQxZDdLRXhfRlc0QnZSVmJyd25rbkxmR3gzeUwyYmx5ekF4SGYzVDVsSzBkS2t2bloxNVExcnVBeW9aYXhCczVVVDJVb0stQWFNY3BGMlhlZm5zZVh4RUIyZmtn0gFzQVVfeXFMTTZzcThkN2NqLTRWWnFsQ1AxVmJFR2pvMmg3TThHUjhieUVNMGluQU40Wjl2LVBNQzR0b3h6d2JtQ0REenkwa3BEeHhPX2hfSzFZTnJsQnJ0di04aHZHQmxNdVk2VzRYNW1PSWNITThCU2lVUQ?oc=5",
+      "published": "Sun, 01 Nov 2026 12:30:48 GMT",
+      "summary": "The midterm election could reshape the muni bond market. Here’s what investors need to know&nbsp;&nbsp;CNBC",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-01T20:30:48+08:00",
+      "source_detail": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AIXTRON Q3 2026 slides: AI demand drives orders up 122%, margins hit 48% - Investing.com Canada",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckh5TlVqU3ZiMVlLRzc1cjNLSGZxOHRKRFV6bHNRRHNLdWttckhJNnZiNmZTRFdLWEY3UjhHSXJlaTJwQW5XelZVem91dkQ5MGtCZ0RuVW1SUGdpVEp6aThINUVhM1hyRG5hRzdnU0NkZnF1VlVhdkZ2T2xqdWVIbUQtNjJQWWwxT3VrUkdPV0h5ZFN2YTlITDhSZGNBbEpadFVjM2RiOEViWHNKM2Zrc2duclIyd19rX0o4dm9xY3VfS3l2NUgxTA?oc=5",
+      "published": "Sun, 01 Nov 2026 11:18:20 GMT",
+      "summary": "AIXTRON Q3 2026 slides: AI demand drives orders up 122%, margins hit 48%&nbsp;&nbsp;Investing.com Canada",
+      "source": "GNews | EU Taxonomy",
+      "published_beijing": "2026-11-01T19:18:20+08:00",
+      "source_detail": {
+        "name": "Investing.com Canada",
+        "url": "https://ca.investing.com"
+      },
+      "priority": 0.0,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "WUC weekly brief highlights Uyghur political representation, forced labour concerns and international advocacy - Big News Network.com",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdDM4WmRBRXNpU184M3Y3a0w4MTRyM2dUUmxmLUhQUUdtTG9aV3M5NkxhVWc2Y280cXRkSm51dlByYTd5a0dOVm9aZU0tQWpWX1A1b1RBeEhfNlNDWkpDdVFzTklIc1AzeUpaemJLeDE2Z3FYSUpCclk0cUhhUHF4RmhtaTlzZFAtOHdhcHY4YzU3QzF1cUx1TkhQUXRrWnp4dG5pX3dJU1ZuTktXZWpkYzI3NGVGbGIzc1p4YU05eUhXYmZRejBmMmV3UjZWdFU5cFFwNHdiVFdrSkxLY19LaDFWNjNBZzBQaVo0?oc=5",
+      "published": "Sun, 01 Nov 2026 10:01:00 GMT",
+      "summary": "WUC weekly brief highlights Uyghur political representation, forced labour concerns and international advocacy&nbsp;&nbsp;Big News Network.com",
       "source": "GNews | Modern Slavery",
-      "published_beijing": "2026-11-01T13:31:00+08:00",
+      "published_beijing": "2026-11-01T18:01:00+08:00",
       "source_detail": {
-        "name": "https://www.irishsun.com/",
-        "url": "https://www.irishsun.com"
+        "name": "Big News Network.com",
+        "url": "https://www.bignewsnetwork.com"
       },
       "priority": 0.0,
       "category": "可持续供应链",
@@ -664,31 +923,15 @@
       "relevance": "low"
     },
     {
-      "title": "Bosch Ltd sets AGM on Aug 11 to approve ₹270 dividend - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWFhYWdiVkJBZU5lYzZ4enZ1Y21aNzhEVmoydG9BMHhiRWRudGtmclVMOFdUSEQ2SE9SMkR3WU5RUkpzaWhXWkxHV1JFbXlhaUFEanA5R0VkYUw5Y3hIN0RDdEUwanpObHZwU2h1WkI1TWNiOWZja1VtMFlzMTJQM0QwbzkwYTJJaS1hWWdQOC1SaHlwVV9YdHdiMXRnaEdzTm5nZnFDY216dU0?oc=5",
-      "published": "Sun, 01 Nov 2026 02:47:54 GMT",
-      "summary": "Bosch Ltd sets AGM on Aug 11 to approve ₹270 dividend&nbsp;&nbsp;scanx.trade",
-      "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-01T10:47:54+08:00",
-      "source_detail": {
-        "name": "scanx.trade",
-        "url": "https://scanx.trade"
-      },
-      "priority": 0.0,
-      "category": "可持续供应链",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Halloween ends but throwaway costumes leave lasting waste - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9INHFTN3BZUVBuSTB0ZHRlR1p5dXg4SmdxNFlEY0c3T2d1NlJvU0JNaGRxTXFKZGlCYl9vb05SRTVMSW9mcTROQm5HeER6OFpiUjMxdVIzeDhaemZrYllMOTJR?oc=5",
-      "published": "Sun, 01 Nov 2026 02:09:00 GMT",
-      "summary": "Halloween ends but throwaway costumes leave lasting waste&nbsp;&nbsp;Nation Thailand",
+      "title": "Recycling review promises paperwork relief - REMI Network - Real Estate Management Industry Network",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUo1eXAyQWZ3aU42eE05cnQ1VjlZMDFtTEwtSE1qejRWOFdnWnZSLXZ0YzdNaXJwUlZUOEFYMy1ZRENwdTdad0tIeFB3c2JMd1JSZ2FiZGpEaUZ3ZzhNZGl4MDR1RUlaRXI2aHdzT0I4OEpNbEJGdjdSMV9hMXllQmFvTHRYcGs?oc=5",
+      "published": "Mon, 02 Nov 2026 23:16:56 GMT",
+      "summary": "Recycling review promises paperwork relief&nbsp;&nbsp;REMI Network - Real Estate Management Industry Network",
       "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-01T10:09:00+08:00",
+      "published_beijing": "2026-11-03T07:16:56+08:00",
       "source_detail": {
-        "name": "Nation Thailand",
-        "url": "https://www.nationthailand.com"
+        "name": "REMI Network - Real Estate Management Industry Network",
+        "url": "https://www.reminetwork.com"
       },
       "priority": 0.0,
       "category": "气候风险",
@@ -696,15 +939,15 @@
       "relevance": "low"
     },
     {
-      "title": "Scientists discover a hidden driver of high cholesterol and a way to stop it - Science Daily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81SmdKbDhKTTdYa0pUNjFkZ0ZOZWtPT253OTdrbW15LVVsNk9va3BSQlpjQTNLT1BtOVdYTlZvd1NjRmdvb2VycC14ZDdfWVptS1A2LTJsMDdfTUZVOEU1OXM3NnVmMVB5QU5UODFnNA?oc=5",
-      "published": "Sun, 01 Nov 2026 02:00:31 GMT",
-      "summary": "Scientists discover a hidden driver of high cholesterol and a way to stop it&nbsp;&nbsp;Science Daily",
+      "title": "Scientists discover potentially massive dwarf planet candidate hiding beyond Pluto - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOWxJVk55elhtLTZBa3NsNFVIckx3S2J3T1JNaE1yV2tIejZlM2ttc25fSnlfel9KWkpIR1hPdzRwcTdIamFxSmlFeVE5QktReTZuX01YejhCRE1mNjZxTW04eGhyWHkwaG5wUzFuVUJlVEhONnpMYnJVMTBuNzZzR1RocnZpVXZYOGhJbmRHRWl6MDVRRFdTZDB6VkxuWlF4OU4tSHN6cXB4emNvUGZmR3ZLNNIBuAFBVV95cUxNY3gxS1ZmZktUWTRoeEpMNEVEVXc3UlZZOHlqTEdtcWx3eml0Vk8tTlNHdGdHRzJhZndoTTBMVmtfOWZteGtNR2dYUjREcC1qM2NYWDN6ZWlWUHVYQUhLa1FYc2JXV3JGbWFlWDZRM2djcnU2QlVuNUhXM1dSMC00RXN2R3piZVE0NXdUTEl1azNtaWJ3d3RtWFgxSzExb3VGZDJGcTdQN3owb1ZtdkVXc01jSU9peEp4?oc=5",
+      "published": "Mon, 02 Nov 2026 22:43:41 GMT",
+      "summary": "Scientists discover potentially massive dwarf planet candidate hiding beyond Pluto&nbsp;&nbsp;Fox NewsScientists discover massive dwarf planet lurking in the outer solar system&nbsp;&nbsp;FOX WeatherAstronomers Just Discovered a New Hidden World Beyond Neptune&nbsp;&nbsp;National GeographicPossible New Dwarf Planet in the Solar System&nbsp;&nbsp;Sky & TelescopeA New Dwarf Planet (Probably) Spotted Beyond Pluto&nbsp;&nbsp;The New York Times",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T10:00:31+08:00",
+      "published_beijing": "2026-11-03T06:43:41+08:00",
       "source_detail": {
-        "name": "Science Daily",
-        "url": "https://www.sciencedaily.com"
+        "name": "Fox News",
+        "url": "https://www.foxnews.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -712,268 +955,12 @@
       "relevance": "low"
     },
     {
-      "title": "Scientists say decades-old theory on the origin of life may be wrong - East Idaho News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLTVIUDNzNzVDQTZIZzdWR2RvSHQ2bTZLU1cxYmZfSmlnMHhYZlk2YWpyTDgxMzRPNGJldTFncjBkVktZblhwZzBrWkQ5b3VnMVFRWDRObnZ2Yl9ZU2VrMGZZVXVQWnlnWm02WGVlaWdMQkk0amczQ29oRi1YUWxuZ3VKdnhaUktjMm5uOTBOdlI3alpieXcwVVVrMkhsSDBUWG5JcjlwZUNtblE?oc=5",
-      "published": "Sun, 01 Nov 2026 02:00:00 GMT",
-      "summary": "Scientists say decades-old theory on the origin of life may be wrong&nbsp;&nbsp;East Idaho NewsScientists say decades-old theory on the origin of life might be wrong&nbsp;&nbsp;CNNDid comets bring life to Earth? New Cambridge study weighs in&nbsp;&nbsp;MashableAncient Comets Carried Organic Compounds, But They Didn't Survive Crashing Into Earth&nbsp;&nbsp;Universe TodayComets probably didn’t seed life on Earth, and Mars was a better target&nbsp;&nbsp;Martin Cid Magazine",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T10:00:00+08:00",
-      "source_detail": {
-        "name": "East Idaho News",
-        "url": "https://www.eastidahonews.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Convention boom anchors HK’s global connectivity - chinadailyhk",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DV2wwZFJJWm9QYlYxRkMwQWc2cnVOaWNfQVoyNDNIZlRHRFlnUTB1clg4eV9PZDJhVDFnbHRnc0NEQUtiaEswUnFvWE1rWWpSb0dvVXNoMVJ3dw?oc=5",
-      "published": "Sun, 01 Nov 2026 00:13:00 GMT",
-      "summary": "Convention boom anchors HK’s global connectivity&nbsp;&nbsp;chinadailyhk",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-01T08:13:00+08:00",
-      "source_detail": {
-        "name": "chinadailyhk",
-        "url": "https://www.chinadailyhk.com"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Scientists Recovered 22,000-Year-Old Human DNA From Cave Dirt - ScienceAlert",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMkhCVXA1VS1ramxrel9rVDJ6S2wwWGZDaEdaZFhMdi1JWHloeGlLQ2JwVExaN2tGemo5UDRTZ3loazVtSFNFT0xrTVdiMUp0b0xCaUVnbmhKU3lWU190QXYwWUFNWnRtSnRKcHZVaDVEdjdDb2FHNURTSUdNVkVlZ0lJYlBrNm5PVkFxck0yaXZGYm8?oc=5",
-      "published": "Sat, 31 Oct 2026 20:00:05 GMT",
-      "summary": "Scientists Recovered 22,000-Year-Old Human DNA From Cave Dirt&nbsp;&nbsp;ScienceAlert30,000-year-old bone found in French cave reveals vast genetic connections between people of Eastern and Western Europe during the Stone Age&nbsp;&nbsp;Live ScienceA 30,000-year-old woman from a Pyrenees cave carried Central European DNA&nbsp;&nbsp;Martin Cid MagazineIce Age Humans Left DNA in Cave Dirt: Scientists Read It 22,000 Years On&nbsp;&nbsp;Around PragueDNA dating back 30,000 years reveals new connectio...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T04:00:05+08:00",
-      "source_detail": {
-        "name": "ScienceAlert",
-        "url": "https://www.sciencealert.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "11 Space Facts So Unsettling, You Might Never Look At The Night Sky The Same Way, As Shared By This Page - Bored Panda",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94SVgyMC1DdnFxbXBnT0tmUWwwRjZuTjRSa3ZBTzhZYWRYai04NHVJNXBvVHkwUTdaRzZMaHZ4ak5yTm15TEkxa2JyTEV2bXk5Y0VCVHlXRWJuck01eHVKbU9PTzRpZGRDaE1ZVEVQYw?oc=5",
-      "published": "Sat, 31 Oct 2026 19:00:15 GMT",
-      "summary": "11 Space Facts So Unsettling, You Might Never Look At The Night Sky The Same Way, As Shared By This Page&nbsp;&nbsp;Bored Panda",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T03:00:15+08:00",
-      "source_detail": {
-        "name": "Bored Panda",
-        "url": "https://www.boredpanda.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Chemists develop AI tool to convert human ingenuity into life-enhancing enzymes - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zN2Fxb3pVRXg3cm5ERmwxYXU0MXdWb294eDdZSnFpX2NYOXA5cW1vYU1iWkcwOEYwUUdOcURXX1JNVms0MXF0Q3ZaNUc4c1RYNlJqMzd3VkZqSndZSlpMQlYzb3JQbFNKS19WNVhYSy14VVp5eHc?oc=5",
-      "published": "Sat, 31 Oct 2026 19:00:01 GMT",
-      "summary": "Chemists develop AI tool to convert human ingenuity into life-enhancing enzymes&nbsp;&nbsp;Phys.org",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T03:00:01+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Use LDC deferment to diversify exports, raise productivity - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRFk4QUtQc2haWUNoSllwX1JjTnBJcW11VTRIbkczSV9GVllHUVJqY2NWdFJEcGotUzB1dDZEdHRDNG8xMjQyV09mVG10WW90dWlnNzJsYnR3ZTFQUXlMVXRxZDhYVWQtN3FZS3hOZl96VHo3SDFwUklQTG5UT2hwYkdwT1FfbUxOUnI3andOTVBJQk14ei1LVTl2bW1lcnd1V2VCUXVvYkhfc00tU2V3LVRKTQ?oc=5",
-      "published": "Sat, 31 Oct 2026 17:45:51 GMT",
-      "summary": "Use LDC deferment to diversify exports, raise productivity&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-01T01:45:51+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "SpaceX Starship Flight 15: Launch date, objectives, and what to expect - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcXZQRmMyVncxZWVzTGVONDJqZlRtNTJOZGVxZFdyRTU5WVRXLW9DbTJ1ckxBQW92aks4OXpmeldiNzhFbzhBTkVlQ2tOSHB1Y2Vrck9hQjl0b093b0dZS2Zyd2REVTFKQTBLZF9aeEF0N0RkTWFfX2VBVjludWVBRHBxWS1aSjBsTXRhclM1bDNfUlE?oc=5",
-      "published": "Sat, 31 Oct 2026 16:20:00 GMT",
-      "summary": "SpaceX Starship Flight 15: Launch date, objectives, and what to expect&nbsp;&nbsp;Interesting EngineeringSpaceX ignites giant Super Heavy booster engines ahead of daring Starship launch (video)&nbsp;&nbsp;SpaceElon Musk: Starship 42 Will Be the First Tower Catch&nbsp;&nbsp;BASENOR - Tesla AccessoriesSuper Heavy Tested For Flight 15&nbsp;&nbsp;Aviation WeekSpaceX prepares for Starship’s most ambitious test flight yet&nbsp;&nbsp;ShiftDelete.Net",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-11-01T00:20:00+08:00",
-      "source_detail": {
-        "name": "Interesting Engineering",
-        "url": "https://interestingengineering.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "What ended the 'Cosmic Dark Age'? Astronomers say they're closer than ever to an answer. - Live Science",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVlBkQXFkOWl5c0hEMjk2Tlh5SU92UWdMbC0wWW1VR3FSZkhFVnB6MXdSMjE5ZTI1U21wYnFDUm95RzZnRE90cVRWVmFyVVM1WUdabzB0cUpNWDg2YUl0clFGZUtQYk1KWHVWVkVPZGR4Y1A5ZEgwaVJKVWF0cW4xbTQxanE5LTBicndDQ3RfcnJBcXl1VlBKQkxvNHpQTWJDVU54S2NxZ1JnOEJhRVFVUnMtbXZJUDVHbWRVZ1JVZkhSR3BCY1FF?oc=5",
-      "published": "Sat, 31 Oct 2026 15:00:00 GMT",
-      "summary": "What ended the 'Cosmic Dark Age'? Astronomers say they're closer than ever to an answer.&nbsp;&nbsp;Live ScienceHubble reveals a stunning twist in how the universe emerged from darkness&nbsp;&nbsp;Science DailySupernovae may have restrained the escape of ionizing radiation — Live Science&nbsp;&nbsp;UA.NEWSDying Stars May Have Slowed, Not Sped Up, the Clearing of the Early Universe’s Fog&nbsp;&nbsp;Around PragueHubble Finds a Stunning Twist in How the Universe Emerged From Darkness&nbsp;&nbsp;Sci...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-31T23:00:00+08:00",
-      "source_detail": {
-        "name": "Live Science",
-        "url": "https://www.livescience.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NaUQzNzJvU1Z5WFFSbC11MGxDZlF5RnBObDZjamcyWFA4UUVzUmFBLXI3NGRWeEt1elM5NHdISF9HRV9aVVc3ZmRQaEQ4Wll4eXVzOTV5VE1DT2EyU1NiVE1HQWdmYi04SnhwUU5DZU92alNCNEtUMGRyRGd6UQ?oc=5",
-      "published": "Sat, 31 Oct 2026 13:00:02 GMT",
-      "summary": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit&nbsp;&nbsp;Phys.orgStrange beaked 'hell chicken' is the first fruit-eating dinosaur&nbsp;&nbsp;ReutersFruit-eating dinosaur Infernogallus jamesi ID'd for first time by research team with Stony Brook paleontologist&nbsp;&nbsp;Newsday66-million-year-old first fruit-eating dinosaur identified from 25-pound fossilized skull&nbsp;&nbsp;Interesting EngineeringA ‘hell chicken’ that lived beside T. rex had jaws made for ...",
-      "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-31T21:00:02+08:00",
-      "source_detail": {
-        "name": "Phys.org",
-        "url": "https://phys.org"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Nature recovery is falling behind. Can COP17 get global action back on track? - NewsCord",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2N3Jkb2gzRXplZWctWHd0R01mVTNJQWc5bUtEakVRR01CcmhKRGtncFVJQzhjM2wtWl9QeUdMcDBiUmxhTTNOS191dzBRRGxhTU44R1FGNXRSVnVZczBwTVpjRDJRVnB4a29McVJJTUlMVDRSQ01STjZCVGpoX3c?oc=5",
-      "published": "Sat, 31 Oct 2026 06:45:50 GMT",
-      "summary": "Nature recovery is falling behind. Can COP17 get global action back on track?&nbsp;&nbsp;NewsCord",
-      "source": "GNews | Biodiversity",
-      "published_beijing": "2026-10-31T14:45:50+08:00",
-      "source_detail": {
-        "name": "NewsCord",
-        "url": "https://newscord.org"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How Ports Turn Circular Ambition into Industrial Reality - orfonline.org",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWTAwTDdRcHE4Tk9XRE5EUl8yY1p5TlEyNVdnZzE4TFpPNm1nNlUxTmw1QTBILWVVNE9JUExxU190ZVFZYkF4a3FvbFdqYmtYcTNwNUozc2kzZFlVZzV2bGhZajMxYm9SRWx3SU9FSkhRemktQXN2UnJEM25wVmtGUURhSk1FdUFKbVJUOUVoV0t3SmV6MThmV054MA?oc=5",
-      "published": "Mon, 02 Nov 2026 04:46:24 GMT",
-      "summary": "How Ports Turn Circular Ambition into Industrial Reality&nbsp;&nbsp;orfonline.org",
+      "title": "Recycled Plastic Flakes Market to Accelerate by 2035, Driven by Brand Owner Recycled Content Mandates - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQjNXRHdEdDA3MTdfQm5aMDdqOW10eVlJWGpKYUtCTmhBQm5PNzBDZjBhMGpMQV8xYlVmb3ZCUHdxY1B1enhJN3dLSFBkaWMwZ3prOG5iSTBrZXR3NWQ2NDZsSDZPYXIzN3E3b0U5akpJMGNCNXdrLTBGMTlydjBVN09aa2M2ZjZHUEd5Q1RnalBRc2RnZlpzYU5iMmdtZzFaVElrNzBfSVhlOC05N1lhVDZsRG9EcUtENGo1elRSUTIzVVl2MXowcDBB?oc=5",
+      "published": "Mon, 02 Nov 2026 21:56:04 GMT",
+      "summary": "Recycled Plastic Flakes Market to Accelerate by 2035, Driven by Brand Owner Recycled Content Mandates&nbsp;&nbsp;IndexBox",
       "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-02T12:46:24+08:00",
-      "source_detail": {
-        "name": "orfonline.org",
-        "url": "https://www.orfonline.org"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "African Development Bank issues HKD 2 billion Social Wonton Bond to support eligible social projects under its Sustainable Bond Framework - fundsforNGOs News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUzQ3ekxGOGFfRWRRTTJBV296QkFMVnRid3U2RGZ5QXR4dEt0UDkweHBFWXBZdjFnVEdnUHJqS2JkMVRmYXBpUk1VRm4ydGpyZE15YU40OE5RMHpPZkJ1ekRVbWE1Tms4ZmxTT2dhSGt0UTlfTXRWa3dPZmxmTndFTlpkNjI3NUJORmxiNFdVcHlJaVdJbGZpTkFIUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 04:21:44 GMT",
-      "summary": "African Development Bank issues HKD 2 billion Social Wonton Bond to support eligible social projects under its Sustainable Bond Framework&nbsp;&nbsp;fundsforNGOs News",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T12:21:44+08:00",
-      "source_detail": {
-        "name": "fundsforNGOs News",
-        "url": "https://news.fundsforngos.org"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Nigeria’s waste policy: Why are cities still drowning in rubbish? - Businessday NG",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMTljNldsZG5xM3piUXgwVGpMN3R3UkNGdHg1WklQaVkxeUVEeWJ1UW52VjBOcFNHTEV5TTUybW1QbENZcmt3U1pzSEtrVlplU2k0cEM1MDFrd3JBUm1CbGlyaHpLMUxWWnJ6bEFJZENNdThBM1l4VkZLcGNkZ2hMQ3JsRjgxbzI0TThpaTFVUUwwQl8zd0tJZ3l3MHpCNndxal92TW1HOFY0SGvSAasBQVVfeXFMTzE5YzZXbGRucTN6YlF4MFRqTDd0d1JDRnR4NVpJUGlZMXlFRHlidVFudlYwTnBTR0xFeU01Mm1tUGxDWXJrd1Nac0hLa1ZaZVNpNHBDNTAxa3dyQVJtQmxpcmh6SzFMVlpyemxBSWRDTXU4QTNZeFZGS3BjZGdoTENybEY4MW8yNE04aWkxVVFMMEJfM3dLSWd5dzB6QjZ3cWpfdk1tRzhWNEhr?oc=5",
-      "published": "Mon, 02 Nov 2026 03:41:54 GMT",
-      "summary": "Nigeria’s waste policy: Why are cities still drowning in rubbish?&nbsp;&nbsp;Businessday NG",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-02T11:41:54+08:00",
-      "source_detail": {
-        "name": "Businessday NG",
-        "url": "https://businessday.ng"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why the ‘plastic crisis’ should be seen as a generational call to arms in the fight against pollution - United News of Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNVA5X3YxSmxxckxRcjY5UHlGdzBNLUhncmpINHdNUXFnNjRyQk1HTDVtYzlzZklVTmEtMTR1SUtoa0JLNlYwa0NTYmZZSVJFeV9QLTFCWVNCdXlVck8tZkZqa21QeDNXTVlCRjAyOURqd0ZyU0tNVTZNSlZLWEZPbG95TGViMkM3eDFicUFydlVaZEdZMDVrck9qWjM4aDZEZDZCeUlQZWZCRzlwMGhQRjk5QndqWUdaT3BEOTlYUzluSkF4TFpBVlpfVklCREJNNU1rMnlTUjhQZ2lSZmNB?oc=5",
-      "published": "Mon, 02 Nov 2026 02:47:18 GMT",
-      "summary": "Why the ‘plastic crisis’ should be seen as a generational call to arms in the fight against pollution&nbsp;&nbsp;United News of Bangladesh",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-02T10:47:18+08:00",
-      "source_detail": {
-        "name": "United News of Bangladesh",
-        "url": "https://unb.com.bd"
-      },
-      "priority": 0.0,
-      "category": "气候风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Building resilience through industrial AI with IFS - Gulf News",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVNWX0lXUUFFU1ZfQVVTNzc0eUdQMFR1TE5MTm1hTEx6Y2I4blpFaFJET2NKNk5VbmphUC1EcXg5ZFlSckp1bk9ZSlBnTURJRW9LWHo1dVZNZm5QRjdSRlBpSC1Lb1lkVnh5Q3l1Rm1NX1p6V1Z1VlFUZlJ5TEUyeTBfWlZvR2pPYjdoQ1B5SHc5X2JqYjByT3JZX3FsSkxkeHZMU3pTWdIBpwFBVV95cUxQeVNWX0lXUUFFU1ZfQVVTNzc0eUdQMFR1TE5MTm1hTEx6Y2I4blpFaFJET2NKNk5VbmphUC1EcXg5ZFlSckp1bk9ZSlBnTURJRW9LWHo1dVZNZm5QRjdSRlBpSC1Lb1lkVnh5Q3l1Rm1NX1p6V1Z1VlFUZlJ5TEUyeTBfWlZvR2pPYjdoQ1B5SHc5X2JqYjByT3JZX3FsSkxkeHZMU3pTWQ?oc=5",
-      "published": "Mon, 02 Nov 2026 02:00:00 GMT",
-      "summary": "Building resilience through industrial AI with IFS&nbsp;&nbsp;Gulf News",
-      "source": "GNews | Scope 3",
-      "published_beijing": "2026-11-02T10:00:00+08:00",
-      "source_detail": {
-        "name": "Gulf News",
-        "url": "https://gulfnews.com"
-      },
-      "priority": 0.0,
-      "category": "可持续供应链",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "IPDC to raise Tk 400cr through bonds - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUGtmTzFZeUlDM1JDOXNpb202cS1GcVJiY0YyVVRIWXFUc09YNGpNM3BtMDZ1cHBLNDNQVXRFaml1TXVYWHpJWGpTeTdvWHJndEpRT0hSbDFqRzlNN3lHZE03QVVzeVBQdkxjXzRIay1rOEwyZ2RCRTNfeU9tRF8xbzFodXhOaE50dEZDaWdzLU4yc3VMTXJ3Tm1abjJTVDQ1OGM0LQ?oc=5",
-      "published": "Mon, 02 Nov 2026 01:33:53 GMT",
-      "summary": "IPDC to raise Tk 400cr through bonds&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | Green Bond",
-      "published_beijing": "2026-11-02T09:33:53+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 0.0,
-      "category": "碳+绿",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Foam Pumps Market Forecast to 2035: Personal Care Demand Drives Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYjl2SzFOeHJWUENiUjkycDdPTWJUdW56aDF6bXhiVTMwMjd0b0h1eUkyWGJDWHZzUm1aNVJMaDVmN0U0NlJLTHBvWmZ2OXY5djM3dHE1a0ZxeXNsMlpoaUExb1MzeGxocndLQ19RX3luOXNfY1hhTjJKcm5ucGQwVVlESVRadUZNcmlqWDlCQTVxY1hkWGt6YWtTWWMxVFU?oc=5",
-      "published": "Mon, 02 Nov 2026 00:26:04 GMT",
-      "summary": "Foam Pumps Market Forecast to 2035: Personal Care Demand Drives Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | Circular Econ",
-      "published_beijing": "2026-11-02T08:26:04+08:00",
+      "published_beijing": "2026-11-03T05:56:04+08:00",
       "source_detail": {
         "name": "IndexBox",
         "url": "https://www.indexbox.io"
@@ -984,15 +971,767 @@
       "relevance": "low"
     },
     {
-      "title": "Marine fossils in Colombia reveal possible evolutionary transition without mass extinction - Phys.org",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORU91N1RBay0wblVpcUdfVlVSRW5GZGpJQlhpZU1lbWpUQ1B5cC1XYlJCRVRRSl9USUZPSkl5dkNHZ3dMSjUxbmFMUkkyZjdpVHhJSW9laTQ4aTc5R3NKN1FLY0Y2QTkyWG5jMWdRM0ZiTW5wbXFENDgyWGY3UDlEX0xqeFA?oc=5",
-      "published": "Fri, 30 Oct 2026 14:00:05 GMT",
-      "summary": "Marine fossils in Colombia reveal possible evolutionary transition without mass extinction&nbsp;&nbsp;Phys.org",
+      "title": "How One Scientist Made A Mini Universe To Prove We're Wrong About Time - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbVRVNXJ2eUpUYnNrZlNVN1lOald5aXZuaW9BVGFuWmt1Mk4xa1VtZUVrZUJWdFJXSVVxM3p1dXYyUENVbVVLaHNBU1VkaEx1Y0xGYWNJRnFlbU41c3VWZ1NpUm9wZl84NVNqRWtXbFVTN2xEeUZWeWpEX0tXU1BOTUROOFZXMDFGMUVMSkJpQlNFSUF1MFE?oc=5",
+      "published": "Mon, 02 Nov 2026 21:47:00 GMT",
+      "summary": "How One Scientist Made A Mini Universe To Prove We're Wrong About Time&nbsp;&nbsp;YahooPhysicists created a tiny universe and watched time emerge without a clock&nbsp;&nbsp;Science DailyScientists created a ‘mini universe’ that measures time without a clock&nbsp;&nbsp;The Brighter Side of NewsPhysicist models internal time in a system of 24,000 atoms — ScienceDaily&nbsp;&nbsp;UA.NEWSScientists created a tiny universe with 24,000 atoms and made time emerge without a clock: How did they do it?&nbs...",
       "source": "GNews Topic | SCIENCE(US)",
-      "published_beijing": "2026-10-30T22:00:05+08:00",
+      "published_beijing": "2026-11-03T05:47:00+08:00",
+      "source_detail": {
+        "name": "Yahoo",
+        "url": "https://www.yahoo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scope 3 Is an Enterprise Data Problem. It’s Time to Manage It Like One. - ERP Today",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeHJTTFFhbXRHc1hoUE1zTjBrRExjTW5pT3otZGJKZEJ4X3ZNaVdjZFBJT003Y0FhanNINzdjcXZkbjV6cjlrenNwRnVmT3BteWtFQWhFOUZ1SjRiZFA0TEFjTzB5cmFEWUJQd2hUcHIzVE5TZHdYLXZTTkRHb1M2SHRHSVpaY0FjZUp2TG1qM18?oc=5",
+      "published": "Mon, 02 Nov 2026 21:31:26 GMT",
+      "summary": "Scope 3 Is an Enterprise Data Problem. It’s Time to Manage It Like One.&nbsp;&nbsp;ERP Today",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T05:31:26+08:00",
+      "source_detail": {
+        "name": "ERP Today",
+        "url": "https://erp.today"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Indigenous peoples and local communities solidify decision-making powers at COP17 - news - Mongabay",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWkJYVE1SWXBtVXhxbjBDNkhDTTdZUHgtRXE4VXl5RU1FNFZSN1ctQllvQVRodXpYdFZkZXdaYU1vOGVvNXFZV3FQY2h4aFc3TldBMlRWSzk0Umd2ZDh4TG84aWRTVWpVMzZKWGdROG9XaHlfdlRnT1VfYUdyZUdJdERjQ1l6Q3l3NDk3Tm9BTU1IREtwMHp1TWZkNW5Sa0ZrUXNUWHpNLWNRYVFzRWN0dkFva0dEdGtaa2JkV0Y3alF4TTcxMDNfeXNn?oc=5",
+      "published": "Mon, 02 Nov 2026 21:21:46 GMT",
+      "summary": "Indigenous peoples and local communities solidify decision-making powers at COP17&nbsp;&nbsp;news - Mongabay",
+      "source": "GNews | EUDR",
+      "published_beijing": "2026-11-03T05:21:46+08:00",
+      "source_detail": {
+        "name": "news - Mongabay",
+        "url": "https://news.mongabay.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Granules India Limited cuts Scope 1 and 2 emissions 45.7% - Multibagg AI",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa2Y1WnJyeDlnU3lzaVZfU3daZHpDY0FhM3pURjJUYlVnVDU1WUpkdklGalN0bFNQWFA0eGhiT2VnWWRDM3VWMlczUExyVHZ2Y081aEMtT1ZrMk1wR3pKYnpMby1hREd5djMwOU50ckl5Tzk2VVFjZ3FzVm1SS0VubkpES01oQlNXcDlUaGNiQzdaV3dXVzdYTkk0TUpBMFhhVFlkbUZGMHh0bTZKU2xYTzF4bw?oc=5",
+      "published": "Mon, 02 Nov 2026 21:19:01 GMT",
+      "summary": "Granules India Limited cuts Scope 1 and 2 emissions 45.7%&nbsp;&nbsp;Multibagg AI",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T05:19:01+08:00",
+      "source_detail": {
+        "name": "Multibagg AI",
+        "url": "https://www.multibagg.ai"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Using Pulsars to Probe Early Growth of Black Holes - American Physical Society",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IVG9Ra3lFRnJLWmNXTzBRRmFwdF9YQnNfaEJheWU1WnBVR3ZUTXNJMmltYllTc3pzVFNDWjNRVzJEM0E4XzAtWjA2dTh4STFyMFE?oc=5",
+      "published": "Mon, 02 Nov 2026 20:06:59 GMT",
+      "summary": "Using Pulsars to Probe Early Growth of Black Holes&nbsp;&nbsp;American Physical Society",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-03T04:06:59+08:00",
+      "source_detail": {
+        "name": "American Physical Society",
+        "url": "https://physics.aps.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMzRodEl1MHIzQnNFclgxSTVMaWczcDloaHJBeEhXRkFGT3plQWR1ZHpnVDl4bmJrYW5oajNscVFGaUtpZ0JVUWZNcTJQU2JGMXp5eVR4cG1BWHB6c21Ob0pncFlWck9NU044T1d4bTFZbjQweE1JdHU3V2Z0OGc3d2xrQXpBX2JpREg0TlRJUlhDRXo2bEFCMTh1bnpUM0Qzclp3?oc=5",
+      "published": "Mon, 02 Nov 2026 20:00:00 GMT",
+      "summary": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists&nbsp;&nbsp;The GuardianEvidence of red blood cells seen in dinosaur fossil from Brazil&nbsp;&nbsp;ReutersDinosaur blood found in fossils for the first time&nbsp;&nbsp;Popular ScienceTraces of dinosaur blood found in world-first discovery&nbsp;&nbsp;The ConversationDinosaur blood discovery echoes Jurassic Park (in a good way)&nbsp;&nbsp;The Times",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-03T04:00:00+08:00",
+      "source_detail": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "An aging NASA space telescope is plunging back to Earth. Officials say the \"risk of harm...is unlikely.\" - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWURQMWNnT0RZWnlOZ0lpRjBvUjQwX1hHbGVjdWdJWUNKR1hiOUZEaGtTRGZEd0NPcmdOY2MzNkhFdlhjQThxdmt0WmxrUTh3SXVaNG1DYzluVzVvTC11ZXdQRHd5dkN5VHRUbm9pQVFhRmpTdU1ybXRNaGtJRE4zQW0yYVFWR1lEcHUtNVh3?oc=5",
+      "published": "Mon, 02 Nov 2026 19:00:00 GMT",
+      "summary": "An aging NASA space telescope is plunging back to Earth. Officials say the \"risk of harm...is unlikely.\"&nbsp;&nbsp;CBS NewsNASA's Swift space telescope is about to crash to Earth. Where will it fall?&nbsp;&nbsp;SpaceNASA's Swift telescope predicted to plummet back to Earth tomorrow&nbsp;&nbsp;ABC News & Headlines – Australian Broadcasting CorporationNASA’s Swift Observatory to Re-Enter Atmosphere&nbsp;&nbsp;NASA Science (.gov)NASA telescope is on the verge of plunging back to Earth after failed...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-03T03:00:00+08:00",
+      "source_detail": {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "FINRA Disputes Highlight Timeliness In Arbitrator Bias Claims - Law360",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM3d3VVo4ZDRQRFM1TUpwbS1fUGdEbGRybTVZRHdZTWYtYm9zQkdVdmprV0piTFBrckp4X2pUZGhtemw3Vm1STTI2V0xDcFBQMnBzbk00Wk1PRVgweEJnckRtZlVSS25zNmhHMGxGRkdVT0ZCVmg2bXV2Q09nYUE0dUVWem8ybDRaRV9ONDdraFhtUXhMMVhOTUEtVlBpWjVCYWFCVjdzSXppM2NqVWfSAVZBVV95cUxNRkpCOVRmSlczWXUtczlDalVxODJCdkhuWkl3V1dodTRfNkZsMVYyY0JZZ1Q3TDhaMTRwSjczMU90d1BFNWwxX08zWnhsMl83RmRDS2l5QQ?oc=5",
+      "published": "Mon, 02 Nov 2026 18:58:24 GMT",
+      "summary": "FINRA Disputes Highlight Timeliness In Arbitrator Bias Claims&nbsp;&nbsp;Law360",
+      "source": "GNews | SEC Climate Rule",
+      "published_beijing": "2026-11-03T02:58:24+08:00",
+      "source_detail": {
+        "name": "Law360",
+        "url": "https://www.law360.com"
+      },
+      "priority": 0.0,
+      "category": "ESG法规",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Voyager 1 Goes Silent Before Historic Light-Day Milestone - Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbVRVQVQxNnQyYjFqelV2WlQzek5ET2pSYm9NQzhYeUJfZW9mZUU1a3Zjekt3VG11MFFleDhDd2FkNFVWeGRpOW05eGFzcXB3ckE1TzZMZEpZei1xa0tjS3RmRDk3OFdnS0E4TDc2LXU3ZXVLdUM5d1FUbWtSMzNDSTBwNUNRbVljdHdVMVVNcXpsR3ZvSTBZS0RXQjdyUDVZSktyTjhCMGREOGJrX2hpVk5QN3FCMklna3AzLWlsNUY?oc=5",
+      "published": "Mon, 02 Nov 2026 18:45:31 GMT",
+      "summary": "Voyager 1 Goes Silent Before Historic Light-Day Milestone&nbsp;&nbsp;GizmodoNASA's Voyager 1 mysteriously lost touch with Earth&nbsp;&nbsp;MashableNovember’s Night Sky Notes: Light-Day Away&nbsp;&nbsp;NASA Science (.gov)Farthest human-made object in space loses contact, goes nearly one light-day away from Earth&nbsp;&nbsp;Interesting EngineeringVoyager 1 probe to hit historic one light-day distance from Earth in 17 days — 49-year-old spacecraft travels 16 billion miles and survives nearly ten ti...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-03T02:45:31+08:00",
+      "source_detail": {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ranchers in Brazil ordered to leave home of Indigenous people living in voluntary isolation - news - Mongabay",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRFpKNGFXeVlMVXNnR0g5ODVjeWhIVFF3dlNIYWJ6MHozMk5vZi1OckdmTTk4Q1JZZTZHRFNfWU1SRlNVc3M5SlJHS3pyLXI3eFkzUzExY2F6ZUtuSFlaYUV3dXlBYXdDRS1LWUJnR1R6VXFiczZ5NFhrdEVyUzRsbEFyQlotSkNNUW1YLTRyT1RiV0FqdFZmLTBwUTBXNmlRbDZGd3VEandFNU84TE9tRkE5QUR0QXdBcFFjRkxUX195UHE50gHKAUFVX3lxTE5ncHdmUWxOc250V1lJbGotaFB6S3JYc29BOXQ4X2gyR3Q5aGdSOTNWdU4ycnEzY28wVFZCaWxqTmc4RWFIOEFNQUszS3hnc1l0U0lUdW45OTVYUjZSQVE2RUdPaVVUdllzYU9CNHN4aGpDSVRYN3FBNENOdm5Xa0liWGhyZmxrM3libHZGY3VtZTJuTzRqdFY3cm8zWmRqb1h5U1lFLVZsbHQtWEVVU1liSHdxWjZkT091NnE2Q2pSdmN3S3BPbXJ3X0E?oc=5",
+      "published": "Mon, 02 Nov 2026 18:33:45 GMT",
+      "summary": "Ranchers in Brazil ordered to leave home of Indigenous people living in voluntary isolation&nbsp;&nbsp;news - Mongabay",
+      "source": "GNews | EUDR",
+      "published_beijing": "2026-11-03T02:33:45+08:00",
+      "source_detail": {
+        "name": "news - Mongabay",
+        "url": "https://news.mongabay.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Weather risk assessment has become a capital allocation requirement - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORHI0VWNMMVI3VFVIVDEzdUtQelVXWTdKU1RQV1BCWU5wdFZlaGhnODVUemI3cV9GSG1FQWdDbldyNzZncWdKVHNOZkZmb2dSNDFGRXJpRGRHZXpZOXA3bHpXSndWdEtoX2c0YlBldHFQV0RqRDJ4OVhEckl1S1Nqa2pjS090NkxaUGIxT0oxNElWQzJNOEI1b3FNVTI3YjZmdGFJREZBeWdDNURGdjBLcjFrNXlibF9FSVFvUEVmdWZlQV8wSDRrRmJvRERkNzlKcHhTSkk0bw?oc=5",
+      "published": "Mon, 02 Nov 2026 18:06:45 GMT",
+      "summary": "Weather risk assessment has become a capital allocation requirement&nbsp;&nbsp;Insurance Business",
+      "source": "GNews | Climate Risk",
+      "published_beijing": "2026-11-03T02:06:45+08:00",
+      "source_detail": {
+        "name": "Insurance Business",
+        "url": "https://www.insurancebusinessmag.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SBN ST017 Opens November 6, 2026, Coupons Potentially Attractive, Here is the Schedule and How to Buy Starting from IDR 1 Million - Aktualita.co",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVjBieEJvSGc1WWx5M25jS01xOTRFNm0zOG5hM1h1NGRGY1Y3MVBuZ2FxR3BRYWFEaGdEcjliT3dBVURlY3NITVhLa19PUndFT3lnamRlbi1Sa0hqTTVzUk9rV2lYQU85SlFaUlVtNmNScHZXR3ZtbVAxREZRSkE4Qy1LTHE5SkdwTUhqNXZsZzB3VDdGX0JwZFZQYkdWYU5JbU9HQ2tuQncyRUtZUWZOM2piMVdqemtDc3pFQ21hQ29GOUFsNVU0VTk4VFZFSHcycHp6YlN4RXI1Qjl6bUVoV204aFFaUVRvZUlNU09wRQ?oc=5",
+      "published": "Mon, 02 Nov 2026 17:56:58 GMT",
+      "summary": "SBN ST017 Opens November 6, 2026, Coupons Potentially Attractive, Here is the Schedule and How to Buy Starting from IDR 1 Million&nbsp;&nbsp;Aktualita.co",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T01:56:58+08:00",
+      "source_detail": {
+        "name": "Aktualita.co",
+        "url": "https://aktualita.co"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town - news - Mongabay",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbjN5ZTlsenVuRnNrV1FWNW84aGREVzRGRUR3dWI5VTgwYXB6ZmFaNkhXbnVnOXhhZFQ0T0ozUTN3YUlTMjZQTnhLWkd2NFlHOFdBRE93WU12ck5WZldBbU1pbWROQTZHWE53WnR4aFdSX0xlYlBqRHo1eEhVRlVudUc4UlZ6QTBZUWNzQUhCTXlVcEpiRmRGQWVDNTZkSWRncmlMUlBDZ3JOZHZadGNuZDhNSkZZRlB5bVdySDFHcFhuNHF0djR2MkNGRElJOTF5SGc?oc=5",
+      "published": "Mon, 02 Nov 2026 17:25:42 GMT",
+      "summary": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town&nbsp;&nbsp;news - Mongabay",
+      "source": "GNews | EUDR",
+      "published_beijing": "2026-11-03T01:25:42+08:00",
+      "source_detail": {
+        "name": "news - Mongabay",
+        "url": "https://news.mongabay.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Alphabet kicks off €6 billion bond sale, tests appetite for tech debt - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSm5nTThDOUxTZDlERFZrWjg0WllEVktOcXZOWGdDQWtvX3VIQXhaWGc5amxQMHdacndmRng1R3pnSko1ZnV5OExhbVVRVGh5c2RtYUw0dmNfODU1NklnbXp1dkx3ZHlpSTAtY01WOGY5SkpFTnRGaXo4OEZ0cVUweTl2bk1hTFFqbC1hM1I1MUVraXdhWVRoTWJkZjJGVDlmSmZEaEs4em0tVkhSUjdRMjlMaU5EQ2M?oc=5",
+      "published": "Mon, 02 Nov 2026 17:16:03 GMT",
+      "summary": "Alphabet kicks off €6 billion bond sale, tests appetite for tech debt&nbsp;&nbsp;Reuters",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-03T01:16:03+08:00",
+      "source_detail": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Edwards Completes $319M New York Semiconductor Pump Plant - Environmental Leader",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN2VTRURiYTZaOWxKdGFBTnp3M0VDeVh3LVlxUnlsd1dMcWxNUV9BNERxekd3QzJHbm9QS0l2MlBBVWxCTkNGYzhhMW1RNm9VdUtCMzR3RHE4b3NyNnhVRzFoZ2ozY3BrR1M4eGtPWjFtTjljMlNrRzZsZnVmeEhMaG1VRFI2YmF2d1R1Q2p3NE5CVnFLYi1qTXRnV251TnJKWnVKNF95amw2VGdpcmMydg?oc=5",
+      "published": "Mon, 02 Nov 2026 17:00:00 GMT",
+      "summary": "Edwards Completes $319M New York Semiconductor Pump Plant&nbsp;&nbsp;Environmental Leader",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-03T01:00:00+08:00",
+      "source_detail": {
+        "name": "Environmental Leader",
+        "url": "https://www.environmentenergyleader.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "JWST uncovers new clues about the origins of 'interstellar invader' comet 3I/ATLAS - Space",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0FiNHpuLVVyUktOd2RGdUhUVmJlc296TGVnV2JwU1o2NU43c2FNdk9XT0ZxeVN1NkJ5R2MyQXQwU1FZZWZFa3EwYXVvQjNZaFc2VVhqemFHOVVOSjM0Ync2RXc5VWJSU2ppSkNzdVVEWWJKZVRER2tjaXdOOGlqdUhoWV9XekVETS14X2FmYjhfaTVMN01mLUg1WW1BRWxQeXVpYzMtSUJNa2xvUXQ2X3pXdWJxc2dFV2tzTmYydUN4em53VUNKTURNNkFCWTJtS1pVb3BjSnJ1UDVn?oc=5",
+      "published": "Mon, 02 Nov 2026 17:00:00 GMT",
+      "summary": "JWST uncovers new clues about the origins of 'interstellar invader' comet 3I/ATLAS&nbsp;&nbsp;SpaceHeavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace&nbsp;&nbsp;Phys.orgInterstellar Visitor 3I/ATLAS Just Got Even Weirder, And May Contain 10-Billion-Year-Old Material&nbsp;&nbsp;ScienceAlertJWST detects dusty ice grains in the coma of 3I/ATLAS — Space.com&nbsp;&nbsp;UA.NEWS3I/ATLAS isotope study points to a cold, ancient origin&nbsp;&nbsp;FindArticles",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-03T01:00:00+08:00",
+      "source_detail": {
+        "name": "Space",
+        "url": "https://www.space.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Will New Laws Finally End Human Rights Abuses in Asia’s Factories? - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWGxSc1hNcjZPQ0g2TGZKd1hoS0tMcXVzU3E0RkVFRmZXRFBqV1JOaERhdlJrcXU2ekg1aXRwNXlPOC1WU1pJYk5PVFF5M0UzWWtwRURsTzRVT1g3WGJMTFkwXzc4MVEzUldIaFhGelFRVEF6ZWxBbEtiWkVyODBxeGdPTmdqbVVoN3V6WmFfeWNhN1pZUTV3d0ZmRWd2dw?oc=5",
+      "published": "Mon, 02 Nov 2026 16:11:44 GMT",
+      "summary": "Will New Laws Finally End Human Rights Abuses in Asia’s Factories?&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | SC Due Diligence",
+      "published_beijing": "2026-11-03T00:11:44+08:00",
+      "source_detail": {
+        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://thediplomat.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Benchmark appointed primary data provider for Veramark's Responsible Metals Value Chain Platform - Benchmark Mineral Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkJUWDNmbGpFSVF3YmxBZ0RTck1DMnRYRks5eGFQLTE3V3lpVlc5Z1ByRE9lZk94ZWkwd0JteDh3YU5NQlY0U3RXRjBHOWNleGJ4Wnh2ckdKbVNIRVlmZV9QZklwRVZCcE1QY2l2QmJzYWt5SFhPbEw1NG1pWktDSkV2NTFZVFZiZjR6ekNlVFpqN3lfZ0pHWU5rYWpBM1R4VGpYMUt0SGM1RzFCa21GcHdkOVp1Umd0SXBIYUREY1ZmRThtTTF5emtNTzBDMG5CR0MyUFEzcjI?oc=5",
+      "published": "Mon, 02 Nov 2026 15:42:09 GMT",
+      "summary": "Benchmark appointed primary data provider for Veramark's Responsible Metals Value Chain Platform&nbsp;&nbsp;Benchmark Mineral Intelligence",
+      "source": "GNews | Conflict Mineral",
+      "published_beijing": "2026-11-02T23:42:09+08:00",
+      "source_detail": {
+        "name": "Benchmark Mineral Intelligence",
+        "url": "https://source.benchmarkminerals.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hufschmied marks 20 years of cutting tool manufacturing - Machinery Market",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdkJ2Tlp5LWcxem53VG04cHhEanlaNzlDNllJM2hMNXpPNm9KRFNua2tBcjQ2bDR5bXkwNTEtN1R2a2hOczQyZmdxYmg0R2JwLWF1Y2xFMnlXZEFEbVVZVGRJSjZ3Q3BZSEVHUXc4WkpFZXN5UHZpUlZsbktpNV81YmpkOXVJTmVOQkVnYjN2V1dNc1RUYnQxT1N1NFY3bVdCalVR?oc=5",
+      "published": "Mon, 02 Nov 2026 15:36:38 GMT",
+      "summary": "Hufschmied marks 20 years of cutting tool manufacturing&nbsp;&nbsp;Machinery Market",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T23:36:38+08:00",
+      "source_detail": {
+        "name": "Machinery Market",
+        "url": "https://www.machinery-market.co.uk"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rethinking Linking - Energy Institute Blog",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BMTllbG5qVUhDbHBnOWpJY2sxUGppQlBKM3hVUHZZMXpfZHlRZ2VJb1JOMXd6TDRaU0prdDlhN2czV18tbGw4RVNRajlaSFBLY2hRWUUxd2J3MDR3Sk1qaFpIdDJQNUlYcmkyVk92RDZ1RWs?oc=5",
+      "published": "Mon, 02 Nov 2026 15:30:00 GMT",
+      "summary": "Rethinking Linking&nbsp;&nbsp;Energy Institute Blog",
+      "source": "GNews | Cap & Trade",
+      "published_beijing": "2026-11-02T23:30:00+08:00",
+      "source_detail": {
+        "name": "Energy Institute Blog",
+        "url": "https://energyathaas.wordpress.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sigma Lithium Previews 3Q 26 Earnings: Executed Turnaround Extending Debt Maturity, Robust 32% Gross Margins, Low CIF Costs of US$518/t - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNVWxTLUlRaExsQzVjdllWX3JzbF85U1RVeWRpZjdTX29NeEx3SzV5TzNEQkdCSUd1SmZQY0M2MXI0ZnhWYm9mQU5POEcweV9JLVh2TEdQVkRHSi1SVG50MGxFS3RJTU1MZHlFcDN5b0V1TWNSREk0ZXo3R2ppVUUwaUhJRDZKUklmZXp0OTc4SUpkNnk5N1l6LWtUQjRGRlZVeUJMZS1rRGJvQ01KV29oUTV1NnU5TS1aNVUxeldMOUU0cnVQTmRqQ0Q1SXc3b184X183MU04Uy1xdGRDZ0xJbUJnaVY0d3BCb3RPNS02UWVJRG9IU0xQNDhFeEV4M0p1dGdRZ3VCbGhoWDFOTmFZRTdRWUQ3WENQN210c2JFZVlESWxhN0syRHVJTWM3Ri15dm5NSWt3?oc=5",
+      "published": "Mon, 02 Nov 2026 15:26:52 GMT",
+      "summary": "Sigma Lithium Previews 3Q 26 Earnings: Executed Turnaround Extending Debt Maturity, Robust 32% Gross Margins, Low CIF Costs of US$518/t&nbsp;&nbsp;The Globe and Mail",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T23:26:52+08:00",
+      "source_detail": {
+        "name": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Early humans needed more than access to water to settle ancient Arabian deserts - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qZkJkcnlnMTY2SlZNeVlHMEhVVXBjODdDbjV6VHpfemwtbVdzaDlrNDdsU3pIZC1pallPSVJxY2NvTGx6cmVxaHNHTTYyYUNLcndjdjZjVGpOODZpSVZlRFE0V3BHcDNNRFVVMlJjQk53cjZXUW5uYUdR?oc=5",
+      "published": "Mon, 02 Nov 2026 15:20:16 GMT",
+      "summary": "Early humans needed more than access to water to settle ancient Arabian deserts&nbsp;&nbsp;Phys.orgStone and water governed early human settlement of the desert&nbsp;&nbsp;NatureStone was as important as water for prehistoric desert settlement, study finds&nbsp;&nbsp;HeritageDailyScience Snapshots: November 1, 2026&nbsp;&nbsp;The HinduAccess to stone as well as water governed where early humans lived&nbsp;&nbsp;New Scientist",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T23:20:16+08:00",
       "source_detail": {
         "name": "Phys.org",
         "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Bizarre beaked ‘hell chicken’ is the first dinosaur discovered to eat fruit - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYkxwRy1SeE9KcEdXQlRLVTFSNm1YZFRDTkdiVDVpVjBkN3p2N1BreGJVeUxYWTJoR3RRVnpHR0l1dVlOMEZ2Znd6RTVwSVZPd2Uza0U5X3JRR3JlWmNVTUFQZVlIUVlkcEgwOXF4S0UzVUJpc0lBY1J1b0tjWFhUWklkSHJvMmFpLUhhalcxVFU3aXE5MElNRHl2TUtIR3JORWswMmxYa0N3d0E?oc=5",
+      "published": "Mon, 02 Nov 2026 15:17:00 GMT",
+      "summary": "Bizarre beaked ‘hell chicken’ is the first dinosaur discovered to eat fruit&nbsp;&nbsp;New York PostDinosaur Discovery Reveals a Specialized Fruit Eater&nbsp;&nbsp;SBU NewsStrange beaked 'hell chicken' is the first fruit-eating dinosaur&nbsp;&nbsp;ReutersBizarre Fruit-Eating \"Hell Chicken\" Suggests Dinosaurs Played a Role in Flowering Plant Evolution&nbsp;&nbsp;Yahoo66-million-year-old first fruit-eating dinosaur identified from 25-pound fossilized skull&nbsp;&nbsp;Interesting Engineering",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T23:17:00+08:00",
+      "source_detail": {
+        "name": "New York Post",
+        "url": "https://nypost.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Sourcing Journal’s Executive Sentiment Survey: Cautious Optimism Amid Geopolitical Turbulence - WWD",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLWEzSHNSTTBQOUFndmphVjZXenJnREg4MGpWX1BJSXVlSlFmWVQ1QkJBQjlKcThXTEJpZnVEUUdCYUtnSkFBV2Y4VGdqVHR5TVVxS0VZNGtja05sRlpPNDVwN0pxeVgxZG1DaUtvVW93M0U2NE9VYUh3YWJXV2ptcnFTRE5NSTFJRUcxODVRclJvWmV1RWZhT3BKQkxYQXR3QWtiTFBaVVY?oc=5",
+      "published": "Mon, 02 Nov 2026 15:05:13 GMT",
+      "summary": "Sourcing Journal’s Executive Sentiment Survey: Cautious Optimism Amid Geopolitical Turbulence&nbsp;&nbsp;WWD",
+      "source": "GNews | SC Due Diligence",
+      "published_beijing": "2026-11-02T23:05:13+08:00",
+      "source_detail": {
+        "name": "WWD",
+        "url": "https://wwd.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "A rainbow of ancient rocks on Mars photo of the day for Nov. 2, 2026 - Space",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDFobXIxSXhxMzZoVzlWTjl0d2JjaUJZX291cUZwaENiNzJGQzdReDc4eDNfNkFONndnVl9pdHJ6ZDd3T2dKRTZ4M3NWZVNvLU1XWG9ldEF6eWR6TVRpa1NIQjJkMDRGNWNObHlJb3hPWTdmRVlzZlAwZ2NMTUU5bU1fN3RZaWVpSTI1czRWTFQ4c3Yzc1pyUFlXRkRnYlo5ekI4akRnNnFKalZxT0E?oc=5",
+      "published": "Mon, 02 Nov 2026 15:00:00 GMT",
+      "summary": "A rainbow of ancient rocks on Mars photo of the day for Nov. 2, 2026&nbsp;&nbsp;Space",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T23:00:00+08:00",
+      "source_detail": {
+        "name": "Space",
+        "url": "https://www.space.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists looked inside 146 alligator eggs – and discovered this - BBC Wildlife Magazine",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNFNoOEVnZElsSHhvZ2NfX3VqOElMaEF0d1dGZlc2bXA1Yk1pMi1hWHFiR0ZJOGFiTlgtSU1GbXNORjM0Q0RHVkJwRFdIU19wX1JFZklIcGtHdkhzUDA3VzNrTC00MjhNTzg1QXZ3cjItbFV1b2xBZ25JQk9GTGpDUE9EQm5NVi1raUpPODB4WVo?oc=5",
+      "published": "Mon, 02 Nov 2026 14:44:30 GMT",
+      "summary": "Scientists looked inside 146 alligator eggs – and discovered this&nbsp;&nbsp;BBC Wildlife MagazineSee more headlines & perspectives on Google News",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T22:44:30+08:00",
+      "source_detail": {
+        "name": "BBC Wildlife Magazine",
+        "url": "https://www.discoverwildlife.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "4 Ways to Improve Scope 3 Data Quality Over Time - Environmental Protection Online",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS1NmY2Via1B6aDFmX05OQkQ0b0dJelVvbERXdFotdlpKTGtpcFMyR2NaVE16TEI3MHRaZjI2Y1l4MndiaWhfZmtpd1QyZGQxNkViX1FyQVBMZVJrYVlKcHhVcU9uSWk3VGtnSVBSM29TUGItcDFQQ3M5UzRaY0hKVW9iQzhYSnVmZVVzbkFyZlNhZTZhSV9kWkNB?oc=5",
+      "published": "Mon, 02 Nov 2026 14:32:43 GMT",
+      "summary": "4 Ways to Improve Scope 3 Data Quality Over Time&nbsp;&nbsp;Environmental Protection Online",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T22:32:43+08:00",
+      "source_detail": {
+        "name": "Environmental Protection Online",
+        "url": "https://eponline.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Scientists Upend Theory on Origin of Life on Earth - Newser",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjA5cHZQb0pGM1poYTN0UUpYQjBLWXN4enp6aEQxMGhrYV9aTjF2M1pBMHE3czRUMlZ6V2FaWnZCdU9NbU1aR045ZjdMWmk1WkFYZkw2VGxkbXlJMHpISnFTVFZWbzR4d05JOWx2UVB2VXFLeXN3b0dPRUNsMHZWLU9fcnR0elRBYWRuejBwYXdzMjk1VGc?oc=5",
+      "published": "Mon, 02 Nov 2026 14:04:00 GMT",
+      "summary": "Scientists Upend Theory on Origin of Life on Earth&nbsp;&nbsp;NewserScientists say decades-old theory on the origin of life might be wrong&nbsp;&nbsp;CNNStudy claims long-held theory of origin of life on earth could be completely wrong&nbsp;&nbsp;New York PostComets didn’t seed life on Earth after all, new study suggests&nbsp;&nbsp;University of CambridgeStudy Doubts Comets&nbsp;&nbsp;WHIO TV",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T22:04:00+08:00",
+      "source_detail": {
+        "name": "Newser",
+        "url": "https://www.newser.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3QtV0VLODFaSmgzODZpOG05M1RUMEpZZTY2Y2lfc2RKUW96SmlCZ3l6NUVab3dJYzV3Q281WWV5WmJyYWNJRDA1OERtaTEzejI2cW9hN3dkX0lXRXZDQnZ4T3BSalNuNXlUOEZIRVdPc0lHcnllOWxMTFRNOG0tczFzT1hhaTlYMTViQXIzSUVHZDNhRTBhcUZpVHVhZUNIZWUzMlVpcEtTLWR3WnpR0gG0AUFVX3lxTE1TaVFyZXRhRUJfR3NJbVgxdFJZMkdkSWJqQXpSd0UwTmRVQTZPeHNmelVwanJvZ2hkRmp2Mjh0S0w0Q2hiZVBkZXc3OHp2aWFRUzcza3dGekduZ09IWDRPY2lwMVZzR1R6ZW9mS2h4V2N6c2JfZmlMcDl3MXVwRFdEand2LUdLQ1AzeGpxUzBMc2t0Vld5c25saXM3MXQteVFQMWt2X25mS0lvb2RBU3RoUTVYTA?oc=5",
+      "published": "Mon, 02 Nov 2026 14:03:44 GMT",
+      "summary": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout&nbsp;&nbsp;CNBC",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T22:03:44+08:00",
+      "source_detail": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Editor’s note: nature action in the margins - Sustainable Views",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMHZ6ZUNDRWNtNkktbmM5WVEwTjFnYWFUdmF0eFpLUmg4V0V0cmJsanVRYlB5NEtsVEY1U09JT01vd3hCdHY3WjRLWWJ1VHlJcFpMRXM3dFJTSTFRTnlQVjNEc1RweFVnLUhfdldsZ19rTzNQT3RGX3FjMW5oa25JTlFQdWlMWWotblRIUg?oc=5",
+      "published": "Mon, 02 Nov 2026 13:27:04 GMT",
+      "summary": "Editor’s note: nature action in the margins&nbsp;&nbsp;Sustainable Views",
+      "source": "GNews | Biodiversity",
+      "published_beijing": "2026-11-02T21:27:04+08:00",
+      "source_detail": {
+        "name": "Sustainable Views",
+        "url": "https://www.sustainableviews.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Rare Earth Magnet Costs Are Missing From Annual Reports - Environmental Leader",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1daMGVvMTE3aS1YTUY0dlo0ejBIWm1YdUdLT2ZMUDA0bi1CVWxEVjRRNWUwNjRUY1V3cmVDbW4zYWxVQ2VlTk1FVlAxQkZnLTMwS0NwdnF2X3B1TWotX3V6SHBRSUNRakV6eXpVUnVZQURYYkE5VmduZ1Q0a1dOYVMtbHlPRDItWWxjY0xzdzg4S0lXdV9wWEM3Sm54NzM4ZGRSejF2S1JWLWdjZVE4?oc=5",
+      "published": "Mon, 02 Nov 2026 13:00:00 GMT",
+      "summary": "Rare Earth Magnet Costs Are Missing From Annual Reports&nbsp;&nbsp;Environmental Leader",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T21:00:00+08:00",
+      "source_detail": {
+        "name": "Environmental Leader",
+        "url": "https://www.environmentenergyleader.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Louisiana cattle ranchers have concerns about this 'sludge.' Are more rules needed? - NOLA.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeDE4YUo2UThXY1VsQnQwVW02OGFVZGN2VVBEMzJUR0c1SVF3VnRRbW9Qck5tRElZSklVSWN5WFNsU3VnYTV3NW1VNWlaYnBaOEh2Yk41NWRUbTN5Mjk5aUNpT2gtbURRdXZjVUh1QXdfaGQteFFIX2phSGlJODRsQTZBb1d5MGVvSnhkNDNXX2x4NHhtZzJfeG9Fam5kUHNJeWpCakJVc25RVFZ2NVk1bk1iVURYUHdFSkNUMU9Wdw?oc=5",
+      "published": "Mon, 02 Nov 2026 13:00:00 GMT",
+      "summary": "Louisiana cattle ranchers have concerns about this 'sludge.' Are more rules needed?&nbsp;&nbsp;NOLA.com",
+      "source": "GNews | PFAS/Chemical",
+      "published_beijing": "2026-11-02T21:00:00+08:00",
+      "source_detail": {
+        "name": "NOLA.com",
+        "url": "https://www.nola.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "NASA Invites You to Join Mission to Saturn Moon - Newser",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdWxJbHJZbzBHaGZJeHFGaTEtd1d6eXJKNWkyWXVfMWNNNmU5blZZaVZ3aEdmZUgzaUpwdEVPYlU0RjJzeFQwZHFXdlNSVGRfeXRpUFVOLVU4M0ZxM21JaFZWcm9zamk0dkRtQUpqSVdLVTdJb3BQdzNHYWszTGViYkpkanZHaU9HMGpLUmZBOGowQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 12:48:00 GMT",
+      "summary": "NASA Invites You to Join Mission to Saturn Moon&nbsp;&nbsp;NewserSend Your Name to Titan Aboard NASA’s Dragonfly Mission&nbsp;&nbsp;NASA (.gov)NASA offers opportunity for public to put name on microchip expected to launch to Titan&nbsp;&nbsp;WSVNYour name could fly to Titan on NASA's Dragonfly mission&nbsp;&nbsp;WBAL-TVNASA offering to send your name to Saturn's largest moon. Here's how&nbsp;&nbsp;10TV",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T20:48:00+08:00",
+      "source_detail": {
+        "name": "Newser",
+        "url": "https://www.newser.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Lab Tests Eliminate 96% of Forever Chemicals Over 58 Days - Geeky Gadgets",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xaWFQbEJSYVc1VlJKZVhYaVZqWjJEVEotbkVJcnh3ZTVYdmdLeWtWaWpaSWE3S3FROWhPXzFXcFVLZFppaGp4WmFlR2xSNzFmN2QxcVVPd3VIRXllY1o2Y3FPRWUzSk5hbFE?oc=5",
+      "published": "Mon, 02 Nov 2026 12:46:08 GMT",
+      "summary": "Lab Tests Eliminate 96% of Forever Chemicals Over 58 Days&nbsp;&nbsp;Geeky Gadgets",
+      "source": "GNews | PFAS/Chemical",
+      "published_beijing": "2026-11-02T20:46:08+08:00",
+      "source_detail": {
+        "name": "Geeky Gadgets",
+        "url": "https://www.geeky-gadgets.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Dust-shrouded Milky Way star cluster may be nearly as old as the universe - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sY2tsbTlBS2ItSHZiMWJZOTUtUG9VRHY2SExqVlVTSnBPOW14MDJnZVNZWm9FYXQ5R0xHVFdHNVJCOXVnYVhsWnRVSmwyLXBmbEQyWHNfZHFuUnZ6aGJTMTlSeDdYRW1rcUdaQXNkUGNpYkZGaVFVM0V3Yw?oc=5",
+      "published": "Mon, 02 Nov 2026 11:40:01 GMT",
+      "summary": "Dust-shrouded Milky Way star cluster may be nearly as old as the universe&nbsp;&nbsp;Phys.org",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T19:40:01+08:00",
+      "source_detail": {
+        "name": "Phys.org",
+        "url": "https://phys.org"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Huge nature finance hole remains as COP17 concludes - Sustainable Views",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVllPbnRTNHY4MUhWN3JtMjdZTFNDUUZ6QmdfYU9ZYUxJNGZTbHlIUXBpNTZJZGJnVjVubVFRRDhnSG1OV2hMU3UwaEMxbHFvTDJFNi1wLThWbXVaUEozVFpNU01GazhCUG5YX3NVNHNPYWVqNkdNR1Mta05SeXJ2TGF1dlg4YUlXSW5tdWE1TzdqeGMzYno5SFBn?oc=5",
+      "published": "Mon, 02 Nov 2026 10:56:53 GMT",
+      "summary": "Huge nature finance hole remains as COP17 concludes&nbsp;&nbsp;Sustainable Views",
+      "source": "GNews | Biodiversity",
+      "published_beijing": "2026-11-02T18:56:53+08:00",
+      "source_detail": {
+        "name": "Sustainable Views",
+        "url": "https://www.sustainableviews.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "TNB taps RM2bil sukuk for Kenyir solar project - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdER3b0pJQktEekV0d2xHRGdqb0h0NkZtMEY3VXBRMC10MHVIUVJKaGcyeTZDeF9mSXl3WTVkbjg0QkcyQXVtTzhhZzVjODhTMnlYa1A3N28wOVB4b1M4dE55STM5cXpHVTBYR3RNS3phOWRSRWZMQ3dCeUlHV3lRSmsxVEM5amt4aTVJdFJvU0lRa1FtTUE4VEVZOWp4TkYwUUHSAacBQVVfeXFMUFRTcUVLX0wwUGZZczI3VjFYbFpLMHFXSG0zQWI2ZkEtdGZQM2s1NWZwdW43WGdOc0VfUkpwdU1DWlJKNUU0M09CclFNZTZZMjhKSXdwalNlZU5fWk1WaDZCOWFkWUFsUmZjaXRlUzRKUVhPWEFGUzhJVkNSb3Buai1GeklCZmk3ZnR5X2JMZ0MtT3JxZUdvQTZDRFBsV0pjM1hBVVZFRHc?oc=5",
+      "published": "Mon, 02 Nov 2026 10:48:41 GMT",
+      "summary": "TNB taps RM2bil sukuk for Kenyir solar project&nbsp;&nbsp;NST Online",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T18:48:41+08:00",
+      "source_detail": {
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IDBank has issued perpetual coupon bonds for the first time - Arka.am",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcFpaaGM0SEVvbl9na2xnUVFJQ3hiY0tkMFphbFlPek5LMFo0Y2RkRHNOUy1ma2NINnR4SFlTcEI1cTA4eWxjNDA2Q0JoY2tFUlI3aU1MaEdqeml6eEthUUpsbjJKdE40UGZIQy1TTmZjTmFlM2lnY2hpQlBYNnNRWlQ5V3dSWWNrR0lCX044QU8tVXRRRlFIaw?oc=5",
+      "published": "Mon, 02 Nov 2026 10:23:00 GMT",
+      "summary": "IDBank has issued perpetual coupon bonds for the first time&nbsp;&nbsp;Arka.am",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T18:23:00+08:00",
+      "source_detail": {
+        "name": "Arka.am",
+        "url": "https://arka.am"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Meeting the growing demands of food packaging: Where performance meets responsibility - Packaging Europe",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTk1Wb3NLNEFtWmZFc25rbzdRaVYwd29zSGFWUHhrTWdvOTIwX3d1U0NMeDZ4Mm1XcHJQNGlfd3B0R0xFUHctMG5sbElyQ24zc3F5X3FXWFpVRHVIQnMydzNKMzNwUkFfNWYwcm82cUY3U1VXTUJOZ3RId28yd0xRa2ZxdXdqU0EzcndidENNdGx3WXNkMHpvMGZSM1B5YXZlYVhyM3p4aTlJN1h3bTlrelU2WUpLUGdU?oc=5",
+      "published": "Mon, 02 Nov 2026 09:08:10 GMT",
+      "summary": "Meeting the growing demands of food packaging: Where performance meets responsibility&nbsp;&nbsp;Packaging Europe",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-11-02T17:08:10+08:00",
+      "source_detail": {
+        "name": "Packaging Europe",
+        "url": "https://www.packagingeurope.com"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "News in Brief | Commercial Partner News November - Circular Online",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRjlUcGpqMjJBLU9vb2NTZjVTSV9ZZmpqNmIxSGJqdGpLRHVZZ0dhNS1RR2taYjBKM3c2SExfMkpaMVI4bWJ2bFAtZzJIOGVKWHpQWFgwc1RyOHROazZ3SXlGbERtYVBuVEpSZW5SN3NfaEUtc0tvUDlwUWtBLW1QdWhleE00aENkSU1oU3h3?oc=5",
+      "published": "Mon, 02 Nov 2026 08:32:54 GMT",
+      "summary": "News in Brief | Commercial Partner News November&nbsp;&nbsp;Circular Online",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-11-02T16:32:54+08:00",
+      "source_detail": {
+        "name": "Circular Online",
+        "url": "https://www.circularonline.co.uk"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Webb Telescope Finds Something Remarkably Earth-Like On A Nearby World - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHc5Y01BV0N6OTVIWGV3V0FyY2dsb000bVJpRHhJQ2R5MXAwRS1kOGNBZ1MzZ2FHQ294WUxqWE12eUxyZWtHSm1TTFBnbFFObmV2bTdBTVF3T3Y0cnRyLW1LdVVoTndxeDBhckdXdUVBZUlEQU9OVkxOX3dSemUwX2F6dGZySDJPOHhJNHRSYzhJV0V0MW1fTkdXT3IyNW90MU1YcGdabHI1SGpQTDN1amltUDFsSVpWLUVTcGtIdEZrRTdVSVBISA?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "summary": "Webb Telescope Finds Something Remarkably Earth-Like On A Nearby World&nbsp;&nbsp;Forbes",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T16:00:00+08:00",
+      "source_detail": {
+        "name": "Forbes",
+        "url": "https://www.forbes.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Foxconn Unveils Three New EV Models to Expand Contract Manufacturing - Serrari Group",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPamhuZnpQTzJLTkEyb0drSTRfV2VhU3h4X09PU3dfc3B2b0thck9FdjE5VW12cjVWT0YxY3lySEJLRXp2TF8tQ0YybDVKN3dTRXdSZEZNN3F4ZG1GTFdjMWpyQ1BPdlpyN2RzLURCNkdneTBCYmdObGNEY2IybnhuWGNaeXZtU3VIUHNWbEZPZUZ6VGZZM2VYcmZR?oc=5",
+      "published": "Mon, 02 Nov 2026 07:24:43 GMT",
+      "summary": "Foxconn Unveils Three New EV Models to Expand Contract Manufacturing&nbsp;&nbsp;Serrari Group",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T15:24:43+08:00",
+      "source_detail": {
+        "name": "Serrari Group",
+        "url": "https://serrarigroup.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Japan extends transition bond push despite fossil-fuel reliance - The Japan Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMkxUQmlFVW5HUS1uR3NkUXk3QzRfcGNvdTlqS1V4NERxMmhDeFBsZW1kSTBmeGdrbXl5WVMtdUE5VjgyandWbU41MjZibnVGMFFvUW9JTkx2dWMwWXY3bEFfZE5MSERKd2psSUdxc2JqNmFZRW1MWmxfdUtRV09hUnJMWWQzdw?oc=5",
+      "published": "Mon, 02 Nov 2026 07:09:00 GMT",
+      "summary": "Japan extends transition bond push despite fossil-fuel reliance&nbsp;&nbsp;The Japan Times",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T15:09:00+08:00",
+      "source_detail": {
+        "name": "The Japan Times",
+        "url": "https://www.japantimes.co.jp"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Alstom’s preliminary first half 2026/27 results - Alstom",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSFJ3TGtrS3l5TFNCV1pvUURweTZpSnBkc3ZNYnhZTVdPSU4wWTVPU09iUm5pVXhZeTdOUk1WWXdlMDNzZ2VzOFdjYUg2b0N3ODBCTVFSeHZjTkRfb2VvRnU1TktsWGI5TEZFVGZBSjB3bm1CYVR4dmRmbDNQOVpPazliemw5Sm5OMnhuSmxTd3lyai1qMlNQOGczM0U?oc=5",
+      "published": "Mon, 02 Nov 2026 06:30:00 GMT",
+      "summary": "Alstom’s preliminary first half 2026/27 results&nbsp;&nbsp;Alstom",
+      "source": "GNews | Green Bond",
+      "published_beijing": "2026-11-02T14:30:00+08:00",
+      "source_detail": {
+        "name": "Alstom",
+        "url": "https://www.alstom.com"
+      },
+      "priority": 0.0,
+      "category": "碳+绿",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Software licensing can drive hardware waste and raise IT costs - Cyprus Mail",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWFhsckZ6V0FGcHdoZ3lsMzhzaTlqeG5qN0dxQUZBNUNPanRfejlINFhFZm44TGZQWG9HWmdUM3JKMmk4eDNrNjhwOFhlb3Y5MGdESkN2cHduVWNENjdid0NlWkpxTjBjVEptRnp6eDl6c2p5eC1halBtckhfQ21LNmxsT1BoTkt0NjJQSlBueXdtOFNVZFVHWjFDSzBrUQ?oc=5",
+      "published": "Mon, 02 Nov 2026 06:00:00 GMT",
+      "summary": "Software licensing can drive hardware waste and raise IT costs&nbsp;&nbsp;Cyprus Mail",
+      "source": "GNews | Scope 3",
+      "published_beijing": "2026-11-02T14:00:00+08:00",
+      "source_detail": {
+        "name": "Cyprus Mail",
+        "url": "https://cyprus-mail.com"
+      },
+      "priority": 0.0,
+      "category": "可持续供应链",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Ooni seeks strict recycling regulation - The Nation Newspaper",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xQ0VrQk5VaWljdG9paFZVZjl3N3FKWXFUN3d5b3I2QjRMZi04TWZ5S1RmdXdxYVByR3NXYmJyRDFtcW50UnIwNENzOEktNXhWa1dyYlRWVGkzWDAtVW5MTTlSYnhfbTZZQWRnMnN6SThTUVJGMjg4UFB0eE55d9IBfkFVX3lxTE5xQ0VrQk5VaWljdG9paFZVZjl3N3FKWXFUN3d5b3I2QjRMZi04TWZ5S1RmdXdxYVByR3NXYmJyRDFtcW50UnIwNENzOEktNXhWa1dyYlRWVGkzWDAtVW5MTTlSYnhfbTZZQWRnMnN6SThTUVJGMjg4UFB0eE55dw?oc=5",
+      "published": "Mon, 02 Nov 2026 05:50:10 GMT",
+      "summary": "Ooni seeks strict recycling regulation&nbsp;&nbsp;The Nation Newspaper",
+      "source": "GNews | Circular Econ",
+      "published_beijing": "2026-11-02T13:50:10+08:00",
+      "source_detail": {
+        "name": "The Nation Newspaper",
+        "url": "https://thenationonlineng.net"
+      },
+      "priority": 0.0,
+      "category": "气候风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China found giant ‘chimneys’ in deep water that could impact submarine warfare - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRVZDM3VCeWU4UnpiSi1TWnZDV0N5U0hTU0hDOE1pUE1SREJucUNrYVBNbGtXNmxYNUFzckpfRDdJUU1haHc1WjlDRnk4ZzRRcC14NWRXbDRrM2huYzBxWkdOaVRVQkMxaFdtMDBRT1NmV3dBcFRHMXc3N29tbVR6ZmJxVW5CcmdPcXAzQkhpMDNQdFBXUUNaUjZkQ0x4Mk9TLTFsYi0wU29yU0hJdDVmekRCM3hqYXU0Q0ZZRWtGdjNJcVBuRlZxd0l2cW84OVlPOVHSAdIBQVVfeXFMTUhJY1I0bTNqa1NzSEV6TXVpN0swYjRQR2xWTGlSVWk1c0tIZEU2bHdwRUdpck83X2pGMXpmT21PRXpUaDVaaHl5WWVqU2l0M2JUVlhQcUJLamdyV3FDMndNYm1nQm5iNWQyWVJES3VsekQtdTBuUTFERU1mdmVqLTNUc3V3NlhLRVhURlVLSFRKU01xak9Sb2Zua1BEZGZ3Z2l5STR6OE9yRzNFSGtNTFlTRVRkZHc1WTAwdkZNYzRNZUdYQlRqT2JhdWRYNEYxci1n?oc=5",
+      "published": "Mon, 02 Nov 2026 03:13:07 GMT",
+      "summary": "China found giant ‘chimneys’ in deep water that could impact submarine warfare&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T11:13:07+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Einstein’s Equations Reveal an Unusual New Way Space-Time Can Transfer Energy - SciTechDaily",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFVYYUdDR3ViNk81YWdIUFNleE10V1ZqbVZvNTZ2Q2pEWFVsZFNKVS1jUE01YmdodHFRQXhpcEJrdVVhdkRqaHF3N2RxVVJyRWlvTWs4M1VLRk9HcDZZX3RGSGItOUJONnZOQ2hSc3N5a3RVQjVRcGpMWjR0dkZCRXExdFp6bkc1NTRvUUMwcmQ4RUV4dFFIOTZId2YxRldCaS1Pcw?oc=5",
+      "published": "Mon, 02 Nov 2026 00:20:50 GMT",
+      "summary": "Einstein’s Equations Reveal an Unusual New Way Space-Time Can Transfer Energy&nbsp;&nbsp;SciTechDailyCan gravitational fields break and reconnect? Einstein's equations suggest they can&nbsp;&nbsp;Phys.orgA Strange New Phenomenon Hidden in Einstein’s Equations Could Change How We Understand Gravity&nbsp;&nbsp;The DebriefGravitational Fields Reconnect Like Solar Magnetic Lines, Columbia Team Proves&nbsp;&nbsp;DongA ScienceGravitational Reconnection: New Theory Says Gravitational Fields Can Change ...",
+      "source": "GNews Topic | SCIENCE(US)",
+      "published_beijing": "2026-11-02T08:20:50+08:00",
+      "source_detail": {
+        "name": "SciTechDaily",
+        "url": "https://scitechdaily.com"
       },
       "priority": 0.0,
       "category": "专题精选",

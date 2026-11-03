@@ -1,11 +1,11 @@
 {
   "version": "4.0",
   "module": "独联体深度",
-  "updated": "2026-11-02T04:53:42.893809+00:00",
-  "fetch_date_utc": "2026-11-02",
-  "total": 35,
-  "high_priority": 1,
-  "medium_priority": 23,
+  "updated": "2026-11-03T05:43:22.095915+00:00",
+  "fetch_date_utc": "2026-11-03",
+  "total": 55,
+  "high_priority": 3,
+  "medium_priority": 26,
   "signal_alerts": {},
   "stats_by_category": {
     "俄罗斯": {
@@ -13,11 +13,11 @@
       "feeds": 3
     },
     "中亚": {
-      "count": 6,
+      "count": 9,
       "feeds": 3
     },
     "白俄罗斯+能源": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "战争+地缘": {
@@ -25,15 +25,15 @@
       "feeds": 2
     },
     "基础设施+科技": {
-      "count": 2,
+      "count": 3,
       "feeds": 1
     },
     "气候+人口": {
-      "count": 1,
+      "count": 2,
       "feeds": 2
     },
     "大国关系": {
-      "count": 19,
+      "count": 37,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -45,7 +45,7 @@
       "feeds": 1
     },
     "信号性查询": {
-      "count": 0,
+      "count": 2,
       "feeds": 2
     },
     "专题精选": {
@@ -53,53 +53,70 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 8,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Why Kazakhstan Refuses To Pick A Side In The Global Ai Cold War - ИФЗ РАН",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WMGdkUWtvdUVPeElVZlVpUlk3SnIxd25WSmdWMjBXVnFKQ05BLVlIc1BNYUJNWUd3bUJVbUJvLWxjekR5eWZqN0E4LU42emVZVmhqSzZjWmwyMElna3Frdl9nYllXcVBjOEJZSGJYTFIyTVNSZWxjRWFtY2I?oc=5",
-      "published": "Sun, 01 Nov 2026 11:34:18 GMT",
-      "summary": "Why Kazakhstan Refuses To Pick A Side In The Global Ai Cold War&nbsp;&nbsp;ИФЗ РАН",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-11-01T19:34:18+08:00",
+      "title": "Oil fell 1.5% to $102.56 per barrel amid talks to end the war with Iran - Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnU0YUd2WGhFTDVEdmdtZEoza05kdnZwVE92aER5bHIxTlBoeUJhOXcwM21BSXJiWVVlVkRUZDd4Mk9vclBnMXA0aWFwaExwZ1BtZjNRYjVRclhMOGJJNUJtaGY4RW9jdHNHV2lkQ3FMSU1iM3d0SG5UZURjRnhsX0FIRTNBU1RzbWVWVmdKYVFzMjFFQkxRREh0cGczTlpfZnFEbtIBpAFBVV95cUxOWnU0YUd2WGhFTDVEdmdtZEoza05kdnZwVE92aER5bHIxTlBoeUJhOXcwM21BSXJiWVVlVkRUZDd4Mk9vclBnMXA0aWFwaExwZ1BtZjNRYjVRclhMOGJJNUJtaGY4RW9jdHNHV2lkQ3FMSU1iM3d0SG5UZURjRnhsX0FIRTNBU1RzbWVWVmdKYVFzMjFFQkxRREh0cGczTlpfZnFEbg?oc=5",
+      "published": "Mon, 02 Nov 2026 04:35:48 GMT",
+      "summary": "Oil fell 1.5% to $102.56 per barrel amid talks to end the war with Iran&nbsp;&nbsp;Українські Національні Новини (УНН)",
+      "source": "GNews | Signal: RU-UA",
+      "published_beijing": "2026-11-02T12:35:48+08:00",
       "source_detail": {
-        "name": "ИФЗ РАН",
-        "url": "https://geosirius.ifz.ru"
+        "name": "Українські Національні Новини (УНН)",
+        "url": "https://unn.ua"
       },
-      "priority": 9.6,
-      "category": "中亚",
+      "priority": 10.8,
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "high",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Russia at the doorstep of the OTS: Will Ankara, Baku and Tashkent support Tokayev’s proposal? - EXPERT OPINIONS - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTzlfcHFtNXZPSU5TNVZ2Yllsbzg3TDNaNl8xWjRYR3NLdFA3bDJqZjFLcWdRcS1nU2luMHE1N0RZNHVPRHAzLVhMem40dUJQOE0yWExtb1ZmZEVEckRqdHRxQV9wcFVLOXZKWm9BZVFad2JhSVhGOWd2OGd4eTVhSzBJOGtrVWt3U2QtZ0w5RzFBa3ljc2t0anpZOVNoc2hzellsTmRqMGpFSWE3WFFZeUFlZGtCX19RbUl6MFV3ZTNxWnlI?oc=5",
+      "published": "Mon, 02 Nov 2026 10:43:28 GMT",
+      "summary": "Russia at the doorstep of the OTS: Will Ankara, Baku and Tashkent support Tokayev’s proposal? - EXPERT OPINIONS&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | CA Demo",
+      "published_beijing": "2026-11-02T18:43:28+08:00",
+      "source_detail": {
+        "name": "Latest news from Azerbaijan",
+        "url": "https://news.az"
+      },
+      "priority": 8.4,
+      "category": "气候+人口",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Russian Offensive Campaign Assessment, November 1, 2026 - Institute for the Study of War",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHYyWUtEM29yQWxqUFdreGhJM0NwQi1OVHczeDgzQS1pZ19WWFd5V0tUNUVjR1RoQWRvQ3dUaGhvTnZwS29pYW1kTnRUd3ZaNHFaNzQ0a2FmOGUyM2htWHBRTnFONHJKVEUwbjBrQ1FfcU5XQUJDajRQbUwzRE42UVM1a0NKREYtQ2k3UUhIX0wxZngzclk0b215SjBUZUpRQUNUMEVKc09OVGs?oc=5",
-      "published": "Mon, 02 Nov 2026 03:24:06 GMT",
-      "summary": "Russian Offensive Campaign Assessment, November 1, 2026&nbsp;&nbsp;Institute for the Study of War",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-02T11:24:06+08:00",
+      "title": "China’s 5,000-ton digging machines are a trade war risk to India - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaHZMVlhCNDdsY2E5OHh4TE1BdnZGZWx2M2dPM2dYSWFKaE9lWGdURTZ3VVBEcU1ZYTlKb0xTWk1QUDJxWGo1c2dKUTZCOGF0ZFFnU2Q0bVFhUnFWYU00NXJQb1V1eEZiLTA4MXZER2dsVHBHdUpEeVF5UXNyakItTTc4Mk9aa0tvOUJGQS1HcEJaemFsaDk4aFhRWUktVzNuaUlzS0FiRnliYnJWdTJFbzBKR3ZPZmRSNlpfNnl0bUJYNV9LYTFDZkQxekZMZzVlQVRJR29Yc1FObVI2YWV6SNIB4AFBVV95cUxPaHZMVlhCNDdsY2E5OHh4TE1BdnZGZWx2M2dPM2dYSWFKaE9lWGdURTZ3VVBEcU1ZYTlKb0xTWk1QUDJxWGo1c2dKUTZCOGF0ZFFnU2Q0bVFhUnFWYU00NXJQb1V1eEZiLTA4MXZER2dsVHBHdUpEeVF5UXNyakItTTc4Mk9aa0tvOUJGQS1HcEJaemFsaDk4aFhRWUktVzNuaUlzS0FiRnliYnJWdTJFbzBKR3ZPZmRSNlpfNnl0bUJYNV9LYTFDZkQxekZMZzVlQVRJR29Yc1FObVI2YWV6SA?oc=5",
+      "published": "Mon, 02 Nov 2026 03:45:00 GMT",
+      "summary": "China’s 5,000-ton digging machines are a trade war risk to India&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | CA Infra",
+      "published_beijing": "2026-11-02T11:45:00+08:00",
       "source_detail": {
-        "name": "Institute for the Study of War",
-        "url": "https://understandingwar.org"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
       },
-      "priority": 9.6,
-      "category": "战争+地缘",
+      "priority": 8.4,
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jYnVyM1pEai1RMXRsMUZaUDFIdVBEd0Rwa1hJUmFqeXcxcmtxZ1pneDM2YWtNZ01RY1pWeUkwNzZTZ3FkdmZfSUJIbEc3VHphNWE3YnJLTkxwREZEVUJBN0UwVkpScG05ZFE?oc=5",
-      "published": "Sun, 01 Nov 2026 14:34:36 GMT",
-      "summary": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade&nbsp;&nbsp;The Jerusalem Post",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T22:34:36+08:00",
+      "title": "Armenia, CSTO, and Russia: A Struggle for Strategic Clarity - The Armenian Mirror-Spectator",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQejk1RzBRU0xOUXdtbWxiay0xNFJZTnNVcndkdzNPV2dxb041NHZoMkh2TXAta1p1OXd0RENpeXdkbE5FN2ZHeVNFYy0xTTcwUjA2cW14OHRfWjVwWTVUZS1fUVpyU091WE5Dd0tKZVNJXzR0ZHkyNVVhZ2tLRjh0eTlBQTlKdFlHNHA5cG1DOEVNNzk1MjdVbEZKaG0?oc=5",
+      "published": "Mon, 02 Nov 2026 11:29:50 GMT",
+      "summary": "Armenia, CSTO, and Russia: A Struggle for Strategic Clarity&nbsp;&nbsp;The Armenian Mirror-Spectator",
+      "source": "GNews | RU-CA",
+      "published_beijing": "2026-11-02T19:29:50+08:00",
       "source_detail": {
-        "name": "The Jerusalem Post",
-        "url": "https://www.jpost.com"
+        "name": "The Armenian Mirror-Spectator",
+        "url": "https://mirrorspectator.com"
       },
       "priority": 7.2,
       "category": "大国关系",
@@ -108,117 +125,32 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Ukraine War, Day 1,711: Zelensky Meets Erdoğan In Türkiye - EA WorldView",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxNDR0N2pjcDljbnUxUmhfSjlzczBiclpiR1JqUkhaeXdEanJlUTVKYW41M2pTSk11Yl9PdmV1ZTl3VDY4VGhGeGZ3TlY3amlJMF9TNURFcHNRZ1RlNFdQdkJWVkFoM2pKS3lJQVhB?oc=5",
-      "published": "Sun, 01 Nov 2026 18:02:01 GMT",
-      "summary": "Ukraine War, Day 1,711: Zelensky Meets Erdoğan In Türkiye&nbsp;&nbsp;EA WorldView",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-02T02:02:01+08:00",
+      "title": "Over 32.5 million rubles in unpaid wages recovered for Tajik migrants in Russia - Азия-Плюс",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeXJrMUpRc3Uzc3FFemgtTk5pb0V5OXlpdllaSHhRaTJrSkVXSkhQeG9vcGR3amsySXU2a2l3MFFqeGtxdXUwRW40VVFLN3l3LVNrMDBsTUxUNGRmWU5tbGhIdEQzY01fSFh3cndtdk5hdlJCRGZwVUJDektNcm9DaHpZQVlSd2RJMmhwUTVJREpJcWpEZ1ZPMFVPYU9EazlRLW1FbWgyZTRUNmpodmQ5QWhRWEVrZzFVY1dEZy16eU41clBZVXc?oc=5",
+      "published": "Mon, 02 Nov 2026 05:30:01 GMT",
+      "summary": "Over 32.5 million rubles in unpaid wages recovered for Tajik migrants in Russia&nbsp;&nbsp;Азия-Плюс",
+      "source": "GNews | CA Demo",
+      "published_beijing": "2026-11-02T13:30:01+08:00",
       "source_detail": {
-        "name": "EA WorldView",
-        "url": "https://eaworldview.com"
+        "name": "Азия-Плюс",
+        "url": "https://asiaplus.news"
       },
-      "priority": 6.0,
-      "category": "战争+地缘",
+      "priority": 7.2,
+      "category": "气候+人口",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Armenia discussed cooperation opportunities with Brazilian aircraft manufacturer Embraer - Arka.am",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMWtDdDVMREpQNmM0VlVVc29pMk4zYWE2aFJLQkRiUXVMOEp4RjR3NFVJRVFud3B0cmMtSHFxeC1WZXZSMGJIZkdRZTBmOUJzTnFwYnN6bndnMThyaS11alNsNVNURlFEcTdKVGZId2JtN1Z4WFpQX2lWUjFfZTloOFVGUXhLMmk0RDYtUFBmSkt4X0oyOHFWdjBlNWhNbU5xZGNobjFMSndWRGcycjdqZjgxb3d4SVRiR3dLWUxR?oc=5",
-      "published": "Sun, 01 Nov 2026 13:03:00 GMT",
-      "summary": "Armenia discussed cooperation opportunities with Brazilian aircraft manufacturer Embraer&nbsp;&nbsp;Arka.am",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T21:03:00+08:00",
-      "source_detail": {
-        "name": "Arka.am",
-        "url": "https://arka.am"
-      },
-      "priority": 4.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Türkiye, Kazakhstan expand defense partnerships, eye $15B in trade | Daily Sabah - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZXFrdWdqRjd1QTZjM1l3aGVubDZsMTFYVXVrT0tDT0UxWXVjSE9TSVowOUNTNUFtRy1zRUl2RndsdFZmY3ZhWElPcEJDb0lReDQ4N2gzVnU2ME5kaXNGS01YN3ItMVBiNGRWNVlMb2lScEMwa3NBbmxnVFhlSHlxWHhwNE9pb1FlVGh6V0xUMmtadkUtMVpRbnZFbTZ6SkpoT3NEdXgwQS1YN3Z3LUp2Z9IBsAFBVV95cUxNZXFrdWdqRjd1QTZjM1l3aGVubDZsMTFYVXVrT0tDT0UxWXVjSE9TSVowOUNTNUFtRy1zRUl2RndsdFZmY3ZhWElPcEJDb0lReDQ4N2gzVnU2ME5kaXNGS01YN3ItMVBiNGRWNVlMb2lScEMwa3NBbmxnVFhlSHlxWHhwNE9pb1FlVGh6V0xUMmtadkUtMVpRbnZFbTZ6SkpoT3NEdXgwQS1YN3Z3LUp2Zw?oc=5",
-      "published": "Sun, 01 Nov 2026 12:05:07 GMT",
-      "summary": "Türkiye, Kazakhstan expand defense partnerships, eye $15B in trade | Daily Sabah&nbsp;&nbsp;Daily Sabah",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T20:05:07+08:00",
-      "source_detail": {
-        "name": "Daily Sabah",
-        "url": "https://www.dailysabah.com"
-      },
-      "priority": 4.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "[不同来源] US trades democracy agenda for economic ties in Central Asia - IntelliNews",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRmZxMUV4bmVrVFV1bnVHZDZmcTRwNFViOW9FdXV5MWxJaVY2akFQZWFyZThBOWtrRlBsWlBBRDdqT3NmaVJVVU53d3NzMHlPd3JSNGtkZmlYc0RWSFpLRHdZanBta2JDbzlMaWJlZkRHV19HNVNNZ1Y0dkFfMDhIUGZCVEtIbElnT0F4ekFJcDE5MFRDNHFRS3lycWRwd05vcEpkQ2w0MUU4RjBO?oc=5",
-      "published": "Sat, 31 Oct 2026 12:10:55 GMT",
-      "summary": "US trades democracy agenda for economic ties in Central Asia&nbsp;&nbsp;IntelliNews",
-      "source": "GNews | RU-CA",
-      "published_beijing": "2026-10-31T20:10:55+08:00",
-      "source_detail": {
-        "name": "IntelliNews",
-        "url": "https://www.intellinews.com"
-      },
-      "priority": 4.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "CICA Member States Account for More Than 50% of Uzbekistan’s Foreign Trade Turnover - DKNews.kz",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONE1qQVdiYW1CVUU2U3paZFFUS0J1WVMxdUFKQ0FzMjVJNXYwWmo1MVo3TV9xclZTc1hCaUE3WldpSW9POFNqcS11ekt1XzRYTHB4dnpoeGtKQ3p3STJJekwwcjBoQ2RqVlJXTVdWeDBUWEZmMkktR1dJelpLVHV0MVdlQk1SU2hxd2ZseVI0WWJNa04xVnNYYzRB?oc=5",
-      "published": "Sat, 31 Oct 2026 10:43:00 GMT",
-      "summary": "CICA Member States Account for More Than 50% of Uzbekistan’s Foreign Trade Turnover&nbsp;&nbsp;DKNews.kz",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T18:43:00+08:00",
-      "source_detail": {
-        "name": "DKNews.kz",
-        "url": "https://dknews.kz"
-      },
-      "priority": 4.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "[不同来源] Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert - India's News.Net",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdndUNDB5OWVqT2Z2Z0NZRnd1bDlWS2h0UWMwb2t5cXE4NmtzWTBVWDUxOFZoMm1ncnpZV2RMQU1heGZHTWpUNXJrUTZ6VmdKbFNzVVMxVE1NWWxlTW5IZ0p1ZDcyZW82d2F1YTBVM0doRlFhYWo2bzIxckk4cVZGZkc2Ri1QT1BVN2RNY20wTmZEZHJWLXk5a18tSmFzSExLODBYNzVWMjFMZVYySlNOTHdGWl9QU1dWcFUwcmt3dkZpZw?oc=5",
-      "published": "Mon, 02 Nov 2026 04:14:32 GMT",
-      "summary": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert&nbsp;&nbsp;India's News.Net",
-      "source": "GNews | China-CA",
-      "published_beijing": "2026-11-02T12:14:32+08:00",
-      "source_detail": {
-        "name": "India's News.Net",
-        "url": "https://www.indiasnews.net"
-      },
-      "priority": 4.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert - Big News Network.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRWZwN1NmMFBRS19Cb1RfaHJrVU13aGVrazdLR09Vb0VUMm5MYk9MTHBwOTlIVHFhMDktdGpUSXRaeWRCUWNFbjdRcWYzWW1OaE5HRWJ6NXBrNkFHMFlQQ2Y4RTN1X2lkZ1hnMXlsLXlsalhaaUhNa04ySmJZTDlCZG1Zc0djWExZb3pidW1VUVRnYUhGem1tYlNGSXBwWnNwbVlJbWcyQ2s5bzVPOGtZNHdGMnJsUHlUc1dNZV9NeHNISmkxWGZB?oc=5",
-      "published": "Mon, 02 Nov 2026 04:03:00 GMT",
-      "summary": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert&nbsp;&nbsp;Big News Network.com",
+      "title": "Bangladesh–China Relations, Future BRI Projects, & the Contributions of the We Speak Chinese Club Bangladesh Limited (WSCC) Think Tank - The New Nation",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80Z1d1X0VjYk5kZlAzU3c3bzBkUHViSE9KUzlBUHdqNTNNYk5kekl4bEh3UzJnUlRqVGU2MGREdFRmTko3eExKTjg1dkdoYVE?oc=5",
+      "published": "Mon, 02 Nov 2026 18:10:40 GMT",
+      "summary": "Bangladesh–China Relations, Future BRI Projects, & the Contributions of the We Speak Chinese Club Bangladesh Limited (WSCC) Think Tank&nbsp;&nbsp;The New Nation",
       "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-11-02T12:03:00+08:00",
+      "published_beijing": "2026-11-03T02:10:40+08:00",
       "source_detail": {
-        "name": "Big News Network.com",
-        "url": "https://www.bignewsnetwork.com"
+        "name": "The New Nation",
+        "url": "https://dailynewnation.com"
       },
       "priority": 4.8,
       "category": "中亚",
@@ -227,12 +159,148 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Russia-Ghana Bilateral Relations: October 2026 Update - russia's pivot to asia",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaW9WLW5ENkZIWjF0NV8xXzJ6aXVHSFp1U2VBZXZOWjYwdVFnb255T3dwYkZUTk1aM1Y3dzZJLVFGcVE3OTlJazhqNF9lNkZEYi1zbnZBdUpWamkybGY3clhlMXI3QTRfRU5ySXpGb2M0ajVqRjkxMngzc203amphWXdqUUUzOWFmLWxrQQ?oc=5",
-      "published": "Sun, 01 Nov 2026 11:54:47 GMT",
-      "summary": "Russia-Ghana Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "title": "Steel, soft power and ‘fake’ Islamic art: China’s Belt and Road to the Middle East - CNA",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkJnWkJkdHBDNHktcTRCMTZzeFMyai1tSXYxWkstUWxLUnptdmFWaVpYam9BenJzOG5YUjV2bGRtZnpqSkExaUVIMjlzVFhvMGI3V1pRMXVGelByc2hIZ0RJd3lYQU05XzVabGphd3RSMGdERy1LSGF6Vy1MZmVWd2taem5XU0Z5UDFwWDVfcklBV0pTQ3FmZkRrQUMwaVhVV2Y5aG9ON3JtNHNRcVY1OTFWR2g0UUs3UkNzNFVNNA?oc=5",
+      "published": "Mon, 02 Nov 2026 11:06:36 GMT",
+      "summary": "Steel, soft power and ‘fake’ Islamic art: China’s Belt and Road to the Middle East&nbsp;&nbsp;CNA",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-02T19:06:36+08:00",
+      "source_detail": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com"
+      },
+      "priority": 4.8,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Central Asia, EU Discuss Investment Cooperation Prospects in Brussels - business.com.tm",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbjlCek04bzV6d3lMYkJkQzYwck45dE1TWUVoQ0F5aEJRRFNsZy01Ymt6bW1SeUhjYkMyb0UweVNFWWpLQ1JmanQyMzY0NHFkR0MtamNaZUxERVp0TzhWLTMzWEhfenRJT1NIOHA3OHZQMXRjSHJwbU92SWU3dmpET0ZnVi1iSGFaWnJYbHhyQ0sxY3NzSjZHM0NxRUc0cXhMamdRa2dn?oc=5",
+      "published": "Mon, 02 Nov 2026 11:04:43 GMT",
+      "summary": "Central Asia, EU Discuss Investment Cooperation Prospects in Brussels&nbsp;&nbsp;business.com.tm",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T19:54:47+08:00",
+      "published_beijing": "2026-11-02T19:04:43+08:00",
+      "source_detail": {
+        "name": "business.com.tm",
+        "url": "https://business.com.tm"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Russia, Togo Bilateral Relations & Trade Development: October 2026 Update - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0oxRGZTc29BWkJDMlZ1QjRGcWVKcktHMHdSUjVDbk5yVHFzX2xwNXVTbUhtWFJGTVZ1TEEwUjNaSVcxNjNyNmd3RXd0NUU3Z09KVmNPeDVmeWcyb1ZZNHVWVWRNSUpUVGp5VExOaVpwajdVRDZ4Sk1zMmJQQTJGUS1JUHI5QTlXMnd4VGUxMDdmZUNpdkxMNGxUaVdTLU0wSGE0?oc=5",
+      "published": "Mon, 02 Nov 2026 10:10:22 GMT",
+      "summary": "Russia, Togo Bilateral Relations & Trade Development: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T18:10:22+08:00",
+      "source_detail": {
+        "name": "russia's pivot to asia",
+        "url": "https://russiaspivottoasia.com"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Cao Kexian: China sees Azerbaijan as a key link connecting Asia and Europe - INTERVIEW - Latest news from Azerbaijan",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUmxXUGFVbWpWRlljblcyV0t6YVhPOW81OU5LMklPWFEteTIxTDdoa2xpanhrN1ZUXzlnSVRxWjdsNVFoN2o2bVM4cl9fM2hUQjNzYW41amhrVHFRS1pyVXVKanBlS2taQklvU01BVzh5MDhSZVJ3eFQzaDI4dkluUm43bTBvR2UwdEhqMlZMMk1lWmpJd1FvR0ZZTkNzMF9LVGFjcS02Zw?oc=5",
+      "published": "Mon, 02 Nov 2026 06:26:56 GMT",
+      "summary": "Cao Kexian: China sees Azerbaijan as a key link connecting Asia and Europe - INTERVIEW&nbsp;&nbsp;Latest news from Azerbaijan",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T14:26:56+08:00",
+      "source_detail": {
+        "name": "Latest news from Azerbaijan",
+        "url": "https://news.az"
+      },
+      "priority": 4.8,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjc3lianVEZlVfZWo4d19ZMzVWTU12X3ZGRFEza2lHSTJsTGwtY2tUSnllTTdZZG1fMk5RUDROMHBMSEFFLVN0ZFhrbDdxaE4yQnBxY2dKcUFOUkQyVmhOZGJ3?oc=5",
+      "published": "Mon, 02 Nov 2026 05:27:00 GMT",
+      "summary": "Tajikistan-China cooperation under BRI, SCO boosts regional development, says expert&nbsp;&nbsp;Global Times",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-02T13:27:00+08:00",
+      "source_detail": {
+        "name": "Global Times",
+        "url": "https://www.globaltimes.cn"
+      },
+      "priority": 4.8,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Tokayev \"builds\" Kazakhstan's future: billions of dollars to be invested in infrastructure - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oWC1oRlh6NW9aeFhQRVZzV2w5V0p6elFxaDlORnl3Z3NkSEg3czllRnJyenAzYVFrWUVlNVR3V0MzNGZfUDZIa29kZnJHZ0NnZ1NWSWZ5Y09vZTZ5TzFF?oc=5",
+      "published": "Mon, 02 Nov 2026 05:00:00 GMT",
+      "summary": "Tokayev \"builds\" Kazakhstan's future: billions of dollars to be invested in infrastructure&nbsp;&nbsp;Trend News Agency",
+      "source": "GNews | CA Infra",
+      "published_beijing": "2026-11-02T13:00:00+08:00",
+      "source_detail": {
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
+      },
+      "priority": 4.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Why the Middle East and Central Asia Won’t Be Defined by Middle Powers - The National Interest",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTXlxX3VuRUFXaVIyTXJMV0V5UWtUN0RzZFBoOTZkSDQ3c0tlOXp2ZV9OelZUZnB6RU9IdUFoUm1jc0o3SUJrOFJqOGFNSTllTE5SbGliT1VzUk4td20tNXFUZmVxWDRkblZmMVlua3I5SlhwLWhSaDE5VXRPS1JTU0phVWREdldsRzhqNlBHdjc3alNZQXpSUVphNEItbWh0a3VHQ2VOZFlqc0ZQd2pDblhYRkJoam1BYXllWlVRTVU?oc=5",
+      "published": "Mon, 02 Nov 2026 23:17:29 GMT",
+      "summary": "Why the Middle East and Central Asia Won’t Be Defined by Middle Powers&nbsp;&nbsp;The National Interest",
+      "source": "GNews | RU-CA",
+      "published_beijing": "2026-11-03T07:17:29+08:00",
+      "source_detail": {
+        "name": "The National Interest",
+        "url": "https://nationalinterest.org"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Central Asia, EU discuss ways to deepen strategic partnership - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FZ1NEZG5FbUF1OXd4aW56NnA4c1lMRS03Q1BTRDMzUkhqRm5fNmkyZUo4VU93N2RBN1BNWi1ST25OaWpmdU1YcHQwU2xEalR4S0J2QkVGNUJ6czljd3V1eTZ3?oc=5",
+      "published": "Mon, 02 Nov 2026 11:42:53 GMT",
+      "summary": "Central Asia, EU discuss ways to deepen strategic partnership&nbsp;&nbsp;Trend News Agency",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T19:42:53+08:00",
+      "source_detail": {
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Russia, Democratic Republic Of The Congo Bilateral Relations: October 2026 Update - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEdvYTFJUzd6dGl5bWtiWFJPLUZidWJKRUp6SVk2WWRoeXJESC05UXJmeWp2OGVyZWRhc3FLTDdmZUIzQ3paVEhUalg4a3pNa0xZbTlUN0plWkhIVmFrdm5VbVhIcHlPQ3VfUFliY01QR0c5bElyWW44OTBWeGlkQnkwZkQtbFNkTHBjNGdsWVB4Rkdzc2pnSUd3RTdRUlNnNDR3OFluMDczZW5sY0RDSg?oc=5",
+      "published": "Mon, 02 Nov 2026 10:45:23 GMT",
+      "summary": "Russia, Democratic Republic Of The Congo Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T18:45:23+08:00",
       "source_detail": {
         "name": "russia's pivot to asia",
         "url": "https://russiaspivottoasia.com"
@@ -244,15 +312,66 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "ISW Russian Offensive Campaign Assessment, October 31, 2026 - Kyiv Post",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yeVcyaTBnc1BPZ2JqcXRtNnVMdGpOMW0zUzlxNFlGWU15cXQ5UVB1eS1RbkxKR1haLTBtN1laMjllM3lOUFUyXzEyOA?oc=5",
-      "published": "Sun, 01 Nov 2026 06:02:50 GMT",
-      "summary": "ISW Russian Offensive Campaign Assessment, October 31, 2026&nbsp;&nbsp;Kyiv Post",
-      "source": "GNews | RU-UA War",
-      "published_beijing": "2026-11-01T14:02:50+08:00",
+      "title": "Russia, Central African Republic Bilateral Relations: October 2026 Update - russia's pivot to asia",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPckFxcE50R29KdmJKeTNmSkRHSXJJdTVpT1BNR3ZsWV9yTFh1QXFpeVdERUhnczZHOTBFbkFCWnNXcWd2TThzOTltN0w0TndvcFhLYlpONXhEQUhRX1lpUnlQVWZFZGFUb3hfbmNQS2pPZTQ1NWFfWDFlRGJqR1JoSi1tdGlyMVhnWHZ4T0QxMTMxMnJqUG8tR1JTdW5uUUtnaFUzWVNR?oc=5",
+      "published": "Mon, 02 Nov 2026 09:50:20 GMT",
+      "summary": "Russia, Central African Republic Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T17:50:20+08:00",
       "source_detail": {
-        "name": "Kyiv Post",
-        "url": "https://www.kyivpost.com"
+        "name": "russia's pivot to asia",
+        "url": "https://russiaspivottoasia.com"
+      },
+      "priority": 3.6,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Belarus Wages Surge Past Productivity Gains as Labor Shortages Bite Sanctioned Economy - https://streamlinefeed.co.ke/",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmlTNXQ2WVZIRzlfcm9vVGdWOWRPcXhxRm53Qk51QVFJanZtZDR5b05mM3ljLW1lemVpMjA2bVN5a3JxS0xYZ3lUV1BMZmVES0x1SFY3cnhtZFJFWUdKajBWNVRwSGpLM0l6cEZhVG8tUUZuYnFadlJ4YzBYR3lLMkJrdnZFR0UzUDVscFo5WS1iUkpLTzdqa0thdUlsZlViWnlaalloSElxTFNLMVI0andjUXJsalpsaDNoRQ?oc=5",
+      "published": "Mon, 02 Nov 2026 09:23:05 GMT",
+      "summary": "Belarus Wages Surge Past Productivity Gains as Labor Shortages Bite Sanctioned Economy&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "source": "GNews | BY Sanctions",
+      "published_beijing": "2026-11-02T17:23:05+08:00",
+      "source_detail": {
+        "name": "https://streamlinefeed.co.ke/",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 3.6,
+      "category": "白俄罗斯+能源",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Russian and Ukrainian emergency alert apps hit by simultaneous cyberattacks - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0xPVmVCek5IYWNwNncxUG1nc3h5WVc2ZnZpNUk2VWpfMWFXM3Z5ZDhrMWNzaTJycUVNZnJTQzZUQXZzZkYtaXZ0YmlBMmh6bVFMWUo2VmVQVjY0OFpzbnQzX1ZsNDNQeHotSWIwdWN6bEdXdVduUl9ydi1nLXJtcmJscUhMTUtRcnU5OXZYcmVqQ0tFYVhTbEtwdS11OEdlOGozX2Zra0psV3VyU3c?oc=5",
+      "published": "Mon, 02 Nov 2026 09:21:54 GMT",
+      "summary": "Russian and Ukrainian emergency alert apps hit by simultaneous cyberattacks&nbsp;&nbsp;streamlinefeed.co.ke",
+      "source": "GNews | Signal: RU-UA",
+      "published_beijing": "2026-11-02T17:21:54+08:00",
+      "source_detail": {
+        "name": "streamlinefeed.co.ke",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 3.6,
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Repeated Russian bombing kills 26 people in Ukraine's Zaporizhzhia region - France 24",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbkpyN0kySXE4azI0amZVVzlFekhncHpjd3dHSDJibDY4aEoyaUZEMjRHSTV5eHhWREM3NjBXV1Y3MlhaWnY3QXdKOXdqYXhNUkFkd3ZfUkZwdVY1YmFoYlY5aXFXbEt4eWFMRjB3Y1NyZm05NTlNSE1ndUxVZmh3U0ZjOUUzbElCS2FVYjh5cHFjSGtuWnZRNzJwbjJhSkJBNnhadTJOcVZMQ0xKQVBBX3hPdElrN1k?oc=5",
+      "published": "Mon, 02 Nov 2026 06:19:40 GMT",
+      "summary": "Repeated Russian bombing kills 26 people in Ukraine's Zaporizhzhia region&nbsp;&nbsp;France 24",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-11-02T14:19:40+08:00",
+      "source_detail": {
+        "name": "France 24",
+        "url": "https://www.france24.com"
       },
       "priority": 3.6,
       "category": "战争+地缘",
@@ -261,15 +380,15 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Russia, Sudan Bilateral Relations: October 2026 Update - russia's pivot to asia",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRnFWeHRnQ01tTV9BQ25jaGNDMUdfOXBWdFpPclBJaDZRbTZPUzRtSVYySXZWdXFOM2NvWlR1TDRHRG41YTNyZE9KemVkeWNTSVhZZzZNT0Y5ZnFtdVlOV2xBVUpGN0VRRGpuNmFTWk9ZY1QzWTBrWldPZE02MzZkRVE2TXE4UWYxSllNVg?oc=5",
-      "published": "Sat, 31 Oct 2026 15:43:03 GMT",
-      "summary": "Russia, Sudan Bilateral Relations: October 2026 Update&nbsp;&nbsp;russia's pivot to asia",
+      "title": "Uzbekistan, Pakistan to draft roadmap to accelerate joint projects - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52Wll0R3YtVVZTa1pGWENsd3dnQjJWY0wxT09CbTdpaElTaWhqaU1OUUFxbmxoQ2o0Ymd4Q24yMXVJMHJDV1BYdU1jX2YtZDBtaUZYZ0RpaUJFNGpEbEdr?oc=5",
+      "published": "Mon, 02 Nov 2026 05:37:54 GMT",
+      "summary": "Uzbekistan, Pakistan to draft roadmap to accelerate joint projects&nbsp;&nbsp;Trend News Agency",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-10-31T23:43:03+08:00",
+      "published_beijing": "2026-11-02T13:37:54+08:00",
       "source_detail": {
-        "name": "russia's pivot to asia",
-        "url": "https://russiaspivottoasia.com"
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
       },
       "priority": 3.6,
       "category": "大国关系",
@@ -278,15 +397,31 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Why some EU and Chinese firms are keen to cooperate – even as tensions simmer - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSmtvcEhKU1A1REduWFpRblAtUDRyakVXQmpsUDNvZkpDVDZfTllMQzZPaTAtaHhrWlI1cDdqOHZidEtXR281ZmxfQnVycDVhTFhjTW5fWHdtN3dnVUJNYjVXVlRrY2JRaEhvTndLQTAyckJ2R2t1NTJVcjdBbHBuWG5RR1VEaHpHZzVKV3pwbWVydmhuUkpZYlIzS192OUc1dS1YbEkwVjRVOENOU1ZKNGcyZm55VW54QkVneklWMmY3Vy1XT3RZ0gHHAUFVX3lxTE9Ka29wSEpTUDVER25YWlFuUC1QNHJqRVdCamxQM29mSkNUNl9OWUxDNk9pMC1oeGtaUjVwN2o4dmJ0S1dHbzVmbF9CdXJwNWFMWGNNbl9Yd203d2dVQk1iNVdWVGtjYlFoSG9Od0tBMDJyQnZHa3U1MlVyN0FscG5YblFHVURoekdnNUpXenBtZXJ2aG5SSlliUjNLX3Y5RzV1LVhsSTBWNFU4Q05TVko0ZzJmbnlVbnhCRWd6SVYyZjdXLVdPdFk?oc=5",
-      "published": "Sun, 01 Nov 2026 08:00:14 GMT",
-      "summary": "Why some EU and Chinese firms are keen to cooperate – even as tensions simmer&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T16:00:14+08:00",
+      "title": "How Mirziyoyev's aviation strategy aligns with China's Air Silk Road - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YeTI3d1Y0QllyTWlBaG9rYjN6a1d4UjhqRW5RblExNHRVeV9DSUlfS2dNQlFEQURaRjMxWmNJNm95cUsyd3BVYk00emVJOFh2TW03RFlqNHYwS0dTZ3dF?oc=5",
+      "published": "Tue, 03 Nov 2026 05:00:00 GMT",
+      "summary": "How Mirziyoyev's aviation strategy aligns with China's Air Silk Road&nbsp;&nbsp;Trend News Agency",
+      "source": "GNews | KZ Trade/BRI",
+      "published_beijing": "2026-11-03T13:00:00+08:00",
       "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://amp.scmp.com"
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
+      },
+      "priority": 1.2,
+      "category": "中亚",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Pakistan, China discuss regional, global developments - Dawn",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpQ3d5eGVia19UQUJDTkxVdEZwckd4N3ppYXBZYmVCTU9KNk9NX2ZYQ0tqN2NHQUtYeWlMSlY2NThwbjVTakducw?oc=5",
+      "published": "Tue, 03 Nov 2026 02:08:02 GMT",
+      "summary": "Pakistan, China discuss regional, global developments&nbsp;&nbsp;Dawn",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T10:08:02+08:00",
+      "source_detail": {
+        "name": "Dawn",
+        "url": "https://www.dawn.com"
       },
       "priority": 1.2,
       "category": "大国关系",
@@ -294,28 +429,124 @@
       "relevance": "low"
     },
     {
-      "title": "CPEC And The Promise Of A More Connected And Prosperous Region – OpEd - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTzE1c1FCY3l2d2g3NUdhczZjU0R2NTNFTmxCWnA0TG9NT1ZEUE50QW51a1ZldkFHSnFIY3psNlpUUERuT1cyVTNSZ1V4RllMdGloMUhsSk1nc05KZ2pyQ000OW5QNXh0LU9LakdtNVJHRmM4THo0WkNQMFRKc0h2T0MxdGlMRmJiSEUtRElsa3FWVFJ3b0o0NFBuMndQSnBxRHJhRVZMbnVVS2M?oc=5",
-      "published": "Sun, 01 Nov 2026 23:49:52 GMT",
-      "summary": "CPEC And The Promise Of A More Connected And Prosperous Region – OpEd&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | Central Asia/BRI",
-      "published_beijing": "2026-11-02T07:49:52+08:00",
+      "title": "ASEAN Defence Cooperation: Singapore to Steer New US Framework Amid China Sensitivities - Batam News Asia",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMU5FYVd6MUNGdW9RbHhFTkNFMm00dzA3VS1DcFlmTjhCM0pkOWVCelA4bkN0NW5QTnFTSXV2Zks1RWNSa3piOHFyMkpFUVJVY2k3blNuZDNLUVFuWWZ6ekJlbUwxUmRuRnhBN1JfUUhCRXZIVTIwbHhCd19yOVZkNXpGazhkeF9BOEdiX0t3OWFfREJmRlplTHJDTzV0S2J5a3NjZ3FtWjdCQkQ5dnBvVDhYdzFsYVVybzNuUnBTWkpzZw?oc=5",
+      "published": "Tue, 03 Nov 2026 02:00:00 GMT",
+      "summary": "ASEAN Defence Cooperation: Singapore to Steer New US Framework Amid China Sensitivities&nbsp;&nbsp;Batam News Asia",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T10:00:00+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "Batam News Asia",
+        "url": "https://batamnewsasia.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The neutral capital: Could Ashgabat become a channel for U.S.-Iran de-escalation? - Trend News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEb2FpWDlhZXJEaWZ2R2V1dUF5djZITWVCcTJqRDd6bkpCdUZldDNuYTNjekRKTlhUbFdTTWpVV29KdXp4c01aWnF0ZDFoRm5oMzZibl9xckVDOFdQTWJqYXNR?oc=5",
+      "published": "Tue, 03 Nov 2026 01:00:00 GMT",
+      "summary": "The neutral capital: Could Ashgabat become a channel for U.S.-Iran de-escalation?&nbsp;&nbsp;Trend News Agency",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T09:00:00+08:00",
+      "source_detail": {
+        "name": "Trend News Agency",
+        "url": "https://www.trend.az"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Center for China Analysis Welcomes Three New Fellows - Asia Society",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPczlVVG04NnJFVXh0a3RKSkV4a2xKcWRXcUh6U0dmR2hSUW1Bc0x2clVzbEhYRXQySnVWR3h6UUd4UWtxblZ3ZVhUaWVYcU8yUHNhR0lUeHNOeE81Z0JWZHp6RXFsMnM2MmpoR1hrZHJ2bUhlS3RGbXk2a3B5TG9SWndGT1kySzFiajlheTY0bFh6UmM?oc=5",
+      "published": "Mon, 02 Nov 2026 23:20:04 GMT",
+      "summary": "Center for China Analysis Welcomes Three New Fellows&nbsp;&nbsp;Asia Society",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T07:20:04+08:00",
+      "source_detail": {
+        "name": "Asia Society",
+        "url": "https://asiasociety.org"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "China and Oman Sign Historic Bilateral Deals After Beijing Summit - teleSUR English",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HNVFaRnBCUE0yNUR1a0V4Z3loWmEzSjVESWZkZmRLN1FubGtTOWYyN3FPeW1xU1ZZNzJSSnNGd3B0Mmt3RjEzMDVIUV9mNXlZWmhUSjRPQ2pfMmR6MEtpT0MzcWZ4UUdSU05oQnNOZG12WndyQjNBdllzU0g?oc=5",
+      "published": "Mon, 02 Nov 2026 22:09:27 GMT",
+      "summary": "China and Oman Sign Historic Bilateral Deals After Beijing Summit&nbsp;&nbsp;teleSUR English",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-03T06:09:27+08:00",
+      "source_detail": {
+        "name": "teleSUR English",
+        "url": "https://www.telesurenglish.net"
+      },
+      "priority": 1.2,
       "category": "中亚",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Japan’s Economic Diplomacy: A Compass in a Divided World - The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOW5ELWFaODhqVWlFMkdabWFOc1oyYzBzSC1OQVFYVTItb2VSUEcwQ1IyVjZGLUdkX3pibWtEQVRaeTlESXRDZVZiTEgwU09Bb0xwUk9haGpiN0lITGE5VUxZQnlPa3pTQms4OGFwLUx4eFFJZGlTYXp0dGd5NVhKSGQtM1Z3QUtJZWlRS0NKZjk?oc=5",
-      "published": "Sun, 01 Nov 2026 10:01:42 GMT",
-      "summary": "Japan’s Economic Diplomacy: A Compass in a Divided World&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "title": "Iowa railroad expands Le Mars Transload Center with $792,000 state loan - Railway Supply",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVFlZLV9qMWhYeld0My1ZeUoyaEt6Z1RwNFJjRm1QeFpjRGxtTG8xYksxQ0tTR3gtZm55SWE1X2pfZmJoWF9CRkNGWGtjNDFPNWcwUnU3YXdVQjVTSHdfS3ZKX0pqZFZLMFdYS2UzajFpbWFjaUNRMHF5V19RYnBhVHlPRkozeHZiR1IxWnFXaGtfU2hKcWZzUEVGUlZuQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 11:52:30 GMT",
+      "summary": "Iowa railroad expands Le Mars Transload Center with $792,000 state loan&nbsp;&nbsp;Railway Supply",
+      "source": "GNews | CA Infra",
+      "published_beijing": "2026-11-02T19:52:30+08:00",
+      "source_detail": {
+        "name": "Railway Supply",
+        "url": "https://www.railway.supply"
+      },
+      "priority": 1.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Iran, Turkmenistan seek to expand transit, regional cooperation - نورنیوز",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMF9TdUh1alJyRDFSM05zc1FJcG9RbUNuYUdobE90aG9aa3Y0ZTg3MDZWU0w5OV9wdU9aWnI0Y0x2NENqbzVzc2NoTXlSeTVvQ1pUUUdtNHAtVmVPQU9XRFJDUTd0SE5FTkpVZzRqZ2NlMld6bzJhdTNCempVN0UxNFAyTU9XQzZDeGhKXzYycmlVbm80M3N5by1Ba2g?oc=5",
+      "published": "Mon, 02 Nov 2026 09:46:40 GMT",
+      "summary": "Iran, Turkmenistan seek to expand transit, regional cooperation&nbsp;&nbsp;نورنیوز",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T18:01:42+08:00",
+      "published_beijing": "2026-11-02T17:46:40+08:00",
+      "source_detail": {
+        "name": "نورنیوز",
+        "url": "https://nournews.ir"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Opinion | The Big Change Coming in U.S.-China Relations in the Age of A.I. - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDBCYnIyYzFCMnhOQThxTHJXTUVkQ0VRb0txRnJIVmM2VjMwRkdMUTM4d25BRy1ndmhtZGNMMlNZWUNiaGFneEZFQkpCelRUUm5jaUxwMUlEV3NEUVFHUll6T1ZNX0FmN28xTnZyS2k3U1FXZXB3UUpKOUVLcmI3TGZsbk1GN2p3dnRNdlZvaW5nNTg?oc=5",
+      "published": "Mon, 02 Nov 2026 06:00:06 GMT",
+      "summary": "Opinion | The Big Change Coming in U.S.-China Relations in the Age of A.I.&nbsp;&nbsp;The New York Times",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T14:00:06+08:00",
+      "source_detail": {
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com"
+      },
+      "priority": 1.2,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "From Ankara To Ankara: 34 Years of Turkic Cooperation - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZnFWeDFJQXlpUld3OHdZRlRzWjlUbDJZbWxJZmlBQVBNNXZxb3hGWWFsdHduVjc3Z1ZSS3pTdnJnOWNNa1hvaC1vaFowLXVPYklwSkl6TFhldlRRVDNMcDR5UUFybXphVXN5QTdsSGRhcS1vczN2QU9MRzd6Q2NtUjAwQmV3d1l3TkVWNzJn?oc=5",
+      "published": "Tue, 03 Nov 2026 04:51:44 GMT",
+      "summary": "From Ankara To Ankara: 34 Years of Turkic Cooperation&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T12:51:44+08:00",
       "source_detail": {
         "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
         "url": "https://thediplomat.com"
@@ -326,18 +557,178 @@
       "relevance": "low"
     },
     {
-      "title": "Omani-Chinese Cultural Relations: A Deep Historical Legacy & Promising Prospects for Future Cooperation - وكالة الأنباء العمانية (العمانية)",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUYkxhVW1MQnpGWXprcTVLOFV2UHhJdTl1RjR0NkpYbUV6bDYtQUZZa1ktb3BLQkhQc0lTekhVYnduREl5NV9mVmltQ1EyVktLd2dMUE11US04T0VEOGc?oc=5",
-      "published": "Sun, 01 Nov 2026 06:47:13 GMT",
-      "summary": "Omani-Chinese Cultural Relations: A Deep Historical Legacy & Promising Prospects for Future Cooperation&nbsp;&nbsp;وكالة الأنباء العمانية (العمانية)",
+      "title": "News from Israel and the Jewish world in Spanish - Aurora Israel",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa21aX1pmRW9hVElVUlVncW1XODFpNW1wSmdJNldXcDB5NGtWTWhUR3ZBeXZ6TnNMTjNSdE9Sa09XNW4zV010eFBYVHhmQ094Q0NMUFo1TXNGVFRUWnE0N2hpZzlRQXlMM2hRS0VaYlFrZk9yOGpmRGdQa3FUVGhacXN1enpPck5OMXFDVzdJVHFLdmJN?oc=5",
+      "published": "Sun, 01 Nov 2026 22:11:43 GMT",
+      "summary": "News from Israel and the Jewish world in Spanish&nbsp;&nbsp;Aurora Israel",
       "source": "GNews | US-CA",
-      "published_beijing": "2026-11-01T14:47:13+08:00",
+      "published_beijing": "2026-11-02T06:11:43+08:00",
       "source_detail": {
-        "name": "وكالة الأنباء العمانية (العمانية)",
-        "url": "https://omannews.gov.om"
+        "name": "Aurora Israel",
+        "url": "https://www.aurora-israel.co.il"
       },
       "priority": 0.0,
       "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire - Egypt Independent",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUzAwNHhTdGNlRE5SSkhlekRqeDNjelRhM084N0p4UWhVUU16Snh1VmhWQkI0amZ3Tmw5dHFxWEhvcUJDb0ExN0RQOWNwYzFocy1adFZfdXU4UFlMZ1RFLUl0ZV9QWERfMXBXX0lEeEFrTjFra05QYVJLdXpPbm9sMGZsaC1QbERfdmZNVjlvcDFHQlFOSnFBbnlwYmtvbFBVR0E2bzZ3RmFFWEVmb1VkZ29HLTQxRHZfa2Z3ZW5RNS16T2szUmFLVXBIU0s?oc=5",
+      "published": "Sun, 01 Nov 2026 12:02:17 GMT",
+      "summary": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire&nbsp;&nbsp;Egypt Independent",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-11-01T20:02:17+08:00",
+      "source_detail": {
+        "name": "Egypt Independent",
+        "url": "https://www.egyptindependent.com"
+      },
+      "priority": 0.0,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How the Fourth Trump-Xi Summit Will Affect Taiwan, and What This Means for Taiwan's Future - Asia Society",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWTBwMzI0TUxuaW1JdHp1UndnVlVhMXlzMEkwZEliLU5qOEFkdlNXMVZiZEJkT2xRVk56MHQ5cUJnOGtkTzExLW5pSVhYWkUzbndOOE5yZmRDN3dBbEp3d1dDNWNLMGNZOHZoSjF3Y25BV0hfUnA4dnpJMzJxYURiM18zOXA2Y1FwT21ncWpFc1lwTVE1dkpndmZsTVFYWkpYQzVRakZ3ZWd3Y1Z4bS1fajZ3TklnWm4yYkctZTNNZVQ?oc=5",
+      "published": "Mon, 02 Nov 2026 21:47:04 GMT",
+      "summary": "How the Fourth Trump-Xi Summit Will Affect Taiwan, and What This Means for Taiwan's Future&nbsp;&nbsp;Asia Society",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T05:47:04+08:00",
+      "source_detail": {
+        "name": "Asia Society",
+        "url": "https://asiasociety.org"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Future Pathways for the U.S.-Korea Alliance. - The Korea Society",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnFNRUZ6RjZScEFLalMzTzNJdGdLc1JLVVBfY3pCcWJYVU14RWQ3eC1LQnpHaFN5NVk3OW81Vl91T2MzWElXNmlVMldySTM1a05qZm5vc0FYaXl3RWFSMzVMYVdtT0NSLWszTVZjcEZlR2NWeEZueVZnU0pMY2ROeURrb1FzcEZUbldMX1gzcHF4SVVLX01uUmFxaFZERkxlNkEtSmhIUWhvUEJtU0lDZl9nX1MtVFZCZ3lCT2N1bEIza1ZiV2RQaGFtcw?oc=5",
+      "published": "Mon, 02 Nov 2026 21:17:14 GMT",
+      "summary": "Future Pathways for the U.S.-Korea Alliance.&nbsp;&nbsp;The Korea Society",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T05:17:14+08:00",
+      "source_detail": {
+        "name": "The Korea Society",
+        "url": "https://www.koreasociety.org"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Who Should the Turkic States’ Organization Open Its Doors To? - The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeGZweHVlT28xQVc2S1JJR0VwSGlYb25kLTZnd21FSjVHVEM1cHoyZGNGc0tldXBQS3ZIVEVvenBsNjJUbm5aSmlJTzRSRldKYUQyQW5ob3hxMTRpQjE5SjFRd3ZlbEY1Y1FybW15Vk5NbTI1VDQ0SDNwcDVJaXhUZmxXUmdlVUl6cjNQMEhnMFJqQzdsd0g4?oc=5",
+      "published": "Mon, 02 Nov 2026 19:51:46 GMT",
+      "summary": "Who Should the Turkic States’ Organization Open Its Doors To?&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T03:51:46+08:00",
+      "source_detail": {
+        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://thediplomat.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "After Shenzhen: What Did Trump and Xi Achieve? - Asia Society",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOE1jWl9nWEVlaGVnOERMd21CYV83NW5ydk1mdmt0eV9lbXRSeUdyd19XV3lUUmxKMzlhWXAtcUFYZ3F4TS12M3N6dXNhRjhHbjg2Vmc2Y0VNVWZzdjZLWk5JdVhON3RtRGljOWg5a0hhX1NYYy05eWt4NzdOaDVnb1d0MlVNcGotZElPQUQtSEFBbEljR2VF?oc=5",
+      "published": "Mon, 02 Nov 2026 19:07:23 GMT",
+      "summary": "After Shenzhen: What Did Trump and Xi Achieve?&nbsp;&nbsp;Asia Society",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T03:07:23+08:00",
+      "source_detail": {
+        "name": "Asia Society",
+        "url": "https://asiasociety.org"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Beyond the G2, Unruly Middle Powers | Sinification: October 2026 - Sinocism | Bill Bishop",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sR05VcWEwS1hxSEtsdzZsZ1VvNWtNZHRJOTRpcVRVZndQTHVaNmY1TV80WWNtc3NjbUVjQy1aOG8yYkdsOU1sZ1VkSHJpLU91eWpCNjB6elRLaGRkdTBfS2xxSkpRX044?oc=5",
+      "published": "Mon, 02 Nov 2026 16:43:25 GMT",
+      "summary": "Beyond the G2, Unruly Middle Powers | Sinification: October 2026&nbsp;&nbsp;Sinocism | Bill Bishop",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-03T00:43:25+08:00",
+      "source_detail": {
+        "name": "Sinocism | Bill Bishop",
+        "url": "https://sinocism.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Evacuated Ukrainians from Oleshky: 'We don't know where to go, but one thing is certain: We will survive' - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWWd2VWxJVTlNQzZWekdWX1NMaG1MM1BDa21UZVIyb3JlMXZIM21ua2lWeHlUQUdTQVlUTzZJN1hOWVFqbmFLUm9SaHZZRC1WT2trNkJIOVJLVW5NU2lGU0lKcWUydGdiNTRPNWdIMV9mX1FoY2kyV1FzYnYweDVHMnpWQk55b1N0YzJlWTJVTndQSnlmV1VtMjVJWnVRS3hRR3I5allfNGlKMkVwVURNVXdEM0JHdzF2X0NWSVg5cmYzREF6YnA5M011Rk5UbUhKWmM1ZFAzVGpHZ0NsSE10eWVaX0xSa3RJSWdqa1BzdjF2ZmRPSW5iU3Mzejh5a2owRHNFNw?oc=5",
+      "published": "Mon, 02 Nov 2026 11:00:00 GMT",
+      "summary": "Evacuated Ukrainians from Oleshky: 'We don't know where to go, but one thing is certain: We will survive'&nbsp;&nbsp;Le Monde.fr",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-11-02T19:00:00+08:00",
+      "source_detail": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
+      },
+      "priority": 0.0,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Melania Trump Secures Localized Ceasefire in Ukraine's Oleshky for Humanitarian Evacuations - https://streamlinefeed.co.ke/",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY2pjTDlzeGl6QmJOc1Jmb2RjMUJqbnpMM1g0cTFpWmlRMk91cjlKQnpQckt2SWNCTHFnM3F4NkppQUh2bEI4TldZMnlfSEd3el9jSUw0YVozT0p5UVNQeUJmZk5xS213ZFZpNUlLSlRhb3VHTzFBVmpRSFVzeXVzRjA5WFQ3MV9DRThJWTRiazFLektjcWZ6SU83eV9oZ1NuaXA5bi1FMFd6bFFTTFZDM3NGWGx6dnVXSmJJTmNMdGMxZw?oc=5",
+      "published": "Mon, 02 Nov 2026 07:10:10 GMT",
+      "summary": "Melania Trump Secures Localized Ceasefire in Ukraine's Oleshky for Humanitarian Evacuations&nbsp;&nbsp;https://streamlinefeed.co.ke/",
+      "source": "GNews | RU-UA War",
+      "published_beijing": "2026-11-02T15:10:10+08:00",
+      "source_detail": {
+        "name": "https://streamlinefeed.co.ke/",
+        "url": "https://streamlinefeed.co.ke"
+      },
+      "priority": 0.0,
+      "category": "战争+地缘",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India-New Zealand FTA: Expanding India’s footprint in Oceania - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWHF0OUJ5aG9CaktSNjd5WDJ6QzJpcS1CQkF3alpFOU5zNTBnNnVDZFJjV3F1OGRQWU1vNzBwR2tQaGZUbUk4bHdqM18xVU5RckJnV2xOcF9fNmd0aTdtTU55UVFrbGxLYmhnb1hZYzNya0FQUzhOTnVrSXVTQ3ozOHRlVDQzT2FrSHEtaHJaWm01RzRON0NwOGVXOFhSYXppdmI5dDhDbHhTQkFaQUpyZHlHU2lrN3c0ZnkxY2owRXdkZmNrTnM2OHFoTWhQcU5FOXBXYXBhWWVnaEdTM1NR0gHkAUFVX3lxTFBWeE9Lbnc1dWJnUXJ5NzBuS2VNMnNOWmkzVVdpTzJNTmx0WWVmMWxmWFJRMHN3N3VOY2JqLUZnRTNRZC1VNVpyRHVHOE8yOHNLbHNMUFhfVVREb2hSRFNVeElfUmdMZndvY1JWd1pJTkRaSkRnelVaTzZVdnN0YVRKaGtsTi1DcFZZbFFwZmsza180THZHN01tSE1wYm1BSkVmQkk4bVBtTmhtcGJUVVJhMTV5cE5iMEFRanQtUTFXVVRIU3c1MWVVWTItLUludUdPbUkzTWZBb0xYZkNTdHB0XzViWg?oc=5",
+      "published": "Mon, 02 Nov 2026 06:58:31 GMT",
+      "summary": "India-New Zealand FTA: Expanding India’s footprint in Oceania&nbsp;&nbsp;The Economic Times",
+      "source": "GNews | US-CA",
+      "published_beijing": "2026-11-02T14:58:31+08:00",
+      "source_detail": {
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Turkic States: Can They Build a New Eurasian Power Bloc? - Frontline Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdXFDQXFKSzVpU0R3aVlBVXJsOUlBbWRidkRHODVsZUtpNmRaVVpCTGlVenFyS196cy1NaHFHYlBxQ0d3amJFMEh2U1BENVFwclFjU2xrYmtHc0xtZ2VTaHpJYTFmcmlTaXZEVTAzUFJUTzZhWmtWT3pjcmpRX2xaRTR5aFNmTG9CdEdPaWUzRFpzb05uTnFvYVR6LUczZlk4VlHSAagBQVVfeXFMTW5uMlBKRnRETWp6eFFwaDVmc3hZb3ZoQ0lxRkN6QUg3Y0hXSXhSVEc2QlhWNDlka2N5dkNVQVVNZFhpZFNKSzVWanFyVHljdEFzMFBBR3FYbHl6bVdIT0pYbThxRmlnVmgxVER6TDFSSVZONEk0U2ZIMzlZdURTUzhETG9LV0JOZHk5bU1xNFpIZWF3SDNsSTZHT01pZ1dYRXNiS193QUxI?oc=5",
+      "published": "Mon, 02 Nov 2026 05:46:40 GMT",
+      "summary": "Turkic States: Can They Build a New Eurasian Power Bloc?&nbsp;&nbsp;Frontline Magazine",
+      "source": "GNews | Central Asia/BRI",
+      "published_beijing": "2026-11-02T13:46:40+08:00",
+      "source_detail": {
+        "name": "Frontline Magazine",
+        "url": "https://frontline.thehindu.com"
+      },
+      "priority": 0.0,
+      "category": "中亚",
       "_incremental": "new",
       "relevance": "low"
     }

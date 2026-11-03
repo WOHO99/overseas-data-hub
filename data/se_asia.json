@@ -1,27 +1,27 @@
 {
   "version": "4.0",
   "module": "东南亚深度",
-  "updated": "2026-11-02T04:53:39.378066+00:00",
-  "fetch_date_utc": "2026-11-02",
-  "total": 139,
-  "high_priority": 2,
-  "medium_priority": 79,
+  "updated": "2026-11-03T05:43:16.868801+00:00",
+  "fetch_date_utc": "2026-11-03",
+  "total": 155,
+  "high_priority": 5,
+  "medium_priority": 93,
   "signal_alerts": {},
   "stats_by_category": {
     "新加坡": {
-      "count": 18,
+      "count": 20,
       "feeds": 3
     },
     "越南": {
-      "count": 45,
+      "count": 48,
       "feeds": 4
     },
     "印尼": {
-      "count": 11,
+      "count": 12,
       "feeds": 4
     },
     "泰国": {
-      "count": 1,
+      "count": 0,
       "feeds": 2
     },
     "菲律宾": {
@@ -37,11 +37,11 @@
       "feeds": 3
     },
     "政治+社会": {
-      "count": 5,
+      "count": 8,
       "feeds": 3
     },
     "基础设施+科技": {
-      "count": 11,
+      "count": 13,
       "feeds": 2
     },
     "气候+人口": {
@@ -49,7 +49,7 @@
       "feeds": 2
     },
     "大国关系": {
-      "count": 1,
+      "count": 2,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -61,128 +61,348 @@
       "feeds": 2
     },
     "信号性查询": {
-      "count": 0,
+      "count": 1,
       "feeds": 2
     },
     "专题精选": {
-      "count": 49,
+      "count": 50,
       "feeds": 1
     }
   },
-  "fail_feeds": 16,
+  "fail_feeds": 14,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Malaysia rides semiconductor export wave - Borneo Bulletin",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kQ3FsYk83dE5TdDVLQV9IZFI0X1AtbUNMNUx3T3VQUVVxVjE0SnF2NGhaVzFWVEZtZ3Y4UVhTdHcwQl9rdjAzeHpHOEVGc2xDUUZCZURvZ3BRSjd6R1FQbHJKeVFnUm93cHJ4azVQRndtRkZVWE4td096aw?oc=5",
-      "published": "Sun, 01 Nov 2026 21:10:09 GMT",
-      "summary": "Malaysia rides semiconductor export wave&nbsp;&nbsp;Borneo Bulletin",
-      "source": "GNews | MY Semi/Trade",
-      "published_beijing": "2026-11-02T05:10:09+08:00",
+      "title": "Asean seeks to sign FTA with EU. Can Singapore help resolve the Myanmar hurdle? - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUDA4VDRYWi1qNUtWY1g2VHB1cGQ0NkhEMXZUN3E1NFhTWWh6T2d0WUNwTUJtNUw3ejU0TWhndkFlUTcxOFIwV1pzS0dPQzBmY21DZXEzdHhvY2U1ZE5vZkxoM3ljU1JiRkRNTE1tTzcxYTlMS1d1aVdUSnNSVWlvM01Fd09mcjBFOWNRdXJmWkdhMnBMcnl0cVd0cTJiUjlqV1RpUDZjNmludEpEV1ZHMmxDemctOGxKamRheG1rVdIBvwFBVV95cUxPUDA4VDRYWi1qNUtWY1g2VHB1cGQ0NkhEMXZUN3E1NFhTWWh6T2d0WUNwTUJtNUw3ejU0TWhndkFlUTcxOFIwV1pzS0dPQzBmY21DZXEzdHhvY2U1ZE5vZkxoM3ljU1JiRkRNTE1tTzcxYTlMS1d1aVdUSnNSVWlvM01Fd09mcjBFOWNRdXJmWkdhMnBMcnl0cVd0cTJiUjlqV1RpUDZjNmludEpEV1ZHMmxDemctOGxKamRheG1rVQ?oc=5",
+      "published": "Mon, 02 Nov 2026 13:30:14 GMT",
+      "summary": "Asean seeks to sign FTA with EU. Can Singapore help resolve the Myanmar hurdle?&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | SE Asia Tech",
+      "published_beijing": "2026-11-02T21:30:14+08:00",
       "source_detail": {
-        "name": "Borneo Bulletin",
-        "url": "https://borneobulletin.com.bn"
+        "name": "South China Morning Post",
+        "url": "https://amp.scmp.com"
+      },
+      "priority": 13.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://www.scmp.com/week-asia/economics/article/3373027/asean-seeks-sign-fta-eu-can-singapore-help-resolve-myanmar-hurdle",
+      "full_text": "As Asean chair next year, Singapore faces challenges such as existing sanctions on Myanmar, analysts say\nAt a joint press conference with German Chancellor Friedrich Merz last week, Prime Minister Lawrence Wong said Singapore would seek to advance cooperation on the long-awaited FTA."
+    },
+    {
+      "title": "Singapore to steer ‘mutually beneficial’ US-ASEAN defence framework amid regional sensitivities - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPenpvbE8tZ1VRS3NLb2RLUTZkTjl5ZktoWllfbkVUZEYzOEE4RnZZell1LVdMT25LaW5hVUxtdWp6c0c0QVFVUVhuczMxYWxpd1ZuWDJQUEgwdE16N1pMcjMzWGs3Rk4tTzktYmNfS3liWGNCczJLZWh5ajFHTzlXeS1WY0ViUU5MRjJoVm9HQjhuYXJrb3l0UDc5Y04zX0o4TVR2aEYtQVAteHdFMlJNdXdnMktBLXNQRTJHUXJUS2ZzUENkYjZaVjNfRmMyeEtX?oc=5",
+      "published": "Mon, 02 Nov 2026 10:20:00 GMT",
+      "summary": "Singapore to steer ‘mutually beneficial’ US-ASEAN defence framework amid regional sensitivities&nbsp;&nbsp;The Straits TimesManila mistaking dirty-work tool for security&nbsp;&nbsp;China Daily Global EditionPhilippines-China tensions resurface at the close of ASEAN defence gathering ​&nbsp;&nbsp;ReutersHegseth proposes 'ambitious' US-ASEAN defence framework at Philippine summit&nbsp;&nbsp;CNAUS’ ASEAN approach exposes a transactional nature&nbsp;&nbsp;Global Times",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T18:20:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
       },
       "priority": 12.0,
-      "category": "马来西亚",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "high"
     },
     {
-      "title": "Hotspots In Indonesia Drops To 96 But Battling Peat Fire Remains A Challenge - BusinessToday Malaysia",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcVJLNnVEYktuWjlxS0FDeDY4RV85dVlyNjN5MGJhMmhBSkl0NXFCRW1kX0xKaHQ1dEtfbHo5cU5fZFl0dEh5N05KeXZzVXpyaHd1VV9ndTVrZzlrSzg1aHpDWjNWNkd0QkpSRVZqVWpWZzRramdHZGNtQjdUbTFHU1FNVTlmY3NiMlpSeFkxUHBubmViamJJNzMzT0tLWG41ZWN4TUZfMU85a1FDYTFwWVpGbXRubXhpUkNHZA?oc=5",
-      "published": "Sun, 01 Nov 2026 09:38:12 GMT",
-      "summary": "Hotspots In Indonesia Drops To 96 But Battling Peat Fire Remains A Challenge&nbsp;&nbsp;BusinessToday MalaysiaIndonesia's forest fire hotspots fall to 96, but peat fire risks persist&nbsp;&nbsp;The StarIndonesia rain set to ease toxic haze in Singapore, Malaysia&nbsp;&nbsp;Yahoo Finance SingaporeGasping for air: Borneo residents struggle as island burns&nbsp;&nbsp;The Straits TimesNo resting on fleeting rain&nbsp;&nbsp;The Jakarta Post",
+      "title": "Manufacturing in Indonesia Surges to 31-Month High as Export Orders Hit Record - InvestorTrust",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbDlhM0xrc21mcFpuTmk2dFJBLW10TUJweDE1M0dObW4ySGRRT0doTXBncE9fd3RHRUVpUlJ2YktFVk9ZeEh4enlJX1JxTTFmWlRjWldQN1pNVjBMSHNNX1RaTUhnTmdpVGhUZDdZbzl1S3MtWDdtUENiNVR3S2NPU2l2dXFQZjdHeUJLaEwwY2JYQnh3UG44ZUhfSHpQWFNQeGhNTlBtM1Fqd1V0b3RHMks5QXRTS1RnRTk2UUE3TlpHVk84VnRNZDJ3X2YyVkFkZjVJ?oc=5",
+      "published": "Mon, 02 Nov 2026 07:31:00 GMT",
+      "summary": "Manufacturing in Indonesia Surges to 31-Month High as Export Orders Hit Record&nbsp;&nbsp;InvestorTrust",
+      "source": "GNews | Signal: SE Asia Record",
+      "published_beijing": "2026-11-02T15:31:00+08:00",
+      "source_detail": {
+        "name": "InvestorTrust",
+        "url": "https://investortrust.id"
+      },
+      "priority": 12.0,
+      "category": "信号性查询",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Thai defence minister contacts Myanmar as Cambodia tensions persist - Nation Thailand",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CZkpnNHNLRjItc3d3UTB2VGgwNUctMFNzNElVMlhmNkplZFR0S0ozVHJqV1I1bW13REVOWHJwMlJNcjNwVk5JRnFkRlZYQkp6SDBYSlJ1cGxrZDFQUjV3?oc=5",
+      "published": "Mon, 02 Nov 2026 10:58:00 GMT",
+      "summary": "Thai defence minister contacts Myanmar as Cambodia tensions persist&nbsp;&nbsp;Nation Thailand",
+      "source": "GNews | Myanmar Crisis",
+      "published_beijing": "2026-11-02T18:58:00+08:00",
+      "source_detail": {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com"
+      },
+      "priority": 10.8,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "Malaysia's manufacturing sector to support economic growth in 4Q26 - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQkxzRGhFLXNJNDMtU3B5V01nRF9vbTg1Nms4NFl0SVUtQmgwMmRzZzRFYU43N2ZDaHZ2NlZsVHhjR0FvZU5sbW5CVUNQTXdwTjIzaXNvWXNMOHhVYTB1SGZ4Z0F0TDZZQkM2b3luaW5YUGJLZlF1VFBoSGxVNnNjNXhFb3ZQZjktTUs2TWYzQjNwNi1nQW90QnA1a0Roc0cxVDNXVVJYQ054cmowVnhTWnUzWU9wLU1qM0phWTBtMDlhUEJ2TkQ1eg?oc=5",
+      "published": "Tue, 03 Nov 2026 01:48:00 GMT",
+      "summary": "Malaysia's manufacturing sector to support economic growth in 4Q26&nbsp;&nbsp;The Star",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-03T09:48:00+08:00",
+      "source_detail": {
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
+      },
+      "priority": 9.6,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Building ASEAN’s Next Financial Corridor: Tokyo and Thailand Pioneer Digital Finance - Nation Thailand",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE12WmZfd1NSUWZkNGNFUVZtNkpVUUJPZWRxc0VHbk85bHFhUW0yeko0Tm56SFN6RVdzY28zM0NuU2NNY0xPbjROSHNBaGNVQ3ZhS1drUjNfdjY0eGNHUC0xUmVoWDhFOWVnYkROY0hmdklGZw?oc=5",
+      "published": "Mon, 02 Nov 2026 08:48:29 GMT",
+      "summary": "Building ASEAN’s Next Financial Corridor: Tokyo and Thailand Pioneer Digital Finance&nbsp;&nbsp;Nation Thailand",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T16:48:29+08:00",
+      "source_detail": {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com"
+      },
+      "priority": 9.6,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Vietnam's economic rise offers ASEAN a lesson in pragmatism over prejudice - Newswav",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2ZvZmJ6WDF2ZnN1cVYtOUI2MklNcl9uME92Q05OY3hqYkd4TURyOG5kUmtKM3lXMWd3VXl6OUpUVVRlUVA0NWpvek51TmxidTlFUU9VMzRhSm1Db1NTVDFnZEdtMk40Q0hvWEVHdmZpc0pGS2FJYWJhMDlUVHNsVmtzTGcydkJyQmJpSnk0ZTlaLXBuQmltY2hzT3NIZmRnMllHY2M0dTlHc1dwajA4MEQzZGZyZw?oc=5",
+      "published": "Mon, 02 Nov 2026 08:09:46 GMT",
+      "summary": "Vietnam's economic rise offers ASEAN a lesson in pragmatism over prejudice&nbsp;&nbsp;Newswav",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-02T16:09:46+08:00",
+      "source_detail": {
+        "name": "Newswav",
+        "url": "https://newswav.com"
+      },
+      "priority": 9.6,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "With trillions of dong in imports and exports, Vietnam has established a strong position in international trade. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY201R2dTN2MwaUd4SVNsSHVHUUZiZE1zN1lZX0tBdTU5b2d0Rm5RU2RyMk9EemZKZmRuMlhJSE00b0NUQ1dMWlRpTlFocGZoYWFmYTNKYnhJbkFMb2FFQy1WUWszMzJ2WWE3cmFSeGI1dmM1Z3JvemhKTHUxb3dRVG10bmdwbFdmdTZLZUw5RXItemhIR2VRQ0M3eklGcW8?oc=5",
+      "published": "Mon, 02 Nov 2026 04:57:56 GMT",
+      "summary": "With trillions of dong in imports and exports, Vietnam has established a strong position in international trade.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T12:57:56+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 9.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Exports by 2030: Ambitious target of exceeding $1.04 trillion. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0RHM3MydFE3RFhCSHdXYjUwSXR2RXhNdnpSOExzTHJReENxbzk4QXpIc0JWRF9BTkRMcHhDck9JU1R4cnRkSk9RZlZfTjFnanZQdjB1OG11cmhZVllWVDJrbHZoUk5OQ243OFJQTk54d2RzR0piX1VpRFB6SThXTUtNQ3RjQUU?oc=5",
+      "published": "Tue, 03 Nov 2026 04:13:17 GMT",
+      "summary": "Exports by 2030: Ambitious target of exceeding $1.04 trillion.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T12:13:17+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 8.4,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Economy in 10 months: FDI capital reaches nearly 55 billion USD, import and export exceeds 1,000 billion USD - Laodong.vn",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS0lOM1lSbFFvRXowQmszMGZudWtVMm81S0t2QXVPYmVyMFdFNnRycTNjbUx1R25oMUdUTnhlbTJINVRKZWpoQVYxYzhPcHJleEpaV1I1cXh0Q3pmdWtjVkhXLUNLVkFFN3dyYWhvaVlkZmFqbTVUVFZkbkViTFFLTnNpWkZtN2R0Z1FaU1hOQ0FacERvNjNmTElOLXJiTHF0bFhfLUZMUjlkMjdDQVlWY1hEUzJZZVZSTlU0TEFYcFZmalU?oc=5",
+      "published": "Tue, 03 Nov 2026 03:59:28 GMT",
+      "summary": "Economy in 10 months: FDI capital reaches nearly 55 billion USD, import and export exceeds 1,000 billion USD&nbsp;&nbsp;Laodong.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T11:59:28+08:00",
+      "source_detail": {
+        "name": "Laodong.vn",
+        "url": "https://news.laodong.vn"
+      },
+      "priority": 8.4,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Improving the quality of FDI flows will boost growth momentum. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUE5a2dWWHhXb1pwaXNOZkRLb1ZDbV81X1dkRmJKZ0hvT2liaC1nYm9SMkU3b3JmNHFRcE5ybDJaV2RQTS1DMzlLdkhqd2tCSmRHVHg3TlpQT3JLSl8xcTRHR25HRHlqMER1Y1BBT2hPREpmREpxTVFRS1lnSkl1cmo5TQ?oc=5",
+      "published": "Tue, 03 Nov 2026 02:18:57 GMT",
+      "summary": "Improving the quality of FDI flows will boost growth momentum.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-03T10:18:57+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 8.4,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Supporting industrial enterprises are shifting from processing to manufacturing. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZMRkhiUENGeTN3c1ZsN2VSQlVJdHdWOTJ3V0pNTENaOXVCTWI2NHJkQjZEcERKSjB1cjNYSGw1WndiTFV5SnFBM0VHTEpTUG1HQ3l0alJsTFVLeXZCVEhCZU1STU80NHFMQ0c2LXJlQW1FN1VmWU9xTmtFbFIzTjNtR0ZtZGcxaUx4d1VFUU5NYXc?oc=5",
+      "published": "Mon, 02 Nov 2026 10:20:36 GMT",
+      "summary": "Supporting industrial enterprises are shifting from processing to manufacturing.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T18:20:36+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 8.4,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Imports and exports surpass $1 trillion: Key points to note behind this record-breaking figure. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRnk5bE5UbXBEcEtsS1dhMmliQW55emhwVEJkcU5CNGJLNk5ITnRxeEI4akQ5akpCNmg0VlNUU0Q5bmRiUmM4c1p5dTc5TUEtZ2wzTEMwdm9FdE1GRkxPZkVEWUtpeEhVYzJDRTVvMXZacllpVldxbVlGLWNWaVJXeUQtM0JqWXBiMHY3V09NMTJ5VUZwY085ZTRzelpTZDg0Vnlodnpfc3NqQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 08:33:22 GMT",
+      "summary": "Imports and exports surpass $1 trillion: Key points to note behind this record-breaking figure.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T16:33:22+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 8.4,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Singaporean Poh Po Lian Reports To MACC, Says Committed To Cooperate On Tan Sri Ta Kin Yan Case - BusinessToday Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYU5BNS1wQWZNUkNpVHIzRFdUeHh6LVpCN1hOWjc2SUw1bkNuQWtrbWRYZEREeHo5Y2VUUGh6WjVQS0x2QzRSVHFXTXJEVjFrSVl6M2J5MHpHVVJGVnZtOFNFVDF3WUVoMEVqcjBWdExQZDFQVkV5NnNXSGJCUThTUkFhZEJaNE9CVXdUY3k0Mnhhem90Z0RpaE5LOXFKWS1KeWE3SDY2Q2hTWTFodDk0bU5rdlREbFlNTnYyY0V2OG52VEpJOURuajNxZkVuZWF3MTZoQjRR?oc=5",
+      "published": "Mon, 02 Nov 2026 07:46:47 GMT",
+      "summary": "Singaporean Poh Po Lian Reports To MACC, Says Committed To Cooperate On Tan Sri Ta Kin Yan Case&nbsp;&nbsp;BusinessToday Malaysia",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T17:38:12+08:00",
+      "published_beijing": "2026-11-02T15:46:47+08:00",
       "source_detail": {
         "name": "BusinessToday Malaysia",
         "url": "https://www.businesstoday.com.my"
       },
-      "priority": 9.6,
+      "priority": 8.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Hours After ASEAN Envoy Departs: Junta Aerial Attack on Schoolchildren at IDP Camp ••••••••••••••••••••••••••••• On October 31, 2026, less than 24 hours after ASEAN Special Envoy Ms. Ma. Theresa P. Lazaro left Myanmar, junta forces dropped 20 bombs and la - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaTdjak5DTjR0UWt6WVBTYTF1TmxoZDlNWG4yZjZuaW01dzBKWW1wYmZQemZNb2o5bGhIN1FXWTdEejg5WjhLRk9Gb295R3NsVlN1ZkI1WWZGdmVnRDhpU0tTREZQTERYZDRPT2FPQ0NCNGxKNlBJMWVlcWVnN3J2UXhWYlNnZjJxb3pPOHM4NzRUSXRqenVCdThkVFlnTzdheklNMHVCQzJkSndOWkg0SkNDZWpRcUZNcDBlS2NwbWdpR3dNY2pSekdwODlsVzE1UDZSb044TQ?oc=5",
-      "published": "Sun, 01 Nov 2026 08:00:24 GMT",
-      "summary": "Hours After ASEAN Envoy Departs: Junta Aerial Attack on Schoolchildren at IDP Camp ••••••••••••••••••••••••••••• On October 31, 2026, less than 24 hours after ASEAN Special Envoy Ms. Ma. Theresa P. Lazaro left Myanmar, junta forces dropped 20 bombs and la&nbsp;&nbsp;Facebook",
-      "source": "GNews | Myanmar Crisis",
-      "published_beijing": "2026-11-01T16:00:24+08:00",
+      "title": "Vietnam Is Pulling Ahead of Indonesia Despite Having a Much Smaller Economy - Jakarta Globe",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbTdVZTl1LU5tVjF5b2Uzb0QwUXctRXY5NTB3RDNRTjF2VGk4Sk02aDdaRHNuUEkzdzNGM3lTSmNjdXBERE04M0VTVFZlaHlyVFJkUkp5ZndEdXFrZ0VOcVNLclNGa3Y0NF9YdXpucnFPeUU1Q0hXWVdXTVdwSUxhd1B0Y0xPckZyZ0tDYlBOcEhCWElNVW14LXNwWko1U2d0R2p6dUZlRVhlUnNG?oc=5",
+      "published": "Tue, 03 Nov 2026 04:19:00 GMT",
+      "summary": "Vietnam Is Pulling Ahead of Indonesia Despite Having a Much Smaller Economy&nbsp;&nbsp;Jakarta Globe",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-03T12:19:00+08:00",
       "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
+        "name": "Jakarta Globe",
+        "url": "https://jakartaglobe.id"
       },
-      "priority": 9.6,
+      "priority": 7.2,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Indonesia builds integrated nickel downstreaming industry - ANTARA News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQclp3dFlmYmpCdUdoUlF5QkZ3a1M5cFJMV0NXVWlqNHlrYUV6R0Fsd1hDVVAxODlaQ0xibjY5OUhJQ1QtalZVR21xTkRVTDlJMWtkWERPd0ZFYjhobmVBaUdyWjc4OC1vdkVNZXBvUDlEcVMtRDZlRVFiUDhZV05UNmthN3Vmdk1FbkZoZFBiSlhLeWZJT1V0T3RZd9IBoAFBVV95cUxPQUpTZTJqclpMcnRtNEpmaDUyUmtNRklmQU9Yc19abWRzcjY0MDBpMTUyRnpMdjBjMHItczB3OU9yOW9IbldJQVZldlNsSHVTOXdfVGQtU0tDOGxucThTd1JjaGVpWVQ5eU43YTVreVYzQzhNMlpITk9yYWRwcVlvbjMyWC1lWlNvbXBFZXNDY0FMak10OWEwZTd4U0ItRUht?oc=5",
+      "published": "Tue, 03 Nov 2026 01:38:44 GMT",
+      "summary": "Indonesia builds integrated nickel downstreaming industry&nbsp;&nbsp;ANTARA News",
+      "source": "GNews | ID Nickel/EV",
+      "published_beijing": "2026-11-03T09:38:44+08:00",
+      "source_detail": {
+        "name": "ANTARA News",
+        "url": "https://en.antaranews.com"
+      },
+      "priority": 7.2,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Real estate market 2026-2027: The days of \"everything going up in price\" are over. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdVJPSDJVelR5eTlYM1hBV2hXR1k3WXE5WC1UNF82eDFLdHJRdlZnTWc1Tk9ITHdKZDRMR2dnV0FjdlpTWGxuNy1uLTM4am10R0xmeHhfNWttVTBKV3RvLTcwNW01Snl4M255UlVjaENiZUtUblc1S2x2WWRFQ1lmOURBZ3RMcGM?oc=5",
+      "published": "Sun, 01 Nov 2026 12:18:42 GMT",
+      "summary": "Real estate market 2026-2027: The days of \"everything going up in price\" are over.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-01T20:18:42+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 7.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
+      "published": "Mon, 02 Nov 2026 23:54:34 GMT",
+      "summary": "War, tariffs and China: What the US midterms mean for the Asia-Pacific&nbsp;&nbsp;Al Jazeera",
+      "source": "GNews | SE Asia Politics",
+      "published_beijing": "2026-11-03T07:54:34+08:00",
+      "source_detail": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com"
+      },
+      "priority": 7.2,
       "category": "政治+社会",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Exporting to the EFTA market: How to overcome high standard barriers? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkc1MVFkRGN3UmNxcmFCTF9VbGMwSHhQdU9IdTFKMkFvMGZ3ODFtajZCOU52a2RvQlBCSk9oZWYwX0phS2dndHp5bjAxREx3c0RVTm96amwzUXlFWnM2ZXFZZEN6WU1tU1JpWW9vZUZBcm15Sk51N0J3YjRfZ1BfYkx6R3lRMllzendQdGhlczJuYnZXNlRUd2JQTQ?oc=5",
-      "published": "Sun, 01 Nov 2026 07:54:31 GMT",
-      "summary": "Exporting to the EFTA market: How to overcome high standard barriers?&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Tariff",
-      "published_beijing": "2026-11-01T15:54:31+08:00",
+      "title": "State Street SPDR Straits Times Index ETF (ES3.SI) stock price, news, quote and history - Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzSWNLbHAzc2cwYmFNbUxsd1B5V09rS0EtZ3M1dUpPMWtTVUVUWmcyTEJndk5uLWVyVGlDWlBKdzQ1Ry1hWlo3WmhORkJ1SkdSOFQzeQ?oc=5",
+      "published": "Mon, 02 Nov 2026 14:04:47 GMT",
+      "summary": "State Street SPDR Straits Times Index ETF (ES3.SI) stock price, news, quote and history&nbsp;&nbsp;Yahoo Finance Singapore",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T22:04:47+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 8.4,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Vietnam's import and export: Breaking through in scale and enhancing value. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOHRkR1ltQlFQX3lZQUZFNlI0aDlhbVVsMXkza0RLZlM4eGdhdjB1NzZXQ040MkdLQWo0bUR2SzU1SUM4cUFjaC1yemdocTJUY3pick5MNlFCVkE4X3BhaUkzYTM5dWM3YkpTcmg1VEFjUnBiNWJuXzcxSXVwZTZnN1d0QVJwbEVH?oc=5",
-      "published": "Mon, 02 Nov 2026 03:04:33 GMT",
-      "summary": "Vietnam's import and export: Breaking through in scale and enhancing value.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Trade/FDI",
-      "published_beijing": "2026-11-02T11:04:33+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 8.4,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Trump imposes new global tariffs, drawing protests from trading partners - DD News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR0NjTmp1aFctaUVTVTdVRVRKc05TVVFmQ1R0bFhsdUtTME45em5rRDZSNFNqeWMyclJZNC11UXV6ZjVwbG81OXM2c1phQTZJclpGVGV5dl9NWHI0c0R2UERQR0Q1VWpXdW9maHJLc3p0cVhUZS1RYmYtQTVBalA1N0lLdjhxZGlHQjZWZmlaNnlYRXN4TjRBQnJxSmtoQQ?oc=5",
-      "published": "Sat, 31 Oct 2026 09:08:44 GMT",
-      "summary": "Trump imposes new global tariffs, drawing protests from trading partners&nbsp;&nbsp;DD News",
-      "source": "GNews | ID Trade/Tariff",
-      "published_beijing": "2026-10-31T17:08:44+08:00",
-      "source_detail": {
-        "name": "DD News",
-        "url": "https://ddnews.gov.in"
+        "name": "Yahoo Finance Singapore",
+        "url": "https://sg.finance.yahoo.com"
       },
       "priority": 7.2,
-      "category": "印尼",
+      "category": "新加坡",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Gilimex Industrial Park develops industrial zones from a manufacturer's perspective. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3lLS3dUbS1VUzVmenRFeEpqMUN3QlF0TmJhVnpFOE9HeHFGRkJqTmRWYjQzYW5sX3JYZ2FtVVFIdTNkelZEMGhvdmFZbXZtNWdpaGhJcm9LLVp4X2syZjBpQktPRk12ZWJLVnh6a0Q3NUI0QzZsMnFwNzFuOWpvdVNhZlBwRmJTQWdLazYwejU5d3Z2NXBYd3Y0Vnl1QkhXZ1U3TTNB?oc=5",
-      "published": "Mon, 02 Nov 2026 01:28:55 GMT",
-      "summary": "Gilimex Industrial Park develops industrial zones from a manufacturer's perspective.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Trade/FDI",
-      "published_beijing": "2026-11-02T09:28:55+08:00",
+      "title": "Vietnam cuts retail power price by 2%, first non-Covid cut in nearly 20 years - Theinvestor",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeEttMnhFaTJWc3h4XzZkQmY5RGdKUjNhT3ZCMWVNM0liVGZ1b1A0X1VtRWRvaG9MbGJtRk8tendwWDdya1Mxa2tiYVA2UC1kWnViVE9qQWhITlE0RUgwNzRXeEZRVjJqS01jNlB3em1oMHNMa0xmVFNZNnBWbmdqcDJqN2xkODZhU241aE90VFRKbjdGMVl2bEZmaVBBQU1yRHh1MTZTNFdqZFZsUTNr?oc=5",
+      "published": "Mon, 02 Nov 2026 10:04:34 GMT",
+      "summary": "Vietnam cuts retail power price by 2%, first non-Covid cut in nearly 20 years&nbsp;&nbsp;Theinvestor",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T18:04:34+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Theinvestor",
+        "url": "https://theinvestor.vn"
       },
       "priority": 7.2,
       "category": "越南",
@@ -191,97 +411,131 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Profound Establishes Singapore as Asia Pacific Headquarters as AI Becomes the New Front Door For Brands - TechTimes Vietnam",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaEg4bnVTanpRVXBIZEQwMTlRVzFaLXcxbFR4YVEtOG1odFRmMXZfVlRrWjluREZvU05iWjE4elZZRzVTNjNHZlN4QXNNM3lrb0Z0WG1SSmE5Zl85dVhkaGFmSHRCTzFJTVo3NEhTTGxVbTJRWE9CQzJFekMwSHhUeThWREdUZ0p0ckhpMDFDOEhjOU1pVG1lT01iSGd0UUFjMTJ6ZUtYSFFDUmNlTnFGMWlnNjhsdkd6Tjl4VUtQaERyTzdQa1FyWDJXTlU?oc=5",
-      "published": "Mon, 02 Nov 2026 01:00:00 GMT",
-      "summary": "Profound Establishes Singapore as Asia Pacific Headquarters as AI Becomes the New Front Door For Brands&nbsp;&nbsp;TechTimes Vietnam",
-      "source": "GNews | SE Asia Tech",
-      "published_beijing": "2026-11-02T09:00:00+08:00",
+      "title": "Vietnam’s property market offers a different perspective - The Edge Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNOThQa2xuWmd2VnkwNjBkXzg1TmR6ZG9oZlRiTzlsNFY3ejV0bGpWSjk0QS1CWG9BeHJwTWFYV0RrMk9Bdnh3YmVUTE9Ic0IteFJr?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "summary": "Vietnam’s property market offers a different perspective&nbsp;&nbsp;The Edge Malaysia",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T16:00:00+08:00",
       "source_detail": {
-        "name": "TechTimes Vietnam",
-        "url": "https://www.techtimes.vn"
+        "name": "The Edge Malaysia",
+        "url": "http://www.theedgemarkets.com"
       },
       "priority": 7.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "NGC Energy eyes growth through new shareholder partnership - The Sun Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaVpuVWt3V2R5blBKYmx4NUhfRmZKWVZrS2R6WTZYSmhEZzBOaFZOUTl6TllMM0JZVEJNWXR5eUNETHVCYmlFczJSNkFMVElpcG9UUXhPOXhHRi1heFkzNVNYNG1iQlo4NGxQamZvSUFrX3pQT2x5UHNqbDBFRnpoSHJ1SVJ2Z1BydmJIT2ZpOA?oc=5",
+      "published": "Sun, 01 Nov 2026 14:51:35 GMT",
+      "summary": "NGC Energy eyes growth through new shareholder partnership&nbsp;&nbsp;The Sun Malaysia",
+      "source": "GNews | SE Asia Infra",
+      "published_beijing": "2026-11-01T22:51:35+08:00",
+      "source_detail": {
+        "name": "The Sun Malaysia",
+        "url": "https://thesun.my"
+      },
+      "priority": 6.0,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Economy in the first 10 months: Many important milestones, aiming for double-digit growth. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2NkNDZjUThVSkRocGVPbTlTNjVTNnRZS1lDSVIzNW81SENmZndmdGRKU0tpVENhRDZkS2lLbDhDTnRhSWxFTU8wVHdfS0NLcnY1WE1oS29ENTlySmpfMTFUWGtpMDVYZzIyN2xUNFFVRnpxdWdQUWRmU2lWN05tNzJ5UG1VSkFGVW9aa3BwVUl3WmlQcjQtQ2pERTdjUFNWalRSV09MWFpsZw?oc=5",
-      "published": "Sun, 01 Nov 2026 13:49:36 GMT",
-      "summary": "Economy in the first 10 months: Many important milestones, aiming for double-digit growth.&nbsp;&nbsp;Vietnam.vn",
+      "title": "Asean’s test at sea - The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcWNPaXJ3NkZFUkNhb3F0TXozXzRlVUJTaTM0Zy1UVFd6LXZDUXoyazVRSTZxZkVTS0RCTzBLQzZQUjd5RjVoV0w3eVIzcmRGal94RmdXYjhOLUxIcmQ0cldrV0tnaWpjWVNVMl8yaHNkTVh3bURXbENRSVdKLUFZY1lwU3hXMEM1cE5TZGd30gGOAUFVX3lxTFBxY09pcnc2RkVSQ2FvcXRNejNfNGVVQlNpMzRnLVRUV3otdkNRejJrNVFJNnFmRVNLREJPMEtDNlBSN3lGNWhXTDd5UjNyZEZqX3hGZ1diOE4tTEhyZDRyV2tXS2dpamNZU1UyXzJoc2RNWHdtRFdsQ1FJV0otQVljWXBTeFcwQzVwTlNkZ3c?oc=5",
+      "published": "Mon, 02 Nov 2026 16:08:00 GMT",
+      "summary": "Asean’s test at sea&nbsp;&nbsp;The Manila Times",
+      "source": "GNews | SCS/ASEAN",
+      "published_beijing": "2026-11-03T00:08:00+08:00",
+      "source_detail": {
+        "name": "The Manila Times",
+        "url": "https://www.manilatimes.net"
+      },
+      "priority": 6.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Foreign investors eye new growth opportunities in Ho Chi Minh City - Vietnam+ (VietnamPlus)",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaG5oYTJ4MS1KLXN4elk0dEtpVkt3QWNNN2hERDZHenZhSmZxUHAwR1FaZmI2T3RDZ2Y0S0pPR2M0NUhjdkpxNmVyQXRqdEF0VThLcHhGRWtxeFBZczVyalRoa2xwVGZoNC12YzR1UGJKcGRyNW5POWVSWTBxNXM0MWFKRkN1a3A1ZVl6aEQtRl9heHJJTWIzSFNJMmJqcjQ0Mlkzd2hOZkxXbzA?oc=5",
+      "published": "Mon, 02 Nov 2026 13:41:26 GMT",
+      "summary": "Foreign investors eye new growth opportunities in Ho Chi Minh City&nbsp;&nbsp;Vietnam+ (VietnamPlus)",
+      "source": "GNews | SE Asia Infra",
+      "published_beijing": "2026-11-02T21:41:26+08:00",
+      "source_detail": {
+        "name": "Vietnam+ (VietnamPlus)",
+        "url": "https://en.vietnamplus.vn"
+      },
+      "priority": 6.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "The banking sector is partnering with and supporting businesses in Gia Lai to develop. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ1FNQ3YxWFkyX0JaTmZ6cldoUWpSMGVRYmpZbllwNEl6MUZoT19VRUdES2pRNEs2UDVaNDJhLUVVV0ZXRkVzeVh0aFRHQ0tkTklNLXRLdFFKQUp1SWNaUFROM0VGRjFMMEd0alBGa0pwQTdPOVI4M2xBcnlxNFVueG4zR2F3U1F2QUNrc1QyazZxaF9nbHdr?oc=5",
+      "published": "Mon, 02 Nov 2026 12:08:59 GMT",
+      "summary": "The banking sector is partnering with and supporting businesses in Gia Lai to develop.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T20:08:59+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 6.0,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Indonesian student protests gain momentum amid little response from government - Asia News Network",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQak9fUzczTGI1cFg2aVJuc2trR2FPSnJmU1JwNVNvR3VIbksyMFFUYnJSRXZobEdaeFhzZ3FmRFBIbWRpdWJHeE1nejdNdHdQWFlOaTRpVFJuU2I5TlI2Z2RQUWpsT1NScmJERG1mM1RpR25VY2F2aWQ0N0RxVVpzVFg2ZFNiMV9FNVZMNVdmTGhtc2Y1MThGVkg0elgxMFAxZzZoLWszNA?oc=5",
+      "published": "Mon, 02 Nov 2026 04:06:17 GMT",
+      "summary": "Indonesian student protests gain momentum amid little response from government&nbsp;&nbsp;Asia News NetworkIndonesian students protest rising prices, government’s handling of forest fires&nbsp;&nbsp;CNAStudent protests gain momentum amid little response from govt&nbsp;&nbsp;The Jakarta PostThousands of protesters rally in Jakarta against haze, rising living costs&nbsp;&nbsp;The Straits TimesAs forest fires rage, hundreds of Indonesian students protest government response&nbsp;&nbsp;Reuters",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T12:06:17+08:00",
+      "source_detail": {
+        "name": "Asia News Network",
+        "url": "https://asianews.network"
+      },
+      "priority": 6.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Firms paying TVET grads same wages as foreign workers, says Johari - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcXhkc2ZGSm9WanFzUlItRU5RbHhnNk16cUVwNmhXSzBoT1d0Y2RWeHRsdlVXSUdKenFqa2RYUG9ZRWg4c1VNckdkaWZMQk9vcWxEQnZPdGxnRWdyZU9DS2lKM0tfeWlmR2ZJcmlkWUtzOWFBbGpsZTlFWkc3MXdhMnprQUZrdFRkWEhObHRsQmduMlN1eTdxM1B4YjF2dEU3QmMwNHljMUZLb1hRc2VFcXoteEJFNGdHeGUtMW1ob3JVQ2xz?oc=5",
+      "published": "Mon, 02 Nov 2026 03:10:00 GMT",
+      "summary": "Firms paying TVET grads same wages as foreign workers, says Johari&nbsp;&nbsp;Free Malaysia TodayPay peanuts, rake in millions: Johari takes aim at employers over plight of M’sian workers&nbsp;&nbsp;MalaysiakiniProfitable manufacturers reluctant to pay locals better wages, says Johari&nbsp;&nbsp;The StarJohari: Companies must reduce reliance on foreign workers, limit hiring to 3D jobs&nbsp;&nbsp;NST OnlineE5: Govt to reject new manufacturing licences premised on heavy foreign labour reliance.&nb...",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T11:10:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 6.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Economic highlights in the first 10 months, creating momentum for double-digit growth. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBrbU1IVlFtYUdiZW9NRk5xM2Zlek93M0dxT3ZHc1VObzB4YVB5RkxfeGdFWDNsOHZENTB0d3pkaHFnQk9kMWk4RHg0bFNzVmlLeFluVGVvdEFBTzY4VlBHbTNoZG1QZTMyWjJHV2xuaTJDalZTc0ZoMy1DV08xZFg5Y0VCeTAtSHc?oc=5",
+      "published": "Tue, 03 Nov 2026 04:43:19 GMT",
+      "summary": "Economic highlights in the first 10 months, creating momentum for double-digit growth.&nbsp;&nbsp;Vietnam.vn",
       "source": "GNews | VN Trade/FDI",
-      "published_beijing": "2026-11-01T21:49:36+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 6.0,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Loan dispute turns violent in Skudai: Man's leg broken after being rammed by car, 3 held, Malaysia News - AsiaOne.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLVk4eW9JWFoxY1RwUmZjX1hKczRyR25jNnZTSVlMRnBvWDBZcTU5X3dVT3dhZFRfSC1NbG1DNTl2UUNaQndET1FyN0Y0VUhoZTE4a2wwM1FyazFFbDNLYmZQZUVzVFBMWnNJeHdHbUtHbmZnUEdHRVZWeHIxRHVubG1pZjRzdU5oakxLdVIyeXcyTkFzOGFpQTR0bm5VRXg1a2htVGdUY2t1Y1ZGUnNxNXZB?oc=5",
-      "published": "Sat, 31 Oct 2026 04:25:16 GMT",
-      "summary": "Loan dispute turns violent in Skudai: Man's leg broken after being rammed by car, 3 held, Malaysia News&nbsp;&nbsp;AsiaOne.comQuickCheck: Was a man run over twice outside a Skudai supermarket?&nbsp;&nbsp;The StarCar appears to ram into man lying on overturned motorcycle during loan dispute in Johor&nbsp;&nbsp;Stomp SingaporeThree arrested after man suffers broken leg in car-ramming over loan dispute&nbsp;&nbsp;The VibesLoan dispute turns violent in Skudai: Man’s leg broken after being rammed by ...",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-31T12:25:16+08:00",
-      "source_detail": {
-        "name": "AsiaOne.com",
-        "url": "https://www.asiaone.com"
-      },
-      "priority": 6.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Indonesias domestic investment nears Rp2,000 trillion under Prabowo - ANTARA News",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPczdJNnowN05JTThMcUFTQ0hNSlFMcG9tMndWME1YRldncUQtZk05cmo5YndiR3JOTDlpU3AzTThhbVNsV0dOTTJsbGhNYVJ4N2FXekhLdUd6bHNCYTlEQlY1MnNvV3hfOXpDYnBzSkQybmFtcWphQ3FoTkxjbzl5anZhQmtNb0RFVmhJUkFkdVA2Z2NveVF3ZlRBdmZkWVpIYXRHTHFqMNIBrAFBVV95cUxPeU5PdlpuYm00NEVDNUkwOE1INXBYTTRzNUh3RXZlejI2N0NOLVlrQ1ZkZWFLNG95c1ItTDZPVU9fNktfZERablVkWVlPeUVsMjNuaXJla2ItT1BDdzgtd2k3Z0IwdUpxMTFEZ0ZyWmlRRXY4azRDYTNxVHRUZFBfNEg3RXAyeVFya2F0UG5UN2pOelVaYlh5dFdObWJ2Ylc4ZFM5cmpWNjEzLW9x?oc=5",
-      "published": "Sun, 01 Nov 2026 16:01:15 GMT",
-      "summary": "Indonesias domestic investment nears Rp2,000 trillion under Prabowo&nbsp;&nbsp;ANTARA News",
-      "source": "GNews | ID Economy",
-      "published_beijing": "2026-11-02T00:01:15+08:00",
-      "source_detail": {
-        "name": "ANTARA News",
-        "url": "https://en.antaranews.com"
-      },
-      "priority": 4.8,
-      "category": "印尼",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Malaysians can choose 5- or 10-year passport validity from Nov 2 - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnBwMjA4RFZacWdqUHhCS2Njc1JmZ1lOV2lrRUNYaXR1SndsbVZmYnBMYTlwc29naGVBSHQ0WGRnUVNKbTAwR1VsOC1OSDZTcHN2VXJRVzV5aFZtUXJ6RmdiZTUxZEx4QTVrTng1ZnF5TnVJcEdLa3Q2MWFfNlMwNkVlU1BWQ1VnR3czdWFGZWYxa01hQXJZcGdUMXdoN1hvcmFwQmpFc3pMU2FHU2fSAbMBQVVfeXFMTVZZQlRsV0VHZVlwLVJ1QUV0aTdZTElQU1pPVjFWa3pobjhtckVPMTdOSU9SUmdIOXNaVUF6SWIyMjVOZHRsQ1FfNnRfZEhTRU51bVItcEQtZUsyemc5WkVXYXRQQU9PbXVHYVJxVDEyZTFMSHVLamhlNHJTeF9sOFpVYmtUdFBaTlJwWmVPZUJvNUljNUc3S1Z5TFVHV0ZtTmhZVmVDT1lSM3g5X2x5VGM5dlU?oc=5",
-      "published": "Sun, 01 Nov 2026 15:46:24 GMT",
-      "summary": "Malaysians can choose 5- or 10-year passport validity from Nov 2&nbsp;&nbsp;NST OnlineOnline application for 10-year passports starts on Monday&nbsp;&nbsp;The StarOnline renewal for 10-year Malaysian passports starts tomorrow&nbsp;&nbsp;Malay Mail10-year passport renewal now available via MyOnline Passport&nbsp;&nbsp;Free Malaysia TodayMalaysians Can Renew Passport Online For 5 And 10 Years&nbsp;&nbsp;BusinessToday Malaysia",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T23:46:24+08:00",
-      "source_detail": {
-        "name": "NST Online",
-        "url": "https://www.nst.com.my"
-      },
-      "priority": 4.8,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Southeast Asian supporting industries seek a path ahead of the Chinese electric vehicle wave. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWFNUFhVUTJFOXlFOTd2dDE5NzAta1g5c1RfWTY1Z3dORW9UU19kdzhDbUJXRDQyelJERUFQTkM2LWdMZ1Ata0owNHF0cnhVRjA0MWJ5dXU3clB4SVhTZUkyZFFnUEFLdzd4b3pnQkpIN05JeXI4dzJ1SXd2amRPUDdieDJiNEZMMFlqa2t5ZmtVMmtHWWc3TkJ5NDRsbWNSZ0k3STJqdTdEWDQ?oc=5",
-      "published": "Sun, 01 Nov 2026 13:05:14 GMT",
-      "summary": "Southeast Asian supporting industries seek a path ahead of the Chinese electric vehicle wave.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Factory Shift",
-      "published_beijing": "2026-11-01T21:05:14+08:00",
+      "published_beijing": "2026-11-03T12:43:19+08:00",
       "source_detail": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -293,12 +547,80 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Loke challenges ‘bully’ Wee to debate on transport achievements - Free Malaysia Today",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU05FYU4zNENEcW9LWjhCcGtCdDNGTTIyaWlNQkt2MU4zS0dzbUZmODNBWUNFejI4SGJzdjFJZzFrUERYMDQyWWNORFZvaGtPRGdQUy04S0JKNlpPV3JQRG55OWJRSnE4NDhCSG45VFhOemdTRnRhaGpKcm5CVkJZZ2c4aGpwVWtnbEVZVS13SldiVDc1VHNCaUNQWFkzTE5MTnFRR2lsWXR4Z1NCamZoN0JZaVdCek1EWjl0dHhrdw?oc=5",
-      "published": "Sun, 01 Nov 2026 04:21:00 GMT",
-      "summary": "Loke challenges ‘bully’ Wee to debate on transport achievements&nbsp;&nbsp;Free Malaysia Today‘Unfair and a bully’: Anthony Loke defends DAP rep and dares MCA chief to debate him instead&nbsp;&nbsp;Malay MailLoke challenges Wee to debate over transport ministers' track records&nbsp;&nbsp;The Vibes'I can face you too': Loke challenges Wee to debate&nbsp;&nbsp;Malaysiakini'Best transport minister ever'? Wee tells Loke to keep his self-awarded crown&nbsp;&nbsp;Malaysiakini",
+      "title": "Ho Chi Minh City eyes chip design as US tech firms look to Vietnam - Vietnam Investment Review - VIR",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdmNjMmFUU1cxWk41SVRzSWlITUx1dldFdVktWkk4aXV4c19uQkw5Z0ktd2RPQVJud09KRE9fTDFsMVQ1eGQzZWFPZEF4Z2wxbURzVDQ5dHA2aHIyU0hNU1hMY3h4Zk1tRFpUNUZUSFF6OXpZY2NIRVFYTEVQLXdkbG1keWN5YjVsVlgycUN2aW40bVd6VjJ3ZUlzVC1GZw?oc=5",
+      "published": "Tue, 03 Nov 2026 04:10:47 GMT",
+      "summary": "Ho Chi Minh City eyes chip design as US tech firms look to Vietnam&nbsp;&nbsp;Vietnam Investment Review - VIR",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T12:10:47+08:00",
+      "source_detail": {
+        "name": "Vietnam Investment Review - VIR",
+        "url": "https://vir.com.vn"
+      },
+      "priority": 4.8,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Decoding fiscal policy: Unlocking capital pathways for business growth. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEh0THdYV0ZhVjMwWmFtYVo5c3k5OGFoeElQTTZiZHNPc1dPTk9RdDNCMVlmUjhvU0ZuMjBYREhzOUNVUUF6bWdLRlV2cXk3QmVVTnk2OHg1eXlMUzEweVI0bG9BTjlKTWxDZERxdEFlMjdya09rV25TMkx6ZHlYQXhXVVRJN3NqZG1xdkd6LWdTTXlHNjZpYnFxZEtqZVE?oc=5",
+      "published": "Tue, 03 Nov 2026 02:41:22 GMT",
+      "summary": "Decoding fiscal policy: Unlocking capital pathways for business growth.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-03T10:41:22+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 4.8,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Singapore-Argentina Free Trade Agreement Takes Effect, Completing MERCOSUR Trade Pact - INDiplomacy",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYk9fLURiZy1HUnJPdEJIeEhIV3BoR0JFR2NXQm5OUkZtYmNRYlN6bUtYR3phRXZER0liaGo3ZFMwZlp1YTNPRWVFM0lORklvMi1WbHRLeGVIN3JnUzhMNGFoSDZCbXRxZHM3OHZHY1pxR0w0SFcyamUxRkFCUUl6anQ0UDN1LXpVMm1oYWZVVnFHaHpUaE9jX1FCTjRFRTlreEpHR2I3OERWVVBKbE5OV3MzejFMS3lVbVpFNg?oc=5",
+      "published": "Tue, 03 Nov 2026 02:40:22 GMT",
+      "summary": "Singapore-Argentina Free Trade Agreement Takes Effect, Completing MERCOSUR Trade Pact&nbsp;&nbsp;INDiplomacy",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-03T10:40:22+08:00",
+      "source_detail": {
+        "name": "INDiplomacy",
+        "url": "https://indiplomacy.com"
+      },
+      "priority": 4.8,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Vietnam trade turnover breaches historic trillion-USD milestone - SGGP English Edition",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZTRUN2pVNFpxem9STHM5TXMxWVFDSi1wdHlLU1U0SThYQmJHOU5IMVJVanRmUjhFM3dOVWN4U0RpSnJXSmZSakVtSmlGcnJqZHBnVjVtRmxmOUtlY2R6a2VpeUhhcm5YZWZOZXlmZW1WOGk3cFJKNzRHN3BvV25JZWF6MTN2cnItVDl2c19zbEJNNkdNRE5ERUtrVWs2NTFVVENhcQ?oc=5",
+      "published": "Tue, 03 Nov 2026 02:23:25 GMT",
+      "summary": "Vietnam trade turnover breaches historic trillion-USD milestone&nbsp;&nbsp;SGGP English Edition",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T10:23:25+08:00",
+      "source_detail": {
+        "name": "SGGP English Edition",
+        "url": "https://en.sggp.org.vn"
+      },
+      "priority": 4.8,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "10-year passport renewal now available via MyOnline Passport - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY0JKM094RU1PbGNhaUU1dUJRRFdqZjhOdzlWMWFST2lrZnRZRlcyNm1UVnVYWHZWb3JfbVJXRFU5VUNlRC1GbEdaMmIwMVBkUHFZbVdRY2ZLNDVneUNlVlZKekhod0hrWmpKNlZkS2F3LWhReVdvZXlTWVNxY0NzeWtjR3NyRHNpYVRjczJIdUgxbjRGMG15MGhSU3dFWUtPamFoUDk1UFlueFRzLVV2WFBNcXU2N2JnZEVqZmVn?oc=5",
+      "published": "Sun, 01 Nov 2026 11:48:00 GMT",
+      "summary": "10-year passport renewal now available via MyOnline Passport&nbsp;&nbsp;Free Malaysia TodayOnline application for 10-year passports starts on Monday&nbsp;&nbsp;The StarMalaysians can choose 5- or 10-year passport validity from Nov 2&nbsp;&nbsp;NST OnlineMalaysians Can Renew Passport Online For 5 And 10 Years&nbsp;&nbsp;BusinessToday MalaysiaRenew a 10-year passport online from 2 November at RM350&nbsp;&nbsp;Citizens Journal",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T12:21:00+08:00",
+      "published_beijing": "2026-11-01T19:48:00+08:00",
       "source_detail": {
         "name": "Free Malaysia Today",
         "url": "https://www.freemalaysiatoday.com"
@@ -310,15 +632,32 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Vietnam’s resort property market poised for a new growth phase - Theinvestor",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTXROUWswNkFSVXBVZFBJeW9IMFFwS3Z6NTQxdzRsRklSY1czUjNFYmxERGp4b3I0d2xNT09EZEg4eVQzUS11d2p6YVJ3a3JlVU1RMUppQmZuQzlpYjNPd0tEWFVVUWF2TjZFZ1h5aXVacGMyREFJYUIzamxEa2FxU2s1M3RyRktMc2xPcV9OWVBzUmdacjFTc0VDVGY?oc=5",
-      "published": "Sun, 01 Nov 2026 01:00:00 GMT",
-      "summary": "Vietnam’s resort property market poised for a new growth phase&nbsp;&nbsp;Theinvestor",
-      "source": "GNews | VN Economy",
-      "published_beijing": "2026-11-01T09:00:00+08:00",
+      "title": "Stablecoins at the Singapore FinTech Festival: RWA - Cointribune",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLVUtVmY5d2Q5YTFZQldoSHdEZV9XdlA2SzBUTkNjYmdsSWNzd0dxUEZaWFNRY2s5MnBwaks5VFZ4d2N0X3VET0NHdE1GMFdMSVJ0MF9Ybkl0eVNJY3AyQVlWeXFFbGxMTTJNOWt0V3ZOTFZ2aEw3VkxUTjVPTjBtRXdHQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "summary": "Stablecoins at the Singapore FinTech Festival: RWA&nbsp;&nbsp;Cointribune",
+      "source": "GNews | SG MAS/Fintech",
+      "published_beijing": "2026-11-03T02:00:00+08:00",
       "source_detail": {
-        "name": "Theinvestor",
-        "url": "https://theinvestor.vn"
+        "name": "Cointribune",
+        "url": "https://www.cointribune.com"
+      },
+      "priority": 4.8,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Can Trust Investment Unlock Cambodia's Stalled Real Estate Sector? - Kiripost",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeUVkVDBVOFVpaEVTa2VfeXZPM3JUWVVXeGdYakRTWUQyWnV2XzVoTklMXzBFZmJhZGtyWUJYRmkteDJkdGw0Z2VvWFVpS2hSaVU1R2o3eGVyRFA3R0hzdVlyc3E4SWJzZTJWTHdIckpldENkcWZ3VDNDNXBOZEpCclh6UUtENmJoRktERHRYY3ZZYXJ1cDV5SQ?oc=5",
+      "published": "Mon, 02 Nov 2026 12:45:59 GMT",
+      "summary": "Can Trust Investment Unlock Cambodia's Stalled Real Estate Sector?&nbsp;&nbsp;Kiripost",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T20:45:59+08:00",
+      "source_detail": {
+        "name": "Kiripost",
+        "url": "https://kiripost.com"
       },
       "priority": 4.8,
       "category": "越南",
@@ -327,12 +666,12 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Minister of Finance: High growth must go hand in hand with macroeconomic stability. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb0o4MW1IWHRCZWQxWGJnRkw5U3NTbElkYmU2QzRMX0NsSHE4b2k0TUNBVGtUMHYxNmxXSXhsY21Yd3BwUURSMXVXeGdjUks1TmxsVEZEbWF4ZmFXMzJocFV6R2tpQU9ZVnc3MUhpX1RwNVVMd2thcUJwY2YzaVNPQjg0LUlZZkRUOEpmTUhRZWJIVFRLMGh5ZU1iODd1UG1vMUxwVQ?oc=5",
-      "published": "Sat, 31 Oct 2026 15:24:30 GMT",
-      "summary": "Minister of Finance: High growth must go hand in hand with macroeconomic stability.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Economy",
-      "published_beijing": "2026-10-31T23:24:30+08:00",
+      "title": "SACOMBANK continues to offer a loan interest rate package of 7.9%/year, contributing to its double-digit growth target. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVUF6TlZkRWhPZ1FENG10aXBBRkxuZmdNeGJrazJIeTZ4Qmw2RDM1Q1EtYmhWa25fUFpHZmZHREFpOXdEMVZEZDNvSGRrVXZLVlh3RDEwaF9vZjhaY0FEM0YxUi1VaEE2R1Jvbl81UGQtQ2ZCSWNMU09hbnctSVZ3NGlVM1BRTktyYU56Q0JUYmtkUmpJOU00ZHR5SGhSZkVnUFhGN2NRSU5RajMzMy1lTDV5cE5pQ0diLXdXOGxB?oc=5",
+      "published": "Mon, 02 Nov 2026 11:34:38 GMT",
+      "summary": "SACOMBANK continues to offer a loan interest rate package of 7.9%/year, contributing to its double-digit growth target.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T19:34:38+08:00",
       "source_detail": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
@@ -344,29 +683,29 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Capital Flows for a New Era of Development - Part 1: Double-Digit Growth: More Than Just More Capital Needed - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU0E3b1ZHYllQdXFyRWt5blNqNTdjLXpNTzliR1dQSE16MktHdGN4YjlVSG9hYy1kb3dHVDJIbXBoN3lQNmxUaXR0NG1Xcy1kUWRfT3JVeV83bFVzZ0pXWHBYcUFsTGNwMmVBNERpNDNxVnpWX1lsQ3YyeEE1UWsySHdVU3dNckRQNkt1Qkg0UUxuSUJLR3M1MUJYNm8tWG9iODJQYnpvNnFFaGdOZlZvSXp5cEg?oc=5",
-      "published": "Sat, 31 Oct 2026 05:09:05 GMT",
-      "summary": "Capital Flows for a New Era of Development - Part 1: Double-Digit Growth: More Than Just More Capital Needed&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Economy",
-      "published_beijing": "2026-10-31T13:09:05+08:00",
+      "title": "Woman reports snake, upset by NParks' response, Singapore News - AsiaOne.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDY4ZFhoUjEyT0Z4c0c4X3RPb3o1QXV5a2V2WDRtZEVUOEJVOEVfeWxLWUVPQ0pva2RPM25mdi1XNFk4RDFIWlFqWDF5R2hwMzRiaEZWbC11QW15WUVzdXVlZ2VjbGRDLTNaRmhVZ2tuTWJCVGtPUjAyY2REbXdfSA?oc=5",
+      "published": "Mon, 02 Nov 2026 07:03:00 GMT",
+      "summary": "Woman reports snake, upset by NParks' response, Singapore News&nbsp;&nbsp;AsiaOne.com",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T15:03:00+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "AsiaOne.com",
+        "url": "https://www.asiaone.com"
       },
       "priority": 4.8,
-      "category": "越南",
+      "category": "专题精选",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
       "title": "Indian exporters gearing up for a bigger European play? - Fibre2Fashion",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWFlvU2dzNDFvamJEdHV0U3lUaGJMVXN3MFBjdlMzNFcyLTFOOVVJcWwwM2phUEhzTi14TGZkbGNvN2VxaHVLak01ajh1SkJsaVJhODBtYVQ4NFFLclRzYWFraXVhWXVzQUtyYU1uZEI0Z2hTb0R5SFBlNzZLLUhVSEJBdy1yRUZlbkhFMGNzZ1UxT2xwVjhINC1mNXlWeEtrcUl6bGZfVVdxLWVnQThnb1lDSlVMbkJXaEhpSFVHVXA1b3M1bVFBWFJrQWg5QzV5VlZ5dDdQWXgwOFNCRzRCbw?oc=5",
-      "published": "Mon, 02 Nov 2026 03:39:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUWlFWWVxRHNzQ3k0dDhQYXhJMGxjelNBM0VyWGxxaThJUFRtRzA2RjNqbWZTTWVvY3Y3OW9pMHphYm9sclRGcVhPZy1Cb1BrNnBwUnZYNWNpb1RBa3NsWFJHNEphT0k4WFd0MjNUdG9ySmpub1JmMkxRblgwck1EUEtma0Z5cTJCM1dsWlV3QVoxMC1jaVplcEluSHJqdHA3LUxWUGZWYnZjT245U25jOTRfekNQbkY4QUppLWNkc25tcmIx?oc=5",
+      "published": "Mon, 02 Nov 2026 03:51:52 GMT",
       "summary": "Indian exporters gearing up for a bigger European play?&nbsp;&nbsp;Fibre2Fashion",
       "source": "GNews | VN Tariff",
-      "published_beijing": "2026-11-02T11:39:02+08:00",
+      "published_beijing": "2026-11-02T11:51:52+08:00",
       "source_detail": {
         "name": "Fibre2Fashion",
         "url": "https://www.fibre2fashion.com"
@@ -378,12 +717,12 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Confidence pact loosens BN’s hold on Anwar’s govt, say analysts - Free Malaysia Today",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObThjeExpUUc5WEtSbjhWUjhOd1p0VzdEQlNDbFhseDdBSWQtTlJUYXVOcEcxNXlHNkZoWGhyVG9kUW85ZzJiR1hGOHdfYkR0dkdoaWNVVHI5NEdYaklfZWc1bVR3VkJkNUdWQXpZeUg4d3hpb2k4ck16ZGRoUWRPOXdMNlJfcXQ3NjBNOU1zSHlsMkl0OTl3Y3l3b0VfWmx2VVpjOWZQUDVpOVRTX21kc0pwUHZGbngyZXhmcl9R?oc=5",
-      "published": "Sun, 01 Nov 2026 23:00:00 GMT",
-      "summary": "Confidence pact loosens BN’s hold on Anwar’s govt, say analysts&nbsp;&nbsp;Free Malaysia TodayMuhyiddin says agreement to support Anwar on key parliamentary votes unrelated to Melaka polls&nbsp;&nbsp;CNAAnwar cuts a deal with opposition to clear a 2027 budget hurdle&nbsp;&nbsp;The Business TimesAzalina: All 218 MPs get a role in reforms under CSA as AG-PP split, PM term limit need cross-party support&nbsp;&nbsp;Malay MailTakiyuddin: Perikatan not part of Bersatu MPs’ CSA, won’t sign deal just fo...",
+      "title": "After ‘bullying’ claim, MCA candidate invites DAP rival to ‘written discussion’ - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd1ZTSU95RVRqbTZTUXg0WGF1Y0ZxRlcydEhXRm5oRTYyZjZhaEY2NDRkUmJ1bDRzLXlWbHk0OWhSVjgzY3dtcXdaYi03TVlrRGk5MV9QQVVtM1cwNWljOVpSa01TMl9RSEZ1dEJRX016cUhUYmhTbHVYT3lMUTMtTGd4eTVpSGRxdHgzR3VlSzVtVV9fc2NqVnZqckJPTElWTUtRSFpxYzFJa2Rzb0JtaFhQakNXY040UHc4NWY5dnNVNzhyZjd6YTh2bEpLTDhn?oc=5",
+      "published": "Mon, 02 Nov 2026 12:16:00 GMT",
+      "summary": "After ‘bullying’ claim, MCA candidate invites DAP rival to ‘written discussion’&nbsp;&nbsp;Free Malaysia TodayLoke can call himself best transport minister ever, says Wee&nbsp;&nbsp;MalaysiakiniIt was Anthony Loke, not MCA, who politicised Leng Chau Yen’s condition&nbsp;&nbsp;The StarDAP, MCA candidates take up debate challenge as Malacca polls heats up&nbsp;&nbsp;MalaysiakiniLoke challenges Wee to debate over transport ministers' track records&nbsp;&nbsp;The Vibes",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T07:00:00+08:00",
+      "published_beijing": "2026-11-02T20:16:00+08:00",
       "source_detail": {
         "name": "Free Malaysia Today",
         "url": "https://www.freemalaysiatoday.com"
@@ -395,131 +734,46 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "2026 was meant to be the Philippines’ year—yet the country remains stuck in an ‘recurring cycle of underachievement’ - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95Q2g5Y1NQS055RDF3cUFjYzFWNVNnUWxJbllHM3ZsTnFFa0Q2VFB5T2JsYTIwWkl0ZlhQR1Y4VXVfeWtYSEVsanRUZEpiQXRCY1RuSW1YZ0hJVHB2dmVFX1BUaklkZ1BqclpN?oc=5",
-      "published": "Sun, 01 Nov 2026 22:00:00 GMT",
-      "summary": "2026 was meant to be the Philippines’ year—yet the country remains stuck in an ‘recurring cycle of underachievement’&nbsp;&nbsp;Fortune",
-      "source": "GNews | VN Economy",
-      "published_beijing": "2026-11-02T06:00:00+08:00",
-      "source_detail": {
-        "name": "Fortune",
-        "url": "http://fortune.com"
-      },
-      "priority": 3.6,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "UN investigator: Myanmar junta attacks civilians to terrorize them as arms buys fuel war - The Star",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeFpLY1ZSNVZ0M3VNdzY3RGk0MWpjZG1WalVnMm55QWdmSl8zM0JQWjZNSGdQenAwNnlITjR3SXl6alZmWHNzcU9PSzBXSC1maE9YNGJXbTFQTHZnOEwzdGtyZ2lUR2JqZENodUZHaGl6cWFaVWV3eW0wWnNwb1ZSazhhRUJWRE1wTHlIZE1lcFNUam1kT3hnU1V4ZEZVWHhSalhCcXNhdzk4ZGEyY3lqZWRlT0FkLWNNQ2x5ZHItZjFMZnNveUFPSDhxdWZkamNNbE5MV2Z2dmdzWGU1bDh1SV9iY3A?oc=5",
-      "published": "Sun, 01 Nov 2026 13:23:00 GMT",
-      "summary": "UN investigator: Myanmar junta attacks civilians to terrorize them as arms buys fuel war&nbsp;&nbsp;The Star",
-      "source": "GNews | Myanmar Crisis",
-      "published_beijing": "2026-11-01T21:23:00+08:00",
-      "source_detail": {
-        "name": "The Star",
-        "url": "https://www.thestar.com.my"
-      },
-      "priority": 3.6,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Hello Nation Thailand you been compromise 795 Employees in our hand - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91RV9BZG5IM3Rvem1UbHZtbGF6eThMdHQ1aERjNUNJcll3c010R0RHSHBvOGkzOFk2eFQ1eEt2SlQwNmVPUWd1aExxMGwyWHBqV2k2Z2Q3aExWS0tEcHh5VzFaZTdVdEVGY2pfWTZvWE9QUQ?oc=5",
-      "published": "Sun, 01 Nov 2026 09:16:00 GMT",
-      "summary": "Hello Nation Thailand you been compromise 795 Employees in our hand&nbsp;&nbsp;Nation Thailand",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-01T17:16:00+08:00",
-      "source_detail": {
-        "name": "Nation Thailand",
-        "url": "https://www.nationthailand.com"
-      },
-      "priority": 3.6,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "“China’s manufacturers are moving out of China ... Korea, too, must reduce its overreliance on Vietnam” - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBteWgyWG5FNU9GaXYxbldId0FYcXdTNXhYVWw2SEpqQm1GV1JVVHJ6LWp2QUdPMDNHdUVRM0h6cF8xQkQ0WDh2T2RlQ3pva3ZTbzZV?oc=5",
-      "published": "Sun, 01 Nov 2026 08:26:31 GMT",
-      "summary": "“China’s manufacturers are moving out of China ... Korea, too, must reduce its overreliance on Vietnam”&nbsp;&nbsp;매일경제",
-      "source": "GNews | VN Factory Shift",
-      "published_beijing": "2026-11-01T16:26:31+08:00",
-      "source_detail": {
-        "name": "매일경제",
-        "url": "https://www.mk.co.kr"
-      },
-      "priority": 3.6,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Malaysia’s ex-PM Najib yet to pay $15.7 million house arrest fine, will remain in prison - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMzRxdEFWeUctTXBTaFU1c2xUZHVkRGxhaFc4aWVkWjRzZTluVFZreGtPOWNrYkJ6MmNEQlNXZ2ZveHlybW9mRnFRVUIwNE40THdZc2pZWGNFUlVLNHg2TDZOYWZhaVRrSHBNeWFWTlZadE1Ta0dCTDV0cWZ4UU9zMzl3XzRKSUV5bXQ4WHpONHJ6X3lOdnVjTzQwVVNEOVgxUGlqTVVidFY2V0JreWYtd0hrV1NTbmxxTVllY1dTelJ0VndCNWpB?oc=5",
-      "published": "Sun, 01 Nov 2026 08:05:00 GMT",
-      "summary": "Malaysia’s ex-PM Najib yet to pay $15.7 million house arrest fine, will remain in prison&nbsp;&nbsp;The Straits TimesNajib yet to pay RM50mil fine for house arrest, says AG&nbsp;&nbsp;Free Malaysia TodayNo RM50m, no house arrest: AG Dusuki confirms Najib stays behind bars&nbsp;&nbsp;NewswavNajib remains in prison as RM50m fine unpaid - AG&nbsp;&nbsp;The Vibes",
+      "title": "Man, 36, slaps woman at KL mall after she allegedly hit his 2 children, Malaysia News - AsiaOne.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85aGhiQWU2N3BsS2QzSEc3c1lLRk1WSXhYMGlEamVzRURlYmxIdVU1al83Y2ZSUGxoTkpTU2QzNUpIT09nYUt4ZmtBQkdONndLVmN2ZUp3SGh4OVdPenNGUXJfbmtaQTRHMWdidG1XOGU4WUU?oc=5",
+      "published": "Mon, 02 Nov 2026 08:28:17 GMT",
+      "summary": "Man, 36, slaps woman at KL mall after she allegedly hit his 2 children, Malaysia News&nbsp;&nbsp;AsiaOne.comMalaysian police probe viral video of father slapping woman in Kuala Lumpur mall&nbsp;&nbsp;South China Morning Post'I was defending my children': Malaysian father speaks out after viral KL mall slapping incident&nbsp;&nbsp;AsiaOne.comWoman probed over alleged assault of 2 children at KL mall&nbsp;&nbsp;Free Malaysia TodayMall manager, father file police reports over woman’s alleged harass...",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T16:05:00+08:00",
+      "published_beijing": "2026-11-02T16:28:17+08:00",
       "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
+        "name": "AsiaOne.com",
+        "url": "https://www.asiaone.com"
       },
-      "priority": 3.6,
+      "priority": 4.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Johor now popular destination for Indonesian tourists, 1.5 million visits in 2025 - The Star",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUXBrOTRiWHZXNWJVTWV5aHI2LUdFQlkyTmJ5dzgzeUxLYXZiZk5LQzFVdzZmQ0htV1JyeUlQakZ0SU54SHBhTnU0QjEyZzRmQWFURXFyQ1Q0R2xTVVVwRXAwUFJzR2pZcGhmZUdhY1VZWThuekRpTDNKNFE3WTVFWWk4WTlRRkxwNXREdEx4TmtuVjJfSU9IVWFJTW1mU3BlSTF1aE5pUUhkVmpkYUJaN01SWEFBWW9OMEY3bnlDdW1FRzlyMTZwbA?oc=5",
-      "published": "Sun, 01 Nov 2026 07:17:00 GMT",
-      "summary": "Johor now popular destination for Indonesian tourists, 1.5 million visits in 2025&nbsp;&nbsp;The Star",
+      "title": "PN refuses to sign CSA with govt - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVFpQSjE3OUFzRXR5Y0NkZW5kQmwyMUdGZWo3Q3BXVFg4bDNtcl9Rek96eUI4N1V4djVpVXR3ZWsyQUZxbllzZGdIMnhlTV9veVBOWGxWQkRHQXQtd3VXLV9lbU5Wb1VJSmxkSm1MNXpxTVFTNFRpUmgzeGkwRElrb21jVEwwMExZd2FWSUx0aGVmM1AzQlFPcw?oc=5",
+      "published": "Mon, 02 Nov 2026 01:11:00 GMT",
+      "summary": "PN refuses to sign CSA with govt&nbsp;&nbsp;Free Malaysia TodayConfidence pact loosens BN’s hold on Anwar’s govt, say analysts&nbsp;&nbsp;Free Malaysia TodayMuhyiddin says agreement to support Anwar on key parliamentary votes unrelated to Melaka polls&nbsp;&nbsp;CNAMalaysia’s Anwar survives budget test after securing support from former rival Bersatu&nbsp;&nbsp;The Straits TimesTakiyuddin: Perikatan not part of Bersatu MPs’ CSA, won’t sign deal just for allocations&nbsp;&nbsp;Malay Mail",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T15:17:00+08:00",
+      "published_beijing": "2026-11-02T09:11:00+08:00",
       "source_detail": {
-        "name": "The Star",
-        "url": "https://www.thestar.com.my"
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
       },
-      "priority": 3.6,
+      "priority": 4.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Data transparency and ESG standards help businesses access capital markets. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVUswa1QzUGN3c0NYMDFpRWpJZUxtMFFCYnY0SWs4bzcwbmNGaS1uS1lpbXdzakpZNTVNaUZ3dnV3WkJuaU5tVFJMdmx0NVRuLTd5NWRsaldjaGFTbmJrMU5xTGxDZkNJYXlqZGtoV0NRRV91MU82UmdQM0dJQ09rOFM0ZXpCS0FkUkJxSVBWYkFuU2sxeDlYVUdCV3VIYXc?oc=5",
-      "published": "Sun, 01 Nov 2026 06:36:25 GMT",
-      "summary": "Data transparency and ESG standards help businesses access capital markets.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | VN Economy",
-      "published_beijing": "2026-11-01T14:36:25+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 3.6,
-      "category": "越南",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "DAP wants minutes on Najib’s conditional pardon made public - Free Malaysia Today",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORm9oWnFBaFZDbEZJVUFqcEVTa1dDVWF2OTVfMm0tdU9MZlJNWFZnTjZhbnlqVjVMWlJPcHhtN2RMdkFzdUVfbU1hMzFjV2tOV1UwS3RfSTZyUHBTR1pXcXRNRklyRVpWLVMwTXpLYlNTa2EyMGtncjhROWo4ZnFNdkw3QjBmeW5jZmxSdFFzaG9SQmNxdFl4WWx2Q2JNRS1jNUxoUE9oZExGRFU0ZHNFa3cycklwbGZaVGI0eA?oc=5",
-      "published": "Sun, 01 Nov 2026 05:25:00 GMT",
-      "summary": "DAP wants minutes on Najib’s conditional pardon made public&nbsp;&nbsp;Free Malaysia TodayDAP urges government to make Najib’s pardon board minutes public&nbsp;&nbsp;Malay MailLoke: DAP wants Najib's pardon meeting minutes disclosed, but up to AG&nbsp;&nbsp;Malaysiakini",
+      "title": "Show accountability over littoral ship project fiasco, analyst tells Umno - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZVpqNmJ5MG53TjNSTkExeDVKZWgzUGNJUjhSMFpRUzdlUUVMbG5femdkWlZZSldCSWZFN1FyRFZHY0NMbW83Rk5nNHZSMzYtdzhlMFI1X0JyakF4VmFGbUFpbS0xQ0dvWTJ4cHhwLVFRZVpzU0o4b3VhMzU1NEFiYUxfNU5SaDN0MFlncDFwTDJXUDVDR0xWazcybE5qd2dqMmdnTkd5N0dNbVVqZ3FpVXMycTVfdDZma0N1d2k4UWx6d1dCbmpnaVgwVF8xdw?oc=5",
+      "published": "Tue, 03 Nov 2026 00:30:00 GMT",
+      "summary": "Show accountability over littoral ship project fiasco, analyst tells Umno&nbsp;&nbsp;Free Malaysia TodayLCS project 80% complete&nbsp;&nbsp;The Star",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T13:25:00+08:00",
+      "published_beijing": "2026-11-03T08:30:00+08:00",
       "source_detail": {
         "name": "Free Malaysia Today",
         "url": "https://www.freemalaysiatoday.com"
@@ -531,15 +785,49 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Police beef up security in Yangon Region - Global New Light Of Myanmar",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FVjgxZC0yUk1DVlFDRjN0TTQxRm5kU1RXby1mTkY5eU5od1FlWlJxLVlFV2Y2eHo2dzJwMVlhdklTZFJHNk1BMHJSSU45dHh0b2EyNER6NVpKelZoTE9TaC02NHEya1o3MDdvX3lyZlhOeTQ?oc=5",
-      "published": "Sun, 01 Nov 2026 02:58:32 GMT",
-      "summary": "Police beef up security in Yangon Region&nbsp;&nbsp;Global New Light Of Myanmar",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T10:58:32+08:00",
+      "title": "Vietnam Pictorial - Thông tấn xã Việt Nam",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVA0elhxaDBVeHVmWi1GX1NkZFEyLWZKTnhYNFhCNVJzYkUxcUphbml6MEI2OVZqWEVQWGpDR1R2S2ktd3JZb0VoaEVLNG5vQTF4d0htVmF6bGxLQXZiaEM1VXBad3pnSW56UTUxR2RKRGZ5SkJFSzZjVENGMmFUaEdlYi0tRXpPVFAwTFpHdy1SUUxCT0VBaDJNaHlTX2dlVXhkVw?oc=5",
+      "published": "Tue, 03 Nov 2026 00:23:58 GMT",
+      "summary": "Vietnam Pictorial&nbsp;&nbsp;Thông tấn xã Việt Nam",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T08:23:58+08:00",
       "source_detail": {
-        "name": "Global New Light Of Myanmar",
-        "url": "https://www.gnlm.com.mm"
+        "name": "Thông tấn xã Việt Nam",
+        "url": "https://vietnam.vnanet.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "From the $1 trillion milestone - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HbTF2c3ZIRnVzUFBzSVhaemlSQ0RXcjl1bXZ3b1lPOEdvbHNqSW9jeVdZal9wWWlDUEdGb1RvU04xY2M5NXlTaXlXWUw0c2NxeFhoWTFZX1ZBV0xRS0E?oc=5",
+      "published": "Tue, 03 Nov 2026 00:22:44 GMT",
+      "summary": "From the $1 trillion milestone&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-03T08:22:44+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Malaysia to ease work restrictions on expats' spouses, but will it make a difference? - CNA",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQjlaWWRsS2JyODAwS3kwQi1ScEpvdzFIbVFEWmFHMTZSRVl6V3VPcElDQ1VRWFBLVURoMFRTZTFvNkNKU3BZM2dkcUhVcXdWY09jdm95cDhoeTZERGNreEJoTTJ0ZXppY005cm9JVWtNZEFIZmNvenkwdXNPZnZDVkNTWTBIR28?oc=5",
+      "published": "Sun, 01 Nov 2026 22:00:00 GMT",
+      "summary": "Malaysia to ease work restrictions on expats' spouses, but will it make a difference?&nbsp;&nbsp;CNA",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T06:00:00+08:00",
+      "source_detail": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com"
       },
       "priority": 3.6,
       "category": "专题精选",
@@ -548,66 +836,32 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Major Development Projects Advance Across Nay Pyi Taw - Global New Light Of Myanmar",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORVJpZHpqMld0MDdXc3pkNzBSUEJldV9ld0pSVUw2ZkdBaGZZRDZwdl9fZzJ6dk85QWFNUlBHekNJUDZfRS10ZFYtMHNGUUxTWGFuR3hsdVhaQ3oySE9meGRuYTYyd1Z4ODM2d2xvT3JFUTJKVEhiT3NreDc1VzAtUW8xVVQ?oc=5",
-      "published": "Sun, 01 Nov 2026 02:47:53 GMT",
-      "summary": "Major Development Projects Advance Across Nay Pyi Taw&nbsp;&nbsp;Global New Light Of Myanmar",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T10:47:53+08:00",
-      "source_detail": {
-        "name": "Global New Light Of Myanmar",
-        "url": "https://www.gnlm.com.mm"
-      },
-      "priority": 3.6,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Singapore-Mongolia Business Ties: IN Diplomacy Chief Briefed After SBF Forum - INDiplomacy",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHM3OWltSWZnRDNOOUgxV2g5ZFhocjRqSHVLZXFUejduYnVnSWhXNG4wSnlfRmxRTkpLeG01cWtGV3Z3X2prVFpLMlBocEF3aW1wU2hlS2ZIdDlKV20tSXhhdDFlNU1MVjc5TW1GUkhXYVhlQXhhXzhkalVycndoSXByR2JScG5hWTc5aGJzSE1HbEdkNlVtN3FGNWk3cUZiLVhVdjlUMWNrZmJBLXFIZw?oc=5",
-      "published": "Mon, 02 Nov 2026 04:25:12 GMT",
-      "summary": "Singapore-Mongolia Business Ties: IN Diplomacy Chief Briefed After SBF Forum&nbsp;&nbsp;INDiplomacy",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T12:25:12+08:00",
-      "source_detail": {
-        "name": "INDiplomacy",
-        "url": "https://indiplomacy.com"
-      },
-      "priority": 3.6,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Tiger Brokers Singapore Brings Extended-Hours US Options Trading to Singapore Investors - Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSXlER0VmNG9YMURIQXJIMUtNcFZxZTlhcVFuZXU1anBic2pyUzByblBpYnRfTkRfb1hsTUEzVDBuQl9nZUh0LWV5dnNqVzdTUU5maUZoT3BWRHE2N1hnYmgyYmdVR2h2WkxkNWQ4Yy1EZmw4Z29aTGwzdnc0WTExQjUwTUFybHRYU3pnYV96Y1JMdw?oc=5",
-      "published": "Mon, 02 Nov 2026 02:05:00 GMT",
-      "summary": "Tiger Brokers Singapore Brings Extended-Hours US Options Trading to Singapore Investors&nbsp;&nbsp;Yahoo Finance Singapore",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T10:05:00+08:00",
+      "title": "Bahrain Awards Golden Licenses to Four New Projects at Gateway Gulf 2026 Valued at USD 3.89 Billion - Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPckczVHM4LVNSMGNqNkN2dV81ckZnQk1ZbU8wQ0E4UkdqQWc2NENObTU5d3pieGZPVHVzV2ZjZjRGMnhXNnY4YUhmS1pOSnppM2N3WTNMbUQzaXU4Skx0VVFUdWFsMjI0Y2t6M0FsSUZMcnQ1WVlrOG02TEZNZHZUZ0VYOXFzSjltR3FJQQ?oc=5",
+      "published": "Sun, 01 Nov 2026 18:05:00 GMT",
+      "summary": "Bahrain Awards Golden Licenses to Four New Projects at Gateway Gulf 2026 Valued at USD 3.89 Billion&nbsp;&nbsp;Yahoo Finance Singapore",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T02:05:00+08:00",
       "source_detail": {
         "name": "Yahoo Finance Singapore",
         "url": "https://sg.finance.yahoo.com"
       },
       "priority": 3.6,
-      "category": "新加坡",
+      "category": "越南",
       "_incremental": "new",
       "relevance": "medium",
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Vietnam Banks On Europe – OpEd - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ld1MzbHZtUFlIZE9HUHpSNEc0Q1d2cUFEc1dMWWxPbGdKRExTRTAwZlBuVGdNQ1NHQThVMDE2bXVGckdld2ZTMHRRVENVc0VTdGRrdHh5emp4YUp1UjNOQUlMWHNpZkItS19VajRHZ0lJaWk4NzJz?oc=5",
-      "published": "Mon, 02 Nov 2026 00:56:06 GMT",
-      "summary": "Vietnam Banks On Europe – OpEd&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | VN Tariff",
-      "published_beijing": "2026-11-02T08:56:06+08:00",
+      "title": "Tourism real estate is showing signs of recovery. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56VGQwM2QxcGdpc1l3RkdMMGpKcFFEMnR0eDRlUkpVc0E2V3NFUEEwZVVCSWY2VG04ZUhsUXRLWmhtN3hXMHpTSHdqQjRyRng2S0RmMzUzRXUwTjJEU1VaNWM4QmhiaEpyX1E2SzktMlU?oc=5",
+      "published": "Sun, 01 Nov 2026 14:49:41 GMT",
+      "summary": "Tourism real estate is showing signs of recovery.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-01T22:49:41+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       },
       "priority": 3.6,
       "category": "越南",
@@ -616,12 +870,556 @@
       "pw_skipped_early_stop": true
     },
     {
-      "title": "Hong Kong actor Ray Lui travels on private jet with wealthy wife - The Star",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM1ZrQk9SN2huWFBYOVgxdXpzS0lyQlVONThSNlhwQjdJaDhaVXRMR21iM1FhOG1DUUpZWHhsMFFFelhBZEpCVnFRb0kxUFdvZFlCN2E3ZlY5RGRsZ3R5dmdSQVhMbEVkWk1SeGpmTWdWOTVuYnlkY1JTRHA3ckM1X2duQVVGbUxEMTF2MEl1bW9kNTAxSFZPRlJsYlRySjl4YVQ3N1BHejRULTlIc1dQZnZYMlpkTmNWSE9LMk5SUnFfQ1Vy?oc=5",
-      "published": "Thu, 29 Oct 2026 13:01:00 GMT",
-      "summary": "Hong Kong actor Ray Lui travels on private jet with wealthy wife&nbsp;&nbsp;The Star#SHOWBIZ: High-flying couple Ray Lui and wife spark attention on private jet holiday&nbsp;&nbsp;NST OnlineHK Actor Ray Lui, 70, & Wife Show Off Private Jet Getaway; Couple Said To Be Worth S$1.9Bil&nbsp;&nbsp;8days.sg\"Zhan Zhao\" was born in Vietnam, travels by private jet, and possesses immense wealth.&nbsp;&nbsp;Vietnam.vn",
+      "title": "Johor now popular destination for Indonesian tourists, with 1.5 million visits in 2025 - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYXVrS3JSV2FSVmYzVldHaUhaVHVMN0hMeFpsbG1LNUdQOS05SEVXQ2h3ZVdvdnhSRzhZMUhPS2E0Mkw2N2F5dXJYclU0dWFsQVV5aE1odExDYkRwZkVUODd2MHdvWU9wV1p6d29LV1g0Vk9WUzkyMndjMEdGS0xsaVppUzZxeHBfRlpWR1ZGdzhXZXc3S0J6OWp5QWFTYVVDMzhxd1lIaWY1Yk1pYU5LSjhyZTVoMVA3Z3J1M0prYw?oc=5",
+      "published": "Sun, 01 Nov 2026 10:47:00 GMT",
+      "summary": "Johor now popular destination for Indonesian tourists, with 1.5 million visits in 2025&nbsp;&nbsp;The Straits Times",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-29T21:01:00+08:00",
+      "published_beijing": "2026-11-01T18:47:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Loke: DAP wants Najib's pardon meeting minutes disclosed, but up to AG - Malaysiakini",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNUtxeWotaU9nSF9XUURNeDZieG9BSmtySnB4UFJFNl9sZjZGVUhDR2FJQ2xWMUVaTGVxek1oOTZHX2FjSGtraU92QlVPVlp3NHVlT0w3cGVmaHlyZzd0OTk4TUEzLV9OWEljakd2RWE4SkdZYWczTmc5aGxQajh6YjJlVC1HMXZOaWl5Ql8zWDZHRW5pbUFJR3ZmTDVINmhrOE5LLVBKX1BHM09I?oc=5",
+      "published": "Sun, 01 Nov 2026 06:03:00 GMT",
+      "summary": "Loke: DAP wants Najib's pardon meeting minutes disclosed, but up to AG&nbsp;&nbsp;MalaysiakiniDAP wants minutes on Najib’s conditional pardon made public&nbsp;&nbsp;Free Malaysia TodayLoke accused of using Najib pardon issue to woo Chinese voters&nbsp;&nbsp;NewswavDAP urges government to make Najib’s pardon board minutes public&nbsp;&nbsp;Malay MailDAP’s call to declassify Najib’s pardon minutes more on political damage control, less on transparency&nbsp;&nbsp;Focus Malaysia",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-01T14:03:00+08:00",
+      "source_detail": {
+        "name": "Malaysiakini",
+        "url": "https://www.malaysiakini.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Aid available for struggling Malaysian media firms, says minister - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFCMDRCcWFzTFVNWWZOR0VpT3Rydnp1RUdHMzlZVXkxS2QtakR5Q3ZvSkNWVDR0RWhCUFJGb1ZNMjc1ODk0em9KVmRtWE03QVRaVXMyVXNaMHh6OWNGdkMwamJzbVNKRnIwejNlNkNScEp5SWFZcnlFX0tHTDZvLV90Tms1WkVJNGY1NE5wOHlMWTRQdFJxWXltc2xFWVFSZmktdFA1TDJwQQ?oc=5",
+      "published": "Sun, 01 Nov 2026 03:40:00 GMT",
+      "summary": "Aid available for struggling Malaysian media firms, says minister&nbsp;&nbsp;The Straits TimesMedia Innovation Fund 2.0 to boost digital transformation for local media&nbsp;&nbsp;The StarGovt Pursues Google, TikTok Ties To Lift Media Revenue&nbsp;&nbsp;PenangToday#BernamaNews: Fahmi urged media organisations to avoid indiscriminate layoffs&nbsp;&nbsp;NewswavMedia Innovation Fund 2.0 to boost industry competitiveness, protect jobs; applications now open&nbsp;&nbsp;DayakDaily",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-01T11:40:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Thailand remains Southeast Asia's second largest aviation market in October - VnExpress International",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHcwSDB0bnptemt5VDRuWEhyODJvUkFVZEhrbUY1XzZlTWNEUC1iNktodlh2N2RMRzY3T0ItaE9xaG5uc0FacmF1UEFBOEtPQjJyLVVIcVNvU0ZfSEVINllMV1ZFeGgybGdMVWtnaXVnUE5McWNsQ3EtOUYwQzlHSzRoMnpBWVJuU2doU0ZWTmo0MnNIeklPcFdyQ3BwcmhvbTFmankxcklVNHdrUXIwUkc3S0VET0NKOTU0S0RBbzJ4QQ?oc=5",
+      "published": "Mon, 02 Nov 2026 22:52:57 GMT",
+      "summary": "Thailand remains Southeast Asia's second largest aviation market in October&nbsp;&nbsp;VnExpress International",
+      "source": "GNews | SE Asia Tech",
+      "published_beijing": "2026-11-03T06:52:57+08:00",
+      "source_detail": {
+        "name": "VnExpress International",
+        "url": "https://e.vnexpress.net"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Behind the bank profit figures - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvYVBPaWp2SWFBTmFxb1pMSTluVDBra2V5VWtmbGo5VHFQb3d0SExFR3pHSXpNQS1uZkpXZlRhQi1vR3NSczBZQ0ZpZ3VlVkRPQ2ZPbUZTWU1lM3dNc1QxOVJuVURHQ2tsTU9SMG9jYktxcy1vLXc?oc=5",
+      "published": "Mon, 02 Nov 2026 20:37:41 GMT",
+      "summary": "Behind the bank profit figures&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-03T04:37:41+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Police Bust Vietnam-Based Ring in 10 Billion Won Proxy-Purchase Scam - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSk94bEJwZWdnX0dlMUhPQlpZNkFFa2VKd0xXOGkwTno3ZUtsRE5nYVpoLTBqUWYzd1B3Wmx3MnI5UW5mYkRlenMyT1ZlallOTzFDYWdoT0ZCeE4tcVB4S2E2TEczSGNqczdlRzI4dmU1eFF5MUdtcWJNSVk1em9RYVUzRXlSb09RYjlsSXc4UkNybGpseHR5eTlTN3pIX2c?oc=5",
+      "published": "Mon, 02 Nov 2026 20:00:05 GMT",
+      "summary": "Police Bust Vietnam-Based Ring in 10 Billion Won Proxy-Purchase Scam&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-03T04:00:05+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "How much bank capital is flowing into real estate? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOandFSWxCWkhZd19xYWhHV0R3UUxjdUlVZUJYTWpmT1d1ZC1fd1E0c1VDYzJJWkVEclg1bnkySnBuQjlpRHBfeEtZRGxtbXRNNlZmZHF1cmNSMmFLVXZzUFY1eE5sR01rZkU3NUF1UkFfODZzVEdhUkVZV1p2VzNvVTlR?oc=5",
+      "published": "Mon, 02 Nov 2026 16:43:57 GMT",
+      "summary": "How much bank capital is flowing into real estate?&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-03T00:43:57+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Capital.com wins MAS licence for Singapore unit, names ex-IG Asia CEO Tony Lim - Invezz",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTjcyS280ajJfdF9sN2gxS1pFUWp2dDVmMlpWVjlYRkowZXNTV05oWlgzRHRTQmlyTzVyd2V6NE83TzE0dWdtREZBcloyUEVqTUNaU2NTcGIydFRGeGVoWnUxM3ZuTWdNb3Q1QVFPNnRUeFdpSmV3eXhwTHFVVWJqeEFaM242UVlOMmxTOUtDLVNIbGxWb1hMYWI3NEhLMGRCNlR2aEhEZ2syRHAxVFJqaFhSemFWQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 15:57:03 GMT",
+      "summary": "Capital.com wins MAS licence for Singapore unit, names ex-IG Asia CEO Tony Lim&nbsp;&nbsp;Invezz",
+      "source": "GNews | SG MAS/Fintech",
+      "published_beijing": "2026-11-02T23:57:03+08:00",
+      "source_detail": {
+        "name": "Invezz",
+        "url": "https://invezz.com"
+      },
+      "priority": 3.6,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "MIPP says no boycott despite decision to sit out Melaka polls - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX1pMd1QxQ0tPdHBKNXduN2UxWGItNktOU1dZNzJiRmtrMEg0YWJ5OUhGQm14UU5uOGZlTG9EXzN3Q1RqRlBweWNFSWJrNG02N0poRDhGLUZGOHBtcEd0ckhWbTdzMmRGTGpVNGstdFJvQ3U0Qzl5cXpFa1loQ2p1R2F3dnl3T0pjcTRleE91TklCWkhjYU94UmNMYmZGajREYktRWEt3YkloZjEydnhHUTNfdHpyNzNkWk1tZGVLdw?oc=5",
+      "published": "Mon, 02 Nov 2026 15:43:00 GMT",
+      "summary": "MIPP says no boycott despite decision to sit out Melaka polls&nbsp;&nbsp;Free Malaysia TodaySee more headlines and perspectives on Google News",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T23:43:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "DBS Bank’s Han Kwee Juan: From Singapore-Centric to Global Powerhouse - Global Finance Magazine",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1FuZU55Uk5wXzRXY3Y5bVE2Z2NiUjVYUlo3Mkc0VTFPY0pMel9xTlBnLWxEODZVZFdPUXBGV2FIelh1MDJoSlNYX0lfMDBYaEptVW5sS29NblplT0NSeUQ5OVlwM2lrQkhUTjZkSHJpNzRVQXllWmtlT0w3SlZrckROcHZ5QUp2ZEhSYkxBWG1mMG9WRUpObA?oc=5",
+      "published": "Mon, 02 Nov 2026 15:16:13 GMT",
+      "summary": "DBS Bank’s Han Kwee Juan: From Singapore-Centric to Global Powerhouse&nbsp;&nbsp;Global Finance Magazine",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T23:16:13+08:00",
+      "source_detail": {
+        "name": "Global Finance Magazine",
+        "url": "https://gfmag.com"
+      },
+      "priority": 3.6,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "When entertainment companies go public, how does the market value intellectual property assets? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc2Y3RVBlNWNOZUVrcE9md0NJUVZNY29VblNyemhOSlhpSTRfZXNqMEJ1bFlHdXF1Nm1ZcngwUFUyaE1NUHUzblkwMzNRb2piN3VSTUY4eS1LMDVnb2dfRWlsd1o0SG5hbE9uNzBfeERHVDRkaDg4LU4wN0Q2OEVHc3J6YnR1dXdzWjFtdUNvTFNBRGhVdmV4a204MkNLOUE?oc=5",
+      "published": "Mon, 02 Nov 2026 15:04:30 GMT",
+      "summary": "When entertainment companies go public, how does the market value intellectual property assets?&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T23:04:30+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "The bond market is facing pressure from high capital costs and maturing debt. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUmRZc2RKX0VZVzZ2ZjNsNlZvTlFDc1pzSjVUTXJsbWpGdkVEVUQ4Zi1lLS1EUDdCZEkzZW1leVd1aUVpSEQweWlEdkdKTDZhMUUtY0hlT1pqTFJJRzdBTUZTb1ZiS2Z6bmw3Yjd0MmZVWWwwa0dDQU1kQ3BPcGE2TnRMNDlSOUMtV2JhMFlyb0RWN0U?oc=5",
+      "published": "Mon, 02 Nov 2026 14:50:50 GMT",
+      "summary": "The bond market is facing pressure from high capital costs and maturing debt.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T22:50:50+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Vietnam scraps child organ donors proposal after backlash - CNA",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZkNlZ2JLUE93OXc4T1hDRVBHNUthNXBvMjVYZnNqUzZBdk1TdnBIMkw1MlFkOUpQN1dYb1V4b1RScW9XaW5RcG5qb0FrVEVmZ2M3VDFaczBPMlJiRVVBM3Z1TDhrMHctcjBkd0gxb2pDRkJlR2JHODNzeklrOUNtTlpzb3BEclBxYktF?oc=5",
+      "published": "Mon, 02 Nov 2026 13:44:00 GMT",
+      "summary": "Vietnam scraps child organ donors proposal after backlash&nbsp;&nbsp;CNAEnsuring the best interests of children.&nbsp;&nbsp;Vietnam.vnLawmakers discuss amendments to law on human organ and tissue donation, transplantation&nbsp;&nbsp;vietnamnews.vnThe Ministry of Health discusses amendments to regulations on tissue and organ donation for individuals under 18 years of age.&nbsp;&nbsp;Báo Nghệ AnVietnam's Health Ministry explains revised organ donation rules for minors&nbsp;&nbsp;Báo VietNamNet",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T21:44:00+08:00",
+      "source_detail": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Google to share RM651mil PD water project with local community - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVThaUGZQY0ZvcUZGNlBma0NDTUNtS3FOZzdnWEFuUGs2dnoxVjZ1SUV0M3ZTNG9acmd3Uk1fMlloSGJkNDJNMDZMeEpWZ09YQU8wLURyWWh0S0laOFd3cE1xdVBaYjJrV3RVRzdTUHZwTTNMWXRrVWlHcFZHeWRoRXBzaEZsSGt5WWtQZC1EM1FSdDByelpaMWJZN1BnQmUtVm5scVVmWVUzWGNXTDNIUHJnMWc4WHZOUDZXTFFoV1Y?oc=5",
+      "published": "Mon, 02 Nov 2026 13:26:00 GMT",
+      "summary": "Google to share RM651mil PD water project with local community&nbsp;&nbsp;Free Malaysia Today",
+      "source": "GNews | SE Asia Infra",
+      "published_beijing": "2026-11-02T21:26:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Real estate brokerage firms' profits plummet. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa2hRX2JpaWs5dTcyOWJ5Y0tjX1Q1eUdrTnFEaDhNSkdtNUZoTmVLemQzazhHSGtNVHdPWVhOMk9yZmt6VVZZTW9PTFVVVjJNR2diMEZPSVB5XzFtaUFPVENvTFg4eDV4dHFROW1hZFJ2NFpIQnhTTGxNZkZXSi1ld3FYRHg?oc=5",
+      "published": "Mon, 02 Nov 2026 12:14:58 GMT",
+      "summary": "Real estate brokerage firms' profits plummet.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T20:14:58+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Vietnam businesses must meet high standards to access EFTA market under VEFTA - Global Sources",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQjRqTzVLeXpSaUFkMXcxckZ6d1ktQWdVMy1MaUMyLTRzX096YXFmZVZuXzZBS2ZtdHc2U0tjblk1cHFZeGVXZjFQSERXT2J0MzRBUXNidzhPSTBsR0pETzdkSG5GT1hIcEFha0lGa0hDM2VJX1QyOVdZbGVwREtpQWdXMm9OdmxMTHppSG1MNWJ2b2QyNnJvN2xpRnFyQ2x4R0RnRlllVktpd2V5cXZxSE81NUhLOG9aQTBCZ0xhaC1XUQ?oc=5",
+      "published": "Mon, 02 Nov 2026 11:36:55 GMT",
+      "summary": "Vietnam businesses must meet high standards to access EFTA market under VEFTA&nbsp;&nbsp;Global Sources",
+      "source": "GNews | VN Tariff",
+      "published_beijing": "2026-11-02T19:36:55+08:00",
+      "source_detail": {
+        "name": "Global Sources",
+        "url": "https://www.globalsources.com"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Penang cops bust 14 online scam call centres, arrest 141 - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUTJHdWMtVjB3ZEVXcUpVaTY0LS1FckYzMG9rMGpCZVpweWlXcUhtdGlkcklsUFNfeklwRDQ2M3NwRVBYblJIUDFHYWpLSzVIRGF6WmcxVjVWTEdwbl9RRlROcmkzbDFvQ3NhZkRYaEM0eTE0RXIzbHkzZnVlQVI0dGNQUS14SllSRU1ZMUJVX05YQlp1MEJqMXBuWVlmWUNhMW9paFRabzlyV0hVRWpVU1hzNFEyTlE?oc=5",
+      "published": "Mon, 02 Nov 2026 11:28:00 GMT",
+      "summary": "Penang cops bust 14 online scam call centres, arrest 141&nbsp;&nbsp;Free Malaysia TodaySee more headlines and perspectives on Google News",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T19:28:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Việt Nam’s economy posts strong results in 10 months - vietnamnews.vn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQalVIRlhhUHN0OXVPS2J6TWZ2cmhKTmdHSmo0WGJ5SkhPbWtvVGxOcmVhYnFtNTd1Sy1RWmJmaHRRTDFCRUtKVUtzS1JDcFVTaklOUFJhaE52MEVmVTE0Q29qUXlxUTktUVNfWUJPdDhLTXJlRmxROVkzbUpEYmhxaWpfWEpzbFI3aE5ENHFRVGFlYkZWckpudVBWc2c?oc=5",
+      "published": "Mon, 02 Nov 2026 11:23:00 GMT",
+      "summary": "Việt Nam’s economy posts strong results in 10 months&nbsp;&nbsp;vietnamnews.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T19:23:00+08:00",
+      "source_detail": {
+        "name": "vietnamnews.vn",
+        "url": "https://vietnamnews.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Newborn among 15 killed as Myanmar military strikes maternity clinic and school, sources say - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaTV2d3MtdWV2Ry02WHFlNVB5R1dKVlVQV05YbjN0RnQ2MU9RWkVCdTBWWkNGNTBqZ1I1cUE1aXB6bTU2VUt1b3luTzNOVHI0NExfOXhRY1FpWVVvWDhBQzlMYjhRR0ZzMEFUQ3VDMm5YQmN5NnJLV0pvM1pJdWtnQmJXZFgtcVJBbVBzd1laa1lBZzM3dnJ4MGZZdnBQQUFHM1RyYkFUc1BaYmN0M1VjZWR3M1dTY1dQYkJsQWxfdFlGekxfd0NkVDMzWUFHSmZmTVpmbmhWNmpRaDVwbHMwSlpoWGVUS3RwOHc?oc=5",
+      "published": "Mon, 02 Nov 2026 11:10:00 GMT",
+      "summary": "Newborn among 15 killed as Myanmar military strikes maternity clinic and school, sources say&nbsp;&nbsp;The Star",
+      "source": "GNews | Myanmar Crisis",
+      "published_beijing": "2026-11-02T19:10:00+08:00",
+      "source_detail": {
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
+      },
+      "priority": 3.6,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Technology Led October Declines; REITs More Defensive - Singapore Exchange (SGX)",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlVqNkNIVVZPUW5GcjhEanNvNUZXSzFlUkRtc2MyY1BFbTk1aVZPa0lCeU1yZUlLSnRSZ1NzU1hNVTN6VXk4WnFfTWJnUEFzNE5IVWdqOUUzWEY2NjBWdUQ5SzRzWEh2U2VsdVRpN0FRY3k1M1ZrNEE0MGc2Q1o5ZTE0M3FPRmsxUmNBTTVaT3dlT1FzVmd5MFcwaGJFS0Z5QThMRFlpWHd4bFZtaHVHc2dwdml2Zw?oc=5",
+      "published": "Mon, 02 Nov 2026 07:48:03 GMT",
+      "summary": "Technology Led October Declines; REITs More Defensive&nbsp;&nbsp;Singapore Exchange (SGX)",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T15:48:03+08:00",
+      "source_detail": {
+        "name": "Singapore Exchange (SGX)",
+        "url": "https://www.sgx.com"
+      },
+      "priority": 3.6,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Proposed higher tax on unused land expected to curb speculation, promote efficient land use - LuatVietnam",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONFNYWnMtdWlOYjlRbWdSdmFVSGNkcExtYW5WVGpYc0J2Qm1xYmJtcDh4X0RUWjF1cFliQml1ZWh6Wk5aS0hNQUpzc21rSUJtQUJpa3RtSG14ZmxMSlcxRVdVYkwyekNTMmx6eUJxak5aLThXWmFLRHVnZDhGMGZkeGJsSXdZSFFESmJsRVZLUS1IbW9SZklsZy13LUo1dHBQbGtkRjlQS19SU1FGSjVSaTVRZUpGWUtBbDFwVVppZEp4ejdRYjJ1bkxoeUNQMFdjMEs4V1VGMlp3TjJBdk1fZjlHWFZmV1Q1aTU4M2ZGVnU?oc=5",
+      "published": "Mon, 02 Nov 2026 07:30:00 GMT",
+      "summary": "Proposed higher tax on unused land expected to curb speculation, promote efficient land use&nbsp;&nbsp;LuatVietnam",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T15:30:00+08:00",
+      "source_detail": {
+        "name": "LuatVietnam",
+        "url": "https://english.luatvietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Why Did India Lose Its Top Spot In The Emerging Markets Tracker To Vietnam? - ABP Live English",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXNvRVhHZ3RSem52OF9NTk1WcUNLcFRKRGh4akxyMVJaczZLZ3hnT2J4dFNMRXlDZG1kTnJmb0pWTzZNVy1ZSDdmRjFLNXY4cEFpOUtxZVIyYXZOU0ZwdXhLYzdNaFo0VFNSS0ZUWXl6RFgxMmZ6Q1V1RnJ3OWlMU0Rqd1d4N05Gai1BcU01X0lGQ04zRkhYZnZ5Mm1RTFhnZDROcFRJVGpfTUN5OXRsdzJvSmh5bzVXSmQ4?oc=5",
+      "published": "Mon, 02 Nov 2026 06:30:18 GMT",
+      "summary": "Why Did India Lose Its Top Spot In The Emerging Markets Tracker To Vietnam?&nbsp;&nbsp;ABP Live English",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-02T14:30:18+08:00",
+      "source_detail": {
+        "name": "ABP Live English",
+        "url": "https://news.abplive.com"
+      },
+      "priority": 3.6,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Melaka economy grows, manufacturing remains key contributor - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdGIwMHdPVkRrSlFrSjRjbnNzdlhPVWduY3FqbjVVNkxMdkxtckNfcDF5QkIwTGZFUXJEUDNCbmt5cVpDeHpLYmdDTWl4NXFaNl9vQ3RzOGl5eDFsS0k4VUp0QXV4VU5BWnZzYTkzbFVqTExhakZjZEZkOEJVWXRIZHgwbDdWWGpwdm9xOFlLMk1BcTlLVkV0b3RnNWcxamZDT1loV2w0VTZBZWVnVmVaZGVvMVJCd9IBtgFBVV95cUxOdGIwMHdPVkRrSlFrSjRjbnNzdlhPVWduY3FqbjVVNkxMdkxtckNfcDF5QkIwTGZFUXJEUDNCbmt5cVpDeHpLYmdDTWl4NXFaNl9vQ3RzOGl5eDFsS0k4VUp0QXV4VU5BWnZzYTkzbFVqTExhakZjZEZkOEJVWXRIZHgwbDdWWGpwdm9xOFlLMk1BcTlLVkV0b3RnNWcxamZDT1loV2w0VTZBZWVnVmVaZGVvMVJCdw?oc=5",
+      "published": "Mon, 02 Nov 2026 06:22:42 GMT",
+      "summary": "Melaka economy grows, manufacturing remains key contributor&nbsp;&nbsp;NST Online",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-02T14:22:42+08:00",
+      "source_detail": {
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
+      },
+      "priority": 3.6,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Indonesia urges young people to help steer AI's future - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQnJhQV8xMHNvTUJZdU9OVTFvN01DYlFtYS1WUjAxLVpjS3c3cmRVTS1PYnNRNWdDQ2RUaXVnSXFsNjVOb19WOGJ5Vm9pTGNCakd3MHBVYlBkOUFuWVJKc01QWHhGUFQwcURSeThhVURUbW5lSGtpWGFkcHpIRmRMcnZZcnBzM2NkOXQ3c1MtM2dPS01sX0h6dEd1YjVlMXBZWTQ5amUxa1FFR0Z1S3R4XzJELVBMNk9NRENTQUJCQmlmQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 06:18:54 GMT",
+      "summary": "Indonesia urges young people to help steer AI's future&nbsp;&nbsp;ET CIO SEA",
+      "source": "GNews | SE Asia Tech",
+      "published_beijing": "2026-11-02T14:18:54+08:00",
+      "source_detail": {
+        "name": "ET CIO SEA",
+        "url": "https://ciosea.economictimes.indiatimes.com"
+      },
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "StarDream Cruises Wins Industry Award For Regional Cruise Experience - BusinessToday Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT1I3aE4wdEJubWk1RkNQQzZHM1dCWFNrUFJKTXM2VDBmWE41NmhzcUd4U09GdHZoTkFZbjdYdFdCOS1ueWJOZXNoSWxIQlZ3WVRtYzgwMHhpWXc4VnA2WWJLMlh4TVBxRGZydFptRFU1cUlYWUZ4ay1IZlBsTDk5LXk1dFhoNkRHeXd0WDNLSmF4dmFmQWR0ZlNDeEIwUVJwU05GYWU0V1B0NlhrMzE5dnRVdw?oc=5",
+      "published": "Mon, 02 Nov 2026 05:37:53 GMT",
+      "summary": "StarDream Cruises Wins Industry Award For Regional Cruise Experience&nbsp;&nbsp;BusinessToday Malaysia",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T13:37:53+08:00",
+      "source_detail": {
+        "name": "BusinessToday Malaysia",
+        "url": "https://www.businesstoday.com.my"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "PH to review abandoned Melaka projects, monorail if it wins polls - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQTFXWS1ocjhVTmhQRFNqNk90V1MwVW15NXVTOHJCVzdfS3hxR1pBR2tWeEcwRFNsd25QVGRrY21BbDB1bExLb0Z5c2NuclRzbktiVVV4M29iMHZVeHd6WGM2eVR6MV8tNFNIcmpxLV83NnZOeDZ2VlFoR09TUVUycjJOZ01Md2p5YldaMkNSUGVQN0xibzBNbTNHd0VEYW4tQjhrN3RydnZGcU1pa0N3VnFKUmRpSVRfLUNWZXNqTXZiSW8?oc=5",
+      "published": "Mon, 02 Nov 2026 05:03:00 GMT",
+      "summary": "PH to review abandoned Melaka projects, monorail if it wins polls&nbsp;&nbsp;Free Malaysia TodayRevive it or scrap it: Pakatan weighs future of Melaka’s RM16.5mil monorail&nbsp;&nbsp;The StarAdly takes nothing for granted in four-cornered Bukit Katil contest&nbsp;&nbsp;The VibesAdly Zahari: PH to review Melaka's abandoned projects, including monorail, if it wins state polls&nbsp;&nbsp;The Edge MalaysiaMelaka polls: Adly vows to complete two unfinished Bukit Katil projects if re-elected&nbsp;&nbs...",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T13:03:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Dad of 5 jailed 6 months for stealing RM394 worth of groceries - Free Malaysia Today",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdm9fbW1JSTdkR1BpajA2RDhWbUkwR1RLekhBYldWSGFwSUZjZ3huVWNyRnRkVUs4Z0FWLTFFOWlBeHZWR2ttZUkxNnNSY29qcldLLXl6YmQ4YWExWTdFQ1QycUZfb0JJeEpsV3RUTXI2V2IyTENSNzdzM25KVXQtVlAyczlJZEFVS1RiVWJTTkpIMFBHNWNFZEl4azcwUFNEcXVOeEprSkJ0WGJPTzN5OU1xZGd3S1F6TnVKYVpNb2w?oc=5",
+      "published": "Mon, 02 Nov 2026 04:49:00 GMT",
+      "summary": "Dad of 5 jailed 6 months for stealing RM394 worth of groceries&nbsp;&nbsp;Free Malaysia Today",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T12:49:00+08:00",
+      "source_detail": {
+        "name": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com"
+      },
+      "priority": 3.6,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "A review of economic news for the week of October 26-30. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DVHNlb1RocWczY3VsbmRMaWx6Tlh6WXZGbmZKckJWY3MwUlZ4T2cweDZpZDcyUUlaLVRLU1VrR1ZwTFhjM216Y2lCdlFjSEpuQXVFNUt5SDEtZ2dSb19xSlVDaV8yUnIzb0E3RkZNcXZYeS1UWHhBOA?oc=5",
+      "published": "Mon, 02 Nov 2026 03:53:16 GMT",
+      "summary": "A review of economic news for the week of October 26-30.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T11:53:16+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Optical module capacity moves south to Thailand: Chinese vendors invest over 7 billion yuan as AI compute supply chain reshapes - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WMklLREtzUFF4VlYtb09kU05jMkxMaTRvWjJSWkxzNklmNkZFUTZFdC1kV2M4dERWMmNpN2tBR2lsUWpsNnZIVXNROFlXMWJ1STJCaVFWUTQ4Q2d0VWhqNDJWOFJOdjFMYjNWY3hlaGdxNGgyekE?oc=5",
+      "published": "Mon, 02 Nov 2026 02:36:00 GMT",
+      "summary": "Optical module capacity moves south to Thailand: Chinese vendors invest over 7 billion yuan as AI compute supply chain reshapes&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | VN Factory Shift",
+      "published_beijing": "2026-11-02T10:36:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Hà Nội approves $3.8 billion Bắc Thăng Long urban project - vietnamnews.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdlJRT2Z0TWY2MUszMEYyTUNfSGxYNVJRVWlXc0xkbm5oeDFjZUoyanZNaFlrYUt0cG1ITDg5Y3lTZ2hGM3FORDhWQ2xLMU5GWmVUdWJPOHBkM2VBQ3hOUFd5T2JTVDRIZldOZEhYbWlSeTdNdV9KSzg4NDdabHJqZVl1eUI3c1R0REpseDZ2MXZvbGVfQTVLOENZWkhlS1ZjTnc?oc=5",
+      "published": "Mon, 02 Nov 2026 02:00:00 GMT",
+      "summary": "Hà Nội approves $3.8 billion Bắc Thăng Long urban project&nbsp;&nbsp;vietnamnews.vn",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T10:00:00+08:00",
+      "source_detail": {
+        "name": "vietnamnews.vn",
+        "url": "https://vietnamnews.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Taiwan's Lite-On to inject $320 mln into two Vietnam subsidiaries to expand capacity - Theinvestor",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONTAwV3BZdDJ4cS05bFpEaDRMZmtfM0x3VWdjRG9DbjFkRWVoZGhFc05ubUh5V1pReEc1UFMycTlZOVFGVDNtcWtyWV90dEhuYTVfdUtUREg0N2ZRSmdhU013a1BGODdCMHlxRGtjckI0eE50U09yMWRKZS1oejc4dGd3UVZBSzUySThDclFWZUJSdGJ5OTFpcS1xT1FRQlVIdjVvS0NnUXowUXZjTUt0RTBxZ0tQMkFX?oc=5",
+      "published": "Mon, 02 Nov 2026 01:46:00 GMT",
+      "summary": "Taiwan's Lite-On to inject $320 mln into two Vietnam subsidiaries to expand capacity&nbsp;&nbsp;Theinvestor",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T09:46:00+08:00",
+      "source_detail": {
+        "name": "Theinvestor",
+        "url": "https://theinvestor.vn"
+      },
+      "priority": 3.6,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Boat Noodle, BananaBro founder Tony Lim passes away - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOXJqSlBScXdkN3pqUGtvTnA4dGxNcFYxYTBEMld2YmFXdUFyWFJjYlJaZW4zcVJSYURhaFdaSFRheXdWV1M3aF9SazdobmNXMEVCZXB6VnlMSkZoVnFLUlhSWTY2MnY4bGxmYUN2UzE2d2ZWUS1UdC1VV1NhOU16d2c1UFF4SXhKUUNTMHBhUV9HdmNVMlBhQzFPaXd4b0E2VkE?oc=5",
+      "published": "Mon, 02 Nov 2026 06:29:00 GMT",
+      "summary": "Boat Noodle, BananaBro founder Tony Lim passes away&nbsp;&nbsp;The StarBananaBro and Boat Noodle founder Tony Lim dies at 47, Lifestyle News&nbsp;&nbsp;AsiaOne.comSocial media users pay tribute to Boat Noodle, BananaBro founder&nbsp;&nbsp;NST OnlineLogistics Chaser To Cash King: How Late BananaBro Founder Cracked Malaysia’s Cross-Cultural Food Code&nbsp;&nbsp;TRP | The Rakyat PostBananaBro, Boat Noodle founder Tony Lim dies&nbsp;&nbsp;Free Malaysia Today",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T14:29:00+08:00",
+      "source_detail": {
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
+      },
+      "priority": 3.2,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "medium",
+      "pw_skipped_early_stop": true
+    },
+    {
+      "title": "Prosecution closes case in Lim Guan Eng's corruption trial - The Star",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUJwQzZjM1BMRl9wOWxxS2U1M2pPbVRickJmT1A2WGFjSFU4N0lEVkExR0V4WUhZUFptd3RjNS1YTG1QRXhKQ3BhYXpaUl95ZzlFSzN4VzVJbDZ5b2l6bldfRUU0cm95NGJQbERZbnc1WFFQMGtkQkM3ZzYzbXJTUGJTUzFfNkZhTXpRR1U3TUl1cy00QkxMbG5IWHVtNDZLZ2dyZW55eFIxVkpULTFZ?oc=5",
+      "published": "Tue, 27 Oct 2026 10:29:00 GMT",
+      "summary": "Prosecution closes case in Lim Guan Eng's corruption trial&nbsp;&nbsp;The StarProsecution closes case in Guan Eng’s undersea tunnel graft trial&nbsp;&nbsp;Free Malaysia TodayLim Guan Eng trial: Prosecution closes case on four charges after 38 witnesses&nbsp;&nbsp;The VibesProsecution closes case in Guan Eng’s graft trial&nbsp;&nbsp;The StarProsecution phase of Guan Eng’s Penang undersea tunnel graft trial ends&nbsp;&nbsp;KLSE Screener",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-10-27T18:29:00+08:00",
       "source_detail": {
         "name": "The Star",
         "url": "https://www.thestar.com.my"
@@ -632,412 +1430,316 @@
       "relevance": "low"
     },
     {
-      "title": "Piling Machines Market To 2035: Deep Foundation Demand Supports Forward Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTkJtMFBQWDkxWmRaUkhweTE1eHN5a3ZhektOTlJBeHBLOF92SEZhLVpkaGJDZmR2eFdFdmVzb3RmV0RtOEltYnNRR0NfdWxjWENNSUFnV2lacFBTcUVkUDJLSG9FMlJzVkE2b2lNc2poZEFFX2VCOEZvS0ZFdDl0SThNQTZVYzVwS0J1cWhLLUpKU2FGMVYzZmljZFpDOUx2SE5mQnJXTzVOQWJoUmhJeGZTMnN4cEFCUXJyQWZHV19UWWljQW9OZW1MUE1Cdw?oc=5",
-      "published": "Sun, 01 Nov 2026 16:01:04 GMT",
-      "summary": "Piling Machines Market To 2035: Deep Foundation Demand Supports Forward Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | SE Asia Infra",
-      "published_beijing": "2026-11-02T00:01:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 2.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Nigeria’s FX Stability, Reserve Growth Unlock Africa–Asia Trade-Agboola - The Guardian Nigeria News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMGFSaFVtaEhZTFltS2o3UXF4eXNmSHdSejkyLUhrUFNPcjlIV0JYTHFkV05RR3BzYVhBekU5Qm95S0t4aFVpa25nTmJ4VlZ4R3ZiTTBETGx6LU1CeUZRcVNrblZDc3Y2b1owOXl2M0puZVlWUHZaRko2Wmw0ZU9BM2VzOEtfcTdSdWlKd3NKYXZBTDFyZ09UQURSbw?oc=5",
-      "published": "Sun, 01 Nov 2026 11:50:46 GMT",
-      "summary": "Nigeria’s FX Stability, Reserve Growth Unlock Africa–Asia Trade-Agboola&nbsp;&nbsp;The Guardian Nigeria News",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-01T19:50:46+08:00",
-      "source_detail": {
-        "name": "The Guardian Nigeria News",
-        "url": "https://guardian.ng"
-      },
-      "priority": 2.4,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Overhead Catenary Wires Market To 2035: Electrification of Rail and Transit Networks Supports Growth - News and Statistics - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZ1ZkRE0xU3BXOW54T3JrN3ljYkQyU2ZxUzcybGowSEh4YWpmOG1xTmp0TUFVRERWOFZqdE5XUExRSmd6cEdTbUFBd3ZIMDdic1IwMjB4U3JPSmE1Vm44MVR2dzNBUDdicHFIbk9lTzNXRjlFOHV0cVEzMXJTX05ES3JITXFJLTZxRmhLSHlWMmVfUkxMekJvQlZPam5PX05iRU1oMHpmZ2VLT25mYUNQaVpPczAwcnpXMlVXNnAzcnVrNnhMNDVlR1YxRDI5c1kyamtUZ2VkSTJ0UFFKLXV3?oc=5",
-      "published": "Sun, 01 Nov 2026 11:06:04 GMT",
-      "summary": "Overhead Catenary Wires Market To 2035: Electrification of Rail and Transit Networks Supports Growth - News and Statistics&nbsp;&nbsp;IndexBox",
-      "source": "GNews | SE Asia Infra",
-      "published_beijing": "2026-11-01T19:06:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 2.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Poland suspends top judges as battle over rule of law escalates - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVW9JYV8wTWZHWUxzaWQ1c202S2MyRWZwTkFHMW1zR1laOWdoV29HdWtIV0lhNWgxNUVCWXZlMzBfcDJfOGY2QmxrNDlmbGtyV3IzNlkzMVc4VXdvZWRsRm1zeVFHYzVuYXNtT3hDRXR2c3B2SVYtQzNtQnR2UUdFYThvdzg?oc=5",
-      "published": "Fri, 30 Oct 2026 23:32:09 GMT",
-      "summary": "Poland suspends top judges as battle over rule of law escalates&nbsp;&nbsp;Financial TimesBitter spat between Poland’s pro-Europe PM and pro-Trump president erupts&nbsp;&nbsp;CNNFive things to know about Poland's constitutional crisis&nbsp;&nbsp;Yahoo News SingaporeDonald Tusk vows to press on with overhaul of Poland’s judiciary&nbsp;&nbsp;Financial TimesProtests erupt outside Poland's Constitutional Tribunal amid leadership dispute&nbsp;&nbsp;China Daily Global Edition",
+      "title": "No new extradition request received for Zakir Naik, Home Ministry confirms - Malay Mail",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVlJyRU1BSU5qMjJ3cjRvZzlNN1V5bG5fbkh1dTA3TjVuMGROcV93S0tfTkdKSVlmblcydjA0YVFEX0w3d09oX1JMU1hmYnNWbG50elFrNHZUblhDc3RudEVWWXYzSEpOdWNwbEFIUEdLaHhibW4xSmtXUjY1VUtmd0hQQWRndjMtZW0yelhtN0lwYmRzLTNtNkwxRzlQSWE3TUZSOW9WdWs4Vm1rbkNCSUNwU1pHMVZpblJHV0oxT1FuSG5QaXpBdF93ONIB0AFBVV95cUxPV21oSURHSmowQ2NKVldabUgwa3BJS0drVG5MbmQ0Wmd1MGt2aWthdmsyNkdIUUxZOW5HVXdTNEtTa2p4UXFjX3hscWpER2FjRzhmc2ZLSURrWlZMOVZKUmZmMXZHOW9Ed0UxUmdmekVzWTZvejkzeTlVc1I3a0gwUDFCcEhNbXZrdFk0TDJIMC1qZ1QxWUtmX253dUxua0xxd2JvVzhCbm0taklmcmtObTR5YlJXOG9HZ0FRSExuMU42MW5HMWxzcThkc01iaExj?oc=5",
+      "published": "Tue, 03 Nov 2026 02:08:23 GMT",
+      "summary": "No new extradition request received for Zakir Naik, Home Ministry confirms&nbsp;&nbsp;Malay MailM'sia has decided not to extradite Zakir Naik, Dewan Rakyat told&nbsp;&nbsp;The StarNo new extradition request for Zakir Naik, says Saifuddin&nbsp;&nbsp;Free Malaysia TodayNo new extradition request from India for Zakir, says Saifuddin&nbsp;&nbsp;MalaysiakiniGovt maintains decision not to extradite Zakir Naik to India&nbsp;&nbsp;NST Online",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-31T07:32:09+08:00",
-      "source_detail": {
-        "name": "Financial Times",
-        "url": "https://www.ft.com"
-      },
-      "priority": 2.4,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "U.S.-China supply chain rivalry deepens despite extended trade truce - Traders Union",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNazFaX1h6OTBFRlZWTWtMUHUyZU9SRWFPZnZJdnYtR1VrVXRNNjhuNnhpdDVvRXA5MFJLVFNCazVTZklvU1J5UDlUV21tMlN1QTFHZUlsLVV3S3dLX0k1d3pGY1F4N044WF9fZTBLajRMcUJSM0ZfZWpHS2Q2VTZQcEV2ck5zdjJjUEZ4ZTNOYkgtZlRtZEE?oc=5",
-      "published": "Sun, 01 Nov 2026 22:55:21 GMT",
-      "summary": "U.S.-China supply chain rivalry deepens despite extended trade truce&nbsp;&nbsp;Traders Union",
-      "source": "GNews | ID Trade/Tariff",
-      "published_beijing": "2026-11-02T06:55:21+08:00",
-      "source_detail": {
-        "name": "Traders Union",
-        "url": "https://tradersunion.com"
-      },
-      "priority": 1.2,
-      "category": "印尼",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "From paper bills of lading to digital trade: What New Zealand’s proposed reforms mean for businesses - MinterEllisonRuddWatts",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMHUwNDg2aFB4cmJLY0wzLXJBcXRfTWVZYTRjcFYtQmZicndEY3pqUW9ESnRicnBGSUpaOFZzb1g3eGZZY2FnNFE5cVlscW5UejFhUDBNcmo5c1d5dTMzWTdIVGlYLVRFaDNMTWRVRUFqc3VzSUc5bGVOX2ZHV0FYdm1lMGVjRlpKNUlRQlRrQXFLMzJpSmdfRTl0ZHlWUFRyTDBWeEhrd0FVU2NOcEFXbTNNeTJCZy1uanF0b2ZLeE9KT2p0cW5SNXBiWEtZR1lxeDRqZkdCNA?oc=5",
-      "published": "Sun, 01 Nov 2026 21:09:26 GMT",
-      "summary": "From paper bills of lading to digital trade: What New Zealand’s proposed reforms mean for businesses&nbsp;&nbsp;MinterEllisonRuddWatts",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T05:09:26+08:00",
-      "source_detail": {
-        "name": "MinterEllisonRuddWatts",
-        "url": "https://www.minterellison.co.nz"
-      },
-      "priority": 1.2,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The US–Iran Conflict: Is the Real Battle Over Global Energy Power? - مركز الروابط للدراسات الاستراتيجية والسياسية",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Dd042RFJGeW12cHY2WkFCa3ItdHJzT3FENkpZWlpCaGl4eUFnSHNRUjY4WXpJaE1pWmI0WVl0eEx1UXdBY3d6eFV2dlJvQQ?oc=5",
-      "published": "Sun, 01 Nov 2026 17:50:22 GMT",
-      "summary": "The US–Iran Conflict: Is the Real Battle Over Global Energy Power?&nbsp;&nbsp;مركز الروابط للدراسات الاستراتيجية والسياسية",
-      "source": "GNews | MM Trade/Sanction",
-      "published_beijing": "2026-11-02T01:50:22+08:00",
-      "source_detail": {
-        "name": "مركز الروابط للدراسات الاستراتيجية والسياسية",
-        "url": "https://rawabetcenter.com"
-      },
-      "priority": 1.2,
-      "category": "柬埔寨+缅甸+老挝",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Yunnan orphan’s wedding invitation to strangers draws thousands in heartwarming show of support (VIDEO) - Malay Mail",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZV9mQlg4ZXNBQWJCWEN0REpSV1o4MWVENng2eFJoTFJKbWg3cVg4Y3l4Ym8wblVIZ3FHanVyRExmc2NmWVhONEQteGtaNWJiWm1zakk3TUNaMEZUWGxxNklBVmg2cUZKSFpYNDNtLXdLX0hGQ2I3eTZxcFI5dWtYNG1yYVBiLTdmQ01NSXhrVVdoVjhNdVRYalZ2SC1fS0NCLUtITGlFU2ZPRFdURzZaVWstR2J0dmdhWmlfZzZxMWUxM2NxNFo3THczSllKNWtjS3I0dHJvNEVuQUEtOXZrMlAtVmdnZkFacWfSAe8BQVVfeXFMUHYzV2drdGhGNjl6SHN5NlhBVExGZFNscXBRUVJKOXl3OFlucUVUcGxrdlFDdnBqS1RHZFNUa0d6ZnVUNEZySUJQSDhhRm9oSExtRkdFbGhFb24zRFZ1OTEtSnpaZ1RxOHRVRnBhazhhbG81bF9IVklLYXFsZHVqbG54cjU3Q3JVaDVRUUxBaHlBRDBtWGlfT3dZMjczNFlCalRzVG8xN0tDRGVxVjR2bHN2UzBTUEVtQVQtMnkzMzZ4SHctbjR3aU9KQmpHWER1SHliVUNTd29FcktXT1dRMnNlQ29qN2dvUnlMdmczSFU?oc=5",
-      "published": "Sun, 01 Nov 2026 02:08:47 GMT",
-      "summary": "Yunnan orphan’s wedding invitation to strangers draws thousands in heartwarming show of support (VIDEO)&nbsp;&nbsp;Malay MailChinese man with 'few relatives' invites strangers to his wedding - thousands showed up, some bearing lavish gifts&nbsp;&nbsp;AsiaOne.comGroom with no relatives invites internet, strangers show up big | Tap to know more | Inshorts&nbsp;&nbsp;InshortsA Wedding Invitation to Strangers Brings China to a Mountain Village&nbsp;&nbsp;www.citynewsservice.cnOnline invitation from ...",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T10:08:47+08:00",
+      "published_beijing": "2026-11-03T10:08:23+08:00",
       "source_detail": {
         "name": "Malay Mail",
         "url": "https://www.malaymail.com"
       },
-      "priority": 1.2,
+      "priority": 2.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Dubai’s Economy Reaches AED 473 Billion: Which Sectors Are Driving Business Growth - Business News This Week",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbXRFcTAwSGlFenM5UEFzWFZUREpHN3hBUDRRU2VpcVlBRW15c29DQ2FDSDZiWDBKUGxUbU5XOGY2NHFGalZHRHlGSGctSGJCZXBzUGpuWUZERlFCVzY0X1JmWkd1WHV2V3RTMEREUy1iQjZZMmhhUmZBZDZkRkpLZHFhbFFNemlCMFhmaWVLT0pfaTRmU3BFeksyZzcySURJb0VEVHF5NTM4SXlwOGtLYzRzaFduU0lnVVhtbXY1MVU?oc=5",
-      "published": "Sat, 31 Oct 2026 05:16:13 GMT",
-      "summary": "Dubai’s Economy Reaches AED 473 Billion: Which Sectors Are Driving Business Growth&nbsp;&nbsp;Business News This Week",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-10-31T13:16:13+08:00",
-      "source_detail": {
-        "name": "Business News This Week",
-        "url": "https://businessnewsthisweek.com"
-      },
-      "priority": 1.2,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Drivers and Extractors (Pile, Post, Sheeting) Market Forecast to 2035, Driven by Accelerating Infrastructure Investment - IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRzNQME85alpYSHdVZDFnOFdjRW5NcTVzQ1hvWWY4T3RnNHBnNUF5S1daWmZpazVVZ1c3ZC1GVnk2YTZseFgyQXFvR0VJS3lGM19RZENQc05ZYzV0YW9oWWI0RHhyckhZbFJpWDNXQW9jMENFM3lvUnV3QTNBd3FJM0w4d1E0V3k3cUhzQ29uc0x6OUZkQ3ZMbXRqaVR6a0laa2h1RVlIenY2ZHpXWldqcUp3X0p3M0FaY2hOd2FIOWpWazF3SHZ4UGU0Ty1WYjA4NzFPa2tMSGYzek9X?oc=5",
-      "published": "Mon, 02 Nov 2026 00:11:04 GMT",
-      "summary": "Drivers and Extractors (Pile, Post, Sheeting) Market Forecast to 2035, Driven by Accelerating Infrastructure Investment&nbsp;&nbsp;IndexBox",
-      "source": "GNews | SE Asia Infra",
-      "published_beijing": "2026-11-02T08:11:04+08:00",
-      "source_detail": {
-        "name": "IndexBox",
-        "url": "https://www.indexbox.io"
-      },
-      "priority": 1.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trump heads to Iowa, Kansas with Senate control in balance - CNA",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbThyVTZuaDh6VlRaQUxqZjZJdFd0UVoxZXFKT051VEpna1BEN01wdjBYQ21tYnVYQWszR0hpV20wNlNRb2RBZXRWRXJmLTNURmdDd0FRa1hzOW54MUV4X2RlTllBUS1zbkhRMEpVTThieWJfOHFyM1lXOXBEVzNWVG9JSFQwT3ZKTkNpRW45TDNXT0MzNzhIT0lmbw?oc=5",
-      "published": "Sun, 01 Nov 2026 19:15:00 GMT",
-      "summary": "Trump heads to Iowa, Kansas with Senate control in balance&nbsp;&nbsp;CNATrump backtracks on rallies in turbulent end to midterms campaign&nbsp;&nbsp;The Straits TimesTrump insists Republicans ‘have a shot’ in US midterms as rallies resume&nbsp;&nbsp;South China Morning Post2 days until midterms, Trump campaigns in Iowa and Kansas as both parties make final push&nbsp;&nbsp;Fox NewsTrump cancels final two rallies and rages at ‘disgusting’ reporter: Live updates&nbsp;&nbsp;The Independent",
+      "title": "Magnitude 6.1 earthquake strikes off Japan's Mie Prefecture - The Star",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWUZQN2dpWWl4elFUZTNXVldMRFJONmNTSXRIdURoRThQeE9CaGIzbmxyeE5lbFp1cEg4NmV4dDJrMWhFbVB5NVltd2xuYXFLWjFFVnFfamJYWGJYcWdDelA5V2VSbHVwZ3pxRjJHYTJLOTdVQXRwS1dycThGSlBiQmFiekd4MDdLMXUtODNDRm04RjlnM3hIVlBUOFRTRmRrOWZManpiajFBT25RM2EyVU5PLXNxaFFIcUVULS1SUFo?oc=5",
+      "published": "Sun, 01 Nov 2026 03:52:00 GMT",
+      "summary": "Magnitude 6.1 earthquake strikes off Japan's Mie Prefecture&nbsp;&nbsp;The Star6-magnitude quake strikes near Japan's Honshu&nbsp;&nbsp;Breakingthenews.netJapan Records Magnitude 6.1 Tremor Near Mie Prefecture, No Tsunami Warning Issued&nbsp;&nbsp;BusinessToday MalaysiaJapan earthquake: 6.0 magnitude tremors strikes Shima region&nbsp;&nbsp;The Economic Times6.0-Magnitude Earthquake Strikes Off Southern Coast of Japan’s Honshu Island&nbsp;&nbsp;Fana News -",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T03:15:00+08:00",
+      "published_beijing": "2026-11-01T11:52:00+08:00",
       "source_detail": {
-        "name": "CNA",
-        "url": "https://www.channelnewsasia.com"
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
       },
-      "priority": 0.8,
+      "priority": 2.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "China poised to restore military presence to top leadership at party congress - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNWFEME03RXJWTHZ1SFZlTVNabEpFR0wyaThWbVJtanhVRmNNZ2Q4Y3hKQ2xxSm10OE5HeTZ6X2hab0lyTkkxdWNDd3NUc3Nna3NuOHVBemstdGNZRVJaNEF1SjZMMms4YURsTEpCMGQ0cTlxZ0Z5V0ZKTXZPYXJ3OERiR2c2OFR6VE1kbHhGS3Zidkp5aHhPc1ZnRUdoUWRKaXZxT0lHMjZOT0tWX1NiY2t2Q0pwamdpOEVXZHNKTGZXTXfSAcMBQVVfeXFMTWJMNmZOdGVSb2xpQnBVSmtjYklQaFNzanZDNDlsVVlwODE2amNmcDIwekZwdkEwcG9NLTliRjQxZDkzekpRSmlVb3Z0OVFuQmsyRW1CMUZVa04wSEswV0ljcU41VUV0aVBBVWJ2c1ZPNW1qX1FuSlV2cmp4bVVxa2dYc0FkaFhEN0RSRDMxVVoxV1JUeFZ1cjllQWFHV0ZiS2JIMldpLThKLWJnb3pvS0VxTFRuNlRxUlpNWldpSkNWRUow?oc=5",
-      "published": "Fri, 30 Oct 2026 12:58:56 GMT",
-      "summary": "China poised to restore military presence to top leadership at party congress&nbsp;&nbsp;South China Morning PostChina Communist Party Urges Tougher Action on Crypto Corruption&nbsp;&nbsp;BloombergChina’s Xi says strict party governance has positive effect, doesn’t choke growth&nbsp;&nbsp;South China Morning PostChina’s military purge reduces war risk: experts&nbsp;&nbsp;Taipei TimesCPC pledges tougher measures against corruption&nbsp;&nbsp;China Daily Global Edition",
+      "title": "Shuhaily’s new post needs royal approval - The Star",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc3NoQjE1OXgtUmlFeW44N29FYzVGcXBNNEF4Ul9UU2tIT1RKYW1GYjZIUm53cWpmZTdpMzhpYjA0bHBwWS1WZS1CRDJCeTkySHJKdms2eUlyQmZXMF9MWVVwOEJJS3RIeUZZdVYtdWo0eVRNVWJqeXZVdmlKNHRwY0hRRHB0bFd3U2RiLUVRTEFEeUU?oc=5",
+      "published": "Sun, 01 Nov 2026 00:14:28 GMT",
+      "summary": "Shuhaily’s new post needs royal approval&nbsp;&nbsp;The StarA good service record doesn't mean an officer is above the law, says Anwar&nbsp;&nbsp;The StarShuhaily resumes duties as AKPS chief&nbsp;&nbsp;Free Malaysia TodayAnwar says he personally sympathises with Shuhaily, but stresses law and due process apply to everyone&nbsp;&nbsp;Malay MailShuhaily returns to border agency, chairs strategic meeting&nbsp;&nbsp;Malaysiakini",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-30T20:58:56+08:00",
+      "published_beijing": "2026-11-01T08:14:28+08:00",
       "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://www.scmp.com"
+        "name": "The Star",
+        "url": "https://www.thestar.com.my"
       },
-      "priority": 0.8,
+      "priority": 2.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Hello Kitty maker Sanrio cuts ties with TV spy show after China backlash - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU3BBSGZqZWYzdEhIU0UwNDJEd1hWRlVJQzV6dWpuUkpaWTNRa3FIM1g3MFk0OTZvWHdVY2lNcV9KaU5DMXNXUUdzM3ROSUcwR0p1dnMtM2R5WEtUUDg4Y01lWloxWlNwRXYyaW9PN3oxQ0VRbHRLdW9hbGRqTUJIeDhJTGYtMDFIc05XdDduWQ?oc=5",
-      "published": "Thu, 29 Oct 2026 04:57:00 GMT",
-      "summary": "Hello Kitty maker Sanrio cuts ties with TV spy show after China backlash&nbsp;&nbsp;YahooSee more headlines and perspectives on Google News",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-29T12:57:00+08:00",
-      "source_detail": {
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Deadly blazes in Sabah’s wooden water villages expose massive hurdles to building safer housing - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHFWZ1dZS1dxeHZfbloxMVkwandqdUNheERyaUN5ZXZsYjVxQVJXVDM5YW14U3B2cUZ4WlRZbEdocnY3YUFndjl4Qlh2TDBqcWUyT3EtWDhtNXZhRXFxLXlFTWxNeGlaZ0RWYzNRUHFfbTVHN2NWT3lBd2RNUm82U1RTTGhONU85MlVNWGtqT0VZcTFVVUdLYmZrUW1VM0RGX3Y5VkdJMA?oc=5",
-      "published": "Sun, 01 Nov 2026 22:00:00 GMT",
-      "summary": "Deadly blazes in Sabah’s wooden water villages expose massive hurdles to building safer housing&nbsp;&nbsp;The Straits Times",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T06:00:00+08:00",
-      "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan sticker craze meets politics as Takaichi-themed sets prove hit - Japan Today",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWFBTFhKTlVlRFdlY3M5SkNKNXc1ZXRudGJ1MmFDZEp4c2JYZVNNUzUzOHZSQnhmT3VBQjlobGxza2dCNFVxS0ExTGRVZ0VsbUJKYV84QUhoS2hpNVJRYlpIZWRsQzN0VVpESjFUdDVrQjFyLUpkNy1sU21neGpDenpLYmRJRldyd3kzaHZuV0NVTEE2MzdmTTBfemk0Q2J6TUtuXzhLSnRQdjBuejBtbjJB?oc=5",
-      "published": "Sun, 01 Nov 2026 21:35:00 GMT",
-      "summary": "Japan sticker craze meets politics as Takaichi-themed sets prove hit&nbsp;&nbsp;Japan Today",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T05:35:00+08:00",
-      "source_detail": {
-        "name": "Japan Today",
-        "url": "https://japantoday.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Making the Chinese dragon–Indian elephant tango work - East Asia Forum",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3VlOHpQMUQ5SVlPcjRINmNVRFloSG5kckdIa0h2UzBMZWxieW5jcTRpSG5nODlBWE1oaV9tM0FGc0VLeWdvUC1Bd0JuMmFqQW1IQm4zdXJWQ3B1NWZUWGsxc2hPdHNFX05idmVZQXhKMUVWS2pGbHdHel93M3Z1ZkpVMHBIejlTTmRmcklKbTVkaEdD?oc=5",
-      "published": "Sun, 01 Nov 2026 21:00:00 GMT",
-      "summary": "Making the Chinese dragon–Indian elephant tango work&nbsp;&nbsp;East Asia Forum",
-      "source": "GNews | ASEAN Powers",
-      "published_beijing": "2026-11-02T05:00:00+08:00",
-      "source_detail": {
-        "name": "East Asia Forum",
-        "url": "https://eastasiaforum.org"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Exclusive | US first lady Melania Trump unlikely to travel to Apec summit in China - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPazJGd1huR3lMTW5aSUwtMW83MHY5QWRDRTllWjN4U3ZLVHNMOUdTS2puNlcwVmtvZTl2TGktUU1ubUk2aFBfb3M0M1dhb2VGUmdVOER1MVVyeVZ3d0NXaEpyX190d3VVTUhEam13ZzBrMGZHMlZaOWtrR1FKR2QxSmFyYmZDNVBfdXZCdDdVLWFpUW9pMl9MSnl6eWFrUjNlLWFXZ09LZXV1Nk9iWHNseTN5NVprN3RidWhj0gG7AUFVX3lxTFAtS3lEZlZIRHFrUmtzYklCRl9GU0xweXRicFFpdGhkbkZnVlpYUDdKMG8xcXBoWDE2Z3JKVXJubTNpYXhYdTVvX2xyc29aSGlMX0x4eGZtZlJOVW1RYVlUMjNtdXNvSGRMSk5zTEdSSlVhSXNKdmhEcU9wVHNpaWJmdW42LWRqcHRsMWd3WWhVTXJoYVBwZWJ4OThLS0ZPdC1DM2t6dU5TSFhNeTczVzZsMzBoUTBnaGtwUUU?oc=5",
-      "published": "Sun, 01 Nov 2026 12:00:23 GMT",
-      "summary": "Exclusive | US first lady Melania Trump unlikely to travel to Apec summit in China&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T20:00:23+08:00",
-      "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://www.scmp.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Japan’s Economic Diplomacy: A Compass in a Divided World - The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOW5ELWFaODhqVWlFMkdabWFOc1oyYzBzSC1OQVFYVTItb2VSUEcwQ1IyVjZGLUdkX3pibWtEQVRaeTlESXRDZVZiTEgwU09Bb0xwUk9haGpiN0lITGE5VUxZQnlPa3pTQms4OGFwLUx4eFFJZGlTYXp0dGd5NVhKSGQtM1Z3QUtJZWlRS0NKZjk?oc=5",
-      "published": "Sun, 01 Nov 2026 10:01:42 GMT",
-      "summary": "Japan’s Economic Diplomacy: A Compass in a Divided World&nbsp;&nbsp;The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "source": "GNews | ID Trade/Tariff",
-      "published_beijing": "2026-11-01T18:01:42+08:00",
-      "source_detail": {
-        "name": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-        "url": "https://thediplomat.com"
-      },
-      "priority": 0.0,
-      "category": "印尼",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Bulgaria votes in presidential runoff after tight first round - CNA",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVXp0LXB3V1Nhd2M2X0hEdHIwZDNJcHI1LURzMUkxRVVxU056Nk5hY1BTYndOeDljU3BjLXVPUDRVTzhVUmdhR0hNc2s2R285ekRLVEhtSWQtdHUzdzd1bGFIVDN3TUVyMEhoRHBaV1NHQWNFRXdXb0Q4LUhVWkNtX2J4dlp6MkdfcG9SVndybTVQYXBvZzExdzJfeDhTY3VMZjZHdDE5WjljTGc?oc=5",
-      "published": "Sun, 01 Nov 2026 09:21:00 GMT",
-      "summary": "Bulgaria votes in presidential runoff after tight first round&nbsp;&nbsp;CNASee more headlines and perspectives on Google News",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T17:21:00+08:00",
-      "source_detail": {
-        "name": "CNA",
-        "url": "https://www.channelnewsasia.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How to improve global mineral governance - The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVkJMRjRTTmlHOXpRVGdmWTNRckZuc2VMNHdnY0wzcGswSF9BUHBhN0JCQy1UWWliczlZc29ET24wYUs5RVluSnFDYmxiTHRuVnRnZkFncGhiSEpJZHhMUngtbGl1OGlOVW8tN1dPbkRkUzFkMDR0NHVXeHNkbDh4NFJ1Yks0Zk52cVVYekh6UzFDdFV4MG5ubA?oc=5",
-      "published": "Sun, 01 Nov 2026 07:20:00 GMT",
-      "summary": "How to improve global mineral governance&nbsp;&nbsp;The Japan Times",
-      "source": "GNews | ID Nickel/EV",
-      "published_beijing": "2026-11-01T15:20:00+08:00",
-      "source_detail": {
-        "name": "The Japan Times",
-        "url": "https://www.japantimes.co.jp"
-      },
-      "priority": 0.0,
-      "category": "印尼",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Central bank urges SMEs to improve transparency to access credit - SGGP English Edition",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTmlMVDVOQXp0NDlVLVpYamhLdWFYbGFCVjJLOUZPVktGRjJacHhFcVp3a3p3Qzg2V0ZmNlN4S2kzMzNSSGF2SUhBZkNGSXZqM3REVnV1YUtxMEowVkQ1QWtyMkNCM1M4WmhuVkU4RERodUMyQXltM1h1NTM3dl9KbWxIM2tiZTdJWEN5TWNsNXp3dUg2d19CbEpvUHRGektHaVdyT013?oc=5",
-      "published": "Sun, 01 Nov 2026 06:55:45 GMT",
-      "summary": "Central bank urges SMEs to improve transparency to access credit&nbsp;&nbsp;SGGP English Edition",
+      "title": "HCMC approves 12 projects worth over $13 bln, MSC-backed port tops investment list - Theinvestor",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcUZKSXZUMGtuMTlkVjNZbG42OWkwVnk0cnlhTmFvN3RPN2JMdkNsMTZMRzRjSWZTZ0FETmNRZV9hTXIzWWhtcU9YS3oycGdQQkpRYXVEMkRpRnREUDBXSGtQTUlRdFBuSGtkU0I3Q0U4WFdDdW5ndEM2SjRhNDhJTE9nNXFaOEFnSzlmTi1YU1l0TlZBOUhoNjB6emZGcTZfTVVma3REcmtMNFMwa09vSnlOMXkzUQ?oc=5",
+      "published": "Mon, 02 Nov 2026 13:18:00 GMT",
+      "summary": "HCMC approves 12 projects worth over $13 bln, MSC-backed port tops investment list&nbsp;&nbsp;Theinvestor",
       "source": "GNews | VN Economy",
-      "published_beijing": "2026-11-01T14:55:45+08:00",
+      "published_beijing": "2026-11-02T21:18:00+08:00",
       "source_detail": {
-        "name": "SGGP English Edition",
-        "url": "https://en.sggp.org.vn"
+        "name": "Theinvestor",
+        "url": "https://theinvestor.vn"
       },
-      "priority": 0.0,
+      "priority": 2.4,
       "category": "越南",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "11 of the best Borneo tours - The Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMTJ5SThfc1l0ZGdGbGtJSHR1TUYtdFd1VnRVaVNnd2h5TmVKa00waEZsOG42TWloNlNTamlfb0FzUnlLQ1R1dzk0dFVFRTlqQUhVOWV0VHNMMV9DbEJqSmJQY1hTSzZfcVVHTUNXSjROeFVDSW0xTXMzZnc0SldZTE1sT2V3MjJSRFFrenpRclFvUmo3OHBpWQ?oc=5",
-      "published": "Sun, 01 Nov 2026 05:00:00 GMT",
-      "summary": "11 of the best Borneo tours&nbsp;&nbsp;The Times",
+      "title": "China's Xi Jinping says Middle East should not become battleground for great power rivalry - CNA",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWTFKNzBXQ19FYWNkMm9EaVZ0azBCTVVaeFByclVBeDNZUEVaQW11aV9WWE4xVVdxTlE1SW1GRkpxQWhHZ0cwVFVfV1UwMlhFZnpXenBERmlrRHpTbXdkSkdVNTcxQm1kQ3FDOG82Nm1YZXVEWnFEemtWTVFOX0pSM25PTkN6TG1hRTZNZ3g4Q01hY1BUTEV1N2xwTWxFNk5vXzNreGNHSV9QQWs?oc=5",
+      "published": "Mon, 02 Nov 2026 07:25:00 GMT",
+      "summary": "China's Xi Jinping says Middle East should not become battleground for great power rivalry&nbsp;&nbsp;CNAOman proposes preferential trade, investment deal with China&nbsp;&nbsp;The Straits TimesXi Hosts Oman’s Sultan for Rare Visit to China With Hormuz Shipping in Focus&nbsp;&nbsp;Bloomberg.comXi says China willing to work with Arab, GCC countries for regional peace&nbsp;&nbsp;China DailyChinese premier meets Sultan of Oman&nbsp;&nbsp;English.gov.cn",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T13:00:00+08:00",
-      "source_detail": {
-        "name": "The Times",
-        "url": "https://www.thetimes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Thousands join Indian opposition protest demanding poll chief’s resignation - CNA",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1ZNR1Y0QzRnaFRudGhTUVJTYko4WjlVLS1kdW1VZ0pHS3N3MDZGWDNjMmVlczZ2c282b2xublZNYWZnS2pJLUc0bGZfYlhraE9leTRWLXVJLTIwSHdLQ05VaW9WVFFON2Y3b2JXb2tEenNDTkotM0tpOXMzMWd4NkxyRG5oYWltNUhQbUh4cTBlMnBNYlMwNjVBOERtZjY5M1ZpYlNIWGJRS2F0Yms3dWVTemNUZDJVTjZz?oc=5",
-      "published": "Sun, 01 Nov 2026 04:42:00 GMT",
-      "summary": "Thousands join Indian opposition protest demanding poll chief’s resignation&nbsp;&nbsp;CNATens of thousands protest against Narendra Modi regime in Delhi&nbsp;&nbsp;The GuardianRahul Gandhi: India's opposition rallies against voter roll revision exercise&nbsp;&nbsp;BBCIndian authorities tighten security ahead of big opposition march in Delhi&nbsp;&nbsp;The Straits TimesIndian opposition unites to demand Modi electoral chief’s resignation&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T12:42:00+08:00",
+      "published_beijing": "2026-11-02T15:25:00+08:00",
       "source_detail": {
         "name": "CNA",
         "url": "https://www.channelnewsasia.com"
       },
-      "priority": 0.0,
+      "priority": 2.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Large turnout at Bella and Syed Saddiq’s final reception - The Star",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTVFEdVc4ZWs0RHhsUUd3V0J4LTFQN0JEcEpGY0trRVQyUmQ1NjNSLW0xTTFKYkhmLU9IUDFYc2o2WndsVm9fQmFjb2wyY04xaHdKZkJ0a1dHZVVmUmdEVm5EMVNmWktMN1pKOExZS1BiT3pVLURMYmhWTEpsVWR2OXF6WXV6QkNlX3M1TWljYmpUdEE4SFIwMmJzUkRhTDJGQnEweEwwdU0?oc=5",
-      "published": "Sat, 31 Oct 2026 23:45:27 GMT",
-      "summary": "Large turnout at Bella and Syed Saddiq’s final reception&nbsp;&nbsp;The StarLarge turnout at Bella and Syed Saddiq’s final wedding reception&nbsp;&nbsp;The Straits Times10,000 throng Padang Merdeka as Bella Astillah, Syed Saddiq bring wedding celebrations to Sabah&nbsp;&nbsp;AsiaOne.com#SHOWBIZ: Syed Saddiq credits Sabah for sparking his love story with Bella Astillah&nbsp;&nbsp;NST OnlineHeat, fainting spells and a five-person medic team at the BASS Muar ‘kenduri’&nbsp;&nbsp;Yahoo",
+      "title": "Gulf ports ride the investment wave - Heavy Lift & Project Forwarding International",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblp2dE9CMFY4UGt1VUswc1JCWDEwdEZ5c19MVmRWQmJHZHJQMTJRM1QzRFBJSjBsblZHRTg3YWt6S1pnYmo2SV95bF8wVmZYYU9qN0VnQ3Y0c1pYUEhwb2x1M3Rzb3cwSkZJeXhrNk1iLTlJcndaZ1pBdmt6S0M4VUtiVm4tMEw4?oc=5",
+      "published": "Mon, 02 Nov 2026 07:05:28 GMT",
+      "summary": "Gulf ports ride the investment wave&nbsp;&nbsp;Heavy Lift & Project Forwarding International",
+      "source": "GNews | SE Asia Infra",
+      "published_beijing": "2026-11-02T15:05:28+08:00",
+      "source_detail": {
+        "name": "Heavy Lift & Project Forwarding International",
+        "url": "https://www.heavyliftpfi.com"
+      },
+      "priority": 2.4,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Kadin reports nearly IDR2,000 trillion in investment to Prabowo - IDNFinancials",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORzEyQXNXUkZuVm5qcHFlT1FOaGZEblBOM05faHVmcHF6cmZiUVhoTFJvMUV0MlNZMFpTbVlrRldiTlVUQjVOckFmM2w0QW1uZk9ienNlT3BkLW9rYURXY2lrNUFlNGdIaVU3cVZvb1FCVHEwbDVYblh0S29NaUtqdjl6dDM3VEVIWjBqMWViSE5zUkNPNk93ZUlia3lfazd3bXpkbEtTbw?oc=5",
+      "published": "Mon, 02 Nov 2026 06:40:00 GMT",
+      "summary": "Kadin reports nearly IDR2,000 trillion in investment to Prabowo&nbsp;&nbsp;IDNFinancials",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-02T14:40:00+08:00",
+      "source_detail": {
+        "name": "IDNFinancials",
+        "url": "https://www.idnfinancials.com"
+      },
+      "priority": 2.4,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AGC tells High Court Teoh Beng Hock family's murder probe application was filed out of time - The Star",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTkdNT3ZRXy1icm9ON1ZoS3VhUWpuYzYzR1g5dTE2VE1vdkhoVVl4elFQTGhqZS1PSFEyT2JXVVQ3OWF4V0gyNDVYUEZXOVg1bkhDNzVXM1IxOURpVkRFRFFzTUI1aDVIZmQ2eTRmSVVLYzN1aHlPbFhCNzd6anpSMWFRcjl5N1FtSEVRLTlFNm5RYUdSZ0s2SWlsVmw1NzJ0Yzh0UVNKWF9wY2pXbVBXbTV4WVNySUpJTEdLa040RENobG1kQmxhZTk1akxoSFd5elNJSTBKRThiZWc?oc=5",
+      "published": "Mon, 02 Nov 2026 06:38:00 GMT",
+      "summary": "AGC tells High Court Teoh Beng Hock family's murder probe application was filed out of time&nbsp;&nbsp;The StarTeoh family knew no murder probe opened years ago, court told&nbsp;&nbsp;Free Malaysia TodayBersama candidates sign pledge seeking justice for Teoh Beng Hock, new Anti-Torture Act&nbsp;&nbsp;MalaysiakiniA-GC objects to Teoh Beng Hock family's bid for murder probe&nbsp;&nbsp;NST OnlineAGC challenges Teoh Beng Hock family's bid to compel murder investigation&nbsp;&nbsp;The Vibes",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T07:45:27+08:00",
+      "published_beijing": "2026-11-02T14:38:00+08:00",
       "source_detail": {
         "name": "The Star",
         "url": "https://www.thestar.com.my"
       },
-      "priority": 0.0,
+      "priority": 2.4,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "A third weekend of protests in France as youth-led rallies sweep Europe - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbVlPeXM2Ry03eExWTVFQMmREeFJuRm1TR19oRnE1MEZDbTAtQzczNGs5QTh5ek42RkR1SjFNVkJFT0ZYa1V4bVRKSjF5WFZGT2lGaWY2bU9VbzRodUlTX2xQdjNPdzdvRTFfTGdsc0ZYS3c4b3N4NHJETGxESkdUbVdUX2dYVVZoUTlDc0xia2dJM185WlN4a2tCZmlTYW_SAaQBQVVfeXFMT250ajlVcE9GcGl1QUdFUTNpcEFTS0NhR3FMM3Q2ajFfTGg1eU1pa1BRekhFVEJaQjBMTzJydW13YUlFRTdMVDdabHEtVVlCRndydFl5WU5vSnZTWFdWZ3B1cTVVb0k3d0ZDNjhXOTlrV19KT21aTUFXVzdUZjNvMjBzZ0dxX21ZS0NXaEFUMHdEWlFuX1F3RThTVTJyNU1rMUVXQXU?oc=5",
-      "published": "Sat, 31 Oct 2026 22:57:22 GMT",
-      "summary": "A third weekend of protests in France as youth-led rallies sweep Europe&nbsp;&nbsp;CNBCFrance opens 'attempted murder' probe over petrol bomb attacks on security forces&nbsp;&nbsp;CNAFrance launches attempted murder investigation after petrol bomb thrown at police&nbsp;&nbsp;BBCFrom teargas in Paris to gen Z in Germany: protests across Europe – in pictures&nbsp;&nbsp;The GuardianProtests sweep European cities&nbsp;&nbsp;China Daily Global Edition",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-01T06:57:22+08:00",
+      "title": "Brunei ministry receives APEC Business Advisory Council Report 2026 - Asia News Network",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeVNNWHdFSUpFby1PME04QkdEeHNrV1hXSDBMbkM0WlZyYmxLLXdPZkxFZTh2emZwcU1vVVhBdG9NWU1iMmdvem9MelYtUEI4Rm9WTjQ2MTNGZTdvdE9lMzhzWExSNl9fNlVWcHBfV2JQWTItdHJBNFZ2WHpDMklXZ0NJV0tPYVItQUROX2xfWmhjNzlJazEzRw?oc=5",
+      "published": "Tue, 03 Nov 2026 01:21:19 GMT",
+      "summary": "Brunei ministry receives APEC Business Advisory Council Report 2026&nbsp;&nbsp;Asia News Network",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-03T09:21:19+08:00",
       "source_detail": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com"
+        "name": "Asia News Network",
+        "url": "https://asianews.network"
       },
-      "priority": 0.0,
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Why Relationships Still Matter in the Digital Age of Banking - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRmtvSDZ2R19LdXB5UnV6aWVLc0FYOUZ0MlJVYktybm53RDljVXJhRW82al9vd0hFNFNvenFFR050TlRqVUJOMXZvLV84WWY0Z1FGQnpsTFdnNVpGTkVfZ3I2UmdLYzNHQVdaeWctcS1ZMHR2UGprWDdxNmhtaHYxTUdFYlZrTWNaNWdvTjFPNVFzTkxLdlFLeWF0b0xQVTdEOFJTVGN5WjV3V2U1NTA5TDFzUWhVSEJIN1RmY1BRbU5xVFB0NWZJR3pfeUVZQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 21:00:08 GMT",
+      "summary": "Why Relationships Still Matter in the Digital Age of Banking&nbsp;&nbsp;South China Morning Post",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-03T05:00:08+08:00",
+      "source_detail": {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      },
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Needless provocation? Japanese blockbuster hit Vivant portrays China as sadistic villain - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ1hiZjBBSmNuZFZRVVZEY25wejhSOUNadmpzN3pRZFlSMHBPbmpJYzlwTDFfdnVRVG5GTWtlTGVMa2psaWlvZm5kbk5vUWpFVHVlMDlfQ090TU9SS0xJb2Fsc21xMmk1dEZreVltUmZweUExblJ1bXFLX2pUblB1MXBWTmRqV2lPYWZMVnJvamd6YUl1Vk52eDZhQ2daWVBDU2M5WGJvcVp3WUlIc3FKeF9uZTIwTU5iZ1Q5Y1RYZW5JVnNBTW51elNJWk5kdw?oc=5",
+      "published": "Mon, 02 Nov 2026 13:15:00 GMT",
+      "summary": "Needless provocation? Japanese blockbuster hit Vivant portrays China as sadistic villain&nbsp;&nbsp;The Straits TimesChina's Defense Ministry criticizes Japanese drama VIVANT&nbsp;&nbsp;China Daily Global EditionThe spy drama Japan’s PM plans to watch crosses China’s red line&nbsp;&nbsp;联合早报Hello Kitty Owner Sanrio Axes Japan Show Ties After China Furor&nbsp;&nbsp;Bloomberg.comHello Kitty firm apologises, scraps Japan TV tie-up after China anger&nbsp;&nbsp;HeraldLIVE",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T21:15:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
+      },
+      "priority": 1.2,
       "category": "专题精选",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "China snubbed PH-hosted defense meet, 'missed chance' to show leadership – UP prof - ABS-CBN",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSXNGLUVvWHpZaUVZOFZQcFluLW1OTmZNZUNrdTBqMTA0ZzZqdXBVR3FEUFpsa3BSMzQ1blVoVXZyRnNTMmh2RE5OdEQ4WVhZNFJVMkQ5ZHZsZlk1XzhxYXZ5NTlJS1hvek9iaS1qdmRaY3dkd1QxX3duS2hjQm9XV1puWmNNLVA1aDFYU1FIOTJLYi1kVFdjemM2bzlrdVMwQ2ZQOXFJY0lWbW5zSzVOdjlxckFwOHVLdEZ5QlcxQVNtZ3dISlBvcQ?oc=5",
-      "published": "Sat, 31 Oct 2026 08:47:35 GMT",
-      "summary": "China snubbed PH-hosted defense meet, 'missed chance' to show leadership – UP prof&nbsp;&nbsp;ABS-CBN",
-      "source": "GNews | SCS/ASEAN",
-      "published_beijing": "2026-10-31T16:47:35+08:00",
+      "title": "Saigon-Hanoi Bank ratings affirmed by Fitch with stable outlook - Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjl6Nlg0ekNwZEtKN1k2OVB6ZDY5NVJ5RnoydEpKb04yck9aRkNNWTMzcWJVT1RUYWl3SWp0NVAwUjNkdkpKbzZLc2w5ZWNMZDZqLWtWWWM2MUh5REtNZUY5bThwYi1WZEZXclhVY2xoRlRzQndXQmJvMlEycDFENFljbi1WbndQRXExWFRvUDJLUlJ3LUJPdFJ4Yw?oc=5",
+      "published": "Mon, 02 Nov 2026 12:19:37 GMT",
+      "summary": "Saigon-Hanoi Bank ratings affirmed by Fitch with stable outlook&nbsp;&nbsp;Traders Union",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T20:19:37+08:00",
+      "source_detail": {
+        "name": "Traders Union",
+        "url": "https://tradersunion.com"
+      },
+      "priority": 1.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The hidden compliance gap threatening crypto expansion - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa1ZySXZnSEpBLWtaejJVdDU2cUpMOFhxdHA1SE1EZFMwMHhEZjh1X2RwUGJJQ1lvVk5KNmt5MzBLVWdtcnhUSkxwc3NPLUpFQVNzYnEtRGQ3SlFPdlZMUm1KYWVEcDhMUGhBQldGMUZWUGU1bkdTeDdURnZzRU9STGpnWnVsRnRmS2hwVXRRWGhhcFE?oc=5",
+      "published": "Mon, 02 Nov 2026 10:45:14 GMT",
+      "summary": "The hidden compliance gap threatening crypto expansion&nbsp;&nbsp;FinTech Global",
+      "source": "GNews | SG MAS/Fintech",
+      "published_beijing": "2026-11-02T18:45:14+08:00",
+      "source_detail": {
+        "name": "FinTech Global",
+        "url": "https://fintech.global"
+      },
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "HKMA Launches Project SAGE to Support Agentic Finance Governance - OpenGov Asia",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRVItQWwwa3pjWEZEUkFxYktZYTVUU1hnak9HeVloYjNHM2dZeG0wejh6U2VRU2E2MWRqQlMyUFdTNHQ0MVZPbTMxMU1VQ2JuWVg4TElhdS0talZIWWt0S2FjNm5kOWZmX3J1TmE3SkEwYVpWb0t1MDJ6Q0dBcW5HQUJCR1Q0WUlrTVBWXzJnUm5XU3M?oc=5",
+      "published": "Mon, 02 Nov 2026 09:19:13 GMT",
+      "summary": "HKMA Launches Project SAGE to Support Agentic Finance Governance&nbsp;&nbsp;OpenGov Asia",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T17:19:13+08:00",
+      "source_detail": {
+        "name": "OpenGov Asia",
+        "url": "https://opengovasia.com"
+      },
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EV supply chains dominate APAC automotive investment as focus shifts to components - TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnFDZlh3OHhZSDZYdVp1ZU5UdHctYmNKTktHUlAyV1E5UjBsdlF0QlFYODRSb1ZLRGEwaUFjS19rTWtFUEVpbERRUjA4T2ctRENGZGZrSEUtYm16ci1HckVkclJGX1ZvTXZDMjYyMGVlTzdNVFZpXzZucUJpR0g0VHRwdFNUWURtRWxQV1RENExmcFJUT0FiWnYxd3ZTNldHX3RhdDB1M2c2MzlvMEpYWXRSeF9zSFptYWc?oc=5",
+      "published": "Mon, 02 Nov 2026 07:42:20 GMT",
+      "summary": "EV supply chains dominate APAC automotive investment as focus shifts to components&nbsp;&nbsp;TNGlobal",
+      "source": "GNews | VN Factory Shift",
+      "published_beijing": "2026-11-02T15:42:20+08:00",
+      "source_detail": {
+        "name": "TNGlobal",
+        "url": "https://technode.global"
+      },
+      "priority": 1.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "IBK Industrial Bank of Korea will strengthen customer support activities such as launching mobile ID.. - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81RnhHZFY2NEFpY3pnV1g0aDBnVV9ITGxqbDB5ZDUzYlR0NkcwVFdNT0hScWdNdV9yVEJMQ1ZrUzYzSG1vX1V3QjZ3dk5TNldCWkNJ?oc=5",
+      "published": "Mon, 02 Nov 2026 07:04:19 GMT",
+      "summary": "IBK Industrial Bank of Korea will strengthen customer support activities such as launching mobile ID..&nbsp;&nbsp;매일경제",
+      "source": "GNews | VN Economy",
+      "published_beijing": "2026-11-02T15:04:19+08:00",
+      "source_detail": {
+        "name": "매일경제",
+        "url": "https://www.mk.co.kr"
+      },
+      "priority": 1.2,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "HKMA Expands Fintech Agenda With AI, Tokenisation and Payment Initiatives - OpenGov Asia",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSG1NNDJ0cFhiSzNudGZFamMzR1FMelJjcFUxdm5ELVl1bk9acXNUVWdWcG1FSGx3Y3RwUHlhN0tMMzNKcERQdGZaV1EwVUpXNVYtLWs3OUhOYklUdUNIeVBZdVhUM2xlS2RrNkdYaXhuUERxU3U2VWp3Y0FiWERZa3lnSUkxeERSdDBTT0Z4UWg2eHlGQVIzbzZtdi1Ydw?oc=5",
+      "published": "Mon, 02 Nov 2026 06:47:56 GMT",
+      "summary": "HKMA Expands Fintech Agenda With AI, Tokenisation and Payment Initiatives&nbsp;&nbsp;OpenGov Asia",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T14:47:56+08:00",
+      "source_detail": {
+        "name": "OpenGov Asia",
+        "url": "https://opengovasia.com"
+      },
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Hong Kong: Digital Payments, Tokenisation and AI Governance to Advance Fintech - OpenGov Asia",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkM5TV9Nai1SWmxEcGFuXzVkZXBFYk5jWko5bzVNVmdqMkRyaV9GVHFhcjBTcTZScEt5UC1NM3g4YmU4MW1oOHFNUkphMUJ6Z0dOdk9fRXRpUU1VeHBhaTdLVFVjcnc2WmpBcS03UUNHVUwtQTBfM2tmRHcwVmhNcllnb3ZfTERuS0QwVmxYMVFoNUtXOFhvUndMMEhWYlh2ZXRF?oc=5",
+      "published": "Mon, 02 Nov 2026 04:16:49 GMT",
+      "summary": "Hong Kong: Digital Payments, Tokenisation and AI Governance to Advance Fintech&nbsp;&nbsp;OpenGov Asia",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T12:16:49+08:00",
+      "source_detail": {
+        "name": "OpenGov Asia",
+        "url": "https://opengovasia.com"
+      },
+      "priority": 1.2,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMy1ONllRWWI0aTRXU2k4UERDNkhOYUU0VmxBcktoQ3hhcGNUbVFHUjcyQ3pydExDY0JKUHZIdGZsbXgyX1E2NUJZeVJSb282d0YzMFhFT3Z5VUoxT1RJNGd3SURuUGpyVzdQRG1rLUZkRzBkbWFwcTJ4TWlVWkR4ZVhVaDNMTnhXc1gzcFhzRTdFRzVza1JqdnI1Y2I3R0wweGdvTERGQmJPMWM2dVNaZGptNWE?oc=5",
+      "published": "Tue, 03 Nov 2026 01:10:00 GMT",
+      "summary": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say&nbsp;&nbsp;The Straits TimesExclusive | U.S. Strikes Iran’s Qeshm Island as Trump Talks Down War Risks&nbsp;&nbsp;WSJUS has conducted defensive strikes on Iranian targets in the Strait of Hormuz, US official says&nbsp;&nbsp;AP NewsIran war live: US carries out ‘defensive’ strikes in Strait of Hormuz&nbsp;&nbsp;Al JazeeraOil edges up after report of US strike on Iran's Qeshm Island&nbsp;&nbsp;Reuters",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-03T09:10:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
+      },
+      "priority": 0.8,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "‘Actions speak louder than words’: Drug war victims press gov’t to arrest Dela Rosa - ABS-CBN",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMzRfamxrU1I4VUprY2hJT05KOXl4eW9OWVpzYnFYQjVaczBnZkp1eHdGd2dCQVpWQ1JKbTNwZVpnRFNUWlNnZXJQZ3pMd3RSM1pva1ZaaXlrT0x2WEp3QTZwdWtHSTFZa2VKRkhfOXFFRlVOWlBSZnkzSkYyaDctYkVRTkZtdzU4OS1JTjRaUkhHMUk4eDJaNUM3eENrekduTTUwNHBURXFzTXpJRFhDNm4yVGRqcWRQQ0RscVRSNDlNT1dFeEluS2xuel8?oc=5",
+      "published": "Tue, 03 Nov 2026 05:40:55 GMT",
+      "summary": "‘Actions speak louder than words’: Drug war victims press gov’t to arrest Dela Rosa&nbsp;&nbsp;ABS-CBN",
+      "source": "GNews | Myanmar Crisis",
+      "published_beijing": "2026-11-03T13:40:55+08:00",
       "source_detail": {
         "name": "ABS-CBN",
         "url": "https://www.abs-cbn.com"
@@ -1048,15 +1750,31 @@
       "relevance": "low"
     },
     {
-      "title": "[AI Hacking] “Shutting Down Servers for Emergency Checks”: Businesses Hit by ‘PHP Shock,’ With More AI-Discovered Security Flaws Waiting in the Wings - https://economy.ac/",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OaUQ3SEh1RF82Q3hWLUhqT3MxN3Buc2JFWXhJWWV3d2lsMjBYVFpsbXVocHNtb28xX0IwZWtwajhNVXVhQmM3bVNMSUFlSFl5cWlIY0VsYw?oc=5",
-      "published": "Sat, 31 Oct 2026 05:48:15 GMT",
-      "summary": "[AI Hacking] “Shutting Down Servers for Emergency Checks”: Businesses Hit by ‘PHP Shock,’ With More AI-Discovered Security Flaws Waiting in the Wings&nbsp;&nbsp;https://economy.ac/",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-10-31T13:48:15+08:00",
+      "title": "Altman says AI is already outpacing top scientists in many tasks - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZ09qVmpycEVWS0MyTW0zWUxSbEdTQkdlMmtLY05wMTJ1RVJVcDQ5cWIwNlEtLXU2RHZaWFNZaWR2eVBxckxvdUZGTkZ1djlMSHJQWGsyV2c4dkx5aUpqT0RGUXRiOWRZcDdBel9rbzdta0p1eHQ4bUFucE02VkJjdkVtZWxOcGNPWnlhQ25qOEE3ZllnVm1yT0FqX2wwaWR0R29ROTY1Z2xPcXh2elZKa0RiRVFNOS1KMnNvY25DSno3TGkyZDN2M3ZTZG01WFptLTd6R1Z5VFZ0VTZxZ2c?oc=5",
+      "published": "Tue, 03 Nov 2026 00:38:34 GMT",
+      "summary": "Altman says AI is already outpacing top scientists in many tasks&nbsp;&nbsp;ET CIO SEA",
+      "source": "GNews | SE Asia Tech",
+      "published_beijing": "2026-11-03T08:38:34+08:00",
       "source_detail": {
-        "name": "https://economy.ac/",
-        "url": "https://economy.ac"
+        "name": "ET CIO SEA",
+        "url": "https://ciosea.economictimes.indiatimes.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "STI’s total returns slide 5.2% in October; tech index plunges 17.3% - The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTGd6MnJrRVA2Nkx0TGpqaWZyRDVWemtQcEU3LVJIUHoySHhOWWZDVWtGRjlTcTRBQk9QejZQYXRra000bWFpQy1CdzQ0UDJZNS1Qb1hYUjlJNk5zVDBLNlJDdUQyWTFCVW9LVHhTb0hnblRmcERXS05oTzVCU1g4RGFxV09FaU9Ob3VNTXBEcm4zY1B1N05DTHBidEtBRVZzX2xqdDVkT19hczgyVFNIeg?oc=5",
+      "published": "Mon, 02 Nov 2026 23:00:00 GMT",
+      "summary": "STI’s total returns slide 5.2% in October; tech index plunges 17.3%&nbsp;&nbsp;The Business Times",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-03T07:00:00+08:00",
+      "source_detail": {
+        "name": "The Business Times",
+        "url": "https://www.businesstimes.com.sg"
       },
       "priority": 0.0,
       "category": "新加坡",
@@ -1064,63 +1782,63 @@
       "relevance": "low"
     },
     {
-      "title": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies at 80 - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSb2ttMW1YS0pjbHgzSU53M0lOQi1tSWFaeHE1MU5DckRQNDRJZjd0Mnlwbkd4Q0ltLVlwWThUbVVuN0tXMzFmTExNcnlYQjcwXzNvd0dOTWFpQ1pITXk2d2hacE8wWWx0RHJ3RHZOOEpsLWI4ZEE?oc=5",
-      "published": "Sat, 31 Oct 2026 04:10:02 GMT",
-      "summary": "Liu Yandong, Rare Woman Among China’s Political Elite, Dies at 80&nbsp;&nbsp;The New York TimesChina's former Vice Premier Liu Yandong has died, Xinhua says&nbsp;&nbsp;CNAChina’s former vice-premier Liu Yandong dies at age 80&nbsp;&nbsp;South China Morning PostCE extends condolences for the death of the former Vice Premier&nbsp;&nbsp;macau daily times 澳門每日時報Former Chinese vice premier Liu Yandong passes away at 81&nbsp;&nbsp;China Daily",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-31T12:10:02+08:00",
-      "source_detail": {
-        "name": "The New York Times",
-        "url": "https://www.nytimes.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Iran hosts Saudi Arabia and regional powers as fears grow of return to war - CNN",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONEl1bFlhVTIxQXNkLVoyQk5FQ3VFbmNacnNrWTUxeXRLWkU1X2RQakd4ckI2eGNIeFNSZUZuQlVtQU12UkZ6anVLZVhRRGQxWnNVRjE4cGN1bkhDWmlMMTRFMmh3cWluc1dnOXdsZmhjRXJxbXVPQmpkbGVpN3VVeg?oc=5",
-      "published": "Mon, 26 Oct 2026 13:49:40 GMT",
-      "summary": "Iran hosts Saudi Arabia and regional powers as fears grow of return to war&nbsp;&nbsp;CNNOfficials from Mecca pact countries to meet Iranian officials in Tehran&nbsp;&nbsp;CNADiplomacy push provides brief respite for markets&nbsp;&nbsp;SemaforQatar surges, bucking Gulf market slide on Iran war concerns&nbsp;&nbsp;ReutersGulf states scramble to avert another U.S.-Israeli war on Iran they cannot stop&nbsp;&nbsp;Mondoweiss",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-26T21:49:40+08:00",
-      "source_detail": {
-        "name": "CNN",
-        "url": "https://www.cnn.com"
-      },
-      "priority": 0.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5",
-      "published": "Mon, 02 Nov 2026 03:25:00 GMT",
-      "summary": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap&nbsp;&nbsp;Bloomberg",
+      "title": "ANALYSIS: Two-Way Street: Asia, Africa And The Capital Of The Young - Wealth Briefing",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONVYzb1UxWkliWG96NmlHWTd2VGFhT1c0REFlOXdyblIyWjhQV21Ea3hKdXgwbTVNbGIxZnZEM3ZWZE53cGxhNlg5TEdrRkVlUURKLTRsdlQ5N3lkRW9yVl9rdzdmS1ItQ29MRkNmYnpqN3JhNk4yXzhzVVpydWFGeWROQUxoM1piQ2taT1V6aHB4aEZ0bVhmWmNiZERnWGpUc0x4NTExbWNNMzZxZHI1VEd3Q0VjS0tDbHJSOXFfUGZleXBVTEE?oc=5",
+      "published": "Mon, 02 Nov 2026 19:45:18 GMT",
+      "summary": "ANALYSIS: Two-Way Street: Asia, Africa And The Capital Of The Young&nbsp;&nbsp;Wealth Briefing",
       "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T11:25:00+08:00",
+      "published_beijing": "2026-11-03T03:45:18+08:00",
       "source_detail": {
-        "name": "Bloomberg",
+        "name": "Wealth Briefing",
+        "url": "https://www.wealthbriefing.com"
+      },
+      "priority": 0.0,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Beyond the G2, Unruly Middle Powers | Sinification: October 2026 - Sinocism | Bill Bishop",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sR05VcWEwS1hxSEtsdzZsZ1VvNWtNZHRJOTRpcVRVZndQTHVaNmY1TV80WWNtc3NjbUVjQy1aOG8yYkdsOU1sZ1VkSHJpLU91eWpCNjB6elRLaGRkdTBfS2xxSkpRX044?oc=5",
+      "published": "Mon, 02 Nov 2026 16:43:25 GMT",
+      "summary": "Beyond the G2, Unruly Middle Powers | Sinification: October 2026&nbsp;&nbsp;Sinocism | Bill Bishop",
+      "source": "GNews | ASEAN Powers",
+      "published_beijing": "2026-11-03T00:43:25+08:00",
+      "source_detail": {
+        "name": "Sinocism | Bill Bishop",
+        "url": "https://sinocism.com"
+      },
+      "priority": 0.0,
+      "category": "大国关系",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Banks Start Reviewing Clients’ Loan Terms as El Niño Builds - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdFd0SlFFclVGbGVta3FWT0JjdS15cU1NcHc5SEtmdHVVQ2VwRmZuVGEzWXljVmxLUXo3Mm5zY25acko2WkNzYkVHeXdCTEpVYzZMdWx5dkpneFVkZVN2MnFjTVFSaHdrVUNJYmQzT1h6eHZDLUYxTU5DVDM3R01RNld2TC0zZGdzVGRoRjZjVW5IUUsyMUhTbFFWYmhNM01VcGFMZ1JHUEt2WndQMUtuN3lB?oc=5",
+      "published": "Mon, 02 Nov 2026 15:21:24 GMT",
+      "summary": "Banks Start Reviewing Clients’ Loan Terms as El Niño Builds&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | SE Asia Climate",
+      "published_beijing": "2026-11-02T23:21:24+08:00",
+      "source_detail": {
+        "name": "Bloomberg.com",
         "url": "https://www.bloomberg.com"
       },
       "priority": 0.0,
-      "category": "新加坡",
+      "category": "气候+人口",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Quan Yi Fong recounts scoldings, forced shopping trips by Xinjiang tour guide despite contract indicating otherwise - AsiaOne.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORm9sVG5lRjE5MmtpUG9BSEFpbUplTmkyMXA2MjJZNTh0cHgxX3NMTDVKXzdjOVZ2dUhvQUtyVVdpbFBvZW83Y2NQVTF0VTRjb2lnSnpEcEdMLVJsZGZrSkU0NHlidlNQbzJlYzVtWVFwY05sZHY1cnZ6ZEw4amFOWlFhemdYQVZUYU45RGdZVXU4NnB2WHhfRkRFaVpRUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 03:07:00 GMT",
-      "summary": "Quan Yi Fong recounts scoldings, forced shopping trips by Xinjiang tour guide despite contract indicating otherwise&nbsp;&nbsp;AsiaOne.com",
+      "title": "Echoes of Rome in ancient China? What Beijing’s 1,800-year-old ship find reveals - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSE5UaTR2Y0lZM1lXcHp4SHBQSUtYb0kzYWM4NWdXX1Z1UnUyOV9ST3VDWkVOTDU0b0NJWnEtdUwxamN0MHZ2cWtXTlItVlBiVGpmZ2VDX1ZyZXhzTHJhdktuZDBxY0hwWnAyVjNCT01ENVBwYkJPVFlSTjNxMkZxeTR2QUFXYjdqRXFScmxMNkUya25HbnpnTm1DSHhCVkRRTTA3dUtRMTgtMW01YnFoMHBWNHZ2U1kwM1hENWxGcWtncTR5akhn0gHHAUFVX3lxTE1kMXp0ZjNZM0J1TG42RjhiSjhIa0NDdzB0dTBhdC1rell3eHItdWFNZmNRbVRPNGl2ZlBZZlhNTmkwMGFFdWx6el9QVWhSNVBnNlEzdVZPZDliem9EakhYQ2NLNWZpMzllaVBua2dIbHozZFJ6aXpXN1IxZUFwdmtKM1ZDVy1ZcU1NM0pXbW9md2VvRFVvR2hIUXV2WFUzZGY5ODZSZ251a2pUOE5DUU5USFBkQVpXUlNnbWREaFMzOWJqVzlFTnc?oc=5",
+      "published": "Mon, 02 Nov 2026 14:00:40 GMT",
+      "summary": "Echoes of Rome in ancient China? What Beijing’s 1,800-year-old ship find reveals&nbsp;&nbsp;South China Morning PostThree 1,800-year-old wooden boats found in Beijing's Fengtai district&nbsp;&nbsp;China DailyArchaeologists Discover Great Wall Remains in Beijing&nbsp;&nbsp;Medievalists.netEvidence of Sui Great Wall unearthed in Beijing&nbsp;&nbsp;chinadailyhkBeijing discovers first Sui Dynasty Great Wall remains, along with 1,800-year-old shipwrecks&nbsp;&nbsp;Global Times",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T11:07:00+08:00",
+      "published_beijing": "2026-11-02T22:00:40+08:00",
       "source_detail": {
-        "name": "AsiaOne.com",
-        "url": "https://www.asiaone.com"
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1128,15 +1846,15 @@
       "relevance": "low"
     },
     {
-      "title": "North Korea touts BBQ restaurant boom, but sceptics dismiss it as propaganda - CNA",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX285VXlyNnNGU21xczcxN2hGeWZnVXU0VW1kcndvU0M1SVBzOXQ1Z3gxQTJsNjNRZE5lMGI5X0JuUWxhLXpVRDRfWDdEa0J2Y0FodU85ZFo3RFNKUVFSSnJOTkhRallsaUVxanZJWUtqUU9ycHB1YzY4em9WUnQxZ1RVMTRPc05JUWx5Tg?oc=5",
-      "published": "Mon, 02 Nov 2026 02:24:41 GMT",
-      "summary": "North Korea touts BBQ restaurant boom, but sceptics dismiss it as propaganda&nbsp;&nbsp;CNA",
+      "title": "China overhauls cadre promotion rules, focusing on practical problem-solving - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpWY25HM2t1eGdyR1hrYkREQWpnUGpyeXFKQXhzeDdMenU3Yks4TTBKQ2h6NERPenlzNWR2SFREbW8tRFdBRzNRM25FNElhUmZMX2tsRDdjZDV5U2d3bVdScXFuczM0aVpRRy1HUUFtLVlXS0YxbXFJZUJRNDcweHJycHVkNDhsOXhLc1MwUzJpVko1UXhoZGt6LUwyVFpYYkRJa0NraHdDQkpqeHpEWlpRMHVtNjItUm1vcFBxZy1rMHBNNnpqTm5oVlVPLWfSAc8BQVVfeXFMUFg4NXI3Wm51d2lZblJtVUE2TU03TDl0czQ1aHFNVFBLajdVRjk2OXNlaDljRG9YcVdLdzdaNVdhNnp5ektUMjh1WXRRTzlyd2JkMEk4dU14eGY3OWY3aWF4WENUNHpLYzVMRnNrT0VhaF9NTXFFU0JxbmtfQVRPQ25YNDdCdDVGRWtrUDNTU3JvWlBFa2Voak1KQ1R0dXpqeG5DaXVzb0dkTFNYcTFsVXFQWTZkRHFXTml3YXFISUJJbml5Zk9haFBGQXNrYWJR?oc=5",
+      "published": "Mon, 02 Nov 2026 13:00:08 GMT",
+      "summary": "China overhauls cadre promotion rules, focusing on practical problem-solving&nbsp;&nbsp;South China Morning PostWho keeps those in power in check?&nbsp;&nbsp;CGTN RadioParty self-governance key to strength, global influence&nbsp;&nbsp;China Daily Global EditionChina’s military purge reduces war risk: experts&nbsp;&nbsp;Taipei TimesChina’s Communist Party plenum targets passive ‘nice’ guys in anti-corruption push&nbsp;&nbsp;South China Morning Post",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T10:24:41+08:00",
+      "published_beijing": "2026-11-02T21:00:08+08:00",
       "source_detail": {
-        "name": "CNA",
-        "url": "https://www.channelnewsasia.com"
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
       },
       "priority": 0.0,
       "category": "专题精选",
@@ -1144,47 +1862,127 @@
       "relevance": "low"
     },
     {
-      "title": "Tiger Brokers Brings Extended-Hours* US Options Trading to Investors Worldwide - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQjRCM0FwUW1COWc3aGFqel9wc0g1NWVxeWdIbWlpMmtJUWpnMmtiUlBXdVlhallUQk1YN21yZGNRMkZRaWNVM01yMzRxN0laV2l4cmRLTDBkSjl2LTlNM2pvYkt1S19TelpUSTdKeE94Wm11YS1CRXFrcGJpSjlzVzhaaS1jeWZkSGtCcnU4VWNGZnhZNGdxZkZWV2lEOUh6Z3BPN3hKN2IzTlVCWkoxaTZab0thcUw3emdBQm5qX1pXQmNpX0JsZHZRLXBoQVlzRlNwZg?oc=5",
-      "published": "Mon, 02 Nov 2026 02:00:00 GMT",
-      "summary": "Tiger Brokers Brings Extended-Hours* US Options Trading to Investors Worldwide&nbsp;&nbsp;TradingView",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T10:00:00+08:00",
-      "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
-      },
-      "priority": 0.0,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "November 2026 Newsletter - Beehiiv",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VWUtVaUxLdkVNMUJyNzNtNVVwalI1Z2hiUWdlUmlXV1BPSzNOTjBNSFBETHlHbm5nbGtTb2xLR1AtRUp3eWFkZEdVbGhBNDJIbVFiNjZGeWVNaUwzM21HWTNIYWFtQQ?oc=5",
-      "published": "Mon, 02 Nov 2026 01:04:05 GMT",
-      "summary": "November 2026 Newsletter&nbsp;&nbsp;Beehiiv",
-      "source": "GNews | SG Economy",
-      "published_beijing": "2026-11-02T09:04:05+08:00",
-      "source_detail": {
-        "name": "Beehiiv",
-        "url": "https://joeychoy.beehiiv.com"
-      },
-      "priority": 0.0,
-      "category": "新加坡",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VWQy1ja0pYZnMwNjRsalVpOWNRdW1haW42N19VLU1PMlpMUVpkWHlKY3laUjRqQkdqRHJ5RW9reGxKQ0sxSkJGcDdPanZLWk5RM1A1ZEpka2pfR0xMazlUYmU0cFVQdEVZU2JydDNuSmVXOE1veDVkdWdjLUluUkxra2hIUzNyS0kxemU4Sk43SWc2elVhTERXSEpFM1BqTVh3dm13RFdIZVNvSFM1RE9PU2dJRDlMeVdKckg3WEw?oc=5",
-      "published": "Fri, 30 Oct 2026 15:49:43 GMT",
-      "summary": "China says stealth attack drone makes first takeoff, landing on amphibious ship&nbsp;&nbsp;ReutersChina's first ship-borne stealth combat drone makes flights from CNS Sichuan drone carrier&nbsp;&nbsp;China DailyChina Confirms GJ-21 UCAS Operations From Helicopter Carrier&nbsp;&nbsp;Aviation WeekChina Claims GJ-21 Naval UCAV has Flown from Type 076 Sichuan LHD&nbsp;&nbsp;The AviationistGJ-21 Stealth Drone: China Says It Flew From Type 076 Sichuan&nbsp;&nbsp;MiGFlug",
+      "title": "Hong Kong’s first national security law convict among 4 released early: sources - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTDlRMW41MERHMDdsc010MHlaeWhuc2pQaXN1M2haR3FjdDNQNzVNeFRwS1NYbmhDWF9GcGtRajYyQXhxUTNsWURBczZGVXpfR2dUOE5Qb09PYzlyU0pYd01MMXhNT0FwRXBHNlF1UFJ4YXY1SDBMaGVLRmZYSUQ1SUZwc2hQT3MxaWRBTmt5ZlhQaEV6aFZIQkd2SkstZk1GWjBoMDNka1lPTl8ycHl1a2NiU3RxMDRLREY1ajlZRmZRMzd2ZzluQkdrV0otd2hYSEJMUU5RdmtYd9IB2gFBVV95cUxOUmNEamdyN255MjQzU2JKNnpmNnBkZV9ISUNJUEJJdF90N1RXenN0LXlocGRhVXhqeUlDTjhoX2x2cWNfTXMxbElJWEtmT1VHRFlCdWg5SE00cWhJN0hVU0JIQ01QczNSRmlXZmVyaGZSQXA2N0ZVR2JrWTRFTFpybEgwN0VkZG1keG5QeWFrdjhVMW55aVNpZzRoSmNydkZrVFdnZXhKV3ZsOHlXVjNmZGx3U2RFNF94WFR1S29YcTQ2UEpTLUFFZnA0U19oOXNUMGNfb2d0TG1qdw?oc=5",
+      "published": "Mon, 02 Nov 2026 11:52:51 GMT",
+      "summary": "Hong Kong’s first national security law convict among 4 released early: sources&nbsp;&nbsp;South China Morning PostEx-Apple Daily publisher joins mainland China tour for rehabilitated offenders&nbsp;&nbsp;South China Morning PostEx-Apple Daily publisher joins mainland tour for ‘rehabilitated persons’, praises China in TV interview&nbsp;&nbsp;Hong Kong Free Press HKFP",
       "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-10-30T23:49:43+08:00",
+      "published_beijing": "2026-11-02T19:52:51+08:00",
       "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "HSBC expands artificial intelligence footprint across Asia with new Hong Kong institute - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUXh6d3lSdVhrNktNdXU1WFJOZ0I3Q2RCUmthZDd3TU9TaUl4TnJ0eGY5SkZTczFFZFUzdW5pSS1rU0tfNjRmcXdEWEREXzZlMEZKQXpsZlZDbE0xZXNpcTI5R0FLaHRESVRGa1BKSVhlM1V2Z3RFUU82aUlTczlRMlVRRW5sVUxmYXJwY3cxT2EyaERFR2p2d19KZDFPZFhBQUxPcmVFTUN1b2RFa0dTa1B4OXZDQWl3VnhHZ3pfU1ZwbnVodjJFS0FleFRUZWdzVGFrcDJFN3FfR1ZfUVVGMURqTWx0RmZNMmx4OGdSQjJhQWg3cnpUcW1idW4?oc=5",
+      "published": "Mon, 02 Nov 2026 11:28:01 GMT",
+      "summary": "HSBC expands artificial intelligence footprint across Asia with new Hong Kong institute&nbsp;&nbsp;ET CIO SEA",
+      "source": "GNews | SE Asia Tech",
+      "published_beijing": "2026-11-02T19:28:01+08:00",
+      "source_detail": {
+        "name": "ET CIO SEA",
+        "url": "https://ciosea.economictimes.indiatimes.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Daily News on Southeast Asia – 2 November 2026 - ISEAS – Yusof Ishak Institute",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JeHVIa2tOTy1wYmR5aEFHaXAxM0l0THotNkxISzZGdjMtTTF5X1ppb2gwTDlvS2JSNGdjNFlKTGExaVdSSlVtVkwtNWhpaWlKRDV6TTNYajlHa0pIeTJlUHJiT1JSbEVSczhIY0tOOA?oc=5",
+      "published": "Mon, 02 Nov 2026 10:02:22 GMT",
+      "summary": "Daily News on Southeast Asia – 2 November 2026&nbsp;&nbsp;ISEAS – Yusof Ishak Institute",
+      "source": "GNews | SCS/ASEAN",
+      "published_beijing": "2026-11-02T18:02:22+08:00",
+      "source_detail": {
+        "name": "ISEAS – Yusof Ishak Institute",
+        "url": "https://www.iseas.edu.sg"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Economic Letter from Asia: Asia in Clusters - Haver Analytics",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04cXBSU1lnM0ZlMTEycWFMejJETWl4UkRCc0ZRR1JOVUN5NnNUMHdJRVpxdUJHY3l6d3Nic19qOVV4TDNsaVdsTlVCemdKVnl0VlJXVEIyWGtMY3VoQUhQXy1abDUyQW9BR2t2eVJzTGRQb0ZELUNUQi1VV05sQQ?oc=5",
+      "published": "Mon, 02 Nov 2026 08:36:16 GMT",
+      "summary": "Economic Letter from Asia: Asia in Clusters&nbsp;&nbsp;Haver Analytics",
+      "source": "GNews | ID Economy",
+      "published_beijing": "2026-11-02T16:36:16+08:00",
+      "source_detail": {
+        "name": "Haver Analytics",
+        "url": "https://www.haver.com"
+      },
+      "priority": 0.0,
+      "category": "印尼",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Investor scrutiny of the AI spending boom is rising, but Big Tech is unlikely to give up - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb0Q5d3h4UzR3aUFET1J4Z2xfYXBGQ1BFQzJjTE41WDhxSEhVRGtZZGQ4QV8yMWF0WkFVSXNLbEZfTDVjdUF6c0xEOTRCNkFiVFBjb2ZSeFRsZDQ1VnFmczdSb1owNTVHbGM2SjFXMjdRY0pOQkJzUmZxbUp2cWVPeWFxMnR6dU9wSVZuTHlkY3Y2Rm12UzJYWGdDLVdDTU5zMlpCN3IzUm83Rk94ZUFWdFB3dzIwYld5RkZSNjd4ZTNnWmtUdzE0dHR6MmJRV0pkMkE?oc=5",
+      "published": "Mon, 02 Nov 2026 07:45:00 GMT",
+      "summary": "Investor scrutiny of the AI spending boom is rising, but Big Tech is unlikely to give up&nbsp;&nbsp;The Straits Times",
+      "source": "GNews | SG Economy",
+      "published_beijing": "2026-11-02T15:45:00+08:00",
+      "source_detail": {
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
+      },
+      "priority": 0.0,
+      "category": "新加坡",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Major milestones of Viet Nam’s economy in first ten months - en.baochinhphu.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbU1KMmRZZ0dTRmNQU3FhUVB3blkzbUh1bU55Y2FOX25sMFl2aWlJTWUySEpfMGNJcTQ3dEROVjZ0SXJ1UUZSMUdrSkxzSGt5NnBQNWZyLXA3eUMxUS1OcnFFVDZrTG9uT1FMUE82Ty1DUzRRU2w3N19SYmtCUUlmR21yMFhZTFVrWmZfcHJ4bkhYOFVra2xVZjJJcTBSdmFJbGEzcWlyOC0?oc=5",
+      "published": "Mon, 02 Nov 2026 04:28:00 GMT",
+      "summary": "Major milestones of Viet Nam’s economy in first ten months&nbsp;&nbsp;en.baochinhphu.vn",
+      "source": "GNews | VN Trade/FDI",
+      "published_beijing": "2026-11-02T12:28:00+08:00",
+      "source_detail": {
+        "name": "en.baochinhphu.vn",
+        "url": "https://en.baochinhphu.vn"
+      },
+      "priority": 0.0,
+      "category": "越南",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "#SHOWBIZ: 'A new rainbow': Social media personality Dr Fie marries Captain Amrul Nizar - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQlZYTmFDbTd0cmpBSFhVNjBRdXJGU0dxcXpzZ1VEUTdQRkQxUDl5X0VaT19VSWUzbTFFcld1SmtQc04zOEZKUGFuVW5TZXBMUWdYRTBaTTE3SERkeGl5UDZUbm4yTGNZbUw5am8wTG1velNyMkgzVUNkNnltaXdYTHNzclVfMDJlakZVUzNSdnZjSXZ5ZlUzeDIydUhCM05seW1OVjZ1NVJwdzNHUTJaaTVMcU9vZ9IBuwFBVV95cUxNQ2hlSkZIZHFGX1hXNzJYNUJGeDFhQk83R21HbXVkbExoNFhXMUF1NVpnYVYzYm1xeDRiTlkxODNseHl2bGViZWZvc1Z3S3UxOHF4WUZnZ2JkWWRta09pMHdvYmJwMmt3WG05b1BSTlRWaFpLazJ0UG9nVDJqMUtoZEF0MHJGRm9ZSk1sLWZnVXMyZEkyTjh0YTBHUjlZZmhhQ3ROblBSd0xrUy1ENTlGZ3BzbGhqb083dzdR?oc=5",
+      "published": "Mon, 02 Nov 2026 02:30:17 GMT",
+      "summary": "#SHOWBIZ: 'A new rainbow': Social media personality Dr Fie marries Captain Amrul Nizar&nbsp;&nbsp;NST Online",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T10:30:17+08:00",
+      "source_detail": {
+        "name": "NST Online",
+        "url": "https://www.nst.com.my"
+      },
+      "priority": 0.0,
+      "category": "专题精选",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Live updates: Haley Stevens defends her endorsement switch in interview with CNN | CNN Politics - CNN",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNelhBWlR1LWhxU3h1VVNReXppTlBIT3FGZWsxalhrUUJXZzFLVzF5V1ZaaFFXcFBxM0pBdUJ1MFo4bXZHSW9ZNDdxNkFtdlZtSG1zNVpxNzJacHExMkhlRERfRE9uRVdzelJxMUhjVDhENFc3dE9PQVJmT3FvbUtEYmNDbEhNdDJtTGhFcTNEOTJJYmtRVE5XVlNYQnRCR2NpdGtidGtmSnI0MlVhUEh2cGhCTQ?oc=5",
+      "published": "Mon, 02 Nov 2026 02:30:00 GMT",
+      "summary": "Live updates: Haley Stevens defends her endorsement switch in interview with CNN | CNN Politics&nbsp;&nbsp;CNN‘He would wind her up’: Democratic anger at Haley Stevens’ fiancé boils over after her endorsement reversal&nbsp;&nbsp;CNNUS midterms 2026 live: Final day of campaigning - follow latest&nbsp;&nbsp;BBCDemocratic divisions shake up key Michigan Senate race&nbsp;&nbsp;CNAHow Israel is at the heart of Haley Stevens’s extraordinary reversal&nbsp;&nbsp;The Guardian",
+      "source": "GNews Topic | WORLD(SG)",
+      "published_beijing": "2026-11-02T10:30:00+08:00",
+      "source_detail": {
+        "name": "CNN",
+        "url": "https://edition.cnn.com"
       },
       "priority": 0.0,
       "category": "专题精选",

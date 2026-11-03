@@ -1,15 +1,15 @@
 {
   "version": "4.0",
   "module": "中企海外动态",
-  "updated": "2026-11-02T04:53:49.973631+00:00",
-  "fetch_date_utc": "2026-11-02",
-  "total": 19,
+  "updated": "2026-11-03T05:43:27.503420+00:00",
+  "fetch_date_utc": "2026-11-03",
+  "total": 18,
   "high_priority": 0,
   "medium_priority": 2,
   "signal_alerts": {},
   "stats_by_category": {
     "新能源车+电池": {
-      "count": 13,
+      "count": 12,
       "feeds": 5
     },
     "半导体+科技": {
@@ -25,7 +25,7 @@
       "feeds": 3
     },
     "光伏+新能源": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "基建+工程": {
@@ -33,7 +33,7 @@
       "feeds": 2
     },
     "能源+资源": {
-      "count": 2,
+      "count": 0,
       "feeds": 2
     },
     "制造+消费": {
@@ -45,7 +45,7 @@
       "feeds": 1
     },
     "Track17重点27股监控": {
-      "count": 0,
+      "count": 2,
       "feeds": 13
     },
     "Track17行业竞争维度": {
@@ -65,241 +65,95 @@
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "China EV Startups' October Deliveries Diverge Sharply: Leapmotor Tops 100,000, Xiaomi and XPeng Cross 50,000 for First Time - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UcE5GZFlKSEwwYmsteFJVUnVrQlhRd01FX2FTbXBRaGliQ2VGN1JQSS02RnM2MDluRjJNNnhLcU9XMjNOZ2d4MC0tbmpvc0Q3aXhpVmJsSzE5NU5mTzFUMGNXbnFWczh5Z0VpVmhTeDVQNGg1WWc?oc=5",
-      "published": "Sun, 01 Nov 2026 08:56:10 GMT",
-      "summary": "China EV Startups' October Deliveries Diverge Sharply: Leapmotor Tops 100,000, Xiaomi and XPeng Cross 50,000 for First Time&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T16:56:10+08:00",
+      "title": "The One-Way Street Runs the Other Way: Clinton’s WTO Forecast and the BYD Reality - Defense.info",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRl9KUzgtdmpuejRoQjVUcTRabm9zSXhCMDgzTlVGNXNkWU0tbVBsLUFWUDRpd05hRUVGOURCMllsVWR3RWZKbi0yX0ZwSV9hbTZ5aVdfaDkxRkd3VEc4NjljMklNM1pkcUdjYlUwa0cwbEJjZDlVamtGSjQwVjY5aHFxNVlHUTBvR3h3WHFBck12aG0tZktJU2pYOEZlWHRwSHNlQWJXSnl6eHVFSHZMTmVOcnh2NnlvMkxFMGhPeGgxdw?oc=5",
+      "published": "Tue, 03 Nov 2026 04:52:17 GMT",
+      "summary": "The One-Way Street Runs the Other Way: Clinton’s WTO Forecast and the BYD Reality&nbsp;&nbsp;Defense.info",
+      "source": "GNews | BYD Overseas",
+      "published_beijing": "2026-11-03T12:52:17+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "Defense.info",
+        "url": "https://defense.info"
       },
-      "priority": 3.6,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Xpeng, Nio and Zeekr see strong delivery performance in October - The Standard (HK)",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR3ZuQmFCcWdXeEppaGpSYmhvbTI2VWJ1b05JM2h4WGVERHc1VmZvbXRTZy01cVdLcmlWajBBT3ZEaHozOEdSNVRIY0hpWUNZS2doRFVrLXVLVndaYjNCbXdpWHBTVjREQWlnMlhuaE5nSjlmcUY2SWlOTWhVdzZOYy05RWd4YTBxMUFJcmFZemRwT1lMZUxDSVNlVWhPalpLSXhHOVpPdFJSX0h6MTRLeVhLbUtYWVE?oc=5",
-      "published": "Sun, 01 Nov 2026 07:51:14 GMT",
-      "summary": "Xpeng, Nio and Zeekr see strong delivery performance in October&nbsp;&nbsp;The Standard (HK)",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T15:51:14+08:00",
-      "source_detail": {
-        "name": "The Standard (HK)",
-        "url": "https://www.thestandard.com.hk"
-      },
-      "priority": 3.6,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "XPeng tops 50,000 deliveries for the first time as Li Auto slips to 29,025 - GlobalChinaEV",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeFJRdlBlVjBOamh2TWFOVmtCYlAyc1B1NEp6ODVrVW53Vi1Gbm5lWEN3QnMzX3BIRDk5VUdaNWhwa2ZkYTVvU3FVUzA2bUpRalpPSFlSemFYaEpQRFA2ZzBpVVpqR1Q5dVZXNEh0VDBETUF4ZURldHV5eG40dVlta2Zxc0dwYnNvcUZodFNBa29jNUEzSWk2cEtQQzVnVUtjX0dlRnotWTFDU0E?oc=5",
-      "published": "Sun, 01 Nov 2026 12:42:19 GMT",
-      "summary": "XPeng tops 50,000 deliveries for the first time as Li Auto slips to 29,025&nbsp;&nbsp;GlobalChinaEV",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T20:42:19+08:00",
-      "source_detail": {
-        "name": "GlobalChinaEV",
-        "url": "https://www.globalchinaev.com"
-      },
-      "priority": 2.4,
+      "priority": 1.2,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Nio Inc. Deliveries Fall 15% as Main Brand Drops to 8-Month Low - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaVBzdHBraWRmX0h4ZjN1U2hXRVh5SGFIaGpaYlk3ekRYdVhBc01zdE5pd2M1XzNzelFueGs0bjEzTWs5dmlNZGV1azhzamxCMWc3SXV6Nkx0OXJzTzRWaUl0aVAxZ0NpbnZHVk50dDRoQlY0Mjd4UlZjRWRIRWl2WjJZRGwtSTJBTUxaVWVYM0RocWF1SGdqX3Jn?oc=5",
-      "published": "Sun, 01 Nov 2026 10:56:00 GMT",
-      "summary": "Nio Inc. Deliveries Fall 15% as Main Brand Drops to 8-Month Low&nbsp;&nbsp;Electric Vehicles",
+      "title": "Xpeng plans South Korea entry, appoints former Volvo exec to lead local business - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYVNLU29zTTJ5WFNReC1FUFdNeW9sMnEtQUJsNEs0aHVMMHFMMUg4ZkROel90b2hJU0tIT0VPQVdmamhlb1lKSXNyWHJtUnRtdWVsdXUzb0NtMXdUdU1Za250eHhGVmtJNUxJYlBJYnpIMEgtU3psTmlKRi1kQkpCazVVcmhab2pmdG1LOGlSZ3ZzLU0?oc=5",
+      "published": "Tue, 03 Nov 2026 02:20:00 GMT",
+      "summary": "Xpeng plans South Korea entry, appoints former Volvo exec to lead local business&nbsp;&nbsp;CnEVPost",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T18:56:00+08:00",
-      "source_detail": {
-        "name": "Electric Vehicles",
-        "url": "https://eletric-vehicles.com"
-      },
-      "priority": 2.4,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Global EV battery market share in January-September 2026: CATL 39.1%, BYD 15.2% - CnEVPost",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY1FESTJEcFJKV2xwaENrSGFXa29HdERlR3hTLVVBcTFycEpZMXBwQkVKcFdZSzRvdncwTTFjNGt0SWdXN29hODY0VFdjalhUa0loUWw0Y2N2UXQzTVQ5UlhQcmVKZTNKMmdlTV9XRC1hU0xYaUdtbi1seHhhNFlIVzFxNVdZdTg?oc=5",
-      "published": "Mon, 02 Nov 2026 03:40:00 GMT",
-      "summary": "Global EV battery market share in January-September 2026: CATL 39.1%, BYD 15.2%&nbsp;&nbsp;CnEVPost",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-11-02T11:40:00+08:00",
+      "published_beijing": "2026-11-03T10:20:00+08:00",
       "source_detail": {
         "name": "CnEVPost",
         "url": "https://cnevpost.com"
       },
-      "priority": 2.4,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "BYD added roughly 150,000 workers in 10 months despite falling vehicle sales - The Cool Down",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORU9MNU02X2l1cEZKQWEwQjNsbmNpV0d5V0ZzR1dZZEhhU3VSUVRQY0N4dEsxOHJIejctT3otX2dyWjdOOFJwMm1adTF0U2xRbTlDdm9KdnBLeENoRWxlV3RwQWxEb0pOTnhfMW15UUY5RWRGMnFaSGF2SUN2NkpGNG01LV9pNnJ4NElpUg?oc=5",
-      "published": "Sun, 01 Nov 2026 19:03:00 GMT",
-      "summary": "BYD added roughly 150,000 workers in 10 months despite falling vehicle sales&nbsp;&nbsp;The Cool Down",
-      "source": "GNews | BYD Overseas",
-      "published_beijing": "2026-11-02T03:03:00+08:00",
-      "source_detail": {
-        "name": "The Cool Down",
-        "url": "https://www.thecooldown.com"
-      },
       "priority": 1.2,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "BYD October sales rise 5.7% to 490,168, but 2026 total still trails last year - GlobalChinaEV",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZldueUVfR2hjcDFfT2x0NFJLdURhdUJVNnN6cnF3VlpYc0hmVXJEWUpDc1BxUWtGbWlONjRTRXNBWUo2OWJoVkczRk55ZjV4Y21mdFJ6TUJ3V3pBMEQ3UTNQS3hWYzNfcWhfaFhWSUszY1gweVRoQUdmSXZydG4zWnoxRVY3RDlMNUpBUzdfSkFhM3pNNENlR1FwSi1SS2R5UjNpMWNmZXByZ1o1?oc=5",
-      "published": "Sun, 01 Nov 2026 12:44:05 GMT",
-      "summary": "BYD October sales rise 5.7% to 490,168, but 2026 total still trails last year&nbsp;&nbsp;GlobalChinaEV",
+      "title": "Xpeng brings G9L to Hong Kong with extended-range powertrain after European launch - CnEVPost",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rdVlBNDB1OVFHMzlXdktHY081U216dW01NldaenEwZFRoZV91enotcFZhN0wySDlSLTBiQUdTRG5zVmtwZ2g0UmxNR0VMYTNleS1Sb2hQWjd1UzBpMlI1XzZIT01Ydw?oc=5",
+      "published": "Mon, 02 Nov 2026 07:35:00 GMT",
+      "summary": "Xpeng brings G9L to Hong Kong with extended-range powertrain after European launch&nbsp;&nbsp;CnEVPost",
       "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T20:44:05+08:00",
-      "source_detail": {
-        "name": "GlobalChinaEV",
-        "url": "https://www.globalchinaev.com"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "XPeng Sets Record With 50,237 Deliveries, Still Below Q4 Monthly Goal - Electric Vehicles",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZVB5eWZicFc2ZENsdG92MjlHTkVLbTQzRzBibjR5Ulp6UjRpQkpLOTdBcnhoQkxZWlRMYWk3a29kcmQ3dFltSkMtQUJHR24ydklIZ2ZDQk1sUHQxNm9GTDI1cFB2NlAtY0FyVkdPZUJGZmZsbjdGaDNpRDdxb1otQjVNcEtTaUR6UTFBVXF4UTlRNTdRZVAzWnJXcGc0a2hMbFJLTTh3?oc=5",
-      "published": "Sun, 01 Nov 2026 10:41:00 GMT",
-      "summary": "XPeng Sets Record With 50,237 Deliveries, Still Below Q4 Monthly Goal&nbsp;&nbsp;Electric Vehicles",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T18:41:00+08:00",
-      "source_detail": {
-        "name": "Electric Vehicles",
-        "url": "https://eletric-vehicles.com"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "State Grid Corporation of China Empowers China-Brazil Power Innovation Synergy and China’s Advanced Experience Supports Brazil’s Sustainable Energy Development - Black Hills Pioneer",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQalgyVDFzSVVWbmZpOUJWdFFSRklhOWRIQkhKUGJ6ZHpVMHhHcTJHMGdYMlRiMkJPTmhQYldScnhmYkxHZGxPR0VOenk5Q0Zwa050RXI3a1ZTVFFRUHZUdGxRQzBxOUN2Smx0Tm1rVDFoaVZrelFOc1E3TmNGaGprNEp0N24zUXllb0pCdUtyd29Wbm1DakRkSmR2dnRKWFZBMWZKdnpsRExwR0swV2ZPVWx2U09oUTBnVS1nZEJ2YXZWOVIxYTh5ZHM1R3VJNGkwaF8wVDJ3QWdYdkZHVHhiZFB5eUlxWU1LYk9ZaER0WV8yUGR1LW4talBLdFo3dzFjZEpuTk04QW5ndjN6UjQ5SXFYR2cwWi04?oc=5",
-      "published": "Sun, 01 Nov 2026 10:00:00 GMT",
-      "summary": "State Grid Corporation of China Empowers China-Brazil Power Innovation Synergy and China’s Advanced Experience Supports Brazil’s Sustainable Energy Development&nbsp;&nbsp;Black Hills Pioneer",
-      "source": "GNews | State Grid",
-      "published_beijing": "2026-11-01T18:00:00+08:00",
-      "source_detail": {
-        "name": "Black Hills Pioneer",
-        "url": "https://www.bhpioneer.com"
-      },
-      "priority": 1.2,
-      "category": "能源+资源",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Xiaomi Hits 50,000+ EV Deliveries in October [2026] - https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV1huUkxsMWRMZS1ISkxKZjF5azBRbmtROTljSENjdEdkMVN1MTNoSndPMzRacHZLbnZxaHN0dlhRVTFCREdCWEU4dEZBVS1jZ1V1MGM1WjNXUkNCNHZhblA0Wm1MSlJKSklYeVpkeEpPdkpranhHZ1JvMi0xTnMzZUZPYnhHU1g1QlE?oc=5",
-      "published": "Sun, 01 Nov 2026 08:06:05 GMT",
-      "summary": "Xiaomi Hits 50,000+ EV Deliveries in October [2026]&nbsp;&nbsp;https://tech-insider.org/",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T16:06:05+08:00",
-      "source_detail": {
-        "name": "https://tech-insider.org/",
-        "url": "https://tech-insider.org"
-      },
-      "priority": 1.2,
-      "category": "新能源车+电池",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Chery October sales rise 5.3% as NEVs hit record and exports top 200,000 again - CnEVPost",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yOHRRVTNSUWtONVliT2xNS0UzNjFmWENoenJHTTdweFJpX3luaHREUHpjZW1fZGh0blVacFg1MF91ajJMeHZON3F0Zm01MjlPZ0E3bTMxUVkyak1IRWM5c1lGcw?oc=5",
-      "published": "Sun, 01 Nov 2026 14:05:18 GMT",
-      "summary": "Chery October sales rise 5.3% as NEVs hit record and exports top 200,000 again&nbsp;&nbsp;CnEVPost",
-      "source": "GNews | XPeng/Li Auto",
-      "published_beijing": "2026-11-01T22:05:18+08:00",
+      "published_beijing": "2026-11-02T15:35:00+08:00",
       "source_detail": {
         "name": "CnEVPost",
         "url": "https://cnevpost.com"
       },
-      "priority": 0.0,
+      "priority": 1.2,
       "category": "新能源车+电池",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Massachusetts towns shoulder solar lawsuit costs: 'They are putting us into bankruptcy' - The Cool Down",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmwzRFRza090ODBTNmZseVpOVlZTMi0tNGItS1BkdmtaZzdYZ0JWMWMxTUhlbnNNUlg3MnBSNTRDWEdIZmhNSHd6dHpsLUtjVWN0d2c1U0xLQ1pqaEs0U2FZcHdDekJpUk5nLXN2dTRzNkxFTDk0ZTdkMk90Y0ZKTFRXSmxnVjRkNWtTNzQwaHo?oc=5",
-      "published": "Sun, 01 Nov 2026 07:09:00 GMT",
-      "summary": "Massachusetts towns shoulder solar lawsuit costs: 'They are putting us into bankruptcy'&nbsp;&nbsp;The Cool Down",
-      "source": "GNews | BYD Overseas",
-      "published_beijing": "2026-11-01T15:09:00+08:00",
+      "title": "Chinese turbine makers ride price advantages to global expansion: report - China Daily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5RnNtSVFxR0hfTXZZOUsyNElhZHg1TVptYS1wc0p0WS0xZG4xV2U1c0Q2UE1XejludWpLeWJITWRXQkZKRFdiZ2hOSjN3S2VndWtwMUxMV2l6aVRSSTc3LWtyYUhaMk1iNldiWk1DS3preEtSQktpNjUtdnZkdw?oc=5",
+      "published": "Tue, 03 Nov 2026 01:44:16 GMT",
+      "summary": "Chinese turbine makers ride price advantages to global expansion: report&nbsp;&nbsp;China Daily",
+      "source": "GNews | Wind Firms",
+      "published_beijing": "2026-11-03T09:44:16+08:00",
       "source_detail": {
-        "name": "The Cool Down",
-        "url": "https://www.thecooldown.com"
+        "name": "China Daily",
+        "url": "https://www.chinadaily.com.cn"
       },
       "priority": 0.0,
-      "category": "新能源车+电池",
+      "category": "光伏+新能源",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Chinese Battery Makers Capture 73% Share as South Korea's Big Three Slip to 12.6% - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xZDFTOXg2cVE3d3JTVy1qUzJYLTVJa2pUQ1A2RXhHUU15NmJOdlV1UE0xSDlKUWV6NXlJNWdTUFFNMkdUczUyRG1RdENOYVpRcm5BNHFZMUVzTzFsSTZqbGp4TGMta1J6bUVkZTBlamc5a3RCWXc?oc=5",
-      "published": "Mon, 02 Nov 2026 02:55:00 GMT",
-      "summary": "Chinese Battery Makers Capture 73% Share as South Korea's Big Three Slip to 12.6%&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-11-02T10:55:00+08:00",
+      "title": "Empyrean Buys 50.38% Stake in Easy-Logic to Boost China's Chip-Design Self-Sufficiency - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcHpob0lDNFpwMWRZeG5oMHp4TDlPMTRzMTFnMDRoNk5fSFJ4MjVVOG1yVzFNSHl6OGNqOVJkMWxjN3FOMlp0SDdMb2RQNUtJWFpXTTUxZnM4UG93eVhPTkozdDJiWmxXdjByZW9qeldfdUtrbXZaaldjSkkteTJEQWJETmh5SlNYN2ZYSUwtWm1OSkQ1clBjN2hjbVdTTFgtbVRFZHFVRnVwZw?oc=5",
+      "published": "Mon, 02 Nov 2026 14:04:04 GMT",
+      "summary": "Empyrean Buys 50.38% Stake in Easy-Logic to Boost China's Chip-Design Self-Sufficiency - News and Statistics&nbsp;&nbsp;IndexBox",
+      "source": "GNews | Naura T17",
+      "published_beijing": "2026-11-02T22:04:04+08:00",
       "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
+        "name": "IndexBox",
+        "url": "https://www.indexbox.io"
       },
       "priority": 0.0,
-      "category": "Track17行业竞争维度",
+      "category": "Track17重点27股监控",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Global EV Battery Market Grows 19.7%... Korean Big Three's Share Falls - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94Y25KYi1LTGVUcmhCWFlUTklwY1Z2MVFaT0gzaW9NclFiMDN0Ty1LVTRBcU9kZDFQejJWNEQ0S0tQYnIzUHUwMTNObkRfbFVsNlUtUEt3VERkTXRVYVhFaUJDZ284VzRUVkcxV1F0T015a2lvSkh0NQ?oc=5",
-      "published": "Mon, 02 Nov 2026 01:44:34 GMT",
-      "summary": "Global EV Battery Market Grows 19.7%... Korean Big Three's Share Falls&nbsp;&nbsp;아시아경제",
+      "title": "Chinese Battery Makers Capture 73% of Global EV Market While Korean Share Falls to 12.6% - Businesskorea",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EQU5RMk1yMWJaYTNUeGwyVnB4YzI1eUZGY2pzTV9QYXptMlBnaVdveVBFcEZrNkxNbWExTHJMRHUtalRISUNkV1J6RnRiR2RQTldZRTJYekRsa1R5REtvNl9RaGFIZGlqdEx6SVowT1U1N1hr?oc=5",
+      "published": "Mon, 02 Nov 2026 03:48:06 GMT",
+      "summary": "Chinese Battery Makers Capture 73% of Global EV Market While Korean Share Falls to 12.6%&nbsp;&nbsp;Businesskorea",
       "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-11-02T09:44:34+08:00",
+      "published_beijing": "2026-11-02T11:48:06+08:00",
       "source_detail": {
-        "name": "아시아경제",
-        "url": "https://www.asiae.co.kr"
-      },
-      "priority": 0.0,
-      "category": "Track17行业竞争维度",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Chinese battery makers grab 73% market share as Korean trio loses ground in North America - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPUzlXYm1GUFdyQkVLbXA1Z3pFc0dXUzRYbVJ2VDB3UVpFQzRXYm9jZmg2d2ViMVo3bjZaY0ZRcnprRVNjdkdLVGNfS3lmUVlmMm41YnNJdw?oc=5",
-      "published": "Mon, 02 Nov 2026 00:38:20 GMT",
-      "summary": "Chinese battery makers grab 73% market share as Korean trio loses ground in North America&nbsp;&nbsp;헤럴드경제",
-      "source": "GNews | T17 LFP技术",
-      "published_beijing": "2026-11-02T08:38:20+08:00",
-      "source_detail": {
-        "name": "헤럴드경제",
-        "url": "https://mbiz.heraldcorp.com"
+        "name": "Businesskorea",
+        "url": "https://www.businesskorea.co.kr"
       },
       "priority": 0.0,
       "category": "Track17行业竞争维度",

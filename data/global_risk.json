@@ -1,23 +1,23 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-11-02T04:53:46.560642+00:00",
-  "fetch_date_utc": "2026-11-02",
-  "total": 37,
+  "updated": "2026-11-03T05:43:24.444520+00:00",
+  "fetch_date_utc": "2026-11-03",
+  "total": 39,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 4,
+      "count": 5,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 1,
+      "count": 2,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 0,
+      "count": 1,
       "feeds": 3
     },
     "供应链风险+FCPA": {
@@ -25,7 +25,7 @@
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 0,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,19 +49,51 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 13,
+  "fail_feeds": 11,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade - The Jerusalem Post",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jYnVyM1pEai1RMXRsMUZaUDFIdVBEd0Rwa1hJUmFqeXcxcmtxZ1pneDM2YWtNZ01RY1pWeUkwNzZTZ3FkdmZfSUJIbEc3VHphNWE3YnJLTkxwREZEVUJBN0UwVkpScG05ZFE?oc=5",
-      "published": "Sun, 01 Nov 2026 14:34:36 GMT",
-      "summary": "Iran has a hidden network of military agencies managing to smuggle hardware past US blockade&nbsp;&nbsp;The Jerusalem Post",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-11-01T22:34:36+08:00",
+      "title": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln - EnergyNow.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3JoMW41OTJndjZkRnhkeWxxUmhDRE5LU3VkdTBrQXZGLXVKQXVSTkQ1d2F1SEcxT1BBczJPTlRBWk40QW81VEh2LUxHVjQ5OEpDX0d5YkVxZ3RaQklCZGlyZGRoRk02dW41LXNpQmZiMFpWQUFnc1JUMjJmZ2ZUTWF3TDM0LVBPeGZWbTk3czRVVGFSdWFBZjlETjFIcWtSbGVuWEt3ZzBjVUww?oc=5",
+      "published": "Sun, 01 Nov 2026 05:03:45 GMT",
+      "summary": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln&nbsp;&nbsp;EnergyNow.com",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-11-01T13:03:45+08:00",
       "source_detail": {
-        "name": "The Jerusalem Post",
-        "url": "https://www.jpost.com"
+        "name": "EnergyNow.com",
+        "url": "https://energynow.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Treasury Proposes Expanded Outbound Investment Rules: What Investors in Critical Technologies Need to Know - JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVWJoN0k4eFE3UWhPb3c3Z3YtMUF0eHBTNlhvdkdUNW4ydlNNYS1yTFAtSTgxbk12VzV0eldOYWRZSEYzMUIta1VlZWxLQmNJTjJ6dzF4MWVHRGhPLW55S3VldXZoS2pybm1VY0RidElzX3I4ZEI3LUhLWHNtTDcyVk1Mb2Q?oc=5",
+      "published": "Mon, 02 Nov 2026 19:33:57 GMT",
+      "summary": "Treasury Proposes Expanded Outbound Investment Rules: What Investors in Critical Technologies Need to Know&nbsp;&nbsp;JD Supra",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-11-03T03:33:57+08:00",
+      "source_detail": {
+        "name": "JD Supra",
+        "url": "https://www.jdsupra.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Russian Oil Tracker — October 2026: Despite Multi-Year Low Export Volumes Higher Global Prices Lifted Russia’s Oil Export Revenues by 25% - kse.ua",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc3VFa2VoVXU3Y3ZVNVZxS1J6THpkMmFyengzR3BhQXA0TVRPUmRLZWhreWtwaUhUeVVZQnpxNTM3V1FMdGU2QVdabzNkM1VDVWgwb2dGNi1wRzhiRms5ZHdSWXBpTTl3ZTU2MUl1NmpTNVJLVE8zU1phTXM5ZC1OcEJ5Y0pKeV9iVnVFMncxTFV1WWlqVzd5eGlQNTBPd0JUSXdac1FXUXVia2JhenI4Zk9NTW9RMmRrNlIxcm00ZEs1YzA1ZGhkWk8zSERoU0RXdGJwemZNT0FZV0VXLUxIZnRZY3c?oc=5",
+      "published": "Mon, 02 Nov 2026 19:07:11 GMT",
+      "summary": "Russian Oil Tracker — October 2026: Despite Multi-Year Low Export Volumes Higher Global Prices Lifted Russia’s Oil Export Revenues by 25%&nbsp;&nbsp;kse.ua",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-11-03T03:07:11+08:00",
+      "source_detail": {
+        "name": "kse.ua",
+        "url": "https://kse.ua"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -69,47 +101,62 @@
       "relevance": "low"
     },
     {
-      "title": "Weekly Update 528: Reading AI-generated Code & the Economics of Solar",
-      "link": "https://www.troyhunt.com/weekly-update-528/",
-      "published": "Sun, 01 Nov 2026 07:35:23 GMT",
-      "summary": "By pure timing coincidence, the Proton CEO&apos;s AI @ Proton, Engineering Manifesto made headlines around the same time as this week&apos;s video. The guy&apos;s management style and choice of language have really rubbed a lot of people up the wrong way, and deservedly so, IMHO.",
-      "source": "Troy Hunt",
-      "full_text": "By pure timing coincidence, the Proton CEO's AI @ Proton, Engineering Manifesto made headlines around the same time as this week's video. The guy's management style and choice of language have really rubbed a lot of people up the wrong way, and deservedly so, IMHO. However... this section of his screed really resonated with me:Your job has fundamentally changed. It is no longer to write code, and LLMs are not here to help you write better code faster. Your job is to help the LLM write better code faster.Dev jobs as we know them are gone. Dead. And if you disagree, you're in for a shock in the very near future. But at the same time:\n\nI don't remember the last time tech has been this exciting. It's white hot right now. Anyone who loves technology and computers is probably having a great time right now.— Jack Rhysider 🏴‍☠️ (@JackRhysider) October 30, 2026\n\n\nYes! This! Not handwriting code \"old school\" isn't something to lament; rather, our unprecedented ability to innovate, create and build things that are meaningful to us is something to be enormously excited about. Anyway, on that topic:",
-      "published_beijing": "2026-11-01T15:35:23+08:00",
-      "priority": 0.0,
-      "category": "安全与隐私RSS(D)",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Strait of Hormuz: Geopolitical Escalation - Energy Security and the Restructuring of Global Supply Chains - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNHViNzhtcjRHZkluNmRkMVdlekxMTWlDdGZxdUg2ZkFwZS1GbmZFVUJSWnFPNUxDdTN4UGxRUjlvWXBXNXk1LWt4WHRDb3MwdEk4Tjk4OXZFbnJIODk3RkprcjNvNm81YW9QcldZZmhEWS1PTUcwVVJHQ0t0dWNrRzRPamw4NlFiZHoyMjA4RTlackREQXZUWHVISjh0alJ5d19qeHJBQU5VdXEtS05ULVljOG1TNDB0OUUxMmQ2U0ZlTm9TbGwtWllESjI5QWk3TGc?oc=5",
-      "published": "Sat, 31 Oct 2026 16:47:48 GMT",
-      "summary": "Strait of Hormuz: Geopolitical Escalation - Energy Security and the Restructuring of Global Supply Chains&nbsp;&nbsp;https://debuglies.com",
-      "source": "GNews | SC Disruption",
-      "published_beijing": "2026-11-01T00:47:48+08:00",
-      "source_detail": {
-        "name": "https://debuglies.com",
-        "url": "https://debuglies.com"
-      },
-      "priority": 0.0,
-      "category": "供应链风险+FCPA",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The EU will tighten regulations for screening foreign investment starting in 2028. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3hLM1pWUHJicDNMb1gzNW9OME1FNmhsd3pSZ0N5TzJlYXl2aGI4X3BoYU1RLWltLW1sTjg5bjJPSU4tbkY4TWZTUC1YR0N4ajR3Q05VMWNTdmFrTDRKQ1A4U2RERm5na24ybUtxVy1ORlhPX2hLN0lETHg3c1l6NGQ5M2Z1UzJq?oc=5",
-      "published": "Mon, 02 Nov 2026 00:21:00 GMT",
-      "summary": "The EU will tighten regulations for screening foreign investment starting in 2028.&nbsp;&nbsp;Vietnam.vn",
+      "title": "Freemelt resolves on a fully guaranteed rights issue of approximately SEK 152 million - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbXA2ZllCMF9vbk4yVnJzZmNBT2pmbFVBTEowd01kcnZ5RmI5bWo5azJrLUVxOGxKZ0lDRWlheHdlTGlIWWw4aEstakVmY3ZyYlhaeTlUX0FWT2Z4Q29NY1FCTGdHYXBxTmZJZnhPUWxla3N1QjhvcTFUMDNSNWdWd0VUVjdfU1VOYlJ3RVBlc1JubllVMU5SWFF2a1Z4N2lkUmVVM2ZtVklPRE5IcXFrRHBoQmJjVl80dEtiNVozMnlhUFZuOXBkRlFxQWRSQ0EzNXp0YTVMRGxsRG9VMkc1eVp5RGRVUQ?oc=5",
+      "published": "Mon, 02 Nov 2026 17:32:00 GMT",
+      "summary": "Freemelt resolves on a fully guaranteed rights issue of approximately SEK 152 million&nbsp;&nbsp;TradingView",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-11-02T08:21:00+08:00",
+      "published_beijing": "2026-11-03T01:32:00+08:00",
       "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "TradingView",
+        "url": "https://www.tradingview.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Six financial crime key updates you missed this month - Lexology",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPemdzTnRmbXc4OUFsa1BuUFdXc1hEdUpDUG5YSjhRd091OElTVUg1eUF1QklTWnZDMENMTENMcGtibktZeXo0VEVJN19UTWkxOGxVYm5oYzFEcVA3Wk1nNmpzMUJVOHJGcDlxWGEtdmtMRUw4U3ZMVWpWazlYbE9ZTzRxaGRFaDBWZGhCN0JB?oc=5",
+      "published": "Mon, 02 Nov 2026 11:03:33 GMT",
+      "summary": "Six financial crime key updates you missed this month&nbsp;&nbsp;Lexology",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-11-02T19:03:33+08:00",
+      "source_detail": {
+        "name": "Lexology",
+        "url": "https://www.lexology.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Chinese trader with history of defaults draws scrutiny over Russian oil deals - EU Reporter",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRVY3dGNKM2FkRjdqbmRTSGdIRThaSTRfVlQ3ZmpKRnpfd3RJcDNKYzVsSU9BQ3Qtby1IdGhfSTFNQTR6akRzSUZYZGhhOFNuZGx1ejhyY1FuODg3c3M1ZUN1dUE1N3FXWUtNUEFYV0ZxNURzSGF4X04wQlFRLUhXdUpKUnJLMG43OElZVW1nRW5PMC1McFFXN0s1NTRhMDV6T3FwTU9INUNKTng2WUZPZUV6MEV4WVJ4a01PS1BoVWYtdFUyZWVB?oc=5",
+      "published": "Mon, 02 Nov 2026 09:48:17 GMT",
+      "summary": "Chinese trader with history of defaults draws scrutiny over Russian oil deals&nbsp;&nbsp;EU Reporter",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-11-02T17:48:17+08:00",
+      "source_detail": {
+        "name": "EU Reporter",
+        "url": "https://www.eureporter.co"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "AI Vulnerability Finding",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+      "published": "2026-11-02T12:02:34Z",
+      "summary": "A comment:\n3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?\nYes. It is a new world out there.",
+      "source": "Schneier on Security",
+      "published_beijing": "2026-11-02T20:02:34+08:00",
+      "priority": 0.0,
+      "category": "安全与隐私RSS(D)",
       "_incremental": "new",
       "relevance": "low"
     }
