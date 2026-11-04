@@ -1,31 +1,31 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-11-03T05:43:24.444520+00:00",
-  "fetch_date_utc": "2026-11-03",
-  "total": 39,
+  "updated": "2026-11-04T05:36:00.776113+00:00",
+  "fetch_date_utc": "2026-11-04",
+  "total": 44,
   "high_priority": 0,
   "medium_priority": 0,
   "signal_alerts": {},
   "stats_by_category": {
     "制裁+清单": {
-      "count": 5,
+      "count": 4,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 2,
+      "count": 4,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 1,
+      "count": 3,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 2,
+      "count": 4,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 1,
+      "count": 2,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,67 +49,19 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 11,
+  "fail_feeds": 10,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln - EnergyNow.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3JoMW41OTJndjZkRnhkeWxxUmhDRE5LU3VkdTBrQXZGLXVKQXVSTkQ1d2F1SEcxT1BBczJPTlRBWk40QW81VEh2LUxHVjQ5OEpDX0d5YkVxZ3RaQklCZGlyZGRoRk02dW41LXNpQmZiMFpWQUFnc1JUMjJmZ2ZUTWF3TDM0LVBPeGZWbTk3czRVVGFSdWFBZjlETjFIcWtSbGVuWEt3ZzBjVUww?oc=5",
-      "published": "Sun, 01 Nov 2026 05:03:45 GMT",
-      "summary": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln&nbsp;&nbsp;EnergyNow.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-11-01T13:03:45+08:00",
-      "source_detail": {
-        "name": "EnergyNow.com",
-        "url": "https://energynow.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Treasury Proposes Expanded Outbound Investment Rules: What Investors in Critical Technologies Need to Know - JD Supra",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVWJoN0k4eFE3UWhPb3c3Z3YtMUF0eHBTNlhvdkdUNW4ydlNNYS1yTFAtSTgxbk12VzV0eldOYWRZSEYzMUIta1VlZWxLQmNJTjJ6dzF4MWVHRGhPLW55S3VldXZoS2pybm1VY0RidElzX3I4ZEI3LUhLWHNtTDcyVk1Mb2Q?oc=5",
-      "published": "Mon, 02 Nov 2026 19:33:57 GMT",
-      "summary": "Treasury Proposes Expanded Outbound Investment Rules: What Investors in Critical Technologies Need to Know&nbsp;&nbsp;JD Supra",
-      "source": "GNews | CN Company Sanctions",
-      "published_beijing": "2026-11-03T03:33:57+08:00",
-      "source_detail": {
-        "name": "JD Supra",
-        "url": "https://www.jdsupra.com"
-      },
-      "priority": 0.0,
-      "category": "中国企业视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russian Oil Tracker — October 2026: Despite Multi-Year Low Export Volumes Higher Global Prices Lifted Russia’s Oil Export Revenues by 25% - kse.ua",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc3VFa2VoVXU3Y3ZVNVZxS1J6THpkMmFyengzR3BhQXA0TVRPUmRLZWhreWtwaUhUeVVZQnpxNTM3V1FMdGU2QVdabzNkM1VDVWgwb2dGNi1wRzhiRms5ZHdSWXBpTTl3ZTU2MUl1NmpTNVJLVE8zU1phTXM5ZC1OcEJ5Y0pKeV9iVnVFMncxTFV1WWlqVzd5eGlQNTBPd0JUSXdac1FXUXVia2JhenI4Zk9NTW9RMmRrNlIxcm00ZEs1YzA1ZGhkWk8zSERoU0RXdGJwemZNT0FZV0VXLUxIZnRZY3c?oc=5",
-      "published": "Mon, 02 Nov 2026 19:07:11 GMT",
-      "summary": "Russian Oil Tracker — October 2026: Despite Multi-Year Low Export Volumes Higher Global Prices Lifted Russia’s Oil Export Revenues by 25%&nbsp;&nbsp;kse.ua",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-11-03T03:07:11+08:00",
-      "source_detail": {
-        "name": "kse.ua",
-        "url": "https://kse.ua"
-      },
-      "priority": 0.0,
-      "category": "制裁+清单",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Freemelt resolves on a fully guaranteed rights issue of approximately SEK 152 million - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbXA2ZllCMF9vbk4yVnJzZmNBT2pmbFVBTEowd01kcnZ5RmI5bWo5azJrLUVxOGxKZ0lDRWlheHdlTGlIWWw4aEstakVmY3ZyYlhaeTlUX0FWT2Z4Q29NY1FCTGdHYXBxTmZJZnhPUWxla3N1QjhvcTFUMDNSNWdWd0VUVjdfU1VOYlJ3RVBlc1JubllVMU5SWFF2a1Z4N2lkUmVVM2ZtVklPRE5IcXFrRHBoQmJjVl80dEtiNVozMnlhUFZuOXBkRlFxQWRSQ0EzNXp0YTVMRGxsRG9VMkc1eVp5RGRVUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 17:32:00 GMT",
-      "summary": "Freemelt resolves on a fully guaranteed rights issue of approximately SEK 152 million&nbsp;&nbsp;TradingView",
+      "title": "Ireland - Market Insights - The Global Legal Post",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWFlfNUlmMHJlZFhqRlVPZjd5NW0ydmNhU291Ry11Tm9Ya3pOWjhVVXhseHZNWGRYbk1xTFJsc0U0MTlpMmN4dDJWZVRzcklHcG4tZ2xsM0dmamhnRzlJLU1ZbXMydjlwTnhCUEx6azJKX3FlZWRTa3g0azlWZzAwQU55dHZKc0dKSDY0QmNqenEtSExDRXRKRWxkbUlXVTVkS0NoNGJIdVktcS1rZHQ2NkpOdzNwS3lFU3k2Y05NZlY5cmZn?oc=5",
+      "published": "Wed, 04 Nov 2026 02:28:52 GMT",
+      "summary": "Ireland - Market Insights&nbsp;&nbsp;The Global Legal Post",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-11-03T01:32:00+08:00",
+      "published_beijing": "2026-11-04T10:28:52+08:00",
       "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
+        "name": "The Global Legal Post",
+        "url": "https://www.globallegalpost.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -117,31 +69,143 @@
       "relevance": "low"
     },
     {
-      "title": "Six financial crime key updates you missed this month - Lexology",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPemdzTnRmbXc4OUFsa1BuUFdXc1hEdUpDUG5YSjhRd091OElTVUg1eUF1QklTWnZDMENMTENMcGtibktZeXo0VEVJN19UTWkxOGxVYm5oYzFEcVA3Wk1nNmpzMUJVOHJGcDlxWGEtdmtMRUw4U3ZMVWpWazlYbE9ZTzRxaGRFaDBWZGhCN0JB?oc=5",
-      "published": "Mon, 02 Nov 2026 11:03:33 GMT",
-      "summary": "Six financial crime key updates you missed this month&nbsp;&nbsp;Lexology",
-      "source": "GNews | OFAC",
-      "published_beijing": "2026-11-02T19:03:33+08:00",
+      "title": "iShares J.P. Morgan EM High Yield Bond ETF (Cboe BZX:EMHY) How Sovereign and Corporate Borrowers Combine in High Yield Debt - Kalkine",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPOHB4OXpFR3p6V1FYc2NwV3oxZ3VjTi1TY2djNDM0Yk1aXzV3bzdpbFluVHJzTTRUSGlHRXBQZXhOb2JqTHByX1BoTnhqc3RMMDQ1Rjlod2xRRFF6YW5XUFE4N2RoaXRmT1Rjek9YT0ItVEw5RWxqdnNLMkZNdW9YRFpwWFF3R2R6bXotZUpWOFF6ZGpYQkJ2RVdiUGxfQjU1V0pNSWZWVlA3a2Z3cW8xaGt3VW5qanUzVU44NjFra1JIbHJTX3FsSTl5NTd5eTRnVTE5T1RHUE5rMnBPYVRiSVVvZmRRX1B5QVBOZGtCak50SHBxclZV?oc=5",
+      "published": "Wed, 04 Nov 2026 01:07:00 GMT",
+      "summary": "iShares J.P. Morgan EM High Yield Bond ETF (Cboe BZX:EMHY) How Sovereign and Corporate Borrowers Combine in High Yield Debt&nbsp;&nbsp;Kalkine",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-11-04T09:07:00+08:00",
+      "source_detail": {
+        "name": "Kalkine",
+        "url": "https://kalkine.com.au"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Trade Lawsuit Argentina 2026: Your Complete Claimant Guide - LawFold.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5b3NWV3RVVHNxQmx3TmdoUEN5OTJRWXFubUVoSGNXUm9XbWNOLU5GdldPbWc5VDEzMUtqTEFyTWswdlVST0p5NE5BbDZkWElHSjFySmo4bEdJWDRnZUE?oc=5",
+      "published": "Tue, 03 Nov 2026 19:51:32 GMT",
+      "summary": "Trade Lawsuit Argentina 2026: Your Complete Claimant Guide&nbsp;&nbsp;LawFold.com",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-11-04T03:51:32+08:00",
+      "source_detail": {
+        "name": "LawFold.com",
+        "url": "https://lawfold.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "EurECCA urges the EU not to loosen airline ownership rules - Aviacionline",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcDIwYU1valdfamxUSWZLclZIVGRyUDhHQzcySkM0UzV3dGF6SWpBTE10SlQ5WkJMcTNEeTlvN2l6QXhQMW52VWw1dmktZWJ1Z1NTTXh1NzFrVWJVNWMwTG5oYi05Zll0RFdrWTFIazZsWDFLUkc2RmZ4WDhSOWswcloyb3dmZ2xGVkRVQTBzaHhQLTdJUTRFUGRHZnBIM3BzT09JU3NRa1laWnU0aU5LRVM5V1h0WmRQTEZtQThYbGtJQkJUODlnak03V1IxNkdMTU5RaEQzLXVHRDl5dTk2bDVB?oc=5",
+      "published": "Tue, 03 Nov 2026 13:58:41 GMT",
+      "summary": "EurECCA urges the EU not to loosen airline ownership rules&nbsp;&nbsp;Aviacionline",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-11-03T21:58:41+08:00",
+      "source_detail": {
+        "name": "Aviacionline",
+        "url": "https://www.aviacionline.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Vietnam’s Trade Tops US$1 Trillion in 10 Months: What It Means for Foreign Investors - Vietnam Briefing",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRUxXTXBCM1hFMmtfdmtLQ0djdHVuUmhyWFd4ZzZlc3JXbFk0SUZ1aTMwOHk0c0RSQ3FMMjVFSS05Qlk0X2VpZWFjSldfNDhKV3lJN0dsMFFkaEotRGlwUzVRUUN0dUNUZjQ3QW5JaXNXRENsYmtUYTY5TzdDR1RrdWNR?oc=5",
+      "published": "Tue, 03 Nov 2026 13:09:01 GMT",
+      "summary": "Vietnam’s Trade Tops US$1 Trillion in 10 Months: What It Means for Foreign Investors&nbsp;&nbsp;Vietnam Briefing",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-11-03T21:09:01+08:00",
+      "source_detail": {
+        "name": "Vietnam Briefing",
+        "url": "https://www.vietnam-briefing.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Data centres: Mitigating risks during times of conflict - Marsh",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUFrSXlqX1pHMmQwTy1OOWFkR2xaX0p3cXB3ZHRFZEdQTzNCVW1ZbUlMU2lsVC1vWnJTbEUyNzJYdGdULTBpcjBfaURMWTdrbDVBc3VfZHB5NTNHNzl1eTlBMEhiSUJmZVdBT3g1YTk5Wk9NV05sUUxHNVpGNXNLazRTbjczUnlmdmNremdlSG96MWR2UzlWTXlETVQybEJPVGdlS0h3RkcwVXV0Z2Z4cTFybTB1N2JuWXdxaQ?oc=5",
+      "published": "Tue, 03 Nov 2026 11:27:47 GMT",
+      "summary": "Data centres: Mitigating risks during times of conflict&nbsp;&nbsp;Marsh",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-11-03T19:27:47+08:00",
+      "source_detail": {
+        "name": "Marsh",
+        "url": "https://www.marsh.com"
+      },
+      "priority": 0.0,
+      "category": "供应链风险+FCPA",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The 50% Rule Is Paused, but Chinese Law Is Waiting - Lexology",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYW9FYXhVay1YMWFadnV5V2ZiT3lkc2JxV1lSTWkwZkEtSVJDbmtLYUpzN0xJRWFlSllHY3lyZEduNk5ERzlUb1ZwdDE2eU5xbjZnRUxOVHVuUnYyckxjRGxueFdXdlVsMjAzbWZxODRxNmZvaDlEZTVDTnplYkliVjZYOVYyM1p5V1Uw?oc=5",
+      "published": "Tue, 03 Nov 2026 10:50:59 GMT",
+      "summary": "The 50% Rule Is Paused, but Chinese Law Is Waiting&nbsp;&nbsp;Lexology",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-11-03T18:50:59+08:00",
       "source_detail": {
         "name": "Lexology",
         "url": "https://www.lexology.com"
       },
       "priority": 0.0,
-      "category": "制裁+清单",
+      "category": "中国企业视角",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Chinese trader with history of defaults draws scrutiny over Russian oil deals - EU Reporter",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRVY3dGNKM2FkRjdqbmRTSGdIRThaSTRfVlQ3ZmpKRnpfd3RJcDNKYzVsSU9BQ3Qtby1IdGhfSTFNQTR6akRzSUZYZGhhOFNuZGx1ejhyY1FuODg3c3M1ZUN1dUE1N3FXWUtNUEFYV0ZxNURzSGF4X04wQlFRLUhXdUpKUnJLMG43OElZVW1nRW5PMC1McFFXN0s1NTRhMDV6T3FwTU9INUNKTng2WUZPZUV6MEV4WVJ4a01PS1BoVWYtdFUyZWVB?oc=5",
-      "published": "Mon, 02 Nov 2026 09:48:17 GMT",
-      "summary": "Chinese trader with history of defaults draws scrutiny over Russian oil deals&nbsp;&nbsp;EU Reporter",
-      "source": "GNews | EU Sanctions",
-      "published_beijing": "2026-11-02T17:48:17+08:00",
+      "title": "India LNG Imports Face Gulf Risk as Petronet Seeks US Supply - Urban Acres",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQnVscnBiSDltV21jNzY4dHlJVUZPaG1tby1GMU5BeGZhN1Jad1RIdG5pNnJDTXBIM05sMERyaFh0NklZNEdFOWdrX0xqMjBMdElmT3Zxd0tvOVFhSGpxaG9qeUxSSXV1alUyTnF2WTlRWTlHcWRhWUJiaHNidEx6UDhwbkV5bFpnR3Rn?oc=5",
+      "published": "Tue, 03 Nov 2026 10:46:42 GMT",
+      "summary": "India LNG Imports Face Gulf Risk as Petronet Seeks US Supply&nbsp;&nbsp;Urban Acres",
+      "source": "GNews | SC Disruption",
+      "published_beijing": "2026-11-03T18:46:42+08:00",
       "source_detail": {
-        "name": "EU Reporter",
-        "url": "https://www.eureporter.co"
+        "name": "Urban Acres",
+        "url": "https://urbanacres.in"
+      },
+      "priority": 0.0,
+      "category": "供应链风险+FCPA",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Moody's Downgrades Senegal Sovereign Rating to Ca - Dabafinance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc0E2ODZUUmF1VEE2X2R2U0xkNDNkVktyRFo1MFgxWl83UmlyM1FaTUlRaTcxWUZJVVktbFlaenBhcncxOVF3ODRXTE5wR3lZZjU5TS1QVW1xTTI3bk5senRhRHpMU2gyTFVrYmtBOUtRT1ljc3lFa0RvcWNaYTJ5VFc0UjVvUVVVb0tZY01UM3V6ZTBxbjRj?oc=5",
+      "published": "Tue, 03 Nov 2026 06:53:00 GMT",
+      "summary": "Moody's Downgrades Senegal Sovereign Rating to Ca&nbsp;&nbsp;Dabafinance",
+      "source": "GNews | Sovereign Default",
+      "published_beijing": "2026-11-03T14:53:00+08:00",
+      "source_detail": {
+        "name": "Dabafinance",
+        "url": "https://dabafinance.com"
+      },
+      "priority": 0.0,
+      "category": "资本管制+主权风险",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How to Secure Advanced U.S. Chips — Institute for AI Policy and Strategy - Export Compliance Daily",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85N0lUamlENnVHRWlvVUxkRkxfYXg5M2pyalhTalo4WEcwWEQwZkFjSWVHLVBwcDByczBCa3FMRE83VkFDT0ZBWjdFYlNTVFI0VjBfekRkTzVDTjUzUXotaGowTmd2eXBreHN6LVViemhhbTdlTnFn?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "summary": "How to Secure Advanced U.S. Chips — Institute for AI Policy and Strategy&nbsp;&nbsp;Export Compliance Daily",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-11-02T16:00:00+08:00",
+      "source_detail": {
+        "name": "Export Compliance Daily",
+        "url": "https://exportcompliancedaily.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -149,12 +213,13 @@
       "relevance": "low"
     },
     {
-      "title": "AI Vulnerability Finding",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-      "published": "2026-11-02T12:02:34Z",
-      "summary": "A comment:\n3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?\nYes. It is a new world out there.",
+      "title": "AIs Hacking the Law",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "published": "2026-11-03T12:01:00Z",
+      "summary": "In both a 2021 essay and my 2022 book, A Hacker&#8217;s Mind, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.\nHere&#8217;s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With ...",
       "source": "Schneier on Security",
-      "published_beijing": "2026-11-02T20:02:34+08:00",
+      "full_text": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system.\nHere’s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change.\nIn testing this hypothesis, we have identified a substantial number of vulnerabilities in the German legal system using LLMs. To our knowledge, none of these have been previously recorded. We share a selection of vulnerabilities below, and present potential exploits for each. We share only those vulnerabilities whose exploitation we believe would not cause serious harm.\nWe believe that with cheap legal reasoning proliferating, AI systems could jeopardize the functioning of today’s legal systems. In such a world, lawmakers would need to significantly harden the process of legislation, for example by leveraging advanced AI themselves.\nStill in its early stages, but definitely something that’s coming.",
+      "published_beijing": "2026-11-03T20:01:00+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",

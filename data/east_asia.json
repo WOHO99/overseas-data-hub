@@ -1,42 +1,42 @@
 {
   "version": "4.0",
   "module": "东亚深度",
-  "updated": "2026-11-03T05:43:22.036306+00:00",
-  "fetch_date_utc": "2026-11-03",
-  "total": 115,
-  "high_priority": 11,
-  "medium_priority": 54,
+  "updated": "2026-11-04T05:36:03.585022+00:00",
+  "fetch_date_utc": "2026-11-04",
+  "total": 102,
+  "high_priority": 9,
+  "medium_priority": 42,
   "signal_alerts": {
     "record high": 1,
     "unprecedented": 1
   },
   "stats_by_category": {
     "日本": {
-      "count": 25,
-      "feeds": 3
-    },
-    "韩国": {
       "count": 20,
       "feeds": 3
     },
+    "韩国": {
+      "count": 13,
+      "feeds": 3
+    },
     "朝鲜半岛": {
-      "count": 6,
+      "count": 4,
       "feeds": 1
     },
     "政治+社会": {
-      "count": 28,
+      "count": 34,
       "feeds": 3
     },
     "基础设施+科技": {
-      "count": 30,
+      "count": 26,
       "feeds": 2
     },
     "气候+人口": {
-      "count": 1,
+      "count": 3,
       "feeds": 3
     },
     "大国关系": {
-      "count": 6,
+      "count": 3,
       "feeds": 3
     },
     "本地语言搜索": {
@@ -56,529 +56,270 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 11,
-  "rate_limited_feeds": 0,
+  "fail_feeds": 10,
+  "rate_limited_feeds": 1,
   "articles": [
     {
-      "title": "South Korea's \"K-shaped\" economic rift: Semiconductor boom distorts household finances and fiscal metrics - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UeExDSmhpR0FKRG1WV0pHOTU4TWtNNVFQb3JERWJWZXhhTjROYU5kWXRiYlpURGgxejk5LVVqZVY1VWE1SWtNUTlVTzJHbWtycEdMcHJaaEFaRklQUFd4NjVqQXlDVHc3WEJGUUZOOVAyY2FpMlE?oc=5",
-      "published": "Tue, 03 Nov 2026 05:35:00 GMT",
-      "summary": "South Korea's \"K-shaped\" economic rift: Semiconductor boom distorts household finances and fiscal metrics&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T13:35:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 10.8,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea's Gyeonggi Province Home Prices Surge Around Semiconductor, AI Hubs — 6 of Top 10 Gainers - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkT1FlMTdiZlJTanF0RmlrdnRaT2VObXRLak1sQlJmRFRhNnVSRE5jek1RdmVfWl9adURjdVlYZUszWFFBWmowYmctTlBHNFZiTktRUnFZT1ozXzVmMXRFQlNEazVfSDBXZmFFUld2V1NNN21hRWc?oc=5",
-      "published": "Tue, 03 Nov 2026 03:25:00 GMT",
-      "summary": "South Korea's Gyeonggi Province Home Prices Surge Around Semiconductor, AI Hubs — 6 of Top 10 Gainers&nbsp;&nbsp;BigGo Finance",
+      "title": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcERxbE4xeFBqTkVGUlVYeWFqYjdxR2tGYU1hR3V4Zlp6VTMzSnVWS3dLWFVBbkRkbkFGYVFxOHcyMWlhLVgxdk1CWGZBczZOcHRUS3pfYXNuUTNTMlp3R2wwSjVfUlcwQkJMN1pBZGRhY2cxUFBta3RDSnFZU3dTY0tiVE9RVWlWWWVHYTF5cXNJVFU0SFpuQnFwQlpwa21wbUF2WkROZGM4SEZZa1Y4UHJ3Yi0?oc=5",
+      "published": "Tue, 03 Nov 2026 13:18:00 GMT",
+      "summary": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave&nbsp;&nbsp;TradingView",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T11:25:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korean semiconductor firms offered Chinese incentives - Digital Watch Observatory",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45b1JHcjBEYmtmZDE5Wm5JM09UeDBrcmNZbXd2aVlqaUpwaVJGd1hTSmdyQ0EyWWxwREtETGJNQUR6YVVOYVRsbTF5MzNWTGxibDJGd1BpX3lXMUlHbjZESmJ1dFlNY2k0Y2VmRl8zdmdjUFpwR3k1NHBMOWF2Zw?oc=5",
-      "published": "Tue, 03 Nov 2026 01:00:12 GMT",
-      "summary": "South Korean semiconductor firms offered Chinese incentives&nbsp;&nbsp;Digital Watch Observatory",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T09:00:12+08:00",
-      "source_detail": {
-        "name": "Digital Watch Observatory",
-        "url": "https://dig.watch"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea will double spending on AI and semiconductors in 2027 to a record high, the president said, pledging to use the technology to turn the military into a \"smart, elite force.\" | via ANC 24/7 Link to full story in the comments section. - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTVdLRFlWSDJzV3RrdzJ0Qk5aeGhVQ0t4cjdSdllFV2Q3NTlTYXBqUjZRTFRJTThpX2QtcDlLVXE4ZExxMzktVHlKUlZoSVBuQnhNcGZidXJoSjdsZU82WXNpY1JTWDhhTGNtMzM2dUZKcWNDUXJnQWdCS3dXcXA2NXEwR2FqUHc2UFF0NTlyNVJGeDZ4cmRmaS1GVGI4SUxfQU9US1pjU0t1dEd2Ny04TjZTbDVSSGF1WG5rOS1seUxYYkhEQUFDV25selY4WTZxVjRrRTlTaw?oc=5",
-      "published": "Mon, 02 Nov 2026 23:43:42 GMT",
-      "summary": "South Korea will double spending on AI and semiconductors in 2027 to a record high, the president said, pledging to use the technology to turn the military into a \"smart, elite force.\" | via ANC 24/7 Link to full story in the comments section.&nbsp;&nbsp;Facebook",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T07:43:42+08:00",
-      "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
-      },
-      "priority": 10.8,
-      "signal_keywords": [
-        "record high"
-      ],
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "The memory chip craze is pushing South Korea closer to $1 trillion in exports. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc2tDNVhYVVdNa0dpbDhzcWt5YW1zTHJjVWtEa05sLUtaRnJXc2t1RzhhLTR5dVplTGRxdW45THpRTGpjYWN1S083dEM1cE5BUV9JNGMxLWpIYkk0RENKQThsU1M3UHdsNTRnM0NTQ1c3ZlF5d1NoNkw3a2ZUVmFYTW9TUHhSOXJJY2JVZnYtN3ZhSzB5d3I2Q3VB?oc=5",
-      "published": "Mon, 02 Nov 2026 22:20:51 GMT",
-      "summary": "The memory chip craze is pushing South Korea closer to $1 trillion in exports.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T06:20:51+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea Chip Exports Approach Half of Economy; First Trillion-Dollar Year Due in November - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeXVMc3ZWNVlXOUtFV1lQWTRTNmUyaF9sZ09NT1dVUXlPTGJFVzRkZmtabHpMUWpEZGM1SkxvRGFyLXRYbEFXdVNleUFSMENNbHhqTUNOcDNzQ21TdHZMczgzVmN4cDFCcEJMMkhmWUVhZ1ZtVXFXMHlVQmFSaU9WcV91NTB3em4xeXQxd0VUY19Tb3lFakRxV3pzUDV1dlZDT29xSy1EY0FxX3lpdUtoeVlEcG8xQmZVd1VwckV1Y0g1dVVxa3FuQ09hbU1PUF9zTkpCa2IteVE?oc=5",
-      "published": "Mon, 02 Nov 2026 11:48:48 GMT",
-      "summary": "South Korea Chip Exports Approach Half of Economy; First Trillion-Dollar Year Due in November&nbsp;&nbsp;Tech Times",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T19:48:48+08:00",
-      "source_detail": {
-        "name": "Tech Times",
-        "url": "https://www.techtimes.com"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea to double spending on AI and chips in 2027 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHNZbU14SUFRRTJVODRSNXc1cjRXbmxfLWVaMjEwN0Y4VnFhN1VvNWRoRFNudlA1NjhMTktqRHliXzRTYmdOTnBhWEhpaUMwTlBubTZ5LUd4OFlKSkxNQXBRVTJ5dTVrY3BqX3M0VEk5Y3RLV0FpRmRmaU13RG45S1MwdVFoZmh2eXMwc2dSSUtpcnByNk1yTWln?oc=5",
-      "published": "Mon, 02 Nov 2026 03:37:00 GMT",
-      "summary": "South Korea to double spending on AI and chips in 2027&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T11:37:00+08:00",
-      "source_detail": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea to double spending on AI and chips in 2027 - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcV9XaHE4WThsaU9za2VCeWdpTmxMWmdQUDE5eG1Xa1FNd2JKNVB6M3J6TVJ0NDdLZFRvbXNDTlk1NmlyX2NrT0t6Nm5FOVhPT2M5alpyYXlwckp0anVlZkZKeHV0aVdtTlZPdzI5UmlPZ3dYX2tyRGRabWNSUW5aUE83d1ZPV1lnaTdTVFBGVFhRM2VkdTFnME1OSUVlRVRiZ2fSAaIBQVVfeXFMTnFfV2hxOFk4bGlPc2tlQnlnaU5sTFpnUFAxOXhtV2tRTXdiSjVQejNyek1SdDQ3S2RUb21zQ05ZNTZpcl9ja09LejZuRTlYT09jOWpacmF5cHJKdGp1ZWZGSnh1dGlXbU5WT3cyOVJpT2d3WF9rckRkWm1jUlFuWlBPN3dWT1dZZ2k3U1RQRlRYUTNlZHUxZzBNTklFZUVUYmdn?oc=5",
-      "published": "Mon, 02 Nov 2026 02:13:11 GMT",
-      "summary": "South Korea to double spending on AI and chips in 2027&nbsp;&nbsp;NST Online",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T10:13:11+08:00",
-      "source_detail": {
-        "name": "NST Online",
-        "url": "https://www.nst.com.my"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Bangladesh, South Korea plan joint investment task force - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVTV3R3lZT0dUQzJNdlV2cWVlQ3dhTGl5VkpLOHYway1tZGtydEFsTExOQi1ZYnFNc0xYUDMwNmZ2NEM5bG9Td3ZyaU53VXN2N3g2R0NhZ2daZG9WVkRLYmF5X0tyVFJxRkl0bW95eDNYRVhSRXdMWEtPb1BIaUhwOEVUWUVybk9ZNk5YRGoyN09PNVZRZHkzNVRJSXE0cm1WVGhjcmtTaHlydw?oc=5",
-      "published": "Tue, 03 Nov 2026 05:40:27 GMT",
-      "summary": "Bangladesh, South Korea plan joint investment task force&nbsp;&nbsp;The Daily Star",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T13:40:27+08:00",
-      "source_detail": {
-        "name": "The Daily Star",
-        "url": "https://www.thedailystar.net"
-      },
-      "priority": 8.4,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea's Samsung Electronics, SK Hynix Warned Over Record Shareholder Returns; Fears of Eroding Future Investment - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15S0RYRFlhY3cxM1R3b2dkckhuaGJhT2Q3YnpybTRSWjZ3VUdpYkQ3OEk0MzRGQkNrMmVrV2g0ajd2ZXdnVk5ua2RUcEo2ejI5N1g4S0NEbFRYWWZMNlQ0bXR6UUtrSTRwNFV6MVJ0R28zZldIenc?oc=5",
-      "published": "Tue, 03 Nov 2026 02:35:00 GMT",
-      "summary": "South Korea's Samsung Electronics, SK Hynix Warned Over Record Shareholder Returns; Fears of Eroding Future Investment&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T10:35:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Samsung boss inspects Japan chip packaging hub in push for AI edge - Sammy Fans",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWJkZk5kaGpvdW9LcU1xenVSczk2bE9talZyMHQ1UFRTNXF3V3VkSk1GV05nb0thdGRZRzFDdmZaQnhWOGJMaHMzcFh2QUswV09Kc01tSGs2WXp0alBXMUxMeklIbzJNMXJaLXZtemYxNko0UVlYb3hyZ2xkSUptVmFjenJMeVNpVHNISNIBkgFBVV95cUxNRWFobVZpMmwwVS1obnpHeURjbnlNYlA0YVBFLU5RWnpzODBqWGxLNkp3SHNHQmpEaTN2M2JtNDRhZHBIWGVIeEM5bVp0WTBxcjZBZkZRQU9ZQV9kSTFjalA3MFIwZHIwaG1iRGotMmJET3UzT0hEdFM0ZS0xdldYNzVGNjRraFllWVlMU1dmYW1udw?oc=5",
-      "published": "Mon, 02 Nov 2026 09:52:40 GMT",
-      "summary": "Samsung boss inspects Japan chip packaging hub in push for AI edge&nbsp;&nbsp;Sammy Fans",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T17:52:40+08:00",
-      "source_detail": {
-        "name": "Sammy Fans",
-        "url": "https://www.sammyfans.com"
-      },
-      "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Kospi reverses early decline to close 2.24% higher as Korean chip exports jump 259% - Invezz",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQWJOVW42cGlkNllqVzFUVVRwVWhXQ1RMZUQ4MC1FaXcxblBFakRDazFtNXREaDBjWnJOZnFWdXhWOExNU3MtQnpLVERzYXlRUjJQcmpwM3hTNGxtb0RjT1V5WGpiYy1WR0FfM20yYkpRdkFRa0R6aGV0LWxQTnpxbDFuSG9YVmF3S2VwT3JsckxMbG1vbUtMREJnVHp1aEtwUDR5WjJETXQ4OW5WeFJIUlVQWkNUYnF1dHp6T0NWUzNqeWFPcV8yT1BxQ1ZqZw?oc=5",
-      "published": "Mon, 02 Nov 2026 09:45:00 GMT",
-      "summary": "Kospi reverses early decline to close 2.24% higher as Korean chip exports jump 259%&nbsp;&nbsp;Invezz",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T17:45:00+08:00",
-      "source_detail": {
-        "name": "Invezz",
-        "url": "https://invezz.com"
-      },
-      "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Samsung chief visits Japan packaging lab to advance chip leadership - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YMTQ5YlpybG1jbXltbHZ6eFQzclRNTjVWcUltaUk0OExCaUhNM1FwRWV2dmFyMGNweC0tUEJqZXNmYzQtSVNwNzA2MTJlU3M5UWU3QjZjRQ?oc=5",
-      "published": "Mon, 02 Nov 2026 04:57:14 GMT",
-      "summary": "Samsung chief visits Japan packaging lab to advance chip leadership&nbsp;&nbsp;매일경제",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T12:57:14+08:00",
-      "source_detail": {
-        "name": "매일경제",
-        "url": "https://pulse.mk.co.kr"
-      },
-      "priority": 8.4,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea's KOSPI Plunges to 5,638 Intraday Before Rebounding; Retail Investors Buy the Dip With 946.5 Billion Won - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DU1NWV2IxYkFFTFhTOUZ2SFhnWG1QWWx3RkdBc0pRWFFsRTl0MFNZek9vVUxoTXlkSl9Tb3FxNTh5ckRFeXNDSzRBT1UwdEVTSlhCMVltOS02d195cnBNcnQzVXc4YWNIMnlQWDc2bEUyZTA0T0E?oc=5",
-      "published": "Tue, 03 Nov 2026 03:05:00 GMT",
-      "summary": "South Korea's KOSPI Plunges to 5,638 Intraday Before Rebounding; Retail Investors Buy the Dip With 946.5 Billion Won&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T11:05:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Intel shock sinks Korea chip stocks as Samsung, SK hynix slide premarket - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMVd5blAwV2FyOExpZzZ2WlE5OWFGVXVlYVpyd1plQ0lwYzdQUTEzUndFelVnRExYVDF4T2RXWGxOaGN0MHBzNkVTblI4LURIOWNTZTBVSjhzUVU4TExZbDFUYzNPOHRNbnRMcUJMMVZuUkwtTEhQc2FhTDgzcTZ6StIBlAFBVV95cUxQeGFjUUEtMXNIekhUNHdGMFhQUWtkOHdtbnE0TXVQeGFmVV81U3VLejM1NklJTkYybEltNTMyNV9ZVTljTVV2YVM2R2FPb2tURlpYSDJUM08tZVA1U2NCT19Td0tNa01ta21ETFg2TlhSc1Z0dEl4TF9MRzZwMzFzcnRNXzBNN2V4bXdVNDkzSHJJYzRU?oc=5",
-      "published": "Sun, 01 Nov 2026 23:24:00 GMT",
-      "summary": "Intel shock sinks Korea chip stocks as Samsung, SK hynix slide premarket&nbsp;&nbsp;Chosunbiz",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T07:24:00+08:00",
-      "source_detail": {
-        "name": "Chosunbiz",
-        "url": "https://biz.chosun.com"
-      },
-      "priority": 7.2,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "North Korean Group Steals $6.3 Billion from Binance - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbjFOakpGamNuXzE3TFBac1AzanJYblIxWWFXNEc2Vks1SDZGbG5nQmRDWXFmYm9DNjR2cjJhSEhfZ1NHT3VzQ3RDQlNweTBoN1hhVEFXcFVhdzd5RjZ3OHdtSkhaNnQyREUta0lPUnRSUjlwQjVuMGlBbmVPWmROLVBCSDY?oc=5",
-      "published": "Sun, 01 Nov 2026 23:21:40 GMT",
-      "summary": "North Korean Group Steals $6.3 Billion from Binance&nbsp;&nbsp;조선일보",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-11-02T07:21:40+08:00",
-      "source_detail": {
-        "name": "조선일보",
-        "url": "https://www.chosun.com"
-      },
-      "priority": 7.2,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Japan Weeks Ahead: BOJ Has Cleared First Major Goal of Lifting Near 2% But Still Needs to Anchor Price Rises amid Upward Pressure from High Energy - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQaUh0V29EZnJ5OXJDWFJUUW94a2k0ODNBZjJJLTlwNjhZM3VBOHo1Z2MybEk5d1NpdzlOWmVrN3RVU0pXdGd6Y0ptVVpzTFhiQ0lVN0FlMW1LNEpYMkV4OXAybnBuQk5XVDN6ODdHWGwzUHV6Y0FtR0lBbUU0cW83UmM0SnFsVzFLOW5hZE13dzZrNnVEZ1Y3MllLckhVMnJUMWY0am5acEd0c2JjOXQ3TEVNb3JoSkxGemt1OFdkOTFmdHItd0NTNHM4aXlScHlBdzAxLTh6NGM0bWFWYS04dTg1VE0zb0diSjFsNVVXV0E4MVYwdkJQLUVqV3RRQUVZMmRoNHRRMDlGc3QwSlplckIzX0lTRUpJcEp5ZDlERjlxVGFTS3ZoTDh3UQ?oc=5",
-      "published": "Sun, 01 Nov 2026 16:44:00 GMT",
-      "summary": "Japan Weeks Ahead: BOJ Has Cleared First Major Goal of Lifting Near 2% But Still Needs to Anchor Price Rises amid Upward Pressure from High Energy&nbsp;&nbsp;TradingView",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T00:44:00+08:00",
+      "published_beijing": "2026-11-03T21:18:00+08:00",
       "source_detail": {
         "name": "TradingView",
         "url": "https://www.tradingview.com"
       },
-      "priority": 7.2,
-      "category": "日本",
+      "priority": 10.8,
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "high",
+      "canonical_url": "https://www.tradingview.com/news/zacks:8e46f48ba094b:0-south-korea-doubles-ai-chip-budget-4-etfs-to-ride-the-wave/",
+      "full_text": "South Korea’s president Lee Jae Myung unveiled the country’s largest-ever budget on Monday, raising total spending by 12.8% to 820.9 trillion won (nearly $610.14 billion), with 21.3 trillion won earmarked for semiconductors, physical AI and AI data centers — nearly double the 2026 level. A separate 4.7 trillion won will fund a sovereign AI model targeting “world’s highest performance,” alongside training for 2,000 semiconductor design specialists and expanded AI education.\nSouth Korea's increased investment commitment comes amid a surge in semiconductor exports, with October shipments jumping 93.7% year over year to a record $115.3 billion and cumulative exports surpassing $900 billion for the first time.\nConsidering the fact that South Korea’s Samsung Electronics and SK Hynix dominate the global memory chip supply chain, which is critical for AI accelerators, Seoul’s latest spending push stands to ripple across the entire global AI ecosystem, not just domestically.\nFor investors, South Korea’s pivotal role in the global AI infrastructure expansion and its record spending commitment could entice them to look for companies positioned to benefit from rising demand for memory, packaging and data center infrastructure. Exchange-traded funds (ETFs) offering exposure to these companies could provide a way to capitalize on these growth trends.\nBefore exploring these ETFs, it is important to examine South Korea’s growing AI momentum and assess how the latest investment commitment could boost the AI industry, with the chip market at the center of attention.\nThe Chip Rally That Made Seoul a Global AI Hub\nSouth Korea’s semiconductor industry has been the engine behind the KOSPI’s meteoric rise, with the benchmark index surging past 8,000 points in May 2026 as AI-driven demand for high-bandwidth memory (HBM) reshaped the country’s equity market.\nSamsung Electronics and SK hynix, two of the world’s three largest memory chipmakers, have been the primary accelerators and beneficiaries.\nSamsung’s shares have climbed roughly 190% over a six-month period in May, while SK Hynix gained about 220% as orders for advanced memory used in AI data centers soared.\nIt is imperative to mention in this context that SK Hynix alone holds approximately 50% of the global HBM market, making it a critical supplier to AI accelerator ecosystems. The rally has been so pronounced that SK Hynix became the second South Korean company to top 1,500 trillion won in market value.\nThis concentration of memory leadership in a single country is precisely why Seoul’s budget decisions carry outsized weight for global AI infrastructure.\nBenefits of the Budget Pledge and the Case for ETFs\nThe 21.3 trillion won allocation for 2027 spans semiconductors, physical AI, and AI data centers, while 2.1 trillion won goes toward electricity and water infrastructure for chip plants that require uninterrupted power.\nThe expected outcome from this spending target is not merely higher output but a deepening of South Korea’s moat across the entire value chain: memory, packaging, substrates, testing and equipment.\nFor investors, picking individual winners in this ecosystem is difficult because the beneficiary list extends well beyond Samsung and SK hynix into materials, components and infrastructure firms.\nETFs solve this by offering diversified, single-ticker access to the Korean AI semiconductor value chain, capturing both the memory leaders and the smaller suppliers that stand to benefit from the government’s spending push.\nBeyond Korea-specific funds, ETFs holding semiconductor companies worldwide also stand to gain. Notably, global chip ETFs capture the accelerator demand that South Korea’s increased capex in data center and chip production would generate. For example, NVIDIA NVDA through GPU procurement for sovereign AI and hyperscaler buildouts, AMD via its government-level heterogeneous computing partnership, and Broadcom through custom AI chip and HBM collaboration with Samsung and SK Hynix.\nETFs Positioned for the Upside\nConsidering the aforementioned discussion, the following ETFs should benefit from South Korea’s latest capex pledge:\niShares MSCI South Korea ETF EWY\nThis fund, with net assets worth $22.40 billion, offers exposure to 76 companies in South Korea. SK Hynix (holding 23.76% of this fund’s assets), Samsung Electronics (23.02%) and SK Square (2.96%) hold the first three positions in this fund.\nEWY charges 59 basis points (bps) in fees. It traded at a good volume of 14.82 million shares in the last trading session.\nVanEck Semiconductor ETF SMH\nThis fund, with net assets worth $64.52 billion, offers exposure to 26 companies involved in semiconductor production and equipment. NVDA (20.19%), Taiwan Semiconductor (9.58%) and Texas Instruments (5.70%) hold the first three positions in this fund. SK Hynix holds the 10th position in this fund, carrying a 4.14% weight.\nSMH charges 35 bps in fees. It traded at a good volume of 8.61 million shares in the last trading session.\nxETFs Korea AI Semiconductor ETF KSMH\nThis fund, with net assets worth $1.39 million, includes 10 to 25 Korean companies powering the AI semiconductor value chain, including memory, logic, manufacturing and infrastructure. SK Hynix (22.35%), Samsung Electronics (20.49%) and Hanmi Semiconductor (7.73%) hold the first three positions in this fund.\nKSMH charges 65 bps in fees. It traded at a volume of 0.001 million shares in the last trading session.\niShares Semiconductor ETF SOXX\nThis fund, with net assets worth $42.97 billion, includes 30 companies across the semiconductor value chain, including those driving innovation in AI and benefiting from capital investments in digital infrastructure. Advanced Micro Devices AMD (9.24%), NVDA (7.98%), Micron Technology MU (7.95%) and Broadcom AVGO (7.58%) hold the first four positions in this fund.\nSOXX charges 33 bps in fees. It traded at a good volume of 10.78 million shares in the last trading session.\nBoost Your Portfolio with Our Top ETF Insights\nZacks' exclusive Fund Newsletter delivers actionable information, top news and analysis, as well as top-performing ETFs, straight to your inbox every week.\nDon’t miss out on this valuable resource. It’s free!Get it now >>\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\nNVIDIA Corporation (NVDA): Free Stock Analysis Report\nVanEck Semiconductor ETF (SMH): ETF Research Reports\niShares Semiconductor ETF (SOXX): ETF Research Reports\niShares MSCI South Korea ETF (EWY): ETF Research Reports\nAdvanced Micro Devices, Inc. (AMD): Free Stock Analysis Report\nMicron Technology, Inc. (MU): Free Stock Analysis Report\nBroadcom Inc. (AVGO): Free Stock Analysis Report\nThis article originally published on Zacks Investment Research (zacks.com).\nZacks Investment Research"
     },
     {
-      "title": "Taiwan, Japan nearing trade deal: Nikkei - Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OXzV2VDFqUkxhdGx6S2ppTldPZGN2TGR0NFVNekFEd25HQksydUQ0MUtOc0dPMzNtMy1PQUwxSTBGMTFyYlBucE5mZUI1OC1lNTlRMVdUQTNjMEtQS1FITEVXdmhEUFV6SzJqT2VqaTJibTYwa2UzUQ?oc=5",
-      "published": "Sun, 01 Nov 2026 16:00:00 GMT",
-      "summary": "Taiwan, Japan nearing trade deal: Nikkei&nbsp;&nbsp;Taipei Times",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-11-02T00:00:00+08:00",
-      "source_detail": {
-        "name": "Taipei Times",
-        "url": "https://www.taipeitimes.com"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Quandela Eyes Korean Firms For Quantum Chip Production - Quantum Zeitgeist",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiMGlSZW9wQklGNjE2NDhtVV9wMVM4R2pBWTE3T0hwTkN6MXd3Z3BVcXhMbGpxeVpNeHliaXdrd28zTC1EU0pDcjJ3WVY4WG1haTE4WWNiUzltb0ZjSVVraFY2cU1PQ0ZMSjhjVEh6MkFRQQ?oc=5",
-      "published": "Mon, 02 Nov 2026 19:48:51 GMT",
-      "summary": "Quandela Eyes Korean Firms For Quantum Chip Production&nbsp;&nbsp;Quantum Zeitgeist",
+      "title": "South Korea's HBM Equipment Patent Battle Over SK Hynix Supply Deals Enters Mediation as Hanmi, Hanwha Face Off - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpMV9DQmxLTWx1M0wyWXJxRDZjWV9NMDR5ckIxZUxEd1dyOXhKLWd3V005eldEUjNQd1Y4a0h6Z3dtVmdJQmdxZGV0OVRxZWhTZWMxWFdtZFJOMDZ2VTlvTW90U3pJUEVXX0JZOEVEb1QtQWpCMUE?oc=5",
+      "published": "Tue, 03 Nov 2026 07:56:00 GMT",
+      "summary": "South Korea's HBM Equipment Patent Battle Over SK Hynix Supply Deals Enters Mediation as Hanmi, Hanwha Face Off&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T03:48:51+08:00",
+      "published_beijing": "2026-11-03T15:56:00+08:00",
       "source_detail": {
-        "name": "Quantum Zeitgeist",
-        "url": "https://quantumzeitgeist.com"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 10.8,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "high"
+    },
+    {
+      "title": "North Korea accuses the US and South Korea of a brutal demonstration of nuclear war - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaExSMy1lT2E0NTd1YlJDS0NRT2ViRVg2RUF1eXc4dFlKV29TNkVGbUJvRG42bWxOREl5WjF1WDJwbm4yRTRKY3NyRmxVbFFhdjJJZDBkemNIX0JSN1dvTWs1c3VLRFAwaHZjY2hBVlpJSHBqTC00ell0STluUTh3dkVTQnFQQldXX24zMXBabzI3TUxUUW5ZZ0lDVGhzbkQzRW85Y2g0MjJrTlo4OGc4a21IaVA2REhpOXRPd3czLXMtbHlO0gHKAUFVX3lxTE1yX2VUN2ZBN2Z1N28wME5lVVNpZm5zbkF2aU1VZndGdjZLX3B6bWVQdmhmZC1QcjE3MTA4c0Rma2d3QlJINFhTRXRxOVRmck9LQWlWampEdk11OTZnQzZlOVNRZ2RGcXY1dExjdkxDVXBicGhab3d3LU9JVFRxeHBRTG14WElUNVFncWR0Y0l1eFVUbmwxNVNYenpKbElLa2NVTkUtbVdyXzBxck91Sl9rU0x5WFlGUDctWFE4aVpVQ2ZmUXBFU1M2b1E?oc=5",
+      "published": "Mon, 02 Nov 2026 06:14:25 GMT",
+      "summary": "North Korea accuses the US and South Korea of a brutal demonstration of nuclear war&nbsp;&nbsp;Demócrata",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-02T14:14:25+08:00",
+      "source_detail": {
+        "name": "Demócrata",
+        "url": "https://www.democrata.es"
+      },
+      "priority": 10.8,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "high",
+      "canonical_url": "https://www.democrata.es/en/international/north-korea-accuses-the-us-and-south-korea-of-a-brutal-demonstration-of-nuclear-war/",
+      "full_text": "403 ERROR\nThe request could not be satisfied.\nRequest blocked.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\nGenerated by cloudfront (CloudFront)\nRequest ID: ue1yKmh2XYZJc4pJAE781_wBKZPkSymM5r57lXHZgVgKIsXRELVmjQ=="
+    },
+    {
+      "title": "AI Revolution Reshapes South Korean Manufacturing: Big Four Groups Boost R&D Staff by Up to 20%, Cut Production Workers - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPSTJ1TlZsdHJ4RVcyS2diZGY4U0hTcjFncHlPNVg2MDVwc3QyVG80VFZJbU1SUFZkbmVZVTVCNjIzLWxqTDVTSGsyX3lKVzdtb2JTT1prdDFyU3ZTZGRfdUFGMlhxTDlmUUx5U3l5QjZzdm91MkE?oc=5",
+      "published": "Tue, 03 Nov 2026 09:26:00 GMT",
+      "summary": "AI Revolution Reshapes South Korean Manufacturing: Big Four Groups Boost R&amp;D Staff by Up to 20%, Cut Production Workers&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T17:26:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 9.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Korea's Samsung Electronics Plunges 4% on AI Investment Skepticism — But Top 1% Investors Buy the Dip - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55NlhNTU04WDM1RXVZWHRiRU9tMWdWenV0TGVKS2dqYUdMa2ZjZ1A2bmhhU3huNHk1c2R4YmdzWTc0N2M4T0NuNnR4bDFMZTJIaXhMa2xFdE1tZkIxQmRsTlgwUnl4QVg5SktXY3pIVG5vcHpza1E?oc=5",
+      "published": "Tue, 03 Nov 2026 04:55:00 GMT",
+      "summary": "South Korea's Samsung Electronics Plunges 4% on AI Investment Skepticism — But Top 1% Investors Buy the Dip&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T12:55:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 8.4,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "AMD Establishes AI Research Center in South Korea; Lisa Su Calls Korea \"Key Partner,\" Chang Jung-hee Touts \"Open Sovereign AI\" - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NV2podWFuWVUtMzNuOHZ5MUNsVVdwUjRGYlFKYXd5MThjSE1tMnhSTVhYQ1VwUkR5dGU2eVJRVmFaTzNUWktFUVljUWdkZ0lpallnSGExWkZ4OUtBNTVhRzNBbm1hNU5JUnp2VkdCMVVrSHItV2c?oc=5",
+      "published": "Wed, 04 Nov 2026 03:06:00 GMT",
+      "summary": "AMD Establishes AI Research Center in South Korea; Lisa Su Calls Korea \"Key Partner,\" Chang Jung-hee Touts \"Open Sovereign AI\"&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-04T11:06:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 7.2,
       "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "medium"
     },
     {
-      "title": "North Korea supercharges crypto heists with AI skills - Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LTk1FOFJHbjdpa0l6NFptR3hMa2tYakhSby0xRGFUTEczWm9aaExlUzI4Vkc4VmViRU15cTM3M1ZGbUFVLXhnSHJ1QXNNdUVocEZCRnBUQ3dSdng5UjhQOGZ0U0VBWFctQTJsN25NVE92YUZRRWhiaA?oc=5",
-      "published": "Mon, 02 Nov 2026 16:00:00 GMT",
-      "summary": "North Korea supercharges crypto heists with AI skills&nbsp;&nbsp;Taipei Times",
+      "title": "North Korea laundering Binance billions with Chinese help — to spend on new missiles - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOEdVLWlQV0tOZDdocHNqQ0hWS29pZ1UxZS04X1J5Y3k3OUdDYTJMZDJRbmtwNV9JSWhiNlRITFVpeF83TWE2T0tINS1iMzFOYUhGVTI2YXM3LXFZV2pCZTBjWG50a0FaQmNaS3NLeE4tYmhOWDFPSWQzZmgyejJNWm9wZHRkRU9hbndHQlFwemJvSVFySkZsUFhEYXNZTkpYOXdHUGEtZHdjT1kxYmlFSmxJT1h4dVlVQkE?oc=5",
+      "published": "Tue, 03 Nov 2026 23:17:00 GMT",
+      "summary": "North Korea laundering Binance billions with Chinese help — to spend on new missiles&nbsp;&nbsp;New York Post",
       "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-11-03T00:00:00+08:00",
+      "published_beijing": "2026-11-04T07:17:00+08:00",
       "source_detail": {
-        "name": "Taipei Times",
-        "url": "https://www.taipeitimes.com"
+        "name": "New York Post",
+        "url": "https://nypost.com"
       },
       "priority": 7.2,
       "category": "朝鲜半岛",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://nypost.com/2026/11/03/tech/north-korea-laundering-binance-billions-with-chinese-help-to-spend-on-new-missiles/",
+      "full_text": "For that they have Chinese brokers and middlemen who turn the loot into useable funds, which Kim Jong Un’s regime will undoubtedly spend on weapons and missiles, experts told The Post.\n“There’s not much to buy in Pyongyang. What North Korea needs to advance its missile program and its nuclear weapons development program is stuff that exists outside North Korea.\n“Stealing cryptocurrency gives North Korea a sort of international slush fund that it can move around the world without using banks, and it can pay people off, and buy the stuff that it needs,” Geoff White, author of “The Lazarus Heist” which investigates North Korea’s hackers told The Post.\nChinese laundering crews are believed to have taken over after the hackers’ initial transfers within 20 minutes of the hack last week, according to Nick Carlsen, an investigator at blockchain intelligence firm TRM Labs.\nThe speed of the theft was astonishing. Most of the Binance funds moved across 10 blockchains in about 20 minutes, according to TRM. Attackers then raced to swap assets issuers were able to freeze for unsanctioned cryptocurrencies beyond their control.\n“From that point on, it’s almost exclusively Chinese money laundering teams that are actually doing all of the transactions,” he told The Post.\nIn its first three and a half days, the laundering operation then used about 12,000 digital wallets—roughly one new wallet every 25 seconds—according to blockchain analytics firm Elliptic. The transfers complicated tracking but have not make the money untraceable.\nCarlsen said the stolen money adds to the regime’s coffers, helping fund its spending priorities.\n“These massive inflows of hard currency go to the regime, allowing it to pursue its priorities,” he told The Post. “Lately the highest priorities are weapons development and internal improvements.”\nThe security experts pointed out North Korea’s hackers may not necessarily be stationed in the country, which helps operators blend into other countries’ internet traffic.\n“We know that North Korean hackers have pitched up in China and been working from there,” White said.\nCarlsen said TRM had observed overlap between the Binance laundering and a Chinese network handling earlier North Korean thefts. The money men work for a percentage, eventually exchanging crypto for yuan in Chinese bank accounts or access to payment cards.\n“There’s this entire parallel banking system that allows the Chinese to access hard currency overseas, and that’s the networks the North Koreans hide their activity in,” he said.\nWhite pointed out China’s restrictions on making overseas transfers has helped create demand for underground services. From China, the laundered money will likely be moved again.\nWhite pointed to Ramon Abbas, the Nigerian Instagram influencer known as Hushpuppi, known for flaunting luxury clothing and his enviable life in Dubai.\n“By night, he was working with all sorts of criminal elements including with North Korean hackers, to move money around to launder money and to facilitate fraud,” White said.\nUS prosecutors said Abbas supplied Romanian and Bulgarian bank-account details in a conspiracy to launder money from a Maltese bank heist attributed to North Korean hackers. Arrested in Dubai in June 2020, he was sentenced to 135 months in US prison in November 2022.\nCarlsen sees more opportunity in targeting the money men than catching hackers protected by their home state.\n“From several past recent hacks we’ve identified Hong Kong and China-based individuals that are handling the laundering,” he said.\nA 2023 prosecution accused North Korean banker Sim Hyon Sop of working with Chinese and Hong Kong traders to convert stolen crypto into dollar payments for goods for the regime, using Hong Kong front companies.\nA separate indictment alleged Sim and Chinese intermediaries procured a Russian helicopter for North Korean customers in 2019. The contract listed a $300,000 price and delivery to a North Korean port.\nCarlsen said getting the funds back would only be possible with Chinese co-operation.\n“If the Chinese government crack down on illicit banking, period, this would be basically impossible for the North Koreans,” he said. “But if they even just narrowly target the individuals handling these thefts, the North Koreans would be stuck with crypto assets that they can’t sell.”"
     },
     {
-      "title": "Taiwan, Japan might sign comprehensive trade pact: report - Taipei Times",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DZDFHT2RzdTJTMlZuMFBOWXdOdkh2YXZzYlpVSVZaZ1g5M25OdWJPdThvWFZrQmU4eDk0aXNyM0FUamtOQXB0TzlMUUplcmI5TDVjckRtaC1PcGV3Sk9HRTJwNFZXR0hUR2Z5VzllUXdZNk1NWG1OYg?oc=5",
-      "published": "Mon, 02 Nov 2026 16:00:00 GMT",
-      "summary": "Taiwan, Japan might sign comprehensive trade pact: report&nbsp;&nbsp;Taipei Times",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-11-03T00:00:00+08:00",
-      "source_detail": {
-        "name": "Taipei Times",
-        "url": "https://www.taipeitimes.com"
-      },
-      "priority": 7.2,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "South Korea Bets $15.8B on Sovereign AI in Record 2027 Budget - The Tech Buzz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMDJtamZ3clVLRWVDdjhVSVNIVEJWZ29fcDdTVHpGMV9COEFxQ0tBU3NraEFqUlYzVk5LUXBfTFZ6WlZtaVl6dVA5WlliUmZZbXFYRkxWZDE0bVY3MUZ5ZzhUMFJPWmY1SHd4M1JrU2xNUEUwdVZDQ0VQNFhld0FSdlZHa0hDZlBEdW15ZlhBbENBbC02ZjJrRw?oc=5",
-      "published": "Mon, 02 Nov 2026 06:34:57 GMT",
-      "summary": "South Korea Bets $15.8B on Sovereign AI in Record 2027 Budget&nbsp;&nbsp;The Tech Buzz",
+      "title": "South Korea’s dream of AI autonomy lays bare contradiction within the alliance with the US - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5COGtLUXJ1azc4OUlEUGl5NGxiZU44LWFiY1RJMVBvY0tFZllMY21BelZ0UU9FWjZkRWNuX2NOR3pKanBrMjNvNmRxT3RaTURFQ2ZyUEY3ZXlDaFZ0b1hZdVVn?oc=5",
+      "published": "Tue, 03 Nov 2026 13:07:00 GMT",
+      "summary": "South Korea’s dream of AI autonomy lays bare contradiction within the alliance with the US&nbsp;&nbsp;Global Times",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T14:34:57+08:00",
+      "published_beijing": "2026-11-03T21:07:00+08:00",
       "source_detail": {
-        "name": "The Tech Buzz",
-        "url": "https://www.techbuzz.ai"
+        "name": "Global Times",
+        "url": "https://www.globaltimes.cn"
       },
       "priority": 7.2,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.globaltimes.cn/page/202611/1373557.shtml",
+      "full_text": "Photo: VCG\nSouth Korea's ambitious $1 trillion chip bet is facing pressure from its most important ally, the US. According to media reports, President Lee Jae-myung plans to build a major semiconductor cluster in southwestern South Korea. Washington, however, wants more of Seoul's AI expansion to happen in the US. What appears to be a conventional industrial investment project has become a new window into the competing interests within the US-South Korea alliance.\nThe fundamental divide between the two countries is not whether to develop the semiconductor industry, but who will control advanced manufacturing capabilities and share the industrial dividends of the AI era.\nFirst, the US wants not only semiconductors manufactured by South Korean companies, but also the capacity to manufacture semiconductors on American soil. In the past, the US and South Korea maintained a relatively stable division of labor in the semiconductor industry: The US held advantages in chip design, core technologies and markets, while Samsung and SK Hynix made South Korea a global hub for memory-chip manufacturing. Washington is now increasingly dissatisfied with simply purchasing Korean chips. It wants South Korean companies to transfer more capital, technology and production capacity to the US to support its manufacturing reshoring and supply-chain localization.\nSouth Korea is not unwilling to cooperate. Samsung has already built an advanced foundry in Texas, while SK Hynix is investing in an advanced high-bandwidth memory packaging fab in Indiana. Yet Washington continues to press for greater investment. South Korea, meanwhile, needs to expand domestic production to preserve its semiconductor advantage. If new investment, jobs and advanced manufacturing capabilities increasingly flow to the US, South Korea risks gradually weakening its own industrial base. \nMore ironically, while the US urges South Korean companies to build factories there, it has failed to adequately resolve problems involving skilled technical personnel and cross-border labor. In September 2025, US law enforcement authorities detained more than 300 South Korean nationals at the site of a Korean-invested factory project in Georgia, shocking South Korean society and exposing tensions within Washington's manufacturing reshoring agenda.\nSecond, South Korea is unwilling to remain merely a chip supplier to the US' AI industry. Although Samsung and SK Hynix enjoy significant advantages in advanced memory chips, South Korea still has weaknesses in foundational AI models, computing platforms and software ecosystems. The Lee administration hopes to capitalize on the AI boom by building on its semiconductor manufacturing strengths to develop data centers, computing infrastructure and AI applications, transforming South Korea from a semiconductor powerhouse into an AI powerhouse. South Korea wants to retain more of the technological, financial and employment benefits of AI development at home, rather than relying solely on chip exports to the US. This ambition inevitably conflicts with Washington's push for greater Korean investment in the US.\nSouth Korea's pursuit of industrial autonomy is increasingly colliding with its dependence on the US for security.\nThe Gwangju project is a case in point. South Korea plans to relocate an existing military airfield and build a major semiconductor cluster on the vacated land. However, the airfield is associated with joint US-South Korean military operations, so its relocation requires coordination with the US. South Korean media have reported that the US military is still carrying out construction projects at the Gwangju airfield. This means that even when South Korea has established a major industrial development plan, it cannot fully determine the timetable for its implementation independently. There is currently insufficient evidence to conclude that Washington is deliberately using the airfield relocation to obstruct South Korea's semiconductor development. Nevertheless, the case illustrates how US-South Korean military arrangements can become an important variable in South Korea's industrial policy.\nThese show that the US-South Korea alliance is not free of contradictions: Their security cooperation coexists with persistent conflicts of interest. Washington wants Seoul to assume greater security responsibilities, invest more in the US economically, and align its technology and supply chains with American priorities. South Korea, meanwhile, seeks American security guarantees while strengthening its own defense capabilities and preserving room for its domestic strategic industries. The two countries share some objectives, but their interests are not entirely aligned.\nSouth Korea does retain some room for maneuver. The US' AI industry remains highly dependent on advanced memory chips from Samsung and SK Hynix, whose technologies and manufacturing capabilities cannot be fully replaced in the short term. Their semiconductor relationship, therefore, remains deeply complementary, and the two countries are more likely to keep adjusting the distribution of benefits through a combination of cooperation and competition than to enter outright confrontation.\nSouth Korea's fundamental dilemma, however, remains unresolved. Greater investment in the US may ease some economic and trade pressures, but it does not necessarily secure greater strategic autonomy. Its semiconductor strengths may enable it to benefit from the AI boom, but South Korea may still be unable to determine independently where its most advanced production capacity is located. This is the deeper contradiction beneath the surface of the US-South Korea alliance.\nThe author is the director and professor of the Center for Korean Peninsula Studies at the Shanghai University of International Business and Economics. opinion@globaltimes.com.cn"
     },
     {
-      "title": "North Korean Hackers Behind Binance Crypto Heist Are Weaponizing AI - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekRBR0dKanh1bXRKMVJuNGdsODV4NUZpaDJueC1leGRvVkVUeHhhdkdzVHdzMmM2TWpwYXBfaTZ6WEdlWk92R0JROEZ5d2FfLXNqaUQ3WEJHWTJEdnZuRUN6MnhVLUw0UlFaUDRiUGJ6Z3RjWmxsWnFhWHE0cE4tblNHd2dWTHExc3NSWGZIMjlpZnpKdi1VLW0wczRtOGg5OGkzbzEtTy1pbUZPZ0RoWGZ6OA?oc=5",
-      "published": "Mon, 02 Nov 2026 06:22:00 GMT",
-      "summary": "North Korean Hackers Behind Binance Crypto Heist Are Weaponizing AI&nbsp;&nbsp;Bloomberg.com",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-11-02T14:22:00+08:00",
+      "title": "South Korea targets sovereign AI amid $15.8bn data centre push - National Technology News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY2w5X0hsQ25PN1JpT2tZWFNWeTBxUWloaWdCVnRZRWFCMnVtMVdqR0dXMTBiVXRtdS1xTUl4YmtiVWJwbWdmOUpKOW1lY01zRHhVb3hfYWNRdUdadTkzbkxrVEllekYtdGZTS3dvYzRfN2c4UmlrNGNLR2FFUzVQakxiMW9lTk45Z2V6TkhsSk9wWktvNVd1ZGh5clRSUW8?oc=5",
+      "published": "Tue, 03 Nov 2026 11:00:46 GMT",
+      "summary": "South Korea targets sovereign AI amid $15.8bn data centre push&nbsp;&nbsp;National Technology News",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T19:00:46+08:00",
       "source_detail": {
-        "name": "Bloomberg.com",
-        "url": "https://www.bloomberg.com"
+        "name": "National Technology News",
+        "url": "https://nationaltechnology.co.uk"
       },
       "priority": 7.2,
-      "category": "朝鲜半岛",
+      "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://nationaltechnology.co.uk/South_Korea_targets_sovereign_AI_amid_15.8bn_data_centre_push.php",
+      "full_text": "The South Korean government has announced an ambition to develop a world-leading sovereign AI model, part of a major AI investment package intended to accelerate the country’s domestic AI sector.\nLee Jae Myung, the president of South Korea, confirmed in his 2 November budget speech that his government will spend 4.7 trillion won ($3.49 billion) to develop a sovereign AI model with the “world’s highest performance”. \nSovereign AI has emerged as a growing area of focus for governments working to provide AI functionality for critical national infrastructure and defence without reliance on companies based outside their borders.\nNotable sovereign AI models include the French developer Mistral’s Large 4 and German model maker Aleph Alpha’s Kolibri. The UK government has committed at least £560 million to its Sovereign AI Fund, including a further £60 million announced ahead of last week’s budget.\nAlongside the sovereign AI commitment, Lee committed to spending $15.86 billion on AI in 2027, including domestic AI development and the rapid buildout of chip manufacturing plants and AI data centres. \n“We will invest 21.3 trillion won, nearly twice this year's amount, in AI and the three megaprojects of semiconductors, physical AI and AI data centres,” Lee said.\nLee previously announced the spending in August, with the aim of doubling down on the growing success of the South Korean AI sector.\nThis is currently dominated by Samsung Electronics and SK Hynix, respectively the world’s fourth and sixth largest semiconductor manufacturers, which have become critical suppliers of the hardware necessary for AI data centres and are generating increasingly large receipts for the South Korean government.\nIn October, Samsung Electronics reported a third quarter operating profit of 107.4 trillion won ($79.98 billion), a 787 per cent year on year increase. SK Hynix reported an operating profit of 83.3 trillion won ($62.04 billion) over the same period.\nRecent Stories"
     },
     {
-      "title": "Asian forex slips ahead of inflation data; South Korean stocks buck AI sell-off - The Edge Malaysia",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoSjZOWTRNVFhQNmo3STlSSnVackFTQ1ByRWwydHU3b01aSUN5M3RCU3RsQnhwSFEtN00xcDNMeXhpMFc5MVFZRUhVbFhfQU5rMlo0?oc=5",
-      "published": "Mon, 02 Nov 2026 05:15:27 GMT",
-      "summary": "Asian forex slips ahead of inflation data; South Korean stocks buck AI sell-off&nbsp;&nbsp;The Edge Malaysia",
+      "title": "[Column] The South Korea-US security meeting can wait - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVTdLV2lZSnQzQVJyNWIwUnVUNWpLaTgyb2JpN0ZBb0pKdDVVcHNxUTBEUXBuWk9lWkIwOHNCN2VDeThpR0ZiTEJXOVl0Skl1VnJBcF8zNEpiZ0FwWmlRdEd0ZG8yWmd6MlhfdE4tLVpfR2l2cklodHdreFdJQ2h2VQ?oc=5",
+      "published": "Tue, 03 Nov 2026 08:20:00 GMT",
+      "summary": "[Column] The South Korea-US security meeting can wait&nbsp;&nbsp;한겨레",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T16:20:00+08:00",
+      "source_detail": {
+        "name": "한겨레",
+        "url": "https://www.hani.co.kr"
+      },
+      "priority": 7.2,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.hani.co.kr/arti/english_edition/english_editorials/1285582.html",
+      "full_text": "US President Donald Trump adjusts his cap as he speaks during a midterm campaign rally at Salina Regional Airport in Salina, Kansas, US, Nov. 1, 2026. (Reuters/Yonahp)\n          \n            \n          By Jung E-gil, senior international affairs writer\nThe US midterm elections on Tuesday mark a major turning point for Seoul’s relations with Washington and its foreign policy more broadly. The outcome will have a profound impact on the domestic and foreign policies of US President Donald Trump, who has plunged both his own country and the international community into turmoil.\nEven if the Democrats win, Trump could refuse to accept the results or simply ignore them and double down on his policies. His threat to resume attacks on Iran after the midterms is a case in point. Nevertheless, an election defeat would undermine Trump’s authority and his ability to carry out his agenda.\nTrump’s signature initiatives — including his war against Iran, his efforts to end the war in Ukraine, and his trade and tariff campaign against countries around the world — have ground to a halt over the past few months. Facing resistance from the countries affected, Trump has put off further negotiations until after the midterms.\nDespite Trump’s threats to resume attacks, Iran has steadfastly refused to negotiate unless the seven conditions in its seven-day confidence-building plan are met. Those conditions include the US lifting its naval blockade and releasing frozen assets.\nSeparately, Russia has agreed to participate in US-mediated three-party talks with Ukraine but postponed them until after the midterms. Moscow has secured partial relief from US sanctions, including restrictions on diesel exports, while refusing to budge on its current conditions for ending the fighting.\nCanada, which has been one of the fiercest opponents of Trump’s trade onslaught, also persuaded him to withdraw the 50% tariffs he had imposed before postponing a new trade agreement until the midterms are over.\nWhile discussing the two countries’ trade talks on Oct. 26, Canadian Prime Minister Mark Carney said that “to the extent any progress has been made, it’s because the US is coming closer to our position.”\n“Carney described a ‘slight, slight intensification’ of discussions but said Canada’s negotiating position remained unchanged,” the Associated Press reported.\nThese countries are resisting Trump and applying pressure to extract some concessions for now on the assumption that his self-defeating domestic and foreign policies will lose momentum after the midterms.\nIn Korea, President Lee Jae Myung has also neatly deflected the Trump administration’s aggressive demands ahead of the election.\nAt a press conference in September, President Lee drew a bright line on deploying troops to the Strait of Hormuz, declaring that Korea would not deploy troops “for involvement or intervention in a war.”\nThere are concerns that the measures Lee did mention, including adjustments to the naval Cheonghae Unit’s operational area, could amount to an indirect deployment. But even those questions can be deferred for negotiations after the war with Iran ends. Lee’s announcement deflated not only US demands for a Korean deployment to Hormuz but also domestic calls for Korea to comply.\nSeoul also rebutted Trump’s unilateral announcement that Korea would invest US$50 billion in building a liquefied natural gas (LNG) project in Alaska, making clear that no formal agreement had been reached.\nTrump piled on pressure, saying, “If they don’t want to do it, that’s OK with me. I’ll just charge them more.” Trump repeated the warning: “Tell them if they don’t sign shortly, I’m going to double it up.”\nBut even the US Commerce Department had to sheepishly acknowledge that no such agreement exists with Korea.\nUS foreign policy has become a snarl of contradictions. While pledging to stay out of overseas conflicts, Trump has kicked off a war against Iran — which keeps the US from concentrating its forces or rallying its allies in East Asia, which ought to be its principal strategic theater.\nThis helps explain why Gen. Xavier Brunson, the commander of US Forces Korea, has described the Korean Peninsula as a geopolitical “dagger” aimed at China and publicly challenged the transfer of wartime operational control (OPCON), an issue that ought to be decided by the two countries. The fact that a regional military commander is taking on such an outsize role illustrates Washington’s anxiety over, and confusion about, East Asia.\nThe annual Korea-US Security Consultative Meeting, originally scheduled for the end of this year, has been postponed until next year.\nSome in Korea have made a great fuss about the postponement, portraying it as evidence of friction in a fraying alliance. But do they really think that Seoul should accommodate every one of Trump’s unreasonable demands?\nIf Seoul and Washington disagree over postponing the OPCON transfer or over the US’ strategic goal of turning the Korean Peninsula into a base against China, they should postpone the meeting and work out their differences. For Korea, such a delay might be a blessing in disguise.\nAfter the midterms, the Trump administration will have to grapple with an array of countries over its pending foreign policy disputes, not to mention crossing swords with the Democrats at home.\nCarney has previously warned that Washington’s signature was sometimes “written in pencil.” Asked on Oct. 26 whether Trump would “sign in pen” on a new trade agreement, the Canadian premier replied, “I don’t know that,” making clear he intends to combat Trump’s penchant for reneging on deals he has made.\nThat is precisely why Korea must also draw a clear line about Trump’s unreasonable demands, particularly after the midterms.\nA crisis can turn out to be an opportunity.\nIf the US is thrown into unprecedented turmoil at home and abroad after the elections, it could give Korea a chance to recalibrate its relationship with Washington to better serve its national interest and suit its global status.\nPlease direct questions or comments to [english@hani.co.kr]"
+    },
+    {
+      "title": "KOSPI Falls 3% as AI Fears Hit Samsung, SK hynix Despite $56 Billion Chip Export Boom - NiftyTrader",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QMXNLWGZrQ3c4OHNobWRlTV9haURaT1ZOWjhJV1dMUDNrNW5SN2ctS3hMMi1ZQTlzbER4NUV2NE94RHJDck5Ub2R2N3gyTnE0cktJM1VrX0c0NTVVNGJvcVQ1NHdtTjVUamxldVh4SnR3Y21KT3loRE1LR1B5QQ?oc=5",
+      "published": "Tue, 03 Nov 2026 06:43:04 GMT",
+      "summary": "KOSPI Falls 3% as AI Fears Hit Samsung, SK hynix Despite $56 Billion Chip Export Boom&nbsp;&nbsp;NiftyTrader",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T14:43:04+08:00",
+      "source_detail": {
+        "name": "NiftyTrader",
+        "url": "https://www.niftytrader.in"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Korea's DB Asset Management Lists Tech ETF With 75% Concentrated in Samsung Electronics, Samsung Electro-Mechanics and Samsung SDI - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pX205bHVQNmlXSUdFU0dDY2c3cmdRVVhnMGtvVjk0UThMRGNlZ2R5SV9uMW9HWm9iTE5ISGZkUy0tRU1hVFRMT2Mzc0VXUzhnZWYzTE5aNzlIc2NwdXR6amlTX3ZTYzd2Y184Nzg5RUY2YW05clE?oc=5",
+      "published": "Tue, 03 Nov 2026 02:36:00 GMT",
+      "summary": "South Korea's DB Asset Management Lists Tech ETF With 75% Concentrated in Samsung Electronics, Samsung Electro-Mechanics and Samsung SDI&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T10:36:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 7.2,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium"
+    },
+    {
+      "title": "South Korea's October Inflation at 2.8%: Farm Prices Weigh, but Core Inflation Stuck at 2.8% - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDTUNUV0djRWZ6V0NYNXlkMmVsTU5RSmo1ZVZYckxTdmR1Q0FFeDJCUnp3VWVqNEJ3ZFRIM0hkNzFnTnNsRE9BLVhsLWpkcGRRa2pCbGNXT3p2VkpBUVlGNk5pLWRUV1RoVVNjSXpkS1BPT2JnT0E?oc=5",
+      "published": "Mon, 02 Nov 2026 23:55:00 GMT",
+      "summary": "South Korea's October Inflation at 2.8%: Farm Prices Weigh, but Core Inflation Stuck at 2.8%&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T13:15:27+08:00",
+      "published_beijing": "2026-11-03T07:55:00+08:00",
       "source_detail": {
-        "name": "The Edge Malaysia",
-        "url": "http://www.theedgemarkets.com"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 7.2,
       "category": "韩国",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "medium"
     },
     {
-      "title": "Japan’s Economy Remains Fragile Amid A New Cycle – Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFBZWUdwdl9RYUNMX2JPTnBFN1BGOXVYYllqUEZoTmFSMXhMRmxGTjczUm1CWFJjYmVTV19CZi1EOEFHTHhCT3FZb1FENzZ3cUdONnhoMVdZRFNUbDVsc19XbTR3UklIb3MxYnE0b05IdllHc21JbDMtWVp5UVVMV3hSaC1wYUpiLWZsS2t3REtFaU16V2Y0MWNmWVg?oc=5",
-      "published": "Tue, 03 Nov 2026 00:46:40 GMT",
-      "summary": "Japan’s Economy Remains Fragile Amid A New Cycle – Analysis&nbsp;&nbsp;Eurasia Review",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-03T08:46:40+08:00",
+      "title": "First Shift: Factory growth, tighter capacity and investment reshape supply chain decisions - Supply Chain Management Review",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWZ2aE1FaU5uUjMzVUg3RGR3QVFpdlNmS0tpeTJrQ1p1bTh4NWptU1dONVp6YjlaZWZQXzZUTnB5TllPUEJQeVA0ZGpUd2dlVEx4OXZnZEh4b2twV2s0aTZqSllXRTktaTdmUW1VQ3pqeV9DSmZUQXhmSzhGNW9IM0Y4aVM5TmlEelJZdW9ManptOTRVbHcxSlNGSDhPM05oY0lSMl8wS0FKTmhteGZXTzBrQVlBUmoxcnc?oc=5",
+      "published": "Tue, 03 Nov 2026 14:13:00 GMT",
+      "summary": "First Shift: Factory growth, tighter capacity and investment reshape supply chain decisions&nbsp;&nbsp;Supply Chain Management Review",
+      "source": "GNews | JP Trade/SCM",
+      "published_beijing": "2026-11-03T22:13:00+08:00",
       "source_detail": {
-        "name": "Eurasia Review",
-        "url": "https://www.eurasiareview.com"
+        "name": "Supply Chain Management Review",
+        "url": "https://www.scmr.com"
       },
-      "priority": 4.8,
+      "priority": 6.0,
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.scmr.com/article/first-shift-factory-growth-tighter-capacity-and-investment-reshape-supply-chain-decisions",
+      "full_text": "First Shift is SCMR’s daily briefing on the supply chain developments executives need to know, delivering concise context on logistics, procurement, planning, manufacturing, technology and global trade with links to the original reporting.\nToday is Tuesday, Nov. 3.\n1. U.S. manufacturing extends its expansion despite persistent cost pressure\nThe October manufacturing PMI rose one point to 55.5, marking a 10th straight month of growth, while strong production and new orders contrasted with elevated input prices and continued tariff uncertainty.\nLogistics Management | Read the original article\n2. Asian manufacturers’ U.S. investment pipeline continues to build\nCiti expects Japanese, South Korean and Taiwanese companies to keep increasing U.S. investment as factories move from land purchases into construction and operations, sustaining demand for trade finance and cross-border services.\nReuters | Read the original article\n3. Port labor talks avert an immediate Southern California disruption\nEmployers and union watchmen extended their contract through Nov. 4 while federally mediated talks continue, temporarily reducing strike risk at terminals handling large shares of Los Angeles and Long Beach cargo.\nFreightWaves | Read the original article\n4. Truckload capacity exits shift negotiating leverage toward carriers\nAbout 89,000 carriers have left the market since 2022, creating a supply-led recovery in which rates are firming despite uneven freight demand and increasingly regional differences in capacity availability.\nLogistics Management | Read the original article\n5. Reshoring and foreign investment sustain the manufacturing job pipeline\nManufacturers and foreign investors announced 247,000 U.S. jobs in 2025, with transportation equipment leading and the Reshoring Initiative projecting 25% growth in related announcements during 2026.\nSupply Chain Dive | Read the original article\n6. Highway funding lapse raises risk for freight infrastructure projects\nCongress returns facing a lapse affecting $10.8 billion in nationwide formula funding for roads, bridges and safety, while another short-term extension could leave freight corridors and truck-parking projects uncertain.\nTransport Topics | Read the original article\n7. Holiday parcel demand rises as carrier market shares diverge\nShipMatrix forecasts 2.4 billion peak-season packages, up 4% year over year, as Amazon and alternative networks gain volume while retailers absorb sharply higher parcel rates and fuel-related charges.\nFreightWaves | Read the original article\n8. Foreign investment agreements target U.S. production and critical supply chains\nMitsubishi plans a $490 million Georgia expansion, while U.S. agreements with Finland and Denmark seek stronger critical-minerals, technology and shipbuilding capacity alongside Hanwha’s new naval construction contract.\nManufacturing Dive | Read the original article\n9. AI moves digital freight matching deeper into brokerage workflows\nIndustry analysts say automated matching, pricing and carrier vetting are becoming embedded in brokerage operations, while tighter capacity and liability concerns increase the value of dense networks and human exception management.\nLogistics Management | Read the original article\n10. MSHA urges winter controls for mine operations and equipment\nA federal safety alert warns that snow, ice and freeze-thaw cycles increase vehicle, ground-control and cold-stress hazards, recommending equipment winterization, surface treatment, cautious driving, inspections and worker training.\nWork Safety 24/7 | Read the original article"
     },
     {
-      "title": "Altman turns to Samsung, SK as AI expansion faces chip supply challenges - ET Manufacturing",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOanhjSHNwelFKdEJFdVY0VnZMTU5zdHBKX09GRkZjbXQwQ0t3Um1TTERWZi16RUlkV19haGg3M1Bod29ObEN3MmU0d0dmYW1hNlNuYWtZUTdIM056Q0E4d05MU0tfVlBmTzdtV0FPLUJIWEFxY05YeTU5NExOenNvalg4RUhlX1g3Vm1zVXVPUHBMNHgtVXpqS1doS3pGc1RzVG1wbzcydHJUb01iYk5LakNIQUNmbnUzM2dWRnotTUJraWZ0QmJMNjRFYXhqNmZydXBNbEF6eUoxSF91MkHSAeIBQVVfeXFMT0pPelN0S052aDVoUGxWQnhhZThLT3ZoR2VoRzZlZFh3TVpmX3dxR01tVEczWWczNXFoWG5xcnRQVWxYdjVLQjFHdWxtQnNMUW5HaUJ0SlZUa0hOYXYzOU11bC02MVlhQjI5THQxZV9WcFhYdVZjYkxDT1FwNkg3bFhCMEF2RlZCSUtoaFdwMDRQcDYwV1hmZ0N4Rm1BeWsxZWlFZ2VrOUZrcFE2bmVjUnpaN3B3TTR4TUIwOTBQck9RdnJIbHhTMzFSNjJickFMM3k2cFVQSFNES2xMQ3FmMHhtUQ?oc=5",
-      "published": "Mon, 02 Nov 2026 16:41:15 GMT",
-      "summary": "Altman turns to Samsung, SK as AI expansion faces chip supply challenges&nbsp;&nbsp;ET Manufacturing",
+      "title": "Philadelphia Semiconductor Index Plunges 3.4%: Samsung Electronics Falls to approximately $160, SK Hynix Breaks Below 1.4 Million Won - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VWDdydXZKdVozdlpNTFUwbHducVFLbXVSV0VGZHk1WHZhUEZkUFBuNVQ2bUtOQ2l0amlUUlc0RjBCSXY1SDQtdkl1Y2JsZ1FpSjRzRW90b0lhU3JQekFFTGFlWmh3M0Z6dUxKVWV4c19jVlNLbXc?oc=5",
+      "published": "Tue, 03 Nov 2026 18:15:00 GMT",
+      "summary": "Philadelphia Semiconductor Index Plunges 3.4%: Samsung Electronics Falls to approximately $160, SK Hynix Breaks Below 1.4 Million Won&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T00:41:15+08:00",
+      "published_beijing": "2026-11-04T02:15:00+08:00",
       "source_detail": {
-        "name": "ET Manufacturing",
-        "url": "https://manufacturing.economictimes.indiatimes.com"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "USD/JPY Price Forecast: Multiple Tailwinds Fail to Prevent Japanese Yen Underperformance - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPODd5aHJNQmtpTlByTE5mUUJ5bWNxTXRjNi13cGtRMUtkYXJYYVF5dFBEZ2lHQmdLcGxueU94ZU0xeGYtVkF4SHMyZzRpTllMd2dCYTlTWDZ1aFRpbTg2M3c4dnZsTFp2OWVkOV9KejQ2c3h2Y3I2Qm95UFE0TmR1WnVyNmx6UmRheUdYMEllcGZ3eVJWbXZienpnOThkeXdJSXhPcWxLalFzcldBdktWdGgzdjlvOWtFWWQ2cnFfRlpEV0VqVXFfeDhYdVhlcldnODIzR2d5MHd1dVk?oc=5",
-      "published": "Mon, 02 Nov 2026 07:52:27 GMT",
-      "summary": "USD/JPY Price Forecast: Multiple Tailwinds Fail to Prevent Japanese Yen Underperformance&nbsp;&nbsp;www.tmgm.com",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T15:52:27+08:00",
-      "source_detail": {
-        "name": "www.tmgm.com",
-        "url": "https://www.tmgm.com"
-      },
-      "priority": 4.8,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "USD/JPY Price Forecast: Japanese Yen lags despite several supportive factors - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYmhxZm54YmVlS0o1bjk4MUlmU0otbE1jRHdHdlhfVzlUZGFycjZYbVVFeFRycGMxOFFtR1lJSDh5UzRyMEUzc25sSUVMVDYtQ2lCTnZfQldQcWxhelZfVDRUeHJGVkpNTENibldWckk1SjdpV2pLZHZySW5NeHM2RG43MXJ0MzRkNDJWUEFLdDUwcy1yZEh2OWFQbzlFTXd3X2hzQS1Jcmg0TVpFeno5a0UyTjdYYnB3NHJXY2E1ZjBya0k3eUlxQnBPeXNabm9jd0w0aVo1ajFoWC1nNEE?oc=5",
-      "published": "Mon, 02 Nov 2026 07:46:30 GMT",
-      "summary": "USD/JPY Price Forecast: Japanese Yen lags despite several supportive factors&nbsp;&nbsp;www.tmgm.com",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T15:46:30+08:00",
-      "source_detail": {
-        "name": "www.tmgm.com",
-        "url": "https://www.tmgm.com"
-      },
-      "priority": 4.8,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Doubts on AI investment to test Korean economy - The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQazcyTVVKbUVzbFhwMEdtRC03cmluMHY3QzQ2ZzA3X1d3aGdfc0FxX25BRDZ2MDFCZXBXOFVOUjJhZmpfSTkzSURMTUJCR2dsbnUyNnhtV0o4dHRmdXFnZEdwb1FSNzd5NThlSm1VQ3N2MDZrT0prellMLS1uc2J4al95Nl94blFWWkk1OE1NZ0hhaGh0VU04ZVhmTU9SMU1EX1lOTWV5c3k1djDSAasBQVVfeXFMUGs3Mk1VSm1Fc2xYcDBHbUQtN3JpbjB2N0M0NmcwN19Xd2hnX3NBcV9uQUQ2djAxQmVwVzhVTlIyYWZqX0k5M0lETE1CQkdnbG51MjZ4bVdKOHR0ZnVxZ2RHcG9RUjc3eTU4ZUptVUNzdjA2a09Ka3pZTC0tbnNieGpfeTZfeG5RVlpJNThNTWdIYWhodFVNOGVYZk1PUjFNRF9ZTk1leXN5NXYw?oc=5",
-      "published": "Mon, 02 Nov 2026 06:08:03 GMT",
-      "summary": "Doubts on AI investment to test Korean economy&nbsp;&nbsp;The Korea Times",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T14:08:03+08:00",
-      "source_detail": {
-        "name": "The Korea Times",
-        "url": "https://www.koreatimes.co.kr"
-      },
-      "priority": 4.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Trade Policy Comes for the Super Intelligence Force - Inside Sources - Prescott eNews",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2MtTURsWTZkRUhlaGg4dEs3bVJXeS1MOEtpUFRBSGJKbVBXVmxyMGVabnZKZHdxTmRfM1ZybnJfTExxNV80VXFScEhQaDl3YnprRm8xeERaWWc4VTZFMGFPQ3d0c0tPdkVfeFRPanhCXy1tUDcwSFhNSkwtMC1mRnJ5dk56Y25seEt3Sk8yTEpub1FqMzV0VzJrWXp4OEJLWk9YaDJtWQ?oc=5",
-      "published": "Tue, 03 Nov 2026 05:10:59 GMT",
-      "summary": "Trade Policy Comes for the Super Intelligence Force - Inside Sources&nbsp;&nbsp;Prescott eNews",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-11-03T13:10:59+08:00",
-      "source_detail": {
-        "name": "Prescott eNews",
-        "url": "https://prescottenews.com"
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
       },
       "priority": 3.6,
-      "category": "日本",
+      "category": "基础设施+科技",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "medium"
     },
     {
-      "title": "Japanese Yen consolidates vs recovering USD as intervention risks help limit losses - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYkxHRlVZaThxUHNyN3RQejExczdKOG1IOXluU0FBUkhGS3U4M1ZzdVZxa0ZzQVE1cG02TWZ6cE5IU2NvZmRZZWVBUDl5cXVIbmNEdHRyYzdLTDcxRjc0d2JJRXBpRW1rWEx1ZEtzMzVzUlg2SFp1ZDg2akhPXzhVR0hqdWVvMlU4ZmdvMi1STktjSGU2aUl2Z1VGSzNOc2pNZnhHYjlya1NGRVFoNVJveTI0LWtkUkNjS2d2SnEtQ0d0VVMt?oc=5",
-      "published": "Tue, 03 Nov 2026 02:14:06 GMT",
-      "summary": "Japanese Yen consolidates vs recovering USD as intervention risks help limit losses&nbsp;&nbsp;FXStreet",
+      "title": "Japanese Yen weakens against US Dollar, US Midterm Elections in focus - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdpWV8xeFItX29CWDU0MllkUmFXRDIxTU5aa2hOek1pWVItOEd3c0FWT2dWdThRMnBRMjA3SFpnSzZ5TzlQYUJLZzBLd1AzSEhBZ2FfNnB5N1J2RXAwVGlyelBKQjFlTUNKMnNZSHgxdUdkMnVrSUdTY3BPR2tnNi0tbEdUWXlzUDlsNzRnMmR3eWJyWUZBdVBmSGhqT3NGcW1JNXNmX05WTlY3TGxPVQ?oc=5",
+      "published": "Tue, 03 Nov 2026 11:44:54 GMT",
+      "summary": "Japanese Yen weakens against US Dollar, US Midterm Elections in focus&nbsp;&nbsp;FXStreet",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-03T10:14:06+08:00",
+      "published_beijing": "2026-11-03T19:44:54+08:00",
       "source_detail": {
         "name": "FXStreet",
         "url": "https://www.fxstreet.com"
@@ -587,151 +328,85 @@
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.fxstreet.com/news/japanese-yen-weakens-against-us-dollar-us-midterm-elections-in-focus-202611031144"
     },
     {
-      "title": "What France's National Crisis Teaches Korea - Seoul Economic Daily",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckk2Y2tTQWhabUVka2VzRnZRUTRPSkFfYkdFRHhzakwtYUhKY3lCX2tQRlB2T01qODBFWjk4MmV0WDVJd0pVLUstMks5cXJyUElIY0l6T0lwOVBiRDdhczVIUl82OEtWcGFqNWhrUFNJcG9hZGJqLVE3WTJrTFJFWTRpOV9ocFhZLU54cg?oc=5",
-      "published": "Sun, 01 Nov 2026 08:12:44 GMT",
-      "summary": "What France's National Crisis Teaches Korea&nbsp;&nbsp;Seoul Economic Daily",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-01T16:12:44+08:00",
+      "title": "China Claims Credit as Korea Nears $1 Trillion in Annual Exports - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSVcxYVd4OC1nS1QxQnY1djJLeTZhMzd0amtpb0ZZX0NjZkxNX013MHYwY3VmSWZDbFNnZDhlak9KNGxoUlB2dkVmRzRrRFlPNllQN1NnZkZNNDhlRDcyZDMwZ29OVWdsUURZUzI1MlVUOU5JOEo0ZWRJa2ZDdE45ckdpeGpqUmVIcU5tNGd4bGgyMWEtN25VWTQ3VF8wVG1hU0dmNm9B?oc=5",
+      "published": "Tue, 03 Nov 2026 07:42:12 GMT",
+      "summary": "China Claims Credit as Korea Nears $1 Trillion in Annual Exports&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Chip/Export",
+      "published_beijing": "2026-11-03T15:42:12+08:00",
       "source_detail": {
         "name": "Seoul Economic Daily",
         "url": "https://en.sedaily.com"
       },
       "priority": 3.6,
-      "category": "政治+社会",
+      "category": "韩国",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://en.sedaily.com/international/2026/11/03/china-claims-credit-as-korea-nears-1-trillion-in-annual",
+      "full_text": "South Korea is on course to become the fourth country to post $1 trillion in annual exports, and China's state media is highlighting what it says is the contribution of the Chinese market. An artificial intelligence boom has lifted Korean chip exports, the argument goes, but China is one of the key markets generating that demand.\nKorean Exports Top $930 Billion, Chip Shipments Surge 259%\nCumulative exports for the January-October period reached $930 billion, passing $900 billion for the first time, according to the Ministry of Trade, Industry and Energy on the 2nd. That leaves $70 billion to reach $1 trillion for the year. At the current pace, Korea is expected to cross that mark this month, becoming the fourth country to do so after the United States, China and Germany.\nExports in October totaled $115.28 billion, up 93.7% from a year earlier. It was the second-largest monthly export figure on record.\nThe explosive growth of the AI industry drove the increase. October semiconductor exports came to $56.44 billion, up 259.4% year-on-year, as global big tech companies expanded investment in AI data centers and sharply increased chip demand.\nComputer exports jumped 496.6% to $5.85 billion, reflecting stronger demand for solid-state drives used in AI servers. Exports of electrical equipment needed for AI infrastructure, including transformers and power cables, rose 74%.\nThe strength was not confined to any single region. Exports to China rose 133.6% to $26.98 billion, while shipments to the United States climbed 185.8% to $24.9 billion. Exports to Southeast Asian nations increased 128% to $21.33 billion.\nChinese Media Says Demand From China's AI Sector Played a Part\nGlobal Times, a Chinese state-run English-language outlet, addressed Korea's prospects of reaching $1 trillion in exports in a commentary on the 2nd and stressed the importance of the Chinese market.\nThe outlet said Korea's export surge is tied to expanding AI investment worldwide. It framed the AI industry not as a sector limited to chips or software but as a vast supply chain linking data centers, power equipment and other industries.\nChina's role in that supply chain is growing, the outlet argued. Citing the 133.6% rise in Korea's October exports to China, Global Times said China's expanding technology industry is generating demand that crosses borders.\nIt also pushed back against assessments in some quarters that Chinese demand is weakening, saying China is increasing technology exports while also expanding imports of foreign products, creating business opportunities for companies in other countries.\nSuch two-way trade makes China an important participant in the expansion of global trade in the AI era, the outlet said.\nThe commentary acknowledged Korea's export performance while emphasizing that ties to the Chinese market contributed to that growth.\nSupply Chain Cooperation Called Key to Sustaining $1 Trillion\nGlobal Times said Korea needs to strengthen cooperation with international supply chains not only to reach $1 trillion in exports but also to maintain growth beyond that point.\nCiting the World Trade Organization's 2025 World Trade Report, the outlet said AI could expand cross-border trade in goods and services by about 40% by 2040 through productivity gains and lower trade costs, if backed by appropriate policies.\nDeeper integration with global supply chains and trade openness are important if Korea is to sustain export growth, the outlet said.\nIndustrial cooperation and an open trading environment are the key conditions for further export expansion, it argued. The message can also be read as saying that Korea and other exporting countries need to maintain their links to global production and trade networks, including China.\nThe Korean government, for its part, plans to strengthen trade cooperation with major economies to keep export growth going.\n\"Reaching $1 trillion in annual exports during November is now all but certain,\" Trade Minister Kim Jung-kwan said on the 1st. \"We will concentrate all of our policy capacity so that small and mid-sized companies can also broadly share in the gains from export growth.\""
     },
     {
-      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
-      "published": "Mon, 02 Nov 2026 23:54:34 GMT",
-      "summary": "War, tariffs and China: What the US midterms mean for the Asia-Pacific&nbsp;&nbsp;Al Jazeera",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-03T07:54:34+08:00",
-      "source_detail": {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com"
-      },
-      "priority": 3.6,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Despite Strong Exports and Semiconductors, Economic Sentiment Remains Cold: News Sentiment Index at 95.34 - 재경일보",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OWDNDV2JCY2pwNzFoeE5NaXZ0dnk3UE5YS05xcnNIczdNeUJmTnlscVFfLUpnSDFFd1VVUml6OEZxTmdnRzFPZEVEZHpwelJpZDZET2lTbnNVWDRNbm9pSEJB?oc=5",
-      "published": "Mon, 02 Nov 2026 22:25:00 GMT",
-      "summary": "Despite Strong Exports and Semiconductors, Economic Sentiment Remains Cold: News Sentiment Index at 95.34&nbsp;&nbsp;재경일보",
+      "title": "Fitch kicks off annual consultation with government to discuss sovereign credit rating - Korea JoongAng Daily",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd1JTNG9INXFaeTA3NUpNWU9tNHFCdFpsYjFvWHJFOU1zUFBhNUkzaE1WV1ZPTGw2a1ZSYTR3SHZfSkZwb0JCNmlDemRlNEtmWWE3NUtKS0oxOEJ0dGEzX1ozc0JmZEJQcWswOXBtNVhXSENQUTBkTDIxOWs5emttNU1sZ2dPOGJrbWJmcDIwUElMSDNXVzVXQnR5a2xfbVFQTHhSX1dBZGU2Umg0UjdJLVFXWWV3c3JzUHh1cVZpVTZBOTRsMXBlbmJhRFpQZkM5aEU3MFZ3?oc=5",
+      "published": "Tue, 03 Nov 2026 02:30:10 GMT",
+      "summary": "Fitch kicks off annual consultation with government to discuss sovereign credit rating&nbsp;&nbsp;Korea JoongAng Daily",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T06:25:00+08:00",
+      "published_beijing": "2026-11-03T10:30:10+08:00",
       "source_detail": {
-        "name": "재경일보",
-        "url": "https://news.jkn.co.kr"
+        "name": "Korea JoongAng Daily",
+        "url": "https://www.koreajoongangdaily.com"
       },
       "priority": 3.6,
       "category": "韩国",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.koreajoongangdaily.com/business/fitch-kicks-off-annual-consultation-with-government-to-discuss-sovereign-credit-rating/12952330",
+      "full_text": "Read more\n- Kospi opens sharply higher on tech gains ahead of U.S. midterm election results The benchmark Kospi rose 137.34 points, or 2.43 percent, to 5,786.13 at the opening bell.\n- Foreign reserves rebound in October Korea's foreign reserves stood at $443.16 billion at the end of October, up $2.6 billion from a month earlier, due to increased foreign currency assets and management profits.\n- Kospi dips over 3% following escalating AI concerns After opening 2.46 percent lower, the benchmark Kospi extended losses to close at 5,648.79, down 210.29 points, or 3.59 percent.\n- Consumer inflation expected to sit in high 2% range as Middle East uncertainties persist The Bank of Korea said cost-push and demand-pull pressures are likely to drive core inflation upward in November."
     },
     {
-      "title": "Korea to Become Global HBM Production Hub as Core Memory for AI Era… Aims to Establish Center for AI Data Centers - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53ZUFmLTNXSkpHN211ODZEd1FBRHhCYWdpSDRDTURNN19ETFlhNzJjTURZeWFldU95Rms0cUhnOGI1SmV6V2FXdTE3SGU2VmtVQ2tlcnRKTHNHcWh5cncwZXhxTmx6QlFhdUVF?oc=5",
-      "published": "Mon, 02 Nov 2026 19:10:00 GMT",
-      "summary": "Korea to Become Global HBM Production Hub as Core Memory for AI Era… Aims to Establish Center for AI Data Centers&nbsp;&nbsp;머니투데이",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T03:10:00+08:00",
+      "title": "US Midterm Forecast: The Key Risks for Traders to Watch Through the US Elections - StoneX",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUXphLW5ZbXgwMHZHaFlhclhmTGFxelU5eGp6STFBZlNhdHkxd1ZqR05STURmeHZ5T0RLU21mNFRKcFlIb2tPVlllYVEzbm1TNXpCcE5fNUk4d2l2c3F3OF83M3hLa2Q4RzQ0Mm5VSG0tWEI5WmlqUDFocEFnX3Njc0RFbnpQay1tanVwamRMNVdYakVEd0tBQjNGVUFNeWJELWtFam93aVVXUnYtckozSXdYOG11UXhQX05NQzBsYUY2TEg2THZsWGgzYW1Rem0yd2JRZw?oc=5",
+      "published": "Mon, 02 Nov 2026 19:34:01 GMT",
+      "summary": "US Midterm Forecast: The Key Risks for Traders to Watch Through the US Elections&nbsp;&nbsp;StoneX",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-11-03T03:34:01+08:00",
       "source_detail": {
-        "name": "머니투데이",
-        "url": "https://www.mt.co.kr"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Filipino Officials Warn China Could Be Targeting Undersea Cables near Japan - Breitbart News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOODNHV2NMT0N2aUtrMG5vQ09LQVFxUmxsalV2VHROOGRhSWZBZ0FGdTJMby1KTHNyOHNjejJFOG54MTVWbkZwNDZuRnEyNWJkVUlNRldSU0Nwc1VQS1B4VmVxQVg3Y01qS29aMUFUbTdsWHJuLS1nTDV3TjVMNDM3MC1fblBXb0w2d1h0NUZRR2F1UHh6enpncTZhVDFRMDZoVVp1dm1wX1phVGxiWHV3dTFzOFp5bzQyQjVPVXlMa9IBvwFBVV95cUxOODNHV2NMT0N2aUtrMG5vQ09LQVFxUmxsalV2VHROOGRhSWZBZ0FGdTJMby1KTHNyOHNjejJFOG54MTVWbkZwNDZuRnEyNWJkVUlNRldSU0Nwc1VQS1B4VmVxQVg3Y01qS29aMUFUbTdsWHJuLS1nTDV3TjVMNDM3MC1fblBXb0w2d1h0NUZRR2F1UHh6enpncTZhVDFRMDZoVVp1dm1wX1phVGxiWHV3dTFzOFp5bzQyQjVPVXlMaw?oc=5",
-      "published": "Mon, 02 Nov 2026 18:24:31 GMT",
-      "summary": "Filipino Officials Warn China Could Be Targeting Undersea Cables near Japan&nbsp;&nbsp;Breitbart News",
-      "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-11-03T02:24:31+08:00",
-      "source_detail": {
-        "name": "Breitbart News",
-        "url": "https://www.breitbart.com"
-      },
-      "priority": 3.6,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Taiwan to criminalize Nvidia AI chip smuggling to China - Asia Times",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUWxfTkwxZS03OThDWFpBX3ktSUU2RC01UkhiMm5WdEI5dmVkWll1T3Y2dFZXcWp5LW1YazVuS3FrSEcyZUhfYzRGSTQ3aFNfMlY2b2VNcUJaaEpjcWJBU3ZCRzIzV2sydmhkQ2l2WFBzN0NqZ1VyYWhfdS14M1FLLThJbkcwakVvd3ZqRUpGcw?oc=5",
-      "published": "Mon, 02 Nov 2026 16:55:28 GMT",
-      "summary": "Taiwan to criminalize Nvidia AI chip smuggling to China&nbsp;&nbsp;Asia Times",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-11-03T00:55:28+08:00",
-      "source_detail": {
-        "name": "Asia Times",
-        "url": "https://asiatimes.com"
+        "name": "StoneX",
+        "url": "https://www.stonex.com"
       },
       "priority": 3.6,
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.stonex.com/en-gb/news-and-analysis/us-midterm-forecast-the-key-risks-for-traders-to-watch-through-the-us-elections-2026-11-02/",
+      "full_text": "Prediction markets are pricing in nearly 75% odds of a Democratic sweep in this week’s US midterm elections, a development that would result in a split from the single party Republican rule of the past two years - what will it mean for markets?\nUS MIDTERM KEY TAKEAWAYS:\n- Prediction markets are pricing in nearly 75% odds of a Democratic sweep in this week’s US midterm elections, a development that would result in a split from the single party Republican rule of the past two years.\n- Markets are always forward-looking, and a divided government is now the base case, so volatility may be relatively subdued if the results ultimately follow the script.\n- A too-close-to-call result or delayed count could be one of the biggest risks, keeping short-term volatility elevated and likely weighing on the US dollar and US indices until there is confidence in the outcome.\nUS voters head to the polls on Tuesday, November 3, to elect all 435 members of the House and 35 senators. Prediction markets are pricing in nearly 75% odds of a Democratic sweep, a development that would result in a split from the single party Republican rule of the past two years.\nSource: Kalshi\nCrucially, it’s worth noting that markets are always forward-looking, and a divided government is now the base case, so volatility may be relatively subdued if the results ultimately follow the script.\nFor markets, the ultimate result may matter less than whether it surprises. If Democrats take both chambers, a Republican president would face a Congress less likely to support new fiscal stimulus or major legislation. But the administration would retain significant influence over tariffs and other policy areas through executive actions. A change in congressional control could still mean more hearings and scrutiny, especially around technology, crypto and the rapid expansion of data centers.\nFor traders, the status of the vaunted “AI Trade” is one of the most important considerations. Rising public concern about data centers, electricity costs and their impact on local communities could bring more regulatory attention or delay projects. That could unsettle companies tied to AI infrastructure, even if it does not derail the longer-term investment cycle.\nThe dollar’s reaction will likely depend on Treasury yields, rate expectations and risk sentiment more than the result alone. A Republican sweep could revive expectations for further fiscal expansion, potentially supporting yields and the dollar. A Democratic sweep could constrain new fiscal initiatives, but existing tariff policy may not change quickly. If the expected outcome arrives, traders may see little lasting movement as attention returns to the Federal Reserve, economic data and corporate earnings.\nElection results will come in Tuesday evening and night, but the new Congress does not take office until January 3. That gap limits the prospect of an immediate policy shift. Indeed, a too-close-to-call result or delayed count could be one of the biggest risks, keeping short-term volatility elevated and likely weighing on the US dollar and US indices until there is confidence in the outcome. still stir short-term volatility, though the election is only one of several competing forces this week.\nUS Dollar Technical Analysis – DXY Daily Chart\nSource: TradingView, StoneX\nFor forex traders, the 101.50 area on the US Dollar Index is a key technical level. The index is testing that zone after it previously acted as resistance and then support. A clear break lower could put the 100.50 area in view; holding above it would keep the recent range intact. In either case, price action and yields may offer a clearer signal than political headlines alone.\n-- Written by Matt Weller, Global Head of Research\nCheck out Matt’s Daily Market Update videos on YouTube and be sure to follow Matt on Twitter: @MWellerFX\nUSD/JPY Weekly Outlook: AI earnings could overshadow the Fed and BoJ\nAI sentiment has become a major driver of US Treasury yields and USD/JPY. With Microsoft, Alphabet and Amazon reporting this week, central bank decisions may have competition for traders' attention.\nNasdaq 100 Forecast: NDX slips ahead of Fed Chair Warsh’s speech\nU.S. stocks are edging lower on Friday, giving back some of yesterday's gains after Nvidia's strong outlook revived the tech trade. The focus has now shifted firmly to Fed Chair Kevin Warsh's Jackson Hole speech, with investors looking for more clarity on the outlook for interest rates.\nEUR/USD forecast: All eyes on Warsh at Jackson Hole - Forex Friday\nFor much of this week, the EUR/USD has been edging lower with the US dollar regaining some ground after last week’s sell-off that was triggered, in part, by the bond market worries. Investors have been unwilling to bet further against the US dollar so far this week ahead of Kevin Warsh’s keynote speech at the Jackson Hole summit, due later today."
     },
     {
-      "title": "Merz calls for Korean unity in freedom — Deutsche Welle - UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb1QtTjFfQ3plQnpmSC12cmRPd3puMmJyQ2dfd3N5M2ZaMDFpMHVhb2hGSVRnWDR6LXdVZzJNemE4NzdYanpFaTBJVVFlbUF2SVl4X0RfaXFpQmpIeWdFcV94R2g2Nm9RcEpxR2cwdWFERGNBajdZMl9XU3JkSkx4UG5jcm5sRUFaOUdobHVjTDBIb0hXSEE?oc=5",
-      "published": "Mon, 02 Nov 2026 14:27:40 GMT",
-      "summary": "Merz calls for Korean unity in freedom — Deutsche Welle&nbsp;&nbsp;UA.NEWS",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T22:27:40+08:00",
-      "source_detail": {
-        "name": "UA.NEWS",
-        "url": "https://ua.news"
-      },
-      "priority": 3.6,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "British Pound edges higher against Japanese Yen with BoE decision in focus - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLXVUMGE2RVNRS09CSUFwM0V1dU8xM2pQamVCUFpaZnF1NHM4S0pldWF0MjBhRkhwZzZQQW10MkVFWWJtV2FHcktueHdoMjM4c0xTVXRVRVRkdXJ2RXA3SEplbUJsZklOS0tmWG5PbmlPYlZCTUYtSGF0d24tUDlpZkFtaDM3MTI1czRvQ1VDV25nN2N6cXhNOGJWbHY4b0RLWC01V1o1SDd1NmhvMURrTFlKNGFiZU8z?oc=5",
-      "published": "Mon, 02 Nov 2026 12:25:07 GMT",
-      "summary": "British Pound edges higher against Japanese Yen with BoE decision in focus&nbsp;&nbsp;FXStreet",
+      "title": "British Pound posts modest gains against Japanese Yen ahead of BoE decision - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbWdDTHhBUE11R0RURzg5VU9UZkdiRGZ2V2I4Rkc5eU8waWtRS2VrZlh3ejFyY3lwZGFNd09WanAzbEJqMm1HOFA0N0k3U2c1S01SVXA0aHVSUllmMWF6Y2JuNkdDNGluaVBreXgtMnJVYnpudmlRSTlKZDdmUElqWU9IUVNJU2l1SGloZXlOT2VnSzB1ZTBXNEt4V0F1Tk9Pd29RRVRFU3dsRU5fcklnN3VaR29vQ3ExTUFvU3kzZmZGVks1WTdOZmp3QURCWk9NUTBCNTk5cUF6YTQ?oc=5",
+      "published": "Mon, 02 Nov 2026 13:30:53 GMT",
+      "summary": "British Pound posts modest gains against Japanese Yen ahead of BoE decision&nbsp;&nbsp;www.tmgm.com",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T20:25:07+08:00",
+      "published_beijing": "2026-11-02T21:30:53+08:00",
       "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
+        "name": "www.tmgm.com",
+        "url": "https://www.tmgm.com"
       },
       "priority": 3.6,
       "category": "日本",
       "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "relevance": "medium"
     },
     {
-      "title": "Why is the Japanese Yen flat despite a modestly weaker US Dollar? - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1d6RC1IdmFBYThPbnNYc0RQZEJaSXEtS2poYXo2X2xNS1loZVVCOUZEUWo0OXJ3amJMTEszNU1sWUNJN01Ld05jMlhwaEwydFN4OGY5a0t6QjVIMWtWc2pEUXExUVdqVGNYYlhOanZGcUtTN0IxOHNkZWx3WnJJbUtZdFJyaVBZYy1iXzZTU193MEhHanB0YlVhT2F6bkhsZThEeWw2VW5uYmZpcTBnR2xyY0lHT0hlYlFyZlQzWW90cGlTaUFLSUh3?oc=5",
-      "published": "Mon, 02 Nov 2026 11:06:41 GMT",
-      "summary": "Why is the Japanese Yen flat despite a modestly weaker US Dollar?&nbsp;&nbsp;www.tmgm.com",
+      "title": "Can the British Pound hold modest gains against the Japanese Yen with the BoE decision in focus? - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcGxBb1dKaG9OeEZraGh0WU80eWVoeVYyRFMxNjRSQTJVSENEZERYNk1CMFYtUkhfcGtsYm9BdDVkN1JuTEJCbERNNll3TnhFLVRkRmJXV2pqejUtektsOHh5aUZTS3JIVnFabUNBUGZVNmlsV05jTGNvTUZYWnlvNjNFaEVEdFotcUJ5X3B0MjRlQ3VwV3ZVdnlzYzdrZS04X1ZUNGI1TWV0alpCdFBTTmY4T3JLV2hqVkhJT1Fxa2M5RXlkeDcyMER2T2k4OTVDRW1pRHlidUZiUk0?oc=5",
+      "published": "Mon, 02 Nov 2026 12:32:43 GMT",
+      "summary": "Can the British Pound hold modest gains against the Japanese Yen with the BoE decision in focus?&nbsp;&nbsp;www.tmgm.com",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T19:06:41+08:00",
+      "published_beijing": "2026-11-02T20:32:43+08:00",
       "source_detail": {
         "name": "www.tmgm.com",
         "url": "https://www.tmgm.com"
@@ -740,198 +415,135 @@
       "category": "日本",
       "_incremental": "new",
       "relevance": "medium",
-      "pw_skipped_early_stop": true
+      "canonical_url": "https://www.tmgm.com/en-in/analysis/market-news/article/british-pound-edges-higher-against-japanese-yen-with-boe-decision-in-focus-202611021225",
+      "full_text": "A struggling Japanese Yen (JPY) helps GBP/JPY move modestly higher on Monday, with hawkish signals from the Bank of Japan (BoJ) failing to lift the currency. The British Pound (GBP), meanwhile, benefits from easing fiscal uncertainty after the UK’s Autumn Budget, with traders now focusing on this week’s Bank of England (BoE) monetary policy announcement. Having briefly moved above 212, the cross is trading near 211.87 at the time of writing, a gain of 0.44% for the day.\nMarkets have fully factored in a 25-basis-point (bps) rate increase ahead of the BoE’s decision on Thursday, as surging energy costs add to inflation. Policymakers also have scope to increase borrowing costs thanks to stable labour market conditions and growth that has held up.\nIn ING analysts’ assessment, Sterling is “trading reasonably well,” with support coming from the market’s belief that “high energy prices leave the Bank of England no alternative but to hike rates on Thursday.” In their view, “a 25bp rate hike to 4.00% looks like a done deal,” while the Pound’s sentiment backdrop also benefits from “upside economic surprises, UK fiscal policy seemingly heading in the right direction and warmer ties with the EU,” factors that provide further support for Sterling.\nPointing to the currency’s outlook, OCBC argues that \"GBP resilience should extend into early 2027 as fiscal discipline, resilient growth and political stability remain supportive.\" The bank nevertheless cautions that \"with substantial BoE tightening already priced in, further gains will require increasingly positive UK surprises.\"\nFor the Japanese Yen (JPY), the BoJ’s hawkish position has not prevented continued pressure. High energy prices are encouraging other central banks to tighten policy as well. With interest rates outside Japan still considerably higher, yield differentials remain wide.\nFriday’s widely anticipated BoJ decision left interest rates at 1.25%, although the bank indicated that further increases would follow if economic activity and prices develop in accordance with its forecasts. The full quarterly outlook report, published on Monday, said underlying inflation had climbed towards 2% and was gradually becoming anchored at that level. Further rate rises would likely help moderate price pressures and underpin consumption, the BoJ added.\nFresh intervention warnings have also done little to support the Yen. On Monday, Japanese Finance Minister Satsuki Katayama again said the authorities stood ready to respond to disorderly currency movements, adding that Japan’s joint foreign exchange statement with the US was still in effect.\nAgainst the major currencies listed below, the Japanese Yen (JPY) performed best against the Australian Dollar today. The table sets out its percentage changes against each currency.\n|  | USD | EUR | GBP | JPY | CAD | AUD | NZD | CHF | \n|---|---|---|---|---|---|---|---|---|\n| USD |  | -0.49% | -0.20% | 0.22% | -0.01% | 0.33% | 0.11% | -0.69% | \n| EUR | 0.49% |  | 0.30% | 0.69% | 0.47% | 0.83% | 0.60% | -0.16% | \n| GBP | 0.20% | -0.30% |  | 0.42% | 0.19% | 0.53% | 0.30% | -0.45% | \n| JPY | -0.22% | -0.69% | -0.42% |  | -0.21% | 0.13% | -0.10% | -0.89% | \n| CAD | 0.01% | -0.47% | -0.19% | 0.21% |  | 0.36% | 0.11% | -0.64% | \n| AUD | -0.33% | -0.83% | -0.53% | -0.13% | -0.36% |  | -0.23% | -0.99% | \n| NZD | -0.11% | -0.60% | -0.30% | 0.10% | -0.11% | 0.23% |  | -0.75% | \n| CHF | 0.69% | 0.16% | 0.45% | 0.89% | 0.64% | 0.99% | 0.75% |  | \nPercentage movements between major currencies are displayed in the heat map. Select the base currency in the left-hand column and the quote currency in the top row. For instance, choosing the Japanese Yen on the left and following its row across to the US Dollar gives the percentage change for JPY (base)/USD (quote) in the corresponding cell."
     },
     {
-      "title": "Japanese Yen treads water despite moderate US Dollar weakness - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOXpPYk15U081S3VScThlN2FMM0o5VzRJeFNLdVFFTnY2d0dDVy1acjZva2REYldMR08yZk92TllJVlZueVVOb0NURXR6OWhQd0NzRUROZ1UxREZESzhGY3VlQk1TS0VaZldlTWc0ZHl4UG9YRHc4Z25tbTk1RklmOWJkV3JyNmhFYloydXE0QXVZVHQzYllRM2lQRV9ZTHJYaGctRTU0aw?oc=5",
-      "published": "Mon, 02 Nov 2026 09:35:09 GMT",
-      "summary": "Japanese Yen treads water despite moderate US Dollar weakness&nbsp;&nbsp;FXStreet",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T17:35:09+08:00",
-      "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "USD/JPY Price Forecast: Japanese Yen underperforms despite multiple tailwinds - FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLXVnM0oyd3QtS3ZObGZFVUVyMmFWMWJmVkY2SzRYMnFxV3ZEd2VoRlhKeEM3MVRXZlJrZkFlLTZDRndRUlFOZktGNV83Z2NQZVpzZ3dWa1hncDc0M0Zuc3NoR0V0WkIzQkI4TjR1ai1ablRyT1lYUTQ1MHZmU2twZlpLaml5cHppNmVhWWRoWVNfSWVtRHh0OWt5eXQ5OVNfdUNBTXI4dHJkR3Vsd2VfOG13d1R5clFYQjNN?oc=5",
-      "published": "Mon, 02 Nov 2026 06:00:13 GMT",
-      "summary": "USD/JPY Price Forecast: Japanese Yen underperforms despite multiple tailwinds&nbsp;&nbsp;FXStreet",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T14:00:13+08:00",
-      "source_detail": {
-        "name": "FXStreet",
-        "url": "https://www.fxstreet.com"
-      },
-      "priority": 3.6,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Samsung Electronics, SK hynix fall as U.S. tech sell-off hits chip stocks - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NbzRGVzJZTG5UZDRSVWdRV2haTmJkcTgyRDJaekRwcUNwbzFGbWRqYUJGMkdGOTY5ckpDOXZVWVpkT3pvNmg4QnlCRlN3V2hYd09EdjZvbw?oc=5",
-      "published": "Mon, 02 Nov 2026 04:46:11 GMT",
-      "summary": "Samsung Electronics, SK hynix fall as U.S. tech sell-off hits chip stocks&nbsp;&nbsp;매일경제",
+      "title": "Korean retail investors dump Samsung, SK hynix as big tech cash flows strain - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbEQybDBmVHhQM3RoWDhpM3R1MWlFNHU3Y3FOQms0YmM5Tlg0a0lVNEJDTUZuRVVLU3pyYl9iM1JxYzVERHBiOVBtbmtXQTY5bFo2ZktKaFFHOHJDQlI5bnU0Wi1MbTdtSmxYTWJVS0ZIY1dyZ3ltY0phQmJDZ2dGZtIBlAFBVV95cUxOdXJoZVlDcUJ4ekRSMVVZYUVjbG9HWWptcC1nSmh0Y1NNUkhlZndKWTl6QkpFVjNzcmpBZ0xZNjVWbVVmNWEzWlRJOG1uVzhJOGwtcmhYdTEySV9YOTc5VzZKSk8tVU96Ui1KeUg4UERGUk1WVlNKOHV4S3BYeFl3RzdPa0xHOUZqZGgxZkhLZWVmejFn?oc=5",
+      "published": "Mon, 02 Nov 2026 07:23:00 GMT",
+      "summary": "Korean retail investors dump Samsung, SK hynix as big tech cash flows strain&nbsp;&nbsp;Chosunbiz",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T12:46:11+08:00",
-      "source_detail": {
-        "name": "매일경제",
-        "url": "https://pulse.mk.co.kr"
-      },
-      "priority": 3.6,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "Poland’s Tusk says he won’t back down in top court standoff - The Japan Times",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVjJXd3M3a21aM0J6b3dEVzRoSlFmdGhoTDZyLUZCSFFHU1NaR3BNU1czbld1SmxvbzBVblRiRWNNbHFMZlFRaGpkdXdBODdDMk9uWGNuRUNLdjdtQTRibnRyWE1JblluUFpoNkxOdU5KRlQxZWNyQm9TZ2NRVS1ZUTl0N3MwVlpNR3Rya0o4RlU?oc=5",
-      "published": "Mon, 02 Nov 2026 02:28:00 GMT",
-      "summary": "Poland’s Tusk says he won’t back down in top court standoff&nbsp;&nbsp;The Japan Times",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T10:28:00+08:00",
-      "source_detail": {
-        "name": "The Japan Times",
-        "url": "https://www.japantimes.co.jp"
-      },
-      "priority": 3.6,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "medium",
-      "pw_skipped_early_stop": true
-    },
-    {
-      "title": "US midterms 2026: What polls reveal about Democratic, Republican voters - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVWlMQy1GYjZtazdMRDlEWXpuSnpsamF5MkhDSEVGbjJKNlpvY1ItVzIzMU45R0JoakdSMkxwM3FLVHd4N0YtSW5aSVNHN3B0YjJaNVB1UHJQNXZiWEhXM1VWYTBxRzhCRFBUSUp6aVV5OGxXc1pmRVpnMkJMcW1mSXFBRzQxOFBJX1BqbnpaU184bUhBcFBDcGpkTkZ3RVJlWmYzbU94NFA2VlNEZzRJ0gG0AUFVX3lxTFBwdFFZNWZ2d0tWTjRvcjBSUlZjX01PSUNEMkMtQWJyUkk2UzBzVzExYkhYektGV0I0OFF4ZVpmaGNVRktnd3JxcXU3YUFPV3U1UTVzWW9UM0tSd2o1T0RKdzBMdXRiWFRCZmRNNjdsRlo3YzhFTHNabWpBdjNmM2x3TzhjUVNabkJ0UVBISHd0UlBCSE5ycTQ5YklUWDFNVEdadll4Vnh0ZmhPVXBzS0dCdUhfYg?oc=5",
-      "published": "Mon, 02 Nov 2026 22:42:32 GMT",
-      "summary": "US midterms 2026: What polls reveal about Democratic, Republican voters&nbsp;&nbsp;Al Jazeera",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-03T06:42:32+08:00",
-      "source_detail": {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "HSBC Upgrades Malaysia's 2026 GDP Growth To 5.5 Pct - BernamaBiz",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95MUNCOUhsUEFSSkFrdHVEZlowWW9fQ1h3Uk9wT2szRXFzSEdSdWxzMU43NkNITnVfNmtBMXBCQ19YTXgxRURtbldscXJ4a2xHRXNYeQ?oc=5",
-      "published": "Mon, 02 Nov 2026 21:07:12 GMT",
-      "summary": "HSBC Upgrades Malaysia's 2026 GDP Growth To 5.5 Pct&nbsp;&nbsp;BernamaBiz",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T05:07:12+08:00",
-      "source_detail": {
-        "name": "BernamaBiz",
-        "url": "https://bernamabiz.com"
-      },
-      "priority": 1.2,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "'From Mbappé to Hello Kitty, the stream of apologies reveals how much multinationals depend on China' - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQVFnNFZqZzNQSk1NNTh1dUNWai1pdDVRMTFkel92LWZ4dkJDQ19waDRSS05jNldoMndPNFM3b2s0akVxcDdIUDdkZWVZUzE1QUpSTWFrUEY4UjJESXUwSHo5U1pZLVBNUXBZY2xsTGJEVFdiT21pNE83eXhROVZSbHR0RUhOVVBKSTh4aVh2M01yeDA5VHJYdUpFajM5N1F0S3FKaXpEemtkU2h1TEdhQzhFV0YyMDJXWXUycUJyNnBSRzM0cEhndEd3MExkdmdhNFZOQVBnaW1KR3htT2dZTjFiMlJKbDh1Q2VQVmRZcHgtSGgwS0I2ZXpmMA?oc=5",
-      "published": "Mon, 02 Nov 2026 01:17:34 GMT",
-      "summary": "'From Mbappé to Hello Kitty, the stream of apologies reveals how much multinationals depend on China'&nbsp;&nbsp;Le Monde.fr",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T09:17:34+08:00",
-      "source_detail": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
-      },
-      "priority": 1.2,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The $500B Pharma Split: Geopolitics Kills Cheap Foreign Medicine - GeneOnline",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbTQ4Ukd5UFVibGt1aGNmck55eGk3dmx3SzFFZDVPWmR3bWJwejZHeDBIMjNjWndyd19Oak1KRzlMenZmRllqZkQ5cV9uWWVjNktnZ01DUUI3ejF1ckZOQ2JTUG1YUEhtN25abHJPWkNrMzBnUFJUbEpnVHdubXhlUl9OMDdDMUlpWEh5S2wtTkJyaFVH?oc=5",
-      "published": "Tue, 03 Nov 2026 03:11:23 GMT",
-      "summary": "The $500B Pharma Split: Geopolitics Kills Cheap Foreign Medicine&nbsp;&nbsp;GeneOnline",
-      "source": "GNews | JP Trade/SCM",
-      "published_beijing": "2026-11-03T11:11:23+08:00",
-      "source_detail": {
-        "name": "GeneOnline",
-        "url": "https://www.geneonline.com"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russia exploits Poland’s court crisis to weaken pro-EU Tusk government - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV3F4RVdQOTRZazc1WVpiVzN0a0VZME9wZ0V2S3hIaHBxS3FycWUzYlV5U1lVbDk0SGRmckRTbEhNMjlMMW9WcGc1azFrRjNESmZ1TnlILXRJNTNrOEJaYkZSZXJwYWNVckRPbzVvZmNXeVZNRkt1X2JEQ3RRUkIxZDE0a3ZoOG110gGcAUFVX3lxTE9KSDB0blRNZl9LWlY4NkZRWTFvdWlzZU9TYmotY2pFdEJaelNfWjJBSldlMTFBSGduOFg5Zy10cm9NZDlvdkwtY3BaYjlnT2p6QnZKQlVoeFljOTQycG5rTURmeEVLamp3V3pvWm1tcE5SUzNGLW8zWEVDVHZSY3NPV05RMzNjVmtabng5aDNCa0t6NHk3RE1jUlJBbg?oc=5",
-      "published": "Tue, 03 Nov 2026 02:37:00 GMT",
-      "summary": "Russia exploits Poland’s court crisis to weaken pro-EU Tusk government&nbsp;&nbsp;Chosunbiz",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-03T10:37:00+08:00",
+      "published_beijing": "2026-11-02T15:23:00+08:00",
       "source_detail": {
         "name": "Chosunbiz",
         "url": "https://biz.chosun.com"
       },
-      "priority": 0.0,
+      "priority": 3.6,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://biz.chosun.com/en/en-finance/2026/11/02/TLLSSK2IERBRRFB3EZ26YNR5QU/",
+      "full_text": "Recently, individual investors have been dumping Samsung Electronics(005930) and SK hynix(000660) shares. As concerns about the sustainability of artificial intelligence (AI) investment flared and the market plunged through mid-Oct., Les Fourmis propped up the index by buying large-cap semiconductor stocks.\nBut sentiment shifted as earnings from global big tech showed deteriorating cash flow. As more individual investors judged that their AI investment may be hard to sustain, investor sentiment toward the semiconductor sector also appeared to weaken.\nOn Nov. 2, according to the Korea Exchange (KRX) information data system, individuals net sold 1.7411 trillion won of SK hynix and 1.2270 trillion won of Samsung Electronics in the main market over the past two weeks (Oct. 19–30). They ranked first and second, respectively, by individual net selling amount.\nJust two weeks earlier, individuals were trading in the opposite direction. From Oct. 1–18, when caution over AI investment grew as the five-year credit default swap (CDS) premium of AI infrastructure company CoreWeave surpassed 1,100 bps, foreigners net sold nearly 14 trillion won of Samsung Electronics and SK hynix combined, but individuals net bought 4.2991 trillion won of Samsung Electronics and 1.8093 trillion won of SK hynix. The two stocks ranked first and second at the time by individual net buying amount.\nThe shift in individual judgment toward the semiconductor sector is seen as stemming from the rise in concerns about the sustainability of AI investment.\nIn particular, during the so-called \"super week,\" when big tech corporations released earnings, it became clear that large-scale AI investment is weighing on cash flow. Meta swung to negative free cash flow (FCF) due to expanded capital expenditures (CAPEX), and Tesla lowered its annual investment plan. Alphabet reported revenue that fell short of market expectations, and with the burden of AI investment expense highlighted, the stock plunged more than 12%.\nOver the weekend, news further stoked concerns about AI investment. On Oct. 30 (local time), Amazon's next-12-month forward FCF came in at minus (-) $42.4 billion. Intel also released results that fell short of market expectations. A warning from Blackstone that Anthropic may find it difficult to secure an investment-grade credit rating after its initial public offering (IPO) also added pressure.\nStill, brokerages say it is premature to doubt the AI industry's growth solely on big tech's worsening cash flow. Seo Jeong-hoon, a Samsung Securities researcher, said, \"The expense burden from AI investment has grown, but the demand and funding capacity to support it remain solid,\" adding, \"Current market concerns surrounding AI-related stocks are somewhat exaggerated.\"\nIn fact, big tech's AI revenue growth is steep. Alphabet's cloud segment revenue more than doubled from a year earlier, and Amazon Web Services (AWS) posted growth approaching 40%. Intel's AI-related revenue also rose 78% year over year.\nTheir funding capacity is also seen as solid. Alphabet succeeded in a $85 billion stock issuance in June, and Microsoft issued $25 billion in corporate bonds at rates below the investment-grade average. The explanation is that, because they can raise funds in the market to continue AI investment, it is hard to deny investment sustainability based solely on deteriorating cash flow.\nIn addition, the semiconductor cycle remains firm, and the valuation appeal has grown as share prices fell. On the 1st, Oct. exports were reported at $115.3 billion, up 93.7% from a year earlier. Of that, semiconductor exports jumped to $56.4 billion, up 259.4%. The KOSPI 12-month forward price-earnings ratio (PER) also fell to around 4.1 times, entering a historically undervalued range."
+    },
+    {
+      "title": "USD/JPY Price Forecast: Japanese Yen underperforms despite multiple tailwinds - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR2xwMVBGT0xmNTY3Y1RyNW56UHRNUC1rUnRJeXBaVFBQUHRvZmxwdDROTXJYb1NnRHRkS3hNbzI0ZVNTUnloTkdkN29Pc0xZelQ1VGFPSUZ2MC1sXzRmSlpkUEVvZlRkR2FkejFFaVh2cVJzTjJKbHVNOWVRQUlQYU5FV2NNcDlDQ2p3MmRrNy1IZnFZRVhqOEV6bzV2OGd0UW5LbG9FUHl3YmRSN2R6TFVuZU5YbjlUOExvekRjNENOMGc4XzFYbUN0Mi1wTDFzVmRpbktDc1hzZw?oc=5",
+      "published": "Mon, 02 Nov 2026 06:52:10 GMT",
+      "summary": "USD/JPY Price Forecast: Japanese Yen underperforms despite multiple tailwinds&nbsp;&nbsp;www.tmgm.com",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-11-02T14:52:10+08:00",
+      "source_detail": {
+        "name": "www.tmgm.com",
+        "url": "https://www.tmgm.com"
+      },
+      "priority": 3.6,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.tmgm.com/en/analysis/market-news/article/usd-jpy-price-forecast-japanese-yen-underperforms-despite-multiple-tailwinds-202611020556",
+      "full_text": "The Japanese Yen (JPY) is down against its major currency peers, except antipodeans, at the start of the week. In the early European trade, the US Dollar (USD) is up 0.17% at around 157.77 against the Japanese currency.\nThe table below shows the percentage change of Japanese Yen (JPY) against listed major currencies today. Japanese Yen was the weakest against the Swiss Franc.\n|  | USD | EUR | GBP | JPY | CAD | AUD | NZD | CHF | \n|---|---|---|---|---|---|---|---|---|\n| USD |  | -0.23% | -0.07% | 0.17% | 0.05% | 0.14% | 0.27% | -0.23% | \n| EUR | 0.23% |  | 0.16% | 0.37% | 0.27% | 0.37% | 0.50% | 0.03% | \n| GBP | 0.07% | -0.16% |  | 0.23% | 0.12% | 0.21% | 0.34% | -0.13% | \n| JPY | -0.17% | -0.37% | -0.23% |  | -0.08% | -0.01% | 0.12% | -0.37% | \n| CAD | -0.05% | -0.27% | -0.12% | 0.08% |  | 0.10% | 0.21% | -0.25% | \n| AUD | -0.14% | -0.37% | -0.21% | 0.00% | -0.10% |  | 0.13% | -0.35% | \n| NZD | -0.27% | -0.50% | -0.34% | -0.12% | -0.21% | -0.13% |  | -0.46% | \n| CHF | 0.23% | -0.03% | 0.13% | 0.37% | 0.25% | 0.35% | 0.46% |  | \nThe heat map shows percentage changes of major currencies against each other. The base currency is picked from the left column, while the quote currency is picked from the top row. For example, if you pick the Japanese Yen from the left column and move along the horizontal line to the US Dollar, the percentage change displayed in the box will represent JPY (base)/USD (quote).\nThe Asia-Pacific currency faces selling pressure despite multiple tailwinds, including a sharp correction in oil prices, Bank of Japan (BoJ) reiterating hawkish monetary policy stance in the policy announcement on Friday, and Tokyo warning joint intervention with the United States (US).\nAs of writing, the WTI Oil price is 2.6% lower to near $99.50. A decline in oil prices bodes well for currencies from economies, such as Japan, given their significant reliance on energy imports.\nOn Friday, BoJ Governor Kazuo Ueda signaled that the central bank will remain on the monetary tightening path after leaving interest rates steady at 1.25%. “BoJ will continue to raise policy rate and adjust degree of monetary easing in response to economic activity, prices and financial condition developments,” Ueda said in the press conference.\nEarlier in the day, Japanese Finance Minister (FM) Satsuki Katayama said that the Joint FX statement with the US persists and the government will act against disorderly moves.\nMeanwhile, the US Dollar trades lower as investors turn cautious ahead of US midterm elections on Tuesday.\nIn the daily chart, USD/JPY trades at 157.77. The pair refletcs a braoder sideways trend as the 9-day Exponential Moving Average (EMA) at around 157.72 has been flat-lined for over a month.\nThe Relative Strength Index (RSI) at 50.81 sits near the neutral line, suggesting a balanced momentum amid a sideways trend.\nOn the downside, the major support is the October low at 156.08. Looking up, the September 24 high at 159.04 is the major hurdle for the pair.\n(The technical analysis of this story was written with the help of an AI tool. Know more.)\nThe Bank of Japan (BoJ) announces its interest rate decision after each of the Bank’s eight scheduled annual meetings. Generally, if the BoJ is hawkish about the inflationary outlook of the economy and raises interest rates it is bullish for the Japanese Yen (JPY). Likewise, if the BoJ has a dovish view on the Japanese economy and keeps interest rates unchanged, or cuts them, it is usually bearish for JPY.\nRead more.\nLast release: Fri Oct 30, 2026 03:03\nFrequency: Irregular\nActual: 1.25%\nConsensus: 1.25%\nPrevious: 1.25%\nSource: Bank of Japan"
+    },
+    {
+      "title": "South Africa local elections: ANC under pressure to reverse decline - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KTUlTLUl4WlNMazlsbW91OUtXRWZiT01sZHJQTEwweURtQXk2bUVaZ3NFTUlfNEVQMmxDWkZLQzAtVmZEUVJHRl96SXdodVJpaG1wa1FzNzVnMjA?oc=5",
+      "published": "Wed, 04 Nov 2026 00:03:19 GMT",
+      "summary": "South Africa local elections: ANC under pressure to reverse decline&nbsp;&nbsp;BBC",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-04T08:03:19+08:00",
+      "source_detail": {
+        "name": "BBC",
+        "url": "https://www.bbc.com"
+      },
+      "priority": 1.2,
       "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "White House releases list of 127 - India's News.Net",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPREQzN0YwR3NVeUxxUkYtdkdwNlVudzMzYUpjRmlDSDE4T1lRaVUyVk9IOTQ3VmhxcHhGd040cEdlWFQwWlFVZUJ5TFdUXzgwTGJyOVl0SFNhNm92aVlWUHJNME9adEpGa0hkYmZHQWZPX3lyekU0WkRkdDYwa0JldUt3ZEhxTzJBTFhwbHk1Qm1hWnkwbG9SX2lvTktWSnZ5a2tTa3VUTTVYdVFkLVZpTkZrSmxBZF9xUmRxYzIxY0cySXQ3YTJsNm5Xa0Vub0FJaUJqSTl6ZElXTDBWaUVjUmEteVBZTUFZMzQ2NjBNeUUzV2VCR3pWSUJLSERhVDcw?oc=5",
-      "published": "Tue, 03 Nov 2026 01:59:00 GMT",
-      "summary": "White House releases list of 127&nbsp;&nbsp;India's News.Net",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-11-03T09:59:00+08:00",
+      "title": "To encourage young people to have two children: It's necessary to alleviate the pressure of work, housing, and child-rearing expenses. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmF0VG9hVjN5MHJkVGFvcDFLNy1DVmVQZGVEdEFIVWtnSHA4SnZmaTZneWxyOXJteVJCTm9pS2NFZFlQRThmVlZKc2RBTWlmRU5iVkpZTXVQZ0lPcjUxc2IwcnNTd1FWa0hEVFBuQXFMM2dMN0gxQ1ljbGo4cUZpU0VndzhTOEdjUmxDNjJvXzlRY1JiaFBNSTlHSlNxZFBraW10VnVkTmpRd2R2?oc=5",
+      "published": "Tue, 03 Nov 2026 10:25:24 GMT",
+      "summary": "To encourage young people to have two children: It's necessary to alleviate the pressure of work, housing, and child-rearing expenses.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | JK Demo",
+      "published_beijing": "2026-11-03T18:25:24+08:00",
       "source_detail": {
-        "name": "India's News.Net",
-        "url": "https://www.indiasnews.net"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       },
-      "priority": 0.0,
-      "category": "大国关系",
+      "priority": 1.2,
+      "category": "气候+人口",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "China tightens technology exports to exploit global dependence: India faces hurdles in buying tunnel machin... - Bhaskar English",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUWw4QW03RGxNUnFxeVVRMHZzdlAxNkFWVlZLOXVWS0U3ME5ibDdMQkRNSll0UzJudFd4bTVQYllWZUdlQ2MxOU82YldRNV9GSFgzbGhRVm9EN0tyem5sb3VGSlVYbkEwWGNySG9vbkJ1RjZZZTlJckR2cGlya0dLekZyNXRlSWN5ODU1bGhDdTNjNGxWZjNoQi1ZS1dpcFZEVTgyVWk4eUhsU2pOT0llSzRmbWZUTGZkM3pQbEpneXjSAcYBQVVfeXFMTnJwaEdrOFJkTlBtZVlRV1NwQjVkc3NjeTdvSzRrTUk5bTRfeGlFNmc5SnVYaEE3TWx3WlNqYXF4VmVrdUh4MUIzN3dMN20tUlhnNDZYTlFtTE5RQm4zem1RQ250LVdKUXhjTWVoelJUTGNVTlVkRFVnaTh0WTQwOTUwb21OMWVobG5iOEZidFo3R1l6Vm5MZmZPMHJzV0w1ajhKdmpSRHN4dk95YWZjRTk3aHRIMk9fUFNITTZVeTIzZkpqSWFB?oc=5",
-      "published": "Tue, 03 Nov 2026 01:05:55 GMT",
-      "summary": "China tightens technology exports to exploit global dependence: India faces hurdles in buying tunnel machin...&nbsp;&nbsp;Bhaskar English",
-      "source": "GNews | JP Chip/Export",
-      "published_beijing": "2026-11-03T09:05:55+08:00",
-      "source_detail": {
-        "name": "Bhaskar English",
-        "url": "https://www.bhaskarenglish.in"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Trading Day: Oil slump no cure for AI angst - The Mighty 790 KFGO",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51TTl5S01LOUJTRDNxOVFNd1V1VUFRLV9hVDdidzhkbWVYeTg0ZDFvVVNhYXhibjFKYzZ4ZXpxM0lnM3h2N1BzRkRQdnNvS29ROHFlS0ZxWmxOR0ZUM1dhWFBnVUdUaGRCY1pMUEc5Rng3Y3NlWktZcUYtdw?oc=5",
-      "published": "Tue, 03 Nov 2026 00:28:27 GMT",
-      "summary": "Trading Day: Oil slump no cure for AI angst&nbsp;&nbsp;The Mighty 790 KFGO",
+      "title": "'Too scared to eat samgyeopsal': Inflation stays elevated, raising odds of rate hike - 헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TcjRZX1B2dGdweDgteWtyRExRTWRYMG5xcjU5cnI2TGN4Y0RUc2tpRFJVeDhXVk94RF9fcTFkQXFNRHBxUGplX3BxRWk1QkE2T2ZXbU1Ldw?oc=5",
+      "published": "Tue, 03 Nov 2026 01:01:13 GMT",
+      "summary": "'Too scared to eat samgyeopsal': Inflation stays elevated, raising odds of rate hike&nbsp;&nbsp;헤럴드경제",
       "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T08:28:27+08:00",
+      "published_beijing": "2026-11-03T09:01:13+08:00",
       "source_detail": {
-        "name": "The Mighty 790 KFGO",
-        "url": "https://kfgo.com"
+        "name": "헤럴드경제",
+        "url": "https://mbiz.heraldcorp.com"
+      },
+      "priority": 1.2,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "How to prevent an energy quarantine of Taiwan - Atlantic Council",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSlFIWjRPRklabkQ4OUJrWmtmbHViX0F1Q1FUZXZjeExSbXdaRHB3MzVWdEtzbVFxMnhGdEp4M0Y5WWQxWDM2NnZ5bzh3RHJKZ2ZEOXlaaXZ5QjF4Uy1GWHg0OEV5Y1FadHZGazRnMUxfQlJ3b2ZJeHRYdXFKM0hqVHBHRVNhMVMtZHcwQ3E2WUFJd09Pd1NZN2dKSktRSTZ5bG5Fd1ZjRlJvVUpmeVR2eFVVYmJLRmM?oc=5",
+      "published": "Mon, 02 Nov 2026 14:00:00 GMT",
+      "summary": "How to prevent an energy quarantine of Taiwan&nbsp;&nbsp;Atlantic Council",
+      "source": "GNews | JK Energy",
+      "published_beijing": "2026-11-02T22:00:00+08:00",
+      "source_detail": {
+        "name": "Atlantic Council",
+        "url": "https://www.atlanticcouncil.org"
+      },
+      "priority": 1.2,
+      "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Britain’s era of rapid population growth is ending - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZWZnX285M1QzdUJEMTJJbjRCVkwyY3dVa2t4VFd3X0RuWTJ6ZVQ2djRpa0hZNDEybzZNMlVDQV9fZTFncDBiWUdSeWNlaW1NM1NBMF9qRlF2WXFMcVJ6WlNaN0FZN0JnY0h2cDJTX01VVTMxMzM1REp3eWhHcDNmZVVpdGU?oc=5",
+      "published": "Wed, 04 Nov 2026 05:00:36 GMT",
+      "summary": "Britain’s era of rapid population growth is ending&nbsp;&nbsp;Financial Times",
+      "source": "GNews | JK Demo",
+      "published_beijing": "2026-11-04T13:00:36+08:00",
+      "source_detail": {
+        "name": "Financial Times",
+        "url": "https://www.ft.com"
+      },
+      "priority": 0.0,
+      "category": "气候+人口",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Adding impetus to double-digit growth. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pNG0tWlBfc21zUXhxLTZxMkd4WFlIb1B6NFZRVmVncmswWTdPU2FCc3Z5Q3U0WVFRdUdRTTliRzVrdzdtaVRZSV9GU1NzZi1aVFlqWU5ZTUtZNDd3TG41emxYbFpNOHNBanZuN0ZlSnBnMTg?oc=5",
+      "published": "Wed, 04 Nov 2026 01:51:30 GMT",
+      "summary": "Adding impetus to double-digit growth.&nbsp;&nbsp;Vietnam.vn",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-11-04T09:51:30+08:00",
+      "source_detail": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       },
       "priority": 0.0,
       "category": "韩国",
@@ -939,159 +551,31 @@
       "relevance": "low"
     },
     {
-      "title": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfRmNkU3BvR3VKdUtuYWE3djM2M2RNMDJveWhQcmg1YzZrRXFLU05yUUQ3VmhOQzFReFFoTUhCZVBiU01wMHV0TXE3R0FYZDBicHZOTXJJbFpm?oc=5",
-      "published": "Tue, 03 Nov 2026 00:00:03 GMT",
-      "summary": "Opinion | Why Trump’s Taiwan Arms Delay Is Dangerous&nbsp;&nbsp;The New York Times",
-      "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-11-03T08:00:03+08:00",
-      "source_detail": {
-        "name": "The New York Times",
-        "url": "https://www.nytimes.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Aftermath of Intel's 29% Plunge: Samsung Electronics and SK Hynix Drop About 4% in Premarket Trading - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56ZUlMb2lCd0w0cndwMVNrMjdEcW1Rb3J0WFZqTGdvTm1OcTc3NE13TVlyMkxuc2ctaG1yVUUwc0pqUnpnSGhDYmxsWEtjbUxaZzlyem14MVVUakdVRi1QVGwwUnlUcmFWNHdBRFdwN01Hc1lLZlE?oc=5",
-      "published": "Sun, 01 Nov 2026 23:55:00 GMT",
-      "summary": "Aftermath of Intel's 29% Plunge: Samsung Electronics and SK Hynix Drop About 4% in Premarket Trading&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T07:55:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 0.0,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks - NPR",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSGpTV3RKQUlwdTNMWnU5Q2tkeExDRlBJNGpUT1R1UzVmOTRuU0Qtemh6WE93Z0wwcEdZM0ZoSTk2WkdiRF9KeHFNd1dTS19JVG5vbk85Z1dKU2JJRkhUaEhmUEdJcF93ZGVndDBHMm5uVmg0SFdHWWNBVDlKc1ZUdnplWXV4MS1iM01fbmE0OHZUNnIxcS1ZYS1XMWExSzFXNWFZQ1BjYmNfeGhOUVdfc2lZNDRKMmUyeENVRFpYWkdKRllldGxLOQ?oc=5",
-      "published": "Sun, 01 Nov 2026 22:19:13 GMT",
-      "summary": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks&nbsp;&nbsp;NPR",
+      "title": "Midterm Elections Begin, Determining Trump's Political Fate - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaWhZTXljRjlvay1Jc0oyVVBBUVRMWWRmdnlxM1pXcFZNQ1hGZF9hTDFpN3JsMUNBRXN1eEpSamJCV0I0WTBpc0lWdmFaR0tiNW5QNnpZZkVUMGtWem1zQUtMaVZ2b1pMcENLUk9GUjkweE8zTC0wczhoRUpBRUV2QVh2RFo?oc=5",
+      "published": "Wed, 04 Nov 2026 01:28:35 GMT",
+      "summary": "Midterm Elections Begin, Determining Trump's Political Fate&nbsp;&nbsp;조선일보",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T06:19:13+08:00",
-      "source_detail": {
-        "name": "NPR",
-        "url": "https://www.npr.org"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "USD/JPY Forecast: Yen Recovery To Take Hold In Q2 2027 - ING - Exchange Rates UK",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOGp5emloNHNMUEhEdC1jamdNX2dGdU9ocG9sbkoxS05ta3F0WW05SjZ5LVNBOHRpei1IeXQ0X1ZNVG9BUDZHV2ZlbjhORy1YeGVhLUhXNGFYUHppanhKSVJCM1ZhUXZKSjJuWkZPNHZpei1JX0c5MTdrRUR5U3dZZXc5SktlUEdGczlBOUZmX2VzMEdjdFNOVHU4SnBMWmVMS3IwN2U5NldQS0toTDVYN09LbHd2VDhG?oc=5",
-      "published": "Sun, 01 Nov 2026 15:30:00 GMT",
-      "summary": "USD/JPY Forecast: Yen Recovery To Take Hold In Q2 2027 - ING&nbsp;&nbsp;Exchange Rates UK",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-01T23:30:00+08:00",
-      "source_detail": {
-        "name": "Exchange Rates UK",
-        "url": "https://www.exchangerates.org.uk"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Five things to know about Poland's constitutional crisis - France 24",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0paWU8zcnI3eVE4Z3VOczJfdGpPcWRUVE5abDVpbTVtd29sb0dZYkZ5YlZ1T2U1X2lzbUNCOVFMYlc4dWhxVU82LVRFNVZVNnRIVzV3ajM0Yzd4TzJyQklwMTBPS3lrMk5TZklGXzhLbkRjWWFTNE1ySm5sbzZKc3diNVhOTlZJZmNsV3Q0UVVEUEVscTBmdHNLaTBsa0tuOF94eEtR?oc=5",
-      "published": "Sun, 01 Nov 2026 14:35:48 GMT",
-      "summary": "Five things to know about Poland's constitutional crisis&nbsp;&nbsp;France 24",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-01T22:35:48+08:00",
-      "source_detail": {
-        "name": "France 24",
-        "url": "https://www.france24.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Thousands join Indian opposition protest demanding poll chief's resignation - Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOTRESDZoMjFqaUNCLTZPemZuZnFMZGpBbjhLNllJUmtmb3ZLVmx0U0NMRkZTcGRwdGlpQmFoUWM2WlBlMEl6LXR0bnBQNEd3YWdpZUEwZU9aWkluQ0FtUkU1RE9DdGtzZzlZR19wWUpMRjNUV1FTTlRKLXZ5eEswSjhoZ3k0V3F4Nm45Ri1tVFdDR29HLTJmU0ZFR0JSVlp2VnRKbkRhQ242LW92?oc=5",
-      "published": "Sun, 01 Nov 2026 12:52:00 GMT",
-      "summary": "Thousands join Indian opposition protest demanding poll chief's resignation&nbsp;&nbsp;Nikkei Asia",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-01T20:52:00+08:00",
-      "source_detail": {
-        "name": "Nikkei Asia",
-        "url": "https://asia.nikkei.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Why Is Fed’s Logan Seeking Two More Rate Hikes? | 31 Oct 2026 - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcVJmZjYwZjBUdC1qbGdSSXNYbno0cnFuY3JjNkViU3dvTU4wcGl0RnlUWDI3dV95MXJoTjNKOUR3ZnlOVGh1ZktObUp0YVA1b2Q2bWl1U0V0Uzg3eGJYY2xLNk9aWTJnaTMwVnBnaWg2TEQ4NjNqSGdSbGpHZ3lfWg?oc=5",
-      "published": "Sun, 01 Nov 2026 12:24:16 GMT",
-      "summary": "Why Is Fed’s Logan Seeking Two More Rate Hikes? | 31 Oct 2026&nbsp;&nbsp;www.tmgm.com",
-      "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-01T20:24:16+08:00",
-      "source_detail": {
-        "name": "www.tmgm.com",
-        "url": "https://www.tmgm.com"
-      },
-      "priority": 0.0,
-      "category": "日本",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Eight missing as downpours hit parts of France - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4d29oZUpFbEtDSC1ZeU0tZ3pSWHh2WjdGdUZvUTVvOTdrbHI5NDJTY2cyejdjZ3pvNEFyWTFqdFlub21kRHctLTBMdEw1YUpkUnJjSm9hX2xBamo4?oc=5",
-      "published": "Sun, 01 Nov 2026 07:00:00 GMT",
-      "summary": "Eight missing as downpours hit parts of France&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-01T15:00:00+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Zero Rates, 1,100 Won Era Over: Dollar Staggered Buying, Short-Term Bonds Advised - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNG1OeHJ6OVhTNU14S0tHVlBTWXRCenU1b1NoNlhPeVJ6dHhDbVFZSTFURWFIQk1HYlY3MVJGRXZfN05xN05fVkpMU1JuWVl0dDV2V2FrVUIxSThoZkpGbG9wV0I1aTUxaUdKakN2UHVxajQyTXBLbG96R2xXX3E1TG5aMElObnFicnAwVUdn?oc=5",
-      "published": "Mon, 02 Nov 2026 22:54:36 GMT",
-      "summary": "Zero Rates, 1,100 Won Era Over: Dollar Staggered Buying, Short-Term Bonds Advised&nbsp;&nbsp;조선일보",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T06:54:36+08:00",
+      "published_beijing": "2026-11-04T09:28:35+08:00",
       "source_detail": {
         "name": "조선일보",
         "url": "https://www.chosun.com"
       },
       "priority": 0.0,
-      "category": "韩国",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Trump holds final midterm rally at Lincoln Memorial Reflecting Pool amid GOP gloom - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrMEhydkt4OERMN2tvcnA0V216ZFY1bXFmNWM3RmJ2cU9LcTI3UnNKZFBBTHM4TlFFeXUyYmRwTDY2b0Q1dnc2NUwzdFZVemtmZ3hkV2pvRQ?oc=5",
-      "published": "Mon, 02 Nov 2026 21:04:34 GMT",
-      "summary": "Trump holds final midterm rally at Lincoln Memorial Reflecting Pool amid GOP gloom&nbsp;&nbsp;헤럴드경제",
+      "title": "Netanyahu’s Likud accused of election fraud cover-up as Israel probes Arab parties’ record 19-seat victory - Malay Mail",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUWpxbjc1Nk5DTmh0SjR3LWZ5eDBqTFpiYmpWQlZjMEl4YkhGVHdNV0xHZ3BPd2cxNURSOWRQaUM3eTFOLUZMVmM2Q2VSdHlFNkdWbjM4VWU4bVlVeFR2aE1qS2lPeDRJYnlJUkxtckxIN3l5NURjMWVCYzVFNVVQTklEbmo4SnZ4MFZTbm9pV0RLQnk1TURLeU5mU2pld0JvN2liU0lscnhqcWtWY3pOX3kxRjl1d1ZYZXl1UWRsTzluaHdYRFNrZUpqSVc4MzNkSDk0YkZNazN0ZG1xbElveWQwWFdxUUhoZHBnTlU3XzJaNU5UNkHSAfYBQVVfeXFMUFFqcW43NTZOQ05odEo0dy1meXgwakxaYmJqVkJWYzBJeGJIRlR3TVdMR2dwT3dnMTVEUjlkUGlDN3kxTi1GTFZjNkNlUnR5RTZHVm4zOFVlOG1ZVXhUdmhNaktpT3g0SWJ5SVJMbXJMSDd5eTVEYzFlQmM1RTVVUE5JRG5qOEp2eDBWU25vaVdES0J5NU1ES3lOZlNqZXdCbzdpYlNJbHJ4anFrVmN6Tl95MUY5dXdWWGV5dVFkbE85bmh3WERTa2VKaklXODMzZEg5NGJGTWszdGRtcWxJb3lkMFhXcVFIaGRwZ05VN18yWjVOVDZB?oc=5",
+      "published": "Wed, 04 Nov 2026 01:02:11 GMT",
+      "summary": "Netanyahu’s Likud accused of election fraud cover-up as Israel probes Arab parties’ record 19-seat victory&nbsp;&nbsp;Malay Mail",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-03T05:04:34+08:00",
+      "published_beijing": "2026-11-04T09:02:11+08:00",
       "source_detail": {
-        "name": "헤럴드경제",
-        "url": "https://mbiz.heraldcorp.com"
+        "name": "Malay Mail",
+        "url": "https://www.malaymail.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1099,47 +583,15 @@
       "relevance": "low"
     },
     {
-      "title": "What Are U.S. Military Options in Iran? - CSIS | Center for Strategic and International Studies",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tZTZ3N3Rwd2J5ODduOHBaQzBTQ3BrMy1qWGtDTTM1VENCQmhPekJuS3RjYTV5R09qdVFJVTUxdjRwUWhCUTJXWDJqWWtsemNJVVJvV1NBNDc0RlE1NjZwdzlSMi14VTg1bzgyekgtUzE?oc=5",
-      "published": "Mon, 02 Nov 2026 20:10:23 GMT",
-      "summary": "What Are U.S. Military Options in Iran?&nbsp;&nbsp;CSIS | Center for Strategic and International Studies",
-      "source": "GNews | DPRK Sanctions",
-      "published_beijing": "2026-11-03T04:10:23+08:00",
-      "source_detail": {
-        "name": "CSIS | Center for Strategic and International Studies",
-        "url": "https://www.csis.org"
-      },
-      "priority": 0.0,
-      "category": "朝鲜半岛",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Russia-ASEAN cooperation amid a rapidly changing world - Khmer Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOakVTNGl6dF82ZEFleG5CT1RiWmlEcTRtV0Q4WmNBLWN3VDNuYTluRktBRXVaVG5UQkRZeWotSUt1bEdvYnFuUU5DSFNVZ0t3dko4Nlh5YTlhQ1hTRHd1d1hmT3Q2VjNtQXlLTGFmMGo4eUJYNlNBLWpERk5ObmdXSkZCbWxvLXkwY09Uc1JxQkNTbkV6bGhVN01n?oc=5",
-      "published": "Mon, 02 Nov 2026 17:15:44 GMT",
-      "summary": "Russia-ASEAN cooperation amid a rapidly changing world&nbsp;&nbsp;Khmer Times",
-      "source": "GNews | US-JK Trilateral",
-      "published_beijing": "2026-11-03T01:15:44+08:00",
-      "source_detail": {
-        "name": "Khmer Times",
-        "url": "https://www.khmertimeskh.com"
-      },
-      "priority": 0.0,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Explainer-What's behind Poland's constitutional crisis? - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNk93RVl2enBSSkg1X0NfUl9scVFldmpialM4OVJVMEFWc1A1V1pUeURVRFN2WDYwYm10cXNBMTJKY1hLMDZqckRSS3ZseDVVeURMTm42NkJQT1dQdG1jcGxfcVZIaGF2TThlbTFNZ0ZxYjd6Vi1wbmRjRV82clVPN1pOWWE5a1VQN1pad2FsNHJaYVlHc29rOFRR?oc=5",
-      "published": "Mon, 02 Nov 2026 15:37:00 GMT",
-      "summary": "Explainer-What's behind Poland's constitutional crisis?&nbsp;&nbsp;The Straits Times",
+      "title": "Why South Africa's Local Elections Matter - Tempo.co English",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rMlJLcWhSWnBqdnJSTF9fVGt6VnZ2LUdYLWg0UDNoMXo2MEJ3a1hvUWxTNDB1ZklRYjFoejNpdGg0UV81R19JZDVMZUd4NWFoZEJxZTNCY3gxV1RTcWlnYnVXQTF3Nkw1bWdwaEwtdVVQRkJDdlZkMlczTEhEZw?oc=5",
+      "published": "Tue, 03 Nov 2026 23:27:10 GMT",
+      "summary": "Why South Africa's Local Elections Matter&nbsp;&nbsp;Tempo.co English",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T23:37:00+08:00",
+      "published_beijing": "2026-11-04T07:27:10+08:00",
       "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
+        "name": "Tempo.co English",
+        "url": "https://en.tempo.co"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1147,79 +599,15 @@
       "relevance": "low"
     },
     {
-      "title": "The Warsh Hawk-Dove Mystery Solved: Economist Says What the Fed Is Really Watching Is U.S. Treasury Yields - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84TEl0WXZGUkNjRktpMjczM0FhUm5nNkRDSDZCeDhwdkRNcWpjN196N1gxalhQbjFHVGVqTHFtM1NxUzZqVDJKa1dlVlQyRWJRYUJVc2VRVmdacWFWeGlUZ19ycTQwQmFzYUtHcWdBUElNdHVoaWc?oc=5",
-      "published": "Mon, 02 Nov 2026 14:35:00 GMT",
-      "summary": "The Warsh Hawk-Dove Mystery Solved: Economist Says What the Fed Is Really Watching Is U.S. Treasury Yields&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T22:35:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Spain swelters in record temperatures - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CSzVIUDdvNFVqd3prTlFGdWpfR0hMZUZhLTJyem4xWE9kODlMTWtZUW1RUEQ3QjlrZE5BcFBoLXlscjFNRmJEam4zdWllWmdyS09CUHhLRHFEV1M1LW5qWXB1UUNGcGc?oc=5",
-      "published": "Mon, 02 Nov 2026 14:16:23 GMT",
-      "summary": "Spain swelters in record temperatures&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T22:16:23+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "CEE FX: Are rate hikes on the horizon? – Societe Generale - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeDFWamRJOXZkOEpzOFdUT0ZSdGVRNzJ0UTdPM3Z5ZGJBMWRsbU94OXd6QkxPVS1Cd054ZEhOOS1WS3puVEd0NFZyclkxUXo3TmktMlNwMERVOEJQZVJ1TUl3Q21ESUpGRVJpYnhwVWp6eS1LM3RWN0tnQ09ldXhVenBxU3RWelYybUFzV3BNejRBYWdYc09zNy1NVDAyOFEzR3pRNXhZUWdpbHNMQnhMQmx3?oc=5",
-      "published": "Mon, 02 Nov 2026 12:32:46 GMT",
-      "summary": "CEE FX: Are rate hikes on the horizon? – Societe Generale&nbsp;&nbsp;www.tmgm.com",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T20:32:46+08:00",
-      "source_detail": {
-        "name": "www.tmgm.com",
-        "url": "https://www.tmgm.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Adani crisis sparks protests and arrests - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KWDJhUGRuR2IzVVlsSzktdG1HTzBUbURWVHQ5QV9PVEdYNHNXRzNzU2pIb25GSEE3Y0prV0JINFlsemN6UG5DZnRxc1pwNEtkYk9NeUx1Nk5GenRfck9EaTZXTU1pSGM?oc=5",
-      "published": "Mon, 02 Nov 2026 12:30:04 GMT",
-      "summary": "Adani crisis sparks protests and arrests&nbsp;&nbsp;Reuters",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T20:30:04+08:00",
-      "source_detail": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Dollar Rallied Last Week Amidst Rate Hike Bets - RTTNews",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbFRKYlNydGV5UE5acUJjeFBiLTVKRTZTbkxxbGpna19HcXJQOHdYdW9USWx1QWVFSWhKRkk3cFA3SWNCQ2dpdERUX2l5bnlzRGFSZDdSeV9MQW9XbFdjNVJwU2RHNmRlam1MWnBEUU55WUsxSm9PbHQxVDNLVXBCeko2a0N5TGRaTDl5VE9VRy0?oc=5",
-      "published": "Mon, 02 Nov 2026 12:05:00 GMT",
-      "summary": "Dollar Rallied Last Week Amidst Rate Hike Bets&nbsp;&nbsp;RTTNews",
+      "title": "Yen Weakness Fuels USD/JPY and EUR/JPY Breakouts Ahead of Midterms - StoneX",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVGJlRGZiMEhBTDFacXcwaUtCOVZxRlBsakh5NG9XTFltYTFieEQzcTQ2ZU91RVJEbEZGeWN4aHlsQWxEREMwaWVKbWZvYzJkUUpMU0dSX3dFWHRmNTdOLUF0STVhTy1pN1l3V2RuSGc5d19LRFM3R3hxMUxqYm5hQUgzaFFueHFweG9GZUEzbDdla0xSdU0yTUlIRlNxb3ZuTWJ6cTBmbHZBM0h6aFRGYWhCbjg0QU9nWWN0MDhTNXZoQkE?oc=5",
+      "published": "Tue, 03 Nov 2026 23:01:06 GMT",
+      "summary": "Yen Weakness Fuels USD/JPY and EUR/JPY Breakouts Ahead of Midterms&nbsp;&nbsp;StoneX",
       "source": "GNews | JP Economy/BOJ",
-      "published_beijing": "2026-11-02T20:05:00+08:00",
+      "published_beijing": "2026-11-04T07:01:06+08:00",
       "source_detail": {
-        "name": "RTTNews",
-        "url": "https://www.rttnews.com"
+        "name": "StoneX",
+        "url": "https://www.stonex.com"
       },
       "priority": 0.0,
       "category": "日本",
@@ -1227,15 +615,15 @@
       "relevance": "low"
     },
     {
-      "title": "Midterm elections cannot save the US-led alliance system - Global Times",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nY3RBSVE1cDNfRTZmdnBxSy1GMHNxWi1LWW53VG1nVGtRb0pFS2gwVTU0Z01MWXhPV0VaTmQ2TG1nTXdzeDdNR0xsSDJJWS1rRHh2dTdoR2VZTm9CejBaR0xB?oc=5",
-      "published": "Mon, 02 Nov 2026 11:57:00 GMT",
-      "summary": "Midterm elections cannot save the US-led alliance system&nbsp;&nbsp;Global Times",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T19:57:00+08:00",
+      "title": "US-China tensions: 7 essential reads shaping a wary era - https://www.thetraveler.org/",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM0xGSHBwMXlBMG4zR2tXY3NxWHREM2w3bklKVzZ2VjUxUkd2cTdUd00xQ2IwejFGT1JYWlFMSHBjT3VWbFp1a0d1NVlQMm9BVUtpbFpQNkFZTFljVEtES3FfSU43YVdQMm42b1EwMkduWXJGM2RCMmFZNV8yeXd1MmJaaGprV00yeW1F?oc=5",
+      "published": "Tue, 03 Nov 2026 21:19:42 GMT",
+      "summary": "US-China tensions: 7 essential reads shaping a wary era&nbsp;&nbsp;https://www.thetraveler.org/",
+      "source": "GNews | Taiwan/SCS",
+      "published_beijing": "2026-11-04T05:19:42+08:00",
       "source_detail": {
-        "name": "Global Times",
-        "url": "https://www.globaltimes.cn"
+        "name": "https://www.thetraveler.org/",
+        "url": "https://www.thetraveler.org"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1243,44 +631,28 @@
       "relevance": "low"
     },
     {
-      "title": "Amit Shah Leads Hyderabad Padayatra as BJP Counters Opposition's Protests - India Today - India Today",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUWhxS1N2T2s4OVJDRjNEdlloN1ZvQXhPZVc3cTBfWjNTbUQwbU5aVUhNVERqeGRJZmtsdzFPYnZDbEdTSGRpN0lfWHJ3RTBScVQ5RmpqMDgwNjRyMm1Uajl5VEtVb051WVpkWlR5N3NZZlh1QnhUY3hZQmlvMkpWMWFvUklnSlhDSDRPZFEtUkhNWTdUWUJ5bENLV05pRXpEVEEwZExfMmRSYTFNNDVaa3FGSVE0QlhYRThDNGNPX1Nid25tNEVEOVlVVmdCV2PSAdQBQVVfeXFMTWVDaUZ5WFlFLXRQQnFzQXNiVTNEMXJGVy1oTGpsaExicmpsdTZmaFJtOVRGeVVEbkFIQ3hCaUNRUUE1RW9fbTRSTWtscmxOVkZZdlU0Snh2U1B6X0QySjlnNklfZ2xwMDJmSmw4d0JFYlZvSWRLR0pTSXEyek5VcVRvLUJFaHJUeGd1ZG9sTlZGaXlfdUtUQ2JfZWhfbzdCUW9wU1Q2b05BYWxGUHVvblZrZFRvTUVVWnB5V0haOXd1NGY2WVhpcWxhNVNxakc0ZWNUYXk?oc=5",
-      "published": "Mon, 02 Nov 2026 11:52:13 GMT",
-      "summary": "Amit Shah Leads Hyderabad Padayatra as BJP Counters Opposition's Protests - India Today&nbsp;&nbsp;India Today",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T19:52:13+08:00",
+      "title": "USD/JPY Analysis: Rising U.S. Yields Leave the Yen on the Defensive - StoneX",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcWctTVVRLXpNdTlCSGJ1enBmVENEQk51VTRGbV82djNiMmxfbVQtYzBjVTJIX0d0bW9FbHJnZDRLWTJDTUFUdFc0bHdBc1hzOUNsNWFDb3JLRi1zUG9IdEw0TTV4LVZ0eUFicGNCSExsMnE4d2FFRHM1WmR2RU1lT1Q1cUkzVklmUWFoWkhFTThGNUFwcklGRzk2WjFTUnpfcVZjVGVsMTFCbzloVWhlSWVLMTUzbUhOeG5CSmxnQzBEQQ?oc=5",
+      "published": "Tue, 03 Nov 2026 18:03:05 GMT",
+      "summary": "USD/JPY Analysis: Rising U.S. Yields Leave the Yen on the Defensive&nbsp;&nbsp;StoneX",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-11-04T02:03:05+08:00",
       "source_detail": {
-        "name": "India Today",
-        "url": "https://www.indiatoday.in"
+        "name": "StoneX",
+        "url": "https://www.stonex.com"
       },
       "priority": 0.0,
-      "category": "政治+社会",
+      "category": "日本",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "SEBI Proposes Scrapping LTCG Tax For FIIs, Reliance Surges 9.5%, Auto Stocks Rally - India Today - India Today",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaEx2OExTMDl1U1JjeDRHaGVvdjdkejN5VDVsaUx0UUUtajVoY3p0c3FmZ2p3QWhqMUcyR1c4MjFFSm4yTjlYdzJYQ1FqR21IR18xZEd5anY3b2kyQTdKWXdLdTdXNVdnUGNlWFJkTXZ4c0w0QlRrTlVHb0ZHRnlyaHplR0ZVZ0VrRkpaZ2xCWDVZRjFwTk9kVERoRlFXd09UVVVWODVVR3RzUkhpSUJTNW16M2swY3ZkU09Bajk2cEJNREJlME8wMHR0b2JJSGxPWkMzUVRzdDVxSUtN0gHcAUFVX3lxTE9oTHY4TFMwOXVTUmN4NEdoZW92N2R6M3lUNWxpTHRRRS1qNWhjenRzcWZnandBaGoxRzJHVzgyMUVKbjJOOVh3MlhDUWpHbUhHXzFkR3lqdjdvaTJBN0pZd0t1N1c1V2dQY2VYUmRNdnhzTDRCVGtOVUdvRkdGeXJoemVHRlVnRWtGSlpnbEJYNVlGMXBOT2RURGhGUVd3T1RVVVY4NVVHdHNSSGlJQlM1bXozazBjdmRTT0FqOTZwQk1EQmUwTzAwdHRvYklIbE9aQzNRVHN0NXFJS00?oc=5",
-      "published": "Mon, 02 Nov 2026 11:10:31 GMT",
-      "summary": "SEBI Proposes Scrapping LTCG Tax For FIIs, Reliance Surges 9.5%, Auto Stocks Rally - India Today&nbsp;&nbsp;India Today",
+      "title": "Ukraine, Iran and beyond: What the midterm elections mean for US foreign policy - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXRDZEN2VnJzalBaOXlWb3VkX1hkZGZOejdNQ2dSX2JLZW4tYXZqRi0wbkdveHFiZGNqN1RjYkFuZGJMYXhYeW5mM21wcndLQ05SNXg2aXpJaTFZWEJ3cC1SSThQYS1hSkFoTjVOLU5DNkt5M1M5X2IwdDAxbXQtQks1bkJmVFhUTDJad3dkZHpqbUItV1ZYbG1B0gGaAUFVX3lxTE1jdXNKZldpU254QkZOeEdJLVQ2TVdBTmZyWG1MdC1PQV9nUnFlTTNEOXpnenNWTVFBQ1NGTmJENmYtM0xidnFNMW4xQmZ5bk1kUnhUaHhtMnEyMjI2MEdsZUs3a2dMQW44ZEU1eWxlOVlucUIwLU5NUmsxV0JGRmZKbDNwVkdwVUNzMzkyVHgyaGltRFMwajFaVFE?oc=5",
+      "published": "Tue, 03 Nov 2026 17:08:51 GMT",
+      "summary": "Ukraine, Iran and beyond: What the midterm elections mean for US foreign policy&nbsp;&nbsp;DW.com",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T19:10:31+08:00",
-      "source_detail": {
-        "name": "India Today",
-        "url": "https://www.indiatoday.in"
-      },
-      "priority": 0.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Germany's center-left SPD is fighting for survival - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1VydWdoVFB5T0h0ZFpXUFd5QVR3eThEVXFuZnVRV2lReDBPYmxzY1JRSXJ4TEtSaEJYRjFrTWl5Ukp1X2RSZ3Fqajh6YUNzb2F1eTIxaFV5Qms1TjhJZ2ZSaUxEM1h3b1ZJMHdKR2JMOGg5TlpKV0lEcEZobTNLd1BoUC1HM3BGbEk40gGLAUFVX3lxTFBjMVhWbDBSQ1V1eV9TWkFHMUdZYUwzVG1Fb2ZkUWw3eXBEZGlDTmtjZUJLUXl3MmNUWnlzOVdyWHpTanVXTmNZelRGZW1NbFdsVUljOV9CNldMb1RGSDhDSi1OczdVSlN4U3hvY0IyWmxPRWQySGZRZ2lwZTJaREhkSi1heWNSNW1IUWc?oc=5",
-      "published": "Mon, 02 Nov 2026 10:33:28 GMT",
-      "summary": "Germany's center-left SPD is fighting for survival&nbsp;&nbsp;DW.com",
-      "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T18:33:28+08:00",
+      "published_beijing": "2026-11-04T01:08:51+08:00",
       "source_detail": {
         "name": "DW.com",
         "url": "https://www.dw.com"
@@ -1291,15 +663,15 @@
       "relevance": "low"
     },
     {
-      "title": "DW News. . Beijing is spending heavily on its military, in particular in areas that would be required for war with Taiwan. But analysts warn that it would actually be China that could suffer some of the steepest economic losses. Meanwhile, the rest of the world co - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSnFSSjE3WmI5dlhSQ1YtbGVpcDNJYUNLRnRycEZ4YV9ENGhEZlloVThlT0N4am94UmROazViVlNrSDlmRTdZRFI5WmpwYlZhdnBJaXRxUUlxTDZsVUc0S243Y0JFa2FDZlZ0SVZXc2NCV050clk5aXg1cDFqVHU4bFo0enBjUTVhNnpDc2lRcncyV1V0emVkQkl1bDNXc1V6UlpGdlJzVEhaNGtoMGRmQ1FIVzZsOVVxMXd2Z0dBM1JtS2JreE1XcDUxNGZfYTNhaDZBT19GbmM5bWVoMXRMTlpn?oc=5",
-      "published": "Mon, 02 Nov 2026 08:16:46 GMT",
-      "summary": "DW News. . Beijing is spending heavily on its military, in particular in areas that would be required for war with Taiwan. But analysts warn that it would actually be China that could suffer some of the steepest economic losses. Meanwhile, the rest of the world co&nbsp;&nbsp;Facebook",
-      "source": "GNews | Taiwan/SCS",
-      "published_beijing": "2026-11-02T16:16:46+08:00",
+      "title": "Infiltrating the Left: Plans to protest, shut down transportation hubs and economy on Nov. 7 - Washington Examiner",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWnF6Y2xBZW5feVVnSlpiTE5jalcwRDkxRktBblV4RjJRZUt6ZHRJZVNIM25pU1VoSnlpcThEeWdYbnRPWDc0U21QQzJDalp5ejhTNGpvQm5tbDdtZWFMNXVoQ0xLcno2QWpVTkdSSkVSVkpINEpUTVlKalFzNGxqTjdhWnhQNkRYWmdkVHJLMkl3ZjRzZ3ZVSm04OGIxWVgyZ3JJTmFjOVRiY2lUc1pCRTNJa19sNE54Znc?oc=5",
+      "published": "Tue, 03 Nov 2026 14:34:31 GMT",
+      "summary": "Infiltrating the Left: Plans to protest, shut down transportation hubs and economy on Nov. 7&nbsp;&nbsp;Washington Examiner",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T22:34:31+08:00",
       "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
+        "name": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com"
       },
       "priority": 0.0,
       "category": "政治+社会",
@@ -1307,31 +679,140 @@
       "relevance": "low"
     },
     {
-      "title": "'An unprecedented situation': Warsaw wobbles with constitutional crisis - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVl1WW5na2c5NzhmVEJ2Q2x1U3NXRmtiT05nVG9lb1MzcGtrcGI0U1hET0tzSVZJOFdyX3A4VFk4c20ySmctTHlKWmhzeFJoaW5OOUszV3lYS3U1emZIa3pRZjBPQ2p1c0ZMcjFTQ09ReFZlbG1CZVMySWprSWFDNkk2cmtzRlpLRnp0VEJXQkZVUGxYWnl0MFFfYzhCX3lf?oc=5",
-      "published": "Mon, 02 Nov 2026 07:32:40 GMT",
-      "summary": "'An unprecedented situation': Warsaw wobbles with constitutional crisis&nbsp;&nbsp;Euronews.com",
+      "title": "What to know about the crisis around Poland's Constitutional Tribunal - Messenger-Inquirer",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNmt3a3JCSHFiZFdJOTZzT202TDhneW4wREVUQXRpMnNwTENGb2ZuaGtBc0lPVXZ2Nkp6RDE5SjFObWFvaUtnM3RLUHctMVI3bV9WRE9Tb3JFMWlMdW9QOU5MZ3R5QU1Oc0c1eWlNT1pmRndjSEExLVgza1JMWjluWVpsR1FOX19IbUw5T2N3cXNEUGtxeFM5WjJLSWo4Qkh3V1BpZzNjRy11a1RZQ0M4dlR3VWo0RDJnVU9vaV92Ulg2YmFJcUp1V1VGTXc1SF9pLTVuMlJhcWdGUUZ0dWt4ZF9ra25FT0pNYjBza0I5Qm96OENVMHh4cTh3?oc=5",
+      "published": "Tue, 03 Nov 2026 14:32:32 GMT",
+      "summary": "What to know about the crisis around Poland's Constitutional Tribunal&nbsp;&nbsp;Messenger-Inquirer",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T15:32:40+08:00",
+      "published_beijing": "2026-11-03T22:32:32+08:00",
       "source_detail": {
-        "name": "Euronews.com",
-        "url": "https://www.euronews.com"
+        "name": "Messenger-Inquirer",
+        "url": "https://www.messenger-inquirer.com"
       },
       "priority": 0.0,
-      "signal_keywords": [
-        "unprecedented"
-      ],
       "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "South Africa's splintering vote sets up multi-party battle for cities - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRGpUWXpzRUoxQXdGVm00OGhlVF9hZ2FSLU1MeEVxeGtxRnYyak10QTJBMUw4ak1yRUlRX1pjZDNmbjVTcWlYcHBfVmJKbUYxejloTEc3MWhCZ1FsSmpjN21jbEdHamlxUjBRSV9rMUdYbW5NUEhhQnB4OHVUc0FXVVdCZjl5V3FHUkV4cWxfVHE4V0VKdThhb3dNUlNoMU9lYk42X3Qtd3FZNUM2cGVjTkFnTQ?oc=5",
-      "published": "Mon, 02 Nov 2026 07:02:00 GMT",
-      "summary": "South Africa's splintering vote sets up multi-party battle for cities&nbsp;&nbsp;Reuters",
+      "title": "Samsung, SK, Hyundai, LG boost AI, robotics R&D spending by 50% to $41 bn, hire more engineers - KED Global",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yck1nOXBZZER1bDFFUGd6SDVsdURWSWZJWkdjMDgxQU5GeVcxVnF4VzVMUDFDQmlWWlhuQzlXc0pPTUR6eDJaa3BUWEJPQWtJcDFUVGR1LXdOWFNyQU8wdERUNG5zdExzai1kdndBSmRZVlBsb3Vla3dSaw?oc=5",
+      "published": "Tue, 03 Nov 2026 14:17:00 GMT",
+      "summary": "Samsung, SK, Hyundai, LG boost AI, robotics R&amp;D spending by 50% to $41 bn, hire more engineers&nbsp;&nbsp;KED Global",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T22:17:00+08:00",
+      "source_detail": {
+        "name": "KED Global",
+        "url": "https://www.kedglobal.com"
+      },
+      "priority": 0.0,
+      "category": "基础设施+科技",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Tuesday/Election Day News Roundup: \"Trump’s midterm campaign has distilled his vile message\"; \"Ken Burns: We Face Our Nation’s Fourth Great Crisis\" - Blue Virginia",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaW1TbVUtUHVaRk52VURVdEFPX2FZZnRNRGJ4SnJBcWpTRjAzaW9IRmMtUV8xbkU1aDc4OEZKeUpyZk1CM3c0NkdCVUVyTE9uNGVWaVlFcXRkbzM4dHFZWklQNWR6X0VzZmxXLXdFbERzOE96aWV6ZlJFZFN4UWdyV1Qyd21rU3NVdEw5TjlQcmo2R3lRbGYwLVk1ZDBJQkg4SjdiVTRCUmNKZ2w4dDZLVXpXRmdrY243Sm1rWlEzYkJHYWQxR3l4YlNncUhDZkRpOXJKdENxNnBfZi1ubzFTZkJsZVlGVkZfa3k2RkkxZVlNSnRhdTN5ZTdMN1BOd2NI?oc=5",
+      "published": "Tue, 03 Nov 2026 12:06:28 GMT",
+      "summary": "Tuesday/Election Day News Roundup: \"Trump’s midterm campaign has distilled his vile message\"; \"Ken Burns: We Face Our Nation’s Fourth Great Crisis\"&nbsp;&nbsp;Blue Virginia",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T15:02:00+08:00",
+      "published_beijing": "2026-11-03T20:06:28+08:00",
+      "source_detail": {
+        "name": "Blue Virginia",
+        "url": "https://bluevirginia.us"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "The key outcomes and races to watch as midterms results unfold - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14LWNBcEtwREozSWVVclk3dDFRTjJfSEp1eFhnQ2ZfUm1mS0hGMEljZHpfcXJoeEdWTXZYNGJsVEdNcU5xN3ViVXZrdkdqLUVoT3J3amdrYkZLeGc?oc=5",
+      "published": "Tue, 03 Nov 2026 10:32:56 GMT",
+      "summary": "The key outcomes and races to watch as midterms results unfold&nbsp;&nbsp;BBC",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T18:32:56+08:00",
+      "source_detail": {
+        "name": "BBC",
+        "url": "https://www.bbc.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "India news: Cyclone Murasu wreaks havoc after landfall - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZnUwdzlFODZWeDFtZDl0Y29sSkZPdTRxeDRfYjdVblRmYlpBMmtqWnBhck0xQ2tWR1dTUVFqNU1mcGRmNHRlenlZVV9zd1N2dmpNREVPeEZub1JfdV9FRjRrQ1hnU0VVYU9YNGxUTWRxbC1UNVZfU3JiS0RHR1ZLVnl0STM5ai1LcDdBZ2xJZEx4TTg?oc=5",
+      "published": "Tue, 03 Nov 2026 10:11:35 GMT",
+      "summary": "India news: Cyclone Murasu wreaks havoc after landfall&nbsp;&nbsp;DW.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T18:11:35+08:00",
+      "source_detail": {
+        "name": "DW.com",
+        "url": "https://www.dw.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "A Hard Winter Is Coming in Russia, Too - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcWxlbjM0Y1h2X3l4SmVMcDFLUjJ0RTUzTWpoMUFSTzlKSXJ5N2J4Wi16SkVJSWZmZUU3RkpKUFBCM3N4ak1mVFpkUThkbUNtSWg3XzhXVkxxaGRudTJ4c0pLbkwtZEMtak02Q19BaWRhOVgzQWlFMXRKN08wSGZiVThoc2NqRHBxNkRZSTNOa2czNGZpMWZUVHV0OTdrOVFkVDl2VGlTT2huSG1jODY4TUpn?oc=5",
+      "published": "Tue, 03 Nov 2026 09:30:50 GMT",
+      "summary": "A Hard Winter Is Coming in Russia, Too&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T17:30:50+08:00",
+      "source_detail": {
+        "name": "Bloomberg.com",
+        "url": "https://www.bloomberg.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Year-End Rally After U.S. Midterms? KOSPI Fell in 6 of 11 Cases - Seoul Economic Daily",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3VMVUFSZ1dfUF9Rc1hIa0E2aGN6QmRZUEoxRkdJUGZ3VVlSU0ktSWQ3OXQ4RExqT240S1h4ZGRyTnNpVDduMDJpYWM4Vlo4WWlpdFdYYy1qU3BSSUMtbFhJblBleVpqQmlQNnpXVzkxVzRRSjhMN1o2T18waWNudVZfaFFNcndrY0hkY1hhVWluVldkdEJMbWtSNHlmc01rQS10TA?oc=5",
+      "published": "Tue, 03 Nov 2026 09:06:09 GMT",
+      "summary": "Year-End Rally After U.S. Midterms? KOSPI Fell in 6 of 11 Cases&nbsp;&nbsp;Seoul Economic Daily",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T17:06:09+08:00",
+      "source_detail": {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Yen Holds Firm as Intervention Jitters Cap USD/JPY Rise - TradingPedia",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHRIX204TnRtWXp1RzhKcGdxdzN0YjFBcnpNS0Z3akx5RDdUemdaajdmazJLX1F1TUNpSmZnY0VTcHlfdnlVVXZoSmVfLXVyWDZKNllXUFl1WjFxMk1EaERaMUQxZEhfdHRVYVRxVFpqX2E2SUtJeGlzSkloRTh2ZEtQNWYtMHFrenRwb3FlWk40bVNya1pYTHJEVW0?oc=5",
+      "published": "Tue, 03 Nov 2026 07:39:56 GMT",
+      "summary": "Yen Holds Firm as Intervention Jitters Cap USD/JPY Rise&nbsp;&nbsp;TradingPedia",
+      "source": "GNews | JP Economy/BOJ",
+      "published_beijing": "2026-11-03T15:39:56+08:00",
+      "source_detail": {
+        "name": "TradingPedia",
+        "url": "https://www.tradingpedia.com"
+      },
+      "priority": 0.0,
+      "category": "日本",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Australians cheer as rain sweeps across parts of the bushfire-ravaged east coast - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rTkM1TVZxQl8xZFZvU1QxOThocWc5THhOcHZwU0ZNMW5wWTBSVHRjT3FHQlh4U2VMSU1SYjA4R0p3c3JGLUpiOS16YVE2Q0ZPUWpzM2pIeXdvRThz?oc=5",
+      "published": "Tue, 03 Nov 2026 07:20:06 GMT",
+      "summary": "Australians cheer as rain sweeps across parts of the bushfire-ravaged east coast&nbsp;&nbsp;Reuters",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T15:20:06+08:00",
       "source_detail": {
         "name": "Reuters",
         "url": "https://www.reuters.com"
@@ -1342,15 +823,47 @@
       "relevance": "low"
     },
     {
-      "title": "'Are you asking a 5-year-old to make money?'… Why Samsung and SK hynix remain unfazed by AI bubble fears - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fSzc1YkFTT0lnOVpYQmh3YnBvWVRNVEl6NmZ4VFg0bW1LZGtXd3lBUVQ5cTJ6ZnFMOEhRTmJYX2hJWGtfWFQwQ1B4NUlWUUlmS3JrbWlzVzJyb240NzducHI2NHpEUjdFQk1JSTlkYXA0ejJTUllNQ0tpT0xvQQ?oc=5",
-      "published": "Mon, 02 Nov 2026 06:28:59 GMT",
-      "summary": "'Are you asking a 5-year-old to make money?'… Why Samsung and SK hynix remain unfazed by AI bubble fears&nbsp;&nbsp;머니투데이",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T14:28:59+08:00",
+      "title": "US Voters Head to Polls in Biggest Referendum on Trump’s Presidency - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVFd6dklDbi1NU3E3UjUxenlHWDBfU0lkNnI4bEZ3NUlPNTF4dnJ4TW1ESVBXWTdaUExWN1RHR1VMR0FNUDVMOVlPY21tSXR3bElQekEtMk5WY3Q1YXRtLU5mZGM2Z2g2SjZuWS1DYm8tQ0REdW5FVnlIeVU1M0Mxck9oRlBOU2lFLXU4MDBCY2lkWnNxX1RTYlNVT3hsT1VpQ1pZU1Boby1QU2hqUzV6cXREOVBLZFlqeDVVQW1uSWE?oc=5",
+      "published": "Tue, 03 Nov 2026 05:00:00 GMT",
+      "summary": "US Voters Head to Polls in Biggest Referendum on Trump’s Presidency&nbsp;&nbsp;Bloomberg.com",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-03T13:00:00+08:00",
       "source_detail": {
-        "name": "머니투데이",
-        "url": "https://www.mt.co.kr"
+        "name": "Bloomberg.com",
+        "url": "https://www.bloomberg.com"
+      },
+      "priority": 0.0,
+      "category": "政治+社会",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "CBA Slashes Australia Growth Forecast to 1% as Fifth Rate Hike Looms - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EZ0FiXzl6aUN4MnpuSUZ2MHJVLWpJRTlHS0pNaVlYdXlNX2hXVURvTEx2Y1hvbzgxMk0tOEFlbTRqNXo1d2tKREpkdjhPemhRcUhmZzVTTWpCYVNRX2NuejNpYjIwb1FwdnRPTlZsalFQbk5CMVE?oc=5",
+      "published": "Mon, 02 Nov 2026 22:35:00 GMT",
+      "summary": "CBA Slashes Australia Growth Forecast to 1% as Fifth Rate Hike Looms&nbsp;&nbsp;BigGo Finance",
+      "source": "GNews | KR Economy",
+      "published_beijing": "2026-11-03T06:35:00+08:00",
+      "source_detail": {
+        "name": "BigGo Finance",
+        "url": "https://finance.biggo.com"
+      },
+      "priority": 0.0,
+      "category": "韩国",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "SK hynix Inc. (000660.KS) stock price, news, quote and history - Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wdm1yZExaSDJlX3gzUV95VE1ScnpqcTFGeTJnRnBJSFFTVFVoOUNaY2RnbWVuY3lmakdVRkZPbGZ3VUtkZEpTcU9VaXYyNGVCb3lFblJUREY?oc=5",
+      "published": "Mon, 02 Nov 2026 20:23:41 GMT",
+      "summary": "SK hynix Inc. (000660.KS) stock price, news, quote and history&nbsp;&nbsp;Yahoo Finance Singapore",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T04:23:41+08:00",
+      "source_detail": {
+        "name": "Yahoo Finance Singapore",
+        "url": "https://sg.finance.yahoo.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -1358,12 +871,12 @@
       "relevance": "low"
     },
     {
-      "title": "As Europe's right advances, Germany's AfD rethinks its anti-euro roots - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc2xLaXNFaGMzRzY1MFpOV01sWml1NWpDTTJQN0NEcDhEcUdOSEUzaWliRzIyeG9JR0RwakZ2UFlPR05sWjRyZXR0dFFud0xMdkpMM3pEbHFVaWRiZmhpczMtQW9TNGZrT09JZzZUNVUtalRGS0ZjR0JHTGduNlhLUC1JSzhUTHVDc2dmUDd2emtRUmVreXVLNjRGczA3QzdtVTUyTWVlU3F0QQ?oc=5",
-      "published": "Mon, 02 Nov 2026 06:04:00 GMT",
-      "summary": "As Europe's right advances, Germany's AfD rethinks its anti-euro roots&nbsp;&nbsp;Reuters",
+      "title": "Alabama Democrat Doug Jones to vote to convict Trump in Senate trial - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtZHozV19KUkhyY25paDhySEZGNXJBWG50VEpYWUxvdl9nejlHbnB5S0RuaU5YV19lUXc2YlFQZjhPMFg1Z3RnUjNySkFkWWRUZkowLW4yYTlpdHNO?oc=5",
+      "published": "Mon, 02 Nov 2026 19:18:53 GMT",
+      "summary": "Alabama Democrat Doug Jones to vote to convict Trump in Senate trial&nbsp;&nbsp;Reuters",
       "source": "GNews | KR Politics",
-      "published_beijing": "2026-11-02T14:04:00+08:00",
+      "published_beijing": "2026-11-03T03:18:53+08:00",
       "source_detail": {
         "name": "Reuters",
         "url": "https://www.reuters.com"
@@ -1374,15 +887,15 @@
       "relevance": "low"
     },
     {
-      "title": "CXMT claims world-first validation for 4F² DRAM architecture, threatening Samsung and SK Hynix dominance - Sammy Fans",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeXNMZFRBeHEyMDUzZEVabHNfSnlMelF1WndQMVpsQXpmek5HS2FKQzNEbmx2eTE4SnBZNl9KQnAtaFNMamZUbGp0dHRyTUJPeUIwdmpUZTRpZ0s2SlAxa2VHTGtTbElVQldON1BPRk8xSHVEWXhPdlhycUtWWVFaMNIBhgFBVV95cUxPTkdwZG92MENXZDA3Vi1XaXQ1T19lRk15cjNVR3ZyZWFTV0pKQVk1Z21HOVNjMDlhcXU0WVJqNDRpMXd6RHI4Zk5WQVdCQlZMWHU2dmE2OXdQZ3dGdGhJU29TaklBTGI4U3RJOTVoTC1IMFRPVng3a20zTnA5NmhwOG5rRUtlZw?oc=5",
-      "published": "Mon, 02 Nov 2026 06:03:10 GMT",
-      "summary": "CXMT claims world-first validation for 4F² DRAM architecture, threatening Samsung and SK Hynix dominance&nbsp;&nbsp;Sammy Fans",
+      "title": "St. Luke’s Medical Center notifies NPC of personal data breach - ABS-CBN",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYllXVlNiWGhzS0VOT0g2SFlzS2Nad0xTcENYWDdrcDd6a2ZldE11akg3Y1pNekhyZ09QRElka3dxU3cwN0RrMlZEUnpXeHg5cGNIdVVlR1BSNWZfcEN4VFZpX0tWYTNwSTg5SE5kVk5UaHF5WV9JcWpYZ0RMNTlMNWxwWUFKUjBrRzkxaVg5VnB2N2ZPSUJTNnpDQmE1R3dkUHVfZFNGSU55NmVFakhjX09vRWg?oc=5",
+      "published": "Mon, 02 Nov 2026 17:57:06 GMT",
+      "summary": "St. Luke’s Medical Center notifies NPC of personal data breach&nbsp;&nbsp;ABS-CBN",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T14:03:10+08:00",
+      "published_beijing": "2026-11-03T01:57:06+08:00",
       "source_detail": {
-        "name": "Sammy Fans",
-        "url": "https://www.sammyfans.com"
+        "name": "ABS-CBN",
+        "url": "https://www.abs-cbn.com"
       },
       "priority": 0.0,
       "category": "基础设施+科技",
@@ -1390,50 +903,34 @@
       "relevance": "low"
     },
     {
-      "title": "Lee Jae Myung proposes record 2027 budget with $15.97 billion for AI - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONjlMeHBkNzNjWUpFaDJrbk0yaXplNXRRMTRwTGVMbTNlcVpPVlZOaXl5S0NkWU1HelJmQlJ0RTNyajIyRmlnYXNGeWQtUTUyYW0xTG51UDEtRGVVWm05Vkt0SGtvenFPS003b0ZvQnZkcnFOZlZ3STJNOVRjMEhjXzU0c1l1bkNTUFJRSGVrbWNFQ25KY2hfeHczLXVma21GaTNra3EyNGZjYV9CaEtYMjNZUG1KUl9ieGRiX3ppSFEzdU1hbW80UHNRbmE?oc=5",
-      "published": "Mon, 02 Nov 2026 05:25:00 GMT",
-      "summary": "Lee Jae Myung proposes record 2027 budget with $15.97 billion for AI&nbsp;&nbsp;TradingView",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T13:25:00+08:00",
+      "title": "Belgian government in crisis after budget talks collapse - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQUZUbTBNWUxjNlVBUmJteWJkMzFnVkdkaWlYUFlwaW1PclNVYkhrdDBTT21JR0s5cGE4SnAxUC1Icko4alJaMWNiWDB2azMwV2NyTEVfeHh4eC1xZ2s3dl9sREk2aVhxWjJJU1pkUVV6UU4yNmVkRkwxdkV4UmU4djRDclYwRDNzXzZ3cTA1dmFXb2swRGs0Z3NzQlJocGpGVmtpUEpqWmhpQ2ZGRzk1N19ybmE?oc=5",
+      "published": "Mon, 02 Nov 2026 15:24:56 GMT",
+      "summary": "Belgian government in crisis after budget talks collapse&nbsp;&nbsp;Reuters",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-02T23:24:56+08:00",
       "source_detail": {
-        "name": "TradingView",
-        "url": "https://www.tradingview.com"
+        "name": "Reuters",
+        "url": "https://www.reuters.com"
       },
       "priority": 0.0,
-      "category": "基础设施+科技",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Thailand Business News — Morning Briefing - Thailand Business News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGRreklyU2xXMndTLUFwUElvX1gtS0R1aEl5V2lRZXdzc1Y4aFhNMDRVcHRzTHZzOXVXay1nN3VFdW56QkZCSGlqRG56cnZfNEdndW90MUZYS3h0S1ZzcmZjVlhuSXFlUFp0Rld4d2RiVlpxMTAwVExUTXd3WGZWMmktMXpXNGNzVVZrOEg1eVhyR1AxM1NxNlVwWQ?oc=5",
-      "published": "Mon, 02 Nov 2026 03:43:38 GMT",
-      "summary": "Thailand Business News — Morning Briefing&nbsp;&nbsp;Thailand Business News",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T11:43:38+08:00",
+      "title": "Court extends actor Imran Khan’s stay in India after he apologises for protesting, LiveLaw reports - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkNURmRkcFU1U1F2aUVOOHIzSmtPZEdIbUpjTzkzcWpfaENPelZtbkJHbDZiaUxyVktKc2Qyb1Y3TjFvVnYwRl9RRDQ0NUJVdWx5QThOWEVNbWdvWnpJaUZNbUlQR3BrMEtvTkNtU1g1MnVfYTZROXoyeWszcHpUVTBkV0tJTnM5YWhPRnBjOW1XVk96c1lsbHdDcGdvYVJxYkUzOHl1bzdHU2dhbEJBUGJGbTNvTDZnYXBKSlBGTTAtUUFZRFpIUkhxZTE0ajhTWnpGeXBnaDM?oc=5",
+      "published": "Mon, 02 Nov 2026 12:52:00 GMT",
+      "summary": "Court extends actor Imran Khan’s stay in India after he apologises for protesting, LiveLaw reports&nbsp;&nbsp;The Straits Times",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-02T20:52:00+08:00",
       "source_detail": {
-        "name": "Thailand Business News",
-        "url": "https://www.thailand-business-news.com"
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com"
       },
       "priority": 0.0,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Charting the global economy: Central banks hold rates steady - bfsi.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaGNJMmFuTWE1VWpEQUd0cnRFZWVfNUtJOGVmYmpDQXlFT2Z2LW1lUENkcDlwcVhjQzU4WU5JeG42Y0pKaVdZbThpRUFiMTZOUE5HV2tsNnpZejlJMU1aVkx6N1BZWTV1QU8xTW8tQUZjRFBlekp4c01ZMjR5QktzWktFVkRZY0Y5d1RWbWFaZzNpT3JMVlhnaFZtM1YwNFV3NjI2ZTN2cDREQXZ4NVE4VE9qV1RYb281WkNfcg?oc=5",
-      "published": "Mon, 02 Nov 2026 02:43:15 GMT",
-      "summary": "Charting the global economy: Central banks hold rates steady&nbsp;&nbsp;bfsi.economictimes.indiatimes.com",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-02T10:43:15+08:00",
-      "source_detail": {
-        "name": "bfsi.economictimes.indiatimes.com",
-        "url": "https://bfsi.economictimes.indiatimes.com"
-      },
-      "priority": 0.0,
-      "category": "韩国",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "low"
     }

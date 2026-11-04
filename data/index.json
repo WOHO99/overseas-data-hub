@@ -1,499 +1,266 @@
 {
   "version": "6.0.8",
-  "updated": "2026-11-03T05:47:22.068705+00:00",
-  "fetch_date_utc": "2026-11-03",
-  "global_total": 2030,
-  "global_high": 44,
-  "global_medium": 716,
-  "global_new": 2030,
+  "updated": "2026-11-04T05:40:56.160659+00:00",
+  "fetch_date_utc": "2026-11-04",
+  "global_total": 231,
+  "global_high": 4,
+  "global_medium": 50,
+  "global_new": 231,
   "global_continuing": 0,
-  "global_signal_alerts": {
-    "central bank": 9,
-    "unprecedented": 5,
-    "warning": 6
-  },
-  "signal_baselines": {
-    "central bank": 3,
-    "warning": 3,
-    "unprecedented": 3,
-    "record high": 3,
-    "IMF": 3,
-    "supply disruption": 3,
-    "World Bank": 3,
-    "BIS": 3
-  },
+  "global_signal_alerts": {},
+  "signal_baselines": {},
   "source_fingerprint_summary": {
     "unchanged": 0,
     "changed": 0,
-    "new_source": 251
+    "new_source": 46
   },
   "circuit_breaker_count": 0,
   "circuit_broken_sources": [],
   "content_status_counts": {
-    "has_fulltext": 69,
-    "fulltext_needs_retry": 5,
-    "fulltext_unavailable": 1956
+    "has_fulltext": 83,
+    "fulltext_needs_retry": 3,
+    "fulltext_unavailable": 145
   },
   "fetch_capability_counts": {
-    "direct_fetchable": 87,
-    "gnews_resolved": 14,
-    "gnews_unresolved": 1929
+    "direct_fetchable": 44,
+    "gnews_resolved": 42,
+    "gnews_unresolved": 145
   },
   "source_tier_counts": {
-    "D": 1941,
-    "B": 2,
-    "C": 87
+    "A": 40,
+    "D": 185,
+    "B": 1,
+    "C": 5
   },
   "source_success_ranking": [
     {
-      "source": "GNews Topic | BUSINESS(IN)",
-      "total": 47,
-      "has_fulltext": 0,
-      "success_rate": 0.0
+      "source": "FedReg | USTR",
+      "total": 33,
+      "has_fulltext": 33,
+      "success_rate": 1.0
     },
     {
-      "source": "GNews Topic | BUSINESS(GB)",
-      "total": 46,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | BUSINESS(US)",
-      "total": 45,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | TECH(US)",
-      "total": 44,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(GB)",
-      "total": 43,
-      "has_fulltext": 1,
-      "success_rate": 0.023
-    },
-    {
-      "source": "GNews | AU Stock/ASX",
-      "total": 41,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(IN)",
-      "total": 38,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(US)",
-      "total": 36,
-      "has_fulltext": 1,
-      "success_rate": 0.028
-    },
-    {
-      "source": "GNews | ECB",
-      "total": 35,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(SG)",
-      "total": 34,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | India Stock/SEBI",
-      "total": 31,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | China Going Global",
-      "total": 31,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | US-Africa",
-      "total": 30,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | IMF/World Bank",
-      "total": 27,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | SCIENCE(US)",
-      "total": 27,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | ME Logistics",
-      "total": 24,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Corp Bond",
-      "total": 24,
-      "has_fulltext": 0,
-      "success_rate": 0.0
+      "source": "GNews | KR Politics",
+      "total": 19,
+      "has_fulltext": 2,
+      "success_rate": 0.105
     },
     {
       "source": "GNews | KR Tech Hub",
-      "total": 23,
+      "total": 14,
+      "has_fulltext": 4,
+      "success_rate": 0.286
+    },
+    {
+      "source": "GNews | CN Exporter Impact",
+      "total": 14,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | VN Economy",
-      "total": 22,
+      "source": "GNews | Export Control",
+      "total": 14,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | Scope 3",
-      "total": 22,
+      "source": "GNews | RU-UA War",
+      "total": 12,
+      "has_fulltext": 9,
+      "success_rate": 0.75
+    },
+    {
+      "source": "GNews | US-CA",
+      "total": 12,
+      "has_fulltext": 4,
+      "success_rate": 0.333
+    },
+    {
+      "source": "GNews | FTA",
+      "total": 11,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | Africa Infra",
-      "total": 22,
+      "source": "GNews | Central Asia/BRI",
+      "total": 9,
+      "has_fulltext": 4,
+      "success_rate": 0.444
+    },
+    {
+      "source": "GNews | JP Economy/BOJ",
+      "total": 8,
+      "has_fulltext": 3,
+      "success_rate": 0.375
+    },
+    {
+      "source": "FedReg | BIS",
+      "total": 6,
+      "has_fulltext": 6,
+      "success_rate": 1.0
+    },
+    {
+      "source": "GNews | KR Economy",
+      "total": 5,
+      "has_fulltext": 1,
+      "success_rate": 0.2
+    },
+    {
+      "source": "GNews | Caucasus",
+      "total": 4,
+      "has_fulltext": 3,
+      "success_rate": 0.75
+    },
+    {
+      "source": "GNews | Section 232",
+      "total": 4,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | NATO/EU Defense",
-      "total": 21,
+      "source": "Guardian Business",
+      "total": 4,
+      "has_fulltext": 4,
+      "success_rate": 1.0
+    },
+    {
+      "source": "GNews | Trade Data CN",
+      "total": 3,
+      "has_fulltext": 1,
+      "success_rate": 0.333
+    },
+    {
+      "source": "GNews | Customs Valuation",
+      "total": 3,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | Fed/FOMC",
-      "total": 21,
+      "source": "GNews | Anti-dumping",
+      "total": 3,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | Oil/OPEC",
-      "total": 21,
+      "source": "GNews | Overseas Warehouse",
+      "total": 3,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | ECB/Rate",
-      "total": 21,
+      "source": "GNews | Product Safety",
+      "total": 3,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | Agriculture",
-      "total": 21,
+      "source": "GNews | Cross-border Payment",
+      "total": 3,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | MNC Diversification",
-      "total": 20,
+      "source": "GNews | RU-CA",
+      "total": 2,
+      "has_fulltext": 2,
+      "success_rate": 1.0
+    },
+    {
+      "source": "GNews | UZ Economy",
+      "total": 2,
+      "has_fulltext": 2,
+      "success_rate": 1.0
+    },
+    {
+      "source": "GNews | CA Infra",
+      "total": 2,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | SWF Shift",
-      "total": 20,
+      "source": "GNews | Signal: RU-UA",
+      "total": 2,
+      "has_fulltext": 1,
+      "success_rate": 0.5
+    },
+    {
+      "source": "GNews | JK Demo",
+      "total": 2,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | BD Politics",
-      "total": 19,
+      "source": "GNews | Section 301",
+      "total": 2,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews | EUR/USD",
-      "total": 19,
+      "source": "GNews | Naura T17",
+      "total": 2,
+      "has_fulltext": 0,
+      "success_rate": 0.0
+    },
+    {
+      "source": "GNews | XPeng/Li Auto",
+      "total": 2,
+      "has_fulltext": 0,
+      "success_rate": 0.0
+    },
+    {
+      "source": "GNews | WTO Dispute",
+      "total": 2,
       "has_fulltext": 0,
       "success_rate": 0.0
     }
   ],
   "zero_fulltext_sources": [
     {
-      "source": "GNews Topic | BUSINESS(IN)",
-      "total": 47,
+      "source": "GNews | CN Exporter Impact",
+      "total": 14,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews Topic | BUSINESS(GB)",
-      "total": 46,
+      "source": "GNews | Export Control",
+      "total": 14,
       "has_fulltext": 0,
       "success_rate": 0.0
     },
     {
-      "source": "GNews Topic | BUSINESS(US)",
-      "total": 45,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | TECH(US)",
-      "total": 44,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | AU Stock/ASX",
-      "total": 41,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(IN)",
-      "total": 38,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | ECB",
-      "total": 35,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | WORLD(SG)",
-      "total": 34,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | India Stock/SEBI",
-      "total": 31,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | China Going Global",
-      "total": 31,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | US-Africa",
-      "total": 30,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | IMF/World Bank",
-      "total": 27,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews Topic | SCIENCE(US)",
-      "total": 27,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | ME Logistics",
-      "total": 24,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Corp Bond",
-      "total": 24,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | KR Tech Hub",
-      "total": 23,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | VN Economy",
-      "total": 22,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Scope 3",
-      "total": 22,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Africa Infra",
-      "total": 22,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | NATO/EU Defense",
-      "total": 21,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Fed/FOMC",
-      "total": 21,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Oil/OPEC",
-      "total": 21,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | ECB/Rate",
-      "total": 21,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | Agriculture",
-      "total": 21,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | MNC Diversification",
-      "total": 20,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | SWF Shift",
-      "total": 20,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | BD Politics",
-      "total": 19,
-      "has_fulltext": 0,
-      "success_rate": 0.0
-    },
-    {
-      "source": "GNews | EUR/USD",
-      "total": 19,
+      "source": "GNews | FTA",
+      "total": 11,
       "has_fulltext": 0,
       "success_rate": 0.0
     }
   ],
   "health_check": {
-    "timestamp": "2026-11-03T05:47:22.068705+00:00",
-    "total_articles": 2030,
-    "high_priority": 44,
-    "ft_success_rate": 0.034,
+    "timestamp": "2026-11-04T05:40:56.160659+00:00",
+    "total_articles": 231,
+    "high_priority": 4,
+    "ft_success_rate": 0.359,
     "content_status": {
-      "has_fulltext": 69,
-      "fulltext_needs_retry": 5,
-      "fulltext_unavailable": 1956
+      "has_fulltext": 83,
+      "fulltext_needs_retry": 3,
+      "fulltext_unavailable": 145
     },
     "fetch_capability": {
-      "direct_fetchable": 87,
-      "gnews_resolved": 14,
-      "gnews_unresolved": 1929
+      "direct_fetchable": 44,
+      "gnews_resolved": 42,
+      "gnews_unresolved": 145
     },
     "source_tier": {
-      "D": 1941,
-      "B": 2,
-      "C": 87
+      "A": 40,
+      "D": 185,
+      "B": 1,
+      "C": 5
     },
     "circuit_broken_count": 0,
-    "zero_ft_sources_count": 28,
+    "zero_ft_sources_count": 3,
     "prev_total_articles": 0,
     "delta_articles": null,
     "prev_ft_success_rate": null,
     "modules": [
-      {
-        "module": "global_business",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "finance_global",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "tech_industry",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "energy_commodities",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "geopolitics_risk",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "esg_sustainability",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_se_asia",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_south_asia",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_middle_east",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_latin_america",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_africa",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
-      {
-        "module": "region_europe",
-        "articles": 0,
-        "prev_articles": 0,
-        "delta": 0
-      },
       {
         "module": "region_cis",
         "articles": 0,
@@ -533,1263 +300,115 @@
     ]
   },
   "modules": {
-    "global_business": {
-      "output_file": "global_business.json",
-      "total": 447,
-      "high": 12,
-      "medium": 92,
-      "fail_feeds": 18,
-      "signal_alerts": {
-        "record high": 1
-      },
-      "rate_limited_feeds": 0
-    },
-    "finance_global": {
-      "output_file": "finance_global.json",
-      "total": 800,
-      "high": 6,
-      "medium": 193,
-      "fail_feeds": 15,
-      "signal_alerts": {
-        "central bank": 12,
-        "record high": 2,
-        "warning": 7,
-        "BIS": 2,
-        "unprecedented": 1,
-        "World Bank": 2,
-        "IMF": 4
-      },
-      "rate_limited_feeds": 0
-    },
-    "tech_industry": {
-      "output_file": "tech_industry.json",
-      "total": 415,
-      "high": 0,
-      "medium": 29,
-      "fail_feeds": 18,
-      "signal_alerts": {
-        "breakthrough": 2,
-        "unprecedented": 1
-      },
-      "rate_limited_feeds": 0
-    },
-    "energy_commodities": {
-      "output_file": "energy_commodities.json",
-      "total": 216,
-      "high": 0,
-      "medium": 77,
-      "fail_feeds": 6,
-      "signal_alerts": {
-        "force majeure": 2
-      },
-      "rate_limited_feeds": 0
-    },
-    "geopolitics_risk": {
-      "output_file": "geopolitics_risk.json",
-      "total": 224,
-      "high": 3,
-      "medium": 81,
-      "fail_feeds": 6,
-      "signal_alerts": {
-        "unprecedented": 2
-      },
-      "rate_limited_feeds": 0
-    },
-    "esg_sustainability": {
-      "output_file": "esg_sustainability.json",
-      "total": 195,
-      "high": 1,
-      "medium": 30,
-      "fail_feeds": 6,
-      "signal_alerts": {
-        "record high": 1
-      },
-      "rate_limited_feeds": 0
-    },
-    "region_se_asia": {
-      "output_file": "se_asia.json",
-      "total": 155,
-      "high": 5,
-      "medium": 93,
-      "fail_feeds": 14,
-      "signal_alerts": {},
-      "rate_limited_feeds": 0
-    },
-    "region_south_asia": {
-      "output_file": "south_asia.json",
-      "total": 184,
-      "high": 12,
-      "medium": 99,
-      "fail_feeds": 8,
-      "signal_alerts": {},
-      "rate_limited_feeds": 0
-    },
-    "region_middle_east": {
-      "output_file": "middle_east.json",
-      "total": 186,
-      "high": 2,
-      "medium": 69,
-      "fail_feeds": 7,
-      "signal_alerts": {
-        "unprecedented": 1
-      },
-      "rate_limited_feeds": 0
-    },
-    "region_latin_america": {
-      "output_file": "latam.json",
-      "total": 2,
-      "high": 0,
-      "medium": 0,
-      "fail_feeds": 4,
-      "signal_alerts": {},
-      "rate_limited_feeds": 0
-    },
-    "region_africa": {
-      "output_file": "africa.json",
-      "total": 176,
-      "high": 11,
-      "medium": 89,
-      "fail_feeds": 6,
-      "signal_alerts": {},
-      "rate_limited_feeds": 0
-    },
-    "region_europe": {
-      "output_file": "europe.json",
-      "total": 310,
-      "high": 10,
-      "medium": 147,
-      "fail_feeds": 7,
-      "signal_alerts": {
-        "unprecedented": 2,
-        "supply disruption": 1,
-        "energy crisis": 1
-      },
-      "rate_limited_feeds": 0
-    },
     "region_cis": {
       "output_file": "cis.json",
-      "total": 55,
+      "total": 76,
       "high": 3,
-      "medium": 26,
+      "medium": 40,
       "fail_feeds": 8,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "region_east_asia": {
       "output_file": "east_asia.json",
-      "total": 115,
-      "high": 11,
-      "medium": 54,
-      "fail_feeds": 11,
+      "total": 102,
+      "high": 9,
+      "medium": 42,
+      "fail_feeds": 10,
       "signal_alerts": {
         "record high": 1,
         "unprecedented": 1
       },
-      "rate_limited_feeds": 0
+      "rate_limited_feeds": 1
     },
     "cross_border_ecommerce": {
       "output_file": "cross_border_ecommerce.json",
-      "total": 38,
+      "total": 41,
       "high": 0,
       "medium": 0,
-      "fail_feeds": 15,
+      "fail_feeds": 12,
       "signal_alerts": {},
-      "rate_limited_feeds": 0
+      "rate_limited_feeds": 1
     },
     "trade_import_export": {
       "output_file": "trade_import_export.json",
-      "total": 189,
-      "high": 2,
-      "medium": 6,
-      "fail_feeds": 10,
-      "signal_alerts": {
-        "import ban": 1
-      },
+      "total": 193,
+      "high": 1,
+      "medium": 4,
+      "fail_feeds": 8,
+      "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "global_risk": {
       "output_file": "global_risk.json",
-      "total": 39,
+      "total": 44,
       "high": 0,
       "medium": 0,
-      "fail_feeds": 11,
+      "fail_feeds": 10,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     },
     "chinese_firms_overseas": {
       "output_file": "chinese_firms_overseas.json",
-      "total": 18,
+      "total": 13,
       "high": 0,
-      "medium": 2,
-      "fail_feeds": 65,
+      "medium": 0,
+      "fail_feeds": 63,
       "signal_alerts": {},
       "rate_limited_feeds": 0
     }
   },
   "high_priority_articles": [
     {
-      "title": "US Supply Chain Restructuring: How Reshoring and Nearshoring Are Creating New Manufacturing Opportunities - Business News This Week",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYmNZUFVNTlNDR0JYMXBocFEyNFhtSjdrc1hYN2tWZUxhSGRTZHFncmNSc2dURDJzdTFtcGNBbUtnRmhmMnVUcnZkVUNPYlJvZ09GMWlGdVM4TUtFYXVYY080b29qSzVIOVFYdWVrVnpHSXJNN19BdmlVeWJteF9uazMzYktQSEhFcHktanBUYWlWc0JNN3pGUDZPT3lDdEs5QS1CWmN5a2hWUUoyTGdkQUl3Sl9OVDhKUS1oZFUwclVWUXppNUNYaGdMcU9Hb0ZBeGt0MjVydTlMV2RVU0p0dA?oc=5",
-      "published": "Mon, 02 Nov 2026 11:42:36 GMT",
-      "summary": "US Supply Chain Restructuring: How Reshoring and Nearshoring Are Creating New Manufacturing Opportunities&nbsp;&nbsp;Business News This Week",
-      "source": "GNews | SC Restructuring",
-      "published_beijing": "2026-11-02T19:42:36+08:00",
-      "source_detail": {
-        "name": "Business News This Week",
-        "url": "https://businessnewsthisweek.com"
-      },
-      "priority": 21.6,
-      "category": "全球产业链重构",
+      "title": "Phosphate Fertilizers From the Kingdom of Morocco: Final Results of First Full Sunset Review of the Countervailing Duty Order",
+      "link": "https://www.federalregister.gov/documents/2026/11/03/2026-22435/phosphate-fertilizers-from-the-kingdom-of-morocco-final-results-of-first-full-sunset-review-of-the",
+      "published": "Tue, 03 Nov 2026 05:00:00 GMT",
+      "summary": "The U.S. Department of Commerce (Commerce) finds that revocation of the countervailing duty (CVD) order on phosphate fertilizers (fertilizers) from the Kingdom of Morocco (Morocco) would likely to lead to the continuation or recurrence of a countervailable subsidy at the levels indicated in the &quot;Final Results of Sunset Review&quot; section of this notice.",
+      "source": "FedReg | USTR",
+      "published_beijing": "2026-11-03T13:00:00+08:00",
+      "priority": 12.75,
+      "category": "贸易政策RSS",
       "_incremental": "new",
       "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "全球产业链重构",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "From Russia sanctions to reining in Trump: What a Democratic Congress can (and can't) do for Ukraine - The Kyiv Independent",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UWjF1cDRTVWdDa3Nra0w4a1ZtSENFWDBTV2RSUmhBLXotSDUwbG5abGtVRjJYbmg3T1piNkRxaThDdUx3SzlGcHgxSWNzTnllbzZia0wwSFJ5ZWRxM09vMFVzVTlhUGd2dzFRWVllQXpNUjJtRDVIRGxQLWg?oc=5",
-      "published": "Mon, 02 Nov 2026 06:44:23 GMT",
-      "summary": "From Russia sanctions to reining in Trump: What a Democratic Congress can (and can't) do for Ukraine&nbsp;&nbsp;The Kyiv IndependentThe midterms and the world&nbsp;&nbsp;Financial TimesA drubbing in the midterms will make Trump even more dangerous to the entire world&nbsp;&nbsp;The IndependentHow US Midterms Could Move Stock Markets, Oil Prices And India's Exports&nbsp;&nbsp;NDTVThe US Midterms and Trump’s Challenge&nbsp;&nbsp;orfonline.org",
-      "source": "GNews Topic | WORLD(GB)",
-      "published_beijing": "2026-11-02T14:44:23+08:00",
-      "source_detail": {
-        "name": "The Kyiv Independent",
-        "url": "https://kyivindependent.com"
-      },
-      "priority": 19.2,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://kyivindependent.com/what-the-us-midterms-could-mean-for-ukraine/",
-      "full_text": "What the US midterms could mean for Ukraine\nU.S. President Donald Trump delivers remarks during a campaign rally at Crossroads Arena in Corinth, Mississippi, U.S. on Oct. 26, 2026. (Chip Somodevilla/Getty Images)\nFor months, Ukraine has faced mounting pressure from U.S. President Donald Trump, as he seeks to secure political gains ahead of the November midterm elections.\nWith both chambers of Congress at stake on Nov. 3, the key question is how heavily Republicans will lose — and whether the scale of any setback will be enough to shift Washington's foreign policy.\nThe vote comes at a low point in U.S.-Ukraine relations.\nTrump drew fire from U.S. lawmakers, Kyiv, and European capitals for allowing Russian diesel into the U.S. and easing sanctions on Russia, running counter to the West's long-standing strategy for ending the war in Ukraine.\nAnd while Moscow avoids pressure, Kyiv is pressed to end its strikes against Russian refineries while grappling with disruptions in intelligence support and Patriot air defense shipments.\nA Democratic victory might give Ukraine a sympathetic Congress and offer greater scrutiny over Trump's foreign policy pivots. However, experts who spoke with the Kyiv Independent say that the U.S. president would ultimately keep firm control over his country's foreign policy.\nread also\nPushing Ukraine aid past Trump\nThis week, U.S. voters will elect all 435 members of the House of Representatives, where Democrats are widely expected to win a majority for the first time since 2020.\nThe Democratic Party faces steeper — but not insurmountable — odds in the Senate, where only about one-third of the 100 seats are up for a vote, with a mere seven considered toss-ups.\nEven if the Democratic Party ends up with 51 Senate seats needed for a majority, they would still need the Republican Party to overcome a filibuster, a U.S. policy where 60 votes are needed in the Senate to pass crucial legislation.\nFor Kyiv, that is not the end of the road, however.\nU.S. senators have shown they can build a bipartisan majority around support for Ukraine, most recently in August, when they passed the Lindsey Graham Act — spearheaded by the late Republican Senator Lindsey Graham — with 86 votes.\nBut this bipartisan consensus cannot be taken for granted when it comes to Republican lawmakers challenging Trump.\n\"In today's highly polarized political environment, most lawmakers hesitate to oppose a president of their own party, even when they disagree with his policy choices,\" James M. Lindsay, a U.S. foreign policy expert at the Council on Foreign Relations, told the Kyiv Independent.\nShould Democrats muster enough support to push through a bill on assistance for Ukraine or tougher sanctions against Russia, Trump wields powerful veto rights.\nOnly a two-thirds supermajority in both chambers can override it, and that number is something Democrats are unlikely to whip up.\n\"Congress has a poor track record in overturning presidential vetoes, especially in foreign affairs,\" Lindsay notes.\nStill, a Congressional majority would hold some leverage.\nLawmakers could include measures supporting Ukraine in \"must-pass\" legislation, such as defense appropriations bills or the National Defense Authorization Act (NDAA).\nCongress would then \"dare Trump to veto it,\" said Daniel Hamilton, a U.S. foreign policy expert at the Brookings Institution. \"He is unlikely to do so, since the overall bill funds the Defense Department.\"\nBut even when the bill leaves the desk with a presidential signature, there comes another obstacle — the chance of Trump simply ignoring it afterward.\nread also\nWhen the president sidelines Congress\nIt has happened before.\nA sweeping Russia sanctions bill, championed by the late Senator Graham, was passed with great fanfare and signed into law by the president in September.\nYet, Trump has not toughened up on Russia since — quite the opposite.\nOn Oct. 16, the president issued a broad waiver of Graham's sanctions, days after his Treasury lifted restrictions on Russian diesel purchases.\nThis was not the first time the administration had sidestepped Congress on Ukraine matters either.\nEarlier this year, the Pentagon delayed $400 million in military assistance under the Ukraine Security Assistance Initiative (USAI) for months, even though Congress had already authorized it.\nThis illustrates the limits of Congress's power: passing a law does not guarantee that the executive will carry it out as lawmakers intended.\nIronically, Congress was quite capable of disrupting the White House's Ukraine course during the Biden administration.\nThe Republican-led House famously blocked a massive aid bill from late 2023 until 2024, leading to a critical ammunition \"hunger\" among Ukrainian forces.\nBut this dynamic would not translate to a clash between Trump and a Democratic-led House. For the Ukraine policy he is pursuing, Trump does not need congressional consent, Lindsay said.\n\"Some presidential powers, such as when to negotiate, whom to negotiate with, and what to negotiate over, are beyond Congress's power to direct, restrain, or regulate.\"\nIt was Trump who — to the chagrin of many pro-Ukraine lawmakers — publicly humiliated President Volodymyr Zelensky in the Oval Office in February 2025 and who pulled Russia out of diplomatic isolation by hosting Russian President Vladimir Putin in Alaska a few months later.\n\"A Democratic House or Congress may bristle at President Donald Trump's diplomacy with Russia, but it cannot compel him to change it,\" Lindsay said.\nBeyond legislation\nA Democratic victory would not upend Trump's policy, but could boost Ukraine's voice on Capitol Hill.\nIf House Minority Leader Hakeem Jeffries replaces Mike Johnson as speaker, Republican skeptics could no longer keep pro-Ukraine legislation off the floor, as they did with Biden's aid bill.\nMajorities in one or both chambers would also give Democrats leadership of committees and allow them to subpoena executive officials.\nAccording to Hamilton, Democrats may use this power to investigate SpaceX founder Elon Musk, U.S. Defense Secretary Pete Hegseth, or Trump's peace envoys Steve Witkoff and Jared Kushner.\nMusk is allegedly responsible for the temporary throttling of Starlink services in Ukraine, Hegseth is said to be delaying shipments of Patriot missiles, and the U.S. peace envoys have faced scrutiny for at times pushing peace deals favorable to Moscow.\nA House majority would also allow Democrats to impeach executive officials, including, for the third time, Trump. This would not guarantee a conviction and removal — a supermajority of senators is needed for that.\nLawmakers who spoke to the Kyiv Independent see the midterm election as a chance to set the legislative agenda on Ukraine and to scrutinize Trump's policies more closely.\n\"We will use every legislative and oversight tool available to hold this administration accountable and ensure Ukraine receives the security assistance it needs to defend itself,\" said Mike Levin, a Democratic representative for California's 49th congressional district.\nBackchannel deals with the Kremlin, and any disruptions to intelligence sharing or Ukraine's Starlink terminals would face \"rigorous oversight\" if Democrats win House committee gavels, he told the Kyiv Independent.\nGregory Meeks, a Democratic representative and ranking member of the House Foreign Affairs Committee, pledged to work with lawmakers from both parties to push through legislation to \"compel the Trump administration to deliver to Ukraine the security, economic, and intelligence support it needs to defend its people from Putin's brutal and illegal invasion.\"\nIn his statement for the Kyiv Independent, Meeks further committed to \"fixing\" the Graham Act, \"including by denying President Trump the ability to unilaterally import Russian energy and undermine U.S. national security interests.\"\nNevertheless, Ukraine is unlikely to be front and center in Democrats' focus after the midterms.\nThe party's 100-day post-victory plan focuses on issues most pressing for U.S. voters, such as the cost of living and restraining Trump's war against Iran, which has driven up inflation and fuel prices.\nUkraine is far from the top of the agenda.\nAnd even with his back against the wall in the legislature, the president will still have a bite on the international scene.\n\"Historically, most presidents in this situation have turned to foreign policy, and so Trump is likely to be even more outrageous in some of his initiatives than before, perhaps including working with Putin and (Chinese President) Xi (Jinping) at the expense of Ukraine and Europe,\" Hamilton said.\n\"A Democratic Congress would do what it could to block that; how such battles unfold will depend on the specific issues.\"\nLindsay also argues that Trump appears unconcerned about how unpopular his foreign policy maneuvers are, be it the Russian diesel deal or the sanctions waiver.\nAnd since he cannot run for another term, he has even less incentive to temper his policy, the expert added.\n\"Those are not decisions of a president who is following the political winds.\"\nread also\nNote from the author:\nHi, this is Martin, the author of this article.\nAfter Russia launched its full-scale invasion, the U.S. has been Ukraine's first and foremost ally. American weapons, intelligence, and sanctions have helped Ukraine hold the line.\nThis alliance now looks fragile. But Ukraine and the U.S. have shown they can weather political storms because their support has never rested on a single president. It rested on lawmakers, voters, and ordinary people who decided that helping Ukraine mattered.\nIf you believe in the work we do here in Ukraine and want to see more reporting like this, please consider supporting us by joining the Kyiv Independent community.\nThank you.",
+      "full_text": "This site displays a prototype of a “Web 2.0” version of the daily\nFederal Register. It is not an official legal edition of the Federal\nRegister, and does not replace the official print version or the official\nelectronic version on GPO’s govinfo.gov.\nThe documents posted on this site are XML renditions of published Federal\nRegister documents. Each document posted on the site includes a link to the\ncorresponding official PDF file on govinfo.gov. This prototype edition of the\ndaily Federal Register on FederalRegister.gov will remain an unofficial\ninformational resource until the Administrative Committee of the Federal\nRegister (ACFR) issues a regulation granting it official legal status.\nFor complete information about, and access to, our official publications\nand services, go to\nAbout the Federal Register\non NARA's archives.gov.\nThe OFR/GPO partnership is committed to presenting accurate and reliable\nregulatory information on FederalRegister.gov with the objective of\nestablishing the XML-based Federal Register as an ACFR-sanctioned\npublication in the future. While every effort has been made to ensure that\nthe material on FederalRegister.gov is accurately displayed, consistent with\nthe official SGML-based PDF version on govinfo.gov, those relying on it for\nlegal research should verify their results against an official edition of\nthe Federal Register. Until the ACFR grants it official status, the XML\nrendition of the daily Federal Register on FederalRegister.gov does not\nprovide legal notice to the public or judicial notice to the courts.\nNotice\nEnter a search term or FR citation e.g.\n88 FR 38230 FR 78782024-13208USDA09/05/24RULE0503-AA39SORN\nChoosing an item from\nfull text search results\nwill bring you to those results. Pressing enter in the search box\nwill also bring you to search results.\nChoosing an item from\nsuggestions\nwill bring you directly to the content.\nThis table of contents is a navigational tool, processed from the\nheadings within the legal text of Federal Register documents.\nThis repetition of headings to form internal navigation links\nhas no substantive legal effect.\nDocument page views are updated periodically throughout the day and are\ncumulative counts for this document. Counts are subject to sampling,\nreprocessing and revision (up or down) throughout the day.\nPage views\n221\nas of\n11/04/2026 at 12:15 am EST\nOther Formats\nEnhanced Content - Other Formats\nThis document is also available in the following formats:\nThis PDF is FR Doc. 2026-22435 as it appeared on Public Inspection on\n11/02/2026 at 8:45 am.\nIt was viewed\n32\ntimes while on Public Inspection.\nIf you are using public inspection listings for legal research, you\nshould verify the contents of the documents against a final, official\nedition of the Federal Register. Only official editions of the\nFederal Register provide legal notice of publication to the public and judicial notice\nto the courts under 44 U.S.C. 1503 & 1507.\nLearn more here.\nPublished Document: 2026-22435 (91 FR 69241)\nThis document has been published in the Federal Register. Use the PDF linked in the document sidebar for the official electronic format.\nAGENCY:\nEnforcement and Compliance, International Trade Administration, Department of Commerce.\nSUMMARY:\nThe U.S. Department of Commerce (Commerce) finds that revocation of the countervailing duty (CVD) order on phosphate fertilizers (fertilizers) from the Kingdom of Morocco (Morocco) would likely to lead to the continuation or recurrence of a countervailable subsidy at the levels indicated in the “Final Results of Sunset Review” section of this notice.\nDATES:\nApplicable November 3, 2026.\nFOR FURTHER INFORMATION CONTACT:\nFaris Montgomery, AD/CVD Operations, Office VIII, Enforcement and Compliance, International Trade Administration, U.S. Department of Commerce, 1401 Constitution Avenue NW, Washington, DC 20230; telephone: (202) 482-1537.\nSUPPLEMENTARY INFORMATION:\nBackground\nOn April 7, 2021, Commerce published a CVD order on fertilizers from Morocco.[1]\nOn March 2, 2026, Commerce published the notice of initiation of the first sunset review of the\nOrder,\npursuant to section 751(c) of the Tariff Act of 1930, as amended (the Act), and 19 CFR 351.218(c).[2]\nOn the basis of notices of intent to participate and adequate substantive responses filed by domestic interested parties, and adequate responses from the Government of Morocco (GOM) and respondent OCP S.A. (OCP), Commerce determined to conduct a full sunset review of this CVD order, pursuant to section 751(c) of the Act and 19 CFR 351.218(e)(2).[3]\nOn July 24, 2026, Commerce preliminarily determined that revocation of the CVD order on phosphate fertilizers from Morocco would likely lead to continuation or recurrence of subsidization.[4]\nOn August 24, 2026, the GOM and OCP filed case briefs in response to the\nPreliminary Results.[5]\nOn August 31, 2026, Commerce received rebuttal briefs from domestic interested parties, the Mosaic Company (Mosaic) and J.R. Simplot Company, LLC (Simplot).[6]\nScope of the Order\nThe product covered by the\nOrder\nis fertilizers from Morocco. For a full description of the scope,\nsee\nthe Issues and Decision Memorandum.[7]\nAnalysis of Comments Received\nAll issues raised in the case and rebuttal briefs are addressed in the Issues and Decision Memorandum. A list of the issues addressed is attached as an appendix to this notice. The Issues and Decision Memorandum is a public document and is on file electronically via Enforcement and Compliance's Antidumping and Countervailing Duty Centralized Electronic Service System (ACCESS), which is available to registered users at\nhttps://access.trade.gov.\nIn addition, a complete version of the Issues and Decision Memorandum can be accessed directly at\nhttps://access.trade.gov/frnotices.\nFinal Results of Sunset Review\nPursuant to sections 751(c)(1) and 752(b) of the Act, Commerce determines that revocation of the\nOrder\nwould be likely to lead to the continuation or recurrence of countervailable subsidies at the following net countervailable subsidy rates:\nProducer/exporter\nSubsidy rate\n(percent\nad valorem)\nOCP S.A\n20.04\nAll Others\n20.04\nNotification Regarding Administrative Protective Order (APO)\nThis notice also serves as the only reminder to parties subject to an APO of their responsibility concerning the return or destruction of proprietary information disclosed under APO in accordance with 19 CFR 351.305. Timely notification of the return or destruction of APO materials, or conversion to judicial protective orders, is hereby requested. Failure to comply with the regulations and terms of an APO is a violation which is subject to sanction.\nNotification to Interested Parties\nWe are issuing and publishing these final results in accordance with sections 751(c), 752(b), and 777(i)(1) of the Act, and 19 CFR 351.221(c)(5)(ii).\nDated: October 28, 2026.\nScot Fullerton,\nActing Deputy Assistant Secretary for Antidumping and Countervailing Duty Operations.\nAppendix\nList of Issues Addressed in the Issues and Decision Memorandum\nI. Summary\nII. Background\nIII. Scope of the\nOrder\nIV. History of the\nOrder\nV. Legal Framework\nVI. Discussion of the Issues\n1. Likelihood of Continuation or Recurrence of a Countervailable Subsidy\nComment 1: Whether Programs Previously Found to be Countervailable Have Undergone Substantial Changes Affecting the Net Countervailable Subsidies\nComment 2: Whether Commerce Incorrectly Found that the Government Loan Guarantees are Likely to Continue or Recur\nComment 3: Whether Commerce Incorrectly Relied on a Rate Applied Using Adverse Facts Available (AFA) to Support a Finding that OCP, S.A.'s (OCP) Payroll Tax Refund is Likely to Continue or Recur\n( printed page 69242)\nComment 4: Whether Commerce Correctly Incorporated Judicial Decisions in Its Findings\n2. Net Countervailable Subsidy Likely to Prevail\nComment 5: Whether Commerce Properly Calculated the Net Subsidy Rate Likely to Prevail in the Event of Revocation\n3. Nature of the Subsidies\nVII. Final Results of Review\nVIII. Recommendation\nFootnotes\n1.\nSee Phosphate Fertilizers from the Kingdom of Morocco and the Russian Federation: Countervailing Duty Orders,86 FR 18037 (April 7, 2021) (\nOrder).\n3.\nSee Phosphate Fertilizers from the Kingdom of Morocco: Preliminary Results of First Full Sunset Review of the Countervailing Duty Order,91 FR 46772 (July 24, 2026) (\nPreliminary Results), and accompanying Preliminary Decision Memorandum.\n5.\nSee\nGOM's Letter, “Case Brief of the Government of the Kingdom of Morocco,” dated August 24, 2026;\nsee also\nOCP's Letter, “OCP S.A. Case Brief,” dated August 24, 2026.\n7.\nSee\nMemorandum, “Issues and Decision Memorandum for the Final Results of the First Full Sunset Review of the Countervailing Duty Order on Phosphate Fertilizers from the Kingdom of Morocco,” dated concurrently with, and hereby adopted by, this notice (Issues and Decision Memorandum).",
       "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
+      "fetch_capability": "direct_fetchable",
+      "source_tier": "A",
       "auto_tags": [
-        "专题精选",
-        "tier:D",
-        "fetch:gnews_resolved",
+        "贸易政策RSS",
+        "tier:A",
+        "fetch:direct_fetchable",
         "status:new"
       ],
       "matched_modules": [
-        "全球治理与地缘风险",
-        "欧洲深度"
+        "进出口贸易"
       ]
     },
     {
-      "title": "India Amends Textile PLI Scheme: New Investment Criteria & Round 4 Incentives - India Briefing",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXhKamNhRE45azNqdXFXN1lGaWxIRl9fVWliY0RoZXNpbjJWb25TY1J4a1FBUUU4UzZLcmFTUXZqZTZLY0tSdVM5WnUxTFFCbWkxVm52UXdlRHgxak1Ndlp4akJKNDlTd1htd1dIdHl5N1JHdDdvYmtRZ0NETTdzczNBWHR2UTRPeXZGcVBHREtMSURU?oc=5",
-      "published": "Mon, 02 Nov 2026 10:46:27 GMT",
-      "summary": "India Amends Textile PLI Scheme: New Investment Criteria & Round 4 Incentives&nbsp;&nbsp;India Briefing",
-      "source": "GNews | IN Mfg/PLI",
-      "published_beijing": "2026-11-02T18:46:27+08:00",
+      "title": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcERxbE4xeFBqTkVGUlVYeWFqYjdxR2tGYU1hR3V4Zlp6VTMzSnVWS3dLWFVBbkRkbkFGYVFxOHcyMWlhLVgxdk1CWGZBczZOcHRUS3pfYXNuUTNTMlp3R2wwSjVfUlcwQkJMN1pBZGRhY2cxUFBta3RDSnFZU3dTY0tiVE9RVWlWWWVHYTF5cXNJVFU0SFpuQnFwQlpwa21wbUF2WkROZGM4SEZZa1Y4UHJ3Yi0?oc=5",
+      "published": "Tue, 03 Nov 2026 13:18:00 GMT",
+      "summary": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave&nbsp;&nbsp;TradingView",
+      "source": "GNews | KR Tech Hub",
+      "published_beijing": "2026-11-03T21:18:00+08:00",
       "source_detail": {
-        "name": "India Briefing",
-        "url": "https://www.india-briefing.com"
+        "name": "TradingView",
+        "url": "https://www.tradingview.com"
       },
-      "priority": 18.0,
-      "category": "印度",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.india-briefing.com/news/india-textile-pli-scheme-amendment-round-4-47661.html/",
-      "full_text": "The central government has announced amendments to India’s Production Linked Incentive (PLI) Scheme for Textiles in a notification issued on 28 October 2026. Through the 2026 amendments, the Union Ministry of Textiles aims to address implementation-related challenges and provide greater flexibility to businesses seeking incentives for investments in man-made fibre (MMF) textiles and technical textiles.\nIt primarily introduces revised investment and turnover thresholds, differentiated incentive structures under two scheme categories, provisions allowing existing participants to migrate to the fourth application round (Round 4), and an extended implementation timeline. Round 4 of the registration and application window is now open on the official website between 1 November and 31 December 2026.\nIt should be noted that the detailed operational guidelines incorporating the 2026 amendments will be issued separately. These guidelines are expected to provide further clarity on the implementation of the revised provisions.\nEstablish Manufacturing Operations\nWe support foreign manufacturers with market assessment, site selection, PLI incentives, and investment structuring.\nIndia PLI Scheme for textile: Revised investment and turnover threshold in Round 4\nIndia’s 2026 amendment for textile PLI establishes two categories under the scheme, with different minimum investment and turnover requirements. Both thresholds must be met for a company to qualify for incentives.\nScheme Part I\nUnder Part I, eligible applicants must meet the following criteria:\n- Invest at least INR 1.5 billion in plant and machinery, equipment, and civil works\n- Exclude land and administrative building costs when calculating eligible investment\n- Achieve a minimum turnover of INR 6 billion through the manufacture and sale of products covered under the notified MMF and technical textile categories\nThe incentive structure is as follows:\n- Performance Year 1: Companies receive an incentive of 15 per cent on turnover, subject to achieving the prescribed minimum turnover\n- Performance Years 2-5: PLI applicants/companies must achieve at least 10 per cent incremental turnover compared to the previous year’s turnover\n- Declining incentive rate: The incentive rate decreases by one percentage point annually, starting at 14 per cent in Year 2 and reaching 11 per cent in Year 5\nScheme Part II\nPart II provides a lower investment and turnover threshold, making the scheme accessible to applicants with comparatively smaller investment plans.\nEligible applicants must meet the following criteria:\n- Invest at least INR 500 million in plant and machinery, equipment, and civil works\n- Exclude land and administrative building costs from eligible investment\n- Achieve a minimum turnover of INR 1 billion through the manufacture and sale of notified MMF and technical textile products\nThe incentive structure is as follows:\n- Performance Year 1: Companies receive an incentive of 11 per cent on turnover, subject to achieving the prescribed minimum turnover\n- Performance Years 2-5: PLI applicants/companies must achieve at least 10 per cent incremental turnover over compared to the previous year’s turnover\n- Declining incentive rate: The incentive rate decreases by one percentage point annually, starting at 10 per cent in Year 2 and reaching 7 per cent in Year 5\nCommon condition\nUnder both categories, only sales transacted through normal banking channels will qualify for calculating eligible turnover and incentives.\nMigration of existing textile PLI participants to Round 4\nAmendments to the textile PLI scheme allow existing participating companies from Rounds 1, 2 and 3 to migrate to Round 4, subject to specific conditions.\nCompanies that have not claimed or received any incentives under their existing applications can opt for Round 4. However, they must withdraw their existing applications under the earlier rounds, as applicable, to become eligible for migration.\nThis provision gives existing participants an opportunity to participate under the revised investment and incentive framework rather than continue under their earlier application conditions.\nTreatment of investments already made by migrating applicants\nRecent changes also clarify how investments made before Round 4 will be considered when calculating eligible investment for companies migrating from earlier rounds.\nThe following provisions apply:\n- Eligible investment period: Investments made between 24 September 2021 (the date the PLI Scheme was introduced) and 31 March 2026 will be considered at their actual cost.\n- Condition for investment recognition: This treatment applies where the applicant has not commenced production or generated turnover from the investment.\n- Depreciation adjustment: If production or turnover has already commenced, depreciation on the capitalised assets will be charged for the period from 1 April 2026 to 31 March 2027.\n- Depreciation calculation: The depreciation rate will be determined in accordance with the Companies Act, 2013.\nThese provisions are specifically intended for applicants migrating from earlier rounds. They do not apply to new applicants applying directly under Round 4.\nExtension of the textile PLI scheme implementation period\nThe amendment extends the PLI Scheme’s implementation timeline for Round 4 participants until FY 2033-34. FY 2032-33 will be the final performance year, while FY 2033-34 will be the final year for claiming incentives.\nThe revised implementation schedule provides two years of gestation before the commencement of the five performance years.\n| Scheme period | Financial year | \n| Gestation Year 1 | FY 2026-27 | \n| Gestation Year 2 | FY 2027-28 | \n| Performance Year 1 | FY 2028-29 | \n| Performance Year 2 | FY 2029-30 | \n| Performance Year 3 | FY 2030-31 | \n| Performance Year 4 | FY 2031-32 | \n| Performance Year 5 | FY 2032-33 | \n| Final incentive claim year | FY 2033-34 | \nThe corresponding incentive claims will be made in the financial year immediately following each performance year. For instance, incentives for FY 2028-29 will be claimed in FY 2029-30.\nEvaluate PLI Incentives\nAssess your eligibility for the Textile PLI Scheme, understand the revised investment and turnover criteria, and identify available incentives.\nWhat the PLI scheme amendments mean for textile manufacturers and investors\nIndi’s revised framework has several implications for businesses considering investments in India’s MMF and technical textile segments.\n- Greater flexibility in investment planning: The introduction of two investment categories, with thresholds of INR 1.5 billion and INR 500 million, provides different entry points for businesses with varying investment capacities.\n- Performance-linked incentive structure: Companies must meet both the minimum investment and turnover requirements. They must also demonstrate at least 10 per cent incremental turnover growth annually from Performance Year 2 onwards to qualify for subsequent incentives.\n- Migration opportunities for existing participants: Companies that have not claimed or received incentives under earlier rounds can consider migrating to Round 4, subject to withdrawing their existing applications.\n- Recognition of historical investments: Eligible investments made between 24 September 2021 and 31 March 2026 can be considered at actual cost for migrating applicants, subject to the conditions governing commencement of production or turnover and depreciation.\n- Longer implementation and investment horizon: The two-year gestation period, followed by five performance years, gives participating businesses additional time to establish production capacity. It can also help companies achieve the prescribed turnover thresholds.\nIndia PLI Scheme for textile: Progress & performance as of March 2026\nAs of 31 March 2026, the central government has approved 170 companies under the PLI scheme for textiles.\n| India PLI Scheme for Textile – Target Segment Projections |  |  |  |  | \n| Target segment | Number of applicants | Investment (value in INR) | Turnover (value in INR) | Employment | \n| MMF fabrics | 38 | 60.87 billion | 408.65 billion | 32,557 | \n| MMF apparel | 43 | 76.13 billion | 644.35 billion | 214,665 | \n| Technical textiles | 89 | 278.32 billion | 1.69 trillion | 120,205 | \n| Total | 170 | 415.33 billion | 2.75 trillion | 367,427 | \nSource: PLI, Ministry of Textile, Government of India\nThese companies had collectively recorded actual investments of approximately INR 81.17 billion and generated 33,427 jobs across various states and union territories.\n| Quantum of Investments & Employment in India via PLI Scheme for Textile (as of 31 March 2026) |  |  |  |  | \n| S. no. | States/union territories | No. of companies | Actual investments (in INR) | Actual employment | \n| 1 | Gujarat | 46 | 19.03 billion | 4493 | \n| 2 | Madhya Pradesh | 22 | 6.58 billion | 4970 | \n| 3 | Maharashtra | 24 | 1.67 billion | 904 | \n| 4 | Uttar Pradesh | 15 | 46.3 million | – | \n| 5 | Tamil Nadu | 17 | 12.77 billion | 7930 | \n| 6 | Karnataka | 6 | 15.15 billion | 5611 | \n| 7 | Rajasthan | 6 | 2.199 billion | 1139 | \n| 8 | Punjab | 6 | – | – | \n| 9 | Dadra & Nagar Haveli | 6 | 2.37 billion | 1310 | \n| 10 | Andhra Pradesh | 5 | 1.70 billion | 2619 | \n| 11 | Haryana | 6 | 13.6 million | 6 | \n| 12 | Telangana | 2 | 3.62 billion | 258 | \n| 13 | West Bengal | 2 | – | – | \n| 14 | Assam | 1 | 24.9 million | – | \n| 15 | Goa | 1 | 13.55 billion | 692 | \n| 16 | Odisha | 2 | – | – | \n| 17 | Himachal Pradesh | 1 | 28.5 million | 30 | \n| 18 | Bihar | 2 | 2.37 billion | 3465 | \n|  | Total | 170 | 81.17 billion | 33,427 | \nSource: PLI Scheme, Ministry of Textile, Government of India\nIn addition to the investments and employment generated, the central government estimates that the scheme will contribute to a cumulative turnover of approximately INR 2.75 trillion and exports of around INR 537.98 billion.\nConclusion\nOverall, the amendment recalibrates India’s textile PLI framewo",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "印度",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "If Trump loses control of Congress, what changes for India? The big questions on trade, tariffs and H-1B... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWTVZT1V0ZzZoaFpJNW5hR1Q3MkRtckdwSU9paU96amdxYlJmbTI0NU4yUzUtZHZUQWE1bWdiX1A5Wm95YmdaanQxRm9fYnM2bFlrTzdxRWdRaGhuNHBBTWc0cU92ODZzMnN1NjMyQ2F3RnhjVXo4UkUyYXpKT3ZtcUxoWEJNR3RMSzFFZE1ZLU5CTkhoMmFRVml0YU5PUVAwN1BHbEVtU3UzMWtVN3Y1dHh5S3ZyX2VyTXlhSk56RExjTXU5dVpld1p5MnhMaUV3cUpXX0lrd25tZUFzWFRJT2lfRUFRQ1pCMjMzRFJhX0k1TjRkY3Rz0gH8AUFVX3lxTE90MWZHZXZZTTR1dU9Ebmx2NVBWQjFrVjhSZ25KRWpiTC1leC1jZ0RpRkZ2VUJCa09qSzE2ZlpsWHdaS3ByTUd4bEhHcV90SkJNZFJrUjJkeHRCVTJHcmNWaG42cGl2LWFadUoyQ3QzdU5WT0lNTE15X1oyMTBDRE9tTERnemtoS0U3SjZRV2F1Y0FJVUZsaHZRM180RUJ0WmN3aGx1WFdTMkFKWGhBalNwSm0yS1NSUGNMdW4wVVNndm9yaURLeVpWU05FbU0tZWE1UmxkR3BEWjltOHdpYm4zUEl4MjFxcmhsZXBOT1BtSFBCSXI0VUFWQ3BOLQ?oc=5",
-      "published": "Mon, 02 Nov 2026 10:40:24 GMT",
-      "summary": "If Trump loses control of Congress, what changes for India? The big questions on trade, tariffs and H-1B...&nbsp;&nbsp;Moneycontrol.comHow US Midterms Could Move Stock Markets, Oil Prices And India's Exports&nbsp;&nbsp;NDTVWhat are US midterms, why these elections matter to India&nbsp;&nbsp;The Indian ExpressFrom Wall Street to D-Street: What history suggests for S&amp;P 500 returns, impact on India stock market, Sensex, Nifty&nbsp;&nbsp;TradingViewA Cost Either Way: Why the World Is Watching Am...",
-      "source": "GNews Topic | WORLD(IN)",
-      "published_beijing": "2026-11-02T18:40:24+08:00",
-      "source_detail": {
-        "name": "Moneycontrol.com",
-        "url": "https://www.moneycontrol.com"
-      },
-      "priority": 17.6,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.moneycontrol.com/world/if-trump-loses-control-of-congress-what-changes-for-india-the-big-questions-on-trade-tariffs-and-h-1b-visas-article-14066464.html",
-      "content_status": "fulltext_needs_retry",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "专题精选",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Using AI at work in the EU, a guide to the AI Act, GDPR and security - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaDRKWEpQM3RFRVFfMWdOeVdTU3BTZ0R3b05qdlN3RW9tZlM3ZzlVMlhsc1ppYkVQYk83TFVPTjlLSllPdmktNHZZYU9pUldFMWJYQ1BRUWI1WjVHdkNqOEZOdFFKal9BS3Z3TDgyT0dxcXRzMGVvR2FlOXRFdkt0WkctWWlSQ1N6RGd6aw?oc=5",
-      "published": "Mon, 02 Nov 2026 11:46:04 GMT",
-      "summary": "Using AI at work in the EU, a guide to the AI Act, GDPR and security&nbsp;&nbsp;Pasquale Pillitteri",
-      "source": "GNews | EU Digital Reg",
-      "published_beijing": "2026-11-02T19:46:04+08:00",
-      "source_detail": {
-        "name": "Pasquale Pillitteri",
-        "url": "https://pasqualepillitteri.it"
-      },
-      "priority": 16.8,
-      "category": "EU政策+制裁",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "chrome-error://chromewebdata/",
-      "content_status": "fulltext_needs_retry",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "EU政策",
-        "制裁",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "全球科技与工业前沿",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "US ambassador says South Africa’s AGOA removal preventable Staff Reporter US Ambassador to South Africa has described the country’s removal from the African Growth and Opportunity Act (AGOA) trade preference programme as “predictable and preventa - Instagram",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xMGhIcDVFeUpaaFBFZWpqUWpiRVhOXzFNZGRkVnM2YWZLVURHeVJ4SEFoYnhnajRrNS1uOXFLWEFRNDU1amFNbzQwVmFSSEhyc0E?oc=5",
-      "published": "Mon, 02 Nov 2026 20:08:36 GMT",
-      "summary": "US ambassador says South Africa’s AGOA removal preventable Staff Reporter US Ambassador to South Africa has described the country’s removal from the African Growth and Opportunity Act (AGOA) trade preference programme as “predictable and preventa&nbsp;&nbsp;Instagram",
-      "source": "GNews | AGOA",
-      "published_beijing": "2026-11-03T04:08:36+08:00",
-      "source_detail": {
-        "name": "Instagram",
-        "url": "https://www.instagram.com"
-      },
-      "priority": 15.6,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.instagram.com/p/DfQIVXJDKAi/",
-      "full_text": "Staff Reporter\nUS Ambassador to South Africa has described the country’s removal from the African Growth and Opportunity Act (AGOA) trade preference programme as “predictable and preventable”, saying the decision followed the South African government’s rejection of concerns raised by Washington.\nIn a statement, the ambassador said he remained hopeful the two countries could address broader bilateral concerns, but stressed that South Africa’s government needed to understand the seriousness of the situation.\nHe said he would continue pursuing a partnership in which both countries could succeed, and would do so as quickly as possible.\nPhoto: US Embassy South Africa\nNo comments yet.\nStart the conversation.",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "贸易",
-        "区域",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "ECB Rate Hike Unavoidable, Market Underestimating Needed Scope, Says Slovak Central Bank Chief - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xbGlwQUNzT1BkYURSTHpmcmctQS1mbVFaR2d3VnpSNmQ0cGVuc0JNMkJVaS1yY1NkSEFWVDhnTHlfRlNnWFRjaVp0REpOV19GenhvWnpBNElxeEstRW9KTHJqdjlVUEQta0xoSXdMY1lPMHVlcXc?oc=5",
-      "published": "Mon, 02 Nov 2026 11:05:00 GMT",
-      "summary": "ECB Rate Hike Unavoidable, Market Underestimating Needed Scope, Says Slovak Central Bank Chief&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | ECB",
-      "published_beijing": "2026-11-02T19:05:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 14.4,
-      "signal_keywords": [
-        "central bank"
-      ],
-      "category": "全球宏观",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://finance.biggo.com/news/db1f8ced-4dc6-4ff6-89c3-7aeca61b0843",
-      "content_status": "fulltext_needs_retry",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "全球宏观",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new",
-        "signal:central bank"
-      ],
-      "matched_modules": [
-        "全球宏观与资本流动",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "India moves to resolve Scotch tariff dispute, assures 75% duty on bulk imports: Report - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYmp5aGxjbjEzZ3doM3pDMlFXQUZJc2ZiMzVlQlVNc0xxWGNVOUZkQ2cyZE9IbXdNS2dTYU1WMWNXeExTQkRqdVNESjgwMWVJREpFMGdfRmRGM0pRSW12TG15NXpOVXNVM2dmam9iRXNzTy01RV9LYlBHZEVwYW4xeG10SmhaYkoyUFJ5UjYwLTFwT01rR2M3dGRVdFY0V2M1RzZEUEFFSV9XRzB2UEp0UmQ2c2Z6N09iUFVydFpuTWNob0kxSWVpWk01RklBM2Nib3hNX3pMRnJSZmVTelI1bFYybUxxRXFfOWZiaWJWdkU0R09qdURSTGpyUG1GQdIBgwJBVV95cUxNT3Brc0RVcFpGY3EzbkVKUFV2M3U3UGEza25DRm0tWWRuNmhjSDdaMTNod0syUkRBM21EX0lqbXRWQ1J1MWQ0N1Jid2RjLWQ5aFlRTWt5YmJOOUN1NXFmMFlXc1dRbjZKU2FFLWh0bTV2Z2hlajJXY0tDa3pkVXB6cmVsRm5mV29vemR3M3doNmR5TzNQNnkwOC1WQmtrN3Zqel9lZmV2MC1VNWhRbUI0ZmY5QXVkQ0tIend2MlREckRBRDE1aEY0aEdDM1EtUjRjM19rcmZ1c0RaaEd6cTRXZjNWd1NCOGd2RUNSQjhIUWd0UVF3Z3RyQmZMQ3pIRUR2UU9V?oc=5",
-      "published": "Mon, 02 Nov 2026 14:52:00 GMT",
-      "summary": "India moves to resolve Scotch tariff dispute, assures 75% duty on bulk imports: Report&nbsp;&nbsp;The Times of India",
-      "source": "GNews | IN-CN Relation",
-      "published_beijing": "2026-11-02T22:52:00+08:00",
-      "source_detail": {
-        "name": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com"
-      },
-      "priority": 14.4,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://timesofindia.indiatimes.com/business/india-business/india-moves-to-resolve-scotch-tariff-dispute-assures-75-duty-on-bulk-imports-report/articleshow/135465675.cms",
-      "full_text": "The government has moved to resolve a dispute over Scotch whisky imports under the UK trade pact, assuring liquor companies that bulk shipments qualify for the reduced 75 percent import duty after tax officials questioned their eligibility for the concession.\nAccording to a Reuters report citing six people with direct knowledge of the matter, commerce ministry officials gave the assurance during a closed-door meeting with liquor industry executives on Monday, saying New Delhi would honour the trade agreement in letter and spirit.\nOne government source said, \"We are potentially moving towards a resolution. Bulk Scotch whisky imports are indeed part of concessions under the trade deal.\"\nA second source said commerce secretary Rajesh Agrawal told attendees that necessary steps were being taken to address the issue \"so that the duty concession on bulk Scotch whisky is not impaired\".\nThe dispute centres on the agreement to reduce import duty on Scotch whisky in India from 150 per cent to 75 percent under the India-UK Comprehensive Economic and Trade Agreement (CETA), which came into effect in July 2026. \nHowever, tax officials had told liquor companies that the reduced duty did not apply to Scotch imported in bulk containers.\nThe disagreement is significant because around 80 percent of Scotch whisky shipped to India arrives in bulk rather than in finished bottles.\nThese imports are used by Indian manufacturers to produce Indian-Made Foreign Liquor (IMFL) whisky by blending Scotch with other spirits and ingredients. The industry maintains that both bottled and bulk Scotch imports should qualify for the reduced tariff under the trade agreement.\nThe dispute has affected major liquor companies, including Diageo and Pernod Ricard, as well as Indian manufacturers Radico Khaitan and Allied Blenders and Distillers. Tax officials searched the offices of several companies in recent days and questioned executives over the classification and eligibility of bulk Scotch imports.\nThe issue has also drawn attention from Britain and Scotland. The British government said it was working with New Delhi to resolve the matter, while the Scottish government separately raised concerns over the treatment of bulk Scotch imports.\nScotch exports to India were valued at $335 million in 2024, and the Scotch Whisky Association has projected that the trade agreement could increase exports by an additional $1.34 billion over five years.",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "大国关系",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Bulgaria’s Political Realignment: Consequences for EU Ukraine Policy, NATO Cohesion and the European Balance of Power - https://debuglies.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONnlCZ3dXT0ZMd1oxRXp6c21UTjhrZEM2YThzWFIwcVFBZ1VsWUFGZmExUnlRX3lCeGlfa09KSWNqMndMQXpWLVZpMTl6UW9sQXpaR0RYbkNHWFQ2TUNLQmI2TWh6MGhVbGlFRHFvUmpranFXbnc5eldyTXliMnI3MmZqb1Y0N2JNM18zMUFLcllOdkQ3eHNoNXVmS1JJWjlYVW9IbGk4WGlhalV2ZS1McnlfaUYxRUl4SEVNY3JVdUNmVnBWWnM3Y2VuSkRXalc3LTRITGdWc1lKcnBOanBJc09R?oc=5",
-      "published": "Mon, 02 Nov 2026 19:10:47 GMT",
-      "summary": "Bulgaria’s Political Realignment: Consequences for EU Ukraine Policy, NATO Cohesion and the European Balance of Power&nbsp;&nbsp;https://debuglies.com",
-      "source": "GNews | Ukraine Recon",
-      "published_beijing": "2026-11-03T03:10:47+08:00",
-      "source_detail": {
-        "name": "https://debuglies.com",
-        "url": "https://debuglies.com"
-      },
-      "priority": 14.4,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://debuglies.com/2026/11/02/bulgarias-political-realignment-consequences-for-eu-ukraine-policy-nato-cohesion-and-the-european-balance-of-power/",
-      "content_status": "fulltext_needs_retry",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Asean seeks to sign FTA with EU. Can Singapore help resolve the Myanmar hurdle? - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUDA4VDRYWi1qNUtWY1g2VHB1cGQ0NkhEMXZUN3E1NFhTWWh6T2d0WUNwTUJtNUw3ejU0TWhndkFlUTcxOFIwV1pzS0dPQzBmY21DZXEzdHhvY2U1ZE5vZkxoM3ljU1JiRkRNTE1tTzcxYTlMS1d1aVdUSnNSVWlvM01Fd09mcjBFOWNRdXJmWkdhMnBMcnl0cVd0cTJiUjlqV1RpUDZjNmludEpEV1ZHMmxDemctOGxKamRheG1rVdIBvwFBVV95cUxPUDA4VDRYWi1qNUtWY1g2VHB1cGQ0NkhEMXZUN3E1NFhTWWh6T2d0WUNwTUJtNUw3ejU0TWhndkFlUTcxOFIwV1pzS0dPQzBmY21DZXEzdHhvY2U1ZE5vZkxoM3ljU1JiRkRNTE1tTzcxYTlMS1d1aVdUSnNSVWlvM01Fd09mcjBFOWNRdXJmWkdhMnBMcnl0cVd0cTJiUjlqV1RpUDZjNmludEpEV1ZHMmxDemctOGxKamRheG1rVQ?oc=5",
-      "published": "Mon, 02 Nov 2026 13:30:14 GMT",
-      "summary": "Asean seeks to sign FTA with EU. Can Singapore help resolve the Myanmar hurdle?&nbsp;&nbsp;South China Morning Post",
-      "source": "GNews | SE Asia Tech",
-      "published_beijing": "2026-11-02T21:30:14+08:00",
-      "source_detail": {
-        "name": "South China Morning Post",
-        "url": "https://amp.scmp.com"
-      },
-      "priority": 13.2,
+      "priority": 10.8,
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "canonical_url": "https://www.scmp.com/week-asia/economics/article/3373027/asean-seeks-sign-fta-eu-can-singapore-help-resolve-myanmar-hurdle",
-      "full_text": "As Asean chair next year, Singapore faces challenges such as existing sanctions on Myanmar, analysts say\nAt a joint press conference with German Chancellor Friedrich Merz last week, Prime Minister Lawrence Wong said Singapore would seek to advance cooperation on the long-awaited FTA.",
+      "canonical_url": "https://www.tradingview.com/news/zacks:8e46f48ba094b:0-south-korea-doubles-ai-chip-budget-4-etfs-to-ride-the-wave/",
+      "full_text": "South Korea’s president Lee Jae Myung unveiled the country’s largest-ever budget on Monday, raising total spending by 12.8% to 820.9 trillion won (nearly $610.14 billion), with 21.3 trillion won earmarked for semiconductors, physical AI and AI data centers — nearly double the 2026 level. A separate 4.7 trillion won will fund a sovereign AI model targeting “world’s highest performance,” alongside training for 2,000 semiconductor design specialists and expanded AI education.\nSouth Korea's increased investment commitment comes amid a surge in semiconductor exports, with October shipments jumping 93.7% year over year to a record $115.3 billion and cumulative exports surpassing $900 billion for the first time.\nConsidering the fact that South Korea’s Samsung Electronics and SK Hynix dominate the global memory chip supply chain, which is critical for AI accelerators, Seoul’s latest spending push stands to ripple across the entire global AI ecosystem, not just domestically.\nFor investors, South Korea’s pivotal role in the global AI infrastructure expansion and its record spending commitment could entice them to look for companies positioned to benefit from rising demand for memory, packaging and data center infrastructure. Exchange-traded funds (ETFs) offering exposure to these companies could provide a way to capitalize on these growth trends.\nBefore exploring these ETFs, it is important to examine South Korea’s growing AI momentum and assess how the latest investment commitment could boost the AI industry, with the chip market at the center of attention.\nThe Chip Rally That Made Seoul a Global AI Hub\nSouth Korea’s semiconductor industry has been the engine behind the KOSPI’s meteoric rise, with the benchmark index surging past 8,000 points in May 2026 as AI-driven demand for high-bandwidth memory (HBM) reshaped the country’s equity market.\nSamsung Electronics and SK hynix, two of the world’s three largest memory chipmakers, have been the primary accelerators and beneficiaries.\nSamsung’s shares have climbed roughly 190% over a six-month period in May, while SK Hynix gained about 220% as orders for advanced memory used in AI data centers soared.\nIt is imperative to mention in this context that SK Hynix alone holds approximately 50% of the global HBM market, making it a critical supplier to AI accelerator ecosystems. The rally has been so pronounced that SK Hynix became the second South Korean company to top 1,500 trillion won in market value.\nThis concentration of memory leadership in a single country is precisely why Seoul’s budget decisions carry outsized weight for global AI infrastructure.\nBenefits of the Budget Pledge and the Case for ETFs\nThe 21.3 trillion won allocation for 2027 spans semiconductors, physical AI, and AI data centers, while 2.1 trillion won goes toward electricity and water infrastructure for chip plants that require uninterrupted power.\nThe expected outcome from this spending target is not merely higher output but a deepening of South Korea’s moat across the entire value chain: memory, packaging, substrates, testing and equipment.\nFor investors, picking individual winners in this ecosystem is difficult because the beneficiary list extends well beyond Samsung and SK hynix into materials, components and infrastructure firms.\nETFs solve this by offering diversified, single-ticker access to the Korean AI semiconductor value chain, capturing both the memory leaders and the smaller suppliers that stand to benefit from the government’s spending push.\nBeyond Korea-specific funds, ETFs holding semiconductor companies worldwide also stand to gain. Notably, global chip ETFs capture the accelerator demand that South Korea’s increased capex in data center and chip production would generate. For example, NVIDIA NVDA through GPU procurement for sovereign AI and hyperscaler buildouts, AMD via its government-level heterogeneous computing partnership, and Broadcom through custom AI chip and HBM collaboration with Samsung and SK Hynix.\nETFs Positioned for the Upside\nConsidering the aforementioned discussion, the following ETFs should benefit from South Korea’s latest capex pledge:\niShares MSCI South Korea ETF EWY\nThis fund, with net assets worth $22.40 billion, offers exposure to 76 companies in South Korea. SK Hynix (holding 23.76% of this fund’s assets), Samsung Electronics (23.02%) and SK Square (2.96%) hold the first three positions in this fund.\nEWY charges 59 basis points (bps) in fees. It traded at a good volume of 14.82 million shares in the last trading session.\nVanEck Semiconductor ETF SMH\nThis fund, with net assets worth $64.52 billion, offers exposure to 26 companies involved in semiconductor production and equipment. NVDA (20.19%), Taiwan Semiconductor (9.58%) and Texas Instruments (5.70%) hold the first three positions in this fund. SK Hynix holds the 10th position in this fund, carrying a 4.14% weight.\nSMH charges 35 bps in fees. It traded at a good volume of 8.61 million shares in the last trading session.\nxETFs Korea AI Semiconductor ETF KSMH\nThis fund, with net assets worth $1.39 million, includes 10 to 25 Korean companies powering the AI semiconductor value chain, including memory, logic, manufacturing and infrastructure. SK Hynix (22.35%), Samsung Electronics (20.49%) and Hanmi Semiconductor (7.73%) hold the first three positions in this fund.\nKSMH charges 65 bps in fees. It traded at a volume of 0.001 million shares in the last trading session.\niShares Semiconductor ETF SOXX\nThis fund, with net assets worth $42.97 billion, includes 30 companies across the semiconductor value chain, including those driving innovation in AI and benefiting from capital investments in digital infrastructure. Advanced Micro Devices AMD (9.24%), NVDA (7.98%), Micron Technology MU (7.95%) and Broadcom AVGO (7.58%) hold the first four positions in this fund.\nSOXX charges 33 bps in fees. It traded at a good volume of 10.78 million shares in the last trading session.\nBoost Your Portfolio with Our Top ETF Insights\nZacks' exclusive Fund Newsletter delivers actionable information, top news and analysis, as well as top-performing ETFs, straight to your inbox every week.\nDon’t miss out on this valuable resource. It’s free!Get it now >>\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\nNVIDIA Corporation (NVDA): Free Stock Analysis Report\nVanEck Semiconductor ETF (SMH): ETF Research Reports\niShares Semiconductor ETF (SOXX): ETF Research Reports\niShares MSCI South Korea ETF (EWY): ETF Research Reports\nAdvanced Micro Devices, Inc. (AMD): Free Stock Analysis Report\nMicron Technology, Inc. (MU): Free Stock Analysis Report\nBroadcom Inc. (AVGO): Free Stock Analysis Report\nThis article originally published on Zacks Investment Research (zacks.com).\nZacks Investment Research",
       "content_status": "has_fulltext",
       "fetch_capability": "gnews_resolved",
-      "source_tier": "B",
+      "source_tier": "D",
       "auto_tags": [
         "基础设施",
         "科技",
-        "tier:B",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "US kicks South Africa, Rwanda out of AGOA - The Africa Report",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOEVmcE9yVHpiRHEtTEFyVmpzVEViVXZOY1p2bERWbXR0WDZoOGhLMkIyd3RwSm1WZ3pjWGYxd3BSQjEyVEN1SE9wcE4tRmhDZk9LZFN5UThBbWNUTGtzMUdqTTdlbGwyYlBUTmVBSWoyU1FObnFVY1JUcXFTWVFrcUlXRVZIT0E?oc=5",
-      "published": "Sun, 01 Nov 2026 22:09:52 GMT",
-      "summary": "US kicks South Africa, Rwanda out of AGOA&nbsp;&nbsp;The Africa Report",
-      "source": "GNews | AGOA",
-      "published_beijing": "2026-11-02T06:09:52+08:00",
-      "source_detail": {
-        "name": "The Africa Report",
-        "url": "https://www.theafricareport.com"
-      },
-      "priority": 13.2,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.theafricareport.com/435266/us-kicks-south-africa-rwanda-out-of-agoa/",
-      "full_text": "The Donald Trump administration announced on 2 November that it was removing South Africa and Rwanda from the US trade preference programme amid months of deepening political tensions with both countries.\nIn a statement, US Trade Representative Jamieson Greer said the two countries had been found to be “engaging in practices that are inconsistent” with the eligibility criteria for the African",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "贸易",
-        "区域",
         "tier:D",
         "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "[India's H1 steel exports to EU fall ~20% YoY as EU quotas tighten and CBAM applies] - Shanghai Metals Market",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZC01ZnVWWFJiUk9YY0ZvV0VqZ01RaEZGTnVMaGU1bHNsbEVHc0VZZmZCSERoXzZWUW1XbWJGOVkzbUNpRkgyZUFUMnk3M3BTTmk4NjJnV0VfV3Q3MmFaMmNtUXd1emx5ZlJSVFlDaU1wTlJnLWdwZkZReEZNaTZpbGM5d19OWjZZbVZwLVV0bDVhN29VMm9iN2RLSVZITlBFUnctNTV0TDJDSFk1d2J0M0ZFNnJNUVNQTXYwbjVFUXdBQQ?oc=5",
-      "published": "Tue, 03 Nov 2026 02:23:00 GMT",
-      "summary": "[India's H1 steel exports to EU fall ~20% YoY as EU quotas tighten and CBAM applies]&nbsp;&nbsp;Shanghai Metals Market",
-      "source": "GNews | EU CBAM",
-      "published_beijing": "2026-11-03T10:23:00+08:00",
-      "source_detail": {
-        "name": "Shanghai Metals Market",
-        "url": "https://news.metal.com"
-      },
-      "priority": 13.2,
-      "category": "EU政策+制裁",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://news.metal.com/newscontent/104200706-indias-h1-steel-exports-to-eu-fall-20-yoy-as-eu-quotas-tighten-and-cbam-applies",
-      "full_text": "India's iron and steel exports to the EU fell 19.8% year on year in volume to 1.53 million tonnes in the first half of FY27 (April–September), from 1.91 million tonnes a year earlier, according to an analysis of commerce ministry data. Export value fell 17% to $1.48 billion. September shipments halved year on year to 197,433 tonnes (-50.4%), after 316,414 tonnes in July (-2.3%) and 387,143 tonnes in August, largely unchanged. Second-quarter shipments to the EU were about 901,000 tonnes, down 18.8% YoY, with September accounting for nearly 97% of the quarterly decline.\nOver the same April–September period, exports to Africa rose 76.5% in value to $334.2 million, with volumes up 96%; exports to the Americas rose to $1.42 billion from $654.3 million (+117.1%), with volumes up 262%; exports to Europe as a whole (the EU, EFTA and other European countries) fell 4.1% in value to $2.11 billion, with volumes down 6%.\nIn background, the EU has applied a tighter steel import regime since July 1, cutting the annual duty-free import quota to 18.3 million tonnes from 33.8 million tonnes and raising the tariff on above-quota shipments to 50% from 25%. According to an analysis by the London School of Economics' Grantham Research Institute, India's country-specific quota was cut to 1.94 million tonnes from 2.79 million tonnes (about -30%), with hot-rolled sheet and strip quotas down 34% and cold-rolled sheet quotas down 59%. The EU's Carbon Border Adjustment Mechanism (CBAM) entered its definitive phase in January, with the first certificate surrender due in 2027. The report also noted that the trade data cannot establish whether India's product-specific quotas were exhausted in September, making it difficult to attribute the decline entirely to the restrictions. [SMM Iron Ore]",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "EU政策",
-        "制裁",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "India's steel exports to EU fall 20% amid CBAM, quotas; Americas surge 262%, Africa 96% - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWVYxZEFzbGZNZXNrcEIxbTZCY0VHUWp0a1BhdTNmS1RoT2JXNHBaUnZacWZhTVI2cWJORXBndmpMbllhcFFCdmZmbXViclZmNXJlS0s5a2xTbjEtVm5Wc3Q5aXcyd3JXT24zUzRrN2pKREFhTG9hUE9GT18yVGJTNEN4bjd4aEhNcGcybGJZRUlObUxTeGx1b2FfTEJ1UG5HZmlKOEQ2bFlST2VfUTR0Vkh4WTY5dTk2M0ZyOWRubGo3by10dm9SQWdEanZsbWc4ckd4UQ?oc=5",
-      "published": "Mon, 02 Nov 2026 10:13:53 GMT",
-      "summary": "India's steel exports to EU fall 20% amid CBAM, quotas; Americas surge 262%, Africa 96%&nbsp;&nbsp;Moneycontrol.com",
-      "source": "GNews | EU CBAM",
-      "published_beijing": "2026-11-02T18:13:53+08:00",
-      "source_detail": {
-        "name": "Moneycontrol.com",
-        "url": "https://www.moneycontrol.com"
-      },
-      "priority": 13.2,
-      "category": "EU政策+制裁",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.moneycontrol.com/news/business/india-s-steel-exports-to-eu-fall-20-amid-cbam-quotas-americas-surge-262-africa-96-14066443.html",
-      "content_status": "fulltext_needs_retry",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "EU政策",
-        "制裁",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHbURkOHdGSS1HSFdpbG1TQXBGa2lhNkVoS3RhRHBRSVR2bTlKa0dKTTc5MFpfUHNlNFJ1LXV0M0pQd0t1QWNzLTNIcFR3ZGxDNTZzWURxc3R1U1U?oc=5",
-      "published": "Mon, 02 Nov 2026 17:33:19 GMT",
-      "summary": "Fighting returns to Kherson region after longest Ukraine war ceasefire&nbsp;&nbsp;BBCOperational update for the period from 06:00 on November 1 to 06:00 on November 2, 2026&nbsp;&nbsp;Mezha.netRussian Forces Shell Kherson and Antonivka: Two Civilians Injured&nbsp;&nbsp;most.ks.uaA brief ceasefire in Ukraine's Kherson region has ended&nbsp;&nbsp;NPRIn Kherson, several men stepped on landmines—they were hospitalized&nbsp;&nbsp;UA.NEWS",
-      "source": "GNews Topic | WORLD(US)",
-      "published_beijing": "2026-11-03T01:33:19+08:00",
-      "source_detail": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
-      },
-      "priority": 12.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://www.bbc.com/news/articles/ckg5jlyp66jzo",
-      "full_text": "Fighting has resumed in Ukraine's Kherson after a six-day truce brought quiet to the front-line region for the first time in years.\nThe ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.\nOn Monday morning, local authorities confirmed that strikes had resumed, saying Moscow had hit a medical facility in Kherson city centre. They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.\nUkraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.\n\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.\nThe Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".\n\"It is a completely standard practice in such situations,\" he added.\nThe ceasefire had been brokered by US First Lady Melania Trump. Both Kyiv and Moscow thanked her repeatedly, though no details of her involvement were shared.\nAn unusual show of cooperation came from Russia's human rights ombudsman Yana Lantratova and her Ukrainian counterpart Dmytro Lubinets. The pair oversaw the ceasefire, travelled into Oleshky and were filmed speaking to residents together. They publicly thanked each other for their work, often highlighting that no violations of the ceasefire had been observed.\nBoth Lantratova and Lubinets called for the initiative to be repeated elsewhere, and Ukraine repeatedly said it would be prepared to observe similar ceasefires on a national level too.\nBut many have questioned whether this will lead to more cooperation and further truces.\nIn fact, the Kremlin swiftly dismissed the idea even as the ceasefire was under way, calling Oleshky \"an isolated case\" which would not affect the \"settlement process\" – a euphemism for the stalled peace talks. \"There are no similar plans or initiatives,\" Peskov reiterated on Monday.\nAnd although last week the guns fell silent in Kherson region, elsewhere in Ukraine Russia's air strikes continued, killing scores of civilians and destroying crucial infrastructure.\nThe decision to observe an unusually broad and comparatively lengthy ceasefire in and around Oleshky was therefore a notable exception.\nThe ceasefire's observance appears, at least in part, to have been linked to Melania Trump's reported involvement. By violating the truce, Moscow would have risked undermining its own efforts to cultivate the crucial relationship with her husband, US President Donald Trump.\nSome commentators have argued that Trump himself would be interested in presenting the Oleshky ceasefire as a foreign policy achievement scored days before the US midterm elections on Tuesday.\n\"I totally get why our official representatives need to 'play along' with the US first lady on Oleshky,\" said Artyom Sheynin, a prominent figure on Russian state TV.\n\"I understand why it's so important to create a 'success story' ahead of the elections for the US president, whose wife 'achieved a ceasefire' in Oleshky.\"\nKyiv, too, had its reasons to be fully compliant. Although relations with the US and its president are often fraught, Ukraine continues to rely heavily on US intelligence and US-made Patriot air defence missiles to counter Russian aerial attacks. Ahead of another tough winter of war, continued American support is essential to protect Ukrainian skies from Russia's assaults.\nBut though the ceasefire may have been born out of political calculation rather than purely humanitarian compassion, it also resulted in hundreds of civilians escaping.\nThere were emotional scenes when hundreds of Oleshky residents arrived in northern Ukraine on Saturday. Many were met by tearful relatives they had not seen in years. To the journalists waiting, the evacuees told of years of hunger and hardship in a destroyed town.\nThe hundreds of residents who decided to stay behind will receive monthly humanitarian aid deliveries, Lantratova said, adding that decision too was the result of Melania Trump's mediation.\nYet the troop rotations and resupply efforts show that neither side is expecting Oleshky to be a blueprint for lasting respite in the future.\nAs Kherson came under fire again, Ukrainian drones hit several energy facilities across four Russian regions. In Samara, residents reported hearing explosions and seeing black plumes of smoke rising into the sky as an oil refinery was hit for the fifth time in a month.\nIf the truce brought a rare moment of relief to Oleshky, it has done little to alter the wider trajectory of a war that grinds on for now.",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "B",
-      "auto_tags": [
-        "专题精选",
-        "tier:B",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球商业与产业链重构",
-        "全球治理与地缘风险",
-        "中东深度"
-      ]
-    },
-    {
-      "title": "China's Stock Buyback and Shareholding Increase Relending Rate Cut to 1%; Third Batch of Swap Facility Operations Approved at Over 100 Billion Yuan - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tamVxS0prMlluZnJDOXAtWWV0dFpiUEF1ZXpPNjM5ZHNRbXlxenZzTTdwcU9BOTJsNlFMVTFLZXFEZENSV1ltckpsRUVabVFRQWEzSHdDaVpTQ1BFSjRMQ1dFdldXRW5tTEk1RXU1X0lnQkpmdWc?oc=5",
-      "published": "Mon, 02 Nov 2026 13:55:00 GMT",
-      "summary": "China's Stock Buyback and Shareholding Increase Relending Rate Cut to 1%; Third Batch of Swap Facility Operations Approved at Over 100 Billion Yuan&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | PBOC/央行",
-      "published_beijing": "2026-11-02T21:55:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 12.0,
-      "category": "全球宏观",
-      "_incremental": "new",
-      "relevance": "high",
-      "canonical_url": "https://finance.biggo.com/news/2431ddbc-c605-442e-9ead-daf3598c40a1",
-      "full_text": "The People's Bank of China, together with the National Financial Regulatory Administration, the China Securities Regulatory Commission and other departments, held a symposium on the Securities, Fund and Insurance Company Swap Facility and a symposium on the Stock Buyback and Shareholding Increase Relending on November 2, to study and deploy the full use of the two structural monetary policy tools. The meetings confirmed that the Stock Buyback and Shareholding Increase Relending policy will shift from a temporary arrangement to a long-term institutional one, with the relending rate cut from 1.25% to 1%. The same day, a relevant official of the CSRC answered reporters' questions on stabilizing the market and expectations, disclosing a package of arrangements including optimization of market-support buyback rules, active ETF position building, and countercyclical adjustment of margin trading.\nThis is the third rate cut for the Stock Buyback and Shareholding Increase Relending tool since it was established in October 2024. The tool's initial rate was 1.75%, cut to 1.50% in May 2025, and further to 1.25% in early 2026; this round lowers it by another 0.25 percentage points to 1%. The meetings also proposed that financial institutions adhere to market-based pricing principles, reasonably add spreads on top of the relending rate and increase loan disbursements.\nLooking at the tools' operation, as of the end of October this year, the swap facility had conducted two batches of operations, with 28 securities firms and fund managers participating, totaling 105 billion yuan (approximately $15.8 billion). Across the market, 902 listed companies had disclosed 1,110 buyback and shareholding increase loan announcements; including the shareholding increase loans applied for by the two state-owned capital operating companies China Reform Holdings and China Chengtong, the upper limit of applied loan quotas totaled approximately 440 billion yuan (approximately $66.2 billion), with cumulative disbursements exceeding 280 billion yuan (approximately $42.1 billion).\nThe CSRC official said that upon applications from relevant institutions, the CSRC, in consultation with the PBOC, has agreed to let 31 securities firms and fund managers conduct a third batch of swap facility operations, with requested quotas exceeding 100 billion yuan (approximately $15.0 billion), and operations will begin in the coming days. Compared with the more than 20 institutions in the first two batches, the participant base has expanded markedly this round.\nOn the buyback side, the CSRC plans four adjustments to market-support buyback rules: adding share prices falling below the IPO price (\"breaking issue\") as one of the conditions under which a market-support buyback may be conducted, and stipulating that market-support buybacks are not subject to the restriction that \"the company's shares must have been listed for six months\"; removing the restriction on declaring orders during the opening and closing call auction periods; requiring companies listed for less than 36 months whose share prices trigger market-support buyback conditions to strictly fulfill the share-price stabilization measures in their listing commitments; requiring companies with excess raised funds to implement buybacks promptly when conditions are triggered; and requiring listed companies to specify in their annual cash dividend plans a certain proportion of funds to be included in a special buyback fund, with excess raised funds included proportionally and earmarked for buyback cancellation, and gains from selling market-support buyback shares through centralized bidding also to be included in the fund.\nCSRC data show that in the first 10 months of this year, 645 listed companies on the Shanghai and Shenzhen stock exchanges disclosed 700 share buyback plans totaling 237.7 billion yuan (approximately $35.8 billion), of which buyback-cancellation amounted to 115 billion yuan (approximately $17.3 billion), nearly 50%; 747 companies actually implemented buybacks worth 134.5 billion yuan (approximately $20.2 billion). The planned buyback amount, actual buyback amount, cancellation amount and its proportion all hit record highs. From 2024 through the first 10 months of 2026, the cumulative disclosed buyback plan amounts and actual implementation amounts on the two exchanges both rose 50% compared with 2021-2023.\nShenzhen-listed companies have taken the lead. BOE Technology (000725.SZ) announced on November 2 that its A-share buyback plan had been completed, with approximately 191 million shares repurchased for a total payment of about 1 billion yuan (approximately $150.5 million); all repurchased shares will be cancelled to reduce registered capital. CATL (300750.SZ) disclosed that as of October 31 it had repurchased 19.6059 million shares for a total transaction amount of 5.36 billion yuan (approximately $806.5 million); the current plan envisages using no less than 20 billion yuan (approximately $3.0 billion) and no more than 40 billion yuan (approximately $6.0 billion), with the repurchased shares likewise to be cancelled. Luxshare Precision (002475.SZ) had repurchased 17.6654 million shares for about 1 billion yuan. As of November 1, Shenzhen-listed companies had 231 buyback plans in progress, with an upper limit on buyback amounts of 118.2 billion yuan (approximately $17.8 billion).\nThe funding side is also gathering momentum. The first batch of 18 active ETFs began fundraising on October 23 and had raised more than 35 billion yuan (approximately $5.3 billion) in total as of November 2, with 16 products hitting the 2 billion yuan (approximately $300.9 million) per-product fundraising cap and closing, and three funds completing fundraising within one day. Nine managers including Morgan Fund, E Fund and Fullgoal Fund purchased their own products through proprietary or shareholder funds, with self-purchases totaling more than 2.7 billion yuan (approximately $406.2 million). The CSRC said it will guide the 18 active ETFs that have completed fundraising to accelerate position building, study the launch of multi-asset index funds such as constant stock-bond ratio products, and promote a floating management fee model based on performance benchmarks for newly established actively managed equity funds.\nOn margin trading, the CSRC will work with the stock exchanges to guide securities firms in comprehensively studying, optimizing and maintaining flexibility in risk-control metrics such as the margin deposit ratio, the conversion rate of securities eligible as margin collateral, and the maintenance guarantee ratio, moderately freeing up financing capacity on the premise that risks remain generally controllable. In January 2026, the Shanghai, Shenzhen and Beijing stock exchanges raised the margin deposit ratio from 80% to 100%.\n| Key Data on the Two Tools | Scale | \n|---|---|\n| First two batches of swap facility operations | 28 institutions, 105 billion yuan total | \n| Third batch of swap facility applications | 31 institutions, requested quotas over 100 billion yuan | \n| Upper limit of buyback and shareholding increase loan applications | About 440 billion yuan | \n| Cumulative disbursement of buyback and shareholding increase loans | Over 280 billion yuan | \n| Buyback plan amount in first 10 months | 700 plans, 237.7 billion yuan | \n| Actual buyback amount in first 10 months | 747 companies, 134.5 billion yuan | \nNote: Data sources are public disclosures by the People's Bank of China and the China Securities Regulatory Commission.\nAgainst the market backdrop, China's A-share market has trended downward amid volatility since October this year, with the Shanghai Composite Index briefly falling below 3,600 points, and the unwinding of crowded trading structures in the tech sector triggering negative feedback in fund flows. In the first three quarters, A-share listed companies reported combined revenue of 56.74 trillion yuan, up 5.41% year on year, and net profit attributable to parent of 5.10 trillion yuan, up 7.77% year on year, with share price trends diverging from earnings trends. Over the past two years, the National Social Security Fund, basic pension funds, annuity funds and insurance funds have net purchased more than 1.5 trillion yuan of A-shares in total, and various institutional investors have recently been adding positions against the trend overall.\nDong Ximiao, chief economist at Zhaolian, said that shifting from a temporary arrangement to a long-term institutional one helps stabilize expectations across various entities and reduce the risk premium brought by policy uncertainty, driving buybacks and shareholding increases from emergency-driven to a normalized tool. Zeng Gang, dean of the Tianfu Liyan Institute of Finance, held that the rate cut lowers banks' funding costs, but the final financing price is still determined by banks adding market-based spreads on top of the 1% rate; policy can only provide a floor and cannot replace earnings improvement and corporate governance.\nFor the market, the highlight of this policy package lies in the tools' shift from emergency to institutionalized: the relending rate has fallen to a historic low, the institutions and quotas of the swap facility have expanded simultaneously, market-support buybacks are moving from an \"option\" toward a \"mandatory answer,\" and active ETFs and optimized margin trading risk-control metrics provide support from both the funding supply and trading mechanism ends. In the short term, billion-yuan-level swap facility operations and over 35 billion yuan of active ETF position building will bring incremental funds; over the medium and long term, a higher buyback-cancellation ratio and the implementation of long-cycle assessments will affect listed companies' shareholder return mechanisms and institutional funds' allocation behavior.",
-      "content_status": "has_fulltext",
-      "fetch_capability": "gnews_resolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "全球宏观",
-        "tier:D",
-        "fetch:gnews_resolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球宏观与资本流动"
-      ]
-    },
-    {
-      "title": "Singapore to steer ‘mutually beneficial’ US-ASEAN defence framework amid regional sensitivities - The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPenpvbE8tZ1VRS3NLb2RLUTZkTjl5ZktoWllfbkVUZEYzOEE4RnZZell1LVdMT25LaW5hVUxtdWp6c0c0QVFVUVhuczMxYWxpd1ZuWDJQUEgwdE16N1pMcjMzWGs3Rk4tTzktYmNfS3liWGNCczJLZWh5ajFHTzlXeS1WY0ViUU5MRjJoVm9HQjhuYXJrb3l0UDc5Y04zX0o4TVR2aEYtQVAteHdFMlJNdXdnMktBLXNQRTJHUXJUS2ZzUENkYjZaVjNfRmMyeEtX?oc=5",
-      "published": "Mon, 02 Nov 2026 10:20:00 GMT",
-      "summary": "Singapore to steer ‘mutually beneficial’ US-ASEAN defence framework amid regional sensitivities&nbsp;&nbsp;The Straits TimesManila mistaking dirty-work tool for security&nbsp;&nbsp;China Daily Global EditionPhilippines-China tensions resurface at the close of ASEAN defence gathering ​&nbsp;&nbsp;ReutersHegseth proposes 'ambitious' US-ASEAN defence framework at Philippine summit&nbsp;&nbsp;CNAUS’ ASEAN approach exposes a transactional nature&nbsp;&nbsp;Global Times",
-      "source": "GNews Topic | WORLD(SG)",
-      "published_beijing": "2026-11-02T18:20:00+08:00",
-      "source_detail": {
-        "name": "The Straits Times",
-        "url": "https://www.straitstimes.com"
-      },
-      "priority": 12.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "专题精选",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "Manufacturing in Indonesia Surges to 31-Month High as Export Orders Hit Record - InvestorTrust",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbDlhM0xrc21mcFpuTmk2dFJBLW10TUJweDE1M0dObW4ySGRRT0doTXBncE9fd3RHRUVpUlJ2YktFVk9ZeEh4enlJX1JxTTFmWlRjWldQN1pNVjBMSHNNX1RaTUhnTmdpVGhUZDdZbzl1S3MtWDdtUENiNVR3S2NPU2l2dXFQZjdHeUJLaEwwY2JYQnh3UG44ZUhfSHpQWFNQeGhNTlBtM1Fqd1V0b3RHMks5QXRTS1RnRTk2UUE3TlpHVk84VnRNZDJ3X2YyVkFkZjVJ?oc=5",
-      "published": "Mon, 02 Nov 2026 07:31:00 GMT",
-      "summary": "Manufacturing in Indonesia Surges to 31-Month High as Export Orders Hit Record&nbsp;&nbsp;InvestorTrust",
-      "source": "GNews | Signal: SE Asia Record",
-      "published_beijing": "2026-11-02T15:31:00+08:00",
-      "source_detail": {
-        "name": "InvestorTrust",
-        "url": "https://investortrust.id"
-      },
-      "priority": 12.0,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "信号性查询",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "Bangladesh Garment Workers’ Unrest Shuts Over 500 Factories, Threatens Global Export Supply Chains - ETV Bharat",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdzlIaG5KYkozOHQ4aGxqeWdkNTVXS08xN3NuX0g1TlFzOWVpRXlTVTdIN3RNRFdxNnlzSTh0X3VPc3ozWDczeXluLWFBZHdONnZ1M3o3ZUZEekZXN0pxRVRDQWduWExUQndZQ0ZibzN1OXJhY25jLXh6OW1oeHpRMmJ6a3pUMUk4Wk15dm1HUktfNTRFeVNIbmcwOE9ZVVRfdkFUSjFaSEhBYm41dlZ5cWlYdGYyUTBxNlZDdHZ3REpOSVZ30gHKAUFVX3lxTFB1eGJxOTh1Q0ROYk9WVFBuS0FfT21HN0hEX0N2ZnBPLXJ1OExSc1U4S185RVItbGFvWGpvMlFpb09BSEFUcUhnNEFQSG1lN0dZbjVCMFg4dEQyV1Y1ekVFWGU0M3U5eUtPMHpEM1VzZ0xWS1RWMzdqdmF3WEFDWUlPdTRwc2R4blh1SmxQcVc1d0VoRmNiajRTTlIwemxtUUZQWTg1QUFiaWVxcVVueVkxQlhGbUs1aVdFVVJGbldzZUxVS2o1WEkyZ2c?oc=5",
-      "published": "Tue, 03 Nov 2026 04:49:39 GMT",
-      "summary": "Bangladesh Garment Workers’ Unrest Shuts Over 500 Factories, Threatens Global Export Supply Chains&nbsp;&nbsp;ETV Bharat",
-      "source": "GNews | BD Politics",
-      "published_beijing": "2026-11-03T12:49:39+08:00",
-      "source_detail": {
-        "name": "ETV Bharat",
-        "url": "https://www.etvbharat.com"
-      },
-      "priority": 12.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Bangladesh garment unrest shuts 529 factories, puts export orders at risk - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMUlCRXdVTHJtRzNoRTAzeGtrU2xzZXpQdkR5YWdpVXZyTXgtSlhva29CUndVNng3b2o3c3NfNDlGd3h0Z19NRkxKZGstdGgyM1lLajJ3MkFET3V1eDNNbUQydFh5eXVVWlNpUzd5LTV2LW9uRkJGNjZGc2hFOGN2eG5pUzdKT1B4Z29ZSnVlRDI4X3FWNWVmbFBWM2RMTzJZc0c3XzNJRVhHbTdtY1Q3ZUxnMHhBZExDMndhUGxQakZGbUVBX0VVSzNzVWU3VERDc1h30gHYAUFVX3lxTE9NWC1wUFpTLUhxbUd1VE5DYjdhRjA0ZnU1NXh0aWRUSFJNS2ZMX3M0clUxWTMxVHpMMHBNWExxazBMemR6QzhKMHFMaDVaM0JYRG9naHp6QTFOUFpBajY5c3paMy01S0k4YlYzcW1EMzd0RF9pRm5DRTUwY3h4OEZSdHFzc0FqS0t5VTZPNVJPV2N1MmJkTXJpUjBud3lUbEJ2cUlaMXJzOGRqcEpSVy01MlhBWkF0UDAzZVNEcTlNd1FDUHVMSGhhamEwa0dKYzlMYWhGUFd4SQ?oc=5",
-      "published": "Mon, 02 Nov 2026 05:20:06 GMT",
-      "summary": "Bangladesh garment unrest shuts 529 factories, puts export orders at risk&nbsp;&nbsp;Business Standard",
-      "source": "GNews | BD Politics",
-      "published_beijing": "2026-11-02T13:20:06+08:00",
-      "source_detail": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com"
-      },
-      "priority": 12.0,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Tech Giants Resist Trump's Vietnam Tariffs & USTR Probe - Bol News",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMjhtVWd6a3ExekFwVGtnQ09pRHI1MlVYWjNyM0VKT3Nva1dURHdQcHdTMHdTVHNocDNqWU9JWEZUUlhubmFaNUZMOVNEcFQ0NmxKWDFySVVld2xuU3kyajNWanZvcWtXaWpxRXN2aHpfSGR4S0twS2JZaXJaN3phaF9ZQVNWLWlQWEVBV1dZOURCNEFOc29BOGNQaG1TcWxfN0F5MXRITQ?oc=5",
-      "published": "Mon, 02 Nov 2026 18:59:15 GMT",
-      "summary": "Tech Giants Resist Trump's Vietnam Tariffs & USTR Probe&nbsp;&nbsp;Bol News",
-      "source": "GNews | USTR 301",
-      "published_beijing": "2026-11-03T02:59:15+08:00",
-      "source_detail": {
-        "name": "Bol News",
-        "url": "https://www.bolnews.com"
-      },
-      "priority": 10.8,
-      "category": "政策+制裁",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政策",
-        "制裁",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球商业与产业链重构"
-      ]
-    },
-    {
-      "title": "Expanded BRICS offers India, South Africa exciting new opportunities - Pretoria News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdkhlS1MwbjVsbjhfNEtPeWw5Zld1YmpqOGp3WGk5UElpd1F1My16ZnBHMkZHclpGQ24zSTZjN1hGbWRuSWpCTDhjRGVNY2pNVG5MczZ6cExvVTl6Z2NjSjdmQXBWcmEzRnZQZjI0a29WckdqNEFmYy11WlAyc3ZsNnd1bnJzY3FPSzNPMzZnbFhsWExvS0ZTejFKTklxcWVSa0dTRDRxc01TbVh3bl9ibUk0Tk8zSTNXVVQ0Tg?oc=5",
-      "published": "Mon, 02 Nov 2026 14:56:20 GMT",
-      "summary": "Expanded BRICS offers India, South Africa exciting new opportunities&nbsp;&nbsp;Pretoria News",
-      "source": "GNews | ET Economy/Mfg",
-      "published_beijing": "2026-11-02T22:56:20+08:00",
-      "source_detail": {
-        "name": "Pretoria News",
-        "url": "https://pretorianews.co.za"
-      },
-      "priority": 10.8,
-      "category": "主要经济体",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "主要经济体",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球宏观与资本流动",
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "Europe fears Trump will weaken NATO further over Republican midterm losses: Report - thecradle.co",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNODBqaVp1TkZBNEpka2FRWlVXTVhibGlxUktDbFRwNWFXd3ZtRnBCMmh0WkZ4T3RKODJPZjF2d0x0SXUzYnZnVmxSZHZRYUc1Sm5jYWNmVzhpZFQweEVLR0RrX19JcHIwdWdFWFBMc0g4N0ZCUEFZTGdwRFdNWGxRU05UNGtOUlpJWVhwd1ZVRklkTXkyRkNpU2RORmp4V0h3RUxiYXNwNkxZMy1KaUpoMQ?oc=5",
-      "published": "Mon, 02 Nov 2026 17:35:58 GMT",
-      "summary": "Europe fears Trump will weaken NATO further over Republican midterm losses: Report&nbsp;&nbsp;thecradle.co",
-      "source": "GNews | NATO/EU Defense",
-      "published_beijing": "2026-11-03T01:35:58+08:00",
-      "source_detail": {
-        "name": "thecradle.co",
-        "url": "https://thecradle.co"
-      },
-      "priority": 10.8,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球治理与地缘风险",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Thai defence minister contacts Myanmar as Cambodia tensions persist - Nation Thailand",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CZkpnNHNLRjItc3d3UTB2VGgwNUctMFNzNElVMlhmNkplZFR0S0ozVHJqV1I1bW13REVOWHJwMlJNcjNwVk5JRnFkRlZYQkp6SDBYSlJ1cGxrZDFQUjV3?oc=5",
-      "published": "Mon, 02 Nov 2026 10:58:00 GMT",
-      "summary": "Thai defence minister contacts Myanmar as Cambodia tensions persist&nbsp;&nbsp;Nation Thailand",
-      "source": "GNews | Myanmar Crisis",
-      "published_beijing": "2026-11-02T18:58:00+08:00",
-      "source_detail": {
-        "name": "Nation Thailand",
-        "url": "https://www.nationthailand.com"
-      },
-      "priority": 10.8,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东南亚深度"
-      ]
-    },
-    {
-      "title": "India, EU discuss FTA implementation, customs cooperation and market access in Brussels - ET Manufacturing",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdmdJLWlETF9LQXBqVlFwZFBqVFFpRC1RT0dLSUdOTG5YQzdzbWJ1bHQxQmNUbGFySWx2aVdZcjZRNldVRGYwY3lCNEZDNktmRWpBVGlPYjJiV3VmNTF4M18yNDlKcEtyb1h2WXNmd1hmY20waDl6b2RSbnBmOTh3NDRPdnZIekFDVkZBaXRualJMYnJvUnU1WnhUZE5ybEFSZ05fVjlXNDcwNV9EMWdEdlBqcnBjQmMwTktxRUFxaGlNdGFXVk9Uc2RONnNRZUhCcmVROEJZRHh6QmdwdXlpZGUtYWo4RmZNUlY5eHhqOU4yd9IB9gFBVV95cUxPdDZWM09HamV0NjVjWVdDUEtDN0Y0UmVWSEhNS3p5MUNTWnBsVU9JV2VBU1ViWVVkRjJnazlEQ3ZEbEtlcXQ3SloyaFM4cXIyMFR5ZG9KbUMzV1VjeUExNHJHLS1tSEpSNHY2eEViMFktTFVmQlpMWmFrc2MtTnRlWnprVVMzY0lsUzZ6Z1hLMDYtTDBxUFpBZTh5ZHMwOW45WU5DVmdjeTl1TXBzaktmM3pILTdrdUZkdXlUTGszZi1sQlZTODVfcFlEdjYwZHRGdXUtRGtZSE1yaGw1eHRlSHF3UnNieG5XQzlkb1g1UmZhWk1UR3c?oc=5",
-      "published": "Mon, 02 Nov 2026 16:41:15 GMT",
-      "summary": "India, EU discuss FTA implementation, customs cooperation and market access in Brussels&nbsp;&nbsp;ET Manufacturing",
-      "source": "GNews | IN Mfg/PLI",
-      "published_beijing": "2026-11-03T00:41:15+08:00",
-      "source_detail": {
-        "name": "ET Manufacturing",
-        "url": "https://manufacturing.economictimes.indiatimes.com"
-      },
-      "priority": 10.8,
-      "category": "印度",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "印度",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度",
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "264 factories shut amid Bangladesh garment workers protests; government accuses Awami League of conspiracy - Indiablooms",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa1h0ZEpJZW9uWXhhU3Vfd3RTM3c2T0t3RmM3OFk4VTFkM2hzUlFyQm55WW11VE1oUnNKaXctWlNFOFZlbDFzdXc1b0lKRVVPVVpWRGFwWWhqUVlxR0oxcFZwRDNEVXJQUmxRdG0xeFdHQ0V4REQ3UkhNYVhXaXQzYTlXNFZfc3NHcXRpdFU5cFc2ckczaHFBVzRZZWliYk85WnRGMlpyZjlKb2FyckdLektWdnRzSTZRR1loZjJXUDFqbVA1T2VWeUlkRzZiVk5iRjM5X1BGdTF4TVo0Ty1qdA?oc=5",
-      "published": "Mon, 02 Nov 2026 11:38:49 GMT",
-      "summary": "264 factories shut amid Bangladesh garment workers protests; government accuses Awami League of conspiracy&nbsp;&nbsp;Indiablooms",
-      "source": "GNews | BD Politics",
-      "published_beijing": "2026-11-02T19:38:49+08:00",
-      "source_detail": {
-        "name": "Indiablooms",
-        "url": "https://www.indiablooms.com"
-      },
-      "priority": 10.8,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "南亚深度"
-      ]
-    },
-    {
-      "title": "Govt says there’s more to US trade than AGOA; vague promise of support to affected firms - News24",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU1lkMDJ6Wm1DOS14TWlscFd6dV85U2lVQUxvWE1oQTktTzBUbVJab0NCa0tUT3BaTTFoaHdFSzIxZzlXeURFUVRtRW1mLWZORHBaOTBlQjk5TUJYSEc4ZDdBVmloME90QnZFU0hnUEFmRmtRUlU3NlJQN0pXQ2xtYTJ1Nl92c240NlhIclRiX0lJZmtOeFBHWlU2akJQc2pqYjJFcndEY1hVMjRMVWVkckZkMEVUNmdyX1RYS1NvNk9vckZxbXUzZ0k2YzJZcjhZUGVEQ0tfYw?oc=5",
-      "published": "Tue, 03 Nov 2026 02:58:21 GMT",
-      "summary": "Govt says there’s more to US trade than AGOA; vague promise of support to affected firms&nbsp;&nbsp;News24",
-      "source": "GNews | AGOA",
-      "published_beijing": "2026-11-03T10:58:21+08:00",
-      "source_detail": {
-        "name": "News24",
-        "url": "https://www.news24.com"
-      },
-      "priority": 10.8,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "贸易",
-        "区域",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "Trump cuts South Africa, Rwanda from AGOA trade program - Semafor",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZG1KdkF3VDlJb1d6Tkl0eWdfWW9wMUlzSTVacV9jeWF5Zmo2NE1qUGloaUZSZjZyNlpoTHcxUEUwNkwtRldIN05Ia1pUcC1tVWRmQ0xLeVgtM1J2SXZILWxHM3owTVE5OTJaZUNLZ0UyY1BTSVE5NVZnbjZwbTgyQzBucUNGcTUzVTI5SE9VTXZHUWdSejhMZW9vcVM0dw?oc=5",
-      "published": "Mon, 02 Nov 2026 21:44:00 GMT",
-      "summary": "Trump cuts South Africa, Rwanda from AGOA trade program&nbsp;&nbsp;Semafor",
-      "source": "GNews | EU-Africa",
-      "published_beijing": "2026-11-03T05:44:00+08:00",
-      "source_detail": {
-        "name": "Semafor",
-        "url": "https://www.semafor.com"
-      },
-      "priority": 10.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "大国关系",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "Trump moves to remove Rwanda and South Africa from AGOA trade programme - People Daily",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaGE0TlJUTGh1Znhrdml1RXZzSmZPcXh6VFhQM3IzcGRxVkJ0WERoMFVNWm5jMXpROFYyNGY2QndiMzlTWDJkZG0yWm0zYzJ0UTdKbjRRbEw1MWNDQTZNY3ZiS1drSTVhaFNZZHM4SUFDN2xBZmk5WVFiamZLUFp3MDJHU2cyUEFVTDZXOURwSGJlOUlkbGxKSXFEZldQWnoteGFXZXVOYVZuaDVq?oc=5",
-      "published": "Mon, 02 Nov 2026 21:02:47 GMT",
-      "summary": "Trump moves to remove Rwanda and South Africa from AGOA trade programme&nbsp;&nbsp;People Daily",
-      "source": "GNews | AGOA",
-      "published_beijing": "2026-11-03T05:02:47+08:00",
-      "source_detail": {
-        "name": "People Daily",
-        "url": "https://peopledaily.digital"
-      },
-      "priority": 10.8,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "贸易",
-        "区域",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "After months of speculation, US finally shuts out South Africa, Rwanda from trade benefits across its $33 trillion market as Trump finalises AGOA decision - Business Insider Africa",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYTZZRE9Ib041ZE1ZRUJQSWZSUW5xQjJCZ0ptVmdWR2FjbGRCWUVZSE5jQ1llcXNxdEtJME1YdktDNW9lVnNfSXFYWDM4ZHotcW02OUZmMExzWW5fMXZ1aVAxWHZTRVluM19Ha0tEMGg5c0NmM3JuN2JYZF9VN3NUQnRTM2JJTEN5Y1BWZy1lTUJtdmZRd1ZXOWtQNFRGWjVBLXhTTHYydy1sMWpCM1M5UnBRVTZidnpReG03QXBZem9wNzdJdENZUXE2Zi15akY4eWc?oc=5",
-      "published": "Mon, 02 Nov 2026 18:51:13 GMT",
-      "summary": "After months of speculation, US finally shuts out South Africa, Rwanda from trade benefits across its $33 trillion market as Trump finalises AGOA decision&nbsp;&nbsp;Business Insider Africa",
-      "source": "GNews | ZA English",
-      "published_beijing": "2026-11-03T02:51:13+08:00",
-      "source_detail": {
-        "name": "Business Insider Africa",
-        "url": "https://africa.businessinsider.com"
-      },
-      "priority": 10.8,
-      "category": "本地语言搜索",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "本地语言搜索",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "Trump administration will cut South Africa and Rwanda from the AGOA trade program - WKMG",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1dGTkx3Rmozb3pfU1laVWg5VWw1TVVubGg1blZGY2hPV09zTHRlVTBBNDBReERNTlpOLXkwdDFsNkNSSWlLYVRlNDVnelNubXd4cE80c3ZOLWFrX0ZJNlpWMmFHV2E5WklXVWktT2lNVVBOenBiZUxGYmE5a1JYZ2dFV0NZN2lvY0FvNzRrbV9xTktqZHdreHN4aEdOdDBBZlZCekFSeS1LdmNyUTNmQlNkZExwTjFYREpSVy1pMjVGYXd4Z0lTVEpRcw?oc=5",
-      "published": "Mon, 02 Nov 2026 18:42:27 GMT",
-      "summary": "Trump administration will cut South Africa and Rwanda from the AGOA trade program&nbsp;&nbsp;WKMG",
-      "source": "GNews | US-Africa",
-      "published_beijing": "2026-11-03T02:42:27+08:00",
-      "source_detail": {
-        "name": "WKMG",
-        "url": "https://www.clickorlando.com"
-      },
-      "priority": 10.8,
-      "category": "大国关系",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "大国关系",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "US removes South Africa from Agoa trade pact - Business Day",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcVdRa3JDb3ZlcXRkcEVEUnFsenBtbVdobTFLTzFDcEV5Y0Z6MndSaGQxd01DU3RnR0JwZDNYeGk5N2pVaDFnTU1iUjlRZy12UEVSZk5EMGJmbGRKTmRfTE5XMjdsd1lmYkFrNGtlU0ZXWG9vOVJBMnRuektkOS1kTHZoajJJSlF6T2xlZGZ1ajZ6aTBfZnc?oc=5",
-      "published": "Mon, 02 Nov 2026 17:09:47 GMT",
-      "summary": "US removes South Africa from Agoa trade pact&nbsp;&nbsp;Business Day",
-      "source": "GNews | AGOA",
-      "published_beijing": "2026-11-03T01:09:47+08:00",
-      "source_detail": {
-        "name": "Business Day",
-        "url": "https://www.businessday.co.za"
-      },
-      "priority": 10.8,
-      "category": "贸易+区域",
-      "_incremental": "new",
-      "relevance": "high",
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "贸易",
-        "区域",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "Kenya targets manufacturing boom as industrialisation summit brings investors to Nairobi - The Eastleigh Voice",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTTNhSGgxc0s1b0ZwWW90cnNZM0VjZGVsSTliTVcySEg1M2xWNDV5RlNLM3RnOEYtQUwyM0pwQ0RWQWpCSVh0VTYtSWhjd0J5TlFGTWJNUjZJdzRPV0diMEUyNDZHN3RVU2dYRWVNV3dtcnpBY2N6TFVUYmozZER2M2ROaWhwWmNBY2h0elV6ajF5MDNxbG5LaFB1V0VlTUNrd3NPTmoxVl9Tb1F3WGQ5STJjZE5sNThoLUd4Wmtma0NGQ1BmTE5IbUotQ0VYZWdW?oc=5",
-      "published": "Mon, 02 Nov 2026 15:21:25 GMT",
-      "summary": "Kenya targets manufacturing boom as industrialisation summit brings investors to Nairobi&nbsp;&nbsp;The Eastleigh Voice",
-      "source": "GNews | ET Economy/Mfg",
-      "published_beijing": "2026-11-02T23:21:25+08:00",
-      "source_detail": {
-        "name": "The Eastleigh Voice",
-        "url": "https://eastleighvoice.co.ke"
-      },
-      "priority": 10.8,
-      "category": "主要经济体",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "主要经济体",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "非洲深度"
-      ]
-    },
-    {
-      "title": "NATO fears Trump could turn on Europe if Republicans suffer heavy midterm defeat - ProtoThema English",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS1k1WWhVNzhFUU8zSzJqNE85aWZqcmZUZ2t1Rlg0TkFLTTdPaV8tZXlYc2ZHM2xVa3NJTG1fVjN6emZ0WGNfNE5KSTdOYlVjd0dhWWlrWXc3b3JhR0NheFRMbFpIZTBmNGxEZ1VoZ1loUjU2OTBDaG1ZdVN3SjlnbnlSZU5Ic2N5LVBMdEhxZUJCRE9NLWRPZ0wxUGRmcENDVC1Ua1I2a3U1RW5RM1hxeDQtWjVEZVVi?oc=5",
-      "published": "Mon, 02 Nov 2026 14:32:41 GMT",
-      "summary": "NATO fears Trump could turn on Europe if Republicans suffer heavy midterm defeat&nbsp;&nbsp;ProtoThema English",
-      "source": "GNews | NATO/EU Defense",
-      "published_beijing": "2026-11-02T22:32:41+08:00",
-      "source_detail": {
-        "name": "ProtoThema English",
-        "url": "https://en.protothema.gr"
-      },
-      "priority": 10.8,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Trump could escalate pressure on NATO if Republicans lose midterms — Politico - The New Voice of Ukraine",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOWxQdHhOcEt0YzRzbGNDZmZPQ003Sm9mUFNGWTBSY05jNnFoOWd1NGlsaWtacERFZmU3dkk5cGh6MVc0cG1BMVItYXJTSjRsRXYxWlc2eHhKaVY5cFZ0WDZIMUhKMnI3VkZWSHJlOWVLYXRSQXQ3bzZ5aXpDTzMtcVJXSTRjclJrRk1XdF91SzczQ0pRZG90SEVvMi1HTlBkcEZBcFptV3hDbkxWRWxqd0tfRy1EQUMtQVlXNjJxSFdhSnhmS0lVU0Z6SDZDRk1nRWfSAdIBQVVfeXFMTTlsUHR4TnBLdGM0c2xjQ2ZmT0NNN0pvZlBTRlkwUmNOYzZxaDlndTRpbGlrWnBERWZlN3ZJOXBoejFXNHBtQTFSLWFyU0o0bEV2MVpXNnh4SmlWOXBWdFg2SDFISjJyN1ZGVkhyZTllS2F0UkF0N282eWl6Q08zLXFSV0k0Y3JSa0ZNV3RfdUs3M0NKUWRvdEhFbzItR05QZHBGQXBabVd4Q25MVkVsandLX0ctREFDLUFZVzYycUhXYUp4ZktJVVNGekg2Q0ZNZ0Vn?oc=5",
-      "published": "Mon, 02 Nov 2026 09:44:00 GMT",
-      "summary": "Trump could escalate pressure on NATO if Republicans lose midterms — Politico&nbsp;&nbsp;The New Voice of Ukraine",
-      "source": "GNews | NATO/EU Defense",
-      "published_beijing": "2026-11-02T17:44:00+08:00",
-      "source_detail": {
-        "name": "The New Voice of Ukraine",
-        "url": "https://english.nv.ua"
-      },
-      "priority": 10.8,
-      "category": "政治+社会",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "政治",
-        "社会",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "欧洲深度"
-      ]
-    },
-    {
-      "title": "Oil fell 1.5% to $102.56 per barrel amid talks to end the war with Iran - Українські Національні Новини (УНН)",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnU0YUd2WGhFTDVEdmdtZEoza05kdnZwVE92aER5bHIxTlBoeUJhOXcwM21BSXJiWVVlVkRUZDd4Mk9vclBnMXA0aWFwaExwZ1BtZjNRYjVRclhMOGJJNUJtaGY4RW9jdHNHV2lkQ3FMSU1iM3d0SG5UZURjRnhsX0FIRTNBU1RzbWVWVmdKYVFzMjFFQkxRREh0cGczTlpfZnFEbtIBpAFBVV95cUxOWnU0YUd2WGhFTDVEdmdtZEoza05kdnZwVE92aER5bHIxTlBoeUJhOXcwM21BSXJiWVVlVkRUZDd4Mk9vclBnMXA0aWFwaExwZ1BtZjNRYjVRclhMOGJJNUJtaGY4RW9jdHNHV2lkQ3FMSU1iM3d0SG5UZURjRnhsX0FIRTNBU1RzbWVWVmdKYVFzMjFFQkxRREh0cGczTlpfZnFEbg?oc=5",
-      "published": "Mon, 02 Nov 2026 04:35:48 GMT",
-      "summary": "Oil fell 1.5% to $102.56 per barrel amid talks to end the war with Iran&nbsp;&nbsp;Українські Національні Новини (УНН)",
-      "source": "GNews | Signal: RU-UA",
-      "published_beijing": "2026-11-02T12:35:48+08:00",
-      "source_detail": {
-        "name": "Українські Національні Новини (УНН)",
-        "url": "https://unn.ua"
-      },
-      "priority": 10.8,
-      "category": "信号性查询",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "信号性查询",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "独联体深度"
-      ]
-    },
-    {
-      "title": "South Korea's \"K-shaped\" economic rift: Semiconductor boom distorts household finances and fiscal metrics - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UeExDSmhpR0FKRG1WV0pHOTU4TWtNNVFQb3JERWJWZXhhTjROYU5kWXRiYlpURGgxejk5LVVqZVY1VWE1SWtNUTlVTzJHbWtycEdMcHJaaEFaRklQUFd4NjVqQXlDVHc3WEJGUUZOOVAyY2FpMlE?oc=5",
-      "published": "Tue, 03 Nov 2026 05:35:00 GMT",
-      "summary": "South Korea's \"K-shaped\" economic rift: Semiconductor boom distorts household finances and fiscal metrics&nbsp;&nbsp;BigGo Finance",
-      "source": "GNews | KR Economy",
-      "published_beijing": "2026-11-03T13:35:00+08:00",
-      "source_detail": {
-        "name": "BigGo Finance",
-        "url": "https://finance.biggo.com"
-      },
-      "priority": 10.8,
-      "category": "韩国",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "韩国",
-        "tier:D",
-        "fetch:gnews_unresolved",
         "status:new"
       ],
       "matched_modules": [
@@ -1797,12 +416,12 @@
       ]
     },
     {
-      "title": "South Korea's Gyeonggi Province Home Prices Surge Around Semiconductor, AI Hubs — 6 of Top 10 Gainers - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkT1FlMTdiZlJTanF0RmlrdnRaT2VObXRLak1sQlJmRFRhNnVSRE5jek1RdmVfWl9adURjdVlYZUszWFFBWmowYmctTlBHNFZiTktRUnFZT1ozXzVmMXRFQlNEazVfSDBXZmFFUld2V1NNN21hRWc?oc=5",
-      "published": "Tue, 03 Nov 2026 03:25:00 GMT",
-      "summary": "South Korea's Gyeonggi Province Home Prices Surge Around Semiconductor, AI Hubs — 6 of Top 10 Gainers&nbsp;&nbsp;BigGo Finance",
+      "title": "South Korea's HBM Equipment Patent Battle Over SK Hynix Supply Deals Enters Mediation as Hanmi, Hanwha Face Off - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpMV9DQmxLTWx1M0wyWXJxRDZjWV9NMDR5ckIxZUxEd1dyOXhKLWd3V005eldEUjNQd1Y4a0h6Z3dtVmdJQmdxZGV0OVRxZWhTZWMxWFdtZFJOMDZ2VTlvTW90U3pJUEVXX0JZOEVEb1QtQWpCMUE?oc=5",
+      "published": "Tue, 03 Nov 2026 07:56:00 GMT",
+      "summary": "South Korea's HBM Equipment Patent Battle Over SK Hynix Supply Deals Enters Mediation as Hanmi, Hanwha Face Off&nbsp;&nbsp;BigGo Finance",
       "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T11:25:00+08:00",
+      "published_beijing": "2026-11-03T15:56:00+08:00",
       "source_detail": {
         "name": "BigGo Finance",
         "url": "https://finance.biggo.com"
@@ -1811,7 +430,6 @@
       "category": "基础设施+科技",
       "_incremental": "new",
       "relevance": "high",
-      "pw_skipped_early_stop": true,
       "content_status": "fulltext_unavailable",
       "fetch_capability": "gnews_unresolved",
       "source_tier": "D",
@@ -1827,217 +445,34 @@
       ]
     },
     {
-      "title": "South Korean semiconductor firms offered Chinese incentives - Digital Watch Observatory",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45b1JHcjBEYmtmZDE5Wm5JM09UeDBrcmNZbXd2aVlqaUpwaVJGd1hTSmdyQ0EyWWxwREtETGJNQUR6YVVOYVRsbTF5MzNWTGxibDJGd1BpX3lXMUlHbjZESmJ1dFlNY2k0Y2VmRl8zdmdjUFpwR3k1NHBMOWF2Zw?oc=5",
-      "published": "Tue, 03 Nov 2026 01:00:12 GMT",
-      "summary": "South Korean semiconductor firms offered Chinese incentives&nbsp;&nbsp;Digital Watch Observatory",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T09:00:12+08:00",
+      "title": "North Korea accuses the US and South Korea of a brutal demonstration of nuclear war - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaExSMy1lT2E0NTd1YlJDS0NRT2ViRVg2RUF1eXc4dFlKV29TNkVGbUJvRG42bWxOREl5WjF1WDJwbm4yRTRKY3NyRmxVbFFhdjJJZDBkemNIX0JSN1dvTWs1c3VLRFAwaHZjY2hBVlpJSHBqTC00ell0STluUTh3dkVTQnFQQldXX24zMXBabzI3TUxUUW5ZZ0lDVGhzbkQzRW85Y2g0MjJrTlo4OGc4a21IaVA2REhpOXRPd3czLXMtbHlO0gHKAUFVX3lxTE1yX2VUN2ZBN2Z1N28wME5lVVNpZm5zbkF2aU1VZndGdjZLX3B6bWVQdmhmZC1QcjE3MTA4c0Rma2d3QlJINFhTRXRxOVRmck9LQWlWampEdk11OTZnQzZlOVNRZ2RGcXY1dExjdkxDVXBicGhab3d3LU9JVFRxeHBRTG14WElUNVFncWR0Y0l1eFVUbmwxNVNYenpKbElLa2NVTkUtbVdyXzBxck91Sl9rU0x5WFlGUDctWFE4aVpVQ2ZmUXBFU1M2b1E?oc=5",
+      "published": "Mon, 02 Nov 2026 06:14:25 GMT",
+      "summary": "North Korea accuses the US and South Korea of a brutal demonstration of nuclear war&nbsp;&nbsp;Demócrata",
+      "source": "GNews | KR Politics",
+      "published_beijing": "2026-11-02T14:14:25+08:00",
       "source_detail": {
-        "name": "Digital Watch Observatory",
-        "url": "https://dig.watch"
+        "name": "Demócrata",
+        "url": "https://www.democrata.es"
       },
       "priority": 10.8,
-      "category": "基础设施+科技",
+      "category": "政治+社会",
       "_incremental": "new",
       "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
+      "canonical_url": "https://www.democrata.es/en/international/north-korea-accuses-the-us-and-south-korea-of-a-brutal-demonstration-of-nuclear-war/",
+      "full_text": "403 ERROR\nThe request could not be satisfied.\nRequest blocked.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\nGenerated by cloudfront (CloudFront)\nRequest ID: ue1yKmh2XYZJc4pJAE781_wBKZPkSymM5r57lXHZgVgKIsXRELVmjQ==",
+      "content_status": "has_fulltext",
+      "fetch_capability": "gnews_resolved",
       "source_tier": "D",
       "auto_tags": [
-        "基础设施",
-        "科技",
+        "政治",
+        "社会",
         "tier:D",
-        "fetch:gnews_unresolved",
+        "fetch:gnews_resolved",
         "status:new"
       ],
       "matched_modules": [
         "东亚深度"
-      ]
-    },
-    {
-      "title": "South Korea will double spending on AI and semiconductors in 2027 to a record high, the president said, pledging to use the technology to turn the military into a \"smart, elite force.\" | via ANC 24/7 Link to full story in the comments section. - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTVdLRFlWSDJzV3RrdzJ0Qk5aeGhVQ0t4cjdSdllFV2Q3NTlTYXBqUjZRTFRJTThpX2QtcDlLVXE4ZExxMzktVHlKUlZoSVBuQnhNcGZidXJoSjdsZU82WXNpY1JTWDhhTGNtMzM2dUZKcWNDUXJnQWdCS3dXcXA2NXEwR2FqUHc2UFF0NTlyNVJGeDZ4cmRmaS1GVGI4SUxfQU9US1pjU0t1dEd2Ny04TjZTbDVSSGF1WG5rOS1seUxYYkhEQUFDV25selY4WTZxVjRrRTlTaw?oc=5",
-      "published": "Mon, 02 Nov 2026 23:43:42 GMT",
-      "summary": "South Korea will double spending on AI and semiconductors in 2027 to a record high, the president said, pledging to use the technology to turn the military into a \"smart, elite force.\" | via ANC 24/7 Link to full story in the comments section.&nbsp;&nbsp;Facebook",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T07:43:42+08:00",
-      "source_detail": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
-      },
-      "priority": 10.8,
-      "signal_keywords": [
-        "record high"
-      ],
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "基础设施",
-        "科技",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new",
-        "signal:record high"
-      ],
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "The memory chip craze is pushing South Korea closer to $1 trillion in exports. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc2tDNVhYVVdNa0dpbDhzcWt5YW1zTHJjVWtEa05sLUtaRnJXc2t1RzhhLTR5dVplTGRxdW45THpRTGpjYWN1S083dEM1cE5BUV9JNGMxLWpIYkk0RENKQThsU1M3UHdsNTRnM0NTQ1c3ZlF5d1NoNkw3a2ZUVmFYTW9TUHhSOXJJY2JVZnYtN3ZhSzB5d3I2Q3VB?oc=5",
-      "published": "Mon, 02 Nov 2026 22:20:51 GMT",
-      "summary": "The memory chip craze is pushing South Korea closer to $1 trillion in exports.&nbsp;&nbsp;Vietnam.vn",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-03T06:20:51+08:00",
-      "source_detail": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "基础设施",
-        "科技",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "South Korea Chip Exports Approach Half of Economy; First Trillion-Dollar Year Due in November - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeXVMc3ZWNVlXOUtFV1lQWTRTNmUyaF9sZ09NT1dVUXlPTGJFVzRkZmtabHpMUWpEZGM1SkxvRGFyLXRYbEFXdVNleUFSMENNbHhqTUNOcDNzQ21TdHZMczgzVmN4cDFCcEJMMkhmWUVhZ1ZtVXFXMHlVQmFSaU9WcV91NTB3em4xeXQxd0VUY19Tb3lFakRxV3pzUDV1dlZDT29xSy1EY0FxX3lpdUtoeVlEcG8xQmZVd1VwckV1Y0g1dVVxa3FuQ09hbU1PUF9zTkpCa2IteVE?oc=5",
-      "published": "Mon, 02 Nov 2026 11:48:48 GMT",
-      "summary": "South Korea Chip Exports Approach Half of Economy; First Trillion-Dollar Year Due in November&nbsp;&nbsp;Tech Times",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T19:48:48+08:00",
-      "source_detail": {
-        "name": "Tech Times",
-        "url": "https://www.techtimes.com"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "基础设施",
-        "科技",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "South Korea to double spending on AI and chips in 2027 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHNZbU14SUFRRTJVODRSNXc1cjRXbmxfLWVaMjEwN0Y4VnFhN1VvNWRoRFNudlA1NjhMTktqRHliXzRTYmdOTnBhWEhpaUMwTlBubTZ5LUd4OFlKSkxNQXBRVTJ5dTVrY3BqX3M0VEk5Y3RLV0FpRmRmaU13RG45S1MwdVFoZmh2eXMwc2dSSUtpcnByNk1yTWln?oc=5",
-      "published": "Mon, 02 Nov 2026 03:37:00 GMT",
-      "summary": "South Korea to double spending on AI and chips in 2027&nbsp;&nbsp;Yahoo Finance",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T11:37:00+08:00",
-      "source_detail": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "基础设施",
-        "科技",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "South Korea to double spending on AI and chips in 2027 - NST Online",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcV9XaHE4WThsaU9za2VCeWdpTmxMWmdQUDE5eG1Xa1FNd2JKNVB6M3J6TVJ0NDdLZFRvbXNDTlk1NmlyX2NrT0t6Nm5FOVhPT2M5alpyYXlwckp0anVlZkZKeHV0aVdtTlZPdzI5UmlPZ3dYX2tyRGRabWNSUW5aUE83d1ZPV1lnaTdTVFBGVFhRM2VkdTFnME1OSUVlRVRiZ2fSAaIBQVVfeXFMTnFfV2hxOFk4bGlPc2tlQnlnaU5sTFpnUFAxOXhtV2tRTXdiSjVQejNyek1SdDQ3S2RUb21zQ05ZNTZpcl9ja09LejZuRTlYT09jOWpacmF5cHJKdGp1ZWZGSnh1dGlXbU5WT3cyOVJpT2d3WF9rckRkWm1jUlFuWlBPN3dWT1dZZ2k3U1RQRlRYUTNlZHUxZzBNTklFZUVUYmdn?oc=5",
-      "published": "Mon, 02 Nov 2026 02:13:11 GMT",
-      "summary": "South Korea to double spending on AI and chips in 2027&nbsp;&nbsp;NST Online",
-      "source": "GNews | KR Tech Hub",
-      "published_beijing": "2026-11-02T10:13:11+08:00",
-      "source_detail": {
-        "name": "NST Online",
-        "url": "https://www.nst.com.my"
-      },
-      "priority": 10.8,
-      "category": "基础设施+科技",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "基础设施",
-        "科技",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "东亚深度"
-      ]
-    },
-    {
-      "title": "Hackers send fake nuclear threat alert to Ukraine emergency app - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNmlEUnlFc3VFcEdqSjREVzdJOFJWbjhBd3hwQ0FkVXlLVU9kNmlqSXpQRlVtZVlDeUZKcHIzODB1LWFLeDhXVmRXdVk0N1VhLWw5YXpnWHQ5LXZMMllFWUFRc1NCNDZ5Yk91Nkg1UnlZX1BseTdtT0NQeVNyRHlEamNLQlZ2amU0SkRrOGNtRDJLckpMa1dWZzlmdnBVbjU5Q1lFZ2tHejUwblFKQXViOXVOUmJuQQ?oc=5",
-      "published": "Tue, 03 Nov 2026 00:13:00 GMT",
-      "summary": "Hackers send fake nuclear threat alert to Ukraine emergency app&nbsp;&nbsp;The GuardianKyiv resident describes shock at false 'radiation' alerts as Ukraine and Russia say emergency apps hacked&nbsp;&nbsp;BBCWhy Russia’s latest cyberattack on Ukraine is a desperate attempt to sow panic&nbsp;&nbsp;The IndependentWorld in Brief: Cyber-attacks in Russia and Ukraine; shock endorsement in Michigan&nbsp;&nbsp;The EconomistFalse nuclear attack warnings hit Ukraine&nbsp;&nbsp;The Telegraph",
-      "source": "GNews Topic | WORLD(GB)",
-      "published_beijing": "2026-11-03T08:13:00+08:00",
-      "source_detail": {
-        "name": "The Guardian",
-        "url": "https://www.theguardian.com"
-      },
-      "priority": 10.0,
-      "category": "专题精选",
-      "_incremental": "new",
-      "relevance": "high",
-      "pw_skipped_early_stop": true,
-      "content_status": "fulltext_unavailable",
-      "fetch_capability": "gnews_unresolved",
-      "source_tier": "D",
-      "auto_tags": [
-        "专题精选",
-        "tier:D",
-        "fetch:gnews_unresolved",
-        "status:new"
-      ],
-      "matched_modules": [
-        "全球治理与地缘风险",
-        "欧洲深度"
       ]
     }
   ]
