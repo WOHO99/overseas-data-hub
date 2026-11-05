@@ -1,31 +1,33 @@
 {
   "version": "4.0",
   "module": "国际风险",
-  "updated": "2026-11-04T05:36:00.776113+00:00",
-  "fetch_date_utc": "2026-11-04",
-  "total": 44,
+  "updated": "2026-11-05T05:36:13.992775+00:00",
+  "fetch_date_utc": "2026-11-05",
+  "total": 52,
   "high_priority": 0,
-  "medium_priority": 0,
-  "signal_alerts": {},
+  "medium_priority": 2,
+  "signal_alerts": {
+    "blacklisted": 1
+  },
   "stats_by_category": {
     "制裁+清单": {
-      "count": 4,
+      "count": 8,
       "feeds": 4
     },
     "外资审查+征收": {
-      "count": 4,
+      "count": 7,
       "feeds": 4
     },
     "资本管制+主权风险": {
-      "count": 3,
+      "count": 4,
       "feeds": 3
     },
     "供应链风险+FCPA": {
-      "count": 4,
+      "count": 3,
       "feeds": 2
     },
     "中国企业视角": {
-      "count": 2,
+      "count": 1,
       "feeds": 1
     },
     "本地语言搜索": {
@@ -49,19 +51,89 @@
       "feeds": 0
     }
   },
-  "fail_feeds": 10,
+  "fail_feeds": 8,
   "rate_limited_feeds": 0,
   "articles": [
     {
-      "title": "Ireland - Market Insights - The Global Legal Post",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWFlfNUlmMHJlZFhqRlVPZjd5NW0ydmNhU291Ry11Tm9Ya3pOWjhVVXhseHZNWGRYbk1xTFJsc0U0MTlpMmN4dDJWZVRzcklHcG4tZ2xsM0dmamhnRzlJLU1ZbXMydjlwTnhCUEx6azJKX3FlZWRTa3g0azlWZzAwQU55dHZKc0dKSDY0QmNqenEtSExDRXRKRWxkbUlXVTVkS0NoNGJIdVktcS1rZHQ2NkpOdzNwS3lFU3k2Y05NZlY5cmZn?oc=5",
-      "published": "Wed, 04 Nov 2026 02:28:52 GMT",
-      "summary": "Ireland - Market Insights&nbsp;&nbsp;The Global Legal Post",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-11-04T10:28:52+08:00",
+      "title": "OFAC updates Iran sanctions guidance and amends Venezuela bond license - Traders Union",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlo5ak1IaVNQVGZpM2EtdVpLajFYaHVpSWZWdVRJZUdnTy1vX05GdW81dk5talpLM1Nnd3B4LXZzbVlNTEhPa2QxLWZVVU41X3hDUS1rWjZPS1JtMVJTUm9Mbmw0SUVVMmhwVDhrYkFGZ3pSQXl4ZXlyZDk5bWtPYkhHeDl0V1YxQWlBZ3A2LTh1QTlNY3c5a3l4WER5Yk0?oc=5",
+      "published": "Wed, 04 Nov 2026 18:21:38 GMT",
+      "summary": "OFAC updates Iran sanctions guidance and amends Venezuela bond license&nbsp;&nbsp;Traders Union",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-11-05T02:21:38+08:00",
       "source_detail": {
-        "name": "The Global Legal Post",
-        "url": "https://www.globallegalpost.com"
+        "name": "Traders Union",
+        "url": "https://tradersunion.com"
+      },
+      "priority": 6.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://tradersunion.com/news/geopolitics-trade/show/4100321-ofac-iran-venezuela-sanctions-update/"
+    },
+    {
+      "title": "Investment Screening Act: Germany resets its FDI regime - Ashurst Perkins Coie",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVExUUZsS1BGeEJvdzhJOVdadHl4NXE4N3p5U0M1bkp6b0JTWlpuODFPOEtyVzdlbm0xSmJDemFMNzFlbkNwampUU3BGSk94TFF1eENSYnJ3QTg3T1ZBM183N3poRDMzNVhmSi1HUjlMRkR6VUdMajA5T3FsV1ZLS3JjVHYxeHF6RmZDMmFYWVBNQUhwZmI2T0xIQVBicjBhWklMMg?oc=5",
+      "published": "Wed, 04 Nov 2026 15:46:16 GMT",
+      "summary": "Investment Screening Act: Germany resets its FDI regime&nbsp;&nbsp;Ashurst Perkins Coie",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-11-04T23:46:16+08:00",
+      "source_detail": {
+        "name": "Ashurst Perkins Coie",
+        "url": "https://www.ashurstperkinscoie.com"
+      },
+      "priority": 6.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "medium",
+      "canonical_url": "https://www.ashurstperkinscoie.com/en/insights/investment-screening-act-germany-resets-its-fdi-regime/",
+      "full_text": "Legal development\nIn October 2026, the Federal Ministry for Economic Affairs and Energy (BMWE) published ministerial drafts of a new Investment Screening Act (Investitionsprüfungsgesetz, IPG) and an accompanying Investment Screening Ordinance (Investitionsprüfungsverordnung, IPV). The IPG would bring together in a single statute the German foreign direct investment (FDI) screening rules that are currently spread across the Foreign Trade and Payments Act (Außenwirtschaftsgesetz, AWG) and the Foreign Trade and Payments Ordinance (Außenwirtschaftsverordnung, AWV).\nThe drafts are at an early legislative stage, and several passages remain open, including parts of the IPV sector catalogue and the date from which the new rules would apply. However, they already show the direction that German FDI screening is set to take.\nThe main changes in the proposed IPG are:\n- Lower thresholds for listed companies: for the first time, separate thresholds would apply to listed targets. Screening would start at 15% (instead of 25%) in the Section 3 IPV case groups and the cross-sectoral procedure, while the 10% threshold would stay unchanged. As drafted, a 30% re-screening threshold would apply to listed targets in the 10% sectors.\n- Wider scope: a new case group would cover the development, manufacture or distribution of all items listed in Annex I of the EU Dual-Use Regulation, and board seats, veto rights or information rights could trigger a review even without any acquisition of voting rights, where they confer influence comparable to a reviewable voting stake.\n- EFTA investors no longer privileged: investors from Switzerland, Iceland, Liechtenstein and Norway would be screened in the same way as other non-EU investors.\n- Nationality matters: only individuals who hold exclusively German (or exclusively EU) citizenship and live in Germany (or the EU) would qualify as domestic (or EU) investors. Dual nationals with a third-country passport would always count as foreign investors, and German–EU dual nationals would count as foreign (but not non-EU) investors.\n- Faster, leaner procedure: the changes include a non-extendable 45-day Phase 1, a three-year (instead of five-year) window for ex officio reviews and a wider exemption for intra-group restructurings. Prohibitions in the case-group-specific and cross-sectoral procedures would no longer require a Cabinet decision, only the consent of the Federal Chancellery and four federal ministries.\n- Stronger enforcement and transparency: interim measures, new fines of up to EUR 100,000 for filing breaches, publication of prohibitions and legal challenges heard at first instance by the Higher Administrative Court.\nGermany rewrites its FDI rulebook\nIn October 2026, the BMWE published the ministerial drafts of the IPG and the IPV. The IPG would move the German investment screening rules, which have so far been split between the AWG and the AWV, into a single parliamentary statute. The IPV would list the security-relevant sectors that trigger a mandatory filing. The BMWE justifies the reform on the basis of a significantly worsened geopolitical security situation, in which economic means are increasingly used to pursue geostrategic aims. It also cites experience gained from screening practice and the 2023 evaluation of the current regime.\nThe IPG proposes substantive changes, including new screening triggers that bring more transactions into scope, alongside procedural changes designed to make the regime more predictable and streamlined.\nThe drafts also implement Regulation (EU) 2026/1386 (EU FDI Screening Regulation), which was adopted on 17 June 2026 and will apply from 17 January 2028 (see our client briefing). The EU FDI Screening Regulation requires every Member State to operate a national screening regime and sets minimum standards, including mandatory filings in certain sectors. As German law already goes further in most respects, the required changes are limited: the drafts add the EU-mandated case groups to the sector catalogue, end the privileged status of EFTA investors, align review periods with the EU FDI Screening Regulation and designate the BMWE as the national contact point for the EU cooperation mechanism.\nThe draft retains the basic logic of the current regime but reorganises it into three procedures:\n- the sector-specific procedure for acquisitions by any non-German investor (including EU investors) of companies that develop, manufacture, modify or actually control military goods or defence technology covered by secret patents (including where they did so in the past and still have access to the technology), companies that make certain IT security products for classified information, and companies that are themselves defence-critical facilities;\n- a new case-group-specific procedure for acquisitions by non-EU investors of companies in further security-relevant sectors listed in Sections 2 and 3 of the draft IPV, such as critical infrastructure (including sector-specific software and cloud services), media, AI, semiconductors and dual-use items; and\n- the cross-sectoral procedure as a catch-all for acquisitions of at least 25% of the voting rights by non-EU investors in all other sectors, with no filing obligation but with call-in powers for the BMWE. The direct acquirer may still apply for approval to gain legal certainty before the three-year call-in window expires.\nThe first two procedures trigger a mandatory filing and a standstill obligation. A single approval would replace the current distinction between a clearance and a certificate of non-objection in all procedures. The BMWE may switch procedures if it appears during a review that another procedure applies.\nIn or out? FDI screening under the new proposed scope\nThe IPG proposes changes to the thresholds, triggers and investors covered by the FDI regime.\nScreening thresholds: listed companies move into focus\nFor the first time, the IPG proposes separate thresholds for listed companies. Where the 25% entry threshold would otherwise apply, the threshold for acquisitions of stakes in listed targets would be lowered to 15%. The rationale is that low attendance at shareholder meetings often allows investors to obtain a de facto blocking minority with comparatively small shareholdings.\nFor unlisted targets, which make up the majority of transactions, the 10% threshold for the sector-specific procedure and the Section 2 IPV case groups, and the 25% threshold for the cross-sectoral procedure, would remain unchanged. For the remaining security-relevant sectors listed in Section 3 IPV (currently the 20% category), the IPG proposes raising the threshold to 25%. According to the explanatory memorandum, the evaluation of the regime showed that lowering the threshold to 20% in 2021 had no effect on restrictive measures, as such measures were only imposed in cases that the BMWE could have reviewed irrespective of the 20% threshold.\nAdditional acquisitions: full takeovers re-screened\nAs at present, an increase in voting rights in a German target can trigger a filing requirement where certain thresholds are crossed. However, the IPG proposes several changes. Moving from an existing shareholding of 75% of the voting rights to 100%, which falls outside the scope of the current regime, would trigger a filing requirement. The reasoning is that a full takeover may remove any veto rights of the remaining shareholders and make the investor’s influence absolute. The 40% re-screening threshold, on the other hand, would be abolished. For listed targets in the sectors subject to the 10% entry threshold, a 30% re-screening threshold, modelled on the takeover threshold in the Securities Acquisition and Takeover Act (Wertpapiererwerbs- und Übernahmegesetz, WpÜG), would replace the 25% step.\nRe-screening would therefore be triggered at 25% (or 30% for listed companies), 50%, 75% and 100% in the 10% sectors, and at 50%, 75% and 100% in the 25% sectors and in the cross-sectoral procedure. At present, depending on the sector, re-screening is triggered at 20%, 25%, 40%, 50% or 75%.\nThe rules on attributing voting rights would also be tightened. Voting rights that a third party holds for the account of the acquirer would be attributed to the acquirer in full, which captures trust and fund structures. Voting rights of parties acting in concert remain attributable. As at present, a rebuttable presumption of acting in concert applies where the acquirer and another shareholder come from the same third country and that country’s state bodies hold stakes in, or can otherwise influence, both of them.\nAcquisitions: influence without voting rights\nThe concept of a reviewable acquisition would be defined centrally and extended in several respects:\n- Atypical acquisition of influence: board or supervisory board seats, veto rights over strategic business or personnel decisions, or rights to sensitive information could trigger a review on their own, even without any acquisition of voting rights, where they confer influence comparable to a reviewable voting rights threshold. This is particularly relevant for structured minority investments, co-investments and governance rights in shareholder agreements and side letters.\n- Asset deals: the acquisition of a separable business unit, or of all or a significant part of the assets of a German company, would be caught; according to the explanatory memorandum, this may include the grant of a licence. German-based assets of foreign companies would also be covered where they form a significant part of that company’s assets.\n- Circumvention: modelled on competition law, the anti-circumvention rule would capture structures that objectively have the effect of avoiding screening, regardless of any intent to do so. The explanatory memorandum cites coordinated acquisitions that each stay below the thresholds as an example.\n- Acquisitions without a purchase agreement: acquisitions that are not contractual, such as the compulsory re"
+    },
+    {
+      "title": "Q3 losses narrowed to $4.6M, but revenue fell at Silvaco Group (SVCO). - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT3BtYUh0VnhJbUNsRHJtMEZSbHNNT1FvQ2ZHMXdzSUNCZjAzSFVla09vTXpKbTk5QnpCRTlaN3NaNjFTSXlpbXVfMEFVeTRjUWprRGZ6aW82RTZRT2JBY3Y0UzV6S2hkVFM1WnBjOGM2NVhOTFV0bEtYWDVRei1TQ3FSUjh4dGpVQzVzdkx2VkoyZVktdWt1Y3lHMWxRVUpaQnFDSW5ZTXdieVdIMnY0?oc=5",
+      "published": "Wed, 04 Nov 2026 22:01:43 GMT",
+      "summary": "Q3 losses narrowed to $4.6M, but revenue fell at Silvaco Group (SVCO).&nbsp;&nbsp;Stock Titan",
+      "source": "GNews | BIS Entity List",
+      "published_beijing": "2026-11-05T06:01:43+08:00",
+      "source_detail": {
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US sanctions Istanbul firm that serviced blacklisted Iranian airlines - Türkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2U5NVBOQTQ2UlhidDVuT1VLWWdmSG8yV1NvWnFGUnI1eVFjZGdzXzVZMFBIaW9VZXBMa3JMV3ZtRWVVcWZ6MEtETl9TQlNlUWszRWFHUEk0Wko4eXhyTWxuZzNzUDBQNXJucmZhSXRlNW5QRElEb01NSXVzUTFhRDNlcFV0SUVmMm1oRjdRWWtqeHRZZDE0c1FqVl9lX3A3b3oyQm5aUkpuMFlSeW5GTGZrZHhmdw?oc=5",
+      "published": "Wed, 04 Nov 2026 20:49:52 GMT",
+      "summary": "US sanctions Istanbul firm that serviced blacklisted Iranian airlines&nbsp;&nbsp;Türkiye Today",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-11-05T04:49:52+08:00",
+      "source_detail": {
+        "name": "Türkiye Today",
+        "url": "https://www.turkiyetoday.com"
+      },
+      "priority": 0.0,
+      "signal_keywords": [
+        "blacklisted"
+      ],
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "One deal, two national security reviews: Coordinating CFIUS and Investment Canada Act strategy in US-Canada M&A - Dentons",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOckswVGQyOFpsaEhfSWNqMTFKd052bEFOeG9aOHhBeXNIbjJGTVVsaUNEVUdfaFN5S05vT0ZyY05UaDhSTjV1UzZxU2Y0bEhKdlpOZThWVEVnVkFpOUZKbGdud3NDMXVlYTRGcEVUa3ZDVHFFR3NQck5GVUdBYTZZNFhTdG9zcy03bFpUU0xHQmF5ejlsYXNfZTU3OXUwTHZ1?oc=5",
+      "published": "Wed, 04 Nov 2026 19:55:21 GMT",
+      "summary": "One deal, two national security reviews: Coordinating CFIUS and Investment Canada Act strategy in US-Canada M&amp;A&nbsp;&nbsp;Dentons",
+      "source": "GNews | CFIUS",
+      "published_beijing": "2026-11-05T03:55:21+08:00",
+      "source_detail": {
+        "name": "Dentons",
+        "url": "https://www.dentons.com"
       },
       "priority": 0.0,
       "category": "外资审查+征收",
@@ -69,15 +141,15 @@
       "relevance": "low"
     },
     {
-      "title": "iShares J.P. Morgan EM High Yield Bond ETF (Cboe BZX:EMHY) How Sovereign and Corporate Borrowers Combine in High Yield Debt - Kalkine",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPOHB4OXpFR3p6V1FYc2NwV3oxZ3VjTi1TY2djNDM0Yk1aXzV3bzdpbFluVHJzTTRUSGlHRXBQZXhOb2JqTHByX1BoTnhqc3RMMDQ1Rjlod2xRRFF6YW5XUFE4N2RoaXRmT1Rjek9YT0ItVEw5RWxqdnNLMkZNdW9YRFpwWFF3R2R6bXotZUpWOFF6ZGpYQkJ2RVdiUGxfQjU1V0pNSWZWVlA3a2Z3cW8xaGt3VW5qanUzVU44NjFra1JIbHJTX3FsSTl5NTd5eTRnVTE5T1RHUE5rMnBPYVRiSVVvZmRRX1B5QVBOZGtCak50SHBxclZV?oc=5",
-      "published": "Wed, 04 Nov 2026 01:07:00 GMT",
-      "summary": "iShares J.P. Morgan EM High Yield Bond ETF (Cboe BZX:EMHY) How Sovereign and Corporate Borrowers Combine in High Yield Debt&nbsp;&nbsp;Kalkine",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-11-04T09:07:00+08:00",
+      "title": "Lessons for the renminbi from the yen internationalisation story - Bruegel",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVnliNi1jekM3dkh5SkFzSXU5OGx5RU5FRERwZnQ0bTY2TFZBS2NMQnd0SnFvOEU4M0hnTlRBQURvaFdUaFp5LUZWWmJLY21JUU1HVGY0dVFMT3hzWnNvYXZudlpxR3V0MzhMWktCb2tPb2lkOXBhQ1FpOGJjeWpkaVpJUjhaT1k?oc=5",
+      "published": "Wed, 04 Nov 2026 14:50:16 GMT",
+      "summary": "Lessons for the renminbi from the yen internationalisation story&nbsp;&nbsp;Bruegel",
+      "source": "GNews | Capital Controls",
+      "published_beijing": "2026-11-04T22:50:16+08:00",
       "source_detail": {
-        "name": "Kalkine",
-        "url": "https://kalkine.com.au"
+        "name": "Bruegel",
+        "url": "https://www.bruegel.org"
       },
       "priority": 0.0,
       "category": "资本管制+主权风险",
@@ -85,44 +157,44 @@
       "relevance": "low"
     },
     {
-      "title": "Trade Lawsuit Argentina 2026: Your Complete Claimant Guide - LawFold.com",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5b3NWV3RVVHNxQmx3TmdoUEN5OTJRWXFubUVoSGNXUm9XbWNOLU5GdldPbWc5VDEzMUtqTEFyTWswdlVST0p5NE5BbDZkWElHSjFySmo4bEdJWDRnZUE?oc=5",
-      "published": "Tue, 03 Nov 2026 19:51:32 GMT",
-      "summary": "Trade Lawsuit Argentina 2026: Your Complete Claimant Guide&nbsp;&nbsp;LawFold.com",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-11-04T03:51:32+08:00",
+      "title": "Windward Shadow Fleet Dashboard | Live Tracking Intelligence - Windward",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXZmWFFnTVNFV0tPb3FKaEduM2lMZ1UxQldrWGZPbGNfeVd5dzZDaTloLWtkQ1V6R0xYUUNqc3lhQXZEeHhMejJILVRwNGNYN09FSGx1MF81WDd2UUxLNHhjM3d4cFNrakdMcmp0YVRlaS1NRENNazlFeG10bHJMSlVSUkp0NHUtMmc?oc=5",
+      "published": "Wed, 04 Nov 2026 13:47:22 GMT",
+      "summary": "Windward Shadow Fleet Dashboard | Live Tracking Intelligence&nbsp;&nbsp;Windward",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-11-04T21:47:22+08:00",
       "source_detail": {
-        "name": "LawFold.com",
-        "url": "https://lawfold.com"
+        "name": "Windward",
+        "url": "https://windward.ai"
       },
       "priority": 0.0,
-      "category": "资本管制+主权风险",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "EurECCA urges the EU not to loosen airline ownership rules - Aviacionline",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcDIwYU1valdfamxUSWZLclZIVGRyUDhHQzcySkM0UzV3dGF6SWpBTE10SlQ5WkJMcTNEeTlvN2l6QXhQMW52VWw1dmktZWJ1Z1NTTXh1NzFrVWJVNWMwTG5oYi05Zll0RFdrWTFIazZsWDFLUkc2RmZ4WDhSOWswcloyb3dmZ2xGVkRVQTBzaHhQLTdJUTRFUGRHZnBIM3BzT09JU3NRa1laWnU0aU5LRVM5V1h0WmRQTEZtQThYbGtJQkJUODlnak03V1IxNkdMTU5RaEQzLXVHRDl5dTk2bDVB?oc=5",
-      "published": "Tue, 03 Nov 2026 13:58:41 GMT",
-      "summary": "EurECCA urges the EU not to loosen airline ownership rules&nbsp;&nbsp;Aviacionline",
-      "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-11-03T21:58:41+08:00",
+      "title": "EU General Court upholds sanctions against Russian Maritime Register of Shipping - INSIGHT EU MONITORING",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQW1IM3hWWUxPaFBDYlJEZkhFZ1VsWWFublJ1WU14ODRjc3JhcUJmWmtqeXBkOGhSSjdsV3NMUHVSaGhNNEY2dWhkQ0ltbEtWMnRMTXU5Mmh2QlJLMGJ0QUJuN09Oc2RkQlR3LXE1N01Xa1lCZEowSUszTjNlWFZGUTdHMEVkb05pVkhaX3Z1OERuaUFiU1VVZ1M0dFMtbjlxM0Z2MGJEdFV3OGhGTzI2aGFKajVhNXRoWjBCZk9tYl9mT0FfTDRKTC1xaTRwVUtNSWxvZU1pM0d2cVE1N3BGaA?oc=5",
+      "published": "Wed, 04 Nov 2026 13:23:30 GMT",
+      "summary": "EU General Court upholds sanctions against Russian Maritime Register of Shipping&nbsp;&nbsp;INSIGHT EU MONITORING",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-11-04T21:23:30+08:00",
       "source_detail": {
-        "name": "Aviacionline",
-        "url": "https://www.aviacionline.com"
+        "name": "INSIGHT EU MONITORING",
+        "url": "https://ieu-monitoring.com"
       },
       "priority": 0.0,
-      "category": "外资审查+征收",
+      "category": "制裁+清单",
       "_incremental": "new",
       "relevance": "low"
     },
     {
-      "title": "Vietnam’s Trade Tops US$1 Trillion in 10 Months: What It Means for Foreign Investors - Vietnam Briefing",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRUxXTXBCM1hFMmtfdmtLQ0djdHVuUmhyWFd4ZzZlc3JXbFk0SUZ1aTMwOHk0c0RSQ3FMMjVFSS05Qlk0X2VpZWFjSldfNDhKV3lJN0dsMFFkaEotRGlwUzVRUUN0dUNUZjQ3QW5JaXNXRENsYmtUYTY5TzdDR1RrdWNR?oc=5",
-      "published": "Tue, 03 Nov 2026 13:09:01 GMT",
-      "summary": "Vietnam’s Trade Tops US$1 Trillion in 10 Months: What It Means for Foreign Investors&nbsp;&nbsp;Vietnam Briefing",
+      "title": "Vietnam–EFTA FTA: What It Means for Cross-Border Investment - Vietnam Briefing",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaVFvbzBJeXppVF9xa3lPY196aG5lVk1OTDlKaEphLUY4TXBGV2M0b2NTYkhZUi1RT1RUQVd0M0tGeGRqdV8tWWh2d0s2SzRLaG1mblhMaGRVRDIwQWJsTUhhTEFaRDFFTy01Vm15M3BScGtNa296UWZDNGcwVVRfRXp1WVlfTkh2NDVXTi13?oc=5",
+      "published": "Wed, 04 Nov 2026 12:06:14 GMT",
+      "summary": "Vietnam–EFTA FTA: What It Means for Cross-Border Investment&nbsp;&nbsp;Vietnam Briefing",
       "source": "GNews | EU FDI Screening",
-      "published_beijing": "2026-11-03T21:09:01+08:00",
+      "published_beijing": "2026-11-04T20:06:14+08:00",
       "source_detail": {
         "name": "Vietnam Briefing",
         "url": "https://www.vietnam-briefing.com"
@@ -133,79 +205,15 @@
       "relevance": "low"
     },
     {
-      "title": "Data centres: Mitigating risks during times of conflict - Marsh",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUFrSXlqX1pHMmQwTy1OOWFkR2xaX0p3cXB3ZHRFZEdQTzNCVW1ZbUlMU2lsVC1vWnJTbEUyNzJYdGdULTBpcjBfaURMWTdrbDVBc3VfZHB5NTNHNzl1eTlBMEhiSUJmZVdBT3g1YTk5Wk9NV05sUUxHNVpGNXNLazRTbjczUnlmdmNremdlSG96MWR2UzlWTXlETVQybEJPVGdlS0h3RkcwVXV0Z2Z4cTFybTB1N2JuWXdxaQ?oc=5",
-      "published": "Tue, 03 Nov 2026 11:27:47 GMT",
-      "summary": "Data centres: Mitigating risks during times of conflict&nbsp;&nbsp;Marsh",
-      "source": "GNews | SC Disruption",
-      "published_beijing": "2026-11-03T19:27:47+08:00",
+      "title": "Russia Hikes Tariffs on Spirits From ‘Unfriendly’ Countries - The Moscow Times",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa2xnMk1tVWFNX2xBcmxuaWsxQTRLX1l2NlhoSW5iZm1hWWQtanNHMS05VlBKQjBJTjFOYXBRRkZwRWthQ01MQmdRbVdJNzI2UWtHNGpDVW5rdTlscUZ3U01CX2EtWmhFaDNFOEMzUUducTFRTWYzVERJOV9LV0pHSVFHa1ZfLUREeldUM2VqLTk1YjR3dmNHN1o1VFBBRk1lQ3VCSVpacTRYQQ?oc=5",
+      "published": "Wed, 04 Nov 2026 11:15:45 GMT",
+      "summary": "Russia Hikes Tariffs on Spirits From ‘Unfriendly’ Countries&nbsp;&nbsp;The Moscow Times",
+      "source": "GNews | EU Sanctions",
+      "published_beijing": "2026-11-04T19:15:45+08:00",
       "source_detail": {
-        "name": "Marsh",
-        "url": "https://www.marsh.com"
-      },
-      "priority": 0.0,
-      "category": "供应链风险+FCPA",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "The 50% Rule Is Paused, but Chinese Law Is Waiting - Lexology",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYW9FYXhVay1YMWFadnV5V2ZiT3lkc2JxV1lSTWkwZkEtSVJDbmtLYUpzN0xJRWFlSllHY3lyZEduNk5ERzlUb1ZwdDE2eU5xbjZnRUxOVHVuUnYyckxjRGxueFdXdlVsMjAzbWZxODRxNmZvaDlEZTVDTnplYkliVjZYOVYyM1p5V1Uw?oc=5",
-      "published": "Tue, 03 Nov 2026 10:50:59 GMT",
-      "summary": "The 50% Rule Is Paused, but Chinese Law Is Waiting&nbsp;&nbsp;Lexology",
-      "source": "GNews | CN Company Sanctions",
-      "published_beijing": "2026-11-03T18:50:59+08:00",
-      "source_detail": {
-        "name": "Lexology",
-        "url": "https://www.lexology.com"
-      },
-      "priority": 0.0,
-      "category": "中国企业视角",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "India LNG Imports Face Gulf Risk as Petronet Seeks US Supply - Urban Acres",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQnVscnBiSDltV21jNzY4dHlJVUZPaG1tby1GMU5BeGZhN1Jad1RIdG5pNnJDTXBIM05sMERyaFh0NklZNEdFOWdrX0xqMjBMdElmT3Zxd0tvOVFhSGpxaG9qeUxSSXV1alUyTnF2WTlRWTlHcWRhWUJiaHNidEx6UDhwbkV5bFpnR3Rn?oc=5",
-      "published": "Tue, 03 Nov 2026 10:46:42 GMT",
-      "summary": "India LNG Imports Face Gulf Risk as Petronet Seeks US Supply&nbsp;&nbsp;Urban Acres",
-      "source": "GNews | SC Disruption",
-      "published_beijing": "2026-11-03T18:46:42+08:00",
-      "source_detail": {
-        "name": "Urban Acres",
-        "url": "https://urbanacres.in"
-      },
-      "priority": 0.0,
-      "category": "供应链风险+FCPA",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "Moody's Downgrades Senegal Sovereign Rating to Ca - Dabafinance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc0E2ODZUUmF1VEE2X2R2U0xkNDNkVktyRFo1MFgxWl83UmlyM1FaTUlRaTcxWUZJVVktbFlaenBhcncxOVF3ODRXTE5wR3lZZjU5TS1QVW1xTTI3bk5senRhRHpMU2gyTFVrYmtBOUtRT1ljc3lFa0RvcWNaYTJ5VFc0UjVvUVVVb0tZY01UM3V6ZTBxbjRj?oc=5",
-      "published": "Tue, 03 Nov 2026 06:53:00 GMT",
-      "summary": "Moody's Downgrades Senegal Sovereign Rating to Ca&nbsp;&nbsp;Dabafinance",
-      "source": "GNews | Sovereign Default",
-      "published_beijing": "2026-11-03T14:53:00+08:00",
-      "source_detail": {
-        "name": "Dabafinance",
-        "url": "https://dabafinance.com"
-      },
-      "priority": 0.0,
-      "category": "资本管制+主权风险",
-      "_incremental": "new",
-      "relevance": "low"
-    },
-    {
-      "title": "How to Secure Advanced U.S. Chips — Institute for AI Policy and Strategy - Export Compliance Daily",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85N0lUamlENnVHRWlvVUxkRkxfYXg5M2pyalhTalo4WEcwWEQwZkFjSWVHLVBwcDByczBCa3FMRE83VkFDT0ZBWjdFYlNTVFI0VjBfekRkTzVDTjUzUXotaGowTmd2eXBreHN6LVViemhhbTdlTnFn?oc=5",
-      "published": "Mon, 02 Nov 2026 08:00:00 GMT",
-      "summary": "How to Secure Advanced U.S. Chips — Institute for AI Policy and Strategy&nbsp;&nbsp;Export Compliance Daily",
-      "source": "GNews | BIS Entity List",
-      "published_beijing": "2026-11-02T16:00:00+08:00",
-      "source_detail": {
-        "name": "Export Compliance Daily",
-        "url": "https://exportcompliancedaily.com"
+        "name": "The Moscow Times",
+        "url": "https://www.themoscowtimes.com"
       },
       "priority": 0.0,
       "category": "制裁+清单",
@@ -213,13 +221,60 @@
       "relevance": "low"
     },
     {
-      "title": "AIs Hacking the Law",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "published": "2026-11-03T12:01:00Z",
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker&#8217;s Mind, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.\nHere&#8217;s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With ...",
-      "source": "Schneier on Security",
-      "full_text": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system.\nHere’s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change.\nIn testing this hypothesis, we have identified a substantial number of vulnerabilities in the German legal system using LLMs. To our knowledge, none of these have been previously recorded. We share a selection of vulnerabilities below, and present potential exploits for each. We share only those vulnerabilities whose exploitation we believe would not cause serious harm.\nWe believe that with cheap legal reasoning proliferating, AI systems could jeopardize the functioning of today’s legal systems. In such a world, lawmakers would need to significantly harden the process of legislation, for example by leveraging advanced AI themselves.\nStill in its early stages, but definitely something that’s coming.",
-      "published_beijing": "2026-11-03T20:01:00+08:00",
+      "title": "JD.com set to close Ceconomy deal after securing FSR approval - Global Competition Review",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSXAtODVkSEVqRnBXTkE5VEx6T0NPUXZtSEFJZWlqaEFUTVNZdHpUdl9odUtkaWdjSHBIM2RGdE4xSHN0eEZEcWJQYU9EUTJWcnNZTW9SVHVmNEFvNDNoZE4tZ0pWZUdiNFVwdjQ3TUNBRnFLWVNIdXh6SDh5OXBTa05lcno2WjV5SGlnYVZYdUhyeDE3bmJRWjFyalJlZzBlZWtj?oc=5",
+      "published": "Tue, 03 Nov 2026 17:45:17 GMT",
+      "summary": "JD.com set to close Ceconomy deal after securing FSR approval&nbsp;&nbsp;Global Competition Review",
+      "source": "GNews | EU FDI Screening",
+      "published_beijing": "2026-11-04T01:45:17+08:00",
+      "source_detail": {
+        "name": "Global Competition Review",
+        "url": "https://globalcompetitionreview.com"
+      },
+      "priority": 0.0,
+      "category": "外资审查+征收",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "US Sanctions Target Shadow Shipping Network: Four Indian Ci… - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOaTQ4clVJVTJxNldSbEg1eXlBcnh3Y243STM0eUlndUFZdlNDWTR1VU45bFBZNUhFc0ExbkhWbDFjMW5aalNyYXhVR2VtRE8tNDdIWHZ0QjV2alBCUllPWl9lTXFpYzJlSmt2UEZIYk0yMWl0bTZMbjBYdnZpZ2VRV1Q2N3NtR05sMDJaYmYtaExyYmdxUEFyTVAwM3lLNmdRNXMxOWx3NUo4UmhQUV9ObVo3dzRhZGFObnhkRkFBWnhFOXNlX3gtdF9DVi10ZWRjVWc1aGtmS0xuZ2l4Q255OVhvQWRxaFhaTTBEOWotWVlGUTVQWENwdTA2WlkyaTByUWc5eVg5aDdmLS1EWUQwMzlR?oc=5",
+      "published": "Thu, 05 Nov 2026 02:26:26 GMT",
+      "summary": "US Sanctions Target Shadow Shipping Network: Four Indian Ci…&nbsp;&nbsp;Gujarat Samachar",
+      "source": "GNews | OFAC",
+      "published_beijing": "2026-11-05T10:26:26+08:00",
+      "source_detail": {
+        "name": "Gujarat Samachar",
+        "url": "https://english.gujaratsamachar.com"
+      },
+      "priority": 0.0,
+      "category": "制裁+清单",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "U.S. Disrupts Iran's Pursuit of Portable Air-Defense Systems - Mirage News",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeXZVNEgyUFpEN1N1cHlRTVFvemxRQXQ1N0tHWEYtdTloMGJUMC1jTWJpTDB5bVl2S2toR0JWazdkVEFNQXBCOUZTRnl1bG1JTUFmbEhiMWJSaXg0R0pTWlVzVXAtQzYxQ2lPMGo0ako0VEV4OXNBTkNqSndGLXhGRDlrUQ?oc=5",
+      "published": "Thu, 05 Nov 2026 01:42:00 GMT",
+      "summary": "U.S. Disrupts Iran's Pursuit of Portable Air-Defense Systems&nbsp;&nbsp;Mirage News",
+      "source": "GNews | CN Company Sanctions",
+      "published_beijing": "2026-11-05T09:42:00+08:00",
+      "source_detail": {
+        "name": "Mirage News",
+        "url": "https://www.miragenews.com"
+      },
+      "priority": 0.0,
+      "category": "中国企业视角",
+      "_incremental": "new",
+      "relevance": "low"
+    },
+    {
+      "title": "Smashing Security podcast #491: How AI agents are spooking the banks",
+      "link": "https://grahamcluley.com/smashing-security-podcast-491/",
+      "published": "Thu, 05 Nov 2026 00:15:11 +0000",
+      "summary": "Bank of America has a message for its customers: please, for the love of God, stop handing your banking passwords to your AI assistant. And if your robot does something daft with your money? That's your problem, not theirs.\n\nMeanwhile, a company that promised to rescue ransomware victims without paying the criminals stands accused of... paying the criminals. ProPublica's Renee Dudley was on the case years before the indictment.\n\nPlus, Dropzone AI's Edward Wu asks what happens when AI models brea...",
+      "source": "Graham Cluley",
+      "published_beijing": "2026-11-05T08:15:11+08:00",
       "priority": 0.0,
       "category": "安全与隐私RSS(D)",
       "_incremental": "new",
